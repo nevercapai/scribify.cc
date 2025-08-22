@@ -245,27 +245,19 @@
             </p>
             <ul class="feature-points">
               <li>
-                <span class="check">{{
-                  t("Features.Accuracy.feature1Point1Icon")
-                }}</span>
+                <span class="check icon-duihao iconfont"></span>
                 <span>{{ t("Features.Accuracy.feature1Point1Text") }}</span>
               </li>
               <li>
-                <span class="check">{{
-                  t("Features.Accuracy.feature1Point2Icon")
-                }}</span>
+                <span class="check icon-duihao iconfont"></span>
                 <span>{{ t("Features.Accuracy.feature1Point2Text") }}</span>
               </li>
               <li>
-                <span class="check">{{
-                  t("Features.Accuracy.feature1Point3Icon")
-                }}</span>
+                <span class="check icon-duihao iconfont"></span>
                 <span>{{ t("Features.Accuracy.feature1Point3Text") }}</span>
               </li>
               <li>
-                <span class="check">{{
-                  t("Features.Accuracy.feature1Point4Icon")
-                }}</span>
+                <span class="check icon-duihao iconfont"></span>
                 <span>{{ t("Features.Accuracy.feature1Point4Text") }}</span>
               </li>
             </ul>
@@ -337,27 +329,19 @@
             </p>
             <ul class="feature-points">
               <li>
-                <span class="check">{{
-                  t("Features.Accuracy.feature2Point1Icon")
-                }}</span>
+                <span class="check icon-duihao iconfont "></span>
                 <span>{{ t("Features.Accuracy.feature2Point1Text") }}</span>
               </li>
               <li>
-                <span class="check">{{
-                  t("Features.Accuracy.feature2Point2Icon")
-                }}</span>
+                <span class="check icon-duihao iconfont"></span>
                 <span>{{ t("Features.Accuracy.feature2Point2Text") }}</span>
               </li>
               <li>
-                <span class="check">{{
-                  t("Features.Accuracy.feature2Point3Icon")
-                }}</span>
+                <span class="check icon-duihao iconfont"></span>
                 <span>{{ t("Features.Accuracy.feature2Point3Text") }}</span>
               </li>
               <li>
-                <span class="check">{{
-                  t("Features.Accuracy.feature2Point4Icon")
-                }}</span>
+                <span class="check icon-duihao iconfont"></span>
                 <span>{{ t("Features.Accuracy.feature2Point4Text") }}</span>
               </li>
             </ul>
@@ -408,27 +392,19 @@
             </p>
             <ul class="feature-points">
               <li>
-                <span class="check">{{
-                  t("Features.Accuracy.feature3Point1Icon")
-                }}</span>
+                <span class="check icon-duihao iconfont"></span>
                 <span>{{ t("Features.Accuracy.feature3Point1Text") }}</span>
               </li>
               <li>
-                <span class="check">{{
-                  t("Features.Accuracy.feature3Point2Icon")
-                }}</span>
+                <span class="check icon-duihao iconfont"></span>
                 <span>{{ t("Features.Accuracy.feature3Point2Text") }}</span>
               </li>
               <li>
-                <span class="check">{{
-                  t("Features.Accuracy.feature3Point3Icon")
-                }}</span>
+                <span class="check icon-duihao iconfont"></span>
                 <span>{{ t("Features.Accuracy.feature3Point3Text") }}</span>
               </li>
               <li>
-                <span class="check">{{
-                  t("Features.Accuracy.feature3Point4Icon")
-                }}</span>
+                <span class="check icon-duihao iconfont"></span>
                 <span>{{ t("Features.Accuracy.feature3Point4Text") }}</span>
               </li>
             </ul>
@@ -843,6 +819,14 @@ const handleClick = () => {
   direction: ltr;
 }
 
+[dir="rtl"] .feature-block:nth-child(even) {
+  direction: ltr;
+}
+
+[dir="rtl"] .feature-block:nth-child(even) > * {
+  direction: rtl;
+}
+
 .feature-content {
   max-width: 500px;
 }
@@ -895,7 +879,7 @@ const handleClick = () => {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 14px;
+  font-size: 12px;
   flex-shrink: 0;
 }
 
@@ -989,6 +973,10 @@ const handleClick = () => {
   font-weight: 700;
   border-bottom: 2px solid #e5e7eb;
 }
+[dir='rtl'] .comparison-table th {
+  text-align: right !important;
+}
+
 
 .comparison-table td {
   padding: 20px;

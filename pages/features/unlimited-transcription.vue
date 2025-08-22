@@ -230,25 +230,19 @@
             </p>
             <ul class="feature-points">
               <li>
-                <span class="check">{{
-                  t("Features.UnlimitedTranscription.feature1Point1Icon")
-                }}</span>
+                <span class="check icon-duihao iconfont"></span>
                 <span>{{
                   t("Features.UnlimitedTranscription.feature1Point1Text")
                 }}</span>
               </li>
               <li>
-                <span class="check">{{
-                  t("Features.UnlimitedTranscription.feature1Point2Icon")
-                }}</span>
+                <span class="check icon-duihao iconfont"></span>
                 <span>{{
                   t("Features.UnlimitedTranscription.feature1Point2Text")
                 }}</span>
               </li>
               <li>
-                <span class="check">{{
-                  t("Features.UnlimitedTranscription.feature1Point3Icon")
-                }}</span>
+                <span class="check icon-duihao iconfont"></span>
                 <span>{{
                   t("Features.UnlimitedTranscription.feature1Point3Text")
                 }}</span>
@@ -310,25 +304,19 @@
             </p>
             <ul class="feature-points">
               <li>
-                <span class="check">{{
-                  t("Features.UnlimitedTranscription.feature2Point1Icon")
-                }}</span>
+                <span class="check icon-duihao iconfont"></span>
                 <span>{{
                   t("Features.UnlimitedTranscription.feature2Point1Text")
                 }}</span>
               </li>
               <li>
-                <span class="check">{{
-                  t("Features.UnlimitedTranscription.feature2Point2Icon")
-                }}</span>
+                <span class="check icon-duihao iconfont"></span>
                 <span>{{
                   t("Features.UnlimitedTranscription.feature2Point2Text")
                 }}</span>
               </li>
               <li>
-                <span class="check">{{
-                  t("Features.UnlimitedTranscription.feature2Point3Icon")
-                }}</span>
+                <span class="check icon-duihao iconfont"></span>
                 <span>{{
                   t("Features.UnlimitedTranscription.feature2Point3Text")
                 }}</span>
@@ -406,25 +394,19 @@
             </p>
             <ul class="feature-points">
               <li>
-                <span class="check">{{
-                  t("Features.UnlimitedTranscription.feature3Point1Icon")
-                }}</span>
+                <span class="check icon-duihao iconfont"></span>
                 <span>{{
                   t("Features.UnlimitedTranscription.feature3Point1Text")
                 }}</span>
               </li>
               <li>
-                <span class="check">{{
-                  t("Features.UnlimitedTranscription.feature3Point2Icon")
-                }}</span>
+                <span class="check icon-duihao iconfont"></span>
                 <span>{{
                   t("Features.UnlimitedTranscription.feature3Point2Text")
                 }}</span>
               </li>
               <li>
-                <span class="check">{{
-                  t("Features.UnlimitedTranscription.feature3Point3Icon")
-                }}</span>
+                <span class="check icon-duihao iconfont"></span>
                 <span>{{
                   t("Features.UnlimitedTranscription.feature3Point3Text")
                 }}</span>
@@ -715,6 +697,13 @@ const handleClick = () => {
 .feature-block:nth-child(even) > * {
   direction: ltr;
 }
+[dir="rtl"] .feature-block:nth-child(even) {
+  direction: ltr;
+}
+
+[dir="rtl"] .feature-block:nth-child(even) > * {
+  direction: rtl;
+}
 
 .feature-content {
   max-width: 500px;
@@ -768,7 +757,7 @@ const handleClick = () => {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 14px;
+  font-size: 12px;
   flex-shrink: 0;
 }
 

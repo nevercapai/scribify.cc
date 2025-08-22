@@ -22,7 +22,7 @@
             {{ $t("AccountSettingsPage.displayLanguage") }}
           </span>
         </div>
-        <div style="overflow: auto; height: 18rem">
+        <div style="overflow: auto; height: 18rem" class="overscroll-contain">
           <div
             v-for="(item, index) in localeOptions"
             :key="item.value"

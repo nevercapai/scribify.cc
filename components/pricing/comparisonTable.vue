@@ -148,6 +148,9 @@ const $i = useI18nModule("Pricing.ComparisonTable");
   font-weight: 600;
   border-bottom: 2px solid #e5e7eb;
 }
+[dir='rtl'] .comparison-table th {
+  text-align: right;
+}
 
 .comparison-table th:not(:first-child) {
   text-align: center;

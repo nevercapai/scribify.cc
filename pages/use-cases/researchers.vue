@@ -890,6 +890,13 @@ const handleJump = () => {
   direction: ltr;
 }
 
+[dir="rtl"] .feature-block:nth-child(even) {
+  direction: ltr;
+}
+
+[dir="rtl"] .feature-block:nth-child(even) > * {
+  direction: rtl;
+}
 .feature-content {
   max-width: 500px;
 }

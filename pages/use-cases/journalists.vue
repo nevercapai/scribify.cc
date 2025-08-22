@@ -957,6 +957,14 @@ const signup = () => {
   direction: ltr;
 }
 
+[dir="rtl"] .solution-grid:nth-child(even) {
+  direction: ltr;
+}
+
+[dir="rtl"] .solution-grid:nth-child(even) > * {
+  direction: rtl;
+}
+
 .solution-content {
   max-width: 500px;
 }

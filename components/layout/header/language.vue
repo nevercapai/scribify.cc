@@ -166,6 +166,7 @@ const switchLanguage = async (newLocale: any) => {
       query: route.query
     });
   }
+
   getLocaleOptions();
 };
 

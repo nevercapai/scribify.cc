@@ -5,10 +5,10 @@
   >
     <div class="flex cursor-pointer items-center space-x-2" @click="goToHome()">
       <NuxtImg
-        src="/assets/images/index_black/logo.svg"
+        src="/assets/logo3.png"
         alt="Scribify Logo"
         class="h-6 w-auto sm:h-[1.875rem]"
-        fit="cover"
+        fit="contain"
         loading="eager"
       />
     </div>

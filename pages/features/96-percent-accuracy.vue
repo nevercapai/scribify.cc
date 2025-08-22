@@ -22,15 +22,19 @@
         </p>
 
         <div class="hero-cta">
-          <a
-            @click="handleClick"
-            href="javascript:void(0)"
-            class="btn-primary"
-            >{{ t("Features.Accuracy.primaryCta") }}</a
-          >
-          <a href="#languages" class="btn-secondary">
-            {{ t("Features.Accuracy.secondaryCta") }}
-          </a>
+          <span class="flex-center-m">
+            <a
+              @click="handleClick"
+              href="javascript:void(0)"
+              class="btn-primary"
+              >{{ t("Features.Accuracy.primaryCta") }}</a
+            >
+          </span>
+          <span class="flex-center-m">
+            <a href="#languages" class="btn-secondary">
+              {{ t("Features.Accuracy.secondaryCta") }}
+            </a>
+          </span>
         </div>
 
         <!-- Accuracy Stats -->
@@ -329,7 +333,7 @@
             </p>
             <ul class="feature-points">
               <li>
-                <span class="check icon-duihao iconfont "></span>
+                <span class="check icon-duihao iconfont"></span>
                 <span>{{ t("Features.Accuracy.feature2Point1Text") }}</span>
               </li>
               <li>
@@ -417,7 +421,14 @@
                 border-radius: 12px;
               "
             >
-              <h3 style="margin-bottom: 20px; color: var(--dark);font-weight: bold" class="text-[1.17em]">
+              <h3
+                style="
+                  margin-bottom: 20px;
+                  color: var(--dark);
+                  font-weight: bold;
+                "
+                class="text-[1.17em]"
+              >
                 {{ t("Features.Accuracy.formattingTitle") }}
               </h3>
               <div style="margin-bottom: 20px">
@@ -973,10 +984,9 @@ const handleClick = () => {
   font-weight: 700;
   border-bottom: 2px solid #e5e7eb;
 }
-[dir='rtl'] .comparison-table th {
+[dir="rtl"] .comparison-table th {
   text-align: right !important;
 }
-
 
 .comparison-table td {
   padding: 20px;

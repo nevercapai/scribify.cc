@@ -29,12 +29,16 @@
         </p>
 
         <div class="hero-cta">
-          <a @click="handleJump" class="btn-primary">{{
-            t("UseCases.Researchers.heroCtaPrimary")
-          }}</a>
-          <a href="#features" class="btn-secondary">{{
-            t("UseCases.Researchers.heroCtaSecondary")
-          }}</a>
+          <span class="flex-center-m">
+            <a @click="handleJump" class="btn-primary">{{
+              t("UseCases.Researchers.heroCtaPrimary")
+            }}</a>
+          </span>
+          <span class="flex-center-m">
+            <a href="#features" class="btn-secondary">{{
+              t("UseCases.Researchers.heroCtaSecondary")
+            }}</a>
+          </span>
         </div>
       </div>
     </section>
@@ -171,9 +175,12 @@
               t("UseCases.Researchers.feature1Label")
             }}</span>
             <h2 class="feature-title">
-              {{ t("UseCases.Researchers.feature1Title") }}<span class="gradient-text">
-                  &#8202;{{ t("UseCases.Researchers.feature1TitleHl") }}&#8202;
-              </span>{{ t("UseCases.Researchers.feature1TitlePost") }}
+              {{ t("UseCases.Researchers.feature1Title")
+              }}<span class="gradient-text">
+                &#8202;{{
+                  t("UseCases.Researchers.feature1TitleHl")
+                }}&#8202; </span
+              >{{ t("UseCases.Researchers.feature1TitlePost") }}
             </h2>
             <p class="feature-description">
               {{ t("UseCases.Researchers.feature1Desc") }}
@@ -232,9 +239,12 @@
               t("UseCases.Researchers.feature2Label")
             }}</span>
             <h2 class="feature-title">
-              {{ t("UseCases.Researchers.feature2Title") }}<span class="gradient-text">
-                 &#8202;{{ t("UseCases.Researchers.feature2TitleHl") }}&#8202;
-              </span>{{ t("UseCases.Researchers.feature2TitlePost") }}
+              {{ t("UseCases.Researchers.feature2Title")
+              }}<span class="gradient-text">
+                &#8202;{{
+                  t("UseCases.Researchers.feature2TitleHl")
+                }}&#8202; </span
+              >{{ t("UseCases.Researchers.feature2TitlePost") }}
             </h2>
             <p class="feature-description">
               {{ t("UseCases.Researchers.feature2Desc") }}
@@ -335,8 +345,8 @@
             }}</span>
             <h2 class="feature-title">
               <span class="gradient-text">
-                 {{ t("UseCases.Researchers.feature3TitleHl") }}&#8202;
-              </span>{{ t("UseCases.Researchers.feature3Title") }}
+                {{ t("UseCases.Researchers.feature3TitleHl") }}&#8202; </span
+              >{{ t("UseCases.Researchers.feature3Title") }}
             </h2>
             <p class="feature-description">
               {{ t("UseCases.Researchers.feature3Desc") }}
@@ -392,8 +402,9 @@
               t("UseCases.Researchers.feature4Label")
             }}</span>
             <h2 class="feature-title">
-              {{ t("UseCases.Researchers.feature4Title") }}<span class="gradient-text">
-                 &#8202;{{ t("UseCases.Researchers.feature4TitleHl") }}
+              {{ t("UseCases.Researchers.feature4Title")
+              }}<span class="gradient-text">
+                &#8202;{{ t("UseCases.Researchers.feature4TitleHl") }}
               </span>
             </h2>
             <p class="feature-description">
@@ -611,12 +622,20 @@
         <div class="testimonial-card">
           <span class="quote-icon">"</span>
           <p class="testimonial-text">
-            "{{ t("UseCases.Researchers.testimonialText") }}<span class="highlight">
-            {{ t("UseCases.Researchers.testimonialText2Hl") }}</span>
-            {{ t("UseCases.Researchers.testimonialText3") }}&nbsp;<span class="highlight">
-            {{ t("UseCases.Researchers.testimonialText4Hl") }}</span>
-            {{ t("UseCases.Researchers.testimonialText5") }}&nbsp;<span class="highlight">
-            {{ t("UseCases.Researchers.testimonialText6Hl") }}</span>
+            "{{ t("UseCases.Researchers.testimonialText")
+            }}<span class="highlight">
+              {{ t("UseCases.Researchers.testimonialText2Hl") }}</span
+            >
+            {{ t("UseCases.Researchers.testimonialText3") }}&nbsp;<span
+              class="highlight"
+            >
+              {{ t("UseCases.Researchers.testimonialText4Hl") }}</span
+            >
+            {{ t("UseCases.Researchers.testimonialText5") }}&nbsp;<span
+              class="highlight"
+            >
+              {{ t("UseCases.Researchers.testimonialText6Hl") }}</span
+            >
             {{ t("UseCases.Researchers.testimonialText7") }}"
           </p>
           <div class="testimonial-author">

@@ -22,12 +22,20 @@
         </p>
 
         <div class="hero-cta">
-          <a @click="handleClick" href="javascript:void(0)" class="btn-primary">
-            {{ t("Features.UnlimitedTranscription.primaryCta") }}
-          </a>
-          <a href="#comparison" class="btn-secondary">
-            {{ t("Features.UnlimitedTranscription.secondaryCta") }}
-          </a>
+          <span class="flex-center-m">
+            <a
+              @click="handleClick"
+              href="javascript:void(0)"
+              class="btn-primary"
+            >
+              {{ t("Features.UnlimitedTranscription.primaryCta") }}
+            </a>
+          </span>
+          <span class="flex-center-m">
+            <a href="#comparison" class="btn-secondary">
+              {{ t("Features.UnlimitedTranscription.secondaryCta") }}
+            </a>
+          </span>
         </div>
 
         <!-- Visual Comparison -->

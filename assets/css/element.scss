@@ -42,12 +42,13 @@
   transition: all 0.3s;
   display: inline-block;
   cursor: pointer;
-
-  &:hover {
-    background: var(--primary-dark);
-    color: white !important;
-    // transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(99, 102, 241, 0.3);
+  @media (min-width: 768px) {
+    &:hover {
+      background: var(--primary-dark);
+      color: white !important;
+      // transform: translateY(-2px);
+      box-shadow: 0 10px 25px rgba(99, 102, 241, 0.3);
+    }
   }
 }
 
@@ -65,11 +66,12 @@
   align-items: center;
   gap: 8px;
   cursor: pointer;
-
-  &:hover {
-    background: var(--primary);
-    color: white;
-    // transform: translateY(-2px);
+  @media (min-width: 768px) {
+    &:hover {
+      background: var(--primary);
+      color: white;
+      // transform: translateY(-2px);
+    }
   }
 }
 
@@ -77,6 +79,13 @@
   background: var(--text-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.flex-center-m {
+  @media (max-width: 768px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 /** ---------------------------------------按钮样式 */

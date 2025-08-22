@@ -19,7 +19,7 @@
             {{ $i("Hero.subtitle") }}
           </p>
           <div class="cta-buttons">
-            <span>
+            <span class="flex-center-m">
               <a
                 @click="handleClick"
                 href="javascript:void(0)"
@@ -28,7 +28,7 @@
                 {{ $i("Hero.FreeTrial") }}
               </a>
             </span>
-            <span>
+            <span class="flex-center-m">
               <a @click="showDownload" class="btn-secondary">
                 <span>▶</span> {{ $i("Hero.HowWorks") }}
               </a>
@@ -1128,21 +1128,22 @@ details summary::-webkit-details-marker {
   display: none;
 }
 
-details summary::after {
+details summary::before {
   content: "+";
   float: right;
   font-size: 24px;
+  line-height: 26px;
   color: var(--primary);
   transition: transform 0.3s;
 }
-[dir="rtl"] details summary::after {
+[dir="rtl"] details summary::before {
   float: left !important;
 }
 details summary:hover {
   color: var(--primary);
 }
 
-details[open] summary::after {
+details[open] summary::before {
   transform: rotate(45deg);
 }
 

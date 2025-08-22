@@ -17,12 +17,16 @@
             {{ $i("AllUseCases.heroSubtitle") }}
           </p>
           <div class="hero-cta">
-            <a href="javascript:void(0)" class="btn-primary" @click="signup">
-              {{ $iIndex("Hero.FreeTrial") }}
-            </a>
-            <a href="#use-cases" class="btn-secondary">
-              {{ $iIndex("Hero.ExploreUseCases") }}
-            </a>
+            <span class="flex-center-m">
+              <a href="javascript:void(0)" class="btn-primary" @click="signup">
+                {{ $iIndex("Hero.FreeTrial") }}
+              </a>
+            </span>
+            <span class="flex-center-m">
+              <a href="#use-cases" class="btn-secondary">
+                {{ $iIndex("Hero.ExploreUseCases") }}
+              </a>
+            </span>
           </div>
         </div>
       </div>

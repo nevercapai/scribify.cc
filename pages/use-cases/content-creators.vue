@@ -30,12 +30,19 @@
           </p>
 
           <div class="hero-cta">
-            <a href="javascript:void(0)" @click="signup" class="btn-primary">{{
-              $i("ContentCreators.hero.ctaPrimary")
-            }}</a>
-            <a href="#workflow" class="btn-secondary">{{
-              $i("ContentCreators.hero.ctaSecondary")
-            }}</a>
+            <span class="flex-center-m">
+              <a
+                href="javascript:void(0)"
+                @click="signup"
+                class="btn-primary"
+                >{{ $i("ContentCreators.hero.ctaPrimary") }}</a
+              >
+            </span>
+            <span class="flex-center-m">
+              <a href="#workflow" class="btn-secondary">{{
+                $i("ContentCreators.hero.ctaSecondary")
+              }}</a>
+            </span>
           </div>
 
           <!-- Stats -->
@@ -566,14 +573,14 @@ const flexibleExportPoints = computed(() => {
 
 const platformNames = computed(() => {
   return [
-    'YouTube',
-    'Facebook',
-    'Twitter',
-    'Dropbox',
-    'Google Drive',
-    'Vimeo',
-    'TikTok',
-    'Instagram'
+    "YouTube",
+    "Facebook",
+    "Twitter",
+    "Dropbox",
+    "Google Drive",
+    "Vimeo",
+    "TikTok",
+    "Instagram"
   ];
 });
 
@@ -669,6 +676,9 @@ const signup = () => {
   gap: 20px;
   margin-bottom: 50px;
   flex-wrap: wrap;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 }
 
 /* Stats Grid */
@@ -1070,22 +1080,22 @@ details summary::-webkit-details-marker {
   display: none;
 }
 
-details summary::after {
+details summary::before {
   content: "+";
   float: right;
   font-size: 24px;
+  line-height: 26px;
   color: var(--primary);
   transition: transform 0.3s;
 }
-
-[dir="rtl"] details summary::after {
+[dir="rtl"] details summary::before {
   float: left !important;
-}
-
-details[open] summary::after {
-  transform: rotate(45deg);
 }
 details summary:hover {
   color: var(--primary);
+}
+
+details[open] summary::before {
+  transform: rotate(45deg);
 }
 </style>

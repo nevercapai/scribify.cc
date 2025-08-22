@@ -29,16 +29,20 @@
             </p>
 
             <div class="hero-cta">
-              <a
-                href="javascript:void(0)"
-                @click="signup"
-                class="btn-primary me-[10px] !px-9"
-              >
-                {{ $i("Journalists.hero.ctaPrimary") }}
-              </a>
-              <a href="#solution" class="btn-secondary !px-9">
-                {{ $i("Journalists.hero.ctaSecondary") }}
-              </a>
+              <span class="flex-center-m">
+                <a
+                  href="javascript:void(0)"
+                  @click="signup"
+                  class="btn-primary me-[10px] !px-9"
+                >
+                  {{ $i("Journalists.hero.ctaPrimary") }}
+                </a>
+              </span>
+              <span class="flex-center-m">
+                <a href="#solution" class="btn-secondary !px-9">
+                  {{ $i("Journalists.hero.ctaSecondary") }}
+                </a>
+              </span>
             </div>
 
             <div class="hero-stats">
@@ -744,6 +748,9 @@ const signup = () => {
   align-items: center;
   flex-wrap: wrap;
   margin-bottom: 40px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 }
 
 .hero-stats {

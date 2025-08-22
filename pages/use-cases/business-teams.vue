@@ -25,15 +25,9 @@
                 {{ t("UseCases.BusinessTeams.heroTitle1") }}
               </span>
               <br />
-              <span
-                style="
-                  background: var(--text-gradient);
-                  -webkit-background-clip: text;
-                  -webkit-text-fill-color: transparent;
-                "
-                class="title-line"
-                >{{ t("UseCases.BusinessTeams.heroTitle2") }}</span
-              >
+              <span class="title-line gradient-text">{{
+                t("UseCases.BusinessTeams.heroTitle2")
+              }}</span>
             </h1>
 
             <p class="hero-subtitle">
@@ -41,15 +35,20 @@
             </p>
 
             <div class="hero-cta">
-              <a
-                href="javascript:void(0)" @click="signup"
-                class="btn-primary mb-[20px] me-[10px] !px-[50px]"
-              >
-                {{ t("UseCases.BusinessTeams.heroCtaPrimary") }}
-              </a>
-              <a href="#features" class="btn-secondary !px-[30px]">{{
-                t("UseCases.BusinessTeams.heroCtaSecondary")
-              }}</a>
+              <span class="flex-center-m">
+                <a
+                  href="javascript:void(0)"
+                  @click="signup"
+                  class="btn-primary mb-[20px] me-[10px] !px-[50px]"
+                >
+                  {{ t("UseCases.BusinessTeams.heroCtaPrimary") }}
+                </a>
+              </span>
+              <span class="flex-center-m">
+                <a href="#features" class="btn-secondary !px-[30px]">{{
+                  t("UseCases.BusinessTeams.heroCtaSecondary")
+                }}</a>
+              </span>
             </div>
           </div>
 

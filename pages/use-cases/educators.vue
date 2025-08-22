@@ -25,12 +25,19 @@
             {{ t("UseCases.Educators.heroSubtitle") }}
           </p>
           <div class="hero-cta">
-            <a href="javascript:void(0)" @click="handleJump" class="btn-primary">{{
-              t("UseCases.Educators.heroCtaPrimary")
-            }}</a>
-            <a class="btn-secondary" @click="showDownload">{{
-              t("UseCases.Educators.heroCtaSecondary")
-            }}</a>
+            <span class="flex-center-m">
+              <a
+                href="javascript:void(0)"
+                @click="handleJump"
+                class="btn-primary"
+                >{{ t("UseCases.Educators.heroCtaPrimary") }}</a
+              >
+            </span>
+            <span class="flex-center-m">
+              <a class="btn-secondary" @click="showDownload">{{
+                t("UseCases.Educators.heroCtaSecondary")
+              }}</a>
+            </span>
           </div>
           <transition name="slide-fade">
             <howToDownload v-if="showHowToDownload"></howToDownload>

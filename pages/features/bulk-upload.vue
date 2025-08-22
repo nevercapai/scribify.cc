@@ -20,12 +20,20 @@
         </p>
 
         <div class="hero-cta">
-          <a @click="handleClick" href="javascript:void(0)" class="btn-primary">
-            {{ t("Features.BulkUpload.primaryCta") }}
-          </a>
-          <a href="#limits" class="btn-secondary">
-            {{ t("Features.BulkUpload.secondaryCta") }}
-          </a>
+          <span class="flex-center-m">
+            <a
+              @click="handleClick"
+              href="javascript:void(0)"
+              class="btn-primary"
+            >
+              {{ t("Features.BulkUpload.primaryCta") }}
+            </a>
+          </span>
+          <span class="flex-center-m">
+            <a href="#limits" class="btn-secondary">
+              {{ t("Features.BulkUpload.secondaryCta") }}
+            </a>
+          </span>
         </div>
 
         <div class="reddit-banner">

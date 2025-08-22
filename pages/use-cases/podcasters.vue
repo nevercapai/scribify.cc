@@ -18,12 +18,19 @@
             {{ $i("Podcasters.heroSubtitle") }}
           </p>
           <div class="cta-buttons">
-            <a href="javascript:void(0)" @click="signup" class="btn-primary">{{
-              $i("Podcasters.ctaPrimary")
-            }}</a>
-            <a href="#workflow" class="btn-secondary">
-              <span>▶</span> {{ $i("Podcasters.ctaSecondary") }}
-            </a>
+            <span class="flex-center-m">
+              <a
+                href="javascript:void(0)"
+                @click="signup"
+                class="btn-primary"
+                >{{ $i("Podcasters.ctaPrimary") }}</a
+              >
+            </span>
+            <span class="flex-center-m">
+              <a href="#workflow" class="btn-secondary">
+                <span>▶</span> {{ $i("Podcasters.ctaSecondary") }}
+              </a>
+            </span>
           </div>
           <div class="trust-badges">
             <span>
@@ -1066,7 +1073,7 @@ h1 {
   border-bottom: 2px solid var(--line-color);
 }
 
-[dir='rtl'] .comparison-table th {
+[dir="rtl"] .comparison-table th {
   text-align: right !important;
 }
 

@@ -559,4 +559,20 @@ nav {
     }
   }
 }
+[dir="rtl"] .nav-container {
+  @media (max-width: 768px) {
+    .index-right-wrap {
+      position: absolute;
+      left: 40px !important;
+      right: unset;
+    }
+    .dropdown-toggle svg {
+      // transition: none;
+    }
+
+    .dropdown:hover .dropdown-toggle svg {
+      transform: none;
+    }
+  }
+}
 </style>

@@ -1605,93 +1605,93 @@ let message = {
       "highlighted_text": "Ingen skjulte begrænsninger.",
       "description": "Vælg den plan, der passer til dine behov. Opgrader eller nedgrader når som helst. Ingen binding, ingen overraskelser.",
       "plans": [
-        {
-          "name": "Gratis",
-          "price": "$0",
-          "period": "måned",
-          "discount": "Perfekt til at prøve vores service",
-          "limits": {
-            "title": "Daglige begrænsninger",
-            "items": [
-              "3 filer/dag (≈90 min totalt/dag)",
-              "Op til 30 min pr. fil (≤250 MB)",
-              "Upload 1 fil ad gangen",
-              "Standard prioritetskø"
-            ]
-          },
-          "features": {
-            "title": "Funktioner",
-            "items": [
-              "100+ sprog",
-              "Talermærkater",
-              "Oversættelse",
-              "Alle eksportformater"
-            ]
-          },
-          "cta": {
-            "text": "Start gratis. Ingen kreditkort.",
-            "button": "Nuværende abonnement"
-          }
-        },
-        {
-          "name": "Pro Månedlig",
-          "price": "$17.99",
-          "period": "måned",
-          "discount": "$9.99 den første måned",
-          "limits": {
-            "title": "Ingen månedlig begrænsning",
-            "items": [
-              "Ubegrænset antal minutter",
-              "Op til 10 timer / 5 GB pr. fil",
-              "Upload 50 filer på én gang",
-              "Prioritetskø"
-            ]
-          },
-          "features": {
-            "title": "Alt i Gratis, plus",
-            "items": [
-              "Ord-niveau tidsstempler",
-              "Avanceret talergenkendelse",
-              "Formaterede afsnit & tegnsætning",
-              "Prioriteret support"
-            ]
-          },
-          "cta": {
-            "text": "Ubegrænsede minutter. Prioriteret hastighed. Batch-upload.",
-            "button": "Bliv Pro"
-          },
-          "badge": "Mest populære"
-        },
-        {
-          "name": "Pro Årlig",
-          "price": "$8,99",
-          "period": "måned",
-          "discount": "Årlig faktura $107.88",
-          "limits": {
-            "title": "Samme som Pro Månedlig",
-            "items": [
-              "Ubegrænset antal minutter",
-              "Op til 10 timer / 5 GB pr. fil",
-              "Upload 50 filer på én gang",
-              "Prioritetskø"
-            ]
-          },
-          "features": {
-            "title": "Alt i Gratis, plus",
-            "items": [
-              "Ord-niveau tidsstempler",
-              "Avanceret talergenkendelse",
-              "Formaterede afsnit & tegnsætning",
-              "Prioriteret support"
-            ]
-          },
-          "cta": {
-            "text": "Ubegrænsede minutter. Prioriteret hastighed. Batch-upload.",
-            "button": "Bliv Pro"
-          },
-          "badge": "Bedste Værdi - "
-        }
-      ],
+            {
+              "name": "Gratis",
+              "price": "$0",
+              "period": "måned",
+              "discount": "Perfekt til at prøve vores service",
+              "limits": {
+                "title": "Daglige begrænsninger",
+                "items": [
+                  "3 filer/dag (≈90 min totalt/dag)",
+                  "Op til 30 min pr. fil (≤250 MB)",
+                  "Upload 1 fil ad gangen",
+                  "Standard prioritetskø"
+                ]
+              },
+              "features": {
+                "title": "Funktioner",
+                "items": [
+                  "100+ sprog",
+                  "Talermærkater",
+                  "Oversættelse",
+                  "Alle eksportformater"
+                ]
+              },
+              "cta": {
+                "text": "Start gratis. Ingen kreditkort.",
+                "button": "Nuværende abonnement"
+              }
+            },
+            {
+              "name": "Pro Månedlig",
+              "price": "$17.99",
+              "period": "måned",
+              "discount": "$9.99 den første måned",
+              "limits": {
+                "title": "Ingen månedlig begrænsning",
+                "items": [
+                  "Ubegrænset antal minutter",
+                  "Op til 10 timer / 5 GB pr. fil",
+                  "Upload 50 filer på én gang",
+                  "Prioritetskø"
+                ]
+              },
+              "features": {
+                "title": "Alt i Gratis, plus",
+                "items": [
+                  "Ord-niveau tidsstempler",
+                  "Avanceret talergenkendelse",
+                  "Formaterede afsnit & tegnsætning",
+                  "Prioriteret support"
+                ]
+              },
+              "cta": {
+                "text": "Ubegrænsede minutter. Prioriteret hastighed. Batch-upload.",
+                "button": "Bliv Pro"
+              },
+              "badge": "Mest populære"
+            },
+            {
+              "name": "Pro Årlig",
+              "price": "$8,99",
+              "period": "måned",
+              "discount": "Årlig faktura $107.88",
+              "limits": {
+                "title": "Samme som Pro Månedlig",
+                "items": [
+                  "Ubegrænset antal minutter",
+                  "Op til 10 timer / 5 GB pr. fil",
+                  "Upload 50 filer på én gang",
+                  "Prioritetskø"
+                ]
+              },
+              "features": {
+                "title": "Alt i Gratis, plus",
+                "items": [
+                  "Ord-niveau tidsstempler",
+                  "Avanceret talergenkendelse",
+                  "Formaterede afsnit & tegnsætning",
+                  "Prioriteret support"
+                ]
+              },
+              "cta": {
+                "text": "Ubegrænsede minutter. Prioriteret hastighed. Batch-upload.",
+                "button": "Bliv Pro"
+              },
+              "badge": "Bedste Værdi - "
+            }
+          ],
       "disclaimer": '"Ubegrænset" betyder ingen månedlig grænse og ingen kunstig nedbremsning. Fair-use gælder for misbrug af automatisering eller redistribution.'
     },
     ComparisonTable: {
@@ -2611,7 +2611,7 @@ let message = {
       solutionTitle: "NeverCap Løsning",
       solutionDesc: "Sand ubegrænset transskription. Upload hele din undersøgelse. Transskriber hvert interview. Analyser alle dine data. Ingen begrænsninger, bare forskning.",
       feature1Label: "Ingen Grænser",
-      feature1Title: "Behandl Hele Din Undersøgelse på én Gang",
+      feature1Title: "Håndter dit",
       feature1Desc: 'Upload alle 200 timers interviews i aften. Vågn op til færdige, søgbare transskriptioner. Ingen månedlige begrænsninger, ingen filgrænser, ingen "fair use" BS.',
       feature1Point1: "Batch-upload 50 filer samtidig",
       feature1Point2: "Behandl længdesnitstudier helt",
@@ -2620,7 +2620,7 @@ let message = {
       feature1Visual1: "Ubegrænsede Timer",
       feature1Visual2: "Samme pris uanset 10 eller 10.000 timer",
       feature2Label: "Smart AI",
-      feature2Title: "Håndterer Fokusgrupper Perfekt Hver Gang",
+      feature2Title: "Præcision",
       feature2Desc: "Vores AI sporer op til 20 talere, selv når de taler over hinanden, afbryder eller svarer på én gang. Hver stemme fanges og mærkes korrekt.",
       feature2Point1: "20-taler-identifikation",
       feature2Point2: "Håndterer krydssnak & afbrydelser",
@@ -2636,7 +2636,7 @@ let message = {
       conversationParticipant4: "Deltager 4",
       conversationText5: "I landdistrikter er det alle tre: omkostninger, adgang OG transport.",
       feature3Label: "Præcision",
-      feature3Title: "96% Nøjagtighed Der Holder",
+      feature3Title: "Pålidelig",
       feature3Desc: "Håndterer fagterminologi, tykke accenter og fagspecifikt sprog som en pro. Nøjagtigt nok til publikation, fagfællebedømmelse og dit afhandlingsudvalg.",
       feature3Point1: "Medicinsk & videnskabelig terminologi",
       feature3Point2: "100+ sprog & dialekter",
@@ -2645,7 +2645,7 @@ let message = {
       feature3Visual1: "Forskningsgrad Nøjagtighed",
       feature3Visual2: "Stolt brugt af 50.000+ forskere",
       feature4Label: "Sikkerhed",
-      feature4Title: "IRB-Klar Sikkerhed",
+      feature4Title: "IRB-godkendelse",
       feature4Desc: "Dine følsomme forskningsdata er beskyttet med virksomhedsklasse sikkerhed. GDPR-kompatibel, HIPAA-klar muligheder og fulde revisionsspor til IRB-krav.",
       feature4Point1: "End-to-end-kryptering",
       feature4Point2: "GDPR & CCPA-kompatibel",
@@ -2676,11 +2676,11 @@ let message = {
         title: "The",
         useCasesTitle2: "Enhver Forskningsmetode",
         testimonialTitle2: "Førende Forskere",
-        feature1TitleHl: "Hele Undersøgelsen",
-        feature1TitlePost: "i én omgang",
-        feature2TitleHl: "Fokusgrupper",
-        feature2TitlePost: "Hver Gang",
-        feature3TitleHl: "96% Nøjagtighed",
+        feature1TitleHl: "Hele forskningsprojekt",
+        feature1TitlePost: "Alt på ét sted",
+        feature2TitleHl: "Fokusgruppeinterview",
+        feature2TitlePost: "Succes hver gang",
+        feature3TitleHl: "96% nøjagtighed",
         feature4TitleHl: "Sikkerhed",
         testimonialText2Hl: "200 timer",
         testimonialText3: "af fokusgruppeoptagelser fra vores samfundssundhedsundersøgelse. Andre tjenester bad os vælge hvilke sessioner der skulle transskriberes på grund af omkostningerne. NeverCap lod os behandle",

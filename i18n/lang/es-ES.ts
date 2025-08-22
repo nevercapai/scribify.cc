@@ -1614,93 +1614,93 @@ let message = {
       "highlighted_text": "Sin Límites Ocultos.",
       "description": "Elige el plan que se ajuste a tus necesidades. Cambia cuando quieras. Sin contratos, sin sorpresas.",
       "plans": [
-        {
-          "name": "Gratis",
-          "price": "$0",
-          "period": "mes",
-          "discount": "Ideal para probar nuestro servicio",
-          "limits": {
-            "title": "Límites diarios",
-            "items": [
-              "3 archivos/día (≈90 min total/día)",
-              "Hasta 30 min por archivo (≤250 MB)",
-              "Subir 1 archivo a la vez",
-              "Cola de prioridad estándar"
-            ]
-          },
-          "features": {
-            "title": "Características",
-            "items": [
-              "100+ idiomas",
-              "Etiquetas de hablantes",
-              "Traducción",
-              "Todos los formatos de exportación"
-            ]
-          },
-          "cta": {
-            "text": "Empieza gratis. Sin tarjeta.",
-            "button": "Plan actual"
-          }
-        },
-        {
-          "name": "Pro Mensual",
-          "price": "$17.99",
-          "period": "mes",
-          "discount": "$9.99 el primer mes",
-          "limits": {
-            "title": "Sin límite mensual",
-            "items": [
-              "Minutos ilimitados",
-              "Hasta 10 horas / 5 GB por archivo",
-              "Subir 50 archivos a la vez",
-              "Cola prioritaria"
-            ]
-          },
-          "features": {
-            "title": "Todo en Gratis, más",
-            "items": [
-              "Marcas de tiempo por palabra",
-              "Identificación avanzada de hablantes",
-              "Párrafos y puntuación formateados",
-              "Soporte prioritario"
-            ]
-          },
-          "cta": {
-            "text": "Minutos ilimitados. Velocidad prioritaria. Subidas múltiples.",
-            "button": "Ir a Pro"
-          },
-          "badge": "Más popular"
-        },
-        {
-          "name": "Pro Anual",
-          "price": "$8.99",
-          "period": "mes",
-          "discount": "Facturación anual $107.88",
-          "limits": {
-            "title": "Igual que Pro Mensual",
-            "items": [
-              "Minutos ilimitados",
-              "Hasta 10 horas / 5 GB por archivo",
-              "Subir 50 archivos a la vez",
-              "Cola prioritaria"
-            ]
-          },
-          "features": {
-            "title": "Todo en Gratis, más",
-            "items": [
-              "Marcas de tiempo por palabra",
-              "Identificación avanzada de hablantes",
-              "Párrafos y puntuación formateados",
-              "Soporte prioritario"
-            ]
-          },
-          "cta": {
-            "text": "Minutos ilimitados. Velocidad prioritaria. Subidas múltiples.",
-            "button": "Ir a Pro"
-          },
-          "badge": "Mejor Valor - "
-        }
-      ],
+            {
+              "name": "Gratis",
+              "price": "$0",
+              "period": "mes",
+              "discount": "Ideal para probar nuestro servicio",
+              "limits": {
+                "title": "Límites diarios",
+                "items": [
+                  "3 archivos/día (≈90 min total/día)",
+                  "Hasta 30 min por archivo (≤250 MB)",
+                  "Subir 1 archivo a la vez",
+                  "Cola de prioridad estándar"
+                ]
+              },
+              "features": {
+                "title": "Características",
+                "items": [
+                  "100+ idiomas",
+                  "Etiquetas de hablantes",
+                  "Traducción",
+                  "Todos los formatos de exportación"
+                ]
+              },
+              "cta": {
+                "text": "Empieza gratis. Sin tarjeta.",
+                "button": "Plan actual"
+              }
+            },
+            {
+              "name": "Pro Mensual",
+              "price": "$17.99",
+              "period": "mes",
+              "discount": "$9.99 el primer mes",
+              "limits": {
+                "title": "Sin límite mensual",
+                "items": [
+                  "Minutos ilimitados",
+                  "Hasta 10 horas / 5 GB por archivo",
+                  "Subir 50 archivos a la vez",
+                  "Cola prioritaria"
+                ]
+              },
+              "features": {
+                "title": "Todo en Gratis, más",
+                "items": [
+                  "Marcas de tiempo por palabra",
+                  "Identificación avanzada de hablantes",
+                  "Párrafos y puntuación formateados",
+                  "Soporte prioritario"
+                ]
+              },
+              "cta": {
+                "text": "Minutos ilimitados. Velocidad prioritaria. Subidas múltiples.",
+                "button": "Ir a Pro"
+              },
+              "badge": "Más popular"
+            },
+            {
+              "name": "Pro Anual",
+              "price": "$8.99",
+              "period": "mes",
+              "discount": "Facturación anual $107.88",
+              "limits": {
+                "title": "Igual que Pro Mensual",
+                "items": [
+                  "Minutos ilimitados",
+                  "Hasta 10 horas / 5 GB por archivo",
+                  "Subir 50 archivos a la vez",
+                  "Cola prioritaria"
+                ]
+              },
+              "features": {
+                "title": "Todo en Gratis, más",
+                "items": [
+                  "Marcas de tiempo por palabra",
+                  "Identificación avanzada de hablantes",
+                  "Párrafos y puntuación formateados",
+                  "Soporte prioritario"
+                ]
+              },
+              "cta": {
+                "text": "Minutos ilimitados. Velocidad prioritaria. Subidas múltiples.",
+                "button": "Ir a Pro"
+              },
+              "badge": "Mejor Valor - "
+            }
+          ],
       "disclaimer": '"Ilimitado" significa sin límite mensual ni ralentización artificial. Se aplica uso justo para automatización abusiva o redistribución.'
     },
     ComparisonTable: {
@@ -2620,7 +2620,7 @@ let message = {
       solutionTitle: "Solución NeverCap",
       solutionDesc: "Transcripción realmente ilimitada. Sube todo tu estudio. Transcribe cada entrevista. Analiza todos tus datos. Sin topes, sin límites, solo investigación.",
       feature1Label: "Sin Límites",
-      feature1Title: "Procesa Todo Tu Estudio de Una Vez",
+      feature1Title: "Gestionamos su",
       feature1Desc: 'Sube las 200 horas de entrevistas esta noche. Despierta con transcripciones completas y buscables. Sin topes mensuales, sin límites por archivo, sin tonterías de "uso justo".',
       feature1Point1: "Subida por lotes de 50 archivos simultáneamente",
       feature1Point2: "Procesa estudios longitudinales por completo",
@@ -2629,7 +2629,7 @@ let message = {
       feature1Visual1: "Horas Ilimitadas",
       feature1Visual2: "Mismo precio para 10 o 10,000 horas",
       feature2Label: "IA Inteligente",
-      feature2Title: "Domina los Grupos Focales Cada Vez",
+      feature2Title: "Precisión garantizada",
       feature2Desc: "Nuestra IA rastrea hasta 20 hablantes incluso cuando se interrumpen, hablan al mismo tiempo o intervienen todos a la vez. Cada voz se captura y etiqueta correctamente.",
       feature2Point1: "Identificación de 20 hablantes",
       feature2Point2: "Maneja interferencias e interrupciones",
@@ -2645,7 +2645,7 @@ let message = {
       conversationParticipant4: "Participante 4",
       conversationText5: "En áreas rurales, son los tres: costo, acceso Y transporte.",
       feature3Label: "Precisión",
-      feature3Title: "96% de Precisión Constante",
+      feature3Title: "Confiable",
       feature3Desc: "Maneja jerga técnica, acentos marcados y terminología específica como un profesional. Suficientemente preciso para publicaciones, revisión por pares y tu comité de tesis.",
       feature3Point1: "Terminología médica y científica",
       feature3Point2: "100+ idiomas y dialectos",
@@ -2654,7 +2654,7 @@ let message = {
       feature3Visual1: "Precisión de Grado Investigativo",
       feature3Visual2: "Confiado por 50,000+ investigadores",
       feature4Label: "Seguridad",
-      feature4Title: "Seguridad Lista para IRB",
+      feature4Title: "Certificación IRB",
       feature4Desc: "Tus datos de investigación sensibles están protegidos con seguridad empresarial. Cumple con GDPR, opciones listas para HIPAA y auditorías completas para requisitos IRB.",
       feature4Point1: "Cifrado de extremo a extremo",
       feature4Point2: "Cumple con GDPR & CCPA",
@@ -2685,11 +2685,11 @@ let message = {
         title: "La",
         useCasesTitle2: "Cada Método de Investigación",
         testimonialTitle2: "Investigadores Líderes",
-        feature1TitleHl: "Estudio Completo",
-        feature1TitlePost: "de Una Vez",
-        feature2TitleHl: "Grupos Focales",
-        feature2TitlePost: "Siempre",
-        feature3TitleHl: "96% Precisión",
+        feature1TitleHl: "Proyecto de investigación completo",
+        feature1TitlePost: "Servicio integral",
+        feature2TitleHl: "Entrevistas grupales",
+        feature2TitlePost: "Éxito constante",
+        feature3TitleHl: "96% de precisión",
         feature4TitleHl: "Seguridad",
         testimonialText2Hl: "200 horas",
         testimonialText3: "de grabaciones de grupos focales de nuestro estudio de salud comunitario. Otros servicios querían que seleccionáramos qué sesiones transcribir por el costo. NeverCap nos permitió procesar",

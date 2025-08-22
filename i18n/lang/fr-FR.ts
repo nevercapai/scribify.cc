@@ -1298,7 +1298,7 @@ let message = {
       feature1Stat1Label: "Heures Mensuelles",
       feature1Stat2Number: "0 $",
       feature1Stat2Label: "Frais supplémentaires",
-      feature1Stat3Number: "24h/24",
+      feature1Stat3Number: "24/7",
       feature1Stat3Label: "Téléversement à tout moment",
       feature1Stat4Number: "100 %",
       feature1Stat4Label: "Transparent",
@@ -1623,93 +1623,93 @@ let message = {
       "highlighted_text": "Pas de limites cachées.",
       "description": "Choisissez l'offre adaptée à vos besoins. Changez à tout moment. Sans engagement ni mauvaises surprises.",
       "plans": [
-        {
-          "name": "Gratuit",
-          "price": "0 $",
-          "period": "mois",
-          "discount": "Parfait pour essayer notre service",
-          "limits": {
-            "title": "Limites quotidiennes",
-            "items": [
-              "3 fichiers/jour (≈90 min total/jour)",
-              "Jusqu'à 30 min par fichier (≤250 Mo)",
-              "Téléverser 1 fichier à la fois",
-              "File d'attente standard"
-            ]
-          },
-          "features": {
-            "title": "Fonctionnalités",
-            "items": [
-              "100+ langues",
-              "Étiquettes d'intervenants",
-              "Traduction",
-              "Tous les formats d'export"
-            ]
-          },
-          "cta": {
-            "text": "Commencez gratuitement. Sans carte bancaire.",
-            "button": "Offre actuelle"
-          }
-        },
-        {
-          "name": "Pro Mensuel",
-          "price": "17,99 $",
-          "period": "mois",
-          "discount": "9,99 $ pour le premier mois",
-          "limits": {
-            "title": "Aucune limite mensuelle",
-            "items": [
-              "Minutes totales illimitées",
-              "Jusqu'à 10 heures / 5 Go par fichier",
-              "Téléverser 50 fichiers simultanément",
-              "File d'attente prioritaire"
-            ]
-          },
-          "features": {
-            "title": "Tout ce qui est inclus dans Gratuit, plus",
-            "items": [
-              "Horodatages au niveau des mots",
-              "Identification avancée des intervenants",
-              "Paragraphes et ponctuation formatés",
-              "Support prioritaire"
-            ]
-          },
-          "cta": {
-            "text": "Minutes illimitées. Vitesse prioritaire. Téléversements groupés.",
-            "button": "Passer Pro"
-          },
-          "badge": "Le plus populaire"
-        },
-        {
-          "name": "Pro Annuel",
-          "price": "$8,99",
-          "period": "mois",
-          "discount": "Facturé annuellement 107,88 $",
-          "limits": {
-            "title": "Identique à Pro Mensuel",
-            "items": [
-              "Minutes totales illimitées",
-              "Jusqu'à 10 heures / 5 Go par fichier",
-              "Téléverser 50 fichiers simultanément",
-              "File d'attente prioritaire"
-            ]
-          },
-          "features": {
-            "title": "Tout ce qui est inclus dans Gratuit, plus",
-            "items": [
-              "Horodatages au niveau des mots",
-              "Identification avancée des intervenants",
-              "Paragraphes et ponctuation formatés",
-              "Support prioritaire"
-            ]
-          },
-          "cta": {
-            "text": "Minutes illimitées. Vitesse prioritaire. Téléversements groupés.",
-            "button": "Passer Pro"
-          },
-          "badge": "Meilleur Rapport Qualité-Prix - "
-        }
-      ],
+            {
+              "name": "Gratuit",
+              "price": "0 $",
+              "period": "mois",
+              "discount": "Parfait pour essayer notre service",
+              "limits": {
+                "title": "Limites quotidiennes",
+                "items": [
+                  "3 fichiers/jour (≈90 min total/jour)",
+                  "Jusqu'à 30 min par fichier (≤250 Mo)",
+                  "Téléverser 1 fichier à la fois",
+                  "File d'attente standard"
+                ]
+              },
+              "features": {
+                "title": "Fonctionnalités",
+                "items": [
+                  "100+ langues",
+                  "Étiquettes d'intervenants",
+                  "Traduction",
+                  "Tous les formats d'export"
+                ]
+              },
+              "cta": {
+                "text": "Commencez gratuitement. Sans carte bancaire.",
+                "button": "Offre actuelle"
+              }
+            },
+            {
+              "name": "Pro Mensuel",
+              "price": "17,99 $",
+              "period": "mois",
+              "discount": "9,99 $ pour le premier mois",
+              "limits": {
+                "title": "Aucune limite mensuelle",
+                "items": [
+                  "Minutes totales illimitées",
+                  "Jusqu'à 10 heures / 5 Go par fichier",
+                  "Téléverser 50 fichiers simultanément",
+                  "File d'attente prioritaire"
+                ]
+              },
+              "features": {
+                "title": "Tout ce qui est inclus dans Gratuit, plus",
+                "items": [
+                  "Horodatages au niveau des mots",
+                  "Identification avancée des intervenants",
+                  "Paragraphes et ponctuation formatés",
+                  "Support prioritaire"
+                ]
+              },
+              "cta": {
+                "text": "Minutes illimitées. Vitesse prioritaire. Téléversements groupés.",
+                "button": "Passer Pro"
+              },
+              "badge": "Le plus populaire"
+            },
+            {
+              "name": "Pro Annuel",
+              "price": "$8,99",
+              "period": "mois",
+              "discount": "Facturé annuellement 107,88 $",
+              "limits": {
+                "title": "Identique à Pro Mensuel",
+                "items": [
+                  "Minutes totales illimitées",
+                  "Jusqu'à 10 heures / 5 Go par fichier",
+                  "Téléverser 50 fichiers simultanément",
+                  "File d'attente prioritaire"
+                ]
+              },
+              "features": {
+                "title": "Tout ce qui est inclus dans Gratuit, plus",
+                "items": [
+                  "Horodatages au niveau des mots",
+                  "Identification avancée des intervenants",
+                  "Paragraphes et ponctuation formatés",
+                  "Support prioritaire"
+                ]
+              },
+              "cta": {
+                "text": "Minutes illimitées. Vitesse prioritaire. Téléversements groupés.",
+                "button": "Passer Pro"
+              },
+              "badge": "Meilleur Rapport Qualité-Prix - "
+            }
+          ],
       "disclaimer": `"Illimité" signifie pas de plafond mensuel ni de ralentissement artificiel. L'usage équitable s'applique à l'automatisation abusive ou la redistribution.`
     },
     ComparisonTable: {
@@ -2629,7 +2629,7 @@ let message = {
       solutionTitle: "Solution NeverCap",
       solutionDesc: "Transcription vraiment illimitée. Téléchargez votre étude entière. Transcrivez chaque entretien. Analysez toutes vos données. Pas de plafonds, pas de limites, juste de la recherche.",
       feature1Label: "Pas de limites",
-      feature1Title: "Traitez toute votre étude en une seule fois",
+      feature1Title: "Gérer votre",
       feature1Desc: `Téléchargez 200 heures d'entretiens ce soir. Réveillez-vous avec des transcriptions complètes et consultables. Pas de plafonds mensuels, pas de limites par fichier, pas de "fair use" absurde.`,
       feature1Point1: "Téléchargement par lots de 50 fichiers simultanément",
       feature1Point2: "Traitez complètement les études longitudinales",
@@ -2638,7 +2638,7 @@ let message = {
       feature1Visual1: "Heures illimitées",
       feature1Visual2: "Même prix pour 10 ou 10 000 heures",
       feature2Label: "IA intelligente",
-      feature2Title: "Maîtrise les groupes de discussion à chaque fois",
+      feature2Title: "Précision assurée",
       feature2Desc: "Notre IA suit jusqu'à 20 intervenants même lorsqu'ils se coupent la parole, s'interrompent ou parlent tous en même temps. Chaque voix est capturée et étiquetée correctement.",
       feature2Point1: "Identification de 20 intervenants",
       feature2Point2: "Gère les dialogues croisés et interruptions",
@@ -2654,7 +2654,7 @@ let message = {
       conversationParticipant4: "Participant 4",
       conversationText5: "Dans les zones rurales, ce sont les trois : coût, accès ET transport.",
       feature3Label: "Précision",
-      feature3Title: "96% de précision constante",
+      feature3Title: "Digne de confiance",
       feature3Desc: "Gère comme un pro le jargon technique, les accents marqués et la terminologie spécialisée. Suffisamment précis pour publication, relecture par les pairs et votre comité de thèse.",
       feature3Point1: "Terminologie médicale & scientifique",
       feature3Point2: "100+ langues & dialectes",
@@ -2663,7 +2663,7 @@ let message = {
       feature3Visual1: "Précision niveau recherche",
       feature3Visual2: "Approuvé par 50 000+ chercheurs",
       feature4Label: "Sécurité",
-      feature4Title: "Sécurité conforme IRB",
+      feature4Title: "Certification conforme IRB",
       feature4Desc: "Vos données de recherche sensibles sont protégées par une sécurité professionnelle. Conforme RGPD, options compatibles HIPAA, et pistes d'audit complètes pour les exigences IRB.",
       feature4Point1: "Chiffrement de bout en bout",
       feature4Point2: "Conforme RGPD & CCPA",
@@ -2694,11 +2694,11 @@ let message = {
         title: "The",
         useCasesTitle2: "Toutes les méthodes de recherche",
         testimonialTitle2: "Chercheurs de Premier Plan",
-        feature1TitleHl: "Étude complète",
-        feature1TitlePost: "en une fois",
-        feature2TitleHl: "Groupes de discussion",
-        feature2TitlePost: "À chaque fois",
-        feature3TitleHl: "96% de précision",
+        feature1TitleHl: "Projet de recherche complet",
+        feature1TitlePost: "Tout en un seul endroit",
+        feature2TitleHl: "Entretiens avec groupes cibles",
+        feature2TitlePost: "Réussite à chaque fois",
+        feature3TitleHl: "Taux de précision de 96%",
         feature4TitleHl: "Sécurité",
         testimonialText2Hl: "200 heures",
         testimonialText3: "d'enregistrements de groupes de discussion issus de notre étude sur la santé communautaire. D'autres services nous demandaient de choisir quelles sessions transcrire à cause du coût. NeverCap nous a permis de traiter",
@@ -3074,7 +3074,7 @@ let message = {
             },
             {
               "label": "Contactez-nous",
-              "value": ["Email", "Assistance disponible 24h/24 et 7j/7"]
+              "value": ["Email", "Assistance disponible 24/7 et 7j/7"]
             }
           ]
     },

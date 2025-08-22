@@ -1282,7 +1282,7 @@ let message = {
       feature1Stat1Label: "Havi Órák",
       feature1Stat2Number: "$0",
       feature1Stat2Label: "Túllépési díjak",
-      feature1Stat3Number: "0-24",
+      feature1Stat3Number: "24/7",
       feature1Stat3Label: "Tölts fel bármikor",
       feature1Stat4Number: "100%",
       feature1Stat4Label: "Átlátható",
@@ -1417,8 +1417,8 @@ let message = {
       feature3Point2Icon: "✓",
       feature3Point2Text: "Mindenkinek ugyanolyan gyors",
       feature3Point3Icon: "✓",
-      feature3Point3Text: "Feltölthetsz bármikor, 0-24",
-      feature3VisualNumber: "0-24",
+      feature3Point3Text: "Feltölthetsz bármikor, 24/7",
+      feature3VisualNumber: "24/7",
       feature3VisualTitle: "Mindig Készen Áll",
       feature3VisualSubtext: "Tölts fel, amikor csak jön az ihlet",
       useCasesTitlePart1: "Tökéletes választás",
@@ -1607,93 +1607,93 @@ let message = {
       "highlighted_text": "Nincsenek rejtett korlátok.",
       "description": "Válassza ki az Önnek megfelelő csomagot. Bármikor frissíthet vagy lemondhat. Nincsenek szerződések, nincsenek meglepetések.",
       "plans": [
-        {
-          "name": "Ingyenes",
-          "price": "$0",
-          "period": "hó",
-          "discount": "Ideális a szolgáltatásunk kipróbálásához",
-          "limits": {
-            "title": "Napi korlátok",
-            "items": [
-              "3 fájl/nap (≈90 perc összesen/nap)",
-              "Legfeljebb 30 perc/fájl (≤250 MB)",
-              "Egyszerre 1 fájl feltöltése",
-              "Szabványos prioritási sorrend"
-            ]
-          },
-          "features": {
-            "title": "Funkciók",
-            "items": [
-              "100+ nyelv",
-              "Beszélő címkék",
-              "Fordítás",
-              "Minden exportformátum"
-            ]
-          },
-          "cta": {
-            "text": "Kezdés ingyen. Bankkártya nélkül.",
-            "button": "Jelenlegi csomag"
-          }
-        },
-        {
-          "name": "Pro Havi",
-          "price": "$17.99",
-          "period": "hó",
-          "discount": "$9.99 az első hónapban",
-          "limits": {
-            "title": "Nincs havi limit",
-            "items": [
-              "Korlátlan összes perc",
-              "Legfeljebb 10 óra / 5 GB fájlonként",
-              "Egyszerre 50 fájl feltöltése",
-              "Prioritási sorrend"
-            ]
-          },
-          "features": {
-            "title": "Minden, ami az Ingyenesben, plusz",
-            "items": [
-              "Szószintű időbélyegek",
-              "Fejlett beszélőazonosítás",
-              "Formázott bekezdések & központozás",
-              "Prioritásos támogatás"
-            ]
-          },
-          "cta": {
-            "text": "Korlátlan percek. Prioritásos sebesség. Csomagos feltöltés.",
-            "button": "Proba"
-          },
-          "badge": "Legnépszerűbb"
-        },
-        {
-          "name": "Pro Éves",
-          "price": "$8.99",
-          "period": "hó",
-          "discount": "Éves számlázás $107.88",
-          "limits": {
-            "title": "Ugyanaz, mint a Pro havi",
-            "items": [
-              "Korlátlan összes perc",
-              "Legfeljebb 10 óra / 5 GB fájlonként",
-              "Egyszerre 50 fájl feltöltése",
-              "Prioritási sorrend"
-            ]
-          },
-          "features": {
-            "title": "Minden, ami az Ingyenesben, plusz",
-            "items": [
-              "Szószintű időbélyegek",
-              "Fejlett beszélőazonosítás",
-              "Formázott bekezdések & központozás",
-              "Prioritásos támogatás"
-            ]
-          },
-          "cta": {
-            "text": "Korlátlan percek. Prioritásos sebesség. Csomagos feltöltés.",
-            "button": "Proba"
-          },
-          "badge": "Legjobb Érték - "
-        }
-      ],
+            {
+              "name": "Ingyenes",
+              "price": "$0",
+              "period": "hó",
+              "discount": "Ideális a szolgáltatásunk kipróbálásához",
+              "limits": {
+                "title": "Napi korlátok",
+                "items": [
+                  "3 fájl/nap (≈90 perc összesen/nap)",
+                  "Legfeljebb 30 perc/fájl (≤250 MB)",
+                  "Egyszerre 1 fájl feltöltése",
+                  "Szabványos prioritási sorrend"
+                ]
+              },
+              "features": {
+                "title": "Funkciók",
+                "items": [
+                  "100+ nyelv",
+                  "Beszélő címkék",
+                  "Fordítás",
+                  "Minden exportformátum"
+                ]
+              },
+              "cta": {
+                "text": "Kezdés ingyen. Bankkártya nélkül.",
+                "button": "Jelenlegi csomag"
+              }
+            },
+            {
+              "name": "Pro Havi",
+              "price": "$17.99",
+              "period": "hó",
+              "discount": "$9.99 az első hónapban",
+              "limits": {
+                "title": "Nincs havi limit",
+                "items": [
+                  "Korlátlan összes perc",
+                  "Legfeljebb 10 óra / 5 GB fájlonként",
+                  "Egyszerre 50 fájl feltöltése",
+                  "Prioritási sorrend"
+                ]
+              },
+              "features": {
+                "title": "Minden, ami az Ingyenesben, plusz",
+                "items": [
+                  "Szószintű időbélyegek",
+                  "Fejlett beszélőazonosítás",
+                  "Formázott bekezdések & központozás",
+                  "Prioritásos támogatás"
+                ]
+              },
+              "cta": {
+                "text": "Korlátlan percek. Prioritásos sebesség. Csomagos feltöltés.",
+                "button": "Proba"
+              },
+              "badge": "Legnépszerűbb"
+            },
+            {
+              "name": "Pro Éves",
+              "price": "$8.99",
+              "period": "hó",
+              "discount": "Éves számlázás $107.88",
+              "limits": {
+                "title": "Ugyanaz, mint a Pro havi",
+                "items": [
+                  "Korlátlan összes perc",
+                  "Legfeljebb 10 óra / 5 GB fájlonként",
+                  "Egyszerre 50 fájl feltöltése",
+                  "Prioritási sorrend"
+                ]
+              },
+              "features": {
+                "title": "Minden, ami az Ingyenesben, plusz",
+                "items": [
+                  "Szószintű időbélyegek",
+                  "Fejlett beszélőazonosítás",
+                  "Formázott bekezdések & központozás",
+                  "Prioritásos támogatás"
+                ]
+              },
+              "cta": {
+                "text": "Korlátlan percek. Prioritásos sebesség. Csomagos feltöltés.",
+                "button": "Proba"
+              },
+              "badge": "Legjobb Érték - "
+            }
+          ],
       "disclaimer": 'A "korlátlan" azt jelenti, hogy nincs havi limit és mesterséges lassítás. A tisztességes felhasználás vonatkozik az visszaélő automatizálásra vagy terjesztésre.'
     },
     ComparisonTable: {
@@ -2614,7 +2614,7 @@ let message = {
       solutionTitle: "NeverCap Megoldás",
       solutionDesc: "Valóban korlátlan transzkripció. Töltsd fel a teljes tanulmányod. Írd át minden interjút. Elemezd az összes adatod. Nincs limit, nincs korlát, csak kutatás.",
       feature1Label: "Nincsenek Korlátok",
-      feature1Title: "Feldolgozhatod Az Egész Tanulmányt Egyszerre",
+      feature1Title: "Az Ön",
       feature1Desc: 'Tölts fel 200 órányi interjút ma este. Ébredj teljes, kereshető átiratokra. Nincs havi limit, fájlonkénti korlát, vagy "fair use" képtelenség.',
       feature1Point1: "50 fájl egyszerre kötegelt feltöltése",
       feature1Point2: "Hosszanti tanulmányok teljes feldolgozása",
@@ -2623,7 +2623,7 @@ let message = {
       feature1Visual1: "Korlátlan Órák",
       feature1Visual2: "Ugyanaz az ár 10 vagy 10 000 óra esetén is",
       feature2Label: "Okos MI",
-      feature2Title: "Mindig Pontosan Kezeli A Fókuszcsoportokat",
+      feature2Title: "Pontos irányítás",
       feature2Desc: "MI-nk akár 20 beszélőt is követ, még ha egyszerre is beszélnek, félbeszakítják egymást, vagy mind egyszerre szólnak bele. Minden hangot pontosan rögzít és címkéz.",
       feature2Point1: "20 beszélő azonosítása",
       feature2Point2: "Kezeli az átbeszélést és a félbeszakításokat",
@@ -2639,7 +2639,7 @@ let message = {
       conversationParticipant4: "4. Résztvevő",
       conversationText5: "Vidéki területeken mindhárom: költség, hozzáférés ÉS közlekedés.",
       feature3Label: "Pontosság",
-      feature3Title: "96%-os Pontosság Ami Kitart",
+      feature3Title: "Megbízható",
       feature3Desc: "Profin kezeli a szakzsargont, erős akcentust és szakterületi kifejezéseket. Elég pontos publikációhoz, lektoráláshoz és disszertációs bizottságodnak.",
       feature3Point1: "Orvosi és tudományos terminológia",
       feature3Point2: "100+ nyelv és dialektus",
@@ -2648,7 +2648,7 @@ let message = {
       feature3Visual1: "Kutatási Szintű Pontosság",
       feature3Visual2: "50 000+ kutató bízik benne",
       feature4Label: "Biztonság",
-      feature4Title: "IRB-Kész Biztonság",
+      feature4Title: "IRB megfelelőségi tanúsítás",
       feature4Desc: "Az érzékeny kutatási adataid vállalati szintű biztonsággal védettek. GDPR-kompatibilis, HIPAA-kész opciók és teljes auditnyomvonal az IRB követelményekhez.",
       feature4Point1: "Teljes körű titkosítás",
       feature4Point2: "GDPR és CCPA kompatibilitás",
@@ -2679,10 +2679,10 @@ let message = {
         title: "A",
         useCasesTitle2: "Minden Kutatási Módszerhez",
         testimonialTitle2: "Vezető Kutatók",
-        feature1TitleHl: "Teljes Tanulmány",
-        feature1TitlePost: "Egyetlen alkalommal",
-        feature2TitleHl: "Fókuszcsoportok",
-        feature2TitlePost: "Minden alkalommal",
+        feature1TitleHl: "Teljes kutatási projektje",
+        feature1TitlePost: "Minden egy helyen",
+        feature2TitleHl: "Fókuszcsoport-interjú",
+        feature2TitlePost: "Minden alkalommal sikerrel",
         feature3TitleHl: "96%-os pontosság",
         feature4TitleHl: "Biztonság",
         testimonialText2Hl: "200 óra",
@@ -3059,7 +3059,7 @@ let message = {
             },
             {
               "label": "Lépjen kapcsolatba velünk",
-              "value": ["Email", "0-24-es támogatás"]
+              "value": ["Email", "24/7-es támogatás"]
             }
           ]
     },

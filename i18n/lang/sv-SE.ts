@@ -1605,93 +1605,93 @@ let message = {
       "highlighted_text": "Inga dolda tak.",
       "description": "Välj den plan som passar dina behov. Uppgradera eller nedgradera när som helst. Inga avtal, inga överraskningar.",
       "plans": [
-        {
-          "name": "Gratis",
-          "price": "$0",
-          "period": "månad",
-          "discount": "Perfekt för att prova vår tjänst",
-          "limits": {
-            "title": "Dagliga gränser",
-            "items": [
-              "3 filer/dag (≈90 min totalt/dag)",
-              "Upp till 30 min per fil (≤250 MB)",
-              "Ladda upp 1 fil åt gången",
-              "Standardköprioritet"
-            ]
-          },
-          "features": {
-            "title": "Funktioner",
-            "items": [
-              "100+ språk",
-              "Talarmärkningar",
-              "Översättning",
-              "Alla exportformat"
-            ]
-          },
-          "cta": {
-            "text": "Börja gratis. Ingen kreditkort behövs.",
-            "button": "Nuvarande abonnemang"
-          }
-        },
-        {
-          "name": "Pro Månadsvis",
-          "price": "$17.99",
-          "period": "månad",
-          "discount": "$9.99 första månaden",
-          "limits": {
-            "title": "Ingen månatlig gräns",
-            "items": [
-              "Obegränsade totala minuter",
-              "Upp till 10 timmar / 5 GB per fil",
-              "Ladda upp 50 filer samtidigt",
-              "Prioriterad kö"
-            ]
-          },
-          "features": {
-            "title": "Allt i Gratis, plus",
-            "items": [
-              "Tidsstämplar på ordnivå",
-              "Avancerad talaridentifiering",
-              "Formaterade stycken & skiljetecken",
-              "Prioriterat stöd"
-            ]
-          },
-          "cta": {
-            "text": "Obegränsade minuter. Prioriterad hastighet. Massuppladdning.",
-            "button": "Gå Pro"
-          },
-          "badge": "Mest populär"
-        },
-        {
-          "name": "Pro Årlig",
-          "price": "$8.99",
-          "period": "månad",
-          "discount": "Faktureras årligen $107.88",
-          "limits": {
-            "title": "Samma som Pro Månadsvis",
-            "items": [
-              "Obegränsade totala minuter",
-              "Upp till 10 timmar / 5 GB per fil",
-              "Ladda upp 50 filer samtidigt",
-              "Prioriterad kö"
-            ]
-          },
-          "features": {
-            "title": "Allt i Gratis, plus",
-            "items": [
-              "Tidsstämplar på ordnivå",
-              "Avancerad talaridentifiering",
-              "Formaterade stycken & skiljetecken",
-              "Prioriterat stöd"
-            ]
-          },
-          "cta": {
-            "text": "Obegränsade minuter. Prioriterad hastighet. Massuppladdning.",
-            "button": "Gå Pro"
-          },
-          "badge": "Bästa Värde - "
-        }
-      ],
+            {
+              "name": "Gratis",
+              "price": "$0",
+              "period": "månad",
+              "discount": "Perfekt för att prova vår tjänst",
+              "limits": {
+                "title": "Dagliga gränser",
+                "items": [
+                  "3 filer/dag (≈90 min totalt/dag)",
+                  "Upp till 30 min per fil (≤250 MB)",
+                  "Ladda upp 1 fil åt gången",
+                  "Standardköprioritet"
+                ]
+              },
+              "features": {
+                "title": "Funktioner",
+                "items": [
+                  "100+ språk",
+                  "Talarmärkningar",
+                  "Översättning",
+                  "Alla exportformat"
+                ]
+              },
+              "cta": {
+                "text": "Börja gratis. Ingen kreditkort behövs.",
+                "button": "Nuvarande abonnemang"
+              }
+            },
+            {
+              "name": "Pro Månadsvis",
+              "price": "$17.99",
+              "period": "månad",
+              "discount": "$9.99 första månaden",
+              "limits": {
+                "title": "Ingen månatlig gräns",
+                "items": [
+                  "Obegränsade totala minuter",
+                  "Upp till 10 timmar / 5 GB per fil",
+                  "Ladda upp 50 filer samtidigt",
+                  "Prioriterad kö"
+                ]
+              },
+              "features": {
+                "title": "Allt i Gratis, plus",
+                "items": [
+                  "Tidsstämplar på ordnivå",
+                  "Avancerad talaridentifiering",
+                  "Formaterade stycken & skiljetecken",
+                  "Prioriterat stöd"
+                ]
+              },
+              "cta": {
+                "text": "Obegränsade minuter. Prioriterad hastighet. Massuppladdning.",
+                "button": "Gå Pro"
+              },
+              "badge": "Mest populär"
+            },
+            {
+              "name": "Pro Årlig",
+              "price": "$8.99",
+              "period": "månad",
+              "discount": "Faktureras årligen $107.88",
+              "limits": {
+                "title": "Samma som Pro Månadsvis",
+                "items": [
+                  "Obegränsade totala minuter",
+                  "Upp till 10 timmar / 5 GB per fil",
+                  "Ladda upp 50 filer samtidigt",
+                  "Prioriterad kö"
+                ]
+              },
+              "features": {
+                "title": "Allt i Gratis, plus",
+                "items": [
+                  "Tidsstämplar på ordnivå",
+                  "Avancerad talaridentifiering",
+                  "Formaterade stycken & skiljetecken",
+                  "Prioriterat stöd"
+                ]
+              },
+              "cta": {
+                "text": "Obegränsade minuter. Prioriterad hastighet. Massuppladdning.",
+                "button": "Gå Pro"
+              },
+              "badge": "Bästa Värde - "
+            }
+          ],
       "disclaimer": '\"Obegränsat\" innebär ingen månatlig tak och ingen artificell nedgång. Skäligt bruk gäller för missbruk av automatisering eller vidaredistribution.'
     },
     ComparisonTable: {
@@ -2611,7 +2611,7 @@ let message = {
       solutionTitle: "NeverCap-lösningen",
       solutionDesc: "Sann obegränsad transkription. Ladda upp hela din studie. Transkribera varje intervju. Analysera alla dina data. Inga tak, inga begränsningar, bara forskning.",
       feature1Label: "Inga Gränser",
-      feature1Title: "Bearbeta hela din studie på en gång",
+      feature1Title: "Hantera dina",
       feature1Desc: 'Ladda upp alla 200 timmars intervjuer ikväll. Vakna till färdiga, sökbara transkript. Inga månatliga tak, inga filbegränsningar, ingen "rimlig användning"-skitsnack.',
       feature1Point1: "Massuppladdning av 50 filer samtidigt",
       feature1Point2: "Bearbeta longitudinella studier helt",
@@ -2620,7 +2620,7 @@ let message = {
       feature1Visual1: "Obegränsade Timmar",
       feature1Visual2: "Samma pris oavsett 10 eller 10 000 timmar",
       feature2Label: "Smart AI",
-      feature2Title: "Lyckas Med Fokusgrupper Varje Gång",
+      feature2Title: "Exakt precision",
       feature2Desc: "Vår AI spårar upp till 20 talare även när de talar samtidigt, avbryter varandra eller svarar på en gång. Varje röst fångas och etiketteras korrekt.",
       feature2Point1: "20-talaridentifiering",
       feature2Point2: "Hanterar samtalsöverlappningar & avbrott",
@@ -2636,7 +2636,7 @@ let message = {
       conversationParticipant4: "Deltagare 4",
       conversationText5: "På landsbygden är det alla tre: kostnad, tillgång OCH transport.",
       feature3Label: "Precision",
-      feature3Title: "96% Noggrannhet Som Håller",
+      feature3Title: "Pålitlig",
       feature3Desc: "Hanterar fackspråk, starka dialekter och branschspecifik terminologi som en proffs. Tillräckligt exakt för publikation, peer review och din avhandlingskommitté.",
       feature3Point1: "Medicinsk & vetenskaplig terminologi",
       feature3Point2: "100+ språk & dialekter",
@@ -2645,7 +2645,7 @@ let message = {
       feature3Visual1: "Forskningsgrad av noggrannhet",
       feature3Visual2: "Förtroende av 50 000+ forskare",
       feature4Label: "Säkerhet",
-      feature4Title: "IRB-redo säkerhet",
+      feature4Title: "IRB-certifiering",
       feature4Desc: "Din känsliga forskningsdata skyddas med företagsklassad säkerhet. GDPR-uppfyllande, HIPAA-redo alternativ och fullständiga revisionsspår för IRB-krav.",
       feature4Point1: "End-to-end-kryptering",
       feature4Point2: "GDPR & CCPA-uppfyllande",
@@ -2676,11 +2676,11 @@ let message = {
         title: "The",
         useCasesTitle2: "Varje Forskningsmetod",
         testimonialTitle2: "Ledande forskare",
-        feature1TitleHl: "Hela studien",
-        feature1TitlePost: "på en gång",
-        feature2TitleHl: "Fokusgrupper",
-        feature2TitlePost: "varje gång",
-        feature3TitleHl: "96 % noggrannhet",
+        feature1TitleHl: "Hela forskningsprojektet",
+        feature1TitlePost: "Allt på ett ställe",
+        feature2TitleHl: "Fokusgruppsintervjuer",
+        feature2TitlePost: "Framgång varje gång",
+        feature3TitleHl: "96% noggrannhet",
         feature4TitleHl: "Säkerhet",
         testimonialText2Hl: "200 timmar",
         testimonialText3: "av fokusgruppinspelningar från vår hälsostudie i samhället. Andra tjänster ville att vi skulle välja vilka sessioner som skulle avskrivas på grund av kostnaden. NeverCap lät oss behandla",

@@ -2144,8 +2144,8 @@ let message = {
 
       // Features Section
       feature1Label: "No Limits",
-      feature1TitleHl: "Entire Study ",
-      feature1Title: "Process Your ",
+      feature1TitleHl: "Entire Study",
+      feature1Title: "Process Your",
       feature1TitlePost: " in One Go",
       feature1Desc:
         'Upload all 200 hours of interviews tonight. Wake up to complete, searchable transcripts. No monthly caps, no per-file limits, no "fair use" BS.',
@@ -2193,7 +2193,7 @@ let message = {
       feature3Visual2: "Trusted by 50,000+ researchers",
 
       feature4Label: "Security",
-      feature4TitleHl: " Security",
+      feature4TitleHl: "Security",
       feature4Title: "IRB-Ready",
       feature4Desc:
         "Your sensitive research data is protected with enterprise-grade security. GDPR compliant, HIPAA-ready options, and full audit trails for IRB requirements.",
@@ -2236,11 +2236,11 @@ let message = {
       testimonialTitle2: "Leading Researchers",
       testimonialText: 'Our research team had ',
       testimonialText2Hl: '200 hours',
-      testimonialText3: ' of focus group recordings from our community health study. Other services wanted us to pick and choose which sessions to transcribe because of the cost. NeverCap let us process ',
+      testimonialText3: ' of focus group recordings from our community health study. Other services wanted us to pick and choose which sessions to transcribe because of the cost. NeverCap let us process',
       testimonialText4Hl: 'everything over a weekend',
-      testimonialText5: '. The 20-speaker identification actually worked—even during our messiest discussions where everyone was talking at once. This tool has ',
+      testimonialText5: '. The 20-speaker identification actually worked—even during our messiest discussions where everyone was talking at once. This tool has',
       testimonialText6Hl: 'completely changed',
-      testimonialText7: ' how we handle qualitative data.',
+      testimonialText7: 'how we handle qualitative data.',
 
       testimonialAuthorName: "Dr. Sarah Chen",
       testimonialAuthorRole: "Lead Researcher, Public Health Institute",

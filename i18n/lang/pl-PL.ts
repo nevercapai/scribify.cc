@@ -1610,93 +1610,93 @@ let message = {
       "highlighted_text": "Brak ukrytych limitów.",
       "description": "Wybierz plan dopasowany do Twoich potrzeb. Zmieniaj w każdej chwili. Brak umów, niespodzianek.",
       "plans": [
-        {
-          "name": "Darmowe",
-          "price": "$0",
-          "period": "miesiąc",
-          "discount": "Idealne do wypróbowania naszej usługi",
-          "limits": {
-            "title": "Dzienne limity",
-            "items": [
-              "3 pliki/dzień (≈90 min łącznie/dzień)",
-              "Do 30 min na plik (≤250 MB)",
-              "Prześlij 1 plik naraz",
-              "Standardowa kolejka priorytetowa"
-            ]
-          },
-          "features": {
-            "title": "Funkcje",
-            "items": [
-              "100+ języków",
-              "Etykiety mówców",
-              "Tłumaczenie",
-              "Wszystkie formaty eksportu"
-            ]
-          },
-          "cta": {
-            "text": "Zacznij za darmo. Bez karty kredytowej.",
-            "button": "Obecny plan"
-          }
-        },
-        {
-          "name": "Pro Miesięczna",
-          "price": "$17.99",
-          "period": "miesiąc",
-          "discount": "$9.99 przez pierwszy miesiąc",
-          "limits": {
-            "title": "Brak miesięcznego limitu",
-            "items": [
-              "Nielimitowane minuty łącznie",
-              "Do 10 godzin / 5 GB na plik",
-              "Prześlij 50 plików naraz",
-              "Priorytetowa kolejka"
-            ]
-          },
-          "features": {
-            "title": "Wszystko z Darmowego, plus",
-            "items": [
-              "Znaczniki czasu na poziomie słów",
-              "Zaawansowana identyfikacja mówców",
-              "Formatowane akapity i interpunkcja",
-              "Priorytetowe wsparcie"
-            ]
-          },
-          "cta": {
-            "text": "Nielimitowane minuty. Priorytetowa prędkość. Zbiorcze przesyłanie.",
-            "button": "Przejdź na Pro"
-          },
-          "badge": "Najpopularniejsze"
-        },
-        {
-          "name": "Pro Roczna",
-          "price": "$8.99",
-          "period": "miesiąc",
-          "discount": "Płatność roczna $107.88",
-          "limits": {
-            "title": "To samo co Pro Miesięczny",
-            "items": [
-              "Nielimitowane minuty łącznie",
-              "Do 10 godzin / 5 GB na plik",
-              "Prześlij 50 plików naraz",
-              "Priorytetowa kolejka"
-            ]
-          },
-          "features": {
-            "title": "Wszystko z Darmowego, plus",
-            "items": [
-              "Znaczniki czasu na poziomie słów",
-              "Zaawansowana identyfikacja mówców",
-              "Formatowane akapity i interpunkcja",
-              "Priorytetowe wsparcie"
-            ]
-          },
-          "cta": {
-            "text": "Nielimitowane minuty. Priorytetowa prędkość. Zbiorcze przesyłanie.",
-            "button": "Przejdź na Pro"
-          },
-          "badge": "Najlepsza Wartość - "
-        }
-      ],
+            {
+              "name": "Darmowe",
+              "price": "$0",
+              "period": "miesiąc",
+              "discount": "Idealne do wypróbowania naszej usługi",
+              "limits": {
+                "title": "Dzienne limity",
+                "items": [
+                  "3 pliki/dzień (≈90 min łącznie/dzień)",
+                  "Do 30 min na plik (≤250 MB)",
+                  "Prześlij 1 plik naraz",
+                  "Standardowa kolejka priorytetowa"
+                ]
+              },
+              "features": {
+                "title": "Funkcje",
+                "items": [
+                  "100+ języków",
+                  "Etykiety mówców",
+                  "Tłumaczenie",
+                  "Wszystkie formaty eksportu"
+                ]
+              },
+              "cta": {
+                "text": "Zacznij za darmo. Bez karty kredytowej.",
+                "button": "Obecny plan"
+              }
+            },
+            {
+              "name": "Pro Miesięczna",
+              "price": "$17.99",
+              "period": "miesiąc",
+              "discount": "$9.99 przez pierwszy miesiąc",
+              "limits": {
+                "title": "Brak miesięcznego limitu",
+                "items": [
+                  "Nielimitowane minuty łącznie",
+                  "Do 10 godzin / 5 GB na plik",
+                  "Prześlij 50 plików naraz",
+                  "Priorytetowa kolejka"
+                ]
+              },
+              "features": {
+                "title": "Wszystko z Darmowego, plus",
+                "items": [
+                  "Znaczniki czasu na poziomie słów",
+                  "Zaawansowana identyfikacja mówców",
+                  "Formatowane akapity i interpunkcja",
+                  "Priorytetowe wsparcie"
+                ]
+              },
+              "cta": {
+                "text": "Nielimitowane minuty. Priorytetowa prędkość. Zbiorcze przesyłanie.",
+                "button": "Przejdź na Pro"
+              },
+              "badge": "Najpopularniejsze"
+            },
+            {
+              "name": "Pro Roczna",
+              "price": "$8.99",
+              "period": "miesiąc",
+              "discount": "Płatność roczna $107.88",
+              "limits": {
+                "title": "To samo co Pro Miesięczny",
+                "items": [
+                  "Nielimitowane minuty łącznie",
+                  "Do 10 godzin / 5 GB na plik",
+                  "Prześlij 50 plików naraz",
+                  "Priorytetowa kolejka"
+                ]
+              },
+              "features": {
+                "title": "Wszystko z Darmowego, plus",
+                "items": [
+                  "Znaczniki czasu na poziomie słów",
+                  "Zaawansowana identyfikacja mówców",
+                  "Formatowane akapity i interpunkcja",
+                  "Priorytetowe wsparcie"
+                ]
+              },
+              "cta": {
+                "text": "Nielimitowane minuty. Priorytetowa prędkość. Zbiorcze przesyłanie.",
+                "button": "Przejdź na Pro"
+              },
+              "badge": "Najlepsza Wartość - "
+            }
+          ],
       "disclaimer": "„Nielimitowane” oznacza brak miesięcznego limitu i sztucznego spowalniania. Zasady uczciwego użytkowania dotyczą nadużywania automatyzacji lub redystrybucji."
     },
     ComparisonTable: {
@@ -2616,7 +2616,7 @@ let message = {
       solutionTitle: "Rozwiązanie NeverCap",
       solutionDesc: "Prawdziwie nieograniczona transkrypcja. Prześlij całe badanie. Transkrybuj każdy wywiad. Analizuj wszystkie dane. Bez limitów, bez ograniczeń, tylko badania.",
       feature1Label: "Bez ograniczeń",
-      feature1Title: "Przetwórz całe badanie za jednym razem",
+      feature1Title: "Obsługa Twojego",
       feature1Desc: 'Prześlij dziś wieczorem wszystkie 200 godzin wywiadów. Obudź się do gotowych, przeszukiwalnych transkrypcji. Brak miesięcznych limitów, ograniczeń na plik czy "uczciwego użytku".',
       feature1Point1: "Zbiorcze przesyłanie 50 plików jednocześnie",
       feature1Point2: "Kompletne przetwarzanie badań longitudinalnych",
@@ -2625,7 +2625,7 @@ let message = {
       feature1Visual1: "Nieograniczona liczba godzin",
       feature1Visual2: "Ta sama cena dla 10 i 10 000 godzin",
       feature2Label: "Inteligentna AI",
-      feature2Title: "Za każdym razem perfekcyjne grupy fokusowe",
+      feature2Title: "Precyzyjne podejście",
       feature2Desc: "Nasza AI śledzi do 20 mówców nawet gdy mówią jednocześnie, przerywają sobie lub wtrącają się. Każdy głos jest poprawnie przechwycony i oznaczony.",
       feature2Point1: "Identyfikacja 20 mówców",
       feature2Point2: "Obsługa nakładających się wypowiedzi i przerw",
@@ -2641,7 +2641,7 @@ let message = {
       conversationParticipant4: "Uczestnik 4",
       conversationText5: "Na obszarach wiejskich to wszystkie trzy: koszt, dostęp I transport.",
       feature3Label: "Precyzja",
-      feature3Title: "96% dokładności, która się utrzymuje",
+      feature3Title: "Godne zaufania",
       feature3Desc: "Obsługuje żargon techniczny, silne akcenty i terminologię specjalistyczną jak profesjonalista. Wystarczająco dokładne dla publikacji, recenzji i komisji doktorskiej.",
       feature3Point1: "Terminologia medyczna i naukowa",
       feature3Point2: "100+ języków i dialektów",
@@ -2650,7 +2650,7 @@ let message = {
       feature3Visual1: "Dokładność na poziomie badawczym",
       feature3Visual2: "Zaufane przez 50 000+ badaczy",
       feature4Label: "Bezpieczeństwo",
-      feature4Title: "Zabezpieczenia zgodne z IRB",
+      feature4Title: "Certyfikat zgodności IRB",
       feature4Desc: "Twoje wrażliwe dane badawcze chronione są zabezpieczeniami klasy enterprise. Zgodność z RODO, opcje zgodne z HIPAA i pełne ślady audytowe dla wymogów IRB.",
       feature4Point1: "Szyfrowanie end-to-end",
       feature4Point2: "Zgodne z RODO i CCPA",
@@ -2681,11 +2681,11 @@ let message = {
         title: "The",
         useCasesTitle2: "Każdej metody badawczej",
         testimonialTitle2: "Wiodących Badaczy",
-        feature1TitleHl: "Całe badanie",
-        feature1TitlePost: "Za jednym razem",
-        feature2TitleHl: "Grupy fokusowe",
-        feature2TitlePost: "Za każdym razem",
-        feature3TitleHl: "96% dokładność",
+        feature1TitleHl: "Całego projektu badawczego",
+        feature1TitlePost: "W jednym miejscu",
+        feature2TitleHl: "Wywiad fokusowy",
+        feature2TitlePost: "Za każdym razem skutecznie",
+        feature3TitleHl: "96% dokładności",
         feature4TitleHl: "Bezpieczeństwo",
         testimonialText2Hl: "200 godzin",
         testimonialText3: "nagrań grup fokusowych z naszego badania zdrowia społeczności. Inne usługi kazały nam wybierać, które sesje przetranskrybować ze względu na koszty. NeverCap pozwolił nam przetworzyć",

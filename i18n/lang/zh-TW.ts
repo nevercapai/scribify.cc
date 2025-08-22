@@ -1565,93 +1565,93 @@ let message = {
       "highlighted_text": "無隱藏限制。",
       "description": "選擇適合的方案。隨時升級或降級。無合約、無隱藏費用。",
       "plans": [
-        {
-          "name": "免費",
-          "price": "$0",
-          "period": "月",
-          "discount": "適合試用我們的服務",
-          "limits": {
-            "title": "每日限制",
-            "items": [
-              "3 個檔案/天 (≈90 分鐘總計/天)",
-              "每個檔案最多 30 分鐘 (≤250 MB)",
-              "每次上傳 1 個檔案",
-              "標準優先佇列"
-            ]
-          },
-          "features": {
-            "title": "功能",
-            "items": [
-              "100+ 種語言",
-              "說話者標籤",
-              "翻譯",
-              "所有匯出格式"
-            ]
-          },
-          "cta": {
-            "text": "免費開始。無需信用卡。",
-            "button": "當前方案"
-          }
-        },
-        {
-          "name": "專業月費版",
-          "price": "$17.99",
-          "period": "月",
-          "discount": "首月 $9.99",
-          "limits": {
-            "title": "無月費上限",
-            "items": [
-              "無限總分鐘數",
-              "每個檔案最多 10 小時 / 5 GB",
-              "一次上傳 50 個檔案",
-              "優先佇列"
-            ]
-          },
-          "features": {
-            "title": "包含免費版所有功能，外加",
-            "items": [
-              "單詞級時間戳",
-              "進階說話者識別",
-              "格式化段落與標點",
-              "優先支援"
-            ]
-          },
-          "cta": {
-            "text": "無限分鐘。優先速度。批次上傳。",
-            "button": "升級專業版"
-          },
-          "badge": "最受歡迎"
-        },
-        {
-          "name": "專業年費版",
-          "price": "$8.99",
-          "period": "月",
-          "discount": "年付 $107.88",
-          "limits": {
-            "title": "與專業月付版相同",
-            "items": [
-              "無限總分鐘數",
-              "每個檔案最多 10 小時 / 5 GB",
-              "一次上傳 50 個檔案",
-              "優先佇列"
-            ]
-          },
-          "features": {
-            "title": "包含免費版所有功能，外加",
-            "items": [
-              "單詞級時間戳",
-              "進階說話者識別",
-              "格式化段落與標點",
-              "優先支援"
-            ]
-          },
-          "cta": {
-            "text": "無限分鐘。優先速度。批次上傳。",
-            "button": "升級專業版"
-          },
-          "badge": "最佳價值 - "
-        }
-      ],
+            {
+              "name": "免費",
+              "price": "$0",
+              "period": "月",
+              "discount": "適合試用我們的服務",
+              "limits": {
+                "title": "每日限制",
+                "items": [
+                  "3 個檔案/天 (≈90 分鐘總計/天)",
+                  "每個檔案最多 30 分鐘 (≤250 MB)",
+                  "每次上傳 1 個檔案",
+                  "標準優先佇列"
+                ]
+              },
+              "features": {
+                "title": "功能",
+                "items": [
+                  "100+ 種語言",
+                  "說話者標籤",
+                  "翻譯",
+                  "所有匯出格式"
+                ]
+              },
+              "cta": {
+                "text": "免費開始。無需信用卡。",
+                "button": "當前方案"
+              }
+            },
+            {
+              "name": "專業月費版",
+              "price": "$17.99",
+              "period": "月",
+              "discount": "首月 $9.99",
+              "limits": {
+                "title": "無月費上限",
+                "items": [
+                  "無限總分鐘數",
+                  "每個檔案最多 10 小時 / 5 GB",
+                  "一次上傳 50 個檔案",
+                  "優先佇列"
+                ]
+              },
+              "features": {
+                "title": "包含免費版所有功能，外加",
+                "items": [
+                  "單詞級時間戳",
+                  "進階說話者識別",
+                  "格式化段落與標點",
+                  "優先支援"
+                ]
+              },
+              "cta": {
+                "text": "無限分鐘。優先速度。批次上傳。",
+                "button": "升級專業版"
+              },
+              "badge": "最受歡迎"
+            },
+            {
+              "name": "專業年費版",
+              "price": "$8.99",
+              "period": "月",
+              "discount": "年付 $107.88",
+              "limits": {
+                "title": "與專業月付版相同",
+                "items": [
+                  "無限總分鐘數",
+                  "每個檔案最多 10 小時 / 5 GB",
+                  "一次上傳 50 個檔案",
+                  "優先佇列"
+                ]
+              },
+              "features": {
+                "title": "包含免費版所有功能，外加",
+                "items": [
+                  "單詞級時間戳",
+                  "進階說話者識別",
+                  "格式化段落與標點",
+                  "優先支援"
+                ]
+              },
+              "cta": {
+                "text": "無限分鐘。優先速度。批次上傳。",
+                "button": "升級專業版"
+              },
+              "badge": "最佳價值 - "
+            }
+          ],
       "disclaimer": "「無限」代表無月度上限且無人工降速。合理使用政策適用於濫用自動化或重新分發行為。"
     },
     ComparisonTable: {
@@ -2571,7 +2571,7 @@ let message = {
       solutionTitle: "NeverCap解決方案",
       solutionDesc: "真正的無限轉錄。上傳您的整個研究。轉錄每次訪談。分析所有數據。無上限，無限制，只有研究。",
       feature1Label: "無限制",
-      feature1Title: "一次性處理整個研究",
+      feature1Title: "處理您的",
       feature1Desc: "今晚就上傳所有200小時的訪談。醒來即可獲得完整、可搜索的轉錄稿。無月度上限，無單檔限制，沒有「合理使用」的廢話。",
       feature1Point1: "批量同時上傳50個檔案",
       feature1Point2: "完整處理縱向研究",
@@ -2580,7 +2580,7 @@ let message = {
       feature1Visual1: "無限時數",
       feature1Visual2: "10小時或10,000小時同價",
       feature2Label: "智能AI",
-      feature2Title: "每次完美處理焦點小組",
+      feature2Title: "精準把握",
       feature2Desc: "我們的AI可追蹤多達20位發言者，即使他們互相插話、打斷或同時發言。每個聲音都能正確捕捉並標記。",
       feature2Point1: "20人發言識別",
       feature2Point2: "處理交叉對話與中斷",
@@ -2596,7 +2596,7 @@ let message = {
       conversationParticipant4: "參與者4",
       conversationText5: "在鄉村地區，三者皆是：成本、獲取途徑和交通。",
       feature3Label: "精準度",
-      feature3Title: "穩定保持96%準確率",
+      feature3Title: "值得信賴",
       feature3Desc: "專業處理技術術語、濃重口音和領域專用詞彙。準確度足以應付出版、同行評審和論文委員會。",
       feature3Point1: "醫學與科學術語",
       feature3Point2: "100+種語言與方言",
@@ -2605,7 +2605,7 @@ let message = {
       feature3Visual1: "研究級準確度",
       feature3Visual2: "獲得50,000+研究人員信賴",
       feature4Label: "安全性",
-      feature4Title: "符合IRB標準的安全措施",
+      feature4Title: "IRB合規認證",
       feature4Desc: "您的敏感研究數據受企業級安全保護。符合GDPR，提供HIPAA就緒選項，完整審計追蹤滿足IRB要求。",
       feature4Point1: "端到端加密",
       feature4Point2: "符合GDPR與CCPA",
@@ -2636,10 +2636,10 @@ let message = {
         title: "The",
         useCasesTitle2: "每種研究方法",
         testimonialTitle2: "領先研究人員的信賴",
-        feature1TitleHl: "完整研究",
-        feature1TitlePost: "一次完成",
-        feature2TitleHl: "焦點團體",
-        feature2TitlePost: "每次皆然",
+        feature1TitleHl: "整個研究項目",
+        feature1TitlePost: "一站式完成",
+        feature2TitleHl: "焦點小組訪談",
+        feature2TitlePost: "次次成功",
         feature3TitleHl: "96%準確率",
         feature4TitleHl: "安全性",
         testimonialText2Hl: "200小時",

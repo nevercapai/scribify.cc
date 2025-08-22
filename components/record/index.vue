@@ -36,8 +36,8 @@
                 @click.stop.prevent="toggleRecording"
                 class="me-8 flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-full border-2 border-[#64748B]"
               >
-                <nuxt-img v-if="!isRecording" class="ml-0.5 w-[9px]" src="/assets/images/home/play.svg" />
-                <nuxt-img v-else class="w-[8px]" src="/assets/images/home/pause.svg" />
+                <nuxt-img preload v-if="!isRecording" class="ml-0.5 w-[9px]" src="/assets/images/home/play.svg" />
+                <nuxt-img preload v-else class="w-[8px]" src="/assets/images/home/pause.svg" />
               </button>
             </el-tooltip>
 

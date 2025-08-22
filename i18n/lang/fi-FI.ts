@@ -1032,41 +1032,41 @@ let message = {
     contactUsContent2: "."
   },
   HeadNavbar: {
-    Features: "Rajaton Tekstitys",
-    UnlimitedTranscription: "Massa-Lataus",
-    BulkUpload: "96 % Tarkkuus",
-    Accuracy: "Hinnoittelu",
-    Pricing: "Käyttötapaukset",
-    UseCases: "Kaikki Käyttötapaukset",
-    AllUseCases: "Podcastaajat",
-    Podcasters: "Toimittajat",
-    Journalists: "Sisällöntuottajat",
-    ContentCreators: "Tutkijat",
-    Researchers: "Liiketiimit",
-    BusinessTeams: "Opettajat",
-    Educators: "Resurssit",
-    Resources: "YouTube MP4-muotoon",
-    YouTubetoMP4: "Ilmainen kokeilu",
+    Features: "Ominaisuudet",
+    UnlimitedTranscription: "Rajaton Tekstitys",
+    BulkUpload: "Massa-Lataus",
+    Accuracy: "96% Tarkkuus",
+    Pricing: "Hinnoittelu",
+    UseCases: "Käyttötapaukset",
+    AllUseCases: "Kaikki Käyttötapaukset",
+    Podcasters: "Podcastaajat",
+    Journalists: "Toimittajat",
+    ContentCreators: "Sisällöntuottajat",
+    Researchers: "Tutkijat",
+    BusinessTeams: "Liiketiimit",
+    Educators: "Opettajat",
+    Resources: "Resurssit",
+    YouTubetoMP4: "YouTube MP4-muotoon",
     StartFreeTrial: "Ilmainen kokeilu"
   },
   Footer: {
-    des: "Ominaisuudet",
-    Features: "Käyttötapaukset",
-    UseCases: "Yritys",
-    Company: "Rajaton Tekstitys",
-    featureMenus: ["Massa-Lataus", "96 % Tarkkuus", "Kaikki Käyttötapaukset"],
+    des: "Maailman ensimmäinen todella rajaton AI-tekstitypalvelu. Ei rajoituksia, ei kattoja, vain vapaus luoda.",
+    Features: "Ominaisuudet",
+    UseCases: "Käyttötapaukset",
+    Company: "Yritys",
+    featureMenus: ["Rajaton Tekstitys", "Massa-Lataus", "96% Tarkkuus"],
     useCaseMenus: [
-          "kaikki käyttöskenaariot",
+          "Kaikki Käyttötapaukset",
           "Podcastaajat",
           "Toimittajat",
-          "Sisältöluojat",
+          "Sisällöntuottajat",
           "Tutkijat",
           "Liiketiimit",
           "Opettajat"
         ],
     companyMenus: [
-          "Tietoa",
-          "Hinnasto",
+          "Tietoja",
+          "Hinnoittelu",
           "Tietosuoja",
           "Käyttöehdot"
         ]
@@ -1605,93 +1605,93 @@ let message = {
       "highlighted_text": "Ei Piilotettuja Kattoja.",
       "description": "Valitse tarpeitasi vastaava suunnitelma. Päivitä tai alenna milloin tahansa. Ei sopimuksia, ei yllätyksiä.",
       "plans": [
-        {
-          "name": "Ilmainen",
-          "price": "$0",
-          "period": "kk",
-          "discount": "Erinomainen palvelumme kokeiluun",
-          "limits": {
-            "title": "Päivittäiset rajat",
-            "items": [
-              "3 tiedostoa/päivä (≈90 min yhteensä/päivä)",
-              "Enintään 30 min/tiedosto (≤250 MT)",
-              "Lataa 1 tiedosto kerrallaan",
-              "Tavallinen jonotus"
-            ]
-          },
-          "features": {
-            "title": "Ominaisuudet",
-            "items": [
-              "100+ kieltä",
-              "Puhujien tunnisteet",
-              "Käännös",
-              "Kaikki vientiformaatit"
-            ]
-          },
-          "cta": {
-            "text": "Aloita ilmaiseksi. Ei luottokorttia.",
-            "button": "Nykyinen suunnitelma"
-          }
-        },
-        {
-          "name": "Pro Kuukausittain",
-          "price": "$17.99",
-          "period": "kk",
-          "discount": "$9.99 ensimmäiseksi kuukaudeksi",
-          "limits": {
-            "title": "Ei kuukausirajaa",
-            "items": [
-              "Rajoittamattomat minuutit",
-              "Enintään 10 tuntia / 5 GT tiedostoa kohden",
-              "Lataa 50 tiedostoa kerralla",
-              "Etusijajono"
-            ]
-          },
-          "features": {
-            "title": "Kaikki Ilmaisessa, plus",
-            "items": [
-              "Sanatason aikaleimat",
-              "Kehittynyt puhujien tunnistus",
-              "Muotoillut kappaleet & välimerkit",
-              "Etusijatuki"
-            ]
-          },
-          "cta": {
-            "text": "Rajoittamattomat minuutit. Etusijanopeus. Massalataukset.",
-            "button": "Siirry Pro"
-          },
-          "badge": "Suosituin"
-        },
-        {
-          "name": "Pro Vuosittain",
-          "price": "$8.99",
-          "period": "kk",
-          "discount": "Laskutetaan vuosittain $107.88",
-          "limits": {
-            "title": "Sama kuin Pro-kuukausi",
-            "items": [
-              "Rajoittamattomat minuutit",
-              "Enintään 10 tuntia / 5 GT tiedostoa kohden",
-              "Lataa 50 tiedostoa kerralla",
-              "Etusijajono"
-            ]
-          },
-          "features": {
-            "title": "Kaikki Ilmaisessa, plus",
-            "items": [
-              "Sanatason aikaleimat",
-              "Kehittynyt puhujien tunnistus",
-              "Muotoillut kappaleet & välimerkit",
-              "Etusijatuki"
-            ]
-          },
-          "cta": {
-            "text": "Rajoittamattomat minuutit. Etusijanopeus. Massalataukset.",
-            "button": "Siirry Pro"
-          },
-          "badge": "Paras Arvo - "
-        }
-      ],
+            {
+              "name": "Ilmainen",
+              "price": "$0",
+              "period": "kk",
+              "discount": "Erinomainen palvelumme kokeiluun",
+              "limits": {
+                "title": "Päivittäiset rajat",
+                "items": [
+                  "3 tiedostoa/päivä (≈90 min yhteensä/päivä)",
+                  "Enintään 30 min/tiedosto (≤250 MT)",
+                  "Lataa 1 tiedosto kerrallaan",
+                  "Tavallinen jonotus"
+                ]
+              },
+              "features": {
+                "title": "Ominaisuudet",
+                "items": [
+                  "100+ kieltä",
+                  "Puhujien tunnisteet",
+                  "Käännös",
+                  "Kaikki vientiformaatit"
+                ]
+              },
+              "cta": {
+                "text": "Aloita ilmaiseksi. Ei luottokorttia.",
+                "button": "Nykyinen suunnitelma"
+              }
+            },
+            {
+              "name": "Pro Kuukausittain",
+              "price": "$17.99",
+              "period": "kk",
+              "discount": "$9.99 ensimmäiseksi kuukaudeksi",
+              "limits": {
+                "title": "Ei kuukausirajaa",
+                "items": [
+                  "Rajoittamattomat minuutit",
+                  "Enintään 10 tuntia / 5 GT tiedostoa kohden",
+                  "Lataa 50 tiedostoa kerralla",
+                  "Etusijajono"
+                ]
+              },
+              "features": {
+                "title": "Kaikki Ilmaisessa, plus",
+                "items": [
+                  "Sanatason aikaleimat",
+                  "Kehittynyt puhujien tunnistus",
+                  "Muotoillut kappaleet & välimerkit",
+                  "Etusijatuki"
+                ]
+              },
+              "cta": {
+                "text": "Rajoittamattomat minuutit. Etusijanopeus. Massalataukset.",
+                "button": "Siirry Pro"
+              },
+              "badge": "Suosituin"
+            },
+            {
+              "name": "Pro Vuosittain",
+              "price": "$8.99",
+              "period": "kk",
+              "discount": "Laskutetaan vuosittain $107.88",
+              "limits": {
+                "title": "Sama kuin Pro-kuukausi",
+                "items": [
+                  "Rajoittamattomat minuutit",
+                  "Enintään 10 tuntia / 5 GT tiedostoa kohden",
+                  "Lataa 50 tiedostoa kerralla",
+                  "Etusijajono"
+                ]
+              },
+              "features": {
+                "title": "Kaikki Ilmaisessa, plus",
+                "items": [
+                  "Sanatason aikaleimat",
+                  "Kehittynyt puhujien tunnistus",
+                  "Muotoillut kappaleet & välimerkit",
+                  "Etusijatuki"
+                ]
+              },
+              "cta": {
+                "text": "Rajoittamattomat minuutit. Etusijanopeus. Massalataukset.",
+                "button": "Siirry Pro"
+              },
+              "badge": "Paras Arvo - "
+            }
+          ],
       "disclaimer": '\"Rajaton\" tarkoittaa ei kuukausirajoitusta eikä keinotekoista hidastamista. Kohtuullinen käyttö koskee väärinkäyttöä tai uudelleenjakelua.'
     },
     ComparisonTable: {
@@ -2611,7 +2611,7 @@ let message = {
       solutionTitle: "NeverCap-ratkaisu",
       solutionDesc: "Todella rajatonta transkriptiota. Lataa koko tutkimuksesi. Transkriboi jokainen haastattelu. Analysoi kaikki tietosi. Ei kattoja, ei rajoja, vain tutkimusta.",
       feature1Label: "Ei rajoja",
-      feature1Title: "Käsittele koko tutkimuksesi kerralla",
+      feature1Title: "Käsittele sinun",
       feature1Desc: 'Lataa kaikki 200 tuntia haastatteluja tänä yönä. Herää valmiiksi, haettaviin transkriptioihin. Ei kuukausirajoja, ei tiedostokohtaisia rajoja, ei "kohtuullisen käytön" hölynpölyä.',
       feature1Point1: "Lähetä 50 tiedostoa kerralla",
       feature1Point2: "Käsittele pitkittäistutkimukset kokonaan",
@@ -2620,7 +2620,7 @@ let message = {
       feature1Visual1: "Rajattomat tunnit",
       feature1Visual2: "Sama hinta, olipa kyseessä 10 tai 10 000 tuntia",
       feature2Label: "Älykäs tekoäly",
-      feature2Title: "Hoitaa kohderyhmät aina täydellisesti",
+      feature2Title: "Täsmällinen hallinta",
       feature2Desc: "Tekoälymme seuraa jopa 20 puhujaa, vaikka he puhuisivat päällekkäin, keskeyttäisivät toisiaan tai puhuisivat kaikki yhtä aikaa. Jokainen ääni tallennetaan ja merkitään oikein.",
       feature2Point1: "20 puhujan tunnistus",
       feature2Point2: "Hallitsee päällekkäiset puheet ja keskeytykset",
@@ -2636,7 +2636,7 @@ let message = {
       conversationParticipant4: "Osallistuja 4",
       conversationText5: "Maaseudulla kaikki kolme ovat ongelmia: hinta, saatavuus JA liikenne.",
       feature3Label: "Tarkkuus",
-      feature3Title: "96 % tarkkuus, joka säilyy",
+      feature3Title: "Luotettava",
       feature3Desc: "Hallitsee ammattilaisen tavoin teknistä termistöä, vahvoja aksentteja ja alakohtaisia termejä. Riittävän tarkka julkaisuihin, vertaisarviointiin ja väitöskirjatoimikunnalle.",
       feature3Point1: "Lääketieteellinen ja tieteellinen termistö",
       feature3Point2: "100+ kieltä ja murretta",
@@ -2645,7 +2645,7 @@ let message = {
       feature3Visual1: "Tutkimusluokan tarkkuus",
       feature3Visual2: "Yli 50 000 tutkijan luottama",
       feature4Label: "Turvallisuus",
-      feature4Title: "IRB-valmis turvallisuus",
+      feature4Title: "IRB-sertifioitu",
       feature4Desc: "Arkaluontoinen tutkimustietosi on suojattu yritysluokan turvallisuudella. GDPR-yhteensopiva, HIPAA-valmis vaihtoehdot ja täydelliset valvontajäljet IRB-vaatimuksia varten.",
       feature4Point1: "Päästä päähän -salaus",
       feature4Point2: "GDPR- ja CCPA-yhteensopiva",
@@ -2676,10 +2676,10 @@ let message = {
         title: "The",
         useCasesTitle2: "Jokaiseen tutkimusmenetelmään",
         testimonialTitle2: "Johtavat tutkijat",
-        feature1TitleHl: "Koko tutkimus",
-        feature1TitlePost: "Kerralla",
-        feature2TitleHl: "Fokusryhmät",
-        feature2TitlePost: "Joka kerta",
+        feature1TitleHl: "Koko tutkimusprojekti",
+        feature1TitlePost: "Kaikki yhdessä paikassa",
+        feature2TitleHl: "Kohderyhmähaastattelut",
+        feature2TitlePost: "Joka kerta onnistuu",
         feature3TitleHl: "96 % tarkkuus",
         feature4TitleHl: "Turvallisuus",
         testimonialText2Hl: "200 tuntia",

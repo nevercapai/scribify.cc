@@ -1280,9 +1280,9 @@ let message = {
       feature1Stat1Label: "Aylık Saatler",
       feature1Stat2Number: "$0",
       feature1Stat2Label: "Fazla Kullanım Ücretleri",
-      feature1Stat3Number: "7/24",
+      feature1Stat3Number: "24/7",
       feature1Stat3Label: "İstediğiniz Zaman Yükleme",
-      feature1Stat4Number: "%100",
+      feature1Stat4Number: "100%",
       feature1Stat4Label: "Şeffaf",
       feature2Label: "Toplu Özgürlük",
       feature2TitlePart1: "Yükleyin",
@@ -1415,8 +1415,8 @@ let message = {
       feature3Point2Icon: "✓",
       feature3Point2Text: "Herkes için aynı hız",
       feature3Point3Icon: "✓",
-      feature3Point3Text: "7/24, istediğiniz zaman yükleyin",
-      feature3VisualNumber: "7/24",
+      feature3Point3Text: "24/7, istediğiniz zaman yükleyin",
+      feature3VisualNumber: "24/7",
       feature3VisualTitle: "Her Zaman Hazır",
       feature3VisualSubtext: "İlham geldiğinde yükleyin",
       useCasesTitlePart1: "Mükemmel",
@@ -1605,93 +1605,93 @@ let message = {
       "highlighted_text": "Gizli Sınır Yok.",
       "description": "İhtiyaçlarınıza uygun planı seçin. Dilediğiniz zaman yükseltin veya düşürün. Sözleşme yok, sürpriz yok.",
       "plans": [
-        {
-          "name": "Ücretsiz",
-          "price": "$0",
-          "period": "ay",
-          "discount": "Hizmetimizi denemek için ideal",
-          "limits": {
-            "title": "Günlük Limitler",
-            "items": [
-              "Günde 3 dosya (≈günde toplam 90 dk)",
-              "Dosya başına en fazla 30 dk (≤250 MB)",
-              "Aynı anda 1 dosya yükle",
-              "Standart öncelik sırası"
-            ]
-          },
-          "features": {
-            "title": "Özellikler",
-            "items": [
-              "100+ dil",
-              "Konuşmacı etiketleri",
-              "Çeviri",
-              "Tüm dışa aktarma formatları"
-            ]
-          },
-          "cta": {
-            "text": "Ücretsiz başla. Kredi kartı gerekmez.",
-            "button": "Mevcut Plan"
-          }
-        },
-        {
-          "name": "Pro Aylık",
-          "price": "$17.99",
-          "period": "ay",
-          "discount": "İlk ay için $9.99",
-          "limits": {
-            "title": "Aylık Sınır Yok",
-            "items": [
-              "Sınırsız toplam dakika",
-              "Dosya başına en fazla 10 saat / 5 GB",
-              "Aynı anda 50 dosya yükle",
-              "Öncelik sırası"
-            ]
-          },
-          "features": {
-            "title": "Ücretsiz'deki her şey, artı",
-            "items": [
-              "Kelime düzeyinde zaman damgaları",
-              "Gelişmiş konuşmacı tanımlama",
-              "Biçimlendirilmiş paragraflar & noktalama",
-              "Öncelikli destek"
-            ]
-          },
-          "cta": {
-            "text": "Sınırsız dakika. Öncelikli hız. Toplu yükleme.",
-            "button": "Pro'ya Geç"
-          },
-          "badge": "En Popüler"
-        },
-        {
-          "name": "Pro Yıllık",
-          "price": "$8.99",
-          "period": "ay",
-          "discount": "Yıllık ödeme $107.88",
-          "limits": {
-            "title": "Aylık Pro ile aynı",
-            "items": [
-              "Sınırsız toplam dakika",
-              "Dosya başına en fazla 10 saat / 5 GB",
-              "Aynı anda 50 dosya yükle",
-              "Öncelik sırası"
-            ]
-          },
-          "features": {
-            "title": "Ücretsiz'deki her şey, artı",
-            "items": [
-              "Kelime düzeyinde zaman damgaları",
-              "Gelişmiş konuşmacı tanımlama",
-              "Biçimlendirilmiş paragraflar & noktalama",
-              "Öncelikli destek"
-            ]
-          },
-          "cta": {
-            "text": "Sınırsız dakika. Öncelikli hız. Toplu yükleme.",
-            "button": "Pro'ya Geç"
-          },
-          "badge": "En İyi Değer - "
-        }
-      ],
+            {
+              "name": "Ücretsiz",
+              "price": "$0",
+              "period": "ay",
+              "discount": "Hizmetimizi denemek için ideal",
+              "limits": {
+                "title": "Günlük Limitler",
+                "items": [
+                  "Günde 3 dosya (≈günde toplam 90 dk)",
+                  "Dosya başına en fazla 30 dk (≤250 MB)",
+                  "Aynı anda 1 dosya yükle",
+                  "Standart öncelik sırası"
+                ]
+              },
+              "features": {
+                "title": "Özellikler",
+                "items": [
+                  "100+ dil",
+                  "Konuşmacı etiketleri",
+                  "Çeviri",
+                  "Tüm dışa aktarma formatları"
+                ]
+              },
+              "cta": {
+                "text": "Ücretsiz başla. Kredi kartı gerekmez.",
+                "button": "Mevcut Plan"
+              }
+            },
+            {
+              "name": "Pro Aylık",
+              "price": "$17.99",
+              "period": "ay",
+              "discount": "İlk ay için $9.99",
+              "limits": {
+                "title": "Aylık Sınır Yok",
+                "items": [
+                  "Sınırsız toplam dakika",
+                  "Dosya başına en fazla 10 saat / 5 GB",
+                  "Aynı anda 50 dosya yükle",
+                  "Öncelik sırası"
+                ]
+              },
+              "features": {
+                "title": "Ücretsiz'deki her şey, artı",
+                "items": [
+                  "Kelime düzeyinde zaman damgaları",
+                  "Gelişmiş konuşmacı tanımlama",
+                  "Biçimlendirilmiş paragraflar & noktalama",
+                  "Öncelikli destek"
+                ]
+              },
+              "cta": {
+                "text": "Sınırsız dakika. Öncelikli hız. Toplu yükleme.",
+                "button": "Pro'ya Geç"
+              },
+              "badge": "En Popüler"
+            },
+            {
+              "name": "Pro Yıllık",
+              "price": "$8.99",
+              "period": "ay",
+              "discount": "Yıllık ödeme $107.88",
+              "limits": {
+                "title": "Aylık Pro ile aynı",
+                "items": [
+                  "Sınırsız toplam dakika",
+                  "Dosya başına en fazla 10 saat / 5 GB",
+                  "Aynı anda 50 dosya yükle",
+                  "Öncelik sırası"
+                ]
+              },
+              "features": {
+                "title": "Ücretsiz'deki her şey, artı",
+                "items": [
+                  "Kelime düzeyinde zaman damgaları",
+                  "Gelişmiş konuşmacı tanımlama",
+                  "Biçimlendirilmiş paragraflar & noktalama",
+                  "Öncelikli destek"
+                ]
+              },
+              "cta": {
+                "text": "Sınırsız dakika. Öncelikli hız. Toplu yükleme.",
+                "button": "Pro'ya Geç"
+              },
+              "badge": "En İyi Değer - "
+            }
+          ],
       "disclaimer": '\"Sınırsız\" aylık sınır ve yapay yavaşlatma olmadığı anlamına gelir. Adil kullanım, kötüye kullanım veya yeniden dağıtım için geçerlidir.'
     },
     ComparisonTable: {
@@ -2611,7 +2611,7 @@ let message = {
       solutionTitle: "NeverCap Çözümü",
       solutionDesc: "Gerçek sınırsız transkripsiyon. Tüm çalışmanızı yükleyin. Her röportajı dönüştürün. Tüm verilerinizi analiz edin. Sınır yok, limit yok, sadece araştırma.",
       feature1Label: "Sınır Yok",
-      feature1Title: "Tüm Çalışmanızı Tek Seferde İşleyin",
+      feature1Title: "İşlerinizi Yönetin",
       feature1Desc: '200 saatlik röportajlarınızı bu gece yükleyin. Tamamlanmış, aranabilir transkriptlerle uyanın. Aylık limit yok, dosya başına sınır yok, "adil kullanım" saçmalığı yok.',
       feature1Point1: "50 dosyayı aynı anda toplu yükleme",
       feature1Point2: "Boylamsal çalışmaları tamamen işleyin",
@@ -2620,7 +2620,7 @@ let message = {
       feature1Visual1: "Sınırsız Saat",
       feature1Visual2: "10 saat de 10.000 saat de aynı fiyat",
       feature2Label: "Akıllı Yapay Zeka",
-      feature2Title: "Odak Gruplarını Her Seferinde Kusursuz Çözer",
+      feature2Title: "Hassas Kontrol",
       feature2Desc: "Yapay zekamız, birbirinin sözünü kesen, araya giren veya aynı anda konuşan 20 konuşmacıyı bile takip eder. Her ses doğru şekilde yakalanır ve etiketlenir.",
       feature2Point1: "20 konuşmacı tanımlama",
       feature2Point2: "Çapraz konuşma ve kesintileri yönetir",
@@ -2636,7 +2636,7 @@ let message = {
       conversationParticipant4: "Katılımcı 4",
       conversationText5: "Kırsal bölgelerde üçü birden: maliyet, erişim VE ulaşım.",
       feature3Label: "Hassasiyet",
-      feature3Title: "%96 Doğrulukla Tutarlılık",
+      feature3Title: "Güvenilir",
       feature3Desc: "Teknik jargon, ağır aksanlar ve alana özgü terimleri ustalıkla yönetir. Yayın, hakem incelemesi ve tez komiteniz için yeterince doğru.",
       feature3Point1: "Tıbbi ve bilimsel terimler",
       feature3Point2: "100+ dil ve lehçe",
@@ -2645,7 +2645,7 @@ let message = {
       feature3Visual1: "Araştırma Düzeyinde Doğruluk",
       feature3Visual2: "50.000+ araştırmacı tarafından güvenilir",
       feature4Label: "Güvenlik",
-      feature4Title: "IRB'ye Hazır Güvenlik",
+      feature4Title: "IRB Uyumluluk Sertifikası",
       feature4Desc: "Hassas araştırma verileriniz kurumsal düzeyde güvenlikle korunur. GDPR uyumlu, HIPAA'ya hazır seçenekler ve IRB gereksinimleri için tam denetim kaydı.",
       feature4Point1: "Uçtan uca şifreleme",
       feature4Point2: "GDPR ve CCPA uyumlu",
@@ -2676,11 +2676,11 @@ let message = {
         title: "The",
         useCasesTitle2: "Her Araştırma Yöntemi",
         testimonialTitle2: "Önde Gelen Araştırmacılar",
-        feature1TitleHl: "Tüm Çalışma",
-        feature1TitlePost: "Tek Seferde",
-        feature2TitleHl: "Odak Grupları",
-        feature2TitlePost: "Her Seferinde",
-        feature3TitleHl: "%96 Doğruluk",
+        feature1TitleHl: "Tüm Araştırma Projeniz",
+        feature1TitlePost: "Tek Durakta Tamamlayın",
+        feature2TitleHl: "Odak Grup Görüşmeleri",
+        feature2TitlePost: "Her Seferinde Başarı",
+        feature3TitleHl: "%96 Doğruluk Oranı",
         feature4TitleHl: "Güvenlik",
         testimonialText2Hl: "200 saat",
         testimonialText3: "toplum sağlığı çalışmamızdan odak grup kayıtları. Diğer hizmetler maliyet nedeniyle hangi oturumları transkribe edeceğimizi seçmemizi istedi. NeverCap sayesinde",
@@ -3056,7 +3056,7 @@ let message = {
             },
             {
               "label": "Bize Ulaşın",
-              "value": ["E-posta", "7/24 destek mevcut"]
+              "value": ["E-posta", "24/7 destek mevcut"]
             }
           ]
     },

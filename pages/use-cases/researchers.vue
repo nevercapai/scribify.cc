@@ -172,7 +172,7 @@
             }}</span>
             <h2 class="feature-title">
               {{ t("UseCases.Researchers.feature1Title") }}<span class="gradient-text">
-                  {{ t("UseCases.Researchers.feature1TitleHl") }}
+                  &#8202;{{ t("UseCases.Researchers.feature1TitleHl") }}&#8202;
               </span>{{ t("UseCases.Researchers.feature1TitlePost") }}
             </h2>
             <p class="feature-description">
@@ -233,7 +233,7 @@
             }}</span>
             <h2 class="feature-title">
               {{ t("UseCases.Researchers.feature2Title") }}<span class="gradient-text">
-                 {{ t("UseCases.Researchers.feature2TitleHl") }}
+                 &#8202;{{ t("UseCases.Researchers.feature2TitleHl") }}&#8202;
               </span>{{ t("UseCases.Researchers.feature2TitlePost") }}
             </h2>
             <p class="feature-description">
@@ -335,7 +335,7 @@
             }}</span>
             <h2 class="feature-title">
               <span class="gradient-text">
-                 {{ t("UseCases.Researchers.feature3TitleHl") }}
+                 {{ t("UseCases.Researchers.feature3TitleHl") }}&#8202;
               </span>{{ t("UseCases.Researchers.feature3Title") }}
             </h2>
             <p class="feature-description">
@@ -393,7 +393,7 @@
             }}</span>
             <h2 class="feature-title">
               {{ t("UseCases.Researchers.feature4Title") }}<span class="gradient-text">
-                 {{ t("UseCases.Researchers.feature4TitleHl") }}
+                 &#8202;{{ t("UseCases.Researchers.feature4TitleHl") }}
               </span>
             </h2>
             <p class="feature-description">
@@ -613,9 +613,9 @@
           <p class="testimonial-text">
             "{{ t("UseCases.Researchers.testimonialText") }}<span class="highlight">
             {{ t("UseCases.Researchers.testimonialText2Hl") }}</span>
-            {{ t("UseCases.Researchers.testimonialText3") }}<span class="highlight">
+            {{ t("UseCases.Researchers.testimonialText3") }}&nbsp;<span class="highlight">
             {{ t("UseCases.Researchers.testimonialText4Hl") }}</span>
-            {{ t("UseCases.Researchers.testimonialText5") }}<span class="highlight">
+            {{ t("UseCases.Researchers.testimonialText5") }}&nbsp;<span class="highlight">
             {{ t("UseCases.Researchers.testimonialText6Hl") }}</span>
             {{ t("UseCases.Researchers.testimonialText7") }}"
           </p>

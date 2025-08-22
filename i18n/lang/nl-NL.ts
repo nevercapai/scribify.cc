@@ -1616,93 +1616,93 @@ let message = {
       "highlighted_text": "Geen Verborgen Limieten.",
       "description": "Kies het abonnement dat bij u past. Upgrade of downgrade wanneer u wilt. Geen contracten, geen verrassingen.",
       "plans": [
-        {
-          "name": "Gratis",
-          "price": "$0",
-          "period": "maand",
-          "discount": "Perfect om onze service uit te proberen",
-          "limits": {
-            "title": "Dagelijkse limieten",
-            "items": [
-              "3 bestanden/dag (≈90 min totaal/dag)",
-              "Maximaal 30 min per bestand (≤250 MB)",
-              "Upload 1 bestand per keer",
-              "Standaard prioriteitswachtrij"
-            ]
-          },
-          "features": {
-            "title": "Functies",
-            "items": [
-              "100+ talen",
-              "Sprekerlabels",
-              "Vertaling",
-              "Alle exportformaten"
-            ]
-          },
-          "cta": {
-            "text": "Start gratis. Geen creditcard nodig.",
-            "button": "Huidig abonnement"
-          }
-        },
-        {
-          "name": "Pro Maandelijks",
-          "price": "$17.99",
-          "period": "maand",
-          "discount": "$9,99 voor de eerste maand",
-          "limits": {
-            "title": "Geen maandelijkse limiet",
-            "items": [
-              "Onbeperkte totale minuten",
-              "Tot 10 uur / 5 GB per bestand",
-              "Upload 50 bestanden tegelijk",
-              "Prioriteitswachtrij"
-            ]
-          },
-          "features": {
-            "title": "Alles in Gratis, plus",
-            "items": [
-              "Tijdstempels op woordniveau",
-              "Geavanceerde sprekerherkenning",
-              "Opgemaakte alinea's & interpunctie",
-              "Prioritaire ondersteuning"
-            ]
-          },
-          "cta": {
-            "text": "Onbeperkte minuten. Prioritaire snelheid. Batch-uploads.",
-            "button": "Ga Pro"
-          },
-          "badge": "Meest populair"
-        },
-        {
-          "name": "Pro Jaarlijks",
-          "price": "$8,99",
-          "period": "maand",
-          "discount": "Jaarlijks gefactureerd $107,88",
-          "limits": {
-            "title": "Hetzelfde als Pro Maandelijks",
-            "items": [
-              "Onbeperkte totale minuten",
-              "Tot 10 uur / 5 GB per bestand",
-              "Upload 50 bestanden tegelijk",
-              "Prioriteitswachtrij"
-            ]
-          },
-          "features": {
-            "title": "Alles in Gratis, plus",
-            "items": [
-              "Tijdstempels op woordniveau",
-              "Geavanceerde sprekerherkenning",
-              "Opgemaakte alinea's & interpunctie",
-              "Prioritaire ondersteuning"
-            ]
-          },
-          "cta": {
-            "text": "Onbeperkte minuten. Prioritaire snelheid. Batch-uploads.",
-            "button": "Ga Pro"
-          },
-          "badge": "Beste Waarde - "
-        }
-      ],
+            {
+              "name": "Gratis",
+              "price": "$0",
+              "period": "maand",
+              "discount": "Perfect om onze service uit te proberen",
+              "limits": {
+                "title": "Dagelijkse limieten",
+                "items": [
+                  "3 bestanden/dag (≈90 min totaal/dag)",
+                  "Maximaal 30 min per bestand (≤250 MB)",
+                  "Upload 1 bestand per keer",
+                  "Standaard prioriteitswachtrij"
+                ]
+              },
+              "features": {
+                "title": "Functies",
+                "items": [
+                  "100+ talen",
+                  "Sprekerlabels",
+                  "Vertaling",
+                  "Alle exportformaten"
+                ]
+              },
+              "cta": {
+                "text": "Start gratis. Geen creditcard nodig.",
+                "button": "Huidig abonnement"
+              }
+            },
+            {
+              "name": "Pro Maandelijks",
+              "price": "$17.99",
+              "period": "maand",
+              "discount": "$9,99 voor de eerste maand",
+              "limits": {
+                "title": "Geen maandelijkse limiet",
+                "items": [
+                  "Onbeperkte totale minuten",
+                  "Tot 10 uur / 5 GB per bestand",
+                  "Upload 50 bestanden tegelijk",
+                  "Prioriteitswachtrij"
+                ]
+              },
+              "features": {
+                "title": "Alles in Gratis, plus",
+                "items": [
+                  "Tijdstempels op woordniveau",
+                  "Geavanceerde sprekerherkenning",
+                  "Opgemaakte alinea's & interpunctie",
+                  "Prioritaire ondersteuning"
+                ]
+              },
+              "cta": {
+                "text": "Onbeperkte minuten. Prioritaire snelheid. Batch-uploads.",
+                "button": "Ga Pro"
+              },
+              "badge": "Meest populair"
+            },
+            {
+              "name": "Pro Jaarlijks",
+              "price": "$8,99",
+              "period": "maand",
+              "discount": "Jaarlijks gefactureerd $107,88",
+              "limits": {
+                "title": "Hetzelfde als Pro Maandelijks",
+                "items": [
+                  "Onbeperkte totale minuten",
+                  "Tot 10 uur / 5 GB per bestand",
+                  "Upload 50 bestanden tegelijk",
+                  "Prioriteitswachtrij"
+                ]
+              },
+              "features": {
+                "title": "Alles in Gratis, plus",
+                "items": [
+                  "Tijdstempels op woordniveau",
+                  "Geavanceerde sprekerherkenning",
+                  "Opgemaakte alinea's & interpunctie",
+                  "Prioritaire ondersteuning"
+                ]
+              },
+              "cta": {
+                "text": "Onbeperkte minuten. Prioritaire snelheid. Batch-uploads.",
+                "button": "Ga Pro"
+              },
+              "badge": "Beste Waarde - "
+            }
+          ],
       "disclaimer": '"Onbeperkt" betekent geen maandelijkse limiet en geen kunstmatige vertraging. Redelijk gebruik is van toepassing op misbruik van automatisering of herdistributie.'
     },
     ComparisonTable: {
@@ -2622,7 +2622,7 @@ let message = {
       solutionTitle: "NeverCap Oplossing",
       solutionDesc: "Echt onbeperkte transcriptie. Upload uw hele studie. Transcribeer elk interview. Analyseer al uw data. Geen limieten, geen beperkingen, alleen onderzoek.",
       feature1Label: "Geen Limieten",
-      feature1Title: "Verwerk uw hele studie in één keer",
+      feature1Title: "Uw",
       feature1Desc: 'Upload vanavond alle 200 uur aan interviews. Word wakker met complete, doorzoekbare transcripties. Geen maandelijkse limieten, geen per-bestand limieten, geen "fair use" onzin.',
       feature1Point1: "Upload 50 bestanden tegelijk in batch",
       feature1Point2: "Verwerk longitudinale studies volledig",
@@ -2631,7 +2631,7 @@ let message = {
       feature1Visual1: "Onbeperkte Uren",
       feature1Visual2: "Zelfde prijs voor 10 of 10.000 uur",
       feature2Label: "Slimme AI",
-      feature2Title: "Pakt Focusgroepen Elke Keer",
+      feature2Title: "Precisie gegarandeerd",
       feature2Desc: "Onze AI volgt tot 20 sprekers, zelfs als ze door elkaar praten, elkaar onderbreken of allemaal tegelijk reageren. Elke stem wordt correct vastgelegd en gelabeld.",
       feature2Point1: "20-sprekers identificatie",
       feature2Point2: "Omgaat met door elkaar praten & onderbrekingen",
@@ -2647,7 +2647,7 @@ let message = {
       conversationParticipant4: "Deelnemer 4",
       conversationText5: "In landelijke gebieden zijn het alle drie: kosten, toegang EN vervoer.",
       feature3Label: "Precisie",
-      feature3Title: "96% Nauwkeurigheid Die Standhoudt",
+      feature3Title: "Betrouwbaar",
       feature3Desc: "Gaat om met technisch jargon, sterke accenten en vakjargon als een pro. Nauwkeurig genoeg voor publicatie, peer review en uw dissertatiecommissie.",
       feature3Point1: "Medische & wetenschappelijke terminologie",
       feature3Point2: "100+ talen & dialecten",
@@ -2656,7 +2656,7 @@ let message = {
       feature3Visual1: "Onderzoekskwaliteit Nauwkeurigheid",
       feature3Visual2: "Vertrouwd door 50.000+ onderzoekers",
       feature4Label: "Beveiliging",
-      feature4Title: "IRB-Gereed Beveiliging",
+      feature4Title: "IRB-goedgekeurd",
       feature4Desc: "Uw gevoelige onderzoeksdata is beschermd met enterprise-grade beveiliging. GDPR-compliant, HIPAA-gereed opties en volledige audittrails voor IRB-vereisten.",
       feature4Point1: "End-to-end encryptie",
       feature4Point2: "GDPR & CCPA compliant",
@@ -2687,11 +2687,11 @@ let message = {
         title: "The",
         useCasesTitle2: "Elke Onderzoeksmethode",
         testimonialTitle2: "Toonaangevende Onderzoekers",
-        feature1TitleHl: "Volledige Studie",
-        feature1TitlePost: "in Één Keer",
-        feature2TitleHl: "Focusgroepen",
-        feature2TitlePost: "Elke Keer",
-        feature3TitleHl: "96% Nauwkeurigheid",
+        feature1TitleHl: "Volledige onderzoeksproject",
+        feature1TitlePost: "Alles in één",
+        feature2TitleHl: "Focusgroepinterviews",
+        feature2TitlePost: "Altijd succesvol",
+        feature3TitleHl: "96% nauwkeurigheid",
         feature4TitleHl: "Beveiliging",
         testimonialText2Hl: "200 uur",
         testimonialText3: "aan focusgroepopnames van ons gemeenschapsgezondheidsonderzoek. Andere diensten wilden dat we sessies selecteerden vanwege de kosten. NeverCap liet ons",

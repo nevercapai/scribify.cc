@@ -777,7 +777,7 @@ const handleClick = () => {
   border-radius: 20px;
   padding: 40px;
   position: relative;
-  height: 400px;
+  min-height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;

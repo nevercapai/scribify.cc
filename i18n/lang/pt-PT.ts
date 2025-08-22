@@ -1612,93 +1612,93 @@ let message = {
       "highlighted_text": "Sem Limites Ocultos.",
       "description": "Escolha o plano que atende suas necessidades. Atualize ou reduza quando quiser. Sem contratos, sem surpresas.",
       "plans": [
-        {
-          "name": "Grátis",
-          "price": "$0",
-          "period": "mês",
-          "discount": "Perfeito para experimentar nosso serviço",
-          "limits": {
-            "title": "Limites Diários",
-            "items": [
-              "3 arquivos/dia (≈90 min total/dia)",
-              "Até 30 min por arquivo (≤250 MB)",
-              "Enviar 1 arquivo por vez",
-              "Fila de prioridade padrão"
-            ]
-          },
-          "features": {
-            "title": "Recursos",
-            "items": [
-              "100+ idiomas",
-              "Identificação de falantes",
-              "Tradução",
-              "Todos os formatos de exportação"
-            ]
-          },
-          "cta": {
-            "text": "Comece grátis. Sem cartão de crédito.",
-            "button": "Plano Atual"
-          }
-        },
-        {
-          "name": "Pro Mensal",
-          "price": "$17.99",
-          "period": "mês",
-          "discount": "$9.99 no primeiro mês",
-          "limits": {
-            "title": "Sem limite mensal",
-            "items": [
-              "Minutos ilimitados",
-              "Até 10 horas / 5 GB por arquivo",
-              "Envie 50 arquivos de uma vez",
-              "Fila prioritária"
-            ]
-          },
-          "features": {
-            "title": "Tudo do Grátis, mais",
-            "items": [
-              "Timestamps por palavra",
-              "Identificação avançada de falantes",
-              "Parágrafos e pontuação formatados",
-              "Suporte prioritário"
-            ]
-          },
-          "cta": {
-            "text": "Minutos ilimitados. Prioridade na velocidade. Envios em lote.",
-            "button": "Assinar Pro"
-          },
-          "badge": "Mais Popular"
-        },
-        {
-          "name": "Pro Anual",
-          "price": "$8,99",
-          "period": "mês",
-          "discount": "Cobrança anual $107.88",
-          "limits": {
-            "title": "Igual ao Pro Mensal",
-            "items": [
-              "Minutos ilimitados",
-              "Até 10 horas / 5 GB por arquivo",
-              "Envie 50 arquivos de uma vez",
-              "Fila prioritária"
-            ]
-          },
-          "features": {
-            "title": "Tudo do Grátis, mais",
-            "items": [
-              "Timestamps por palavra",
-              "Identificação avançada de falantes",
-              "Parágrafos e pontuação formatados",
-              "Suporte prioritário"
-            ]
-          },
-          "cta": {
-            "text": "Minutos ilimitados. Prioridade na velocidade. Envios em lote.",
-            "button": "Assinar Pro"
-          },
-          "badge": "Melhor Valor - "
-        }
-      ],
+            {
+              "name": "Grátis",
+              "price": "$0",
+              "period": "mês",
+              "discount": "Perfeito para experimentar nosso serviço",
+              "limits": {
+                "title": "Limites Diários",
+                "items": [
+                  "3 arquivos/dia (≈90 min total/dia)",
+                  "Até 30 min por arquivo (≤250 MB)",
+                  "Enviar 1 arquivo por vez",
+                  "Fila de prioridade padrão"
+                ]
+              },
+              "features": {
+                "title": "Recursos",
+                "items": [
+                  "100+ idiomas",
+                  "Identificação de falantes",
+                  "Tradução",
+                  "Todos os formatos de exportação"
+                ]
+              },
+              "cta": {
+                "text": "Comece grátis. Sem cartão de crédito.",
+                "button": "Plano Atual"
+              }
+            },
+            {
+              "name": "Pro Mensal",
+              "price": "$17.99",
+              "period": "mês",
+              "discount": "$9.99 no primeiro mês",
+              "limits": {
+                "title": "Sem limite mensal",
+                "items": [
+                  "Minutos ilimitados",
+                  "Até 10 horas / 5 GB por arquivo",
+                  "Envie 50 arquivos de uma vez",
+                  "Fila prioritária"
+                ]
+              },
+              "features": {
+                "title": "Tudo do Grátis, mais",
+                "items": [
+                  "Timestamps por palavra",
+                  "Identificação avançada de falantes",
+                  "Parágrafos e pontuação formatados",
+                  "Suporte prioritário"
+                ]
+              },
+              "cta": {
+                "text": "Minutos ilimitados. Prioridade na velocidade. Envios em lote.",
+                "button": "Assinar Pro"
+              },
+              "badge": "Mais Popular"
+            },
+            {
+              "name": "Pro Anual",
+              "price": "$8,99",
+              "period": "mês",
+              "discount": "Cobrança anual $107.88",
+              "limits": {
+                "title": "Igual ao Pro Mensal",
+                "items": [
+                  "Minutos ilimitados",
+                  "Até 10 horas / 5 GB por arquivo",
+                  "Envie 50 arquivos de uma vez",
+                  "Fila prioritária"
+                ]
+              },
+              "features": {
+                "title": "Tudo do Grátis, mais",
+                "items": [
+                  "Timestamps por palavra",
+                  "Identificação avançada de falantes",
+                  "Parágrafos e pontuação formatados",
+                  "Suporte prioritário"
+                ]
+              },
+              "cta": {
+                "text": "Minutos ilimitados. Prioridade na velocidade. Envios em lote.",
+                "button": "Assinar Pro"
+              },
+              "badge": "Melhor Valor - "
+            }
+          ],
       "disclaimer": '\"Ilimitado\" significa sem limite mensal e sem lentidão artificial. Uso justo aplica-se a automação abusiva ou redistribuição.'
     },
     ComparisonTable: {
@@ -2618,7 +2618,7 @@ let message = {
       solutionTitle: "Solução NeverCap",
       solutionDesc: "Transcrição verdadeiramente ilimitada. Carregue todo o seu estudo. Transcreva cada entrevista. Analise todos os seus dados. Sem limites, sem restrições, apenas pesquisa.",
       feature1Label: "Sem Limites",
-      feature1Title: "Processe Seu Estudo Inteiro de Uma Vez",
+      feature1Title: "Processe seu",
       feature1Desc: 'Carregue todas as 200 horas de entrevistas hoje à noite. Acorde com transcrições completas e pesquisáveis. Sem limites mensais, sem restrições por arquivo, sem besteiras de "uso justo".',
       feature1Point1: "Carregar em lote 50 arquivos simultaneamente",
       feature1Point2: "Processe estudos longitudinais completamente",
@@ -2627,7 +2627,7 @@ let message = {
       feature1Visual1: "Horas Ilimitadas",
       feature1Visual2: "Mesmo preço para 10 ou 10.000 horas",
       feature2Label: "IA Inteligente",
-      feature2Title: "Acerta Grupos Focais Toda Vez",
+      feature2Title: "Precisão garantida",
       feature2Desc: "Nossa IA rastreia até 20 falantes, mesmo quando estão falando ao mesmo tempo, interrompendo-se ou respondendo de uma vez. Cada voz é capturada e rotulada corretamente.",
       feature2Point1: "Identificação de 20 falantes",
       feature2Point2: "Lida com sobreposição e interrupções",
@@ -2643,7 +2643,7 @@ let message = {
       conversationParticipant4: "Participante 4",
       conversationText5: "Em áreas rurais, são os três: custo, acesso E transporte.",
       feature3Label: "Precisão",
-      feature3Title: "96% de Precisão que se Mantém",
+      feature3Title: "Confiável",
       feature3Desc: "Lida com jargões técnicos, sotaques fortes e terminologias específicas como um profissional. Precisão suficiente para publicação, revisão por pares e sua banca de dissertação.",
       feature3Point1: "Terminologia médica e científica",
       feature3Point2: "100+ idiomas e dialetos",
@@ -2652,7 +2652,7 @@ let message = {
       feature3Visual1: "Precisão de Nível de Pesquisa",
       feature3Visual2: "Confiável por mais de 50.000 pesquisadores",
       feature4Label: "Segurança",
-      feature4Title: "Segurança Pronta para IRB",
+      feature4Title: "Certificação IRB",
       feature4Desc: "Seus dados de pesquisa sensíveis são protegidos com segurança de nível empresarial. Compatível com GDPR, opções prontas para HIPAA e trilhas de auditoria completas para requisitos de IRB.",
       feature4Point1: "Criptografia de ponta a ponta",
       feature4Point2: "Compatível com GDPR e CCPA",
@@ -2683,11 +2683,11 @@ let message = {
         title: "A",
         useCasesTitle2: "Todo Método de Pesquisa",
         testimonialTitle2: "Pesquisadores Líderes",
-        feature1TitleHl: "Estudo Completo",
-        feature1TitlePost: "de Uma Só Vez",
-        feature2TitleHl: "Grupos Focais",
-        feature2TitlePost: "Sempre",
-        feature3TitleHl: "96% de Precisão",
+        feature1TitleHl: "Projeto de pesquisa completo",
+        feature1TitlePost: "Solução completa",
+        feature2TitleHl: "Entrevistas com grupos focais",
+        feature2TitlePost: "Sucesso em cada etapa",
+        feature3TitleHl: "96% de precisão",
         feature4TitleHl: "Segurança",
         testimonialText2Hl: "200 horas",
         testimonialText3: "de gravações de grupos focais do nosso estudo de saúde comunitária. Outros serviços queriam que escolhêssemos quais sessões transcrever devido ao custo. O NeverCap nos permitiu processar",

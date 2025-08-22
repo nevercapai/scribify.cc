@@ -1765,93 +1765,93 @@ let message = {
       "highlighted_text": "隠れた制限なし。",
       "description": "ニーズに合ったプランを選択。いつでもアップグレード/ダウングレード可能。契約縛りなし、予期せぬ請求なし。",
       "plans": [
-        {
-          "name": "無料",
-          "price": "$0",
-          "period": "月",
-          "discount": "サービスお試しに最適",
-          "limits": {
-            "title": "1日あたりの制限",
-            "items": [
-              "1日3ファイル (合計約90分/日)",
-              "ファイルあたり最大30分 (≤250 MB)",
-              "1回に1ファイルをアップロード",
-              "標準優先順位キュー"
-            ]
-          },
-          "features": {
-            "title": "機能",
-            "items": [
-              "100+言語対応",
-              "話者ラベル",
-              "翻訳",
-              "全エクスポート形式"
-            ]
-          },
-          "cta": {
-            "text": "無料で開始。クレジットカード不要。",
-            "button": "現在のプラン"
-          }
-        },
-        {
-          "name": "Pro月間プラン",
-          "price": "$17.99",
-          "period": "月",
-          "discount": "初月 $9.99",
-          "limits": {
-            "title": "月間制限なし",
-            "items": [
-              "無制限の合計分数",
-              "ファイルあたり最大10時間/5GB",
-              "一度に50ファイルをアップロード",
-              "優先キュー"
-            ]
-          },
-          "features": {
-            "title": "無料プランの全機能に加えて",
-            "items": [
-              "単語レベルのタイムスタンプ",
-              "高度な話者識別",
-              "フォーマットされた段落＆句読点",
-              "優先サポート"
-            ]
-          },
-          "cta": {
-            "text": "無制限分数。優先処理。一括アップロード。",
-            "button": "Proにアップグレード"
-          },
-          "badge": "最も人気"
-        },
-        {
-          "name": "Pro年間プラン",
-          "price": "$8.99",
-          "period": "月",
-          "discount": "年額請求 $107.88",
-          "limits": {
-            "title": "月額Proプランと同様",
-            "items": [
-              "無制限の合計分数",
-              "ファイルあたり最大10時間/5GB",
-              "一度に50ファイルをアップロード",
-              "優先キュー"
-            ]
-          },
-          "features": {
-            "title": "無料プランの全機能に加えて",
-            "items": [
-              "単語レベルのタイムスタンプ",
-              "高度な話者識別",
-              "フォーマットされた段落＆句読点",
-              "優先サポート"
-            ]
-          },
-          "cta": {
-            "text": "無制限分数。優先処理。一括アップロード。",
-            "button": "Proにアップグレード"
-          },
-          "badge": "最高の価値 - "
-        }
-      ],
+            {
+              "name": "無料",
+              "price": "$0",
+              "period": "月",
+              "discount": "サービスお試しに最適",
+              "limits": {
+                "title": "1日あたりの制限",
+                "items": [
+                  "1日3ファイル (合計約90分/日)",
+                  "ファイルあたり最大30分 (≤250 MB)",
+                  "1回に1ファイルをアップロード",
+                  "標準優先順位キュー"
+                ]
+              },
+              "features": {
+                "title": "機能",
+                "items": [
+                  "100+言語対応",
+                  "話者ラベル",
+                  "翻訳",
+                  "全エクスポート形式"
+                ]
+              },
+              "cta": {
+                "text": "無料で開始。クレジットカード不要。",
+                "button": "現在のプラン"
+              }
+            },
+            {
+              "name": "Pro月間プラン",
+              "price": "$17.99",
+              "period": "月",
+              "discount": "初月 $9.99",
+              "limits": {
+                "title": "月間制限なし",
+                "items": [
+                  "無制限の合計分数",
+                  "ファイルあたり最大10時間/5GB",
+                  "一度に50ファイルをアップロード",
+                  "優先キュー"
+                ]
+              },
+              "features": {
+                "title": "無料プランの全機能に加えて",
+                "items": [
+                  "単語レベルのタイムスタンプ",
+                  "高度な話者識別",
+                  "フォーマットされた段落＆句読点",
+                  "優先サポート"
+                ]
+              },
+              "cta": {
+                "text": "無制限分数。優先処理。一括アップロード。",
+                "button": "Proにアップグレード"
+              },
+              "badge": "最も人気"
+            },
+            {
+              "name": "Pro年間プラン",
+              "price": "$8.99",
+              "period": "月",
+              "discount": "年額請求 $107.88",
+              "limits": {
+                "title": "月額Proプランと同様",
+                "items": [
+                  "無制限の合計分数",
+                  "ファイルあたり最大10時間/5GB",
+                  "一度に50ファイルをアップロード",
+                  "優先キュー"
+                ]
+              },
+              "features": {
+                "title": "無料プランの全機能に加えて",
+                "items": [
+                  "単語レベルのタイムスタンプ",
+                  "高度な話者識別",
+                  "フォーマットされた段落＆句読点",
+                  "優先サポート"
+                ]
+              },
+              "cta": {
+                "text": "無制限分数。優先処理。一括アップロード。",
+                "button": "Proにアップグレード"
+              },
+              "badge": "最高の価値 - "
+            }
+          ],
       "disclaimer": "「無制限」とは月間制限や人為的な速度低下がないことを意味します。悪用や再配布にはフェアユースが適用されます。"
     },
     ComparisonTable: {
@@ -2771,7 +2771,7 @@ let message = {
       solutionTitle: "NeverCapソリューション",
       solutionDesc: "真の無制限文字起こし。研究全体をアップロード。すべてのインタビューを文字起こし。全データを分析。制限なし、上限なし、ただの研究。",
       feature1Label: "制限なし",
-      feature1Title: "研究全体を一括処理",
+      feature1Title: "あなたの",
       feature1Desc: "今夜中に200時間分のインタビューを全てアップロード。朝には完全で検索可能な文字起こしデータが完成。月間制限なし、ファイルごとの制限なし、「公平利用」などの制約もなし。",
       feature1Point1: "50ファイルを同時に一括アップロード",
       feature1Point2: "縦断研究を完全に処理",
@@ -2780,7 +2780,7 @@ let message = {
       feature1Visual1: "無制限時間",
       feature1Visual2: "10時間でも10,000時間でも同じ価格",
       feature2Label: "スマートAI",
-      feature2Title: "毎回完璧なフォーカスグループ対応",
+      feature2Title: "精密な把握",
       feature2Desc: "最大20人の話者を追跡。同時発話、割り込み、一斉発言も正確にキャプチャし、正しくラベル付け。",
       feature2Point1: "20話者識別",
       feature2Point2: "クロストーク＆割り込み対応",
@@ -2796,7 +2796,7 @@ let message = {
       conversationParticipant4: "参加者4",
       conversationText5: "地方では、費用、アクセス、交通手段の3つ全てが問題です。",
       feature3Label: "精度",
-      feature3Title: "96%の精度を維持",
+      feature3Title: "信頼できる",
       feature3Desc: "専門用語、強い訛り、分野特有の用語もプロ並みに処理。論文発表、査読、学位審査にも十分な精度。",
       feature3Point1: "医療＆科学用語",
       feature3Point2: "100以上の言語＆方言",
@@ -2805,7 +2805,7 @@ let message = {
       feature3Visual1: "研究級の精度",
       feature3Visual2: "50,000人以上の研究者に信頼",
       feature4Label: "セキュリティ",
-      feature4Title: "IRB対応セキュリティ",
+      feature4Title: "IRB準拠認証",
       feature4Desc: "企業級セキュリティで研究データを保護。GDPR準拠、HIPAA対応オプション、IRB要件の完全な監査証跡。",
       feature4Point1: "エンドツーエンド暗号化",
       feature4Point2: "GDPR＆CCPA準拠",
@@ -2836,11 +2836,11 @@ let message = {
         title: "The",
         useCasesTitle2: "あらゆる研究方法",
         testimonialTitle2: "トップ研究者たち",
-        feature1TitleHl: "完全な研究",
-        feature1TitlePost: "一気に",
-        feature2TitleHl: "フォーカスグループ",
-        feature2TitlePost: "毎回",
-        feature3TitleHl: "96%の精度",
+        feature1TitleHl: "研究プロジェクト全体",
+        feature1TitlePost: "ワンストップで完了",
+        feature2TitleHl: "フォーカスグループインタビュー",
+        feature2TitlePost: "毎回成功",
+        feature3TitleHl: "96%の正確率",
         feature4TitleHl: "セキュリティ",
         testimonialText2Hl: "200時間",
         testimonialText3: "私たちの地域健康研究からのフォーカスグループ録音。他のサービスではコストのためどのセッションを文字起こしするか選ばねばなりませんでした。NeverCapなら",

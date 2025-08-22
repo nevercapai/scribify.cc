@@ -1598,93 +1598,93 @@ let message = {
       "highlighted_text": "숨겨진 제한 없음.",
       "description": "필요에 맞는 요금제 선택. 언제든 업그레이드 또는 다운그레이드 가능. 계약 없음, 예상치 못한 비용 없음.",
       "plans": [
-        {
-          "name": "무료",
-          "price": "$0",
-          "period": "월",
-          "discount": "서비스 체험에 적합",
-          "limits": {
-            "title": "일일 제한",
-            "items": [
-              "하루 3개 파일 (총 약 90분/일)",
-              "파일당 최대 30분 (≤250 MB)",
-              "한 번에 1개 파일 업로드",
-              "표준 우선순위 큐"
-            ]
-          },
-          "features": {
-            "title": "기능",
-            "items": [
-              "100개 이상 언어 지원",
-              "화자 레이블",
-              "번역",
-              "모든 내보내기 형식"
-            ]
-          },
-          "cta": {
-            "text": "무료 시작. 신용카드 불필요.",
-            "button": "현재 플랜"
-          }
-        },
-        {
-          "name": "프로 월간",
-          "price": "$17.99",
-          "period": "월",
-          "discount": "첫 달 $9.99",
-          "limits": {
-            "title": "월간 제한 없음",
-            "items": [
-              "무제한 총 사용 시간",
-              "파일당 최대 10시간 / 5 GB",
-              "한 번에 50개 파일 업로드",
-              "우선순위 큐"
-            ]
-          },
-          "features": {
-            "title": "무료 플랜 포함, 추가로",
-            "items": [
-              "단어 단위 타임스탬프",
-              "고급 화자 식별",
-              "서식 있는 문단 & 문장 부호",
-              "우선 지원"
-            ]
-          },
-          "cta": {
-            "text": "무제한 시간. 우선 속도. 일괄 업로드.",
-            "button": "프로로 전환"
-          },
-          "badge": "가장 인기"
-        },
-        {
-          "name": "프로 연간",
-          "price": "$8.99",
-          "period": "월",
-          "discount": "연간 결제 $107.88",
-          "limits": {
-            "title": "월간 프로와 동일",
-            "items": [
-              "무제한 총 사용 시간",
-              "파일당 최대 10시간 / 5 GB",
-              "한 번에 50개 파일 업로드",
-              "우선순위 큐"
-            ]
-          },
-          "features": {
-            "title": "무료 플랜 포함, 추가로",
-            "items": [
-              "단어 단위 타임스탬프",
-              "고급 화자 식별",
-              "서식 있는 문단 & 문장 부호",
-              "우선 지원"
-            ]
-          },
-          "cta": {
-            "text": "무제한 시간. 우선 속도. 일괄 업로드.",
-            "button": "프로로 전환"
-          },
-          "badge": "최고의 가치 - "
-        }
-      ],
+            {
+              "name": "무료",
+              "price": "$0",
+              "period": "월",
+              "discount": "서비스 체험에 적합",
+              "limits": {
+                "title": "일일 제한",
+                "items": [
+                  "하루 3개 파일 (총 약 90분/일)",
+                  "파일당 최대 30분 (≤250 MB)",
+                  "한 번에 1개 파일 업로드",
+                  "표준 우선순위 큐"
+                ]
+              },
+              "features": {
+                "title": "기능",
+                "items": [
+                  "100개 이상 언어 지원",
+                  "화자 레이블",
+                  "번역",
+                  "모든 내보내기 형식"
+                ]
+              },
+              "cta": {
+                "text": "무료 시작. 신용카드 불필요.",
+                "button": "현재 플랜"
+              }
+            },
+            {
+              "name": "프로 월간",
+              "price": "$17.99",
+              "period": "월",
+              "discount": "첫 달 $9.99",
+              "limits": {
+                "title": "월간 제한 없음",
+                "items": [
+                  "무제한 총 사용 시간",
+                  "파일당 최대 10시간 / 5 GB",
+                  "한 번에 50개 파일 업로드",
+                  "우선순위 큐"
+                ]
+              },
+              "features": {
+                "title": "무료 플랜 포함, 추가로",
+                "items": [
+                  "단어 단위 타임스탬프",
+                  "고급 화자 식별",
+                  "서식 있는 문단 & 문장 부호",
+                  "우선 지원"
+                ]
+              },
+              "cta": {
+                "text": "무제한 시간. 우선 속도. 일괄 업로드.",
+                "button": "프로로 전환"
+              },
+              "badge": "가장 인기"
+            },
+            {
+              "name": "프로 연간",
+              "price": "$8.99",
+              "period": "월",
+              "discount": "연간 결제 $107.88",
+              "limits": {
+                "title": "월간 프로와 동일",
+                "items": [
+                  "무제한 총 사용 시간",
+                  "파일당 최대 10시간 / 5 GB",
+                  "한 번에 50개 파일 업로드",
+                  "우선순위 큐"
+                ]
+              },
+              "features": {
+                "title": "무료 플랜 포함, 추가로",
+                "items": [
+                  "단어 단위 타임스탬프",
+                  "고급 화자 식별",
+                  "서식 있는 문단 & 문장 부호",
+                  "우선 지원"
+                ]
+              },
+              "cta": {
+                "text": "무제한 시간. 우선 속도. 일괄 업로드.",
+                "button": "프로로 전환"
+              },
+              "badge": "최고의 가치 - "
+            }
+          ],
       "disclaimer": '\"무제한\"은 월간 제한 없고 인위적인 속도 저하 없음을 의미합니다. 남용 자동화 또는 재배포 시 공정 사용 정책이 적용됩니다.'
     },
     ComparisonTable: {
@@ -2604,7 +2604,7 @@ let message = {
       solutionTitle: "네버캡 솔루션",
       solutionDesc: "진정한 무제한 필사. 전체 연구를 업로드하세요. 모든 인터뷰를 필사하세요. 모든 데이터를 분석하세요. 제한 없음, 한계 없음, 오직 연구만.",
       feature1Label: "제한 없음",
-      feature1Title: "전체 연구를 한 번에 처리",
+      feature1Title: "당신의",
       feature1Desc: '오늘 밤 200시간 분량의 인터뷰를 모두 업로드하세요. 완성된 검색 가능한 필사본으로 아침을 맞이하세요. 월간 제한 없음, 파일별 제한 없음, "공정 사용" 같은 허튼소리 없음.',
       feature1Point1: "50개 파일 동시 일괄 업로드",
       feature1Point2: "종단 연구 완전 처리",
@@ -2613,7 +2613,7 @@ let message = {
       feature1Visual1: "무제한 시간",
       feature1Visual2: "10시간이든 10,000시간이든 동일한 가격",
       feature2Label: "스마트 AI",
-      feature2Title: "매번 포커스 그룹 완벽 처리",
+      feature2Title: "정확한 파악",
       feature2Desc: "우리의 AI는 서로 말을 끊거나 동시에 말해도 최대 20명의 화자를 추적합니다. 모든 목소리가 정확하게 캡처되고 라벨링됩니다.",
       feature2Point1: "20명 화자 식별",
       feature2Point2: "교차 대화 및 방해 처리",
@@ -2629,7 +2629,7 @@ let message = {
       conversationParticipant4: "참가자 4",
       conversationText5: "시골 지역에서는 비용, 접근성, 교통 이 세 가지 모두에요.",
       feature3Label: "정밀도",
-      feature3Title: "96% 정확도 유지",
+      feature3Title: "신뢰할 수 있는",
       feature3Desc: "전문 용어, 강한 악센트, 분야별 용어를 전문가처럼 처리합니다. 출판, 동료 검토, 논문 위원회에 충분한 정확도.",
       feature3Point1: "의학 및 과학 용어",
       feature3Point2: "100개 이상의 언어 및 방언",
@@ -2638,7 +2638,7 @@ let message = {
       feature3Visual1: "연구 수준 정확도",
       feature3Visual2: "50,000명 이상의 연구자에게 신뢰받음",
       feature4Label: "보안",
-      feature4Title: "IRB 준수 보안",
+      feature4Title: "IRB 준수 인증",
       feature4Desc: "민감한 연구 데이터는 기업급 보안으로 보호됩니다. GDPR 준수, HIPAA 준수 옵션, IRB 요구 사항을 위한 완전한 감사 추적.",
       feature4Point1: "종단 간 암호화",
       feature4Point2: "GDPR 및 CCPA 준수",
@@ -2669,10 +2669,10 @@ let message = {
         title: "이것",
         useCasesTitle2: "모든 연구 방법",
         testimonialTitle2: "선도적인 연구자들",
-        feature1TitleHl: "전체 연구",
-        feature1TitlePost: "한 번에",
-        feature2TitleHl: "포커스 그룹",
-        feature2TitlePost: "매번",
+        feature1TitleHl: "전체 연구 프로젝트",
+        feature1TitlePost: "원스톱으로 완료",
+        feature2TitleHl: "포커스 그룹 인터뷰",
+        feature2TitlePost: "매번 성공",
         feature3TitleHl: "96% 정확도",
         feature4TitleHl: "보안",
         testimonialText2Hl: "200시간",

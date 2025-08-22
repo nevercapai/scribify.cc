@@ -1621,93 +1621,93 @@ let message = {
       "highlighted_text": "Keine versteckten Limits.",
       "description": "Wählen Sie den passenden Tarif. Jederzeit upgraden oder downgraden. Keine Verträge, keine Überraschungen.",
       "plans": [
-        {
-          "name": "Kostenlos",
-          "price": "$0",
-          "period": "Monat",
-          "discount": "Ideal zum Ausprobieren unseres Dienstes",
-          "limits": {
-            "title": "Tägliche Limits",
-            "items": [
-              "3 Dateien/Tag (≈90 Min. gesamt/Tag)",
-              "Bis zu 30 Min. pro Datei (≤250 MB)",
-              "1 Datei gleichzeitig hochladen",
-              "Standard-Warteschlange"
-            ]
-          },
-          "features": {
-            "title": "Funktionen",
-            "items": [
-              "100+ Sprachen",
-              "Sprecherkennung",
-              "Übersetzung",
-              "Alle Exportformate"
-            ]
-          },
-          "cta": {
-            "text": "Kostenlos starten. Keine Kreditkarte.",
-            "button": "Aktueller Tarif"
-          }
-        },
-        {
-          "name": "Pro-Monatsabo",
-          "price": "$17,99",
-          "period": "Monat",
-          "discount": "$9,99 im ersten Monat",
-          "limits": {
-            "title": "Kein monatliches Limit",
-            "items": [
-              "Unbegrenzte Minuten gesamt",
-              "Bis zu 10 Std. / 5 GB pro Datei",
-              "50 Dateien gleichzeitig hochladen",
-              "Priorisierte Warteschlange"
-            ]
-          },
-          "features": {
-            "title": "Alles aus Kostenlos, plus",
-            "items": [
-              "Wortgenaue Zeitstempel",
-              "Erweiterte Sprechererkennung",
-              "Formatierte Absätze & Zeichensetzung",
-              "Priorisierter Support"
-            ]
-          },
-          "cta": {
-            "text": "Unbegrenzte Minuten. Priorisierte Geschwindigkeit. Stapeluploads.",
-            "button": "Pro werden"
-          },
-          "badge": "Beliebtester"
-        },
-        {
-          "name": "Pro-Jahresabo",
-          "price": "$8.99",
-          "period": "Monat",
-          "discount": "Jährliche Abrechnung $107,88",
-          "limits": {
-            "title": "Wie Pro Monatlich",
-            "items": [
-              "Unbegrenzte Minuten gesamt",
-              "Bis zu 10 Std. / 5 GB pro Datei",
-              "50 Dateien gleichzeitig hochladen",
-              "Priorisierte Warteschlange"
-            ]
-          },
-          "features": {
-            "title": "Alles aus Kostenlos, plus",
-            "items": [
-              "Wortgenaue Zeitstempel",
-              "Erweiterte Sprechererkennung",
-              "Formatierte Absätze & Zeichensetzung",
-              "Priorisierter Support"
-            ]
-          },
-          "cta": {
-            "text": "Unbegrenzte Minuten. Priorisierte Geschwindigkeit. Stapeluploads.",
-            "button": "Pro werden"
-          },
-          "badge": "Bestes Preis-Leistungs-Verhältnis - "
-        }
-      ],
+            {
+              "name": "Kostenlos",
+              "price": "$0",
+              "period": "Monat",
+              "discount": "Ideal zum Ausprobieren unseres Dienstes",
+              "limits": {
+                "title": "Tägliche Limits",
+                "items": [
+                  "3 Dateien/Tag (≈90 Min. gesamt/Tag)",
+                  "Bis zu 30 Min. pro Datei (≤250 MB)",
+                  "1 Datei gleichzeitig hochladen",
+                  "Standard-Warteschlange"
+                ]
+              },
+              "features": {
+                "title": "Funktionen",
+                "items": [
+                  "100+ Sprachen",
+                  "Sprecherkennung",
+                  "Übersetzung",
+                  "Alle Exportformate"
+                ]
+              },
+              "cta": {
+                "text": "Kostenlos starten. Keine Kreditkarte.",
+                "button": "Aktueller Tarif"
+              }
+            },
+            {
+              "name": "Pro-Monatsabo",
+              "price": "$17,99",
+              "period": "Monat",
+              "discount": "$9,99 im ersten Monat",
+              "limits": {
+                "title": "Kein monatliches Limit",
+                "items": [
+                  "Unbegrenzte Minuten gesamt",
+                  "Bis zu 10 Std. / 5 GB pro Datei",
+                  "50 Dateien gleichzeitig hochladen",
+                  "Priorisierte Warteschlange"
+                ]
+              },
+              "features": {
+                "title": "Alles aus Kostenlos, plus",
+                "items": [
+                  "Wortgenaue Zeitstempel",
+                  "Erweiterte Sprechererkennung",
+                  "Formatierte Absätze & Zeichensetzung",
+                  "Priorisierter Support"
+                ]
+              },
+              "cta": {
+                "text": "Unbegrenzte Minuten. Priorisierte Geschwindigkeit. Stapeluploads.",
+                "button": "Pro werden"
+              },
+              "badge": "Beliebtester"
+            },
+            {
+              "name": "Pro-Jahresabo",
+              "price": "$8.99",
+              "period": "Monat",
+              "discount": "Jährliche Abrechnung $107,88",
+              "limits": {
+                "title": "Wie Pro Monatlich",
+                "items": [
+                  "Unbegrenzte Minuten gesamt",
+                  "Bis zu 10 Std. / 5 GB pro Datei",
+                  "50 Dateien gleichzeitig hochladen",
+                  "Priorisierte Warteschlange"
+                ]
+              },
+              "features": {
+                "title": "Alles aus Kostenlos, plus",
+                "items": [
+                  "Wortgenaue Zeitstempel",
+                  "Erweiterte Sprechererkennung",
+                  "Formatierte Absätze & Zeichensetzung",
+                  "Priorisierter Support"
+                ]
+              },
+              "cta": {
+                "text": "Unbegrenzte Minuten. Priorisierte Geschwindigkeit. Stapeluploads.",
+                "button": "Pro werden"
+              },
+              "badge": "Bestes Preis-Leistungs-Verhältnis - "
+            }
+          ],
       "disclaimer": '"Unbegrenzt" bedeutet keine monatliche Obergrenze und keine künstliche Verlangsamung. Fair-Use gilt bei missbräuchlicher Automatisierung oder Weiterverteilung.'
     },
     ComparisonTable: {
@@ -2627,7 +2627,7 @@ let message = {
       solutionTitle: "NeverCap-Lösung",
       solutionDesc: "Echt unbegrenzte Transkription. Laden Sie Ihre gesamte Studie hoch. Transkribieren Sie jedes Interview. Analysieren Sie alle Daten. Keine Obergrenzen, keine Limits, nur Forschung.",
       feature1Label: "Keine Grenzen",
-      feature1Title: "Verarbeiten Sie Ihre gesamte Studie auf einmal",
+      feature1Title: "Bearbeitung Ihrer",
       feature1Desc: 'Laden Sie heute Abend alle 200 Stunden Interviews hoch. Wachen Sie mit vollständigen, durchsuchbaren Transkripten auf. Keine monatlichen Limits, keine Dateibeschränkungen, kein "Fair Use"-Unsinn.',
       feature1Point1: "50 Dateien gleichzeitig stapelweise hochladen",
       feature1Point2: "Längsschnittstudien vollständig verarbeiten",
@@ -2636,7 +2636,7 @@ let message = {
       feature1Visual1: "Unbegrenzte Stunden",
       feature1Visual2: "Gleicher Preis für 10 oder 10.000 Stunden",
       feature2Label: "Intelligente KI",
-      feature2Title: "Meistert Fokusgruppen jedes Mal",
+      feature2Title: "Präzise Umsetzung",
       feature2Desc: "Unsere KI erkennt bis zu 20 Sprecher, selbst wenn sie sich überschneiden, unterbrechen oder gleichzeitig reden. Jede Stimme wird korrekt erfasst und gekennzeichnet.",
       feature2Point1: "20-Sprecher-Identifikation",
       feature2Point2: "Verarbeitet Überlappungen & Unterbrechungen",
@@ -2652,7 +2652,7 @@ let message = {
       conversationParticipant4: "Teilnehmer 4",
       conversationText5: "In ländlichen Gebieten sind es alle drei: Kosten, Zugang UND Transport.",
       feature3Label: "Präzision",
-      feature3Title: "96% Genauigkeit, die hält",
+      feature3Title: "Vertrauenswürdig",
       feature3Desc: "Meistert Fachjargon, starke Akzente und branchenspezifische Begriffe wie ein Profi. Präzise genug für Veröffentlichungen, Peer-Review und Ihr Dissertationsteam.",
       feature3Point1: "Medizinische & wissenschaftliche Terminologie",
       feature3Point2: "100+ Sprachen & Dialekte",
@@ -2661,7 +2661,7 @@ let message = {
       feature3Visual1: "Forschungsgerechte Genauigkeit",
       feature3Visual2: "Vertrauen von 50.000+ Forschern",
       feature4Label: "Sicherheit",
-      feature4Title: "IRB-bereite Sicherheit",
+      feature4Title: "IRB-konforme Zertifizierung",
       feature4Desc: "Ihre sensiblen Forschungsdaten sind mit Unternehmenssicherheit geschützt. GDPR-konform, HIPAA-bereite Optionen und vollständige Prüfpfade für IRB-Anforderungen.",
       feature4Point1: "Ende-zu-Ende-Verschlüsselung",
       feature4Point2: "GDPR & CCPA konform",
@@ -2692,10 +2692,10 @@ let message = {
         title: "Die",
         useCasesTitle2: "Jede Forschungsmethode",
         testimonialTitle2: "Führenden Forschern",
-        feature1TitleHl: "Komplette Studie",
-        feature1TitlePost: "in einem Durchgang",
-        feature2TitleHl: "Fokusgruppen",
-        feature2TitlePost: "Jedes Mal",
+        feature1TitleHl: "Gesamten Forschungsprojekte",
+        feature1TitlePost: "Alles aus einer Hand",
+        feature2TitleHl: "Fokusgruppen-Interviews",
+        feature2TitlePost: "Jederzeit erfolgreich",
         feature3TitleHl: "96% Genauigkeit",
         feature4TitleHl: "Sicherheit",
         testimonialText2Hl: "200 Stunden",

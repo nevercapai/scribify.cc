@@ -1,0 +1,58 @@
+:deep(.home-btn.el-button) {
+  @apply !border-borderColor !bg-white !text-black hover:!border-borderColor hover:!bg-fontHover hover:!text-black;
+  height: 2.125rem !important;
+}
+:deep(.home-btn.el-button span) {
+  @apply !bg-transparent;
+}
+/** primary按钮样式 */
+:deep(.home-btn.el-button--primary) {
+  @apply !border-mainColor-900 !bg-mainColor-900 !text-white hover:!border-mainColor-990 hover:!bg-mainColor-990 hover:!text-white;
+}
+/** danger按钮样式 */
+:deep(.home-btn.el-button--danger) {
+  @apply !border-subColor-normal !bg-subColor-normal !text-white hover:!border-[#CA4242] hover:!bg-[#CA4242] hover:!text-white;
+}
+
+:deep(.home-btn.is-disabled) {
+  @apply !border-transparent !bg-mainColor-900 !bg-opacity-70 hover:!border-transparent hover:!bg-mainColor-900 hover:!bg-opacity-70;
+}
+
+:deep(.home-btn + .home-btn) {
+  @apply !ms-2;
+}
+
+:deep(.el-input__inner) {
+  line-height: 2rem;
+  height: 2rem;
+}
+:deep(.el-textarea__inner:focus) {
+  box-shadow: 0 0 0 1px var(--mainColor-900) inset;
+}
+:deep(.el-input__wrapper.is-focus) {
+  box-shadow: 0 0 0 1px var(--mainColor-900) inset;
+}
+:deep(.el-checkbox__inner:hover) {
+  @apply border-mainColor-900;
+}
+:deep(.el-select__wrapper.is-focused) {
+  box-shadow: 0 0 0 1px var(--mainColor-900) inset;
+}
+
+:deep(.el-select__wrapper) {
+  min-height: 34px;
+}
+
+:deep(.el-progress-bar__inner--striped) {
+  background-image: linear-gradient(45deg,
+  rgba(99, 103, 241, 0.4) 25%,
+  transparent 25%,
+  transparent 50%,
+  rgba(99, 103, 241, 0.4) 50%,
+  rgba(99, 103, 241, 0.4) 75%,
+  transparent 75%,
+  transparent
+  )
+}
+
+

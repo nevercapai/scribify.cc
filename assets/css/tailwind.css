@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 你的自定义样式 */
+body {
+  /* font-size: 0.875rem;
+  color: #000; */
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    sans-serif;
+  line-height: 1.6;
+  color: var(--dark);
+  overflow-x: hidden;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@layer base {
+  :root {
+    --mainColor-990: #3d2596;
+    --mainColor-900: #6367f1;
+    --subColor-normal: #ea6a6a;
+    --subColor-deep: #ca4242;
+
+    --primary: #6367f1;
+    --primary-dark: #4f46e5;
+    --secondary: #10b981;
+    --dark: #0f172a;
+    --gray: #64748b;
+    --light-gray: #f8fafc;
+    --white: #ffffff;
+    --gradient: linear-gradient(90deg, #3470ff 0%, #9534e6 100%);
+    --text-gradient: linear-gradient(90deg, #3470ff 0%, #9534e6 100%);
+    --danger: #ef4444;
+    --warning: #f59e0b;
+    --yellow: rgba(222, 166, 23, 1);
+    --yellow-bg: rgba(255, 242, 210, 1);
+    --blue: #3b82f6;
+    --emerald: #10b981;
+    --purple: #a855f7;
+    --line-color: #e2e4e6;
+  }
+  .dark {
+  }
+}
+
+@layer base {
+}

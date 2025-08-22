@@ -1,0 +1,26 @@
+# Robots.txt for green.nevercap.ai
+# This file blocks all search engine crawling for the green subdomain
+
+User-agent: *
+Disallow: /
+
+# Block all major search engine bots specifically
+User-agent: Googlebot
+Disallow: /
+
+User-agent: Bingbot
+Disallow: /
+
+User-agent: Slurp
+Disallow: /
+
+User-agent: DuckDuckBot
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: YandexBot
+Disallow: /
+
+# No sitemap for green environment 

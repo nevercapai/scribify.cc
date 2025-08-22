@@ -1,0 +1,17 @@
+# Robots.txt for NeverCap - AI Transcription Service
+# Generated to optimize search engine crawling
+
+# Block crawling for development and green subdomains
+# Note: This robots.txt should be placed on dev.nevercap.ai and green.nevercap.ai
+# with "Disallow: /" to completely block those subdomains
+
+# Allow all web crawlers to access all content on main domain
+# nevercap.ai robots — marketing site
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.git/
+Disallow: /*.log$
+Disallow: /tmp/
+
+Sitemap: https://nevercap.ai/sitemap.xml

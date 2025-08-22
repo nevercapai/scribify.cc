@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 5</title>
+    <defs>
+        <linearGradient x1="8.41594225%" y1="50%" x2="92.3900041%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#9534E6" offset="0%"></stop>
+            <stop stop-color="#3470FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="about" transform="translate(-176.000000, -1394.000000)" fill-rule="nonzero">
+            <g id="编组-5" transform="translate(176.000000, 1394.000000)">
+                <rect id="矩形" fill="url(#linearGradient-1)" x="0" y="0" width="56" height="56" rx="12"></rect>
+                <g id="闪电-(2)" transform="translate(17.000000, 13.000000)" fill="#FFFFFF">
+                    <path d="M6.98905098,17.5577723 L1.0987771,17.5577723 C0.329748806,17.5577723 -0.200741712,16.7880123 0.0729182296,16.0698379 L5.92587485,0.706832867 C6.08798319,0.281304839 6.49600735,0 6.95136789,0 L16.8280035,0 C17.6072758,0 18.138498,0.789516227 17.8443502,1.51134916 L14.436406,9.87626978 L20.8520484,9.87626978 C21.7955898,9.87626978 22.299007,10.9884706 21.6766867,11.6974986 L5.94709448,29.6207606 C5.18245645,30.4922284 3.76476628,29.7371026 4.06147512,28.6164872 L6.98905098,17.5577723 Z" id="路径"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,42 @@
+:deep(.customer-dialog) {
+}
+:deep(.el-dialog) {
+    width: calc(100% - 2rem);
+    max-width: 34rem;
+    @apply sm:w-[34rem] p-5 !rounded-lg;
+    box-shadow: 0 0 0.625rem 0 rgba(0,0,0,0.14);
+}
+:deep(.el-dialog__header) {
+    @apply p-0 text-base font-medium mb-5;
+}
+:deep(.el-dialog__headerbtn) {
+    height: 4.125rem;
+}
+:deep(.el-dialog__headerbtn .el-dialog__close) {
+    @apply text-black
+}
+:deep(.el-dialog__footer) {
+    @apply mt-10 pt-0
+}
+:deep(.el-input__wrapper) {
+    @apply !rounded-lg
+}
+:deep(.el-button) {
+    @apply !rounded-lg;
+}
+:deep(.el-button + .el-button) {
+    @apply !ms-3;
+}
+:deep(.el-dialog__headerbtn) {
+    @apply rtl:left-0 rtl:right-auto;
+}
+:deep(.is-disabled) {
+    @apply !border-transparent !bg-mainColor-900 !bg-opacity-70 hover:!border-transparent hover:!bg-mainColor-900 hover:!bg-opacity-70;
+}
+:deep(.is-checked .el-checkbox__inner) {
+    @apply border-mainColor-900 bg-mainColor-900;
+}
+
+:deep(.el-checkbox__label) {
+    color: unset !important;
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="30px" viewBox="0 0 33 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>临床研究full</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Use-Cases5" transform="translate(-159.000000, -2216.000000)" fill="#6367F1" fill-rule="nonzero">
+            <g id="临床研究full" transform="translate(159.000000, 2216.000000)">
+                <path d="M30,27 L33,27 L33,30 L-1.27897692e-15,30 L-1.27897692e-15,27 L3,27 L3,1.5 C3,0.67157288 3.67157287,1.27897692e-15 4.5,1.27897692e-15 L28.5,1.27897692e-15 C29.3284271,1.27897692e-15 30,0.67157288 30,1.5 L30,27 Z M15,9.00000001 L12,9.00000001 L12,12 L15,12 L15,15 L18,15 L18,12 L21,12 L21,9.00000001 L18,9.00000001 L18,6.00000001 L15,6.00000001 L15,9.00000001 Z M19.5,27 L22.5,27 L22.5,18 L10.5,18 L10.5,27 L13.5,27 L13.5,21 L19.5,21 L19.5,27 L19.5,27 Z" id="形状"></path>
+            </g>
+        </g>
+    </g>
+</svg>

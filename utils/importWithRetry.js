@@ -23,7 +23,11 @@ export async function importWithRetry(moduleKey, maxRetries = 3, delay = 500) {
       console.error(`Import attempt ${attempt} failed for ${moduleKey}:`, error)
 
       if (attempt === maxRetries) {
-        throw new Error(`Failed to import ${moduleKey} after ${maxRetries} attempts: ${error.message}`)
+        const response = await fetch("/packageVersion.json");
+        const buildInfo = await response.json();
+        const newBuildInfo = JSON.stringify(buildInfo)
+        const oldBuildInfo = localStorage.getItem("buildInfo");
+        throw new Error(`Failed to import ${moduleKey} after ${maxRetries} attempts: ${error.message}, newBuildInfo: ${newBuildInfo}, oldBuildInfo: ${oldBuildInfo}`)
       }
 
       const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent)

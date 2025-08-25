@@ -2994,7 +2994,13 @@ let message = {
               ]
       },
         err1: "Error en el formato del enlace de YouTube.",
-        err2: "¡Lo sentimos! Actualmente solo trabajamos con enlaces de YouTube. Si necesitas soporte para otros sitios, te mantendremos informado cuando lo agreguemos en el futuro."
+        err2: "¡Lo sentimos! Actualmente solo trabajamos con enlaces de YouTube. Si necesitas soporte para otros sitios, te mantendremos informado cuando lo agreguemos en el futuro.",
+        videoDownload: {
+              title: "Descarga videos de YouTube como MP4. Gratis, rápido y sin anuncios.",
+              description: "¡Gracias por elegir nuestro servicio! Realmente apreciamos tu confianza y esperamos que haya mejorado tu experiencia. Si pudieras compartir nuestro sitio web con tus amigos, sería de gran ayuda.",
+              downloadButton: "Descargar",
+              downloadError: "Error de descarga."
+            }
     }
   },
   About: {

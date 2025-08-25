@@ -2990,7 +2990,13 @@ let message = {
               ]
       },
         err1: "Błąd formatu linku YouTube.",
-        err2: "Przepraszamy! Obecnie obsługujemy tylko linki YouTube. Jeśli potrzebujesz wsparcia dla innych stron, poinformujemy Cię, gdy dodamy tę funkcję w przyszłości."
+        err2: "Przepraszamy! Obecnie obsługujemy tylko linki YouTube. Jeśli potrzebujesz wsparcia dla innych stron, poinformujemy Cię, gdy dodamy tę funkcję w przyszłości.",
+        videoDownload: {
+              title: "Pobieraj filmy z YouTube jako MP4. Darmowe, szybkie i bez reklam.",
+              description: "Dziękujemy za wybranie naszej usługi! Doceniamy Twoje zaufanie i mamy nadzieję, że poprawiło to Twoje wrażenia. Jeśli możesz udostępnić naszą stronę znajomym, byłoby to ogromną pomocą.",
+              downloadButton: "Pobierz",
+              downloadError: "Błąd pobierania."
+            }
     }
   },
   About: {

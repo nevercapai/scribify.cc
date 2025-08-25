@@ -2985,7 +2985,13 @@ let message = {
               ]
       },
         err1: "Felaktigt YouTube-länkformat.",
-        err2: "Tyvärr! Vi stöder för närvarande endast YouTube-länkar. Om du behöver stöd för andra webbplatser kommer vi att uppdatera dig när vi lägger till det i framtiden."
+        err2: "Tyvärr! Vi stöder för närvarande endast YouTube-länkar. Om du behöver stöd för andra webbplatser kommer vi att uppdatera dig när vi lägger till det i framtiden.",
+        videoDownload: {
+              title: "Ladda ner YouTube-videor som MP4. Gratis, snabbt och utan reklam.",
+              description: "Tack för att du valt vår tjänst! Vi uppskattar verkligen ditt förtroende och hoppas att det förbättrat din upplevelse. Om du kan dela vår webbplats med dina vänner skulle det vara en stor hjälp.",
+              downloadButton: "Ladda ner",
+              downloadError: "Nedladdningsfel"
+            }
     }
   },
   About: {

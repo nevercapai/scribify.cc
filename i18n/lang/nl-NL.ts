@@ -2996,7 +2996,13 @@ let message = {
               ]
       },
         err1: "YouTube-linkformaat fout.",
-        err2: "Sorry! We werken momenteel alleen met YouTube-links. Als je ondersteuning voor andere sites nodig hebt, houden we je op de hoogte wanneer we dit in de toekomst toevoegen."
+        err2: "Sorry! We werken momenteel alleen met YouTube-links. Als je ondersteuning voor andere sites nodig hebt, houden we je op de hoogte wanneer we dit in de toekomst toevoegen.",
+        videoDownload: {
+              title: "YouTube-video's downloaden als MP4. Gratis, snel en zonder advertenties.",
+              description: "Bedankt voor het kiezen van onze service! We waarderen je vertrouwen en hopen dat het je ervaring heeft verbeterd. Als je onze website met vrienden wilt delen, zou dat een enorme hulp zijn.",
+              downloadButton: "Downloaden",
+              downloadError: "Downloadfout."
+            }
     }
   },
   About: {

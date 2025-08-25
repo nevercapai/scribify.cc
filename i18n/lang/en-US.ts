@@ -2654,7 +2654,13 @@ let message = {
       },
       top: {},
       videoDown: {},
-    }
+      videoDownload: {
+        title: "Download YouTube videos as MP4.Free,fast,and no ads.",
+        description: "Thanks for choosing our service! We truly appreciate your trust and hope it enhanced your experience. If you could share our website with your friends, that would be a huge help.",
+        downloadButton: "Download",
+        downloadError: "Download Error."
+      }
+    },
   },
   About: {
     Hero: {

@@ -17,11 +17,11 @@
         @enter="confirm"
       />
       <template #footer>
-        <el-button class="home-btn" @click="visible = false">
+        <el-button class="home-btn mb-2" @click="visible = false">
           {{ t("FileUploadAndRecording.upload.link.cancel") }}
         </el-button>
         <el-button
-          class="home-btn"
+          class="home-btn mb-2"
           :loading="loading || linkLoading"
           @click="confirm"
           type="primary"

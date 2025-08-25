@@ -2985,7 +2985,13 @@ let message = {
               ]
       },
         err1: "YouTube-linkin muotoiluvauri.",
-        err2: "Valitettavasti! Toimimme tällä hetkellä vain YouTube-linkkien kanssa. Jos tarvitset tukea muille sivustoille, pidämme sinut ajan tasalla, kun lisäämme sen tulevaisuudessa."
+        err2: "Valitettavasti! Toimimme tällä hetkellä vain YouTube-linkkien kanssa. Jos tarvitset tukea muille sivustoille, pidämme sinut ajan tasalla, kun lisäämme sen tulevaisuudessa.",
+        videoDownload: {
+              title: "Lataa YouTube-videoita MP4-muodossa. Ilmaista, nopeaa ja ilman mainoksia.",
+              description: "Kiitos, että valitsit palvelumme! Arvostamme luottamustasi ja toivomme, että se paransi kokemustasi. Jos voisit jakaa verkkosivustomme ystäviesi kanssa, se olisi suuri apu.",
+              downloadButton: "Lataa",
+              downloadError: "Latausvirhe."
+            }
     }
   },
   About: {

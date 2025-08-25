@@ -3001,7 +3001,13 @@ let message = {
               ]
       },
         err1: "YouTube-Link-Formatfehler.",
-        err2: "Entschuldigung! Wir unterstützen derzeit nur YouTube-Links. Falls Sie Unterstützung für andere Seiten benötigen, informieren wir Sie, sobald wir diese hinzufügen."
+        err2: "Entschuldigung! Wir unterstützen derzeit nur YouTube-Links. Falls Sie Unterstützung für andere Seiten benötigen, informieren wir Sie, sobald wir diese hinzufügen.",
+        videoDownload: {
+              title: "YouTube-Videos als MP4 herunterladen. Kostenlos, schnell und ohne Werbung.",
+              description: "Vielen Dank, dass Sie unseren Service gewählt haben! Wir schätzen Ihr Vertrauen und hoffen, es hat Ihnen gefallen. Es würde uns sehr helfen, wenn Sie unsere Website mit Ihren Freunden teilen würden.",
+              downloadButton: "Herunterladen",
+              downloadError: "Downloadfehler."
+            }
     }
   },
   About: {

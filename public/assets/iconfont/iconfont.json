@@ -6,6 +6,20 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "45349735",
+      "name": "icon_全部文件",
+      "font_class": "icon_quanbuwenjian",
+      "unicode": "e757",
+      "unicode_decimal": 59223
+    },
+    {
+      "icon_id": "45262994",
+      "name": "对号",
+      "font_class": "a-icon_duihao-mian3",
+      "unicode": "e756",
+      "unicode_decimal": 59222
+    },
+    {
       "icon_id": "45256551",
       "name": "文件集合",
       "font_class": "a-wenjian7",

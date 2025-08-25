@@ -3003,7 +3003,13 @@ let message = {
               ]
       },
         err1: "Erreur de format de lien YouTube.",
-        err2: "Désolé ! Nous ne prenons en charge que les liens YouTube actuellement. Si vous avez besoin d'une prise en charge pour d'autres sites, nous vous tiendrons informé lors de son ajout futur."
+        err2: "Désolé ! Nous ne prenons en charge que les liens YouTube actuellement. Si vous avez besoin d'une prise en charge pour d'autres sites, nous vous tiendrons informé lors de son ajout futur.",
+        videoDownload: {
+              title: "Téléchargez les vidéos YouTube en MP4. Gratuit, rapide et sans publicité.",
+              description: "Merci d'avoir choisi notre service ! Nous apprécions vraiment votre confiance et espérons que cela a amélioré votre expérience. Si vous pouviez partager notre site avec vos amis, ce serait une aide précieuse.",
+              downloadButton: "Télécharger",
+              downloadError: "Erreur de téléchargement."
+            }
     }
   },
   About: {

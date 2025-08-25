@@ -2985,7 +2985,13 @@ let message = {
               ]
       },
         err1: "YouTube bağlantı biçimi hatası.",
-        err2: "Üzgünüz! Şu anda yalnızca YouTube bağlantıları ile çalışıyoruz. Diğer siteler için destek gerekiyorsa, gelecekte eklediğimizde sizi bilgilendireceğiz."
+        err2: "Üzgünüz! Şu anda yalnızca YouTube bağlantıları ile çalışıyoruz. Diğer siteler için destek gerekiyorsa, gelecekte eklediğimizde sizi bilgilendireceğiz.",
+        videoDownload: {
+              title: "YouTube videolarını MP4 olarak indirin. Ücretsiz, hızlı ve reklamsız.",
+              description: "Hizmetimizi seçtiğiniz için teşekkürler! Güveniniz bizim için çok değerli ve deneyiminizi geliştirdiğini umuyoruz. Web sitemizi arkadaşlarınızla paylaşırsanız çok yardımcı olursunuz.",
+              downloadButton: "İndir",
+              downloadError: "İndirme Hatası."
+            }
     }
   },
   About: {

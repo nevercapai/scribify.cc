@@ -2989,7 +2989,13 @@ let message = {
               ]
       },
         err1: "Feil i YouTube-lenkeformat.",
-        err2: "Beklager! Vi støtter for øyeblikket kun YouTube-lenker. Hvis du trenger støtte for andre nettsteder, gir vi deg beskjed når vi legger det til i fremtiden."
+        err2: "Beklager! Vi støtter for øyeblikket kun YouTube-lenker. Hvis du trenger støtte for andre nettsteder, gir vi deg beskjed når vi legger det til i fremtiden.",
+        videoDownload: {
+              title: "Last ned YouTube-videoer som MP4. Gratis, raskt og uten reklamer.",
+              description: "Takk for at du valgte vår tjeneste! Vi setter stor pris på din tillit og håper det forbedret din opplevelse. Hvis du kunne dele nettsiden vår med vennene dine, ville det vært til stor hjelp.",
+              downloadButton: "Last ned",
+              downloadError: "Nedlastingsfeil."
+            }
     }
   },
   About: {

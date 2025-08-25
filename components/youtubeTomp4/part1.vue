@@ -16,7 +16,7 @@
       <span
         @click="link = ''"
         v-if="link"
-        class="iconfont icon-shanchu1 absolute right-[7rem] top-[0.625rem] cursor-pointer text-[#6A1B85]"
+        class="iconfont icon-shanchu1 absolute sm:right-[7.5rem] right-[7.1rem] top-[0.625rem] cursor-pointer text-[#6A1B85]"
       ></span>
       <el-button
         @click="handleDownload"

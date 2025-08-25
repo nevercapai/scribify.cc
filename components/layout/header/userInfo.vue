@@ -51,7 +51,7 @@
           class="mt-[0.5rem] flex w-full items-center py-[0.5rem] hover:text-mainColor-900"
           @click="backHome"
         >
-          <i class="iconfont icon-a-wenjian7 ng-shezhi iconfont-common-class"></i>
+          <i class="iconfont icon-icon_quanbuwenjian ng-shezhi iconfont-common-class"></i>
           {{ t("HomePage.home") }}
         </button>
         <hr class="my-[0.5rem]" />

@@ -2988,7 +2988,13 @@ let message = {
               ]
       },
         err1: "YouTube linkformátum hiba.",
-        err2: "Sajnáljuk! Jelenleg csak YouTube-linkekkel működünk. Ha más oldalak támogatására van szükséged, értesíteni foglak, ha a jövőben hozzáadjuk."
+        err2: "Sajnáljuk! Jelenleg csak YouTube-linkekkel működünk. Ha más oldalak támogatására van szükséged, értesíteni foglak, ha a jövőben hozzáadjuk.",
+        videoDownload: {
+              title: "YouTube-videók letöltése MP4 formátumban. Ingyenes, gyors és reklámmentes.",
+              description: "Köszönjük, hogy minket választott! Nagyra értékeljük a bizalmadat, és reméljük, hogy élményedet fokoztuk. Hatalmas segítséget jelentene, ha megosztanád weboldalunkat a barátaiddal.",
+              downloadButton: "Letöltés",
+              downloadError: "Letöltési hiba."
+            }
     }
   },
   About: {

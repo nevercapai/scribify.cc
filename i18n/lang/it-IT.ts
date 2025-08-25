@@ -2990,7 +2990,13 @@ let message = {
               ]
       },
         err1: "Errore nel formato del link YouTube.",
-        err2: "Scusa! Al momento supportiamo solo i link di YouTube. Se hai bisogno di assistenza per altri siti, ti terremo aggiornato quando lo aggiungeremo in futuro."
+        err2: "Scusa! Al momento supportiamo solo i link di YouTube. Se hai bisogno di assistenza per altri siti, ti terremo aggiornato quando lo aggiungeremo in futuro.",
+        videoDownload: {
+              title: "Scarica video da YouTube come MP4. Gratuito, veloce e senza pubblicità.",
+              description: "Grazie per aver scelto il nostro servizio! Apprezziamo la tua fiducia e speriamo che abbia migliorato la tua esperienza. Condividere il nostro sito con gli amici sarebbe di grande aiuto.",
+              downloadButton: "Scarica",
+              downloadError: "Errore di download."
+            }
     }
   },
   About: {

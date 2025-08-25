@@ -2944,7 +2944,13 @@ let message = {
               ]
       },
         err1: "YouTube链接格式错误。",
-        err2: "抱歉！我们目前仅支持YouTube链接。如需其他网站支持，我们会在未来添加时通知您。"
+        err2: "抱歉！我们目前仅支持YouTube链接。如需其他网站支持，我们会在未来添加时通知您。",
+        videoDownload: {
+              title: "将YouTube视频下载为MP4，免费、快速、无广告。",
+              description: "感谢您选择我们的服务！我们衷心感谢您的信任，并希望它提升了您的体验。如果您能向朋友分享我们的网站，将是极大的帮助。",
+              downloadButton: "下载",
+              downloadError: "下载错误"
+            }
     }
   },
   About: {

@@ -6,13 +6,11 @@
       <!-- 顶部文案说明 -->
       <div class="mb-[1.25rem]">
         <div class="text-[1rem] font-medium text-white">
-          Download YouTube videos as MP4.Free,fast,and no ads.
+          {{ t('Resources.YouTubeToMP4.videoDownload.title') }}
         </div>
         <div class="download-line h-1 w-[6.5rem] rounded"></div>
         <div class="text-[1rem] leading-snug text-white">
-          Thanks for choosing our service! We truly appreciate your trust and
-          hope it enhanced your experience. If you could share our website with
-          your friends, that would be a huge help.
+          {{ t('Resources.YouTubeToMP4.videoDownload.description') }}
         </div>
       </div>
       <!-- 内容卡片：左右布局 -->
@@ -45,7 +43,7 @@
             class="!h-[2.75rem] !w-[13.5rem] !rounded-[1.375rem] !border-0 !bg-[#9334EB] !text-[1rem] font-bold"
             color="#3470FF"
           >
-            Download
+            {{ t('Resources.YouTubeToMP4.videoDownload.downloadButton') }}
           </el-button>
         </div>
       </div>
@@ -57,6 +55,8 @@
 /* videoDown 组件 */
 import { ref } from "vue";
 import { Msg } from "~/utils/tools";
+
+const { t } = useI18n();
 
 // 节流函数
 const throttle = (func: Function, delay: number) => {
@@ -101,7 +101,7 @@ const downloadVideo = async () => {
   } catch (e) {
     loading.value = false;
     Msg({
-      message: "Download Error.",
+      message: t('Resources.YouTubeToMP4.videoDownload.downloadError'),
       type: "error"
     });
   }

@@ -631,6 +631,7 @@ const handleCloseDialog = () => {
   color: black;
   border-radius: 0.5rem; // 8px ÷ 16
   width: calc(100% - 2rem);
+  padding-bottom: 12px;
   max-width: 46.25rem; // 740px ÷ 16
   box-shadow: 0 0.125rem 1.125rem 0 rgba(60, 115, 240, 0.1);
 
@@ -702,6 +703,7 @@ const handleCloseDialog = () => {
 .customer-dialog-link2 {
   @apply p-5 sm:w-[34rem];
   @extend .customer-dialog-link;
+  padding-bottom: 20px;
   max-width: 34rem; // 740px ÷ 16
 }
 </style>

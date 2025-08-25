@@ -159,10 +159,10 @@
           <div class="feature-visual">
             <div style="text-align: center; width: 100%">
               <div
+                class="p-[10px] md:p-[30px]"
                 style="
                   background: var(--light-gray);
                   border-radius: 12px;
-                  padding: 30px;
                 "
               >
                 <div
@@ -1074,6 +1074,10 @@ const signup = () => {
 
   .platforms-grid {
     gap: 20px;
+  }
+
+  .feature-visual {
+    padding: 8px;
   }
 }
 details summary::-webkit-details-marker {

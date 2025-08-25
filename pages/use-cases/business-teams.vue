@@ -54,10 +54,10 @@
 
           <!-- Recording Interface -->
           <div
+            class="p-[10px] sm:p-[40px]"
             style="
               background: #1a1f2e;
               border-radius: 24px;
-              padding: 40px;
               box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
             "
           >

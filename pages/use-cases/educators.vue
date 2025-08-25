@@ -7,7 +7,7 @@
       <div class="container">
         <div class="hero-content">
           <div class="hero-badge">{{ t("UseCases.Educators.heroBadge") }}</div>
-          <h1>
+          <h1 class="break-all">
             <span class="title-line me-2">{{
               t("UseCases.Educators.heroTitle1")
             }}</span>
@@ -687,7 +687,7 @@
             <el-avatar
               :size="56"
               :src="`/assets/images/index/users/Sophia Martinez.png`"
-              class="me-3"
+              class="me-3 object-cover flex-shrink-0"
             />
             <div class="author-info">
               <div class="author-name">
@@ -1211,6 +1211,19 @@ const showDownload = () => {
 
   .workflow-step::after {
     display: none;
+  }
+
+  .platform-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .testimonial-card {
+    padding: 30px;
+
+    .quote-icon {
+      top: 8px;
+      left: 12px;
+    }
   }
 }
 

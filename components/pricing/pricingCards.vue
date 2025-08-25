@@ -98,7 +98,7 @@ import { useI18nModule } from "~/utils/i18n";
 const $i = useI18nModule("Pricing.Cards");
 const { $mitt } = useNuxtApp();
 const handleClick = (type: Number) => {
-  $mitt.emit("goToEvent", { path: "/user/login" });
+  $mitt.emit("goToEvent", { path: "/user/signup" });
 };
 
 onMounted(() => {

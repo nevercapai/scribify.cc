@@ -415,8 +415,8 @@
           </div>
           <div class="feature-visual">
             <div
+              class="sm:p-[30px] p-0"
               style="
-                padding: 30px;
                 background: var(--light-gray);
                 border-radius: 12px;
               "
@@ -489,113 +489,113 @@
         <div class="comparison-table">
           <table>
             <thead>
-              <tr>
-                <th>{{ t("Features.Accuracy.tableHeader1") }}</th>
-                <th>{{ t("Features.Accuracy.tableHeader2") }}</th>
-                <th>{{ t("Features.Accuracy.tableHeader3") }}</th>
-                <th>{{ t("Features.Accuracy.tableHeader4") }}</th>
-                <th>{{ t("Features.Accuracy.tableHeader5") }}</th>
-              </tr>
+            <tr>
+              <th>{{ t("Features.Accuracy.tableHeader1") }}</th>
+              <th>{{ t("Features.Accuracy.tableHeader2") }}</th>
+              <th>{{ t("Features.Accuracy.tableHeader3") }}</th>
+              <th>{{ t("Features.Accuracy.tableHeader4") }}</th>
+              <th>{{ t("Features.Accuracy.tableHeader5") }}</th>
+            </tr>
             </thead>
             <tbody>
-              <tr>
-                <td>
-                  <strong>{{ t("Features.Accuracy.tableRow1Feature") }}</strong>
-                </td>
-                <td>
-                  <span class="check-mark">{{
-                    t("Features.Accuracy.tableRow1NeverCap")
-                  }}</span>
-                </td>
-                <td>{{ t("Features.Accuracy.tableRow1Otter") }}</td>
-                <td>{{ t("Features.Accuracy.tableRow1Descript") }}</td>
-                <td>{{ t("Features.Accuracy.tableRow1Rev") }}</td>
-              </tr>
-              <tr>
-                <td>
-                  <strong>{{ t("Features.Accuracy.tableRow2Feature") }}</strong>
-                </td>
-                <td>
-                  <span class="check-mark">
-                    {{ t("Features.Accuracy.tableRow2NeverCap") }}
-                  </span>
-                </td>
-                <td class="check-mark">
-                  {{ t("Features.Accuracy.tableRow2Otter") }}
-                </td>
-                <td class="check-mark">
-                  {{ t("Features.Accuracy.tableRow2Descript") }}
-                </td>
-                <td class="x-mark">
-                  {{ t("Features.Accuracy.tableRow2Rev") }}
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <strong>{{ t("Features.Accuracy.tableRow3Feature") }}</strong>
-                </td>
-                <td>
-                  <span class="check-mark">{{
-                    t("Features.Accuracy.tableRow3NeverCap")
-                  }}</span>
-                </td>
-                <td>{{ t("Features.Accuracy.tableRow3Otter") }}</td>
-                <td>{{ t("Features.Accuracy.tableRow3Descript") }}</td>
-                <td class="x-mark">
-                  {{ t("Features.Accuracy.tableRow3Rev") }}
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <strong>{{ t("Features.Accuracy.tableRow4Feature") }}</strong>
-                </td>
-                <td>
-                  <span class="check-mark">{{
-                    t("Features.Accuracy.tableRow4NeverCap")
-                  }}</span>
-                </td>
-                <td>{{ t("Features.Accuracy.tableRow4Otter") }}</td>
-                <td>{{ t("Features.Accuracy.tableRow4Descript") }}</td>
-                <td class="x-mark">
-                  {{ t("Features.Accuracy.tableRow4Rev") }}
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <strong>{{ t("Features.Accuracy.tableRow5Feature") }}</strong>
-                </td>
-                <td>
-                  <span class="check-mark">
-                    {{ t("Features.Accuracy.tableRow5NeverCap") }}
-                  </span>
-                </td>
-                <td class="check-mark">
-                  {{ t("Features.Accuracy.tableRow5Otter") }}
-                </td>
-                <td class="check-mark">
-                  {{ t("Features.Accuracy.tableRow5Descript") }}
-                </td>
-                <td>{{ t("Features.Accuracy.tableRow5Rev") }}</td>
-              </tr>
-              <tr>
-                <td>
-                  <strong>{{ t("Features.Accuracy.tableRow6Feature") }}</strong>
-                </td>
-                <td>
-                  <span class="check-mark">{{
-                    t("Features.Accuracy.tableRow6NeverCap")
-                  }}</span>
-                </td>
-                <td class="x-mark">
-                  {{ t("Features.Accuracy.tableRow6Otter") }}
-                </td>
-                <td class="x-mark">
-                  {{ t("Features.Accuracy.tableRow6Descript") }}
-                </td>
-                <td class="x-mark">
-                  {{ t("Features.Accuracy.tableRow6Rev") }}
-                </td>
-              </tr>
+            <tr>
+              <td>
+                <strong>{{ t("Features.Accuracy.tableRow1Feature") }}</strong>
+              </td>
+              <td :data-label="t('Features.Accuracy.tableHeader2')">
+          <span class="check-mark">{{
+              t("Features.Accuracy.tableRow1NeverCap")
+            }}</span>
+              </td>
+              <td :data-label="t('Features.Accuracy.tableHeader3')">{{ t("Features.Accuracy.tableRow1Otter") }}</td>
+              <td :data-label="t('Features.Accuracy.tableHeader4')">{{ t("Features.Accuracy.tableRow1Descript") }}</td>
+              <td :data-label="t('Features.Accuracy.tableHeader5')">{{ t("Features.Accuracy.tableRow1Rev") }}</td>
+            </tr>
+            <tr>
+              <td>
+                <strong>{{ t("Features.Accuracy.tableRow2Feature") }}</strong>
+              </td>
+              <td :data-label="t('Features.Accuracy.tableHeader2')">
+          <span class="check-mark">
+            {{ t("Features.Accuracy.tableRow2NeverCap") }}
+          </span>
+              </td>
+              <td class="check-mark" :data-label="t('Features.Accuracy.tableHeader3')">
+                {{ t("Features.Accuracy.tableRow2Otter") }}
+              </td>
+              <td class="check-mark" :data-label="t('Features.Accuracy.tableHeader4')">
+                {{ t("Features.Accuracy.tableRow2Descript") }}
+              </td>
+              <td class="x-mark" :data-label="t('Features.Accuracy.tableHeader5')">
+                {{ t("Features.Accuracy.tableRow2Rev") }}
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <strong>{{ t("Features.Accuracy.tableRow3Feature") }}</strong>
+              </td>
+              <td :data-label="t('Features.Accuracy.tableHeader2')">
+          <span class="check-mark">{{
+              t("Features.Accuracy.tableRow3NeverCap")
+            }}</span>
+              </td>
+              <td :data-label="t('Features.Accuracy.tableHeader3')">{{ t("Features.Accuracy.tableRow3Otter") }}</td>
+              <td :data-label="t('Features.Accuracy.tableHeader4')">{{ t("Features.Accuracy.tableRow3Descript") }}</td>
+              <td class="x-mark" :data-label="t('Features.Accuracy.tableHeader5')">
+                {{ t("Features.Accuracy.tableRow3Rev") }}
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <strong>{{ t("Features.Accuracy.tableRow4Feature") }}</strong>
+              </td>
+              <td :data-label="t('Features.Accuracy.tableHeader2')">
+          <span class="check-mark">{{
+              t("Features.Accuracy.tableRow4NeverCap")
+            }}</span>
+              </td>
+              <td :data-label="t('Features.Accuracy.tableHeader3')">{{ t("Features.Accuracy.tableRow4Otter") }}</td>
+              <td :data-label="t('Features.Accuracy.tableHeader4')">{{ t("Features.Accuracy.tableRow4Descript") }}</td>
+              <td class="x-mark" :data-label="t('Features.Accuracy.tableHeader5')">
+                {{ t("Features.Accuracy.tableRow4Rev") }}
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <strong>{{ t("Features.Accuracy.tableRow5Feature") }}</strong>
+              </td>
+              <td :data-label="t('Features.Accuracy.tableHeader2')">
+          <span class="check-mark">
+            {{ t("Features.Accuracy.tableRow5NeverCap") }}
+          </span>
+              </td>
+              <td class="check-mark" :data-label="t('Features.Accuracy.tableHeader3')">
+                {{ t("Features.Accuracy.tableRow5Otter") }}
+              </td>
+              <td class="check-mark" :data-label="t('Features.Accuracy.tableHeader4')">
+                {{ t("Features.Accuracy.tableRow5Descript") }}
+              </td>
+              <td :data-label="t('Features.Accuracy.tableHeader5')">{{ t("Features.Accuracy.tableRow5Rev") }}</td>
+            </tr>
+            <tr>
+              <td>
+                <strong>{{ t("Features.Accuracy.tableRow6Feature") }}</strong>
+              </td>
+              <td :data-label="t('Features.Accuracy.tableHeader2')">
+          <span class="check-mark">{{
+              t("Features.Accuracy.tableRow6NeverCap")
+            }}</span>
+              </td>
+              <td class="x-mark" :data-label="t('Features.Accuracy.tableHeader3')">
+                {{ t("Features.Accuracy.tableRow6Otter") }}
+              </td>
+              <td class="x-mark" :data-label="t('Features.Accuracy.tableHeader4')">
+                {{ t("Features.Accuracy.tableRow6Descript") }}
+              </td>
+              <td class="x-mark" :data-label="t('Features.Accuracy.tableHeader5')">
+                {{ t("Features.Accuracy.tableRow6Rev") }}
+              </td>
+            </tr>
             </tbody>
           </table>
         </div>
@@ -969,7 +969,6 @@ const handleClick = () => {
   border-radius: 16px;
   border: 1px solid var(--line-color);
   overflow: hidden;
-  // box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
 }
 
 .comparison-table table {
@@ -984,6 +983,7 @@ const handleClick = () => {
   font-weight: 700;
   border-bottom: 2px solid #e5e7eb;
 }
+
 [dir="rtl"] .comparison-table th {
   text-align: right !important;
 }
@@ -1030,6 +1030,97 @@ const handleClick = () => {
 
   .hero-cta {
     flex-direction: column;
+  }
+
+  .feature-visual {
+    padding: 20px 16px;
+    min-height: 200px;
+    height: auto;
+    border-radius: 16px;
+    overflow-y: auto;
+  }
+
+  .comparison-table {
+    border-radius: 0;
+    border: 0;
+  }
+
+  .comparison-table table,
+  .comparison-table thead,
+  .comparison-table tbody,
+  .comparison-table th,
+  .comparison-table td,
+  .comparison-table tr {
+    display: block;
+  }
+
+  /* 隐藏表头 */
+  .comparison-table thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  /* 每行变成卡片 */
+  .comparison-table tr {
+    background: white;
+    border: 1px solid #e5e7eb;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+  }
+
+  .comparison-table tr:last-child {
+    margin-bottom: 0;
+
+    td:first-child {
+      border-bottom: 1px solid #f3f4f6;
+    }
+  }
+
+  /* 重置 td 样式 */
+  .comparison-table td {
+    border: none;
+    padding: 8px 0;
+    position: relative;
+    padding-left: 40%;
+    display: flex;
+    align-items: center;
+    min-height: 40px;
+  }
+
+  /* 第一个 td（功能列）特殊处理 */
+  .comparison-table td:first-child {
+    padding-left: 0;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #f3f4f6;
+    margin-bottom: 12px;
+    font-size: 16px;
+  }
+
+  /* 为每个 td 添加标签 */
+  .comparison-table td:not(:first-child):before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 35%;
+    padding-right: 10px;
+    white-space: nowrap;
+    font-weight: 600;
+    color: #6b7280;
+    font-size: 14px;
+  }
+
+  /* RTL 支持 */
+  [dir="rtl"] .comparison-table td:not(:first-child) {
+    padding-right: 40%;
+    padding-left: 0;
+  }
+
+  [dir="rtl"] .comparison-table td:not(:first-child):before {
+    right: 0;
+    left: auto;
+    text-align: right;
   }
 }
 </style>

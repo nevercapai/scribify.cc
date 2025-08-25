@@ -34,7 +34,8 @@
               </a>
             </span>
           </div>
-          <div class="trust-badges">
+          <div class="flex justify-center">
+            <div class="trust-badges">
             <span>
               <el-image
                 src="/assets/img/index/Unlimited.png"
@@ -43,7 +44,7 @@
               ></el-image>
               {{ $i("Hero.Unlimited") }}
             </span>
-            <span>
+              <span>
               <el-image
                 src="/assets/img/index/NoCap.png"
                 class="relative top-[2px] me-[5px] h-[1rem] w-[1rem] rounded-md"
@@ -51,7 +52,7 @@
               ></el-image>
               {{ $i("Hero.NoCap") }}
             </span>
-            <span>
+              <span>
               <el-image
                 src="/assets/img/index/Hour.png"
                 class="relative top-[2px] me-[5px] h-[1rem] w-[1rem] rounded-md"
@@ -59,6 +60,7 @@
               ></el-image>
               {{ $i("Hero.Hour") }}
             </span>
+            </div>
           </div>
           <transition name="slide-fade">
             <howToDownload v-if="showHowToDownload"></howToDownload>
@@ -1109,6 +1111,7 @@ h1 {
 
   .trust-badges {
     flex-direction: column;
+    align-items: flex-start;
     gap: 20px;
   }
 }

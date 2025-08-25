@@ -5,6 +5,7 @@ export const downloadVideo = (emit: any) => {
   if (process.env.NODE_ENV === "development") {
     link.value = "https://www.youtube.com/watch?v=-KclsWH8a0I";
   }
+  const { t} = useI18n();
   const urlRegex =
     /^(https?:\/\/)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)$/;
   const youtubeRegex =
@@ -17,7 +18,7 @@ export const downloadVideo = (emit: any) => {
       }
       if (!urlRegex.test(link.value)) {
         Msg({
-          message: "YouTube link format error.",
+          message: t('Resources.YouTubeToMP4.err1'),
           customClass: "!z-[9999]",
           type: "error"
         });
@@ -25,8 +26,7 @@ export const downloadVideo = (emit: any) => {
       }
       if (!youtubeRegex.test(link.value)) {
         Msg({
-          message:
-            "Sorry! We currently only work with YouTube links. If you need support for other sites, we'll keep you updated when we add it in the future.",
+          message: t('Resources.YouTubeToMP4.err2'),
           customClass: "!z-[9999]",
           type: "error"
         });

@@ -2980,14 +2980,17 @@ let message = {
                   answer: "Choć zapewniamy najszybsze pobieranie, czas zależy też od długości filmu i prędkości Twojego internetu."
                 },
                 {
-                  question: "Gdzie zapisuje się plik MP4 po pobraniu na smartfonie?"
+                  question: "Gdzie zapisuje się plik MP4 po pobraniu na smartfonie?",
+                  answer: 'Po pobraniu pliku MP4 na smartfonie, zazwyczaj znajdziesz go w folderze "Downloads" w aplikacji menedżera plików twojego urządzenia.'
                 },
                 {
                   question: "Czy pobieranie filmu z YouTube jako MP4 obniża jakość?",
                   answer: "Nie. Pobieranie filmów z YouTube jako MP4 przy użyciu naszego narzędzia zachowuje oryginalną jakość. Proces konwersji nie wpływa na jakość źródłową, zapewniając takie samo wrażenia jak na YouTube."
                 }
               ]
-      }
+      },
+        err1: "Błąd formatu linku YouTube.",
+        err2: "Przepraszamy! Obecnie obsługujemy tylko linki YouTube. Jeśli potrzebujesz wsparcia dla innych stron, poinformujemy Cię, gdy dodamy tę funkcję w przyszłości."
     }
   },
   About: {

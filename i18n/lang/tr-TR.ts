@@ -2975,14 +2975,17 @@ let message = {
                   answer: "En hızlı indirme deneyimini sağlamak için çaba gösterirken, indirme süresi aynı zamanda videonun uzunluğu ve internet bağlantı hızınız gibi faktörlerden de etkilenir."
                 },
                 {
-                  question: "Akıllı telefonumla bir MP4 videosu indirdiğimde, nereye kaydedilir?"
+                  question: "Akıllı telefonumla bir MP4 videosu indirdiğimde, nereye kaydedilir?",
+                  answer: 'Akıllı telefonunuza bir MP4 indirdikten sonra, genellikle cihazınızın dosya yöneticisi uygulaması içindeki "Downloads" klasöründe bulabilirsiniz.'
                 },
                 {
                   question: "Bir YouTube videosunu MP4 olarak indirmek video kalitesini düşürür mü?",
                   answer: "Hayır. YouTube videolarını aracımızı kullanarak MP4 olarak indirmek, orijinal video kalitesini korur. Dönüştürme süreci kaynak kalitesini koruyarak, YouTube'dakiyle aynı izleme deneyimini elde etmenizi sağlar."
                 }
               ]
-      }
+      },
+        err1: "YouTube bağlantı biçimi hatası.",
+        err2: "Üzgünüz! Şu anda yalnızca YouTube bağlantıları ile çalışıyoruz. Diğer siteler için destek gerekiyorsa, gelecekte eklediğimizde sizi bilgilendireceğiz."
     }
   },
   About: {

@@ -2500,6 +2500,8 @@ let message = {
   },
   Resources: {
     YouTubeToMP4: {
+      err1: 'YouTube link format error.',
+      err2: 'Sorry! We currently only work with YouTube links. If you need support for other sites, we\'ll keep you updated when we add it in the future.',
       part1: {
         "title": "Download YouTube Videos As MP4",
         "placeholder": "Search or paste your Youtube link here",
@@ -2640,10 +2642,7 @@ let message = {
           {
             question:
               "When I download an MP4 video using my smartphone, where is it saved?",
-            answer: [
-              'After downloading an MP4 on your smartphone, you can typically find it in the "Downloads" folder within your ',
-              "device's file manager app."
-            ].join()
+            answer: 'After downloading an MP4 on your smartphone, you can typically find it in the "Downloads" folder within your, device\'s file manager app.'
           },
           {
             question:

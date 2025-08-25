@@ -6,9 +6,6 @@ export const downloadFileApi = {
     try {
       const res = await request<any>("/wapi/fileServer/file/file/uploadUrlOpen", {
         method: "POST",
-        headers: {
-          'X-Language': 'en-US'
-        },
         body
       });
       if (res.code === 0) {
@@ -27,9 +24,6 @@ export const downloadFileApi = {
         "/wapi/fileServer/file/file/uploadUrlStatusOpen",
         {
           method: "POST",
-          headers: {
-            'X-Language': 'en-US'
-          },
           body
         }
       );

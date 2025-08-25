@@ -2986,14 +2986,17 @@ let message = {
                   answer: "Hoewel we de snelst mogelijke downloadervaring garanderen, wordt de downloadtijd ook beïnvloed door factoren zoals de lengte van de video en je internetsnelheid."
                 },
                 {
-                  question: "Waar wordt een MP4-video opgeslagen als ik hem met mijn smartphone download?"
+                  question: "Waar wordt een MP4-video opgeslagen als ik hem met mijn smartphone download?",
+                  answer: 'Nadat u een MP4 op uw smartphone heeft gedownload, kunt u deze meestal vinden in de map "Downloads" binnen uw bestandsbeheerapp.'
                 },
                 {
                   question: "Vermindert het downloaden van een YouTube-video als MP4 de videokwaliteit?",
                   answer: "Nee. Het downloaden van YouTube-video's als MP4 met onze tool behoudt de originele videokwaliteit. Het conversieproces behoudt de bronkwaliteit, zodat je dezelfde kijkervaring hebt als op YouTube."
                 }
               ]
-      }
+      },
+        err1: "YouTube-linkformaat fout.",
+        err2: "Sorry! We werken momenteel alleen met YouTube-links. Als je ondersteuning voor andere sites nodig hebt, houden we je op de hoogte wanneer we dit in de toekomst toevoegen."
     }
   },
   About: {

@@ -2975,14 +2975,17 @@ let message = {
                   answer: "Även om vi säkerställer den snabbaste möjliga nedladdningsupplevelsen, påverkas nedladdningstiden också av faktorer som videons längd och din internetanslutnings hastighet."
                 },
                 {
-                  question: "När jag laddar ner en MP4-video med min smartphone, var sparas den?"
+                  question: "När jag laddar ner en MP4-video med min smartphone, var sparas den?",
+                  answer: 'Efter att ha laddat ned en MP4-fil på din smartphone hittar du den vanligtvis i mappen "Nedladdningar" i din enhets filhanterarapp.'
                 },
                 {
                   question: "Minskar videokvaliteten när jag laddar ner en YouTube-video som MP4?",
                   answer: "Nej. Att ladda ner YouTube-videor som MP4 med vårt verktyg behåller originalvideons kvalitet. Konverteringsprocessen bevarar källkvaliteten, så du får samma visningsupplevelse som på YouTube."
                 }
               ]
-      }
+      },
+        err1: "Felaktigt YouTube-länkformat.",
+        err2: "Tyvärr! Vi stöder för närvarande endast YouTube-länkar. Om du behöver stöd för andra webbplatser kommer vi att uppdatera dig när vi lägger till det i framtiden."
     }
   },
   About: {

@@ -3181,39 +3181,34 @@ let message = {
       part7: {
         title: "Perguntas-chave sobre baixar vídeos do YouTube",
         list: [
-          {
-            question:
-              "Posso baixar um vídeo do YouTube se ele tiver direitos autorais?",
-            answer:
-              "Baixar vídeos do YouTube protegidos por direitos autorais sem permissão é ilegal."
-          },
-          {
-            question: "Esta ferramenta de download é segura?",
-            answer:
-              "Sim, é segura e confiável. Não solicitamos informações pessoais e tomamos medidas contra vírus. Lembre-se de sempre ter cuidado ao baixar arquivos da internet: evite links suspeitos ou arquivos duvidosos."
-          },
-          {
-            question: "Quais idiomas o download de YouTube para MP4 suporta?",
-            answer:
-              "Nosso serviço suporta vídeos do YouTube em todos os idiomas populares."
-          },
-          {
-            question:
-              "Quais fatores afetam o tempo para baixar um vídeo do YouTube?",
-            answer:
-              "Embora garantamos a experiência mais rápida, o tempo de download também é afetado por fatores como duração do vídeo e velocidade da sua conexão."
-          },
-          {
-            question:
-              "Quando baixo um vídeo MP4 no smartphone, onde ele é salvo?"
-          },
-          {
-            question: "Baixar um vídeo do YouTube como MP4 reduz a qualidade?",
-            answer:
-              "Não. Baixar vídeos do YouTube como MP4 com nossa ferramenta mantém a qualidade original. O processo de conversão preserva a qualidade da fonte, garantindo a mesma experiência do YouTube."
-          }
-        ]
-      }
+                {
+                  question: "Posso baixar um vídeo do YouTube se ele tiver direitos autorais?",
+                  answer: "Baixar vídeos do YouTube protegidos por direitos autorais sem permissão é ilegal."
+                },
+                {
+                  question: "Esta ferramenta de download é segura?",
+                  answer: "Sim, é segura e confiável. Não solicitamos informações pessoais e tomamos medidas contra vírus. Lembre-se de sempre ter cuidado ao baixar arquivos da internet: evite links suspeitos ou arquivos duvidosos."
+                },
+                {
+                  question: "Quais idiomas o download de YouTube para MP4 suporta?",
+                  answer: "Nosso serviço suporta vídeos do YouTube em todos os idiomas populares."
+                },
+                {
+                  question: "Quais fatores afetam o tempo para baixar um vídeo do YouTube?",
+                  answer: "Embora garantamos a experiência mais rápida, o tempo de download também é afetado por fatores como duração do vídeo e velocidade da sua conexão."
+                },
+                {
+                  question: "Quando baixo um vídeo MP4 no smartphone, onde ele é salvo?",
+                  answer: 'Após fazer o download de um MP4 no seu smartphone, você geralmente pode encontrá-lo na pasta "Downloads" no aplicativo de gerenciador de arquivos do dispositivo.'
+                },
+                {
+                  question: "Baixar um vídeo do YouTube como MP4 reduz a qualidade?",
+                  answer: "Não. Baixar vídeos do YouTube como MP4 com nossa ferramenta mantém a qualidade original. O processo de conversão preserva a qualidade da fonte, garantindo a mesma experiência do YouTube."
+                }
+              ]
+      },
+        err1: "Erro de formato do link do YouTube.",
+        err2: "Desculpe! Atualmente só funcionamos com links do YouTube. Se precisar de suporte para outros sites, vamos atualizá-lo quando adicionarmos no futuro."
     }
   },
   About: {

@@ -2979,14 +2979,17 @@ let message = {
                   answer: "Selv om vi sikrer raskest mulig nedlasting, påvirkes nedlastingstiden også av faktorer som videolengde og internettforbindelseshastighet."
                 },
                 {
-                  question: "Hvor lagres en MP4-video når jeg laster den ned med smarttelefonen min?"
+                  question: "Hvor lagres en MP4-video når jeg laster den ned med smarttelefonen min?",
+                  answer: 'Etter nedlasting av en MP4 på smarttelefonen din, finner du den vanligvis i mappen "Downloads" i filbehandlingsappen på enheten.'
                 },
                 {
                   question: "Reduserer nedlasting av en YouTube-video som MP4 videokvaliteten?",
                   answer: "Nei. Nedlasting av YouTube-videoer som MP4 med vårt verktøy beholder original videokvalitet. Konverteringsprosessen bevarer kilden, slik at du får samme visningsopplevelse som på YouTube."
                 }
               ]
-      }
+      },
+        err1: "Feil i YouTube-lenkeformat.",
+        err2: "Beklager! Vi støtter for øyeblikket kun YouTube-lenker. Hvis du trenger støtte for andre nettsteder, gir vi deg beskjed når vi legger det til i fremtiden."
     }
   },
   About: {

@@ -3,8 +3,8 @@
   <section class="px-4">
     <!-- 标题 -->
     <h2 class="mb-8 text-center text-[2.5rem] font-bold leading-snug">
-      Here are the 5 major benefits of downloading<br />
-      YouTube videos as MP4 files
+      {{ $i("content[0]") }}<br />
+      {{ $i("content[1]") }}
     </h2>
     <!-- 内容区 -->
     <div

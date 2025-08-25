@@ -2978,14 +2978,17 @@ let message = {
                   answer: "Bár a leggyorsabb letöltési élményt biztosítjuk, a letöltési időt befolyásolhatja a videó hossza és az internetkapcsolat sebessége."
                 },
                 {
-                  question: "Ha okostelefonnal töltök le egy MP4-videót, hova kerül el?"
+                  question: "Ha okostelefonnal töltök le egy MP4-videót, hova kerül el?",
+                  answer: 'Miután letöltöttél egy MP4 fájlt okostelefonodra, általában az eszközöd fájlkezelő alkalmazásában a "Letöltések" mappában találod meg.'
                 },
                 {
                   question: "Csökken a videó minősége, ha MP4-ként töltöm le a YouTube-videót?",
                   answer: "Nem. YouTube-videók MP4-ként való letöltése eszközünkkel megtartja a videó eredeti minőségét. A konvertálás során megőrizzük a forrásminőséget, így ugyanazt a nézői élményt nyújtja, mint a YouTube-on."
                 }
               ]
-      }
+      },
+        err1: "YouTube linkformátum hiba.",
+        err2: "Sajnáljuk! Jelenleg csak YouTube-linkekkel működünk. Ha más oldalak támogatására van szükséged, értesíteni foglak, ha a jövőben hozzáadjuk."
     }
   },
   About: {

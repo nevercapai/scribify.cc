@@ -2991,14 +2991,17 @@ let message = {
                   answer: "Während wir die schnellstmögliche Download-Erfahrung gewährleisten, hängt die Download-Zeit auch von Faktoren wie der Videolänge und deiner Internetgeschwindigkeit ab."
                 },
                 {
-                  question: "Wo wird eine MP4-Videodatei auf meinem Smartphone gespeichert?"
+                  question: "Wo wird eine MP4-Videodatei auf meinem Smartphone gespeichert?",
+                  answer: 'Nach dem Herunterladen einer MP4-Datei auf Ihrem Smartphone finden Sie diese normalerweise im Ordner "Downloads" der Dateimanager-App Ihres Geräts.'
                 },
                 {
                   question: "Verschlechtert das Herunterladen eines YouTube-Videos als MP4 die Videoqualität?",
                   answer: "Nein. Das Herunterladen von YouTube-Videos als MP4 mit unserem Tool behält die Originalqualität bei. Der Konvertierungsprozess bewahrt die Quellqualität, sodass du das gleiche Ansehen-Erlebnis wie auf YouTube hast."
                 }
               ]
-      }
+      },
+        err1: "YouTube-Link-Formatfehler.",
+        err2: "Entschuldigung! Wir unterstützen derzeit nur YouTube-Links. Falls Sie Unterstützung für andere Seiten benötigen, informieren wir Sie, sobald wir diese hinzufügen."
     }
   },
   About: {

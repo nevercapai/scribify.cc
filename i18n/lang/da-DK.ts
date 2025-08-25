@@ -2975,14 +2975,17 @@ let message = {
                   answer: "Selvom vi sikrer den hurtigst mulige downloadoplevelse, påvirkes downloadtiden også af faktorer som videolængde og din internetforbindelses hastighed."
                 },
                 {
-                  question: "Hvor bliver MP4-videoen gemt, når jeg downloader den på min smartphone?"
+                  question: "Hvor bliver MP4-videoen gemt, når jeg downloader den på min smartphone?",
+                  answer: 'Efter at have downloadet en MP4-fil på din smartphone, kan du normalt finde den i mappen "Downloads" i din enheds filhåndteringsapp.'
                 },
                 {
                   question: "Reducerer download af en YouTube-video som MP4 videokvaliteten?",
                   answer: "Nej. Download af YouTube-videoer som MP4 med vores værktøj bevarer den originale videokvalitet. Konverteringsprocessen bevarer kildens kvalitet, så du får den samme visningsoplevelse som på YouTube."
                 }
               ]
-      }
+      },
+        err1: "Fejl i YouTube-linkformat.",
+        err2: "Beklager! Vi understøtter i øjeblikket kun YouTube-links. Hvis du har brug for understøttelse af andre websteder, holder vi dig opdateret, når vi tilføjer det i fremtiden."
     }
   },
   About: {

@@ -2980,14 +2980,17 @@ let message = {
                   answer: "Sebbene garantiamo l'esperienza di download più veloce possibile, il tempo di download è influenzato anche da fattori come la lunghezza del video e la velocità della tua connessione internet."
                 },
                 {
-                  question: "Quando scarico un video MP4 con il mio smartphone, dove viene salvato?"
+                  question: "Quando scarico un video MP4 con il mio smartphone, dove viene salvato?",
+                  answer: `Dopo aver scaricato un MP4 sul tuo smartphone, puoi in genere trovarlo nella cartella "Downloads" all'interno dell'app di gestione file del dispositivo.`
                 },
                 {
                   question: "Scaricare un video YouTube come MP4 riduce la qualità del video?",
                   answer: "No. Scaricare video YouTube come MP4 con il nostro strumento mantiene la qualità originale del video. Il processo di conversione preserva la qualità sorgente, garantendoti la stessa esperienza di visualizzazione che hai su YouTube."
                 }
               ]
-      }
+      },
+        err1: "Errore nel formato del link YouTube.",
+        err2: "Scusa! Al momento supportiamo solo i link di YouTube. Se hai bisogno di assistenza per altri siti, ti terremo aggiornato quando lo aggiungeremo in futuro."
     }
   },
   About: {

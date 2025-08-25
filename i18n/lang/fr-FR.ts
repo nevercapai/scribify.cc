@@ -2993,14 +2993,17 @@ let message = {
                   answer: "Bien que nous garantissions une vitesse optimale, la durée de la vidéo et votre connexion internet jouent un rôle."
                 },
                 {
-                  question: "Où est enregistré un MP4 téléchargé sur smartphone ?"
+                  question: "Où est enregistré un MP4 téléchargé sur smartphone ?",
+                  answer: `Après avoir téléchargé un MP4 sur votre smartphone, vous pouvez généralement le trouver dans le dossier "Téléchargements" de l'application de gestion de fichiers de votre appareil.`
                 },
                 {
                   question: "La conversion en MP4 réduit-elle la qualité ?",
                   answer: "Non. Notre outil conserve la qualité d'origine, comme sur YouTube."
                 }
               ]
-      }
+      },
+        err1: "Erreur de format de lien YouTube.",
+        err2: "Désolé ! Nous ne prenons en charge que les liens YouTube actuellement. Si vous avez besoin d'une prise en charge pour d'autres sites, nous vous tiendrons informé lors de son ajout futur."
     }
   },
   About: {

@@ -7,10 +7,10 @@
       <div class="container">
         <div class="hero-content">
           <div class="hero-badge">{{ t("UseCases.Educators.heroBadge") }}</div>
-          <h1 class="break-all">
+          <h1 class="">
             <span class="title-line me-2">{{
               t("UseCases.Educators.heroTitle1")
-            }}</span>
+            }}</span> <br class="sm:hidden block" />
             <span
               style="
                 background: var(--text-gradient);

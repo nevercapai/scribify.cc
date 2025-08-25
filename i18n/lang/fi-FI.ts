@@ -2975,14 +2975,17 @@ let message = {
                   answer: "Vaikka takaamme mahdollisimman nopean latauskokemuksen, latausaikaan vaikuttavat myös tekijät kuten videon pituus ja internet-yhteytesi nopeus."
                 },
                 {
-                  question: "Minne MP4-video tallentuu, kun lataan sen älypuhelimella?"
+                  question: "Minne MP4-video tallentuu, kun lataan sen älypuhelimella?",
+                  answer: 'Ladattuaan MP4-tiedoston älypuhelimeen, löydät sen yleensä laitteesi tiedostonhallintaohjelman "Lataukset"-kansiosta.'
                 },
                 {
                   question: "Heikentääkö YouTube-videon lataaminen MP4-muotona videon laatua?",
                   answer: "Ei. YouTube-videoiden lataaminen MP4-muotona käyttäen työkaluamme säilyttää alkuperäisen videon laadun. Muunnosprosessi säilyttää lähdelaadun, joten saat saman katselukokemuksen kuin YouTubessa."
                 }
               ]
-      }
+      },
+        err1: "YouTube-linkin muotoiluvauri.",
+        err2: "Valitettavasti! Toimimme tällä hetkellä vain YouTube-linkkien kanssa. Jos tarvitset tukea muille sivustoille, pidämme sinut ajan tasalla, kun lisäämme sen tulevaisuudessa."
     }
   },
   About: {

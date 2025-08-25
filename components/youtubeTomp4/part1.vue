@@ -5,17 +5,18 @@
       {{ $i("title") }}
     </h1>
     <div
-      class="relative mb-[1.5rem] flex h-[2.75rem] w-full max-w-[43.25rem] justify-center ps-[0.5rem]"
+      class="relative mb-[1.5rem] flex h-[2.75rem] w-full max-w-[43.25rem] justify-center sm:ps-[0.5rem]"
     >
       <el-input
         v-model="link"
         class="!h-[2.75rem]"
+        :class="{link}"
         :placeholder="$i('placeholder')"
       />
       <span
         @click="link = ''"
         v-if="link"
-        class="iconfont icon-shanchu1 absolute right-[8.125rem] top-[0.625rem] cursor-pointer text-[#6A1B85]"
+        class="iconfont icon-shanchu1 absolute right-[7rem] top-[0.625rem] cursor-pointer text-[#6A1B85]"
       ></span>
       <el-button
         @click="handleDownload"
@@ -28,7 +29,7 @@
       </el-button>
     </div>
     <div
-      class="text-center text-sm text-[rgba(255,255,255,0.7)]"
+      class="text-center text-sm text-[rgba(255,255,255,0.7)] flex items-center"
       :class="[loading ? 'mb-[1.375rem]' : '']"
     >
       <el-image
@@ -36,7 +37,7 @@
         src="/assets/images/downloadMp4/play_1.png"
         class="me-[0.5rem] h-5 w-5 cursor-pointer align-middle"
       ></el-image>
-      <el-link @click="handleHowDownload" type="primary">
+      <el-link @click="handleHowDownload" type="primary" class="mr-2">
         {{ $i("howToDownload") }}
       </el-link>
       {{ $i("tutorial") }}
@@ -81,8 +82,11 @@ const handleHowDownload = () => {
   --el-text-color-regular: #fff;
   --el-text-color-placeholder: rgba(255, 255, 255, 0.7);
   .el-input__wrapper {
-    border-bottom-right-radius: 0;
-    border-top-right-radius: 0;
+    border-bottom-right-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    padding-right: 0;
+    padding-left: 0;
+    padding-inline-start: 8px;
   }
 }
 .download-btn {
@@ -101,7 +105,7 @@ const handleHowDownload = () => {
   -webkit-background-clip: text;
   color: transparent;
 }
-:deep(.el-input__inner) {
-  padding-right: 30px;
+:deep(.link .el-input__inner) {
+  padding-inline-end: 30px;
 }
 </style>

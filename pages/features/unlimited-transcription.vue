@@ -331,7 +331,7 @@
               </li>
             </ul>
           </div>
-          <div class="feature-visual">
+          <div class="feature-visual table-visual-wrap">
             <div class="table-visual">
               <div class="table-row">
                 <div class="label table-cell">
@@ -974,6 +974,27 @@ const handleClick = () => {
   .trust-badges {
     flex-direction: column;
     gap: 30px;
+  }
+
+  .feature-visual {
+    padding: 20px;
+
+    .table-cell {
+      padding: 10px;
+    }
+  }
+
+  .table-visual-wrap {
+    min-height: auto;
+  }
+
+  .stats-visual {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+
+    .stat-card {
+      width: 220px;
+    }
   }
 }
 

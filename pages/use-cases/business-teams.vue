@@ -171,7 +171,7 @@
     </section>
 
     <!-- Features Section -->
-    <section class="features-section" id="features">
+    <section class="features-section">
       <div class="container">
         <div class="section-header">
           <h2 class="section-title">
@@ -508,7 +508,7 @@
     </section>
 
     <!-- Workflow Section -->
-    <section class="workflow-section">
+    <section class="workflow-section" id="features">
       <div class="container">
         <div class="section-header">
           <h2 class="section-title">

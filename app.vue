@@ -15,7 +15,7 @@
 
 <script setup lang="ts">
 import "core-js";
-import { useI18n } from "#imports";
+import { useGuestUploadStore, useI18n } from "#imports";
 import { ElConfigProvider } from "element-plus";
 import { ref, computed, watchEffect } from "vue";
 import { useScrollTitle } from "./utils/useScrollTitle";
@@ -161,6 +161,13 @@ onMounted(async () => {
 onUnmounted(() => {
   $mitt.off("goToEvent", goToEvent);
 });
+
+const {clear} = useGuestUploadStore()
+watch(() => route.path, () => {
+  if (!route.name?.includes("index")) {
+    clear()
+  }
+})
 </script>
 <style>
 html,

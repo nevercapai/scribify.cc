@@ -2,6 +2,7 @@
 ./stores
 ./stores/useUploadStore.ts
 ./stores/useExportStore.ts
+./stores/useGuestUploadStore.ts
 ./stores/useTourStore.ts
 ./stores/useSubscriptionStore.ts
 ./stores/useFolderStore.ts

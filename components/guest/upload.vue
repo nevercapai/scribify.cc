@@ -178,15 +178,16 @@ import { Loading } from "@element-plus/icons-vue";
 import SpeakerPromat from "~/components/record/dialog/speakerPromat.vue";
 import { useCrossDomainCookie } from "~/hooks/useCrossDomainCookie";
 import { importWithRetry } from "~/utils/importWithRetry";
+import { useGuestUploadStore } from "~/stores/useGuestUploadStore";
 
-const { t, locale } = useI18n();
+const { t } = useI18n();
 
 const { selectRawFiles } = storeToRefs(useUploadStore());
 const { clearSelectRawFiles } = useUploadStore();
 
 const showLinkDialog = ref(false);
 const showRecordDialog = ref(false);
-const tableData = ref<UploadFile[]>([]);
+const { tableData, diarizeEnabled, lang } = storeToRefs(useGuestUploadStore())
 const { initUpload, removeFile, createFileObject } = useUpload();
 const { userInfo } = storeToRefs(useUserStore());
 const { setUserInfo } = useUserStore();
@@ -291,11 +292,9 @@ const handleRemove = async (row: UploadFile, index: number) => {
 };
 
 const transcribing = ref(false);
-const lang = ref<any>({});
 
 const { $mitt } = useNuxtApp();
 
-const diarizeEnabled = ref(true);
 const getFileNameWithoutExt = (fileName: string) => {
   const lastDotIndex = fileName.lastIndexOf(".");
   return lastDotIndex === -1 ? fileName : fileName.substring(0, lastDotIndex);
@@ -419,13 +418,6 @@ const handleCloseDialog = () => {
     document.activeElement.blur();
   }
 };
-
-watchEffect(() => {
-  if (locale.value) {
-    tableData.value = []
-    clearSelectRawFiles()
-  }
-})
 </script>
 
 <style lang="scss" scoped>

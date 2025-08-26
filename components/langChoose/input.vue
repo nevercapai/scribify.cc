@@ -163,6 +163,13 @@ const getRecentLang = async () => {
       (item) => item.lang === recentLanguageKeys.value?.[0]
     );
 
+    if (props.lang?.id) {
+      value.value = {
+        ...props.lang,
+      }
+      return;
+    }
+
     if (select) {
       value.value = {
         name: select.lang,
@@ -170,6 +177,13 @@ const getRecentLang = async () => {
         ...select
       };
     } else {
+      if (props.lang?.id) {
+        value.value = {
+          ...props.lang,
+        }
+        return;
+      }
+
       getLocalRecent();
     }
   } catch (e) {

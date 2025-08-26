@@ -75,7 +75,7 @@
             class="flex w-full items-center text-start"
             v-else-if="item.uploadText"
           >
-            <span class="me-1">{{ item.uploadText }}</span>
+            <span class="me-1">{{ t("FileUploadAndRecording.upload.linkUpload") }}</span>
             <el-icon class="is-loading mt-1"><Loading /></el-icon>
           </div>
           <el-progress
@@ -183,7 +183,6 @@ import { useGuestUploadStore } from "~/stores/useGuestUploadStore";
 const { t } = useI18n();
 
 const { selectRawFiles } = storeToRefs(useUploadStore());
-const { clearSelectRawFiles } = useUploadStore();
 
 const showLinkDialog = ref(false);
 const showRecordDialog = ref(false);
@@ -396,10 +395,6 @@ const openRecord = async () => {
     });
   }
 };
-
-onUnmounted(() => {
-  clearSelectRawFiles();
-});
 
 const isMobileFromIndex = ref(false);
 onMounted(() => {

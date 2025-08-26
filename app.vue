@@ -163,9 +163,11 @@ onUnmounted(() => {
 });
 
 const {clear} = useGuestUploadStore()
+const { clearSelectRawFiles } = useUploadStore();
 watch(() => route.path, () => {
   if (!route.name?.includes("index")) {
     clear()
+    clearSelectRawFiles()
   }
 })
 </script>

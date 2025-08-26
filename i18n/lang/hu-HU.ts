@@ -3126,8 +3126,12 @@ let message = {
     "contactTitle": "9. Lépj kapcsolatba velünk",
     "contactDescription": "Ha bármilyen kérdésed, megjegyzésed vagy panaszod van az Adatvédelmi Szabályzatunkkal kapcsolatban, kérjük, lépj kapcsolatba velünk, és mindent megteszünk, hogy a panaszodat a lehető leghamarabb kezeljük.",
     "websiteUrl": "https://www.nevercap.ai/",
-    "neverCap": "NeverCap"
-  },
+    "neverCap": "NeverCap",
+    at: "címen",
+      policyDescription: 'Ez a Szabályzat leírja, hogy a NeverCap (a továbbiakban: \"NeverCap\", \"mi\", \"a mi\", \"nekünk\") miként gyűjti, használja és hozza nyilvánosságra személyes adatait, amikor szolgáltatásainkat, weboldalunkat ({url}) és szoftverünket (együttesen: a \"Szolgáltatásokat\") használja.',
+      childrenDescription: "A Szolgáltatások nem gyermekeknek szólnak, és tudatosan nem gyűjtünk Személyes Adatokat 13 év alatti gyermekektől. Ha 13 év alatti vagy, kérjük, ne adj meg személyes adatokat a Szolgáltatásokon keresztül. Ha úgy gondolja, hogy egy gyermek megsértve ezt a Szabályzatot adott meg nekünk Személyes Adatot, kérjük, lépjen kapcsolatba velünk az alábbiakban megadott {at} {email} címen.",
+      contactDescription: "Ha kérdése, észrevétele vagy panasza van az Adatvédelmi Szabályzatunkkal kapcsolatban, kérjük, lépjen kapcsolatba velünk {at} {email} címen, és mindent meg fogunk tenni, hogy a panaszát a lehető leghamarabb kezeljük."
+},
   TermsOfUse: {
     title: "Szolgáltatási",
     titleGradient: "Feltételek",
@@ -3225,8 +3229,12 @@ let message = {
     "contactDescription": "Ha kérdése van a Felhasználási Feltételekkel kapcsolatban, kérjük, vegye fel velünk a kapcsolatot.",
     "neverCap": "NeverCap",
     "site": "Weboldal",
-    "services": "Szolgáltatások"
-  }
+    "services": "Szolgáltatások",
+    at: "címen",
+      trademarkProtection: "A Szolgáltatások nevei, megjelenése és hangulata a Társaság szerzői jogvédelem alatt áll. Minden jog fenntartva. A HTML, CSS, JavaScript vagy vizuális tervezési elemek egy részét sem szabad másolni, reprodukálni vagy újra felhasználni a Társaság írásos engedélye nélkül. Engedélyt kell kérnie a Társaság emblémájának vagy bármely Szolgáltatás emblémájának promóciós célú használatához. Kérjük, küldjön e-mailt {at} {email} címre az emblémák használatával kapcsolatos kérésekkel. Fenntartjuk a jogot, hogy visszavonjuk ezt az engedélyt, ha megsérti ezeket a Szolgáltatási Feltételeket.",
+      privacyPolicyDescription: "Fontosnak tartjuk az adatvédelem és biztonságot. Kérjük, tekintse át {policy} szabályzatunkat. A Webhely használatával elfogadja, hogy kötelesnek tartja magát az Adatvédelmi Szabályzatunkra, amely integrált része ezeknek a Szolgáltatási Feltételeknek. Tájékoztatjuk, hogy a Webhely az Egyesült Államokban található. Ha a Webhelyet a világ bármely más régiójából éri el, ahol a személyes adatok gyűjtésére, használatára vagy nyilvánosságra hozatalára vonatkozó törvények vagy egyéb követelmények eltérnek az Egyesült Államokban érvényes törvényektől, akkor a Webhely további használatával Ön átadja adatait az Egyesült Államokba, és hozzájárul, hogy azok az Egyesült Államokban legyenek feldolgozva.",
+      contactDescription: "Ha kérdése van a Szolgáltatási Feltételek bármelyikével kapcsolatban, kérjük, lépjen kapcsolatba velünk {at} {email} címen."
+}
 };
 
 export default defineI18nLocale(async (locale) => {

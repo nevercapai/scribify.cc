@@ -3083,7 +3083,6 @@ let message = {
     "lastUpdated": "Senast uppdaterad: {date}",
     "lastUpdatedDate": "21 juli 2025",
     "privacyPolicyTitle": "Integritetspolicy",
-    "policyDescription": 'Denna policy beskriver hur NeverCap (härefter kallad \"NeverCap\", \"vi\", \"oss\") samlar in, använder och delar din personliga information när du använder våra tjänster, webbplatser (https://www.nevercap.ai/) och programvara (gemensamt kallade \"Tjänsterna\").',
     "policyAgreement": "Läs denna integritetspolicy noggrant och se till att du förstår den. Genom att använda någon av våra Tjänster godkänner du denna integritetspolicy. Om du inte godkänner vår användning av dina personuppgifter i enlighet med denna policy måste du omedelbart sluta använda våra Tjänster.",
     "policyOverview": "I denna policy beskriver vi: vilka data vi samlar in och varför; hur dina data hanteras; och dina rättigheter gällande dina data. Vi säljer inte dina data.",
     "scopeTitle": "1. Omfattning av denna integritetspolicy",
@@ -3117,14 +3116,16 @@ let message = {
     "locationTitle": "6. Plats för webbplats och data",
     "locationDescription": "Våra produkter och andra webbegenskaper drivs i USA. Om du befinner dig i EU, Storbritannien eller någon annanstans utanför USA, var medveten om att all information du tillhandahåller oss kommer att överföras till och lagras i USA. Genom att använda våra webbplatser eller Tjänster och/eller tillhandahålla oss med din personliga information samtycker du till denna överföring.",
     "childrenTitle": "7. Barns integritet",
-    "childrenDescription": "Tjänsterna är inte riktade till barn, och vi samlar inte medvetet in personlig information från barn under 13 år. Om du är under 13 år, skicka inte någon personlig information genom Tjänsterna. Om du tror att ett barn har gett oss personlig information i strid med denna policy, kontakta oss enligt nedan.",
     "updatesTitle": "8. Uppdateringar av denna integritetspolicy",
     "updatesDescription": "Vi kan uppdatera denna policy efter behov för att följa relevanta regler och reflektera nya metoder. När vi gör en betydande ändring av våra policyer uppdaterar vi datumet högst upp på denna sida.",
     "contactTitle": "9. Kontakta oss",
-    "contactDescription": "Om du har några frågor, kommentarer eller klagomål om vår integritetspolicy, kontakta oss så kommer vi att sträva efter att hantera din klagomål så snart som möjligt.",
     "websiteUrl": "https://www.nevercap.ai/",
-    "neverCap": "NeverCap"
-  },
+    "neverCap": "NeverCap",
+    at: "på",
+      policyDescription: 'Denna Policy beskriver hur NeverCap (här kallad \"NeverCap\", \"vi\", \"oss\") samlar in, använder och delar din personliga information när du använder våra tjänster, webbplatser ({url}) och mjukvara (sammanfattningsvis \"Tjänsterna\").',
+      childrenDescription: "Tjänsterna är inte avsedda för barn, och vi samlar inte medvetet in personuppgifter från barn under 13 år. Om du är under 13 år, vänligen skicka inte någon personlig information via Tjänsterna. Om du tror att ett barn har lämnat personuppgifter till oss i strid med denna Policy, vänligen kontakta oss {at} {email} enligt nedan.",
+      contactDescription: "Om du har frågor, synpunkter eller klagomål om vår Integritetspolicy, vänligen kontakta oss {at} {email} så försöker vi hantera din fråga så snart som möjligt."
+},
   TermsOfUse: {
     title: "Användarvillkor",
     titleGradient: "Tjänst",
@@ -3172,7 +3173,6 @@ let message = {
     "copyrightCompliance": "Allt innehåll som publiceras på Tjänsterna måste följa amerikansk upphovsrättslagstiftning.",
     "ipRights": "Vi gör inte anspråk på immateriella rättigheter över det material du tillhandahåller till Tjänsterna. Allt uppladdat material förblir ditt.",
     "contentModeration": "Vi granskar inte innehåll i förväg, men förbehåller oss rätten (men inte skyldigheten) att efter eget gottfinnande vägra eller ta bort allt innehåll som finns tillgängligt via Tjänsten.",
-    "trademarkProtection": "Namnen, utseendet och känslan av Tjänsterna är upphovsrättsskyddade© till Företaget. Alla rättigheter förbehålls. Du får inte duplicera, kopiera eller återanvända någon del av HTML, CSS, JavaScript eller visuella designelement utan uttryckligt skriftligt tillstånd från Företaget. Du måste begära tillstånd för att använda Företagets logotyp eller någon Tjänstlogotyp i marknadsföringssyfte. Vänligen mejla oss förfrågningar om logoanvändning. Vi förbehåller oss rätten att återkalla detta tillstånd om du bryter mot dessa Användarvillkor.",
     "prohibitedExploitation": "Du godkänner att inte reproducera, duplicera, kopiera, sälja, vidareförsälja eller utnyttja någon del av Tjänsterna, användningen av Tjänsterna eller tillgången till Tjänsterna utan Företagets uttryckliga skriftliga tillstånd.",
     "impersonationProhibition": "Du får inte modifiera en annan webbplats på ett sätt som felaktigt antyder att den är associerad med Tjänsterna eller Företaget.",
     "dmcaPolicy": "Vi respekterar andras immateriella rättigheter. Om du anser att något material som finns tillgängligt på eller via Webbplatsen kränker någon upphovsrätt som du äger eller kontrollerar, vänligen kontakta oss omedelbart. En kopia av din Anmälan kommer att skickas till den person som publicerade eller lagrade det aktuella materialet. Var medveten om att enligt tillämplig lag kan du hållas ansvarig för skadestånd om du lämnar felaktiga uppgifter i en Anmälan. Om du inte är säker på om material som finns på eller länkas från Webbplatsen kränker din upphovsrätt bör du därför överväga att först kontakta en advokat.",
@@ -3212,18 +3212,20 @@ let message = {
     "userDataTitle": "13. Användardata",
     "userDataDescription": "Vi kommer att bevara viss data som du överför till webbplatsen för att hantera webbplatsens prestanda, samt data relaterade till din användning av webbplatsen. Även om vi regelbundet säkerhetskopierar data, är du ensam ansvarig för all data som du överför eller som rör aktiviteter du har utfört med hjälp av webbplatsen. Du samtycker till att vi inte har något ansvar för förlust eller korruption av sådan data, och du avstår härmed från alla rättsliga åtgärder mot oss som uppstår på grund av sådan förlust eller korruption.",
     "privacyPolicyTitle": "14. Integritetspolicy",
-    "privacyPolicyDescription": "Vi bryr oss om dataintegritet och säkerhet. Läs vår Integritetspolicy. Genom att använda webbplatsen samtycker du till att vara bunden av vår Integritetspolicy, som ingår i dessa användarvillkor. Observera att webbplatsen är värd i USA. Om du kommer åt webbplatsen från någon annan region i världen med lagar eller andra krav som styr insamling, användning eller offentliggörande av personuppgifter som skiljer sig från tillämpliga lagar i USA, innebär din fortsatta användning av webbplatsen att du överför dina data till USA och samtycker till att dina data överförs och behandlas där.",
     "liabilityTitle": "15. Ansvar",
     "liabilityIntroduction": "Vi nämner ansvar i dessa villkor men sammanfattar allt i detta avsnitt:",
     "liabilityWaiver": "Du förstår och samtycker uttryckligen till att Företaget inte ska vara ansvarigt, enligt lag eller rättvisa, mot dig eller någon tredje part för direkta, indirekta, tillfälliga, förlorade vinster, särskilda, följd-, straff- eller exemplariska skador, inklusive men inte begränsat till skador för förlust av vinster, goodwill, användning, data eller andra immateriella förluster (även om Företaget har informerats om möjligheten till sådana skador), som uppstår från: (1) användning eller oförmåga att använda tjänsterna; (2) fel, misstag eller felaktigheter i innehåll och material; (3) personskada eller egendomsskada av någon art som helst, som uppstår från din åtkomst till och användning av webbplatsen; (4) kostnaden för anskaffning av ersättningsvaror och tjänster som uppstår från varor, data, information eller tjänster som köpts eller erhållits eller meddelanden som mottagits eller transaktioner som ingåtts via eller från tjänsterna; (5) obehörig åtkomst till eller användning av våra säkra servrar och/eller all personlig och/eller finansiell information som lagras där; (6) avbrott eller upphörande av överföring till eller från webbplatsen; (7) buggar, virus, trojanska hästar eller liknande som kan överföras till eller via webbplatsen av någon tredje part, och/eller; (8) fel eller utelämnanden i innehåll och material eller förlust eller skada av något slag som uppstår från användning av innehåll som publicerats, överförts eller annars gjorts tillgängligt via webbplatsen; (9) uttalanden eller beteende från någon tredje part i tjänsten; (10) eller någon annan fråga relaterad till dessa användarvillkor eller tjänsterna, oavsett om det är ett avtalsbrott, skadestånd (inklusive vårdslöshet, aktiv eller passiv), eller någon annan ansvarsteori.",
     "miscellaneousTitle": "16. Diverse",
     "miscellaneousDescription": "Dessa användarvillkor och eventuella policyer eller driftregler som vi publicerar på webbplatsen eller i förhållande till webbplatsen utgör hela avtalet och förståelsen mellan dig och oss. Vår underlåtenhet att utöva eller verkställa någon rättighet eller bestämmelse i dessa användarvillkor ska inte tolkas som ett avstående från sådan rättighet eller bestämmelse. Dessa användarvillkor gäller i den utsträckning som lagen tillåter. Vi kan överlåta alla eller några av våra rättigheter och skyldigheter till andra när som helst. Vi ska inte vara ansvariga eller skyldiga för förlust, skada, försening eller underlåtenhet att agera orsakad av någon omständighet utanför vår rimliga kontroll. Om någon bestämmelse eller del av en bestämmelse i dessa användarvillkor anses vara olaglig, ogiltig eller ogenomförbar, ska den bestämmelsen eller delen anses vara avskiljbar från dessa användarvillkor och påverka inte giltigheten eller genomförbarheten av återstående bestämmelser. Inget joint venture, partnerskap, anställnings- eller agentförhållande skapas mellan dig och oss som ett resultat av dessa användarvillkor eller användning av webbplatsen. Du samtycker till att dessa användarvillkor inte ska tolkas till vår nackdel på grund av att vi har utformat dem. Du avstår härmed från alla försvar du kan ha baserat på den elektroniska formen av dessa användarvillkor och frånvaron av underskrifter från parterna för att verkställa dessa användarvillkor.",
     "contactTitle": "17. Kontakta oss",
-    "contactDescription": "Om du har frågor om någon del av användarvillkoren, kontakta oss.",
     "neverCap": "NeverCap",
     "site": "Webbplats",
-    "services": "Tjänster"
-  }
+    "services": "Tjänster",
+    at: "på",
+      trademarkProtection: "Namn, utseende och känsla av Tjänsterna är upphovsrättsligt skyddade © av Företaget. Alla rättigheter förbehålls. Du får inte duplicera, kopiera eller återanvända någon del av HTML, CSS, JavaScript eller visuella designelement utan uttryckligt skriftligt tillstånd från Företaget. Du måste begära tillstånd för att använda Företagets logotyp eller tjänstlogotyper för marknadsföringssyften. Vänligen skicka förfrågningar om logoanvändning till oss {at} {email}. Vi förbehåller oss rätten att återkalla detta tillstånd om du bryter mot dessa Användarvillkor.",
+      privacyPolicyDescription: "Vi bryr oss om dataprivacy och säkerhet. Läs vår {policy}. Genom att använda Webbplatsen godkänner du vår Integritetspolicy, som ingår i dessa Användarvillkor. Observera att Webbplatsen finns i USA. Om du ansluter till Webbplatsen från andra delar av världen med lagar eller krav om insamling, användning eller delning av personuppgifter som skiljer sig från amerikansk lag, så överför du genom fortsatt användning av Webbplatsen dina data till USA och godkänner att dina data överförs och behandlas där.",
+      contactDescription: "Om du har frågor om något av Användarvillkoren, vänligen kontakta oss {at} {email}."
+}
 };
 
 export default defineI18nLocale(async (locale) => {

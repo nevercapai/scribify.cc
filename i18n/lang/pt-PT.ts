@@ -1183,61 +1183,52 @@ let message = {
     },
     FAQSection: {
       questions: [
-        {
-          q: "Transcrição por IA",
-          question: "O que é transcrição por IA e como funciona?",
-          answer:
-            "Transcrição por IA é o processo de converter áudio em texto automaticamente usando inteligência artificial avançada. No NeverCap, você simplesmente envia seus arquivos, e nossa IA transcreve o conteúdo com até 96% de precisão. Nosso serviço é projetado para transcrever arquivos de vídeo (como MP4, MOV) e áudio (como MP3, WAV) em texto legível e editável, completo com identificação de falantes e timestamps."
-        },
-        {
-          q: "unlimited_policy",
-          question: "É realmente ilimitado? Qual é o truque?",
-          answer:
-            "Sim, é verdadeiramente ilimitado! Sem limites mensais de minutos, sem taxas extras. Os únicos limites são técnicos: arquivos individuais podem ter até 10 horas ou 5GB, e você pode processar 50 arquivos de uma vez. Mas pode enviar quantos lotes quiser, o mês inteiro."
-        },
-        {
-          q: "accuracy",
-          question: "Quão precisa é a transcrição?",
-          answer:
-            "Garantimos 96% de precisão para áudio claro. Nossa IA é treinada com milhões de horas de conteúdo diversificado e lida muito bem com sotaques, termos técnicos e múltiplos falantes. Para áudio desafiador, nossos recursos de aprimoramento ajudam a melhorar os resultados."
-        },
-        {
-          q: "languages",
-          question: "Quais idiomas vocês suportam?",
-          answer:
-            "Suportamos transcrição em mais de 100 idiomas, incluindo inglês, espanhol, mandarim, hindi, árabe, francês e mais. Além disso, você pode traduzir suas transcrições para 249 idiomas diferentes, perfeito para conteúdo global."
-        },
-        {
-          q: "speed",
-          question: "Quão rápida é a transcrição?",
-          answer:
-            "Rápido como um raio! Um arquivo de áudio de 1 hora geralmente é processado em menos de 5 minutos. Com processamento em lote, você pode enviar 50 arquivos simultaneamente e processá-los em paralelo. A maioria dos usuários acorda com toda a biblioteca transcrita durante a noite."
-        },
-        {
-          q: "cancellation",
-          question: "Posso cancelar a qualquer momento?",
-          answer:
-            "Absolutamente! Sem contratos, sem taxas de cancelamento. Você pode atualizar, reduzir ou cancelar sua assinatura a qualquer momento no seu painel. Se cancelar, manterá o acesso até o final do período de cobrança."
-        },
-        {
-          q: "security",
-          question: "Meus dados estão seguros?",
-          answer:
-            "Sua segurança é nossa prioridade. Somos certificados SOC 2, usamos criptografia de 256 bits para todos os dados e nunca usamos seu conteúdo para treinar nossos modelos. Você pode excluir seus arquivos a qualquer momento, e nós os removemos automaticamente após 30 dias. Conformidade com GDPR e CCPA."
-        },
-        {
-          q: "export_formats",
-          question: "Quais formatos de exportação estão disponíveis?",
-          answer:
-            "Baixe suas transcrições no formato que precisar: PDF, Word (DOCX), Excel, CSV, legendas SRT, texto simples (TXT) e legendas VTT. Perfeito para qualquer fluxo de trabalho."
-        },
-        {
-          q: "file_formats",
-          question: "Quais arquivos de áudio e vídeo posso enviar?",
-          answer:
-            "Suportamos praticamente todos os formatos de áudio e vídeo que você encontrar: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV e mais. Se você pode reproduzir, podemos transcrever."
-        }
-      ],
+              {
+                q: "Transcrição por IA",
+                question: "O que é transcrição por IA e como funciona?",
+                answer: "Transcrição por IA é o processo de converter áudio em texto automaticamente usando inteligência artificial avançada. No NeverCap, você simplesmente envia seus arquivos, e nossa IA transcreve o conteúdo com até 96% de precisão. Nosso serviço é projetado para transcrever arquivos de vídeo (como MP4, MOV) e áudio (como MP3, WAV) em texto legível e editável, completo com identificação de falantes e timestamps."
+              },
+              {
+                q: "unlimited_policy",
+                question: "É realmente ilimitado? Qual é o truque?",
+                answer: "Sim, é verdadeiramente ilimitado! Sem limites mensais de minutos, sem taxas extras. Os únicos limites são técnicos: arquivos individuais podem ter até 10 horas ou 5GB, e você pode processar 50 arquivos de uma vez. Mas pode enviar quantos lotes quiser, o mês inteiro."
+              },
+              {
+                q: "accuracy",
+                question: "Quão precisa é a transcrição?",
+                answer: "Garantimos 96% de precisão para áudio claro. Nossa IA é treinada com milhões de horas de conteúdo diversificado e lida muito bem com sotaques, termos técnicos e múltiplos falantes. Para áudio desafiador, nossos recursos de aprimoramento ajudam a melhorar os resultados."
+              },
+              {
+                q: "languages",
+                question: "Quais idiomas vocês suportam?",
+                answer: "Suportamos transcrição em mais de 100 idiomas, incluindo inglês, espanhol, mandarim, hindi, árabe, francês e mais. Além disso, você pode traduzir suas transcrições para 249 idiomas diferentes, perfeito para conteúdo global."
+              },
+              {
+                q: "speed",
+                question: "Quão rápida é a transcrição?",
+                answer: "Rápido como um raio! Um arquivo de áudio de 1 hora geralmente é processado em menos de 5 minutos. Com processamento em lote, você pode enviar 50 arquivos simultaneamente e processá-los em paralelo. A maioria dos usuários acorda com toda a biblioteca transcrita durante a noite."
+              },
+              {
+                q: "cancellation",
+                question: "Posso cancelar a qualquer momento?",
+                answer: "Absolutamente! Sem contratos, sem taxas de cancelamento. Você pode atualizar, reduzir ou cancelar sua assinatura a qualquer momento no seu painel. Se cancelar, manterá o acesso até o final do período de cobrança."
+              },
+              {
+                q: "security",
+                question: "Meus dados estão seguros?",
+                answer: "Sua segurança é nossa prioridade. Somos certificados SOC 2, usamos criptografia de 256 bits para todos os dados e nunca usamos seu conteúdo para treinar nossos modelos. Você pode excluir seus arquivos a qualquer momento, e nós os removemos automaticamente após 30 dias. Conformidade com GDPR e CCPA."
+              },
+              {
+                q: "export_formats",
+                question: "Quais formatos de exportação estão disponíveis?",
+                answer: "Baixe suas transcrições no formato que precisar: PDF, Word (DOCX), Excel, CSV, legendas SRT, texto simples (TXT) e legendas VTT. Perfeito para qualquer fluxo de trabalho."
+              },
+              {
+                q: "file_formats",
+                question: "Quais arquivos de áudio e vídeo posso enviar?",
+                answer: "Suportamos praticamente todos os formatos de áudio e vídeo que você encontrar: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV e mais. Se você pode reproduzir, podemos transcrever."
+              }
+            ],
         "title": "Perguntas",
         "titleHighlight": "Frequentes",
     },
@@ -1651,93 +1642,93 @@ let message = {
     },
     Cards: {
       plans: [
-        {
-          name: "Grátis",
-          price: "$0",
-          period: "mês",
-          discount: "Perfeito para experimentar nosso serviço",
-          limits: {
-            title: "Limites Diários",
-            items: [
-              "3 arquivos/dia (≈90 min total/dia)",
-              "Até 30 min por arquivo (≤250 MB)",
-              "Enviar 1 arquivo por vez",
-              "Fila de prioridade padrão"
-            ]
-          },
-          features: {
-            title: "Recursos",
-            items: [
-              "100+ idiomas",
-              "Identificação de falantes",
-              "Tradução",
-              "Todos os formatos de exportação"
-            ]
-          },
-          cta: {
-            text: "Comece grátis. Sem cartão de crédito.",
-            button: "Plano Atual"
-          }
-        },
-        {
-          name: "Pro Mensal",
-          price: "$17.99",
-          period: "mês",
-          discount: "$9.99 no primeiro mês",
-          limits: {
-            title: "Sem limite mensal",
-            items: [
-              "Minutos ilimitados",
-              "Até 10 horas / 5 GB por arquivo",
-              "Envie 50 arquivos de uma vez",
-              "Fila prioritária"
-            ]
-          },
-          features: {
-            title: "Tudo do Grátis, mais",
-            items: [
-              "Timestamps por palavra",
-              "Identificação avançada de falantes",
-              "Parágrafos e pontuação formatados",
-              "Suporte prioritário"
-            ]
-          },
-          cta: {
-            text: "Minutos ilimitados. Prioridade na velocidade. Envios em lote.",
-            button: "Assinar Pro"
-          },
-          badge: "Mais Popular"
-        },
-        {
-          name: "Pro Anual",
-          price: "$8.99",
-          period: "mês",
-          discount: "Cobrança anual $107.88",
-          limits: {
-            title: "Igual ao Pro Mensal",
-            items: [
-              "Minutos ilimitados",
-              "Até 10 horas / 5 GB por arquivo",
-              "Envie 50 arquivos de uma vez",
-              "Fila prioritária"
-            ]
-          },
-          features: {
-            title: "Tudo do Grátis, mais",
-            items: [
-              "Timestamps por palavra",
-              "Identificação avançada de falantes",
-              "Parágrafos e pontuação formatados",
-              "Suporte prioritário"
-            ]
-          },
-          cta: {
-            text: "Minutos ilimitados. Prioridade na velocidade. Envios em lote.",
-            button: "Assinar Pro"
-          },
-          badge: "Melhor Valor - "
-        }
-      ],
+              {
+                name: "Grátis",
+                price: "$0",
+                period: "mês",
+                discount: "Perfeito para experimentar nosso serviço",
+                limits: {
+                  title: "Limites Diários",
+                  items: [
+                    "3 arquivos/dia (≈90 min total/dia)",
+                    "Até 30 min por arquivo (≤250 MB)",
+                    "Enviar 1 arquivo por vez",
+                    "Fila de prioridade padrão"
+                  ]
+                },
+                features: {
+                  title: "Recursos",
+                  items: [
+                    "100+ idiomas",
+                    "Identificação de falantes",
+                    "Tradução",
+                    "Todos os formatos de exportação"
+                  ]
+                },
+                cta: {
+                  text: "Comece grátis. Sem cartão de crédito.",
+                  button: "Plano Atual"
+                }
+              },
+              {
+                name: "Pro Mensal",
+                price: "$17.99",
+                period: "mês",
+                discount: "$9.99 no primeiro mês",
+                limits: {
+                  title: "Sem limite mensal",
+                  items: [
+                    "Minutos ilimitados",
+                    "Até 10 horas / 5 GB por arquivo",
+                    "Envie 50 arquivos de uma vez",
+                    "Fila prioritária"
+                  ]
+                },
+                features: {
+                  title: "Tudo do Grátis, mais",
+                  items: [
+                    "Timestamps por palavra",
+                    "Identificação avançada de falantes",
+                    "Parágrafos e pontuação formatados",
+                    "Suporte prioritário"
+                  ]
+                },
+                cta: {
+                  text: "Minutos ilimitados. Prioridade na velocidade. Envios em lote.",
+                  button: "Assinar Pro"
+                },
+                badge: "Mais Popular"
+              },
+              {
+                name: "Pro Anual",
+                price: "$8.99",
+                period: "mês",
+                discount: "Cobrança anual $107.88",
+                limits: {
+                  title: "Igual ao Pro Mensal",
+                  items: [
+                    "Minutos ilimitados",
+                    "Até 10 horas / 5 GB por arquivo",
+                    "Envie 50 arquivos de uma vez",
+                    "Fila prioritária"
+                  ]
+                },
+                features: {
+                  title: "Tudo do Grátis, mais",
+                  items: [
+                    "Timestamps por palavra",
+                    "Identificação avançada de falantes",
+                    "Parágrafos e pontuação formatados",
+                    "Suporte prioritário"
+                  ]
+                },
+                cta: {
+                  text: "Minutos ilimitados. Prioridade na velocidade. Envios em lote.",
+                  button: "Assinar Pro"
+                },
+                badge: "Melhor Valor - "
+              }
+            ],
         "title": "Preços Simples e Transparentes.",
         "highlighted_text": "Sem Limites Ocultos.",
         "description": "Escolha o plano que atende suas necessidades. Atualize ou reduza quando quiser. Sem contratos, sem surpresas.",
@@ -1750,123 +1741,114 @@ let message = {
         subtitle:
           "Veja exatamente o que você ganha com cada plano. Sem limitações ocultas."
       },
-      plans: ["Recursos", "Grátis", "Pro Mensal", "Pro Anual"],
+      plans: [
+              "Recursos",
+              "Grátis",
+              "Pro Mensal",
+              "Pro Anual"
+            ],
       features: [
-        {
-          name: "Preço",
-          values: [
-            "$0/mês",
             {
-              main: "$17.99/mês",
-              note: "$9.99 primeiro mês"
+              name: "Preço",
+              values: [
+                "$0/mês",
+                {
+                  main: "$17.99/mês",
+                  note: "$9.99 primeiro mês"
+                },
+                {
+                  main: "$8.99/mês",
+                  note: "Cobrado $107.88/ano"
+                }
+              ]
             },
             {
-              main: "$8.99/mês",
-              note: "Cobrado $107.88/ano"
+              name: "Minutos mensais",
+              values: ["~2.700 (90/dia)", "Ilimitado", "Ilimitado"]
+            },
+            {
+              name: "Duração máxima do arquivo",
+              values: ["30 minutos", "10 horas", "10 horas"]
+            },
+            {
+              name: "Tamanho máximo do arquivo",
+              values: ["250 MB", "5 GB", "5 GB"]
+            },
+            {
+              name: "Envios em lote",
+              values: ["1 arquivo", "50 arquivos", "50 arquivos"]
+            },
+            {
+              name: "Velocidade de processamento",
+              values: ["Padrão", "Prioritário", "Prioritário"]
+            },
+            {
+              name: "Idiomas suportados",
+              values: ["100+ idiomas", "100+ idiomas", "100+ idiomas"]
+            },
+            {
+              name: "Tradução",
+              values: ["true", "true", "true"]
+            },
+            {
+              name: "Identificação de locutor",
+              values: ["Básico", "Avançado (20 locutores)", "Avançado (20 locutores)"]
+            },
+            {
+              name: "Timestamps por palavra",
+              values: ["false", "true", "true"]
+            },
+            {
+              name: "Parágrafos formatados",
+              values: ["false", "true", "true"]
+            },
+            {
+              name: "Formatos de exportação",
+              values: ["Todos os formatos", "Todos os formatos", "Todos os formatos"]
+            },
+            {
+              name: "Suporte",
+              values: ["E-mail", "E-mail prioritário", "E-mail prioritário"]
+            },
+            {
+              name: "Retenção de dados",
+              values: ["30 dias", "Para sempre", "Para sempre"]
             }
-          ]
-        },
-        {
-          name: "Minutos mensais",
-          values: ["~2.700 (90/dia)", "Ilimitado", "Ilimitado"]
-        },
-        {
-          name: "Duração máxima do arquivo",
-          values: ["30 minutos", "10 horas", "10 horas"]
-        },
-        {
-          name: "Tamanho máximo do arquivo",
-          values: ["250 MB", "5 GB", "5 GB"]
-        },
-        {
-          name: "Envios em lote",
-          values: ["1 arquivo", "50 arquivos", "50 arquivos"]
-        },
-        {
-          name: "Velocidade de processamento",
-          values: ["Padrão", "Prioritário", "Prioritário"]
-        },
-        {
-          name: "Idiomas suportados",
-          values: ["100+ idiomas", "100+ idiomas", "100+ idiomas"]
-        },
-        {
-          name: "Tradução",
-          values: ["true", "true", "true"]
-        },
-        {
-          name: "Identificação de locutor",
-          values: [
-            "Básico",
-            "Avançado (20 locutores)",
-            "Avançado (20 locutores)"
-          ]
-        },
-        {
-          name: "Timestamps por palavra",
-          values: ["false", "true", "true"]
-        },
-        {
-          name: "Parágrafos formatados",
-          values: ["false", "true", "true"]
-        },
-        {
-          name: "Formatos de exportação",
-          values: [
-            "Todos os formatos",
-            "Todos os formatos",
-            "Todos os formatos"
-          ]
-        },
-        {
-          name: "Suporte",
-          values: ["E-mail", "E-mail prioritário", "E-mail prioritário"]
-        },
-        {
-          name: "Retenção de dados",
-          values: ["30 dias", "Para sempre", "Para sempre"]
-        }
-      ],
+          ],
     },
     FAQ: {
       items: [
-        {
-          q: "unlimited_policy",
-          question: "É realmente ilimitado?",
-          answer:
-            "Sim! Os planos Pro não têm limites mensais de minutos. As únicas limitações são técnicas: duração máxima de arquivo de 10 horas e tamanho de arquivo de 5GB. Você pode processar quantos arquivos precisar."
-        },
-        {
-          q: "plan_change",
-          question: "Posso mudar de plano a qualquer momento?",
-          answer:
-            "Absolutamente! Você pode cancelar sua assinatura a qualquer momento no seu painel. Faça upgrade ou downgrade quando precisar."
-        },
-        {
-          q: "payment_methods",
-          question: "Quais métodos de pagamento são aceitos?",
-          answer:
-            "Aceitamos todos os cartões de crédito, débito e PayPal para pagamentos seguros e sem complicações."
-        },
-        {
-          q: "free_trial",
-          question: "Há um teste gratuito para o Pro?",
-          answer:
-            "Sim! Experimente o Pro gratuitamente por 7 dias, sem necessidade de cartão de crédito. Além disso, ganhe 45% de desconto no primeiro mês ao assinar."
-        },
-        {
-          q: "file_retention",
-          question: "Por quanto tempo meus arquivos são mantidos?",
-          answer:
-            "Plano gratuito: 30 dias. Planos Pro: Para sempre! Suas transcrições estão sempre disponíveis em sua conta."
-        },
-        {
-          q: "data_security",
-          question: "E a segurança dos dados?",
-          answer:
-            "Somos certificados SOC 2 e usamos criptografia de 256 bits. Nunca usamos seu conteúdo para treinar nossos modelos. Seus dados são seus."
-        }
-      ],
+              {
+                q: "unlimited_policy",
+                question: "É realmente ilimitado?",
+                answer: "Sim! Os planos Pro não têm limites mensais de minutos. As únicas limitações são técnicas: duração máxima de arquivo de 10 horas e tamanho de arquivo de 5GB. Você pode processar quantos arquivos precisar."
+              },
+              {
+                q: "plan_change",
+                question: "Posso mudar de plano a qualquer momento?",
+                answer: "Absolutamente! Você pode cancelar sua assinatura a qualquer momento no seu painel. Faça upgrade ou downgrade quando precisar."
+              },
+              {
+                q: "payment_methods",
+                question: "Quais métodos de pagamento são aceitos?",
+                answer: "Aceitamos todos os cartões de crédito, débito e PayPal para pagamentos seguros e sem complicações."
+              },
+              {
+                q: "free_trial",
+                question: "Há um teste gratuito para o Pro?",
+                answer: "Sim! Experimente o Pro gratuitamente por 7 dias, sem necessidade de cartão de crédito. Além disso, ganhe 45% de desconto no primeiro mês ao assinar."
+              },
+              {
+                q: "file_retention",
+                question: "Por quanto tempo meus arquivos são mantidos?",
+                answer: "Plano gratuito: 30 dias. Planos Pro: Para sempre! Suas transcrições estão sempre disponíveis em sua conta."
+              },
+              {
+                q: "data_security",
+                question: "E a segurança dos dados?",
+                answer: "Somos certificados SOC 2 e usamos criptografia de 256 bits. Nunca usamos seu conteúdo para treinar nossos modelos. Seus dados são seus."
+              }
+            ],
         "title": "Perguntas",
         "titleHighligt": "Frequentes",
     },
@@ -2702,28 +2684,23 @@ let message = {
         subtitle:
           "Tudo que você precisa saber sobre transcrever vídeos de diferentes plataformas",
         questions: [
-          {
-            question: "P: Como transcrevo um vídeo do YouTube com o NeverCap?",
-            answer:
-              "É simples. Encontre o vídeo do YouTube que deseja transcrever, copie a URL e cole em nosso app. Nossa IA buscará o vídeo automaticamente e fornecerá uma transcrição completa em minutos."
-          },
-          {
-            question:
-              "P: Qual é a melhor forma de transcrever um vídeo do Facebook para texto?",
-            answer:
-              "A forma mais fácil é usar um link direto. Copie a URL do vídeo do Facebook e nossa plataforma fará o resto, convertendo a fala em texto com até 96% de precisão, poupando você da transcrição manual."
-          },
-          {
-            question: "P: Posso transcrever vídeos do TikTok e Instagram?",
-            answer:
-              "Com certeza. Suportamos transcrição para vídeos do TikTok e Instagram. Perfeito para criadores que querem reaproveitar conteúdo de vídeos curtos em posts de blog, artigos ou atualizações em redes sociais baseadas em texto."
-          },
-          {
-            question: "P: Como transcrevo um vídeo do Vimeo para texto?",
-            answer:
-              "Transcrever vídeos do Vimeo é tão fácil quanto em outras plataformas. Simplesmente copie a URL do vídeo do Vimeo e cole no NeverCap. Nossa IA processará o vídeo e gerará uma transcrição precisa que você pode baixar em múltiplos formatos."
-          }
-        ],
+                {
+                  question: "P: Como transcrevo um vídeo do YouTube com o NeverCap?",
+                  answer: "É simples. Encontre o vídeo do YouTube que deseja transcrever, copie a URL e cole em nosso app. Nossa IA buscará o vídeo automaticamente e fornecerá uma transcrição completa em minutos."
+                },
+                {
+                  question: "P: Qual é a melhor forma de transcrever um vídeo do Facebook para texto?",
+                  answer: "A forma mais fácil é usar um link direto. Copie a URL do vídeo do Facebook e nossa plataforma fará o resto, convertendo a fala em texto com até 96% de precisão, poupando você da transcrição manual."
+                },
+                {
+                  question: "P: Posso transcrever vídeos do TikTok e Instagram?",
+                  answer: "Com certeza. Suportamos transcrição para vídeos do TikTok e Instagram. Perfeito para criadores que querem reaproveitar conteúdo de vídeos curtos em posts de blog, artigos ou atualizações em redes sociais baseadas em texto."
+                },
+                {
+                  question: "P: Como transcrevo um vídeo do Vimeo para texto?",
+                  answer: "Transcrever vídeos do Vimeo é tão fácil quanto em outras plataformas. Simplesmente copie a URL do vídeo do Vimeo e cole no NeverCap. Nossa IA processará o vídeo e gerará uma transcrição precisa que você pode baixar em múltiplos formatos."
+                }
+              ],
           "title": "Suas Perguntas sobre Transcrição",
           "titleHighlight": "Respondido",
     }
@@ -3063,22 +3040,19 @@ let message = {
     },
       part2: {
         steps: [
-          {
-            title: "Copie o URL",
-            content:
-              "Abra o vídeo do YouTube desejado e copie o link da barra de endereços do seu navegador."
-          },
-          {
-            title: "Cole o link",
-            content:
-              "Acesse sua ferramenta de download de vídeos e cole o URL no campo de entrada."
-          },
-          {
-            title: "Baixe o MP4",
-            content:
-              "Após o processamento, clique no botão de download para salvar seu arquivo MP4."
-          }
-        ],
+                {
+                  title: "Copie o URL",
+                  content: "Abra o vídeo do YouTube desejado e copie o link da barra de endereços do seu navegador."
+                },
+                {
+                  title: "Cole o link",
+                  content: "Acesse sua ferramenta de download de vídeos e cole o URL no campo de entrada."
+                },
+                {
+                  title: "Baixe o MP4",
+                  content: "Após o processamento, clique no botão de download para salvar seu arquivo MP4."
+                }
+              ],
           "title": "Veja como transformar um vídeo do YouTube em um arquivo MP4 em 3 passos fáceis",
     },
       part3: {
@@ -3204,73 +3178,68 @@ let message = {
     },
     Stats: {
       metrics: [
-        {
-          value: "96%+",
-          label: "Taxa de Precisão",
-          description: "Precisão de transcrição líder do setor com IA avançada"
-        },
-        {
-          value: "100+",
-          label: "Idiomas Suportados",
-          description: "Reconhecimento de fala para conteúdo global"
-        },
-        {
-          value: "249+",
-          label: "Idiomas de Tradução",
-          description:
-            "Traduza textos transcritos para praticamente qualquer idioma"
-        }
-      ],
+              {
+                value: "96%+",
+                label: "Taxa de Precisão",
+                description: "Precisão de transcrição líder do setor com IA avançada"
+              },
+              {
+                value: "100+",
+                label: "Idiomas Suportados",
+                description: "Reconhecimento de fala para conteúdo global"
+              },
+              {
+                value: "249+",
+                label: "Idiomas de Tradução",
+                description: "Traduza textos transcritos para praticamente qualquer idioma"
+              }
+            ],
         "title": "Nosso",
         "highlighted_text": "Impacto",
         "subtitle": "Capacitando a comunicação global com tecnologia de IA avançada",
     },
     Mission: {
       features: [
-        {
-          icon: "🎯",
-          title: "Precisão Inigualável",
-          description:
-            "Nossos modelos de IA são continuamente refinados para entregar taxas de precisão acima de 96%, com alguns idiomas principais atingindo até 99% de precisão através de otimização avançada."
-        },
-        {
-          icon: "🌍",
-          title: "Suporte Global de Idiomas",
-          description:
-            "Suporte para mais de 100 idiomas em reconhecimento de fala e capacidade de tradução para mais de 249 idiomas, tornando seu conteúdo verdadeiramente global."
-        },
-        {
-          icon: "⚡",
-          title: "Processamento Rápido como um Raio",
-          description:
-            "Processe horas de conteúdo de áudio e vídeo em minutos, não horas. Nossa pipeline de IA otimizada garante transcrições rápidas sem sacrificar qualidade."
-        },
-        {
-          icon: "🔒",
-          title: "Segurança de Nível Empresarial",
-          description:
-            "A segurança dos seus dados é nossa prioridade. Usamos criptografia padrão do setor e cumprimos regulamentos globais de privacidade para manter seu conteúdo seguro e confidencial."
-        }
-      ],
+              {
+                icon: "🎯",
+                title: "Precisão Inigualável",
+                description: "Nossos modelos de IA são continuamente refinados para entregar taxas de precisão acima de 96%, com alguns idiomas principais atingindo até 99% de precisão através de otimização avançada."
+              },
+              {
+                icon: "🌍",
+                title: "Suporte Global de Idiomas",
+                description: "Suporte para mais de 100 idiomas em reconhecimento de fala e capacidade de tradução para mais de 249 idiomas, tornando seu conteúdo verdadeiramente global."
+              },
+              {
+                icon: "⚡",
+                title: "Processamento Rápido como um Raio",
+                description: "Processe horas de conteúdo de áudio e vídeo em minutos, não horas. Nossa pipeline de IA otimizada garante transcrições rápidas sem sacrificar qualidade."
+              },
+              {
+                icon: "🔒",
+                title: "Segurança de Nível Empresarial",
+                description: "A segurança dos seus dados é nossa prioridade. Usamos criptografia padrão do setor e cumprimos regulamentos globais de privacidade para manter seu conteúdo seguro e confidencial."
+              }
+            ],
         "title": "Por Que Escolher",
         "highlighted_text": "NeverCap",
         "subtitle": "Acreditamos em quebrar barreiras linguísticas e tornar o conteúdo acessível a todos",
     },
     Company: {
       details: [
-        {
-          label: "Nome da Empresa",
-          value: "SCRIBIFY AI INC"
-        },
-        {
-          label: "Sede",
-          value: ["30 N Gould St Ste R", "Sheridan, WY 82801", "Estados Unidos"]
-        },
-        {
-          label: "Contate-nos",
-          value: ["Email", "Suporte disponível 24/7"]
-        }
-      ],
+              {
+                label: "Nome da Empresa",
+                value: "SCRIBIFY AI INC"
+              },
+              {
+                label: "Sede",
+                value: ["30 N Gould St Ste R", "Sheridan, WY 82801", "Estados Unidos"]
+              },
+              {
+                label: "Contate-nos",
+                value: ["Email", "Suporte disponível 24/7"]
+              }
+            ],
         "title": "Empresa",
         "highlighted_text": "Informações",
         "subtitle": "Entre em contato conosco para qualquer dúvida ou suporte",
@@ -3290,7 +3259,6 @@ let message = {
       "lastUpdated": "Última atualização: {date}",
       "lastUpdatedDate": "21 de julho de 2025",
       "privacyPolicyTitle": "Política de Privacidade",
-      "policyDescription": 'Esta Política descreve como o NeverCap (doravante denominado "NeverCap", "nossa", "nós", "nos") coleta, usa e divulga suas informações pessoais quando você usa nossos serviços, sites (https://www.nevercap.ai/) e software (coletivamente, os "Serviços").',
       "policyAgreement": "Por favor, leia esta Política de Privacidade com atenção e certifique-se de que a entende. Ao usar qualquer um de nossos Serviços, você concorda com esta Política de Privacidade. Se você não concordar com o uso de seus dados pessoais de acordo com esta Política, deve parar de usar nossos Serviços imediatamente.",
       "policyOverview": "Nesta política, explicamos: quais dados coletamos e por quê; como seus dados são tratados; e seus direitos em relação aos seus dados. Não vendemos seus dados.",
       "scopeTitle": "1. Escopo desta Política de Privacidade",
@@ -3324,13 +3292,15 @@ let message = {
       "locationTitle": "6. Localização do site e dados",
       "locationDescription": "Nossos produtos e outras propriedades web são operados nos Estados Unidos. Se você estiver localizado na União Europeia, Reino Unido ou em outro lugar fora dos Estados Unidos, esteja ciente de que qualquer informação que você nos fornecer será transferida e armazenada nos Estados Unidos. Ao usar nossos sites ou Serviços e/ou nos fornecer suas informações pessoais, você concorda com essa transferência.",
       "childrenTitle": "7. Privacidade de crianças",
-      "childrenDescription": "Os Serviços não são direcionados a crianças, e não coletamos intencionalmente Informações Pessoais de menores de 13 anos. Se você tem menos de 13 anos, não envie nenhuma informação pessoal através dos Serviços. Se você acredita que uma criança nos forneceu Informações Pessoais em violação a esta Política, entre em contato conosco conforme indicado abaixo.",
       "updatesTitle": "8. Atualizações desta Política de Privacidade",
       "updatesDescription": "Podemos atualizar esta política conforme necessário para cumprir regulamentos relevantes e refletir novas práticas. Sempre que fizermos uma alteração significativa em nossas políticas, atualizaremos a data no topo desta página.",
       "contactTitle": "9. Fale Conosco",
-      "contactDescription": "Se tiver dúvidas, comentários ou reclamações sobre nossa Política de Privacidade, entre em contato conosco e nos esforçaremos para lidar com sua reclamação o mais rápido possível.",
       "websiteUrl": "https://www.nevercap.ai/",
-      "neverCap": "NeverCap"
+      "neverCap": "NeverCap",
+    at: "em",
+      policyDescription: 'Esta Política descreve como a NeverCap (doravante denominada \"NeverCap\", \"nossa\", \"nós\", \"nos\") coleta, usa e divulga suas informações pessoais quando você usa nossos serviços, sites ({url}) e software (coletivamente, os \"Serviços\").',
+      childrenDescription: "Os Serviços não são destinados a crianças e não coletamos intencionalmente Informações Pessoais de menores de 13 anos. Se você tem menos de 13 anos, não envie nenhuma informação pessoal pelos Serviços. Se acreditar que uma criança nos forneceu Informações Pessoais em violação a esta Política, entre em contato conosco {at} {email} conforme indicado abaixo.",
+      contactDescription: "Se tiver dúvidas, comentários ou reclamações sobre nossa Política de Privacidade, entre em contato conosco {at} {email} e nos esforçaremos para tratar sua reclamação o mais breve possível."
 },
   TermsOfUse: {
     title: "Termos de",
@@ -3380,7 +3350,6 @@ let message = {
       "copyrightCompliance": "Todo o conteúdo publicado nos Serviços deve estar em conformidade com as leis de direitos autorais dos EUA.",
       "ipRights": "Não reivindicamos direitos de propriedade intelectual sobre o material fornecido aos Serviços. Todo o material enviado permanece de sua propriedade.",
       "contentModeration": "Não fazemos curadoria prévia de conteúdo, mas reservamos o direito (mas não a obrigação) de recusar ou remover qualquer conteúdo disponível por meio do Serviço.",
-      "trademarkProtection": "Os nomes, aparência e design dos Serviços são protegidos por direitos autorais© da Empresa. Todos os direitos reservados. Você não pode duplicar, copiar ou reutilizar qualquer parte dos elementos HTML, CSS, JavaScript ou de design visual sem permissão expressa por escrito da Empresa. Você deve solicitar permissão para usar o logotipo da Empresa ou qualquer logotipo de Serviço para fins promocionais. Envie-nos um e-mail para solicitar uso de logotipos. Reservamos o direito de revogar essa permissão se você violar estes Termos de Serviço.",
       "prohibitedExploitation": "Você concorda em não reproduzir, duplicar, copiar, vender, revender ou explorar qualquer parte dos Serviços sem permissão expressa por escrito da Empresa.",
       "impersonationProhibition": "Você não deve modificar outro site para indicar falsamente que está associado aos Serviços ou à Empresa.",
       "dmcaPolicy": "Respeitamos os direitos de propriedade intelectual de terceiros. Se você acredita que qualquer material no Site infringe seus direitos autorais, entre em contato conosco imediatamente. Uma cópia de sua notificação será enviada ao responsável pelo material. De acordo com a lei, você pode ser responsabilizado por danos se fizer declarações falsas na notificação. Caso não tenha certeza sobre a violação, consulte primeiro um advogado.",
@@ -3420,17 +3389,19 @@ let message = {
       "userDataTitle": "13. Dados do Usuário",
       "userDataDescription": "Armazenamos dados que você transmite para gerenciar o Site. Fazemos backups, mas você é responsável por seus dados. Você concorda que não somos responsáveis por perda/corrupção de dados e renuncia a ações judiciais relacionadas.",
       "privacyPolicyTitle": "14. Política de Privacidade",
-      "privacyPolicyDescription": "Nós nos importamos com a privacidade e segurança dos dados. Por favor, revise nossa Política de Privacidade. Ao usar o Site, você concorda em estar vinculado à nossa Política de Privacidade, que está incorporada a estes Termos de Serviço. Por favor, esteja ciente de que o Site está hospedado nos Estados Unidos. Se você acessar o Site de qualquer outra região do mundo com leis ou outros requisitos que regulem a coleta, uso ou divulgação de dados pessoais que diferem das leis aplicáveis nos Estados Unidos, então, ao continuar usando o Site, você está transferindo seus dados para os Estados Unidos e concorda que seus dados sejam transferidos e processados nos Estados Unidos.",
       "liabilityTitle": "15. Responsabilidade",
       "liabilityIntroduction": "Mencionamos responsabilidade ao longo destes Termos, mas para colocar tudo em uma seção:",
       "liabilityWaiver": "Você expressamente entende e concorda que a Empresa não será responsável, perante a lei ou equidade, para você ou para qualquer terceiro por quaisquer danos diretos, indiretos, incidentais, lucros cessantes, especiais, consequenciais, punitivos ou exemplares, incluindo, mas não se limitando a, danos por perda de lucros, goodwill, uso, dados ou outras perdas intangíveis (mesmo que a Empresa tenha sido avisada da possibilidade de tais danos), resultantes de: (1) o uso ou a incapacidade de usar os Serviços; (2) erros, equívocos ou imprecisões de conteúdo e materiais; (3) danos pessoais ou materiais, de qualquer natureza, resultantes do seu acesso e uso do site; (4) o custo de aquisição de bens e serviços substitutos resultante de quaisquer bens, dados, informações ou serviços comprados ou obtidos ou mensagens recebidas ou transações realizadas por meio ou dos Serviços; (5) qualquer acesso não autorizado ou uso de nossos servidores seguros e/ou quaisquer e todas as informações pessoais e/ou financeiras armazenadas neles; (6) qualquer interrupção ou cessação de transmissão para ou do site; (7) quaisquer bugs, vírus, cavalos de Troia ou similares que possam ser transmitidos para ou através do site por qualquer terceiro, e/ou; (8) quaisquer erros ou omissões em qualquer conteúdo e materiais ou por qualquer perda ou dano de qualquer tipo incorridos como resultado do uso de qualquer conteúdo publicado, transmitido ou disponibilizado por meio do site; (9) declarações ou conduta de qualquer terceiro no serviço; (10) ou qualquer outro assunto relacionado a estes Termos de Serviço ou aos Serviços, seja por violação de contrato, delito (incluindo negligência, ativa ou passiva), ou qualquer outra teoria de responsabilidade.",
       "miscellaneousTitle": "16. Disposições Gerais",
       "miscellaneousDescription": "Estes Termos de Serviço e quaisquer políticas ou regras de operação publicadas por nós no Site ou em relação ao Site constituem o acordo e entendimento integral entre você e nós. Nossa falha em exercer ou exigir o cumprimento de qualquer direito ou disposição destes Termos de Serviço não constituirá renúncia a tal direito ou disposição. Estes Termos de Serviço operam na máxima extensão permitida por lei. Podemos ceder quaisquer ou todos os nossos direitos e obrigações a outros a qualquer momento. Não seremos responsáveis ou responsabilizados por qualquer perda, dano, atraso ou falha em agir causada por qualquer motivo além do nosso controle razoável. Se qualquer disposição ou parte de uma disposição destes Termos de Serviço for considerada ilegal, nula ou inexequível, essa disposição ou parte da disposição será considerada separável destes Termos de Serviço e não afetará a validade e exequibilidade das disposições restantes. Não há relação de joint venture, parceria, emprego ou agência criada entre você e nós como resultado destes Termos de Serviço ou uso do Site. Você concorda que estes Termos de Serviço não serão interpretados contra nós em virtude de tê-los redigido. Você por meio deste renuncia a qualquer e todas as defesas que possa ter com base na forma eletrônica destes Termos de Serviço e na falta de assinatura pelas partes para executar estes Termos de Serviço.",
       "contactTitle": "17. Contate-nos",
-      "contactDescription": "Se você tiver alguma dúvida sobre qualquer um dos Termos de Serviço, por favor entre em contato conosco.",
       "neverCap": "NeverCap",
       "site": "Site",
-      "services": "Serviços"
+      "services": "Serviços",
+    at: "em",
+      trademarkProtection: "Os nomes, aparência e identidade visual dos Serviços são protegidos por direitos autorais© da Empresa. Todos os direitos reservados. Você não pode duplicar, copiar ou reutilizar qualquer parte do HTML, CSS, JavaScript ou elementos de design visual sem permissão por escrito da Empresa. Você deve solicitar permissão para usar o logotipo da Empresa ou qualquer logotipo dos Serviços para fins promocionais. Envie um e-mail {at} {email} para solicitar o uso de logotipos. Reservamo-nos o direito de revogar esta permissão se você violar estes Termos de Serviço.",
+      privacyPolicyDescription: "Nós valorizamos a privacidade e segurança dos dados. Por favor, revise nossa {policy}. Ao usar o Site, você concorda em estar vinculado pela nossa Política de Privacidade, que está incorporada a estes Termos de Serviço. Observe que o Site está hospedado nos Estados Unidos. Se você acessar o Site de qualquer outra região do mundo com leis ou requisitos diferentes dos Estados Unidos sobre coleta, uso ou divulgação de dados pessoais, então, ao continuar usando o Site, você está transferindo seus dados para os Estados Unidos e concorda que seus dados sejam transferidos e processados nos Estados Unidos.",
+      contactDescription: "Se tiver dúvidas sobre qualquer dos Termos de Serviço, entre em contato conosco {at} {email}."
 }
 };
 

@@ -3083,7 +3083,6 @@ let message = {
     "lastUpdated": "Sidst opdateret: {date}",
     "lastUpdatedDate": "21. juli 2025",
     "privacyPolicyTitle": "Privatlivspolitik",
-    "policyDescription": 'Denne politik beskriver, hvordan NeverCap (herefter omtalt som \"NeverCap\", \"vores\", \"vi\", \"os\") indsamler, bruger og videregiver dine personoplysninger, når du bruger vores tjenester, websteder (https://www.nevercap.ai/) og software (samlet kaldet \"Tjenesterne\").',
     "policyAgreement": "Læs venligst denne privatlivspolitik omhyggeligt og sørg for at forstå den. Ved at bruge nogen af vores tjenester accepterer du denne privatlivspolitik. Hvis du ikke accepterer vores brug af dine personoplysninger i overensstemmelse med denne politik, skal du straks stoppe med at bruge vores tjenester.",
     "policyOverview": "I denne politik beskriver vi: hvilke data vi indsamler og hvorfor; hvordan dine data håndteres; og dine rettigheder med hensyn til dine data. Vi sælger ikke dine data.",
     "scopeTitle": "1. Anvendelsesområde for denne privatlivspolitik",
@@ -3117,14 +3116,16 @@ let message = {
     "locationTitle": "6. Placering af websted og data",
     "locationDescription": "Vores produkter og andre webegenskaber drives i USA. Hvis du befinder dig i EU, Storbritannien eller andetsteds uden for USA, skal du være opmærksom på, at alle oplysninger, du giver os, vil blive overført til og opbevaret i USA. Ved at bruge vores websteder eller tjenester og/eller give os dine personoplysninger samtykker du til denne overførsel.",
     "childrenTitle": "7. Børns privatliv",
-    "childrenDescription": "Tjenesterne er ikke rettet mod børn, og vi indsamler ikke bevidst personoplysninger fra børn under 13 år. Hvis du er under 13 år, må du ikke indsende nogen personoplysninger gennem tjenesterne. Hvis du mener, at et barn har givet os personoplysninger i strid med denne politik, skal du kontakte os som angivet nedenfor.",
     "updatesTitle": "8. Opdateringer af denne privatlivspolitik",
     "updatesDescription": "Vi kan opdatere denne politik efter behov for at overholde relevante regulativer og afspejle nye praksisser. Når vi foretager en væsentlig ændring af vores politikker, opdaterer vi datoen øverst på denne side.",
     "contactTitle": "9. Kontakt os",
-    "contactDescription": "Hvis du har spørgsmål, kommentarer eller klager til vores privatlivspolitik, skal du kontakte os, og vi vil stræbe efter at behandle din klage så hurtigt som muligt.",
     "websiteUrl": "https://www.nevercap.ai/",
-    "neverCap": "NeverCap"
-  },
+    "neverCap": "NeverCap",
+    at: "på",
+      policyDescription: 'Denne politik beskriver, hvordan NeverCap (hereinafter referred to as \"NeverCap\", \"our\", \"we\", \"us\") indsamler, bruger og offentliggør dine personoplysninger, når du bruger vores tjenester, hjemmesider ({url}) og software (samlet set \"Tjenesterne\").',
+      childrenDescription: "Tjenesterne er ikke rettet mod børn, og vi indsamler ikke bevidst personoplysninger fra børn under 13 år. Hvis du er under 13 år, må du ikke indsende personoplysninger via Tjenesterne. Hvis du mener, at et barn har givet os personoplysninger i strid med denne politik, skal du kontakte os {at} {email} som angivet nedenfor.",
+      contactDescription: "Hvis du har spørgsmål, kommentarer eller klager angående vores privatlivspolitik, skal du kontakte os {at} {email}, og vi vil stræbe efter at behandle din klage hurtigst muligt."
+},
   TermsOfUse: {
     title: "Betingelser for",
     titleGradient: "Service",
@@ -3172,7 +3173,6 @@ let message = {
     "copyrightCompliance": "Alt indhold, der offentliggøres på Tjenesterne, skal overholde amerikansk ophavsret.",
     "ipRights": "Vi gør ikke krav på nogen immaterielle rettigheder over det materiale, du giver til Tjenesterne. Alt uploadet materiale forbliver dit.",
     "contentModeration": "Vi gennemser ikke indhold på forhånd, men forbeholder os retten (men ikke forpligtelsen) efter eget skøn at afvise eller fjerne ethvert indhold, der er tilgængeligt via Tjenesten.",
-    "trademarkProtection": "Navnene, udseendet og følelsen af Tjenesterne er ophavsretligt beskyttet © til Virksomheden. Alle rettigheder forbeholdes. Du må ikke duplikere, kopiere eller genbruge nogen del af HTML, CSS, JavaScript eller visuelle designelementer uden udtrykkelig skriftlig tilladelse fra Virksomheden. Du skal anmode om tilladelse til at bruge Virksomhedens logo eller eventuelle Tjenestelogoer til promotionsformål. Send os venligst en e-mail med anmodninger om at bruge logoer. Vi forbeholder os retten til at tilbagekalde denne tilladelse, hvis du overtræder disse Servicevilkår.",
     "prohibitedExploitation": "Du accepterer ikke at gengive, duplikere, kopiere, sælge, videresælge eller udnytte nogen del af Tjenesterne, brugen af Tjenesterne eller adgangen til Tjenesterne uden udtrykkelig skriftlig tilladelse fra Virksomheden.",
     "impersonationProhibition": "Du må ikke modificere et andet websted på en måde, der falskt antyder, at det er forbundet med Tjenesterne eller Virksomheden.",
     "dmcaPolicy": "Vi respekterer andres immaterielle rettigheder. Hvis du mener, at noget materiale, der er tilgængeligt på eller via webstedet, krænker en ophavsret, du ejer eller kontrollerer, skal du straks kontakte os. En kopi af din Meddelelse vil blive sendt til den person, der har offentliggjort eller lagret det pågældende materiale. Vær opmærksom på, at du i henhold til gældende lovgivning kan blive holdt ansvarlig for erstatning, hvis du fremsætter væsentlige urigtige oplysninger i en Meddelelse. Hvis du derfor ikke er sikker på, at materiale, der findes på eller er linket til af webstedet, krænker din ophavsret, bør du overveje først at kontakte en advokat.",
@@ -3212,18 +3212,20 @@ let message = {
     "userDataTitle": "13. Brugerdata",
     "userDataDescription": "Vi opbevarer visse data du overfører til webstedet for at administrere dets funktioner. Selvom vi foretager rutinemæssige backup, er du selv ansvarlig for dine data. Vi er ikke ansvarlige for tab eller korruption af data, og du fraskriver dig retten til at retsforfølge os herom.",
     "privacyPolicyTitle": "14. Privatlivspolitik",
-    "privacyPolicyDescription": "Vi tager databeskyttelse alvorligt. Læs vores Privatlivspolitik. Ved at bruge webstedet accepterer du denne politik. Bemærk at webstedet hostes i USA. Ved brug fra andre regioner overfører du data til USA og accepterer amerikansk databehandling.",
     "liabilityTitle": "15. Ansvar",
     "liabilityIntroduction": "Vi nævner ansvar i disse vilkår, men samler det her:",
     "liabilityWaiver": "Du accepterer udtrykkeligt at vi ikke er ansvarlige over for dig eller tredjepart for direkte, indirekte, følge-, tabt fortjeneste, særlige, straffende eller eksemplariske skader (selv hvis vi er gjort opmærksom på risikoen), herunder skader pga.: (1) brug eller manglende adgang til tjenester; (2) fejl i indhold; (3) personskade eller ejendomsskade; (4) omkostninger ved erstatningsvarer; (5) uautoriseret serveradgang; (6) transmissionsafbrydelser; (7) vira eller skadelig kode; (8) fejl i indhold; (9) tredjeparts handlinger; (10) andre forhold relateret til disse vilkår eller tjenester, uanset juridisk teori.",
     "miscellaneousTitle": "16. Diverse",
     "miscellaneousDescription": "Disse vilkår og relaterede politikker udgør hele aftalen mellem os. Manglende håndhævelse af rettigheder udgør ikke frafald. Vilkårene gælder i videst muligt omfang. Vi kan overdrage rettigheder og forpligtelser. Vi er ikke ansvarlige for hændelser uden for vores kontrol. Ugyldige bestemmelser påvirker ikke øvrige vilkårs gyldighed. Der opstår ikke samarbejds-, ansættelses- eller agentforhold gennem disse vilkår. Du accepterer at vilkårene ikke skal fortolkes til vores ulempe. Du fraskriver dig forsvar baseret på elektronisk form og manglende underskrift.",
     "contactTitle": "17. Kontakt os",
-    "contactDescription": "Har du spørgsmål til vilkårene, så kontakt os.",
     "neverCap": "NeverCap",
     "site": "Websted",
-    "services": "Tjenester"
-  }
+    "services": "Tjenester",
+    at: "på",
+      trademarkProtection: "Navnene, udseendet og følelsen af Tjenesterne er ophavsretligt beskyttet© af Selskabet. Alle rettigheder forbeholdes. Du må ikke duplikere, kopiere eller genbruge nogen del af HTML, CSS, JavaScript eller visuelle designelementer uden udtrykkelig skriftlig tilladelse fra Selskabet. Du skal anmode om tilladelse til at bruge Selskabets logo eller eventuelle Tjenestelogoer til promotionsformål. Send os en e-mail {at} {email} med anmodninger om brug af logoer. Vi forbeholder os retten til at tilbagekalde denne tilladelse, hvis du overtræder disse Servicevilkår.",
+      privacyPolicyDescription: "Vi tager databeskyttelse og -sikkerhed alvorligt. Gennemgå vores {policy}. Ved at bruge Websiden accepterer du at være bundet af vores Privatlivspolitik, som er inkorporeret i disse Servicevilkår. Bemærk venligst, at Websiden er hostet i USA. Hvis du tilgår Websiden fra enhver anden region i verden med love eller andre krav vedrørende indsamling, brug eller offentliggørelse af personoplysninger, der afviger fra gældende love i USA, så ved fortsat brug af Websiden overfører du dine data til USA, og du accepterer, at dine data overføres og behandles i USA.",
+      contactDescription: "Hvis du har spørgsmål til nogen af Servicevilkårene, skal du kontakte os {at} {email}."
+}
 };
 
 export default defineI18nLocale(async (locale) => {

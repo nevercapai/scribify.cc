@@ -3088,7 +3088,6 @@ let message = {
     "lastUpdated": "Ultimo aggiornamento: {date}",
     "lastUpdatedDate": "21 luglio 2025",
     "privacyPolicyTitle": "Informativa sulla Privacy",
-    "policyDescription": 'Questa Normativa descrive come NeverCap (di seguito "NeverCap", "nostro", "noi") raccoglie, utilizza e divulga le tue informazioni personali quando usi i nostri servizi, siti web (https://www.nevercap.ai/) e software (collettivamente, i "Servizi").',
     "policyAgreement": "Leggi attentamente questa Informativa sulla Privacy e assicurati di comprenderla. Utilizzando i nostri Servizi, accetti questa Informativa. Se non accetti l'uso dei tuoi dati personali conforme a questa Normativa, interrompi immediatamente l'uso dei nostri Servizi.",
     "policyOverview": "In questa normativa spieghiamo: quali dati raccogliamo e perché; come gestiamo i tuoi dati; e i tuoi diritti sui tuoi dati. Non vendiamo i tuoi dati.",
     "scopeTitle": "1. Ambito di applicazione",
@@ -3122,14 +3121,16 @@ let message = {
     "locationTitle": "6. Ubicazione del sito e dei dati",
     "locationDescription": "I nostri prodotti e servizi sono gestiti negli USA. Se sei nell'UE, UK o altrove fuori dagli USA, sappi che le tue informazioni verranno trasferite e archiviate negli USA. Usando i nostri servizi, acconsenti a questo trasferimento.",
     "childrenTitle": "7. Privacy dei minori",
-    "childrenDescription": "I Servizi non sono destinati ai minori, e non raccogliamo consapevolmente dati di minori di 13 anni. Se hai meno di 13 anni, non inviare informazioni personali. Se ritieni che un minore abbia violato questa Normativa, contattaci.",
     "updatesTitle": "8. Aggiornamenti a questa Informativa",
     "updatesDescription": "Aggiorneremo questa normativa per conformarci alle regolamentazioni e riflettere nuove pratiche. Per modifiche significative, aggiorneremo la data in alto.",
     "contactTitle": "9. Contattaci",
-    "contactDescription": "Per domande, commenti o reclami sulla Privacy, contattaci e cercheremo di rispondere al più presto.",
     "websiteUrl": "https://www.nevercap.ai/",
-    "neverCap": "NeverCap"
-  },
+    "neverCap": "NeverCap",
+    at: "a",
+      policyDescription: 'Questa Politica descrive come NeverCap (di seguito denominato \"NeverCap\", \"nostro\", \"noi\", \"ci\") raccoglie, utilizza e divulga le tue informazioni personali quando usi i nostri servizi, siti web ({url}) e software (collettivamente, i \"Servizi\").',
+      childrenDescription: "I Servizi non sono destinati ai bambini e non raccogliamo consapevolmente Informazioni Personali da minori di 13 anni. Se hai meno di 13 anni, non inviare alcuna informazione personale tramite i Servizi. Se ritieni che un bambino ci abbia fornito Informazioni Personali in violazione di questa Politica, contattaci {at} {email} come indicato di seguito.",
+      contactDescription: "Se hai domande, commenti o reclami sulla nostra Politica sulla Privacy, contattaci {at} {email} e ci impegneremo a gestire il tuo reclamo il prima possibile."
+},
   TermsOfUse: {
     title: "Termini di",
     titleGradient: "Servizio",
@@ -3177,7 +3178,6 @@ let message = {
     "copyrightCompliance": "Tutti i contenuti pubblicati sui Servizi devono conformarsi alla legge sul copyright degli Stati Uniti.",
     "ipRights": "Non rivendichiamo diritti di proprietà intellettuale sul materiale che fornisci ai Servizi. Tutti i materiali caricati rimangono tuoi.",
     "contentModeration": "Non esaminiamo preventivamente i contenuti, ma ci riserviamo il diritto (ma non l'obbligo) a nostra esclusiva discrezione di rifiutare o rimuovere qualsiasi contenuto disponibile tramite il Servizio.",
-    "trademarkProtection": "I nomi, l'aspetto e lo stile dei Servizi sono copyright© della Società. Tutti i diritti riservati. Non puoi duplicare, copiare o riutilizzare alcuna parte degli elementi HTML, CSS, JavaScript o del design visivo senza l'esplicita autorizzazione scritta della Società. Devi richiedere il permesso per utilizzare il logo della Società o qualsiasi logo dei Servizi per scopi promozionali. Inviaci una richiesta via email per l'uso dei loghi. Ci riserviamo il diritto di revocare questo permesso se violi questi Termini di Servizio.",
     "prohibitedExploitation": "Accetti di non riprodurre, duplicare, copiare, vendere, rivendere o sfruttare alcuna parte dei Servizi, l'uso dei Servizi o l'accesso ai Servizi senza l'esplicita autorizzazione scritta della Società.",
     "impersonationProhibition": "Non devi modificare un altro sito web per far credere falsamente che sia associato ai Servizi o alla Società.",
     "dmcaPolicy": "Rispettiamo i diritti di proprietà intellettuale altrui. Se ritieni che qualsiasi materiale disponibile sul o tramite il Sito violi un copyright di tua proprietà o controllo, contattaci immediatamente. Una copia della tua Notifica sarà inviata alla persona che ha pubblicato o memorizzato il materiale in questione. Ti informiamo che, in base alla legge applicabile, potresti essere ritenuto responsabile di danni se presenti false dichiarazioni materiali in una Notifica. Pertanto, se non sei sicuro che il materiale sul Sito o collegato ad esso violi il tuo copyright, dovresti prima contattare un avvocato.",
@@ -3217,18 +3217,20 @@ let message = {
     "userDataTitle": "13. Dati Utente",
     "userDataDescription": "Conserviamo i dati che trasmetti al Sito per gestirne le prestazioni e il tuo utilizzo. Eseguiamo backup regolari, ma sei responsabile dei dati che trasmetti. Rinunci a qualsiasi azione legale per perdita o corruzione dei dati.",
     "privacyPolicyTitle": "14. Privacy Policy",
-    "privacyPolicyDescription": "Ci preoccupiamo della privacy e sicurezza dei dati. Consulta la nostra Privacy Policy. Utilizzando il Sito, accetti di essere vincolato dalla Privacy Policy, parte di questi Termini. Il Sito è ospitato negli USA: accedendolo da altre regioni, acconsenti al trasferimento e trattamento dei dati negli USA.",
     "liabilityTitle": "15. Responsabilità",
     "liabilityIntroduction": "Riportiamo la responsabilità in un'unica sezione:",
     "liabilityWaiver": "Accetti espressamente che la Società non sia responsabile, per legge o equità, verso di te o terzi per danni diretti, indiretti, incidentali, perdite di profitti, speciali, consequenziali, punitivi o esemplari, derivanti da: (1) uso o impossibilità di usare i Servizi; (2) errori nei contenuti; (3) danni personali o materiali; (4) costi per beni/servizi sostitutivi; (5) accesso non autorizzato ai server; (6) interruzioni di trasmissione; (7) bug o virus; (8) errori nei contenuti; (9) condotta di terzi; (10) qualsiasi altra questione relativa a questi Termini o ai Servizi.",
     "miscellaneousTitle": "16. Varie",
     "miscellaneousDescription": "Questi Termini e le policy sul Sito costituiscono l'accordo completo tra te e noi. La mancata applicazione di un diritto non ne costituisce rinuncia. Possiamo cedere diritti e obblighi. Non siamo responsabili per cause esterne al nostro controllo. Se una clausola è illegale o inapplicabile, le restanti rimangono valide. Nessun rapporto di joint venture, partnership, lavoro o agenzia è creato da questi Termini. Accetti che questi Termini non siano interpretati contro di noi per averli redatti. Rinunci a difese basate sulla forma elettronica e sulla mancanza di firma.",
     "contactTitle": "17. Contattaci",
-    "contactDescription": "Per domande su questi Termini, contattaci.",
     "neverCap": "NeverCap",
+    at: "a",
     "site": "Sito",
-    "services": "Servizi"
-  }
+    "services": "Servizi",
+      trademarkProtection: "I nomi, l'aspetto e lo stile dei Servizi sono protetti da copyright© della Società. Tutti i diritti riservati. Non puoi duplicare, copiare o riutilizzare alcuna parte degli elementi HTML, CSS, JavaScript o del design visivo senza esplicita autorizzazione scritta della Società. Devi richiedere il permesso per utilizzare il logo della Società o qualsiasi logo dei Servizi a scopo promozionale. Inviaci una email {at} {email} per richiedere l'uso dei loghi. Ci riserviamo il diritto di revocare questa autorizzazione in caso di violazione di questi Termini di Servizio.",
+      privacyPolicyDescription: "Teniamo alla privacy e alla sicurezza dei dati. Consulta la nostra {policy}. Utilizzando il Sito, accetti di essere vincolato dalla nostra Politica sulla Privacy, incorporata in questi Termini di Servizio. Tieni presente che il Sito è ospitato negli Stati Uniti. Se accedi al Sito da qualsiasi altra regione del mondo con leggi o requisiti diversi sugli Stati Uniti riguardanti la raccolta, l'uso o la divulgazione dei dati personali, con il tuo utilizzo continuato del Sito, trasferisci i tuoi dati negli Stati Uniti e accetti che i tuoi dati siano trasferiti e elaborati negli Stati Uniti.",
+      contactDescription: "Se hai domande su uno qualsiasi dei Termini di Servizio, contattaci {at} {email}."
+}
 };
 
 export default defineI18nLocale(async (locale) => {

@@ -3099,7 +3099,6 @@ let message = {
     "lastUpdated": "Zuletzt aktualisiert: {date}",
     "lastUpdatedDate": "21. Juli 2025",
     "privacyPolicyTitle": "Datenschutzrichtlinie",
-    "policyDescription": "Diese Richtlinie beschreibt, wie NeverCap (im Folgenden „NeverCap“, „wir“, „uns“) Ihre persönlichen Daten erhebt, nutzt und offenlegt, wenn Sie unsere Dienste, Websites (https://www.nevercap.ai/) und Software (zusammen die „Dienste“) nutzen.",
     "policyAgreement": "Bitte lesen Sie diese Datenschutzrichtlinie sorgfältig und stellen Sie sicher, dass Sie sie verstehen. Durch die Nutzung unserer Dienste erklären Sie sich mit dieser Datenschutzrichtlinie einverstanden. Wenn Sie nicht einverstanden sind, dass wir Ihre persönlichen Daten gemäß dieser Richtlinie verwenden, müssen Sie die Nutzung unserer Dienste sofort beenden.",
     "policyOverview": "In dieser Richtlinie legen wir dar: welche Daten wir sammeln und warum; wie Ihre Daten behandelt werden; und Ihre Rechte in Bezug auf Ihre Daten. Wir verkaufen Ihre Daten nicht.",
     "scopeTitle": "1. Geltungsbereich dieser Datenschutzrichtlinie",
@@ -3133,14 +3132,16 @@ let message = {
     "locationTitle": "6. Standort der Website und der Daten",
     "locationDescription": "Unsere Produkte und anderen Web-Eigenschaften werden in den USA betrieben. Wenn Sie sich in der Europäischen Union, im Vereinigten Königreich oder außerhalb der USA befinden, beachten Sie bitte, dass alle Informationen, die Sie uns bereitstellen, in die USA übertragen und dort gespeichert werden. Durch die Nutzung unserer Websites oder Dienste und/oder die Bereitstellung Ihrer persönlichen Daten erklären Sie sich mit dieser Übertragung einverstanden.",
     "childrenTitle": "7. Datenschutz für Kinder",
-    "childrenDescription": "Die Dienste richten sich nicht an Kinder, und wir sammeln wissentlich keine persönlichen Daten von Kindern unter 13 Jahren. Wenn Sie unter 13 Jahre alt sind, übermitteln Sie bitte keine persönlichen Daten über die Dienste. Wenn Sie glauben, dass ein Kind uns entgegen dieser Richtlinie persönliche Daten bereitgestellt hat, kontaktieren Sie uns bitte wie unten angegeben.",
     "updatesTitle": "8. Aktualisierungen dieser Datenschutzrichtlinie",
     "updatesDescription": "Wir können diese Richtlinie bei Bedarf aktualisieren, um relevanten Vorschriften zu entsprechen und neue Praktiken zu berücksichtigen. Wenn wir eine wesentliche Änderung an unseren Richtlinien vornehmen, aktualisieren wir das Datum oben auf dieser Seite.",
     "contactTitle": "9. Kontakt",
-    "contactDescription": "Wenn Sie Fragen, Kommentare oder Beschwerden zu unserer Datenschutzrichtlinie haben, kontaktieren Sie uns bitte, und wir werden uns bemühen, Ihre Beschwerde so schnell wie möglich zu bearbeiten.",
     "websiteUrl": "https://www.nevercap.ai/",
-    "neverCap": "NeverCap"
-  },
+    "neverCap": "NeverCap",
+    at: "unter",
+      policyDescription: 'Diese Richtlinie beschreibt, wie NeverCap (im Folgenden als \"NeverCap\", \"uns\", \"wir\", \"uns\" bezeichnet) Ihre persönlichen Daten erhebt, nutzt und offenlegt, wenn Sie unsere Dienste, Websites ({url}) und Software (gemeinsam die \"Dienste\") nutzen.',
+      childrenDescription: "Die Dienste richten sich nicht an Kinder, und wir erheben wissentlich keine personenbezogenen Daten von Kindern unter 13 Jahren. Wenn Sie unter 13 Jahre alt sind, übermitteln Sie bitte keine persönlichen Daten über die Dienste. Wenn Sie der Meinung sind, dass ein Kind uns entgegen dieser Richtlinie personenbezogene Daten bereitgestellt hat, kontaktieren Sie uns bitte unter {at} {email}.",
+      contactDescription: "Wenn Sie Fragen, Kommentare oder Beschwerden zu unserer Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter {at} {email}, und wir werden uns bemühen, Ihre Beschwerde so schnell wie möglich zu bearbeiten."
+},
   TermsOfUse: {
     title: "Nutzungsbedingungen",
     titleGradient: "Dienst",
@@ -3188,7 +3189,6 @@ let message = {
     "copyrightCompliance": "Alle auf den Diensten veröffentlichten Inhalte müssen dem US-Urheberrecht entsprechen.",
     "ipRights": "Wir erheben keine Ansprüche auf geistiges Eigentum an dem Material, das Sie den Diensten zur Verfügung stellen. Alle hochgeladenen Materialien bleiben Ihr Eigentum.",
     "contentModeration": "Wir überprüfen Inhalte nicht vorab, behalten uns jedoch das Recht (aber nicht die Verpflichtung) vor, nach unserem Ermessen Inhalte, die über den Dienst verfügbar sind, abzulehnen oder zu entfernen.",
-    "trademarkProtection": "Die Namen, das Aussehen und das Erscheinungsbild der Dienste sind urheberrechtlich © durch das Unternehmen geschützt. Alle Rechte vorbehalten. Sie dürfen keinen Teil der HTML-, CSS-, JavaScript- oder visuellen Designelemente ohne ausdrückliche schriftliche Genehmigung des Unternehmens duplizieren, kopieren oder wiederverwenden. Sie müssen eine Genehmigung beantragen, um das Logo des Unternehmens oder Dienstlogos für Werbezwecke zu nutzen. Bitte senden Sie uns Ihre Anfragen zur Logonutzung per E-Mail. Wir behalten uns das Recht vor, diese Genehmigung zu widerrufen, wenn Sie gegen diese Nutzungsbedingungen verstoßen.",
     "prohibitedExploitation": "Sie erklären sich damit einverstanden, keinen Teil der Dienste, deren Nutzung oder Zugang ohne ausdrückliche schriftliche Genehmigung des Unternehmens zu reproduzieren, zu duplizieren, zu kopieren, zu verkaufen, weiterzuverkaufen oder auszubeuten.",
     "impersonationProhibition": "Sie dürfen keine andere Website so verändern, dass fälschlicherweise der Eindruck entsteht, sie sei mit den Diensten oder dem Unternehmen verbunden.",
     "dmcaPolicy": "Wir respektieren die geistigen Eigentumsrechte anderer. Wenn Sie glauben, dass Material auf oder durch die Website Urheberrechte verletzt, die Sie besitzen oder kontrollieren, kontaktieren Sie uns bitte umgehend. Eine Kopie Ihrer Benachrichtigung wird an die Person gesendet, die das betreffende Material gepostet oder gespeichert hat. Bitte beachten Sie, dass Sie gemäß geltendem Recht für Schäden haftbar gemacht werden können, wenn Sie in einer Benachrichtigung falsche Angaben machen. Wenn Sie sich nicht sicher sind, ob Material auf oder über die Website Ihr Urheberrecht verletzt, sollten Sie zunächst einen Anwalt konsultieren.",
@@ -3228,18 +3228,20 @@ let message = {
     "userDataTitle": "13. Nutzerdaten",
     "userDataDescription": "Wir speichern bestimmte Daten, die Sie an die Website übermitteln, um deren Leistung zu verwalten. Sie sind allein verantwortlich für alle Daten, die Sie übermitteln oder die mit Ihrer Nutzung der Website zusammenhängen. Wir haften nicht für Verlust oder Beschädigung dieser Daten.",
     "privacyPolicyTitle": "14. Datenschutzrichtlinie",
-    "privacyPolicyDescription": "Wir legen Wert auf Datenschutz und Sicherheit. Bitte lesen Sie unsere Datenschutzrichtlinie. Durch die Nutzung der Website erklären Sie sich damit einverstanden. Die Website wird in den USA gehostet. Durch die Nutzung stimmen Sie der Datenverarbeitung in den USA zu.",
     "liabilityTitle": "15. Haftung",
     "liabilityIntroduction": "Wir erwähnen die Haftung in diesen Bedingungen, aber hier ist alles zusammengefasst:",
     "liabilityWaiver": "Sie verstehen und stimmen ausdrücklich zu, dass wir nicht haftbar sind für direkte, indirekte, zufällige oder sonstige Schäden, einschließlich Gewinn- oder Datenverlust, die aus der Nutzung oder Nichtnutzung der Dienste resultieren, selbst wenn wir auf die Möglichkeit solcher Schäden hingewiesen wurden.",
     "miscellaneousTitle": "16. Sonstiges",
     "miscellaneousDescription": "Diese Nutzungsbedingungen und alle Richtlinien auf der Website stellen die gesamte Vereinbarung dar. Das Nichtgeltendmachen eines Rechts bedeutet nicht dessen Verzicht. Wir können Rechte und Pflichten übertragen. Wir haften nicht für unkontrollierbare Ereignisse. Ungültige Klauseln beeinträchtigen nicht den Rest der Bedingungen. Durch diese Bedingungen entsteht keine Partnerschaft oder Arbeitsverhältnis.",
     "contactTitle": "17. Kontakt",
-    "contactDescription": "Wenn Sie Fragen zu den Nutzungsbedingungen haben, kontaktieren Sie uns bitte.",
     "neverCap": "NeverCap",
     "site": "Website",
-    "services": "Dienste"
-  }
+    "services": "Dienste",
+    at: "unter",
+      trademarkProtection: "Die Namen, das Aussehen und die Gestaltung der Dienste sind urheberrechtlich© durch das Unternehmen geschützt. Alle Rechte vorbehalten. Sie dürfen keine Teile der HTML-, CSS-, JavaScript- oder visuellen Designtelemente ohne ausdrückliche schriftliche Genehmigung des Unternehmens duplizieren, kopieren oder wiederverwenden. Sie müssen eine Genehmigung beantragen, um das Logo des Unternehmens oder Dienstlogos zu Werbezwecken zu nutzen. Bitte senden Sie uns eine E-Mail unter {at} {email} für Anfragen zur Logonutzung. Wir behalten uns das Recht vor, diese Genehmigung zu widerrufen, wenn Sie gegen diese Nutzungsbedingungen verstoßen.",
+      privacyPolicyDescription: "Uns sind Datenschutz und Sicherheit wichtig. Bitte lesen Sie unsere {policy}. Durch die Nutzung der Website erklären Sie sich mit unserer Datenschutzrichtlinie einverstanden, die in diese Nutzungsbedingungen integriert ist. Bitte beachten Sie, dass die Website in den Vereinigten Staaten gehostet wird. Wenn Sie die Website aus einer anderen Region der Welt aufrufen, in der andere Gesetze oder Anforderungen zur Erhebung, Nutzung oder Offenlegung personenbezogener Daten gelten als in den Vereinigten Staaten, dann transferieren Sie durch die weitere Nutzung der Website Ihre Daten in die Vereinigten Staaten und erklären sich damit einverstanden, dass Ihre Daten in die Vereinigten Staaten übertragen und dort verarbeitet werden.",
+      contactDescription: "Wenn Sie eine Frage zu den Nutzungsbedingungen haben, kontaktieren Sie uns bitte unter {at} {email}."
+}
 };
 
 export default defineI18nLocale(async (locale) => {

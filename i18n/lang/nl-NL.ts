@@ -3094,7 +3094,6 @@ let message = {
     "lastUpdated": "Laatst bijgewerkt: {date}",
     "lastUpdatedDate": "21 juli 2025",
     "privacyPolicyTitle": "Privacybeleid",
-    "policyDescription": 'Dit beleid beschrijft hoe NeverCap (hierna "NeverCap", "onze", "wij", "ons") uw persoonlijke gegevens verzamelt, gebruikt en openbaar maakt wanneer u onze diensten, websites (https://www.nevercap.ai/) en software (gezamenlijk de "Diensten") gebruikt.',
     "policyAgreement": "Lees dit Privacybeleid zorgvuldig en zorg dat u het begrijpt. Door onze Diensten te gebruiken, gaat u akkoord met dit Privacybeleid. Als u niet akkoord gaat met ons gebruik van uw gegevens volgens dit beleid, moet u direct stoppen met het gebruik van onze Diensten.",
     "policyOverview": "In dit beleid leggen we uit: welke gegevens we verzamelen en waarom; hoe uw gegevens worden verwerkt; en uw rechten met betrekking tot uw gegevens. We verkopen uw gegevens niet.",
     "scopeTitle": "1. Reikwijdte van dit Privacybeleid",
@@ -3128,14 +3127,16 @@ let message = {
     "locationTitle": "6. Locatie van site en gegevens",
     "locationDescription": "Onze producten en websites worden in de VS gehost. Gebruikers buiten de VS (EU, VK, etc.) moeten zich ervan bewust zijn dat hun gegevens daar worden opgeslagen. Door onze Diensten te gebruiken stemt u in met deze overdracht.",
     "childrenTitle": "7. Privacy van kinderen",
-    "childrenDescription": "Onze Diensten zijn niet bedoeld voor kinderen onder 13 jaar. We verzamelen geen persoonsgegevens van hen. Meldt u zich als ouder/voogd een schending, neem dan contact met ons op.",
     "updatesTitle": "8. Updates van dit Privacybeleid",
     "updatesDescription": "We kunnen dit beleid bijwerken voor naleving van regelgeving of nieuwe praktijken. Belangrijke wijzigingen worden gemarkeerd met een nieuwe datum bovenaan.",
     "contactTitle": "9. Contacteer Ons",
-    "contactDescription": "Voor vragen, opmerkingen of klachten over ons Privacybeleid, neem contact met ons op. We behandelen uw klacht zo snel mogelijk.",
     "websiteUrl": "https://www.nevercap.ai/",
-    "neverCap": "NeverCap"
-  },
+    "neverCap": "NeverCap",
+    at: "via",
+      policyDescription: 'Dit beleid beschrijft hoe NeverCap (hierna aangeduid als \"NeverCap\", \"onze\", \"wij\", \"ons\") uw persoonlijke informatie verzamelt, gebruikt en bekendmaakt wanneer u onze diensten, websites ({url}) en software (gezamenlijk de \"Diensten\") gebruikt.',
+      childrenDescription: "De Diensten zijn niet gericht op kinderen en wij verzamelen niet bewust persoonlijke informatie van kinderen onder de 13 jaar. Als u jonger bent dan 13 jaar, gelieve geen persoonlijke informatie via de Diensten in te dienen. Als u denkt dat een kind ons persoonlijke informatie heeft verstrekt in strijd met dit Beleid, neem dan contact met ons op op {at} {email} zoals hieronder aangegeven.",
+      contactDescription: "Als u vragen, opmerkingen of klachten heeft over ons Privacybeleid, neem dan contact met ons op via {at} {email} en wij zullen uw klacht zo snel mogelijk behandelen."
+},
   TermsOfUse: {
     title: "Voorwaarden van",
     titleGradient: "Dienst",
@@ -3183,7 +3184,6 @@ let message = {
     "copyrightCompliance": "Alle inhoud die op de Diensten wordt geplaatst, moet voldoen aan het Amerikaanse auteursrecht.",
     "ipRights": "Wij claimen geen intellectuele eigendomsrechten op het materiaal dat u aan de Diensten verstrekt. Alle geüploade materialen blijven van u.",
     "contentModeration": "Wij screenen inhoud niet vooraf, maar behouden ons het recht voor (maar zijn niet verplicht) om naar eigen goeddunken inhoud die via de Dienst beschikbaar is te weigeren of te verwijderen.",
-    "trademarkProtection": "De namen, uitstraling en vormgeving van de Diensten zijn auteursrechtelijk beschermd © door het Bedrijf. Alle rechten voorbehouden. U mag geen enkel deel van de HTML, CSS, JavaScript of visuele ontwerpelementen dupliceren, kopiëren of hergebruiken zonder uitdrukkelijke schriftelijke toestemming van het Bedrijf. U moet toestemming vragen om het logo van het Bedrijf of enige Dienstlogo's voor promotiedoeleinden te gebruiken. Stuur ons een e-mail met verzoeken om logo's te gebruiken. Wij behouden ons het recht voor om deze toestemming in te trekken als u deze Servicevoorwaarden overtreedt.",
     "prohibitedExploitation": "U gaat ermee akkoord om geen enkel deel van de Diensten, het gebruik van de Diensten of de toegang tot de Diensten te reproduceren, dupliceren, kopiëren, verkopen, doorverkopen of uit te buiten zonder uitdrukkelijke schriftelijke toestemming van het Bedrijf.",
     "impersonationProhibition": "U mag een andere website niet aanpassen om ten onrechte te suggereren dat deze geassocieerd is met de Diensten of het Bedrijf.",
     "dmcaPolicy": "Wij respecteren de intellectuele eigendomsrechten van anderen. Als u van mening bent dat materiaal dat op of via de Site beschikbaar is, inbreuk maakt op een auteursrecht dat u bezit of beheert, neem dan onmiddellijk contact met ons op. Een kopie van uw kennisgeving wordt verzonden naar de persoon die het betrokken materiaal heeft geplaatst of opgeslagen. Houd er rekening mee dat u volgens de toepasselijke wetgeving aansprakelijk kan worden gehouden voor schade als u onjuiste beweringen doet in een kennisgeving. Als u niet zeker weet of materiaal op of gelinkt aan de Site inbreuk maakt op uw auteursrecht, overweeg dan eerst een advocaat te raadplegen.",
@@ -3223,18 +3223,20 @@ let message = {
     "userDataTitle": "13. Gebruikersgegevens",
     "userDataDescription": "Wij bewaren bepaalde gegevens voor het beheer van de Site, maar u bent zelf verantwoordelijk voor alle gegevens die u verzendt. Wij zijn niet aansprakelijk voor verlies of corruptie van gegevens.",
     "privacyPolicyTitle": "14. Privacybeleid",
-    "privacyPolicyDescription": "Wij hechten belang aan gegevensprivacy en -veiligheid. Lees ons Privacybeleid. Door de Site te gebruiken, gaat u ermee akkoord dat uw gegevens in de VS worden verwerkt.",
     "liabilityTitle": "15. Aansprakelijkheid",
     "liabilityIntroduction": "Wij vermelden aansprakelijkheid in deze Voorwaarden, maar samengevat:",
     "liabilityWaiver": "De Company is niet aansprakelijk voor directe of indirecte schade, inclusief winstderving, verlies van gegevens of andere immateriële schade, voortvloeiend uit: (1) gebruik of onvermogen om de Diensten te gebruiken; (2) fouten in inhoud; (3) letsel of schade door gebruik van de Site; (4) kosten voor vervangende goederen/diensten; (5) ongeautoriseerde toegang tot servers; (6) onderbrekingen in de transmissie; (7) bugs of virussen; (8) fouten in inhoud; (9) gedrag van derden; (10) andere zaken gerelateerd aan deze Voorwaarden.",
     "miscellaneousTitle": "16. Diversen",
     "miscellaneousDescription": "Deze Voorwaarden vormen de volledige overeenkomst tussen u en ons. Het niet handhaven van een recht betekent niet dat we dit recht opgeven. Wij kunnen rechten en verplichtingen overdragen. Wij zijn niet aansprakelijk voor gebeurtenissen buiten onze controle. Als een bepaling ongeldig is, blijven de overige bepalingen van kracht. Er ontstaat geen joint venture of partnerschap door deze Voorwaarden.",
     "contactTitle": "17. Contacteer Ons",
-    "contactDescription": "Als u vragen heeft over deze Voorwaarden, neem dan contact met ons op.",
     "neverCap": "NeverCap",
     "site": "Site",
-    "services": "Diensten"
-  }
+    "services": "Diensten",
+    at: "via",
+      trademarkProtection: "De namen, uitstraling en vormgeving van de Diensten zijn auteursrechtelijk beschermd© door de Onderneming. Alle rechten voorbehouden. U mag geen enkel deel van de HTML, CSS, JavaScript of visuele ontwerpelementen dupliceren, kopiëren of hergebruiken zonder uitdrukkelijke schriftelijke toestemming van de Onderneming. U moet toestemming vragen om het logo van de Onderneming of dienstlogos voor promotiedoeleinden te gebruiken. Mail ons op {at} {email} voor verzoeken om logos te gebruiken. Wij behouden ons het recht voor om deze toestemming in te trekken als u deze Servicevoorwaarden schendt.",
+      privacyPolicyDescription: "Wij hechten waarde aan gegevensprivacy en -beveiliging. Lees ons {policy} door. Door de Site te gebruiken, gaat u akkoord met ons Privacybeleid, dat onderdeel is van deze Servicevoorwaarden. Houd er rekening mee dat de Site in de Verenigde Staten wordt gehost. Als u de Site gebruikt vanuit een andere regio met wetten of vereisten voor persoonlijke gegevens die afwijken van de Amerikaanse wetgeving, dan draagt u door verder gebruik uw gegevens over naar de Verenigde Staten en gaat u akkoord met deze overdracht en verwerking.",
+      contactDescription: "Als u vragen heeft over een van de Servicevoorwaarden, neem dan contact met ons op via {at} {email}."
+}
 };
 
 export default defineI18nLocale(async (locale) => {

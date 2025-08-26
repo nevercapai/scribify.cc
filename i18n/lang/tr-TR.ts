@@ -3083,7 +3083,6 @@ let message = {
     "lastUpdated": "Son güncelleme: {date}",
     "lastUpdatedDate": "21 Temmuz 2025",
     "privacyPolicyTitle": "Gizlilik Politikası",
-    "policyDescription": `Bu Politika, NeverCap'in (bundan sonra "NeverCap", "biz", "bize" olarak anılacaktır) hizmetlerimizi, web sitelerimizi (https://www.nevercap.ai/) ve yazılımlarımızı (topluca "Hizmetler") kullandığınızda kişisel bilgilerinizi nasıl topladığını, kullandığını ve açıkladığını anlatır.`,
     "policyAgreement": "Lütfen bu Gizlilik Politikasını dikkatlice okuyun ve anladığınızdan emin olun. Hizmetlerimizden herhangi birini kullanarak, bu Gizlilik Politikasını kabul etmiş olursunuz. Kişisel verilerinizin bu Politika doğrultusunda kullanılmasını kabul etmiyorsanız, Hizmetlerimizi derhal kullanmayı bırakmalısınız.",
     "policyOverview": "Bu politikada şunları açıklıyoruz: hangi verileri topladığımız ve neden; verilerinizin nasıl işlendiği; ve verilerinizle ilgili haklarınız. Verilerinizi satmıyoruz.",
     "scopeTitle": "1. Bu Gizlilik Politikasının Kapsamı",
@@ -3117,14 +3116,16 @@ let message = {
     "locationTitle": "6. Site ve verilerin konumu",
     "locationDescription": "Ürünlerimiz ve diğer web varlıklarımız Amerika Birleşik Devletleri'nde işletilmektedir. Avrupa Birliği, İngiltere veya Amerika Birleşik Devletleri dışında başka bir yerde bulunuyorsanız, lütfen bize sağladığınız herhangi bir bilginin Amerika Birleşik Devletleri'ne aktarılacağını ve burada saklanacağını unutmayın. Web sitelerimizi veya Hizmetlerimizi kullanarak ve/veya bize kişisel bilgilerinizi sağlayarak bu aktarımı kabul etmiş olursunuz.",
     "childrenTitle": "7. Çocukların Gizliliği",
-    "childrenDescription": "Hizmetler çocuklara yönelik değildir ve 13 yaşın altındaki çocuklardan bilerek Kişisel Bilgi toplamayız. 13 yaşın altındaysanız, lütfen Hizmetler aracılığıyla herhangi bir kişisel bilgi göndermeyin. Bir çocuğun bu Politikayı ihlal ederek bize Kişisel Bilgi sağladığına inanıyorsanız, lütfen aşağıda belirtildiği gibi bizimle iletişime geçin.",
     "updatesTitle": "8. Bu Gizlilik Politikasındaki Güncellemeler",
     "updatesDescription": "İlgili düzenlemelere uymak ve yeni uygulamaları yansıtmak için bu politikayı gerektiğinde güncelleyebiliriz. Politikalarımızda önemli bir değişiklik yaptığımızda, bu sayfanın üstündeki tarihi yenileyeceğiz.",
     "contactTitle": "9. Bize Ulaşın",
-    "contactDescription": "Gizlilik Politikamızla ilgili herhangi bir sorunuz, yorumunuz veya şikayetiniz varsa, lütfen bizimle iletişime geçin ve şikayetinizi en kısa sürede ele almaya çalışacağız.",
     "websiteUrl": "https://www.nevercap.ai/",
-    "neverCap": "NeverCap"
-  },
+    "neverCap": "NeverCap",
+    at: "adresinden",
+      policyDescription: `Bu Politika, NeverCap'in (bundan sonra \"NeverCap\", \"biz\", \"bizim\" olarak anılacaktır) hizmetlerimizi, web sitelerimizi ({url}) ve yazılımlarımızı (topluca \"Hizmetler\") kullandığınızda kişisel bilgilerinizi nasıl topladığını, kullandığını ve açıkladığını anlatır.`,
+      childrenDescription: "Hizmetler çocuklara yönelik değildir ve bilerek 13 yaşın altındaki çocuklardan Kişisel Bilgi toplamayız. 13 yaşın altındaysanız, lütfen Hizmetler aracılığıyla herhangi bir kişisel bilgi göndermeyin. Bir çocuğun bu Politikayı ihlal ederek bize Kişisel Bilgi sağladığını düşünüyorsanız, lütfen aşağıda belirtilen {at} {email} adresinden bizimle iletişime geçin.",
+      contactDescription: "Gizlilik Politikamız hakkında herhangi bir sorunuz, yorumunuz veya şikayetiniz varsa, lütfen bizimle {at} {email} adresinden iletişime geçin ve şikayetinizi en kısa sürede ele almaya çalışacağız."
+},
   TermsOfUse: {
     title: "Kullanım",
     titleGradient: "Koşulları",
@@ -3172,7 +3173,6 @@ let message = {
     "copyrightCompliance": "Hizmetlerde yayınlanan tüm içerikler ABD telif hakkı yasalarına uymalıdır.",
     "ipRights": "Hizmetlere sağladığınız materyaller üzerinde herhangi bir fikri mülkiyet hakkı iddia etmiyoruz. Yüklenen tüm materyaller size aittir.",
     "contentModeration": "İçerikleri önceden incelemiyoruz, ancak Hizmet aracılığıyla sunulan herhangi bir içeriği münhasır takdirimize göre reddetme veya kaldırma hakkını (ancak yükümlülüğünü değil) saklı tutarız.",
-    "trademarkProtection": "Hizmetlerin adları, görünümü ve hissi Şirket'in telif hakkı© kapsamındadır. Tüm hakları saklıdır. HTML, CSS, JavaScript veya görsel tasarım öğelerinin herhangi bir bölümünü Şirket'ten yazılı izin almadan kopyalayamaz, çoğaltamaz veya yeniden kullanamazsınız. Promosyon amaçları için Şirket'in logosunu veya herhangi bir Hizmet logosunu kullanmak için izin talep etmelisiniz. Logo kullanım taleplerini lütfen e-posta ile bize gönderin. Bu Hizmet Şartları'nı ihlal etmeniz durumunda bu izni geri alma hakkını saklı tutarız.",
     "prohibitedExploitation": "Şirket'ten yazılı izin almadan Hizmetlerin herhangi bir bölümünü çoğaltmamayı, kopyalamayı, satmayı, yeniden satmayı veya kullanmayı, Hizmetleri kullanmayı veya Hizmetlere erişimi sömürmemeyi kabul edersiniz.",
     "impersonationProhibition": "Başka bir web sitesini Hizmetler veya Şirket ile ilişkili olduğunu yanlış bir şekilde ima edecek şekilde değiştirmemelisiniz.",
     "dmcaPolicy": "Başkalarının fikri mülkiyet haklarına saygı duyarız. Site'de veya Site aracılığıyla sunulan herhangi bir materyalin sahip olduğunuz veya kontrol ettiğiniz herhangi bir telif hakkını ihlal ettiğine inanıyorsanız, lütfen derhal bizimle iletişime geçin. Bildiriminizin bir kopyası, Bildirimde belirtilen materyali yayınlayan veya depolayan kişiye gönderilecektir. Yürürlükteki yasalar uyarınca bir Bildirimde maddi yanlış beyanlar yapmanız durumunda zararlardan sorumlu tutulabileceğinizi lütfen unutmayın. Bu nedenle, Site'de bulunan veya Site tarafından bağlantı verilen materyalin telif hakkınızı ihlal ettiğinden emin değilseniz, önce bir avukatla iletişime geçmeyi düşünmelisiniz.",
@@ -3212,18 +3212,20 @@ let message = {
     "userDataTitle": "13. Kullanıcı Verileri",
     "userDataDescription": "Site performansını yönetmek için ilettiğiniz verileri saklarız ancak verilerinizin yedeklenmesinden siz sorumlusunuz. Veri kaybı veya bozulmasından dolayı sorumluluk kabul etmiyoruz.",
     "privacyPolicyTitle": "14. Gizlilik Politikası",
-    "privacyPolicyDescription": "Veri gizliliğine önem veriyoruz. Gizlilik Politikamızı inceleyin. Site ABD'de barındırılmaktadır; verileriniz ABD'ye aktarılacaktır.",
     "liabilityTitle": "15. Sorumluluk",
     "liabilityIntroduction": "Sorumlulukla ilgili tüm detaylar bu bölümdedir:",
     "liabilityWaiver": "Şirket, (1) Hizmetlerin kullanılamaması, (2) içerik hataları, (3) kişisel/zimmet zararı, (4) alternatif ürün maliyetleri, (5) yetkisiz sunucu erişimi, (6) iletişim kesintileri, (7) virüs/böcekler, (8) içerik hataları, (9) üçüncü şahıs davranışları veya (10) sözleşme ihlali nedeniyle oluşan hiçbir zarardan sorumlu değildir.",
     "miscellaneousTitle": "16. Çeşitli Hükümler",
     "miscellaneousDescription": "Bu Hükümler tam anlaşmayı oluşturur. Haklarımızı kullanmamamız feragat sayılmaz. Yürürlükten kaldırılan maddeler diğer hükümleri etkilemez. Elektronik formatta olması itiraz nedeni olamaz.",
     "contactTitle": "17. Bize Ulaşın",
-    "contactDescription": "Hükümlerle ilgili sorularınız için lütfen iletişime geçin.",
     "neverCap": "NeverCap",
     "site": "Site",
-    "services": "Hizmetler"
-  }
+    "services": "Hizmetler",
+    at: "adresinden",
+      trademarkProtection: "Hizmetlerin adları, görünümü ve hissi Şirketin telif hakkı© altındadır. Tüm hakları saklıdır. Şirketten açık yazılı izin alınmadıkça HTML, CSS, JavaScript veya görsel tasarım öğelerinin herhangi bir bölümünü çoğaltamaz, kopyalayamaz veya yeniden kullanamazsınız. Şirketin logosunu veya herhangi bir Hizmet logosunu tanıtım amaçlı kullanmak için izin almalısınız. Logo kullanım isteklerini lütfen {at} {email} adresine e-posta ile gönderin. Hizmet Şartlarını ihlal etmeniz durumunda bu izni geri çekme hakkını saklı tutarız.",
+      privacyPolicyDescription: "Veri gizliliği ve güvenliğine önem veriyoruz. Lütfen {policy}'mizi inceleyin. Siteyi kullanarak, bu Hizmet Şartlarına dahil edilen Gizlilik Politikamızla bağlı olmayı kabul edersiniz. Sitenin Amerika Birleşik Devletleri'nde barındırıldığını lütfen unutmayın. Siteye, kişisel veri toplama, kullanma veya açıklama konusunda Amerika Birleşik Devletleri'ndeki uygulanabilir yasalardan farklı yasa veya diğer gereklilikleri olan dünyanın herhangi bir başka bölgesinden erişiyorsanız, Siteyi kullanmaya devam etmekle verilerinizi Amerika Birleşik Devletleri'ne aktarıyor ve verilerinizin Amerika Birleşik Devletleri'ne transfer edilerek işlenmesini kabul ediyorsunuz.",
+      contactDescription: "Hizmet Şartları hakkında bir sorunuz varsa, lütfen bizimle {at} {email} adresinden iletişime geçin."
+}
 };
 
 export default defineI18nLocale(async (locale) => {

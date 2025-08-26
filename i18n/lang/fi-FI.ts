@@ -3083,7 +3083,6 @@ let message = {
     "lastUpdated": "Viimeksi päivitetty: {date}",
     "lastUpdatedDate": "21. heinäkuuta 2025",
     "privacyPolicyTitle": "Tietosuojakäytäntö",
-    "policyDescription": 'Tämä käytäntö kuvaa, miten NeverCap (jäljempänä "NeverCap", "me", "meidät") kerää, käyttää ja luovuttaa henkilötietojasi, kun käytät palvelujamme, verkkosivujamme (https://www.nevercap.ai/) ja ohjelmistoamme (yhdessä "Palvelut").',
     "policyAgreement": "Lue tämä tietosuojakäytäntö huolellisesti ja varmista, että ymmärrät sen. Käyttämällä mitä tahansa Palveluitamme hyväksyt tämän tietosuojakäytännön. Jos et hyväksy henkilötietojesi käyttöä tämän käytännön mukaisesti, sinun on lopetettava Palveluidemme käyttö välittömästi.",
     "policyOverview": "Tässä käytännössä kerromme: mitä tietoja keräämme ja miksi; miten tietojasi käsitellään; ja oikeutesi tietoihisi. Emme myy tietojasi.",
     "scopeTitle": "1. Tietosuojakäytännön soveltamisala",
@@ -3117,14 +3116,16 @@ let message = {
     "locationTitle": "6. Sivuston ja tietojen sijainti",
     "locationDescription": "Tuotteemme ja muut verkkosivustomme toimivat Yhdysvalloissa. Jos sijaitsee Euroopan unionissa, Britanniassa tai muualla Yhdysvaltojen ulkopuolella, huomaa, että kaikki meille antamasi tiedot siirretään ja tallennetaan Yhdysvaltoihin. Käyttämällä verkkosivustoja tai Palveluitamme ja/tai antamalla meille henkilötietojasi suostut tähän siirtoon.",
     "childrenTitle": "7. Lasten tietosuoja",
-    "childrenDescription": "Palvelut eivät ole tarkoitettu lapsille, emmekä tietoisesti kerää henkilötietoja alle 13-vuotiailta. Jos olet alle 13-vuotias, älä lähetä henkilötietoja Palveluiden kautta. Jos uskot, että lapsi on antanut meille henkilötietoja tämän käytännön vastaisesti, ota yhteyttä alla ilmoitettuihin yhteystietoihin.",
     "updatesTitle": "8. Tietosuojakäytännön päivitykset",
     "updatesDescription": "Voimme päivittää tätä käytäntöä tarpeen mukaan noudattaaksemme asianomaisia säännöksiä ja heijastaaksemme uusia käytäntöjä. Aina kun teemme merkittäviä muutoksia käytäntöihimme, päivitämme tämän sivun yläosassa olevan päivämäärän.",
     "contactTitle": "9. Ota yhteyttä",
-    "contactDescription": "Jos sinulla on kysyttävää, kommentteja tai valituksia tietosuojakäytännöstämme, ota yhteyttä, ja pyrimme käsittelemään valituksesi mahdollisimman pian.",
     "websiteUrl": "https://www.nevercap.ai/",
-    "neverCap": "NeverCap"
-  },
+    "neverCap": "NeverCap",
+    at: "osoitteeseen",
+      policyDescription: 'Tämä käytäntö kuvailee, miten NeverCap (jäljempänä "NeverCap", "me", "meidän") kerää, käyttää ja luovuttaa henkilökohtaisia tietojasi, kun käytät palvelujamme, verkkosivustoja ({url}) ja ohjelmistoja (yhdessä "Palvelut").',
+      childrenDescription: "Palvelut eivät kohdistu lapsille, emmekä tahallaan kerää henkilötietoja alle 13-vuotiailta. Jos olet alle 13-vuotias, älä lähetä henkilötietoja Palvelujen kautta. Jos uskot, että lapsi on antanut meille henkilötietoja tämän käytännön vastaisesti, ota yhteyttä sähköpostitse {at} {email}.",
+      contactDescription: "Jos sinulla on kysyttävää, kommentteja tai valituksia tietosuojakäytännöstämme, ota yhteyttä {at} {email}, ja pyrimme käsittelemään valituksesi mahdollisimman pian."
+},
   TermsOfUse: {
     title: "Käyttöehdot",
     titleGradient: "Palvelu",
@@ -3172,7 +3173,6 @@ let message = {
     "copyrightCompliance": "Kaiken Palveluissa julkaistavan sisällön on noudatettava Yhdysvaltain tekijänoikeuslakia.",
     "ipRights": "Emme vaadi tekijänoikeuksia materiaaliisi. Kaikki lähettämäsi materiaali pysyy sinun omaisuuttanasi.",
     "contentModeration": "Emme ennakkotarkasta sisältöä, mutta pidätämme oikeuden poistaa sisältöä harkintamme mukaan.",
-    "trademarkProtection": "Palveluiden nimet, ulkoasu ja tyyli ovat Yhtiön tekijänoikeuden alaista omaisuutta. Kaikki oikeudet pidätetään. Et saa kopioida HTML-, CSS-, JavaScript- tai visuaalisia suunnitteluelementtejä ilman Yhtiön kirjallista lupaa. Logoja käytettäessä tulee pyytää lupaa. Pidätämme oikeuden peruuttaa luvat rikkomusten yhteydessä.",
     "prohibitedExploitation": "Et saa kopioida, myydä tai hyödyntää Palveluita ilman Yhtiön kirjallista lupaa.",
     "impersonationProhibition": "Et saa muokata muita verkkosivustoja antaakseen väärän kuvan niiden yhteydestä Palveluihin tai Yhtiöön.",
     "dmcaPolicy": "Kunnioitamme muiden tekijänoikeuksia. Jos uskot, että sivustomme sisältö loukkaa tekijänoikeuksiasi, ota välittömästi yhteyttä. Ilmoituksesi kopio lähetetään materiaalin lähettäjälle. Huomaa, että väärät ilmoitukset voivat aiheuttaa vahingonkorvausvelvollisuuden.",
@@ -3212,18 +3212,20 @@ let message = {
     "userDataTitle": "13. Käyttäjätiedot",
     "userDataDescription": "Säilytämme tiettyjä verkkosivustolle siirtämiäsi tietoja verkkosivuston suorituskyvyn hallintaa ja verkkosivuston käyttöösi liittyviä tietoja varten. Vaikka varmuuskopioimme tietoja säännöllisesti, olet täysin vastuussa kaikista siirtämistäsi tiedoista tai verkkosivustolla tekemistäsi toimista. Hyväksyt, ettemme ole sinulle vastuussa tällaisten tietojen katoamisesta tai vaurioitumisesta, ja luovut täten oikeudesta ryhtyä toimiin meitä vastaan tällaisten tietojen katoamisen tai vaurioitumisen vuoksi.",
     "privacyPolicyTitle": "14. Tietosuojakäytäntö",
-    "privacyPolicyDescription": "Arvostamme tietosuojaa ja -turvallisuutta. Lue tietosuojakäytäntömme. Verkkosivuston käyttäminen tarkoittaa, että hyväksyt tietosuojakäytännön sitovuuden, joka on sisällytetty näihin palveluehtoihin. Huomaa, että verkkosivusto sijaitsee Yhdysvalloissa. Jos käytät verkkosivustoa mistä tahansa muusta maailman osasta, jossa henkilötietojen keräämistä, käyttöä tai luovuttamista koskevat lait tai vaatimukset poikkeavat Yhdysvalloissa sovellettavista laeista, niin jatkamalla verkkosivuston käyttöä siirrät tietoja Yhdysvaltoihin ja suostut tietojesi käsittelyyn ja tallentamiseen Yhdysvalloissa.",
     "liabilityTitle": "15. Vastuu",
     "liabilityIntroduction": "Viittaamme vastuuseen useaan kertaan näissä ehdoissa, joten selitämme sen yhtenäisesti tässä:",
     "liabilityWaiver": "Ymmärrät ja hyväksyt nimenomaisesti, että yritys ei ole lain tai oikeudenmukaisuuden perusteella vastuussa sinulle tai kenellekään kolmannelle osapuolelle mistään suorista, välillisistä, satunnaisista, voiton menetykseen liittyvistä, erityisistä, seuraamuksellisista, rankaisevista tai kurinpidollisista vahingonkorvauksista (vaikka yritystä olisi varoitettu tällaisten vahinkojen mahdollisuudesta), mukaan lukien mutta ei rajoittuen voiton, liikearvon, käytön, tietojen tai muiden aineettomien tappioiden menetyksiin, jotka johtuvat: (1) palvelun käytöstä tai käyttökelvottomuudesta; (2) sisällön ja materiaalien virheistä, epätarkkuuksista; (3) verkkosivuston käytöstä ja käyttämisestä aiheutuneista ruumiinvammoista tai omaisuusvahingoista; (4) palvelun kautta ostettujen, hankittujen tavaroiden, tietojen, tietojen tai palveluiden tai viestien vastaanottamisen tai transaktioiden tekemisen korvaavien tavaroiden ja palveluiden hankintakustannuksista; (5) turvallisten palvelimiemme ja niissä tallennettujen henkilö- ja/tai taloustietojen luvattomasta käytöstä; (6) verkkosivuston tiedonsiirron keskeytyksistä tai pysäytyksistä; (7) kolmansien osapuolten verkkosivuston kautta tai verkkosivustoon lähettämistä vioista, viruksista, troijalaisista jne.; (8) sisällön ja materiaalien virheistä tai puutteista, tai verkkosivuston kautta julkaistun, lähetetyn tai muutoin toimitetun sisällön käytöstä aiheutuneista vahingoista; (9) palvelun kolmansien osapuolien lausunnoista tai toimista; (10) tai mistä tahansa muusta näihin palveluehtoihin tai palveluun liittyvästä asiasta, riippumatta siitä, perustuuko se sopimusrikkomukseen, vahingonkorvaukseen (mukaan lukien aktiivinen tai passiivinen huolimattomuus) vai mihin tahansa muuhun vastuuteoriaan.",
     "miscellaneousTitle": "16. Sekalaiset määräykset",
     "miscellaneousDescription": "Nämä palveluehdot ja verkkosivustollamme julkaisemamme käytännöt tai toimintasäännöt muodostavat täydellisen sopimuksen ja ymmärryksen sinun ja meidän välillämme. Se, että emme käytä tai pane täytäntöön näiden palveluehtojen oikeutta tai määräystä, ei merkitse kyseisestä oikeudesta tai määräyksestä luopumista. Näitä palveluehtoja sovelletaan lain sallimassa laajimmassa määrin. Voimme siirtää kaikki oikeutemme ja velvollisuutemme toisille milloin tahansa. Emme ole vastuussa mistään menetyksistä, vahingoista, viivästyksistä tai toimimattomuudesta, joka johtuu mistä tahansa kohtuullisen hallintamme ulkopuolella olevasta syystä. Jos näiden palveluehtojen määräys tai osa määräyksestä todetaan laittomaksi, mitättömäksi tai täytäntöönpanokelvottomaksi, kyseinen määräys tai osa määräyksestä katsotaan erotettavaksi eikä se vaikuta muiden määräysten pätevyyteen ja täytäntöönpanokelpoisuuteen. Nämä palveluehdot tai verkkosivuston käyttö ei luo yhteisyritys-, kumppanuus-, työsuhde- tai edustussuhdetta sinun ja meidän välillämme. Hyväksyt, että näitä palveluehtoja ei tulkita meitä vastaan sen vuoksi, että olemme laatineet ne. Luovut täten kaikista puolustuskeinoista, jotka saattavat perustua näiden palveluehtojen sähköiseen muotoon ja siihen, että osapuolet eivät ole allekirjoittaneet näitä palveluehtoja.",
     "contactTitle": "17. Ota yhteyttä",
-    "contactDescription": "Jos sinulla on kysymyksiä näistä palveluehdoista, ota meihin yhteyttä.",
     "neverCap": "NeverCap",
     "site": "Verkkosivusto",
-    "services": "Palvelut"
-  }
+    "services": "Palvelut",
+    at: "osoitteeseen",
+      trademarkProtection: "Palveluiden nimet, ulkoasu ja ilmiasma ovat yrityksen tekijänoikeussuojattuja. Kaikki oikeudet pidätetään. HTML-, CSS-, JavaScript- tai visuaalisten suunnitteluelementtien monistaminen, kopioiminen tai uudelleenkäyttö ilman yrityksen kirjallista lupaa on kielletty. Logojen käyttöön markkinointitarkoituksessa vaaditaan erillinen lupa. Lähetä logojen käyttölupykyselyt sähköpostitse osoitteeseen {at} {email}. Meillä on oikeus peruuttaa lupa, jos rikot käyttöehtoja.",
+      privacyPolicyDescription: "Välitämme tietosuojasta ja -turvallisuudesta. Tutustu {policy}. Sivuston käyttäminen edellyttää tietosuojakäytäntöön sitoutumista. Sivusto sijaitsee Yhdysvalloissa. Käyttäessäsi sivustoa muulta alueelta, jossa henkilötietojen keräämistä, käyttöä tai luovuttamista koskevat erilaiset lait, tietosi siirretään Yhdysvaltoihin. Hyväksyt tietojesi siirron ja käsittelyn Yhdysvalloissa.",
+      contactDescription: "Jos sinulla on kysyttävää käyttöehdoista, ota yhteyttä {at} {email}."
+}
 };
 
 export default defineI18nLocale(async (locale) => {

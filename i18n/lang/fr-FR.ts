@@ -3101,7 +3101,6 @@ let message = {
     "lastUpdated": "Dernière mise à jour : {date}",
     "lastUpdatedDate": "21 juillet 2025",
     "privacyPolicyTitle": "Politique de confidentialité",
-    "policyDescription": "Cette Politique décrit comment NeverCap (ci-après dénommé « NeverCap », « notre », « nous », « nos ») collecte, utilise et divulgue vos informations personnelles lorsque vous utilisez nos services, sites web (https://www.nevercap.ai/) et logiciels (collectivement, les « Services »).",
     "policyAgreement": "Veuillez lire attentivement cette Politique de confidentialité et vous assurer de la comprendre. En utilisant l'un de nos Services, vous acceptez cette Politique de confidentialité. Si vous n'acceptez pas que nous utilisions vos données personnelles conformément à cette Politique, vous devez cesser immédiatement d'utiliser nos Services.",
     "policyOverview": "Dans cette politique, nous expliquons : quelles données nous collectons et pourquoi ; comment vos données sont traitées ; et vos droits concernant vos données. Nous ne vendons pas vos données.",
     "scopeTitle": "1. Champ d'application de cette Politique de confidentialité",
@@ -3135,14 +3134,16 @@ let message = {
     "locationTitle": "6. Localisation du site et des données",
     "locationDescription": "Nos produits et autres propriétés web sont exploités aux États-Unis. Si vous êtes situé dans l'Union européenne, au Royaume-Uni ou ailleurs en dehors des États-Unis, veuillez noter que toute information que vous nous fournissez sera transférée et stockée aux États-Unis. En utilisant nos sites web ou Services et/ou en nous fournissant vos informations personnelles, vous consentez à ce transfert.",
     "childrenTitle": "7. Confidentialité des enfants",
-    "childrenDescription": "Les Services ne s'adressent pas aux enfants, et nous ne collectons pas sciemment d'informations personnelles auprès d'enfants de moins de 13 ans. Si vous avez moins de 13 ans, veuillez ne pas soumettre d'informations personnelles via les Services. Si vous pensez qu'un enfant nous a fourni des informations personnelles en violation de cette Politique, veuillez nous contacter comme indiqué ci-dessous.",
     "updatesTitle": "8. Mises à jour de cette Politique de confidentialité",
     "updatesDescription": "Nous pouvons mettre à jour cette politique si nécessaire pour nous conformer aux réglementations pertinentes et refléter toute nouvelle pratique. Chaque fois que nous apportons un changement significatif à nos politiques, nous actualiserons la date en haut de cette page.",
     "contactTitle": "9. Contactez-nous",
-    "contactDescription": "Si vous avez des questions, commentaires ou plaintes concernant notre Politique de confidentialité, veuillez nous contacter et nous nous efforcerons de traiter votre plainte dès que possible.",
     "websiteUrl": "https://www.nevercap.ai/",
-    "neverCap": "NeverCap"
-  },
+    "neverCap": "NeverCap",
+    at: "à",
+      policyDescription: 'Cette Politique décrit comment NeverCap (ci-après dénommé "NeverCap", "notre", "nous", "nos") collecte, utilise et divulgue vos informations personnelles lorsque vous utilisez nos services, sites web ({url}) et logiciels (collectivement, les "Services").',
+      childrenDescription: "Les Services ne s'adressent pas aux enfants et nous ne collectons pas sciemment d'informations personnelles auprès d'enfants de moins de 13 ans. Si vous avez moins de 13 ans, veuillez ne pas soumettre d'informations personnelles via les Services. Si vous pensez qu'un enfant nous a fourni des informations personnelles en violation de cette Politique, veuillez nous contacter {à} l'adresse {email} indiquée ci-dessous.",
+      contactDescription: "Si vous avez des questions, commentaires ou plaintes concernant notre Politique de Confidentialité, veuillez nous contacter {à} l'adresse {email} et nous nous efforcerons de traiter votre plainte dès que possible."
+},
   TermsOfUse: {
     title: "Conditions",
     titleGradient: "D'Utilisation",
@@ -3190,7 +3191,6 @@ let message = {
     "copyrightCompliance": "Tout contenu publié sur les Services doit respecter la loi américaine sur le droit d'auteur.",
     "ipRights": "Nous ne revendiquons aucun droit de propriété intellectuelle sur le matériel que vous fournissez aux Services. Tous les matériels téléchargés restent votre propriété.",
     "contentModeration": "Nous ne filtrons pas le contenu à priori, mais nous nous réservons le droit (mais non l'obligation) de refuser ou supprimer tout contenu disponible via le Service à notre seule discrétion.",
-    "trademarkProtection": "Les noms, l'apparence et l'ergonomie des Services sont protégés par le copyright© de la Société. Tous droits réservés. Vous ne pouvez pas dupliquer, copier ou réutiliser aucune partie du HTML, CSS, JavaScript ou des éléments de conception visuelle sans autorisation écrite expresse de la Société. Vous devez demander l'autorisation pour utiliser le logo de la Société ou tout logo des Services à des fins promotionnelles. Envoyez-nous vos demandes d'utilisation des logos par e-mail. Nous nous réservons le droit de révoquer cette autorisation en cas de violation de ces Conditions d'utilisation.",
     "prohibitedExploitation": "Vous acceptez de ne pas reproduire, dupliquer, copier, vendre, revendre ou exploiter aucune partie des Services, leur utilisation ou leur accès sans autorisation écrite expresse de la Société.",
     "impersonationProhibition": "Vous ne devez pas modifier un autre site web pour laisser faussement supposer qu'il est associé aux Services ou à la Société.",
     "dmcaPolicy": "Nous respectons les droits de propriété intellectuelle d'autrui. Si vous pensez qu'un matériel disponible sur ou via le Site porte atteinte à un droit d'auteur que vous détenez ou contrôlez, contactez-nous immédiatement. Une copie de votre notification sera envoyée à la personne ayant publié ou stocké le matériel concerné. Veuillez noter qu'en vertu de la loi applicable, vous pourriez être tenu pour responsable des dommages si votre notification contient des déclarations erronées. Si vous n'êtes pas sûr qu'un matériel sur ou lié par le Site viole vos droits d'auteur, envisagez d'abord de consulter un avocat.",
@@ -3230,18 +3230,20 @@ let message = {
     "userDataTitle": "13. Données utilisateur",
     "userDataDescription": "Nous conservons certaines données que vous transmettez, mais vous êtes responsable de vos données. Nous déclinons toute responsabilité en cas de perte.",
     "privacyPolicyTitle": "14. Politique de confidentialité",
-    "privacyPolicyDescription": "Nous accordons de l'importance à la confidentialité. En utilisant le Site, vous acceptez notre Politique de confidentialité. Le Site est hébergé aux États-Unis.",
     "liabilityTitle": "15. Responsabilité",
     "liabilityIntroduction": "Clause de responsabilité globale :",
     "liabilityWaiver": "Nous déclinons toute responsabilité pour tout dommage résultant de (1) l'utilisation des Services, (2) erreurs de contenu, (3) dommages personnels ou matériels, etc.",
     "miscellaneousTitle": "16. Divers",
     "miscellaneousDescription": "Ces CGU constituent l'intégralité de notre accord. Notre inaction ne vaut pas renonciation. Nous pouvons céder nos droits. Aucune relation d'emploi ou d'agence n'est créée.",
     "contactTitle": "17. Contactez-nous",
-    "contactDescription": "Pour toute question sur les CGU, contactez-nous.",
     "neverCap": "NeverCap",
+    at: "à",
     "site": "Site",
-    "services": "Services"
-  }
+    "services": "Services",
+      trademarkProtection: "Les noms, l'apparence et l'ergonomie des Services sont protégés par le copyright© de la Société. Tous droits réservés. Vous ne pouvez pas reproduire, copier ou réutiliser aucune partie du HTML, CSS, JavaScript ou des éléments de conception visuelle sans autorisation écrite expresse de la Société. Vous devez demander l'autorisation d'utiliser le logo de la Société ou tout logo des Services à des fins promotionnelles. Veuillez nous envoyer un email {à} {email} pour toute demande d'utilisation des logos. Nous nous réservons le droit de révoquer cette autorisation en cas de violation de ces Conditions d'Utilisation.",
+      privacyPolicyDescription: "Nous accordons une grande importance à la confidentialité et à la sécurité des données. Veuillez consulter notre {politique}. En utilisant le Site, vous acceptez d'être lié par notre Politique de Confidentialité, qui est incorporée dans ces Conditions d'Utilisation. Veuillez noter que le Site est hébergé aux États-Unis. Si vous accédez au Site depuis toute autre région du monde où les lois ou autres exigences régissant la collecte, l'utilisation ou la divulgation de données personnelles diffèrent des lois applicables aux États-Unis, alors en continuant à utiliser le Site, vous transférez vos données vers les États-Unis et vous acceptez que vos données soient transférées et traitées aux États-Unis.",
+      contactDescription: "Si vous avez une question concernant l'une des Conditions d'Utilisation, veuillez nous contacter {à} l'adresse {email}."
+}
 };
 
 export default defineI18nLocale(async (locale) => {

@@ -156,9 +156,12 @@
             <li>
               {{ $t("TermsOfUse.contentModeration") }}
             </li>
-            <li>
-              {{ $t("TermsOfUse.trademarkProtection") }}
-            </li>
+            <i18n-t keypath="TermsOfUse.trademarkProtection" tag="li">
+              <template #at>{{ $t("TermsOfUse.at") }}</template>
+              <template #email>
+                <a href="mailto:support@nevercap.ai" class="underline">support@nevercap.ai</a>
+              </template>
+            </i18n-t>
             <li>
               {{ $t("TermsOfUse.prohibitedExploitation") }}
             </li>
@@ -275,9 +278,11 @@
           </p>
 
           <h2>{{ $t("TermsOfUse.privacyPolicyTitle") }}</h2>
-          <p>
-            {{ $t("TermsOfUse.privacyPolicyDescription") }}
-          </p>
+          <i18n-t keypath="TermsOfUse.privacyPolicyDescription" tag="p">
+            <template #policy>
+              <span @click="handleJump" class='underline cursor-pointer'>{{$t('Privacy.privacyPolicyTitle')}}</span>
+            </template>
+          </i18n-t>
 
           <h2>{{ $t("TermsOfUse.liabilityTitle") }}</h2>
           <p>
@@ -294,9 +299,12 @@
           </p>
 
           <h2>{{ $t("TermsOfUse.contactTitle") }}</h2>
-          <p>
-            {{ $t("TermsOfUse.contactDescription") }}
-          </p>
+          <i18n-t keypath="TermsOfUse.contactDescription" tag="p">
+            <template #at>{{ $t("TermsOfUse.at") }}</template>
+            <template #email>
+              <a href="mailto:support@nevercap.ai" class="underline">support@nevercap.ai</a>
+            </template>
+          </i18n-t>
         </div>
       </div>
     </div>
@@ -318,6 +326,12 @@ useHead({
     }
   ]
 });
+
+const router = useRouter();
+const localePath = useLocalePath();
+const handleJump = () => {
+  router.push(localePath('/privacy'));
+}
 </script>
 
 <style scoped lang="scss">

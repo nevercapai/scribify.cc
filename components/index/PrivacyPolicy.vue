@@ -192,7 +192,7 @@
         If you have any questions, comments or complaints about our Privacy
         Policy, please
         <a
-          href="mailto:support@scribify.ai"
+          href="mailto:support@nevercap.ai"
           target="_blank"
           rel="noopener noreferrer"
           class="text-blue-500 hover:text-blue-500"

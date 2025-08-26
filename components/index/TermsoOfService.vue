@@ -251,7 +251,7 @@
         to use the Company’s logo or any Service logos for promotional purposes.
         Please
         <a
-          href="mailto:support@scribify.ai"
+          href="mailto:support@nevercap.ai"
           target="_blank"
           rel="noopener noreferrer"
           class="text-blue-500 hover:text-blue-500"
@@ -275,7 +275,7 @@
         that any material available on or through the Site infringes upon any
         copyright you own or control, please immediately
         <a
-          href="mailto:support@scribify.ai"
+          href="mailto:support@nevercap.ai"
           target="_blank"
           rel="noopener noreferrer"
           class="text-blue-500 hover:text-blue-500"
@@ -530,7 +530,7 @@
       <p class="content">
         If you have a question about any of the Terms of Service, please
         <a
-          href="mailto:support@scribify.ai"
+          href="mailto:support@nevercap.ai"
           target="_blank"
           rel="noopener noreferrer"
           class="text-blue-500 hover:text-blue-500"

@@ -179,7 +179,7 @@ import SpeakerPromat from "~/components/record/dialog/speakerPromat.vue";
 import { useCrossDomainCookie } from "~/hooks/useCrossDomainCookie";
 import { importWithRetry } from "~/utils/importWithRetry";
 
-const { t } = useI18n();
+const { t, locale } = useI18n();
 
 const { selectRawFiles } = storeToRefs(useUploadStore());
 const { clearSelectRawFiles } = useUploadStore();
@@ -419,6 +419,13 @@ const handleCloseDialog = () => {
     document.activeElement.blur();
   }
 };
+
+watchEffect(() => {
+  if (locale.value) {
+    tableData.value = []
+    clearSelectRawFiles()
+  }
+})
 </script>
 
 <style lang="scss" scoped>

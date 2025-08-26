@@ -32,9 +32,11 @@
         <div class="privacy-content">
           <h2>{{ $t("Privacy.privacyPolicyTitle") }}</h2>
 
-          <p>
-            {{ $t("Privacy.policyDescription") }}
-          </p>
+          <i18n-t keypath="Privacy.policyDescription" tag="p">
+            <template #url>
+              <a href="https://www.nevercap.ai/" target="_blank" class="underline">https://www.nevercap.ai/</a>
+            </template>
+          </i18n-t>
 
           <p>
             {{ $t("Privacy.policyAgreement") }}
@@ -127,9 +129,12 @@
           </p>
 
           <h2>{{ $t("Privacy.childrenTitle") }}</h2>
-          <p>
-            {{ $t("Privacy.childrenDescription") }}
-          </p>
+          <i18n-t keypath="Privacy.childrenDescription" tag="p">
+            <template #at>{{$t('Privacy.at')}}</template>
+            <template #email>
+              <a href="mailto:support@nevercap.ai" class="underline">support@nevercap.ai</a>
+            </template>
+          </i18n-t>
 
           <h2>{{ $t("Privacy.updatesTitle") }}</h2>
           <p>
@@ -137,9 +142,12 @@
           </p>
 
           <h2>{{ $t("Privacy.contactTitle") }}</h2>
-          <p>
-            {{ $t("Privacy.contactDescription") }}
-          </p>
+          <i18n-t keypath="Privacy.contactDescription" tag="p">
+            <template #at>{{$t('Privacy.at')}}</template>
+            <template #email>
+              <a href="mailto:support@nevercap.ai" class="underline">support@nevercap.ai</a>
+            </template>
+          </i18n-t>
         </div>
       </div>
     </div>

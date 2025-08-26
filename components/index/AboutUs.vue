@@ -73,7 +73,7 @@
 
         <div class="detail-item">
           <span class="detail-label me-2 font-medium">Email:</span>
-          <span>support@scribify.ai</span>
+          <span>support@nevercap.ai</span>
         </div>
       </div>
     </div>

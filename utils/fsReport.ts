@@ -19,7 +19,7 @@ interface WebhookUrl {
 
 export function useErrorReporting() {
   // 环境 host
-  const testingEnvHosts = ['localhost-', 'dev.scribify.ai', 'whisperx-dev.aihujing.com'];
+  const testingEnvHosts = ['localhost-', 'dev.scribify.ai', 'whisperx-dev.aihujing.com', 'scribify.cc'];
   const productionEnvHosts = ['www.scribify.ai', 'scribify.ai'];
 
   // webhook url

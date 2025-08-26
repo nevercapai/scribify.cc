@@ -1154,18 +1154,6 @@ let message = {
       },
         "heavy_users": "Transcrição de Áudio e Vídeo",
         "join_users": 'Criado Para Usuários Intensivos como Você - Junte-se a YouTubers, criadores de conteúdo e podcasters que migraram de serviços de "redução inflacionária"',
-        "podcasters": {
-              "title": "Podcasters",
-              "des": "Carregue todo o seu catálogo retroativo. Crie notas para cada episódio. Chega de escolher quais episódios transcrever."
-            },
-        "content_creators": {
-              "title": "Criadores de Conteúdo",
-              "des": "Transforme sua biblioteca de vídeos em texto pesquisável usando nosso serviço para transcrever arquivos de vídeo automaticamente. Gere legendas para tudo. Sem contar minutos, apenas criando."
-            },
-        "journalists": {
-              "title": "Jornalistas",
-              "des": 'Carregue todas as suas entrevistas de uma vez. Chega de bloqueios de "10 arquivos por mês" quando no prazo final. Processe tudo.'
-            }
     },
     Testimonials: {
       title: "Amado por",
@@ -1252,53 +1240,6 @@ let message = {
       ],
         "title": "Perguntas",
         "titleHighlight": "Frequentes",
-        "questions": [
-              {
-                "q": "Transcrição por IA",
-                "question": "O que é transcrição por IA e como funciona?",
-                "answer": "Transcrição por IA é o processo de converter áudio em texto automaticamente usando inteligência artificial avançada. Na NeverCap, você simplesmente carrega seus arquivos, e nossa IA transcreve o conteúdo com até 96% de precisão. Nosso serviço é projetado para transcrever arquivos de vídeo (como MP4, MOV) e áudio (como MP3, WAV) em texto legível e editável, com identificação de falantes e timestamps."
-              },
-              {
-                "q": "unlimited_policy",
-                "question": "É realmente ilimitado? Qual é o truque?",
-                "answer": "Sim, é verdadeiramente ilimitado! Sem limites mensais de minutos, sem taxas extras. Os únicos limites são técnicos: arquivos individuais podem ter até 10 horas ou 5GB, e você pode processar 50 arquivos de uma vez. Mas pode carregar quantos lotes quiser, o mês inteiro."
-              },
-              {
-                "q": "accuracy",
-                "question": "Qual é a precisão da transcrição?",
-                "answer": "Garantimos 96% de precisão para áudio claro. Nossa IA foi treinada com milhões de horas de conteúdo diverso e lida excepcionalmente bem com sotaques, termos técnicos e múltiplos falantes. Para áudio difícil, nossos recursos de aprimoramento inteligente melhoram os resultados."
-              },
-              {
-                "q": "languages",
-                "question": "Quais idiomas são suportados?",
-                "answer": "Suportamos transcrição em mais de 100 idiomas, incluindo inglês, espanhol, mandarim, hindi, árabe, francês e mais. Além disso, você pode traduzir suas transcrições para 249 idiomas diferentes, perfeito para conteúdo global."
-              },
-              {
-                "q": "speed",
-                "question": "Qual é a velocidade da transcrição?",
-                "answer": "Super rápida! Um arquivo de 1 hora geralmente processa em menos de 5 minutos. Com processamento em lote, você pode carregar 50 arquivos simultaneamente e processá-los em paralelo. A maioria dos usuários acorda com toda a biblioteca transcrita durante a noite."
-              },
-              {
-                "q": "cancellation",
-                "question": "Posso cancelar a qualquer momento?",
-                "answer": "Absolutamente! Sem contratos, sem taxas de cancelamento. Você pode atualizar, reduzir ou cancelar sua assinatura a qualquer momento em seu painel. Se cancelar, manterá acesso até o fim do período de cobrança."
-              },
-              {
-                "q": "security",
-                "question": "Meus dados estão seguros?",
-                "answer": "Sua segurança é nossa prioridade. Somos certificados SOC 2, usamos criptografia de 256 bits para todos os dados e nunca usamos seu conteúdo para treinar nossos modelos. Você pode excluir seus arquivos a qualquer momento, e nós os removemos automaticamente após 30 dias. Conformidade com GDPR e CCPA."
-              },
-              {
-                "q": "export_formats",
-                "question": "Quais formatos de exportação estão disponíveis?",
-                "answer": "Baixe suas transcrições em qualquer formato necessário: PDF, Word (DOCX), Excel, CSV, legendas SRT, texto simples (TXT) e legendas VTT. Perfeito para qualquer fluxo de trabalho."
-              },
-              {
-                "q": "file_formats",
-                "question": "Quais formatos de áudio e vídeo posso carregar?",
-                "answer": "Suportamos praticamente todos os formatos de áudio e vídeo que você encontrar: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV e mais. Se você consegue reproduzir, nós conseguimos transcrever."
-              }
-            ]
     },
     CTASection: {
         "title": "Pronto Para Se Livrar Dos Limites?",
@@ -1800,94 +1741,6 @@ let message = {
         "title": "Preços Simples e Transparentes.",
         "highlighted_text": "Sem Limites Ocultos.",
         "description": "Escolha o plano que atende suas necessidades. Atualize ou reduza quando quiser. Sem contratos, sem surpresas.",
-        "plans": [
-              {
-                "name": "Grátis",
-                "price": "$0",
-                "period": "mês",
-                "discount": "Perfeito para experimentar nosso serviço",
-                "limits": {
-                  "title": "Limites Diários",
-                  "items": [
-                    "3 arquivos/dia (≈90 min total/dia)",
-                    "Até 30 min por arquivo (≤250 MB)",
-                    "Envie 1 arquivo por vez",
-                    "Fila de prioridade padrão"
-                  ]
-                },
-                "features": {
-                  "title": "Recursos",
-                  "items": [
-                    "100+ idiomas",
-                    "Identificação de falantes",
-                    "Tradução",
-                    "Todos os formatos de exportação"
-                  ]
-                },
-                "cta": {
-                  "text": "Comece grátis. Sem cartão de crédito.",
-                  "button": "Começar Grátis"
-                }
-              },
-              {
-                "name": "Pro Mensal",
-                "price": "$17.99",
-                "period": "mês",
-                "discount": "$9.99 no primeiro mês",
-                "limits": {
-                  "title": "Sem Limite Mensal",
-                  "items": [
-                    "Minutos totais ilimitados",
-                    "Até 10 horas / 5 GB por arquivo",
-                    "Envie 50 arquivos de uma vez",
-                    "Fila prioritária"
-                  ]
-                },
-                "features": {
-                  "title": "Tudo do Grátis, mais",
-                  "items": [
-                    "Timestamps por palavra",
-                    "Identificação avançada de falantes",
-                    "Parágrafos e pontuação formatados",
-                    "Suporte prioritário"
-                  ]
-                },
-                "cta": {
-                  "text": "Minutos ilimitados. Velocidade prioritária. Envios em lote.",
-                  "button": "Virar Pro"
-                },
-                "badge": "Mais Popular"
-              },
-              {
-                "name": "Pro Anual",
-                "price": "$8.99",
-                "period": "mês",
-                "discount": "Cobrança anual de $107.88",
-                "limits": {
-                  "title": "Igual ao Pro Mensal",
-                  "items": [
-                    "Minutos totais ilimitados",
-                    "Até 10 horas / 5 GB por arquivo",
-                    "Envie 50 arquivos de uma vez",
-                    "Fila prioritária"
-                  ]
-                },
-                "features": {
-                  "title": "Tudo do Free, mais",
-                  "items": [
-                    "Timestamps por palavra",
-                    "Identificação avançada de falantes",
-                    "Parágrafos formatados & pontuação",
-                    "Suporte prioritário"
-                  ]
-                },
-                "cta": {
-                  "text": "Minutos ilimitados. Velocidade prioritária. Uploads em lote.",
-                  "button": "Virar Pro"
-                },
-                "badge": "Melhor Custo-Benefício -"
-              }
-            ],
         "disclaimer": '"Ilimitado" significa sem limite mensal e sem lentidão artificial. Uso justo aplica-se a automação abusiva ou redistribuição.'
     },
     ComparisonTable: {
@@ -1974,85 +1827,6 @@ let message = {
           values: ["30 dias", "Para sempre", "Para sempre"]
         }
       ],
-        "header": {
-              "title": "Comparar",
-              "highlighted_text": "Todos os Recursos",
-              "subtitle": "Veja exatamente o que cada plano oferece. Sem limitações ocultas."
-            },
-        "plans": [
-              "Recursos",
-              "Free",
-              "Pro Mensal",
-              "Pro Anual"
-            ],
-        "features": [
-              {
-                "name": "Preço",
-                "values": [
-                  "$0/mês",
-                  {
-                    "main": "$17.99/mês",
-                    "note": "$9.99 primeiro mês"
-                  },
-                  {
-                    "main": "$8.99/mês",
-                    "note": "Cobrado $107.88/ano"
-                  }
-                ]
-              },
-              {
-                "name": "Minutos mensais",
-                "values": ["~2.700 (90/dia)", "Ilimitado", "Ilimitado"]
-              },
-              {
-                "name": "Duração máxima do arquivo",
-                "values": ["30 minutos", "10 horas", "10 horas"]
-              },
-              {
-                "name": "Tamanho máximo do arquivo",
-                "values": ["250 MB", "5 GB", "5 GB"]
-              },
-              {
-                "name": "Uploads em lote",
-                "values": ["1 arquivo", "50 arquivos", "50 arquivos"]
-              },
-              {
-                "name": "Velocidade de processamento",
-                "values": ["Padrão", "Prioritário", "Prioritário"]
-              },
-              {
-                "name": "Idiomas suportados",
-                "values": ["100+ idiomas", "100+ idiomas", "100+ idiomas"]
-              },
-              {
-                "name": "Tradução",
-                "values": ["true", "true", "true"]
-              },
-              {
-                "name": "Identificação de falantes",
-                "values": ["Básico", "Avançado (20 falantes)", "Avançado (20 falantes)"]
-              },
-              {
-                "name": "Carimbos de tempo por palavra",
-                "values": ["false", "true", "true"]
-              },
-              {
-                "name": "Parágrafos formatados",
-                "values": ["false", "true", "true"]
-              },
-              {
-                "name": "Formatos de exportação",
-                "values": ["Todos os formatos", "Todos os formatos", "Todos os formatos"]
-              },
-              {
-                "name": "Suporte",
-                "values": ["E-mail", "E-mail prioritário", "E-mail prioritário"]
-              },
-              {
-                "name": "Retenção de dados",
-                "values": ["30 dias", "Para sempre", "Para sempre"]
-              }
-            ]
     },
     FAQ: {
       items: [
@@ -2095,38 +1869,6 @@ let message = {
       ],
         "title": "Perguntas",
         "titleHighligt": "Frequentes",
-        "items": [
-              {
-                "q": "unlimited_policy",
-                "question": "É realmente ilimitado?",
-                "answer": "Sim! Planos Pro não têm limites mensais. As únicas restrições são técnicas: ficheiros até 10 horas ou 5GB. Pode processar quantos ficheiros precisar."
-              },
-              {
-                "q": "plan_change",
-                "question": "Posso mudar de plano a qualquer momento?",
-                "answer": "Claro! Pode cancelar sua assinatura a qualquer hora no seu painel. Mude para um plano superior ou inferior quando quiser."
-              },
-              {
-                "q": "payment_methods",
-                "question": "Quais métodos de pagamento aceitam?",
-                "answer": "Aceitamos cartões de crédito, débito e PayPal para pagamentos seguros e sem complicações."
-              },
-              {
-                "q": "free_trial",
-                "question": "Há um teste gratuito para o Pro?",
-                "answer": "Sim! Experimente o Pro gratuitamente por 7 dias sem cartão de crédito. Além disso, ganhe 45% de desconto no primeiro mês."
-              },
-              {
-                "q": "file_retention",
-                "question": "Por quanto tempo guardam meus ficheiros?",
-                "answer": "Plano gratuito: 30 dias. Planos Pro: Para sempre! Suas transcrições ficam disponíveis na sua conta."
-              },
-              {
-                "q": "data_security",
-                "question": "E a segurança dos dados?",
-                "answer": "Somos certificados SOC 2 com criptografia de 256 bits. Nunca usamos seu conteúdo para treinar modelos. Seus dados são seus."
-              }
-            ]
     },
     CTA: {
         "title": "Pronto para ser Ilimitado?",
@@ -2984,24 +2726,6 @@ let message = {
         ],
           "title": "Suas Perguntas sobre Transcrição",
           "titleHighlight": "Respondido",
-          "questions": [
-                {
-                  "question": "P: Como transcrevo um vídeo do YouTube com o NeverCap?",
-                  "answer": "É simples. Basta encontrar o vídeo do YouTube que deseja transcrever, copiar seu URL e colá-lo em nosso aplicativo. Nossa IA buscará o vídeo automaticamente e fornecerá uma transcrição completa em minutos."
-                },
-                {
-                  "question": "P: Qual é a melhor forma de transcrever um vídeo do Facebook para texto?",
-                  "answer": "A maneira mais fácil é usar um link direto. Copie o URL do vídeo do Facebook e nossa plataforma fará o resto, convertendo a fala em texto com até 96% de precisão, economizando sua transcrição manual."
-                },
-                {
-                  "question": "P: Posso transcrever vídeos do TikTok e Instagram?",
-                  "answer": "Com certeza. Suportamos transcrição para vídeos do TikTok e Instagram. Isso é perfeito para criadores de conteúdo que querem transformar seus vídeos curtos em posts de blog, artigos ou atualizações em mídias sociais baseadas em texto."
-                },
-                {
-                  "question": "P: Como transcrevo um vídeo do Vimeo para texto?",
-                  "answer": "Transcrever vídeos do Vimeo é tão fácil quanto em qualquer outra plataforma. Basta copiar o URL do vídeo do Vimeo e colá-lo no NeverCap. Nossa IA processará o vídeo e gerará uma transcrição de texto precisa, que pode ser baixada em diversos formatos."
-                }
-              ]
     }
     },
     Researchers: {
@@ -3356,20 +3080,6 @@ let message = {
           }
         ],
           "title": "Veja como transformar um vídeo do YouTube em um arquivo MP4 em 3 passos fáceis",
-          "steps": [
-                {
-                  title: "Copie o URL",
-                  content: "Abra o vídeo do YouTube desejado, depois copie o link da barra de endereço do navegador."
-                },
-                {
-                  title: "Cole o link",
-                  content: "Acesse sua ferramenta de download de vídeos e cole o URL no campo de entrada."
-                },
-                {
-                  title: "Baixe o MP4",
-                  content: "Após o processamento, clique no botão de download para salvar seu arquivo MP4."
-                }
-              ]
     },
       part3: {
         content: [
@@ -3514,23 +3224,6 @@ let message = {
         "title": "Nosso",
         "highlighted_text": "Impacto",
         "subtitle": "Capacitando a comunicação global com tecnologia de IA avançada",
-        "metrics": [
-              {
-                "value": "96%+",
-                "label": "Taxa de Precisão",
-                "description": "Transcrição líder do setor com IA avançada"
-              },
-              {
-                "value": "100+",
-                "label": "Idiomas Suportados",
-                "description": "Reconhecimento de fala para conteúdo global"
-              },
-              {
-                "value": "249+",
-                "label": "Idiomas de Tradução",
-                "description": "Traduza o texto transcrito para praticamente qualquer idioma"
-              }
-            ]
     },
     Mission: {
       features: [
@@ -3562,28 +3255,6 @@ let message = {
         "title": "Por Que Escolher",
         "highlighted_text": "NeverCap",
         "subtitle": "Acreditamos em quebrar barreiras linguísticas e tornar o conteúdo acessível a todos",
-        "features": [
-              {
-                "icon": "🎯",
-                "title": "Precisão Inigualável",
-                "description": "Nossos modelos de IA são continuamente refinados para oferecer taxas de transcrição acima de 96%, com alguns idiomas principais alcançando até 99% de precisão por meio de otimização avançada."
-              },
-              {
-                "icon": "🌍",
-                "title": "Suporte a Idiomas Globais",
-                "description": "Suporte para reconhecimento de fala em mais de 100 idiomas e capacidade de tradução para mais de 249 idiomas, tornando seu conteúdo verdadeiramente global."
-              },
-              {
-                "icon": "⚡",
-                "title": "Processamento Rápido como um Raio",
-                "description": "Processe horas de conteúdo de áudio e vídeo em minutos, não em horas. Nossa pipeline de IA otimizada garante transcrições rápidas sem sacrificar a qualidade."
-              },
-              {
-                "icon": "🔒",
-                "title": "Segurança de Nível Empresarial",
-                "description": "A segurança dos seus dados é nossa prioridade. Usamos criptografia padrão do setor e cumprimos regulamentações globais de privacidade para manter seu conteúdo seguro e confidencial."
-              }
-            ]
     },
     Company: {
       details: [
@@ -3603,20 +3274,6 @@ let message = {
         "title": "Empresa",
         "highlighted_text": "Informações",
         "subtitle": "Entre em contato conosco para qualquer dúvida ou suporte",
-        "details": [
-              {
-                "label": "Nome da Empresa",
-                "value": "SCRIBIFY AI INC"
-              },
-              {
-                "label": "Sede",
-                "value": ["30 N Gould St Ste R", "Sheridan, WY 82801", "Estados Unidos"]
-              },
-              {
-                "label": "Contate-nos",
-                "value": ["E-mail", "Suporte disponível 24/7"]
-              }
-            ]
     },
     CTA: {
         "title": "Pronto para Experimentar a Diferença?",

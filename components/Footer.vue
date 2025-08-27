@@ -74,14 +74,30 @@
 <script setup lang="ts">
 /* Footer 组件 */
 const sociaIconList = ref([
-  { id: 1, img: "x", title: "𝕏", url: "https://x.com/scribify_ai" },
-  { id: 2, img: "y", url: "https://www.youtube.com/@aiscribify" },
-  { id: 3, img: "o", url: "https://www.instagram.com/scribifyai/" },
+  { id: 1, img: "x", title: "𝕏", url: "https://x.com/NeverCapAI" },
+  {
+    id: 2,
+    img: "y",
+    url: "https://youtube.com/@nevercapai?si=epXfwXyqKYHxB_1Z"
+  },
+  {
+    id: 3,
+    img: "o",
+    url: "https://www.instagram.com/nevercap.ai?igsh=MTJxNGlwamNycm9tcA%3D%3D&utm_source=qr"
+  },
   {
     id: 4,
     img: "t",
-    url: "https://www.tiktok.com/@scribify.ai?is_from_webapp=1&sender_device=pc"
+    url: "https://www.tiktok.com/@nevercap.ai?is_from_webapp=1&sender_device=pc"
   }
+  // { id: 1, img: "x", title: "𝕏", url: "https://x.com/scribify_ai" },
+  // { id: 2, img: "y", url: "https://www.youtube.com/@aiscribify" },
+  // { id: 3, img: "o", url: "https://www.instagram.com/scribifyai/" },
+  // {
+  //   id: 4,
+  //   img: "t",
+  //   url: "https://www.tiktok.com/@scribify.ai?is_from_webapp=1&sender_device=pc"
+  // }
   // { id: 5, img: "p", url: "https://www.producthunt.com/@scribify" }
   // { id: 6, img: "i", url: "https://www.linkedin.com/in/scribify-marcus" }
 ]);

@@ -10,7 +10,8 @@
           <h1 class="">
             <span class="title-line me-2">{{
               t("UseCases.Educators.heroTitle1")
-            }}</span> <br class="sm:hidden block" />
+            }}</span>
+            <br class="block sm:hidden" />
             <span
               style="
                 background: var(--text-gradient);
@@ -40,7 +41,10 @@
             </span>
           </div>
           <transition name="slide-fade">
-            <howToDownload v-if="showHowToDownload"></howToDownload>
+            <howToDownload
+              src="/assets/video/Watch Demo.mp4"
+              v-if="showHowToDownload"
+            ></howToDownload>
           </transition>
         </div>
       </div>
@@ -687,7 +691,7 @@
             <el-avatar
               :size="56"
               :src="`/assets/images/index/users/Sophia Martinez.png`"
-              class="me-3 object-cover flex-shrink-0"
+              class="me-3 flex-shrink-0 object-cover"
             />
             <div class="author-info">
               <div class="author-name">

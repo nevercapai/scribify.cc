@@ -17,9 +17,18 @@
 <script setup lang="ts">
 /* videoDown 组件 */
 import { ref } from "vue";
+const { src } = defineProps({
+  src: {
+    type: String,
+    default: ""
+  }
+});
 
 // 使用响应式数据管理视频路径
-const videoSrc = ref("/assets/images/downloadMp4/howToDownload.mp4");
+let videoSrc = ref("/assets/images/downloadMp4/howToDownload.mp4");
+if (src) {
+  videoSrc.value = src;
+}
 </script>
 
 <style scoped>

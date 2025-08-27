@@ -73,6 +73,9 @@
 ./public/assets/iconfont/demo.css
 ./public/assets/iconfont/iconfont.woff2
 ./public/assets/iconfont/demo_index.html
+./public/assets/video
+./public/assets/video/See How It Works.mp4
+./public/assets/video/Watch Demo.mp4
 ./public/assets/upload
 ./public/assets/upload/spark-md5.min.js
 ./public/assets/upload/md5.worker.js

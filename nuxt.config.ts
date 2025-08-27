@@ -104,7 +104,6 @@ export default defineNuxtConfig({
       baseUrl: process.env.NUXT_PUBLIC_BASE_URL,
       jumpUrl: process.env.NUXT_JUPM_BASE_URL,
       cookieDomain: process.env.NUXT_COOKIE_DOMAIN,
-      pdomain: process.env.NUXT_PUBLIC_DOMAIN,
       gtagId: process.env.NUXT_PUBLIC_GTAG_ID,
       googleClientId: process.env.NUXT_PUBLIC_GOOGLE_CLIENT_ID,
       stripe: {

@@ -1,4 +1,4 @@
-import { type NuxtI18nOptions, type LocaleObject } from '@nuxtjs/i18n'
+import { type NuxtI18nOptions, type LocaleObject } from "@nuxtjs/i18n";
 import { type LocaleKey } from "~/i18n/index";
 let i18nLocales = [
   { code: "en-US", name: "English" },
@@ -25,7 +25,7 @@ let i18nLocales = [
   { code: "he-IL", name: "עברית" },
   { code: "ar-SA", name: "بالعربية" }
 ];
-const isDev = process.env.NODE_ENV === 'development'
+const isDev = process.env.NODE_ENV === "development";
 if (isDev) {
   // i18nLocales = [
   //   { code: 'en-US', name: "English" },
@@ -34,50 +34,30 @@ if (isDev) {
 }
 
 const getTopDomain = (): string => {
-  // 开发环境返回 localhost
-  if (process.env.NODE_ENV === 'development') {
-    // ip地址手动改
-    return 'localhost'
-  }
-
-  // const config = useRuntimeConfig();
-  const redirectUrl = process.env.NUXT_JUPM_BASE_URL as string;
-
-  if (redirectUrl) {
-    const domain = redirectUrl.split('//')[1]
-    const parts = domain.split('.')
-    if (parts.length >= 2) {
-      // 取最后两段作为顶级域名
-      return parts.slice(-2).join('.')
-    }
-    return `.${domain}`
-  }
-
-  console.error('NUXT_JUPM_BASE_URL 未配置')
-  return ''
-}
+  return process.env.NUXT_COOKIE_DOMAIN as string;
+};
 
 const i18nConfig: NuxtI18nOptions = {
-  strategy: 'prefix_except_default',
+  strategy: "prefix_except_default",
   lazy: true,
-  langDir: 'lang',
+  langDir: "lang",
   locales: i18nLocales.map(({ code, name }) => ({
     code,
     name,
     file: `${code}.ts`
   })) as LocaleObject<LocaleKey>[],
   defaultLocale: i18nLocales[0].code as LocaleKey,
-  vueI18n: '~/i18n/i18n.config.ts',
+  vueI18n: "~/i18n/i18n.config.ts",
   bundle: {
     optimizeTranslationDirective: !isDev
   },
   detectBrowserLanguage: {
     useCookie: true,
-    cookieKey: 'i18n_localLanguage',
+    cookieKey: "i18n_localLanguage",
     fallbackLocale: i18nLocales[0].code as LocaleKey,
-    redirectOn: 'root',
+    redirectOn: "root",
     cookieDomain: getTopDomain(),
     cookieSecure: process.env.NODE_ENV !== "development"
   }
-}
-export default i18nConfig
+};
+export default i18nConfig;

@@ -29,6 +29,10 @@ export const useCrossDomainCookie = <T = string>(
   // 如果启用跨域，设置domain
   if (options.crossDomain !== false) {
     defaultOptions.domain = getTopDomain();
+
+    if (!defaultOptions.domain) {
+      throw new Error("请在nuxt.config.ts中配置cookieDomain");
+    }
   }
 
   return useCookie<T>(name, defaultOptions);

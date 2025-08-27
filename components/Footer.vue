@@ -78,17 +78,17 @@ const sociaIconList = ref([
   {
     id: 2,
     img: "y",
-    url: "https://youtube.com/@nevercapai?si=epXfwXyqKYHxB_1Z"
+    url: "https://youtube.com/@nevercapai"
   },
   {
     id: 3,
     img: "o",
-    url: "https://www.instagram.com/nevercap.ai?igsh=MTJxNGlwamNycm9tcA%3D%3D&utm_source=qr"
+    url: "https://www.instagram.com/nevercap.ai"
   },
   {
     id: 4,
     img: "t",
-    url: "https://www.tiktok.com/@nevercap.ai?is_from_webapp=1&sender_device=pc"
+    url: "https://www.tiktok.com/@nevercap.ai"
   }
   // { id: 1, img: "x", title: "𝕏", url: "https://x.com/scribify_ai" },
   // { id: 2, img: "y", url: "https://www.youtube.com/@aiscribify" },

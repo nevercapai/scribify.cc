@@ -12,7 +12,9 @@ export const useCrossDomainCookie = <T = string>(
   // 获取顶级域名
   const getTopDomain = (): string => {
     const config = useRuntimeConfig();
-    return config.public.cookieDomain as string;
+    const cookieDomain = config.public.cookieDomain as string;
+    console.log("🚀 ~ 获取到的domain 🚀", cookieDomain);
+    return cookieDomain;
   };
 
   // 默认配置

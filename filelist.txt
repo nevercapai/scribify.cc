@@ -349,6 +349,7 @@
 ./api/user.ts
 ./api/youtubeTomp4.ts
 ./.gitignore
+./.env
 ./.prettierrc.cjs
 ./utils
 ./utils/importWithRetry.js

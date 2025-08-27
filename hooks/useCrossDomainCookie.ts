@@ -13,11 +13,7 @@ export const useCrossDomainCookie = <T = string>(
   const getTopDomain = (): string => {
     const config = useRuntimeConfig();
     const cookieDomain = config.public.cookieDomain as string;
-    console.log(
-      "🚀 ~ 获取到的domain 12 🚀",
-      cookieDomain,
-      config.public.pdomain
-    );
+    console.log("🚀 ~ 获取到的domain 666 🚀", cookieDomain);
     return "." + cookieDomain;
   };
 

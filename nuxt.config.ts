@@ -10,23 +10,23 @@ export default defineNuxtConfig({
   appConfig: {
     // useAppConfig 获取
     title:
-      "Transcribe Meetings & Audio: Speaker Identification, Translate, Share | 100+ Languages - Scribify",
+      "Transcribe Meetings & Audio: Speaker Identification, Translate, Share | 100+ Languages - Nevercap",
     version: "1.0.0"
   },
   app: {
     head: {
       title:
-        "Transcribe Meetings & Audio: Speaker Identification, Translate, Share | 100+ Languages - Scribify",
+        "Transcribe Meetings & Audio: Speaker Identification, Translate, Share | 100+ Languages - Nevercap",
       meta: [
         {
           name: "description",
           content:
-            "Scribify converts speech (meetings, interviews, videos, podcasts) into searchable, translatable, shareable transcripts. Identify speakers automatically, generate subtitles, & break language barriers in 100+ languages. Try Free!"
+            "Nevercap converts speech (meetings, interviews, videos, podcasts) into searchable, translatable, shareable transcripts. Identify speakers automatically, generate subtitles, & break language barriers in 100+ languages. Try Free!"
         },
         {
           name: "keywords",
           content:
-            "Scribify, audio to text, transcription service, speaker diarization, meeting transcription, speech to text 100+ languages, transcribe meetings with multiple speakers, best transcription service for interviews"
+            "Nevercap, audio to text, transcription service, speaker diarization, meeting transcription, speech to text 100+ languages, transcribe meetings with multiple speakers, best transcription service for interviews"
         },
         {
           name: "format-detection",

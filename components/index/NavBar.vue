@@ -15,7 +15,7 @@
       >
         <NuxtImg
           src="/assets/images/index_black/logo.svg"
-          alt="Scribify Logo"
+          alt="Nevercap Logo"
           class="h-6 w-auto sm:h-[1.875rem]"
           fit="contain"
           loading="eager"

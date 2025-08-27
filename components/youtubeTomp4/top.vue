@@ -6,7 +6,7 @@
     <div class="flex cursor-pointer items-center space-x-2" @click="goToHome()">
       <NuxtImg
         src="/assets/logo3.png"
-        alt="Scribify Logo"
+        alt="Nevercap Logo"
         class="h-6 w-auto sm:h-[1.875rem]"
         fit="contain"
         loading="eager"

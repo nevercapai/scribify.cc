@@ -287,10 +287,10 @@ const getFileNameWithoutExt = (fileName: string) => {
 const handleTranscribe = async () => {
   if (disabled.value) return;
   if (transcribing.value) return;
-  if (diarizeEnabled.value && isTimeOver3h.value) {
-    showSpeakerModal.value = true;
-    return;
-  }
+  // if (diarizeEnabled.value && isTimeOver3h.value) {
+  //   showSpeakerModal.value = true;
+  //   return;
+  // }
   transcribing.value = true;
   await guestLogin();
   await fetchSubscript();

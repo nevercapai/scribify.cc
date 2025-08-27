@@ -77,9 +77,10 @@ const { isFreeUser } = storeToRefs(useSubscriptionStore());
 
 const { fileTypes } = storeToRefs(useUploadStore());
 const { updateSelectRawFiles } = useUploadStore();
-const accept = computed(() =>
-  fileTypes.value.map((type) => `.${type}`).join(", ")
-);
+const accept = computed(() => {
+  const type = fileTypes.value.map((type) => `.${type}`).join(", ")
+  return `${type}, .mpg`
+});
 
 const handleFileChange = async (uploadFile) => {
   await beforeUpload(uploadFile.raw);

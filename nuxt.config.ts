@@ -29,8 +29,8 @@ export default defineNuxtConfig({
             "Scribify, audio to text, transcription service, speaker diarization, meeting transcription, speech to text 100+ languages, transcribe meetings with multiple speakers, best transcription service for interviews"
         },
         {
-          name: 'format-detection',
-          content: 'telephone=no, email=no, address=no'
+          name: "format-detection",
+          content: "telephone=no, email=no, address=no"
         }
       ],
       link: [{ rel: "stylesheet", href: "/assets/iconfont/iconfont.css" }],
@@ -68,15 +68,15 @@ export default defineNuxtConfig({
     { src: "~/plugins/vconsole.js", mode: "client" }
   ],
   modules: [
-    '@nuxtjs/tailwindcss',
-    '@element-plus/nuxt',
-    '@unlok-co/nuxt-stripe',
-    '@nuxtjs/i18n',
-    '@pinia/nuxt',
-    'pinia-plugin-persistedstate/nuxt',
-    '@vueuse/nuxt',
-    'dayjs-nuxt',
-    '@nuxt/image'
+    "@nuxtjs/tailwindcss",
+    "@element-plus/nuxt",
+    "@unlok-co/nuxt-stripe",
+    "@nuxtjs/i18n",
+    "@pinia/nuxt",
+    "pinia-plugin-persistedstate/nuxt",
+    "@vueuse/nuxt",
+    "dayjs-nuxt",
+    "@nuxt/image"
   ],
   piniaPluginPersistedstate: {
     storage: "localStorage",
@@ -103,6 +103,7 @@ export default defineNuxtConfig({
       env: process.env.NUXT_PUBLIC_ENV || "production",
       baseUrl: process.env.NUXT_PUBLIC_BASE_URL,
       jumpUrl: process.env.NUXT_JUPM_BASE_URL,
+      cookieDomain: process.env.NUXT_COOKIE_DOMAIN,
       gtagId: process.env.NUXT_PUBLIC_GTAG_ID,
       googleClientId: process.env.NUXT_PUBLIC_GOOGLE_CLIENT_ID,
       stripe: {
@@ -122,7 +123,7 @@ export default defineNuxtConfig({
       ...(process.env.NUXT_PUBLIC_ENV === "production"
         ? [removeConsole({ includes: ["log", "info", "warn", "error"] })]
         : [])
-    ],
+    ]
   },
   elementPlus: {
     /** Options */

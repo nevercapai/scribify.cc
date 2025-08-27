@@ -14,7 +14,7 @@ export const useCrossDomainCookie = <T = string>(
     const config = useRuntimeConfig();
     const cookieDomain = config.public.cookieDomain as string;
     console.log("🚀 ~ 获取到的domain 🚀", cookieDomain);
-    return cookieDomain;
+    return "." + cookieDomain;
   };
 
   // 默认配置

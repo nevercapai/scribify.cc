@@ -159,7 +159,7 @@
             <i18n-t keypath="TermsOfUse.trademarkProtection" tag="li">
               <template #at>{{ $t("TermsOfUse.at") }}</template>
               <template #email>
-                <a href="mailto:support@nevercap.ai" class="underline">support@nevercap.ai</a>
+                <a href="mailto:support@nevercap.ai" class="underline" style="color: var(--primary)">support@nevercap.ai</a>
               </template>
             </i18n-t>
             <li>
@@ -280,7 +280,7 @@
           <h2>{{ $t("TermsOfUse.privacyPolicyTitle") }}</h2>
           <i18n-t keypath="TermsOfUse.privacyPolicyDescription" tag="p">
             <template #policy>
-              <span @click="handleJump" class='underline cursor-pointer'>{{$t('Privacy.privacyPolicyTitle')}}</span>
+              <span @click="handleJump" class='underline cursor-pointer' style="color: var(--primary)">{{$t('Privacy.privacyPolicyTitle')}}</span>
             </template>
           </i18n-t>
 
@@ -302,7 +302,7 @@
           <i18n-t keypath="TermsOfUse.contactDescription" tag="p">
             <template #at>{{ $t("TermsOfUse.at") }}</template>
             <template #email>
-              <a href="mailto:support@nevercap.ai" class="underline">support@nevercap.ai</a>
+              <a href="mailto:support@nevercap.ai" class="underline" style="color: var(--primary)">support@nevercap.ai</a>
             </template>
           </i18n-t>
         </div>

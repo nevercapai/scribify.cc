@@ -34,7 +34,7 @@
 
           <i18n-t keypath="Privacy.policyDescription" tag="p">
             <template #url>
-              <a href="https://www.nevercap.ai/" target="_blank" class="underline">https://www.nevercap.ai/</a>
+              <a href="https://www.nevercap.ai/" target="_blank" class="underline" style="color: var(--primary)">https://www.nevercap.ai/</a>
             </template>
           </i18n-t>
 
@@ -132,7 +132,7 @@
           <i18n-t keypath="Privacy.childrenDescription" tag="p">
             <template #at>{{$t('Privacy.at')}}</template>
             <template #email>
-              <a href="mailto:support@nevercap.ai" class="underline">support@nevercap.ai</a>
+              <a href="mailto:support@nevercap.ai" class="underline" style="color: var(--primary)">support@nevercap.ai</a>
             </template>
           </i18n-t>
 
@@ -145,7 +145,7 @@
           <i18n-t keypath="Privacy.contactDescription" tag="p">
             <template #at>{{$t('Privacy.at')}}</template>
             <template #email>
-              <a href="mailto:support@nevercap.ai" class="underline">support@nevercap.ai</a>
+              <a href="mailto:support@nevercap.ai" class="underline" style="color: var(--primary)">support@nevercap.ai</a>
             </template>
           </i18n-t>
         </div>

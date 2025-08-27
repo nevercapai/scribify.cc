@@ -337,7 +337,13 @@ const acitveIdLevel2 = computed(() => {
 const router = useRouter();
 provide("showLoginBtn", false);
 const localePath = useLocalePath();
+const { userInfo } = storeToRefs(useUserStore());
+const { $mitt } = useNuxtApp();
 const goToHome = () => {
+  if (userInfo.value?.userInfoVO && (route.path.includes('terms-of-use') || route.path.includes('privacy'))) {
+    $mitt.emit("goToEvent", { path: "/" });
+    return
+  }
   router.push({
     path: localePath("/")
   });

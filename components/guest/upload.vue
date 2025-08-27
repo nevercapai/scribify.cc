@@ -196,7 +196,7 @@ const { getVisitorId, visitorId } = useVisitor();
 const isTimeOver3h = computed(() => {
   // todo 要改
   const h = formattedTime.value
-    ? parseInt(formattedTime.value?.split(":")?.[1]) || 0
+    ? parseInt(formattedTime.value?.split(":")?.[0]) || 0
     : 0;
   return h >= 3;
 });

@@ -132,7 +132,7 @@ dayjs.extend(utc);
 dayjs.tz.guess();
 // 最大录音时间（10小时）
 // todo 要改
-const MAX_RECORDING_TIME = 1 * 60 * 60; // 10小时，单位秒 * 60 * 60
+const MAX_RECORDING_TIME = 10 * 60 * 60; // 10小时，单位秒 * 60 * 60
 
 const options = computed(() => ({
   height: 20,

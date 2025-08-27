@@ -186,13 +186,13 @@ const { selectRawFiles } = storeToRefs(useUploadStore());
 
 const showLinkDialog = ref(false);
 const showRecordDialog = ref(false);
-const { tableData, diarizeEnabled, lang } = storeToRefs(useGuestUploadStore())
+const { tableData, diarizeEnabled, lang, formattedTime, tempInfo, transcribing } = storeToRefs(useGuestUploadStore())
+const { handleJumpHome } = useGuestUploadStore()
 const { initUpload, removeFile, createFileObject } = useUpload();
 const { userInfo } = storeToRefs(useUserStore());
 const { setUserInfo } = useUserStore();
 const { getVisitorId, visitorId } = useVisitor();
 
-const formattedTime = ref("");
 const isTimeOver3h = computed(() => {
   // todo 要改
   const h = formattedTime.value
@@ -221,7 +221,6 @@ watchEffect(async () => {
   }
 });
 
-const tempInfo = ref<any>(null);
 const guestLogin = async () => {
   const token = useCrossDomainCookie("token");
   if (!token.value) {
@@ -241,16 +240,6 @@ const guestLogin = async () => {
   }
 };
 
-const setLoginData = () => {
-  if (userInfo.value?.userInfoVO) {
-    return;
-  }
-  const userInfoCookie = useCrossDomainCookie("userInfoFromMain");
-  userInfoCookie.value = JSON.stringify(tempInfo.value);
-  const userInfoEmailCookie = useCrossDomainCookie("userInfoEmail");
-  userInfoEmailCookie.value = tempInfo.value?.userInfoVO?.email || "";
-  setUserInfo(tempInfo.value);
-};
 
 const { handleConfirm, link } = useLink();
 const linkLoading = ref(false);
@@ -290,23 +279,10 @@ const handleRemove = async (row: UploadFile, index: number) => {
   await removeFile(row, tableData);
 };
 
-const transcribing = ref(false);
-
-const { $mitt } = useNuxtApp();
 
 const getFileNameWithoutExt = (fileName: string) => {
   const lastDotIndex = fileName.lastIndexOf(".");
   return lastDotIndex === -1 ? fileName : fileName.substring(0, lastDotIndex);
-};
-const handleJumpHome = () => {
-  if (isNoTimes.value) {
-    const noTimes = useCrossDomainCookie("noTimes");
-    noTimes.value = "1";
-  }
-  setLoginData();
-  setTimeout(() => {
-    $mitt.emit("goToEvent", { path: `/?wt=${Date.now()}` });
-  }, 500);
 };
 const handleTranscribe = async () => {
   if (disabled.value) return;

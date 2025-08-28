@@ -68,11 +68,11 @@ const LanguageFixRoute = computed(() => {
 
 const { ipapiCo } = useIPLanguage();
 /**languageInitStatus = { '第一次打开': '没值', '手动切换过': 'changed', }**/
-const languageInitStatus = window?.localStorage?.getItem("languageInitStatus");
-if (!languageInitStatus && !LanguageFixRoute.value) {
+const languageInitStatus = useCrossDomainCookie("languageInitStatus");
+if (!languageInitStatus.value && !LanguageFixRoute.value) {
   ipapiCo().then((ipInfo) => {
     // 有时间差。如果这个时候languageInitStatus有值说明请求过程中切换过语言，那么就不设置默认语言了
-    if (!languageInitStatus) {
+    if (!languageInitStatus.value) {
       // 判断ipInfo.language是否在i18n[LocaleLangs]里面
       let langArr: { code: string; name?: string }[] = [];
       let langSplitArr: { code: string; name?: string }[] = [];
@@ -153,7 +153,8 @@ onMounted(async () => {
 const popoverRef = ref();
 // 切换语言方法
 const switchLanguage = async (newLocale: any) => {
-  window?.localStorage?.setItem("languageInitStatus", "changed");
+  const languageInitStatus = useCrossDomainCookie("languageInitStatus");
+  languageInitStatus.value = "changed"; // 设置值
   activeLanguage.value = newLocale;
   locale.value = newLocale;
   unref(popoverRef)?.hide();

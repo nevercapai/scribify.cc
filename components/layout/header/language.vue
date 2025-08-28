@@ -153,7 +153,6 @@ onMounted(async () => {
 const popoverRef = ref();
 // 切换语言方法
 const switchLanguage = async (newLocale: any) => {
-  const languageInitStatus = useCrossDomainCookie("languageInitStatus");
   languageInitStatus.value = "changed"; // 设置值
   activeLanguage.value = newLocale;
   locale.value = newLocale;

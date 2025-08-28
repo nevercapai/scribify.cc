@@ -106,6 +106,7 @@ export default defineNuxtConfig({
       cookieDomain: process.env.NUXT_COOKIE_DOMAIN,
       gtagId: process.env.NUXT_PUBLIC_GTAG_ID,
       googleClientId: process.env.NUXT_PUBLIC_GOOGLE_CLIENT_ID,
+      cosDomain: process.env.NUXT_COS_DOMAIN,
       stripe: {
         key: process.env.NUXT_PUBLIC_STRIPE_PUBLISHABLE_KEY,
         options: {}

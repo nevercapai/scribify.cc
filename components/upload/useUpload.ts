@@ -130,7 +130,7 @@ export const useUpload = () => {
     //   file.progress = 100;
     //   return;
     // }
-
+    const config = useRuntimeConfig();
     return new Promise((resolve) => {
       file
         .cosInstance!.uploadFile({
@@ -141,6 +141,7 @@ export const useUpload = () => {
         ChunkSize: CHUNK_SIZE,
         AsyncLimit: 6,
         SliceSize: NOTNEEDCHUNK_SIZE,
+        domain: config.public.cosDomain || '',
         onTaskReady: (taskId) => {
           file.taskId = taskId;
         },

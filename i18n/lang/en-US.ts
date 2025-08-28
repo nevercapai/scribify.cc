@@ -550,7 +550,7 @@ let message = {
     Company: "Company",
     featureMenus: ["Unlimited Transcription", "Bulk Upload", "96% Accuracy"],
     useCaseMenus: ['All Use Cases', 'Podcasters', 'Journalists', 'Content Creators', 'Researchers', 'Business Teams', 'Educators'],
-    companyMenus: ['About', 'Pricing', 'Privacy', 'Terms']
+    companyMenus: ['About', 'Pricing', 'Privacy Policy', 'Terms of Service']
   },
   Index: {
     Hero: {

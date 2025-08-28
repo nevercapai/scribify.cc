@@ -19,8 +19,8 @@ interface WebhookUrl {
 
 export function useErrorReporting() {
   // 环境 host
-  const testingEnvHosts = ['localhost-', 'dev.scribify.ai', 'whisperx-dev.aihujing.com', 'scribify.cc'];
-  const productionEnvHosts = ['www.scribify.ai', 'scribify.ai'];
+  const testingEnvHosts = ['localhost-', 'scribify.cc', 'app.scribify.cc', 'nevercap.cc', 'app.nevercap.cc'];
+  const productionEnvHosts = ['nevercap.ai', 'app.nevercap.ai'];
 
   // webhook url
   const webhookUrl: WebhookUrl = {
@@ -54,7 +54,7 @@ export function useErrorReporting() {
     const webhook = getWebhookUrl(customData);
     if (!webhook) return;
     let params: Record<string, any> = {
-      访问服务: 'Scrify',
+      访问服务: 'Nevercap Web',
       页面地址: location.href,
       cardType1: 'hr',
       接口地址: url,

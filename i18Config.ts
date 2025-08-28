@@ -34,7 +34,7 @@ if (isDev) {
 }
 
 const getTopDomain = (): string => {
-  return process.env.NUXT_COOKIE_DOMAIN as string;
+  return "." + process.env.NUXT_COOKIE_DOMAIN as string;
 };
 
 const i18nConfig: NuxtI18nOptions = {

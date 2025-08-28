@@ -55,6 +55,24 @@
         <div class="footer-column">
           <h4>{{ $t("Footer.Company") }}</h4>
           <ul>
+            <!-- <li>
+              <a
+                href="https://nevercap.ai/privacy"
+                target="_blank"
+                class="underline"
+              >
+                privacy policy
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://nevercap.ai/terms-of-use"
+                target="_blank"
+                class="underline"
+              >
+                terms of service
+              </a>
+            </li> -->
             <li v-for="(menu, index) in companyMenus" :key="index">
               <router-link :to="$localePath(menu.link)" class="underline">
                 <!-- {{ menu.name }} -->

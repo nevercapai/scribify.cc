@@ -47,7 +47,9 @@ const initCosInstance = async (file: UploadFile) => {
   const bucket = auth.bucket;
   const region = auth.region;
   const allowedPath = auth.allowedPath;
+  const config = useRuntimeConfig();
   const instance = new COS({
+    Domain: config.public.cosDomain || '', // 自定义加速域名
     getAuthorization: async (options, callback) => {
       callback({
         TmpSecretId: auth.tmpSecretId,
@@ -130,7 +132,6 @@ export const useUpload = () => {
     //   file.progress = 100;
     //   return;
     // }
-    const config = useRuntimeConfig();
     return new Promise((resolve) => {
       file
         .cosInstance!.uploadFile({
@@ -141,7 +142,6 @@ export const useUpload = () => {
         ChunkSize: CHUNK_SIZE,
         AsyncLimit: 6,
         SliceSize: NOTNEEDCHUNK_SIZE,
-        domain: config.public.cosDomain || '',
         onTaskReady: (taskId) => {
           file.taskId = taskId;
         },

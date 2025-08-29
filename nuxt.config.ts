@@ -35,7 +35,7 @@ export default defineNuxtConfig({
       ],
       link: [
         { rel: "stylesheet", href: "/assets/iconfont/iconfont.css" },
-        { rel: "icon", type: "image/x-icon", href: "/public/favicon.ico" }
+        { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }
       ],
       script: [
         { src: "/assets/iconfont/iconfont.js" },

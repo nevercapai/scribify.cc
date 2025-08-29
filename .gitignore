@@ -21,6 +21,9 @@ logs
 .idea
 server
 
+public/robots.txt
+public/sitemap.xml
+
 # Local env files
 # .env
 # .env.*

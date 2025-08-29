@@ -9,9 +9,7 @@
 ./stores/useRecordStore.ts
 ./stores/useUserStore.ts
 ./public
-./public/sitemap.xml
 ./public/robots.txt
-./public/robots-app.txt
 ./public/pics
 ./public/pics/yt.png
 ./public/pics/company.png
@@ -19,8 +17,6 @@
 ./public/pics/ins.png
 ./public/packageVersion.json
 ./public/google3182f84a0857b54f.html
-./public/robots-dev.txt
-./public/robots-green.txt
 ./public/favicon.ico
 ./public/assets
 ./public/assets/img

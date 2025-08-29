@@ -50,6 +50,12 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   nitro: {
     // preset: 'vercel-static', // 强制 SSG 模式
+    routeRules: {
+      '/assets/**': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } },
+      '/pics/**': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } },
+      '/favicon.ico': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } },
+      '/_nuxt/**': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } }
+    },
     // 开发环境代理配置
     devProxy: {
       "/wapi": {

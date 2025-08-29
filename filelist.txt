@@ -11,10 +11,7 @@
 ./public
 ./public/robots.txt
 ./public/pics
-./public/pics/yt.png
 ./public/pics/company.png
-./public/pics/tiktok.png
-./public/pics/ins.png
 ./public/packageVersion.json
 ./public/google3182f84a0857b54f.html
 ./public/favicon.ico

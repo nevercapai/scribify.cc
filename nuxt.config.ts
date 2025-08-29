@@ -33,7 +33,10 @@ export default defineNuxtConfig({
           content: "telephone=no, email=no, address=no"
         }
       ],
-      link: [{ rel: "stylesheet", href: "/assets/iconfont/iconfont.css" }],
+      link: [
+        { rel: "stylesheet", href: "/assets/iconfont/iconfont.css" },
+        { rel: "icon", type: "image/x-icon", href: "/public/favicon.ico" }
+      ],
       script: [
         { src: "/assets/iconfont/iconfont.js" },
         { src: "/assets/js/aes.js" },

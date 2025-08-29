@@ -19,7 +19,7 @@ interface WebhookUrl {
 
 export function useErrorReporting() {
   // 环境 host
-  const testingEnvHosts = ['localhost-', 'scribify.cc', 'app.scribify.cc', 'nevercap.cc', 'app.nevercap.cc'];
+  const testingEnvHosts = ['localhost-', 'scribify.cc', 'app.scribify.cc', 'scribify.ai', 'app.scribify.ai'];
   const productionEnvHosts = ['nevercap.ai', 'app.nevercap.ai'];
 
   // webhook url

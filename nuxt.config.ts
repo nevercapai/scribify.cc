@@ -132,6 +132,14 @@ export default defineNuxtConfig({
   elementPlus: {
     /** Options */
     importStyle: "scss",
-    cache: true
+    cache: true,
+    // 启用 RTL 支持
+    rtl: {
+      enable: true,
+      resolveRTL: (locale) => {
+        // 支持阿拉伯语和希伯来语的 RTL
+        return ['ar-SA', 'he-IL'].includes(locale);
+      }
+    }
   }
 });

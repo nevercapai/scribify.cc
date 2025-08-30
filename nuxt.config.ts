@@ -75,17 +75,17 @@ export default defineNuxtConfig({
   plugins: [
     { src: "~/plugins/gtag.js", mode: "client" },
     { src: "~/plugins/global-error.js", mode: "client" },
-    { src: "~/plugins/vconsole.js", mode: "client" }
+    // 仅在开发环境加载调试工具
+    ...(process.env.NODE_ENV !== 'production' ? [{ src: "~/plugins/vconsole.js", mode: "client" as const }] : [])
+    // { src: "~/plugins/vconsole.js", mode: "client" }
   ],
   modules: [
     "@nuxtjs/tailwindcss",
     "@element-plus/nuxt",
-    "@unlok-co/nuxt-stripe",
     "@nuxtjs/i18n",
     "@pinia/nuxt",
     "pinia-plugin-persistedstate/nuxt",
     "@vueuse/nuxt",
-    "dayjs-nuxt",
     "@nuxt/image"
   ],
   piniaPluginPersistedstate: {
@@ -102,10 +102,6 @@ export default defineNuxtConfig({
     // Server
     name: "NeverCap",
     environment: process.env.NODE_ENV || "production",
-    stripe: {
-      key: process.env.NUXT_STRIPE_SECRET_KEY,
-      options: {}
-    },
     // ipinfo 获取Ip信息
     ipinfoToken: process.env.IPINFO_TOKEN,
     //public中定义的属性既可以在服务端，也可以在客户端获取到
@@ -117,10 +113,6 @@ export default defineNuxtConfig({
       gtagId: process.env.NUXT_PUBLIC_GTAG_ID,
       googleClientId: process.env.NUXT_PUBLIC_GOOGLE_CLIENT_ID,
       cosDomain: process.env.NUXT_COS_DOMAIN,
-      stripe: {
-        key: process.env.NUXT_PUBLIC_STRIPE_PUBLISHABLE_KEY,
-        options: {}
-      }
     }
   },
   devServer: {

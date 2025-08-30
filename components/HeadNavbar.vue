@@ -229,7 +229,7 @@ watchEffect(() => {
   }
 });
 
-let menuList = ref([
+const menuList = computed(() => [
   {
     name: t("HeadNavbar.Features"),
     key: "/features",
@@ -340,9 +340,12 @@ const localePath = useLocalePath();
 const { userInfo } = storeToRefs(useUserStore());
 const { $mitt } = useNuxtApp();
 const goToHome = () => {
-  if (userInfo.value?.userInfoVO && (route.path.includes('terms-of-use') || route.path.includes('privacy'))) {
+  if (
+    userInfo.value?.userInfoVO &&
+    (route.path.includes("terms-of-use") || route.path.includes("privacy"))
+  ) {
     $mitt.emit("goToEvent", { path: "/" });
-    return
+    return;
   }
   router.push({
     path: localePath("/")

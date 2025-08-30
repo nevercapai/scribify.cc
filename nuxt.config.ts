@@ -86,6 +86,7 @@ export default defineNuxtConfig({
     "@pinia/nuxt",
     "pinia-plugin-persistedstate/nuxt",
     "@vueuse/nuxt",
+    "dayjs-nuxt",
     "@nuxt/image"
   ],
   piniaPluginPersistedstate: {

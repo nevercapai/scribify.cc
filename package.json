@@ -51,6 +51,7 @@
     "@vueuse/core": "^13.3.0",
     "@vueuse/nuxt": "^13.3.0",
     "core-js": "^3.42.0",
+    "dayjs-nuxt": "^2.1.11",
     "dotenv-cli": "^8.0.0",
     "postcss": "^8.5.1",
     "prettier": "^3.6.0",

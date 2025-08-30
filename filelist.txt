@@ -12,6 +12,12 @@
 ./public/robots.txt
 ./public/pics
 ./public/pics/company.png
+./public/pics/speaker-detection.png
+./public/pics/app-screenshot.png
+./public/pics/nevercap-logo.png
+./public/pics/batch-upload.png
+./public/pics/transcription-demo.png
+./public/pics/nevercap-pricing.png
 ./public/packageVersion.json
 ./public/google3182f84a0857b54f.html
 ./public/favicon.ico

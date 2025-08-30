@@ -38,9 +38,10 @@ export default defineNuxtConfig({
         { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }
       ],
       script: [
-        { src: "/assets/iconfont/iconfont.js" },
-        { src: "/assets/js/aes.js" },
-        { src: "/assets/js/jsencrypt.js" }
+        // 使用 defer 延迟执行非关键脚本，不阻塞 DOM 解析
+        { src: "/assets/iconfont/iconfont.js", defer: true },
+        { src: "/assets/js/aes.js", defer: true },
+        { src: "/assets/js/jsencrypt.js", defer: true }
       ]
     }
   },

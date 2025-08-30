@@ -316,7 +316,7 @@
                   {{ $i("Testimonials.Sarah.author") }}
                 </div>
                 <div class="author-role">
-                  {{ $i("Testimonials.Sarah.role") }}r
+                  {{ $i("Testimonials.Sarah.role") }}
                 </div>
               </div>
             </div>

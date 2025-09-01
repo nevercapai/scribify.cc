@@ -1,159 +1,111 @@
-// plugins/global-error.js
 import { useErrorReporting } from "~/utils/fsReport";
 import { getObjType } from "~/utils/tools";
-
-// 限制递归深度
-const MAX_RECURSION_DEPTH = 2;
-
-// 需要忽略的错误源列表
-const IGNORED_ERROR_SOURCES = ["https://accounts.google.com/gsi/client"];
-
-// 缓存已处理的错误，避免重复上报
-const reportedErrors = new Set();
-
-// 生成错误唯一标识
-const getErrorSignature = (error) => {
-  if (error instanceof Error) {
-    return `${error.name}:${error.message}:${error.stack}`;
-  }
-  return JSON.stringify(error);
-};
-
 const getParams = (event) => {
-  const eventProps = {};
-
+  // 获取所有属性，包括不可枚举和继承属性
   function getAllProperties(obj) {
     const props = new Set();
     let currentObj = obj;
-    let level = 0;
-
-    while (currentObj && level < MAX_RECURSION_DEPTH) {
+    while (currentObj) {
       Object.getOwnPropertyNames(currentObj).forEach((prop) => props.add(prop));
       currentObj = Object.getPrototypeOf(currentObj);
-      level++;
     }
     return Array.from(props);
   }
-
   function setEventProps(event, level, pre = "") {
-    if (level > MAX_RECURSION_DEPTH || !event) {
+    if (level > 3) {
       return;
     }
-
-    const allProps = getAllProperties(event);
+    level++;
+    const allProps = getAllProperties(event); // 获取事件对象的所有属性
     allProps.forEach((key) => {
+      let value = event[key];
+      let type = getObjType(value);
       try {
-        const value = event[key];
-        const type = getObjType(value);
-
         if (["String", "Error"].includes(type) && (value || value === 0)) {
           if (isNaN(key / 1)) {
-            const fullKey = pre ? `${pre}.${key}` : key;
-            eventProps[fullKey] = JSON.stringify(value);
+            if (!eventProps[key]) {
+              eventProps[key] = JSON.stringify(value);
+            } else {
+              if (eventProps[key] !== JSON.stringify(value)) {
+                eventProps[`${pre}.${key}`] = JSON.stringify(value);
+              }
+            }
           }
-        } else if (
-          ["HTMLScriptElement", "Object"].includes(type) &&
-          value !== null
-        ) {
-          setEventProps(value, level + 1, key);
+        } else if (["HTMLScriptElement"].includes(type)) {
+          setEventProps(value, level, key);
+        } else if (["Object"].includes(type)) {
+          setEventProps(value, level, key);
+        } else {
+          // todo NoThing ['Array', 'Function', 'Date', 'Boolean', 'RegExp', 'Undefined', 'Null']
         }
       } catch (e) {
         eventProps[key] = `[Error getting property ${key}]`;
       }
     });
   }
-
+  const eventProps = {};
   setEventProps(event, 1);
+
+  console.log("事件对象完整属性eventProps:", eventProps);
   return eventProps;
 };
-
 const { reportSystemError } = useErrorReporting();
-
 export default defineNuxtPlugin((nuxtApp) => {
   if (process.client) {
-    // 延迟初始化错误处理，确保不影响页面加载性能
-    onNuxtReady(() => {
-      // 资源加载错误处理
-      window.addEventListener(
-        "error",
-        (event) => {
-          try {
-            // 检查是否需要忽略该错误
-            if (
-              event?.target?.src &&
-              IGNORED_ERROR_SOURCES.some((source) =>
-                event.target.src.includes(source)
-              )
-            ) {
-              return;
-            }
+    window.addEventListener(
+      "error",
+      (event) => {
+        // 这里可以上报错误或自定义处理
+        let eventProps = getParams(event);
+        let obj = {
+          资源加载失败: JSON.stringify(event),
+          ...eventProps
+        };
 
-            const errorSignature = getErrorSignature(event);
-            if (reportedErrors.has(errorSignature)) {
-              return; // 避免重复上报
-            }
-            reportedErrors.add(errorSignature);
-
-            const eventProps = getParams(event);
-            const obj = {
-              资源加载失败: JSON.stringify(event),
-              ...eventProps
-            };
-
-            console.error("资源加载失败:", event, obj);
-            reportSystemError(obj);
-          } catch (e) {
-            console.error("资源加载失败处理异常:", e);
-          }
-        },
-        true
-      );
-
-      // 未捕获的Promise错误处理
-      window.addEventListener("unhandledrejection", (event) => {
+        const arr = ["https://accounts.google.com/gsi/client"];
+        if (obj?.src && arr.filter((item) => obj?.src?.includes(item)).length) {
+          return; // google 登录脚本加载错误，不上报。开代理后解决
+        }
+        console.error("资源加载失败:", event, obj);
         try {
-          const errorSignature = getErrorSignature(event.reason);
-          if (reportedErrors.has(errorSignature)) {
-            return; // 避免重复上报
-          }
-          reportedErrors.add(errorSignature);
-
-          const eventProps = getParams(event);
-          const obj = {
-            未捕获的Promise错误: JSON.stringify(event),
-            ...eventProps
-          };
-
-          console.error("未捕获的Promise错误:", event, obj);
           reportSystemError(obj);
         } catch (e) {
-          console.error("未捕获的Promise错误处理异常:", e);
+          console.error("资源加载失败 reportSystemError:", e);
         }
-      });
+      },
+      true
+    ); // 第三个参数 true 表示捕获阶段，可以捕获资源加载错误
+
+    window.addEventListener("unhandledrejection", (event) => {
+      // 处理未捕获的Promise错误
+      let eventProps = getParams(event);
+      let obj = {
+        未捕获的Promise错误: JSON.stringify(event),
+        ...eventProps
+      };
+      console.error("未捕获的Promise错误:", event, obj);
+      try {
+        reportSystemError(obj);
+      } catch (e) {
+        console.error("未捕获的Promise错误 reportSystemError:", e);
+      }
     });
   }
-
-  // Vue错误处理
   nuxtApp.vueApp.config.errorHandler = (err, vm, info) => {
+    // 这里可以上报错误
+
+    let errProps = getParams(err);
+    let infoProps = getParams(info);
+    let obj = {
+      Vue错误: JSON.stringify(err),
+      ...errProps,
+      ...infoProps
+    };
+    console.error("Vue错误:", err, info, obj);
     try {
-      const errorSignature = getErrorSignature(err);
-      if (reportedErrors.has(errorSignature)) {
-        return; // 避免重复上报
-      }
-      reportedErrors.add(errorSignature);
-
-      const errProps = getParams(err);
-      const infoProps = getParams(info);
-      const obj = {
-        Vue错误: JSON.stringify(err),
-        ...errProps,
-        ...infoProps
-      };
-
-      console.error("Vue错误:", err, info, obj);
       reportSystemError(obj);
     } catch (e) {
-      console.error("Vue错误处理异常:", e);
+      console.error("Vue错误 reportSystemError:", e);
     }
   };
 });

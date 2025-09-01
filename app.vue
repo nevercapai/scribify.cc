@@ -1,6 +1,8 @@
 <template>
   <el-config-provider
     :locale="localLang"
+    :dir="isRtl ? 'rtl' : 'ltr'"
+    :rtl="isRtl"
   >
     <NuxtPage />
 

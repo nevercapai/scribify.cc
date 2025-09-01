@@ -21,6 +21,7 @@
       <template #reference>
         <el-input
           class="customer-input"
+          aria-label="english"
           readonly
           :model-value="
             value.name ? t('TranscriptionPage.langChooseV1.' + value.name) : ''
@@ -165,8 +166,8 @@ const getRecentLang = async () => {
 
     if (props.lang?.id) {
       value.value = {
-        ...props.lang,
-      }
+        ...props.lang
+      };
       return;
     }
 
@@ -179,8 +180,8 @@ const getRecentLang = async () => {
     } else {
       if (props.lang?.id) {
         value.value = {
-          ...props.lang,
-        }
+          ...props.lang
+        };
         return;
       }
 

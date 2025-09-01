@@ -9,6 +9,7 @@
 ./stores/useRecordStore.ts
 ./stores/useUserStore.ts
 ./public
+./public/sitemap.xml
 ./public/robots.txt
 ./public/pics
 ./public/pics/company.png

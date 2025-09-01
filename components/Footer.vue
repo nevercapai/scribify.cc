@@ -21,12 +21,15 @@
               :href="item.url"
               target="_blank"
               class="inline-block"
+              :aria-label="item.title"
             >
-              <el-image
+              <NuxtImg
                 :src="`/assets/images/index/sociaIcon/${item.img}.png`"
                 class="h-[1.25rem] w-[1.25rem] rounded-md"
                 fit="contain"
-              ></el-image>
+                loading="lazy"
+                :alt="item.title"
+              ></NuxtImg>
             </a>
           </div>
         </div>
@@ -55,24 +58,6 @@
         <div class="footer-column">
           <h4>{{ $t("Footer.Company") }}</h4>
           <ul>
-            <!-- <li>
-              <a
-                href="https://nevercap.ai/privacy"
-                target="_blank"
-                class="underline"
-              >
-                privacy policy
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://nevercap.ai/terms-of-use"
-                target="_blank"
-                class="underline"
-              >
-                terms of service
-              </a>
-            </li> -->
             <li v-for="(menu, index) in companyMenus" :key="index">
               <router-link :to="$localePath(menu.link)" class="underline">
                 <!-- {{ menu.name }} -->
@@ -96,28 +81,21 @@ const sociaIconList = ref([
   {
     id: 2,
     img: "y",
+    title: "youtube",
     url: "https://youtube.com/@nevercapai"
   },
   {
     id: 3,
     img: "o",
+    title: "instagram",
     url: "https://www.instagram.com/nevercap.ai"
   },
   {
     id: 4,
     img: "t",
+    title: "tiktok",
     url: "https://www.tiktok.com/@nevercap.ai"
   }
-  // { id: 1, img: "x", title: "𝕏", url: "https://x.com/scribify_ai" },
-  // { id: 2, img: "y", url: "https://www.youtube.com/@aiscribify" },
-  // { id: 3, img: "o", url: "https://www.instagram.com/scribifyai/" },
-  // {
-  //   id: 4,
-  //   img: "t",
-  //   url: "https://www.tiktok.com/@scribify.ai?is_from_webapp=1&sender_device=pc"
-  // }
-  // { id: 5, img: "p", url: "https://www.producthunt.com/@scribify" }
-  // { id: 6, img: "i", url: "https://www.linkedin.com/in/scribify-marcus" }
 ]);
 let featureMenus = ref([
   {

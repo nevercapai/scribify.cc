@@ -18,7 +18,12 @@
             loading="eager"
           />
         </div>
-        <button class="mobile-menu-btn order-1" @click="toggleMobileMenu">
+        <button
+          class="mobile-menu-btn order-1"
+          @click="toggleMobileMenu"
+          id="mobile-menu-btn"
+          aria-label="toggleMenu"
+        >
           <svg
             width="24"
             height="24"
@@ -177,7 +182,9 @@
           </template>
         </div>
         <div class="index-right-wrap">
-          <layout-header-index-new :show-home-icon="false" />
+          <client-only>
+            <layout-header-index-new :show-home-icon="false" />
+          </client-only>
         </div>
       </div>
     </div>
@@ -229,7 +236,7 @@ watchEffect(() => {
   }
 });
 
-const menuList = computed(() => [
+let menuList = ref([
   {
     name: t("HeadNavbar.Features"),
     key: "/features",

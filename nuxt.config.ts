@@ -38,10 +38,9 @@ export default defineNuxtConfig({
         { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }
       ],
       script: [
-        // 使用 defer 延迟执行非关键脚本，不阻塞 DOM 解析
-        { src: "/assets/iconfont/iconfont.js", defer: true },
-        { src: "/assets/js/aes.js", defer: true },
-        { src: "/assets/js/jsencrypt.js", defer: true }
+        { src: "/assets/iconfont/iconfont.js" },
+        { src: "/assets/js/aes.js" },
+        { src: "/assets/js/jsencrypt.js" }
       ]
     }
   },
@@ -75,13 +74,12 @@ export default defineNuxtConfig({
   plugins: [
     { src: "~/plugins/gtag.js", mode: "client" },
     { src: "~/plugins/global-error.js", mode: "client" },
-    // 仅在开发环境加载调试工具
-    ...(process.env.NODE_ENV !== 'production' ? [{ src: "~/plugins/vconsole.js", mode: "client" as const }] : [])
-    // { src: "~/plugins/vconsole.js", mode: "client" }
+    { src: "~/plugins/vconsole.js", mode: "client" }
   ],
   modules: [
     "@nuxtjs/tailwindcss",
     "@element-plus/nuxt",
+    "@unlok-co/nuxt-stripe",
     "@nuxtjs/i18n",
     "@pinia/nuxt",
     "pinia-plugin-persistedstate/nuxt",
@@ -103,6 +101,10 @@ export default defineNuxtConfig({
     // Server
     name: "NeverCap",
     environment: process.env.NODE_ENV || "production",
+    stripe: {
+      key: process.env.NUXT_STRIPE_SECRET_KEY,
+      options: {}
+    },
     // ipinfo 获取Ip信息
     ipinfoToken: process.env.IPINFO_TOKEN,
     //public中定义的属性既可以在服务端，也可以在客户端获取到
@@ -114,6 +116,10 @@ export default defineNuxtConfig({
       gtagId: process.env.NUXT_PUBLIC_GTAG_ID,
       googleClientId: process.env.NUXT_PUBLIC_GOOGLE_CLIENT_ID,
       cosDomain: process.env.NUXT_COS_DOMAIN,
+      stripe: {
+        key: process.env.NUXT_PUBLIC_STRIPE_PUBLISHABLE_KEY,
+        options: {}
+      }
     }
   },
   devServer: {
@@ -132,14 +138,6 @@ export default defineNuxtConfig({
   elementPlus: {
     /** Options */
     importStyle: "scss",
-    cache: true,
-    // 启用 RTL 支持
-    rtl: {
-      enable: true,
-      resolveRTL: (locale) => {
-        // 支持阿拉伯语和希伯来语的 RTL
-        return ['ar-SA', 'he-IL'].includes(locale);
-      }
-    }
+    cache: true
   }
 });

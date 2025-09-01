@@ -41,6 +41,7 @@
                   src="/assets/img/index/Unlimited.png"
                   class="relative top-[2px] me-[5px] h-[1rem] w-[1rem] rounded-md"
                   fit="contain"
+                  :alt="$i('Hero.Unlimited')"
                 ></el-image>
                 {{ $i("Hero.Unlimited") }}
               </span>
@@ -49,6 +50,7 @@
                   src="/assets/img/index/NoCap.png"
                   class="relative top-[2px] me-[5px] h-[1rem] w-[1rem] rounded-md"
                   fit="contain"
+                  :alt="$i('Hero.NoCap')"
                 ></el-image>
                 {{ $i("Hero.NoCap") }}
               </span>
@@ -57,6 +59,7 @@
                   src="/assets/img/index/Hour.png"
                   class="relative top-[2px] me-[5px] h-[1rem] w-[1rem] rounded-md"
                   fit="contain"
+                  :alt="$i('Hero.Hour')"
                 ></el-image>
                 {{ $i("Hero.Hour") }}
               </span>
@@ -131,11 +134,13 @@
         <div class="features-grid">
           <div class="feature-card">
             <div class="feature-icon">
-              <el-image
+              <NuxtImg
                 src="/assets/img/index/Original/Unlimited.svg"
                 class="no-drag h-[1.875rem] w-[1.875rem]"
                 fit="contain"
-              ></el-image>
+                :alt="$i('FeaturesGrid.feat_unltd')"
+                loading="lazy"
+              ></NuxtImg>
             </div>
             <h3 class="feature-title">
               {{ $i("FeaturesGrid.feat_unltd") }}
@@ -146,11 +151,13 @@
           </div>
           <div class="feature-card">
             <div class="feature-icon">
-              <el-image
+              <NuxtImg
                 src="/assets/img/index/Original/Bulk.svg"
                 class="no-drag h-[1.875rem] w-[1.875rem]"
                 fit="contain"
-              ></el-image>
+                :alt="$i('FeaturesGrid.feat_bulk')"
+                loading="lazy"
+              ></NuxtImg>
             </div>
             <h3 class="feature-title">
               {{ $i("FeaturesGrid.feat_bulk") }}
@@ -161,11 +168,13 @@
           </div>
           <div class="feature-card">
             <div class="feature-icon">
-              <el-image
+              <NuxtImg
                 src="/assets/img/index/Original/Batch.svg"
                 class="no-drag h-[1.875rem] w-[1.875rem]"
                 fit="contain"
-              ></el-image>
+                :alt="$i('FeaturesGrid.feat_batch')"
+                loading="lazy"
+              ></NuxtImg>
             </div>
             <h3 class="feature-title">
               {{ $i("FeaturesGrid.feat_batch") }}
@@ -176,11 +185,13 @@
           </div>
           <div class="feature-card">
             <div class="feature-icon">
-              <el-image
+              <NuxtImg
                 src="/assets/img/index/Original/Accuracy.svg"
                 class="no-drag h-[1.875rem] w-[1.875rem]"
                 fit="contain"
-              ></el-image>
+                :alt="$i('FeaturesGrid.feat_accuracy')"
+                loading="lazy"
+              ></NuxtImg>
             </div>
             <h3 class="feature-title">
               {{ $i("FeaturesGrid.feat_accuracy") }}
@@ -191,11 +202,13 @@
           </div>
           <div class="feature-card">
             <div class="feature-icon">
-              <el-image
+              <NuxtImg
                 src="/assets/img/index/Original/languages.svg"
                 class="no-drag h-[1.875rem] w-[1.875rem]"
                 fit="contain"
-              ></el-image>
+                :alt="$i('FeaturesGrid.feat_langs')"
+                loading="lazy"
+              ></NuxtImg>
             </div>
             <h3 class="feature-title">
               {{ $i("FeaturesGrid.feat_langs") }}
@@ -206,11 +219,13 @@
           </div>
           <div class="feature-card">
             <div class="feature-icon">
-              <el-image
+              <NuxtImg
                 src="/assets/img/index/Original/Professional.svg"
                 class="no-drag h-[1.875rem] w-[1.875rem]"
                 fit="contain"
-              ></el-image>
+                :alt="$i('FeaturesGrid.feat_pro')"
+                loading="lazy"
+              ></NuxtImg>
             </div>
             <h3 class="feature-title">
               {{ $i("FeaturesGrid.feat_pro") }}
@@ -244,11 +259,13 @@
               class="use-case-card underline"
             >
               <div class="use-case-icon">
-                <el-image
+                <NuxtImg
                   :src="`/assets/img/index/case/${item.moude}.svg`"
                   class="h-[3.5rem] w-[3.5rem]"
                   fit="contain"
-                ></el-image>
+                  :alt="item.tilte"
+                  loading="lazy"
+                ></NuxtImg>
               </div>
               <h3 class="use-case-title">
                 {{ item.tilte }}
@@ -282,11 +299,14 @@
             <p class="testimonial-text">"{{ $i("Testimonials.Mike.text") }}"</p>
             <div class="testimonial-author">
               <div class="author-avatar">
-                <el-avatar
-                  :size="54"
-                  :src="`/assets/images/index/users/Jack Turner.png`"
-                  class="me-3"
-                />
+                <el-avatar :size="54" class="me-3">
+                  <NuxtImg
+                    src="/assets/images/index/users/Jack Turner.png"
+                    fit="cover"
+                    loading="lazy"
+                    :alt="$i('Testimonials.Mike.author')"
+                  ></NuxtImg>
+                </el-avatar>
               </div>
               <div class="author-info">
                 <div class="author-name">
@@ -305,11 +325,14 @@
             </p>
             <div class="testimonial-author">
               <div class="author-avatar">
-                <el-avatar
-                  :size="54"
-                  :src="`/assets/images/index/users/Sophia Martinez.png`"
-                  class="me-3"
-                />
+                <el-avatar :size="54" class="me-3">
+                  <NuxtImg
+                    src="/assets/images/index/users/Sophia Martinez.png"
+                    fit="cover"
+                    loading="lazy"
+                    :alt="$i('Testimonials.Sarah.author')"
+                  ></NuxtImg>
+                </el-avatar>
               </div>
               <div class="author-info">
                 <div class="author-name">
@@ -328,11 +351,14 @@
             </p>
             <div class="testimonial-author">
               <div class="author-avatar">
-                <el-avatar
-                  :size="54"
-                  :src="`/assets/images/index/users/Emma Thompson.png`"
-                  class="me-3"
-                />
+                <el-avatar :size="54" class="me-3">
+                  <NuxtImg
+                    src="/assets/images/index/users/Emma Thompson.png"
+                    fit="cover"
+                    loading="lazy"
+                    :alt="$i('Testimonials.Jessica.author')"
+                  ></NuxtImg>
+                </el-avatar>
               </div>
               <div class="author-info">
                 <div class="author-name">

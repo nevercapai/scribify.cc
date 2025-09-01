@@ -75,7 +75,9 @@
             class="flex w-full items-center text-start"
             v-else-if="item.uploadText"
           >
-            <span class="me-1">{{ t("FileUploadAndRecording.upload.linkUpload") }}</span>
+            <span class="me-1">{{
+              t("FileUploadAndRecording.upload.linkUpload")
+            }}</span>
             <el-icon class="is-loading mt-1"><Loading /></el-icon>
           </div>
           <el-progress
@@ -139,33 +141,36 @@
       }}
     </el-button>
   </div>
-  <upload-dialog-link
-    v-model="showLinkDialog"
-    isGuest
-    :linkLoading="linkLoading"
-    @confirm="handleLinkConfirm"
-    @open="handleOpenDialog"
-    @close="handleCloseDialog"
-  />
-  <div class="customer-dialog">
-    <el-dialog
-      v-model="showRecordDialog"
-      :close-on-click-modal="false"
-      :close-on-press-escape="false"
-      destroy-on-close
-      :show-close="false"
-      append-to-body
-      class="record-dialog-upload"
+  <client-only>
+    <upload-dialog-link
+      v-model="showLinkDialog"
+      isGuest
+      :linkLoading="linkLoading"
+      @confirm="handleLinkConfirm"
       @open="handleOpenDialog"
       @close="handleCloseDialog"
-    >
-      <div class="flex w-full justify-center">
-        <record justRecord @record="handleRecord" />
-      </div>
-    </el-dialog>
-  </div>
+    />
 
-  <speaker-promat v-model="showSpeakerModal" />
+    <div class="customer-dialog">
+      <el-dialog
+        v-model="showRecordDialog"
+        :close-on-click-modal="false"
+        :close-on-press-escape="false"
+        destroy-on-close
+        :show-close="false"
+        append-to-body
+        class="record-dialog-upload"
+        @open="handleOpenDialog"
+        @close="handleCloseDialog"
+      >
+        <div class="flex w-full justify-center">
+          <record justRecord @record="handleRecord" />
+        </div>
+      </el-dialog>
+    </div>
+
+    <speaker-promat v-model="showSpeakerModal" />
+  </client-only>
 </template>
 
 <script setup lang="ts">
@@ -186,8 +191,15 @@ const { selectRawFiles } = storeToRefs(useUploadStore());
 
 const showLinkDialog = ref(false);
 const showRecordDialog = ref(false);
-const { tableData, diarizeEnabled, lang, formattedTime, tempInfo, transcribing } = storeToRefs(useGuestUploadStore())
-const { handleJumpHome } = useGuestUploadStore()
+const {
+  tableData,
+  diarizeEnabled,
+  lang,
+  formattedTime,
+  tempInfo,
+  transcribing
+} = storeToRefs(useGuestUploadStore());
+const { handleJumpHome } = useGuestUploadStore();
 const { initUpload, removeFile, createFileObject } = useUpload();
 const { userInfo } = storeToRefs(useUserStore());
 const { setUserInfo } = useUserStore();
@@ -240,7 +252,6 @@ const guestLogin = async () => {
   }
 };
 
-
 const { handleConfirm, link } = useLink();
 const linkLoading = ref(false);
 const handleLinkConfirm = async (linkData: string) => {
@@ -278,7 +289,6 @@ const handleRemove = async (row: UploadFile, index: number) => {
   formattedTime.value = "";
   await removeFile(row, tableData);
 };
-
 
 const getFileNameWithoutExt = (fileName: string) => {
   const lastDotIndex = fileName.lastIndexOf(".");

@@ -36,30 +36,30 @@
           </div>
           <div class="flex justify-center">
             <div class="trust-badges">
-              <span>
+              <span class="flex items-center">
                 <NuxtImg
                   src="/assets/img/index/Unlimited.png"
-                  class="relative top-[2px] me-[5px] h-[1rem] w-[1rem] rounded-md"
+                  class="relative top-[2px] me-[10px] h-[1rem] w-[1rem] rounded-md"
                   fit="contain"
                   :alt="$i('Hero.Unlimited')"
                   loading="lazy"
                 ></NuxtImg>
                 {{ $i("Hero.Unlimited") }}
               </span>
-              <span>
+              <span class="flex items-center">
                 <NuxtImg
                   src="/assets/img/index/NoCap.png"
-                  class="relative top-[2px] me-[5px] h-[1rem] w-[1rem] rounded-md"
+                  class="relative top-[2px] me-[10px] h-[1rem] w-[1rem] rounded-md"
                   fit="contain"
                   :alt="$i('Hero.NoCap')"
                   loading="lazy"
                 ></NuxtImg>
                 {{ $i("Hero.NoCap") }}
               </span>
-              <span>
+              <span class="flex items-center">
                 <NuxtImg
                   src="/assets/img/index/Hour.png"
-                  class="relative top-[2px] me-[5px] h-[1rem] w-[1rem] rounded-md"
+                  class="relative top-[2px] me-[10px] h-[1rem] w-[1rem] rounded-md"
                   fit="contain"
                   :alt="$i('Hero.Hour')"
                   loading="lazy"

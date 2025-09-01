@@ -38,9 +38,6 @@ export default defineNuxtConfig({
         { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
         // 预加载关键字体
         { rel: "preload", as: "font", href: "/assets/iconfont/iconfont.woff2", type: "font/woff2", crossorigin: "anonymous" },
-        // 预加载关键CSS
-        { rel: "preload", as: "style", href: "~/assets/css/tailwind.css" },
-        { rel: "preload", as: "style", href: "~/assets/css/element.scss" }
       ],
       script: [
         // 使用 defer 延迟执行非关键脚本，不阻塞 DOM 解析

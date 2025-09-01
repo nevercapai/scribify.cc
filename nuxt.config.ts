@@ -35,12 +35,20 @@ export default defineNuxtConfig({
       ],
       link: [
         { rel: "stylesheet", href: "/assets/iconfont/iconfont.css" },
-        { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }
+        { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+        // 预加载关键字体
+        { rel: "preload", as: "font", href: "/assets/iconfont/iconfont.woff2", type: "font/woff2", crossorigin: "anonymous" },
+        // 预加载首屏关键图片
+        { rel: "preload", as: "image", href: "/assets/img/index/Unlimited.png", imagesrcset: "/assets/img/index/Unlimited.png 1x, /assets/img/index/Unlimited@2x.png 2x" },
+        // 预加载关键CSS
+        { rel: "preload", as: "style", href: "/assets/css/tailwind.css" },
+        { rel: "preload", as: "style", href: "/assets/css/element.scss" }
       ],
       script: [
-        { src: "/assets/iconfont/iconfont.js" },
-        { src: "/assets/js/aes.js" },
-        { src: "/assets/js/jsencrypt.js" }
+        // 使用 defer 延迟执行非关键脚本，不阻塞 DOM 解析
+        { src: "/assets/iconfont/iconfont.js", defer: true },
+        { src: "/assets/js/aes.js", defer: true },
+        { src: "/assets/js/jsencrypt.js", defer: true }
       ]
     }
   },
@@ -74,12 +82,13 @@ export default defineNuxtConfig({
   plugins: [
     { src: "~/plugins/gtag.js", mode: "client" },
     { src: "~/plugins/global-error.js", mode: "client" },
-    { src: "~/plugins/vconsole.js", mode: "client" }
+    // 仅在开发环境加载调试工具
+    ...(process.env.NODE_ENV !== 'production' ? [{ src: "~/plugins/vconsole.js", mode: "client" as const }] : [])
+    // { src: "~/plugins/vconsole.js", mode: "client" }
   ],
   modules: [
     "@nuxtjs/tailwindcss",
     "@element-plus/nuxt",
-    "@unlok-co/nuxt-stripe",
     "@nuxtjs/i18n",
     "@pinia/nuxt",
     "pinia-plugin-persistedstate/nuxt",
@@ -101,10 +110,6 @@ export default defineNuxtConfig({
     // Server
     name: "NeverCap",
     environment: process.env.NODE_ENV || "production",
-    stripe: {
-      key: process.env.NUXT_STRIPE_SECRET_KEY,
-      options: {}
-    },
     // ipinfo 获取Ip信息
     ipinfoToken: process.env.IPINFO_TOKEN,
     //public中定义的属性既可以在服务端，也可以在客户端获取到
@@ -116,10 +121,6 @@ export default defineNuxtConfig({
       gtagId: process.env.NUXT_PUBLIC_GTAG_ID,
       googleClientId: process.env.NUXT_PUBLIC_GOOGLE_CLIENT_ID,
       cosDomain: process.env.NUXT_COS_DOMAIN,
-      stripe: {
-        key: process.env.NUXT_PUBLIC_STRIPE_PUBLISHABLE_KEY,
-        options: {}
-      }
     }
   },
   devServer: {
@@ -133,7 +134,31 @@ export default defineNuxtConfig({
       ...(process.env.NUXT_PUBLIC_ENV === "production"
         ? [removeConsole({ includes: ["log", "info", "warn", "error"] })]
         : [])
-    ]
+    ],
+    // 优化构建输出
+    build: {
+      chunkSizeWarningLimit: 1000,
+      rollupOptions: {
+        output: {
+          manualChunks(id) {
+            // 分离第三方库到单独的chunk
+            if (id.includes('node_modules')) {
+              if (id.includes('element-plus')) {
+                return 'element-plus';
+              } else if (id.includes('@vue') || id.includes('vue')) {
+                return 'vue';
+              } else if (id.includes('@nuxt')) {
+                return 'nuxt';
+              } else if (id.includes('pinia')) {
+                return 'pinia';
+              } else {
+                return 'vendor';
+              }
+            }
+          }
+        }
+      }
+    }
   },
   elementPlus: {
     /** Options */

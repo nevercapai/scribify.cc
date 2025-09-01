@@ -236,7 +236,7 @@ watchEffect(() => {
   }
 });
 
-let menuList = ref([
+const menuList = computed(() => [
   {
     name: t("HeadNavbar.Features"),
     key: "/features",

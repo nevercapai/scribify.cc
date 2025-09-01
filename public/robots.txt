@@ -1,17 +1,25 @@
-# Robots.txt for NeverCap - AI Transcription Service
-# Generated to optimize search engine crawling
+# This file blocks all search engine crawling for the development subdomain
 
-# Block crawling for development and green subdomains
-# Note: This robots.txt should be placed on dev.nevercap.ai and green.nevercap.ai
-# with "Disallow: /" to completely block those subdomains
-
-# Allow all web crawlers to access all content on main domain
-# nevercap.ai robots — marketing site
 User-agent: *
-Disallow: /admin/
-Disallow: /private/
-Disallow: /.git/
-Disallow: /*.log$
-Disallow: /tmp/
+Disallow: /
 
-Sitemap: https://nevercap.ai/sitemap.xml
+# Block all major search engine bots specifically
+User-agent: Googlebot
+Disallow: /
+
+User-agent: Bingbot
+Disallow: /
+
+User-agent: Slurp
+Disallow: /
+
+User-agent: DuckDuckBot
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: YandexBot
+Disallow: /
+
+# No sitemap for development environment 

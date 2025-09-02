@@ -754,7 +754,7 @@ nav {
   );
   top: -250px;
   right: -250px;
-  animation: float 20s ease-in-out infinite;
+  // animation: float 20s ease-in-out infinite;
 }
 
 @keyframes float {
@@ -782,7 +782,7 @@ nav {
   font-size: 14px;
   font-weight: 600;
   margin-bottom: 20px;
-  animation: slideDown 0.6s ease;
+  // animation: slideDown 0.6s ease;
 }
 
 @keyframes slideDown {
@@ -801,7 +801,7 @@ h1 {
   font-weight: 800;
   line-height: 1.2;
   margin-bottom: 24px;
-  animation: slideUp 0.8s ease;
+  // animation: slideUp 0.8s ease;
 }
 
 .gradient-text {
@@ -828,7 +828,7 @@ h1 {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
-  animation: slideUp 1s ease;
+  // animation: slideUp 1s ease;
 }
 
 .cta-buttons {
@@ -836,7 +836,7 @@ h1 {
   gap: 20px;
   justify-content: center;
   margin-bottom: 40px;
-  animation: slideUp 1.2s ease;
+  // animation: slideUp 1.2s ease;
 }
 
 .trust-badges {
@@ -845,7 +845,7 @@ h1 {
   align-items: center;
   gap: 40px;
   opacity: 0.7;
-  animation: fadeIn 1.5s ease;
+  // animation: fadeIn 1.5s ease;
 }
 
 @keyframes fadeIn {

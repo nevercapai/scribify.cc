@@ -28,6 +28,9 @@
 
 <script setup lang="ts">
 /* CTASection 组件 */
+import { useI18nModule } from "~/utils/i18n";
+import { useNuxtApp } from "nuxt/app";
+
 const props = defineProps({
   data: {
     type: Object,

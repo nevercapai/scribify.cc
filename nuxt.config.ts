@@ -37,7 +37,7 @@ export default defineNuxtConfig({
         { rel: "stylesheet", href: "/assets/iconfont/iconfont.css" },
         { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
         // 预加载关键字体
-        { rel: "preload", as: "font", href: "/assets/iconfont/iconfont.woff2", type: "font/woff2", crossorigin: "anonymous" },
+        { rel: "preload", as: "font", href: "/assets/iconfont/iconfont.woff2", type: "font/woff2", crossorigin: "anonymous" }
       ],
       script: [
         // 使用 defer 延迟执行非关键脚本，不阻塞 DOM 解析
@@ -130,30 +130,6 @@ export default defineNuxtConfig({
         ? [removeConsole({ includes: ["log", "info", "warn", "error"] })]
         : [])
     ],
-    // 优化构建输出
-    build: {
-      chunkSizeWarningLimit: 1000,
-      rollupOptions: {
-        output: {
-          manualChunks(id) {
-            // 分离第三方库到单独的chunk
-            if (id.includes('node_modules')) {
-              if (id.includes('element-plus')) {
-                return 'element-plus';
-              } else if (id.includes('@vue') || id.includes('vue')) {
-                return 'vue';
-              } else if (id.includes('@nuxt')) {
-                return 'nuxt';
-              } else if (id.includes('pinia')) {
-                return 'pinia';
-              } else {
-                return 'vendor';
-              }
-            }
-          }
-        }
-      }
-    }
   },
   elementPlus: {
     /** Options */

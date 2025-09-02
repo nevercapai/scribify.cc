@@ -19,6 +19,8 @@ import { useGuestUploadStore, useI18n } from "#imports";
 import { ElConfigProvider } from "element-plus";
 import { ref, computed, watchEffect } from "vue";
 import { useScrollTitle } from "./utils/useScrollTitle";
+import { message as en_US } from "~/i18n/lang/en-US"; // 英语（美国）
+import { runI18nCheck } from "~/i18n/check.js";
 import { useCrossDomainCookie } from "~/hooks/useCrossDomainCookie";
 import { usePageJump } from "~/composables/usePageJump";
 useScrollTitle();
@@ -26,6 +28,31 @@ const { jumpPage } = usePageJump();
 const route = useRoute();
 const { locale, locales, setLocaleMessage } = useI18n();
 const activeLanguage = useState("locale", () => locale.value);
+
+try {
+  let localeLangs: any[] = [];
+  await Promise.all(
+    locales.value.map(async (item) => {
+      try {
+        const messages = await import(`~/i18n/lang/${item.code}.ts`);
+        setLocaleMessage(item.code, messages.message);
+        localeLangs.push({
+          code: item.code,
+          name: item.name,
+          file: messages.message
+        });
+      } catch (error) {
+        console.error(
+          `Failed to load locale messages for ${item.code}:`,
+          error
+        );
+      }
+    })
+  );
+  // runI18nCheck(en_US, localeLangs);
+} catch (error) {
+  console.error("Error loading locale messages:", error);
+}
 
 // 1. 动态import映射
 const langImportMap: Record<string, () => Promise<any>> = {
@@ -66,87 +93,58 @@ watchEffect(async () => {
   } else {
     localLang.value = undefined;
   }
-
-  // 按需加载应用语言包
-  try {
-    const messages = await import(`~/i18n/lang/${langKey}.ts`);
-    setLocaleMessage(langKey, messages.message);
-  } catch (error) {
-    console.error(`Failed to load locale messages for ${langKey}:`, error);
-  }
 });
 // 跳转事件
 const { $mitt } = useNuxtApp();
-const goToEvent = (data: any) => {
+const goToEvent = (data) => {
   jumpPage(data.path, data.newTab);
 };
-
-// 使用Vue的defineAsyncComponent优化组件加载
-const { clear } = useGuestUploadStore();
-const { clearSelectRawFiles } = await import("#imports").then((m) =>
-  m.useUploadStore()
-);
-
-watch(
-  () => route.path,
-  () => {
-    if (!(route.name as String)?.includes("index")) {
-      clear();
-      clearSelectRawFiles();
-    }
+const times = ref(0);
+const saveInfoToStore = () => {
+  console.log("saveInfoToStoreMain", times.value);
+  if (times.value > 3) {
+    return;
   }
-);
-
-// 移除不必要的代码块
-
-onMounted(async () => {
-  // 保存用户信息
-  const saveInfoToStore = () => {
-    const timesRef = ref(0);
-
-    const trySaveUserInfo = async () => {
-      if (timesRef.value > 3) return;
-      timesRef.value++;
-
-      const { setUserInfo } = await import("#imports").then((m) =>
-        m.useUserStore()
-      );
-      const { userInfo } = storeToRefs(
-        await import("#imports").then((m) => m.useUserStore())
-      );
-      const userInfoCookie = useCrossDomainCookie("userInfoFromApp");
-      const token = useCrossDomainCookie("token");
-
-      if (!token.value) {
-        setUserInfo(null);
+  times.value++;
+  const { setUserInfo } = useUserStore();
+  const { userInfo } = storeToRefs(useUserStore());
+  const userInfoCookie = useCrossDomainCookie("userInfoFromApp");
+  const token = useCrossDomainCookie("token");
+  if (!token.value) {
+    setUserInfo(null);
+    userInfoCookie.value = "";
+    return;
+  }
+  console.log("saveInfoToStore userInfoCookie", userInfoCookie.value);
+  if (userInfoCookie.value) {
+    setUserInfo(userInfoCookie.value);
+    setTimeout(() => {
+      if (!userInfo.value?.userInfoVO) {
+        saveInfoToStore();
+      } else {
         userInfoCookie.value = "";
-        return;
       }
+    }, 100);
+  }
+};
 
-      if (userInfoCookie.value) {
-        setUserInfo(userInfoCookie.value);
-        setTimeout(() => {
-          if (!userInfo.value?.userInfoVO) {
-            trySaveUserInfo();
-          } else {
-            userInfoCookie.value = "";
-          }
-        }, 100);
-      }
-    };
-
-    trySaveUserInfo();
-  };
-
+// 其它逻辑保持不变
+if (process.client) {
+  const config = useRuntimeConfig();
+  console.log(
+    process.env,
+    ":process.env--app.vue--config.public:",
+    config.public
+  );
+  if (window.localStorage.getItem("notShowHead")) {
+  }
+}
+onMounted(async () => {
   saveInfoToStore();
-
   if (route.meta.requireAuth) {
-    const subscriptionStore = await import("#imports").then((m) =>
-      m.useSubscriptionStore()
-    );
+    const subscriptionStore = useSubscriptionStore();
     await subscriptionStore.getStatusUserIdFetch();
   }
-
   try {
     const response = await fetch("/packageVersion.json");
     const buildInfo = await response.json();
@@ -158,13 +156,23 @@ onMounted(async () => {
   } catch (error) {
     console.error("获取构建信息失败:", error);
   }
-
   $mitt.on("goToEvent", goToEvent);
 });
-
 onUnmounted(() => {
   $mitt.off("goToEvent", goToEvent);
 });
+
+const { clear } = useGuestUploadStore();
+const { clearSelectRawFiles } = useUploadStore();
+watch(
+  () => route.path,
+  () => {
+    if (!route.name?.includes("index")) {
+      clear();
+      clearSelectRawFiles();
+    }
+  }
+);
 </script>
 <style>
 html,

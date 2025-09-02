@@ -67,13 +67,13 @@
           {{ $i("plans[" + i + "].cta.text") }}
         </div>
 
-        <a
+        <button
           @click="handleClick(i)"
           class="pay-button"
           :class="i > 0 ? 'btn-primary' : 'btn-secondary'"
         >
           {{ $i("plans[" + i + "].cta.button") }}
-        </a>
+        </button>
       </div>
     </div>
 
@@ -109,7 +109,7 @@ onMounted(() => {
       valueBadge?.style.setProperty("top", -(height / 2) + "px");
     }
   }
-})
+});
 </script>
 
 <style scoped lang="scss">

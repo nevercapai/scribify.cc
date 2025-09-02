@@ -15,18 +15,14 @@
         </p>
         <div class="cta-buttons">
           <span class="flex-center-m">
-            <a
-              @click="handleClick"
-              href="javascript:void(0)"
-              class="btn-primary"
-            >
+            <button @click="handleClick" class="btn-primary">
               {{ $i("Hero.FreeTrial") }}
-            </a>
+            </button>
           </span>
           <span class="flex-center-m">
-            <a @click="showDownload" class="btn-secondary">
+            <button @click="showDownload" class="btn-secondary">
               <span>▶</span> {{ $i("Hero.HowWorks") }}
-            </a>
+            </button>
           </span>
         </div>
         <div class="flex justify-center">

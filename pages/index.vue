@@ -12,30 +12,26 @@
     <!--   FreeTrial Section -->
     <IndexDelayTrial></IndexDelayTrial>
 
-    <div class="index-delay-lazy-wrap" ref="indexDelayLazy">
-      <template v-if="isReady">
-        <!-- Features Grid -->
-        <LazyIndexDelayFeature></LazyIndexDelayFeature>
+    <!-- Features Grid   Section-->
+    <IndexDelayFeature></IndexDelayFeature>
 
-        <!-- Use Cases -->
-        <LazyIndexDelayUseCases></LazyIndexDelayUseCases>
+    <!-- Use Cases  Section -->
+    <IndexDelayUseCases></IndexDelayUseCases>
 
-        <!-- Testimonials -->
-        <LazyIndexDelayTestimonials></LazyIndexDelayTestimonials>
+    <!-- Testimonials Section -->
+    <IndexDelayTestimonials></IndexDelayTestimonials>
 
-        <!-- Pricing Preview -->
-        <LazyIndexDelayPricing></LazyIndexDelayPricing>
+    <!-- Pricing Preview -->
+    <IndexDelayPricing></IndexDelayPricing>
 
-        <!-- FAQ Section -->
-        <LazyIndexDelayFAQ></LazyIndexDelayFAQ>
+    <!-- FAQ Section -->
+    <IndexDelayFAQ></IndexDelayFAQ>
 
-        <!-- CTA Section -->
-        <LazyCTASection :data="ctaData" />
+    <!-- CTA Section -->
+    <CTASection :data="ctaData" />
 
-        <!-- Footer -->
-        <LazyFooter></LazyFooter>
-      </template>
-    </div>
+    <!-- Footer -->
+    <Footer></Footer>
   </div>
 </template>
 
@@ -160,7 +156,6 @@ useHead({
     }
   ]
 });
-const isReady = ref(false);
 
 const ctaData = ref({
   title: $i("CTASection.title"),
@@ -169,29 +164,7 @@ const ctaData = ref({
   disclaimer: $i("CTASection.disclaimer")
 });
 
-const indexDelayLazy = ref(null);
-onMounted(async () => {
-  await nextTick();
-  const el = indexDelayLazy.value;
-  if (!el) return;
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        // 当元素进入视图
-        if (entry.isIntersecting) {
-          isReady.value = true;
-          // 停止观察
-          observer.disconnect();
-        }
-      });
-    },
-    {
-      rootMargin: "100px",
-      threshold: 0.1
-    }
-  );
-  observer.observe(el);
-});
+onMounted(async () => {});
 </script>
 
 <style scoped lang="scss">

@@ -329,9 +329,10 @@ useHead({
             }
           },
           {
-            "@type": "Product",
-            name: "Batch Processing Technology",
-            manufacturer: {
+            "@type": "Service",
+            name: "Batch Processing",
+            serviceType: "Batch Processing Technology",
+            provider: {
               "@type": "Organization",
               name: "NeverCap"
             }

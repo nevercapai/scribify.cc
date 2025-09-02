@@ -492,6 +492,15 @@
 ./components/subscription
 ./components/subscription/modal.vue
 ./components/subscription/content.vue
+./components/indexDelay
+./components/indexDelay/Testimonials.vue
+./components/indexDelay/Feature.vue
+./components/indexDelay/Trial.vue
+./components/indexDelay/Hero.vue
+./components/indexDelay/Stats.vue
+./components/indexDelay/Pricing.vue
+./components/indexDelay/UseCases.vue
+./components/indexDelay/FAQ.vue
 ./components/pricing
 ./components/pricing/comparisonTable.vue
 ./components/pricing/pricingCards.vue

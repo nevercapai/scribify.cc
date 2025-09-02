@@ -429,6 +429,8 @@
 ./components/subscriptionUpgrade/subscribeMoney.vue
 ./components/subscriptionUpgrade/useSubscribeVersion.ts
 ./components/subscriptionUpgrade/subscribeVersion.vue
+./components/index
+./components/index/FreeTrial.vue
 ./components/record
 ./components/record/index.vue
 ./components/record/dialog

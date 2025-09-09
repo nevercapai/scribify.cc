@@ -28,7 +28,7 @@
     <!-- FAQ Section -->
     <section class="faq-section">
       <div class="container">
-        <div class="section-header text-center font-bold text-[42px] mb-[50px]">
+        <div class="section-header mb-[50px] text-center text-[42px] font-bold">
           <h2 class="section-title">
             {{ $t("Pricing.FAQ.title") }}
             <span class="gradient-text">
@@ -86,6 +86,8 @@ useHead({
             description: "Perfect for trying out our service with daily limits",
             price: "0",
             priceCurrency: "USD",
+            priceValidUntil: "2099-12-31",
+
             priceSpecification: {
               "@type": "UnitPriceSpecification",
               price: "0",
@@ -142,6 +144,7 @@ useHead({
               "Unlimited transcription with all professional features",
             price: "17.99",
             priceCurrency: "USD",
+            priceValidUntil: "2099-12-31",
             priceSpecification: {
               "@type": "UnitPriceSpecification",
               price: "17.99",
@@ -203,6 +206,7 @@ useHead({
               "Best value - unlimited transcription with annual billing",
             price: "107.88",
             priceCurrency: "USD",
+            priceValidUntil: "2099-12-31",
             priceSpecification: {
               "@type": "UnitPriceSpecification",
               price: "107.88",
@@ -268,7 +272,7 @@ useHead({
         manufacturer: {
           "@type": "Organization",
           name: "NeverCap",
-          url: "https://nevercap.ai"
+          url: "https://nevercap.ai/"
         }
       })
     },
@@ -289,7 +293,7 @@ useHead({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://nevercap.ai"
+              item: "https://nevercap.ai/"
             },
             {
               "@type": "ListItem",

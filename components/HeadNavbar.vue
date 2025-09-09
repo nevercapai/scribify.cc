@@ -3,21 +3,15 @@
     <div class="container">
       <div class="nav-container min-h-8">
         <!-- Logo -->
-        <div
-          @click="goToHome"
-          class="flex items-center space-x-2"
-          :class="{
-            'cursor-pointer': isShowIconPointer
-          }"
-        >
+        <a :href="LogoHref" class="logo" style="text-decoration: none">
           <NuxtImg
-            src="/assets/logo3.png"
-            alt="NeverCap"
+            src="/assets/logo2.svg"
+            alt="NeverCap Logo"
             class="no-drag h-6 w-auto sm:h-[1.875rem]"
             fit="contain"
             loading="eager"
           />
-        </div>
+        </a>
         <button
           class="mobile-menu-btn order-1"
           @click="toggleMobileMenu"
@@ -358,6 +352,21 @@ const goToHome = () => {
     path: localePath("/")
   });
 };
+
+const config = useRuntimeConfig();
+let currentWebSite = config.public.currentWebSite;
+let jumpUrl = config.public.jumpUrl;
+
+const LogoHref = computed(() => {
+  if (
+    (userInfo.value as any)?.userInfoVO &&
+    (route.path.includes("terms-of-use") || route.path.includes("privacy"))
+  ) {
+    return (jumpUrl += "/");
+  } else {
+    return currentWebSite + "/";
+  }
+});
 </script>
 
 <style scoped lang="scss">
@@ -388,11 +397,6 @@ nav {
 }
 
 .logo {
-  font-size: 24px;
-  font-weight: bold;
-  background: var(--text-gradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .mobile-menu-btn {

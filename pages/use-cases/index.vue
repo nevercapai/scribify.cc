@@ -14,7 +14,17 @@
             {{ $i("AllUseCases.whoActuallyNeed") }}
           </h1>
           <p class="hero-subtitle">
-            {{ $i("AllUseCases.heroSubtitle") }}
+            <i18n-t keypath="UseCases.AllUseCases.heroSubtitleA" tag="p">
+              <template #NeverCap>
+                <a
+                  href="https://nevercap.ai/"
+                  style="text-decoration: none; color: inherit"
+                >
+                  NeverCap
+                </a>
+              </template>
+            </i18n-t>
+            <!-- {{ $i("AllUseCases.heroSubtitle") }} -->
           </p>
           <div class="hero-cta">
             <span class="flex-center-m">

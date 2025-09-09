@@ -685,7 +685,17 @@
         <div class="testimonial-card">
           <span class="quote-icon">"</span>
           <p class="testimonial-text">
-            {{ t("UseCases.Educators.testimonialText") }}
+            <i18n-t keypath="UseCases.Educators.testimonialTextA" tag="p">
+              <template #NeverCap>
+                <a
+                  href="https://nevercap.ai/"
+                  style="text-decoration: none; color: inherit"
+                >
+                  NeverCap
+                </a>
+              </template>
+            </i18n-t>
+            <!-- {{ t("UseCases.Educators.testimonialText") }} -->
           </p>
           <div class="testimonial-author">
             <el-avatar

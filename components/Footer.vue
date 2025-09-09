@@ -3,7 +3,11 @@
     <div class="container">
       <div class="footer-content">
         <div class="footer-brand">
-          <h3>NeverCap</h3>
+          <h3 style="margin-bottom: 16px">
+            <a :href="LogoHref" style="color: white; text-decoration: none">
+              NeverCap
+            </a>
+          </h3>
           <p>
             {{ $t("Footer.des") }}
           </p>
@@ -76,6 +80,11 @@
 
 <script setup lang="ts">
 /* Footer 组件 */
+const config = useRuntimeConfig();
+let currentWebSite = config.public.currentWebSite;
+const LogoHref = computed(() => {
+  return currentWebSite + "/";
+});
 const sociaIconList = ref([
   { id: 1, img: "x", title: "𝕏", url: "https://x.com/NeverCapAI" },
   {

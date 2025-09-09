@@ -110,6 +110,7 @@ export default defineNuxtConfig({
     //public中定义的属性既可以在服务端，也可以在客户端获取到
     public: {
       env: process.env.NUXT_PUBLIC_ENV || "production",
+      currentWebSite: process.env.NUXT_CURRENT_WEB_SITE,
       baseUrl: process.env.NUXT_PUBLIC_BASE_URL,
       jumpUrl: process.env.NUXT_JUPM_BASE_URL,
       cookieDomain: process.env.NUXT_COOKIE_DOMAIN,

@@ -3,10 +3,8 @@
     <div class="container">
       <div class="section-header">
         <h2 class="section-title">
-          {{ $i("Testimonials.title") }}
-          <span class="gradient-text">
-            {{ $i("Testimonials.highlighted_users") }}
-          </span>
+          {{ $i("Testimonials.titleA") }}
+          <span class="gradient-text"> NeverCap</span>
         </h2>
         <p class="section-subtitle">
           {{ $i("Testimonials.subtitle") }}

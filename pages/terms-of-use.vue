@@ -24,7 +24,11 @@
     <div class="terms-container">
       <div class="terms-card">
         <div class="last-updated">
-          {{ $t("TermsOfUse.lastUpdated", { date: $t("TermsOfUse.lastUpdatedDate") }) }}
+          {{
+            $t("TermsOfUse.lastUpdated", {
+              date: $t("TermsOfUse.lastUpdatedDate")
+            })
+          }}
         </div>
 
         <div class="terms-content">
@@ -33,7 +37,16 @@
           <p>{{ $t("TermsOfUse.thankYou") }}</p>
 
           <p>
-            {{ $t("TermsOfUse.companyDefinition") }}
+            <i18n-t keypath="TermsOfUse.companyDefinitionA" tag="p">
+              <template #NeverCap>
+                <a
+                  href="https://nevercap.ai/"
+                  style="text-decoration: none; color: inherit"
+                >
+                  NeverCap
+                </a>
+              </template>
+            </i18n-t>
           </p>
 
           <p>
@@ -159,7 +172,12 @@
             <i18n-t keypath="TermsOfUse.trademarkProtection" tag="li">
               <template #at>{{ $t("TermsOfUse.at") }}</template>
               <template #email>
-                <a href="mailto:support@nevercap.ai" class="underline" style="color: var(--primary)">support@nevercap.ai</a>
+                <a
+                  href="mailto:support@nevercap.ai"
+                  class="underline"
+                  style="color: var(--primary)"
+                  >support@nevercap.ai</a
+                >
               </template>
             </i18n-t>
             <li>
@@ -280,7 +298,12 @@
           <h2>{{ $t("TermsOfUse.privacyPolicyTitle") }}</h2>
           <i18n-t keypath="TermsOfUse.privacyPolicyDescription" tag="p">
             <template #policy>
-              <span @click="handleJump" class='underline cursor-pointer' style="color: var(--primary)">{{$t('Privacy.privacyPolicyTitle')}}</span>
+              <span
+                @click="handleJump"
+                class="cursor-pointer underline"
+                style="color: var(--primary)"
+                >{{ $t("Privacy.privacyPolicyTitle") }}</span
+              >
             </template>
           </i18n-t>
 
@@ -302,7 +325,12 @@
           <i18n-t keypath="TermsOfUse.contactDescription" tag="p">
             <template #at>{{ $t("TermsOfUse.at") }}</template>
             <template #email>
-              <a href="mailto:support@nevercap.ai" class="underline" style="color: var(--primary)">support@nevercap.ai</a>
+              <a
+                href="mailto:support@nevercap.ai"
+                class="underline"
+                style="color: var(--primary)"
+                >support@nevercap.ai</a
+              >
             </template>
           </i18n-t>
         </div>
@@ -330,8 +358,8 @@ useHead({
 const router = useRouter();
 const localePath = useLocalePath();
 const handleJump = () => {
-  router.push(localePath('/privacy'));
-}
+  router.push(localePath("/privacy"));
+};
 </script>
 
 <style scoped lang="scss">

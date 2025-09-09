@@ -32,9 +32,23 @@
         <div class="privacy-content">
           <h2>{{ $t("Privacy.privacyPolicyTitle") }}</h2>
 
-          <i18n-t keypath="Privacy.policyDescription" tag="p">
+          <i18n-t keypath="Privacy.policyDescriptionA" tag="p">
+            <template #NeverCap>
+              <a
+                href="https://nevercap.ai/"
+                style="text-decoration: none; color: inherit"
+              >
+                NeverCap
+              </a>
+            </template>
             <template #url>
-              <a href="https://www.nevercap.ai/" target="_blank" class="underline" style="color: var(--primary)">https://www.nevercap.ai/</a>
+              <a
+                href="https://www.nevercap.ai/"
+                target="_blank"
+                class="underline"
+                style="color: var(--primary)"
+                >https://www.nevercap.ai/</a
+              >
             </template>
           </i18n-t>
 
@@ -130,9 +144,14 @@
 
           <h2>{{ $t("Privacy.childrenTitle") }}</h2>
           <i18n-t keypath="Privacy.childrenDescription" tag="p">
-            <template #at>{{$t('Privacy.at')}}</template>
+            <template #at>{{ $t("Privacy.at") }}</template>
             <template #email>
-              <a href="mailto:support@nevercap.ai" class="underline" style="color: var(--primary)">support@nevercap.ai</a>
+              <a
+                href="mailto:support@nevercap.ai"
+                class="underline"
+                style="color: var(--primary)"
+                >support@nevercap.ai</a
+              >
             </template>
           </i18n-t>
 
@@ -143,9 +162,14 @@
 
           <h2>{{ $t("Privacy.contactTitle") }}</h2>
           <i18n-t keypath="Privacy.contactDescription" tag="p">
-            <template #at>{{$t('Privacy.at')}}</template>
+            <template #at>{{ $t("Privacy.at") }}</template>
             <template #email>
-              <a href="mailto:support@nevercap.ai" class="underline" style="color: var(--primary)">support@nevercap.ai</a>
+              <a
+                href="mailto:support@nevercap.ai"
+                class="underline"
+                style="color: var(--primary)"
+                >support@nevercap.ai</a
+              >
             </template>
           </i18n-t>
         </div>

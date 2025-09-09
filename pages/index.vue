@@ -52,7 +52,7 @@ useHead({
         "@context": "https://schema.org",
         "@type": "WebApplication",
         name: "NeverCap",
-        url: "https://nevercap.ai",
+        url: "https://nevercap.ai/",
         description:
           "NeverCap offers truly unlimited AI transcription to convert audio to text with 96% accuracy. Transcribe video and audio files in 100+ languages. No monthly caps, no hidden fees.",
         applicationCategory: "BusinessApplication",
@@ -67,12 +67,12 @@ useHead({
         author: {
           "@type": "Organization",
           name: "NeverCap",
-          url: "https://nevercap.ai"
+          url: "https://nevercap.ai/"
         },
         publisher: {
           "@type": "Organization",
           name: "NeverCap",
-          url: "https://nevercap.ai"
+          url: "https://nevercap.ai/"
         },
         softwareVersion: "2.0",
         datePublished: "2024-01-01",
@@ -140,10 +140,27 @@ useHead({
           target: "https://app.nevercap.ai/user/signup"
         },
         sameAs: [
-          "https://x.com/nevercap",
-          "https://www.youtube.com/@nevercap",
-          "https://www.instagram.com/nevercap",
-          "https://www.tiktok.com/@nevercap"
+          "https://x.com/NeverCapAI",
+          "https://youtube.com/@nevercapai",
+          "https://www.instagram.com/nevercap.ai",
+          "https://www.tiktok.com/@nevercap.ai"
+        ]
+      })
+    },
+    {
+      type: "application/ld+json",
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        name: "NeverCap",
+        alternateName: ["nevercap", "nevercap.ai"],
+        url: "https://nevercap.ai/",
+        logo: "https://nevercap.ai/assets/logo.svg",
+        sameAs: [
+          "https://x.com/NeverCapAI",
+          "https://youtube.com/@nevercapai",
+          "https://www.instagram.com/nevercap.ai",
+          "https://www.tiktok.com/@nevercap.ai"
         ]
       })
     }

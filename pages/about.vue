@@ -13,9 +13,7 @@
             </div>
             <h1>
               {{ $i("Hero.title") }}
-              <span class="gradient-text">
-                {{ $i("Hero.highlighted_text") }}
-              </span>
+              <span class="gradient-text"> NeverCap </span>
             </h1>
             <p class="hero-subtitle">
               {{ $i("Hero.description") }}
@@ -80,7 +78,12 @@
           <h2 class="section-title">
             {{ $i(`Mission.title`) }}
             <span class="gradient-text">
-              {{ $i(`Mission.highlighted_text`) }}
+              <a
+                href="https://nevercap.ai/"
+                style="color: inherit; text-decoration: none"
+              >
+                Nevercap
+              </a>
             </span>
           </h2>
           <p class="section-subtitle">
@@ -176,8 +179,8 @@ useHead({
         "@type": "Organization",
         name: "NeverCap",
         legalName: "SCRIBIFY AI INC",
-        url: "https://nevercap.ai",
-        logo: "https://nevercap.ai/pics/nevercap-logo.png",
+        url: "https://nevercap.ai/",
+        logo: "https://nevercap.ai/assets/logo.svg",
         image: "https://nevercap.ai/pics/company.png",
         description:
           "NeverCap provides truly unlimited AI transcription services with 96% accuracy, supporting 100+ languages and offering batch processing without monthly caps or hidden fees.",
@@ -248,10 +251,10 @@ useHead({
           }
         ],
         sameAs: [
-          "https://twitter.com/nevercap",
-          "https://youtube.com/@nevercap",
-          "https://instagram.com/nevercap",
-          "https://tiktok.com/@nevercap"
+          "https://x.com/NeverCapAI",
+          "https://youtube.com/@nevercapai",
+          "https://www.instagram.com/nevercap.ai",
+          "https://www.tiktok.com/@nevercap.ai"
         ],
 
         award: [
@@ -302,7 +305,7 @@ useHead({
         isPartOf: {
           "@type": "WebSite",
           name: "NeverCap",
-          url: "https://nevercap.ai"
+          url: "https://nevercap.ai/"
         },
         mainEntity: {
           "@type": "Organization",
@@ -345,7 +348,7 @@ useHead({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://nevercap.ai"
+              item: "https://nevercap.ai/"
             },
             {
               "@type": "ListItem",
@@ -378,7 +381,7 @@ useHead({
           name: "NeverCap",
           logo: {
             "@type": "ImageObject",
-            url: "https://nevercap.ai/pics/nevercap-logo.png"
+            url: "https://nevercap.ai/assets/logo.svg"
           }
         },
         datePublished: "2024-01-01",

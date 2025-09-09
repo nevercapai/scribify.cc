@@ -280,7 +280,20 @@
               margin: 0 auto;
             "
           >
-            {{ $i("Journalists.problem.solution.description") }}
+            <i18n-t
+              keypath="UseCases.Journalists.problem.solution.descriptionA"
+              tag="p"
+            >
+              <template #NeverCap>
+                <a
+                  href="https://nevercap.ai/"
+                  style="text-decoration: none; color: inherit"
+                >
+                  NeverCap
+                </a>
+              </template>
+            </i18n-t>
+            <!-- {{ $i("Journalists.problem.solution.description") }} -->
           </p>
         </div>
       </div>

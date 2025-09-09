@@ -31,7 +31,17 @@
             </h1>
 
             <p class="hero-subtitle">
-              {{ t("UseCases.BusinessTeams.heroSubtitle") }}
+              <i18n-t keypath="UseCases.BusinessTeams.heroSubtitleA" tag="p">
+                <template #NeverCap>
+                  <a
+                    href="https://nevercap.ai/"
+                    style="text-decoration: none; color: inherit"
+                  >
+                    NeverCap
+                  </a>
+                </template>
+              </i18n-t>
+              <!-- {{ t("UseCases.BusinessTeams.heroSubtitle") }} -->
             </p>
 
             <div class="hero-cta">
@@ -580,8 +590,9 @@
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
               "
-              >{{ t("UseCases.BusinessTeams.testimonialsTitle2") }}</span
             >
+              NeverCap
+            </span>
           </h2>
           <p class="section-subtitle">
             {{ t("UseCases.BusinessTeams.testimonialsSubtitle") }}

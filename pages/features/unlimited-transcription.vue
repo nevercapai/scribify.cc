@@ -18,7 +18,14 @@
         </h1>
 
         <p class="hero-subtitle">
-          {{ t("Features.UnlimitedTranscription.heroSubtitle") }}
+          {{ t("Features.UnlimitedTranscription.heroSubtitle1") }}
+          <a
+            href="https://nevercap.ai/"
+            style="text-decoration: none; color: inherit"
+          >
+            NeverCap
+          </a>
+          {{ t("Features.UnlimitedTranscription.heroSubtitle2") }}
         </p>
 
         <div class="hero-cta">
@@ -370,11 +377,7 @@
                 </div>
               </div>
               <div class="table-row">
-                <div class="label table-cell">
-                  {{
-                    t("Features.UnlimitedTranscription.feature2TableRow4Label")
-                  }}
-                </div>
+                <div class="label table-cell">NeverCap</div>
                 <div class="value table-cell">
                   <span class="limit-badge success">{{
                     t("Features.UnlimitedTranscription.feature2TableRow4Value")

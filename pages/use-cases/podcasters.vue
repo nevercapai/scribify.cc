@@ -34,30 +34,30 @@
           </div>
           <div class="flex justify-center">
             <div class="trust-badges">
-            <span>
-              <el-image
-                src="/assets/img/useCase/trustBadge1.svg"
-                class="relative top-[2px] me-[5px] h-[1rem] w-[1rem]"
-                fit="contain"
-              ></el-image>
-              {{ $i("Podcasters.trustBadge1") }}
-            </span>
               <span>
-              <el-image
-                src="/assets/img/useCase/trustBadge2.svg"
-                class="relative top-[2px] me-[5px] h-[1rem] w-[1rem]"
-                fit="contain"
-              ></el-image>
-              {{ $i("Podcasters.trustBadge2") }}
-            </span>
+                <el-image
+                  src="/assets/img/useCase/trustBadge1.svg"
+                  class="relative top-[2px] me-[5px] h-[1rem] w-[1rem]"
+                  fit="contain"
+                ></el-image>
+                {{ $i("Podcasters.trustBadge1") }}
+              </span>
               <span>
-              <el-image
-                src="/assets/img/useCase/trustBadge3.svg"
-                class="relative top-[2px] me-[5px] h-[1rem] w-[1rem]"
-                fit="contain"
-              ></el-image>
-              {{ $i("Podcasters.trustBadge3") }}
-            </span>
+                <el-image
+                  src="/assets/img/useCase/trustBadge2.svg"
+                  class="relative top-[2px] me-[5px] h-[1rem] w-[1rem]"
+                  fit="contain"
+                ></el-image>
+                {{ $i("Podcasters.trustBadge2") }}
+              </span>
+              <span>
+                <el-image
+                  src="/assets/img/useCase/trustBadge3.svg"
+                  class="relative top-[2px] me-[5px] h-[1rem] w-[1rem]"
+                  fit="contain"
+                ></el-image>
+                {{ $i("Podcasters.trustBadge3") }}
+              </span>
             </div>
           </div>
         </div>
@@ -187,7 +187,17 @@
               margin: 0 auto;
             "
           >
-            {{ $i("Podcasters.solutionDescription") }}
+            <i18n-t keypath="UseCases.Podcasters.solutionDescriptionA" tag="p">
+              <template #NeverCap>
+                <a
+                  href="https://nevercap.ai/"
+                  style="text-decoration: none; color: inherit"
+                >
+                  NeverCap
+                </a>
+              </template>
+            </i18n-t>
+            <!-- {{ $i("Podcasters.solutionDescription") }} -->
           </p>
         </div>
       </div>
@@ -430,9 +440,7 @@
         <div class="section-header">
           <h2 class="section-title">
             {{ $i("Podcasters.comparisonTitle") }}
-            <span class="gradient-text">{{
-              $i("Podcasters.comparisonTitleHighlight")
-            }}</span>
+            <span class="gradient-text"> NeverCap </span>
           </h2>
           <p class="section-subtitle">
             {{ $i("Podcasters.comparisonSubtitle") }}
@@ -442,146 +450,150 @@
         <div class="comparison-table">
           <table>
             <thead>
-            <tr>
-              <th>{{ $i("Podcasters.comparison.headers.feature") }}</th>
-              <th style="background: #f0fdf4">
-                {{ $i("Podcasters.comparison.headers.nevercap") }}
-              </th>
-              <th>{{ $i("Podcasters.comparison.headers.otter") }}</th>
-              <th>{{ $i("Podcasters.comparison.headers.descript") }}</th>
-            </tr>
+              <tr>
+                <th>{{ $i("Podcasters.comparison.headers.feature") }}</th>
+                <th style="background: #f0fdf4">NeverCap</th>
+                <th>Otter.ai Pro</th>
+                <th>{{ $i("Podcasters.comparison.headers.descript") }}</th>
+              </tr>
             </thead>
             <tbody>
-            <tr>
-              <td>
-                <strong>{{
+              <tr>
+                <td>
+                  <strong>{{
                     $i("Podcasters.comparison.rows.monthlyLimit.feature")
                   }}</strong>
-              </td>
-              <td :data-label="$i('Podcasters.comparison.headers.nevercap')">
-          <span class="check-mark">{{
-              $i("Podcasters.comparison.rows.monthlyLimit.nevercap")
-            }}</span>
-              </td>
-              <td :data-label="$i('Podcasters.comparison.headers.otter')">
-                {{ $i("Podcasters.comparison.rows.monthlyLimit.otter") }}
-              </td>
-              <td :data-label="$i('Podcasters.comparison.headers.descript')">
-                {{ $i("Podcasters.comparison.rows.monthlyLimit.descript") }}
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <strong>{{
+                </td>
+                <td data-label="NeverCap">
+                  <span class="check-mark">{{
+                    $i("Podcasters.comparison.rows.monthlyLimit.nevercap")
+                  }}</span>
+                </td>
+                <td data-label="Otter.ai Pro">
+                  {{ $i("Podcasters.comparison.rows.monthlyLimit.otter") }}
+                </td>
+                <td :data-label="$i('Podcasters.comparison.headers.descript')">
+                  {{ $i("Podcasters.comparison.rows.monthlyLimit.descript") }}
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>{{
                     $i("Podcasters.comparison.rows.uploadLimit.feature")
                   }}</strong>
-              </td>
-              <td :data-label="$i('Podcasters.comparison.headers.nevercap')">
-          <span class="check-mark">{{
-              $i("Podcasters.comparison.rows.uploadLimit.nevercap")
-            }}</span>
-              </td>
-              <td :data-label="$i('Podcasters.comparison.headers.otter')">
-                {{ $i("Podcasters.comparison.rows.uploadLimit.otter") }}
-              </td>
-              <td :data-label="$i('Podcasters.comparison.headers.descript')">
-                {{ $i("Podcasters.comparison.rows.uploadLimit.descript") }}
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <strong>{{
+                </td>
+                <td data-label="NeverCap">
+                  <span class="check-mark">{{
+                    $i("Podcasters.comparison.rows.uploadLimit.nevercap")
+                  }}</span>
+                </td>
+                <td data-label="Otter.ai Pro">
+                  {{ $i("Podcasters.comparison.rows.uploadLimit.otter") }}
+                </td>
+                <td :data-label="$i('Podcasters.comparison.headers.descript')">
+                  {{ $i("Podcasters.comparison.rows.uploadLimit.descript") }}
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>{{
                     $i("Podcasters.comparison.rows.batchProcessing.feature")
                   }}</strong>
-              </td>
-              <td :data-label="$i('Podcasters.comparison.headers.nevercap')">
-          <span class="check-mark">{{
-              $i("Podcasters.comparison.rows.batchProcessing.nevercap")
-            }}</span>
-              </td>
-              <td :data-label="$i('Podcasters.comparison.headers.otter')">
-          <span class="x-mark">{{
-              $i("Podcasters.comparison.rows.batchProcessing.otter")
-            }}</span>
-              </td>
-              <td :data-label="$i('Podcasters.comparison.headers.descript')">
-          <span class="x-mark">{{
-              $i("Podcasters.comparison.rows.batchProcessing.descript")
-            }}</span>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <strong>{{
+                </td>
+                <td data-label="NeverCap">
+                  <span class="check-mark">{{
+                    $i("Podcasters.comparison.rows.batchProcessing.nevercap")
+                  }}</span>
+                </td>
+                <td data-label="Otter.ai Pro">
+                  <span class="x-mark">{{
+                    $i("Podcasters.comparison.rows.batchProcessing.otter")
+                  }}</span>
+                </td>
+                <td :data-label="$i('Podcasters.comparison.headers.descript')">
+                  <span class="x-mark">{{
+                    $i("Podcasters.comparison.rows.batchProcessing.descript")
+                  }}</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>{{
                     $i("Podcasters.comparison.rows.maxLength.feature")
                   }}</strong>
-              </td>
-              <td :data-label="$i('Podcasters.comparison.headers.nevercap')">
-          <span class="check-mark">{{
-              $i("Podcasters.comparison.rows.maxLength.nevercap")
-            }}</span>
-              </td>
-              <td :data-label="$i('Podcasters.comparison.headers.otter')">{{ $i("Podcasters.comparison.rows.maxLength.otter") }}</td>
-              <td :data-label="$i('Podcasters.comparison.headers.descript')">
-                {{ $i("Podcasters.comparison.rows.maxLength.descript") }}
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <strong>{{
+                </td>
+                <td data-label="NeverCap">
+                  <span class="check-mark">{{
+                    $i("Podcasters.comparison.rows.maxLength.nevercap")
+                  }}</span>
+                </td>
+                <td data-label="Otter.ai Pro">
+                  {{ $i("Podcasters.comparison.rows.maxLength.otter") }}
+                </td>
+                <td :data-label="$i('Podcasters.comparison.headers.descript')">
+                  {{ $i("Podcasters.comparison.rows.maxLength.descript") }}
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>{{
                     $i("Podcasters.comparison.rows.speakerDetection.feature")
                   }}</strong>
-              </td>
-              <td :data-label="$i('Podcasters.comparison.headers.nevercap')">
-          <span class="check-mark">{{
-              $i("Podcasters.comparison.rows.speakerDetection.nevercap")
-            }}</span>
-              </td>
-              <td :data-label="$i('Podcasters.comparison.headers.otter')">
-                {{ $i("Podcasters.comparison.rows.speakerDetection.otter") }}
-              </td>
-              <td :data-label="$i('Podcasters.comparison.headers.descript')">
-                {{
-                  $i("Podcasters.comparison.rows.speakerDetection.descript")
-                }}
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <strong>{{
+                </td>
+                <td data-label="NeverCap">
+                  <span class="check-mark">{{
+                    $i("Podcasters.comparison.rows.speakerDetection.nevercap")
+                  }}</span>
+                </td>
+                <td data-label="Otter.ai Pro">
+                  {{ $i("Podcasters.comparison.rows.speakerDetection.otter") }}
+                </td>
+                <td :data-label="$i('Podcasters.comparison.headers.descript')">
+                  {{
+                    $i("Podcasters.comparison.rows.speakerDetection.descript")
+                  }}
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>{{
                     $i("Podcasters.comparison.rows.smartFormatting.feature")
                   }}</strong>
-              </td>
-              <td :data-label="$i('Podcasters.comparison.headers.nevercap')">
-          <span class="check-mark">{{
-              $i("Podcasters.comparison.rows.smartFormatting.nevercap")
-            }}</span>
-              </td>
-              <td :data-label="$i('Podcasters.comparison.headers.otter')">
-          <span class="check-mark">{{
-              $i("Podcasters.comparison.rows.smartFormatting.otter")
-            }}</span>
-              </td>
-              <td :data-label="$i('Podcasters.comparison.headers.descript')">
-          <span class="check-mark">{{
-              $i("Podcasters.comparison.rows.smartFormatting.descript")
-            }}</span>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <strong>{{
+                </td>
+                <td data-label="NeverCap">
+                  <span class="check-mark">{{
+                    $i("Podcasters.comparison.rows.smartFormatting.nevercap")
+                  }}</span>
+                </td>
+                <td data-label="Otter.ai Pro">
+                  <span class="check-mark">{{
+                    $i("Podcasters.comparison.rows.smartFormatting.otter")
+                  }}</span>
+                </td>
+                <td :data-label="$i('Podcasters.comparison.headers.descript')">
+                  <span class="check-mark">{{
+                    $i("Podcasters.comparison.rows.smartFormatting.descript")
+                  }}</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>{{
                     $i("Podcasters.comparison.rows.price.feature")
                   }}</strong>
-              </td>
-              <td :data-label="$i('Podcasters.comparison.headers.nevercap')">
-                <strong>{{
+                </td>
+                <td data-label="NeverCap">
+                  <strong>{{
                     $i("Podcasters.comparison.rows.price.nevercap")
                   }}</strong>
-              </td>
-              <td :data-label="$i('Podcasters.comparison.headers.otter')">{{ $i("Podcasters.comparison.rows.price.otter") }}</td>
-              <td :data-label="$i('Podcasters.comparison.headers.descript')">{{ $i("Podcasters.comparison.rows.price.descript") }}</td>
-            </tr>
+                </td>
+                <td data-label="Otter.ai Pro">
+                  {{ $i("Podcasters.comparison.rows.price.otter") }}
+                </td>
+                <td :data-label="$i('Podcasters.comparison.headers.descript')">
+                  {{ $i("Podcasters.comparison.rows.price.descript") }}
+                </td>
+              </tr>
             </tbody>
           </table>
         </div>

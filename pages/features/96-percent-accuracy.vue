@@ -415,11 +415,8 @@
           </div>
           <div class="feature-visual">
             <div
-              class="sm:p-[30px] p-0"
-              style="
-                background: var(--light-gray);
-                border-radius: 12px;
-              "
+              class="p-0 sm:p-[30px]"
+              style="background: var(--light-gray); border-radius: 12px"
             >
               <h3
                 style="
@@ -482,6 +479,14 @@
             </span>
           </h2>
           <p class="section-subtitle">
+            See how
+            <a
+              href="https://nevercap.ai/"
+              style="text-decoration: none; color: inherit"
+            >
+              NeverCap
+            </a>
+            stacks up against the competition
             {{ t("Features.Accuracy.comparisonDes") }}
           </p>
         </div>
@@ -489,113 +494,129 @@
         <div class="comparison-table">
           <table>
             <thead>
-            <tr>
-              <th>{{ t("Features.Accuracy.tableHeader1") }}</th>
-              <th>{{ t("Features.Accuracy.tableHeader2") }}</th>
-              <th>{{ t("Features.Accuracy.tableHeader3") }}</th>
-              <th>{{ t("Features.Accuracy.tableHeader4") }}</th>
-              <th>{{ t("Features.Accuracy.tableHeader5") }}</th>
-            </tr>
+              <tr>
+                <th>{{ t("Features.Accuracy.tableHeader1") }}</th>
+                <th>NeverCap</th>
+                <th>Otter.ai</th>
+                <th>Descript</th>
+                <th>Rev</th>
+              </tr>
             </thead>
             <tbody>
-            <tr>
-              <td>
-                <strong>{{ t("Features.Accuracy.tableRow1Feature") }}</strong>
-              </td>
-              <td :data-label="t('Features.Accuracy.tableHeader2')">
-          <span class="check-mark">{{
-              t("Features.Accuracy.tableRow1NeverCap")
-            }}</span>
-              </td>
-              <td :data-label="t('Features.Accuracy.tableHeader3')">{{ t("Features.Accuracy.tableRow1Otter") }}</td>
-              <td :data-label="t('Features.Accuracy.tableHeader4')">{{ t("Features.Accuracy.tableRow1Descript") }}</td>
-              <td :data-label="t('Features.Accuracy.tableHeader5')">{{ t("Features.Accuracy.tableRow1Rev") }}</td>
-            </tr>
-            <tr>
-              <td>
-                <strong>{{ t("Features.Accuracy.tableRow2Feature") }}</strong>
-              </td>
-              <td :data-label="t('Features.Accuracy.tableHeader2')">
-          <span class="check-mark">
-            {{ t("Features.Accuracy.tableRow2NeverCap") }}
-          </span>
-              </td>
-              <td class="check-mark" :data-label="t('Features.Accuracy.tableHeader3')">
-                {{ t("Features.Accuracy.tableRow2Otter") }}
-              </td>
-              <td class="check-mark" :data-label="t('Features.Accuracy.tableHeader4')">
-                {{ t("Features.Accuracy.tableRow2Descript") }}
-              </td>
-              <td class="x-mark" :data-label="t('Features.Accuracy.tableHeader5')">
-                {{ t("Features.Accuracy.tableRow2Rev") }}
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <strong>{{ t("Features.Accuracy.tableRow3Feature") }}</strong>
-              </td>
-              <td :data-label="t('Features.Accuracy.tableHeader2')">
-          <span class="check-mark">{{
-              t("Features.Accuracy.tableRow3NeverCap")
-            }}</span>
-              </td>
-              <td :data-label="t('Features.Accuracy.tableHeader3')">{{ t("Features.Accuracy.tableRow3Otter") }}</td>
-              <td :data-label="t('Features.Accuracy.tableHeader4')">{{ t("Features.Accuracy.tableRow3Descript") }}</td>
-              <td class="x-mark" :data-label="t('Features.Accuracy.tableHeader5')">
-                {{ t("Features.Accuracy.tableRow3Rev") }}
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <strong>{{ t("Features.Accuracy.tableRow4Feature") }}</strong>
-              </td>
-              <td :data-label="t('Features.Accuracy.tableHeader2')">
-          <span class="check-mark">{{
-              t("Features.Accuracy.tableRow4NeverCap")
-            }}</span>
-              </td>
-              <td :data-label="t('Features.Accuracy.tableHeader3')">{{ t("Features.Accuracy.tableRow4Otter") }}</td>
-              <td :data-label="t('Features.Accuracy.tableHeader4')">{{ t("Features.Accuracy.tableRow4Descript") }}</td>
-              <td class="x-mark" :data-label="t('Features.Accuracy.tableHeader5')">
-                {{ t("Features.Accuracy.tableRow4Rev") }}
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <strong>{{ t("Features.Accuracy.tableRow5Feature") }}</strong>
-              </td>
-              <td :data-label="t('Features.Accuracy.tableHeader2')">
-          <span class="check-mark">
-            {{ t("Features.Accuracy.tableRow5NeverCap") }}
-          </span>
-              </td>
-              <td class="check-mark" :data-label="t('Features.Accuracy.tableHeader3')">
-                {{ t("Features.Accuracy.tableRow5Otter") }}
-              </td>
-              <td class="check-mark" :data-label="t('Features.Accuracy.tableHeader4')">
-                {{ t("Features.Accuracy.tableRow5Descript") }}
-              </td>
-              <td :data-label="t('Features.Accuracy.tableHeader5')">{{ t("Features.Accuracy.tableRow5Rev") }}</td>
-            </tr>
-            <tr>
-              <td>
-                <strong>{{ t("Features.Accuracy.tableRow6Feature") }}</strong>
-              </td>
-              <td :data-label="t('Features.Accuracy.tableHeader2')">
-          <span class="check-mark">{{
-              t("Features.Accuracy.tableRow6NeverCap")
-            }}</span>
-              </td>
-              <td class="x-mark" :data-label="t('Features.Accuracy.tableHeader3')">
-                {{ t("Features.Accuracy.tableRow6Otter") }}
-              </td>
-              <td class="x-mark" :data-label="t('Features.Accuracy.tableHeader4')">
-                {{ t("Features.Accuracy.tableRow6Descript") }}
-              </td>
-              <td class="x-mark" :data-label="t('Features.Accuracy.tableHeader5')">
-                {{ t("Features.Accuracy.tableRow6Rev") }}
-              </td>
-            </tr>
+              <tr>
+                <td>
+                  <strong>{{ t("Features.Accuracy.tableRow1Feature") }}</strong>
+                </td>
+                <td data-label="NeverCap">
+                  <span class="check-mark">{{
+                    t("Features.Accuracy.tableRow1NeverCap")
+                  }}</span>
+                </td>
+                <td data-label="Otter.ai">
+                  {{ t("Features.Accuracy.tableRow1Otter") }}
+                </td>
+                <td data-label="Descript">
+                  {{ t("Features.Accuracy.tableRow1Descript") }}
+                </td>
+                <td data-label="Rev">
+                  {{ t("Features.Accuracy.tableRow1Rev") }}
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>{{ t("Features.Accuracy.tableRow2Feature") }}</strong>
+                </td>
+                <td data-label="NeverCap">
+                  <span class="check-mark">
+                    {{ t("Features.Accuracy.tableRow2NeverCap") }}
+                  </span>
+                </td>
+                <td class="check-mark" data-label="Otter.ai">
+                  {{ t("Features.Accuracy.tableRow2Otter") }}
+                </td>
+                <td class="check-mark" data-label="Descript">
+                  {{ t("Features.Accuracy.tableRow2Descript") }}
+                </td>
+                <td class="x-mark" data-label="Rev">
+                  {{ t("Features.Accuracy.tableRow2Rev") }}
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>{{ t("Features.Accuracy.tableRow3Feature") }}</strong>
+                </td>
+                <td data-label="NeverCap">
+                  <span class="check-mark">{{
+                    t("Features.Accuracy.tableRow3NeverCap")
+                  }}</span>
+                </td>
+                <td data-label="Otter.ai">
+                  {{ t("Features.Accuracy.tableRow3Otter") }}
+                </td>
+                <td data-label="Descript">
+                  {{ t("Features.Accuracy.tableRow3Descript") }}
+                </td>
+                <td class="x-mark" data-label="Rev">
+                  {{ t("Features.Accuracy.tableRow3Rev") }}
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>{{ t("Features.Accuracy.tableRow4Feature") }}</strong>
+                </td>
+                <td data-label="NeverCap">
+                  <span class="check-mark">{{
+                    t("Features.Accuracy.tableRow4NeverCap")
+                  }}</span>
+                </td>
+                <td data-label="Otter.ai">
+                  {{ t("Features.Accuracy.tableRow4Otter") }}
+                </td>
+                <td data-label="Descript">
+                  {{ t("Features.Accuracy.tableRow4Descript") }}
+                </td>
+                <td class="x-mark" data-label="Rev">
+                  {{ t("Features.Accuracy.tableRow4Rev") }}
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>{{ t("Features.Accuracy.tableRow5Feature") }}</strong>
+                </td>
+                <td data-label="NeverCap">
+                  <span class="check-mark">
+                    {{ t("Features.Accuracy.tableRow5NeverCap") }}
+                  </span>
+                </td>
+                <td class="check-mark" data-label="Otter.ai">
+                  {{ t("Features.Accuracy.tableRow5Otter") }}
+                </td>
+                <td class="check-mark" data-label="Descript">
+                  {{ t("Features.Accuracy.tableRow5Descript") }}
+                </td>
+                <td data-label="Rev">
+                  {{ t("Features.Accuracy.tableRow5Rev") }}
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>{{ t("Features.Accuracy.tableRow6Feature") }}</strong>
+                </td>
+                <td data-label="NeverCap">
+                  <span class="check-mark">{{
+                    t("Features.Accuracy.tableRow6NeverCap")
+                  }}</span>
+                </td>
+                <td class="x-mark" data-label="Otter.ai">
+                  {{ t("Features.Accuracy.tableRow6Otter") }}
+                </td>
+                <td class="x-mark" data-label="Descript">
+                  {{ t("Features.Accuracy.tableRow6Descript") }}
+                </td>
+                <td class="x-mark" data-label="Rev">
+                  {{ t("Features.Accuracy.tableRow6Rev") }}
+                </td>
+              </tr>
             </tbody>
           </table>
         </div>

@@ -105,7 +105,12 @@
 
           <div class="limit-card nevercap">
             <div class="service-logo">
-              {{ t("Features.BulkUpload.limitCard4Service") }}
+              <a
+                href="https://nevercap.ai/"
+                style="text-decoration: none; color: inherit"
+              >
+                NeverCap
+              </a>
             </div>
             <div class="limit-number">
               {{ t("Features.BulkUpload.limitCard4Number") }}

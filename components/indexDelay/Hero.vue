@@ -11,7 +11,7 @@
           </span>
         </h1>
         <p class="hero-subtitle">
-          {{ $i("Hero.subtitle") }}
+          {{ $i("Hero.subtitleA") }}
         </p>
         <div class="cta-buttons">
           <span class="flex-center-m">

@@ -557,8 +557,8 @@ let message = {
       badge: 'No More "Shrinkflation" - Actually Unlimited',
       h1: "Stop Paying for Limits:",
       gradient: "Truly Unlimited AI Transcription",
-      subtitle:
-        "Our AI transcribes video and converts audio to text, processing 50 files at once with no monthly caps. Transcription that truly scales with you.",
+      subtitleA:
+        "NeverCap's AI transcribes video and converts audio to text, processing 50 files at once with no monthly caps. Transcription that truly scales with you.",
       FreeTrial: "Try It Free - No Credit Card",
       HowWorks: "See How It Works",
       Unlimited: "Unlimited File Uploads",
@@ -631,8 +631,8 @@ let message = {
       }
     },
     Testimonials: {
-      title: "Loved by",
-      highlighted_users: "50,000+ Users",
+      titleA: "Loved by 50,000+ Users of",
+      // highlighted_users: "50,000+ Users",
       subtitle: "See why professionals choose NeverCap over limited alternatives",
       Mike: {
         "text": "Holy crap, this thing actually works! Been doing a podcast for 3 years and was manually transcribing everything like an idiot. Uploaded 6 episodes at once and it separated me and my co-host perfectly. The coffee shop episode I thought was ruined? Crystal clear transcript. I'm never going back to typing this stuff out myself.",
@@ -719,8 +719,10 @@ let message = {
       heroBadgeText: 'No More "Shrinkflation"',
       heroTitleLine1: "Truly Unlimited",
       heroTitleLine2: "AI Transcription",
-      heroSubtitle:
-        "While Trint caps you at 50 hours and Otter limits you to 10 files per month, we deliver what we actually promise: unlimited transcription with no hidden caps.",
+      heroSubtitle1:
+        "While Trint caps you at 50 hours and Otter limits you to 10 files per month, ",
+      heroSubtitle2:
+        " deliver what we actually promise: unlimited transcription with no hidden caps.",
       primaryCta: "Try It Free - No Credit Card",
       secondaryCta: "See the Truth",
 
@@ -796,7 +798,6 @@ let message = {
       feature2TableRow2Value: "10 files/month",
       feature2TableRow3Label: "Trint",
       feature2TableRow3Value: "50 hours/month cap",
-      feature2TableRow4Label: "NeverCap",
       feature2TableRow4Value: "Truly Unlimited ✓",
 
       feature3Label: "Social Proof",
@@ -867,7 +868,6 @@ let message = {
       limitCard3DescriptionLine1: "File at a time",
       limitCard3DescriptionLine2: "(Sequential upload)",
 
-      limitCard4Service: "NeverCap",
       limitCard4Number: "∞",
       limitCard4DescriptionLine1: "Unlimited uploads",
       limitCard4DescriptionLine2: "50 files per batch",
@@ -1092,12 +1092,9 @@ let message = {
 
       comparisonSubtitle: "Accuracy ",
       comparisonSectionTitle: "Comparison",
-      comparisonDes: "See how we stack up against the competition",
+      comparisonDes1: "See how ",
+      comparisonDes2: " stack up against the competition",
       tableHeader1: "Feature",
-      tableHeader2: "NeverCap",
-      tableHeader3: "Otter.ai",
-      tableHeader4: "Descript",
-      tableHeader5: "Rev",
       tableRow1Feature: "Accuracy (Clear Audio)",
       tableRow1NeverCap: "96%",
       tableRow1Otter: "95%",
@@ -1359,8 +1356,8 @@ let message = {
       builtFor: "Built for",
       heavyUsers: "Heavy Users",
       whoActuallyNeed: "Who Actually Need Unlimited",
-      heroSubtitle:
-        "From podcasters with years of backlog to researchers with hundreds of interviews. See how professionals use NeverCap to break free from upload limits and minute caps.",
+      heroSubtitleA:
+        "From podcasters with years of backlog to researchers with hundreds of interviews. See how professionals use {NeverCap} to break free from upload limits and minute caps.",
 
       // Individual use case data
       podcasters: {
@@ -1573,8 +1570,8 @@ let message = {
 
       solutionTitle: "The",
       solutionTitleHighlight: "NeverCap Solution",
-      solutionDescription:
-        "True unlimited transcription. Upload your entire archive. Transcribe every new episode. Generate show notes at scale. No caps, no limits, just growth.",
+      solutionDescriptionA:
+        "With {NeverCap}, you get true unlimited transcription. Upload your entire archive. Transcribe every new episode. Generate show notes at scale. No caps, no limits, just growth.",
 
       // Workflow Section
       workflowTitle: "Your Podcast Workflow,",
@@ -1661,14 +1658,11 @@ let message = {
 
       // Comparison Section
       comparisonTitle: "Why Podcasters Choose",
-      comparisonTitleHighlight: "NeverCap",
       comparisonSubtitle: "See how we stack up against the competition",
 
       comparison: {
         headers: {
           feature: "Feature",
-          nevercap: "NeverCap",
-          otter: "Otter.ai Pro",
           descript: "Descript Creator"
         },
         rows: {
@@ -1794,7 +1788,7 @@ let message = {
         solution: {
           title: `The`,
           titleHighlight: `NeverCap Solution`,
-          description: `True unlimited transcription. Upload your entire investigation. Transcribe every interview. Search all quotes instantly. No caps, no limits, just journalism.`
+          descriptionA: `With {NeverCap}, you get true unlimited transcription. Upload your entire investigation. Transcribe every interview. Search all quotes instantly. No caps, no limits, just journalism.`
         }
       },
       solution: {
@@ -1922,7 +1916,7 @@ let message = {
         title: `Transcribe YouTube Videos,`,
         titleHighlight: `Limitlessly`,
         titleSuffix: `1`,
-        subtitle: `Whether you need to transcribe a YouTube video, transcribe a TikTok video for repurposing, or figure out how to transcribe a Facebook video to text, our platform handles it all seamlessly. Generate subtitles in 100+ languages with no monthly limits – just pure creative freedom.`,
+        subtitleA: `Whether you need to transcribe a YouTube video, transcribe a TikTok video for repurposing, or figure out how to transcribe a Facebook video to text, {NeverCap} handles it all seamlessly. Generate subtitles in 100+ languages with no monthly limits – just pure creative freedom.`,
         ctaPrimary: `Start Unlimited Captioning →`,
         ctaSecondary: `See How It Works`,
         stats: {
@@ -2139,8 +2133,8 @@ let message = {
 
       title: "The ",
       solutionTitle: "NeverCap Solution",
-      solutionDesc:
-        "True unlimited transcription. Upload your entire study. Transcribe every interview. Analyze all your data. No caps, no limits, just research.",
+      solutionDescA:
+        "With {NeverCap}, you get true unlimited transcription. Upload your entire study. Transcribe every interview. Analyze all your data. No caps, no limits, just research.",
 
       // Features Section
       feature1Label: "No Limits",
@@ -2255,8 +2249,8 @@ let message = {
       heroBadge: "For Business Teams",
       heroTitle1: "Meeting Recording",
       heroTitle2: "Made Effortless",
-      heroSubtitle:
-        "Record meetings directly in your browser or upload audio files instantly. Build searchable archives from unlimited conversations. Never lose important discussions again with truly unlimited transcription.",
+      heroSubtitleA:
+        "Record meetings directly in your browser or upload audio files instantly. Build searchable archives from unlimited conversations. Never lose important discussions again with truly unlimited transcription from {NeverCap}.",
       heroCtaPrimary: "Start Recording Now →",
       heroCtaSecondary: "See How It Works",
 
@@ -2342,7 +2336,6 @@ let message = {
 
       // Testimonials Section
       testimonialsTitle: "Teams Love",
-      testimonialsTitle2: "NeverCap",
       testimonialsSubtitle:
         "See how businesses transform their meeting culture",
 
@@ -2487,8 +2480,8 @@ let message = {
       testimonialTitle: "Trusted by",
       testimonialTitle2: "50,000+ Educators",
       testimonialSubtitle: "See why teachers worldwide choose NeverCap",
-      testimonialText:
-        '"I\'ve been using NeverCap to transcribe my entire YouTube channel of math tutorials. What used to take weeks with other services now takes hours. The ability to paste links directly and get instant transcripts has transformed how I create accessible content. My international students especially love the multi-language captions!"',
+      testimonialTextA:
+        '"I\'ve been using {NeverCap} to transcribe my entire YouTube channel of math tutorials. What used to take weeks with other services now takes hours. The ability to paste links directly and get instant transcripts has transformed how I create accessible content. My international students especially love the multi-language captions!"',
       testimonialAuthorName: "Prof. Karen Mitchell",
       testimonialAuthorRole: "Mathematics Professor, Online Educator",
 
@@ -2666,7 +2659,6 @@ let message = {
     Hero: {
       "badge": "Industry-Leading AI Technology",
       "title": "About ",
-      "highlighted_text": "NeverCap",
       "description": "Our mission is to provide the most accurate audio and video transcription services. Leveraging industry-leading AI technology, we achieve transcription accuracy rates of over 96%. For some major languages, through technical optimization, we can even reach 99% accuracy."
     },
     Stats: {
@@ -2693,7 +2685,6 @@ let message = {
     },
     Mission: {
       "title": "Why Choose ",
-      "highlighted_text": "NeverCap",
       "subtitle": "We believe in breaking down language barriers and making content accessible to everyone",
       "features": [
         {
@@ -2751,7 +2742,7 @@ let message = {
     "lastUpdated": "Last updated: {date}",
     "lastUpdatedDate": "July 21, 2025",
     "privacyPolicyTitle": "Privacy Policy",
-    policyDescription: "This Policy describes how NeverCap (hereinafter referred to as \"NeverCap\", \"our\", \"we\", \"us\") collects, uses, and discloses your personal information when you use our services, websites ({url}) , and software (collectively, the \"Services\").",
+    policyDescriptionA: "This Policy describes how {NeverCap} (hereinafter referred to as \"NeverCap\", \"our\", \"we\", \"us\") collects, uses, and discloses your personal information when you use our services, websites ({url}) , and software (collectively, the \"Services\").",
     "policyAgreement": "Please read this Privacy Policy carefully and ensure that you understand it. By using any of our Services, you agree to this Privacy Policy. If you do not agree to our use of your personal data in line with this Policy, you must stop using our Services immediately.",
     "policyOverview": "In this policy, we lay out: what data we collect and why; how your data is handled; and your rights with respect to your data. We do not sell your data.",
     "scopeTitle": "1. Scope of this Privacy Policy",
@@ -2792,7 +2783,6 @@ let message = {
     "contactTitle": "9. Contact Us",
     contactDescription: `If you have any questions, comments or complaints about our Privacy Policy, please contact us {at} {email} and we will endeavor to deal with your complaint as soon as possible.`,
     "websiteUrl": "https://www.nevercap.ai/",
-    "neverCap": "NeverCap"
   },
   TermsOfUse: {
     title: 'Terms of',
@@ -2802,7 +2792,7 @@ let message = {
     "lastUpdatedDate": "July 21, 2025",
     "termsOfServiceTitle": "Terms of Service",
     "thankYou": "Thank you for using our products!",
-    "companyDefinition": "When we say \"Company\", \"we\", \"our\", or \"us\" in this document, we are referring to NeverCap.",
+    "companyDefinitionA": "When we say \"Company\", \"we\", \"our\", or \"us\" in this document, we are referring to {NeverCap}.",
     "servicesDefinition": "When we say \"Services\", we mean any product created and maintained by NeverCap, whether delivered within a web browser, desktop application, mobile application, or another format.",
     "termsUpdate": "We may update these Terms of Service in the future. Typically these changes have been to clarify some of these terms by linking to an expanded related policy. Whenever we make a significant change to our policies, we will refresh the date at the top of this page and take any other appropriate steps to notify account holders.",
     "acceptanceTitle": "1. Acceptance of Agreement",
@@ -2890,7 +2880,6 @@ let message = {
     "contactTitle": "17. Contact Us",
     contactDescription: "If you have a question about any of the Terms of Service, please contact us {at} {email}.",
     at: 'at',
-    "neverCap": "NeverCap",
     "site": "Site",
     "services": "Services"
   },

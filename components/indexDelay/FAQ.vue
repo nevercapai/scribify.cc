@@ -5,7 +5,7 @@
         <h2 class="section-title">
           {{ $i("FAQSection.title") }}
           <span class="gradient-text">
-            {{ $i("FAQSection.titleHighlight") }}
+            NeverCap {{ $i("FAQSection.titleHighlight") }}
           </span>
         </h2>
       </div>

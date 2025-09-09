@@ -26,7 +26,17 @@
           </h1>
 
           <p class="hero-subtitle">
-            {{ $i("ContentCreators.hero.subtitle") }}
+            <i18n-t keypath="UseCases.ContentCreators.hero.subtitleA" tag="p">
+              <template #NeverCap>
+                <a
+                  href="https://nevercap.ai/"
+                  style="text-decoration: none; color: inherit"
+                >
+                  NeverCap
+                </a>
+              </template>
+            </i18n-t>
+            <!-- {{ $i("ContentCreators.hero.subtitle") }} -->
           </p>
 
           <div class="hero-cta">
@@ -160,10 +170,7 @@
             <div style="text-align: center; width: 100%">
               <div
                 class="p-[10px] md:p-[30px]"
-                style="
-                  background: var(--light-gray);
-                  border-radius: 12px;
-                "
+                style="background: var(--light-gray); border-radius: 12px"
               >
                 <div
                   style="

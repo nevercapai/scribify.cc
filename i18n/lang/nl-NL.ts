@@ -1087,13 +1087,13 @@ let message = {
       badge: 'Geen "Shrinkflation" Meer - Echt Onbeperkt',
       h1: "Stop met Betalen voor Limieten:",
       gradient: "Echt Onbeperkte AI-transcriptie",
-      subtitle: "Onze AI transcribeert video en converteert audio naar tekst, verwerkt 50 bestanden tegelijk zonder maandelijkse limieten. Transcriptie die echt met je meegroeit.",
       FreeTrial: "Probeer Het Gratis - Geen Creditcard",
       HowWorks: "Zie Hoe Het Werkt",
       Unlimited: "Onbeperkte Bestandsuploads",
       NoCap: "Geen Maandelijkse Minutenlimiet",
       Hour: "Bestanden tot 10 Uur Ondersteund",
-      ExploreUseCases: "Verken Gebruiksvoorbeelden"
+      ExploreUseCases: "Verken Gebruiksvoorbeelden",
+        subtitleA: "De AI van NeverCap transcribeert video en converteert audio naar tekst. Het verwerkt 50 bestanden tegelijk, zonder maandelijkse limieten. Transcriptie die echt met u meegroeit."
     },
     Stats: {
       monthlyMinutes: "Maandelijkse Minuten",
@@ -1153,8 +1153,6 @@ let message = {
       }
     },
     Testimonials: {
-      title: "Geliefd door",
-      highlighted_users: "50.000+ Gebruikers",
       subtitle: "Ontdek waarom professionals voor NeverCap kiezen boven beperkte alternatieven",
       Mike: {
         "text": "Wow, dit werkt echt! Heb 3 jaar een podcast gedaan en alles handmatig uitgetypt als een idioot. Uploadde 6 afleveringen tegelijk en het scheidde mij en mijn co-host perfect. Die aflevering in het café waarvan ik dacht dat die verpest was? Kraakheldere transcriptie. Ik ga dit nooit meer zelf uittypen.",
@@ -1170,7 +1168,8 @@ let message = {
         "text": "Gebruik dit voor mijn interviews en het is waanzinnig hoe accuraat het is. Had een interview van 2 uur in gebroken Engels + Spaans en het kreeg alles goed, zelfs de tijdstempels. Betaalde mijn stagiair $200/maand om dingen uit te typen. Dit bespaart me letterlijk geld elke maand.",
         "author": "Jessica Park",
         "role": "Freelance Journalist"
-      }
+      },
+        titleA: "Geliefd bij meer dan 50.000 gebruikers van"
     },
     PricingPreview: {
       "title": "Transparante Prijzen",
@@ -1241,7 +1240,6 @@ let message = {
       heroBadgeText: 'Geen "Krimpflatie" Meer',
       heroTitleLine1: "Echt Onbeperkt",
       heroTitleLine2: "AI-transcriptie",
-      heroSubtitle: "Terwijl Trint je beperkt tot 50 uur en Otter tot 10 bestanden per maand, leveren wij wat we beloven: onbeperkte transcriptie zonder verborgen limieten.",
       primaryCta: "Probeer Het Gratis - Geen Creditcard",
       secondaryCta: "Zie de Waarheid",
       comparisonBadLabel: "Wat Anderen Doen",
@@ -1311,7 +1309,6 @@ let message = {
       feature2TableRow2Value: "10 bestanden/maand",
       feature2TableRow3Label: "Trint",
       feature2TableRow3Value: "Limiet van 50 uur/maand",
-      feature2TableRow4Label: "NeverCap",
       feature2TableRow4Value: "Echt Onbeperkt ✓",
       feature3Label: "Sociale Proof",
       feature3TitlePart1: "Gebruikers Stappen",
@@ -1341,7 +1338,9 @@ let message = {
       trustBadge4Label: "Batchupload",
       ctaTitle: "Stop met Betalen voor Nep-Onbeperkt",
       ctaSubtitle: "Sluit je aan bij duizenden die overstapten naar echt onbeperkte transcriptie",
-      finalCta: "Probeer NeverCap Gratis"
+      finalCta: "Probeer NeverCap Gratis",
+        heroSubtitle1: "Terwijl Trint je beperkt tot 50 uur en Otter je beperkt tot 10 bestanden per maand,",
+        heroSubtitle2: "leveren wat we daadwerkelijk beloven: onbeperkte transcriptie zonder verborgen limieten."
     },
     BulkUpload: {
       heroBadgeIcon: "📁",
@@ -1370,7 +1369,6 @@ let message = {
       limitCard3Number: "1",
       limitCard3DescriptionLine1: "Bestand per keer",
       limitCard3DescriptionLine2: "(Sequentiële upload)",
-      limitCard4Service: "NeverCap",
       limitCard4Number: "∞",
       limitCard4DescriptionLine1: "Onbeperkte uploads",
       limitCard4DescriptionLine2: "50 bestanden per batch",
@@ -1524,12 +1522,7 @@ let message = {
       formattingAfterText: "Dus vandaag gaan we het hebben over de nieuwe functies waar we aan hebben gewerkt. Ik denk dat je ze echt leuk zult vinden. Gebruikers vragen hier al lang om, en we hebben ze eindelijk afgerond.",
       comparisonSubtitle: "Nauwkeurigheid",
       comparisonSectionTitle: "Vergelijking",
-      comparisonDes: "Zie hoe we ons verhouden tot de concurrentie",
       tableHeader1: "Functie",
-      tableHeader2: "NeverCap",
-      tableHeader3: "Otter.ai",
-      tableHeader4: "Descript",
-      tableHeader5: "Rev",
       tableRow1Feature: "Nauwkeurigheid (Helder Audio)",
       tableRow1NeverCap: "96%",
       tableRow1Otter: "95%",
@@ -1602,7 +1595,9 @@ let message = {
         languageCard8Flag: "🇵🇹",
         languageCard8Name: "Portugees",
         languageCard8Accuracy: "96% Nauwkeurigheid",
-        languageCard9Flag: "🇷🇺"
+        languageCard9Flag: "🇷🇺",
+        comparisonDes1: "Zie hoe",
+        comparisonDes2: "zich verhouden tot de concurrentie"
     }
   },
   Pricing: {
@@ -1834,7 +1829,6 @@ let message = {
       builtFor: "Gebouwd voor",
       heavyUsers: "Zware Gebruikers",
       whoActuallyNeed: "Die Echt Onbeperkt Nodig Hebben",
-      heroSubtitle: "Van podcasters met jarenlange achterstand tot onderzoekers met honderden interviews. Ontdek hoe professionals NeverCap gebruiken om uploadlimieten en tijdsbeperkingen te omzeilen.",
       podcasters: {
         title: "Podcasters",
         pain: '"Stop met kiezen welke afleveringen transcripten verdienen"',
@@ -2037,7 +2031,8 @@ let message = {
         title: "Jouw Use Case Heeft Ook Onbeperkt Nodig",
         subtitle: "Sluit je aan bij 50.000+ professionals die stoppen met minuten tellen en beginnen met creëren",
         button: "Start Je Onbeperkte Reis →"
-      }
+      },
+        heroSubtitleA: "Van podcasters met een jarenlange achterstand tot onderzoekers met honderden interviews. Ontdek hoe professionals {NeverCap} gebruiken om uploadlimieten en minuutlimieten te omzeilen."
     },
     Podcasters: {
       badge: "Gebouwd voor Podcasters",
@@ -2086,7 +2081,6 @@ let message = {
       },
       solutionTitle: "De",
       solutionTitleHighlight: "NeverCap Oplossing",
-      solutionDescription: "Echt onbeperkte transcriptie. Upload je volledige archief. Transcribeer elke nieuwe aflevering. Genereer shownotes op grote schaal. Geen limieten, geen grenzen, alleen groei.",
       workflowTitle: "Jouw Podcastworkflow,",
       workflowTitleHighlight: "Vereenvoudigd",
       workflowSubtitle: "Van opname tot SEO-geoptimaliseerde shownotes in minuten",
@@ -2153,13 +2147,10 @@ let message = {
         }
       },
       comparisonTitle: "Waarom Podcasters Kiezen voor",
-      comparisonTitleHighlight: "NeverCap",
       comparisonSubtitle: "Zie hoe we ons verhouden tot de concurrentie",
       comparison: {
         headers: {
           feature: "Functie",
-          nevercap: "NeverCap",
-          otter: "Otter.ai Pro",
           descript: "Descript Creator"
         },
         rows: {
@@ -2210,7 +2201,8 @@ let message = {
       ctaTitle: "Begin met Elke Aflevering Transcriberen",
       ctaSubtitle: "Sluit je aan bij 10.000+ podcastmakers die nooit over limieten hoeven na te denken",
       ctaButton: "Upload Je Eerste 50 Afleveringen Gratis →",
-      ctaDisclaimer: "Geen creditcard nodig • Verwerk onbeperkte afleveringen • Altijd opzegbaar"
+      ctaDisclaimer: "Geen creditcard nodig • Verwerk onbeperkte afleveringen • Altijd opzegbaar",
+        solutionDescriptionA: "Met {NeverCap} krijg je echt onbeperkte transcriptie. Upload je volledige archief. Transcribeer elke nieuwe aflevering. Genereer shownotities op schaal. Geen caps, geen limieten, alleen groei."
     },
     Journalists: {
       hero: {
@@ -2282,7 +2274,7 @@ let message = {
         solution: {
           title: "The",
           titleHighlight: "NeverCap Oplossing",
-          description: "Echt onbeperkte transcriptie. Upload uw hele onderzoek. Transcribeer elk interview. Zoek direct alle citaten. Geen limieten, alleen journalistiek."
+            descriptionA: "Met {NeverCap} krijg je echt onbeperkte transcriptie. Upload je volledige onderzoek. Transcribeer elk interview. Zoek direct naar alle citaten. Geen hoofdletters, geen limieten, gewoon journalistiek."
         }
       },
       solution: {
@@ -2418,7 +2410,6 @@ let message = {
         title: "Transcribeer YouTube-video's,",
         titleHighlight: "Onbeperkt",
         titleSuffix: "1",
-        subtitle: "Of je nu een YouTube-video moet transcriberen, een TikTok-video voor hergebruik, of wilt weten hoe je een Facebook-video naar tekst omzet, ons platform regelt het naadloos. Genereer ondertiteling in 100+ talen zonder maandelijkse limieten – pure creatieve vrijheid.",
         ctaPrimary: "Start Onbeperkte Ondertiteling →",
         ctaSecondary: "Zie hoe het werkt",
         stats: {
@@ -2438,8 +2429,9 @@ let message = {
             number: "10+",
             label: "Platforms"
           }
-        }
-      },
+        },
+          subtitleA: "Of je nu een YouTube-video moet transcriberen, een TikTok-video moet transcriberen voor hergebruik, of moet uitvogelen hoe je een Facebook-video naar tekst kunt transcriberen, {NeverCap} regelt het allemaal naadloos. Genereer ondertitels in meer dan 100 talen zonder maandelijkse limieten – gewoon pure creatieve vrijheid."
+    },
       platforms: {
         title: "Haal op & transcriberen vanaf elk platform",
         platformNames: {
@@ -2620,7 +2612,6 @@ let message = {
       problemCard3Title: "Subsidiegeld Verdwijnt",
       problemCard3Desc: "Naarmate uw dataset groeit, exploderen de transcriptiekosten. $500 per focusgroep maakt opschalen onmogelijk.",
       solutionTitle: "NeverCap Oplossing",
-      solutionDesc: "Echt onbeperkte transcriptie. Upload uw hele studie. Transcribeer elk interview. Analyseer al uw data. Geen limieten, geen beperkingen, alleen onderzoek.",
       feature1Label: "Geen Limieten",
       feature1Title: "Uw",
       feature1Desc: 'Upload vanavond alle 200 uur aan interviews. Word wakker met complete, doorzoekbare transcripties. Geen maandelijkse limieten, geen per-bestand limieten, geen "fair use" onzin.',
@@ -2698,13 +2689,13 @@ let message = {
         testimonialText4Hl: "alles verwerken in een weekend",
         testimonialText5: ". De 20-sprekerherkenning werkte echt—zelfs tijdens onze rommeligste discussies waar iedereen door elkaar praatte. Deze tool heeft",
         testimonialText6Hl: "volledig veranderd",
-        testimonialText7: "hoe we kwalitatieve gegevens verwerken."
+        testimonialText7: "hoe we kwalitatieve gegevens verwerken.",
+        solutionDescA: "Met {NeverCap} krijg je echt onbeperkte transcriptie. Upload je volledige onderzoek. Transcribeer elk interview. Analyseer al je data. Geen caps, geen limieten, gewoon onderzoek."
     },
     BusinessTeams: {
       heroBadge: "Voor Bedrijfsteams",
       heroTitle1: "Vergaderopnames",
       heroTitle2: "Moeiteloos Gemaakt",
-      heroSubtitle: "Neem vergaderingen direct op in uw browser of upload audiobestanden direct. Bouw doorzoekbare archieven van onbeperkte gesprekken. Verlies nooit meer belangrijke discussies met echt onbeperkte transcriptie.",
       heroCtaPrimary: "Begin Nu met Opnemen →",
       heroCtaSecondary: "Zie Hoe Het Werkt",
       recordingStatus: "Opnemen...",
@@ -2774,7 +2765,7 @@ let message = {
       ctaButton: "Begin gratis met opnemen →",
         featuresTitle2: "Vergadering",
         workflowTitle2: "Zoom-opname naar tekst",
-        testimonialsTitle2: "NeverCap"
+        heroSubtitleA: "Neem vergaderingen rechtstreeks op in uw browser of upload direct audiobestanden. Creëer doorzoekbare archieven van onbeperkte gesprekken. Raak nooit meer belangrijke discussies kwijt met echt onbeperkte transcriptie van {NeverCap}."
     },
     Educators: {
       heroBadge: "Voor docenten & leraren",
@@ -2851,7 +2842,6 @@ let message = {
       useCase6Text: "Help studenten videobronnen nauwkeurig te citeren met tijdstempels. Perfect voor onderzoeksprojecten en academische papers.",
       testimonialTitle: "Vertrouwd door",
       testimonialSubtitle: "Ontdek waarom leraren wereldwijd voor NeverCap kiezen",
-      testimonialText: '"Ik gebruik NeverCap om mijn hele YouTube-kanaal met wiskundetutorials te transcriberen. Wat voorheen weken duurde met andere services, kost nu slechts uren. De mogelijkheid om links direct te plakken en direct transcripties te krijgen, heeft mijn manier van toegankelijke content creëren veranderd. Mijn internationale studenten zijn vooral dol op de ondertiteling in meerdere talen!"',
       testimonialAuthorName: "Prof. Karen Mitchell",
       testimonialAuthorRole: "Hoogleraar Wiskunde, Online Docent",
       ctaTitle: "Maak Al Je Onderwijsmateriaal Toegankelijk",
@@ -2860,7 +2850,8 @@ let message = {
         featuresTitle2: "Videotranscriptie",
         grid: "Audiobestand naar Studiegids",
         useCasesTitle2: "Onderwijsbehoefte",
-        testimonialTitle2: "50.000+ Docenten"
+        testimonialTitle2: "50.000+ Docenten",
+        testimonialTextA: "Ik gebruik {NeverCap} om mijn hele YouTube-kanaal met wiskundetutorials te transcriberen. Wat vroeger weken duurde bij andere diensten, duurt nu uren. De mogelijkheid om links direct te plakken en direct transcripties te krijgen, heeft de manier waarop ik toegankelijke content maak, radicaal veranderd. Vooral mijn internationale studenten zijn dol op de meertalige ondertiteling!"
     }
   },
   Resources: {
@@ -3009,7 +3000,6 @@ let message = {
     Hero: {
       "badge": "Toonaangevende AI-technologie",
       "title": "Over",
-      "highlighted_text": "NeverCap",
       "description": "Onze missie is om de meest nauwkeurige audio- en videotranscriptiediensten te bieden. Met toonaangevende AI-technologie behalen we transcriptienauwkeurigheid van meer dan 96%. Voor enkele belangrijke talen kunnen we zelfs 99% nauwkeurigheid bereiken door technische optimalisatie."
     },
     Stats: {
@@ -3036,7 +3026,6 @@ let message = {
     },
     Mission: {
       "title": "Waarom Kiezen voor",
-      "highlighted_text": "NeverCap",
       "subtitle": "Wij geloven in het doorbreken van taalbarrières en het toegankelijk maken van inhoud voor iedereen",
       "features": [
             {
@@ -3131,11 +3120,10 @@ let message = {
     "updatesDescription": "We kunnen dit beleid bijwerken voor naleving van regelgeving of nieuwe praktijken. Belangrijke wijzigingen worden gemarkeerd met een nieuwe datum bovenaan.",
     "contactTitle": "9. Contacteer Ons",
     "websiteUrl": "https://www.nevercap.ai/",
-    "neverCap": "NeverCap",
     at: "via",
-      policyDescription: 'Dit beleid beschrijft hoe NeverCap (hierna aangeduid als \"NeverCap\", \"onze\", \"wij\", \"ons\") uw persoonlijke informatie verzamelt, gebruikt en bekendmaakt wanneer u onze diensten, websites ({url}) en software (gezamenlijk de \"Diensten\") gebruikt.',
       childrenDescription: "De Diensten zijn niet gericht op kinderen en wij verzamelen niet bewust persoonlijke informatie van kinderen onder de 13 jaar. Als u jonger bent dan 13 jaar, gelieve geen persoonlijke informatie via de Diensten in te dienen. Als u denkt dat een kind ons persoonlijke informatie heeft verstrekt in strijd met dit Beleid, neem dan contact met ons op op {at} {email} zoals hieronder aangegeven.",
-      contactDescription: "Als u vragen, opmerkingen of klachten heeft over ons Privacybeleid, neem dan contact met ons op via {at} {email} en wij zullen uw klacht zo snel mogelijk behandelen."
+      contactDescription: "Als u vragen, opmerkingen of klachten heeft over ons Privacybeleid, neem dan contact met ons op via {at} {email} en wij zullen uw klacht zo snel mogelijk behandelen.",
+      policyDescriptionA: 'In dit beleid wordt beschreven hoe {NeverCap} (hierna aangeduid als "NeverCap", "onze", "wij", "ons") uw persoonsgegevens verzamelt, gebruikt en openbaar maakt wanneer u gebruikmaakt van onze diensten, websites ({url}) en software (gezamenlijk de "Diensten").'
 },
   TermsOfUse: {
     title: "Voorwaarden van",
@@ -3145,7 +3133,6 @@ let message = {
     "lastUpdatedDate": "21 juli 2025",
     "termsOfServiceTitle": "Servicevoorwaarden",
     "thankYou": "Bedankt voor het gebruiken van onze producten!",
-    "companyDefinition": 'Wanneer we in dit document "Bedrijf", "wij", "ons" of "onze" zeggen, verwijzen we naar NeverCap.',
     "servicesDefinition": 'Met "Diensten" bedoelen we elk product dat door NeverCap is gemaakt en wordt onderhouden, of dit nu wordt geleverd via een webbrowser, desktopapplicatie, mobiele applicatie of een ander formaat.',
     "termsUpdate": "We kunnen deze Servicevoorwaarden in de toekomst bijwerken. Meestal zijn deze wijzigingen bedoeld om sommige voorwaarden te verduidelijken door te verwijzen naar een uitgebreid gerelateerd beleid. Wanneer we een significante wijziging aanbrengen in ons beleid, zullen we de datum bovenaan deze pagina vernieuwen en passende stappen ondernemen om accounthouders op de hoogte te stellen.",
     "acceptanceTitle": "1. Aanvaarding van de overeenkomst",
@@ -3229,13 +3216,13 @@ let message = {
     "miscellaneousTitle": "16. Diversen",
     "miscellaneousDescription": "Deze Voorwaarden vormen de volledige overeenkomst tussen u en ons. Het niet handhaven van een recht betekent niet dat we dit recht opgeven. Wij kunnen rechten en verplichtingen overdragen. Wij zijn niet aansprakelijk voor gebeurtenissen buiten onze controle. Als een bepaling ongeldig is, blijven de overige bepalingen van kracht. Er ontstaat geen joint venture of partnerschap door deze Voorwaarden.",
     "contactTitle": "17. Contacteer Ons",
-    "neverCap": "NeverCap",
     "site": "Site",
     "services": "Diensten",
     at: "via",
       trademarkProtection: "De namen, uitstraling en vormgeving van de Diensten zijn auteursrechtelijk beschermd© door de Onderneming. Alle rechten voorbehouden. U mag geen enkel deel van de HTML, CSS, JavaScript of visuele ontwerpelementen dupliceren, kopiëren of hergebruiken zonder uitdrukkelijke schriftelijke toestemming van de Onderneming. U moet toestemming vragen om het logo van de Onderneming of dienstlogos voor promotiedoeleinden te gebruiken. Mail ons op {at} {email} voor verzoeken om logos te gebruiken. Wij behouden ons het recht voor om deze toestemming in te trekken als u deze Servicevoorwaarden schendt.",
       privacyPolicyDescription: "Wij hechten waarde aan gegevensprivacy en -beveiliging. Lees ons {policy} door. Door de Site te gebruiken, gaat u akkoord met ons Privacybeleid, dat onderdeel is van deze Servicevoorwaarden. Houd er rekening mee dat de Site in de Verenigde Staten wordt gehost. Als u de Site gebruikt vanuit een andere regio met wetten of vereisten voor persoonlijke gegevens die afwijken van de Amerikaanse wetgeving, dan draagt u door verder gebruik uw gegevens over naar de Verenigde Staten en gaat u akkoord met deze overdracht en verwerking.",
-      contactDescription: "Als u vragen heeft over een van de Servicevoorwaarden, neem dan contact met ons op via {at} {email}."
+      contactDescription: "Als u vragen heeft over een van de Servicevoorwaarden, neem dan contact met ons op via {at} {email}.",
+      "companyDefinitionA": 'Wanneer we in dit document de termen "Bedrijf", "wij", "onze" of "ons" gebruiken, verwijzen we naar {NeverCap}.'
 }
 };
 

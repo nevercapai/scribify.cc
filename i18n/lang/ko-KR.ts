@@ -1069,13 +1069,13 @@ let message = {
       badge: '더 이상 "슈링크플레이션" 없음 - 진정한 무제한',
       h1: "제한에 대한 비용 지불 중단:",
       gradient: "진정한 무제한 AI 음성 인식",
-      subtitle: "당사의 AI는 동영상을 텍스트로 변환하고 오디오를 텍스트로 변환하며, 월간 제한 없이 한 번에 50개의 파일을 처리합니다. 진정으로 확장 가능한 음성 인식 서비스입니다.",
       FreeTrial: "무료로 체험하기 - 신용카드 불필요",
       HowWorks: "작동 방식 보기",
       Unlimited: "무제한 파일 업로드",
       NoCap: "월간 시간 제한 없음",
       Hour: "10시간 길이 파일 지원",
-      ExploreUseCases: "사용 사례 탐색"
+      ExploreUseCases: "사용 사례 탐색",
+        subtitleA: "NeverCap의 AI는 비디오를 텍스트로 변환하고 오디오를 텍스트로 변환하여 월 사용량 제한 없이 최대 50개의 파일을 한 번에 처리합니다. 사용자와 함께 확장 가능한 진정한 텍스트 변환 서비스입니다."
     },
     Stats: {
       monthlyMinutes: "월간 시간",
@@ -1135,8 +1135,6 @@ let message = {
       }
     },
     Testimonials: {
-      title: "사랑받는",
-      highlighted_users: "50,000명 이상의 사용자",
       subtitle: "전문가들이 제한적인 대안 대신 NeverCap을 선택하는 이유 확인하기",
       Mike: {
         "text": "와, 이거 진짜 작동하네요! 3년 동안 팟캐스트를 하면서 바보처럼 모든 걸 수동으로 필사했어요. 한 번에 6개 에피소드를 업로드했는데 공동 진행자와 제 목소리를 완벽하게 구분했어요. 카페 에피소드는 망했다고 생각했는데? 텍스트가 정말 선명해요. 이제 절대 직접 타이핑 안 할 거예요.",
@@ -1152,7 +1150,8 @@ let message = {
         "text": "인터뷰에 이걸 사용하고 있는데 정확도가 미쳤어요. 부족한 영어와 스페인어로 2시간 동안 인터뷰를 했는데 모든 게 정확했어요, 타임스탬프까지요. 인턴에게 월 200달러를 주고 필사하게 했는데 이제 매달 돈을 절약하고 있어요.",
         "author": "Jessica Park",
         "role": "프리랜서 기자"
-      }
+      },
+        titleA: "50,000명 이상의 사용자에게 사랑받고 있습니다."
     },
     PricingPreview: {
       "title": "투명한 가격 정책",
@@ -1223,7 +1222,6 @@ let message = {
       heroBadgeText: '더 이상 "축소 인플레이션" 없음',
       heroTitleLine1: "진정한 무제한",
       heroTitleLine2: "AI 전사",
-      heroSubtitle: "Trint는 50시간, Otter는 월 10개 파일로 제한하지만, 우리는 숨은 제한 없이 진정한 무제한 전사를 제공합니다.",
       primaryCta: "무료로 사용해보기 - 신용카드 불필요",
       secondaryCta: "진실을 확인하세요",
       comparisonBadLabel: "다른 서비스들은",
@@ -1293,7 +1291,6 @@ let message = {
       feature2TableRow2Value: "월 10개 파일",
       feature2TableRow3Label: "Trint",
       feature2TableRow3Value: "월 50시간 제한",
-      feature2TableRow4Label: "NeverCap",
       feature2TableRow4Value: "진정한 무제한 ✓",
       feature3Label: "소셜 증명",
       feature3TitlePart1: "사용자들은",
@@ -1323,7 +1320,9 @@ let message = {
       trustBadge4Label: "일괄 업로드",
       ctaTitle: "가짜 무제한에 돈 내지 마세요",
       ctaSubtitle: "진정한 무제한 자막 생성을 선택한 수천 명과 함께하세요",
-      finalCta: "NeverCap 무료 체험"
+      finalCta: "NeverCap 무료 체험",
+        heroSubtitle1: "Trint는 한 달에 최대 50시간으로 제한하고 Otter는 한 달에 최대 10개의 파일로 제한합니다.",
+        heroSubtitle2: "실제로 약속한 바를 실현해 드립니다. 숨겨진 대문자 없이 무제한으로 필사해 드립니다."
     },
     BulkUpload: {
       heroBadgeIcon: "📁",
@@ -1352,7 +1351,6 @@ let message = {
       limitCard3Number: "1",
       limitCard3DescriptionLine1: "한 번에 하나의 파일",
       limitCard3DescriptionLine2: "(순차적 업로드)",
-      limitCard4Service: "NeverCap",
       limitCard4Number: "∞",
       limitCard4DescriptionLine1: "무제한 업로드",
       limitCard4DescriptionLine2: "일괄 처리 50개 파일",
@@ -1545,12 +1543,7 @@ let message = {
       formattingAfterText: "So today, we're going to talk about the new features we've been working on. I think you'll really like them. They've been requested by users for a long time, and we finally got them done.",
       comparisonSubtitle: "정확도",
       comparisonSectionTitle: "비교",
-      comparisonDes: "경쟁사 대비 성능 확인",
       tableHeader1: "기능",
-      tableHeader2: "NeverCap",
-      tableHeader3: "Otter.ai",
-      tableHeader4: "Descript",
-      tableHeader5: "Rev",
       tableRow1Feature: "정확도(명확한 오디오)",
       tableRow1NeverCap: "96%",
       tableRow1Otter: "95%",
@@ -1584,7 +1577,9 @@ let message = {
       ctaTitle: "96% 정확도 체험하기",
       ctaSubtitle: "가장 어려운 오디오를 업로드하고 차이를 확인하세요",
       finalCta: "정확도 테스트하기 →",
-        languageSectionTitlePart2: "12개 주요 언어"
+        languageSectionTitlePart2: "12개 주요 언어",
+        comparisonDes1: "방법을 확인하세요",
+        comparisonDes2: "경쟁자들과 맞서다"
     }
   },
   Pricing: {
@@ -1816,7 +1811,6 @@ let message = {
       builtFor: "제작 목적",
       heavyUsers: "고용량 사용자",
       whoActuallyNeed: "진정한 무제한이 필요한 분들을 위해",
-      heroSubtitle: "수년 분량의 백로그를 가진 팟캐스터부터 수백 건의 인터뷰를 진행하는 연구자까지. 전문가들이 NeverCap을 사용하여 업로드 제한과 분량 제한을 극복하는 방법을 확인하세요.",
       podcasters: {
         title: "팟캐스터",
         pain: '"대본이 필요한 에피소드를 고르는 것을 그만두세요"',
@@ -2019,7 +2013,8 @@ let message = {
         title: "당신의 사용 사례도 무제한이 필요합니다",
         subtitle: "분 단위 계산을 멈추고 창작을 시작한 50,000명 이상의 전문가에 합류하세요",
         button: "무제한 여정 시작하기 →"
-      }
+      },
+        heroSubtitleA: "수년간의 백로그를 보유한 팟캐스터부터 수백 건의 인터뷰를 진행하는 연구자까지, 전문가들이 {NeverCap}을 사용하여 업로드 제한과 시간 제한에서 어떻게 벗어나는지 알아보세요."
     },
     Podcasters: {
       badge: "팟캐스터를 위해 제작됨",
@@ -2068,7 +2063,6 @@ let message = {
       },
       solutionTitle: "이것",
       solutionTitleHighlight: "NeverCap 솔루션",
-      solutionDescription: "진정한 무제한 텍스트 변환. 전체 아카이브를 업로드하세요. 모든 새 에피소드를 변환하세요. 대량으로 쇼 노트를 생성하세요. 제한 없음, 한계 없음, 오직 성장뿐입니다.",
       workflowTitle: "당신의 팟캐스트 워크플로우,",
       workflowTitleHighlight: "단순화됨",
       workflowSubtitle: "녹음부터 SEO 최적화된 쇼 노트까지 몇 분 안에",
@@ -2135,13 +2129,10 @@ let message = {
         }
       },
       comparisonTitle: "팟캐스터가 선택하는 이유",
-      comparisonTitleHighlight: "NeverCap",
       comparisonSubtitle: "경쟁사와 비교해보세요",
       comparison: {
         headers: {
           feature: "기능",
-          nevercap: "NeverCap",
-          otter: "Otter.ai Pro",
           descript: "Descript Creator"
         },
         rows: {
@@ -2192,7 +2183,8 @@ let message = {
       ctaTitle: "모든 에피소드 자막 생성 시작하기",
       ctaSubtitle: "제한 걱정 없는 10,000명 이상의 팟캐스터와 함께하세요",
       ctaButton: "첫 50개 에피소드 무료 업로드 →",
-      ctaDisclaimer: "신용카드 불필요 • 무제한 에피소드 처리 • 언제든지 취소 가능"
+      ctaDisclaimer: "신용카드 불필요 • 무제한 에피소드 처리 • 언제든지 취소 가능",
+        solutionDescriptionA: "{NeverCap}을 사용하면 무제한으로 자막을 제작할 수 있습니다. 전체 아카이브를 업로드하고, 모든 새 에피소드를 자막으로 제작하고, 대규모 쇼 노트를 생성하세요. 제한이나 제한 없이, 오직 성장만 있을 뿐입니다."
     },
     Journalists: {
       hero: {
@@ -2264,7 +2256,7 @@ let message = {
         solution: {
           title: "The",
           titleHighlight: "네버캡 솔루션",
-          description: "진정한 무제한 필사. 전체 조사 내용을 업로드하세요. 모든 인터뷰를 필사하세요. 모든 인용문을 즉시 검색하세요. 제한 없음, 한계 없음, 오직 저널리즘만."
+            descriptionA: "{NeverCap}을 사용하면 무제한으로 기사를 작성할 수 있습니다. 조사 내용 전체를 업로드하고, 모든 인터뷰를 기록하고, 모든 인용문을 즉시 검색할 수 있습니다. 대문자도, 제한도 없이, 오직 저널리즘의 정수를 담을 수 있습니다."
         }
       },
       solution: {
@@ -2400,7 +2392,6 @@ let message = {
         title: "YouTube 동영상,",
         titleHighlight: "무제한으로 자막 생성",
         titleSuffix: "1",
-        subtitle: "YouTube 동영상 자막 생성, TikTok 동영상 재활용을 위한 텍스트 변환, Facebook 동영상 텍스트 변환 방법이 필요하든 당사 플랫폼이 완벽히 처리합니다. 월별 제한 없이 100개 이상의 언어로 자막 생성 – 순수한 창의적 자유를 누리세요.",
         ctaPrimary: "무제한 자막 생성 시작 →",
         ctaSecondary: "작동 방식 보기",
         stats: {
@@ -2420,8 +2411,9 @@ let message = {
             number: "10+",
             label: "플랫폼"
           }
-        }
-      },
+        },
+          subtitleA: "YouTube 동영상 대본 작성, TikTok 동영상의 용도 변경, Facebook 동영상의 텍스트 변환 등 어떤 작업이든 {NeverCap}이 완벽하게 처리해 드립니다. 월별 제한 없이 100개 이상의 언어로 자막을 생성하세요. 순수한 창작의 자유를 만끽하세요."
+    },
       platforms: {
         title: "모든 플랫폼에서 가져와 자막 생성",
         platformNames: {
@@ -2602,7 +2594,6 @@ let message = {
       problemCard3Title: "연구비가 사라집니다",
       problemCard3Desc: "데이터셋이 커질수록 필사 비용이 급증합니다. 포커스 그룹당 $500은 확장을 불가능하게 만듭니다.",
       solutionTitle: "네버캡 솔루션",
-      solutionDesc: "진정한 무제한 필사. 전체 연구를 업로드하세요. 모든 인터뷰를 필사하세요. 모든 데이터를 분석하세요. 제한 없음, 한계 없음, 오직 연구만.",
       feature1Label: "제한 없음",
       feature1Title: "당신의",
       feature1Desc: '오늘 밤 200시간 분량의 인터뷰를 모두 업로드하세요. 완성된 검색 가능한 필사본으로 아침을 맞이하세요. 월간 제한 없음, 파일별 제한 없음, "공정 사용" 같은 허튼소리 없음.',
@@ -2680,13 +2671,13 @@ let message = {
         testimonialText4Hl: "주말 동안 모든 것을 처리할 수 있었습니다",
         testimonialText5: ". 20명 스피커 식별 기능이 실제로 작동했습니다—심지어 모두가 동시에 말하는 가장 혼란스러운 토론 중에도 말이죠. 이 도구는",
         testimonialText6Hl: "완전히 변화시켰습니다",
-        testimonialText7: "우리가 질적 데이터를 처리하는 방식을."
+        testimonialText7: "우리가 질적 데이터를 처리하는 방식을.",
+        solutionDescA: "{NeverCap}을 사용하면 무제한으로 텍스트 변환을 할 수 있습니다. 연구 자료 전체를 업로드하고, 모든 인터뷰를 텍스트로 변환하고, 모든 데이터를 분석하세요. 제한이나 제한 없이, 오직 연구만 가능합니다."
     },
     BusinessTeams: {
       heroBadge: "비즈니스 팀을 위한",
       heroTitle1: "회의 녹음",
       heroTitle2: "간편하게 만들기",
-      heroSubtitle: "브라우저에서 직접 회의를 녹음하거나 오디오 파일을 즉시 업로드하세요. 무제한 대화로 검색 가능한 아카이브를 구축하세요. 진정한 무제한 전사로 중요한 논의를 다시는 잃지 마세요.",
       heroCtaPrimary: "지금 녹음 시작 →",
       heroCtaSecondary: "작동 방식 보기",
       recordingStatus: "녹음 중...",
@@ -2756,7 +2747,7 @@ let message = {
       ctaButton: "무료로 녹음 시작 →",
         featuresTitle2: "회의",
         workflowTitle2: "텍스트로 변환하는 방법",
-        testimonialsTitle2: "NeverCap"
+        heroSubtitleA: "브라우저에서 직접 회의를 녹화하거나 오디오 파일을 즉시 업로드하세요. 무제한 대화로 검색 가능한 아카이브를 구축하세요. {NeverCap}의 무제한 텍스트 변환 기능으로 중요한 대화를 더 이상 놓치지 마세요."
     },
     Educators: {
       heroBadge: "교육자 및 교사용",
@@ -2833,7 +2824,6 @@ let message = {
       useCase6Text: "타임스탬프로 학생들이 비디오 출처를 정확하게 인용할 수 있도록 도와주세요. 연구 프로젝트와 학술 논문에 완벽합니다.",
       testimonialTitle: "신뢰받는",
       testimonialSubtitle: "전 세계 교사들이 NeverCap을 선택하는 이유 알아보기",
-      testimonialText: '"저는 NeverCap을 사용해 수학 튜토리얼 YouTube 채널 전체를 텍스트로 변환하고 있습니다. 다른 서비스로는 몇 주가 걸리던 작업이 이제는 몇 시간이면 됩니다. 링크를 직접 붙여넣고 즉시 텍스트를 얻을 수 있는 기능은 접근성 있는 콘텐츠를 만드는 방식을 완전히 바꿔놓았습니다. 특히 국제 학생들은 다국어 자막을 정말 좋아합니다!"',
       testimonialAuthorName: "Karen Mitchell 교수",
       testimonialAuthorRole: "수학 교수, 온라인 교육자",
       ctaTitle: "모든 교육 콘텐츠를 접근 가능하게 만들기",
@@ -2842,7 +2832,8 @@ let message = {
         featuresTitle2: "동영상 자막 생성",
         grid: "오디오 파일을 학습 가이드로",
         useCasesTitle2: "교육적 필요에 완벽한",
-        testimonialTitle2: "50,000명 이상의 교육자"
+        testimonialTitle2: "50,000명 이상의 교육자",
+        testimonialTextA: '"저는 {NeverCap}을 사용해서 수학 튜토리얼 YouTube 채널 전체를 텍스트로 변환하고 있습니다. 다른 서비스에서는 몇 주씩 걸리던 작업이 이제는 몇 시간 만에 완료됩니다. 링크를 직접 붙여넣고 즉시 텍스트 변환을 받을 수 있게 되면서 접근성 높은 콘텐츠를 만드는 방식이 완전히 달라졌습니다. 특히 제 유학생들은 다국어 자막을 정말 좋아해요!"'
     }
   },
   Resources: {
@@ -2991,7 +2982,6 @@ let message = {
     Hero: {
       "badge": "업계 최고의 AI 기술",
       "title": "소개",
-      "highlighted_text": "NeverCap",
       "description": "우리의 미션은 가장 정확한 오디오 및 비디오 필사 서비스를 제공하는 것입니다. 업계 최고의 AI 기술을 활용하여 96% 이상의 필사 정확도를 달성합니다. 주요 언어의 경우 기술 최적화를 통해 99% 정확도까지 도달할 수 있습니다."
     },
     Stats: {
@@ -3018,7 +3008,6 @@ let message = {
     },
     Mission: {
       "title": "왜",
-      "highlighted_text": "NeverCap을 선택해야 할까요?",
       "subtitle": "우리는 언어 장벽을 허물고 모든 사람이 콘텐츠에 접근할 수 있도록 하는 것을 믿습니다",
       "features": [
             {
@@ -3113,11 +3102,10 @@ let message = {
     "updatesDescription": "당사는 관련 규정을 준수하고 새로운 관행을 반영하기 위해 필요 시 본 방침을 업데이트할 수 있습니다. 방침에 중대한 변경을 할 때마다 본 페이지 상단의 날짜를 갱신할 것입니다.",
     "contactTitle": "9. 문의하기",
     "websiteUrl": "https://www.nevercap.ai/",
-    "neverCap": "NeverCap",
     at: "：",
-      policyDescription: '본 정책은 NeverCap(이하 "NeverCap", "저희", "우리"라 함)이 귀하가 저희 서비스, 웹사이트({url}) 및 소프트웨어(이하 총칭하여 "서비스")를 이용할 때 개인 정보를 수집, 사용 및 공개하는 방법을 설명합니다.',
       childrenDescription: "본 서비스는 어린이를 대상으로 하지 않으며, 13세 미만 어린이로부터 고의로 개인 정보를 수집하지 않습니다. 13세 미만인 경우, 서비스를 통해 어떠한 개인 정보도 제출하지 마십시오. 만약 어린이가 본 정책을 위반하여 저희에게 개인 정보를 제공했다고 생각되면, 아래에 명시된 {at} {email}로 문의해 주시기 바랍니다.",
-      contactDescription: "개인정보 보호 정책에 관한 질문, 의견 또는 불만 사항이 있으시면 {at} {email}로 연락주시면 최대한 신속하게 처리하겠습니다."
+      contactDescription: "개인정보 보호 정책에 관한 질문, 의견 또는 불만 사항이 있으시면 {at} {email}로 연락주시면 최대한 신속하게 처리하겠습니다.",
+      policyDescriptionA: '본 정책은 {NeverCap}(이하 "NeverCap", "당사", "저희", "우리")이 귀하가 당사의 서비스, 웹사이트({url}) 및 소프트웨어(총칭하여 "서비스")를 이용할 때 귀하의 개인 정보를 수집, 사용 및 공개하는 방식에 대해 설명합니다.'
 },
   TermsOfUse: {
     title: "서비스",
@@ -3127,7 +3115,6 @@ let message = {
     "lastUpdatedDate": "2025년 7월 21일",
     "termsOfServiceTitle": "서비스 약관",
     "thankYou": "저희 제품을 이용해 주셔서 감사합니다!",
-    "companyDefinition": '본 문서에서 "회사", "우리", "저희"는 NeverCap을 지칭합니다.',
     "servicesDefinition": '"서비스"란 NeverCap이 제작 및 유지하는 웹 브라우저, 데스크톱 애플리케이션, 모바일 애플리케이션 등 모든 형태의 제품을 의미합니다.',
     "termsUpdate": "향후 서비스 약관을 업데이트할 수 있습니다. 일반적으로 변경 사항은 관련 정책 링크를 통해 명확히 설명됩니다. 정책에 중대한 변경이 있을 경우 본 페이지 상단의 날짜를 갱신하고 계정 소유자에게 적절한 방법으로 알릴 것입니다.",
     "acceptanceTitle": "1. 약관 동의",
@@ -3211,13 +3198,13 @@ let message = {
     "miscellaneousTitle": "16. 기타",
     "miscellaneousDescription": "본 이용 약관과 당사가 사이트에 게시한 모든 정책 또는 운영 규칙은 귀하와 당사 간의 완전한 합의와 이해를 구성합니다. 당사가 본 약관의 권리 또는 조항을 행사하지 않는다고 해도 해당 권리 또는 조항에 대한 포기로 간주되지 않습니다. 본 이용 약관은 법률이 허용하는 최대 한도 내에서 적용됩니다. 당사는 언제든지 권리와 의무의 전부 또는 일부를 타인에게 양도할 수 있습니다. 당사는 합리적인 통제 범위를 벗어난 원인으로 인한 손실, 손해, 지연 또는 조치 실패에 대해 책임을 지지 않습니다. 본 이용 약관의 조항 또는 조항의 일부가 불법, 무효 또는 집행 불가능한 것으로 판단되는 경우, 해당 조항 또는 일부는 본 이용 약관에서 분리 가능한 것으로 간주되며, 나머지 조항의 유효성과 집행 가능성에는 영향을 미치지 않습니다. 본 이용 약관 또는 사이트 사용의 결과로 귀하와 당사 간에 합작, 파트너십, 고용 또는 대리 관계가 생성되지 않습니다. 귀하는 본 이용 약관이 당사가 작성했다는 이유로 당사에 불리하게 해석되지 않음에 동의합니다. 귀하는 본 이용 약관의 전자적 형태와 당사자 서명 부재를 근거로 한 모든 방어권을 포기합니다.",
     "contactTitle": "17. 문의하기",
-    "neverCap": "NeverCap",
     "site": "사이트",
     "services": "서비스",
     at: "：",
       trademarkProtection: "서비스의 이름, 외관 및 느낌은 회사에 저작권©이 있습니다. 모든 권리 보유. 회사의 명시적 서면 허가 없이 HTML, CSS, JavaScript 또는 시각적 디자인 요소의 일부를 복제, 복사 또는 재사용할 수 없습니다. 회사 로고 또는 서비스 로고를 홍보 목적으로 사용하려면 반드시 허가를 받아야 합니다. 로고 사용 요청은 {at} {email}로 이메일을 보내주십시오. 본 서비스 약관을 위반할 경우, 이 허가를 취소할 권리를 보유합니다.",
       privacyPolicyDescription: "저희는 데이터 개인 정보 보호와 보안을 중요시합니다. 저희 {policy}를 확인해 주십시오. 본 사이트를 이용함으로써 귀하는 본 서비스 약관에 포함된 개인정보 보호 정책에 동의하게 됩니다. 본 사이트는 미국에서 호스팅되고 있음을 유의하시기 바랍니다. 미국의 적용 법률과 다른 개인 데이터 수집, 사용 또는 공개에 관한 법률 또는 기타 요건이 있는 세계의 다른 지역에서 사이트에 접속하는 경우, 귀하는 사이트를 계속 사용함으로써 귀하의 데이터를 미국으로 이전하는 것이며, 귀하의 데이터가 미국으로 이전되어 처리되는 데 동의하는 것입니다.",
-      contactDescription: "서비스 약관에 관한 질문이 있으시면 {at} {email}로 문의해 주십시오."
+      contactDescription: "서비스 약관에 관한 질문이 있으시면 {at} {email}로 문의해 주십시오.",
+      "companyDefinitionA": '이 문서에서 "회사", "우리", "저희" 또는 "당사"라는 표현은 {NeverCap}을 지칭합니다.'
 }
 };
 

@@ -1035,13 +1035,13 @@ let message = {
       badge: '告别"缩水式无限" - 真正无限制',
       h1: "无需再为限制付费：",
       gradient: "真正无限的AI转录",
-      subtitle: "我们的AI可将视频和音频转为文字，一次性处理50个文件且无月度上限。真正随需扩展的转录服务。",
       FreeTrial: "免费试用 - 无需信用卡",
       HowWorks: "查看工作原理",
       Unlimited: "无限文件上传",
       NoCap: "无月度时长限制",
       Hour: "支持10小时长文件",
-      ExploreUseCases: "探索使用场景"
+      ExploreUseCases: "探索使用场景",
+        subtitleA: "NeverCap 的 AI 可以转录视频并将音频转换为文本，一次可处理 50 个文件，且无月度上限。真正实现随您扩展的转录。"
     },
     Stats: {
       monthlyMinutes: "月度时长",
@@ -1101,8 +1101,6 @@ let message = {
       }
     },
     Testimonials: {
-      title: "深受",
-      highlighted_users: "50,000+ 用户",
       subtitle: "了解专业人士为何选择 NeverCap 而非有限制的替代品",
       Mike: {
         "text": "天啊，这东西真的有用！做了3年播客，一直像傻子一样手动转录所有内容。一次性上传6集节目，完美区分了我和搭档的声音。我以为咖啡馆那期毁了？结果转录清晰无比。再也不用自己打字了。",
@@ -1118,7 +1116,8 @@ let message = {
         "text": "用它做采访转录，准确度高得离谱。2小时夹杂蹩脚英语和西班牙语的采访，连时间戳都完全正确。以前每月花200美元请实习生转录。现在真的每月都在省钱。",
         "author": "Jessica Park",
         "role": "自由记者"
-      }
+      },
+        titleA: "深受 50,000+ 位用户的喜爱"
     },
     PricingPreview: {
       "title": "透明定价",
@@ -1189,7 +1188,6 @@ let message = {
       heroBadgeText: '告别"缩水式服务"',
       heroTitleLine1: "真正的无限量",
       heroTitleLine2: "AI转录",
-      heroSubtitle: "Trint限制50小时，Otter每月限10个文件，而我们兑现承诺：真正的无上限转录，绝无隐藏限制",
       primaryCta: "免费试用 - 无需信用卡",
       secondaryCta: "看清真相",
       comparisonBadLabel: "其他服务商的做法",
@@ -1259,7 +1257,6 @@ let message = {
       feature2TableRow2Value: "10个文件/月",
       feature2TableRow3Label: "Trint",
       feature2TableRow3Value: "50小时/月上限",
-      feature2TableRow4Label: "无上限",
       feature2TableRow4Value: "真正无限 ✓",
       feature3Label: "用户见证",
       feature3TitlePart1: "用户正在",
@@ -1289,7 +1286,9 @@ let message = {
       trustBadge4Label: "批量上传",
       ctaTitle: "停止为虚假无限付费",
       ctaSubtitle: "加入数千用户行列，体验真正无限的转录服务",
-      finalCta: "免费试用NeverCap"
+      finalCta: "免费试用NeverCap",
+        heroSubtitle1: "Trint 限制您每月使用 50 小时，而 Otter 限制您每月使用 10 个文件，",
+        heroSubtitle2: "兑现我们的实际承诺：无限制转录，无隐藏上限。"
     },
     BulkUpload: {
       heroBadgeIcon: "📁",
@@ -1318,7 +1317,6 @@ let message = {
       limitCard3Number: "1",
       limitCard3DescriptionLine1: "单文件处理",
       limitCard3DescriptionLine2: "(顺序上传)",
-      limitCard4Service: "NeverCap",
       limitCard4Number: "∞",
       limitCard4DescriptionLine1: "无限上传",
       limitCard4DescriptionLine2: "每批50个文件",
@@ -1511,12 +1509,7 @@ let message = {
       formattingAfterText: "今天，我们将讨论我们一直在开发的新功能。我想你们会很喜欢。这些功能用户们要求了很久，我们终于完成了。",
       comparisonSubtitle: "准确率",
       comparisonSectionTitle: "对比",
-      comparisonDes: "看看我们如何胜过竞争对手",
       tableHeader1: "功能",
-      tableHeader2: "NeverCap",
-      tableHeader3: "Otter.ai",
-      tableHeader4: "Descript",
-      tableHeader5: "Rev",
       tableRow1Feature: "准确率（清晰音频）",
       tableRow1NeverCap: "96%",
       tableRow1Otter: "95%",
@@ -1550,7 +1543,9 @@ let message = {
       ctaTitle: "体验96%的准确率",
       ctaSubtitle: "上传最具挑战性的音频，见证差异",
       finalCta: "立即测试准确率 →",
-      languageSectionTitlePart2: "覆盖12种主要语言"
+      languageSectionTitlePart2: "覆盖12种主要语言",
+        comparisonDes1: "了解详情",
+        comparisonDes2: "与竞争对手竞争"
     }
   },
   Pricing: {
@@ -1782,7 +1777,6 @@ let message = {
       builtFor: "专为",
       heavyUsers: "重度用户",
       whoActuallyNeed: "真正需要无限的人",
-      heroSubtitle: "从积压多年的播客主到拥有数百次访谈的研究人员。了解专业人士如何使用NeverCap摆脱上传限制和分钟数上限。",
       podcasters: {
         title: "播客创作者",
         pain: '"无需再挑选哪些集数需要转录"',
@@ -1985,7 +1979,8 @@ let message = {
         title: "您的使用场景同样需要无限服务",
         subtitle: "加入50,000+专业人士的行列，告别计时，专注创作",
         button: "开启您的无限之旅 →"
-      }
+      },
+        heroSubtitleA: "从积压多年工作的播客，到进行数百次采访的研究人员，了解专业人士如何使用 {NeverCap} 突破上传限制和分钟数上限。"
     },
     Podcasters: {
       badge: "专为播客主打造",
@@ -2034,7 +2029,6 @@ let message = {
       },
       solutionTitle: "NeverCap",
       solutionTitleHighlight: "终极解决方案",
-      solutionDescription: "真正的无限转录。上传完整档案。转录每期新节目。批量生成播客笔记。无上限，无限制，唯有增长。",
       workflowTitle: "您的播客工作流",
       workflowTitleHighlight: "化繁为简",
       workflowSubtitle: "从录制到SEO优化笔记，只需几分钟",
@@ -2101,13 +2095,10 @@ let message = {
         }
       },
       comparisonTitle: "播客主选择",
-      comparisonTitleHighlight: "NeverCap的",
       comparisonSubtitle: "理由",
       comparison: {
         headers: {
           feature: "查看我们与竞品的对比",
-          nevercap: "功能",
-          otter: "NeverCap",
           descript: "Otter.ai Pro"
         },
         rows: {
@@ -2158,7 +2149,8 @@ let message = {
       ctaTitle: "开始转录每期节目",
       ctaSubtitle: "加入10,000+从不担心限制的播客主行列",
       ctaButton: "免费上传前50期节目 →",
-      ctaDisclaimer: "无需信用卡 • 处理无限制节目 • 随时取消"
+      ctaDisclaimer: "无需信用卡 • 处理无限制节目 • 随时取消",
+        solutionDescriptionA: "使用 {NeverCap}，您可以获得真正的无限转录。上传您的整个存档。转录每一集新剧集。批量生成节目笔记。没有上限，没有限制，任您增长。"
     },
     Journalists: {
       hero: {
@@ -2230,7 +2222,7 @@ let message = {
         solution: {
           title: "The",
           titleHighlight: "NeverCap解决方案",
-          description: "真正的无限转录。上传完整调查。转录每次访谈。即时搜索所有引用。无上限，无限制，只有纯粹的新闻。"
+            descriptionA: "使用 {NeverCap}，您可以获得真正的无限转录。上传您的整个调查。转录每一次采访。立即搜索所有引述。无上限，无限制，只为新闻报道。"
         }
       },
       solution: {
@@ -2366,7 +2358,6 @@ let message = {
         title: "YouTube视频转录",
         titleHighlight: "无限畅用",
         titleSuffix: "1",
-        subtitle: "无论是YouTube视频转录、TikTok视频转文字二次创作，还是Facebook视频转文本需求，我们平台都能轻松处理。支持100+语言字幕生成，无月限额——尽享创作自由。",
         ctaPrimary: "开启无限字幕生成 →",
         ctaSecondary: "查看工作原理",
         stats: {
@@ -2386,8 +2377,9 @@ let message = {
             number: "10+",
             label: "个平台"
           }
-        }
-      },
+        },
+          subtitleA: "无论您是需要转录 YouTube 视频、转录 TikTok 视频以供再利用，还是想将 Facebook 视频转录为文本，{NeverCap} 都能无缝处理。生成 100 多种语言的字幕，无月费限制，尽享纯粹的创作自由。"
+    },
       platforms: {
         title: "从任意平台抓取并转录",
         platformNames: {
@@ -2568,7 +2560,6 @@ let message = {
       problemCard3Title: "科研经费消失",
       problemCard3Desc: "随着数据量增长，转录成本飙升。每次焦点小组500美元的费用让扩展研究难以为继。",
       solutionTitle: "NeverCap解决方案",
-      solutionDesc: "真正的无限转录。上传整个研究项目。转录每次访谈。分析所有数据。无上限，无限制，专注研究。",
       feature1Label: "无限制",
       feature1Title: "处理您的",
       feature1Desc: '今晚上传200小时访谈录音，醒来即可获得完整可搜索的转录稿。无月度上限，无单文件限制，没有所谓的"合理使用"限制。',
@@ -2646,13 +2637,13 @@ let message = {
         testimonialText4Hl: "所有内容仅需一个周末",
         testimonialText5: "。20人语音识别真实有效——即使在最混乱的多人同时发言场景。该工具已",
         testimonialText6Hl: "彻底改变",
-        testimonialText7: "我们处理质性数据的方式。"
+        testimonialText7: "我们处理质性数据的方式。",
+        solutionDescA: "使用 {NeverCap}，您可以获得真正的无限转录。上传您的整个研究。转录每一次访谈。分析所有数据。没有上限，没有限制，只需研究。"
     },
     BusinessTeams: {
       heroBadge: "面向商业团队",
       heroTitle1: "会议录音",
       heroTitle2: "轻松完成",
-      heroSubtitle: "直接在浏览器中录音或即时上传音频文件。从无限对话中构建可搜索档案。真正无限的转录，再也不会丢失重要讨论。",
       heroCtaPrimary: "立即开始录音 →",
       heroCtaSecondary: "查看工作原理",
       recordingStatus: "录音中...",
@@ -2722,7 +2713,7 @@ let message = {
       ctaButton: "免费开始录制 →",
       featuresTitle2: "会议",
       workflowTitle2: "Zoom录音转为文字",
-      testimonialsTitle2: "NeverCap"
+        heroSubtitleA: "直接在浏览器中录制会议，或立即上传音频文件。从无限量的对话中构建可搜索的存档。使用 {NeverCap} 真正无限量的转录，再也不会丢失重要的讨论。"
     },
     Educators: {
       heroBadge: "教育工作者专区",
@@ -2799,7 +2790,6 @@ let message = {
       useCase6Text: "通过时间戳帮助学生准确引用视频来源。专为研究项目和学术论文设计。",
       testimonialTitle: "深受",
       testimonialSubtitle: "了解全球教师选择NeverCap的原因",
-      testimonialText: '"我用NeverCap转录了整个数学教程YouTube频道。其他服务需数周的工作，现在仅需几小时。直接粘贴链接即时获取文本的功能，彻底改变了我制作无障碍内容的方式。我的国际学生尤其喜爱多语言字幕！"',
       testimonialAuthorName: "Karen Mitchell教授",
       testimonialAuthorRole: "数学教授，在线教育者",
       ctaTitle: "让所有教育内容无障碍",
@@ -2808,7 +2798,8 @@ let message = {
       featuresTitle2: "视频转录",
       grid: "音频转学习指南",
       useCasesTitle2: "教育需求",
-      testimonialTitle2: "50,000+教育工作者的信赖"
+      testimonialTitle2: "50,000+教育工作者的信赖",
+        testimonialTextA: "我一直在使用 {NeverCap} 转录我的整个 YouTube 数学教程频道。以前用其他服务需要几周时间，现在只需几个小时。直接粘贴链接即可获得即时转录的功能彻底改变了我创建无障碍内容的方式。我的国际学生尤其喜欢它的多语言字幕！"
     }
   },
   Resources: {
@@ -2957,7 +2948,6 @@ let message = {
     Hero: {
       "badge": "行业领先的AI技术",
       "title": "关于",
-      "highlighted_text": "NeverCap",
       "description": "我们的使命是提供最精准的音视频转录服务。依托行业领先的AI技术，实现96%以上的转录准确率。通过技术优化，部分主要语言准确率可达99%。"
     },
     Stats: {
@@ -2984,7 +2974,6 @@ let message = {
     },
     Mission: {
       "title": "为何选择",
-      "highlighted_text": "NeverCap",
       "subtitle": "我们致力于打破语言壁垒，让内容触达每个人",
       "features": [
             {
@@ -3079,11 +3068,10 @@ let message = {
     "updatesDescription": "我们可能根据法规要求或实践变化更新本政策。重大变更时会更新页首日期。",
     "contactTitle": "9. 联系我们",
     "websiteUrl": "https://www.nevercap.ai/",
-    "neverCap": "NeverCap",
     at: "：",
-      policyDescription: '本政策描述 NeverCap（以下简称"NeverCap"、"我们"）在您使用我们的服务、网站（{url}）及软件（统称"服务"）时如何收集、使用和披露您的个人信息。',
       childrenDescription: "本服务不面向儿童，我们不会有意收集13岁以下儿童的个人信息。如您未满13岁，请勿通过本服务提交任何个人信息。若您发现儿童违反本政策向我们提供了个人信息，请联系 {at} {email}。",
-      contactDescription: "如对本隐私政策有任何疑问、意见或投诉，请联系 {at} {email}，我们将尽快处理您的投诉。"
+      contactDescription: "如对本隐私政策有任何疑问、意见或投诉，请联系 {at} {email}，我们将尽快处理您的投诉。",
+      policyDescriptionA: "本政策描述了{NeverCap}（以下简称“NeverCap”、“我们的”、“我们”）在您使用我们的服务、网站（{url}）和软件（统称为“服务”）时如何收集、使用和披露您的个人信息。"
 },
   TermsOfUse: {
     title: "服务",
@@ -3093,7 +3081,6 @@ let message = {
     "lastUpdatedDate": "2025年7月21日",
     "termsOfServiceTitle": "服务条款",
     "thankYou": "感谢您使用我们的产品！",
-    "companyDefinition": "本文件中提到的“公司”、“我们”、“我们的”或“我方”均指NeverCap。",
     "servicesDefinition": "“服务”指由NeverCap创建和维护的任何产品，无论通过网页浏览器、桌面应用、移动应用或其他形式提供。",
     "termsUpdate": "我们可能会在未来更新这些服务条款。通常这些更新是为了通过链接到扩展的相关政策来澄清某些条款。每当我们对政策进行重大更改时，我们将更新本页顶部的日期，并采取其他适当措施通知账户持有人。",
     "acceptanceTitle": "1. 协议接受",
@@ -3177,13 +3164,13 @@ let message = {
     "miscellaneousTitle": "16. 其他",
     "miscellaneousDescription": "本服务条款及我们在网站上发布的任何政策或操作规则构成您与我们之间的完整协议和理解。我们未能行使或执行本服务条款的任何权利或规定，不应视为对该权利或规定的放弃。本服务条款在法律允许的最大范围内适用。我们可随时将任何或全部权利和义务转让给他人。对于超出我们合理控制范围的任何原因造成的损失、损害、延迟或未能采取行动，我们不承担责任。如果本服务条款的任何规定或部分规定被认定为非法、无效或不可执行，则该规定或部分规定应被视为可分割的，不影响其余规定的有效性和可执行性。本服务条款或使用本网站不会在您与我们之间建立合资、合伙、雇佣或代理关系。您同意，不应因我们起草了本服务条款而对其作出不利解释。您特此放弃基于本服务条款的电子形式及双方未签署本服务条款而可能提出的任何抗辩。",
     "contactTitle": "17. 联系我们",
-    "neverCap": "NeverCap",
     "site": "网站",
     "services": "服务",
     at: "：",
       trademarkProtection: "本服务的名称、外观及设计均属公司版权所有。未经公司书面许可，严禁复制、拷贝或重用任何HTML、CSS、JavaScript代码或视觉设计元素。如需使用公司标志或服务标志进行宣传，必须事先申请授权。请发送邮件至 {at} {email} 申请标志使用权。若您违反本服务条款，我们有权撤回授权。",
       privacyPolicyDescription: "我们高度重视数据隐私与安全。请查阅我们的{policy}。使用本网站即表示您同意遵守已纳入本服务条款的隐私政策。请注意，本网站托管于美国。若您从其他司法管辖区访问本网站，该地区关于个人数据收集、使用或披露的法律要求可能与美国法律不同，继续使用本网站即表示您同意将数据传输至美国并进行处理。",
-      contactDescription: "如对服务条款有任何疑问，请联系 {at} {email}。"
+      contactDescription: "如对服务条款有任何疑问，请联系 {at} {email}。",
+      "companyDefinitionA": "当我们在本文档中说“公司”、“我们”、“我们的”或“我们”时，我们指的是 {NeverCap}。"
 }
 };
 

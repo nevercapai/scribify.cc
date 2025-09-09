@@ -1092,13 +1092,13 @@ let message = {
       badge: 'Schluss mit "Shrinkflation" - Wirklich unbegrenzt',
       h1: "Zahlen Sie nicht länger für Limits:",
       gradient: "Echt unbegrenzte KI-Transkription",
-      subtitle: "Unsere KI transkribiert Videos und wandelt Audio in Text um, verarbeitet 50 Dateien gleichzeitig ohne monatliche Obergrenzen. Transkription, die wirklich mit Ihnen wächst.",
       FreeTrial: "Kostenlos testen - Keine Kreditkarte",
       HowWorks: "So funktioniert's",
       Unlimited: "Unbegrenzte Datei-Uploads",
       NoCap: "Keine monatliche Minuten-Obergrenze",
       Hour: "10-Stunden-Dateien unterstützt",
-      ExploreUseCases: "Anwendungsfälle erkunden"
+      ExploreUseCases: "Anwendungsfälle erkunden",
+        subtitleA: "Die KI von NeverCap transkribiert Videos und konvertiert Audio in Text. Dabei können bis zu 50 Dateien gleichzeitig verarbeitet werden, ohne monatliche Obergrenzen. Transkription, die wirklich mit Ihnen skaliert."
     },
     Stats: {
       monthlyMinutes: "Monatliche Minuten",
@@ -1158,8 +1158,6 @@ let message = {
       }
     },
     Testimonials: {
-      title: "Geliebt von",
-      highlighted_users: "50.000+ Nutzer",
       subtitle: "Sehen Sie, warum Profis NeverCap begrenzten Alternativen vorziehen",
       Mike: {
         "text": "Heilige Scheiße, das Ding funktioniert tatsächlich! Habe seit 3 Jahren einen Podcast und habe alles wie ein Idiot manuell transkribiert. 6 Folgen auf einmal hochgeladen und es hat mich und meinen Co-Host perfekt getrennt. Die Café-Folge, die ich für ruiniert hielt? Kristallklare Transkription. Ich werde das nie wieder selbst tippen.",
@@ -1175,7 +1173,8 @@ let message = {
         "text": "Nutze das für meine Interviews und es ist irre, wie akkurat es ist. Ein 2-stündiges Interview in gebrochenem Englisch + Spanisch und alles war korrekt, sogar die Zeitstempel. Habe früher meinem Praktikanten 200$/Monat fürs Transkribieren gezahlt. Das spart mir buchstäblich jeden Monat Geld.",
         "author": "Jessica Park",
         "role": "Freie Journalistin"
-      }
+      },
+        titleA: "Beliebt bei über 50.000 Benutzern von"
     },
     PricingPreview: {
       "title": "Transparente Preise",
@@ -1246,7 +1245,6 @@ let message = {
       heroBadgeText: 'Schluss mit "Shrinkflation"',
       heroTitleLine1: "Wirklich unbegrenzt",
       heroTitleLine2: "KI-Transkription",
-      heroSubtitle: "Während Trint Sie auf 50 Stunden und Otter auf 10 Dateien pro Monat beschränkt, halten wir, was wir versprechen: unbegrenzte Transkription ohne versteckte Limits.",
       primaryCta: "Kostenlos testen - Keine Kreditkarte",
       secondaryCta: "Die Wahrheit sehen",
       comparisonBadLabel: "Was andere tun",
@@ -1316,7 +1314,6 @@ let message = {
       feature2TableRow2Value: "10 Dateien/Monat",
       feature2TableRow3Label: "Trint",
       feature2TableRow3Value: "50 Stunden/Monat Limit",
-      feature2TableRow4Label: "NeverCap",
       feature2TableRow4Value: "Wirklich unbegrenzt ✓",
       feature3Label: "Sozialer Beweis",
       feature3TitlePart1: "Nutzer wechseln",
@@ -1346,7 +1343,9 @@ let message = {
       trustBadge4Label: "Batch-Upload",
       ctaTitle: "Zahlen Sie nicht für falsches Unbegrenzt",
       ctaSubtitle: "Schließen Sie sich Tausenden an, die zu wirklich unbegrenzter Transkription gewechselt sind",
-      finalCta: "NeverCap kostenlos testen"
+      finalCta: "NeverCap kostenlos testen",
+        heroSubtitle1: "Während Trint Sie auf 50 Stunden begrenzt und Otter Sie auf 10 Dateien pro Monat beschränkt,",
+        heroSubtitle2: "halten, was wir tatsächlich versprechen: unbegrenzte Transkription ohne versteckte Obergrenzen."
     },
     BulkUpload: {
       heroBadgeIcon: "📁",
@@ -1375,7 +1374,6 @@ let message = {
       limitCard3Number: "1",
       limitCard3DescriptionLine1: "Datei auf einmal",
       limitCard3DescriptionLine2: "(Sequentieller Upload)",
-      limitCard4Service: "NeverCap",
       limitCard4Number: "∞",
       limitCard4DescriptionLine1: "Unbegrenzte Uploads",
       limitCard4DescriptionLine2: "50 Dateien pro Batch",
@@ -1568,12 +1566,7 @@ let message = {
       formattingAfterText: "So today, we're going to talk about the new features we've been working on. I think you'll really like them. They've been requested by users for a long time, and we finally got them done.",
       comparisonSubtitle: "Genauigkeit",
       comparisonSectionTitle: "Vergleich",
-      comparisonDes: "Sehen Sie, wie wir uns gegen die Konkurrenz behaupten",
       tableHeader1: "Funktion",
-      tableHeader2: "NeverCap",
-      tableHeader3: "Otter.ai",
-      tableHeader4: "Descript",
-      tableHeader5: "Rev",
       tableRow1Feature: "Genauigkeit (klares Audio)",
       tableRow1NeverCap: "96%",
       tableRow1Otter: "95%",
@@ -1607,7 +1600,9 @@ let message = {
       ctaTitle: "Erleben Sie 96% Genauigkeit",
       ctaSubtitle: "Laden Sie Ihre anspruchsvollste Audiodatei hoch und sehen Sie den Unterschied",
       finalCta: "Jetzt Genauigkeit testen →",
-        languageSectionTitlePart2: "in 12 Hauptsprachen"
+        languageSectionTitlePart2: "in 12 Hauptsprachen",
+        comparisonDes1: "So geht's",
+        comparisonDes2: "sich gegen die Konkurrenz behaupten"
     }
   },
   Pricing: {
@@ -1839,7 +1834,6 @@ let message = {
       builtFor: "Entwickelt für",
       heavyUsers: "Starke Nutzer",
       whoActuallyNeed: "Die wirklich unbegrenzt brauchen",
-      heroSubtitle: "Von Podcast-Machern mit Jahren an Rückstand bis zu Forschern mit Hunderten von Interviews. Sehen Sie, wie Profis NeverCap nutzen, um Upload-Grenzen und Minutenbegrenzungen zu überwinden.",
       podcasters: {
         title: "Podcaster",
         pain: '"Hör auf, Folgen für Transkripte auszuwählen"',
@@ -2042,7 +2036,8 @@ let message = {
         title: "Auch Ihr Anwendungsfall braucht Unbegrenzt",
         subtitle: "Werden Sie einer von 50.000+ Profis, die Minuten zählen hinter sich ließen und mit dem Kreieren begannen",
         button: "Starten Sie Ihre unbegrenzte Reise →"
-      }
+      },
+        heroSubtitleA: "Von Podcastern mit jahrelangem Rückstand bis hin zu Forschern mit Hunderten von Interviews. Sehen Sie, wie Profis {NeverCap} verwenden, um Upload- und Minutenbeschränkungen zu umgehen."
     },
     Podcasters: {
       badge: "Für Podcaster gemacht",
@@ -2091,7 +2086,6 @@ let message = {
       },
       solutionTitle: "Die",
       solutionTitleHighlight: "NeverCap-Lösung",
-      solutionDescription: "Echt unbegrenzte Transkription. Laden Sie Ihr gesamtes Archiv hoch. Transkribieren Sie jede neue Folge. Erstellen Sie massenhaft Shownotes. Keine Deckel, keine Limits, nur Wachstum.",
       workflowTitle: "Ihr Podcast-Workflow,",
       workflowTitleHighlight: "Vereinfacht",
       workflowSubtitle: "Von der Aufnahme zu SEO-optimierten Shownotes in Minuten",
@@ -2158,13 +2152,10 @@ let message = {
         }
       },
       comparisonTitle: "Warum Podcaster",
-      comparisonTitleHighlight: "NeverCap wählen",
       comparisonSubtitle: "Sehen Sie, wie wir uns gegen die Konkurrenz behaupten",
       comparison: {
         headers: {
           feature: "Funktion",
-          nevercap: "NeverCap",
-          otter: "Otter.ai Pro",
           descript: "Descript Creator"
         },
         rows: {
@@ -2215,7 +2206,8 @@ let message = {
       ctaTitle: "Jede Folge transkribieren",
       ctaSubtitle: "Schließen Sie sich 10.000+ Podcastern an, die sich nie um Limits sorgen",
       ctaButton: "Laden Sie Ihre ersten 50 Folgen kostenlos hoch →",
-      ctaDisclaimer: "Keine Kreditkarte erforderlich • Unbegrenzte Folgen verarbeiten • Jederzeit kündbar"
+      ctaDisclaimer: "Keine Kreditkarte erforderlich • Unbegrenzte Folgen verarbeiten • Jederzeit kündbar",
+        solutionDescriptionA: "Mit {NeverCap} erhalten Sie unbegrenzte Transkription. Laden Sie Ihr gesamtes Archiv hoch. Transkribieren Sie jede neue Episode. Erstellen Sie Show-Notizen in großem Umfang. Keine Obergrenzen, keine Limits, nur Wachstum."
     },
     Journalists: {
       hero: {
@@ -2287,7 +2279,7 @@ let message = {
         solution: {
           title: "Die",
           titleHighlight: "NeverCap-Lösung",
-          description: "Echt unbegrenzte Transkription. Laden Sie Ihre gesamte Recherche hoch. Transkribieren Sie jedes Interview. Durchsuchen Sie alle Zitate sofort. Keine Obergrenzen, keine Limits, nur Journalismus."
+            descriptionA: "Mit {NeverCap} erhalten Sie unbegrenzte Transkription. Laden Sie Ihre gesamte Recherche hoch. Transkribieren Sie jedes Interview. Durchsuchen Sie alle Zitate sofort. Keine Großbuchstaben, keine Grenzen, nur Journalismus."
         }
       },
       solution: {
@@ -2423,7 +2415,6 @@ let message = {
         title: "YouTube-Videos transkribieren,",
         titleHighlight: "Unbegrenzt",
         titleSuffix: "1",
-        subtitle: "Ob Sie ein YouTube-Video transkribieren, ein TikTok-Video zur Wiederverwendung transkribieren oder herausfinden möchten, wie Sie ein Facebook-Video in Text umwandeln – unsere Plattform erledigt alles nahtlos. Untertitel in 100+ Sprachen ohne monatliche Limits – einfach kreative Freiheit pur.",
         ctaPrimary: "Unbegrenzte Untertitelung starten →",
         ctaSecondary: "So funktioniert's",
         stats: {
@@ -2443,8 +2434,9 @@ let message = {
             number: "10+",
             label: "Plattformen"
           }
-        }
-      },
+        },
+          subtitleA: "Egal, ob Sie ein YouTube-Video transkribieren, ein TikTok-Video zur Weiterverwendung transkribieren oder herausfinden möchten, wie Sie ein Facebook-Video in Text transkribieren, {NeverCap} erledigt alles nahtlos. Erstellen Sie Untertitel in über 100 Sprachen ohne monatliche Begrenzung – einfach pure kreative Freiheit."
+    },
       platforms: {
         title: "Abrufen & Transkribieren von jeder Plattform",
         platformNames: {
@@ -2625,7 +2617,6 @@ let message = {
       problemCard3Title: "Forschungsgelder verschwinden",
       problemCard3Desc: "Wenn Ihr Datensatz wächst, explodieren die Transkriptionskosten. 500$ pro Fokusgruppe machen Skalierung unmöglich.",
       solutionTitle: "NeverCap-Lösung",
-      solutionDesc: "Echt unbegrenzte Transkription. Laden Sie Ihre gesamte Studie hoch. Transkribieren Sie jedes Interview. Analysieren Sie alle Daten. Keine Obergrenzen, keine Limits, nur Forschung.",
       feature1Label: "Keine Grenzen",
       feature1Title: "Bearbeitung Ihrer",
       feature1Desc: 'Laden Sie heute Abend alle 200 Stunden Interviews hoch. Wachen Sie mit vollständigen, durchsuchbaren Transkripten auf. Keine monatlichen Limits, keine Dateibeschränkungen, kein "Fair Use"-Unsinn.',
@@ -2703,13 +2694,13 @@ let message = {
         testimonialText4Hl: "alles an einem Wochenende",
         testimonialText5: ". Die 20-Sprecher-Identifikation funktionierte tatsächlich – selbst während unserer chaotischsten Diskussionen, bei denen alle gleichzeitig sprachen. Dieses Tool hat",
         testimonialText6Hl: "völlig verändert",
-        testimonialText7: "wie wir qualitative Daten verarbeiten."
+        testimonialText7: "wie wir qualitative Daten verarbeiten.",
+        solutionDescA: "Mit {NeverCap} erhalten Sie unbegrenzte Transkription. Laden Sie Ihre gesamte Studie hoch. Transkribieren Sie jedes Interview. Analysieren Sie alle Ihre Daten. Keine Obergrenzen, keine Einschränkungen, nur Forschung."
     },
     BusinessTeams: {
       heroBadge: "Für Geschäftsteams",
       heroTitle1: "Besprechungsaufnahmen",
       heroTitle2: "Mühelos gemacht",
-      heroSubtitle: "Nehmen Sie Besprechungen direkt in Ihrem Browser auf oder laden Sie Audiodateien sofort hoch. Erstellen Sie durchsuchbare Archive aus unbegrenzten Gesprächen. Wichtige Diskussionen gehen nie wieder verloren – dank wirklich unbegrenzter Transkription.",
       heroCtaPrimary: "Jetzt aufnehmen →",
       heroCtaSecondary: "So funktioniert's",
       recordingStatus: "Aufnahme läuft...",
@@ -2779,7 +2770,7 @@ let message = {
       ctaButton: "Kostenlos aufnehmen →",
         featuresTitle2: "Besprechung",
         workflowTitle2: "Zoom-Aufnahme in Text",
-        testimonialsTitle2: "NeverCap"
+        heroSubtitleA: "Zeichnen Sie Meetings direkt im Browser auf oder laden Sie Audiodateien sofort hoch. Erstellen Sie durchsuchbare Archive aus einer unbegrenzten Anzahl von Gesprächen. Verlieren Sie nie wieder wichtige Gespräche mit der wirklich unbegrenzten Transkription von {NeverCap}."
     },
     Educators: {
       heroBadge: "Für Lehrkräfte & Pädagogen",
@@ -2856,7 +2847,6 @@ let message = {
       useCase6Text: "Helfen Sie Studierenden, Videoquellen mit Zeitstempeln korrekt zu zitieren. Perfekt für Forschungsprojekte und akademische Arbeiten.",
       testimonialTitle: "Vertrauen von",
       testimonialSubtitle: "Sehen Sie, warum Lehrer weltweit NeverCap wählen",
-      testimonialText: '"Ich nutze NeverCap, um meinen gesamten YouTube-Kanal mit Mathe-Tutorials zu transkribieren. Was mit anderen Diensten Wochen dauerte, dauert jetzt Stunden. Die Möglichkeit, Links direkt einzufügen und sofort Transkripte zu erhalten, hat die Erstellung barrierefreier Inhalte revolutioniert. Meine internationalen Studierenden lieben besonders die mehrsprachigen Untertitel!"',
       testimonialAuthorName: "Prof. Karen Mitchell",
       testimonialAuthorRole: "Mathematikprofessorin, Online-Pädagogin",
       ctaTitle: "Machen Sie alle Ihre Bildungsinhalte zugänglich",
@@ -2865,7 +2855,8 @@ let message = {
         featuresTitle2: "Video-Transkription",
         grid: "Audiodatei zu Lernhilfe",
         useCasesTitle2: "Bildungsbedarf",
-        testimonialTitle2: "50.000+ Pädagogen"
+        testimonialTitle2: "50.000+ Pädagogen",
+        testimonialTextA: "„Ich habe {NeverCap} verwendet, um meinen gesamten YouTube-Kanal mit Mathe-Tutorials zu transkribieren. Was bei anderen Diensten früher Wochen dauerte, dauert jetzt Stunden. Die Möglichkeit, Links direkt einzufügen und sofort Transkripte zu erhalten, hat die Art und Weise, wie ich barrierefreie Inhalte erstelle, verändert. Meine internationalen Studenten lieben besonders die mehrsprachigen Untertitel!“"
     }
   },
   Resources: {
@@ -3014,7 +3005,6 @@ let message = {
     Hero: {
       "badge": "Branchenführende KI-Technologie",
       "title": "Über",
-      "highlighted_text": "NeverCap",
       "description": "Unsere Mission ist es, die präzisesten Audio- und Video-Transkriptionsdienste anzubieten. Mit branchenführender KI-Technologie erreichen wir Transkriptionsgenauigkeiten von über 96%. Bei einigen Hauptsprachen können wir durch technische Optimierung sogar 99% Genauigkeit erreichen."
     },
     Stats: {
@@ -3041,7 +3031,6 @@ let message = {
     },
     Mission: {
       "title": "Warum",
-      "highlighted_text": "NeverCap wählen",
       "subtitle": "Wir glauben daran, Sprachbarrieren abzubauen und Inhalte für alle zugänglich zu machen",
       "features": [
             {
@@ -3136,11 +3125,10 @@ let message = {
     "updatesDescription": "Wir können diese Richtlinie bei Bedarf aktualisieren, um relevanten Vorschriften zu entsprechen und neue Praktiken zu berücksichtigen. Wenn wir eine wesentliche Änderung an unseren Richtlinien vornehmen, aktualisieren wir das Datum oben auf dieser Seite.",
     "contactTitle": "9. Kontakt",
     "websiteUrl": "https://www.nevercap.ai/",
-    "neverCap": "NeverCap",
     at: "unter",
-      policyDescription: 'Diese Richtlinie beschreibt, wie NeverCap (im Folgenden als \"NeverCap\", \"uns\", \"wir\", \"uns\" bezeichnet) Ihre persönlichen Daten erhebt, nutzt und offenlegt, wenn Sie unsere Dienste, Websites ({url}) und Software (gemeinsam die \"Dienste\") nutzen.',
       childrenDescription: "Die Dienste richten sich nicht an Kinder, und wir erheben wissentlich keine personenbezogenen Daten von Kindern unter 13 Jahren. Wenn Sie unter 13 Jahre alt sind, übermitteln Sie bitte keine persönlichen Daten über die Dienste. Wenn Sie der Meinung sind, dass ein Kind uns entgegen dieser Richtlinie personenbezogene Daten bereitgestellt hat, kontaktieren Sie uns bitte unter {at} {email}.",
-      contactDescription: "Wenn Sie Fragen, Kommentare oder Beschwerden zu unserer Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter {at} {email}, und wir werden uns bemühen, Ihre Beschwerde so schnell wie möglich zu bearbeiten."
+      contactDescription: "Wenn Sie Fragen, Kommentare oder Beschwerden zu unserer Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter {at} {email}, und wir werden uns bemühen, Ihre Beschwerde so schnell wie möglich zu bearbeiten.",
+      policyDescriptionA: "Diese Richtlinie beschreibt, wie {NeverCap} (nachfolgend als „NeverCap“, „unser“, „wir“, „uns“ bezeichnet) Ihre personenbezogenen Daten sammelt, verwendet und weitergibt, wenn Sie unsere Dienste, Websites ({url}) und Software (zusammen die „Dienste“) nutzen."
 },
   TermsOfUse: {
     title: "Nutzungsbedingungen",
@@ -3150,7 +3138,6 @@ let message = {
     "lastUpdatedDate": "21. Juli 2025",
     "termsOfServiceTitle": "Nutzungsbedingungen",
     "thankYou": "Vielen Dank, dass Sie unsere Produkte nutzen!",
-    "companyDefinition": "Wenn wir in diesem Dokument „Company“, „we“, „our“ oder „us“ sagen, beziehen wir uns auf NeverCap.",
     "servicesDefinition": "Wenn wir „Services“ sagen, meinen wir jedes Produkt, das von NeverCap erstellt und gewartet wird, egal ob es in einem Webbrowser, einer Desktop-Anwendung, einer mobilen Anwendung oder einem anderen Format bereitgestellt wird.",
     "termsUpdate": "Wir können diese Nutzungsbedingungen in Zukunft aktualisieren. Typischerweise dienen diese Änderungen dazu, einige dieser Bedingungen durch Verlinkung auf eine erweiterte, verwandte Richtlinie zu klären. Immer wenn wir eine signifikante Änderung unserer Richtlinien vornehmen, werden wir das Datum oben auf dieser Seite aktualisieren und angemessene Schritte unternehmen, um Kontoinhaber zu benachrichtigen.",
     "acceptanceTitle": "1. Annahme der Vereinbarung",
@@ -3234,13 +3221,13 @@ let message = {
     "miscellaneousTitle": "16. Sonstiges",
     "miscellaneousDescription": "Diese Nutzungsbedingungen und alle Richtlinien auf der Website stellen die gesamte Vereinbarung dar. Das Nichtgeltendmachen eines Rechts bedeutet nicht dessen Verzicht. Wir können Rechte und Pflichten übertragen. Wir haften nicht für unkontrollierbare Ereignisse. Ungültige Klauseln beeinträchtigen nicht den Rest der Bedingungen. Durch diese Bedingungen entsteht keine Partnerschaft oder Arbeitsverhältnis.",
     "contactTitle": "17. Kontakt",
-    "neverCap": "NeverCap",
     "site": "Website",
     "services": "Dienste",
     at: "unter",
       trademarkProtection: "Die Namen, das Aussehen und die Gestaltung der Dienste sind urheberrechtlich© durch das Unternehmen geschützt. Alle Rechte vorbehalten. Sie dürfen keine Teile der HTML-, CSS-, JavaScript- oder visuellen Designtelemente ohne ausdrückliche schriftliche Genehmigung des Unternehmens duplizieren, kopieren oder wiederverwenden. Sie müssen eine Genehmigung beantragen, um das Logo des Unternehmens oder Dienstlogos zu Werbezwecken zu nutzen. Bitte senden Sie uns eine E-Mail unter {at} {email} für Anfragen zur Logonutzung. Wir behalten uns das Recht vor, diese Genehmigung zu widerrufen, wenn Sie gegen diese Nutzungsbedingungen verstoßen.",
       privacyPolicyDescription: "Uns sind Datenschutz und Sicherheit wichtig. Bitte lesen Sie unsere {policy}. Durch die Nutzung der Website erklären Sie sich mit unserer Datenschutzrichtlinie einverstanden, die in diese Nutzungsbedingungen integriert ist. Bitte beachten Sie, dass die Website in den Vereinigten Staaten gehostet wird. Wenn Sie die Website aus einer anderen Region der Welt aufrufen, in der andere Gesetze oder Anforderungen zur Erhebung, Nutzung oder Offenlegung personenbezogener Daten gelten als in den Vereinigten Staaten, dann transferieren Sie durch die weitere Nutzung der Website Ihre Daten in die Vereinigten Staaten und erklären sich damit einverstanden, dass Ihre Daten in die Vereinigten Staaten übertragen und dort verarbeitet werden.",
-      contactDescription: "Wenn Sie eine Frage zu den Nutzungsbedingungen haben, kontaktieren Sie uns bitte unter {at} {email}."
+      contactDescription: "Wenn Sie eine Frage zu den Nutzungsbedingungen haben, kontaktieren Sie uns bitte unter {at} {email}.",
+      "companyDefinitionA": "Wenn wir in diesem Dokument „Unternehmen“, „wir“, „unser“ oder „uns“ sagen, beziehen wir uns auf {NeverCap}."
 }
 };
 

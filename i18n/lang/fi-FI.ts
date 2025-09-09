@@ -1076,13 +1076,13 @@ let message = {
       badge: 'Ei enää "kutistumista" - Todella rajaton',
       h1: "Lopeta rajojen maksaminen:",
       gradient: "Todella rajaton tekstitys tekoälyllä",
-      subtitle: "Tekoälymme tekstittää videot ja muuntaa äänen tekstiksi, käsitellen 50 tiedostoa kerralla ilman kuukausirajoja. Tekstitys, joka skaalautuu kanssasi.",
       FreeTrial: "Ilmainen kokeilu - Ei luottokorttia tarvita",
       HowWorks: "Katso miten se toimii",
       Unlimited: "Rajaton tiedostojen lähetys",
       NoCap: "Ei kuukausittaisia minuuttirajoja",
       Hour: "10 tunnin tiedostot tuettu",
-      ExploreUseCases: "Tutki käyttötapoja"
+      ExploreUseCases: "Tutki käyttötapoja",
+        subtitleA: "NeverCapin tekoäly litteroi videon ja muuntaa äänen tekstiksi, käsittelemällä 50 tiedostoa kerralla ilman kuukausittaisia ​​rajoituksia. Litterointi, joka todella skaalautuu kanssasi."
     },
     Stats: {
       monthlyMinutes: "Kuukausittaiset minuutit",
@@ -1142,8 +1142,6 @@ let message = {
       }
     },
     Testimonials: {
-      title: "Rakastettu",
-      highlighted_users: "50 000+ käyttäjää",
       subtitle: "Katso miksi ammattilaiset valitsevat NeverCapin rajoitettujen vaihtoehtojen sijaan",
       Mike: {
         "text": "Voi hitsi, tämä oikeasti toimii! Tehnyt podcastia 3 vuotta ja kirjoittanut kaiken itse tyhmänä. Latasin 6 jaksoa kerralla ja se erotti minut ja juontajaparini täydellisesti. Kahvilajakso, joka mielestäni oli pilalla? Kirkas kuin kristalli. En enää ikinä kirjoita näitä itse.",
@@ -1159,7 +1157,8 @@ let message = {
         "text": "Käyttänyt tätä haastatteluihini ja uskomaton kuinka tarkka se on. 2 tunnin haastattelu rikkinäisessä englannissa + espanjassa ja se sai kaiken oikein, jopa aikaleimat. Maksoin harjoittelijalleni 200$/kk vain tekstityksestä. Tämä säästää minua kirjaimellisesti rahaa joka kuukausi.",
         "author": "Jessica Park",
         "role": "Freelance-toimittaja"
-      }
+      },
+        titleA: "Yli 50 000 käyttäjän rakastama"
     },
     PricingPreview: {
       "title": "Läpinäkyvä hinnoittelu",
@@ -1230,7 +1229,6 @@ let message = {
       heroBadgeText: 'Ei enää "kutistumista"',
       heroTitleLine1: "Todella rajoittamaton",
       heroTitleLine2: "Älykäs tekstitys",
-      heroSubtitle: "Kun Trint rajoittaa sinua 50 tuntiin ja Otter 10 tiedostoon kuukaudessa, me toimitaamme mitä lupaamme: rajaton tekstitys ilman piilorajoituksia.",
       primaryCta: "Ilmainen kokeilu - Ei luottokorttia",
       secondaryCta: "Katso totuus",
       comparisonBadLabel: "Mitä muut tekevät",
@@ -1300,7 +1298,6 @@ let message = {
       feature2TableRow2Value: "10 tiedostoa/kk",
       feature2TableRow3Label: "Trint",
       feature2TableRow3Value: "50 tuntia/kk yläraja",
-      feature2TableRow4Label: "NeverCap",
       feature2TableRow4Value: "Todella rajaton ✓",
       feature3Label: "Sosiaalinen todiste",
       feature3TitlePart1: "Käyttäjät",
@@ -1330,7 +1327,9 @@ let message = {
       trustBadge4Label: "Erälataus",
       ctaTitle: "Lopeta maksaminen vale-rajattomasta",
       ctaSubtitle: "Liity tuhansiin, jotka vaihtoivat todella rajoittamattomaan tekstitykseen",
-      finalCta: "Kokeile NeverCapia ilmaiseksi"
+      finalCta: "Kokeile NeverCapia ilmaiseksi",
+        heroSubtitle1: "Trint rajoittaa tiedostojen käsittelyn 50 tuntiin ja Otter 10 tiedostoon kuukaudessa.",
+        heroSubtitle2: "Pidämme lupauksemme: rajaton transkriptio ilman piilotettuja isoja kirjaimia."
     },
     BulkUpload: {
       heroBadgeIcon: "📁",
@@ -1359,7 +1358,6 @@ let message = {
       limitCard3Number: "1",
       limitCard3DescriptionLine1: "Tiedosto kerrallaan",
       limitCard3DescriptionLine2: "(Peräkkäinen lataus)",
-      limitCard4Service: "NeverCap",
       limitCard4Number: "∞",
       limitCard4DescriptionLine1: "Rajoittamattomat lataukset",
       limitCard4DescriptionLine2: "50 tiedostoa erässä",
@@ -1552,12 +1550,7 @@ let message = {
       formattingAfterText: "Tänään puhumme uusista ominaisuuksista, joita olemme kehittäneet. Luulen, että pidätte niistä kovasti. Käyttäjät ovat pyytäneet niitä pitkään, ja vihdoin saimme ne valmiiksi.",
       comparisonSubtitle: "Tarkkuus",
       comparisonSectionTitle: "Vertailu",
-      comparisonDes: "Katso, miten eroamme kilpailijoista",
       tableHeader1: "Ominaisuus",
-      tableHeader2: "NeverCap",
-      tableHeader3: "Otter.ai",
-      tableHeader4: "Descript",
-      tableHeader5: "Rev",
       tableRow1Feature: "Tarkkuus (selkeä ääni)",
       tableRow1NeverCap: "96 %",
       tableRow1Otter: "95 %",
@@ -1591,7 +1584,9 @@ let message = {
       ctaTitle: "Koe 96 %:n tarkkuus",
       ctaSubtitle: "Lataa haastavin äänitiedostosi ja näe ero",
       finalCta: "Testaa Tarkkuuttamme Nyt →",
-        languageSectionTitlePart2: "12 pääkielellä"
+        languageSectionTitlePart2: "12 pääkielellä",
+        comparisonDes1: "Katso miten",
+        comparisonDes2: "pärjätä kilpailijoita vastaan"
     }
   },
   Pricing: {
@@ -1823,7 +1818,6 @@ let message = {
       builtFor: "Suunniteltu",
       heavyUsers: "Aktiivikäyttäjät",
       whoActuallyNeed: "jotka todella tarvitsevat rajoittamattomia ominaisuuksia",
-      heroSubtitle: "Vuosien jälkeen jääneiden podcastien tekijöistä satojen haastattelujen tutkijoihin asti. Katso kuinka ammattilaiset käyttävät NeverCapia päästäkseen eroon latausrajoituksista ja minuuttirajoituksista.",
       podcasters: {
         title: "Podcastaajat",
         pain: '"Lopeta jaksojen valitseminen tekstitysten arvoiseksi"',
@@ -2026,7 +2020,8 @@ let message = {
         title: "Myös sinun käyttötapauksesi tarvitsee rajattoman",
         subtitle: "Liity 50 000+ ammattilaiseen, jotka lopettivat minuuttien laskemisen ja alkoivat luoda",
         button: "Aloita rajaton matkasi →"
-      }
+      },
+        heroSubtitleA: "Vuosien työjonojen omaavista podcast-juontajista satojen haastattelujen tehneisiin tutkijoihin. Katso, kuinka ammattilaiset käyttävät {NeverCap}-sovellusta päästäkseen eroon latausrajoituksista ja minuuttirajoituksista."
     },
     Podcasters: {
       badge: "Rakennettu podcastaajille",
@@ -2075,7 +2070,6 @@ let message = {
       },
       solutionTitle: "NeverCap",
       solutionTitleHighlight: "NeverCap-ratkaisu",
-      solutionDescription: "Todella rajaton tekstitys. Lataa koko arkistosi. Tekstitä jokainen uusi jakso. Luo jakson tiedotteet laajassa mittakaavassa. Ei katoksia, ei rajoja, vain kasvua.",
       workflowTitle: "Podcast-työskentelysi,",
       workflowTitleHighlight: "Yksinkertaistettu",
       workflowSubtitle: "Äänityksestä SEO-optimoituihin jakson tiedotteisiin minuuteissa",
@@ -2142,13 +2136,10 @@ let message = {
         }
       },
       comparisonTitle: "Miksi Podcastaajat Valitsevat",
-      comparisonTitleHighlight: "NeverCap",
       comparisonSubtitle: "Katso, miten pärjäämme kilpailijoihin verrattuna",
       comparison: {
         headers: {
           feature: "Ominaisuus",
-          nevercap: "NeverCap",
-          otter: "Otter.ai Pro",
           descript: "Descript Creator"
         },
         rows: {
@@ -2199,7 +2190,8 @@ let message = {
       ctaTitle: "Aloita jokaisen jakson tekstitys",
       ctaSubtitle: "Liity 10 000+ podcastaajaan, jotka eivät koskaan huolehdi rajoituksista",
       ctaButton: "Lataa ensimmäiset 50 jaksoasi ilmaiseksi →",
-      ctaDisclaimer: "Luottokorttia ei vaadita • Käsittele rajattomasti jaksoja • Peruuta milloin tahansa"
+      ctaDisclaimer: "Luottokorttia ei vaadita • Käsittele rajattomasti jaksoja • Peruuta milloin tahansa",
+        solutionDescriptionA: "{NeverCap}:n avulla saat todella rajattoman transkription. Lataa koko arkistosi. Transkriptoi jokainen uusi jakso. Luo ohjelman muistiinpanoja skaalautuvasti. Ei ylärajoja, ei rajoituksia, vain kasvua."
     },
     Journalists: {
       hero: {
@@ -2271,7 +2263,7 @@ let message = {
         solution: {
           title: "The",
           titleHighlight: "NeverCap-ratkaisu",
-          description: "Todella rajaton transkriptio. Lataa koko tutkimuksesi. Transkriboi jokainen haastattelu. Hae kaikki lainaukset heti. Ei rajoja, ei ylärajoja, vain journalismia."
+            descriptionA: "{NeverCap}:n avulla saat todella rajattoman litteroinnin. Lataa koko tutkimuksesi. Litteroi jokainen haastattelu. Hae kaikista lainauksista välittömästi. Ei isoja kirjaimia, ei rajoituksia, vain journalismia."
         }
       },
       solution: {
@@ -2407,7 +2399,6 @@ let message = {
         title: "Tekstitä YouTube-videot,",
         titleHighlight: "Rajattomasti",
         titleSuffix: "1",
-        subtitle: "Olipa kyse YouTube-videon tekstittämisestä, TikTok-videon tekstittämisestä uudelleenkäyttöä varten tai Facebook-videon muuntamisesta tekstiksi, alustamme hoitaa kaiken saumattomasti. Luo tekstityksiä 100+ kielellä ilman kuukausirajoja – vain puhdasta luovaa vapautta.",
         ctaPrimary: "Aloita Rajaton Tekstitys →",
         ctaSecondary: "Katso Miten Se Toimii",
         stats: {
@@ -2427,8 +2418,9 @@ let message = {
             number: "10+",
             label: "Alustaa"
           }
-        }
-      },
+        },
+          subtitleA: "Tarvitsetpa sitten YouTube-videon litterointia, TikTok-videon litterointia uudelleenkäyttöä varten tai Facebook-videon litterointia tekstiksi, {NeverCap} hoitaa kaiken saumattomasti. Luo tekstityksiä yli 100 kielellä ilman kuukausirajoituksia – vain puhdasta luovaa vapautta."
+    },
       platforms: {
         title: "Nouda & Tekstitä Mistä Tahansa Alustasta",
         platformNames: {
@@ -2609,7 +2601,6 @@ let message = {
       problemCard3Title: "Apurahat katoavat",
       problemCard3Desc: "Kun tietojoukkosi kasvaa, transkription kustannukset räjähtävät. 500 dollaria kohderyhmää kohden tekee skaalautumisesta mahdotonta.",
       solutionTitle: "NeverCap-ratkaisu",
-      solutionDesc: "Todella rajatonta transkriptiota. Lataa koko tutkimuksesi. Transkriboi jokainen haastattelu. Analysoi kaikki tietosi. Ei kattoja, ei rajoja, vain tutkimusta.",
       feature1Label: "Ei rajoja",
       feature1Title: "Käsittele sinun",
       feature1Desc: 'Lataa kaikki 200 tuntia haastatteluja tänä yönä. Herää valmiiksi, haettaviin transkriptioihin. Ei kuukausirajoja, ei tiedostokohtaisia rajoja, ei "kohtuullisen käytön" hölynpölyä.',
@@ -2687,13 +2678,13 @@ let message = {
         testimonialText4Hl: "kaiken viikonloppuna",
         testimonialText5: ". 20 puhujan tunnistus toimi todella - jopa sekavimmissa keskusteluissamme, kun kaikki puhuivat yhtä aikaa. Tämä työkalu on",
         testimonialText6Hl: "täysin muuttanut",
-        testimonialText7: "miten käsittelemme laadullista dataa."
+        testimonialText7: "miten käsittelemme laadullista dataa.",
+        solutionDescA: "{NeverCap}:n avulla saat todella rajattoman litteroinnin. Lataa koko tutkimuksesi. Litteroi jokainen haastattelu. Analysoi kaikki tietosi. Ei ylärajoja, ei rajoituksia, vain tutkimusta."
     },
     BusinessTeams: {
       heroBadge: "Liiketiimeille",
       heroTitle1: "Kokousnauhoitus",
       heroTitle2: "Tehty helpoksi",
-      heroSubtitle: "Nauhoita kokoukset suoraan selaimessasi tai lataa äänitiedostot välittömästi. Luo haettavia arkistoja rajattomista keskusteluista. Älä koskaan menetä tärkeitä keskusteluja todella rajattoman puhtaaksikirjoituksen ansiosta.",
       heroCtaPrimary: "Aloita nauhoitus nyt →",
       heroCtaSecondary: "Katso, miten se toimii",
       recordingStatus: "Nauhoitetaan...",
@@ -2763,7 +2754,7 @@ let message = {
       ctaButton: "Aloita Nauhoitus Ilmaiseksi →",
         featuresTitle2: "Kokous",
         workflowTitle2: "Zoom-äänitteen Tekstiksi",
-        testimonialsTitle2: "NeverCap"
+        heroSubtitleA: "Tallenna kokoukset suoraan selaimeesi tai lataa äänitiedostoja välittömästi. Luo haettavia arkistoja rajattomasta määrästä keskusteluja. Älä koskaan enää menetä tärkeitä keskusteluja {NeverCapin} todella rajattoman transkription avulla."
     },
     Educators: {
       heroBadge: "Opettajille & Kouluttajille",
@@ -2840,7 +2831,6 @@ let message = {
       useCase6Text: "18. Luottavat",
       testimonialTitle: "19. 50 000+ Opettajaa",
       testimonialSubtitle: '21. "Olen käyttänyt NeverCapia matematiikka-oppaani koko YouTube-kanavan tekstittämiseen. Mikä ennen kesti viikkoja muilla palveluilla, vie nyt tunteja. Linkkien suora liittäminen ja välittömät tekstitykset ovat muuttaneet saavutettavan sisällön luomistani. Kansainväliset opiskelijani rakastavat erityisesti monikielisiä tekstityksiä!"',
-      testimonialText: "22. Prof. Karen Mitchell",
       testimonialAuthorName: "23. Matematiikan professori, verkkopedagogi",
       testimonialAuthorRole: "24. Tee kaikesta koulutuksellisesta sisällöstäsi saavutettavaa",
       ctaTitle: "25. Liity tuhansiin opettajiin, jotka käyttävät todella rajatonta tekstitystä",
@@ -2849,7 +2839,8 @@ let message = {
         featuresTitle2: "Videoiden tekstitykseen",
         grid: "Äänitiedosto opinto-oppaaksi",
         useCasesTitle2: "4. Koulutustarpeeseen",
-        testimonialTitle2: "20. Katso, miksi opettajat ympäri maailman valitsevat NeverCapin"
+        testimonialTitle2: "20. Katso, miksi opettajat ympäri maailman valitsevat NeverCapin",
+        testimonialTextA: '"Olen käyttänyt {NeverCap}-palvelua koko YouTube-kanavani matematiikan tutoriaalien litterointiin. Se, mikä ennen kesti viikkoja muilla palveluilla, vie nyt tunteja. Mahdollisuus liittää linkkejä suoraan ja saada välittömät litteroinnit on mullistanut tapani luoda saavutettavaa sisältöä. Kansainväliset opiskelijani rakastavat erityisesti monikielisiä tekstityksiä!"'
     }
   },
   Resources: {
@@ -2998,7 +2989,6 @@ let message = {
     Hero: {
       "badge": "Alaa johtava tekoälytekniikka",
       "title": "Tietoja",
-      "highlighted_text": "NeverCap",
       "description": "Tehtävämme on tarjota tarkimmat ääni- ja videotekstityspalvelut. Hyödyntämällä alaa johtavaa tekoälytekniikkaa saavutamme yli 96 % tarkkuuden tekstityksissä. Joillakin suurilla kielillä teknisten optimointien ansiosta tarkkuus voi olla jopa 99 %."
     },
     Stats: {
@@ -3025,7 +3015,6 @@ let message = {
     },
     Mission: {
       "title": "Miksi valita",
-      "highlighted_text": "NeverCap",
       "subtitle": "Uskomme kielirajojen murtamiseen ja sisällön saavutettavuuteen kaikille",
       "features": [
             {
@@ -3120,11 +3109,10 @@ let message = {
     "updatesDescription": "Voimme päivittää tätä käytäntöä tarpeen mukaan noudattaaksemme asianomaisia säännöksiä ja heijastaaksemme uusia käytäntöjä. Aina kun teemme merkittäviä muutoksia käytäntöihimme, päivitämme tämän sivun yläosassa olevan päivämäärän.",
     "contactTitle": "9. Ota yhteyttä",
     "websiteUrl": "https://www.nevercap.ai/",
-    "neverCap": "NeverCap",
     at: "osoitteeseen",
-      policyDescription: 'Tämä käytäntö kuvailee, miten NeverCap (jäljempänä "NeverCap", "me", "meidän") kerää, käyttää ja luovuttaa henkilökohtaisia tietojasi, kun käytät palvelujamme, verkkosivustoja ({url}) ja ohjelmistoja (yhdessä "Palvelut").',
       childrenDescription: "Palvelut eivät kohdistu lapsille, emmekä tahallaan kerää henkilötietoja alle 13-vuotiailta. Jos olet alle 13-vuotias, älä lähetä henkilötietoja Palvelujen kautta. Jos uskot, että lapsi on antanut meille henkilötietoja tämän käytännön vastaisesti, ota yhteyttä sähköpostitse {at} {email}.",
-      contactDescription: "Jos sinulla on kysyttävää, kommentteja tai valituksia tietosuojakäytännöstämme, ota yhteyttä {at} {email}, ja pyrimme käsittelemään valituksesi mahdollisimman pian."
+      contactDescription: "Jos sinulla on kysyttävää, kommentteja tai valituksia tietosuojakäytännöstämme, ota yhteyttä {at} {email}, ja pyrimme käsittelemään valituksesi mahdollisimman pian.",
+      policyDescriptionA: 'Tässä tietosuojakäytännössä kuvataan, miten {NeverCap} (jäljempänä \"NeverCap\", \"me\", \"meitä\") kerää, käyttää ja luovuttaa henkilötietojasi, kun käytät palveluitamme, verkkosivustojamme ({url}) ja ohjelmistojamme (yhdessä \"Palvelut\").'
 },
   TermsOfUse: {
     title: "Käyttöehdot",
@@ -3134,7 +3122,6 @@ let message = {
     "lastUpdatedDate": "21. heinäkuuta 2025",
     "termsOfServiceTitle": "Käyttöehdot",
     "thankYou": "Kiitos, että käytät tuotteitamme!",
-    "companyDefinition": 'Kun tässä asiakirjassa viitataan "Yhtiöön", "meihin", "meidän" tai "me", tarkoitamme NeverCapia.',
     "servicesDefinition": 'Kun puhumme "Palveluista", tarkoitamme mitä tahansa NeverCapin luomaa ja ylläpitämää tuotetta, olipa se toimitettu selaimessa, työpöytäsovelluksessa, mobiilisovelluksessa tai muussa muodossa.',
     "termsUpdate": "Saatamme päivittää näitä Käyttöehtoja tulevaisuudessa. Tyypillisesti muutokset on tehty selventämään ehtoja linkittämällä laajennettuun politiikkaan. Merkittävien muutosten yhteydessä päivitämme sivun yläosassa olevan päivämäärän ja ilmoitamme tilinomistajille asianmukaisesti.",
     "acceptanceTitle": "1. Sopimuksen hyväksyminen",
@@ -3218,13 +3205,13 @@ let message = {
     "miscellaneousTitle": "16. Sekalaiset määräykset",
     "miscellaneousDescription": "Nämä palveluehdot ja verkkosivustollamme julkaisemamme käytännöt tai toimintasäännöt muodostavat täydellisen sopimuksen ja ymmärryksen sinun ja meidän välillämme. Se, että emme käytä tai pane täytäntöön näiden palveluehtojen oikeutta tai määräystä, ei merkitse kyseisestä oikeudesta tai määräyksestä luopumista. Näitä palveluehtoja sovelletaan lain sallimassa laajimmassa määrin. Voimme siirtää kaikki oikeutemme ja velvollisuutemme toisille milloin tahansa. Emme ole vastuussa mistään menetyksistä, vahingoista, viivästyksistä tai toimimattomuudesta, joka johtuu mistä tahansa kohtuullisen hallintamme ulkopuolella olevasta syystä. Jos näiden palveluehtojen määräys tai osa määräyksestä todetaan laittomaksi, mitättömäksi tai täytäntöönpanokelvottomaksi, kyseinen määräys tai osa määräyksestä katsotaan erotettavaksi eikä se vaikuta muiden määräysten pätevyyteen ja täytäntöönpanokelpoisuuteen. Nämä palveluehdot tai verkkosivuston käyttö ei luo yhteisyritys-, kumppanuus-, työsuhde- tai edustussuhdetta sinun ja meidän välillämme. Hyväksyt, että näitä palveluehtoja ei tulkita meitä vastaan sen vuoksi, että olemme laatineet ne. Luovut täten kaikista puolustuskeinoista, jotka saattavat perustua näiden palveluehtojen sähköiseen muotoon ja siihen, että osapuolet eivät ole allekirjoittaneet näitä palveluehtoja.",
     "contactTitle": "17. Ota yhteyttä",
-    "neverCap": "NeverCap",
     "site": "Verkkosivusto",
     "services": "Palvelut",
     at: "osoitteeseen",
       trademarkProtection: "Palveluiden nimet, ulkoasu ja ilmiasma ovat yrityksen tekijänoikeussuojattuja. Kaikki oikeudet pidätetään. HTML-, CSS-, JavaScript- tai visuaalisten suunnitteluelementtien monistaminen, kopioiminen tai uudelleenkäyttö ilman yrityksen kirjallista lupaa on kielletty. Logojen käyttöön markkinointitarkoituksessa vaaditaan erillinen lupa. Lähetä logojen käyttölupykyselyt sähköpostitse osoitteeseen {at} {email}. Meillä on oikeus peruuttaa lupa, jos rikot käyttöehtoja.",
       privacyPolicyDescription: "Välitämme tietosuojasta ja -turvallisuudesta. Tutustu {policy}. Sivuston käyttäminen edellyttää tietosuojakäytäntöön sitoutumista. Sivusto sijaitsee Yhdysvalloissa. Käyttäessäsi sivustoa muulta alueelta, jossa henkilötietojen keräämistä, käyttöä tai luovuttamista koskevat erilaiset lait, tietosi siirretään Yhdysvaltoihin. Hyväksyt tietojesi siirron ja käsittelyn Yhdysvalloissa.",
-      contactDescription: "Jos sinulla on kysyttävää käyttöehdoista, ota yhteyttä {at} {email}."
+      contactDescription: "Jos sinulla on kysyttävää käyttöehdoista, ota yhteyttä {at} {email}.",
+      "companyDefinitionA": 'Kun sanomme tässä asiakirjassa \"Yritys\", \"me\", \"meidän\" tai \"meitä\", viittaamme {NeverCap}-yritykseen.'
 }
 };
 

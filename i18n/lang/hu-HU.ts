@@ -1078,13 +1078,13 @@ let message = {
       badge: 'Nincs többé "Shrinkflation" - Valóban Korlátlan',
       h1: "Ne Fizess Korlátokért:",
       gradient: "Valóban Korlátlan AI Átirat",
-      subtitle: "Az AI-nk videókat átír és hangot szöveggé alakít, egyszerre 50 fájlt dolgoz fel havi korlát nélkül. Átirat, amely valóban veled nő.",
       FreeTrial: "Próbálja Ki Ingyen - Bankkártya Nélkül",
       HowWorks: "Nézd Meg, Hogyan Működik",
       Unlimited: "Korlátlan Fájlfeltöltés",
       NoCap: "Nincs Havi Perc Korlát",
       Hour: "10 Órás Fájlok Támogatottak",
-      ExploreUseCases: "Fedezd Fel a Használati Eseteket"
+      ExploreUseCases: "Fedezd Fel a Használati Eseteket",
+        subtitleA: "A NeverCap mesterséges intelligenciája videókat ír át és hangokat szöveggé alakít, egyszerre 50 fájlt dolgoz fel havi korlátok nélkül. Átírás, amely valóban veled együtt skálázódik."
     },
     Stats: {
       monthlyMinutes: "Havi Percek",
@@ -1144,8 +1144,6 @@ let message = {
       }
     },
     Testimonials: {
-      title: "Kedvelik",
-      highlighted_users: "50 000+ felhasználó",
       subtitle: "Nézd meg, miért választják a szakemberek a NeverCap-et a korlátozott alternatívák helyett",
       Mike: {
         "text": "Szent ég, ez tényleg működik! 3 éve készítek podcastot, és mint egy idióta, mindent kézzel írtam át. Egyszerre feltöltöttem 6 részt, és tökéletesen elkülönítette a társamat és engem. A kávézós rész, amit tönkrementnek hittem? Kristálytiszta átirat. Soha többé nem írom ezeket ki magamnak.",
@@ -1161,7 +1159,8 @@ let message = {
         "text": "Az interjúimhoz használom, és hihetetlen, mennyire pontos. Volt egy 2 órás interjúm törött angollal és spanyollal, és mindent jól értett meg, még az időbélyegeket is. Korábban havonta 200 dollárt fizettem a gyakornokomnak az átírásért. Ez szó szerint havonta pénzt takarít meg nekem.",
         "author": "Jessica Park",
         "role": "Szabadúszó újságíró"
-      }
+      },
+        titleA: "Több mint 50 000 felhasználó kedveli"
     },
     PricingPreview: {
       "title": "Átlátható árazás",
@@ -1232,7 +1231,6 @@ let message = {
       heroBadgeText: 'Nincs többé "zsugorinfláció"',
       heroTitleLine1: "Valóban korlátlan",
       heroTitleLine2: "AI átirat",
-      heroSubtitle: "Míg a Trint 50 órára, az Otter pedig havi 10 fájlra korlátoz, mi azt teljesítjük, amit ígérünk: korlátlan átirat rejtett korlátok nélkül.",
       primaryCta: "Próbálja Ingyen - Bankkártya Nem Szükséges",
       secondaryCta: "Lássa az Igazságot",
       comparisonBadLabel: "Mit Csinálnak Mások",
@@ -1302,7 +1300,6 @@ let message = {
       feature2TableRow2Value: "10 fájl/hó",
       feature2TableRow3Label: "Trint",
       feature2TableRow3Value: "50 óra/hó limit",
-      feature2TableRow4Label: "NeverCap",
       feature2TableRow4Value: "Valóban korlátlan ✓",
       feature3Label: "Közösségi bizonyíték",
       feature3TitlePart1: "Felhasználók",
@@ -1332,7 +1329,9 @@ let message = {
       trustBadge4Label: "Kötegelt feltöltés",
       ctaTitle: "Ne fizess ál-korlátlanért",
       ctaSubtitle: "Csatlakozz több ezer felhasználóhoz, akik a valóban korlátlan átírást választották",
-      finalCta: "Próbáld ki a NeverCap ingyenes verzióját"
+      finalCta: "Próbáld ki a NeverCap ingyenes verzióját",
+        heroSubtitle1: "Míg a Trint 50 órában, az Otter pedig havi 10 fájlban korlátozza a munkaidőt,",
+        heroSubtitle2: "Azt nyújtjuk, amit ígérünk: korlátlan átírás rejtett nagyítások nélkül."
     },
     BulkUpload: {
       heroBadgeIcon: "📁",
@@ -1361,7 +1360,6 @@ let message = {
       limitCard3Number: "1",
       limitCard3DescriptionLine1: "Fájl egyszerre",
       limitCard3DescriptionLine2: "(Szekvenciális feltöltés)",
-      limitCard4Service: "NeverCap",
       limitCard4Number: "∞",
       limitCard4DescriptionLine1: "Korlátlan feltöltés",
       limitCard4DescriptionLine2: "50 fájl alkalmanként",
@@ -1554,12 +1552,7 @@ let message = {
       formattingAfterText: "Szóval ma az új funkciókról fogunk beszélni, amin dolgoztunk. Szerintem nagyon tetszeni fognak. Régóta kérték a felhasználók, és végül megcsináltuk.",
       comparisonSubtitle: "Pontosság",
       comparisonSectionTitle: "Összehasonlítás",
-      comparisonDes: "Nézze meg, hogyan állunk a versenytársakhoz képest",
       tableHeader1: "Funkció",
-      tableHeader2: "NeverCap",
-      tableHeader3: "Otter.ai",
-      tableHeader4: "Descript",
-      tableHeader5: "Rev",
       tableRow1Feature: "Pontosság (tiszta hang)",
       tableRow1NeverCap: "96%",
       tableRow1Otter: "95%",
@@ -1593,7 +1586,9 @@ let message = {
       ctaTitle: "96%-os pontosság élménye",
       ctaSubtitle: "Töltse fel legnehezebb hanganyagát és lássa a különbséget",
       finalCta: "Tesztelje a pontosságunkat most →",
-        languageSectionTitlePart2: "12 Fő Nyelven"
+        languageSectionTitlePart2: "12 Fő Nyelven",
+        comparisonDes1: "Nézd meg, hogyan",
+        comparisonDes2: "felveszi a versenyt a versenytársakkal"
     }
   },
   Pricing: {
@@ -1825,8 +1820,6 @@ let message = {
       builtFor: "Kifejlesztve",
       heavyUsers: "Intenzív felhasználóknak",
       whoActuallyNeed: "Akiknek valóban korlátlan kapacitásra van szükségük",
-      heroSubtitle:
-        "A több éves archívummal rendelkező podcastereektől a több száz interjúval dolgozó kutatókig. Nézd meg, hogyan használják a szakemberek a NeverCap-et, hogy megszabaduljanak a feltöltési korlátokról és perclimitektől.",
       podcasters: {
         title: "Podcast-készítők",
         pain: '"Ne válaszd ki, mely epizódok érdemelnek átiratot"',
@@ -2029,7 +2022,8 @@ let message = {
         title: "Az Ön Esete is Korlátlanra Van Szüksége",
         subtitle: "Csatlakozzon 50 000+ szakemberhez, akik abbahagyták a percek számolását és elkezdtek alkotni",
         button: "Kezdje El Korlátlan Utazását →"
-      }
+      },
+        heroSubtitleA: "Az évekig tartó elmaradásokkal rendelkező podcastkészítőktől a több száz interjúval rendelkező kutatókig. Nézze meg, hogyan használják a szakemberek a {NeverCap}-et a feltöltési korlátok és a perckorlátok leküzdésére."
     },
     Podcasters: {
       badge: "Podcast-Készítőknek Készült",
@@ -2078,7 +2072,6 @@ let message = {
       },
       solutionTitle: "A",
       solutionTitleHighlight: "NeverCap Megoldás",
-      solutionDescription: "Valódi korlátlan átírás. Töltse fel a teljes archívumot. Írja le minden új epizódot. Készítsen műsorjegyzeteket nagy mennyiségben. Nincs kupak, nincs korlát, csak növekedés.",
       workflowTitle: "Podcast Munkafolyamatod,",
       workflowTitleHighlight: "Egyszerűsítve",
       workflowSubtitle: "A felvételtől az SEO-optimalizált műsorjegyzetekig percek alatt",
@@ -2145,13 +2138,10 @@ let message = {
         }
       },
       comparisonTitle: "Miért Választják a Podcastkészítők",
-      comparisonTitleHighlight: "A NeverCap-ot",
       comparisonSubtitle: "Nézd meg, hogyan állunk a versenyhez képest",
       comparison: {
         headers: {
           feature: "Funkció",
-          nevercap: "NeverCap",
-          otter: "Otter.ai Pro",
           descript: "Descript Creator"
         },
         rows: {
@@ -2202,7 +2192,8 @@ let message = {
       ctaTitle: "Kezdje el Minden Epizód Átírását",
       ctaSubtitle: "Csatlakozzon 10 000+ podcasterhez, akik soha nem aggódnak a korlátok miatt",
       ctaButton: "Töltse Fel Az Első 50 Epizódot Ingyen →",
-      ctaDisclaimer: "Nincs bankkártya szükséges • Korlátlan epizód feldolgozás • Bármikor lemondható"
+      ctaDisclaimer: "Nincs bankkártya szükséges • Korlátlan epizód feldolgozás • Bármikor lemondható",
+        solutionDescriptionA: "A {NeverCap} segítségével valóban korlátlan átírást kapsz. Töltsd fel a teljes archívumodat. Írj le minden új epizódot. Készíts műsorjegyzeteket nagy léptékben. Nincsenek korlátozások, nincsenek korlátok, csak növekedés."
     },
     Journalists: {
       hero: {
@@ -2274,7 +2265,7 @@ let message = {
         solution: {
           title: "A",
           titleHighlight: "NeverCap Megoldás",
-          description: "Valóban korlátlan transzkripció. Töltsd fel az egész nyomozásod. Transzkribáld minden interjút. Azonnal keress idézeteket. Nincs limit, nincs korlát, csak újságírás."
+            descriptionA: "A {NeverCap} segítségével korlátlan átírást kapsz. Töltsd fel a teljes nyomozásodat. Írj le minden interjút. Azonnal kereshetsz az összes idézet között. Nincsenek nagybetűk, nincsenek korlátok, csak újságírás."
         }
       },
       solution: {
@@ -2410,7 +2401,6 @@ let message = {
         title: "YouTube Videók Átirata,",
         titleHighlight: "Korlátlanul",
         titleSuffix: "1",
-        subtitle: "Legyen szó YouTube-videó átiratáról, TikTok-videó átiratáról újrafelhasználáshoz, vagy Facebook-videó szöveggé alakításáról, platformunk zökkenőmentesen kezeli mindet. Feliratok generálása 100+ nyelven havi korlátok nélkül – tiszta kreatív szabadság.",
         ctaPrimary: "Korlátlan Felirat Kezdése →",
         ctaSecondary: "Hogyan Működik",
         stats: {
@@ -2430,8 +2420,9 @@ let message = {
             number: "10+",
             label: "Platform"
           }
-        }
-      },
+        },
+          subtitleA: "Akár egy YouTube-videót kell átírnod, akár egy TikTok-videót kell átírnod ​​újrafelhasználáshoz, vagy kitalálnod, hogyan írj át egy Facebook-videót szöveggé, a {NeverCap} zökkenőmentesen kezeli mindezt. Generálj feliratokat több mint 100 nyelven havi korlátok nélkül – csak tiszta kreatív szabadság."
+    },
       platforms: {
         title: "Lekérés & Átirat Bármely Platformról",
         platformNames: {
@@ -2612,7 +2603,6 @@ let message = {
       problemCard3Title: "A Támogatási Pénz Eltűnik",
       problemCard3Desc: "Ahogy nő az adatkészleted, a transzkripciós költségek robbanásszerűen nőnek. 500 dollár fókuszcsoportonként lehetetlenné teszi a skálázást.",
       solutionTitle: "NeverCap Megoldás",
-      solutionDesc: "Valóban korlátlan transzkripció. Töltsd fel a teljes tanulmányod. Írd át minden interjút. Elemezd az összes adatod. Nincs limit, nincs korlát, csak kutatás.",
       feature1Label: "Nincsenek Korlátok",
       feature1Title: "Az Ön",
       feature1Desc: 'Tölts fel 200 órányi interjút ma este. Ébredj teljes, kereshető átiratokra. Nincs havi limit, fájlonkénti korlát, vagy "fair use" képtelenség.',
@@ -2690,13 +2680,13 @@ let message = {
         testimonialText4Hl: "mindezt egy hétvégén",
         testimonialText5: ". A 20 beszélő azonosítója tényleg működött – még a legzűrösebb vitáink során is, amikor mindenki egyszerre beszélt. Ez az eszköz",
         testimonialText6Hl: "teljesen megváltoztatta",
-        testimonialText7: "a kvalitatív adataink kezelésének módját."
+        testimonialText7: "a kvalitatív adataink kezelésének módját.",
+        solutionDescA: "A {NeverCap} segítségével korlátlan átírást kapsz. Töltsd fel a teljes tanulmányodat. Írj le minden interjút. Elemezd az összes adatodat. Nincsenek korlátozások, nincsenek korlátok, csak kutatás."
     },
     BusinessTeams: {
       heroBadge: "Üzleti Csapatoknak",
       heroTitle1: "Értekezlet Felvétel",
       heroTitle2: "Könnyedén Megvalósítható",
-      heroSubtitle: "Rögzítsen értekezleteket közvetlenül a böngészőjében, vagy töltse fel az audiofájlokat azonnal. Építsen kereshető archívumokat korlátlan beszélgetésekből. Soha ne veszítsen el fontos vitákat a valóban korlátlan átírással.",
       heroCtaPrimary: "Kezdje El a Felvételt Most →",
       heroCtaSecondary: "Nézze Meg, Hogyan Működik",
       recordingStatus: "Felvétel Folyamatban...",
@@ -2766,7 +2756,7 @@ let message = {
       ctaButton: "Kezdj el felvenni ingyen →",
         featuresTitle2: "Értekezlet",
         workflowTitle2: "Zoom felvételt szöveggé",
-        testimonialsTitle2: "NeverCap"
+        heroSubtitleA: "Rögzítse a megbeszéléseket közvetlenül a böngészőjében, vagy töltsön fel azonnal hangfájlokat. Készítsen kereshető archívumot korlátlan számú beszélgetésből. Soha többé ne veszítse el a fontos beszélgetéseket a {NeverCap} valóban korlátlan átiratával."
     },
     Educators: {
       heroBadge: "Oktatóknak és tanároknak",
@@ -2843,7 +2833,6 @@ let message = {
       useCase6Text: "Segítsen a diákoknak pontos időbélyegekkel hivatkozni videóforrásokra. Tökéletes kutatási projektekhez és tudományos dolgozatokhoz.",
       testimonialTitle: "Megbízóink",
       testimonialSubtitle: "Nézze meg, miért választják a világ tanárai a NeverCap-et",
-      testimonialText: '"A NeverCap-et használom a matematikai oktatóvideókat tartalmazó teljes YouTube-csatornám átírására. Ami más szolgáltatásokkal heteket vett igénybe, most órák alatt megvan. A közvetlen link beillesztése és az azonnali átiratok lehetősége teljesen átalakította, hogyan készítek akadálymentes tartalmat. Nemzetközi diákjaim különösen szeretik a többnyelvű feliratokat!"',
       testimonialAuthorName: "Prof. Karen Mitchell",
       testimonialAuthorRole: "Matematika Professzor, Online Oktató",
       ctaTitle: "Tegye Elérhetővé Minden Oktatási Tartalmát",
@@ -2852,7 +2841,8 @@ let message = {
         featuresTitle2: "Videó Átirat",
         grid: "Hangfájl Tanulási Segédletté",
         useCasesTitle2: "Oktatási Igényre",
-        testimonialTitle2: "50 000+ Oktató"
+        testimonialTitle2: "50 000+ Oktató",
+        testimonialTextA: "„A {NeverCap} programot használom a teljes YouTube-csatornám matematikai oktatóanyagainak átírására. Ami más szolgáltatásokkal hetekig tartott, az most órákig tart. A linkek közvetlen beillesztésének és az azonnali átiratok megszerzésének lehetősége átalakította a hozzáférhető tartalmak létrehozásának módját. A külföldi diákjaim különösen szeretik a többnyelvű feliratokat!”"
     }
   },
   Resources: {
@@ -3001,7 +2991,6 @@ let message = {
     Hero: {
       "badge": "Piacvezető AI-technológia",
       "title": "Rólunk",
-      "highlighted_text": "NeverCap",
       "description": "Küldetésünk a legpontosabb hang- és videóátírási szolgáltatások nyújtása. A piacvezető AI-technológiát használva több mint 96%-os átírási pontosságot érünk el. Néhány főbb nyelv esetében a technikai optimalizálásnak köszönhetően akár 99%-os pontosság is elérhető."
     },
     Stats: {
@@ -3028,7 +3017,6 @@ let message = {
     },
     Mission: {
       "title": "Miért válassza a",
-      "highlighted_text": "NeverCap-et",
       "subtitle": "Hiszünk abban, hogy le kell rombolni a nyelvi akadályokat, és mindenki számára hozzáférhetővé kell tenni a tartalmakat",
       "features": [
             {
@@ -3123,11 +3111,10 @@ let message = {
     "updatesDescription": "Szükség szerint frissíthetjük ezt a szabályzatot, hogy megfeleljünk a vonatkozó szabályozásoknak és tükrözzük az új gyakorlatokat. Mindig, amikor jelentős változtatást eszközölünk a szabályzatainkban, frissítjük az oldal tetején látható dátumot.",
     "contactTitle": "9. Lépj kapcsolatba velünk",
     "websiteUrl": "https://www.nevercap.ai/",
-    "neverCap": "NeverCap",
     at: "címen",
-      policyDescription: 'Ez a Szabályzat leírja, hogy a NeverCap (a továbbiakban: \"NeverCap\", \"mi\", \"a mi\", \"nekünk\") miként gyűjti, használja és hozza nyilvánosságra személyes adatait, amikor szolgáltatásainkat, weboldalunkat ({url}) és szoftverünket (együttesen: a \"Szolgáltatásokat\") használja.',
       childrenDescription: "A Szolgáltatások nem gyermekeknek szólnak, és tudatosan nem gyűjtünk Személyes Adatokat 13 év alatti gyermekektől. Ha 13 év alatti vagy, kérjük, ne adj meg személyes adatokat a Szolgáltatásokon keresztül. Ha úgy gondolja, hogy egy gyermek megsértve ezt a Szabályzatot adott meg nekünk Személyes Adatot, kérjük, lépjen kapcsolatba velünk az alábbiakban megadott {at} {email} címen.",
-      contactDescription: "Ha kérdése, észrevétele vagy panasza van az Adatvédelmi Szabályzatunkkal kapcsolatban, kérjük, lépjen kapcsolatba velünk {at} {email} címen, és mindent meg fogunk tenni, hogy a panaszát a lehető leghamarabb kezeljük."
+      contactDescription: "Ha kérdése, észrevétele vagy panasza van az Adatvédelmi Szabályzatunkkal kapcsolatban, kérjük, lépjen kapcsolatba velünk {at} {email} címen, és mindent meg fogunk tenni, hogy a panaszát a lehető leghamarabb kezeljük.",
+      policyDescriptionA: 'Ez a Szabályzat leírja, hogyan gyűjti, használja és hozza nyilvánosságra a {NeverCap} (a továbbiakban: \"NeverCap\", \"mi\", \"minket\") az Ön személyes adatait, amikor Ön szolgáltatásainkat, webhelyeinket ({url}) és szoftvereinket (együttesen a \"Szolgáltatások\") használja.'
 },
   TermsOfUse: {
     title: "Szolgáltatási",
@@ -3137,7 +3124,6 @@ let message = {
     "lastUpdatedDate": "2025. július 21.",
     "termsOfServiceTitle": "Szolgáltatási Feltételek",
     "thankYou": "Köszönjük, hogy termékeinket használja!",
-    "companyDefinition": 'Amikor ebben a dokumentumban a "Vállalat", "mi", "a mi" vagy "nekünk" kifejezéseket használjuk, a NeverCap-ra utalunk.',
     "servicesDefinition": 'A "Szolgáltatások" alatt minden olyan terméket értünk, amelyet a NeverCap készített és karbantart, függetlenül attól, hogy webböngészőben, asztali alkalmazásban, mobilalkalmazásban vagy más formátumban kerül kiszállításra.',
     "termsUpdate": "A jövőben frissíthetjük ezeket a Szolgáltatási Feltételeket. Általában ezek a változtatások azért történnek, hogy egyes feltételeket pontosítsunk egy kapcsolódó, bővebb szabályzatra hivatkozva. Mindig, amikor jelentős változtatást eszközölünk szabályzatainkban, frissítjük az oldal tetején látható dátumot, és megteszünk minden szükséges lépést a fióktulajdonosok értesítésére.",
     "acceptanceTitle": "1. A Megállapodás Elfogadása",
@@ -3221,13 +3207,13 @@ let message = {
     "miscellaneousTitle": "16. Egyéb rendelkezések",
     "miscellaneousDescription": "Ezek a Felhasználási Feltételek és bármely általunk a Weboldalon vagy a Weboldallal kapcsolatban közzétett szabályzatok vagy üzemeltetési szabályok képezik a teljes megállapodást és egyetértést Ön és közöttünk. Az, hogy nem gyakoroljuk vagy érvényesítjük ezen Felhasználási Feltételek bármely jogát vagy rendelkezését, nem jelenti ezen jog vagy rendelkezés lemondását. Ezek a Felhasználási Feltételek a jogszabályok által megengedett legteljesebb mértékben érvényesülnek. Jogainkat és kötelezettségeinket bármikor átruházhatjuk másokra, részben vagy egészben. Nem vagyunk felelősek vagy kötelezettek bármilyen veszteségért, kárért, késedelemért vagy mulasztásért, amely ésszerű kontrollon kívüli okból ered. Ha ezen Felhasználási Feltételek bármely rendelkezése vagy rendelkezésének része jogszerűtlennek, semmisnek vagy végrehajthatatlannak minősül, az adott rendelkezés vagy rendelkezésrész elválaszthatónak tekintendő ezektől a Felhasználási Feltételektől, és nem érinti a fennmaradó rendelkezések érvényességét és végrehajthatóságát. Ezen Felhasználási Feltételek vagy a Weboldal használata következtében nem jön létre közös vállalkozás, partnerség, munkavállalói vagy képviseleti viszony Ön és közöttünk. Ön beleegyezik abba, hogy ezeket a Felhasználási Feltételeket nem lehet ellenünk értelmezni azon okból, hogy mi fogalmaztuk meg őket. Ezennel lemond minden olyan védekezésről, amellyel rendelkezhet ezen Felhasználási Feltételek elektronikus formája és a felek általi aláírás hiánya miatt.",
     "contactTitle": "17. Kapcsolat",
-    "neverCap": "NeverCap",
     "site": "Weboldal",
     "services": "Szolgáltatások",
     at: "címen",
       trademarkProtection: "A Szolgáltatások nevei, megjelenése és hangulata a Társaság szerzői jogvédelem alatt áll. Minden jog fenntartva. A HTML, CSS, JavaScript vagy vizuális tervezési elemek egy részét sem szabad másolni, reprodukálni vagy újra felhasználni a Társaság írásos engedélye nélkül. Engedélyt kell kérnie a Társaság emblémájának vagy bármely Szolgáltatás emblémájának promóciós célú használatához. Kérjük, küldjön e-mailt {at} {email} címre az emblémák használatával kapcsolatos kérésekkel. Fenntartjuk a jogot, hogy visszavonjuk ezt az engedélyt, ha megsérti ezeket a Szolgáltatási Feltételeket.",
       privacyPolicyDescription: "Fontosnak tartjuk az adatvédelem és biztonságot. Kérjük, tekintse át {policy} szabályzatunkat. A Webhely használatával elfogadja, hogy kötelesnek tartja magát az Adatvédelmi Szabályzatunkra, amely integrált része ezeknek a Szolgáltatási Feltételeknek. Tájékoztatjuk, hogy a Webhely az Egyesült Államokban található. Ha a Webhelyet a világ bármely más régiójából éri el, ahol a személyes adatok gyűjtésére, használatára vagy nyilvánosságra hozatalára vonatkozó törvények vagy egyéb követelmények eltérnek az Egyesült Államokban érvényes törvényektől, akkor a Webhely további használatával Ön átadja adatait az Egyesült Államokba, és hozzájárul, hogy azok az Egyesült Államokban legyenek feldolgozva.",
-      contactDescription: "Ha kérdése van a Szolgáltatási Feltételek bármelyikével kapcsolatban, kérjük, lépjen kapcsolatba velünk {at} {email} címen."
+      contactDescription: "Ha kérdése van a Szolgáltatási Feltételek bármelyikével kapcsolatban, kérjük, lépjen kapcsolatba velünk {at} {email} címen.",
+      "companyDefinitionA": "Amikor ebben a dokumentumban a „Vállalat”, „mi”, „minket” vagy „minket” kifejezéseket használjuk, a {NeverCap} vállalatra utalunk."
 }
 };
 

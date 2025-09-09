@@ -1080,13 +1080,13 @@ let message = {
       badge: 'Ikke mer "Shrinkflation" – Faktisk Ubegrenset',
       h1: "Slutt å Betale for Begrensninger:",
       gradient: "Virkelig Ubegrenset AI-transkripsjon",
-      subtitle: "Vår AI transkriberer video og konverterer lyd til tekst, behandler 50 filer samtidig uten månedlige tak. Transkripsjon som virkelig skalerer med deg.",
       FreeTrial: "Prøv Gratis – Ingen Kredittkort",
       HowWorks: "Se Hvordan Det Fungerer",
       Unlimited: "Ubegrensede Filopplastinger",
       NoCap: "Ingen Månedlig Minuttgrense",
       Hour: "Støtte for 10-Timers Filer",
-      ExploreUseCases: "Utforsk Bruksområder"
+      ExploreUseCases: "Utforsk Bruksområder",
+        subtitleA: "NeverCaps kunstige intelligens transkriberer video og konverterer lyd til tekst, og behandler 50 filer samtidig uten månedlige grenser. Transkripsjon som virkelig skalerer med deg."
     },
     Stats: {
       monthlyMinutes: "Månedlige Minutter",
@@ -1146,8 +1146,6 @@ let message = {
       }
     },
     Testimonials: {
-      title: "Elsket av",
-      highlighted_users: "50 000+ brukere",
       subtitle: "Se hvorfor profesjonelle velger NeverCap fremfor begrensede alternativer",
       Mike: {
         "text": "Herregud, dette fungerer faktisk! Har drevet podcast i 3 år og transkribert alt manuelt som en idiot. Lastet opp 6 episoder på en gang, og den skilte meg og medvert perfekt. Kaféepisoden jeg trodde var ødelagt? Krystallklar transkripsjon. Jeg skal aldri skrive dette selv igjen.",
@@ -1163,7 +1161,8 @@ let message = {
         "text": "Har brukt dette til intervjuene mine, og det er utrolig nøyaktig. Hadde et 2-timers intervju på gebrokken engelsk + spansk, og den fikk alt riktig, til og med tidsstemplene. Betalte min praktikant $200/mnd bare for å transkribere. Dette sparer meg bokstavelig talt penger hver måned.",
         "author": "Jessica Park",
         "role": "Frilansjournalist"
-      }
+      },
+        titleA: "Elsket av over 50 000 brukere av"
     },
     PricingPreview: {
       "title": "Åpen prising",
@@ -1234,7 +1233,6 @@ let message = {
       heroBadgeText: 'Ikke mer "krympflasjon"',
       heroTitleLine1: "Virkelig ubegrenset",
       heroTitleLine2: "AI-transkripsjon",
-      heroSubtitle: "Mens Trint begrenser deg til 50 timer og Otter begrenser deg til 10 filer per måned, leverer vi det vi faktisk lover: ubegrenset transkripsjon uten skjulte begrensninger.",
       primaryCta: "Prøv gratis – ingen bankkort",
       secondaryCta: "Se sannheten",
       comparisonBadLabel: "Hva andre gjør",
@@ -1304,7 +1302,6 @@ let message = {
       feature2TableRow2Value: "10 filer/måned",
       feature2TableRow3Label: "Trint",
       feature2TableRow3Value: "50 timer/måned grense",
-      feature2TableRow4Label: "NeverCap",
       feature2TableRow4Value: "Virkelig ubegrenset ✓",
       feature3Label: "Sosial bekreftelse",
       feature3TitlePart1: "Brukere",
@@ -1334,7 +1331,9 @@ let message = {
       trustBadge4Label: "Batchopplasting",
       ctaTitle: "Slutt å betale for falsk ubegrenset",
       ctaSubtitle: "Bli en av tusenvis som har byttet til virkelig ubegrenset transkripsjon",
-      finalCta: "Prøv NeverCap gratis"
+      finalCta: "Prøv NeverCap gratis",
+        heroSubtitle1: "Mens Trint begrenser deg til 50 timer og Otter begrenser deg til 10 filer per måned,",
+        heroSubtitle2: "leverer det vi faktisk lover: ubegrenset transkripsjon uten skjulte begrensninger."
     },
     BulkUpload: {
       heroBadgeIcon: "📁",
@@ -1363,7 +1362,6 @@ let message = {
       limitCard3Number: "1",
       limitCard3DescriptionLine1: "Fil om gangen",
       limitCard3DescriptionLine2: "(Sekvensiell opplasting)",
-      limitCard4Service: "NeverCap",
       limitCard4Number: "∞",
       limitCard4DescriptionLine1: "Ubegrensede opplastinger",
       limitCard4DescriptionLine2: "50 filer per batch",
@@ -1556,12 +1554,7 @@ let message = {
       formattingAfterText: "Så i dag skal vi snakke om de nye funksjonene vi har jobbet med. Jeg tror du virkelig vil like dem. De har blitt etterspurt av brukere lenge, og vi har endelig fått dem ferdig.",
       comparisonSubtitle: "Nøyaktighet",
       comparisonSectionTitle: "Sammenligning",
-      comparisonDes: "Se hvordan vi måler oss mot konkurrentene",
       tableHeader1: "Funksjon",
-      tableHeader2: "NeverCap",
-      tableHeader3: "Otter.ai",
-      tableHeader4: "Descript",
-      tableHeader5: "Rev",
       tableRow1Feature: "Nøyaktighet (klar lyd)",
       tableRow1NeverCap: "96%",
       tableRow1Otter: "95%",
@@ -1595,7 +1588,9 @@ let message = {
       ctaTitle: "Opplev 96% nøyaktighet",
       ctaSubtitle: "Last opp din mest utfordrende lyd og se forskjellen",
       finalCta: "Test nøyaktigheten nå →",
-        languageSectionTitlePart2: "på 12 hovedspråk"
+        languageSectionTitlePart2: "på 12 hovedspråk",
+        comparisonDes1: "Se hvordan",
+        comparisonDes2: "stable opp mot konkurrentene"
     }
   },
   Pricing: {
@@ -1827,7 +1822,6 @@ let message = {
       builtFor: "Laget for",
       heavyUsers: "Tunge brukere",
       whoActuallyNeed: "Som virkelig trenger ubegrenset",
-      heroSubtitle: "Fra podkastere med årsvis av backlog til forskere med hundrevis av intervjuer. Se hvordan profesjonelle bruker NeverCap for å bryte fri fra opplastingsgrenser og minutttak.",
       podcasters: {
         title: "Podcasters",
         pain: '"Slutt å velge hvilke episoder som fortjener transkripsjoner"',
@@ -2030,7 +2024,8 @@ let message = {
         title: "Din brukssakse trenger også ubegrenset",
         subtitle: "Bli med 50 000+ profesjonelle som sluttet å telle minutter og begynte å skape",
         button: "Start din ubegrensede reise →"
-      }
+      },
+        heroSubtitleA: "Fra podkastere med årevis med etterslep til forskere med hundrevis av intervjuer. Se hvordan fagfolk bruker {NeverCap} for å bryte seg løs fra opplastingsbegrensninger og minuttbegrensninger."
     },
     Podcasters: {
       badge: "Laget for podkastere",
@@ -2079,7 +2074,6 @@ let message = {
       },
       solutionTitle: "Dette",
       solutionTitleHighlight: "NeverCap-løsningen",
-      solutionDescription: "Virkelig ubegrenset transkripsjon. Last opp hele arkivet ditt. Transkriber hver nye episode. Generer shownotater i stor skala. Ingen tak, ingen grenser, bare vekst.",
       workflowTitle: "Din podkastarbeidsflyt,",
       workflowTitleHighlight: "Forenklet",
       workflowSubtitle: "Fra opptak til SEO-optimaliserte shownotater på minutter",
@@ -2146,13 +2140,10 @@ let message = {
         }
       },
       comparisonTitle: "Hvorfor Podcastere Velger",
-      comparisonTitleHighlight: "NeverCap",
       comparisonSubtitle: "Se hvordan vi måler oss mot konkurrentene",
       comparison: {
         headers: {
           feature: "Funksjon",
-          nevercap: "NeverCap",
-          otter: "Otter.ai Pro",
           descript: "Descript Creator"
         },
         rows: {
@@ -2203,7 +2194,8 @@ let message = {
       ctaTitle: "Start transkribering av hver episode",
       ctaSubtitle: "Bli med 10 000+ podkastere som aldri bekymrer seg om grenser",
       ctaButton: "Last opp dine første 50 episoder gratis →",
-      ctaDisclaimer: "Ingen kredittkort nødvendig • Behandle ubegrensede episoder • Avbryt når som helst"
+      ctaDisclaimer: "Ingen kredittkort nødvendig • Behandle ubegrensede episoder • Avbryt når som helst",
+        solutionDescriptionA: "Med {NeverCap} får du ekte ubegrenset transkripsjon. Last opp hele arkivet ditt. Transkriber hver nye episode. Generer programnotater i stor skala. Ingen grenser, ingen grenser, bare vekst."
     },
     Journalists: {
       hero: {
@@ -2275,7 +2267,7 @@ let message = {
         solution: {
           title: "The",
           titleHighlight: "NeverCap-løsningen",
-          description: "Virkelig ubegrenset transkripsjon. Last opp hele etterforskningen din. Transkriber hvert intervju. Søk i alle sitater umiddelbart. Ingen tak, ingen grenser, bare journalistikk."
+            descriptionA: "Med {NeverCap} får du ekte ubegrenset transkripsjon. Last opp hele undersøkelsen din. Transkriber hvert intervju. Søk i alle sitater umiddelbart. Ingen store bokstaver, ingen begrensninger, bare journalistikk."
         }
       },
       solution: {
@@ -2411,7 +2403,6 @@ let message = {
         title: "Transkriber YouTube-videoer,",
         titleHighlight: "Ubegrenset",
         titleSuffix: "1",
-        subtitle: "Enten du trenger å transkribere en YouTube-video, transkribere en TikTok-video for gjenbruk, eller finne ut hvordan du transkriberer en Facebook-video til tekst, håndterer plattformen vår alt sømløst. Generer undertekster på 100+ språk uten månedlige grenser – bare ren kreativ frihet.",
         ctaPrimary: "Start ubegrenset underteksting →",
         ctaSecondary: "Se hvordan det fungerer",
         stats: {
@@ -2431,8 +2422,9 @@ let message = {
             number: "10+",
             label: "Plattformer"
           }
-        }
-      },
+        },
+          subtitleA: "Enten du trenger å transkribere en YouTube-video, transkribere en TikTok-video for gjenbruk, eller finne ut hvordan du transkriberer en Facebook-video til tekst, håndterer {NeverCap} alt sømløst. Generer undertekster på over 100 språk uten månedlige begrensninger – bare ren kreativ frihet."
+    },
       platforms: {
         title: "Hent & transkriber fra enhver plattform",
         platformNames: {
@@ -2613,7 +2605,6 @@ let message = {
       problemCard3Title: "Støttepenger forsvinner",
       problemCard3Desc: "Når datasettet ditt vokser, eksploderer transkriberingskostnadene. $500 per fokusgruppe gjør oppskalering umulig.",
       solutionTitle: "NeverCap-løsningen",
-      solutionDesc: "Ekte ubegrenset transkribering. Last opp hele studien din. Transkriber hvert intervju. Analyser alle dataene dine. Ingen tak, ingen grenser, bare forskning.",
       feature1Label: "Ingen Grenser",
       feature1Title: "Behandler din",
       feature1Desc: 'Last opp alle 200 timers intervjuer i natt. Våkn opp til fullstendige, søkbare transkripsjoner. Ingen månedlige grenser, ingen filbegrensninger, ingen "rimelig bruk"-tull.',
@@ -2691,13 +2682,13 @@ let message = {
         testimonialText4Hl: "alt i løpet av en helg",
         testimonialText5: ". Gjenkjennelsen av 20 talere fungerte faktisk – selv under våre rotete diskusjoner der alle snakket samtidig. Dette verktøyet har",
         testimonialText6Hl: "fullstendig endret",
-        testimonialText7: "hvordan vi håndterer kvalitative data."
+        testimonialText7: "hvordan vi håndterer kvalitative data.",
+        solutionDescA: "Med {NeverCap} får du ekte ubegrenset transkripsjon. Last opp hele studien din. Transkriber hvert intervju. Analyser alle dataene dine. Ingen grenser, ingen grenser, bare research."
     },
     BusinessTeams: {
       heroBadge: "For bedriftslag",
       heroTitle1: "Møteopptak",
       heroTitle2: "Gjort enkelt",
-      heroSubtitle: "Ta opp møter direkte i nettleseren eller last opp lydfiler umiddelbart. Bygg søkbare arkiver fra ubegrensede samtaler. Mist aldri viktige diskusjoner igjen med virkelig ubegrenset transkripsjon.",
       heroCtaPrimary: "Start opptak nå →",
       heroCtaSecondary: "Se hvordan det fungerer",
       recordingStatus: "Opptar...",
@@ -2767,7 +2758,7 @@ let message = {
       ctaButton: "Begynn å spille inn gratis →",
         featuresTitle2: "Møte",
         workflowTitle2: "Zoom-opptak til tekst",
-        testimonialsTitle2: "NeverCap"
+        heroSubtitleA: "Ta opp møter direkte i nettleseren din, eller last opp lydfiler umiddelbart. Bygg søkbare arkiver fra et ubegrenset antall samtaler. Mist aldri viktige diskusjoner igjen med virkelig ubegrenset transkripsjon fra {NeverCap}."
     },
     Educators: {
       heroBadge: "For lærere og undervisere",
@@ -2844,7 +2835,6 @@ let message = {
       useCase6Text: "Hjelp studenter med å sitere videokilder nøyaktig med tidsstempler. Perfekt for forskningsprosjekter og akademiske artikler.",
       testimonialTitle: "Stolt brukt av",
       testimonialSubtitle: "Se hvorfor lærere over hele verden velger NeverCap",
-      testimonialText: '"Jeg har brukt NeverCap til å transkribere hele YouTube-kanalen min med matteopplæringer. Det som tidligere tok uker med andre tjenester, tar nå timer. Muligheten til å lime inn lenker direkte og få øyeblikkelige transkripsjoner har forandret måten jeg lager tilgjengelig innhold på. Mine internasjonale studenter elsker spesielt undertekster på flere språk!"',
       testimonialAuthorName: "Prof. Karen Mitchell",
       testimonialAuthorRole: "Matematikkprofessor, nettunderviser",
       ctaTitle: "Gjør alt ditt utdanningsinnhold tilgjengelig",
@@ -2853,7 +2843,8 @@ let message = {
         featuresTitle2: "Videotranskripsjon",
         grid: "Lydfil til studieveileder",
         useCasesTitle2: "Utdanningsbehov",
-        testimonialTitle2: "50 000+ lærere"
+        testimonialTitle2: "50 000+ lærere",
+        testimonialTextA: "«Jeg har brukt {NeverCap} til å transkribere hele YouTube-kanalen min med matteveiledninger. Det som pleide å ta uker med andre tjenester, tar nå timer. Muligheten til å lime inn lenker direkte og få umiddelbare transkripsjoner har forvandlet måten jeg lager tilgjengelig innhold på. Mine internasjonale studenter elsker spesielt de flerspråklige tekstingene!»"
     }
   },
   Resources: {
@@ -3002,7 +2993,6 @@ let message = {
     Hero: {
       "badge": "Ledende AI-teknologi i bransjen",
       "title": "Om",
-      "highlighted_text": "NeverCap",
       "description": "Vårt mål er å tilby de mest nøyaktige lyd- og videotranskriberingstjenestene. Ved hjelp av ledende AI-teknologi oppnår vi en transkriberingsnøyaktighet på over 96 %. For noen større språk kan vi til og med nå 99 % nøyaktighet gjennom teknisk optimalisering."
     },
     Stats: {
@@ -3029,7 +3019,6 @@ let message = {
     },
     Mission: {
       "title": "Hvorfor velge",
-      "highlighted_text": "NeverCap",
       "subtitle": "Vi tror på å bryte ned språkbarrierer og gjøre innhold tilgjengelig for alle",
       "features": [
             {
@@ -3124,11 +3113,10 @@ let message = {
     "updatesDescription": "Vi kan oppdatere denne retningslinjen etter behov for å overholde relevante forskrifter og reflektere nye praksiser. Når vi gjør en betydelig endring i retningslinjene våre, vil vi oppdatere datoen øverst på denne siden.",
     "contactTitle": "9. Kontakt oss",
     "websiteUrl": "https://www.nevercap.ai/",
-    "neverCap": "NeverCap",
     at: "på",
-      policyDescription: 'Denne politikken beskriver hvordan NeverCap (heretter omtalt som \"NeverCap\", \"vår\", \"vi\", \"oss\") samler inn, bruker og videreformidler din personlige informasjon når du bruker våre tjenester, nettsider ({url}) og programvare (sammen omtalt som \"Tjenestene\").',
       childrenDescription: "Tjenestene er ikke rettet mot barn, og vi samler ikke bevisst inn personlig informasjon fra barn under 13 år. Hvis du er under 13 år, vennligst ikke send inn noen personlig informasjon gjennom Tjenestene. Hvis du tror et barn har gitt oss personlig informasjon i strid med denne politikken, vennligst kontakt oss {på} {email} som angitt nedenfor.",
-      contactDescription: "Hvis du har spørsmål, kommentarer eller klager til vår personvernpolitikk, vennligst kontakt oss {på} {email} så vil vi forsøke å håndtere klagen din så snart som mulig."
+      contactDescription: "Hvis du har spørsmål, kommentarer eller klager til vår personvernpolitikk, vennligst kontakt oss {på} {email} så vil vi forsøke å håndtere klagen din så snart som mulig.",
+      policyDescriptionA: "Denne policyen beskriver hvordan {NeverCap} (heretter referert til som «NeverCap», «vår», «vi», «oss») samler inn, bruker og utleverer din personlige informasjon når du bruker våre tjenester, nettsteder ({url}) og programvare (samlet kalt «Tjenestene»)."
 },
   TermsOfUse: {
     title: "Vilkår for",
@@ -3138,7 +3126,6 @@ let message = {
     "lastUpdatedDate": "21. juli 2025",
     "termsOfServiceTitle": "Tjenestevilkår",
     "thankYou": "Takk for at du bruker våre produkter!",
-    "companyDefinition": 'Når vi sier \"Selskap\", \"vi\", \"vår\" eller \"oss\" i dette dokumentet, refererer vi til NeverCap.',
     "servicesDefinition": 'Når vi sier \"Tjenester\", mener vi ethvert produkt opprettet og vedlikeholdt av NeverCap, enten det leveres i en nettleser, skrivebordsapplikasjon, mobilapplikasjon eller annet format.',
     "termsUpdate": "Vi kan oppdatere disse tjenestevilkårene i fremtiden. Vanligvis har disse endringene vært for å avklare noen av disse vilkårene ved å lenke til en utvidet relatert policy. Når vi gjør en betydelig endring i våre policyer, vil vi oppdatere datoen øverst på denne siden og iverksette andre passende tiltak for å varsle kontohavere.",
     "acceptanceTitle": "1. Godkjenning av avtale",
@@ -3222,13 +3209,13 @@ let message = {
     "miscellaneousTitle": "16. Diverse",
     "miscellaneousDescription": "Disse vilkårene og eventuelle retningslinjer eller regler vi publiserer på nettstedet utgjør hele avtalen mellom deg og oss. Vår manglende håndheving av en rettighet eller bestemmelse i disse vilkårene utgjør ikke en fraskrivelse av denne. Disse vilkårene gjelder i størst mulig utstrekning tillatt av loven. Vi kan overføre våre rettigheter eller forpliktelser til andre når som helst. Vi er ikke ansvarlige for tap, skade, forsinkelse eller manglende handling forårsaket av omstendigheter utenfor vår rimelige kontroll. Hvis en bestemmelse i disse vilkårene anses som ugyldig eller uopprettelig, påvirker ikke dette gyldigheten av de øvrige bestemmelsene. Disse vilkårene skaper ikke noe samarbeid, partnerskap, arbeidsforhold eller agenturforhold mellom deg og oss. Du godtar at disse vilkårene ikke skal tolkes til vår ulempe fordi vi har utarbeidet dem. Du fraskriver deg herved alle forsvar basert på den elektroniske formen av disse vilkårene og manglende signering av partene.",
     "contactTitle": "17. Kontakt oss",
-    "neverCap": "NeverCap",
     "site": "Nettsted",
     "services": "Tjenester",
     at: "på",
       trademarkProtection: "Navnene, utseendet og følelsen av Tjenestene er beskyttet av opphavsrett© til Selskapet. Alle rettigheter forbeholdt. Du kan ikke duplisere, kopiere eller gjenbruke noen del av HTML, CSS, JavaScript eller visuelle designelementer uten uttrykkelig skriftlig tillatelse fra Selskapet. Du må be om tillatelse for å bruke Selskapets logo eller Tjenestenes logoer til promotering. Vennligst send oss en e-post {på} {email} for å be om å bruke logoer. Vi forbeholder oss retten til å tilbakekalle denne tillatelsen hvis du bryter disse Tjenestevilkårene.",
       privacyPolicyDescription: "Vi bryr oss om databeskyttelse og sikkerhet. Vennligst se gjennom vår {policy}. Ved å bruke nettsiden samtykker du til å være bundet av vår personvernpolitikk, som er inkorporert i disse Tjenestevilkårene. Vær oppmerksom på at nettsiden er vertet i USA. Hvis du tilgår nettsiden fra en annen region i verden med lover eller andre krav om innsamling, bruk eller videreformidling av personopplysninger som avviker fra gjeldende lover i USA, så ved fortsatt bruk av nettsiden overfører du dine data til USA, og du samtykker til at dine data overføres og behandles i USA.",
-      contactDescription: "Hvis du har et spørsmål om noen av Tjenestevilkårene, vennligst kontakt oss {på} {email}."
+      contactDescription: "Hvis du har et spørsmål om noen av Tjenestevilkårene, vennligst kontakt oss {på} {email}.",
+      "companyDefinitionA": "Når vi sier «Selskapet», «vi», «vårt» eller «oss» i dette dokumentet, refererer vi til {NeverCap}."
 }
 };
 

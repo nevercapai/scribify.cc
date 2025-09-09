@@ -1076,13 +1076,13 @@ let message = {
       badge: 'Artık "Küçülme Enflasyonu" Yok - Gerçekten Sınırsız',
       h1: "Sınırlar İçin Ödemeyi Bırakın:",
       gradient: "Gerçekten Sınırsız AI Transkripsiyon",
-      subtitle: "AI'mız videoları metne dönüştürür ve ayda 50 dosyayı aynı anda işler, aylık sınır yoktur. Sizinle birlikte büyüyen transkripsiyon.",
       FreeTrial: "Ücretsiz Dene - Kredi Kartı Gerekmez",
       HowWorks: "Nasıl Çalıştığını Gör",
       Unlimited: "Sınırsız Dosya Yükleme",
       NoCap: "Aylık Dakika Sınırı Yok",
       Hour: "10 Saatlik Dosyalar Desteklenir",
-      ExploreUseCases: "Kullanım Senaryolarını Keşfet"
+      ExploreUseCases: "Kullanım Senaryolarını Keşfet",
+        subtitleA: "NeverCap'in yapay zekası, videoları yazıya döker ve sesi metne dönüştürür; aylık bir sınır olmadan aynı anda 50 dosyayı işler. Gerçekten sizinle birlikte ölçeklenen yazıya dökme."
     },
     Stats: {
       monthlyMinutes: "Aylık Dakikalar",
@@ -1142,8 +1142,6 @@ let message = {
       }
     },
     Testimonials: {
-      title: "Tarafından Sevilen",
-      highlighted_users: "50.000+ Kullanıcı",
       subtitle: "Profesyonellerin neden sınırlı alternatifler yerine NeverCap'ı seçtiğini görün",
       Mike: {
         "text": "Vay canına, bu gerçekten işe yarıyor! 3 yıldır podcast yapıyordum ve aptal gibi her şeyi elle yazıya döküyordum. 6 bölümü aynı anda yükledim ve beni ve konuğumu mükemmel şekilde ayırdı. Mahvolduğunu düşündüğüm kafe bölümü? Tertemiz bir transkript. Artık bunları kendim yazmayacağım.",
@@ -1159,7 +1157,8 @@ let message = {
         "text": "Röportajlarım için bunu kullanıyorum ve doğruluğu inanılmaz. Bozuk İngilizce + İspanyolca 2 saatlik bir röportajı bile, zaman damgalarıyla birlikte mükemmel şekilde çevirdi. Eskiden ayda 200$'a stajyere yazdırıyordum. Bu gerçekten her ay bana para kazandırıyor.",
         "author": "Jessica Park",
         "role": "Serbest Gazeteci"
-      }
+      },
+        titleA: "50.000'den fazla Kullanıcı tarafından sevildi"
     },
     PricingPreview: {
       "title": "Şeffaf Fiyatlandırma",
@@ -1230,7 +1229,6 @@ let message = {
       heroBadgeText: '"Küçülme Enflasyonu" Artık Yok',
       heroTitleLine1: "Gerçekten Sınırsız",
       heroTitleLine2: "AI Transkripsiyon",
-      heroSubtitle: "Trint 50 saat, Otter ayda 10 dosya ile sınırlarken, biz vaat ettiğimizi sunuyoruz: gizli sınırlar olmadan sınırsız transkripsiyon.",
       primaryCta: "Ücretsiz Dene - Kredi Kartı Gerekmez",
       secondaryCta: "Gerçeği Gör",
       comparisonBadLabel: "Diğerlerinin Yaptığı",
@@ -1300,7 +1298,6 @@ let message = {
       feature2TableRow2Value: "Ayda 10 dosya",
       feature2TableRow3Label: "Trint",
       feature2TableRow3Value: "Aylık 50 saat sınırı",
-      feature2TableRow4Label: "Sınırsız",
       feature2TableRow4Value: "Gerçekten Sınırsız ✓",
       feature3Label: "Sosyal Kanıt",
       feature3TitlePart1: "Kullanıcılar",
@@ -1330,7 +1327,9 @@ let message = {
       trustBadge4Label: "Toplu Yükleme",
       ctaTitle: "Sahte Sınırsız İçin Ödemeyi Bırakın",
       ctaSubtitle: "Gerçekten sınırsız dökümana geçen binlerce kişiye katılın",
-      finalCta: "NeverCap Ücretsiz Deneyin"
+      finalCta: "NeverCap Ücretsiz Deneyin",
+        heroSubtitle1: "Trint sizi ayda 50 saatle sınırlandırırken, Otter sizi ayda 10 dosyayla sınırlandırıyor.",
+        heroSubtitle2: "Gerçekten söz verdiğimiz şeyi sunuyoruz: gizli sınırlamalar olmadan sınırsız transkripsiyon."
     },
     BulkUpload: {
       heroBadgeIcon: "📁",
@@ -1359,7 +1358,6 @@ let message = {
       limitCard3Number: "1",
       limitCard3DescriptionLine1: "Bir seferde dosya",
       limitCard3DescriptionLine2: "(Sıralı yükleme)",
-      limitCard4Service: "NeverCap",
       limitCard4Number: "∞",
       limitCard4DescriptionLine1: "Sınırsız yükleme",
       limitCard4DescriptionLine2: "Toplu 50 dosya",
@@ -1552,12 +1550,7 @@ let message = {
       formattingAfterText: "Bugün, üzerinde çalıştığımız yeni özelliklerden bahsedeceğiz. Sanırım çok beğeneceksiniz. Kullanıcılar tarafından uzun zamandır isteniyordu ve sonunda tamamladık.",
       comparisonSubtitle: "Doğruluk",
       comparisonSectionTitle: "Karşılaştırma",
-      comparisonDes: "Rakip karşısında nasıl durduğumuzu görün",
       tableHeader1: "Özellik",
-      tableHeader2: "NeverCap",
-      tableHeader3: "Otter.ai",
-      tableHeader4: "Descript",
-      tableHeader5: "Rev",
       tableRow1Feature: "Doğruluk (Net Ses)",
       tableRow1NeverCap: "%96",
       tableRow1Otter: "%95",
@@ -1591,7 +1584,9 @@ let message = {
       ctaTitle: "%96 Doğruluk Deneyimi",
       ctaSubtitle: "En zorlu ses dosyanızı yükleyin ve farkı görün",
       finalCta: "Doğruluğumuzu Şimdi Test Edin →",
-        languageSectionTitlePart2: "12 Ana Dilde"
+        languageSectionTitlePart2: "12 Ana Dilde",
+        comparisonDes1: "Nasıl olduğunu görün",
+        comparisonDes2: "rekabete karşı koymak"
     }
   },
   Pricing: {
@@ -1823,7 +1818,6 @@ let message = {
       builtFor: "İçin Yapıldı",
       heavyUsers: "Ağır Kullanıcılar",
       whoActuallyNeed: "Gerçekten Sınırsız İhtiyacı Olanlar",
-      heroSubtitle: "Yıllarca birikmiş podcastleri olanlardan yüzlerce röportaj yapan araştırmacılara kadar. Profesyonellerin NeverCap ile yükleme sınırlarını nasıl aştığını görün.",
       podcasters: {
         title: "Podcast Yapımcıları",
         pain: '"Hangi bölümlerin transkripti hak ettiğine karar vermeyi bırakın"',
@@ -2026,7 +2020,8 @@ let message = {
         title: "Sizin Kullanım Durumunuz da Limitsiz Olanı Hak Ediyor",
         subtitle: "Dakikaları saymayı bırakıp üretmeye başlayan 50.000+ profesyonel arasına katılın",
         button: "Limitsiz Yolculuğunuza Başlayın →"
-      }
+      },
+        heroSubtitleA: "Yıllardır podcast yayınlayanlardan yüzlerce röportaj yapmış araştırmacılara kadar. Profesyonellerin {NeverCap}'i kullanarak yükleme sınırlarından ve dakika sınırlamalarından nasıl kurtulduğunu görün."
     },
     Podcasters: {
       badge: "Podcast Yapımcıları İçin Tasarlandı",
@@ -2075,7 +2070,6 @@ let message = {
       },
       solutionTitle: "NeverCap",
       solutionTitleHighlight: "Çözümü",
-      solutionDescription: "Gerçek limitsiz döküm. Tüm arşivinizi yükleyin. Her yeni bölümü döküme dönüştürün. Ölçeklenebilir gösteri notları oluşturun. Sınır yok, limit yok, sadece büyüme.",
       workflowTitle: "Podcast İş Akışınız,",
       workflowTitleHighlight: "Basitleştirildi",
       workflowSubtitle: "Kayıttan SEO optimizeli gösteri notlarına dakikalar içinde",
@@ -2142,13 +2136,10 @@ let message = {
         }
       },
       comparisonTitle: "Podcast Yapımcıları Neden",
-      comparisonTitleHighlight: "NeverCap'i Seçiyor",
       comparisonSubtitle: "Rakip karşılaştırmamızı görün",
       comparison: {
         headers: {
           feature: "Özellik",
-          nevercap: "NeverCap",
-          otter: "Otter.ai Pro",
           descript: "Descript Creator"
         },
         rows: {
@@ -2199,7 +2190,8 @@ let message = {
       ctaTitle: "Her Bölümü Dönüştürmeye Başla",
       ctaSubtitle: "Sınırlar hakkında endişelenmeyen 10.000+ podcastçiye katılın",
       ctaButton: "İlk 50 Bölümünüzü Ücretsiz Yükleyin →",
-      ctaDisclaimer: "Kredi kartı gerekmez • Sınırsız bölüm işleyin • İstediğiniz zaman iptal edin"
+      ctaDisclaimer: "Kredi kartı gerekmez • Sınırsız bölüm işleyin • İstediğiniz zaman iptal edin",
+        solutionDescriptionA: "{NeverCap} ile gerçek anlamda sınırsız transkripsiyon elde edersiniz. Tüm arşivinizi yükleyin. Her yeni bölümü metne dönüştürün. Program notlarını ölçeklenebilir bir şekilde oluşturun. Sınır yok, limit yok, sadece büyüme var."
     },
     Journalists: {
       hero: {
@@ -2271,7 +2263,7 @@ let message = {
         solution: {
           title: "The",
           titleHighlight: "NeverCap Çözümü",
-          description: "Gerçek sınırsız transkripsiyon. Tüm araştırmanızı yükleyin. Her röportajı döküme dönüştürün. Tüm alıntıları anında arayın. Sınır yok, limit yok, sadece gazetecilik."
+            descriptionA: "{NeverCap} ile gerçek ve sınırsız transkripsiyona sahip olursunuz. Tüm araştırmanızı yükleyin. Her röportajı metne dönüştürün. Tüm alıntıları anında arayın. Büyük harf yok, sınır yok, sadece gazetecilik."
         }
       },
       solution: {
@@ -2407,7 +2399,6 @@ let message = {
         title: "YouTube Videolarını Transkript Edin,",
         titleHighlight: "Limitsiz",
         titleSuffix: "1",
-        subtitle: "Bir YouTube videosunu transkript etmeniz, yeniden kullanım için bir TikTok videosunu transkript etmeniz veya bir Facebook videosunu nasıl metne dönüştüreceğinizi bulmanız gerekiyorsa, platformumuz bunların hepsini sorunsuz şekilde halleder. Aylık limit olmadan 100+ dilde altyazı oluşturun – sadece saf yaratıcı özgürlük.",
         ctaPrimary: "Sınırsız Altyazıya Başlayın →",
         ctaSecondary: "Nasıl Çalıştığını Görün",
         stats: {
@@ -2427,8 +2418,9 @@ let message = {
             number: "10+",
             label: "Platform"
           }
-        }
-      },
+        },
+          subtitleA: "İster bir YouTube videosunu metne dönüştürmeniz, ister bir TikTok videosunu yeniden kullanmak üzere metne dönüştürmeniz, ister bir Facebook videosunu metne nasıl dönüştüreceğinizi bulmanız gereksin, {NeverCap} tüm bunları kusursuz bir şekilde halleder. Aylık sınırlama olmadan 100'den fazla dilde altyazı oluşturun; yalnızca saf yaratıcılık özgürlüğü."
+    },
       platforms: {
         title: "Herhangi Bir Platformdan Alın ve Transkript Edin",
         platformNames: {
@@ -2609,7 +2601,6 @@ let message = {
       problemCard3Title: "Hibe Parası Kayboluyor",
       problemCard3Desc: "Veri kümeniz büyüdükçe transkripsiyon maliyetleri patlar. Odak grubu başına 500$ ölçeklendirmeyi imkansız kılar.",
       solutionTitle: "NeverCap Çözümü",
-      solutionDesc: "Gerçek sınırsız transkripsiyon. Tüm çalışmanızı yükleyin. Her röportajı dönüştürün. Tüm verilerinizi analiz edin. Sınır yok, limit yok, sadece araştırma.",
       feature1Label: "Sınır Yok",
       feature1Title: "İşlerinizi Yönetin",
       feature1Desc: '200 saatlik röportajlarınızı bu gece yükleyin. Tamamlanmış, aranabilir transkriptlerle uyanın. Aylık limit yok, dosya başına sınır yok, "adil kullanım" saçmalığı yok.',
@@ -2687,13 +2678,13 @@ let message = {
         testimonialText4Hl: "her şeyi bir hafta sonunda işledik",
         testimonialText5: "20 konuşmacı tanımlama özelliği gerçekten işe yaradı - herkesin aynı anda konuştuğu en karmaşık tartışmalarımızda bile. Bu araç",
         testimonialText6Hl: "tamamen değiştirdi",
-        testimonialText7: "nitel verileri nasıl ele aldığımızı."
+        testimonialText7: "nitel verileri nasıl ele aldığımızı.",
+        solutionDescA: "{NeverCap} ile gerçek anlamda sınırsız transkripsiyon elde edersiniz. Tüm çalışmanızı yükleyin. Her görüşmeyi metne dönüştürün. Tüm verilerinizi analiz edin. Sınır yok, limit yok, sadece araştırma yapın."
     },
     BusinessTeams: {
       heroBadge: "İş Ekipleri İçin",
       heroTitle1: "Toplantı Kaydı",
       heroTitle2: "Zahmetsiz Hale Geldi",
-      heroSubtitle: "Toplantıları doğrudan tarayıcınızdan kaydedin veya ses dosyalarını anında yükleyin. Sınırsız konuşmalardan aranabilir arşivler oluşturun. Gerçekten sınırsız transkripsiyonla önemli tartışmaları bir daha asla kaybetmeyin.",
       heroCtaPrimary: "Şimdi Kaydetmeye Başla →",
       heroCtaSecondary: "Nasıl Çalıştığını Görün",
       recordingStatus: "Kayıt Yapılıyor...",
@@ -2763,7 +2754,7 @@ let message = {
       ctaButton: "Ücretsiz Kayda Başla →",
         featuresTitle2: "Toplantı",
         workflowTitle2: "Metne Dönüştürme",
-        testimonialsTitle2: "NeverCap"
+        heroSubtitleA: "Toplantıları doğrudan tarayıcınızda kaydedin veya ses dosyalarını anında yükleyin. Sınırsız konuşmalardan aranabilir arşivler oluşturun. {NeverCap}'in sunduğu sınırsız transkripsiyon özelliğiyle önemli görüşmeleri bir daha asla kaybetmeyin."
     },
     Educators: {
       heroBadge: "Eğitimciler & Öğretmenler İçin",
@@ -2840,7 +2831,6 @@ let message = {
       useCase6Text: "Öğrencilerin video kaynaklarını zaman damgalarıyla doğru şekilde alıntılamasına yardımcı olun. Araştırma projeleri ve akademik makaleler için mükemmel.",
       testimonialTitle: "Güvenilen",
       testimonialSubtitle: "Dünya çapındaki öğretmenlerin neden NeverCap'i seçtiğini görün",
-      testimonialText: `"Matematik eğitim videolarından oluşan tüm YouTube kanalımı transkript etmek için NeverCap'i kullanıyorum. Başka servislerle haftalar süren işlem artık saatler alıyor. Doğrudan link yapıştırıp anında transkript alabilme özelliği, erişilebilir içerik oluşturma şeklimi değiştirdi. Uluslararası öğrencilerim özellikle çok dilli altyazıları seviyor!"`,
       testimonialAuthorName: "Prof. Karen Mitchell",
       testimonialAuthorRole: "Matematik Profesörü, Çevrimiçi Eğitimci",
       ctaTitle: "Tüm Eğitim İçeriğinizi Erişilebilir Yapın",
@@ -2849,7 +2839,8 @@ let message = {
         featuresTitle2: "Video Transkripsiyonu",
         grid: "Ses Dosyasından Çalışma Rehberine",
         useCasesTitle2: "Eğitim İhtiyacı İçin Mükemmel",
-        testimonialTitle2: "50.000+ Eğitimci Tarafından"
+        testimonialTitle2: "50.000+ Eğitimci Tarafından",
+        testimonialTextA: '"Matematik derslerimden oluşan YouTube kanalımın tamamını metne dökmek için {NeverCap} kullanıyorum. Diğer hizmetlerle haftalar süren işlemler artık saatler sürüyor. Bağlantıları doğrudan yapıştırıp anında metinlere ulaşabilme özelliği, erişilebilir içerik oluşturma biçimimi değiştirdi. Özellikle uluslararası öğrencilerim çok dilli altyazıları çok seviyor!"'
     }
   },
   Resources: {
@@ -2998,7 +2989,6 @@ let message = {
     Hero: {
       "badge": "Sektör Lideri AI Teknolojisi",
       "title": "Hakkında",
-      "highlighted_text": "NeverCap",
       "description": "Misyonumuz, en doğru ses ve video transkripsiyon hizmetlerini sunmaktır. Sektör lideri AI teknolojisini kullanarak %96'nın üzerinde transkripsiyon doğruluğu sağlıyoruz. Bazı büyük dillerde teknik optimizasyonla %99 doğruluk bile mümkün."
     },
     Stats: {
@@ -3025,7 +3015,6 @@ let message = {
     },
     Mission: {
       "title": "Neden",
-      "highlighted_text": "NeverCap?",
       "subtitle": "Dil engellerini kırmaya ve içeriği herkes için erişilebilir hale getirmeye inanıyoruz",
       "features": [
             {
@@ -3120,11 +3109,10 @@ let message = {
     "updatesDescription": "İlgili düzenlemelere uymak ve yeni uygulamaları yansıtmak için bu politikayı gerektiğinde güncelleyebiliriz. Politikalarımızda önemli bir değişiklik yaptığımızda, bu sayfanın üstündeki tarihi yenileyeceğiz.",
     "contactTitle": "9. Bize Ulaşın",
     "websiteUrl": "https://www.nevercap.ai/",
-    "neverCap": "NeverCap",
     at: "adresinden",
-      policyDescription: `Bu Politika, NeverCap'in (bundan sonra \"NeverCap\", \"biz\", \"bizim\" olarak anılacaktır) hizmetlerimizi, web sitelerimizi ({url}) ve yazılımlarımızı (topluca \"Hizmetler\") kullandığınızda kişisel bilgilerinizi nasıl topladığını, kullandığını ve açıkladığını anlatır.`,
       childrenDescription: "Hizmetler çocuklara yönelik değildir ve bilerek 13 yaşın altındaki çocuklardan Kişisel Bilgi toplamayız. 13 yaşın altındaysanız, lütfen Hizmetler aracılığıyla herhangi bir kişisel bilgi göndermeyin. Bir çocuğun bu Politikayı ihlal ederek bize Kişisel Bilgi sağladığını düşünüyorsanız, lütfen aşağıda belirtilen {at} {email} adresinden bizimle iletişime geçin.",
-      contactDescription: "Gizlilik Politikamız hakkında herhangi bir sorunuz, yorumunuz veya şikayetiniz varsa, lütfen bizimle {at} {email} adresinden iletişime geçin ve şikayetinizi en kısa sürede ele almaya çalışacağız."
+      contactDescription: "Gizlilik Politikamız hakkında herhangi bir sorunuz, yorumunuz veya şikayetiniz varsa, lütfen bizimle {at} {email} adresinden iletişime geçin ve şikayetinizi en kısa sürede ele almaya çalışacağız.",
+      policyDescriptionA: `Bu Politika, {NeverCap}'in (bundan böyle \"NeverCap\", \"bizim\", \"bizi\", \"bize\" olarak anılacaktır) hizmetlerimizi, web sitelerimizi ({url}) ve yazılımlarımızı (toplu olarak \"Hizmetler\") kullandığınızda kişisel bilgilerinizi nasıl topladığını, kullandığını ve ifşa ettiğini açıklar.`
 },
   TermsOfUse: {
     title: "Kullanım",
@@ -3134,7 +3122,6 @@ let message = {
     "lastUpdatedDate": "21 Temmuz 2025",
     "termsOfServiceTitle": "Hizmet Şartları",
     "thankYou": "Ürünlerimizi kullandığınız için teşekkür ederiz!",
-    "companyDefinition": `Bu belgede \"Şirket\", \"biz\", \"bizim\" veya \"bize\" dediğimizde, NeverCap'i kastediyoruz.`,
     "servicesDefinition": '\"Hizmetler\" dediğimizde, NeverCap tarafından oluşturulan ve sürdürülen, bir web tarayıcısı, masaüstü uygulaması, mobil uygulama veya başka bir formatta sunulan herhangi bir ürünü kastediyoruz.',
     "termsUpdate": "Bu Hizmet Şartlarını gelecekte güncelleyebiliriz. Genellikle bu değişiklikler, ilgili genişletilmiş bir politikaya bağlantı vererek bazı şartları netleştirmek içindir. Politikalarımızda önemli bir değişiklik yaptığımızda, bu sayfanın üstündeki tarihi yenileyeceğiz ve hesap sahiplerini bilgilendirmek için uygun adımları atacağız.",
     "acceptanceTitle": "1. Sözleşmeyi Kabul",
@@ -3218,13 +3205,13 @@ let message = {
     "miscellaneousTitle": "16. Çeşitli Hükümler",
     "miscellaneousDescription": "Bu Hükümler tam anlaşmayı oluşturur. Haklarımızı kullanmamamız feragat sayılmaz. Yürürlükten kaldırılan maddeler diğer hükümleri etkilemez. Elektronik formatta olması itiraz nedeni olamaz.",
     "contactTitle": "17. Bize Ulaşın",
-    "neverCap": "NeverCap",
     "site": "Site",
     "services": "Hizmetler",
     at: "adresinden",
       trademarkProtection: "Hizmetlerin adları, görünümü ve hissi Şirketin telif hakkı© altındadır. Tüm hakları saklıdır. Şirketten açık yazılı izin alınmadıkça HTML, CSS, JavaScript veya görsel tasarım öğelerinin herhangi bir bölümünü çoğaltamaz, kopyalayamaz veya yeniden kullanamazsınız. Şirketin logosunu veya herhangi bir Hizmet logosunu tanıtım amaçlı kullanmak için izin almalısınız. Logo kullanım isteklerini lütfen {at} {email} adresine e-posta ile gönderin. Hizmet Şartlarını ihlal etmeniz durumunda bu izni geri çekme hakkını saklı tutarız.",
       privacyPolicyDescription: "Veri gizliliği ve güvenliğine önem veriyoruz. Lütfen {policy}'mizi inceleyin. Siteyi kullanarak, bu Hizmet Şartlarına dahil edilen Gizlilik Politikamızla bağlı olmayı kabul edersiniz. Sitenin Amerika Birleşik Devletleri'nde barındırıldığını lütfen unutmayın. Siteye, kişisel veri toplama, kullanma veya açıklama konusunda Amerika Birleşik Devletleri'ndeki uygulanabilir yasalardan farklı yasa veya diğer gereklilikleri olan dünyanın herhangi bir başka bölgesinden erişiyorsanız, Siteyi kullanmaya devam etmekle verilerinizi Amerika Birleşik Devletleri'ne aktarıyor ve verilerinizin Amerika Birleşik Devletleri'ne transfer edilerek işlenmesini kabul ediyorsunuz.",
-      contactDescription: "Hizmet Şartları hakkında bir sorunuz varsa, lütfen bizimle {at} {email} adresinden iletişime geçin."
+      contactDescription: "Hizmet Şartları hakkında bir sorunuz varsa, lütfen bizimle {at} {email} adresinden iletişime geçin.",
+      "companyDefinitionA": `Bu belgede \"Şirket\", \"biz\", \"bizim\" veya \"bize\" dediğimizde {NeverCap}'ten bahsediyoruz.`
 }
 };
 

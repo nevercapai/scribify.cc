@@ -4,7 +4,7 @@
       <div class="footer-content">
         <div class="footer-brand">
           <h3 style="margin-bottom: 16px">
-            <a :href="LogoHref" style="color: white; text-decoration: none">
+            <a :href="HomeUrl" style="color: white; text-decoration: none">
               NeverCap
             </a>
           </h3>
@@ -82,7 +82,7 @@
 /* Footer 组件 */
 const config = useRuntimeConfig();
 let currentWebSite = config.public.currentWebSite;
-const LogoHref = computed(() => {
+const HomeUrl = computed(() => {
   return currentWebSite + "/";
 });
 const sociaIconList = ref([

@@ -3,7 +3,7 @@
     <div class="container">
       <div class="nav-container min-h-8">
         <!-- Logo -->
-        <a :href="LogoHref" class="logo" style="text-decoration: none">
+        <a :href="HomeUrl" class="logo" style="text-decoration: none">
           <NuxtImg
             src="/assets/logo2.svg"
             alt="NeverCap Logo"
@@ -357,7 +357,7 @@ const config = useRuntimeConfig();
 let currentWebSite = config.public.currentWebSite;
 let jumpUrl = config.public.jumpUrl;
 
-const LogoHref = computed(() => {
+const HomeUrl = computed(() => {
   if (
     (userInfo.value as any)?.userInfoVO &&
     (route.path.includes("terms-of-use") || route.path.includes("privacy"))

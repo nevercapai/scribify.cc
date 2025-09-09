@@ -34,10 +34,7 @@
 
           <i18n-t keypath="Privacy.policyDescriptionA" tag="p">
             <template #NeverCap>
-              <a
-                href="https://nevercap.ai/"
-                style="text-decoration: none; color: inherit"
-              >
+              <a :href="HomeUrl" style="text-decoration: none; color: inherit">
                 NeverCap
               </a>
             </template>
@@ -183,6 +180,12 @@
 
 <script setup lang="ts">
 /* privacy 组件 */
+const config = useRuntimeConfig();
+let currentWebSite = config.public.currentWebSite;
+const HomeUrl = computed(() => {
+  return currentWebSite + "/";
+});
+
 useHead({
   title: "Privacy Policy - NeverCap",
   meta: [

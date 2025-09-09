@@ -105,10 +105,7 @@
 
           <div class="limit-card nevercap">
             <div class="service-logo">
-              <a
-                href="https://nevercap.ai/"
-                style="text-decoration: none; color: inherit"
-              >
+              <a :href="HomeUrl" style="text-decoration: none; color: inherit">
                 NeverCap
               </a>
             </div>
@@ -467,6 +464,11 @@
 
 <script setup lang="ts">
 /* bulk-upload 组件 */
+const config = useRuntimeConfig();
+let currentWebSite = config.public.currentWebSite;
+const HomeUrl = computed(() => {
+  return currentWebSite + "/";
+});
 useHead({
   title: "Bulk Upload Freedom - Process 50 Files at Once | NeverCap",
   meta: [

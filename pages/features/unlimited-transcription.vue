@@ -19,10 +19,7 @@
 
         <p class="hero-subtitle">
           {{ t("Features.UnlimitedTranscription.heroSubtitle1") }}
-          <a
-            href="https://nevercap.ai/"
-            style="text-decoration: none; color: inherit"
-          >
+          <a :href="HomeUrl" style="text-decoration: none; color: inherit">
             NeverCap
           </a>
           {{ t("Features.UnlimitedTranscription.heroSubtitle2") }}
@@ -515,6 +512,12 @@
 <script setup lang="ts">
 const { t } = useI18n();
 /* unlimited-transcription 组件 */
+const config = useRuntimeConfig();
+let currentWebSite = config.public.currentWebSite;
+const HomeUrl = computed(() => {
+  return currentWebSite + "/";
+});
+
 useHead({
   title: "Truly Unlimited Transcription - No Hidden Caps | NeverCap",
   meta: [

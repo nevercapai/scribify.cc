@@ -78,10 +78,7 @@
           <h2 class="section-title">
             {{ $i(`Mission.title`) }}
             <span class="gradient-text">
-              <a
-                href="https://nevercap.ai/"
-                style="color: inherit; text-decoration: none"
-              >
+              <a :href="HomeUrl" style="color: inherit; text-decoration: none">
                 Nevercap
               </a>
             </span>
@@ -168,6 +165,12 @@
 
 <script setup lang="ts">
 /* about 组件 */
+const config = useRuntimeConfig();
+let currentWebSite = config.public.currentWebSite;
+const HomeUrl = computed(() => {
+  return currentWebSite + "/";
+});
+
 const title = "About - NeverCap | AI-Powered Transcription Services";
 useHead({
   title,

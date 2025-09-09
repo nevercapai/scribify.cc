@@ -34,7 +34,7 @@
               <i18n-t keypath="UseCases.BusinessTeams.heroSubtitleA" tag="p">
                 <template #NeverCap>
                   <a
-                    href="https://nevercap.ai/"
+                    :href="HomeUrl"
                     style="text-decoration: none; color: inherit"
                   >
                     NeverCap
@@ -679,6 +679,12 @@
 
 <script setup lang="ts">
 /* business-teams 组件 */
+const config = useRuntimeConfig();
+let currentWebSite = config.public.currentWebSite;
+const HomeUrl = computed(() => {
+  return currentWebSite + "/";
+});
+
 useHead({
   title: "NeverCap for Business Teams - Unlimited AI Meeting Transcription",
   meta: [

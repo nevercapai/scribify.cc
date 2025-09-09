@@ -162,7 +162,7 @@
             <i18n-t keypath="UseCases.Researchers.solutionDescA" tag="p">
               <template #NeverCap>
                 <a
-                  href="https://nevercap.ai/"
+                  :href="HomeUrl"
                   style="text-decoration: none; color: inherit"
                 >
                   NeverCap
@@ -677,6 +677,12 @@
 
 <script setup lang="ts">
 /* researchers 组件 */
+const config = useRuntimeConfig();
+let currentWebSite = config.public.currentWebSite;
+const HomeUrl = computed(() => {
+  return currentWebSite + "/";
+});
+
 useHead({
   title:
     "AI Transcription for Researchers & Academics - Break Free from Data Limits | NeverCap",

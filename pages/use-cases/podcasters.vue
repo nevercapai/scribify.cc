@@ -190,7 +190,7 @@
             <i18n-t keypath="UseCases.Podcasters.solutionDescriptionA" tag="p">
               <template #NeverCap>
                 <a
-                  href="https://nevercap.ai/"
+                  :href="HomeUrl"
                   style="text-decoration: none; color: inherit"
                 >
                   NeverCap
@@ -611,6 +611,12 @@
 <script setup lang="ts">
 /* podcasters 组件 */
 import { useI18nModule } from "~/utils/i18n";
+const config = useRuntimeConfig();
+let currentWebSite = config.public.currentWebSite;
+const HomeUrl = computed(() => {
+  return currentWebSite + "/";
+});
+
 useHead({
   title:
     "Unlimited Podcast Transcription - No Episode Limits | NeverCap for Podcasters",

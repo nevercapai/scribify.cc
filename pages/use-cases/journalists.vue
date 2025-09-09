@@ -286,7 +286,7 @@
             >
               <template #NeverCap>
                 <a
-                  href="https://nevercap.ai/"
+                  :href="HomeUrl"
                   style="text-decoration: none; color: inherit"
                 >
                   NeverCap
@@ -593,6 +593,12 @@
 <script setup lang="ts">
 import { computed } from "vue";
 import { useI18nModule } from "~/utils/i18n";
+const config = useRuntimeConfig();
+let currentWebSite = config.public.currentWebSite;
+const HomeUrl = computed(() => {
+  return currentWebSite + "/";
+});
+
 useHead({
   title:
     "Unlimited Interview Transcription for Journalists & Writers | NeverCap",

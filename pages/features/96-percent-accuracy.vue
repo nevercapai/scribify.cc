@@ -480,10 +480,7 @@
           </h2>
           <p class="section-subtitle">
             See how
-            <a
-              href="https://nevercap.ai/"
-              style="text-decoration: none; color: inherit"
-            >
+            <a :href="HomeUrl" style="text-decoration: none; color: inherit">
               NeverCap
             </a>
             stacks up against the competition
@@ -633,6 +630,12 @@
 
 <script setup lang="ts">
 /* 96-percent-accuracy 组件 */
+const config = useRuntimeConfig();
+let currentWebSite = config.public.currentWebSite;
+const HomeUrl = computed(() => {
+  return currentWebSite + "/";
+});
+
 useHead({
   title: "96% Accuracy AI Transcription - Word-Level Precision | NeverCap",
   meta: [

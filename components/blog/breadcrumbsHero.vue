@@ -46,7 +46,7 @@
                   <div class="image-slot">
                     <el-image
                       src="/assets/images/blog/card.svg"
-                      class="w-[86px] rounded-md"
+                      class="img-position w-[86px] rounded-md"
                       fit="contain"
                     ></el-image>
                   </div>
@@ -199,5 +199,11 @@ const { blog } = defineProps({
     align-items: start;
     margin-top: 40px;
   }
+}
+.img-position {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 </style>

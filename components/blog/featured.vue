@@ -4,7 +4,7 @@
       <div class="featured-card">
         <div class="featured-image">
           <el-image
-            :src="blog?.articleInfo?.cover.url"
+            :src="blog?.articleInfo?.cover?.url"
             class="h-[100%] w-[100%] rounded-md"
             fit="cover"
           >
@@ -12,7 +12,7 @@
               <div class="image-slot">
                 <el-image
                   src="/assets/images/blog/card.svg"
-                  class="w-[86px] rounded-md"
+                  class="img-position w-[86px] rounded-md"
                   fit="contain"
                 ></el-image>
               </div>
@@ -24,16 +24,16 @@
             {{ $t("Blog.Featured.FeaturedGuide") }}
           </div>
           <h2 class="featured-title">
-            {{ blog?.articleInfo.title }}
+            {{ blog?.articleInfo?.title }}
           </h2>
           <p class="featured-excerpt">
-            {{ blog?.articleInfo.introduction }}
+            {{ blog?.articleInfo?.introduction }}
           </p>
           <div class="featured-meta">
             <!-- <div class="author-avatar">E</div> -->
             <div class="author-avatar-img">
               <el-image
-                :src="blog?.userInfo.avatar.formats.thumbnail.url"
+                :src="blog?.userInfo?.avatar?.formats?.thumbnail?.url"
                 class="h-[100%] w-[100%] rounded-md"
                 fit="cover"
               >
@@ -50,10 +50,10 @@
             </div>
             <div class="meta-info">
               <div class="author-name">
-                {{ blog?.userInfo.name }}
+                {{ blog?.userInfo?.name }}
               </div>
               <div class="post-date">
-                {{ blog?.userInfo.createTime }}
+                {{ blog?.userInfo?.createTime }}
               </div>
             </div>
           </div>
@@ -69,8 +69,10 @@
 
 <script setup lang="ts">
 /* featured 组件 */
+import blogType from "./type";
 const { blog } = defineProps({
   blog: {
+    default: () => blogType,
     type: Object,
     required: true
   }
@@ -181,5 +183,11 @@ const { blog } = defineProps({
 
 .btn-primary {
   padding: 8px 40px;
+}
+.img-position {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 </style>

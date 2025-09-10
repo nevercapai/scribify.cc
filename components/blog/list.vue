@@ -16,12 +16,12 @@
       <!-- Categories Filter -->
       <div class="categories-filter">
         <span
-          v-for="item in 6"
-          @click="categoryHandel(item)"
+          v-for="(item, index) in categories"
+          @click="categoryHandel(item, index)"
           class="category-btn"
-          :class="{ active: item === activeIndex }"
+          :class="{ active: index === activeIndex }"
         >
-          {{ $t(`Blog.ListSection.categories[${item - 1}]`) }}
+          {{ $t(`Blog.ListSection.categories[${index}]`) }}
         </span>
       </div>
 
@@ -29,7 +29,7 @@
       <div class="blog-grid">
         <!-- Blog Post 1 -->
         <NuxtLink
-          v-for="blog in blogs"
+          v-for="blog in filteredBlogs"
           :to="`/blog/${blog.urlTitle}`"
           class="blog-card"
         >
@@ -93,19 +93,26 @@ interface BlogItem {
 const { blogs } = defineProps<{
   blogs: BlogItem[];
 }>();
-const activeIndex = ref(1);
-const categories = [
+const blogsCopy = JSON.parse(JSON.stringify(blogs));
+const activeIndex = ref(0);
+const categories = ref([
   "All Posts",
   "Tutorials",
   "Podcasting",
   "Content Creation",
   "Business",
   "AI Tips"
-];
-const categoryHandel = (item: number) => {
-  activeIndex.value = item;
+]);
+const categoryHandel = (item: string, index: number) => {
+  activeIndex.value = index;
   // todo 请求或者前端删选需要的数据
 };
+
+const filteredBlogs = computed(() => {
+  if (activeIndex.value === 0) return blogs; // "All Posts"
+  const selectedCategory = categories.value[activeIndex.value];
+  return blogs.filter((blog) => blog.category === selectedCategory);
+});
 </script>
 
 <style scoped lang="scss">

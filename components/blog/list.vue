@@ -35,7 +35,7 @@
         >
           <div class="card-image">
             <el-image
-              :src="blog.articleInfo.cover.url"
+              :src="blog?.articleInfo?.cover?.url"
               class="h-[100%] w-[100%]"
               fit="cover"
             >
@@ -43,26 +43,26 @@
                 <div class="image-slot">
                   <el-image
                     src="/assets/images/blog/card.svg"
-                    class="w-[86px] rounded-md"
+                    class="img-position w-[86px] rounded-md"
                     fit="contain"
                   ></el-image>
                 </div>
               </template>
             </el-image>
             <div class="card-category">
-              {{ blog.category }}
+              {{ blog?.category }}
             </div>
           </div>
           <div class="card-content">
             <h3 class="card-title">
-              {{ blog.articleInfo.title }}
+              {{ blog?.articleInfo?.title }}
             </h3>
             <p class="card-excerpt">
-              {{ blog.articleInfo.introduction }}
+              {{ blog?.articleInfo?.introduction }}
             </p>
             <div class="card-meta">
-              <span class="post-date">{{ blog.createTime }}</span>
-              <span class="read-time"> {{ blog.timeToRead }} min read </span>
+              <span class="post-date">{{ blog?.createTime }}</span>
+              <span class="read-time"> {{ blog?.timeToRead }} min read </span>
             </div>
           </div>
         </NuxtLink>
@@ -93,7 +93,6 @@ interface BlogItem {
 const { blogs } = defineProps<{
   blogs: BlogItem[];
 }>();
-const blogsCopy = JSON.parse(JSON.stringify(blogs));
 const activeIndex = ref(0);
 const categories = ref([
   "All Posts",
@@ -272,5 +271,11 @@ const filteredBlogs = computed(() => {
     grid-template-columns: repeat(1, 1fr);
     gap: 26px;
   }
+}
+.img-position {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 </style>

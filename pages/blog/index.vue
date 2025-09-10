@@ -34,23 +34,27 @@ const ctaData = ref({
 
 let blogs = ref([]);
 let blog = ref({});
-const getBlogs = async () => {
-  let response: any = { data: [] };
-  let storageTime = window.localStorage.getItem("Blogs_time") || 0;
-  let Blogs_response = window.localStorage.getItem("Blogs_response");
-  let flag = false;
-  if (flag && storageTime && Date.now() - +storageTime < 1000 * 60 * 60 * 1) {
-    response = JSON.parse(Blogs_response || "{ data: [] }");
-  } else {
-    const { blogApi } = await import("~/api/blog");
-    response = await blogApi.getBlogs();
-    window.localStorage.setItem("Blogs_time", Date.now().toString());
-    window.localStorage.setItem("Blogs_response", JSON.stringify(response));
-  }
 
-  blogs.value = (response as any).data;
-  blog.value = (response as any)?.data[0];
+const getBlogs = async () => {
+  // 默认情况下，它会在服务端执行，并将数据序列化到页面中
+  let suffix = "populate[0]=userInfo.avatar&populate[1]=articleInfo.cover";
+  const config = useRuntimeConfig();
+  if (config.public.env !== "production") {
+    suffix += "&status=*";
+  }
+  const url = `https://strapi.scribify.ai/api/blogs?${suffix}`;
+  const { data: response, pending, error, refresh } = await useFetch(url);
+
+  blogs.value = (response.value as any).data;
+  if (blogs.value.length) {
+    blog.value = blogs.value[0];
+  }
+  // const res = await useAsyncData(
+  //   "user-key", // 唯一键，用于重复数据删除和缓存
+  //   () => $fetch(url)
+  // );
 };
+
 getBlogs();
 </script>
 

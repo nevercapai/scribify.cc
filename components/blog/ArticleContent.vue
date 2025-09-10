@@ -1,7 +1,7 @@
 <template>
   <section class="article-content" id="content">
     <div class="container">
-      <div v-html="renderedMarkdown" class="prose content-wrapper"></div>
+      <div v-html="renderedMarkdown" class="content-wrapper prose"></div>
     </div>
   </section>
 </template>
@@ -18,7 +18,6 @@ const { blog } = defineProps({
     required: true
   }
 });
-console.log("🍎🍎 ~ ArticleContent.vue:18 ~ blog:", blog);
 
 const md = new MarkdownIt({
   html: true, // 允许 HTML 标签

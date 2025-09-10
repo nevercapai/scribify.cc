@@ -57,7 +57,10 @@
               </div>
             </div>
           </div>
-          <NuxtLink :to="`/blog/${blog?.urlTitle}`" class="btn-primary">
+          <NuxtLink
+            :to="`/blog/${encodeURIComponent(blog?.urlTitle)}`"
+            class="btn-primary"
+          >
             {{ $t("Blog.Featured.ReadFullGuide") }}
             <span>→</span>
           </NuxtLink>
@@ -77,6 +80,13 @@ const { blog } = defineProps({
     required: true
   }
 });
+const router = useRouter();
+const localePath = useLocalePath();
+const goToDetail = (urlTitle: string) => {
+  router.push({
+    path: localePath(`/blog/${encodeURIComponent(urlTitle)}`)
+  });
+};
 </script>
 
 <style scoped lang="scss">

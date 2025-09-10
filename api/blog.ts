@@ -1,5 +1,9 @@
 import request from "~/utils/request";
-const suffix = 'populate[0]=userInfo.avatar&populate[1]=articleInfo.cover'
+let suffix = 'populate[0]=userInfo.avatar&populate[1]=articleInfo.cover'
+const config = useRuntimeConfig();
+if (config.public.env !== 'production') {
+  suffix += '&status=*'
+}
 // 用户相关接口
 export const blogApi = {
   getBlogs() {

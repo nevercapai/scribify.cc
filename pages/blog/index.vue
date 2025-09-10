@@ -32,26 +32,22 @@ const ctaData = ref({
   disclaimer: $i("CTASection.disclaimer")
 });
 
-const detailItem = {
-  id: 1,
-  urlTitle: "how-to-transcribe-50-hours-of-content-in-one-weekend",
-  title: "How to Transcribe 50 Hours of Content in One Weekend",
-  introduction:
-    "Learn the professional workflow that podcasters and content creators use to process entire archives with batch transcription. No more choosing which episodes deserve transcripts.",
-  content:
-    "content-----------------------==========================------------------------content",
-  cover: "/assets/images/blog/card.svg",
-  category: 1,
-  timeToRead: "5 min read",
-  createTime: "January 15, 2025",
-  name: "Editorial Team",
-  avatar: "/assets/images/blog/avatar.svg"
-};
 let blogs = ref([]);
 let blog = ref({});
 const getBlogs = async () => {
-  const { blogApi } = await import("~/api/blog");
-  const response = await blogApi.getBlogs();
+  let response: any = { data: [] };
+  let storageTime = window.localStorage.getItem("Blogs_time") || 0;
+  let Blogs_response = window.localStorage.getItem("Blogs_response");
+  let flag = false;
+  if (flag && storageTime && Date.now() - +storageTime < 1000 * 60 * 60 * 1) {
+    response = JSON.parse(Blogs_response || "{ data: [] }");
+  } else {
+    const { blogApi } = await import("~/api/blog");
+    response = await blogApi.getBlogs();
+    window.localStorage.setItem("Blogs_time", Date.now().toString());
+    window.localStorage.setItem("Blogs_response", JSON.stringify(response));
+  }
+
   blogs.value = (response as any).data;
   blog.value = (response as any)?.data[0];
 };

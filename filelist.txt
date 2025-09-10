@@ -201,6 +201,9 @@
 ./public/assets/images/index/tryNowBg.png
 ./public/assets/images/index/aboutUsBanner.png
 ./public/assets/images/index/Effortless.png
+./public/assets/images/blog
+./public/assets/images/blog/card.svg
+./public/assets/images/blog/avatar.svg
 ./public/assets/images/index_black
 ./public/assets/images/index_black/Language.png
 ./public/assets/images/index_black/url.svg
@@ -343,6 +346,7 @@
 ./api/subscription.ts
 ./api/type
 ./api/type/folder.ts
+./api/blog.ts
 ./api/folder.ts
 ./api/transcript.ts
 ./api/user.ts
@@ -431,6 +435,14 @@
 ./components/subscriptionUpgrade/subscribeVersion.vue
 ./components/index
 ./components/index/FreeTrial.vue
+./components/blog
+./components/blog/list.vue
+./components/blog/type.js
+./components/blog/ArticleContent.vue
+./components/blog/featured.vue
+./components/blog/breadcrumbsHero.vue
+./components/blog/ArticleContentDefault.vue
+./components/blog/hero.vue
 ./components/record
 ./components/record/index.vue
 ./components/record/dialog
@@ -517,6 +529,9 @@
 ./assets/css/element.scss
 ./pages
 ./pages/index.vue
+./pages/blog
+./pages/blog/index.vue
+./pages/blog/[id].vue
 ./pages/terms-of-use.vue
 ./pages/pricing.vue
 ./pages/resources

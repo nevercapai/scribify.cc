@@ -541,6 +541,7 @@ let message = {
     Educators: "Educators",
     Resources: "Resources",
     YouTubetoMP4: "YouTube to MP4",
+    Blog: "Blog",
     StartFreeTrial: "Try It Free"
   },
   Footer: {
@@ -2654,6 +2655,29 @@ let message = {
         downloadError: "Download Error."
       }
     },
+  },
+  Blog: {
+    Hero: {
+      "title": "Become a",
+      "highlighted_text": "Transcription Wizard",
+      "description": "Tutorials, strategies, and AI tools from NeverCap to help you create unlimited content with professional transcription workflows."
+    },
+    Featured: {
+      FeaturedGuide: 'Featured Guide',
+      ReadFullGuide: 'Read Full Guide'
+    },
+    ListSection: {
+      title: 'Latest',
+      highlighted_text: "Articles",
+      subtitle: 'Expert tips and tutorials for unlimited transcription',
+      categories: ['All Posts', 'Tutorials', 'Podcasting', 'Content Creation', 'Business', 'AI Tips']
+    },
+    Detail: {
+      Home: "Home",
+      Blog: "Blog",
+      GoToSignup: "Try NeverCap Free - No Credit Card",
+      HowWorks: "See How It Works",
+    }
   },
   About: {
     Hero: {

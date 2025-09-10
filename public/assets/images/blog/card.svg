@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="86px" height="72px" viewBox="0 0 86 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>默认图片</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="blog" transform="translate(-241.000000, -1660.000000)" fill-rule="nonzero">
+            <g id="编组-3备份-3" transform="translate(84.000000, 1570.000000)">
+                <g id="默认图片" transform="translate(157.000000, 90.000000)">
+                    <polygon id="路径" fill="#D2DFF4" points="64.5514667 0 0 24.0553221 18.0018 72 18.8291333 71.6705085 20.8731333 67.2113898 23.7444667 63.9640678 21.0921333 64.954983 6.84739997 26.917017 60.9063333 6.77166103 66.8144667 22.6250847 73 22.6250847"></polygon>
+                    <polygon id="路径" fill="#D2DFF4" points="18 72 86 72 86 21 18 21"></polygon>
+                    <polygon id="路径" fill="#AFD1F9" points="47.95 52.0166667 48.0123269 52.05 48.05 51.95"></polygon>
+                    <polygon id="路径" fill="#FFFFFF" points="41.6536 49 31 61 49 51.478"></polygon>
+                    <polygon id="路径" fill="#FFFFFF" points="48.470946 51.4845294 31 61 76 61 69.6416217 40"></polygon>
+                    <polygon id="路径" fill="#FFFFFF" points="56.0225 37 47 53 62 45.2190769"></polygon>
+                    <path d="M35.9987264,32 L35.778391,32 C32.6109107,32 30,34.65375 30,38 C30,41.2875001 32.5548716,44 35.778391,44 L36,44 L36,32 L35.9987264,32 Z" id="路径" fill="#FFFFFF"></path>
+                    <path d="M36,44 L36.2228826,44 C39.3890893,44 42,41.34625 42,38 C42,34.7125 39.4451284,32 36.2228826,32 L36,32 L36,44 Z" id="路径" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

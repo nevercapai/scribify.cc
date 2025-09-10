@@ -297,6 +297,11 @@ const menuList = computed(() => [
         link: "/resources/youtube-to-mp4"
       }
     ]
+  },
+  {
+    name: t("HeadNavbar.Blog"),
+    key: "/blog",
+    link: "/blog"
   }
 ]);
 const route = useRoute();
@@ -342,7 +347,7 @@ const { userInfo } = storeToRefs(useUserStore());
 const { $mitt } = useNuxtApp();
 const goToHome = () => {
   if (
-    userInfo.value?.userInfoVO &&
+    (userInfo.value as any)?.userInfoVO &&
     (route.path.includes("terms-of-use") || route.path.includes("privacy"))
   ) {
     $mitt.emit("goToEvent", { path: "/" });

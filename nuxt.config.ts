@@ -66,6 +66,12 @@ export default defineNuxtConfig({
         changeOrigin: true,
         prependPath: true,
         secure: false
+      },
+      "/strapiServer": {
+        target: "https://strapi.scribify.ai/",
+        changeOrigin: true,
+        prependPath: true,
+        secure: false
       }
     }
   },

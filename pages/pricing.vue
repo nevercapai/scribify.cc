@@ -87,7 +87,6 @@ useHead({
             price: "0",
             priceCurrency: "USD",
             priceValidUntil: "2099-12-31",
-
             priceSpecification: {
               "@type": "UnitPriceSpecification",
               price: "0",
@@ -218,7 +217,6 @@ useHead({
               "@type": "Organization",
               name: "NeverCap"
             },
-            priceValidUntil: "2025-12-31",
             additionalProperty: [
               {
                 "@type": "PropertyValue",
@@ -454,62 +452,6 @@ const ctaData = ref({
   line-height: 1.8;
 }
 
-/* Footer */
-footer {
-  background: var(--dark);
-  color: white;
-  padding: 60px 0 30px;
-}
-
-.footer-content {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
-  gap: 40px;
-  margin-bottom: 40px;
-}
-
-.footer-brand h3 {
-  font-size: 28px;
-  margin-bottom: 16px;
-}
-
-.footer-brand p {
-  color: rgba(255, 255, 255, 0.7);
-  line-height: 1.8;
-}
-
-.footer-column h4 {
-  margin-bottom: 20px;
-  font-size: 16px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.footer-column ul {
-  list-style: none;
-}
-
-.footer-column ul li {
-  margin-bottom: 12px;
-}
-
-.footer-column ul li a {
-  color: rgba(255, 255, 255, 0.7);
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-.footer-column ul li a:hover {
-  color: white;
-}
-
-.footer-bottom {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  padding-top: 30px;
-  text-align: center;
-  color: rgba(255, 255, 255, 0.5);
-}
-
 /* Responsive */
 @media (max-width: 768px) {
   .pricing-hero h1 {
@@ -525,10 +467,6 @@ footer {
   }
 
   .faq-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .footer-content {
     grid-template-columns: 1fr;
   }
 }

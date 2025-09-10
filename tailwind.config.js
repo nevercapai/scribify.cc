@@ -11,7 +11,7 @@ module.exports = {
     "./app.vue",
     "./error.vue"
   ],
-  plugins: [require("tailwindcss-rtl")],
+  plugins: [require("tailwindcss-rtl"), require("@tailwindcss/typography")],
   theme: {
     extend: {
       // fontSize: { // 这个配置不加，用于开发时查看

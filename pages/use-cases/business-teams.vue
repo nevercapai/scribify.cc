@@ -125,7 +125,6 @@
                   font-size: 48px;
                   font-weight: 300;
                   color: white;
-                  font-family: monospace;
                   margin-bottom: 40px;
                 "
               >
@@ -881,7 +880,7 @@ const signup = () => {
   font-size: 48px;
   font-weight: 300;
   color: white;
-  font-family: monospace;
+  :monospace;
   margin-bottom: 40px;
 }
 

@@ -964,7 +964,6 @@ const handleClick = () => {
   border-radius: 4px;
   font-size: 12px;
   font-weight: 600;
-  font-family: monospace;
   white-space: nowrap;
 }
 

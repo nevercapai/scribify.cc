@@ -41,5 +41,9 @@ const renderedMarkdown = computed(() => {
 .content-wrapper {
   max-width: 800px;
   margin: 0 auto;
+  font-family: "Inter,sans-serif";
+}
+.content-wrapper * {
+  font-family: "Inter,sans-serif" !important;
 }
 </style>

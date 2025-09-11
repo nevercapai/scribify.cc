@@ -880,7 +880,6 @@ const signup = () => {
   font-size: 48px;
   font-weight: 300;
   color: white;
-  :monospace;
   margin-bottom: 40px;
 }
 

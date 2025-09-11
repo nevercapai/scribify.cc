@@ -200,6 +200,7 @@ const filteredBlogs = computed(() => {
   font-weight: 700;
   margin-bottom: 12px;
   line-height: 1.3;
+  word-wrap: break-word;
 }
 
 .card-excerpt {

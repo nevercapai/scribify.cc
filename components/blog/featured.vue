@@ -105,6 +105,18 @@ const goToDetail = (urlTitle: string) => {
   max-width: 1000px;
   margin: 0 auto;
 }
+@media screen and (max-width: 991px) {
+  .featured-card {
+    border-radius: 24px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 60px;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
 
 .featured-image {
   position: relative;

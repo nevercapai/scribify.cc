@@ -480,7 +480,7 @@ nav {
     box-shadow: none;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.3s ease-out;
+    // transition: max-height 0.3s ease-out;
   }
 
   .dropdown.open .dropdown-content {

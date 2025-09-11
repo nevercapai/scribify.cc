@@ -2660,7 +2660,7 @@ let message = {
     Hero: {
       "title": "Become a",
       "highlighted_text": "Transcription Wizard",
-      "description": "Tutorials, strategies, and AI tools from NeverCap to help you create unlimited content with professional transcription workflows."
+      "description": "Tutorials, strategies, and AI tools from {NeverCap} to help you create unlimited content with professional transcription workflows."
     },
     Featured: {
       FeaturedGuide: 'Featured Guide',

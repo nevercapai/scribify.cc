@@ -1047,8 +1047,9 @@ let message = {
     Educators: "Opettajat",
     Resources: "Resurssit",
     YouTubetoMP4: "YouTube MP4-muotoon",
-    StartFreeTrial: "Ilmainen kokeilu"
-  },
+    StartFreeTrial: "Ilmainen kokeilu",
+      Blog: "Blogi"
+},
   Footer: {
     des: "Maailman ensimmäinen todella rajaton AI-tekstitypalvelu. Ei rajoituksia, ei kattoja, vain vapaus luoda.",
     Features: "Ominaisuudet",
@@ -3212,7 +3213,37 @@ let message = {
       privacyPolicyDescription: "Välitämme tietosuojasta ja -turvallisuudesta. Tutustu {policy}. Sivuston käyttäminen edellyttää tietosuojakäytäntöön sitoutumista. Sivusto sijaitsee Yhdysvalloissa. Käyttäessäsi sivustoa muulta alueelta, jossa henkilötietojen keräämistä, käyttöä tai luovuttamista koskevat erilaiset lait, tietosi siirretään Yhdysvaltoihin. Hyväksyt tietojesi siirron ja käsittelyn Yhdysvalloissa.",
       contactDescription: "Jos sinulla on kysyttävää käyttöehdoista, ota yhteyttä {at} {email}.",
       "companyDefinitionA": 'Kun sanomme tässä asiakirjassa \"Yritys\", \"me\", \"meidän\" tai \"meitä\", viittaamme {NeverCap}-yritykseen.'
-}
+},
+    Blog: {
+          Hero: {
+            "title": "Ryhdy",
+            "highlighted_text": "Transkriptio-ohjattu",
+            "description": "{NeverCap}:n tutoriaaleja, strategioita ja tekoälytyökaluja, jotka auttavat sinua luomaan rajattomasti sisältöä ammattimaisten transkriptiotyönkulkujen avulla."
+          },
+          Featured: {
+            FeaturedGuide: "Esittelyssä opas",
+            ReadFullGuide: "Lue koko opas"
+          },
+          ListSection: {
+            title: "Uusin",
+            highlighted_text: "Artikkelit",
+            subtitle: "Asiantuntijan vinkkejä ja ohjeita rajattomaan transkriptioon",
+            categories: [
+              "Kaikki viestit",
+              "Opastusohjelmat",
+              "Podcasting",
+              "Sisällöntuotanto",
+              "Liiketoiminta",
+              "Tekoälyvinkkejä"
+            ]
+          },
+          Detail: {
+            Home: "Kotiin",
+            Blog: "Blogi",
+            GoToSignup: "Kokeile NeverCapia ilmaiseksi – Ei luottokorttia",
+            HowWorks: "Katso, miten se toimii"
+          }
+        }
 };
 
 export default defineI18nLocale(async (locale) => {

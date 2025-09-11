@@ -1049,8 +1049,9 @@ let message = {
     Educators: "Oktatók",
     Resources: "Források",
     YouTubetoMP4: "YouTube MP4-be",
-    StartFreeTrial: "Próbálja Ki Ingyen"
-  },
+    StartFreeTrial: "Próbálja Ki Ingyen",
+      Blog: "Blog"
+},
   Footer: {
     des: "A világ első valóban korlátlan mesterséges intelligencia átírási szolgáltatása. Nincs korlát, nincs limit, csak a kreativitás szabadsága.",
     Features: "Funkciók",
@@ -3214,7 +3215,37 @@ let message = {
       privacyPolicyDescription: "Fontosnak tartjuk az adatvédelem és biztonságot. Kérjük, tekintse át {policy} szabályzatunkat. A Webhely használatával elfogadja, hogy kötelesnek tartja magát az Adatvédelmi Szabályzatunkra, amely integrált része ezeknek a Szolgáltatási Feltételeknek. Tájékoztatjuk, hogy a Webhely az Egyesült Államokban található. Ha a Webhelyet a világ bármely más régiójából éri el, ahol a személyes adatok gyűjtésére, használatára vagy nyilvánosságra hozatalára vonatkozó törvények vagy egyéb követelmények eltérnek az Egyesült Államokban érvényes törvényektől, akkor a Webhely további használatával Ön átadja adatait az Egyesült Államokba, és hozzájárul, hogy azok az Egyesült Államokban legyenek feldolgozva.",
       contactDescription: "Ha kérdése van a Szolgáltatási Feltételek bármelyikével kapcsolatban, kérjük, lépjen kapcsolatba velünk {at} {email} címen.",
       "companyDefinitionA": "Amikor ebben a dokumentumban a „Vállalat”, „mi”, „minket” vagy „minket” kifejezéseket használjuk, a {NeverCap} vállalatra utalunk."
-}
+},
+    Blog: {
+          Hero: {
+            "title": "Legyen egy",
+            "highlighted_text": "Átírás varázsló",
+            "description": "A {NeverCap} oktatóanyagai, stratégiái és mesterséges intelligencia eszközei segítenek korlátlan mennyiségű tartalom létrehozásában professzionális átírási munkafolyamatokkal."
+          },
+          Featured: {
+            FeaturedGuide: "Kiemelt útmutató",
+            ReadFullGuide: "Olvassa el a teljes útmutatót"
+          },
+          ListSection: {
+            title: "Legújabb",
+            highlighted_text: "Cikkek",
+            subtitle: "Szakértői tippek és oktatóanyagok korlátlan átíráshoz",
+            categories: [
+              "Minden bejegyzés",
+              "Oktatóanyagok",
+              "Podcastolás",
+              "Tartalomkészítés",
+              "Üzleti",
+              "MI-tippek"
+            ]
+          },
+          Detail: {
+            Home: "Otthon",
+            Blog: "Blog",
+            GoToSignup: "Próbálja ki a NeverCapet ingyen - Nincs szükség hitelkártyára",
+            HowWorks: "Nézd meg, hogyan működik"
+          }
+        }
 };
 
 export default defineI18nLocale(async (locale) => {

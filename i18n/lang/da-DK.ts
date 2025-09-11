@@ -1047,8 +1047,9 @@ let message = {
     Educators: "Undervisere",
     Resources: "Ressourcer",
     YouTubetoMP4: "YouTube til MP4",
-    StartFreeTrial: "Prøv Gratis"
-  },
+    StartFreeTrial: "Prøv Gratis",
+      Blog: "Blog"
+},
   Footer: {
     des: "Verdens første virkelig ubegrænsede AI-transskriptionstjeneste. Ingen begrænsninger, ingen grænser, bare frihed til at skabe.",
     Features: "Funktioner",
@@ -3212,7 +3213,37 @@ let message = {
       privacyPolicyDescription: "Vi tager databeskyttelse og -sikkerhed alvorligt. Gennemgå vores {policy}. Ved at bruge Websiden accepterer du at være bundet af vores Privatlivspolitik, som er inkorporeret i disse Servicevilkår. Bemærk venligst, at Websiden er hostet i USA. Hvis du tilgår Websiden fra enhver anden region i verden med love eller andre krav vedrørende indsamling, brug eller offentliggørelse af personoplysninger, der afviger fra gældende love i USA, så ved fortsat brug af Websiden overfører du dine data til USA, og du accepterer, at dine data overføres og behandles i USA.",
       contactDescription: "Hvis du har spørgsmål til nogen af Servicevilkårene, skal du kontakte os {at} {email}.",
       "companyDefinitionA": 'Når vi siger "Virksomhed", "vi", "vores" eller "os" i dette dokument, henviser vi til {NeverCap}.'
-}
+},
+    Blog: {
+          Hero: {
+            "title": "Bliv en",
+            "highlighted_text": "Transskriptionsguide",
+            "description": "Tutorials, strategier og AI-værktøjer fra {NeverCap}, der hjælper dig med at skabe ubegrænset indhold med professionelle transskriptionsworkflows."
+          },
+          Featured: {
+            FeaturedGuide: "Fremhævet guide",
+            ReadFullGuide: "Læs den fulde guide"
+          },
+          ListSection: {
+            title: "Seneste",
+            highlighted_text: "Artikler",
+            subtitle: "Eksperttips og vejledninger til ubegrænset transskription",
+            categories: [
+              "Alle indlæg",
+              "Vejledninger",
+              "Podcasting",
+              "Indholdsskabelse",
+              "Forretning",
+              "AI-tips"
+            ]
+          },
+          Detail: {
+            Home: "Hjem",
+            Blog: "Blog",
+            GoToSignup: "Prøv NeverCap gratis - uden kreditkort",
+            HowWorks: "Se hvordan det virker"
+          }
+        }
 };
 
 export default defineI18nLocale(async (locale) => {

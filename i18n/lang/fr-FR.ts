@@ -1065,8 +1065,9 @@ let message = {
     Educators: "Éducateurs",
     Resources: "Ressources",
     YouTubetoMP4: "YouTube vers MP4",
-    StartFreeTrial: "Essayez Gratuitement"
-  },
+    StartFreeTrial: "Essayez Gratuitement",
+      Blog: "Blog"
+},
   Footer: {
     des: "Le premier service de transcription IA vraiment illimité au monde. Pas de plafond, pas de limites, juste la liberté de créer.",
     Features: "Fonctionnalités",
@@ -3230,7 +3231,37 @@ let message = {
       privacyPolicyDescription: "Nous accordons une grande importance à la confidentialité et à la sécurité des données. Veuillez consulter notre {politique}. En utilisant le Site, vous acceptez d'être lié par notre Politique de Confidentialité, qui est incorporée dans ces Conditions d'Utilisation. Veuillez noter que le Site est hébergé aux États-Unis. Si vous accédez au Site depuis toute autre région du monde où les lois ou autres exigences régissant la collecte, l'utilisation ou la divulgation de données personnelles diffèrent des lois applicables aux États-Unis, alors en continuant à utiliser le Site, vous transférez vos données vers les États-Unis et vous acceptez que vos données soient transférées et traitées aux États-Unis.",
       contactDescription: "Si vous avez une question concernant l'une des Conditions d'Utilisation, veuillez nous contacter {à} l'adresse {email}.",
       "companyDefinitionA": "Lorsque nous disons « Société », « nous », « notre » ou « nos » dans ce document, nous faisons référence à {NeverCap}."
-}
+},
+    Blog: {
+          Hero: {
+            "title": "Devenez un",
+            "highlighted_text": "Assistant de transcription",
+            "description": "Tutoriels, stratégies et outils d'IA de {NeverCap} pour vous aider à créer du contenu illimité avec des flux de travail de transcription professionnels."
+          },
+          Featured: {
+            FeaturedGuide: "Guide en vedette",
+            ReadFullGuide: "Lire le guide complet"
+          },
+          ListSection: {
+            title: "Dernier",
+            highlighted_text: "Articles",
+            subtitle: "Conseils d'experts et tutoriels pour une transcription illimitée",
+            categories: [
+              "Tous les articles",
+              "Tutoriels",
+              "Podcasting",
+              "Création de contenu",
+              "Entreprise",
+              "Conseils d'IA"
+            ]
+          },
+          Detail: {
+            Home: "Maison",
+            Blog: "Blog",
+            GoToSignup: "Essayez NeverCap gratuitement – sans carte de crédit",
+            HowWorks: "Découvrez comment cela fonctionne"
+          }
+        }
 };
 
 export default defineI18nLocale(async (locale) => {

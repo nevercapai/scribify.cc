@@ -1207,8 +1207,9 @@ let message = {
     Educators: "教育者",
     Resources: "リソース",
     YouTubetoMP4: "YouTubeからMP4へ",
-    StartFreeTrial: "無料で試す"
-  },
+    StartFreeTrial: "無料で試す",
+      Blog: "ブログ"
+},
   Footer: {
     des: "世界初の真に無制限なAI文字起こしサービス。上限なし、制限なし、ただ創造の自由を。",
     Features: "機能",
@@ -3372,7 +3373,37 @@ let message = {
       privacyPolicyDescription: "当社はデータのプライバシーとセキュリティを重視しています。{policy} をご確認ください。本サイトの利用により、利用規約に組み込まれたプライバシーポリシーに同意したものとみなされます。なお、本サイトはアメリカ合衆国でホストされています。アメリカの法令と異なる個人データ収集・利用・開示の規制がある地域からアクセスする場合、サイトの継続利用によりデータがアメリカに転送されることに同意したものとみなされます。",
       contactDescription: "利用規約に関するご質問は、{email} までご連絡ください。",
       "companyDefinitionA": "この文書で「会社」、「当社」、「当社の」または「当社」と記載されている場合、それは {NeverCap} を指します。"
-}
+},
+    Blog: {
+          Hero: {
+            "title": "なる",
+            "highlighted_text": "転写ウィザード",
+            "description": "{NeverCap} のチュートリアル、戦略、AI ツールは、プロフェッショナルなトランスクリプション ワークフローを使用して無制限のコンテンツを作成するのに役立ちます。"
+          },
+          Featured: {
+            FeaturedGuide: "おすすめガイド",
+            ReadFullGuide: "完全なガイドを読む"
+          },
+          ListSection: {
+            title: "最新",
+            highlighted_text: "記事",
+            subtitle: "無制限のトランスクリプションのための専門家のヒントとチュートリアル",
+            categories: [
+              "すべての投稿",
+              "チュートリアル",
+              "ポッドキャスティング",
+              "コンテンツ作成",
+              "仕事",
+              "AIのヒント"
+            ]
+          },
+          Detail: {
+            Home: "家",
+            Blog: "ブログ",
+            GoToSignup: "NeverCapを無料でお試しください - クレジットカード不要",
+            HowWorks: "仕組みを見る"
+          }
+        }
 };
 
 export default defineI18nLocale(async (locale) => {

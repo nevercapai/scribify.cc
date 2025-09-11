@@ -37,7 +37,8 @@ const getBlog = async () => {
   if (config.public.env !== "production") {
     suffix += "&status=*";
   }
-  const url = `https://strapi.scribify.ai/api/blogs?${suffix}&filters[urlTitle][$eq]=${encodeURIComponent(urlTitle as string)}`;
+  const strapiHref = "https://app.scribify.cc/strapiServer/api/blogs";
+  const url = `${strapiHref}?${suffix}&filters[urlTitle][$eq]=${encodeURIComponent(urlTitle as string)}`;
   const { data: response, pending, error, refresh } = await useFetch(url);
   if ((response.value as any).data.length) {
     blog.value = (response.value as any).data[0];

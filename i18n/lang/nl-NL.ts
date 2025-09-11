@@ -1058,8 +1058,9 @@ let message = {
     Educators: "Docenten",
     Resources: "Hulpmiddelen",
     YouTubetoMP4: "YouTube naar MP4",
-    StartFreeTrial: "Probeer Het Gratis"
-  },
+    StartFreeTrial: "Probeer Het Gratis",
+      Blog: "Blog"
+},
   Footer: {
     des: "'s Werelds eerste echt onbeperkte AI-transcriptieservice. Geen limieten, geen grenzen, alleen vrijheid om te creëren.",
     Features: "Functies",
@@ -3223,7 +3224,37 @@ let message = {
       privacyPolicyDescription: "Wij hechten waarde aan gegevensprivacy en -beveiliging. Lees ons {policy} door. Door de Site te gebruiken, gaat u akkoord met ons Privacybeleid, dat onderdeel is van deze Servicevoorwaarden. Houd er rekening mee dat de Site in de Verenigde Staten wordt gehost. Als u de Site gebruikt vanuit een andere regio met wetten of vereisten voor persoonlijke gegevens die afwijken van de Amerikaanse wetgeving, dan draagt u door verder gebruik uw gegevens over naar de Verenigde Staten en gaat u akkoord met deze overdracht en verwerking.",
       contactDescription: "Als u vragen heeft over een van de Servicevoorwaarden, neem dan contact met ons op via {at} {email}.",
       "companyDefinitionA": 'Wanneer we in dit document de termen "Bedrijf", "wij", "onze" of "ons" gebruiken, verwijzen we naar {NeverCap}.'
-}
+},
+    Blog: {
+          Hero: {
+            "title": "Word een",
+            "highlighted_text": "Transcriptiewizard",
+            "description": "Tutorials, strategieën en AI-tools van {NeverCap} om u te helpen onbeperkt content te creëren met professionele transcriptieworkflows."
+          },
+          Featured: {
+            FeaturedGuide: "Aanbevolen gids",
+            ReadFullGuide: "Lees de volledige gids"
+          },
+          ListSection: {
+            title: "Laatste",
+            highlighted_text: "Artikelen",
+            subtitle: "Deskundige tips en tutorials voor onbeperkte transcriptie",
+            categories: [
+              "Alle berichten",
+              "Zelfstudies",
+              "Podcasten",
+              "Contentcreatie",
+              "Bedrijf",
+              "AI-tips"
+            ]
+          },
+          Detail: {
+            Home: "Thuis",
+            Blog: "Blog",
+            GoToSignup: "Probeer NeverCap gratis - Geen creditcard nodig",
+            HowWorks: "Bekijk hoe het werkt"
+          }
+        }
 };
 
 export default defineI18nLocale(async (locale) => {

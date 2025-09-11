@@ -1063,8 +1063,9 @@ let message = {
     Educators: "Pädagogen",
     Resources: "Ressourcen",
     YouTubetoMP4: "YouTube zu MP4",
-    StartFreeTrial: "Kostenlos testen"
-  },
+    StartFreeTrial: "Kostenlos testen",
+      Blog: "Der Blog"
+},
   Footer: {
     des: "Der weltweit erste wirklich unbegrenzte KI-Transkriptionsdienst. Keine Obergrenzen, keine Limits, nur Freiheit zum Erstellen.",
     Features: "Funktionen",
@@ -3228,7 +3229,37 @@ let message = {
       privacyPolicyDescription: "Uns sind Datenschutz und Sicherheit wichtig. Bitte lesen Sie unsere {policy}. Durch die Nutzung der Website erklären Sie sich mit unserer Datenschutzrichtlinie einverstanden, die in diese Nutzungsbedingungen integriert ist. Bitte beachten Sie, dass die Website in den Vereinigten Staaten gehostet wird. Wenn Sie die Website aus einer anderen Region der Welt aufrufen, in der andere Gesetze oder Anforderungen zur Erhebung, Nutzung oder Offenlegung personenbezogener Daten gelten als in den Vereinigten Staaten, dann transferieren Sie durch die weitere Nutzung der Website Ihre Daten in die Vereinigten Staaten und erklären sich damit einverstanden, dass Ihre Daten in die Vereinigten Staaten übertragen und dort verarbeitet werden.",
       contactDescription: "Wenn Sie eine Frage zu den Nutzungsbedingungen haben, kontaktieren Sie uns bitte unter {at} {email}.",
       "companyDefinitionA": "Wenn wir in diesem Dokument „Unternehmen“, „wir“, „unser“ oder „uns“ sagen, beziehen wir uns auf {NeverCap}."
-}
+},
+    Blog: {
+          Hero: {
+            "title": "Werde ein",
+            "highlighted_text": "Transkriptionsassistent",
+            "description": "Tutorials, Strategien und KI-Tools von {NeverCap} helfen Ihnen, mit professionellen Transkriptions-Workflows unbegrenzt Inhalte zu erstellen."
+          },
+          Featured: {
+            FeaturedGuide: "Empfohlene Anleitung",
+            ReadFullGuide: "Vollständige Anleitung lesen"
+          },
+          ListSection: {
+            title: "Letzte",
+            highlighted_text: "Artikel",
+            subtitle: "Expertentipps und Tutorials für unbegrenzte Transkription",
+            categories: [
+              "Alle Beiträge",
+              "Anleitungen",
+              "Podcasting",
+              "Inhaltserstellung",
+              "Geschäft",
+              "KI-Tipps"
+            ]
+          },
+          Detail: {
+            Home: "Heim",
+            Blog: "Der Blog",
+            GoToSignup: "Testen Sie NeverCap kostenlos – keine Kreditkarte",
+            HowWorks: "So funktioniert es"
+          }
+        }
 };
 
 export default defineI18nLocale(async (locale) => {

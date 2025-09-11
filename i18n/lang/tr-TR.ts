@@ -1047,8 +1047,9 @@ let message = {
     Educators: "Eğitimciler",
     Resources: "Kaynaklar",
     YouTubetoMP4: "YouTube'dan MP4'e",
-    StartFreeTrial: "Ücretsiz Dene"
-  },
+    StartFreeTrial: "Ücretsiz Dene",
+      Blog: "Blog"
+},
   Footer: {
     des: "Dünyanın ilk gerçekten sınırsız AI transkripsiyon servisi. Sınır yok, kısıtlama yok, sadece özgürce yaratma özgürlüğü.",
     Features: "Özellikler",
@@ -3212,7 +3213,37 @@ let message = {
       privacyPolicyDescription: "Veri gizliliği ve güvenliğine önem veriyoruz. Lütfen {policy}'mizi inceleyin. Siteyi kullanarak, bu Hizmet Şartlarına dahil edilen Gizlilik Politikamızla bağlı olmayı kabul edersiniz. Sitenin Amerika Birleşik Devletleri'nde barındırıldığını lütfen unutmayın. Siteye, kişisel veri toplama, kullanma veya açıklama konusunda Amerika Birleşik Devletleri'ndeki uygulanabilir yasalardan farklı yasa veya diğer gereklilikleri olan dünyanın herhangi bir başka bölgesinden erişiyorsanız, Siteyi kullanmaya devam etmekle verilerinizi Amerika Birleşik Devletleri'ne aktarıyor ve verilerinizin Amerika Birleşik Devletleri'ne transfer edilerek işlenmesini kabul ediyorsunuz.",
       contactDescription: "Hizmet Şartları hakkında bir sorunuz varsa, lütfen bizimle {at} {email} adresinden iletişime geçin.",
       "companyDefinitionA": `Bu belgede \"Şirket\", \"biz\", \"bizim\" veya \"bize\" dediğimizde {NeverCap}'ten bahsediyoruz.`
-}
+},
+    Blog: {
+          Hero: {
+            "title": "Bir ol",
+            "highlighted_text": "Transkripsiyon Sihirbazı",
+            "description": "{NeverCap}'in profesyonel transkripsiyon iş akışlarıyla sınırsız içerik oluşturmanıza yardımcı olacak eğitimleri, stratejileri ve yapay zeka araçları."
+          },
+          Featured: {
+            FeaturedGuide: "Öne Çıkan Kılavuz",
+            ReadFullGuide: "Tam Kılavuzu Okuyun"
+          },
+          ListSection: {
+            title: "En sonuncu",
+            highlighted_text: "Makaleler",
+            subtitle: "Sınırsız transkripsiyon için uzman ipuçları ve eğitimler",
+            categories: [
+              "Tüm Gönderiler",
+              "Eğitimler",
+              "Podcasting",
+              "İçerik Oluşturma",
+              "İşletme",
+              "Yapay Zeka İpuçları"
+            ]
+          },
+          Detail: {
+            Home: "Ev",
+            Blog: "Blog",
+            GoToSignup: "NeverCap'i Ücretsiz Deneyin - Kredi Kartı Gerekmez",
+            HowWorks: "Nasıl Çalıştığını Görün"
+          }
+        }
 };
 
 export default defineI18nLocale(async (locale) => {

@@ -1052,8 +1052,9 @@ let message = {
     Educators: "Nauczyciele",
     Resources: "Zasoby",
     YouTubetoMP4: "YouTube do MP4",
-    StartFreeTrial: "Wypróbuj za darmo"
-  },
+    StartFreeTrial: "Wypróbuj za darmo",
+      Blog: "Blog"
+},
   Footer: {
     des: "Pierwsza na świecie naprawdę nieograniczona usługa transkrypcji AI. Brak limitów, brak ograniczeń, tylko wolność tworzenia.",
     Features: "Funkcje",
@@ -3217,7 +3218,37 @@ let message = {
       privacyPolicyDescription: "Dbamy o prywatność i bezpieczeństwo danych. Zapoznaj się z naszą {policy}. Korzystając z Witryny, wyrażasz zgodę na przestrzeganie naszej Polityki Prywatności, która stanowi część niniejszych Warunków Usługi. Witryna jest hostowana w Stanach Zjednoczonych. Jeśli uzyskujesz dostęp do Witryny z innego regionu świata, w którym obowiązują przepisy dotyczące gromadzenia, wykorzystywania lub ujawniania danych osobowych różniące się od przepisów Stanów Zjednoczonych, to poprzez dalsze korzystanie z Witryny przekazujesz swoje dane do Stanów Zjednoczonych i wyrażasz zgodę na ich przekazanie i przetwarzanie w Stanach Zjednoczonych.",
       contactDescription: "Jeśli masz pytanie dotyczące Warunków Usługi, skontaktuj się z nami {at} {email}.",
       "companyDefinitionA": "Kiedy w niniejszym dokumencie używamy słów „Firma”, „my”, „nasz” lub „nas”, mamy na myśli spółkę {NeverCap}."
-}
+},
+    Blog: {
+          Hero: {
+            "title": "Zostań",
+            "highlighted_text": "Kreator transkrypcji",
+            "description": "Samouczki, strategie i narzędzia AI od {NeverCap} pomogą Ci tworzyć nieograniczoną liczbę treści przy użyciu profesjonalnych przepływów pracy związanych z transkrypcją."
+          },
+          Featured: {
+            FeaturedGuide: "Polecany przewodnik",
+            ReadFullGuide: "Przeczytaj cały przewodnik"
+          },
+          ListSection: {
+            title: "Najnowszy",
+            highlighted_text: "Artykuły",
+            subtitle: "Porady ekspertów i samouczki dotyczące nieograniczonej transkrypcji",
+            categories: [
+              "Wszystkie posty",
+              "Samouczki",
+              "Podcasting",
+              "Tworzenie treści",
+              "Biznes",
+              "Wskazówki dotyczące sztucznej inteligencji"
+            ]
+          },
+          Detail: {
+            Home: "Dom",
+            Blog: "Blog",
+            GoToSignup: "Wypróbuj NeverCap za darmo – bez karty kredytowej",
+            HowWorks: "Zobacz jak to działa"
+          }
+        }
 };
 
 export default defineI18nLocale(async (locale) => {

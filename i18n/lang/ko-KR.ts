@@ -1040,8 +1040,9 @@ let message = {
     Educators: "교육자",
     Resources: "리소스",
     YouTubetoMP4: "YouTube에서 MP4로",
-    StartFreeTrial: "무료로 사용해보기"
-  },
+    StartFreeTrial: "무료로 사용해보기",
+      Blog: "블로그"
+},
   Footer: {
     des: "세계 최초의 진정한 무제한 AI 텍스트 변환 서비스. 제한 없이 자유롭게 창조하세요.",
     Features: "기능",
@@ -3205,7 +3206,37 @@ let message = {
       privacyPolicyDescription: "저희는 데이터 개인 정보 보호와 보안을 중요시합니다. 저희 {policy}를 확인해 주십시오. 본 사이트를 이용함으로써 귀하는 본 서비스 약관에 포함된 개인정보 보호 정책에 동의하게 됩니다. 본 사이트는 미국에서 호스팅되고 있음을 유의하시기 바랍니다. 미국의 적용 법률과 다른 개인 데이터 수집, 사용 또는 공개에 관한 법률 또는 기타 요건이 있는 세계의 다른 지역에서 사이트에 접속하는 경우, 귀하는 사이트를 계속 사용함으로써 귀하의 데이터를 미국으로 이전하는 것이며, 귀하의 데이터가 미국으로 이전되어 처리되는 데 동의하는 것입니다.",
       contactDescription: "서비스 약관에 관한 질문이 있으시면 {at} {email}로 문의해 주십시오.",
       "companyDefinitionA": '이 문서에서 "회사", "우리", "저희" 또는 "당사"라는 표현은 {NeverCap}을 지칭합니다.'
-}
+},
+    Blog: {
+          Hero: {
+            "title": "되다",
+            "highlighted_text": "전사 마법사",
+            "description": "{NeverCap}의 튜토리얼, 전략 및 AI 도구를 사용하면 전문적인 필사 워크플로를 통해 무제한의 콘텐츠를 제작할 수 있습니다."
+          },
+          Featured: {
+            FeaturedGuide: "추천 가이드",
+            ReadFullGuide: "전체 가이드 읽기"
+          },
+          ListSection: {
+            title: "최신",
+            highlighted_text: "조항",
+            subtitle: "무제한 필사를 위한 전문가 팁과 튜토리얼",
+            categories: [
+              "모든 게시물",
+              "튜토리얼",
+              "팟캐스팅",
+              "콘텐츠 제작",
+              "사업",
+              "AI 팁"
+            ]
+          },
+          Detail: {
+            Home: "집",
+            Blog: "블로그",
+            GoToSignup: "NeverCap 무료 체험 - 신용카드 불필요",
+            HowWorks: "작동 방식 보기"
+          }
+        }
 };
 
 export default defineI18nLocale(async (locale) => {

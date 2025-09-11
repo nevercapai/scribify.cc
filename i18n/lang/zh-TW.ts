@@ -1007,8 +1007,9 @@ let message = {
     Educators: "教育工作者",
     Resources: "資源",
     YouTubetoMP4: "YouTube轉MP4",
-    StartFreeTrial: "免費試用"
-  },
+    StartFreeTrial: "免費試用",
+      Blog: "部落格"
+},
   Footer: {
     des: "全球首個真正無限的AI轉錄服務。無上限，無限制，只有創造的自由。",
     Features: "功能",
@@ -3172,7 +3173,37 @@ let message = {
       privacyPolicyDescription: "我們重視資料隱私與安全。請查閱我們的{policy}。使用本網站即表示您同意遵守我們的隱私政策，該政策已納入本服務條款。請注意，本網站位於美國。若您從其他法律對個人資料收集、使用或披露有不同要求的地區訪問本網站，則透過持續使用本網站，您即同意將資料轉移至美國並在美國進行處理。",
       contactDescription: "若您對服務條款有任何疑問，請透過{at}{email}與我們聯絡。",
       "companyDefinitionA": "當我們在本文檔中說「本公司」、「我們」、「我們的」或「我們」時，我們指的是 {NeverCap}。"
-}
+},
+    Blog: {
+          Hero: {
+            "title": "成為一名",
+            "highlighted_text": "轉錄嚮導",
+            "description": "{NeverCap} 提供的教學、策略和 AI 工具可協助您透過專業的轉錄工作流程創建無限的內容。"
+          },
+          Featured: {
+            FeaturedGuide: "特色指南",
+            ReadFullGuide: "閱讀完整指南"
+          },
+          ListSection: {
+            title: "最新的",
+            highlighted_text: "文章",
+            subtitle: "無限轉錄的專家提示和教程",
+            categories: [
+              "所有貼文",
+              "教學",
+              "podcast",
+              "內容創作",
+              "商業",
+              "AI技巧"
+            ]
+          },
+          Detail: {
+            Home: "家",
+            Blog: "部落格",
+            GoToSignup: "免費試用 NeverCap - 無需信用卡",
+            HowWorks: "了解其工作原理"
+          }
+        }
 };
 
 export default defineI18nLocale(async (locale) => {

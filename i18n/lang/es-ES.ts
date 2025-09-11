@@ -1056,8 +1056,9 @@ let message = {
     Educators: "Educadores",
     Resources: "Recursos",
     YouTubetoMP4: "YouTube a MP4",
-    StartFreeTrial: "Pruébalo Gratis"
-  },
+    StartFreeTrial: "Pruébalo Gratis",
+      Blog: "Blog"
+},
   Footer: {
     des: "El primer servicio de transcripción por IA realmente ilimitado del mundo. Sin límites, sin restricciones, solo libertad para crear.",
     Features: "Características",
@@ -3221,7 +3222,37 @@ let message = {
       privacyPolicyDescription: "Nos preocupamos por la privacidad y seguridad de los datos. Revise nuestra {policy}. Al usar el Sitio, acepta estar sujeto a nuestra Política de Privacidad, incorporada a estos Términos de Servicio. Tenga en cuenta que el Sitio está alojado en Estados Unidos. Si accede al Sitio desde otra región con leyes sobre recopilación, uso o divulgación de datos personales diferentes a las de Estados Unidos, al continuar usando el Sitio, está transfiriendo sus datos a Estados Unidos y acepta que se transfieran y procesen allí.",
       contactDescription: "Si tiene preguntas sobre estos Términos de Servicio, contáctenos {at} {email}.",
       "companyDefinitionA": 'Cuando decimos "Compañía", "nosotros", "nuestro" o "nos" en este documento, nos referimos a {NeverCap}.'
-}
+},
+    Blog: {
+          Hero: {
+            "title": "Conviértete en un",
+            "highlighted_text": "Asistente de transcripción",
+            "description": "Tutoriales, estrategias y herramientas de inteligencia artificial de {NeverCap} para ayudarte a crear contenido ilimitado con flujos de trabajo de transcripción profesionales."
+          },
+          Featured: {
+            FeaturedGuide: "Guía destacada",
+            ReadFullGuide: "Leer la guía completa"
+          },
+          ListSection: {
+            title: "El último",
+            highlighted_text: "Artículos",
+            subtitle: "Consejos y tutoriales de expertos para una transcripción ilimitada",
+            categories: [
+              "Todas las publicaciones",
+              "Tutoriales",
+              "Podcasting",
+              "Creación de contenido",
+              "Negocio",
+              "Consejos de IA"
+            ]
+          },
+          Detail: {
+            Home: "Hogar",
+            Blog: "Blog",
+            GoToSignup: "Prueba NeverCap gratis - Sin tarjeta de crédito",
+            HowWorks: "Vea cómo funciona"
+          }
+        }
 };
 
 export default defineI18nLocale(async (locale) => {

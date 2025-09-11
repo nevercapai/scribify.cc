@@ -8,7 +8,14 @@
         </span>
       </h1>
       <p>
-        {{ $t("Blog.Hero.description") }}
+        <i18n-t keypath="Blog.Hero.description" tag="p">
+          <template #NeverCap>
+            <a :href="HomeUrl" style="text-decoration: none; color: inherit">
+              NeverCap
+            </a>
+          </template>
+        </i18n-t>
+        <!-- {{ $t("Blog.Hero.description") }} -->
       </p>
     </div>
   </section>
@@ -16,6 +23,11 @@
 
 <script setup lang="ts">
 /* heroSection 组件 */
+const config = useRuntimeConfig();
+let currentWebSite = config.public.currentWebSite;
+const HomeUrl = computed(() => {
+  return currentWebSite + "/";
+});
 </script>
 
 <style scoped lang="scss">

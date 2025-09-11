@@ -25,12 +25,12 @@
 
             <div class="intro-cta">
               <div class="cta-buttons">
-                <a href="#" class="btn-primary !px-[44px]">
+                <button @click="handleClick" class="btn-primary !px-[44px]">
                   {{ $t("Blog.Detail.GoToSignup") }}
-                </a>
-                <a href="#content" class="btn-secondary !px-[30px]">
+                </button>
+                <button @click="showDownload" class="btn-secondary !px-[30px]">
                   <span>▶</span> {{ $t("Blog.Detail.HowWorks") }}
-                </a>
+                </button>
               </div>
             </div>
           </div>
@@ -55,6 +55,14 @@
             </div>
           </div>
         </div>
+
+        <transition name="slide-fade">
+          <LazyYoutubeTomp4HowToDownload
+            src="/assets/video/See How It Works.mp4"
+            v-if="showHowToDownload"
+            style="margin-top: 20px"
+          ></LazyYoutubeTomp4HowToDownload>
+        </transition>
       </div>
     </div>
   </section>
@@ -72,6 +80,16 @@ const { blog } = defineProps({
     required: true
   }
 });
+
+const { $mitt } = useNuxtApp();
+const handleClick = () => {
+  $mitt.emit("goToEvent", { path: "/user/signup" });
+};
+
+const showHowToDownload = ref(false);
+const showDownload = () => {
+  showHowToDownload.value = !showHowToDownload.value;
+};
 </script>
 
 <style scoped lang="scss">

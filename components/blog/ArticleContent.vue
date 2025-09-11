@@ -27,10 +27,6 @@ const md = new MarkdownIt({
 });
 const renderedMarkdown = computed(() => {
   if (blog?.articleInfo?.content) {
-    console.log(
-      "🍎🍎 ~ ArticleContent.vue:25 ~ blog.articleInfo.content:",
-      blog.articleInfo.content
-    );
     return md.render(blog.articleInfo.content);
   }
 });

@@ -41,18 +41,19 @@ export default defineNuxtConfig({
       ],
       script: [
         // Google Analytics gtag.js - 仅在生产环境添加
-        ...(process.env.NUXT_PUBLIC_ENV === 'production'
+        ...(process.env.NUXT_PUBLIC_ENV !== 'production'
           ? [
-            { src: "https://www.googletagmanager.com/gtag/js?id=G-6RLKSLWD9C", async: true },
+            { src: "https://www.googletagmanager.com/gtag/js?id=G-6SQ1K5NNF1", async: true },
             // 内联脚本初始化 gtag
             {
               innerHTML: `
                   window.dataLayer = window.dataLayer || [];
                   function gtag(){dataLayer.push(arguments);}
                   gtag('js', new Date());
-                  gtag('config', 'G-6RLKSLWD9C');
+                  gtag('config', 'G-6SQ1K5NNF1');
                 `,
-              type: 'text/javascript'
+              type: 'text/javascript',
+              async: true
             }
           ]
           : []),

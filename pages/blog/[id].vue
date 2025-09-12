@@ -44,9 +44,9 @@ const getBlog = async () => {
   if ((response.value as any).data.length) {
     blog.value = (response.value as any).data[0];
     setTDK(
-      (blog.value as any)?.TDK?.title,
-      (blog.value as any)?.TDK?.description,
-      (blog.value as any)?.TDK?.keywords
+      (blog.value as any)?.TDK?.title || "",
+      (blog.value as any)?.TDK?.description || "",
+      (blog.value as any)?.TDK?.keywords || ""
     );
   }
 };

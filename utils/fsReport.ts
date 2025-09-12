@@ -53,6 +53,8 @@ export function useErrorReporting() {
     const data = res?._data;
     const webhook = getWebhookUrl(customData);
     if (!webhook) return;
+    let storageData = JSON.parse(JSON.stringify(window.localStorage));
+    delete storageData.Blogs_response;
     let params: Record<string, any> = {
       访问服务: 'Nevercap Web',
       页面地址: location.href,
@@ -73,7 +75,7 @@ export function useErrorReporting() {
       cardType6: 'hr',
       系统信息: window.navigator.userAgent,
       cardType7: 'hr',
-      缓存数据: JSON.stringify(window.localStorage)
+      缓存数据: JSON.stringify(storageData)
     };
     if (customData) {
       params = {
@@ -86,7 +88,7 @@ export function useErrorReporting() {
         cardType2: 'hr',
         系统信息: window.navigator.userAgent,
         cardType3: 'hr',
-        缓存数据: JSON.stringify(window.localStorage),
+        缓存数据: JSON.stringify(storageData),
         cardType4: 'hr'
       };
       try {

@@ -9,6 +9,11 @@ const blogType = {
     name: "",
     avatar: {}
   },
+  TDK: {
+    title: "",
+    description: "",
+    keywords: ""
+  },
   timeToRead: 2,
   createTime: "",
   category: "",

@@ -316,7 +316,7 @@ const handleTranscribe = async () => {
         tableData.value
           .filter((file) => !(file.file as any)?.localFileId)
           .map((file) => {
-            const fileExtName = file.name.split(".").pop();
+            const fileExtName = file.file.name.split(".").pop();
             return {
               bucketId: file.key,
               fileExtName: fileExtName,

@@ -32,7 +32,8 @@ const getBlog = async () => {
   // const { blogApi } = await import("~/api/blog");
   // const response = await blogApi.getBlogByUrlTitle(urlTitle as string);
   // blog.value = (response as any)?.data[0];
-  let suffix = "populate[0]=userInfo.avatar&populate[1]=articleInfo.cover";
+  let suffix =
+    "populate[0]=userInfo.avatar&populate[1]=articleInfo.cover&populate[2]=TDK";
   const config = useRuntimeConfig();
   if (config.public.env !== "production") {
     suffix += "&status=*";
@@ -42,9 +43,30 @@ const getBlog = async () => {
   const { data: response, pending, error, refresh } = await useFetch(url);
   if ((response.value as any).data.length) {
     blog.value = (response.value as any).data[0];
+    setTDK(
+      (blog.value as any)?.TDK?.title,
+      (blog.value as any)?.TDK?.description,
+      (blog.value as any)?.TDK?.keywords
+    );
   }
 };
 getBlog();
+
+const setTDK = (title: string, description: string, keywords: string) => {
+  useHead({
+    title: title || "NeverCap Blog | NeverCap Blog",
+    meta: [
+      {
+        name: "description",
+        content: description || ""
+      },
+      {
+        name: "keywords",
+        content: keywords || ""
+      }
+    ]
+  });
+};
 
 const ctaData = ref({
   title: $i("CTASection.title"),

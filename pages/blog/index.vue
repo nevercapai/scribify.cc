@@ -25,6 +25,17 @@
 import { useI18nModule } from "~/utils/i18n";
 const $i = useI18nModule("Index");
 
+useHead({
+  title: "Blog - NeverCap | AI Transcription Tips, Guides & News",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Expert tips, tutorials, and guides for AI transcription. Learn how to maximize productivity with unlimited transcription, audio to text conversion, and content creation strategies."
+    }
+  ]
+});
+
 const ctaData = ref({
   title: $i("CTASection.title"),
   subtitle: $i("CTASection.subtitle"),
@@ -37,7 +48,8 @@ let blog = ref({});
 
 const getBlogs = async () => {
   // 默认情况下，它会在服务端执行，并将数据序列化到页面中
-  let suffix = "populate[0]=userInfo.avatar&populate[1]=articleInfo.cover";
+  let suffix =
+    "populate[0]=userInfo.avatar&populate[1]=articleInfo.cover&populate[2]=TDK";
   const config = useRuntimeConfig();
   if (config.public.env !== "production") {
     suffix += "&status=*";

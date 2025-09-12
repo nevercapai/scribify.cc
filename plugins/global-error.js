@@ -99,8 +99,10 @@ export default defineNuxtPlugin((nuxtApp) => {
               资源加载失败: JSON.stringify(event),
               ...eventProps
             };
-
             console.error("资源加载失败:", event, obj);
+            if (obj["资源加载失败"]?.includes("isTrusted")) {
+              return;
+            }
             reportSystemError(obj);
           } catch (e) {
             console.error("资源加载失败处理异常:", e);

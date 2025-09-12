@@ -30,7 +30,7 @@
         <!-- Blog Post 1 -->
         <NuxtLink
           v-for="blog in filteredBlogs"
-          :to="`/blog/${blog.urlTitle}`"
+          :to="$localePath(`/blog/${blog.urlTitle}`)"
           class="blog-card"
         >
           <div class="card-image">

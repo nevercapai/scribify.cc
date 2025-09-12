@@ -3,13 +3,13 @@
     <div class="container">
       <div class="breadcrumbs-content">
         <div class="breadcrumbs">
-          <a :href="currentWebSite + '/'">
+          <NuxtLink :to="$localePath('/')">
             {{ $t("Blog.Detail.Home") }}
-          </a>
+          </NuxtLink>
           <span class="breadcrumb-separator">></span>
-          <a :href="currentWebSite + '/blog'">
+          <NuxtLink :to="$localePath('/blog')">
             {{ $t("Blog.Detail.Blog") }}
-          </a>
+          </NuxtLink>
           <span class="breadcrumb-separator">></span>
           <span>{{ blog?.urlTitle }}</span>
         </div>

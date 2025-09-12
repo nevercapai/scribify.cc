@@ -635,8 +635,8 @@ let message = {
     uploadWithinHours: "10小時上傳",
     yourSubscription: "您的訂閱將於{time}取消",
     save: "節省",
-      freeversion2: "免費方案"
-},
+    freeversion2: "免費方案"
+  },
   // 語言對應關係
   LanguageMap: {
     sysLanguagesMap: {
@@ -1008,8 +1008,8 @@ let message = {
     Resources: "資源",
     YouTubetoMP4: "YouTube轉MP4",
     StartFreeTrial: "免費試用",
-      Blog: "部落格"
-},
+    Blog: "部落格"
+  },
   Footer: {
     des: "全球首個真正無限的AI轉錄服務。無上限，無限制，只有創造的自由。",
     Features: "功能",
@@ -1017,20 +1017,20 @@ let message = {
     Company: "公司",
     featureMenus: ["無限轉錄", "批量上傳", "96%準確率"],
     useCaseMenus: [
-          "所有使用案例",
-          "播客主",
-          "記者",
-          "內容創作者",
-          "研究人員",
-          "商業團隊",
-          "教育工作者"
-        ],
+      "所有使用案例",
+      "播客主",
+      "記者",
+      "內容創作者",
+      "研究人員",
+      "商業團隊",
+      "教育工作者"
+    ],
     companyMenus: [
-          "關於我們",
-          "定價方案",
-          "隱私權",
-          "條款"
-        ]
+      "關於我們",
+      "定價方案",
+      "隱私權",
+      "條款"
+    ]
   },
   Index: {
     Hero: {
@@ -1043,7 +1043,7 @@ let message = {
       NoCap: "無月度分鐘數限制",
       Hour: "支援10小時檔案",
       ExploreUseCases: "探索使用案例",
-        subtitleA: "NeverCap 的 AI 可以轉錄視訊並將音訊轉換為文本，一次可處理 50 個文件，且無每月上限。真正實現隨您擴展的轉錄。"
+      subtitleA: "NeverCap 的 AI 可以轉錄視訊並將音訊轉換為文本，一次可處理 50 個文件，且無每月上限。真正實現隨您擴展的轉錄。"
     },
     Stats: {
       monthlyMinutes: "月度分鐘數",
@@ -1071,7 +1071,7 @@ let message = {
       feat_langs_desc: "轉錄100+種語言的影片和音頻，翻譯至249+種語言。不同語言無額外收費。全球內容，單一價格。",
       feat_pro: "專業功能",
       feat_pro_desc: "字級時間戳記可精確定位音頻/影片，即使在快速對話切換時也能準確識別說話者，並提供完美格式化的段落、句子和標點文本以便閱讀。",
-        features: "功能"
+      features: "功能"
     },
     UseCases: {
       built_for: "批量",
@@ -1119,7 +1119,7 @@ let message = {
         "author": "Jessica Park",
         "role": "自由記者"
       },
-        titleA: "深受 50,000+ 位用戶的喜愛"
+      titleA: "深受 50,000+ 位用戶的喜愛"
     },
     PricingPreview: {
       "title": "透明定價",
@@ -1130,52 +1130,52 @@ let message = {
       "title": "常見問題",
       "titleHighlight": "問題",
       "questions": [
-            {
-              "q": "AI轉錄",
-              "question": "什麼是AI轉錄？它是如何運作的？",
-              "answer": "AI轉錄是使用先進人工智能將音頻自動轉換為文字的過程。在NeverCap，您只需上傳檔案，我們的AI就能以高達96%的準確率轉錄內容。我們的服務專為將影片檔案（如MP4、MOV）和音頻檔案（如MP3、WAV）轉換為可讀、可編輯的文字而設計，包含說話者標籤和時間標記。"
-            },
-            {
-              "q": "unlimited_policy",
-              "question": "真的無限制嗎？有什麼陷阱？",
-              "answer": "是的，真正無限制！沒有每月分鐘數上限，沒有超額費用。唯一限制是技術性的：單一檔案最長10小時或5GB大小，一次可處理50個檔案。但您可以整個月不限次數上傳多批次檔案。"
-            },
-            {
-              "q": "accuracy",
-              "question": "轉錄準確度如何？",
-              "answer": "我們保證清晰音頻的96%準確率。我們的AI經過數百萬小時多樣內容訓練，能出色處理口音、專業術語和多說話者情境。針對困難音頻，我們的智能增強功能可幫助提升結果。"
-            },
-            {
-              "q": "languages",
-              "question": "支援哪些語言？",
-              "answer": "我們支援超過100種語言的轉錄，包括英語、西班牙語、普通話、印地語、阿拉伯語、法語等。此外，您可將轉錄內容翻譯成249種不同語言，非常適合全球化的內容需求。"
-            },
-            {
-              "q": "speed",
-              "question": "轉錄速度多快？",
-              "answer": "閃電般快速！1小時音頻檔案通常在5分鐘內完成處理。透過批次處理，您可以同時上傳50個檔案並平行處理。多數用戶睡一覺醒來就發現整個資料庫已完成轉錄。"
-            },
-            {
-              "q": "cancellation",
-              "question": "可以隨時取消嗎？",
-              "answer": "當然！沒有合約綁定，沒有取消費用。您隨時可以從儀表板升級、降級或取消訂閱。若取消，您仍可持續使用服務至當前計費週期結束。"
-            },
-            {
-              "q": "security",
-              "question": "我的資料安全嗎？",
-              "answer": "您的安全是我們的首要任務。我們通過SOC 2認證，所有資料使用256位元加密，且絕不會用您的內容訓練模型。您可隨時刪除檔案，我們也會在30天後自動清除。符合GDPR和CCPA規範。"
-            },
-            {
-              "q": "export_formats",
-              "question": "有哪些匯出格式？",
-              "answer": "可下載任何您需要的轉錄格式：PDF、Word (DOCX)、Excel、CSV、SRT字幕、純文字(TXT)和VTT字幕。完美適配任何工作流程。"
-            },
-            {
-              "q": "file_formats",
-              "question": "可以上傳哪些音頻和影片檔案？",
-              "answer": "我們支援您可能遇到的幾乎所有音視頻格式：MP3、MP4、M4A、MOV、AAC、WAV、OGG、OPUS、MPEG、WMA、WMV等。只要您能播放，我們就能轉錄。"
-            }
-          ]
+        {
+          "q": "AI轉錄",
+          "question": "什麼是AI轉錄？它是如何運作的？",
+          "answer": "AI轉錄是使用先進人工智能將音頻自動轉換為文字的過程。在NeverCap，您只需上傳檔案，我們的AI就能以高達96%的準確率轉錄內容。我們的服務專為將影片檔案（如MP4、MOV）和音頻檔案（如MP3、WAV）轉換為可讀、可編輯的文字而設計，包含說話者標籤和時間標記。"
+        },
+        {
+          "q": "unlimited_policy",
+          "question": "真的無限制嗎？有什麼陷阱？",
+          "answer": "是的，真正無限制！沒有每月分鐘數上限，沒有超額費用。唯一限制是技術性的：單一檔案最長10小時或5GB大小，一次可處理50個檔案。但您可以整個月不限次數上傳多批次檔案。"
+        },
+        {
+          "q": "accuracy",
+          "question": "轉錄準確度如何？",
+          "answer": "我們保證清晰音頻的96%準確率。我們的AI經過數百萬小時多樣內容訓練，能出色處理口音、專業術語和多說話者情境。針對困難音頻，我們的智能增強功能可幫助提升結果。"
+        },
+        {
+          "q": "languages",
+          "question": "支援哪些語言？",
+          "answer": "我們支援超過100種語言的轉錄，包括英語、西班牙語、普通話、印地語、阿拉伯語、法語等。此外，您可將轉錄內容翻譯成249種不同語言，非常適合全球化的內容需求。"
+        },
+        {
+          "q": "speed",
+          "question": "轉錄速度多快？",
+          "answer": "閃電般快速！1小時音頻檔案通常在5分鐘內完成處理。透過批次處理，您可以同時上傳50個檔案並平行處理。多數用戶睡一覺醒來就發現整個資料庫已完成轉錄。"
+        },
+        {
+          "q": "cancellation",
+          "question": "可以隨時取消嗎？",
+          "answer": "當然！沒有合約綁定，沒有取消費用。您隨時可以從儀表板升級、降級或取消訂閱。若取消，您仍可持續使用服務至當前計費週期結束。"
+        },
+        {
+          "q": "security",
+          "question": "我的資料安全嗎？",
+          "answer": "您的安全是我們的首要任務。我們通過SOC 2認證，所有資料使用256位元加密，且絕不會用您的內容訓練模型。您可隨時刪除檔案，我們也會在30天後自動清除。符合GDPR和CCPA規範。"
+        },
+        {
+          "q": "export_formats",
+          "question": "有哪些匯出格式？",
+          "answer": "可下載任何您需要的轉錄格式：PDF、Word (DOCX)、Excel、CSV、SRT字幕、純文字(TXT)和VTT字幕。完美適配任何工作流程。"
+        },
+        {
+          "q": "file_formats",
+          "question": "可以上傳哪些音頻和影片檔案？",
+          "answer": "我們支援您可能遇到的幾乎所有音視頻格式：MP3、MP4、M4A、MOV、AAC、WAV、OGG、OPUS、MPEG、WMA、WMV等。只要您能播放，我們就能轉錄。"
+        }
+      ]
     },
     CTASection: {
       "title": "準備好突破限制了嗎？",
@@ -1289,8 +1289,8 @@ let message = {
       ctaTitle: "停止為假無限制付費",
       ctaSubtitle: "加入成千上萬選擇真正無限轉錄的使用者",
       finalCta: "免費試用 NeverCap",
-        heroSubtitle1: "Trint 限制您每月使用 50 小時，而 Otter 限制您每月使用 10 個文件，",
-        heroSubtitle2: "兌現我們的實際承諾：無限制轉錄，無隱藏上限。"
+      heroSubtitle1: "Trint 限制您每月使用 50 小時，而 Otter 限制您每月使用 10 個文件，",
+      heroSubtitle2: "兌現我們的實際承諾：無限制轉錄，無隱藏上限。"
     },
     BulkUpload: {
       heroBadgeIcon: "📁",
@@ -1545,9 +1545,9 @@ let message = {
       ctaTitle: "體驗96%準確率",
       ctaSubtitle: "上傳最具挑戰性的音檔，感受差異",
       finalCta: "立即測試準確率 →",
-        languageSectionTitlePart2: "適用於12種主要語言",
-        comparisonDes1: "了解詳情",
-        comparisonDes2: "與競爭對手競爭"
+      languageSectionTitlePart2: "適用於12種主要語言",
+      comparisonDes1: "了解詳情",
+      comparisonDes2: "與競爭對手競爭"
     }
   },
   Pricing: {
@@ -1561,93 +1561,93 @@ let message = {
       "highlighted_text": "無隱藏限制。",
       "description": "選擇適合的方案。隨時升級或降級。無合約、無隱藏費用。",
       "plans": [
-            {
-              "name": "免費",
-              "price": "$0",
-              "period": "月",
-              "discount": "適合試用我們的服務",
-              "limits": {
-                "title": "每日限制",
-                "items": [
-                  "3 個檔案/天 (≈90 分鐘總計/天)",
-                  "每個檔案最多 30 分鐘 (≤250 MB)",
-                  "每次上傳 1 個檔案",
-                  "標準優先佇列"
-                ]
-              },
-              "features": {
-                "title": "功能",
-                "items": [
-                  "100+ 種語言",
-                  "說話者標籤",
-                  "翻譯",
-                  "所有匯出格式"
-                ]
-              },
-              "cta": {
-                "text": "免費開始。無需信用卡。",
-                "button": "當前方案"
-              }
-            },
-            {
-              "name": "專業月費版",
-              "price": "$17.99",
-              "period": "月",
-              "discount": "首月 $9.99",
-              "limits": {
-                "title": "無月費上限",
-                "items": [
-                  "無限總分鐘數",
-                  "每個檔案最多 10 小時 / 5 GB",
-                  "一次上傳 50 個檔案",
-                  "優先佇列"
-                ]
-              },
-              "features": {
-                "title": "包含免費版所有功能，外加",
-                "items": [
-                  "單詞級時間戳",
-                  "進階說話者識別",
-                  "格式化段落與標點",
-                  "優先支援"
-                ]
-              },
-              "cta": {
-                "text": "無限分鐘。優先速度。批次上傳。",
-                "button": "升級專業版"
-              },
-              "badge": "最受歡迎"
-            },
-            {
-              "name": "專業年費版",
-              "price": "$8.99",
-              "period": "月",
-              "discount": "年付 $107.88",
-              "limits": {
-                "title": "與專業月付版相同",
-                "items": [
-                  "無限總分鐘數",
-                  "每個檔案最多 10 小時 / 5 GB",
-                  "一次上傳 50 個檔案",
-                  "優先佇列"
-                ]
-              },
-              "features": {
-                "title": "包含免費版所有功能，外加",
-                "items": [
-                  "單詞級時間戳",
-                  "進階說話者識別",
-                  "格式化段落與標點",
-                  "優先支援"
-                ]
-              },
-              "cta": {
-                "text": "無限分鐘。優先速度。批次上傳。",
-                "button": "升級專業版"
-              },
-              "badge": "最佳價值 - "
-            }
-          ],
+        {
+          "name": "免費",
+          "price": "$0",
+          "period": "月",
+          "discount": "適合試用我們的服務",
+          "limits": {
+            "title": "每日限制",
+            "items": [
+              "3 個檔案/天 (≈90 分鐘總計/天)",
+              "每個檔案最多 30 分鐘 (≤250 MB)",
+              "每次上傳 1 個檔案",
+              "標準優先佇列"
+            ]
+          },
+          "features": {
+            "title": "功能",
+            "items": [
+              "100+ 種語言",
+              "說話者標籤",
+              "翻譯",
+              "所有匯出格式"
+            ]
+          },
+          "cta": {
+            "text": "免費開始。無需信用卡。",
+            "button": "當前方案"
+          }
+        },
+        {
+          "name": "專業月費版",
+          "price": "$17.99",
+          "period": "月",
+          "discount": "首月 $9.99",
+          "limits": {
+            "title": "無月費上限",
+            "items": [
+              "無限總分鐘數",
+              "每個檔案最多 10 小時 / 5 GB",
+              "一次上傳 50 個檔案",
+              "優先佇列"
+            ]
+          },
+          "features": {
+            "title": "包含免費版所有功能，外加",
+            "items": [
+              "單詞級時間戳",
+              "進階說話者識別",
+              "格式化段落與標點",
+              "優先支援"
+            ]
+          },
+          "cta": {
+            "text": "無限分鐘。優先速度。批次上傳。",
+            "button": "升級專業版"
+          },
+          "badge": "最受歡迎"
+        },
+        {
+          "name": "專業年費版",
+          "price": "$8.99",
+          "period": "月",
+          "discount": "年付 $107.88",
+          "limits": {
+            "title": "與專業月付版相同",
+            "items": [
+              "無限總分鐘數",
+              "每個檔案最多 10 小時 / 5 GB",
+              "一次上傳 50 個檔案",
+              "優先佇列"
+            ]
+          },
+          "features": {
+            "title": "包含免費版所有功能，外加",
+            "items": [
+              "單詞級時間戳",
+              "進階說話者識別",
+              "格式化段落與標點",
+              "優先支援"
+            ]
+          },
+          "cta": {
+            "text": "無限分鐘。優先速度。批次上傳。",
+            "button": "升級專業版"
+          },
+          "badge": "最佳價值 - "
+        }
+      ],
       "disclaimer": "「無限」代表無月度上限且無人工降速。合理使用政策適用於濫用自動化或重新分發行為。"
     },
     ComparisonTable: {
@@ -1657,115 +1657,115 @@ let message = {
         "subtitle": "清楚查看各方案內容。絕無隱藏限制。"
       },
       "plans": [
-              "功能",
-              "免費版",
-              "專業月費版",
-              "專業年費版"
-            ],
+        "功能",
+        "免費版",
+        "專業月費版",
+        "專業年費版"
+      ],
       "features": [
+        {
+          "name": "價格",
+          "values": [
+            "$0/月",
             {
-              "name": "價格",
-              "values": [
-                "$0/月",
-                {
-                  "main": "$17.99/月",
-                  "note": "首月 $9.99"
-                },
-                {
-                  "main": "$8.99/月",
-                  "note": "年繳 $107.88"
-                }
-              ]
+              "main": "$17.99/月",
+              "note": "首月 $9.99"
             },
             {
-              "name": "每月分鐘數",
-              "values": ["~2,700 (90/天)", "無限", "無限"]
-            },
-            {
-              "name": "最長檔案時長",
-              "values": ["30 分鐘", "10 小時", "10 小時"]
-            },
-            {
-              "name": "最大檔案大小",
-              "values": ["250 MB", "5 GB", "5 GB"]
-            },
-            {
-              "name": "批次上傳",
-              "values": ["1 個檔案", "50 個檔案", "50 個檔案"]
-            },
-            {
-              "name": "處理速度",
-              "values": ["標準", "優先", "優先"]
-            },
-            {
-              "name": "支援語言",
-              "values": ["100+ 種語言", "100+ 種語言", "100+ 種語言"]
-            },
-            {
-              "name": "翻譯",
-              "values": ["true", "true", "true"]
-            },
-            {
-              "name": "說話者識別",
-              "values": ["基本", "進階 (20位說話者)", "進階 (20位說話者)"]
-            },
-            {
-              "name": "單詞級時間戳",
-              "values": ["false", "true", "true"]
-            },
-            {
-              "name": "格式化段落",
-              "values": ["false", "true", "true"]
-            },
-            {
-              "name": "匯出格式",
-              "values": ["所有格式", "所有格式", "所有格式"]
-            },
-            {
-              "name": "支援",
-              "values": ["電子郵件", "優先電子郵件", "優先電子郵件"]
-            },
-            {
-              "name": "資料保留",
-              "values": ["30 天", "永久", "永久"]
+              "main": "$8.99/月",
+              "note": "年繳 $107.88"
             }
           ]
+        },
+        {
+          "name": "每月分鐘數",
+          "values": ["~2,700 (90/天)", "無限", "無限"]
+        },
+        {
+          "name": "最長檔案時長",
+          "values": ["30 分鐘", "10 小時", "10 小時"]
+        },
+        {
+          "name": "最大檔案大小",
+          "values": ["250 MB", "5 GB", "5 GB"]
+        },
+        {
+          "name": "批次上傳",
+          "values": ["1 個檔案", "50 個檔案", "50 個檔案"]
+        },
+        {
+          "name": "處理速度",
+          "values": ["標準", "優先", "優先"]
+        },
+        {
+          "name": "支援語言",
+          "values": ["100+ 種語言", "100+ 種語言", "100+ 種語言"]
+        },
+        {
+          "name": "翻譯",
+          "values": ["true", "true", "true"]
+        },
+        {
+          "name": "說話者識別",
+          "values": ["基本", "進階 (20位說話者)", "進階 (20位說話者)"]
+        },
+        {
+          "name": "單詞級時間戳",
+          "values": ["false", "true", "true"]
+        },
+        {
+          "name": "格式化段落",
+          "values": ["false", "true", "true"]
+        },
+        {
+          "name": "匯出格式",
+          "values": ["所有格式", "所有格式", "所有格式"]
+        },
+        {
+          "name": "支援",
+          "values": ["電子郵件", "優先電子郵件", "優先電子郵件"]
+        },
+        {
+          "name": "資料保留",
+          "values": ["30 天", "永久", "永久"]
+        }
+      ]
     },
     FAQ: {
       "title": "常見問題",
       "titleHighligt": "問題",
       "items": [
-            {
-              "q": "unlimited_policy",
-              "question": "真的是無限制嗎？",
-              "answer": "是的！專業方案沒有每月分鐘數上限。唯一限制是技術性的：單檔最長10小時，檔案大小5GB。您可以處理任意數量的檔案。"
-            },
-            {
-              "q": "plan_change",
-              "question": "可以隨時變更方案嗎？",
-              "answer": "當然！您可以隨時在儀表板取消訂閱。隨時按需求升級或降級。"
-            },
-            {
-              "q": "payment_methods",
-              "question": "接受哪些付款方式？",
-              "answer": "我們接受所有主流信用卡、金融卡和PayPal，提供安全無憂的付款體驗。"
-            },
-            {
-              "q": "free_trial",
-              "question": "專業版有免費試用嗎？",
-              "answer": "有！免信用卡試用專業版7天。訂閱再享首月45%優惠。"
-            },
-            {
-              "q": "file_retention",
-              "question": "檔案會保留多久？",
-              "answer": "免費方案：30天。專業方案：永久！轉錄內容隨時可在帳戶中查看。"
-            },
-            {
-              "q": "data_security",
-              "question": "資料安全性如何？",
-              "answer": "我們通過SOC 2認證並採用256位元加密。我們絕不會使用您的內容訓練模型。您的數據完全屬於您。"
-            }
-          ]
+        {
+          "q": "unlimited_policy",
+          "question": "真的是無限制嗎？",
+          "answer": "是的！專業方案沒有每月分鐘數上限。唯一限制是技術性的：單檔最長10小時，檔案大小5GB。您可以處理任意數量的檔案。"
+        },
+        {
+          "q": "plan_change",
+          "question": "可以隨時變更方案嗎？",
+          "answer": "當然！您可以隨時在儀表板取消訂閱。隨時按需求升級或降級。"
+        },
+        {
+          "q": "payment_methods",
+          "question": "接受哪些付款方式？",
+          "answer": "我們接受所有主流信用卡、金融卡和PayPal，提供安全無憂的付款體驗。"
+        },
+        {
+          "q": "free_trial",
+          "question": "專業版有免費試用嗎？",
+          "answer": "有！免信用卡試用專業版7天。訂閱再享首月45%優惠。"
+        },
+        {
+          "q": "file_retention",
+          "question": "檔案會保留多久？",
+          "answer": "免費方案：30天。專業方案：永久！轉錄內容隨時可在帳戶中查看。"
+        },
+        {
+          "q": "data_security",
+          "question": "資料安全性如何？",
+          "answer": "我們通過SOC 2認證並採用256位元加密。我們絕不會使用您的內容訓練模型。您的數據完全屬於您。"
+        }
+      ]
     },
     CTA: {
       "title": "準備好無限暢用了嗎？",
@@ -1982,7 +1982,7 @@ let message = {
         subtitle: "加入 50,000+ 專業人士的行列，停止計算分鐘數，開始創作",
         button: "開始您的無限旅程 →"
       },
-        heroSubtitleA: "從積壓多年工作的播客，到進行數百次訪談的研究人員，了解專業人士如何使用 {NeverCap} 突破上傳限制和分鐘數上限。"
+      heroSubtitleA: "從積壓多年工作的播客，到進行數百次訪談的研究人員，了解專業人士如何使用 {NeverCap} 突破上傳限制和分鐘數上限。"
     },
     Podcasters: {
       badge: "專為播客打造",
@@ -2152,7 +2152,7 @@ let message = {
       ctaSubtitle: "加入 10,000+ 名從不擔心限制的播客",
       ctaButton: "免費上傳前 50 集 →",
       ctaDisclaimer: "無需信用卡 • 處理無限集數 • 隨時取消",
-        solutionDescriptionA: "使用 {NeverCap}，您可以獲得真正的無限轉錄。上傳您的整個存檔。轉錄每一集新劇集。批量生成節目筆記。沒有上限，沒有限制，任您成長。"
+      solutionDescriptionA: "使用 {NeverCap}，您可以獲得真正的無限轉錄。上傳您的整個存檔。轉錄每一集新劇集。批量生成節目筆記。沒有上限，沒有限制，任您成長。"
     },
     Journalists: {
       hero: {
@@ -2224,7 +2224,7 @@ let message = {
         solution: {
           title: "The",
           titleHighlight: "NeverCap解決方案",
-            descriptionA: "使用 {NeverCap}，您可以獲得真正的無限轉錄。上傳您的整個調查。轉錄每一次訪談。立即搜尋所有引述。無上限，無限制，只為新聞報道。"
+          descriptionA: "使用 {NeverCap}，您可以獲得真正的無限轉錄。上傳您的整個調查。轉錄每一次訪談。立即搜尋所有引述。無上限，無限制，只為新聞報道。"
         }
       },
       solution: {
@@ -2284,20 +2284,20 @@ let message = {
               }
             }
           },
-            ironclad: {
-                  label: "來源保護",
-                  title: "鐵壁級來源保護",
-                  description: "我們提供強大的安全功能來保護您的敏感訪談資料和機密來源。銀行級加密確保調查安全。",
-                  points: {
-                    accuracyGuarantee: "端到端加密",
-                    handlesAccents: "自動檔案刪除選項",
-                    smartPunctuation: "GDPR與隱私合規"
-                  },
-                  visual: {
-                    accuracy: "🔒",
-                    label: "最高安全性"
-                  }
-                }
+          ironclad: {
+            label: "來源保護",
+            title: "鐵壁級來源保護",
+            description: "我們提供強大的安全功能來保護您的敏感訪談資料和機密來源。銀行級加密確保調查安全。",
+            points: {
+              accuracyGuarantee: "端到端加密",
+              handlesAccents: "自動檔案刪除選項",
+              smartPunctuation: "GDPR與隱私合規"
+            },
+            visual: {
+              accuracy: "🔒",
+              label: "最高安全性"
+            }
+          }
         }
       },
       features: {
@@ -2380,8 +2380,8 @@ let message = {
             label: "平台"
           }
         },
-          subtitleA: "無論您是需要轉錄 YouTube 影片、轉錄 TikTok 影片以供再利用，還是想將 Facebook 影片轉錄為文本，{NeverCap} 都能無縫處理。產生超過 100 種語言的字幕，無月費限制，享受純粹的創作自由。"
-    },
+        subtitleA: "無論您是需要轉錄 YouTube 影片、轉錄 TikTok 影片以供再利用，還是想將 Facebook 影片轉錄為文本，{NeverCap} 都能無縫處理。產生超過 100 種語言的字幕，無月費限制，享受純粹的創作自由。"
+      },
       platforms: {
         title: "從任何平台獲取並轉錄",
         platformNames: {
@@ -2394,9 +2394,9 @@ let message = {
           tiktok: "TikTok",
           instagram: "Instagram"
         },
-          titleMax: "從任何平台",
-          titleMaxHighlight: "轉錄影片"
-    },
+        titleMax: "從任何平台",
+        titleMaxHighlight: "轉錄影片"
+      },
       features: {
         title: "擴展內容所需",
         titleHighlight: "的一切工具",
@@ -2518,29 +2518,29 @@ let message = {
         subtitle: "加入50,000+不再計算分鐘數、開始創作的創作者行列",
         button: "開始無限字幕製作 →"
       },
-        FAQSection: {
-              "title": "您的轉錄問題，",
-              "titleHighlight": "解答",
-              subtitle: "關於從不同平台轉錄影片您需要知道的一切",
-              "questions": [
-                    {
-                      "question": "問：如何使用NeverCap轉錄YouTube影片？",
-                      "answer": "很簡單。只需找到您想轉錄的YouTube影片，複製其URL，並貼到我們的應用程式中。我們的AI將自動獲取影片並在幾分鐘內提供完整文字轉錄。"
-                    },
-                    {
-                      "question": "問：將Facebook影片轉錄為文字的最佳方法是什麼？",
-                      "answer": "最簡單的方法是使用直接連結。複製Facebook影片的URL，我們的平台將處理其餘部分，以高達96%的準確率將語音轉換為文字，省去手動轉錄的麻煩。"
-                    },
-                    {
-                      "question": "問：我可以轉錄TikTok和Instagram影片嗎？",
-                      "answer": "當然可以。我們支援TikTok和Instagram影片的轉錄。這對於想將短影片內容改編成部落格文章、文章或文字社交媒體更新的內容創作者來說非常完美。"
-                    },
-                    {
-                      "question": "問：如何將Vimeo影片轉錄為文字？",
-                      "answer": "轉錄Vimeo影片和其他平台一樣簡單。只需複製Vimeo影片URL並貼到NeverCap中。我們的AI將處理影片並生成準確的文字轉錄，您可以下載多種格式。"
-                    }
-                  ]
-            }
+      FAQSection: {
+        "title": "您的轉錄問題，",
+        "titleHighlight": "解答",
+        subtitle: "關於從不同平台轉錄影片您需要知道的一切",
+        "questions": [
+          {
+            "question": "問：如何使用NeverCap轉錄YouTube影片？",
+            "answer": "很簡單。只需找到您想轉錄的YouTube影片，複製其URL，並貼到我們的應用程式中。我們的AI將自動獲取影片並在幾分鐘內提供完整文字轉錄。"
+          },
+          {
+            "question": "問：將Facebook影片轉錄為文字的最佳方法是什麼？",
+            "answer": "最簡單的方法是使用直接連結。複製Facebook影片的URL，我們的平台將處理其餘部分，以高達96%的準確率將語音轉換為文字，省去手動轉錄的麻煩。"
+          },
+          {
+            "question": "問：我可以轉錄TikTok和Instagram影片嗎？",
+            "answer": "當然可以。我們支援TikTok和Instagram影片的轉錄。這對於想將短影片內容改編成部落格文章、文章或文字社交媒體更新的內容創作者來說非常完美。"
+          },
+          {
+            "question": "問：如何將Vimeo影片轉錄為文字？",
+            "answer": "轉錄Vimeo影片和其他平台一樣簡單。只需複製Vimeo影片URL並貼到NeverCap中。我們的AI將處理影片並生成準確的文字轉錄，您可以下載多種格式。"
+          }
+        ]
+      }
     },
     Researchers: {
       heroBadge: "為學術卓越而打造",
@@ -2624,23 +2624,23 @@ let message = {
       ctaTitle: "停止選擇要分析的數據",
       ctaSubtitle: "加入50,000多名轉錄一切的研究人員",
       ctaButton: "免費試用NeverCap",
-        problemTitle2: "研究轉錄問題",
-        title: "The",
-        useCasesTitle2: "每種研究方法",
-        testimonialTitle2: "領先研究人員的信賴",
-        feature1TitleHl: "整個研究項目",
-        feature1TitlePost: "一站式完成",
-        feature2TitleHl: "焦點小組訪談",
-        feature2TitlePost: "次次成功",
-        feature3TitleHl: "96%準確率",
-        feature4TitleHl: "安全性",
-        testimonialText2Hl: "200小時",
-        testimonialText3: "來自我們社區健康研究的焦點團體錄音。其他服務因為成本要求我們挑選要轉錄的時段。NeverCap讓我們在",
-        testimonialText4Hl: "一個週末處理全部內容",
-        testimonialText5: "。20人聲辨識功能確實有效——即使在最混亂、所有人同時發言的討論中也奏效。這個工具",
-        testimonialText6Hl: "徹底改變了",
-        testimonialText7: "我們處理質性資料的方式。",
-        solutionDescA: "使用 {NeverCap}，您可以獲得真正的無限轉錄。上傳您的整個研究。轉錄每一次訪談。分析所有數據。沒有上限，沒有限制，只需研究。"
+      problemTitle2: "研究轉錄問題",
+      title: "The",
+      useCasesTitle2: "每種研究方法",
+      testimonialTitle2: "領先研究人員的信賴",
+      feature1TitleHl: "整個研究項目",
+      feature1TitlePost: "一站式完成",
+      feature2TitleHl: "焦點小組訪談",
+      feature2TitlePost: "次次成功",
+      feature3TitleHl: "96%準確率",
+      feature4TitleHl: "安全性",
+      testimonialText2Hl: "200小時",
+      testimonialText3: "來自我們社區健康研究的焦點團體錄音。其他服務因為成本要求我們挑選要轉錄的時段。NeverCap讓我們在",
+      testimonialText4Hl: "一個週末處理全部內容",
+      testimonialText5: "。20人聲辨識功能確實有效——即使在最混亂、所有人同時發言的討論中也奏效。這個工具",
+      testimonialText6Hl: "徹底改變了",
+      testimonialText7: "我們處理質性資料的方式。",
+      solutionDescA: "使用 {NeverCap}，您可以獲得真正的無限轉錄。上傳您的整個研究。轉錄每一次訪談。分析所有數據。沒有上限，沒有限制，只需研究。"
     },
     BusinessTeams: {
       heroBadge: "適用於商業團隊",
@@ -2713,9 +2713,9 @@ let message = {
       ctaTitle: "不再遺失重要對話",
       ctaSubtitle: "加入數千個團隊，享受無限轉錄功能記錄每場會議",
       ctaButton: "免費開始錄製 →",
-        featuresTitle2: "會議",
-        workflowTitle2: "Zoom錄音轉為文字",
-        heroSubtitleA: "直接在瀏覽器中錄製會議，或立即上傳音訊檔案。從無限量的對話中建立可搜尋的檔案。使用 {NeverCap} 真正無限量的轉錄，再也不會失去重要的討論。"
+      featuresTitle2: "會議",
+      workflowTitle2: "Zoom錄音轉為文字",
+      heroSubtitleA: "直接在瀏覽器中錄製會議，或立即上傳音訊檔案。從無限量的對話中建立可搜尋的檔案。使用 {NeverCap} 真正無限量的轉錄，再也不會失去重要的討論。"
     },
     Educators: {
       heroBadge: "教育工作者專區",
@@ -2797,11 +2797,11 @@ let message = {
       ctaTitle: "讓您所有教育內容無障礙",
       ctaSubtitle: "加入數千名使用真正無限轉錄的教育工作者",
       ctaButton: "免費試用NeverCap",
-        featuresTitle2: "影片轉錄",
-        grid: "音訊檔案轉學習指南",
-        useCasesTitle2: "教育需求",
-        testimonialTitle2: "50,000+教育工作者的信賴",
-        testimonialTextA: "我一直在使用 {NeverCap} 來轉錄我的整個 YouTube 數學教學頻道。以前用其他服務需要幾週時間，現在只需幾個小時。直接貼上連結即可獲得即時轉錄的功能徹底改變了我創建無障礙內容的方式。我的國際學生尤其喜歡它的多語言字幕！"
+      featuresTitle2: "影片轉錄",
+      grid: "音訊檔案轉學習指南",
+      useCasesTitle2: "教育需求",
+      testimonialTitle2: "50,000+教育工作者的信賴",
+      testimonialTextA: "我一直在使用 {NeverCap} 來轉錄我的整個 YouTube 數學教學頻道。以前用其他服務需要幾週時間，現在只需幾個小時。直接貼上連結即可獲得即時轉錄的功能徹底改變了我創建無障礙內容的方式。我的國際學生尤其喜歡它的多語言字幕！"
     }
   },
   Resources: {
@@ -2818,132 +2818,132 @@ let message = {
       part2: {
         "title": "只需 3 個簡單步驟，即可將 YouTube 影片轉換為可下載的 MP4 檔案",
         "steps": [
-                {
-                  title: "複製網址",
-                  content: "開啟目標 YouTube 影片，然後從瀏覽器的網址列複製連結。"
-                },
-                {
-                  title: "貼上連結",
-                  content: "前往影片下載工具，並將網址貼入輸入欄位。"
-                },
-                {
-                  title: "下載 MP4",
-                  content: "處理完成後，點擊下載按鈕儲存您的 MP4 檔案。"
-                }
-              ]
+          {
+            title: "複製網址",
+            content: "開啟目標 YouTube 影片，然後從瀏覽器的網址列複製連結。"
+          },
+          {
+            title: "貼上連結",
+            content: "前往影片下載工具，並將網址貼入輸入欄位。"
+          },
+          {
+            title: "下載 MP4",
+            content: "處理完成後，點擊下載按鈕儲存您的 MP4 檔案。"
+          }
+        ]
       },
       part3: {
         content: [
-                "是否曾需要離線觀看 YouTube 影片？",
-                "無論是在地鐵通勤、搭飛機、學習重要教學、深入技能提升內容，或保存重要影片素材——可靠的離線存取常令人困擾。這就是我們的下載工具大顯身手之處。",
-                "下載工具讓您快速輕鬆地將 YouTube 影片轉換為 MP4 格式下載。儲存至裝置，隨時觀看。",
-                "過程快速、簡單且無障礙。下載後，隨時隨地享受您喜愛的影片——無需網路。"
-              ]
+          "是否曾需要離線觀看 YouTube 影片？",
+          "無論是在地鐵通勤、搭飛機、學習重要教學、深入技能提升內容，或保存重要影片素材——可靠的離線存取常令人困擾。這就是我們的下載工具大顯身手之處。",
+          "下載工具讓您快速輕鬆地將 YouTube 影片轉換為 MP4 格式下載。儲存至裝置，隨時觀看。",
+          "過程快速、簡單且無障礙。下載後，隨時隨地享受您喜愛的影片——無需網路。"
+        ]
       },
       part4: {
         content: ["以下是下載的 5 大優勢", "將 YouTube 影片儲存為 MP4 檔案"],
         list: [
-                {
-                  title: "節省數據費用：",
-                  content: "通常，在 YouTube 觀看影片會消耗大量行動數據。透過下載離線觀看，可避免這些不必要的費用。"
-                },
-                {
-                  title: "隨時隨地觀看：",
-                  content: "即使網路不穩，也能流暢享受影片。不再擔心緩衝。"
-                },
-                {
-                  title: "輕鬆歸檔與保存：",
-                  content: "將影片儲存為 MP4，便於建立個人收藏，特別是您認為真正有價值或重要的內容。"
-                },
-                {
-                  title: "分享更簡單：",
-                  content: "分享 MP4 檔案比傳送連結方便得多。您可直接透過 WhatsApp 或 Instagram 等應用程式傳送影片檔案，省去開啟 YouTube 的額外步驟。"
-                },
-                {
-                  title: "即時觀看，共享時刻：",
-                  content: "想興奮地向附近的朋友或家人展示喜愛的影片？下載 MP4 後，大家可立即流暢觀看，無需尷尬等待載入。"
-                }
-              ]
+          {
+            title: "節省數據費用：",
+            content: "通常，在 YouTube 觀看影片會消耗大量行動數據。透過下載離線觀看，可避免這些不必要的費用。"
+          },
+          {
+            title: "隨時隨地觀看：",
+            content: "即使網路不穩，也能流暢享受影片。不再擔心緩衝。"
+          },
+          {
+            title: "輕鬆歸檔與保存：",
+            content: "將影片儲存為 MP4，便於建立個人收藏，特別是您認為真正有價值或重要的內容。"
+          },
+          {
+            title: "分享更簡單：",
+            content: "分享 MP4 檔案比傳送連結方便得多。您可直接透過 WhatsApp 或 Instagram 等應用程式傳送影片檔案，省去開啟 YouTube 的額外步驟。"
+          },
+          {
+            title: "即時觀看，共享時刻：",
+            content: "想興奮地向附近的朋友或家人展示喜愛的影片？下載 MP4 後，大家可立即流暢觀看，無需尷尬等待載入。"
+          }
+        ]
       },
       part5: {
         title: "為何我們的下載工具脫穎而出",
         cards: [
-                {
-                  title: "一鍵簡單操作",
-                  content: "輕鬆設定，直覺操作。"
-                },
-                {
-                  title: "極速無限",
-                  content: "以最快速度轉換與下載——無上限，無限制。"
-                },
-                {
-                  title: "即時轉換",
-                  content: "立即處理檔案，無需等待。"
-                },
-                {
-                  title: "零廣告，零干擾",
-                  content: "享受無彈出視窗、橫幅廣告或中斷的潔淨介面——僅有無縫影片轉換。"
-                },
-                {
-                  icon: "5",
-                  color: "#DEE5FF",
-                  title: "原始畫質保證",
-                  content: "您的下載保留來源影片的完整解析度，每次播放都完美無瑕。"
-                },
-                {
-                  icon: "6",
-                  color: "#DEF6EE",
-                  title: "隨處可用",
-                  content: "完全相容於任何瀏覽器與裝置。"
-                }
-              ]
+          {
+            title: "一鍵簡單操作",
+            content: "輕鬆設定，直覺操作。"
+          },
+          {
+            title: "極速無限",
+            content: "以最快速度轉換與下載——無上限，無限制。"
+          },
+          {
+            title: "即時轉換",
+            content: "立即處理檔案，無需等待。"
+          },
+          {
+            title: "零廣告，零干擾",
+            content: "享受無彈出視窗、橫幅廣告或中斷的潔淨介面——僅有無縫影片轉換。"
+          },
+          {
+            icon: "5",
+            color: "#DEE5FF",
+            title: "原始畫質保證",
+            content: "您的下載保留來源影片的完整解析度，每次播放都完美無瑕。"
+          },
+          {
+            icon: "6",
+            color: "#DEF6EE",
+            title: "隨處可用",
+            content: "完全相容於任何瀏覽器與裝置。"
+          }
+        ]
       },
       part6: {
         title: ["最大化您的 YouTube 影片下載", "透過下載工具"],
         content: [
-                "輕鬆 YouTube 轉 MP4：快速、簡單且免費。",
-                "這是我們的強項。我們的直覺介面設計適合所有人——無需技術能力。無論您的經驗水平如何，都能立即轉換影片。無需註冊：立即取得所需內容。",
-                "請放心——您下載的 MP4 保持與 YouTube 上觀看時相同的原始畫質與清晰度。",
-                "隨處可用。完全相容於所有主要平台與裝置。無論您使用 Windows、macOS、Linux、Android 或 iOS——智慧手機、平板或桌機——都能無縫下載影片。"
-              ]
+          "輕鬆 YouTube 轉 MP4：快速、簡單且免費。",
+          "這是我們的強項。我們的直覺介面設計適合所有人——無需技術能力。無論您的經驗水平如何，都能立即轉換影片。無需註冊：立即取得所需內容。",
+          "請放心——您下載的 MP4 保持與 YouTube 上觀看時相同的原始畫質與清晰度。",
+          "隨處可用。完全相容於所有主要平台與裝置。無論您使用 Windows、macOS、Linux、Android 或 iOS——智慧手機、平板或桌機——都能無縫下載影片。"
+        ]
       },
       part7: {
         title: "下載 YouTube 影片的關鍵問題",
         list: [
-                {
-                  question: "如果影片有版權，我還能下載嗎？",
-                  answer: "未經版權所有者許可下載有版權的 YouTube 影片是違法的。"
-                },
-                {
-                  question: "這個下載工具安全嗎？",
-                  answer: "是的，它安全可靠。我們不要求使用者提供任何個人資訊，並採取強力措施防範病毒。我們提醒您，從網路下載檔案時務必謹慎：避免點擊可疑連結或下載可疑檔案。"
-                },
-                {
-                  question: "YouTube 轉 MP4 下載支援哪些語言？",
-                  answer: "我們的服務支援下載所有熱門語言的 YouTube 影片。"
-                },
-                {
-                  question: "哪些因素會影響下載 YouTube 影片的時間？",
-                  answer: "儘管我們確保最快的下載體驗，但下載時間仍受影片長度與網路連線速度等因素影響。"
-                },
-                {
-                  question: "當我使用智慧手機下載 MP4 影片時，它會儲存在哪裡？",
-                  answer: "在智慧型手機下載MP4後，通常可在裝置檔案管理應用程式的「Downloads」資料夾中找到該檔案。"
-                },
-                {
-                  question: "將 YouTube 影片下載為 MP4 會降低畫質嗎？",
-                  answer: "不會。使用我們的工具將 YouTube 影片下載為 MP4 會保留原始畫質。轉換過程維持來源品質，確保您獲得與 YouTube 相同的觀看體驗。"
-                }
-              ]
+          {
+            question: "如果影片有版權，我還能下載嗎？",
+            answer: "未經版權所有者許可下載有版權的 YouTube 影片是違法的。"
+          },
+          {
+            question: "這個下載工具安全嗎？",
+            answer: "是的，它安全可靠。我們不要求使用者提供任何個人資訊，並採取強力措施防範病毒。我們提醒您，從網路下載檔案時務必謹慎：避免點擊可疑連結或下載可疑檔案。"
+          },
+          {
+            question: "YouTube 轉 MP4 下載支援哪些語言？",
+            answer: "我們的服務支援下載所有熱門語言的 YouTube 影片。"
+          },
+          {
+            question: "哪些因素會影響下載 YouTube 影片的時間？",
+            answer: "儘管我們確保最快的下載體驗，但下載時間仍受影片長度與網路連線速度等因素影響。"
+          },
+          {
+            question: "當我使用智慧手機下載 MP4 影片時，它會儲存在哪裡？",
+            answer: "在智慧型手機下載MP4後，通常可在裝置檔案管理應用程式的「Downloads」資料夾中找到該檔案。"
+          },
+          {
+            question: "將 YouTube 影片下載為 MP4 會降低畫質嗎？",
+            answer: "不會。使用我們的工具將 YouTube 影片下載為 MP4 會保留原始畫質。轉換過程維持來源品質，確保您獲得與 YouTube 相同的觀看體驗。"
+          }
+        ]
       },
-        err1: "YouTube 連結格式錯誤。",
-        err2: "抱歉！我們目前僅支援 YouTube 連結。如需其他網站支援，我們將在未來新增時通知您。",
-        videoDownload: {
-              title: "下載 YouTube 影片為 MP4。免費、快速且無廣告。",
-              description: "感謝您選擇我們的服務！我們真心感謝您的信任，並希望這提升了您的使用體驗。如果您能將我們的網站分享給朋友，那將是極大的幫助。",
-              downloadButton: "下載",
-              downloadError: "下載錯誤。"
-            }
+      err1: "YouTube 連結格式錯誤。",
+      err2: "抱歉！我們目前僅支援 YouTube 連結。如需其他網站支援，我們將在未來新增時通知您。",
+      videoDownload: {
+        title: "下載 YouTube 影片為 MP4。免費、快速且無廣告。",
+        description: "感謝您選擇我們的服務！我們真心感謝您的信任，並希望這提升了您的使用體驗。如果您能將我們的網站分享給朋友，那將是極大的幫助。",
+        downloadButton: "下載",
+        downloadError: "下載錯誤。"
+      }
     }
   },
   About: {
@@ -2957,67 +2957,67 @@ let message = {
       "highlighted_text": "影響力",
       "subtitle": "用尖端AI技術推動全球溝通",
       "metrics": [
-            {
-              "value": "96%+",
-              "label": "準確率",
-              "description": "先進AI帶來的業界領先轉錄準確度"
-            },
-            {
-              "value": "100+",
-              "label": "支援語言",
-              "description": "全球內容的語音識別"
-            },
-            {
-              "value": "249+",
-              "label": "翻譯語言",
-              "description": "將轉錄文本翻譯成幾乎任何語言"
-            }
-          ]
+        {
+          "value": "96%+",
+          "label": "準確率",
+          "description": "先進AI帶來的業界領先轉錄準確度"
+        },
+        {
+          "value": "100+",
+          "label": "支援語言",
+          "description": "全球內容的語音識別"
+        },
+        {
+          "value": "249+",
+          "label": "翻譯語言",
+          "description": "將轉錄文本翻譯成幾乎任何語言"
+        }
+      ]
     },
     Mission: {
       "title": "為何選擇",
       "subtitle": "我們致力打破語言障礙，讓內容觸達每個人",
       "features": [
-            {
-              "icon": "🎯",
-              "title": "無可比擬的準確性",
-              "description": "我們的AI模型持續優化，提供超過96%的轉錄準確率，部分主要語言通過進階優化更可達99%。"
-            },
-            {
-              "icon": "🌍",
-              "title": "全球語言支援",
-              "description": "支援100+種語音識別和249+種語言翻譯，讓您的內容真正全球化。"
-            },
-            {
-              "icon": "⚡",
-              "title": "閃電般快速處理",
-              "description": "數分鐘即可處理數小時音視頻內容。優化的AI流程確保您在保持質量的同時快速獲得轉錄稿。"
-            },
-            {
-              "icon": "🔒",
-              "title": "企業級安全",
-              "description": "您的數據安全是我們的首要任務。我們採用業界標準加密並遵守全球隱私法規，確保內容安全保密。"
-            }
-          ]
+        {
+          "icon": "🎯",
+          "title": "無可比擬的準確性",
+          "description": "我們的AI模型持續優化，提供超過96%的轉錄準確率，部分主要語言通過進階優化更可達99%。"
+        },
+        {
+          "icon": "🌍",
+          "title": "全球語言支援",
+          "description": "支援100+種語音識別和249+種語言翻譯，讓您的內容真正全球化。"
+        },
+        {
+          "icon": "⚡",
+          "title": "閃電般快速處理",
+          "description": "數分鐘即可處理數小時音視頻內容。優化的AI流程確保您在保持質量的同時快速獲得轉錄稿。"
+        },
+        {
+          "icon": "🔒",
+          "title": "企業級安全",
+          "description": "您的數據安全是我們的首要任務。我們採用業界標準加密並遵守全球隱私法規，確保內容安全保密。"
+        }
+      ]
     },
     Company: {
       "title": "公司",
       "highlighted_text": "資訊",
       "subtitle": "如有任何問題或需要支援，請聯繫我們",
       "details": [
-            {
-              "label": "公司名稱",
-              "value": "SCRIBIFY AI INC"
-            },
-            {
-              "label": "總部",
-              "value": ["30 N Gould St Ste R", "Sheridan, WY 82801", "美國"]
-            },
-            {
-              "label": "聯絡我們",
-              "value": ["電子郵件", "24/7全天候支援"]
-            }
-          ]
+        {
+          "label": "公司名稱",
+          "value": "SCRIBIFY AI INC"
+        },
+        {
+          "label": "總部",
+          "value": ["30 N Gould St Ste R", "Sheridan, WY 82801", "美國"]
+        },
+        {
+          "label": "聯絡我們",
+          "value": ["電子郵件", "24/7全天候支援"]
+        }
+      ]
     },
     CTA: {
       "title": "準備好體驗差異了嗎？",
@@ -3071,10 +3071,10 @@ let message = {
     "contactTitle": "9. 聯絡我們",
     "websiteUrl": "https://www.nevercap.ai/",
     at: "：",
-      childrenDescription: "本服務不針對兒童，我們不會故意收集13歲以下兒童的個人資訊。若您未滿13歲，請勿透過本服務提交任何個人資訊。如果您認為有兒童違反本政策向我們提供了個人資訊，請透過下方{at}{email}與我們聯絡。",
-      contactDescription: "如果您對我們的隱私政策有任何疑問、意見或投訴，請透過{at}{email}與我們聯絡，我們將盡快處理您的投訴。",
-      policyDescriptionA: "本政策描述了{NeverCap}（以下簡稱「NeverCap」、「我們的」、「我們」）在您使用我們的服務、網站（{url}）和軟體（統稱為「服務」）時如何收集、使用和揭露您的個人資訊。"
-},
+    childrenDescription: "本服務不針對兒童，我們不會故意收集13歲以下兒童的個人資訊。若您未滿13歲，請勿透過本服務提交任何個人資訊。如果您認為有兒童違反本政策向我們提供了個人資訊，請透過下方{at}{email}與我們聯絡。",
+    contactDescription: "如果您對我們的隱私政策有任何疑問、意見或投訴，請透過{at}{email}與我們聯絡，我們將盡快處理您的投訴。",
+    policyDescriptionA: "本政策描述了{NeverCap}（以下簡稱「NeverCap」、「我們的」、「我們」）在您使用我們的服務、網站（{url}）和軟體（統稱為「服務」）時如何收集、使用和揭露您的個人資訊。"
+  },
   TermsOfUse: {
     title: "服務",
     titleGradient: "條款",
@@ -3169,41 +3169,41 @@ let message = {
     "site": "網站",
     "services": "服務",
     at: "：",
-      trademarkProtection: "本服務的名稱、外觀和風格均屬本公司版權©所有。保留所有權利。未經本公司明確書面許可，您不得複製、抄襲或重複使用任何HTML、CSS、JavaScript或視覺設計元素。如欲將本公司標誌或任何服務標誌用於宣傳目的，必須事先取得許可。請將標誌使用申請寄至{at}{email}。若您違反本服務條款，我們保留撤銷此許可的權利。",
-      privacyPolicyDescription: "我們重視資料隱私與安全。請查閱我們的{policy}。使用本網站即表示您同意遵守我們的隱私政策，該政策已納入本服務條款。請注意，本網站位於美國。若您從其他法律對個人資料收集、使用或披露有不同要求的地區訪問本網站，則透過持續使用本網站，您即同意將資料轉移至美國並在美國進行處理。",
-      contactDescription: "若您對服務條款有任何疑問，請透過{at}{email}與我們聯絡。",
-      "companyDefinitionA": "當我們在本文檔中說「本公司」、「我們」、「我們的」或「我們」時，我們指的是 {NeverCap}。"
-},
-    Blog: {
-          Hero: {
-            "title": "成為一名",
-            "highlighted_text": "轉錄嚮導",
-            "description": "{NeverCap} 提供的教學、策略和 AI 工具可協助您透過專業的轉錄工作流程創建無限的內容。"
-          },
-          Featured: {
-            FeaturedGuide: "特色指南",
-            ReadFullGuide: "閱讀完整指南"
-          },
-          ListSection: {
-            title: "最新的",
-            highlighted_text: "文章",
-            subtitle: "無限轉錄的專家提示和教程",
-            categories: [
-              "所有貼文",
-              "教學",
-              "podcast",
-              "內容創作",
-              "商業",
-              "AI技巧"
-            ]
-          },
-          Detail: {
-            Home: "家",
-            Blog: "部落格",
-            GoToSignup: "免費試用 NeverCap - 無需信用卡",
-            HowWorks: "了解其工作原理"
-          }
-        }
+    trademarkProtection: "本服務的名稱、外觀和風格均屬本公司版權©所有。保留所有權利。未經本公司明確書面許可，您不得複製、抄襲或重複使用任何HTML、CSS、JavaScript或視覺設計元素。如欲將本公司標誌或任何服務標誌用於宣傳目的，必須事先取得許可。請將標誌使用申請寄至{at}{email}。若您違反本服務條款，我們保留撤銷此許可的權利。",
+    privacyPolicyDescription: "我們重視資料隱私與安全。請查閱我們的{policy}。使用本網站即表示您同意遵守我們的隱私政策，該政策已納入本服務條款。請注意，本網站位於美國。若您從其他法律對個人資料收集、使用或披露有不同要求的地區訪問本網站，則透過持續使用本網站，您即同意將資料轉移至美國並在美國進行處理。",
+    contactDescription: "若您對服務條款有任何疑問，請透過{at}{email}與我們聯絡。",
+    "companyDefinitionA": "當我們在本文檔中說「本公司」、「我們」、「我們的」或「我們」時，我們指的是 {NeverCap}。"
+  },
+  Blog: {
+    Hero: {
+      "title": "成為一名",
+      "highlighted_text": "轉錄嚮導",
+      "description": "{NeverCap} 提供的教學、策略和 AI 工具可協助您透過專業的轉錄工作流程創建無限的內容。"
+    },
+    Featured: {
+      FeaturedGuide: "特色指南",
+      ReadFullGuide: "閱讀完整指南"
+    },
+    ListSection: {
+      title: "最新的",
+      highlighted_text: "文章",
+      subtitle: "無限轉錄的專家提示和教程",
+      categories: [
+        "所有貼文",
+        "教學",
+        "podcast",
+        "內容創作",
+        "商業",
+        "AI技巧"
+      ]
+    },
+    Detail: {
+      Home: "首頁",
+      Blog: "部落格",
+      GoToSignup: "免費試用 NeverCap - 無需信用卡",
+      HowWorks: "了解其工作原理"
+    }
+  }
 };
 
 export default defineI18nLocale(async (locale) => {

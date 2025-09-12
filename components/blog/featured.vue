@@ -57,7 +57,10 @@
               </div>
             </div>
           </div>
-          <NuxtLink :to="`/blog/${blog?.urlTitle}`" class="btn-primary">
+          <NuxtLink
+            :to="$localePath(`/blog/${blog?.urlTitle}`)"
+            class="btn-primary"
+          >
             {{ $t("Blog.Featured.ReadFullGuide") }}
             <span>→</span>
           </NuxtLink>

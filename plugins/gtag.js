@@ -37,6 +37,12 @@ export default defineNuxtPlugin((nuxtApp) => {
         console.error("Failed to load GTAG script");
       };
 
+      // const head = document.head;
+      // if (head.firstChild) {
+      //   head.insertBefore(script, head.firstChild);
+      // } else {
+      //   head.appendChild(script);
+      // }
       document.head.appendChild(script);
     });
 

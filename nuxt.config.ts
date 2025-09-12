@@ -40,6 +40,19 @@ export default defineNuxtConfig({
         { rel: "preload", as: "font", href: "/assets/iconfont/iconfont.woff2", type: "font/woff2", crossorigin: "anonymous" }
       ],
       script: [
+        // Google Analytics gtag.js
+        { src: "https://www.googletagmanager.com/gtag/js?id=G-6RLKSLWD9C", async: true },
+        // 内联脚本初始化 gtag
+        {
+          innerHTML: `
+            window.dataLayer1 = window.dataLayer1 || [];
+            function gtag(){dataLayer1.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-6RLKSLWD9C');
+          `,
+          type: 'text/javascript',
+          defer: true
+        },
         // 使用 defer 延迟执行非关键脚本，不阻塞 DOM 解析
         { src: "/assets/iconfont/iconfont.js", defer: true },
         { src: "/assets/js/aes.js", defer: true },

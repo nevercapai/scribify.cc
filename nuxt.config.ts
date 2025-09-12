@@ -41,7 +41,7 @@ export default defineNuxtConfig({
       ],
       script: [
         // Google Analytics gtag.js - 仅在生产环境添加
-        ...(process.env.NODE_ENV === 'production'
+        ...(process.env.NUXT_PUBLIC_ENV === 'production'
           ? [
             { src: "https://www.googletagmanager.com/gtag/js?id=G-6RLKSLWD9C", async: true },
             // 内联脚本初始化 gtag

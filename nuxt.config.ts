@@ -52,8 +52,7 @@ export default defineNuxtConfig({
                   gtag('js', new Date());
                   gtag('config', 'G-6RLKSLWD9C');
                 `,
-              type: 'text/javascript',
-              defer: true
+              type: 'text/javascript'
             }
           ]
           : []),

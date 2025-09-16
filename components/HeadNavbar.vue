@@ -62,7 +62,11 @@
           </svg>
         </button>
         <div class="nav-links is-PC">
-          <template v-for="(menu, index) in menuList" v-if="isLargeScreen">
+          <template
+            v-for="(menu, index) in menuList"
+            :key="'pc' + index"
+            v-if="isLargeScreen"
+          >
             <template v-if="menu?.children">
               <div class="dropdown">
                 <a
@@ -119,7 +123,11 @@
           class="nav-links is-mobile"
           :class="{ 'mobile-open': mobileMenuOpen }"
         >
-          <template v-for="(menu, index) in menuList" v-if="mobileMenuOpen">
+          <template
+            v-for="(menu, index) in menuList"
+            :key="'mobile_' + index"
+            v-if="mobileMenuOpen"
+          >
             <template v-if="menu?.children">
               <div class="dropdown" :class="{ open: dropdownOpen[index] }">
                 <a
@@ -506,6 +514,9 @@ nav {
     visibility: hidden !important;
     display: none !important;
   }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 }
 
 /* Dropdown Styles */
@@ -549,10 +560,6 @@ nav {
 .dropdown-content a:hover {
   background-color: var(--light-gray);
   color: var(--primary) !important;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
 }
 
 .dropdown-toggle {

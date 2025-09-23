@@ -183,11 +183,13 @@ export const useUpload = () => {
       throw error; // ✅ 抛出异常，外层可以catch
     }
   };
-
-  // 初始化
-  const initUpload = async (file: UploadFile) => {
+  const getCollectEvent = async () => {
     const { useCommonApi } = await import("~/api/common");
     const { collectEvent } = useCommonApi;
+    return collectEvent;
+  };
+  // 初始化
+  const initUpload = async (file: UploadFile) => {
     const fileName = file.name;
     const commonParams = {
       fileName,
@@ -195,6 +197,7 @@ export const useUpload = () => {
       eventType: "upload"
     };
     if (!validateFile(file)) {
+      const collectEvent = await getCollectEvent();
       const errorParams: any = {
         ...commonParams,
         failReason: file.errorText,
@@ -216,16 +219,17 @@ export const useUpload = () => {
       // worker.onmessage = async (e) => {
       //
       // };
+
       const date = new Date();
       const hash = `${date.getFullYear()}_${date.getMonth() + 1}_${date.getDate()}`;
       // worker.terminate();
       file.worker = undefined;
       file.hash = hash;
-
       if (hash === "error") {
         file.status = "error";
         file.errorText = t("FileUploadAndRecording.upload.hashErr");
       } else {
+        const collectEvent = await getCollectEvent();
         try {
           const startTime = performance.now();
           await initCosInstance(file);

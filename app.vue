@@ -28,7 +28,6 @@ const { jumpPage } = usePageJump();
 const route = useRoute();
 const { locale, locales, setLocaleMessage } = useI18n();
 const activeLanguage = useState("locale", () => locale.value);
-
 try {
   let localeLangs: any[] = [];
   await Promise.all(
@@ -84,6 +83,21 @@ const langImportMap: Record<string, () => Promise<any>> = {
 const localLang = ref();
 const isRtl = computed(() => ["he-IL", "ar-SA"].includes(activeLanguage.value));
 
+const setCookieEventKey = () => {
+  const utmSourceCookie = useCrossDomainCookie("utm_source");
+  const utmMediumCookie = useCrossDomainCookie("utm_medium");
+  const utmCampaignCookie = useCrossDomainCookie("utm_campaign");
+  const utmSource = route.query.utm_source || route.query.utmSource || "";
+  const utmMedium = route.query.utm_medium || route.query.utmMedium || "";
+  const utmCampaign = route.query.utm_campaign || route.query.utmCampaign || "";
+  if (!utmSourceCookie.value && utmSource) {
+    utmSourceCookie.value = utmSource as string;
+  } else if (!utmMediumCookie.value && utmMedium) {
+    utmMediumCookie.value = utmMedium as string;
+  } else if (!utmCampaignCookie.value && utmCampaign) {
+    utmCampaignCookie.value = utmCampaign as string;
+  }
+};
 // 3. 监听语言变化，懒加载语言包
 watchEffect(async () => {
   const langKey = activeLanguage.value;
@@ -140,6 +154,7 @@ if (process.client) {
   }
 }
 onMounted(async () => {
+  setCookieEventKey();
   saveInfoToStore();
   if (route.meta.requireAuth) {
     const subscriptionStore = useSubscriptionStore();

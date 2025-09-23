@@ -350,6 +350,7 @@
 ./api/folder.ts
 ./api/transcript.ts
 ./api/user.ts
+./api/common.ts
 ./api/youtubeTomp4.ts
 ./.gitignore
 ./.env

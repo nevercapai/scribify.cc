@@ -49,7 +49,7 @@ const initCosInstance = async (file: UploadFile) => {
   const allowedPath = auth.allowedPath;
   const config = useRuntimeConfig();
   const instance = new COS({
-    Domain: config.public.cosDomain || '', // 自定义加速域名
+    Domain: config.public.cosDomain || "", // 自定义加速域名
     getAuthorization: async (options, callback) => {
       callback({
         TmpSecretId: auth.tmpSecretId,
@@ -107,10 +107,10 @@ export const useUpload = () => {
     return new Promise((resolve, reject) => {
       file
         .cosInstance!.headObject({
-        Bucket: file.bucket!,
-        Region: file.region!,
-        Key: file.key
-      })
+          Bucket: file.bucket!,
+          Region: file.region!,
+          Key: file.key
+        })
         .then((res) => {
           if (res) {
             resolve(true);
@@ -125,16 +125,8 @@ export const useUpload = () => {
   const directUpload = async (file: UploadFile, times = 1) => {
     file.status = "uploading";
 
-    // const res = await isExistFile(file);
-    // console.log("exist", res);
-    // if (res) {
-    //   file.status = "success";
-    //   file.progress = 100;
-    //   return;
-    // }
-    return new Promise((resolve) => {
-      file
-        .cosInstance!.uploadFile({
+    try {
+      const result = await file.cosInstance!.uploadFile({
         Bucket: file.bucket!,
         Region: file.region!,
         Key: file.key,
@@ -152,44 +144,64 @@ export const useUpload = () => {
           );
           file.progress = progress === 100 ? (progress = 99) : progress;
         }
-      })
-        .then((_) => {
-          setTimeout(() => {
-            file.status = "success";
-          }, 300);
-          resolve(true);
-        })
-        .catch(async (error) => {
-          if (error?.toString().includes("expired")) {
-            console.log('cos过期重试');
-            reportSystemError({
-              message: 'cos 过期重试',
-            })
-            auth = null;
-            authPromise = null;
-            await initCosInstance(reactive(file));
-            file.key = `${file.allowedPath!}${file.hash}/${file.name || "filename"}`;
-            resolve(directUpload(file));
-            return;
-          }
-          if (times > 0) {
-            console.log('cos上传重试');
-            reportSystemError({
-              message: 'cos 上传重试',
-            })
-            directUpload(file, times - 1);
-            return;
-          }
-          file.status = "error";
-          file.errorText = t("FileUploadAndRecording.upload.uploadErr");
-          // file.errorText = error?.toString();
-        });
-    });
+      });
+
+      setTimeout(() => {
+        file.status = "success";
+      }, 300);
+
+      return Promise.resolve(true);
+    } catch (error) {
+      if (error?.toString().includes("expired")) {
+        console.log("cos过期重试");
+        reportSystemError(
+          {
+            message: "cos 过期重试" + error
+          },
+          false
+        );
+        auth = null;
+        authPromise = null;
+        await initCosInstance(reactive(file));
+        file.key = `${file.allowedPath!}${file.hash}/${file.name || "filename"}`;
+        return await directUpload(file); // ✅ 递归调用，异常会自动向上传播
+      }
+
+      if (times > 0) {
+        console.log("cos上传重试" + error);
+        reportSystemError(
+          {
+            message: "cos 上传重试" + error
+          },
+          false
+        );
+        return await directUpload(file, times - 1); // ✅ 递归调用，异常会自动传播
+      }
+
+      file.status = "error";
+      file.errorText = t("FileUploadAndRecording.upload.uploadErr");
+      throw error; // ✅ 抛出异常，外层可以catch
+    }
   };
 
   // 初始化
   const initUpload = async (file: UploadFile) => {
-    if (!validateFile(file)) return;
+    const { useCommonApi } = await import("~/api/common");
+    const { collectEvent } = useCommonApi;
+    const fileName = file.name;
+    const commonParams = {
+      fileName,
+      fileSize: file.size,
+      eventType: "upload"
+    };
+    if (!validateFile(file)) {
+      const errorParams: any = {
+        ...commonParams,
+        failReason: file.errorText,
+        eventType: "upload_failed"
+      };
+      return collectEvent(errorParams);
+    }
 
     file.status = "hashing";
 
@@ -205,7 +217,7 @@ export const useUpload = () => {
       //
       // };
       const date = new Date();
-      const hash = `${date.getFullYear()}_${date.getMonth()+1}_${date.getDate()}`;
+      const hash = `${date.getFullYear()}_${date.getMonth() + 1}_${date.getDate()}`;
       // worker.terminate();
       file.worker = undefined;
       file.hash = hash;
@@ -214,16 +226,37 @@ export const useUpload = () => {
         file.status = "error";
         file.errorText = t("FileUploadAndRecording.upload.hashErr");
       } else {
-        await initCosInstance(file);
+        try {
+          const startTime = performance.now();
+          await initCosInstance(file);
+          const endTimeInit = performance.now();
+          const initDuration = Math.round((endTimeInit - startTime) / 1000);
+          console.log("cos初始化耗时", initDuration);
+          file.key = `${file.allowedPath!}${hash}/${file.name || "filename"}`;
 
+          await directUpload(file);
 
-        file.key = `${file.allowedPath!}${hash}/${file.name || "filename"}`;
-
-        await directUpload(file);
-
-        // await postTranscode(file);
-
-        resolve(true);
+          // await postTranscode(file);
+          const endTime = performance.now();
+          const durationMs = endTime - startTime;
+          // 转换为秒并四舍五入保留整数
+          const durationSec = Math.round(durationMs / 1000);
+          console.log("🚀 ~上传总共耗时 🚀", durationSec);
+          // 上传成功上报
+          collectEvent({
+            ...commonParams,
+            uploadTime: durationSec
+          });
+          resolve(true);
+        } catch (e) {
+          const errorParams: any = {
+            ...commonParams,
+            failReason: e?.toString() || file.errorText,
+            eventType: "upload_failed"
+          };
+          collectEvent(errorParams);
+          reject(e);
+        }
       }
     });
   };

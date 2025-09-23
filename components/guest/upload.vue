@@ -322,7 +322,8 @@ const handleTranscribe = async () => {
               fileExtName: fileExtName,
               parentId: 0,
               fileName: getFileNameWithoutExt(file.name),
-              fileSize: file.size
+              fileSize: file.size,
+              openType: selectRawFiles.value.length > 0 ? 1 : 2
             };
           })
       )

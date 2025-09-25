@@ -92,9 +92,7 @@ const setCookieEventKey = () => {
   const utmCampaign = route.query.utm_campaign || route.query.utmCampaign || "";
   if (!utmSourceCookie.value && utmSource) {
     utmSourceCookie.value = utmSource as string;
-  } else if (!utmMediumCookie.value && utmMedium) {
     utmMediumCookie.value = utmMedium as string;
-  } else if (!utmCampaignCookie.value && utmCampaign) {
     utmCampaignCookie.value = utmCampaign as string;
   }
 };

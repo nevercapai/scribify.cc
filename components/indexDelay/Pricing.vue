@@ -1,6 +1,6 @@
 <template>
   <section class="features pb-[70px]">
-    <div class="container">
+    <div class="container" style="padding: 0">
       <div class="section-header">
         <h2 class="section-title">
           {{ $i("PricingPreview.title") }}

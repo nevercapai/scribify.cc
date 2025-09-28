@@ -56,7 +56,7 @@
           </ul>
         </div>
 
-        <div class="feature-section">
+        <div class="feature-section" :class="'feature-section-' + i">
           <h4>{{ $i("plans[" + i + "].features.title") }}</h4>
           <ul class="feature-list">
             <li v-for="(feature, j) in [0, 1, 2, 3]" :key="`feature` + j">
@@ -230,6 +230,12 @@ onMounted(() => {
 
 .feature-section {
   margin-bottom: 26px;
+}
+.feature-section-1 {
+  margin-bottom: 79px;
+}
+.feature-section-2 {
+  margin-bottom: 80px;
 }
 
 .feature-section h4 {

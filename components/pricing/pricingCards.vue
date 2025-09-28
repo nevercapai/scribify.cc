@@ -41,7 +41,10 @@
         <div class="feature-section">
           <h4>{{ $i("plans[" + i + "].limits.title") }}</h4>
           <ul class="feature-list">
-            <li v-for="(limit, j) in [0, 1, 2, 3, 4]" :key="`limit` + j">
+            <li
+              v-for="(limit, j) in i === 0 ? [0, 1, 2, 3, 4] : [0, 1, 2, 3]"
+              :key="`limit` + j"
+            >
               <span class="check-icon">✓</span>
               <strong v-if="i > 0 && j === 0">
                 {{ $i("plans[" + i + "].limits.items[" + j + "]") }}

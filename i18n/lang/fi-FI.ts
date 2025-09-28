@@ -656,8 +656,8 @@ let message = {
     uploadWithinHours: "10 tunnin lataukset",
     yourSubscription: "Tilauksesi peruutetaan {time}.",
     save: "Säästää",
-      freeversion2: "Ilmainen Suunnitelma"
-},
+    freeversion2: "Ilmainen Suunnitelma"
+  },
   // Kielen vastaavuussuhteet
   LanguageMap: {
     sysLanguagesMap: {
@@ -1048,8 +1048,8 @@ let message = {
     Resources: "Resurssit",
     YouTubetoMP4: "YouTube MP4-muotoon",
     StartFreeTrial: "Ilmainen kokeilu",
-      Blog: "Blogi"
-},
+    Blog: "Blogi"
+  },
   Footer: {
     des: "Maailman ensimmäinen todella rajaton AI-tekstitypalvelu. Ei rajoituksia, ei kattoja, vain vapaus luoda.",
     Features: "Ominaisuudet",
@@ -1057,20 +1057,20 @@ let message = {
     Company: "Yritys",
     featureMenus: ["Rajaton Tekstitys", "Massa-Lataus", "96% Tarkkuus"],
     useCaseMenus: [
-          "Kaikki Käyttötapaukset",
-          "Podcastaajat",
-          "Toimittajat",
-          "Sisällöntuottajat",
-          "Tutkijat",
-          "Liiketiimit",
-          "Opettajat"
-        ],
+      "Kaikki Käyttötapaukset",
+      "Podcastaajat",
+      "Toimittajat",
+      "Sisällöntuottajat",
+      "Tutkijat",
+      "Liiketiimit",
+      "Opettajat"
+    ],
     companyMenus: [
-          "Tietoja",
-          "Hinnoittelu",
-          "Tietosuoja",
-          "Käyttöehdot"
-        ]
+      "Tietoja",
+      "Hinnoittelu",
+      "Tietosuoja",
+      "Käyttöehdot"
+    ]
   },
   Index: {
     Hero: {
@@ -1083,7 +1083,7 @@ let message = {
       NoCap: "Ei kuukausittaisia minuuttirajoja",
       Hour: "10 tunnin tiedostot tuettu",
       ExploreUseCases: "Tutki käyttötapoja",
-        subtitleA: "NeverCapin tekoäly litteroi videon ja muuntaa äänen tekstiksi, käsittelemällä 50 tiedostoa kerralla ilman kuukausittaisia ​​rajoituksia. Litterointi, joka todella skaalautuu kanssasi."
+      subtitleA: "NeverCapin tekoäly litteroi videon ja muuntaa äänen tekstiksi, käsittelemällä 50 tiedostoa kerralla ilman kuukausittaisia ​​rajoituksia. Litterointi, joka todella skaalautuu kanssasi."
     },
     Stats: {
       monthlyMinutes: "Kuukausittaiset minuutit",
@@ -1111,7 +1111,7 @@ let message = {
       feat_langs_desc: "Tekstitä video ja ääni 100+ kielellä, käännä 249+ kielelle. Ei lisäkustannuksia eri kielistä. Maailmanlaajuista sisältöä, yksi yksinkertainen hinta.",
       feat_pro: "Ammattimaiset ominaisuudet",
       feat_pro_desc: "Sanatason aikaleimat tarkkaan ääni-/videosijaintiin, tarkka puhujien tunnistus nopeiden keskusteluvaihtojen aikana, ja täydellisesti muotoiltu teksti kappaleineen, lauseineen ja välimerkkeineen helpompaa lukemista varten.",
-        features: "Ominaisuudet"
+      features: "Ominaisuudet"
     },
     UseCases: {
       built_for: "Massa",
@@ -1159,7 +1159,7 @@ let message = {
         "author": "Jessica Park",
         "role": "Freelance-toimittaja"
       },
-        titleA: "Yli 50 000 käyttäjän rakastama"
+      titleA: "Yli 50 000 käyttäjän rakastama"
     },
     PricingPreview: {
       "title": "Läpinäkyvä hinnoittelu",
@@ -1170,52 +1170,52 @@ let message = {
       "title": "Usein Kysytyt",
       "titleHighlight": "Kysymykset",
       "questions": [
-            {
-              "q": "Tekstitys tekoälyllä",
-              "question": "Mikä on tekoälytekstitys ja miten se toimii?",
-              "answer": "Tekoälytekstitys on äänen automaattinen muuntaminen tekstiksi kehittyneen tekoälyn avulla. NeverCapissa lataat tiedostosi ja tekoälymme tekstittää sisällön jopa 96% tarkkuudella. Palvelumme on suunniteltu tekstittämään videotiedostoja (kuten MP4, MOV) ja äänitiedostoja (kuten MP3, WAV) luettavaksi, muokattavaksi tekstiksi, mukaan lukien puhujien tunnisteet ja aikaleimat."
-            },
-            {
-              "q": "unlimited_policy",
-              "question": "Onko se todella rajoittamaton? Mikä on juju?",
-              "answer": "Kyllä, se on todella rajoittamaton! Ei kuukausittaisia minuuttirajoja, ei ylitysmaksuja. Ainoat rajat ovat tekniset: yksittäiset tiedostot voivat olla jopa 10 tuntia pitkiä tai 5GB kokoisia, ja voit käsitellä 50 tiedostoa kerralla. Mutta voit ladata niin monta erää kuin haluat, koko kuukauden ajan."
-            },
-            {
-              "q": "accuracy",
-              "question": "Kuinka tarkka tekstitys on?",
-              "answer": "Takaamme 96% tarkkuuden selkeälle äänelle. Tekoälymme on koulutettu miljoonien tuntien monipuolisella sisällöllä ja se käsittelee aksentteja, ammattisanastoa ja useita puhujia erityisen hyvin. Haastavalle äänelle älykkäät parannusominaisuutemme auttavat parantamaan tuloksia."
-            },
-            {
-              "q": "languages",
-              "question": "Mitä kieliä tuette?",
-              "answer": "Tuemme tekstitystä yli 100 kielellä, mukaan lukien englanti, espanja, mandariinikiina, hindi, arabia, ranska ja monet muut. Lisäksi voit kääntää tekstityksesi 249 eri kielelle, mikä tekee siitä täydellisen globaalille sisällölle."
-            },
-            {
-              "q": "speed",
-              "question": "Kuinka nopea tekstitys on?",
-              "answer": "Salamannopea! 1 tunnin äänitiedosto käsitellään yleensä alle 5 minuutissa. Eräkäsittelyllä voit ladata 50 tiedostoa samanaikaisesti ja antaa niiden käsitellä rinnakkain. Useimmat käyttäjät heräävät ja huomaavat koko kirjastonsa tekstitetyksi yön aikana."
-            },
-            {
-              "q": "cancellation",
-              "question": "Voinko peruuttaa milloin tahansa?",
-              "answer": "Ehdottomasti! Ei sopimuksia, ei peruutusmaksuja. Voit päivittää, alentaa tai peruuttaa tilauksesi milloin tahansa hallintapaneelistasi. Jos peruutat, säilytät pääsyn laskutusjakson loppuun asti."
-            },
-            {
-              "q": "security",
-              "question": "Onko tietoni turvassa?",
-              "answer": "Turvallisuutesi on prioriteettimme. Olemme SOC 2 -sertifioitu, käytämme 256-bittistä salauskaikille tiedoille emmekä koskaan käytä sisältöäsi malliemme kouluttamiseen. Voit poistaa tiedostosi milloin tahansa, ja poistamme ne automaattisesti 30 päivän jälkeen. GDPR- ja CCPA-yhteensopiva."
-            },
-            {
-              "q": "export_formats",
-              "question": "Mitä vientimuotoja on saatavilla?",
-              "answer": "Lataa tekstityksesi haluamassasi muodossa: PDF, Word (DOCX), Excel, CSV, SRT-tekstitykset, pelkkä teksti (TXT) ja VTT-tekstitykset. Täydellinen mihin tahansa työnkulkuun."
-            },
-            {
-              "q": "file_formats",
-              "question": "Mitä ääni- ja videotiedostoja voin ladata?",
-              "answer": "Tuemme lähes kaikkia ääni- ja videomuotoja, joihin törmäät: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV ja monet muut. Jos voit toistaa sen, voimme tekstittää sen."
-            }
-          ]
+        {
+          "q": "Tekstitys tekoälyllä",
+          "question": "Mikä on tekoälytekstitys ja miten se toimii?",
+          "answer": "Tekoälytekstitys on äänen automaattinen muuntaminen tekstiksi kehittyneen tekoälyn avulla. NeverCapissa lataat tiedostosi ja tekoälymme tekstittää sisällön jopa 96% tarkkuudella. Palvelumme on suunniteltu tekstittämään videotiedostoja (kuten MP4, MOV) ja äänitiedostoja (kuten MP3, WAV) luettavaksi, muokattavaksi tekstiksi, mukaan lukien puhujien tunnisteet ja aikaleimat."
+        },
+        {
+          "q": "unlimited_policy",
+          "question": "Onko se todella rajoittamaton? Mikä on juju?",
+          "answer": "Kyllä, se on todella rajoittamaton! Ei kuukausittaisia minuuttirajoja, ei ylitysmaksuja. Ainoat rajat ovat tekniset: yksittäiset tiedostot voivat olla jopa 10 tuntia pitkiä tai 5GB kokoisia, ja voit käsitellä 50 tiedostoa kerralla. Mutta voit ladata niin monta erää kuin haluat, koko kuukauden ajan."
+        },
+        {
+          "q": "accuracy",
+          "question": "Kuinka tarkka tekstitys on?",
+          "answer": "Takaamme 96% tarkkuuden selkeälle äänelle. Tekoälymme on koulutettu miljoonien tuntien monipuolisella sisällöllä ja se käsittelee aksentteja, ammattisanastoa ja useita puhujia erityisen hyvin. Haastavalle äänelle älykkäät parannusominaisuutemme auttavat parantamaan tuloksia."
+        },
+        {
+          "q": "languages",
+          "question": "Mitä kieliä tuette?",
+          "answer": "Tuemme tekstitystä yli 100 kielellä, mukaan lukien englanti, espanja, mandariinikiina, hindi, arabia, ranska ja monet muut. Lisäksi voit kääntää tekstityksesi 249 eri kielelle, mikä tekee siitä täydellisen globaalille sisällölle."
+        },
+        {
+          "q": "speed",
+          "question": "Kuinka nopea tekstitys on?",
+          "answer": "Salamannopea! 1 tunnin äänitiedosto käsitellään yleensä alle 5 minuutissa. Eräkäsittelyllä voit ladata 50 tiedostoa samanaikaisesti ja antaa niiden käsitellä rinnakkain. Useimmat käyttäjät heräävät ja huomaavat koko kirjastonsa tekstitetyksi yön aikana."
+        },
+        {
+          "q": "cancellation",
+          "question": "Voinko peruuttaa milloin tahansa?",
+          "answer": "Ehdottomasti! Ei sopimuksia, ei peruutusmaksuja. Voit päivittää, alentaa tai peruuttaa tilauksesi milloin tahansa hallintapaneelistasi. Jos peruutat, säilytät pääsyn laskutusjakson loppuun asti."
+        },
+        {
+          "q": "security",
+          "question": "Onko tietoni turvassa?",
+          "answer": "Turvallisuutesi on prioriteettimme. Olemme SOC 2 -sertifioitu, käytämme 256-bittistä salauskaikille tiedoille emmekä koskaan käytä sisältöäsi malliemme kouluttamiseen. Voit poistaa tiedostosi milloin tahansa, ja poistamme ne automaattisesti 30 päivän jälkeen. GDPR- ja CCPA-yhteensopiva."
+        },
+        {
+          "q": "export_formats",
+          "question": "Mitä vientimuotoja on saatavilla?",
+          "answer": "Lataa tekstityksesi haluamassasi muodossa: PDF, Word (DOCX), Excel, CSV, SRT-tekstitykset, pelkkä teksti (TXT) ja VTT-tekstitykset. Täydellinen mihin tahansa työnkulkuun."
+        },
+        {
+          "q": "file_formats",
+          "question": "Mitä ääni- ja videotiedostoja voin ladata?",
+          "answer": "Tuemme lähes kaikkia ääni- ja videomuotoja, joihin törmäät: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV ja monet muut. Jos voit toistaa sen, voimme tekstittää sen."
+        }
+      ]
     },
     CTASection: {
       "title": "Valmis vapautumaan rajoituksista?",
@@ -1329,8 +1329,8 @@ let message = {
       ctaTitle: "Lopeta maksaminen vale-rajattomasta",
       ctaSubtitle: "Liity tuhansiin, jotka vaihtoivat todella rajoittamattomaan tekstitykseen",
       finalCta: "Kokeile NeverCapia ilmaiseksi",
-        heroSubtitle1: "Trint rajoittaa tiedostojen käsittelyn 50 tuntiin ja Otter 10 tiedostoon kuukaudessa.",
-        heroSubtitle2: "Pidämme lupauksemme: rajaton transkriptio ilman piilotettuja isoja kirjaimia."
+      heroSubtitle1: "Trint rajoittaa tiedostojen käsittelyn 50 tuntiin ja Otter 10 tiedostoon kuukaudessa.",
+      heroSubtitle2: "Pidämme lupauksemme: rajaton transkriptio ilman piilotettuja isoja kirjaimia."
     },
     BulkUpload: {
       heroBadgeIcon: "📁",
@@ -1585,9 +1585,9 @@ let message = {
       ctaTitle: "Koe 96 %:n tarkkuus",
       ctaSubtitle: "Lataa haastavin äänitiedostosi ja näe ero",
       finalCta: "Testaa Tarkkuuttamme Nyt →",
-        languageSectionTitlePart2: "12 pääkielellä",
-        comparisonDes1: "Katso miten",
-        comparisonDes2: "pärjätä kilpailijoita vastaan"
+      languageSectionTitlePart2: "12 pääkielellä",
+      comparisonDes1: "Katso miten",
+      comparisonDes2: "pärjätä kilpailijoita vastaan"
     }
   },
   Pricing: {
@@ -1601,94 +1601,95 @@ let message = {
       "highlighted_text": "Ei Piilotettuja Kattoja.",
       "description": "Valitse tarpeitasi vastaava suunnitelma. Päivitä tai alenna milloin tahansa. Ei sopimuksia, ei yllätyksiä.",
       "plans": [
-            {
-              "name": "Ilmainen",
-              "price": "$0",
-              "period": "kk",
-              "discount": "Erinomainen palvelumme kokeiluun",
-              "limits": {
-                "title": "Päivittäiset rajat",
-                "items": [
-                  "3 tiedostoa/päivä (≈90 min yhteensä/päivä)",
-                  "Enintään 30 min/tiedosto (≤250 MT)",
-                  "Lataa 1 tiedosto kerrallaan",
-                  "Tavallinen jonotus"
-                ]
-              },
-              "features": {
-                "title": "Ominaisuudet",
-                "items": [
-                  "100+ kieltä",
-                  "Puhujien tunnisteet",
-                  "Käännös",
-                  "Kaikki vientiformaatit"
-                ]
-              },
-              "cta": {
-                "text": "Aloita ilmaiseksi. Ei luottokorttia.",
-                "button": "Nykyinen suunnitelma"
-              }
-            },
-            {
-              "name": "Pro Kuukausittain",
-              "price": "$17.99",
-              "period": "kk",
-              "discount": "$9.99 ensimmäiseksi kuukaudeksi",
-              "limits": {
-                "title": "Ei kuukausirajaa",
-                "items": [
-                  "Rajoittamattomat minuutit",
-                  "Enintään 10 tuntia / 5 GT tiedostoa kohden",
-                  "Lataa 50 tiedostoa kerralla",
-                  "Etusijajono"
-                ]
-              },
-              "features": {
-                "title": "Kaikki Ilmaisessa, plus",
-                "items": [
-                  "Sanatason aikaleimat",
-                  "Kehittynyt puhujien tunnistus",
-                  "Muotoillut kappaleet & välimerkit",
-                  "Etusijatuki"
-                ]
-              },
-              "cta": {
-                "text": "Rajoittamattomat minuutit. Etusijanopeus. Massalataukset.",
-                "button": "Siirry Pro"
-              },
-              "badge": "Suosituin"
-            },
-            {
-              "name": "Pro Vuosittain",
-              "price": "$8.99",
-              "period": "kk",
-              "discount": "Laskutetaan vuosittain $107.88",
-              "limits": {
-                "title": "Sama kuin Pro-kuukausi",
-                "items": [
-                  "Rajoittamattomat minuutit",
-                  "Enintään 10 tuntia / 5 GT tiedostoa kohden",
-                  "Lataa 50 tiedostoa kerralla",
-                  "Etusijajono"
-                ]
-              },
-              "features": {
-                "title": "Kaikki Ilmaisessa, plus",
-                "items": [
-                  "Sanatason aikaleimat",
-                  "Kehittynyt puhujien tunnistus",
-                  "Muotoillut kappaleet & välimerkit",
-                  "Etusijatuki"
-                ]
-              },
-              "cta": {
-                "text": "Rajoittamattomat minuutit. Etusijanopeus. Massalataukset.",
-                "button": "Siirry Pro"
-              },
-              "badge": "Paras Arvo - "
-            }
-          ],
-      "disclaimer": '\"Rajaton\" tarkoittaa ei kuukausirajoitusta eikä keinotekoista hidastamista. Kohtuullinen käyttö koskee väärinkäyttöä tai uudelleenjakelua.'
+        {
+          "name": "Ilmainen",
+          "price": "$0",
+          "period": "kk",
+          "discount": "Erinomainen palvelumme kokeiluun",
+          "limits": {
+            "title": "Päivittäiset rajat",
+            "items": [
+              "3 tiedostoa päivässä",
+              "Jopa 10 tuntia / 5 Gt tiedostoa kohden",
+              "Ilmainen 30 minuutin esikatselu kaikista transkriptioista",
+              "Lataa yksi tiedosto kerrallaan",
+              'Normaali prioriteettijono'
+            ]
+          },
+          "features": {
+            "title": "Ominaisuudet",
+            "items": [
+              "100+ kieltä",
+              "Puhujien tunnisteet",
+              "Käännös",
+              "Kaikki vientiformaatit"
+            ]
+          },
+          "cta": {
+            "text": "Aloita ilmaiseksi. Ei luottokorttia.",
+            "button": "Nykyinen suunnitelma"
+          }
+        },
+        {
+          "name": "Pro Kuukausittain",
+          "price": "$17.99",
+          "period": "kk",
+          "discount": "$9.99 ensimmäiseksi kuukaudeksi",
+          "limits": {
+            "title": "Ei kuukausirajaa",
+            "items": [
+              "Rajoittamattomat minuutit",
+              "Enintään 10 tuntia / 5 GT tiedostoa kohden",
+              "Lataa 50 tiedostoa kerralla",
+              "Etusijajono"
+            ]
+          },
+          "features": {
+            "title": "Kaikki Ilmaisessa, plus",
+            "items": [
+              "Sanatason aikaleimat",
+              "Kehittynyt puhujien tunnistus",
+              "Muotoillut kappaleet & välimerkit",
+              "Etusijatuki"
+            ]
+          },
+          "cta": {
+            "text": "Rajoittamattomat minuutit. Etusijanopeus. Massalataukset.",
+            "button": "Siirry Pro"
+          },
+          "badge": "Suosituin"
+        },
+        {
+          "name": "Pro Vuosittain",
+          "price": "$8.99",
+          "period": "kk",
+          "discount": "Laskutetaan vuosittain $107.88",
+          "limits": {
+            "title": "Sama kuin Pro-kuukausi",
+            "items": [
+              "Rajoittamattomat minuutit",
+              "Enintään 10 tuntia / 5 GT tiedostoa kohden",
+              "Lataa 50 tiedostoa kerralla",
+              "Etusijajono"
+            ]
+          },
+          "features": {
+            "title": "Kaikki Ilmaisessa, plus",
+            "items": [
+              "Sanatason aikaleimat",
+              "Kehittynyt puhujien tunnistus",
+              "Muotoillut kappaleet & välimerkit",
+              "Etusijatuki"
+            ]
+          },
+          "cta": {
+            "text": "Rajoittamattomat minuutit. Etusijanopeus. Massalataukset.",
+            "button": "Siirry Pro"
+          },
+          "badge": "Paras Arvo - "
+        }
+      ],
+      "disclaimer": '"Rajaton" tarkoittaa ei kuukausirajoitusta eikä keinotekoista hidastamista. Kohtuullinen käyttö koskee väärinkäyttöä tai uudelleenjakelua.'
     },
     ComparisonTable: {
       "header": {
@@ -1697,115 +1698,119 @@ let message = {
         "subtitle": "Katso tarkalleen, mitä saat kussakin suunnitelmassa. Ei piilotettuja rajoituksia."
       },
       "plans": [
-              "Ominaisuudet",
-              "Ilmainen",
-              "Pro Monthly",
-              "Pro Annual"
-            ],
+        "Ominaisuudet",
+        "Ilmainen",
+        "Pro Monthly",
+        "Pro Annual"
+      ],
       "features": [
+        {
+          "name": "Hinta",
+          "values": [
+            "0 $/kk",
             {
-              "name": "Hinta",
-              "values": [
-                "0 $/kk",
-                {
-                  "main": "17,99 $/kk",
-                  "note": "9,99 $ ensimmäinen kuukausi"
-                },
-                {
-                  "main": "8,99 $/kk",
-                  "note": "Laskutetaan 107,88 $/vuosi"
-                }
-              ]
+              "main": "17,99 $/kk",
+              "note": "9,99 $ ensimmäinen kuukausi"
             },
             {
-              "name": "Kuukausittaiset minuutit",
-              "values": ["~2 700 (90/päivä)", "Rajaton", "Rajaton"]
-            },
-            {
-              "name": "Tiedoston enimmäiskesto",
-              "values": ["30 minuuttia", "10 tuntia", "10 tuntia"]
-            },
-            {
-              "name": "Tiedoston enimmäiskoko",
-              "values": ["250 Mt", "5 Gt", "5 Gt"]
-            },
-            {
-              "name": "Joukkolataukset",
-              "values": ["1 tiedosto", "50 tiedostoa", "50 tiedostoa"]
-            },
-            {
-              "name": "Käsittelynopeus",
-              "values": ["Vakio", "Etusija", "Etusija"]
-            },
-            {
-              "name": "Tuetut kielet",
-              "values": ["100+ kieltä", "100+ kieltä", "100+ kieltä"]
-            },
-            {
-              "name": "Käännös",
-              "values": ["true", "true", "true"]
-            },
-            {
-              "name": "Puhujan tunnistus",
-              "values": ["Perus", "Edistynyt (20 puhujaa)", "Edistynyt (20 puhujaa)"]
-            },
-            {
-              "name": "Sanatason aikaleimat",
-              "values": ["false", "true", "true"]
-            },
-            {
-              "name": "Muotoillut kappaleet",
-              "values": ["false", "true", "true"]
-            },
-            {
-              "name": "Vie muodoissa",
-              "values": ["Kaikki muodot", "Kaikki muodot", "Kaikki muodot"]
-            },
-            {
-              "name": "Tuki",
-              "values": ["Sähköposti", "Etusijasähköposti", "Etusijasähköposti"]
-            },
-            {
-              "name": "Tietojen säilytys",
-              "values": ["30 päivää", "Ikuisesti", "Ikuisesti"]
+              "main": "8,99 $/kk",
+              "note": "Laskutetaan 107,88 $/vuosi"
             }
           ]
+        },
+        {
+          "name": "Päivittäinen tiedostorajoitus",
+          "values": ["3 tiedostoa/päivä", "Rajoittamaton", "Rajoittamaton"]
+        },
+        {
+          "name": "Tiedoston enimmäiskesto",
+          "values": ["10 tuntia", "10 tuntia", "10 tuntia"]
+        },
+        {
+          "name": "Tiedoston enimmäiskoko",
+          "values": ["5 Gt", "5 Gt", "5 Gt"]
+        },
+        {
+          "name": "Opintopisteiden käyttöoikeus",
+          "values": ["Ensimmäinen 30 minuutin esikatselu", "Täydellinen transkriptio", "Täydellinen transkriptio"]
+        },
+        {
+          "name": "Joukkolataukset",
+          "values": ["1 tiedosto", "50 tiedostoa", "50 tiedostoa"]
+        },
+        {
+          "name": "Käsittelynopeus",
+          "values": ["Vakio", "Etusija", "Etusija"]
+        },
+        {
+          "name": "Tuetut kielet",
+          "values": ["100+ kieltä", "100+ kieltä", "100+ kieltä"]
+        },
+        {
+          "name": "Käännös",
+          "values": ["true", "true", "true"]
+        },
+        {
+          "name": "Puhujan tunnistus",
+          "values": ["Perus", "Edistynyt (20 puhujaa)", "Edistynyt (20 puhujaa)"]
+        },
+        {
+          "name": "Sanatason aikaleimat",
+          "values": ["false", "true", "true"]
+        },
+        {
+          "name": "Muotoillut kappaleet",
+          "values": ["false", "true", "true"]
+        },
+        {
+          "name": "Vie muodoissa",
+          "values": ["Kaikki muodot", "Kaikki muodot", "Kaikki muodot"]
+        },
+        {
+          "name": "Tuki",
+          "values": ["Sähköposti", "Etusijasähköposti", "Etusijasähköposti"]
+        },
+        {
+          "name": "Tietojen säilytys",
+          "values": ["30 päivää", "Ikuisesti", "Ikuisesti"]
+        }
+      ]
     },
     FAQ: {
       "title": "Usein Kysytyt",
       "titleHighligt": "Kysymykset",
       "items": [
-            {
-              "q": "unlimited_policy",
-              "question": "Onko se todella rajaton?",
-              "answer": "Kyllä! Pro-suunnitelmissa ei ole kuukausittaisia minuuttirajoja. Ainoat rajat ovat tekniset: enintään 10 tunnin tiedeston pituus ja 5GB tiedostokoko. Voit käsitellä niin monta tiedostoa kuin tarvitset."
-            },
-            {
-              "q": "plan_change",
-              "question": "Voinko vaihtaa suunnitelmaa milloin tahansa?",
-              "answer": "Ehdottomasti! Voit peruuttaa tilauksesi milloin tahansa hallintapaneelistasi. Päivitä tai alenna suunnitelmaa tarpeen mukaan."
-            },
-            {
-              "q": "payment_methods",
-              "question": "Mitä maksutapoja hyväksytte?",
-              "answer": "Hyväksymme kaikki suuret luottokortit, pankkikortit ja PayPalin turvallista ja vaivatonta maksamista varten."
-            },
-            {
-              "q": "free_trial",
-              "question": "Onko Pro:lle ilmainen kokeilu?",
-              "answer": "Kyllä! Kokeile Pro:ta ilmaiseksi 7 päiväksi, luottokorttia ei tarvita. Lisäksi saat ensimmäisen kuukauden 45% alennuksella tilatessasi."
-            },
-            {
-              "q": "file_retention",
-              "question": "Kuinka kauan säilytätte tiedostojani?",
-              "answer": "Ilmainen suunnitelma: 30 päivää. Pro-suunnitelmat: Ikuisesti! Tekstityksesi ovat aina käytettävissä tililläsi."
-            },
-            {
-              "q": "data_security",
-              "question": "Entä tietoturva?",
-              "answer": "Olemme SOC 2 -sertifioitu ja käytämme 256-bittistä salausmenetelmää. Emme koskaan käytä sisältöäsi malliemme kouluttamiseen. Sinun tietosi ovat sinun."
-            }
-          ]
+        {
+          "q": "unlimited_policy",
+          "question": "Onko se todella rajaton?",
+          "answer": "Kyllä! Pro-suunnitelmissa ei ole kuukausittaisia minuuttirajoja. Ainoat rajat ovat tekniset: enintään 10 tunnin tiedeston pituus ja 5GB tiedostokoko. Voit käsitellä niin monta tiedostoa kuin tarvitset."
+        },
+        {
+          "q": "plan_change",
+          "question": "Voinko vaihtaa suunnitelmaa milloin tahansa?",
+          "answer": "Ehdottomasti! Voit peruuttaa tilauksesi milloin tahansa hallintapaneelistasi. Päivitä tai alenna suunnitelmaa tarpeen mukaan."
+        },
+        {
+          "q": "payment_methods",
+          "question": "Mitä maksutapoja hyväksytte?",
+          "answer": "Hyväksymme kaikki suuret luottokortit, pankkikortit ja PayPalin turvallista ja vaivatonta maksamista varten."
+        },
+        {
+          "q": "free_trial",
+          "question": "Onko Pro:lle ilmainen kokeilu?",
+          "answer": "Kyllä! Kokeile Pro:ta ilmaiseksi 7 päiväksi, luottokorttia ei tarvita. Lisäksi saat ensimmäisen kuukauden 45% alennuksella tilatessasi."
+        },
+        {
+          "q": "file_retention",
+          "question": "Kuinka kauan säilytätte tiedostojani?",
+          "answer": "Ilmainen suunnitelma: 30 päivää. Pro-suunnitelmat: Ikuisesti! Tekstityksesi ovat aina käytettävissä tililläsi."
+        },
+        {
+          "q": "data_security",
+          "question": "Entä tietoturva?",
+          "answer": "Olemme SOC 2 -sertifioitu ja käytämme 256-bittistä salausmenetelmää. Emme koskaan käytä sisältöäsi malliemme kouluttamiseen. Sinun tietosi ovat sinun."
+        }
+      ]
     },
     CTA: {
       "title": "Valmiina siirtymään rajoittamattomaan?",
@@ -2022,7 +2027,7 @@ let message = {
         subtitle: "Liity 50 000+ ammattilaiseen, jotka lopettivat minuuttien laskemisen ja alkoivat luoda",
         button: "Aloita rajaton matkasi →"
       },
-        heroSubtitleA: "Vuosien työjonojen omaavista podcast-juontajista satojen haastattelujen tehneisiin tutkijoihin. Katso, kuinka ammattilaiset käyttävät {NeverCap}-sovellusta päästäkseen eroon latausrajoituksista ja minuuttirajoituksista."
+      heroSubtitleA: "Vuosien työjonojen omaavista podcast-juontajista satojen haastattelujen tehneisiin tutkijoihin. Katso, kuinka ammattilaiset käyttävät {NeverCap}-sovellusta päästäkseen eroon latausrajoituksista ja minuuttirajoituksista."
     },
     Podcasters: {
       badge: "Rakennettu podcastaajille",
@@ -2192,7 +2197,7 @@ let message = {
       ctaSubtitle: "Liity 10 000+ podcastaajaan, jotka eivät koskaan huolehdi rajoituksista",
       ctaButton: "Lataa ensimmäiset 50 jaksoasi ilmaiseksi →",
       ctaDisclaimer: "Luottokorttia ei vaadita • Käsittele rajattomasti jaksoja • Peruuta milloin tahansa",
-        solutionDescriptionA: "{NeverCap}:n avulla saat todella rajattoman transkription. Lataa koko arkistosi. Transkriptoi jokainen uusi jakso. Luo ohjelman muistiinpanoja skaalautuvasti. Ei ylärajoja, ei rajoituksia, vain kasvua."
+      solutionDescriptionA: "{NeverCap}:n avulla saat todella rajattoman transkription. Lataa koko arkistosi. Transkriptoi jokainen uusi jakso. Luo ohjelman muistiinpanoja skaalautuvasti. Ei ylärajoja, ei rajoituksia, vain kasvua."
     },
     Journalists: {
       hero: {
@@ -2264,7 +2269,7 @@ let message = {
         solution: {
           title: "The",
           titleHighlight: "NeverCap-ratkaisu",
-            descriptionA: "{NeverCap}:n avulla saat todella rajattoman litteroinnin. Lataa koko tutkimuksesi. Litteroi jokainen haastattelu. Hae kaikista lainauksista välittömästi. Ei isoja kirjaimia, ei rajoituksia, vain journalismia."
+          descriptionA: "{NeverCap}:n avulla saat todella rajattoman litteroinnin. Lataa koko tutkimuksesi. Litteroi jokainen haastattelu. Hae kaikista lainauksista välittömästi. Ei isoja kirjaimia, ei rajoituksia, vain journalismia."
         }
       },
       solution: {
@@ -2324,20 +2329,20 @@ let message = {
               }
             }
           },
-            ironclad: {
-                  label: "Lähdesuoja",
-                  title: "Rautainen lähdesuoja",
-                  description: "Tarjoamme vankkoja turvatoimia herkkien haastattelutietojesi ja luottamuksellisten lähteidesi suojaamiseksi. Pankkitason salaus pitää tutkimuksesi turvassa.",
-                  points: {
-                    accuracyGuarantee: "Päästä päähän -salaus",
-                    handlesAccents: "Automaattiset tiedostonpoistovaihtoehdot",
-                    smartPunctuation: "GDPR & tietosuoja"
-                  },
-                  visual: {
-                    accuracy: "🔒",
-                    label: "Maksimaalinen turvallisuus"
-                  }
-                }
+          ironclad: {
+            label: "Lähdesuoja",
+            title: "Rautainen lähdesuoja",
+            description: "Tarjoamme vankkoja turvatoimia herkkien haastattelutietojesi ja luottamuksellisten lähteidesi suojaamiseksi. Pankkitason salaus pitää tutkimuksesi turvassa.",
+            points: {
+              accuracyGuarantee: "Päästä päähän -salaus",
+              handlesAccents: "Automaattiset tiedostonpoistovaihtoehdot",
+              smartPunctuation: "GDPR & tietosuoja"
+            },
+            visual: {
+              accuracy: "🔒",
+              label: "Maksimaalinen turvallisuus"
+            }
+          }
         }
       },
       features: {
@@ -2420,8 +2425,8 @@ let message = {
             label: "Alustaa"
           }
         },
-          subtitleA: "Tarvitsetpa sitten YouTube-videon litterointia, TikTok-videon litterointia uudelleenkäyttöä varten tai Facebook-videon litterointia tekstiksi, {NeverCap} hoitaa kaiken saumattomasti. Luo tekstityksiä yli 100 kielellä ilman kuukausirajoituksia – vain puhdasta luovaa vapautta."
-    },
+        subtitleA: "Tarvitsetpa sitten YouTube-videon litterointia, TikTok-videon litterointia uudelleenkäyttöä varten tai Facebook-videon litterointia tekstiksi, {NeverCap} hoitaa kaiken saumattomasti. Luo tekstityksiä yli 100 kielellä ilman kuukausirajoituksia – vain puhdasta luovaa vapautta."
+      },
       platforms: {
         title: "Nouda & Tekstitä Mistä Tahansa Alustasta",
         platformNames: {
@@ -2434,9 +2439,9 @@ let message = {
           tiktok: "TikTok",
           instagram: "Instagram"
         },
-          titleMax: "Tekstitä Videoita",
-          titleMaxHighlight: "Mistä Tahansa Alustasta"
-    },
+        titleMax: "Tekstitä Videoita",
+        titleMaxHighlight: "Mistä Tahansa Alustasta"
+      },
       features: {
         title: "Kaikki Mitä Tarvitset",
         titleHighlight: "Sisällön Laajentamiseen",
@@ -2558,29 +2563,29 @@ let message = {
         subtitle: "Liity yli 50 000 sisällöntuottajan joukkoon, jotka lopettivat minuuttien laskemisen ja alkoivat luoda",
         button: "Aloita rajaton tekstitys →"
       },
-        FAQSection: {
-              "title": "Transkriptiokysymyksesi,",
-              "titleHighlight": "Vastattu",
-              subtitle: "Kaikki mitä sinun tulee tietää videoiden transkriptiosta eri alustoilla",
-              "questions": [
-                    {
-                      "question": "K: Miten transkriboin YouTube-videon NeverCapilla?",
-                      "answer": "Se on helppoa. Etsi vain haluamasi YouTube-video, kopioi sen URL ja liitä se sovellukseemme. Tekoälymme hakee videon automaattisesti ja tarjoaa täyden tekstityksen minuuteissa."
-                    },
-                    {
-                      "question": "K: Mikä on paras tapa transkriboida Facebook-video tekstiksi?",
-                      "answer": "Helpoin tapa on käyttää suoraa linkkiä. Kopioi Facebook-videon URL ja alustamme hoitaa loput, muuntaen puheen tekstiksi jopa 96 % tarkkuudella, säästäen sinut manuaaliselta transkriptiolta."
-                    },
-                    {
-                      "question": "K: Voinko transkriboida TikTok- ja Instagram-videoita?",
-                      "answer": "Totta kai. Tukemme sekä TikTok- että Instagram-videoiden transkriptiota. Tämä on täydellistä sisällöntuottajille, jotka haluavat muokata lyhytmuotoista videosisältöään blogikirjoituksiksi, artikkeleiksi tai tekstipohjaisiksi some-päivityksiksi."
-                    },
-                    {
-                      "question": "K: Miten transkriboin Vimeo-videon tekstiksi?",
-                      "answer": "Vimeo-videoiden transkriptio on yhtä helppoa kuin muidenkin alustojen. Kopioi vain Vimeo-videon URL ja liitä se NeverCapiin. Tekoälymme käsittelee videon ja luo tarkan tekstityksen, jonka voit ladata useassa eri muodossa."
-                    }
-                  ]
-            }
+      FAQSection: {
+        "title": "Transkriptiokysymyksesi,",
+        "titleHighlight": "Vastattu",
+        subtitle: "Kaikki mitä sinun tulee tietää videoiden transkriptiosta eri alustoilla",
+        "questions": [
+          {
+            "question": "K: Miten transkriboin YouTube-videon NeverCapilla?",
+            "answer": "Se on helppoa. Etsi vain haluamasi YouTube-video, kopioi sen URL ja liitä se sovellukseemme. Tekoälymme hakee videon automaattisesti ja tarjoaa täyden tekstityksen minuuteissa."
+          },
+          {
+            "question": "K: Mikä on paras tapa transkriboida Facebook-video tekstiksi?",
+            "answer": "Helpoin tapa on käyttää suoraa linkkiä. Kopioi Facebook-videon URL ja alustamme hoitaa loput, muuntaen puheen tekstiksi jopa 96 % tarkkuudella, säästäen sinut manuaaliselta transkriptiolta."
+          },
+          {
+            "question": "K: Voinko transkriboida TikTok- ja Instagram-videoita?",
+            "answer": "Totta kai. Tukemme sekä TikTok- että Instagram-videoiden transkriptiota. Tämä on täydellistä sisällöntuottajille, jotka haluavat muokata lyhytmuotoista videosisältöään blogikirjoituksiksi, artikkeleiksi tai tekstipohjaisiksi some-päivityksiksi."
+          },
+          {
+            "question": "K: Miten transkriboin Vimeo-videon tekstiksi?",
+            "answer": "Vimeo-videoiden transkriptio on yhtä helppoa kuin muidenkin alustojen. Kopioi vain Vimeo-videon URL ja liitä se NeverCapiin. Tekoälymme käsittelee videon ja luo tarkan tekstityksen, jonka voit ladata useassa eri muodossa."
+          }
+        ]
+      }
     },
     Researchers: {
       heroBadge: "Rakennettu akateemiseen huippuosaamiseen",
@@ -2664,23 +2669,23 @@ let message = {
       ctaTitle: "Lopeta datan valitseminen analysoitavaksi",
       ctaSubtitle: "Liity yli 50 000 tutkijan joukkoon, jotka puhtaaksikirjoittavat kaiken",
       ctaButton: "Kokeile NeverCapia ilmaiseksi",
-        problemTitle2: "Tutkimustranskription ongelma",
-        title: "The",
-        useCasesTitle2: "Jokaiseen tutkimusmenetelmään",
-        testimonialTitle2: "Johtavat tutkijat",
-        feature1TitleHl: "Koko tutkimusprojekti",
-        feature1TitlePost: "Kaikki yhdessä paikassa",
-        feature2TitleHl: "Kohderyhmähaastattelut",
-        feature2TitlePost: "Joka kerta onnistuu",
-        feature3TitleHl: "96 % tarkkuus",
-        feature4TitleHl: "Turvallisuus",
-        testimonialText2Hl: "200 tuntia",
-        testimonialText3: "fokusryhmän äänitteitä yhteisöterveystutkimuksestamme. Muut palvelut halusivat meidän valikoida mitkä istunnot litteroidaan kustannusten vuoksi. NeverCap antoi meidän käsitellä",
-        testimonialText4Hl: "kaiken viikonloppuna",
-        testimonialText5: ". 20 puhujan tunnistus toimi todella - jopa sekavimmissa keskusteluissamme, kun kaikki puhuivat yhtä aikaa. Tämä työkalu on",
-        testimonialText6Hl: "täysin muuttanut",
-        testimonialText7: "miten käsittelemme laadullista dataa.",
-        solutionDescA: "{NeverCap}:n avulla saat todella rajattoman litteroinnin. Lataa koko tutkimuksesi. Litteroi jokainen haastattelu. Analysoi kaikki tietosi. Ei ylärajoja, ei rajoituksia, vain tutkimusta."
+      problemTitle2: "Tutkimustranskription ongelma",
+      title: "The",
+      useCasesTitle2: "Jokaiseen tutkimusmenetelmään",
+      testimonialTitle2: "Johtavat tutkijat",
+      feature1TitleHl: "Koko tutkimusprojekti",
+      feature1TitlePost: "Kaikki yhdessä paikassa",
+      feature2TitleHl: "Kohderyhmähaastattelut",
+      feature2TitlePost: "Joka kerta onnistuu",
+      feature3TitleHl: "96 % tarkkuus",
+      feature4TitleHl: "Turvallisuus",
+      testimonialText2Hl: "200 tuntia",
+      testimonialText3: "fokusryhmän äänitteitä yhteisöterveystutkimuksestamme. Muut palvelut halusivat meidän valikoida mitkä istunnot litteroidaan kustannusten vuoksi. NeverCap antoi meidän käsitellä",
+      testimonialText4Hl: "kaiken viikonloppuna",
+      testimonialText5: ". 20 puhujan tunnistus toimi todella - jopa sekavimmissa keskusteluissamme, kun kaikki puhuivat yhtä aikaa. Tämä työkalu on",
+      testimonialText6Hl: "täysin muuttanut",
+      testimonialText7: "miten käsittelemme laadullista dataa.",
+      solutionDescA: "{NeverCap}:n avulla saat todella rajattoman litteroinnin. Lataa koko tutkimuksesi. Litteroi jokainen haastattelu. Analysoi kaikki tietosi. Ei ylärajoja, ei rajoituksia, vain tutkimusta."
     },
     BusinessTeams: {
       heroBadge: "Liiketiimeille",
@@ -2753,9 +2758,9 @@ let message = {
       ctaTitle: "Lopeta Tärkeiden Keskustelujen Häviäminen",
       ctaSubtitle: "Liity tuhansiin tiimeihin, jotka tallentavat jokaisen kokouksen rajoittamattomalla tekstityksellä",
       ctaButton: "Aloita Nauhoitus Ilmaiseksi →",
-        featuresTitle2: "Kokous",
-        workflowTitle2: "Zoom-äänitteen Tekstiksi",
-        heroSubtitleA: "Tallenna kokoukset suoraan selaimeesi tai lataa äänitiedostoja välittömästi. Luo haettavia arkistoja rajattomasta määrästä keskusteluja. Älä koskaan enää menetä tärkeitä keskusteluja {NeverCapin} todella rajattoman transkription avulla."
+      featuresTitle2: "Kokous",
+      workflowTitle2: "Zoom-äänitteen Tekstiksi",
+      heroSubtitleA: "Tallenna kokoukset suoraan selaimeesi tai lataa äänitiedostoja välittömästi. Luo haettavia arkistoja rajattomasta määrästä keskusteluja. Älä koskaan enää menetä tärkeitä keskusteluja {NeverCapin} todella rajattoman transkription avulla."
     },
     Educators: {
       heroBadge: "Opettajille & Kouluttajille",
@@ -2837,11 +2842,11 @@ let message = {
       ctaTitle: "25. Liity tuhansiin opettajiin, jotka käyttävät todella rajatonta tekstitystä",
       ctaSubtitle: "26. Kokeile NeverCapia Ilmaiseksi",
       ctaButton: "27. Ominaisuudet",
-        featuresTitle2: "Videoiden tekstitykseen",
-        grid: "Äänitiedosto opinto-oppaaksi",
-        useCasesTitle2: "4. Koulutustarpeeseen",
-        testimonialTitle2: "20. Katso, miksi opettajat ympäri maailman valitsevat NeverCapin",
-        testimonialTextA: '"Olen käyttänyt {NeverCap}-palvelua koko YouTube-kanavani matematiikan tutoriaalien litterointiin. Se, mikä ennen kesti viikkoja muilla palveluilla, vie nyt tunteja. Mahdollisuus liittää linkkejä suoraan ja saada välittömät litteroinnit on mullistanut tapani luoda saavutettavaa sisältöä. Kansainväliset opiskelijani rakastavat erityisesti monikielisiä tekstityksiä!"'
+      featuresTitle2: "Videoiden tekstitykseen",
+      grid: "Äänitiedosto opinto-oppaaksi",
+      useCasesTitle2: "4. Koulutustarpeeseen",
+      testimonialTitle2: "20. Katso, miksi opettajat ympäri maailman valitsevat NeverCapin",
+      testimonialTextA: '"Olen käyttänyt {NeverCap}-palvelua koko YouTube-kanavani matematiikan tutoriaalien litterointiin. Se, mikä ennen kesti viikkoja muilla palveluilla, vie nyt tunteja. Mahdollisuus liittää linkkejä suoraan ja saada välittömät litteroinnit on mullistanut tapani luoda saavutettavaa sisältöä. Kansainväliset opiskelijani rakastavat erityisesti monikielisiä tekstityksiä!"'
     }
   },
   Resources: {
@@ -2858,132 +2863,132 @@ let message = {
       part2: {
         "title": "Näin muutat YouTube-videon ladattavaksi MP4-tiedostoksi kolmessa helpossa vaiheessa",
         "steps": [
-                {
-                  title: "Kopioi URL",
-                  content: "Avaa haluamasi YouTube-video ja kopioi linkki selaimen osoitepalkista."
-                },
-                {
-                  title: "Liitä linkki",
-                  content: "Siirry videolataustyökaluusi ja liitä URL syötekenttään."
-                },
-                {
-                  title: "Lataa MP4",
-                  content: "Kun käsittely on valmis, napsauta latauspainiketta tallentaaksesi MP4-tiedostosi."
-                }
-              ]
+          {
+            title: "Kopioi URL",
+            content: "Avaa haluamasi YouTube-video ja kopioi linkki selaimen osoitepalkista."
+          },
+          {
+            title: "Liitä linkki",
+            content: "Siirry videolataustyökaluusi ja liitä URL syötekenttään."
+          },
+          {
+            title: "Lataa MP4",
+            content: "Kun käsittely on valmis, napsauta latauspainiketta tallentaaksesi MP4-tiedostosi."
+          }
+        ]
       },
       part3: {
         content: [
-                "Oletko koskaan tarvinnut katsella YouTube-videoita offline-tilassa?",
-                "Olitpa sitten matkalla metrossa, lentokoneessa, opiskelemassa tärkeää opetusvideota, syventymässä taitojen kehittämiseen tai arkistoimassa tärkeää videomateriaalia – luotettava offline-käyttö on yleinen ongelma. Tässä lataajamme loistaa.",
-                "Lataajamme avulla voit nopeasti ja helposti muuntaa YouTube-videot MP4-muotoon ladattavaksi. Tallenna ne laitteellesi ja katso milloin tahansa.",
-                "Prosessi on nopea, helppo ja vaivaton. Ladattuasi voit nauttia suosikkivideoistasi milloin ja missä tahansa – ilman internet-yhteyttä."
-              ]
+          "Oletko koskaan tarvinnut katsella YouTube-videoita offline-tilassa?",
+          "Olitpa sitten matkalla metrossa, lentokoneessa, opiskelemassa tärkeää opetusvideota, syventymässä taitojen kehittämiseen tai arkistoimassa tärkeää videomateriaalia – luotettava offline-käyttö on yleinen ongelma. Tässä lataajamme loistaa.",
+          "Lataajamme avulla voit nopeasti ja helposti muuntaa YouTube-videot MP4-muotoon ladattavaksi. Tallenna ne laitteellesi ja katso milloin tahansa.",
+          "Prosessi on nopea, helppo ja vaivaton. Ladattuasi voit nauttia suosikkivideoistasi milloin ja missä tahansa – ilman internet-yhteyttä."
+        ]
       },
       part4: {
         content: ["Tässä 5 suurta hyötyä YouTube-videoiden", "lataamisesta MP4-tiedostoina"],
         list: [
-                {
-                  title: "Säästä datakuluissa:",
-                  content: "YouTube-videoiden katselu kuluttaa normaalisti paljon mobiilidataa. Lataamalla ne offline-katselua varten voit välttää nämä tarpeettomat kustannukset."
-                },
-                {
-                  title: "Katso missä ja milloin tahansa:",
-                  content: "Nauti videoistasi saumattomasti, vaikka internetyhteys olisi heikko. Ei enää puskurointiongelmia."
-                },
-                {
-                  title: "Helppo arkistointi ja säilytys:",
-                  content: "Videoiden tallentaminen MP4-muodossa helpottaa henkilökohtaisen kokoelmasi rakentamista, erityisesti arvokkaan tai tärkeän sisällön osalta."
-                },
-                {
-                  title: "Yksinkertaisempi jakaminen:",
-                  content: "MP4-tiedoston jakaminen on paljon helpompaa kuin linkin lähettäminen. Voit lähettää videotiedoston suoraan sovelluksien kuten WhatsAppin tai Instagramin kautta, välttäen YouTubeen siirtymisen."
-                },
-                {
-                  title: "Heti katsottavissa, jaettuja hetkiä:",
-                  content: "Haluatko innostuneesti näyttää suosikkivideosi läheisille ystäville tai perheenjäsenille? Ladattuasi MP4:n voitte kaikki katsoa sen sujuvasti heti, ilman latauksen aiheuttamia kömpelöitä taukoja."
-                }
-              ]
+          {
+            title: "Säästä datakuluissa:",
+            content: "YouTube-videoiden katselu kuluttaa normaalisti paljon mobiilidataa. Lataamalla ne offline-katselua varten voit välttää nämä tarpeettomat kustannukset."
+          },
+          {
+            title: "Katso missä ja milloin tahansa:",
+            content: "Nauti videoistasi saumattomasti, vaikka internetyhteys olisi heikko. Ei enää puskurointiongelmia."
+          },
+          {
+            title: "Helppo arkistointi ja säilytys:",
+            content: "Videoiden tallentaminen MP4-muodossa helpottaa henkilökohtaisen kokoelmasi rakentamista, erityisesti arvokkaan tai tärkeän sisällön osalta."
+          },
+          {
+            title: "Yksinkertaisempi jakaminen:",
+            content: "MP4-tiedoston jakaminen on paljon helpompaa kuin linkin lähettäminen. Voit lähettää videotiedoston suoraan sovelluksien kuten WhatsAppin tai Instagramin kautta, välttäen YouTubeen siirtymisen."
+          },
+          {
+            title: "Heti katsottavissa, jaettuja hetkiä:",
+            content: "Haluatko innostuneesti näyttää suosikkivideosi läheisille ystäville tai perheenjäsenille? Ladattuasi MP4:n voitte kaikki katsoa sen sujuvasti heti, ilman latauksen aiheuttamia kömpelöitä taukoja."
+          }
+        ]
       },
       part5: {
         title: "Miksi lataajamme erottuu joukosta",
         cards: [
-                {
-                  title: "Yhden klikkauksen yksinkertaisuus",
-                  content: "Vaivaton asennus ja intuitiivinen käyttö."
-                },
-                {
-                  title: "Salamannopea, rajoittamaton",
-                  content: "Muunna ja lataa huippunopeudella – ei rajoituksia."
-                },
-                {
-                  title: "Muunna lennosta",
-                  content: "Käsittele tiedostosi välittömästi, ei odotusta."
-                },
-                {
-                  title: "Ei mainoksia, ei häiriötekijöitä",
-                  content: "Nauti puhtaalta käyttöliittymältä ilman ponnahdusikkunoita, bannereita tai keskeytyksiä – vain saumatonta videomuunnosta."
-                },
-                {
-                  icon: "5",
-                  color: "#DEE5FF",
-                  title: "Alkuperäinen laatu taattu",
-                  content: "Latauksesi säilyttävät lähdevideon täyden resoluution täydellistä toistoa varten joka kerta."
-                },
-                {
-                  icon: "6",
-                  color: "#DEF6EE",
-                  title: "Toimii kaikkialla",
-                  content: "Täysin yhteensopiva kaikkien selaimien ja laitteiden kanssa."
-                }
-              ]
+          {
+            title: "Yhden klikkauksen yksinkertaisuus",
+            content: "Vaivaton asennus ja intuitiivinen käyttö."
+          },
+          {
+            title: "Salamannopea, rajoittamaton",
+            content: "Muunna ja lataa huippunopeudella – ei rajoituksia."
+          },
+          {
+            title: "Muunna lennosta",
+            content: "Käsittele tiedostosi välittömästi, ei odotusta."
+          },
+          {
+            title: "Ei mainoksia, ei häiriötekijöitä",
+            content: "Nauti puhtaalta käyttöliittymältä ilman ponnahdusikkunoita, bannereita tai keskeytyksiä – vain saumatonta videomuunnosta."
+          },
+          {
+            icon: "5",
+            color: "#DEE5FF",
+            title: "Alkuperäinen laatu taattu",
+            content: "Latauksesi säilyttävät lähdevideon täyden resoluution täydellistä toistoa varten joka kerta."
+          },
+          {
+            icon: "6",
+            color: "#DEF6EE",
+            title: "Toimii kaikkialla",
+            content: "Täysin yhteensopiva kaikkien selaimien ja laitteiden kanssa."
+          }
+        ]
       },
       part6: {
         title: ["Tehosta YouTube-videoidesi latauksia", "Lataajan avulla"],
         content: [
-                "Vaivaton YouTube MP4-muunnos: Nopea, helppo ja ilmainen.",
-                "Tässä me erityisesti loistamme. Käyttäjäystävällinen käyttöliittymämme on suunniteltu kaikille – teknistä osaamista ei tarvita. Kokemuksestasi riippumatta voit muuntaa videot välittömästi. Rekisteröitymistä ei vaadita: Saat juuri mitä tarvitset, heti.",
-                "Ole huoletta – ladatut MP4-tiedostosi säilyttävät alkuperäisen videon laadun ja selkeyden, aivan kuten YouTube-katselussa.",
-                "Toimii kaikkialla missä sinäkin. Täysin yhteensopiva kaikkien suurten alustojen ja laitteiden kanssa. Olitpa sitten Windows, macOS, Linux, Android tai iOS – käytätkö älypuhelinta, tablettia tai tietokonetta – voit ladata videoita saumattomasti."
-              ]
+          "Vaivaton YouTube MP4-muunnos: Nopea, helppo ja ilmainen.",
+          "Tässä me erityisesti loistamme. Käyttäjäystävällinen käyttöliittymämme on suunniteltu kaikille – teknistä osaamista ei tarvita. Kokemuksestasi riippumatta voit muuntaa videot välittömästi. Rekisteröitymistä ei vaadita: Saat juuri mitä tarvitset, heti.",
+          "Ole huoletta – ladatut MP4-tiedostosi säilyttävät alkuperäisen videon laadun ja selkeyden, aivan kuten YouTube-katselussa.",
+          "Toimii kaikkialla missä sinäkin. Täysin yhteensopiva kaikkien suurten alustojen ja laitteiden kanssa. Olitpa sitten Windows, macOS, Linux, Android tai iOS – käytätkö älypuhelinta, tablettia tai tietokonetta – voit ladata videoita saumattomasti."
+        ]
       },
       part7: {
         title: "Keskeisiä kysymyksiä YouTube-videoiden lataamisesta",
         list: [
-                {
-                  question: "Voinko ladata YouTube-videon, jos se on tekijänoikeussuojattu?",
-                  answer: "Tekijänoikeussuojattujen YouTube-videoiden lataaminen ilman tekijänoikeuden omistajan lupaa on laitonta."
-                },
-                {
-                  question: "Onko tämä lataustyökalu turvallinen?",
-                  answer: "Kyllä, se on turvallinen ja luotettava. Emme vaadi käyttäjiltä henkilökohtaisia tietoja ja otamme vahvat toimet viruksia vastaan. Muistutamme, että tulee aina olla varovainen ladatessaan tiedostoja internetistä: välttä epäilyttäviä linkkejä ja tiedostoja."
-                },
-                {
-                  question: "Mitä kieliä YouTube MP4-lataus tukee?",
-                  answer: "Palvelumme tukee YouTube-videoiden lataamista kaikilla suosituilla kielillä."
-                },
-                {
-                  question: "Mitkä tekijät vaikuttavat YouTube-videon latausaikaan?",
-                  answer: "Vaikka takaamme mahdollisimman nopean latauskokemuksen, latausaikaan vaikuttavat myös tekijät kuten videon pituus ja internet-yhteytesi nopeus."
-                },
-                {
-                  question: "Minne MP4-video tallentuu, kun lataan sen älypuhelimella?",
-                  answer: 'Ladattuaan MP4-tiedoston älypuhelimeen, löydät sen yleensä laitteesi tiedostonhallintaohjelman "Lataukset"-kansiosta.'
-                },
-                {
-                  question: "Heikentääkö YouTube-videon lataaminen MP4-muotona videon laatua?",
-                  answer: "Ei. YouTube-videoiden lataaminen MP4-muotona käyttäen työkaluamme säilyttää alkuperäisen videon laadun. Muunnosprosessi säilyttää lähdelaadun, joten saat saman katselukokemuksen kuin YouTubessa."
-                }
-              ]
+          {
+            question: "Voinko ladata YouTube-videon, jos se on tekijänoikeussuojattu?",
+            answer: "Tekijänoikeussuojattujen YouTube-videoiden lataaminen ilman tekijänoikeuden omistajan lupaa on laitonta."
+          },
+          {
+            question: "Onko tämä lataustyökalu turvallinen?",
+            answer: "Kyllä, se on turvallinen ja luotettava. Emme vaadi käyttäjiltä henkilökohtaisia tietoja ja otamme vahvat toimet viruksia vastaan. Muistutamme, että tulee aina olla varovainen ladatessaan tiedostoja internetistä: välttä epäilyttäviä linkkejä ja tiedostoja."
+          },
+          {
+            question: "Mitä kieliä YouTube MP4-lataus tukee?",
+            answer: "Palvelumme tukee YouTube-videoiden lataamista kaikilla suosituilla kielillä."
+          },
+          {
+            question: "Mitkä tekijät vaikuttavat YouTube-videon latausaikaan?",
+            answer: "Vaikka takaamme mahdollisimman nopean latauskokemuksen, latausaikaan vaikuttavat myös tekijät kuten videon pituus ja internet-yhteytesi nopeus."
+          },
+          {
+            question: "Minne MP4-video tallentuu, kun lataan sen älypuhelimella?",
+            answer: 'Ladattuaan MP4-tiedoston älypuhelimeen, löydät sen yleensä laitteesi tiedostonhallintaohjelman "Lataukset"-kansiosta.'
+          },
+          {
+            question: "Heikentääkö YouTube-videon lataaminen MP4-muotona videon laatua?",
+            answer: "Ei. YouTube-videoiden lataaminen MP4-muotona käyttäen työkaluamme säilyttää alkuperäisen videon laadun. Muunnosprosessi säilyttää lähdelaadun, joten saat saman katselukokemuksen kuin YouTubessa."
+          }
+        ]
       },
-        err1: "YouTube-linkin muotoiluvauri.",
-        err2: "Valitettavasti! Toimimme tällä hetkellä vain YouTube-linkkien kanssa. Jos tarvitset tukea muille sivustoille, pidämme sinut ajan tasalla, kun lisäämme sen tulevaisuudessa.",
-        videoDownload: {
-              title: "Lataa YouTube-videoita MP4-muodossa. Ilmaista, nopeaa ja ilman mainoksia.",
-              description: "Kiitos, että valitsit palvelumme! Arvostamme luottamustasi ja toivomme, että se paransi kokemustasi. Jos voisit jakaa verkkosivustomme ystäviesi kanssa, se olisi suuri apu.",
-              downloadButton: "Lataa",
-              downloadError: "Latausvirhe."
-            }
+      err1: "YouTube-linkin muotoiluvauri.",
+      err2: "Valitettavasti! Toimimme tällä hetkellä vain YouTube-linkkien kanssa. Jos tarvitset tukea muille sivustoille, pidämme sinut ajan tasalla, kun lisäämme sen tulevaisuudessa.",
+      videoDownload: {
+        title: "Lataa YouTube-videoita MP4-muodossa. Ilmaista, nopeaa ja ilman mainoksia.",
+        description: "Kiitos, että valitsit palvelumme! Arvostamme luottamustasi ja toivomme, että se paransi kokemustasi. Jos voisit jakaa verkkosivustomme ystäviesi kanssa, se olisi suuri apu.",
+        downloadButton: "Lataa",
+        downloadError: "Latausvirhe."
+      }
     }
   },
   About: {
@@ -2997,67 +3002,67 @@ let message = {
       "highlighted_text": "Vaikutus",
       "subtitle": "Edistetään globaalia viestintää huipputeknologialla",
       "metrics": [
-            {
-              "value": "96 %+",
-              "label": "Tarkkuusaste",
-              "description": "Alaa johtava tekstitystarkkuus kehittyneellä tekoälyllä"
-            },
-            {
-              "value": "100+",
-              "label": "Tuetut kielet",
-              "description": "Puheentunnistus globaalille sisällölle"
-            },
-            {
-              "value": "249+",
-              "label": "Käännöskielet",
-              "description": "Käännä tekstitys melkein mihin tahansa kieleen"
-            }
-          ]
+        {
+          "value": "96 %+",
+          "label": "Tarkkuusaste",
+          "description": "Alaa johtava tekstitystarkkuus kehittyneellä tekoälyllä"
+        },
+        {
+          "value": "100+",
+          "label": "Tuetut kielet",
+          "description": "Puheentunnistus globaalille sisällölle"
+        },
+        {
+          "value": "249+",
+          "label": "Käännöskielet",
+          "description": "Käännä tekstitys melkein mihin tahansa kieleen"
+        }
+      ]
     },
     Mission: {
       "title": "Miksi valita",
       "subtitle": "Uskomme kielirajojen murtamiseen ja sisällön saavutettavuuteen kaikille",
       "features": [
-            {
-              "icon": "🎯",
-              "title": "Vertaansa vailla oleva tarkkuus",
-              "description": "Tekoälymallimme kehittyvät jatkuvasti tarjoten yli 96 % tekstitystarkkuuden, ja joillakin suurilla kielillä kehittyneen optimoinnin ansiosta jopa 99 % tarkkuuden."
-            },
-            {
-              "icon": "🌍",
-              "title": "Globaali kielituki",
-              "description": "Yli 100 kielen puheentunnistus ja yli 249 kielen käännöstoiminnot tekevät sisällöstäsi todella globaalin."
-            },
-            {
-              "icon": "⚡",
-              "title": "Salamannopea käsittely",
-              "description": "Käsittele tuntien pituinen ääni- ja videosisältö minuuteissa. Optimoitu tekoälyputki varmistaa nopeat tekstitykset laadun kustannuksella."
-            },
-            {
-              "icon": "🔒",
-              "title": "Yritystason turvallisuus",
-              "description": "Tietoturvasi on prioriteettimme. Käytämme alan standardeja noudattavaa salausmenetelmää ja noudatamme globaaleja tietosuoja-asetuksia pitääksemme sisältösi turvassa ja luottamuksellisena."
-            }
-          ]
+        {
+          "icon": "🎯",
+          "title": "Vertaansa vailla oleva tarkkuus",
+          "description": "Tekoälymallimme kehittyvät jatkuvasti tarjoten yli 96 % tekstitystarkkuuden, ja joillakin suurilla kielillä kehittyneen optimoinnin ansiosta jopa 99 % tarkkuuden."
+        },
+        {
+          "icon": "🌍",
+          "title": "Globaali kielituki",
+          "description": "Yli 100 kielen puheentunnistus ja yli 249 kielen käännöstoiminnot tekevät sisällöstäsi todella globaalin."
+        },
+        {
+          "icon": "⚡",
+          "title": "Salamannopea käsittely",
+          "description": "Käsittele tuntien pituinen ääni- ja videosisältö minuuteissa. Optimoitu tekoälyputki varmistaa nopeat tekstitykset laadun kustannuksella."
+        },
+        {
+          "icon": "🔒",
+          "title": "Yritystason turvallisuus",
+          "description": "Tietoturvasi on prioriteettimme. Käytämme alan standardeja noudattavaa salausmenetelmää ja noudatamme globaaleja tietosuoja-asetuksia pitääksemme sisältösi turvassa ja luottamuksellisena."
+        }
+      ]
     },
     Company: {
       "title": "Yrityksen",
       "highlighted_text": "Tiedot",
       "subtitle": "Ota yhteyttä kaikissa kysymyksissä tai tukipyynnöissä",
       "details": [
-            {
-              "label": "Yrityksen nimi",
-              "value": "SCRIBIFY AI INC"
-            },
-            {
-              "label": "Pääkonttori",
-              "value": ["30 N Gould St Ste R", "Sheridan, WY 82801", "Yhdysvallat"]
-            },
-            {
-              "label": "Ota yhteyttä",
-              "value": ["Sähköposti", "Tuki saatavilla 24/7"]
-            }
-          ]
+        {
+          "label": "Yrityksen nimi",
+          "value": "SCRIBIFY AI INC"
+        },
+        {
+          "label": "Pääkonttori",
+          "value": ["30 N Gould St Ste R", "Sheridan, WY 82801", "Yhdysvallat"]
+        },
+        {
+          "label": "Ota yhteyttä",
+          "value": ["Sähköposti", "Tuki saatavilla 24/7"]
+        }
+      ]
     },
     CTA: {
       "title": "Valmiina kokeilemaan eroa?",
@@ -3111,10 +3116,10 @@ let message = {
     "contactTitle": "9. Ota yhteyttä",
     "websiteUrl": "https://www.nevercap.ai/",
     at: "osoitteeseen",
-      childrenDescription: "Palvelut eivät kohdistu lapsille, emmekä tahallaan kerää henkilötietoja alle 13-vuotiailta. Jos olet alle 13-vuotias, älä lähetä henkilötietoja Palvelujen kautta. Jos uskot, että lapsi on antanut meille henkilötietoja tämän käytännön vastaisesti, ota yhteyttä sähköpostitse {at} {email}.",
-      contactDescription: "Jos sinulla on kysyttävää, kommentteja tai valituksia tietosuojakäytännöstämme, ota yhteyttä {at} {email}, ja pyrimme käsittelemään valituksesi mahdollisimman pian.",
-      policyDescriptionA: 'Tässä tietosuojakäytännössä kuvataan, miten {NeverCap} (jäljempänä \"NeverCap\", \"me\", \"meitä\") kerää, käyttää ja luovuttaa henkilötietojasi, kun käytät palveluitamme, verkkosivustojamme ({url}) ja ohjelmistojamme (yhdessä \"Palvelut\").'
-},
+    childrenDescription: "Palvelut eivät kohdistu lapsille, emmekä tahallaan kerää henkilötietoja alle 13-vuotiailta. Jos olet alle 13-vuotias, älä lähetä henkilötietoja Palvelujen kautta. Jos uskot, että lapsi on antanut meille henkilötietoja tämän käytännön vastaisesti, ota yhteyttä sähköpostitse {at} {email}.",
+    contactDescription: "Jos sinulla on kysyttävää, kommentteja tai valituksia tietosuojakäytännöstämme, ota yhteyttä {at} {email}, ja pyrimme käsittelemään valituksesi mahdollisimman pian.",
+    policyDescriptionA: 'Tässä tietosuojakäytännössä kuvataan, miten {NeverCap} (jäljempänä "NeverCap", "me", "meitä") kerää, käyttää ja luovuttaa henkilötietojasi, kun käytät palveluitamme, verkkosivustojamme ({url}) ja ohjelmistojamme (yhdessä "Palvelut").'
+  },
   TermsOfUse: {
     title: "Käyttöehdot",
     titleGradient: "Palvelu",
@@ -3209,41 +3214,41 @@ let message = {
     "site": "Verkkosivusto",
     "services": "Palvelut",
     at: "osoitteeseen",
-      trademarkProtection: "Palveluiden nimet, ulkoasu ja ilmiasma ovat yrityksen tekijänoikeussuojattuja. Kaikki oikeudet pidätetään. HTML-, CSS-, JavaScript- tai visuaalisten suunnitteluelementtien monistaminen, kopioiminen tai uudelleenkäyttö ilman yrityksen kirjallista lupaa on kielletty. Logojen käyttöön markkinointitarkoituksessa vaaditaan erillinen lupa. Lähetä logojen käyttölupykyselyt sähköpostitse osoitteeseen {at} {email}. Meillä on oikeus peruuttaa lupa, jos rikot käyttöehtoja.",
-      privacyPolicyDescription: "Välitämme tietosuojasta ja -turvallisuudesta. Tutustu {policy}. Sivuston käyttäminen edellyttää tietosuojakäytäntöön sitoutumista. Sivusto sijaitsee Yhdysvalloissa. Käyttäessäsi sivustoa muulta alueelta, jossa henkilötietojen keräämistä, käyttöä tai luovuttamista koskevat erilaiset lait, tietosi siirretään Yhdysvaltoihin. Hyväksyt tietojesi siirron ja käsittelyn Yhdysvalloissa.",
-      contactDescription: "Jos sinulla on kysyttävää käyttöehdoista, ota yhteyttä {at} {email}.",
-      "companyDefinitionA": 'Kun sanomme tässä asiakirjassa \"Yritys\", \"me\", \"meidän\" tai \"meitä\", viittaamme {NeverCap}-yritykseen.'
-},
-    Blog: {
-          Hero: {
-            "title": "Ryhdy",
-            "highlighted_text": "Transkriptio-ohjattu",
-            "description": "{NeverCap}:n tutoriaaleja, strategioita ja tekoälytyökaluja, jotka auttavat sinua luomaan rajattomasti sisältöä ammattimaisten transkriptiotyönkulkujen avulla."
-          },
-          Featured: {
-            FeaturedGuide: "Esittelyssä opas",
-            ReadFullGuide: "Lue koko opas"
-          },
-          ListSection: {
-            title: "Uusin",
-            highlighted_text: "Artikkelit",
-            subtitle: "Asiantuntijan vinkkejä ja ohjeita rajattomaan transkriptioon",
-            categories: [
-              "Kaikki viestit",
-              "Opastusohjelmat",
-              "Podcasting",
-              "Sisällöntuotanto",
-              "Liiketoiminta",
-              "Tekoälyvinkkejä"
-            ]
-          },
-          Detail: {
-            Home: "Kotiin",
-            Blog: "Blogi",
-            GoToSignup: "Kokeile NeverCapia ilmaiseksi – Ei luottokorttia",
-            HowWorks: "Katso, miten se toimii"
-          }
-        }
+    trademarkProtection: "Palveluiden nimet, ulkoasu ja ilmiasma ovat yrityksen tekijänoikeussuojattuja. Kaikki oikeudet pidätetään. HTML-, CSS-, JavaScript- tai visuaalisten suunnitteluelementtien monistaminen, kopioiminen tai uudelleenkäyttö ilman yrityksen kirjallista lupaa on kielletty. Logojen käyttöön markkinointitarkoituksessa vaaditaan erillinen lupa. Lähetä logojen käyttölupykyselyt sähköpostitse osoitteeseen {at} {email}. Meillä on oikeus peruuttaa lupa, jos rikot käyttöehtoja.",
+    privacyPolicyDescription: "Välitämme tietosuojasta ja -turvallisuudesta. Tutustu {policy}. Sivuston käyttäminen edellyttää tietosuojakäytäntöön sitoutumista. Sivusto sijaitsee Yhdysvalloissa. Käyttäessäsi sivustoa muulta alueelta, jossa henkilötietojen keräämistä, käyttöä tai luovuttamista koskevat erilaiset lait, tietosi siirretään Yhdysvaltoihin. Hyväksyt tietojesi siirron ja käsittelyn Yhdysvalloissa.",
+    contactDescription: "Jos sinulla on kysyttävää käyttöehdoista, ota yhteyttä {at} {email}.",
+    "companyDefinitionA": 'Kun sanomme tässä asiakirjassa "Yritys", "me", "meidän" tai "meitä", viittaamme {NeverCap}-yritykseen.'
+  },
+  Blog: {
+    Hero: {
+      "title": "Ryhdy",
+      "highlighted_text": "Transkriptio-ohjattu",
+      "description": "{NeverCap}:n tutoriaaleja, strategioita ja tekoälytyökaluja, jotka auttavat sinua luomaan rajattomasti sisältöä ammattimaisten transkriptiotyönkulkujen avulla."
+    },
+    Featured: {
+      FeaturedGuide: "Esittelyssä opas",
+      ReadFullGuide: "Lue koko opas"
+    },
+    ListSection: {
+      title: "Uusin",
+      highlighted_text: "Artikkelit",
+      subtitle: "Asiantuntijan vinkkejä ja ohjeita rajattomaan transkriptioon",
+      categories: [
+        "Kaikki viestit",
+        "Opastusohjelmat",
+        "Podcasting",
+        "Sisällöntuotanto",
+        "Liiketoiminta",
+        "Tekoälyvinkkejä"
+      ]
+    },
+    Detail: {
+      Home: "Kotiin",
+      Blog: "Blogi",
+      GoToSignup: "Kokeile NeverCapia ilmaiseksi – Ei luottokorttia",
+      HowWorks: "Katso, miten se toimii"
+    }
+  }
 };
 
 export default defineI18nLocale(async (locale) => {

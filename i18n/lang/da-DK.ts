@@ -656,8 +656,8 @@ let message = {
     uploadWithinHours: "10-timers uploads",
     yourSubscription: "Dit abonnement annulleres den {time}.",
     save: "Spare",
-      freeversion2: "Gratis Plan"
-},
+    freeversion2: "Gratis Plan"
+  },
   // 语言对应关系
   LanguageMap: {
     sysLanguagesMap: {
@@ -1048,8 +1048,8 @@ let message = {
     Resources: "Ressourcer",
     YouTubetoMP4: "YouTube til MP4",
     StartFreeTrial: "Prøv Gratis",
-      Blog: "Blog"
-},
+    Blog: "Blog"
+  },
   Footer: {
     des: "Verdens første virkelig ubegrænsede AI-transskriptionstjeneste. Ingen begrænsninger, ingen grænser, bare frihed til at skabe.",
     Features: "Funktioner",
@@ -1057,20 +1057,20 @@ let message = {
     Company: "Virksomhed",
     featureMenus: ["Ubegrænset Transskription", "Masseupload", "96% Nøjagtighed"],
     useCaseMenus: [
-          "Alle Anvendelsestilfælde",
-          "Podcastværter",
-          "Journalister",
-          "Indholdsskabere",
-          "Forskere",
-          "Forretningshold",
-          "Undervisere"
-        ],
+      "Alle Anvendelsestilfælde",
+      "Podcastværter",
+      "Journalister",
+      "Indholdsskabere",
+      "Forskere",
+      "Forretningshold",
+      "Undervisere"
+    ],
     companyMenus: [
-          "Om os",
-          "Priser",
-          "Privatliv",
-          "Vilkår"
-        ]
+      "Om os",
+      "Priser",
+      "Privatliv",
+      "Vilkår"
+    ]
   },
   Index: {
     Hero: {
@@ -1083,7 +1083,7 @@ let message = {
       NoCap: "Ingen Månedlig Minutgrænse",
       Hour: "10-Timers Filer Understøttet",
       ExploreUseCases: "Udforsk Anvendelsestilfælde",
-        subtitleA: "NeverCaps AI transskriberer video og konverterer lyd til tekst og behandler 50 filer på én gang uden månedlige begrænsninger. Transskription, der virkelig skalerer med dig."
+      subtitleA: "NeverCaps AI transskriberer video og konverterer lyd til tekst og behandler 50 filer på én gang uden månedlige begrænsninger. Transskription, der virkelig skalerer med dig."
     },
     Stats: {
       monthlyMinutes: "Månedlige Minutter",
@@ -1111,7 +1111,7 @@ let message = {
       feat_langs_desc: "Transskriber video og lyd på 100+ sprog, oversæt til 249+. Ingen ekstra gebyrer for forskellige sprog. Globalt indhold, én simpel pris.",
       feat_pro: "Professionelle Funktioner",
       feat_pro_desc: "Ord-niveau tidsstempler til præcis lyd-/videopositionering, nøjagtig taleridentifikation selv under hurtige samtaleskift og perfekt formateret tekst med afsnit, sætninger og tegnsætning til let læsning.",
-        features: "Funktioner"
+      features: "Funktioner"
     },
     UseCases: {
       built_for: "Massetransskription",
@@ -1159,7 +1159,7 @@ let message = {
         "author": "Jessica Park",
         "role": "Freelancejournalist"
       },
-        titleA: "Elsket af mere end 50.000 brugere"
+      titleA: "Elsket af mere end 50.000 brugere"
     },
     PricingPreview: {
       "title": "Transparent prissætning",
@@ -1170,52 +1170,52 @@ let message = {
       "title": "Ofte stillede",
       "titleHighlight": "Spørgsmål",
       "questions": [
-            {
-              "q": "AI-transskription",
-              "question": "Hvad er AI-transskription, og hvordan virker det?",
-              "answer": "AI-transskription er processen med automatisk at konvertere lyd til tekst ved hjælp avanceret kunstig intelligens. Hos NeverCap uploader du blot dine filer, og vores AI transskriberer indholdet med op til 96% nøjagtighed. Vores service er designet til at transskribere videofiler (som MP4, MOV) og lydfiler (som MP3, WAV) til læsbar, redigerbar tekst med talermærkater og tidsstempler."
-            },
-            {
-              "q": "unlimited_policy",
-              "question": "Er det virkelig ubegrænset? Hvad er fangsten?",
-              "answer": "Ja, det er helt ubegrænset! Ingen månedlige minutgrænser, ingen ekstra gebyrer. De eneste begrænsninger er tekniske: enkelte filer kan være op til 10 timer lange eller 5GB i størrelse, og du kan behandle 50 filer ad gangen. Men du kan uploade så mange batches, du vil, hele måneden."
-            },
-            {
-              "q": "accuracy",
-              "question": "Hvor nøjagtig er transskriptionen?",
-              "answer": "Vi garanterer 96% nøjagtighed for klar lyd. Vores AI er trænet på millioner af timers diversificeret indhold og håndterer accenter, fagtermer og flere talere exceptionelt godt. For udfordrende lyd hjælper vores smarte forbedringsfunktioner med at forbedre resultaterne."
-            },
-            {
-              "q": "languages",
-              "question": "Hvilke sprog understøtter I?",
-              "answer": "Vi understøtter transskription i over 100 sprog, herunder engelsk, spansk, mandarin, hindi, arabisk, fransk og mere. Derudover kan du oversætte dine transskriptioner til 249 forskellige sprog, hvilket gør det perfekt til globalt indhold."
-            },
-            {
-              "q": "speed",
-              "question": "Hvor hurtig er transskriptionen?",
-              "answer": "Lynhurtig! En 1-times lydfil behandles typisk på under 5 minutter. Med batchbehandling kan du uploade 50 filer samtidig og lade dem behandle parallelt. De fleste brugere vågner op og opdager, at hele deres bibliotek er transskriberet over natten."
-            },
-            {
-              "q": "cancellation",
-              "question": "Kan jeg annullere når som helst?",
-              "answer": "Absolut! Ingen kontrakter, ingen annulleringsgebyrer. Du kan opgradere, nedgradere eller annullere dit abonnement når som helst fra dit dashboard. Hvis du annullerer, beholder du adgang indtil slutningen af din faktureringsperiode."
-            },
-            {
-              "q": "security",
-              "question": "Er mine data sikre?",
-              "answer": "Din sikkerhed er vores prioritet. Vi er SOC 2-certificerede, bruger 256-bit kryptering til alle data og bruger aldrig dit indhold til at træne vores modeller. Du kan slette dine filer når som helst, og vi sletter dem automatisk efter 30 dage. Overholder GDPR og CCPA."
-            },
-            {
-              "q": "export_formats",
-              "question": "Hvilke eksportformater er tilgængelige?",
-              "answer": "Download dine transskriptioner i det format, du har brug for: PDF, Word (DOCX), Excel, CSV, SRT-undertekster, ren tekst (TXT) og VTT-undertekster. Perfekt til enhver arbejdsgang."
-            },
-            {
-              "q": "file_formats",
-              "question": "Hvilke lyd- og videofiler kan jeg uploade?",
-              "answer": "Vi understøtter stort set alle lyd- og videoformater, du vil støde på: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV og mere. Hvis du kan afspille det, kan vi transskribere det."
-            }
-          ]
+        {
+          "q": "AI-transskription",
+          "question": "Hvad er AI-transskription, og hvordan virker det?",
+          "answer": "AI-transskription er processen med automatisk at konvertere lyd til tekst ved hjælp avanceret kunstig intelligens. Hos NeverCap uploader du blot dine filer, og vores AI transskriberer indholdet med op til 96% nøjagtighed. Vores service er designet til at transskribere videofiler (som MP4, MOV) og lydfiler (som MP3, WAV) til læsbar, redigerbar tekst med talermærkater og tidsstempler."
+        },
+        {
+          "q": "unlimited_policy",
+          "question": "Er det virkelig ubegrænset? Hvad er fangsten?",
+          "answer": "Ja, det er helt ubegrænset! Ingen månedlige minutgrænser, ingen ekstra gebyrer. De eneste begrænsninger er tekniske: enkelte filer kan være op til 10 timer lange eller 5GB i størrelse, og du kan behandle 50 filer ad gangen. Men du kan uploade så mange batches, du vil, hele måneden."
+        },
+        {
+          "q": "accuracy",
+          "question": "Hvor nøjagtig er transskriptionen?",
+          "answer": "Vi garanterer 96% nøjagtighed for klar lyd. Vores AI er trænet på millioner af timers diversificeret indhold og håndterer accenter, fagtermer og flere talere exceptionelt godt. For udfordrende lyd hjælper vores smarte forbedringsfunktioner med at forbedre resultaterne."
+        },
+        {
+          "q": "languages",
+          "question": "Hvilke sprog understøtter I?",
+          "answer": "Vi understøtter transskription i over 100 sprog, herunder engelsk, spansk, mandarin, hindi, arabisk, fransk og mere. Derudover kan du oversætte dine transskriptioner til 249 forskellige sprog, hvilket gør det perfekt til globalt indhold."
+        },
+        {
+          "q": "speed",
+          "question": "Hvor hurtig er transskriptionen?",
+          "answer": "Lynhurtig! En 1-times lydfil behandles typisk på under 5 minutter. Med batchbehandling kan du uploade 50 filer samtidig og lade dem behandle parallelt. De fleste brugere vågner op og opdager, at hele deres bibliotek er transskriberet over natten."
+        },
+        {
+          "q": "cancellation",
+          "question": "Kan jeg annullere når som helst?",
+          "answer": "Absolut! Ingen kontrakter, ingen annulleringsgebyrer. Du kan opgradere, nedgradere eller annullere dit abonnement når som helst fra dit dashboard. Hvis du annullerer, beholder du adgang indtil slutningen af din faktureringsperiode."
+        },
+        {
+          "q": "security",
+          "question": "Er mine data sikre?",
+          "answer": "Din sikkerhed er vores prioritet. Vi er SOC 2-certificerede, bruger 256-bit kryptering til alle data og bruger aldrig dit indhold til at træne vores modeller. Du kan slette dine filer når som helst, og vi sletter dem automatisk efter 30 dage. Overholder GDPR og CCPA."
+        },
+        {
+          "q": "export_formats",
+          "question": "Hvilke eksportformater er tilgængelige?",
+          "answer": "Download dine transskriptioner i det format, du har brug for: PDF, Word (DOCX), Excel, CSV, SRT-undertekster, ren tekst (TXT) og VTT-undertekster. Perfekt til enhver arbejdsgang."
+        },
+        {
+          "q": "file_formats",
+          "question": "Hvilke lyd- og videofiler kan jeg uploade?",
+          "answer": "Vi understøtter stort set alle lyd- og videoformater, du vil støde på: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV og mere. Hvis du kan afspille det, kan vi transskribere det."
+        }
+      ]
     },
     CTASection: {
       "title": "Klar til at bryde fri fra begrænsninger?",
@@ -1329,8 +1329,8 @@ let message = {
       ctaTitle: "Stop Med at Betale for Falsk Ubegrænset",
       ctaSubtitle: "Tilslut dig tusindvis, der er skiftet til virkelig ubegrænset transskription",
       finalCta: "Prøv NeverCap Gratis",
-        heroSubtitle1: "Mens Trint begrænser dig til 50 timer, og Otter begrænser dig til 10 filer om måneden,",
-        heroSubtitle2: "leverer hvad vi rent faktisk lover: ubegrænset transkription uden skjulte begrænsninger."
+      heroSubtitle1: "Mens Trint begrænser dig til 50 timer, og Otter begrænser dig til 10 filer om måneden,",
+      heroSubtitle2: "leverer hvad vi rent faktisk lover: ubegrænset transkription uden skjulte begrænsninger."
     },
     BulkUpload: {
       heroBadgeIcon: "📁",
@@ -1585,9 +1585,9 @@ let message = {
       ctaTitle: "Oplev 96% nøjagtighed",
       ctaSubtitle: "Upload din mest udfordrende lyd og se forskellen",
       finalCta: "Test vores nøjagtighed nu →",
-        languageSectionTitlePart2: "på 12 hovedsprog",
-        comparisonDes1: "Se hvordan",
-        comparisonDes2: "klare sig i forhold til konkurrenterne"
+      languageSectionTitlePart2: "på 12 hovedsprog",
+      comparisonDes1: "Se hvordan",
+      comparisonDes2: "klare sig i forhold til konkurrenterne"
     }
   },
   Pricing: {
@@ -1601,93 +1601,94 @@ let message = {
       "highlighted_text": "Ingen skjulte begrænsninger.",
       "description": "Vælg den plan, der passer til dine behov. Opgrader eller nedgrader når som helst. Ingen binding, ingen overraskelser.",
       "plans": [
-            {
-              "name": "Gratis",
-              "price": "$0",
-              "period": "måned",
-              "discount": "Perfekt til at prøve vores service",
-              "limits": {
-                "title": "Daglige begrænsninger",
-                "items": [
-                  "3 filer/dag (≈90 min totalt/dag)",
-                  "Op til 30 min pr. fil (≤250 MB)",
-                  "Upload 1 fil ad gangen",
-                  "Standard prioritetskø"
-                ]
-              },
-              "features": {
-                "title": "Funktioner",
-                "items": [
-                  "100+ sprog",
-                  "Talermærkater",
-                  "Oversættelse",
-                  "Alle eksportformater"
-                ]
-              },
-              "cta": {
-                "text": "Start gratis. Ingen kreditkort.",
-                "button": "Nuværende abonnement"
-              }
-            },
-            {
-              "name": "Pro Månedlig",
-              "price": "$17.99",
-              "period": "måned",
-              "discount": "$9.99 den første måned",
-              "limits": {
-                "title": "Ingen månedlig begrænsning",
-                "items": [
-                  "Ubegrænset antal minutter",
-                  "Op til 10 timer / 5 GB pr. fil",
-                  "Upload 50 filer på én gang",
-                  "Prioritetskø"
-                ]
-              },
-              "features": {
-                "title": "Alt i Gratis, plus",
-                "items": [
-                  "Ord-niveau tidsstempler",
-                  "Avanceret talergenkendelse",
-                  "Formaterede afsnit & tegnsætning",
-                  "Prioriteret support"
-                ]
-              },
-              "cta": {
-                "text": "Ubegrænsede minutter. Prioriteret hastighed. Batch-upload.",
-                "button": "Bliv Pro"
-              },
-              "badge": "Mest populære"
-            },
-            {
-              "name": "Pro Årlig",
-              "price": "$8,99",
-              "period": "måned",
-              "discount": "Årlig faktura $107.88",
-              "limits": {
-                "title": "Samme som Pro Månedlig",
-                "items": [
-                  "Ubegrænset antal minutter",
-                  "Op til 10 timer / 5 GB pr. fil",
-                  "Upload 50 filer på én gang",
-                  "Prioritetskø"
-                ]
-              },
-              "features": {
-                "title": "Alt i Gratis, plus",
-                "items": [
-                  "Ord-niveau tidsstempler",
-                  "Avanceret talergenkendelse",
-                  "Formaterede afsnit & tegnsætning",
-                  "Prioriteret support"
-                ]
-              },
-              "cta": {
-                "text": "Ubegrænsede minutter. Prioriteret hastighed. Batch-upload.",
-                "button": "Bliv Pro"
-              },
-              "badge": "Bedste Værdi - "
-            }
-          ],
+        {
+          "name": "Gratis",
+          "price": "$0",
+          "period": "måned",
+          "discount": "Perfekt til at prøve vores service",
+          "limits": {
+            "title": "Daglige begrænsninger",
+            "items": [
+              "3 filer om dagen",
+              "Op til 10 timer / 5 GB pr. fil",
+              "Gratis 30-minutters forhåndsvisning af alle transskriptioner",
+              "Upload 1 fil ad gangen",
+              'Standard prioritetskø'
+            ]
+          },
+          "features": {
+            "title": "Funktioner",
+            "items": [
+              "100+ sprog",
+              "Talermærkater",
+              "Oversættelse",
+              "Alle eksportformater"
+            ]
+          },
+          "cta": {
+            "text": "Start gratis. Ingen kreditkort.",
+            "button": "Nuværende abonnement"
+          }
+        },
+        {
+          "name": "Pro Månedlig",
+          "price": "$17.99",
+          "period": "måned",
+          "discount": "$9.99 den første måned",
+          "limits": {
+            "title": "Ingen månedlig begrænsning",
+            "items": [
+              "Ubegrænset antal minutter",
+              "Op til 10 timer / 5 GB pr. fil",
+              "Upload 50 filer på én gang",
+              "Prioritetskø"
+            ]
+          },
+          "features": {
+            "title": "Alt i Gratis, plus",
+            "items": [
+              "Ord-niveau tidsstempler",
+              "Avanceret talergenkendelse",
+              "Formaterede afsnit & tegnsætning",
+              "Prioriteret support"
+            ]
+          },
+          "cta": {
+            "text": "Ubegrænsede minutter. Prioriteret hastighed. Batch-upload.",
+            "button": "Bliv Pro"
+          },
+          "badge": "Mest populære"
+        },
+        {
+          "name": "Pro Årlig",
+          "price": "$8,99",
+          "period": "måned",
+          "discount": "Årlig faktura $107.88",
+          "limits": {
+            "title": "Samme som Pro Månedlig",
+            "items": [
+              "Ubegrænset antal minutter",
+              "Op til 10 timer / 5 GB pr. fil",
+              "Upload 50 filer på én gang",
+              "Prioritetskø"
+            ]
+          },
+          "features": {
+            "title": "Alt i Gratis, plus",
+            "items": [
+              "Ord-niveau tidsstempler",
+              "Avanceret talergenkendelse",
+              "Formaterede afsnit & tegnsætning",
+              "Prioriteret support"
+            ]
+          },
+          "cta": {
+            "text": "Ubegrænsede minutter. Prioriteret hastighed. Batch-upload.",
+            "button": "Bliv Pro"
+          },
+          "badge": "Bedste Værdi - "
+        }
+      ],
       "disclaimer": '"Ubegrænset" betyder ingen månedlig grænse og ingen kunstig nedbremsning. Fair-use gælder for misbrug af automatisering eller redistribution.'
     },
     ComparisonTable: {
@@ -1697,115 +1698,119 @@ let message = {
         "subtitle": "Se præcis, hvad du får med hver plan. Ingen skjulte begrænsninger."
       },
       "plans": [
-              "Funktioner",
-              "Gratis",
-              "Pro Månedlig",
-              "Pro Årlig"
-            ],
+        "Funktioner",
+        "Gratis",
+        "Pro Månedlig",
+        "Pro Årlig"
+      ],
       "features": [
+        {
+          "name": "Pris",
+          "values": [
+            "$0/måned",
             {
-              "name": "Pris",
-              "values": [
-                "$0/måned",
-                {
-                  "main": "$17,99/måned",
-                  "note": "$9,99 første måned"
-                },
-                {
-                  "main": "$8,99/måned",
-                  "note": "Faktureret $107,88/år"
-                }
-              ]
+              "main": "$17,99/måned",
+              "note": "$9,99 første måned"
             },
             {
-              "name": "Månedlige minutter",
-              "values": ["~2.700 (90/dag)", "Ubegrænset", "Ubegrænset"]
-            },
-            {
-              "name": "Maks filvarighed",
-              "values": ["30 minutter", "10 timer", "10 timer"]
-            },
-            {
-              "name": "Maks filstørrelse",
-              "values": ["250 MB", "5 GB", "5 GB"]
-            },
-            {
-              "name": "Batch-upload",
-              "values": ["1 fil", "50 filer", "50 filer"]
-            },
-            {
-              "name": "Behandlingshastighed",
-              "values": ["Standard", "Prioriteret", "Prioriteret"]
-            },
-            {
-              "name": "Understøttede sprog",
-              "values": ["100+ sprog", "100+ sprog", "100+ sprog"]
-            },
-            {
-              "name": "Oversættelse",
-              "values": ["true", "true", "true"]
-            },
-            {
-              "name": "Taleridentifikation",
-              "values": ["Basis", "Avanceret (20 talere)", "Avanceret (20 talere)"]
-            },
-            {
-              "name": "Tidsstempler på ordniveau",
-              "values": ["false", "true", "true"]
-            },
-            {
-              "name": "Formaterede afsnit",
-              "values": ["false", "true", "true"]
-            },
-            {
-              "name": "Eksportformater",
-              "values": ["Alle formater", "Alle formater", "Alle formater"]
-            },
-            {
-              "name": "Support",
-              "values": ["E-mail", "Prioriteret e-mail", "Prioriteret e-mail"]
-            },
-            {
-              "name": "Databevaring",
-              "values": ["30 dage", "For evigt", "For evigt"]
+              "main": "$8,99/måned",
+              "note": "Faktureret $107,88/år"
             }
           ]
+        },
+        {
+          "name": "Daglig filgrænse",
+          "values": ["3 filer/dag", "Ubegrænset", "Ubegrænset"]
+        },
+        {
+          "name": "Maksimal filvarighed",
+          "values": ["10 timer", "10 timer", "10 timer"]
+        },
+        {
+          "name": "Maksimal filstørrelse",
+          "values": ["5 GB", "5 GB", "5 GB"]
+        },
+        {
+          "name": "Adgang til transskription",
+          "values": ["Første 30 minutters forhåndsvisning", "Fuld transskription", "Fuld transskription"]
+        },
+        {
+          "name": "Batch-upload",
+          "values": ["1 fil", "50 filer", "50 filer"]
+        },
+        {
+          "name": "Behandlingshastighed",
+          "values": ["Standard", "Prioriteret", "Prioriteret"]
+        },
+        {
+          "name": "Understøttede sprog",
+          "values": ["100+ sprog", "100+ sprog", "100+ sprog"]
+        },
+        {
+          "name": "Oversættelse",
+          "values": ["true", "true", "true"]
+        },
+        {
+          "name": "Taleridentifikation",
+          "values": ["Basis", "Avanceret (20 talere)", "Avanceret (20 talere)"]
+        },
+        {
+          "name": "Tidsstempler på ordniveau",
+          "values": ["false", "true", "true"]
+        },
+        {
+          "name": "Formaterede afsnit",
+          "values": ["false", "true", "true"]
+        },
+        {
+          "name": "Eksportformater",
+          "values": ["Alle formater", "Alle formater", "Alle formater"]
+        },
+        {
+          "name": "Support",
+          "values": ["E-mail", "Prioriteret e-mail", "Prioriteret e-mail"]
+        },
+        {
+          "name": "Databevaring",
+          "values": ["30 dage", "For evigt", "For evigt"]
+        }
+      ]
     },
     FAQ: {
       "title": "Ofte stillede",
       "titleHighligt": "Spørgsmål",
       "items": [
-            {
-              "q": "unlimited_policy",
-              "question": "Er det virkelig ubegrænset?",
-              "answer": "Ja! Pro-planer har ingen månedlige minutgrænser. De eneste begrænsninger er tekniske: maksimal filvarighed på 10 timer og filstørrelse på 5GB. Du kan behandle så mange filer, du har brug for."
-            },
-            {
-              "q": "plan_change",
-              "question": "Kan jeg skifte plan når som helst?",
-              "answer": "Absolut! Du kan annullere dit abonnement når som helst fra dit dashboard. Opgrader eller nedgrader, når du har brug for det."
-            },
-            {
-              "q": "payment_methods",
-              "question": "Hvilke betalingsmetoder accepterer I?",
-              "answer": "Vi accepterer alle større kreditkort, betalingskort og PayPal til sikre og problemfri betalinger."
-            },
-            {
-              "q": "free_trial",
-              "question": "Er der en gratis prøveperiode for Pro?",
-              "answer": "Ja! Prøv Pro gratis i 7 dage, ingen kreditkort nødvendigt. Plus, få din første måned med 45% rabat, når du abonnerer."
-            },
-            {
-              "q": "file_retention",
-              "question": "Hvor længe gemmer I mine filer?",
-              "answer": "Gratisplan: 30 dage. Pro-planer: For evigt! Dine transskriptioner er altid tilgængelige i din konto."
-            },
-            {
-              "q": "data_security",
-              "question": "Hvad med datasikkerhed?",
-              "answer": "Vi er SOC 2-certificerede og bruger 256-bit kryptering. Vi bruger aldrig dit indhold til at træne vores modeller. Dine data tilhører dig."
-            }
-          ]
+        {
+          "q": "unlimited_policy",
+          "question": "Er det virkelig ubegrænset?",
+          "answer": "Ja! Pro-planer har ingen månedlige minutgrænser. De eneste begrænsninger er tekniske: maksimal filvarighed på 10 timer og filstørrelse på 5GB. Du kan behandle så mange filer, du har brug for."
+        },
+        {
+          "q": "plan_change",
+          "question": "Kan jeg skifte plan når som helst?",
+          "answer": "Absolut! Du kan annullere dit abonnement når som helst fra dit dashboard. Opgrader eller nedgrader, når du har brug for det."
+        },
+        {
+          "q": "payment_methods",
+          "question": "Hvilke betalingsmetoder accepterer I?",
+          "answer": "Vi accepterer alle større kreditkort, betalingskort og PayPal til sikre og problemfri betalinger."
+        },
+        {
+          "q": "free_trial",
+          "question": "Er der en gratis prøveperiode for Pro?",
+          "answer": "Ja! Prøv Pro gratis i 7 dage, ingen kreditkort nødvendigt. Plus, få din første måned med 45% rabat, når du abonnerer."
+        },
+        {
+          "q": "file_retention",
+          "question": "Hvor længe gemmer I mine filer?",
+          "answer": "Gratisplan: 30 dage. Pro-planer: For evigt! Dine transskriptioner er altid tilgængelige i din konto."
+        },
+        {
+          "q": "data_security",
+          "question": "Hvad med datasikkerhed?",
+          "answer": "Vi er SOC 2-certificerede og bruger 256-bit kryptering. Vi bruger aldrig dit indhold til at træne vores modeller. Dine data tilhører dig."
+        }
+      ]
     },
     CTA: {
       "title": "Klar til at gå Unlimited?",
@@ -2022,7 +2027,7 @@ let message = {
         subtitle: "Tilslut dig 50.000+ professionelle, der stoppede med at tælle minutter og begyndte at skabe",
         button: "Start din ubegrænsede rejse →"
       },
-        heroSubtitleA: "Fra podcastere med mange års efterslæb til forskere med hundredvis af interviews. Se, hvordan professionelle bruger {NeverCap} til at bryde fri fra uploadgrænser og minutbegrænsninger."
+      heroSubtitleA: "Fra podcastere med mange års efterslæb til forskere med hundredvis af interviews. Se, hvordan professionelle bruger {NeverCap} til at bryde fri fra uploadgrænser og minutbegrænsninger."
     },
     Podcasters: {
       badge: "Skabt til Podcast-værter",
@@ -2192,7 +2197,7 @@ let message = {
       ctaSubtitle: "Tilslut dig 10.000+ podcasters, der aldrig bekymrer sig om begrænsninger",
       ctaButton: "Upload Dine Første 50 Episoder Gratis →",
       ctaDisclaimer: "Ingen kreditkort nødvendig • Behandle ubegrænsede episoder • Annuller når som helst",
-        solutionDescriptionA: "Med {NeverCap} får du ægte ubegrænset transskription. Upload hele dit arkiv. Transskriber alle nye episoder. Generer shownoter i stor skala. Ingen begrænsninger, ingen grænser, kun vækst."
+      solutionDescriptionA: "Med {NeverCap} får du ægte ubegrænset transskription. Upload hele dit arkiv. Transskriber alle nye episoder. Generer shownoter i stor skala. Ingen begrænsninger, ingen grænser, kun vækst."
     },
     Journalists: {
       hero: {
@@ -2264,7 +2269,7 @@ let message = {
         solution: {
           title: "The",
           titleHighlight: "NeverCap-løsningen",
-            descriptionA: "Med {NeverCap} får du ægte ubegrænset transskription. Upload hele din undersøgelse. Transskriber alle interviews. Søg i alle citater med det samme. Ingen store bogstaver, ingen begrænsninger, kun journalistik."
+          descriptionA: "Med {NeverCap} får du ægte ubegrænset transskription. Upload hele din undersøgelse. Transskriber alle interviews. Søg i alle citater med det samme. Ingen store bogstaver, ingen begrænsninger, kun journalistik."
         }
       },
       solution: {
@@ -2324,20 +2329,20 @@ let message = {
               }
             }
           },
-            ironclad: {
-                  label: "Kildebeskyttelse",
-                  title: "Jernfast kildebeskyttelse",
-                  description: "Vi tilbyder robuste sikkerhedsfunktioner til at beskytte dine følsomme interviewdata og fortrolige kilder. Bankniveau kryptering sikrer dine undersøgelser.",
-                  points: {
-                    accuracyGuarantee: "End-to-end-kryptering",
-                    handlesAccents: "Automatiske filsletningsmuligheder",
-                    smartPunctuation: "GDPR & privatlivskompatibel"
-                  },
-                  visual: {
-                    accuracy: "🔒",
-                    label: "Maksimal sikkerhed"
-                  }
-                }
+          ironclad: {
+            label: "Kildebeskyttelse",
+            title: "Jernfast kildebeskyttelse",
+            description: "Vi tilbyder robuste sikkerhedsfunktioner til at beskytte dine følsomme interviewdata og fortrolige kilder. Bankniveau kryptering sikrer dine undersøgelser.",
+            points: {
+              accuracyGuarantee: "End-to-end-kryptering",
+              handlesAccents: "Automatiske filsletningsmuligheder",
+              smartPunctuation: "GDPR & privatlivskompatibel"
+            },
+            visual: {
+              accuracy: "🔒",
+              label: "Maksimal sikkerhed"
+            }
+          }
         }
       },
       features: {
@@ -2420,8 +2425,8 @@ let message = {
             label: "Platforme"
           }
         },
-          subtitleA: "Uanset om du har brug for at transskribere en YouTube-video, transskribere en TikTok-video til genbrug eller finde ud af, hvordan du transskriberer en Facebook-video til tekst, håndterer {NeverCap} det hele problemfrit. Generer undertekster på over 100 sprog uden månedlige begrænsninger – bare ren kreativ frihed."
-    },
+        subtitleA: "Uanset om du har brug for at transskribere en YouTube-video, transskribere en TikTok-video til genbrug eller finde ud af, hvordan du transskriberer en Facebook-video til tekst, håndterer {NeverCap} det hele problemfrit. Generer undertekster på over 100 sprog uden månedlige begrænsninger – bare ren kreativ frihed."
+      },
       platforms: {
         title: "Hent & Transskriber fra Enhver Platform",
         platformNames: {
@@ -2434,9 +2439,9 @@ let message = {
           tiktok: "TikTok",
           instagram: "Instagram"
         },
-          titleMax: "Transskriber Videoer fra",
-          titleMaxHighlight: "Enhver Platform"
-    },
+        titleMax: "Transskriber Videoer fra",
+        titleMaxHighlight: "Enhver Platform"
+      },
       features: {
         title: "Alt hvad du har brug for til at",
         titleHighlight: "Skaler Indhold",
@@ -2558,29 +2563,29 @@ let message = {
         subtitle: "Tilslut dig 50.000+ skabere, der stoppede med at tælle minutter og begyndte at skabe",
         button: "Start Ubegrænset Undertekstning →"
       },
-        FAQSection: {
-              "title": "Dine Transskriptionsspørgsmål,",
-              "titleHighlight": "Besvaret",
-              subtitle: "Alt hvad du behøver at vide om at transskribere videoer fra forskellige platforme",
-              "questions": [
-                    {
-                      "question": "Q: Hvordan transskriberer jeg en YouTube-video med NeverCap?",
-                      "answer": "Det er enkelt. Find bare den YouTube-video, du vil transskribere, kopier dens URL, og indsæt den i vores app. Vores AI vil automatisk hente videoen og levere en fuld teksttransskription på få minutter."
-                    },
-                    {
-                      "question": "Q: Hvad er den bedste måde at transskribere en Facebook-video til tekst?",
-                      "answer": "Den nemmeste måde er at bruge et direkte link. Kopier URL'en for Facebook-videoen, og vores platform håndterer resten, konverterer talen til tekst med op til 96% nøjagtighed og sparer dig for manuel transskription."
-                    },
-                    {
-                      "question": "Q: Kan jeg transskribere TikTok- og Instagram-videoer?",
-                      "answer": "Absolut. Vi understøtter transskription for både TikTok- og Instagram-videoer. Dette er perfekt til indholdsskabere, der vil genbruge deres kortformatsvideoindhold til blogindlæg, artikler eller tekstbaserede sociale medieopdateringer."
-                    },
-                    {
-                      "question": "Q: Hvordan transskriberer jeg en Vimeo-video til tekst?",
-                      "answer": "Transskription af Vimeo-videoer er lige så nemt som på enhver anden platform. Bare kopier Vimeo-videoens URL og indsæt den i NeverCap. Vores AI behandler videoen og genererer en præcis teksttransskription, som du kan downloade i flere formater."
-                    }
-                  ]
-            }
+      FAQSection: {
+        "title": "Dine Transskriptionsspørgsmål,",
+        "titleHighlight": "Besvaret",
+        subtitle: "Alt hvad du behøver at vide om at transskribere videoer fra forskellige platforme",
+        "questions": [
+          {
+            "question": "Q: Hvordan transskriberer jeg en YouTube-video med NeverCap?",
+            "answer": "Det er enkelt. Find bare den YouTube-video, du vil transskribere, kopier dens URL, og indsæt den i vores app. Vores AI vil automatisk hente videoen og levere en fuld teksttransskription på få minutter."
+          },
+          {
+            "question": "Q: Hvad er den bedste måde at transskribere en Facebook-video til tekst?",
+            "answer": "Den nemmeste måde er at bruge et direkte link. Kopier URL'en for Facebook-videoen, og vores platform håndterer resten, konverterer talen til tekst med op til 96% nøjagtighed og sparer dig for manuel transskription."
+          },
+          {
+            "question": "Q: Kan jeg transskribere TikTok- og Instagram-videoer?",
+            "answer": "Absolut. Vi understøtter transskription for både TikTok- og Instagram-videoer. Dette er perfekt til indholdsskabere, der vil genbruge deres kortformatsvideoindhold til blogindlæg, artikler eller tekstbaserede sociale medieopdateringer."
+          },
+          {
+            "question": "Q: Hvordan transskriberer jeg en Vimeo-video til tekst?",
+            "answer": "Transskription af Vimeo-videoer er lige så nemt som på enhver anden platform. Bare kopier Vimeo-videoens URL og indsæt den i NeverCap. Vores AI behandler videoen og genererer en præcis teksttransskription, som du kan downloade i flere formater."
+          }
+        ]
+      }
     },
     Researchers: {
       heroBadge: "Bygget til Akademisk Excellence",
@@ -2664,23 +2669,23 @@ let message = {
       ctaTitle: "Stop med at Vælge, Hvilke Data der skal Analyseres",
       ctaSubtitle: "Tilslut dig 50.000+ forskere, der transskriberer alt",
       ctaButton: "Prøv NeverCap Gratis",
-        problemTitle2: "ForskningsTransskriptionsProblemet",
-        title: "The",
-        useCasesTitle2: "Enhver Forskningsmetode",
-        testimonialTitle2: "Førende Forskere",
-        feature1TitleHl: "Hele forskningsprojekt",
-        feature1TitlePost: "Alt på ét sted",
-        feature2TitleHl: "Fokusgruppeinterview",
-        feature2TitlePost: "Succes hver gang",
-        feature3TitleHl: "96% nøjagtighed",
-        feature4TitleHl: "Sikkerhed",
-        testimonialText2Hl: "200 timer",
-        testimonialText3: "af fokusgruppeoptagelser fra vores samfundssundhedsundersøgelse. Andre tjenester bad os vælge hvilke sessioner der skulle transskriberes på grund af omkostningerne. NeverCap lod os behandle",
-        testimonialText4Hl: "alt i løbet af en weekend",
-        testimonialText5: ". 20-talshøjttaleridentifikationen fungerede faktisk - selv under vores mest rodede diskussioner hvor alle talte på én gang. Dette værktøj har",
-        testimonialText6Hl: "helt ændret",
-        testimonialText7: "hvordan vi håndterer kvalitative data.",
-        solutionDescA: "Med {NeverCap} får du ægte ubegrænset transskription. Upload hele din undersøgelse. Transskriber alle interviews. Analysér alle dine data. Ingen begrænsninger, ingen begrænsninger, kun research."
+      problemTitle2: "ForskningsTransskriptionsProblemet",
+      title: "The",
+      useCasesTitle2: "Enhver Forskningsmetode",
+      testimonialTitle2: "Førende Forskere",
+      feature1TitleHl: "Hele forskningsprojekt",
+      feature1TitlePost: "Alt på ét sted",
+      feature2TitleHl: "Fokusgruppeinterview",
+      feature2TitlePost: "Succes hver gang",
+      feature3TitleHl: "96% nøjagtighed",
+      feature4TitleHl: "Sikkerhed",
+      testimonialText2Hl: "200 timer",
+      testimonialText3: "af fokusgruppeoptagelser fra vores samfundssundhedsundersøgelse. Andre tjenester bad os vælge hvilke sessioner der skulle transskriberes på grund af omkostningerne. NeverCap lod os behandle",
+      testimonialText4Hl: "alt i løbet af en weekend",
+      testimonialText5: ". 20-talshøjttaleridentifikationen fungerede faktisk - selv under vores mest rodede diskussioner hvor alle talte på én gang. Dette værktøj har",
+      testimonialText6Hl: "helt ændret",
+      testimonialText7: "hvordan vi håndterer kvalitative data.",
+      solutionDescA: "Med {NeverCap} får du ægte ubegrænset transskription. Upload hele din undersøgelse. Transskriber alle interviews. Analysér alle dine data. Ingen begrænsninger, ingen begrænsninger, kun research."
     },
     BusinessTeams: {
       heroBadge: "Til Forretningshold",
@@ -2753,9 +2758,9 @@ let message = {
       ctaTitle: "Stop med at miste vigtige samtaler",
       ctaSubtitle: "Tilslut dig tusindvis af teams, der fanger hvert møde med ubegrænset transskription",
       ctaButton: "Start optagelse gratis →",
-        featuresTitle2: "Møde",
-        workflowTitle2: "Zoom-optagelse til tekst",
-        heroSubtitleA: "Optag møder direkte i din browser, eller upload lydfiler med det samme. Opbyg søgbare arkiver fra ubegrænsede samtaler. Mist aldrig vigtige diskussioner igen med virkelig ubegrænset transskription fra {NeverCap}."
+      featuresTitle2: "Møde",
+      workflowTitle2: "Zoom-optagelse til tekst",
+      heroSubtitleA: "Optag møder direkte i din browser, eller upload lydfiler med det samme. Opbyg søgbare arkiver fra ubegrænsede samtaler. Mist aldrig vigtige diskussioner igen med virkelig ubegrænset transskription fra {NeverCap}."
     },
     Educators: {
       heroBadge: "Til undervisere & lærere",
@@ -2837,11 +2842,11 @@ let message = {
       ctaTitle: "Gør Alt Dit Uddannelsesindhold Tilgængeligt",
       ctaSubtitle: "Tilslut dig tusindvis af undervisere, der bruger virkelig ubegrænset transskription",
       ctaButton: "Prøv NeverCap Gratis",
-        featuresTitle2: "Videotransskription",
-        grid: "Lydfil til studievejledning",
-        useCasesTitle2: "Uddannelsesbehov",
-        testimonialTitle2: "50.000+ Undervisere",
-        testimonialTextA: '"Jeg har brugt {NeverCap} til at transskribere hele min YouTube-kanal med matematikvejledninger. Det, der plejede at tage uger med andre tjenester, tager nu timer. Muligheden for at indsætte links direkte og få øjeblikkelige transskriptioner har transformeret den måde, jeg skaber tilgængeligt indhold på. Mine internationale studerende elsker især de flersprogede undertekster!"'
+      featuresTitle2: "Videotransskription",
+      grid: "Lydfil til studievejledning",
+      useCasesTitle2: "Uddannelsesbehov",
+      testimonialTitle2: "50.000+ Undervisere",
+      testimonialTextA: '"Jeg har brugt {NeverCap} til at transskribere hele min YouTube-kanal med matematikvejledninger. Det, der plejede at tage uger med andre tjenester, tager nu timer. Muligheden for at indsætte links direkte og få øjeblikkelige transskriptioner har transformeret den måde, jeg skaber tilgængeligt indhold på. Mine internationale studerende elsker især de flersprogede undertekster!"'
     }
   },
   Resources: {
@@ -2858,132 +2863,132 @@ let message = {
       part2: {
         "title": "Sådan omdanner du en YouTube-video til en downloadbar MP4-fil i 3 nemme trin",
         "steps": [
-                {
-                  title: "Kopier URL'en",
-                  content: "Åbn din YouTube-video, og kopier linket fra browserens adresselinje."
-                },
-                {
-                  title: "Indsæt linket",
-                  content: "Gå til dit videohentningsværktøj og indsæt URL'en i indtastningsfeltet."
-                },
-                {
-                  title: "Download MP4'en",
-                  content: "Når behandlingen er færdig, skal du trykke på download-knappen for at gemme din MP4-fil."
-                }
-              ]
+          {
+            title: "Kopier URL'en",
+            content: "Åbn din YouTube-video, og kopier linket fra browserens adresselinje."
+          },
+          {
+            title: "Indsæt linket",
+            content: "Gå til dit videohentningsværktøj og indsæt URL'en i indtastningsfeltet."
+          },
+          {
+            title: "Download MP4'en",
+            content: "Når behandlingen er færdig, skal du trykke på download-knappen for at gemme din MP4-fil."
+          }
+        ]
       },
       part3: {
         content: [
-                "Har du nogensinde haft brug for at se YouTube-videoer offline?",
-                "Uanset om du pendler i metroen, flyver i et fly, studerer en vigtig vejledning, dykker ned i færdighedsbyggende indhold eller arkiverer vigtigt videomateriale – er pålidelig offline-adgang en almindelig frustration. Det er her, vores downloader skinner.",
-                "Downloaderen lader dig hurtigt og nemt konvertere YouTube-videoer til MP4-format til download. Gem dem på din enhed, og se dem når som helst.",
-                "Processen er hurtig, enkel og problemfri. Når den er downloadet, kan du nyde dine yndlingsvideoer, når og hvor du er – ingen internetforbindelse nødvendig."
-              ]
+          "Har du nogensinde haft brug for at se YouTube-videoer offline?",
+          "Uanset om du pendler i metroen, flyver i et fly, studerer en vigtig vejledning, dykker ned i færdighedsbyggende indhold eller arkiverer vigtigt videomateriale – er pålidelig offline-adgang en almindelig frustration. Det er her, vores downloader skinner.",
+          "Downloaderen lader dig hurtigt og nemt konvertere YouTube-videoer til MP4-format til download. Gem dem på din enhed, og se dem når som helst.",
+          "Processen er hurtig, enkel og problemfri. Når den er downloadet, kan du nyde dine yndlingsvideoer, når og hvor du er – ingen internetforbindelse nødvendig."
+        ]
       },
       part4: {
         content: ["Her er de 5 største fordele ved at downloade", "YouTube-videoer som MP4-filer"],
         list: [
-                {
-                  title: "Spar på datakostnader:",
-                  content: "Normalt forbruger det betydelig mobildata at se videoer på YouTube. Ved at downloade til offlineafspilning kan du undgå disse unødvendige omkostninger."
-                },
-                {
-                  title: "Se hvor som helst, når som helst:",
-                  content: "Nyd dine videoer problemfrit, selv med ustabil internetforbindelse. Ingen buffering at bekymre sig om."
-                },
-                {
-                  title: "Nem arkivering og opbevaring:",
-                  content: "At gemme videoer som MP4-filer gør det nemt at opbygge din personlige samling, især for indhold, du finder virkelig værdifuldt eller vigtigt."
-                },
-                {
-                  title: "Nemmere deling:",
-                  content: "Det er meget mere bekvemt at dele en MP4-fil end at sende et link. Du kan sende videofilen direkte via apps som WhatsApp eller Instagram og undgå det ekstra trin med at åbne YouTube."
-                },
-                {
-                  title: "Øjeblikkelig visning, delte øjeblikke:",
-                  content: "Vil du glædeligt vise en yndlingsvideo til venner eller familie i nærheden? Med MP4'en downloadet kan I alle se den glat sammen med det samme uden akavede pauser, mens den loader."
-                }
-              ]
+          {
+            title: "Spar på datakostnader:",
+            content: "Normalt forbruger det betydelig mobildata at se videoer på YouTube. Ved at downloade til offlineafspilning kan du undgå disse unødvendige omkostninger."
+          },
+          {
+            title: "Se hvor som helst, når som helst:",
+            content: "Nyd dine videoer problemfrit, selv med ustabil internetforbindelse. Ingen buffering at bekymre sig om."
+          },
+          {
+            title: "Nem arkivering og opbevaring:",
+            content: "At gemme videoer som MP4-filer gør det nemt at opbygge din personlige samling, især for indhold, du finder virkelig værdifuldt eller vigtigt."
+          },
+          {
+            title: "Nemmere deling:",
+            content: "Det er meget mere bekvemt at dele en MP4-fil end at sende et link. Du kan sende videofilen direkte via apps som WhatsApp eller Instagram og undgå det ekstra trin med at åbne YouTube."
+          },
+          {
+            title: "Øjeblikkelig visning, delte øjeblikke:",
+            content: "Vil du glædeligt vise en yndlingsvideo til venner eller familie i nærheden? Med MP4'en downloadet kan I alle se den glat sammen med det samme uden akavede pauser, mens den loader."
+          }
+        ]
       },
       part5: {
         title: "Hvorfor vores downloader skiller sig ud",
         cards: [
-                {
-                  title: "En-kliks enkelhed",
-                  content: "Problemløs opsætning og intuitiv betjening."
-                },
-                {
-                  title: "Lynhurtig, ubegrænset",
-                  content: "Konverter og download med topspeed – ingen begrænsninger."
-                },
-                {
-                  title: "Konverter på farten",
-                  content: "Behandler dine filer med det samme – ingen ventetid."
-                },
-                {
-                  title: "Ingen annoncer, ingen distraktioner",
-                  content: "Nyd et rent interface uden pop-ups, bannere eller afbrydelser – bare problemfri videokonvertering."
-                },
-                {
-                  icon: "5",
-                  color: "#DEE5FF",
-                  title: "Originalkvalitet garanteret",
-                  content: "Dine downloads bevarer kildens fulde opløsning for pixelperfekt afspilning hver gang."
-                },
-                {
-                  icon: "6",
-                  color: "#DEF6EE",
-                  title: "Fungerer overalt",
-                  content: "Fuldt kompatibel med enhver browser på enhver enhed."
-                }
-              ]
+          {
+            title: "En-kliks enkelhed",
+            content: "Problemløs opsætning og intuitiv betjening."
+          },
+          {
+            title: "Lynhurtig, ubegrænset",
+            content: "Konverter og download med topspeed – ingen begrænsninger."
+          },
+          {
+            title: "Konverter på farten",
+            content: "Behandler dine filer med det samme – ingen ventetid."
+          },
+          {
+            title: "Ingen annoncer, ingen distraktioner",
+            content: "Nyd et rent interface uden pop-ups, bannere eller afbrydelser – bare problemfri videokonvertering."
+          },
+          {
+            icon: "5",
+            color: "#DEE5FF",
+            title: "Originalkvalitet garanteret",
+            content: "Dine downloads bevarer kildens fulde opløsning for pixelperfekt afspilning hver gang."
+          },
+          {
+            icon: "6",
+            color: "#DEF6EE",
+            title: "Fungerer overalt",
+            content: "Fuldt kompatibel med enhver browser på enhver enhed."
+          }
+        ]
       },
       part6: {
         title: ["Maksimer dine YouTube-videodownloads", "Med Downloaderen"],
         content: [
-                "Problemløs YouTube til MP4-konvertering: Hurtig, enkel og gratis.",
-                "Det er her, vi udmærker os. Vores brugervenlige interface er designet til alle – ingen tekniske færdigheder nødvendige. Uanset din erfaring kan du konvertere videoer med det samme. Ingen tilmelding nødvendig: Få præcis, hvad du har brug for, med det samme.",
-                "Vær rolig – dine downloadede MP4-filer bevarer den originale videokvalitet og klarhed, nøjagtigt som du så dem på YouTube.",
-                "Fungerer overalt, hvor du gør. Fuldt kompatibel på alle større platforme og enheder. Uanset om du bruger Windows, macOS, Linux, Android eller iOS – på smartphone, tablet eller computer – kan du downloade videoer problemfrit."
-              ]
+          "Problemløs YouTube til MP4-konvertering: Hurtig, enkel og gratis.",
+          "Det er her, vi udmærker os. Vores brugervenlige interface er designet til alle – ingen tekniske færdigheder nødvendige. Uanset din erfaring kan du konvertere videoer med det samme. Ingen tilmelding nødvendig: Få præcis, hvad du har brug for, med det samme.",
+          "Vær rolig – dine downloadede MP4-filer bevarer den originale videokvalitet og klarhed, nøjagtigt som du så dem på YouTube.",
+          "Fungerer overalt, hvor du gør. Fuldt kompatibel på alle større platforme og enheder. Uanset om du bruger Windows, macOS, Linux, Android eller iOS – på smartphone, tablet eller computer – kan du downloade videoer problemfrit."
+        ]
       },
       part7: {
         title: "Nøglespørgsmål om download af YouTube-videoer",
         list: [
-                {
-                  question: "Kan jeg downloade en YouTube-video, hvis den er ophavsretsbeskyttet?",
-                  answer: "Det er ulovligt at downloade ophavsretsbeskyttede YouTube-videoer uden ophavsretshaverens tilladelse."
-                },
-                {
-                  question: "Er dette downloadværktøj sikkert?",
-                  answer: "Ja, det er sikkert og pålideligt. Vi kræver ikke personlige oplysninger fra brugerne og tager stærke forholdsregler mod virus. Vi minder dig om altid at være forsigtig, når du downloader filer fra internettet: Undgå at klikke på mistænkelige links eller downloade tvivlsomme filer."
-                },
-                {
-                  question: "Hvilke sprog understøtter YouTube til MP4-download?",
-                  answer: "Vores service understøtter download af YouTube-videoer på alle populære sprog."
-                },
-                {
-                  question: "Hvilke faktorer påvirker tiden det tager at downloade en YouTube-video?",
-                  answer: "Selvom vi sikrer den hurtigst mulige downloadoplevelse, påvirkes downloadtiden også af faktorer som videolængde og din internetforbindelses hastighed."
-                },
-                {
-                  question: "Hvor bliver MP4-videoen gemt, når jeg downloader den på min smartphone?",
-                  answer: 'Efter at have downloadet en MP4-fil på din smartphone, kan du normalt finde den i mappen "Downloads" i din enheds filhåndteringsapp.'
-                },
-                {
-                  question: "Reducerer download af en YouTube-video som MP4 videokvaliteten?",
-                  answer: "Nej. Download af YouTube-videoer som MP4 med vores værktøj bevarer den originale videokvalitet. Konverteringsprocessen bevarer kildens kvalitet, så du får den samme visningsoplevelse som på YouTube."
-                }
-              ]
+          {
+            question: "Kan jeg downloade en YouTube-video, hvis den er ophavsretsbeskyttet?",
+            answer: "Det er ulovligt at downloade ophavsretsbeskyttede YouTube-videoer uden ophavsretshaverens tilladelse."
+          },
+          {
+            question: "Er dette downloadværktøj sikkert?",
+            answer: "Ja, det er sikkert og pålideligt. Vi kræver ikke personlige oplysninger fra brugerne og tager stærke forholdsregler mod virus. Vi minder dig om altid at være forsigtig, når du downloader filer fra internettet: Undgå at klikke på mistænkelige links eller downloade tvivlsomme filer."
+          },
+          {
+            question: "Hvilke sprog understøtter YouTube til MP4-download?",
+            answer: "Vores service understøtter download af YouTube-videoer på alle populære sprog."
+          },
+          {
+            question: "Hvilke faktorer påvirker tiden det tager at downloade en YouTube-video?",
+            answer: "Selvom vi sikrer den hurtigst mulige downloadoplevelse, påvirkes downloadtiden også af faktorer som videolængde og din internetforbindelses hastighed."
+          },
+          {
+            question: "Hvor bliver MP4-videoen gemt, når jeg downloader den på min smartphone?",
+            answer: 'Efter at have downloadet en MP4-fil på din smartphone, kan du normalt finde den i mappen "Downloads" i din enheds filhåndteringsapp.'
+          },
+          {
+            question: "Reducerer download af en YouTube-video som MP4 videokvaliteten?",
+            answer: "Nej. Download af YouTube-videoer som MP4 med vores værktøj bevarer den originale videokvalitet. Konverteringsprocessen bevarer kildens kvalitet, så du får den samme visningsoplevelse som på YouTube."
+          }
+        ]
       },
-        err1: "Fejl i YouTube-linkformat.",
-        err2: "Beklager! Vi understøtter i øjeblikket kun YouTube-links. Hvis du har brug for understøttelse af andre websteder, holder vi dig opdateret, når vi tilføjer det i fremtiden.",
-        videoDownload: {
-              title: "Download YouTube-videoer som MP4. Gratis, hurtigt og ingen reklamer.",
-              description: "Tak fordi du valgte vores service! Vi sætter stor pris på din tillid og håber, det forbedrede din oplevelse. Hvis du vil dele vores hjemmeside med dine venner, ville det være en stor hjælp.",
-              downloadButton: "Download",
-              downloadError: "Downloadfejl."
-            }
+      err1: "Fejl i YouTube-linkformat.",
+      err2: "Beklager! Vi understøtter i øjeblikket kun YouTube-links. Hvis du har brug for understøttelse af andre websteder, holder vi dig opdateret, når vi tilføjer det i fremtiden.",
+      videoDownload: {
+        title: "Download YouTube-videoer som MP4. Gratis, hurtigt og ingen reklamer.",
+        description: "Tak fordi du valgte vores service! Vi sætter stor pris på din tillid og håber, det forbedrede din oplevelse. Hvis du vil dele vores hjemmeside med dine venner, ville det være en stor hjælp.",
+        downloadButton: "Download",
+        downloadError: "Downloadfejl."
+      }
     }
   },
   About: {
@@ -2997,67 +3002,67 @@ let message = {
       "highlighted_text": "Indvirkning",
       "subtitle": "Styrker global kommunikation med banebrydende AI-teknologi",
       "metrics": [
-            {
-              "value": "96%+",
-              "label": "Nøjagtighedsprocent",
-              "description": "Industrieledende transkriptionsnøjagtighed med avanceret AI"
-            },
-            {
-              "value": "100+",
-              "label": "Understøttede sprog",
-              "description": "Talegenkendelse for globalt indhold"
-            },
-            {
-              "value": "249+",
-              "label": "Oversættelsessprog",
-              "description": "Oversæt transkriberet tekst til stort set ethvert sprog"
-            }
-          ]
+        {
+          "value": "96%+",
+          "label": "Nøjagtighedsprocent",
+          "description": "Industrieledende transkriptionsnøjagtighed med avanceret AI"
+        },
+        {
+          "value": "100+",
+          "label": "Understøttede sprog",
+          "description": "Talegenkendelse for globalt indhold"
+        },
+        {
+          "value": "249+",
+          "label": "Oversættelsessprog",
+          "description": "Oversæt transkriberet tekst til stort set ethvert sprog"
+        }
+      ]
     },
     Mission: {
       "title": "Hvorfor vælge",
       "subtitle": "Vi tror på at bryde sprogbarrierer og gøre indhold tilgængeligt for alle",
       "features": [
-            {
-              "icon": "🎯",
-              "title": "Uovertruffen nøjagtighed",
-              "description": "Vores AI-modeller forbedres kontinuerligt for at levere transkriptionsnøjagtighed over 96%, med nogle større sprog der når op til 99% nøjagtighed gennem avanceret optimering."
-            },
-            {
-              "icon": "🌍",
-              "title": "Global sprogunderstøttelse",
-              "description": "Understøttelse af over 100 sprog i talegenkendelse og oversættelsesfunktioner til mere end 249 sprog, så dit indhold bliver virkelig globalt."
-            },
-            {
-              "icon": "⚡",
-              "title": "Lynhurtig behandling",
-              "description": "Behandl timer af lyd- og videoindhold på minutter, ikke timer. Vores optimerede AI-pipeline sikrer at du får dine transkriptioner hurtigt uden at gå på kompromis med kvaliteten."
-            },
-            {
-              "icon": "🔒",
-              "title": "Enterprise-grade sikkerhed",
-              "description": "Din datasikkerhed er vores prioritet. Vi bruger industristandard kryptering og overholder globale privatlivsregler for at holde dit indhold sikkert og fortroligt."
-            }
-          ]
+        {
+          "icon": "🎯",
+          "title": "Uovertruffen nøjagtighed",
+          "description": "Vores AI-modeller forbedres kontinuerligt for at levere transkriptionsnøjagtighed over 96%, med nogle større sprog der når op til 99% nøjagtighed gennem avanceret optimering."
+        },
+        {
+          "icon": "🌍",
+          "title": "Global sprogunderstøttelse",
+          "description": "Understøttelse af over 100 sprog i talegenkendelse og oversættelsesfunktioner til mere end 249 sprog, så dit indhold bliver virkelig globalt."
+        },
+        {
+          "icon": "⚡",
+          "title": "Lynhurtig behandling",
+          "description": "Behandl timer af lyd- og videoindhold på minutter, ikke timer. Vores optimerede AI-pipeline sikrer at du får dine transkriptioner hurtigt uden at gå på kompromis med kvaliteten."
+        },
+        {
+          "icon": "🔒",
+          "title": "Enterprise-grade sikkerhed",
+          "description": "Din datasikkerhed er vores prioritet. Vi bruger industristandard kryptering og overholder globale privatlivsregler for at holde dit indhold sikkert og fortroligt."
+        }
+      ]
     },
     Company: {
       "title": "Virksomheds-",
       "highlighted_text": "information",
       "subtitle": "Kontakt os for spørgsmål eller support",
       "details": [
-            {
-              "label": "Virksomhedsnavn",
-              "value": "SCRIBIFY AI INC"
-            },
-            {
-              "label": "Hovedkvarter",
-              "value": ["30 N Gould St Ste R", "Sheridan, WY 82801", "USA"]
-            },
-            {
-              "label": "Kontakt os",
-              "value": ["Email", "Support tilgængelig 24/7"]
-            }
-          ]
+        {
+          "label": "Virksomhedsnavn",
+          "value": "SCRIBIFY AI INC"
+        },
+        {
+          "label": "Hovedkvarter",
+          "value": ["30 N Gould St Ste R", "Sheridan, WY 82801", "USA"]
+        },
+        {
+          "label": "Kontakt os",
+          "value": ["Email", "Support tilgængelig 24/7"]
+        }
+      ]
     },
     CTA: {
       "title": "Klar til at opleve forskellen?",
@@ -3111,10 +3116,10 @@ let message = {
     "contactTitle": "9. Kontakt os",
     "websiteUrl": "https://www.nevercap.ai/",
     at: "på",
-      childrenDescription: "Tjenesterne er ikke rettet mod børn, og vi indsamler ikke bevidst personoplysninger fra børn under 13 år. Hvis du er under 13 år, må du ikke indsende personoplysninger via Tjenesterne. Hvis du mener, at et barn har givet os personoplysninger i strid med denne politik, skal du kontakte os {at} {email} som angivet nedenfor.",
-      contactDescription: "Hvis du har spørgsmål, kommentarer eller klager angående vores privatlivspolitik, skal du kontakte os {at} {email}, og vi vil stræbe efter at behandle din klage hurtigst muligt.",
-      policyDescriptionA: 'Denne politik beskriver, hvordan {NeverCap} (herefter benævnt "NeverCap", "vores", "vi", "os") indsamler, bruger og videregiver dine personlige oplysninger, når du bruger vores tjenester, websteder ({url}) og software (samlet kaldet "Tjenesterne").'
-},
+    childrenDescription: "Tjenesterne er ikke rettet mod børn, og vi indsamler ikke bevidst personoplysninger fra børn under 13 år. Hvis du er under 13 år, må du ikke indsende personoplysninger via Tjenesterne. Hvis du mener, at et barn har givet os personoplysninger i strid med denne politik, skal du kontakte os {at} {email} som angivet nedenfor.",
+    contactDescription: "Hvis du har spørgsmål, kommentarer eller klager angående vores privatlivspolitik, skal du kontakte os {at} {email}, og vi vil stræbe efter at behandle din klage hurtigst muligt.",
+    policyDescriptionA: 'Denne politik beskriver, hvordan {NeverCap} (herefter benævnt "NeverCap", "vores", "vi", "os") indsamler, bruger og videregiver dine personlige oplysninger, når du bruger vores tjenester, websteder ({url}) og software (samlet kaldet "Tjenesterne").'
+  },
   TermsOfUse: {
     title: "Betingelser for",
     titleGradient: "Service",
@@ -3123,22 +3128,22 @@ let message = {
     "lastUpdatedDate": "21. juli 2025",
     "termsOfServiceTitle": "Servicevilkår",
     "thankYou": "Tak fordi du bruger vores produkter!",
-    "servicesDefinition": 'Når vi siger \"Tjenester\", mener vi ethvert produkt skabt og vedligeholdt af NeverCap, uanset om det leveres via en webbrowser, desktopapplikation, mobilapplikation eller andet format.',
+    "servicesDefinition": 'Når vi siger "Tjenester", mener vi ethvert produkt skabt og vedligeholdt af NeverCap, uanset om det leveres via en webbrowser, desktopapplikation, mobilapplikation eller andet format.',
     "termsUpdate": "Vi kan opdatere disse Servicevilkår i fremtiden. Typisk er disse ændringer foretaget for at præcisere nogle af vilkårene ved at henvise til en udvidet relateret politik. Når vi foretager en væsentlig ændring af vores politikker, opdaterer vi datoen øverst på denne side og tager andre passende skridt for at underrette kontohavere.",
     "acceptanceTitle": "1. Accept af aftalen",
     "acceptanceDescription1": "Ved at bruge vores Tjenester indikerer du din accept af denne aftale, som dermed bliver en bindende kontrakt mellem dig og NeverCap. Du erklærer, at du lovligt kan acceptere disse Vilkår, og bekræfter, at du er myndig til at indgå en bindende kontrakt. NeverCaps accept er udtrykkeligt betinget af din accept af alle vilkår og betingelser i denne aftale.",
     "eligibilityRequirement": "Tjenesterne er ikke beregnet til og bør ikke bruges af nogen under 18 år. Ved at bruge Tjenesterne erklærer og garanterer du, at du opfylder ovenstående berettigelseskrav.",
-    "userResponsibility": 'Udtrykkene \"du\", \"din\", \"dig selv\" omfatter også dine medarbejdere, agenter, forretningsrepræsentanter og enhver anden person, du giver adgang til Tjenesterne gennem din Konto (som defineret nedenfor). Du er ansvarlig for at sikre, at alle personer, der får adgang til Tjenesterne gennem din konto, kender disse Vilkår og overholder dem.',
+    "userResponsibility": 'Udtrykkene "du", "din", "dig selv" omfatter også dine medarbejdere, agenter, forretningsrepræsentanter og enhver anden person, du giver adgang til Tjenesterne gennem din Konto (som defineret nedenfor). Du er ansvarlig for at sikre, at alle personer, der får adgang til Tjenesterne gennem din konto, kender disse Vilkår og overholder dem.',
     "termsRevision": "NeverCap forbeholder sig retten til at revidere og opdatere disse Vilkår fra tid til anden efter eget skøn. Alle ændringer træder i kraft umiddelbart efter offentliggørelse. Din fortsatte brug af Tjenesterne efter offentliggørelsen af reviderede Vilkår betyder, at du accepterer og accepterer ændringerne. Du forventes at tjekke denne side lejlighedsvis, så du er opmærksom på eventuelle ændringer, da de er bindende for dig.",
     "servicesTitle": "2. NeverCaps Tjenester",
     "servicesDescription1": "Vores Tjenester gør det muligt for brugere at omdanne stemmesamtaler til transskriberet tekst, der kan søges, oversættes og deles med andre.",
-    "servicesOptions": 'Du kan vælge at bruge den gratis version af Tjenesterne (\"Gratis Tjenester\") eller den abonnementsbaserede betalte version af Tjenesterne, som du muligvis skal betale for (\"Betalte Tjenester\").',
+    "servicesOptions": 'Du kan vælge at bruge den gratis version af Tjenesterne ("Gratis Tjenester") eller den abonnementsbaserede betalte version af Tjenesterne, som du muligvis skal betale for ("Betalte Tjenester").',
     "servicesAccess": "Vi vil gøre Tjenesterne tilgængelige for dig. Du er ansvarlig for at træffe alle nødvendige foranstaltninger for at få adgang til Tjenesterne.",
     "accountTermsTitle": "3. Kontobetingelser",
     "accountSecurity": "Du er ansvarlig for at opretholde sikkerheden for din konto. Virksomheden kan ikke og vil ikke være ansvarlig for noget tab eller skade som følge af din manglende overholdelse af denne sikkerhedsforpligtelse.",
     "lawfulUse": "Du må ikke bruge Tjenesterne til noget ulovligt, uetisk eller umoralsk formål.",
     "contentResponsibility": "Du er ansvarlig for alt indhold og alle aktiviteter, der forekommer under din konto. Dette inkluderer indhold opslået af andre, der enten: (a) har adgang til dine loginoplysninger; eller (b) har deres egne logins under din konto.",
-    "humanRequirement": 'Du skal være et menneske. Konti registreret af \"bots\" eller andre automatiske metoder er ikke tilladt.',
+    "humanRequirement": 'Du skal være et menneske. Konti registreret af "bots" eller andre automatiske metoder er ikke tilladt.',
     "paymentTitle": "4. Betaling, Refusion og Planændringer",
     "freeTrial": "For betalte Tjenester, der tilbyder en gratis prøveperiode, forklarer vi længden af prøveperioden, når du tilmelder dig. Efter prøveperioden skal du betale i forvejen for at fortsætte med at bruge Tjenesten. Hvis du ikke betaler, ophører disse tjenester.",
     "upgradePolicy": "Hvis du opgraderer fra en gratis plan til en betalt plan, vil vi trække dit kort med det samme, og din faktureringscyklus starter på opgraderingsdagen.",
@@ -3149,9 +3154,9 @@ let message = {
     "terminationRights": "Vi har ret til at suspendere eller afslutte din konto og nægte enhver og al nuværende eller fremtidig brug af vores Tjenester af enhver grund til enhver tid. Suspension betyder, at du ikke vil kunne få adgang til kontoen eller noget indhold i kontoen. Afslutning vil desuden resultere i sletning af din konto eller din adgang til din konto samt tab og afgivelse af alt indhold i din konto. Vi forbeholder os også retten til at nægte brug af Tjenesterne til enhver af enhver grund til enhver tid. Vi har denne klausul, fordi der statistisk set blandt hundredtusindvis af konti på vores Tjenester altid er mindst én, der foretager sig noget skadeligt.",
     "abusePolicy": "Verbale, fysiske, skriftlige eller andre former for misbrug (inklusive trusler om misbrug eller gengældelse) af en virksomhedsmedarbejder eller -leder kan medføre øjeblikkelig kontosuspension.",
     "submissionsTitle": "6. Indsendelser",
-    "submissionsDescription": 'Du anerkender og accepterer, at eventuelle spørgsmål, kommentarer, forslag, idéer, feedback eller anden information vedrørende webstedet (\"Indsendelser\"), som du giver os, er ikke fortrolige og bliver vores eneste ejendom. Vi skal have eksklusive rettigheder, herunder alle immaterielle rettigheder, og være berettiget til ubegrænset brug og spredning af disse Indsendelser til ethvert lovligt formål, kommercielt eller andet, uden anerkendelse eller kompensation til dig. Du frafalder herved alle moralske rettigheder til sådanne Indsendelser, og du garanterer herved, at sådanne Indsendelser er originale fra dig eller at du har ret til at indsende sådanne Indsendelser. Du accepterer, at der ikke kan rejses krav mod os for påstået eller faktisk krænkelse eller tilegnelse af nogen ejendomsret i dine Indsendelser.',
+    "submissionsDescription": 'Du anerkender og accepterer, at eventuelle spørgsmål, kommentarer, forslag, idéer, feedback eller anden information vedrørende webstedet ("Indsendelser"), som du giver os, er ikke fortrolige og bliver vores eneste ejendom. Vi skal have eksklusive rettigheder, herunder alle immaterielle rettigheder, og være berettiget til ubegrænset brug og spredning af disse Indsendelser til ethvert lovligt formål, kommercielt eller andet, uden anerkendelse eller kompensation til dig. Du frafalder herved alle moralske rettigheder til sådanne Indsendelser, og du garanterer herved, at sådanne Indsendelser er originale fra dig eller at du har ret til at indsende sådanne Indsendelser. Du accepterer, at der ikke kan rejses krav mod os for påstået eller faktisk krænkelse eller tilegnelse af nogen ejendomsret i dine Indsendelser.',
     "uptimeTitle": "7. Oppetid og Sikkerhed",
-    "serviceAvailability": 'Din brug af Tjenesterne sker på eget ansvar. Vi leverer disse Tjenester \"som de er\" og \"som tilgængelige\". Vi tilbyder ikke serviceaftaler for de fleste af vores Tjenester, men tager oppetiden for vores applikationer alvorligt.',
+    "serviceAvailability": 'Din brug af Tjenesterne sker på eget ansvar. Vi leverer disse Tjenester "som de er" og "som tilgængelige". Vi tilbyder ikke serviceaftaler for de fleste af vores Tjenester, men tager oppetiden for vores applikationer alvorligt.',
     "throttlingPolicy": "Vi forbeholder os retten til midlertidigt at begrænse eller begrænse konto adgang i sjældne tilfælde, hvor en brugers aktivitet verificeres at have en negativ indvirkning på Tjenestens stabilitet og ydeevne for andre brugere. I alle andre end de mest kritiske tilfælde vil vi kontakte dig for at finde en løsning, før vi handler.",
     "dataSecurity": "Vi tager mange foranstaltninger for at beskytte og sikre dine data gennem backup, redundans og kryptering. Vi håndhæver kryptering for datatransmission over det offentlige internet.",
     "thirdPartyVendors": "Vi bruger tredjepartsleverandører og hostingpartnere til at levere den nødvendige hardware, software, netværk, lagring og relateret teknologi, der kræves for at køre Tjenesterne.",
@@ -3209,41 +3214,41 @@ let message = {
     "site": "Websted",
     "services": "Tjenester",
     at: "på",
-      trademarkProtection: "Navnene, udseendet og følelsen af Tjenesterne er ophavsretligt beskyttet© af Selskabet. Alle rettigheder forbeholdes. Du må ikke duplikere, kopiere eller genbruge nogen del af HTML, CSS, JavaScript eller visuelle designelementer uden udtrykkelig skriftlig tilladelse fra Selskabet. Du skal anmode om tilladelse til at bruge Selskabets logo eller eventuelle Tjenestelogoer til promotionsformål. Send os en e-mail {at} {email} med anmodninger om brug af logoer. Vi forbeholder os retten til at tilbagekalde denne tilladelse, hvis du overtræder disse Servicevilkår.",
-      privacyPolicyDescription: "Vi tager databeskyttelse og -sikkerhed alvorligt. Gennemgå vores {policy}. Ved at bruge Websiden accepterer du at være bundet af vores Privatlivspolitik, som er inkorporeret i disse Servicevilkår. Bemærk venligst, at Websiden er hostet i USA. Hvis du tilgår Websiden fra enhver anden region i verden med love eller andre krav vedrørende indsamling, brug eller offentliggørelse af personoplysninger, der afviger fra gældende love i USA, så ved fortsat brug af Websiden overfører du dine data til USA, og du accepterer, at dine data overføres og behandles i USA.",
-      contactDescription: "Hvis du har spørgsmål til nogen af Servicevilkårene, skal du kontakte os {at} {email}.",
-      "companyDefinitionA": 'Når vi siger "Virksomhed", "vi", "vores" eller "os" i dette dokument, henviser vi til {NeverCap}.'
-},
-    Blog: {
-          Hero: {
-            "title": "Bliv en",
-            "highlighted_text": "Transskriptionsguide",
-            "description": "Tutorials, strategier og AI-værktøjer fra {NeverCap}, der hjælper dig med at skabe ubegrænset indhold med professionelle transskriptionsworkflows."
-          },
-          Featured: {
-            FeaturedGuide: "Fremhævet guide",
-            ReadFullGuide: "Læs den fulde guide"
-          },
-          ListSection: {
-            title: "Seneste",
-            highlighted_text: "Artikler",
-            subtitle: "Eksperttips og vejledninger til ubegrænset transskription",
-            categories: [
-              "Alle indlæg",
-              "Vejledninger",
-              "Podcasting",
-              "Indholdsskabelse",
-              "Forretning",
-              "AI-tips"
-            ]
-          },
-          Detail: {
-            Home: "Hjem",
-            Blog: "Blog",
-            GoToSignup: "Prøv NeverCap gratis - uden kreditkort",
-            HowWorks: "Se hvordan det virker"
-          }
-        }
+    trademarkProtection: "Navnene, udseendet og følelsen af Tjenesterne er ophavsretligt beskyttet© af Selskabet. Alle rettigheder forbeholdes. Du må ikke duplikere, kopiere eller genbruge nogen del af HTML, CSS, JavaScript eller visuelle designelementer uden udtrykkelig skriftlig tilladelse fra Selskabet. Du skal anmode om tilladelse til at bruge Selskabets logo eller eventuelle Tjenestelogoer til promotionsformål. Send os en e-mail {at} {email} med anmodninger om brug af logoer. Vi forbeholder os retten til at tilbagekalde denne tilladelse, hvis du overtræder disse Servicevilkår.",
+    privacyPolicyDescription: "Vi tager databeskyttelse og -sikkerhed alvorligt. Gennemgå vores {policy}. Ved at bruge Websiden accepterer du at være bundet af vores Privatlivspolitik, som er inkorporeret i disse Servicevilkår. Bemærk venligst, at Websiden er hostet i USA. Hvis du tilgår Websiden fra enhver anden region i verden med love eller andre krav vedrørende indsamling, brug eller offentliggørelse af personoplysninger, der afviger fra gældende love i USA, så ved fortsat brug af Websiden overfører du dine data til USA, og du accepterer, at dine data overføres og behandles i USA.",
+    contactDescription: "Hvis du har spørgsmål til nogen af Servicevilkårene, skal du kontakte os {at} {email}.",
+    "companyDefinitionA": 'Når vi siger "Virksomhed", "vi", "vores" eller "os" i dette dokument, henviser vi til {NeverCap}.'
+  },
+  Blog: {
+    Hero: {
+      "title": "Bliv en",
+      "highlighted_text": "Transskriptionsguide",
+      "description": "Tutorials, strategier og AI-værktøjer fra {NeverCap}, der hjælper dig med at skabe ubegrænset indhold med professionelle transskriptionsworkflows."
+    },
+    Featured: {
+      FeaturedGuide: "Fremhævet guide",
+      ReadFullGuide: "Læs den fulde guide"
+    },
+    ListSection: {
+      title: "Seneste",
+      highlighted_text: "Artikler",
+      subtitle: "Eksperttips og vejledninger til ubegrænset transskription",
+      categories: [
+        "Alle indlæg",
+        "Vejledninger",
+        "Podcasting",
+        "Indholdsskabelse",
+        "Forretning",
+        "AI-tips"
+      ]
+    },
+    Detail: {
+      Home: "Hjem",
+      Blog: "Blog",
+      GoToSignup: "Prøv NeverCap gratis - uden kreditkort",
+      HowWorks: "Se hvordan det virker"
+    }
+  }
 };
 
 export default defineI18nLocale(async (locale) => {

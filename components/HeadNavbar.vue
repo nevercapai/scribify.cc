@@ -134,7 +134,7 @@
                   href="javascript:void(0)"
                   class="dropdown-toggle underline"
                   :class="index === acitveId ? 'menu-acitve' : ''"
-                  @click="toggleDropdown(index)"
+                  v-on="mobileDropdownOpen(index)"
                 >
                   {{ menu.name }}
                   <svg
@@ -196,6 +196,7 @@
 <script lang="ts" setup>
 import { useMediaQuery } from "@vueuse/core";
 import { useI18n } from "vue-i18n";
+import { useClickHandler } from "~/hooks/useClickHandler";
 const { t, locale } = useI18n();
 const mobileMenuOpen = ref(false);
 const dropdownOpen = ref<Record<number, boolean>>({});
@@ -226,6 +227,8 @@ const toggleDropdown = (index: number) => {
     dropdownOpen.value[index] = !dropdownOpen.value[index];
   }
 };
+
+const mobileDropdownOpen = index => useClickHandler(() => toggleDropdown(index))
 
 // 监听窗口大小变化，在大屏幕上强制关闭移动端菜单
 watchEffect(() => {

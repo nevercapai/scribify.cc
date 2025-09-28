@@ -669,8 +669,8 @@ let message = {
     uploadWithinHours: "10-Stunden-Uploads",
     yourSubscription: "Ihr Abonnement wird am {time} gekündigt.",
     save: "Sparen",
-      freeversion2: "Kostenloser Tarif"
-},
+    freeversion2: "Kostenloser Tarif"
+  },
   // 语言对应关系
   LanguageMap: {
     sysLanguagesMap: {
@@ -1064,8 +1064,8 @@ let message = {
     Resources: "Ressourcen",
     YouTubetoMP4: "YouTube zu MP4",
     StartFreeTrial: "Kostenlos testen",
-      Blog: "Der Blog"
-},
+    Blog: "Der Blog"
+  },
   Footer: {
     des: "Der weltweit erste wirklich unbegrenzte KI-Transkriptionsdienst. Keine Obergrenzen, keine Limits, nur Freiheit zum Erstellen.",
     Features: "Funktionen",
@@ -1073,20 +1073,20 @@ let message = {
     Company: "Unternehmen",
     featureMenus: ["Unbegrenzte Transkription", "Massen-Upload", "96% Genauigkeit"],
     useCaseMenus: [
-          "Alle Anwendungsfälle",
-          "Podcaster",
-          "Journalisten",
-          "Content-Ersteller",
-          "Forscher",
-          "Geschäftsteams",
-          "Pädagogen"
-        ],
+      "Alle Anwendungsfälle",
+      "Podcaster",
+      "Journalisten",
+      "Content-Ersteller",
+      "Forscher",
+      "Geschäftsteams",
+      "Pädagogen"
+    ],
     companyMenus: [
-          "Über uns",
-          "Preise",
-          "Datenschutz",
-          "Nutzungsbedingungen"
-        ]
+      "Über uns",
+      "Preise",
+      "Datenschutz",
+      "Nutzungsbedingungen"
+    ]
   },
   Index: {
     Hero: {
@@ -1099,7 +1099,7 @@ let message = {
       NoCap: "Keine monatliche Minuten-Obergrenze",
       Hour: "10-Stunden-Dateien unterstützt",
       ExploreUseCases: "Anwendungsfälle erkunden",
-        subtitleA: "Die KI von NeverCap transkribiert Videos und konvertiert Audio in Text. Dabei können bis zu 50 Dateien gleichzeitig verarbeitet werden, ohne monatliche Obergrenzen. Transkription, die wirklich mit Ihnen skaliert."
+      subtitleA: "Die KI von NeverCap transkribiert Videos und konvertiert Audio in Text. Dabei können bis zu 50 Dateien gleichzeitig verarbeitet werden, ohne monatliche Obergrenzen. Transkription, die wirklich mit Ihnen skaliert."
     },
     Stats: {
       monthlyMinutes: "Monatliche Minuten",
@@ -1127,7 +1127,7 @@ let message = {
       feat_langs_desc: "Transkribieren Sie Video und Audio in 100+ Sprachen, übersetzen Sie in 249+. Keine Extrakosten für verschiedene Sprachen. Globale Inhalte, ein einfacher Preis.",
       feat_pro: "Professionelle Funktionen",
       feat_pro_desc: "Wortgenaue Zeitstempel für präzise Audio/Video-Positionierung, genaue Sprechererkennung auch bei schnellen Gesprächswechseln und perfekt formatierter Text mit Absätzen, Sätzen und Zeichensetzung für einfaches Lesen.",
-        features: "Funktionen"
+      features: "Funktionen"
     },
     UseCases: {
       built_for: "Massen-",
@@ -1175,7 +1175,7 @@ let message = {
         "author": "Jessica Park",
         "role": "Freie Journalistin"
       },
-        titleA: "Beliebt bei über 50.000 Benutzern von"
+      titleA: "Beliebt bei über 50.000 Benutzern von"
     },
     PricingPreview: {
       "title": "Transparente Preise",
@@ -1186,52 +1186,52 @@ let message = {
       "title": "Häufig gestellte",
       "titleHighlight": "Fragen",
       "questions": [
-            {
-              "q": "KI-Transkription",
-              "question": "Was ist KI-Transkription und wie funktioniert sie?",
-              "answer": "KI-Transkription ist der automatische Prozess der Umwandlung von Audio in Text mittels fortschrittlicher künstlicher Intelligenz. Bei NeverCap laden Sie einfach Ihre Dateien hoch, und unsere KI transkribiert den Inhalt mit bis zu 96% Genauigkeit. Unser Service ist dafür ausgelegt, Video- (wie MP4, MOV) und Audiodateien (wie MP3, WAV) in lesbaren, bearbeitbaren Text umzuwandeln – inklusive Sprecherkennung und Zeitstempeln."
-            },
-            {
-              "q": "unlimited_policy",
-              "question": "Ist es wirklich unbegrenzt? Wo ist der Haken?",
-              "answer": "Ja, es ist wirklich unbegrenzt! Keine monatlichen Minutenlimits, keine Zusatzkosten. Die einzigen Limits sind technisch: Einzelne Dateien können bis zu 10 Stunden lang oder 5 GB groß sein, und Sie können 50 Dateien gleichzeitig verarbeiten. Aber Sie können den ganzen Monar über so viele Batches hochladen, wie Sie möchten."
-            },
-            {
-              "q": "accuracy",
-              "question": "Wie genau ist die Transkription?",
-              "answer": "Wir garantieren 96% Genauigkeit bei klarem Audio. Unsere KI wurde mit Millionen Stunden vielfältiger Inhalte trainiert und meistert Akzente, Fachbegriffe und mehrere Sprecher hervorragend. Bei schwierigem Audio helfen unsere Smart-Enhancement-Funktionen, die Ergebnisse zu verbessern."
-            },
-            {
-              "q": "languages",
-              "question": "Welche Sprachen werden unterstützt?",
-              "answer": "Wir unterstützen Transkription in über 100 Sprachen, darunter Englisch, Spanisch, Mandarin, Hindi, Arabisch, Französisch und mehr. Zusätzlich können Sie Ihre Transkripte in 249 verschiedene Sprachen übersetzen – perfekt für globale Inhalte."
-            },
-            {
-              "q": "speed",
-              "question": "Wie schnell ist die Transkription?",
-              "answer": "Blitzschnell! Eine 1-stündige Audiodatei wird typischerweise in unter 5 Minuten verarbeitet. Mit Batch-Verarbeitung können Sie 50 Dateien gleichzeitig hochladen und parallel verarbeiten lassen. Die meisten Nutzer wachen auf und finden ihre gesamte Bibliothek über Nacht transkribiert."
-            },
-            {
-              "q": "cancellation",
-              "question": "Kann ich jederzeit kündigen?",
-              "answer": "Absolut! Keine Verträge, keine Kündigungsgebühren. Sie können Ihr Abo jederzeit in Ihrem Dashboard upgraden, downgraden oder kündigen. Bei Kündigung behalten Sie den Zugang bis zum Ende Ihres Abrechnungszeitraums."
-            },
-            {
-              "q": "security",
-              "question": "Sind meine Daten sicher?",
-              "answer": "Ihre Sicherheit hat Priorität. Wir sind SOC-2-zertifiziert, verwenden 256-Bit-Verschlüsselung für alle Daten und nutzen Ihre Inhalte nie zum Trainieren unserer Modelle. Sie können Ihre Dateien jederzeit löschen, und wir löschen sie automatisch nach 30 Tagen. DSGVO- und CCPA-konform."
-            },
-            {
-              "q": "export_formats",
-              "question": "Welche Exportformate gibt es?",
-              "answer": "Laden Sie Ihre Transkripte in jedem benötigten Format herunter: PDF, Word (DOCX), Excel, CSV, SRT-Untertitel, reiner Text (TXT) und VTT-Untertitel. Perfekt für jeden Workflow."
-            },
-            {
-              "q": "file_formats",
-              "question": "Welche Audio- und Videoformate kann ich hochladen?",
-              "answer": "Wir unterstützen praktisch jedes Audio- und Videoformat: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV und mehr. Wenn Sie es abspielen können, können wir es transkribieren."
-            }
-          ]
+        {
+          "q": "KI-Transkription",
+          "question": "Was ist KI-Transkription und wie funktioniert sie?",
+          "answer": "KI-Transkription ist der automatische Prozess der Umwandlung von Audio in Text mittels fortschrittlicher künstlicher Intelligenz. Bei NeverCap laden Sie einfach Ihre Dateien hoch, und unsere KI transkribiert den Inhalt mit bis zu 96% Genauigkeit. Unser Service ist dafür ausgelegt, Video- (wie MP4, MOV) und Audiodateien (wie MP3, WAV) in lesbaren, bearbeitbaren Text umzuwandeln – inklusive Sprecherkennung und Zeitstempeln."
+        },
+        {
+          "q": "unlimited_policy",
+          "question": "Ist es wirklich unbegrenzt? Wo ist der Haken?",
+          "answer": "Ja, es ist wirklich unbegrenzt! Keine monatlichen Minutenlimits, keine Zusatzkosten. Die einzigen Limits sind technisch: Einzelne Dateien können bis zu 10 Stunden lang oder 5 GB groß sein, und Sie können 50 Dateien gleichzeitig verarbeiten. Aber Sie können den ganzen Monar über so viele Batches hochladen, wie Sie möchten."
+        },
+        {
+          "q": "accuracy",
+          "question": "Wie genau ist die Transkription?",
+          "answer": "Wir garantieren 96% Genauigkeit bei klarem Audio. Unsere KI wurde mit Millionen Stunden vielfältiger Inhalte trainiert und meistert Akzente, Fachbegriffe und mehrere Sprecher hervorragend. Bei schwierigem Audio helfen unsere Smart-Enhancement-Funktionen, die Ergebnisse zu verbessern."
+        },
+        {
+          "q": "languages",
+          "question": "Welche Sprachen werden unterstützt?",
+          "answer": "Wir unterstützen Transkription in über 100 Sprachen, darunter Englisch, Spanisch, Mandarin, Hindi, Arabisch, Französisch und mehr. Zusätzlich können Sie Ihre Transkripte in 249 verschiedene Sprachen übersetzen – perfekt für globale Inhalte."
+        },
+        {
+          "q": "speed",
+          "question": "Wie schnell ist die Transkription?",
+          "answer": "Blitzschnell! Eine 1-stündige Audiodatei wird typischerweise in unter 5 Minuten verarbeitet. Mit Batch-Verarbeitung können Sie 50 Dateien gleichzeitig hochladen und parallel verarbeiten lassen. Die meisten Nutzer wachen auf und finden ihre gesamte Bibliothek über Nacht transkribiert."
+        },
+        {
+          "q": "cancellation",
+          "question": "Kann ich jederzeit kündigen?",
+          "answer": "Absolut! Keine Verträge, keine Kündigungsgebühren. Sie können Ihr Abo jederzeit in Ihrem Dashboard upgraden, downgraden oder kündigen. Bei Kündigung behalten Sie den Zugang bis zum Ende Ihres Abrechnungszeitraums."
+        },
+        {
+          "q": "security",
+          "question": "Sind meine Daten sicher?",
+          "answer": "Ihre Sicherheit hat Priorität. Wir sind SOC-2-zertifiziert, verwenden 256-Bit-Verschlüsselung für alle Daten und nutzen Ihre Inhalte nie zum Trainieren unserer Modelle. Sie können Ihre Dateien jederzeit löschen, und wir löschen sie automatisch nach 30 Tagen. DSGVO- und CCPA-konform."
+        },
+        {
+          "q": "export_formats",
+          "question": "Welche Exportformate gibt es?",
+          "answer": "Laden Sie Ihre Transkripte in jedem benötigten Format herunter: PDF, Word (DOCX), Excel, CSV, SRT-Untertitel, reiner Text (TXT) und VTT-Untertitel. Perfekt für jeden Workflow."
+        },
+        {
+          "q": "file_formats",
+          "question": "Welche Audio- und Videoformate kann ich hochladen?",
+          "answer": "Wir unterstützen praktisch jedes Audio- und Videoformat: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV und mehr. Wenn Sie es abspielen können, können wir es transkribieren."
+        }
+      ]
     },
     CTASection: {
       "title": "Bereit, Grenzen zu sprengen?",
@@ -1345,8 +1345,8 @@ let message = {
       ctaTitle: "Zahlen Sie nicht für falsches Unbegrenzt",
       ctaSubtitle: "Schließen Sie sich Tausenden an, die zu wirklich unbegrenzter Transkription gewechselt sind",
       finalCta: "NeverCap kostenlos testen",
-        heroSubtitle1: "Während Trint Sie auf 50 Stunden begrenzt und Otter Sie auf 10 Dateien pro Monat beschränkt,",
-        heroSubtitle2: "halten, was wir tatsächlich versprechen: unbegrenzte Transkription ohne versteckte Obergrenzen."
+      heroSubtitle1: "Während Trint Sie auf 50 Stunden begrenzt und Otter Sie auf 10 Dateien pro Monat beschränkt,",
+      heroSubtitle2: "halten, was wir tatsächlich versprechen: unbegrenzte Transkription ohne versteckte Obergrenzen."
     },
     BulkUpload: {
       heroBadgeIcon: "📁",
@@ -1601,9 +1601,9 @@ let message = {
       ctaTitle: "Erleben Sie 96% Genauigkeit",
       ctaSubtitle: "Laden Sie Ihre anspruchsvollste Audiodatei hoch und sehen Sie den Unterschied",
       finalCta: "Jetzt Genauigkeit testen →",
-        languageSectionTitlePart2: "in 12 Hauptsprachen",
-        comparisonDes1: "So geht's",
-        comparisonDes2: "sich gegen die Konkurrenz behaupten"
+      languageSectionTitlePart2: "in 12 Hauptsprachen",
+      comparisonDes1: "So geht's",
+      comparisonDes2: "sich gegen die Konkurrenz behaupten"
     }
   },
   Pricing: {
@@ -1617,93 +1617,94 @@ let message = {
       "highlighted_text": "Keine versteckten Limits.",
       "description": "Wählen Sie den passenden Tarif. Jederzeit upgraden oder downgraden. Keine Verträge, keine Überraschungen.",
       "plans": [
-            {
-              "name": "Kostenlos",
-              "price": "$0",
-              "period": "Monat",
-              "discount": "Ideal zum Ausprobieren unseres Dienstes",
-              "limits": {
-                "title": "Tägliche Limits",
-                "items": [
-                  "3 Dateien/Tag (≈90 Min. gesamt/Tag)",
-                  "Bis zu 30 Min. pro Datei (≤250 MB)",
-                  "1 Datei gleichzeitig hochladen",
-                  "Standard-Warteschlange"
-                ]
-              },
-              "features": {
-                "title": "Funktionen",
-                "items": [
-                  "100+ Sprachen",
-                  "Sprecherkennung",
-                  "Übersetzung",
-                  "Alle Exportformate"
-                ]
-              },
-              "cta": {
-                "text": "Kostenlos starten. Keine Kreditkarte.",
-                "button": "Aktueller Tarif"
-              }
-            },
-            {
-              "name": "Pro-Monatsabo",
-              "price": "$17,99",
-              "period": "Monat",
-              "discount": "$9,99 im ersten Monat",
-              "limits": {
-                "title": "Kein monatliches Limit",
-                "items": [
-                  "Unbegrenzte Minuten gesamt",
-                  "Bis zu 10 Std. / 5 GB pro Datei",
-                  "50 Dateien gleichzeitig hochladen",
-                  "Priorisierte Warteschlange"
-                ]
-              },
-              "features": {
-                "title": "Alles aus Kostenlos, plus",
-                "items": [
-                  "Wortgenaue Zeitstempel",
-                  "Erweiterte Sprechererkennung",
-                  "Formatierte Absätze & Zeichensetzung",
-                  "Priorisierter Support"
-                ]
-              },
-              "cta": {
-                "text": "Unbegrenzte Minuten. Priorisierte Geschwindigkeit. Stapeluploads.",
-                "button": "Pro werden"
-              },
-              "badge": "Beliebtester"
-            },
-            {
-              "name": "Pro-Jahresabo",
-              "price": "$8.99",
-              "period": "Monat",
-              "discount": "Jährliche Abrechnung $107,88",
-              "limits": {
-                "title": "Wie Pro Monatlich",
-                "items": [
-                  "Unbegrenzte Minuten gesamt",
-                  "Bis zu 10 Std. / 5 GB pro Datei",
-                  "50 Dateien gleichzeitig hochladen",
-                  "Priorisierte Warteschlange"
-                ]
-              },
-              "features": {
-                "title": "Alles aus Kostenlos, plus",
-                "items": [
-                  "Wortgenaue Zeitstempel",
-                  "Erweiterte Sprechererkennung",
-                  "Formatierte Absätze & Zeichensetzung",
-                  "Priorisierter Support"
-                ]
-              },
-              "cta": {
-                "text": "Unbegrenzte Minuten. Priorisierte Geschwindigkeit. Stapeluploads.",
-                "button": "Pro werden"
-              },
-              "badge": "Bestes Preis-Leistungs-Verhältnis - "
-            }
-          ],
+        {
+          "name": "Kostenlos",
+          "price": "$0",
+          "period": "Monat",
+          "discount": "Ideal zum Ausprobieren unseres Dienstes",
+          "limits": {
+            "title": "Tägliche Limits",
+            "items": [
+              "3 Dateien pro Tag",
+              "Bis zu 10 Stunden / 5 GB pro Datei",
+              "Kostenlose 30-minütige Vorschau auf alle Transkripte",
+              "Laden Sie jeweils 1 Datei hoch",
+              'Standard-Prioritätswarteschlange'
+            ]
+          },
+          "features": {
+            "title": "Funktionen",
+            "items": [
+              "100+ Sprachen",
+              "Sprecherkennung",
+              "Übersetzung",
+              "Alle Exportformate"
+            ]
+          },
+          "cta": {
+            "text": "Kostenlos starten. Keine Kreditkarte.",
+            "button": "Aktueller Tarif"
+          }
+        },
+        {
+          "name": "Pro-Monatsabo",
+          "price": "$17,99",
+          "period": "Monat",
+          "discount": "$9,99 im ersten Monat",
+          "limits": {
+            "title": "Kein monatliches Limit",
+            "items": [
+              "Unbegrenzte Minuten gesamt",
+              "Bis zu 10 Std. / 5 GB pro Datei",
+              "50 Dateien gleichzeitig hochladen",
+              "Priorisierte Warteschlange"
+            ]
+          },
+          "features": {
+            "title": "Alles aus Kostenlos, plus",
+            "items": [
+              "Wortgenaue Zeitstempel",
+              "Erweiterte Sprechererkennung",
+              "Formatierte Absätze & Zeichensetzung",
+              "Priorisierter Support"
+            ]
+          },
+          "cta": {
+            "text": "Unbegrenzte Minuten. Priorisierte Geschwindigkeit. Stapeluploads.",
+            "button": "Pro werden"
+          },
+          "badge": "Beliebtester"
+        },
+        {
+          "name": "Pro-Jahresabo",
+          "price": "$8.99",
+          "period": "Monat",
+          "discount": "Jährliche Abrechnung $107,88",
+          "limits": {
+            "title": "Wie Pro Monatlich",
+            "items": [
+              "Unbegrenzte Minuten gesamt",
+              "Bis zu 10 Std. / 5 GB pro Datei",
+              "50 Dateien gleichzeitig hochladen",
+              "Priorisierte Warteschlange"
+            ]
+          },
+          "features": {
+            "title": "Alles aus Kostenlos, plus",
+            "items": [
+              "Wortgenaue Zeitstempel",
+              "Erweiterte Sprechererkennung",
+              "Formatierte Absätze & Zeichensetzung",
+              "Priorisierter Support"
+            ]
+          },
+          "cta": {
+            "text": "Unbegrenzte Minuten. Priorisierte Geschwindigkeit. Stapeluploads.",
+            "button": "Pro werden"
+          },
+          "badge": "Bestes Preis-Leistungs-Verhältnis - "
+        }
+      ],
       "disclaimer": '"Unbegrenzt" bedeutet keine monatliche Obergrenze und keine künstliche Verlangsamung. Fair-Use gilt bei missbräuchlicher Automatisierung oder Weiterverteilung.'
     },
     ComparisonTable: {
@@ -1713,115 +1714,119 @@ let message = {
         "subtitle": "Sehen Sie genau, was Sie mit jedem Tarif erhalten. Keine versteckten Einschränkungen."
       },
       "plans": [
-              "Funktionen",
-              "Kostenlos",
-              "Pro Monatlich",
-              "Pro Jährlich"
-            ],
+        "Funktionen",
+        "Kostenlos",
+        "Pro Monatlich",
+        "Pro Jährlich"
+      ],
       "features": [
+        {
+          "name": "Preis",
+          "values": [
+            "$0/Monat",
             {
-              "name": "Preis",
-              "values": [
-                "$0/Monat",
-                {
-                  "main": "$17.99/Monat",
-                  "note": "$9.99 erste Monat"
-                },
-                {
-                  "main": "$8.99/Monat",
-                  "note": "Jährliche Zahlung $107.88"
-                }
-              ]
+              "main": "$17.99/Monat",
+              "note": "$9.99 erste Monat"
             },
             {
-              "name": "Monatliche Minuten",
-              "values": ["~2.700 (90/Tag)", "Unbegrenzt", "Unbegrenzt"]
-            },
-            {
-              "name": "Maximale Dateidauer",
-              "values": ["30 Minuten", "10 Stunden", "10 Stunden"]
-            },
-            {
-              "name": "Maximale Dateigröße",
-              "values": ["250 MB", "5 GB", "5 GB"]
-            },
-            {
-              "name": "Stapel-Uploads",
-              "values": ["1 Datei", "50 Dateien", "50 Dateien"]
-            },
-            {
-              "name": "Verarbeitungsgeschwindigkeit",
-              "values": ["Standard", "Priorität", "Priorität"]
-            },
-            {
-              "name": "Unterstützte Sprachen",
-              "values": ["100+ Sprachen", "100+ Sprachen", "100+ Sprachen"]
-            },
-            {
-              "name": "Übersetzung",
-              "values": ["true", "true", "true"]
-            },
-            {
-              "name": "Sprechererkennung",
-              "values": ["Basis", "Erweitert (20 Sprecher)", "Erweitert (20 Sprecher)"]
-            },
-            {
-              "name": "Wortgenaue Zeitstempel",
-              "values": ["false", "true", "true"]
-            },
-            {
-              "name": "Formatierte Absätze",
-              "values": ["false", "true", "true"]
-            },
-            {
-              "name": "Exportformate",
-              "values": ["Alle Formate", "Alle Formate", "Alle Formate"]
-            },
-            {
-              "name": "Support",
-              "values": ["E-Mail", "Priorisierte E-Mail", "Priorisierte E-Mail"]
-            },
-            {
-              "name": "Datenspeicherung",
-              "values": ["30 Tage", "Dauerhaft", "Dauerhaft"]
+              "main": "$8.99/Monat",
+              "note": "Jährliche Zahlung $107.88"
             }
           ]
+        },
+        {
+          "name": "Tägliches Dateilimit",
+          "values": ["3 Dateien/Tag", "Unbegrenzt", "Unbegrenzt"]
+        },
+        {
+          "name": "Maximale Dateidauer",
+          "values": ["10 Stunden", "10 Stunden", "10 Stunden"]
+        },
+        {
+          "name": "Maximale Dateigröße",
+          "values": ["5 GB", "5 GB", "5 GB"]
+        },
+        {
+          "name": "Zugriff auf Transkripte",
+          "values": ["Erste 30-minütige Vorschau", "Vollständiges Transkript", "Vollständiges Transkript"]
+        },
+        {
+          "name": "Stapel-Uploads",
+          "values": ["1 Datei", "50 Dateien", "50 Dateien"]
+        },
+        {
+          "name": "Verarbeitungsgeschwindigkeit",
+          "values": ["Standard", "Priorität", "Priorität"]
+        },
+        {
+          "name": "Unterstützte Sprachen",
+          "values": ["100+ Sprachen", "100+ Sprachen", "100+ Sprachen"]
+        },
+        {
+          "name": "Übersetzung",
+          "values": ["true", "true", "true"]
+        },
+        {
+          "name": "Sprechererkennung",
+          "values": ["Basis", "Erweitert (20 Sprecher)", "Erweitert (20 Sprecher)"]
+        },
+        {
+          "name": "Wortgenaue Zeitstempel",
+          "values": ["false", "true", "true"]
+        },
+        {
+          "name": "Formatierte Absätze",
+          "values": ["false", "true", "true"]
+        },
+        {
+          "name": "Exportformate",
+          "values": ["Alle Formate", "Alle Formate", "Alle Formate"]
+        },
+        {
+          "name": "Support",
+          "values": ["E-Mail", "Priorisierte E-Mail", "Priorisierte E-Mail"]
+        },
+        {
+          "name": "Datenspeicherung",
+          "values": ["30 Tage", "Dauerhaft", "Dauerhaft"]
+        }
+      ]
     },
     FAQ: {
       "title": "Häufig gestellte",
       "titleHighligt": "Fragen",
       "items": [
-            {
-              "q": "unlimited_policy",
-              "question": "Ist es wirklich unbegrenzt?",
-              "answer": "Ja! Pro-Pläne haben keine monatlichen Minutengrenzen. Die einzigen Limits sind technisch: Maximale Dateidauer von 10 Stunden und Dateigröße von 5GB. Sie können so viele Dateien verarbeiten, wie Sie benötigen."
-            },
-            {
-              "q": "plan_change",
-              "question": "Kann ich Pläne jederzeit ändern?",
-              "answer": "Absolut! Sie können Ihr Abonnement jederzeit über Ihr Dashboard kündigen. Jederzeit hoch- oder herabstufen, wie Sie es benötigen."
-            },
-            {
-              "q": "payment_methods",
-              "question": "Welche Zahlungsmethoden akzeptieren Sie?",
-              "answer": "Wir akzeptieren alle gängigen Kreditkarten, Debitkarten und PayPal für sichere, problemlose Zahlungen."
-            },
-            {
-              "q": "free_trial",
-              "question": "Gibt es eine kostenlose Testversion für Pro?",
-              "answer": "Ja! Testen Sie Pro 7 Tage lang kostenlos, ohne Kreditkarte. Plus: Erhalten Sie Ihren ersten Monat mit 45% Rabatt bei Anmeldung."
-            },
-            {
-              "q": "file_retention",
-              "question": "Wie lange werden meine Dateien gespeichert?",
-              "answer": "Kostenloser Plan: 30 Tage. Pro-Pläne: Dauerhaft! Ihre Transkripte sind immer in Ihrem Konto verfügbar."
-            },
-            {
-              "q": "data_security",
-              "question": "Wie sieht es mit der Datensicherheit aus?",
-              "answer": "Wir sind SOC 2-zertifiziert und verwenden 256-Bit-Verschlüsselung. Wir nutzen Ihre Inhalte nie zum Training unserer Modelle. Ihre Daten gehören Ihnen."
-            }
-          ]
+        {
+          "q": "unlimited_policy",
+          "question": "Ist es wirklich unbegrenzt?",
+          "answer": "Ja! Pro-Pläne haben keine monatlichen Minutengrenzen. Die einzigen Limits sind technisch: Maximale Dateidauer von 10 Stunden und Dateigröße von 5GB. Sie können so viele Dateien verarbeiten, wie Sie benötigen."
+        },
+        {
+          "q": "plan_change",
+          "question": "Kann ich Pläne jederzeit ändern?",
+          "answer": "Absolut! Sie können Ihr Abonnement jederzeit über Ihr Dashboard kündigen. Jederzeit hoch- oder herabstufen, wie Sie es benötigen."
+        },
+        {
+          "q": "payment_methods",
+          "question": "Welche Zahlungsmethoden akzeptieren Sie?",
+          "answer": "Wir akzeptieren alle gängigen Kreditkarten, Debitkarten und PayPal für sichere, problemlose Zahlungen."
+        },
+        {
+          "q": "free_trial",
+          "question": "Gibt es eine kostenlose Testversion für Pro?",
+          "answer": "Ja! Testen Sie Pro 7 Tage lang kostenlos, ohne Kreditkarte. Plus: Erhalten Sie Ihren ersten Monat mit 45% Rabatt bei Anmeldung."
+        },
+        {
+          "q": "file_retention",
+          "question": "Wie lange werden meine Dateien gespeichert?",
+          "answer": "Kostenloser Plan: 30 Tage. Pro-Pläne: Dauerhaft! Ihre Transkripte sind immer in Ihrem Konto verfügbar."
+        },
+        {
+          "q": "data_security",
+          "question": "Wie sieht es mit der Datensicherheit aus?",
+          "answer": "Wir sind SOC 2-zertifiziert und verwenden 256-Bit-Verschlüsselung. Wir nutzen Ihre Inhalte nie zum Training unserer Modelle. Ihre Daten gehören Ihnen."
+        }
+      ]
     },
     CTA: {
       "title": "Bereit für unbegrenzte Nutzung?",
@@ -2038,7 +2043,7 @@ let message = {
         subtitle: "Werden Sie einer von 50.000+ Profis, die Minuten zählen hinter sich ließen und mit dem Kreieren begannen",
         button: "Starten Sie Ihre unbegrenzte Reise →"
       },
-        heroSubtitleA: "Von Podcastern mit jahrelangem Rückstand bis hin zu Forschern mit Hunderten von Interviews. Sehen Sie, wie Profis {NeverCap} verwenden, um Upload- und Minutenbeschränkungen zu umgehen."
+      heroSubtitleA: "Von Podcastern mit jahrelangem Rückstand bis hin zu Forschern mit Hunderten von Interviews. Sehen Sie, wie Profis {NeverCap} verwenden, um Upload- und Minutenbeschränkungen zu umgehen."
     },
     Podcasters: {
       badge: "Für Podcaster gemacht",
@@ -2208,7 +2213,7 @@ let message = {
       ctaSubtitle: "Schließen Sie sich 10.000+ Podcastern an, die sich nie um Limits sorgen",
       ctaButton: "Laden Sie Ihre ersten 50 Folgen kostenlos hoch →",
       ctaDisclaimer: "Keine Kreditkarte erforderlich • Unbegrenzte Folgen verarbeiten • Jederzeit kündbar",
-        solutionDescriptionA: "Mit {NeverCap} erhalten Sie unbegrenzte Transkription. Laden Sie Ihr gesamtes Archiv hoch. Transkribieren Sie jede neue Episode. Erstellen Sie Show-Notizen in großem Umfang. Keine Obergrenzen, keine Limits, nur Wachstum."
+      solutionDescriptionA: "Mit {NeverCap} erhalten Sie unbegrenzte Transkription. Laden Sie Ihr gesamtes Archiv hoch. Transkribieren Sie jede neue Episode. Erstellen Sie Show-Notizen in großem Umfang. Keine Obergrenzen, keine Limits, nur Wachstum."
     },
     Journalists: {
       hero: {
@@ -2280,7 +2285,7 @@ let message = {
         solution: {
           title: "Die",
           titleHighlight: "NeverCap-Lösung",
-            descriptionA: "Mit {NeverCap} erhalten Sie unbegrenzte Transkription. Laden Sie Ihre gesamte Recherche hoch. Transkribieren Sie jedes Interview. Durchsuchen Sie alle Zitate sofort. Keine Großbuchstaben, keine Grenzen, nur Journalismus."
+          descriptionA: "Mit {NeverCap} erhalten Sie unbegrenzte Transkription. Laden Sie Ihre gesamte Recherche hoch. Transkribieren Sie jedes Interview. Durchsuchen Sie alle Zitate sofort. Keine Großbuchstaben, keine Grenzen, nur Journalismus."
         }
       },
       solution: {
@@ -2340,20 +2345,20 @@ let message = {
               }
             }
           },
-            ironclad: {
-                  label: "Quellenschutz",
-                  title: "Eiserner Quellenschutz",
-                  description: "Wir bieten robuste Sicherheitsfunktionen zum Schutz Ihrer sensiblen Interviewdaten und vertraulichen Quellen. Bank-Level-Verschlüsselung sichert Ihre Recherchen.",
-                  points: {
-                    accuracyGuarantee: "Ende-zu-Ende-Verschlüsselung",
-                    handlesAccents: "Optionen für automatische Dateilöschung",
-                    smartPunctuation: "DSGVO- & datenschutzkonform"
-                  },
-                  visual: {
-                    accuracy: "🔒",
-                    label: "Maximale Sicherheit"
-                  }
-                }
+          ironclad: {
+            label: "Quellenschutz",
+            title: "Eiserner Quellenschutz",
+            description: "Wir bieten robuste Sicherheitsfunktionen zum Schutz Ihrer sensiblen Interviewdaten und vertraulichen Quellen. Bank-Level-Verschlüsselung sichert Ihre Recherchen.",
+            points: {
+              accuracyGuarantee: "Ende-zu-Ende-Verschlüsselung",
+              handlesAccents: "Optionen für automatische Dateilöschung",
+              smartPunctuation: "DSGVO- & datenschutzkonform"
+            },
+            visual: {
+              accuracy: "🔒",
+              label: "Maximale Sicherheit"
+            }
+          }
         }
       },
       features: {
@@ -2436,8 +2441,8 @@ let message = {
             label: "Plattformen"
           }
         },
-          subtitleA: "Egal, ob Sie ein YouTube-Video transkribieren, ein TikTok-Video zur Weiterverwendung transkribieren oder herausfinden möchten, wie Sie ein Facebook-Video in Text transkribieren, {NeverCap} erledigt alles nahtlos. Erstellen Sie Untertitel in über 100 Sprachen ohne monatliche Begrenzung – einfach pure kreative Freiheit."
-    },
+        subtitleA: "Egal, ob Sie ein YouTube-Video transkribieren, ein TikTok-Video zur Weiterverwendung transkribieren oder herausfinden möchten, wie Sie ein Facebook-Video in Text transkribieren, {NeverCap} erledigt alles nahtlos. Erstellen Sie Untertitel in über 100 Sprachen ohne monatliche Begrenzung – einfach pure kreative Freiheit."
+      },
       platforms: {
         title: "Abrufen & Transkribieren von jeder Plattform",
         platformNames: {
@@ -2450,9 +2455,9 @@ let message = {
           tiktok: "TikTok",
           instagram: "Instagram"
         },
-          titleMax: "Videos transkribieren von",
-          titleMaxHighlight: "Jeder Plattform"
-    },
+        titleMax: "Videos transkribieren von",
+        titleMaxHighlight: "Jeder Plattform"
+      },
       features: {
         title: "Alles, was Sie brauchen, um",
         titleHighlight: "Inhalte zu skalieren",
@@ -2574,29 +2579,29 @@ let message = {
         subtitle: "Schließe dich 50.000+ Creatorn an, die aufhören, Minuten zu zählen, und anfangen zu kreieren",
         button: "Unbegrenzte Untertitelung starten →"
       },
-        FAQSection: {
-              "title": "Deine Transkriptionsfragen,",
-              "titleHighlight": "Beantwortet",
-              subtitle: "Alles, was du über das Transkribieren von Videos von verschiedenen Plattformen wissen musst",
-              "questions": [
-                    {
-                      "question": "F: Wie transkribiere ich ein YouTube-Video mit NeverCap?",
-                      "answer": "Ganz einfach: Finde das YouTube-Video, kopiere die URL und füge sie in unsere App ein. Unsere KI holt das Video automatisch und liefert in Minuten eine vollständige Texttranskription."
-                    },
-                    {
-                      "question": "F: Wie transkribiere ich ein Facebook-Video am besten?",
-                      "answer": "Am einfachsten mit einem Direktlink. Kopiere die Facebook-Video-URL und unsere Plattform übernimmt den Rest – mit bis zu 96% Genauigkeit und ohne manuelle Transkription."
-                    },
-                    {
-                      "question": "F: Kann ich TikTok- und Instagram-Videos transkribieren?",
-                      "answer": "Absolut. Wir unterstützen Transkriptionen für beide Plattformen. Perfekt für Creator, die Short-Form-Videos in Blogposts, Artikel oder Text-Updates umwandeln möchten."
-                    },
-                    {
-                      "question": "F: Wie transkribiere ich ein Vimeo-Video?",
-                      "answer": "So einfach wie bei anderen Plattformen: Vimeo-URL kopieren, in NeverCap einfügen. Unsere KI erstellt eine präzise Transkription in verschiedenen Download-Formaten."
-                    }
-                  ]
-            }
+      FAQSection: {
+        "title": "Deine Transkriptionsfragen,",
+        "titleHighlight": "Beantwortet",
+        subtitle: "Alles, was du über das Transkribieren von Videos von verschiedenen Plattformen wissen musst",
+        "questions": [
+          {
+            "question": "F: Wie transkribiere ich ein YouTube-Video mit NeverCap?",
+            "answer": "Ganz einfach: Finde das YouTube-Video, kopiere die URL und füge sie in unsere App ein. Unsere KI holt das Video automatisch und liefert in Minuten eine vollständige Texttranskription."
+          },
+          {
+            "question": "F: Wie transkribiere ich ein Facebook-Video am besten?",
+            "answer": "Am einfachsten mit einem Direktlink. Kopiere die Facebook-Video-URL und unsere Plattform übernimmt den Rest – mit bis zu 96% Genauigkeit und ohne manuelle Transkription."
+          },
+          {
+            "question": "F: Kann ich TikTok- und Instagram-Videos transkribieren?",
+            "answer": "Absolut. Wir unterstützen Transkriptionen für beide Plattformen. Perfekt für Creator, die Short-Form-Videos in Blogposts, Artikel oder Text-Updates umwandeln möchten."
+          },
+          {
+            "question": "F: Wie transkribiere ich ein Vimeo-Video?",
+            "answer": "So einfach wie bei anderen Plattformen: Vimeo-URL kopieren, in NeverCap einfügen. Unsere KI erstellt eine präzise Transkription in verschiedenen Download-Formaten."
+          }
+        ]
+      }
     },
     Researchers: {
       heroBadge: "Für akademische Exzellenz entwickelt",
@@ -2680,23 +2685,23 @@ let message = {
       ctaTitle: "Hören Sie auf, Daten auszuwählen",
       ctaSubtitle: "Schließen Sie sich 50.000+ Forschern an, die alles transkribieren",
       ctaButton: "NeverCap kostenlos testen",
-        problemTitle2: "Forschungs-Transkriptionsproblem",
-        title: "Die",
-        useCasesTitle2: "Jede Forschungsmethode",
-        testimonialTitle2: "Führenden Forschern",
-        feature1TitleHl: "Gesamten Forschungsprojekte",
-        feature1TitlePost: "Alles aus einer Hand",
-        feature2TitleHl: "Fokusgruppen-Interviews",
-        feature2TitlePost: "Jederzeit erfolgreich",
-        feature3TitleHl: "96% Genauigkeit",
-        feature4TitleHl: "Sicherheit",
-        testimonialText2Hl: "200 Stunden",
-        testimonialText3: "von Fokusgruppenaufnahmen aus unserer Gemeindegesundheitsstudie. Andere Dienste wollten, dass wir aufgrund der Kosten auswählen, welche Sitzungen transkribiert werden. NeverCap ermöglichte uns die Verarbeitung",
-        testimonialText4Hl: "alles an einem Wochenende",
-        testimonialText5: ". Die 20-Sprecher-Identifikation funktionierte tatsächlich – selbst während unserer chaotischsten Diskussionen, bei denen alle gleichzeitig sprachen. Dieses Tool hat",
-        testimonialText6Hl: "völlig verändert",
-        testimonialText7: "wie wir qualitative Daten verarbeiten.",
-        solutionDescA: "Mit {NeverCap} erhalten Sie unbegrenzte Transkription. Laden Sie Ihre gesamte Studie hoch. Transkribieren Sie jedes Interview. Analysieren Sie alle Ihre Daten. Keine Obergrenzen, keine Einschränkungen, nur Forschung."
+      problemTitle2: "Forschungs-Transkriptionsproblem",
+      title: "Die",
+      useCasesTitle2: "Jede Forschungsmethode",
+      testimonialTitle2: "Führenden Forschern",
+      feature1TitleHl: "Gesamten Forschungsprojekte",
+      feature1TitlePost: "Alles aus einer Hand",
+      feature2TitleHl: "Fokusgruppen-Interviews",
+      feature2TitlePost: "Jederzeit erfolgreich",
+      feature3TitleHl: "96% Genauigkeit",
+      feature4TitleHl: "Sicherheit",
+      testimonialText2Hl: "200 Stunden",
+      testimonialText3: "von Fokusgruppenaufnahmen aus unserer Gemeindegesundheitsstudie. Andere Dienste wollten, dass wir aufgrund der Kosten auswählen, welche Sitzungen transkribiert werden. NeverCap ermöglichte uns die Verarbeitung",
+      testimonialText4Hl: "alles an einem Wochenende",
+      testimonialText5: ". Die 20-Sprecher-Identifikation funktionierte tatsächlich – selbst während unserer chaotischsten Diskussionen, bei denen alle gleichzeitig sprachen. Dieses Tool hat",
+      testimonialText6Hl: "völlig verändert",
+      testimonialText7: "wie wir qualitative Daten verarbeiten.",
+      solutionDescA: "Mit {NeverCap} erhalten Sie unbegrenzte Transkription. Laden Sie Ihre gesamte Studie hoch. Transkribieren Sie jedes Interview. Analysieren Sie alle Ihre Daten. Keine Obergrenzen, keine Einschränkungen, nur Forschung."
     },
     BusinessTeams: {
       heroBadge: "Für Geschäftsteams",
@@ -2769,9 +2774,9 @@ let message = {
       ctaTitle: "Verlieren Sie keine wichtigen Gespräche mehr",
       ctaSubtitle: "Schließen Sie sich Tausenden Teams an, die jede Besprechung mit unbegrenzter Transkription erfassen",
       ctaButton: "Kostenlos aufnehmen →",
-        featuresTitle2: "Besprechung",
-        workflowTitle2: "Zoom-Aufnahme in Text",
-        heroSubtitleA: "Zeichnen Sie Meetings direkt im Browser auf oder laden Sie Audiodateien sofort hoch. Erstellen Sie durchsuchbare Archive aus einer unbegrenzten Anzahl von Gesprächen. Verlieren Sie nie wieder wichtige Gespräche mit der wirklich unbegrenzten Transkription von {NeverCap}."
+      featuresTitle2: "Besprechung",
+      workflowTitle2: "Zoom-Aufnahme in Text",
+      heroSubtitleA: "Zeichnen Sie Meetings direkt im Browser auf oder laden Sie Audiodateien sofort hoch. Erstellen Sie durchsuchbare Archive aus einer unbegrenzten Anzahl von Gesprächen. Verlieren Sie nie wieder wichtige Gespräche mit der wirklich unbegrenzten Transkription von {NeverCap}."
     },
     Educators: {
       heroBadge: "Für Lehrkräfte & Pädagogen",
@@ -2853,11 +2858,11 @@ let message = {
       ctaTitle: "Machen Sie alle Ihre Bildungsinhalte zugänglich",
       ctaSubtitle: "Schließen Sie sich Tausenden Pädagogen an, die wirklich unbegrenzte Transkription nutzen",
       ctaButton: "NeverCap kostenlos testen",
-        featuresTitle2: "Video-Transkription",
-        grid: "Audiodatei zu Lernhilfe",
-        useCasesTitle2: "Bildungsbedarf",
-        testimonialTitle2: "50.000+ Pädagogen",
-        testimonialTextA: "„Ich habe {NeverCap} verwendet, um meinen gesamten YouTube-Kanal mit Mathe-Tutorials zu transkribieren. Was bei anderen Diensten früher Wochen dauerte, dauert jetzt Stunden. Die Möglichkeit, Links direkt einzufügen und sofort Transkripte zu erhalten, hat die Art und Weise, wie ich barrierefreie Inhalte erstelle, verändert. Meine internationalen Studenten lieben besonders die mehrsprachigen Untertitel!“"
+      featuresTitle2: "Video-Transkription",
+      grid: "Audiodatei zu Lernhilfe",
+      useCasesTitle2: "Bildungsbedarf",
+      testimonialTitle2: "50.000+ Pädagogen",
+      testimonialTextA: "„Ich habe {NeverCap} verwendet, um meinen gesamten YouTube-Kanal mit Mathe-Tutorials zu transkribieren. Was bei anderen Diensten früher Wochen dauerte, dauert jetzt Stunden. Die Möglichkeit, Links direkt einzufügen und sofort Transkripte zu erhalten, hat die Art und Weise, wie ich barrierefreie Inhalte erstelle, verändert. Meine internationalen Studenten lieben besonders die mehrsprachigen Untertitel!“"
     }
   },
   Resources: {
@@ -2874,132 +2879,132 @@ let message = {
       part2: {
         "title": "So wandelst du ein YouTube-Video in 3 einfachen Schritten in eine herunterladbare MP4-Datei um",
         "steps": [
-                {
-                  title: "URL kopieren",
-                  content: "Öffne das gewünschte YouTube-Video und kopiere den Link aus der Adressleiste deines Browsers."
-                },
-                {
-                  title: "Link einfügen",
-                  content: "Gehe zu deinem Video-Downloader und füge die URL in das Eingabefeld ein."
-                },
-                {
-                  title: "MP4 herunterladen",
-                  content: "Nach der Verarbeitung klicke auf den Download-Button, um deine MP4-Datei zu speichern."
-                }
-              ]
+          {
+            title: "URL kopieren",
+            content: "Öffne das gewünschte YouTube-Video und kopiere den Link aus der Adressleiste deines Browsers."
+          },
+          {
+            title: "Link einfügen",
+            content: "Gehe zu deinem Video-Downloader und füge die URL in das Eingabefeld ein."
+          },
+          {
+            title: "MP4 herunterladen",
+            content: "Nach der Verarbeitung klicke auf den Download-Button, um deine MP4-Datei zu speichern."
+          }
+        ]
       },
       part3: {
         content: [
-                "Musstest du schon mal YouTube-Videos offline schauen?",
-                "Ob in der U-Bahn, im Flugzeug, beim Lernen wichtiger Tutorials, beim Vertiefen von Fähigkeiten oder beim Archivieren wichtiger Videos – zuverlässiger Offline-Zugriff ist oft ein Problem. Hier glänzt unser Downloader.",
-                "Der Downloader ermöglicht dir, YouTube-Videos schnell und einfach in MP4 umzuwandeln. Speichere sie auf deinem Gerät und schau sie jederzeit an.",
-                "Der Vorgang ist schnell, einfach und problemlos. Nach dem Download genieße deine Lieblingsvideos wann und wo du willst – ohne Internet."
-              ]
+          "Musstest du schon mal YouTube-Videos offline schauen?",
+          "Ob in der U-Bahn, im Flugzeug, beim Lernen wichtiger Tutorials, beim Vertiefen von Fähigkeiten oder beim Archivieren wichtiger Videos – zuverlässiger Offline-Zugriff ist oft ein Problem. Hier glänzt unser Downloader.",
+          "Der Downloader ermöglicht dir, YouTube-Videos schnell und einfach in MP4 umzuwandeln. Speichere sie auf deinem Gerät und schau sie jederzeit an.",
+          "Der Vorgang ist schnell, einfach und problemlos. Nach dem Download genieße deine Lieblingsvideos wann und wo du willst – ohne Internet."
+        ]
       },
       part4: {
         content: ["Hier sind die 5 wichtigsten Vorteile des Herunterladens", "von YouTube-Videos als MP4-Dateien"],
         list: [
-                {
-                  title: "Datenkosten sparen:",
-                  content: "Normalerweise verbraucht das Ansehen von YouTube-Videos viel mobiles Datenvolumen. Durch Offline-Downloads vermeidest du diese unnötigen Kosten."
-                },
-                {
-                  title: "Überall und jederzeit ansehen:",
-                  content: "Genieße deine Videos ohne Unterbrechungen, selbst bei schlechter Internetverbindung. Kein lästiges Buffern mehr."
-                },
-                {
-                  title: "Einfaches Archivieren & Speichern:",
-                  content: "Das Speichern von Videos als MP4 erleichtert das Erstellen einer persönlichen Sammlung, besonders für wertvolle oder wichtige Inhalte."
-                },
-                {
-                  title: "Einfacher teilen:",
-                  content: "Eine MP4-Datei zu teilen ist viel bequemer als einen Link zu senden. Du kannst die Videodatei direkt über Apps wie WhatsApp oder Instagram versenden, ohne YouTube öffnen zu müssen."
-                },
-                {
-                  title: "Sofortiges Ansehen, gemeinsame Momente:",
-                  content: "Möchtest du Freunden oder Familie ein Lieblingsvideo zeigen? Mit der heruntergeladenen MP4 könnt ihr es sofort gemeinsam ansehen, ohne auf das Laden warten zu müssen."
-                }
-              ]
+          {
+            title: "Datenkosten sparen:",
+            content: "Normalerweise verbraucht das Ansehen von YouTube-Videos viel mobiles Datenvolumen. Durch Offline-Downloads vermeidest du diese unnötigen Kosten."
+          },
+          {
+            title: "Überall und jederzeit ansehen:",
+            content: "Genieße deine Videos ohne Unterbrechungen, selbst bei schlechter Internetverbindung. Kein lästiges Buffern mehr."
+          },
+          {
+            title: "Einfaches Archivieren & Speichern:",
+            content: "Das Speichern von Videos als MP4 erleichtert das Erstellen einer persönlichen Sammlung, besonders für wertvolle oder wichtige Inhalte."
+          },
+          {
+            title: "Einfacher teilen:",
+            content: "Eine MP4-Datei zu teilen ist viel bequemer als einen Link zu senden. Du kannst die Videodatei direkt über Apps wie WhatsApp oder Instagram versenden, ohne YouTube öffnen zu müssen."
+          },
+          {
+            title: "Sofortiges Ansehen, gemeinsame Momente:",
+            content: "Möchtest du Freunden oder Familie ein Lieblingsvideo zeigen? Mit der heruntergeladenen MP4 könnt ihr es sofort gemeinsam ansehen, ohne auf das Laden warten zu müssen."
+          }
+        ]
       },
       part5: {
         title: "Warum unser Downloader heraussticht",
         cards: [
-                {
-                  title: "Ein-Klick-Einfachheit",
-                  content: "Mühelose Einrichtung und intuitive Bedienung."
-                },
-                {
-                  title: "Blitzschnell, unbegrenzt",
-                  content: "Konvertiere und lade mit Höchstgeschwindigkeit herunter – keine Begrenzungen."
-                },
-                {
-                  title: "Sofortige Konvertierung",
-                  content: "Verarbeite deine Dateien sofort, ohne Wartezeit."
-                },
-                {
-                  title: "Keine Werbung, keine Ablenkungen",
-                  content: "Genieße eine saubere Oberfläche ohne Pop-ups, Banner oder Unterbrechungen – nur nahtlose Videokonvertierung."
-                },
-                {
-                  icon: "5",
-                  color: "#DEE5FF",
-                  title: "Originalqualität garantiert",
-                  content: "Deine Downloads behalten die volle Auflösung des Originalvideos für eine perfekte Wiedergabe."
-                },
-                {
-                  icon: "6",
-                  color: "#DEF6EE",
-                  title: "Funktioniert überall",
-                  content: "Voll kompatibel mit jedem Browser und jedem Gerät."
-                }
-              ]
+          {
+            title: "Ein-Klick-Einfachheit",
+            content: "Mühelose Einrichtung und intuitive Bedienung."
+          },
+          {
+            title: "Blitzschnell, unbegrenzt",
+            content: "Konvertiere und lade mit Höchstgeschwindigkeit herunter – keine Begrenzungen."
+          },
+          {
+            title: "Sofortige Konvertierung",
+            content: "Verarbeite deine Dateien sofort, ohne Wartezeit."
+          },
+          {
+            title: "Keine Werbung, keine Ablenkungen",
+            content: "Genieße eine saubere Oberfläche ohne Pop-ups, Banner oder Unterbrechungen – nur nahtlose Videokonvertierung."
+          },
+          {
+            icon: "5",
+            color: "#DEE5FF",
+            title: "Originalqualität garantiert",
+            content: "Deine Downloads behalten die volle Auflösung des Originalvideos für eine perfekte Wiedergabe."
+          },
+          {
+            icon: "6",
+            color: "#DEF6EE",
+            title: "Funktioniert überall",
+            content: "Voll kompatibel mit jedem Browser und jedem Gerät."
+          }
+        ]
       },
       part6: {
         title: ["Maximiere deine YouTube-Video-Downloads", "Mit dem Downloader"],
         content: [
-                "Einfache YouTube-zu-MP4-Konvertierung: Schnell, einfach & kostenlos.",
-                "Darin sind wir spitze. Unsere benutzerfreundliche Oberfläche ist für alle gemacht – keine technischen Kenntnisse nötig. Egal auf welchem Level, du kannst Videos sofort konvertieren. Keine Anmeldung erforderlich: Hol dir direkt, was du brauchst.",
-                "Sei unbesorgt – deine heruntergeladenen MP4s behalten die Originalqualität und Klarheit, genau wie auf YouTube.",
-                "Funktioniert überall, wo du arbeitest. Voll kompatibel mit allen gängigen Plattformen und Geräten. Egal ob Windows, macOS, Linux, Android oder iOS – mit Smartphone, Tablet oder Desktop kannst du Videos problemlos herunterladen."
-              ]
+          "Einfache YouTube-zu-MP4-Konvertierung: Schnell, einfach & kostenlos.",
+          "Darin sind wir spitze. Unsere benutzerfreundliche Oberfläche ist für alle gemacht – keine technischen Kenntnisse nötig. Egal auf welchem Level, du kannst Videos sofort konvertieren. Keine Anmeldung erforderlich: Hol dir direkt, was du brauchst.",
+          "Sei unbesorgt – deine heruntergeladenen MP4s behalten die Originalqualität und Klarheit, genau wie auf YouTube.",
+          "Funktioniert überall, wo du arbeitest. Voll kompatibel mit allen gängigen Plattformen und Geräten. Egal ob Windows, macOS, Linux, Android oder iOS – mit Smartphone, Tablet oder Desktop kannst du Videos problemlos herunterladen."
+        ]
       },
       part7: {
         title: "Wichtige Fragen zum Herunterladen von YouTube-Videos",
         list: [
-                {
-                  question: "Kann ich ein YouTube-Video herunterladen, wenn es urheberrechtlich geschützt ist?",
-                  answer: "Das Herunterladen urheberrechtlich geschützter YouTube-Videos ohne Erlaubnis des Rechteinhabers ist illegal."
-                },
-                {
-                  question: "Ist dieses Download-Tool sicher?",
-                  answer: "Ja, es ist sicher und vertrauenswürdig. Wir benötigen keine persönlichen Daten und ergreifen strenge Maßnahmen gegen Viren. Wir raten dir, beim Herunterladen von Dateien aus dem Internet stets vorsichtig zu sein: Vermeide das Klicken auf verdächtige Links oder das Herunterladen fragwürdiger Dateien."
-                },
-                {
-                  question: "Welche Sprachen unterstützt der YouTube-zu-MP4-Download?",
-                  answer: "Unser Service unterstützt das Herunterladen von YouTube-Videos in allen gängigen Sprachen."
-                },
-                {
-                  question: "Welche Faktoren beeinflussen die Download-Zeit eines YouTube-Videos?",
-                  answer: "Während wir die schnellstmögliche Download-Erfahrung gewährleisten, hängt die Download-Zeit auch von Faktoren wie der Videolänge und deiner Internetgeschwindigkeit ab."
-                },
-                {
-                  question: "Wo wird eine MP4-Videodatei auf meinem Smartphone gespeichert?",
-                  answer: 'Nach dem Herunterladen einer MP4-Datei auf Ihrem Smartphone finden Sie diese normalerweise im Ordner "Downloads" der Dateimanager-App Ihres Geräts.'
-                },
-                {
-                  question: "Verschlechtert das Herunterladen eines YouTube-Videos als MP4 die Videoqualität?",
-                  answer: "Nein. Das Herunterladen von YouTube-Videos als MP4 mit unserem Tool behält die Originalqualität bei. Der Konvertierungsprozess bewahrt die Quellqualität, sodass du das gleiche Ansehen-Erlebnis wie auf YouTube hast."
-                }
-              ]
+          {
+            question: "Kann ich ein YouTube-Video herunterladen, wenn es urheberrechtlich geschützt ist?",
+            answer: "Das Herunterladen urheberrechtlich geschützter YouTube-Videos ohne Erlaubnis des Rechteinhabers ist illegal."
+          },
+          {
+            question: "Ist dieses Download-Tool sicher?",
+            answer: "Ja, es ist sicher und vertrauenswürdig. Wir benötigen keine persönlichen Daten und ergreifen strenge Maßnahmen gegen Viren. Wir raten dir, beim Herunterladen von Dateien aus dem Internet stets vorsichtig zu sein: Vermeide das Klicken auf verdächtige Links oder das Herunterladen fragwürdiger Dateien."
+          },
+          {
+            question: "Welche Sprachen unterstützt der YouTube-zu-MP4-Download?",
+            answer: "Unser Service unterstützt das Herunterladen von YouTube-Videos in allen gängigen Sprachen."
+          },
+          {
+            question: "Welche Faktoren beeinflussen die Download-Zeit eines YouTube-Videos?",
+            answer: "Während wir die schnellstmögliche Download-Erfahrung gewährleisten, hängt die Download-Zeit auch von Faktoren wie der Videolänge und deiner Internetgeschwindigkeit ab."
+          },
+          {
+            question: "Wo wird eine MP4-Videodatei auf meinem Smartphone gespeichert?",
+            answer: 'Nach dem Herunterladen einer MP4-Datei auf Ihrem Smartphone finden Sie diese normalerweise im Ordner "Downloads" der Dateimanager-App Ihres Geräts.'
+          },
+          {
+            question: "Verschlechtert das Herunterladen eines YouTube-Videos als MP4 die Videoqualität?",
+            answer: "Nein. Das Herunterladen von YouTube-Videos als MP4 mit unserem Tool behält die Originalqualität bei. Der Konvertierungsprozess bewahrt die Quellqualität, sodass du das gleiche Ansehen-Erlebnis wie auf YouTube hast."
+          }
+        ]
       },
-        err1: "YouTube-Link-Formatfehler.",
-        err2: "Entschuldigung! Wir unterstützen derzeit nur YouTube-Links. Falls Sie Unterstützung für andere Seiten benötigen, informieren wir Sie, sobald wir diese hinzufügen.",
-        videoDownload: {
-              title: "YouTube-Videos als MP4 herunterladen. Kostenlos, schnell und ohne Werbung.",
-              description: "Vielen Dank, dass Sie unseren Service gewählt haben! Wir schätzen Ihr Vertrauen und hoffen, es hat Ihnen gefallen. Es würde uns sehr helfen, wenn Sie unsere Website mit Ihren Freunden teilen würden.",
-              downloadButton: "Herunterladen",
-              downloadError: "Downloadfehler."
-            }
+      err1: "YouTube-Link-Formatfehler.",
+      err2: "Entschuldigung! Wir unterstützen derzeit nur YouTube-Links. Falls Sie Unterstützung für andere Seiten benötigen, informieren wir Sie, sobald wir diese hinzufügen.",
+      videoDownload: {
+        title: "YouTube-Videos als MP4 herunterladen. Kostenlos, schnell und ohne Werbung.",
+        description: "Vielen Dank, dass Sie unseren Service gewählt haben! Wir schätzen Ihr Vertrauen und hoffen, es hat Ihnen gefallen. Es würde uns sehr helfen, wenn Sie unsere Website mit Ihren Freunden teilen würden.",
+        downloadButton: "Herunterladen",
+        downloadError: "Downloadfehler."
+      }
     }
   },
   About: {
@@ -3013,67 +3018,67 @@ let message = {
       "highlighted_text": "Impact",
       "subtitle": "Globale Kommunikation mit modernster KI-Technologie ermöglichen",
       "metrics": [
-            {
-              "value": "96%+",
-              "label": "Genauigkeitsrate",
-              "description": "Branchenführende Transkriptionsgenauigkeit mit fortschrittlicher KI"
-            },
-            {
-              "value": "100+",
-              "label": "Unterstützte Sprachen",
-              "description": "Spracherkennung für globale Inhalte"
-            },
-            {
-              "value": "249+",
-              "label": "Übersetzungssprachen",
-              "description": "Transkribierten Text in nahezu jede Sprache übersetzen"
-            }
-          ]
+        {
+          "value": "96%+",
+          "label": "Genauigkeitsrate",
+          "description": "Branchenführende Transkriptionsgenauigkeit mit fortschrittlicher KI"
+        },
+        {
+          "value": "100+",
+          "label": "Unterstützte Sprachen",
+          "description": "Spracherkennung für globale Inhalte"
+        },
+        {
+          "value": "249+",
+          "label": "Übersetzungssprachen",
+          "description": "Transkribierten Text in nahezu jede Sprache übersetzen"
+        }
+      ]
     },
     Mission: {
       "title": "Warum",
       "subtitle": "Wir glauben daran, Sprachbarrieren abzubauen und Inhalte für alle zugänglich zu machen",
       "features": [
-            {
-              "icon": "🎯",
-              "title": "Unübertroffene Genauigkeit",
-              "description": "Unsere KI-Modelle werden kontinuierlich verbessert, um Transkriptionsgenauigkeiten von über 96% zu liefern, bei einigen Hauptsprachen sogar bis zu 99% durch fortgeschrittene Optimierung."
-            },
-            {
-              "icon": "🌍",
-              "title": "Globale Sprachunterstützung",
-              "description": "Unterstützung für über 100 Sprachen in der Spracherkennung und Übersetzungsmöglichkeiten für mehr als 249 Sprachen, um Ihre Inhalte wirklich global zu machen."
-            },
-            {
-              "icon": "⚡",
-              "title": "Blitzschnelle Verarbeitung",
-              "description": "Verarbeiten Sie Stunden an Audio- und Videoinhalten in Minuten, nicht Stunden. Unsere optimierte KI-Pipeline sorgt für schnelle Transkriptionen ohne Qualitätseinbußen."
-            },
-            {
-              "icon": "🔒",
-              "title": "Unternehmensgrade Sicherheit",
-              "description": "Ihre Datensicherheit ist unsere Priorität. Wir verwenden branchenübliche Verschlüsselung und halten uns an globale Datenschutzbestimmungen, um Ihre Inhalte sicher und vertraulich zu halten."
-            }
-          ]
+        {
+          "icon": "🎯",
+          "title": "Unübertroffene Genauigkeit",
+          "description": "Unsere KI-Modelle werden kontinuierlich verbessert, um Transkriptionsgenauigkeiten von über 96% zu liefern, bei einigen Hauptsprachen sogar bis zu 99% durch fortgeschrittene Optimierung."
+        },
+        {
+          "icon": "🌍",
+          "title": "Globale Sprachunterstützung",
+          "description": "Unterstützung für über 100 Sprachen in der Spracherkennung und Übersetzungsmöglichkeiten für mehr als 249 Sprachen, um Ihre Inhalte wirklich global zu machen."
+        },
+        {
+          "icon": "⚡",
+          "title": "Blitzschnelle Verarbeitung",
+          "description": "Verarbeiten Sie Stunden an Audio- und Videoinhalten in Minuten, nicht Stunden. Unsere optimierte KI-Pipeline sorgt für schnelle Transkriptionen ohne Qualitätseinbußen."
+        },
+        {
+          "icon": "🔒",
+          "title": "Unternehmensgrade Sicherheit",
+          "description": "Ihre Datensicherheit ist unsere Priorität. Wir verwenden branchenübliche Verschlüsselung und halten uns an globale Datenschutzbestimmungen, um Ihre Inhalte sicher und vertraulich zu halten."
+        }
+      ]
     },
     Company: {
       "title": "Firmen",
       "highlighted_text": "Informationen",
       "subtitle": "Kontaktieren Sie uns bei Fragen oder Support",
       "details": [
-            {
-              "label": "Firmenname",
-              "value": "SCRIBIFY AI INC"
-            },
-            {
-              "label": "Hauptsitz",
-              "value": ["30 N Gould St Ste R", "Sheridan, WY 82801", "Vereinigte Staaten"]
-            },
-            {
-              "label": "Kontakt",
-              "value": ["E-Mail", "Support rund um die Uhr verfügbar"]
-            }
-          ]
+        {
+          "label": "Firmenname",
+          "value": "SCRIBIFY AI INC"
+        },
+        {
+          "label": "Hauptsitz",
+          "value": ["30 N Gould St Ste R", "Sheridan, WY 82801", "Vereinigte Staaten"]
+        },
+        {
+          "label": "Kontakt",
+          "value": ["E-Mail", "Support rund um die Uhr verfügbar"]
+        }
+      ]
     },
     CTA: {
       "title": "Bereit für den Unterschied?",
@@ -3127,10 +3132,10 @@ let message = {
     "contactTitle": "9. Kontakt",
     "websiteUrl": "https://www.nevercap.ai/",
     at: "unter",
-      childrenDescription: "Die Dienste richten sich nicht an Kinder, und wir erheben wissentlich keine personenbezogenen Daten von Kindern unter 13 Jahren. Wenn Sie unter 13 Jahre alt sind, übermitteln Sie bitte keine persönlichen Daten über die Dienste. Wenn Sie der Meinung sind, dass ein Kind uns entgegen dieser Richtlinie personenbezogene Daten bereitgestellt hat, kontaktieren Sie uns bitte unter {at} {email}.",
-      contactDescription: "Wenn Sie Fragen, Kommentare oder Beschwerden zu unserer Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter {at} {email}, und wir werden uns bemühen, Ihre Beschwerde so schnell wie möglich zu bearbeiten.",
-      policyDescriptionA: "Diese Richtlinie beschreibt, wie {NeverCap} (nachfolgend als „NeverCap“, „unser“, „wir“, „uns“ bezeichnet) Ihre personenbezogenen Daten sammelt, verwendet und weitergibt, wenn Sie unsere Dienste, Websites ({url}) und Software (zusammen die „Dienste“) nutzen."
-},
+    childrenDescription: "Die Dienste richten sich nicht an Kinder, und wir erheben wissentlich keine personenbezogenen Daten von Kindern unter 13 Jahren. Wenn Sie unter 13 Jahre alt sind, übermitteln Sie bitte keine persönlichen Daten über die Dienste. Wenn Sie der Meinung sind, dass ein Kind uns entgegen dieser Richtlinie personenbezogene Daten bereitgestellt hat, kontaktieren Sie uns bitte unter {at} {email}.",
+    contactDescription: "Wenn Sie Fragen, Kommentare oder Beschwerden zu unserer Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter {at} {email}, und wir werden uns bemühen, Ihre Beschwerde so schnell wie möglich zu bearbeiten.",
+    policyDescriptionA: "Diese Richtlinie beschreibt, wie {NeverCap} (nachfolgend als „NeverCap“, „unser“, „wir“, „uns“ bezeichnet) Ihre personenbezogenen Daten sammelt, verwendet und weitergibt, wenn Sie unsere Dienste, Websites ({url}) und Software (zusammen die „Dienste“) nutzen."
+  },
   TermsOfUse: {
     title: "Nutzungsbedingungen",
     titleGradient: "Dienst",
@@ -3225,41 +3230,41 @@ let message = {
     "site": "Website",
     "services": "Dienste",
     at: "unter",
-      trademarkProtection: "Die Namen, das Aussehen und die Gestaltung der Dienste sind urheberrechtlich© durch das Unternehmen geschützt. Alle Rechte vorbehalten. Sie dürfen keine Teile der HTML-, CSS-, JavaScript- oder visuellen Designtelemente ohne ausdrückliche schriftliche Genehmigung des Unternehmens duplizieren, kopieren oder wiederverwenden. Sie müssen eine Genehmigung beantragen, um das Logo des Unternehmens oder Dienstlogos zu Werbezwecken zu nutzen. Bitte senden Sie uns eine E-Mail unter {at} {email} für Anfragen zur Logonutzung. Wir behalten uns das Recht vor, diese Genehmigung zu widerrufen, wenn Sie gegen diese Nutzungsbedingungen verstoßen.",
-      privacyPolicyDescription: "Uns sind Datenschutz und Sicherheit wichtig. Bitte lesen Sie unsere {policy}. Durch die Nutzung der Website erklären Sie sich mit unserer Datenschutzrichtlinie einverstanden, die in diese Nutzungsbedingungen integriert ist. Bitte beachten Sie, dass die Website in den Vereinigten Staaten gehostet wird. Wenn Sie die Website aus einer anderen Region der Welt aufrufen, in der andere Gesetze oder Anforderungen zur Erhebung, Nutzung oder Offenlegung personenbezogener Daten gelten als in den Vereinigten Staaten, dann transferieren Sie durch die weitere Nutzung der Website Ihre Daten in die Vereinigten Staaten und erklären sich damit einverstanden, dass Ihre Daten in die Vereinigten Staaten übertragen und dort verarbeitet werden.",
-      contactDescription: "Wenn Sie eine Frage zu den Nutzungsbedingungen haben, kontaktieren Sie uns bitte unter {at} {email}.",
-      "companyDefinitionA": "Wenn wir in diesem Dokument „Unternehmen“, „wir“, „unser“ oder „uns“ sagen, beziehen wir uns auf {NeverCap}."
-},
-    Blog: {
-          Hero: {
-            "title": "Werde ein",
-            "highlighted_text": "Transkriptionsassistent",
-            "description": "Tutorials, Strategien und KI-Tools von {NeverCap} helfen Ihnen, mit professionellen Transkriptions-Workflows unbegrenzt Inhalte zu erstellen."
-          },
-          Featured: {
-            FeaturedGuide: "Empfohlene Anleitung",
-            ReadFullGuide: "Vollständige Anleitung lesen"
-          },
-          ListSection: {
-            title: "Letzte",
-            highlighted_text: "Artikel",
-            subtitle: "Expertentipps und Tutorials für unbegrenzte Transkription",
-            categories: [
-              "Alle Beiträge",
-              "Anleitungen",
-              "Podcasting",
-              "Inhaltserstellung",
-              "Geschäft",
-              "KI-Tipps"
-            ]
-          },
-          Detail: {
-            Home: "Heim",
-            Blog: "Der Blog",
-            GoToSignup: "Testen Sie NeverCap kostenlos – keine Kreditkarte",
-            HowWorks: "So funktioniert es"
-          }
-        }
+    trademarkProtection: "Die Namen, das Aussehen und die Gestaltung der Dienste sind urheberrechtlich© durch das Unternehmen geschützt. Alle Rechte vorbehalten. Sie dürfen keine Teile der HTML-, CSS-, JavaScript- oder visuellen Designtelemente ohne ausdrückliche schriftliche Genehmigung des Unternehmens duplizieren, kopieren oder wiederverwenden. Sie müssen eine Genehmigung beantragen, um das Logo des Unternehmens oder Dienstlogos zu Werbezwecken zu nutzen. Bitte senden Sie uns eine E-Mail unter {at} {email} für Anfragen zur Logonutzung. Wir behalten uns das Recht vor, diese Genehmigung zu widerrufen, wenn Sie gegen diese Nutzungsbedingungen verstoßen.",
+    privacyPolicyDescription: "Uns sind Datenschutz und Sicherheit wichtig. Bitte lesen Sie unsere {policy}. Durch die Nutzung der Website erklären Sie sich mit unserer Datenschutzrichtlinie einverstanden, die in diese Nutzungsbedingungen integriert ist. Bitte beachten Sie, dass die Website in den Vereinigten Staaten gehostet wird. Wenn Sie die Website aus einer anderen Region der Welt aufrufen, in der andere Gesetze oder Anforderungen zur Erhebung, Nutzung oder Offenlegung personenbezogener Daten gelten als in den Vereinigten Staaten, dann transferieren Sie durch die weitere Nutzung der Website Ihre Daten in die Vereinigten Staaten und erklären sich damit einverstanden, dass Ihre Daten in die Vereinigten Staaten übertragen und dort verarbeitet werden.",
+    contactDescription: "Wenn Sie eine Frage zu den Nutzungsbedingungen haben, kontaktieren Sie uns bitte unter {at} {email}.",
+    "companyDefinitionA": "Wenn wir in diesem Dokument „Unternehmen“, „wir“, „unser“ oder „uns“ sagen, beziehen wir uns auf {NeverCap}."
+  },
+  Blog: {
+    Hero: {
+      "title": "Werde ein",
+      "highlighted_text": "Transkriptionsassistent",
+      "description": "Tutorials, Strategien und KI-Tools von {NeverCap} helfen Ihnen, mit professionellen Transkriptions-Workflows unbegrenzt Inhalte zu erstellen."
+    },
+    Featured: {
+      FeaturedGuide: "Empfohlene Anleitung",
+      ReadFullGuide: "Vollständige Anleitung lesen"
+    },
+    ListSection: {
+      title: "Letzte",
+      highlighted_text: "Artikel",
+      subtitle: "Expertentipps und Tutorials für unbegrenzte Transkription",
+      categories: [
+        "Alle Beiträge",
+        "Anleitungen",
+        "Podcasting",
+        "Inhaltserstellung",
+        "Geschäft",
+        "KI-Tipps"
+      ]
+    },
+    Detail: {
+      Home: "Heim",
+      Blog: "Der Blog",
+      GoToSignup: "Testen Sie NeverCap kostenlos – keine Kreditkarte",
+      HowWorks: "So funktioniert es"
+    }
+  }
 };
 
 export default defineI18nLocale(async (locale) => {

@@ -30,64 +30,64 @@
             </tr>
           </thead>
           <tbody>
-          <tr v-for="(item, index) in 14">
-            <td class="feature-name">
-              {{ $i(`features[${index}].name`) }}
-            </td>
-            <td :data-label="$i(`plans[1]`)">
-              <template v-if="[7].includes(index)">
-                <span class="check-large">✓</span>
-              </template>
-              <template v-else-if="[9, 10].includes(index)">
-                <span class="x-mark">✗</span>
-              </template>
-              <template v-else>
-                {{ $i(`features[${index}].values[0]`) }}
-              </template>
-            </td>
-            <td :data-label="$i(`plans[2]`)">
-              <div class="flex flex-col" v-if="index === 0">
-                <strong>
-                  {{ $i(`features[${index}].values[1].main`) }}
-                </strong>
-                <small style="color: var(--secondary)">
-                  {{ $i(`features[${index}].values[1].note`) }}
-                </small>
-              </div>
-              <template v-else-if="index === 1">
-                <strong>
+            <tr v-for="(item, index) in 15">
+              <td class="feature-name">
+                {{ $i(`features[${index}].name`) }}
+              </td>
+              <td :data-label="$i(`plans[1]`)">
+                <template v-if="[8].includes(index)">
+                  <span class="check-large">✓</span>
+                </template>
+                <template v-else-if="[10, 11].includes(index)">
+                  <span class="x-mark">✗</span>
+                </template>
+                <template v-else>
+                  {{ $i(`features[${index}].values[0]`) }}
+                </template>
+              </td>
+              <td :data-label="$i(`plans[2]`)">
+                <div class="flex flex-col" v-if="index === 0">
+                  <strong>
+                    {{ $i(`features[${index}].values[1].main`) }}
+                  </strong>
+                  <small style="color: var(--secondary)">
+                    {{ $i(`features[${index}].values[1].note`) }}
+                  </small>
+                </div>
+                <template v-else-if="index === 1">
+                  <strong>
+                    {{ $i(`features[${index}].values[1]`) }}
+                  </strong>
+                </template>
+                <template v-else-if="[8, 10, 11].includes(index)">
+                  <span class="check-large">✓</span>
+                </template>
+                <template v-else>
                   {{ $i(`features[${index}].values[1]`) }}
-                </strong>
-              </template>
-              <template v-else-if="[7, 9, 10].includes(index)">
-                <span class="check-large">✓</span>
-              </template>
-              <template v-else>
-                {{ $i(`features[${index}].values[1]`) }}
-              </template>
-            </td>
-            <td :data-label="$i(`plans[3]`)">
-              <div class="flex flex-col" v-if="index === 0">
-                <strong>
-                  {{ $i(`features[${index}].values[2].main`) }}
-                </strong>
-                <small style="color: var(--secondary)">
-                  {{ $i(`features[${index}].values[2].note`) }}
-                </small>
-              </div>
-              <template v-else-if="index === 1">
-                <strong>
+                </template>
+              </td>
+              <td :data-label="$i(`plans[3]`)">
+                <div class="flex flex-col" v-if="index === 0">
+                  <strong>
+                    {{ $i(`features[${index}].values[2].main`) }}
+                  </strong>
+                  <small style="color: var(--secondary)">
+                    {{ $i(`features[${index}].values[2].note`) }}
+                  </small>
+                </div>
+                <template v-else-if="index === 1">
+                  <strong>
+                    {{ $i(`features[${index}].values[2]`) }}
+                  </strong>
+                </template>
+                <template v-else-if="[8, 10, 11].includes(index)">
+                  <span class="check-large">✓</span>
+                </template>
+                <template v-else>
                   {{ $i(`features[${index}].values[2]`) }}
-                </strong>
-              </template>
-              <template v-else-if="[7, 9, 10].includes(index)">
-                <span class="check-large">✓</span>
-              </template>
-              <template v-else>
-                {{ $i(`features[${index}].values[2]`) }}
-              </template>
-            </td>
-          </tr>
+                </template>
+              </td>
+            </tr>
           </tbody>
         </table>
       </div>
@@ -146,7 +146,7 @@ const $i = useI18nModule("Pricing.ComparisonTable");
   font-weight: 600;
   border-bottom: 2px solid #e5e7eb;
 }
-[dir='rtl'] .comparison-table th {
+[dir="rtl"] .comparison-table th {
   text-align: right;
 }
 
@@ -181,7 +181,6 @@ const $i = useI18nModule("Pricing.ComparisonTable");
   color: #ef4444;
   font-size: 20px;
 }
-
 
 /* 移动端响应式 */
 @media (max-width: 768px) {
@@ -224,11 +223,9 @@ const $i = useI18nModule("Pricing.ComparisonTable");
   .comparison-table tr:last-child {
     margin-bottom: 0;
 
-
     td:first-child {
       border-bottom: 1px solid #f3f4f6;
     }
-
   }
 
   /* 重置 td 样式 */

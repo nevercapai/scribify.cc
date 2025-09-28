@@ -107,12 +107,17 @@ useHead({
               {
                 "@type": "PropertyValue",
                 name: "File Duration Limit",
-                value: "30 minutes per file"
+                value: "10 hours per file"
               },
               {
                 "@type": "PropertyValue",
                 name: "File Size Limit",
-                value: "250 MB per file"
+                value: "5 GB per file"
+              },
+              {
+                "@type": "PropertyValue",
+                name: "Transcript Preview",
+                value: "Free 30-minute preview on all transcripts"
               },
               {
                 "@type": "PropertyValue",
@@ -330,7 +335,7 @@ useHead({
             name: "What's the difference between plans?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Free: 3 files/day, 30min/file. Pro: Unlimited minutes, 10hr/file, 50-file batches, priority processing, word-level timestamps, advanced speaker ID."
+              text: "Free: 3 files/day, 30-min preview per transcript, 10hr/file limit. Pro: Unlimited minutes, 10hr/file, 50-file batches, priority processing, word-level timestamps, advanced speaker ID."
             }
           },
           {

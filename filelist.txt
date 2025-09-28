@@ -388,6 +388,7 @@
 ./hooks
 ./hooks/useVisitor.ts
 ./hooks/useJumpPage.ts
+./hooks/useClickHandler.js
 ./hooks/useCrossDomainCookie.ts
 ./composables
 ./composables/usePageJump.js

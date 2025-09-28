@@ -93,7 +93,8 @@ useHead({
           {
             "@type": "Offer",
             name: "Free Plan",
-            description: "3 files per day, up to 30 minutes per file",
+            description:
+              "3 files per day, free 30-minute preview on all transcripts",
             price: "0",
             priceCurrency: "USD",
             priceSpecification: {

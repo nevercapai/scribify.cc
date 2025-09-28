@@ -205,13 +205,13 @@ ${textArray.map((text, index) => `${index + 1}. ${text}`).join("\n")}
 
 // 解析 AI 返回的翻译结果
 function parseAITranslationResponse(
-    content: string,
-    expectedCount: number
+  content: string,
+  expectedCount: number
 ): string[] {
   const lines = content
-      .split("\n")
-      .map((line) => line.trim())
-      .filter((line) => line.length > 0);
+    .split("\n")
+    .map((line) => line.trim())
+    .filter((line) => line.length > 0);
 
   let result: string[] = [];
 
@@ -222,7 +222,7 @@ function parseAITranslationResponse(
     // 按序号提取，保持位置关系
     for (let i = 1; i <= expectedCount; i++) {
       const found = numberedLines.find((line) =>
-          line.startsWith(`${i}.`)
+        line.startsWith(`${i}.`)
       );
 
       if (found) {
@@ -238,15 +238,15 @@ function parseAITranslationResponse(
 
   // 方法2和3保持不变...
   const possibleTranslations = lines
-      .filter((line) => {
-        return (
-            !line.includes("翻译结果") &&
-            !line.includes("原文") &&
-            !line.includes("请翻译") &&
-            !line.match(/^[一二三四五六七八九十\d]+[、．.]\s*$/)
-        );
-      })
-      .map((line) => line.replace(/^\d+[\.、]\s*/, "").trim());
+    .filter((line) => {
+      return (
+        !line.includes("翻译结果") &&
+        !line.includes("原文") &&
+        !line.includes("请翻译") &&
+        !line.match(/^[一二三四五六七八九十\d]+[、．.]\s*$/)
+      );
+    })
+    .map((line) => line.replace(/^\d+[\.、]\s*/, "").trim());
 
   if (possibleTranslations.length >= expectedCount) {
     for (let i = 0; i < expectedCount; i++) {
@@ -306,7 +306,7 @@ async function translateTexts(
         : await translateBatch(batch, targetLanguage);
 
       const decodedResults = batchResults.map((text: any) =>
-        decodeHtmlEntities(text)
+        decodeApiResponseString(text)
       );
 
       results.push(...decodedResults);
@@ -546,32 +546,54 @@ function parseObjectFromFile(filePath: string): any {
 }
 
 // 解析对象字面量
+// ✅ 请用这个【新版本】替换你现有的 parseObjectLiteral 函数
+
+// 解析对象字面量
 function parseObjectLiteral(obj: ObjectLiteralExpression): any {
   const result: any = {};
 
   obj.getProperties().forEach((prop) => {
     if (prop.getKind() === SyntaxKind.PropertyAssignment) {
       const propAssignment = prop as PropertyAssignment;
-      const key = propAssignment.getName();
-      const value = propAssignment.getInitializer();
 
-      if (value) {
-        if (value.getKind() === SyntaxKind.ObjectLiteralExpression) {
-          // 嵌套对象
-          result[key] = parseObjectLiteral(value as ObjectLiteralExpression);
-        } else if (value.getKind() === SyntaxKind.ArrayLiteralExpression) {
-          // 🆕 新增：数组字面量支持
-          result[key] = parseArrayLiteral(value as any);
-        } else if (value.getKind() === SyntaxKind.StringLiteral) {
+      const nameNode = propAssignment.getNameNode();
+      let key = nameNode.getText();
+      if (nameNode.getKind() === SyntaxKind.StringLiteral) {
+        key = key.substring(1, key.length - 1);
+      }
+
+      const valueNode = propAssignment.getInitializer();
+
+      if (valueNode) {
+        if (valueNode.getKind() === SyntaxKind.ObjectLiteralExpression) {
+          result[key] = parseObjectLiteral(valueNode as ObjectLiteralExpression);
+        } else if (valueNode.getKind() === SyntaxKind.ArrayLiteralExpression) {
+          result[key] = parseArrayLiteral(valueNode as any);
+        } else if (valueNode.getKind() === SyntaxKind.StringLiteral) {
           // 字符串字面量
-          result[key] = value.getText().slice(1, -1);
+          let value = valueNode.getText().slice(1, -1);
+
+          // ================== ✨ 净化逻辑 ✨ ==================
+          // 在这里修复从文件中读到的、历史遗留的错误转义。
+          // 这可以防止 "滚雪球" 效应，确保内存中的数据始终是干净的。
+          if (value.includes('\\"')) {
+            console.log(`🧼 净化历史数据: "${key}"`);
+            value = value.replace(/\\"/g, '"');
+          }
+          // =====================================================
+
+          result[key] = value; // 使用净化后的值
         } else if (
-          value.getKind() === SyntaxKind.TemplateExpression ||
-          value.getKind() === SyntaxKind.NoSubstitutionTemplateLiteral
+          valueNode.getKind() === SyntaxKind.TemplateExpression ||
+          valueNode.getKind() === SyntaxKind.NoSubstitutionTemplateLiteral
         ) {
-          // 模板字符串
-          const text = value.getText();
-          result[key] = text.slice(1, -1);
+          // 模板字符串 (模板字符串通常不会有这种转义问题，但以防万一)
+          let value = valueNode.getText().slice(1, -1);
+          if (value.includes('\\"')) {
+            console.log(`🧼 净化历史数据 (模板字符串): "${key}"`);
+            value = value.replace(/\\"/g, '"');
+          }
+          result[key] = value;
         }
       }
     }
@@ -684,44 +706,44 @@ function formatSimpleArrayValue(value: any): string {
 // 🆕 新增：格式化简单值
 // 🆕 更好的解决方案：使用 JSON.stringify 自动处理转义
 // 🆕 强制使用单引号的版本（更清晰）
-function formatSimpleValue(value: string): string {
-  // 🆕 先解码HTML实体
-  const decodedValue = decodeHtmlEntities(value);
-
-  // 1. 如果包含模板字符串语法，使用反引号
-  if (decodedValue.includes("`") || decodedValue.includes("${")) {
-    return `\`${decodedValue}\``;
+// ✅ 替换 formatSimpleValue 函数
+function formatSimpleValue(value: any): string {
+  // ================== 监控点 D ==================
+  if (typeof value === 'string' && value.includes('"')) {
+    console.log(`🕵️ [LOG D - formatSimpleValue] 准备格式化 (备用路径):`);
+    console.log(`  - Input:           '${value}'`);
   }
+  // ===============================================
 
-  // 2. 如果包含双引号但不包含单引号，使用单引号包裹
-  else if (decodedValue.includes('"') && !decodedValue.includes("'")) {
-    return `'${decodedValue}'`;
-  }
+  // 确保调用我们最健壮的函数，并传递日志
+  const result = formatValue(value, '"');
 
-  // 3. 如果同时包含双引号和单引号，使用反引号
-  else if (decodedValue.includes('"') && decodedValue.includes("'")) {
-    return `\`${decodedValue}\``;
+  if (typeof value === 'string' && value.includes('"')) {
+    console.log(`  - Output:          ${result}`);
   }
-
-  // 4. 默认使用双引号，但手动处理转义（不用JSON.stringify）
-  else {
-    // 手动转义双引号，但保持 \n 为 \n（不转义成 \\n）
-    const escaped = decodedValue.replace(/"/g, '\\"');
-    return `"${escaped}"`;
-  }
+  return result;
 }
+
 
 // 🆕 HTML实体解码函数
-function decodeHtmlEntities(text: string): string {
-  return text
-    .replace(/&#39;/g, "'") // &#39; → '
-    .replace(/&#x27;/g, "'") // &#x27; → '
-    .replace(/&quot;/g, '"') // &quot; → "
-    .replace(/&amp;/g, "&") // &amp; → &
-    .replace(/&lt;/g, "<") // &lt; → <
-    .replace(/&gt;/g, ">"); // &gt; → >
-}
+function decodeApiResponseString(text: string): string {
+  if (!text) return ""; // 处理空或null输入
 
+  // 顺序很重要：先处理反斜杠转义，再处理HTML实体
+  const unescapedText = text
+    .replace(/\\"/g, '"')  // \" -> "
+    .replace(/\\'/g, "'"); // \' -> '
+  // 注意：我们暂时不处理 \\ -> \，以避免过度解码用户本意输入的反斜杠
+
+  // 然后再进行HTML实体解码
+  return unescapedText
+    .replace(/&#39;/g, "'")
+    .replace(/&#x27;/g, "'")
+    .replace(/&quot;/g, '"')
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">");
+}
 // 🆕 新增：从对象字面量中删除指定的keys
 function removeKeysFromObjectLiteral(
   objLiteral: ObjectLiteralExpression,
@@ -830,7 +852,156 @@ function removeKeysFromNestedObject(obj: any, keysToRemove: string[]): any {
   return result;
 }
 
-// 🆕 修改 updateObjectLiteralWithCommentsAndRemoval 函数，支持数组
+// =================================================================
+// ✨ 新增功能：辅助函数 ✨
+// =================================================================
+
+/**
+ * 根据点状路径字符串从对象中获取嵌套值，支持数组索引。
+ * @param obj - 要查询的对象
+ * @param path - 点状路径，例如 'a.b.c' 或 'a.b[0].c' 或 'a.b[0][1].c'
+ * @returns 找到的值，如果路径不存在则返回 undefined
+ */
+function getValueByDotNotation(obj: any, path: string): any {
+  // 将路径标准化，处理数组索引
+  const normalizedPath = path
+    .replace(/\[(\d+)\]/g, '.$1') // 将 [0] 转换为 .0
+    .replace(/^\./, ''); // 移除开头的点
+
+  return normalizedPath.split('.').reduce((current, key) => {
+    if (current === null || current === undefined) {
+      return undefined;
+    }
+
+    // 检查是否为数组索引
+    const arrayIndex = parseInt(key, 10);
+    if (!isNaN(arrayIndex) && Array.isArray(current)) {
+      return current[arrayIndex];
+    }
+
+    // 普通对象属性访问
+    return current[key];
+  }, obj);
+}
+
+/**
+ * 递归地获取一个对象下所有“叶子节点”的完整点状路径。
+ * @param obj - 要展开的对象
+ * @param prefix - 当前路径前缀（用于递归）
+ * @returns 一个包含所有叶子节点完整路径的字符串数组
+ */
+function getLeafKeys(obj: any, prefix: string = ''): string[] {
+  const keys: string[] = [];
+  for (const key in obj) {
+    if (Object.prototype.hasOwnProperty.call(obj, key)) {
+      const newPrefix = prefix ? `${prefix}.${key}` : key;
+      // 如果值是对象且不是数组或null，则继续递归
+      if (typeof obj[key] === 'object' && obj[key] !== null && !Array.isArray(obj[key])) {
+        keys.push(...getLeafKeys(obj[key], newPrefix));
+      } else {
+        // 否则，这是一个叶子节点，添加其完整路径
+        keys.push(newPrefix);
+      }
+    }
+  }
+  return keys;
+}
+
+
+// ❗️❗️❗️ 请将以下三个函数作为一个整体，替换掉你脚本中对应的旧函数 ❗️❗️❗️
+
+/**
+ * ✨ 全新升级的辅助函数
+ * 将JS值转为代码字符串，并智能处理引号风格。
+ * @param value - 要格式化的值
+ * @param quotePreference - 优先使用的引号类型, "'" 或 '"'
+ * @returns 代表该值的代码字符串
+ */
+// ✅ 替换 formatValue 函数
+function formatValue(value: any, quotePreference: "'" | '"' = "'"): string {
+  // 对于非字符串类型，JSON.stringify 总是安全可靠的
+  if (typeof value !== 'string') {
+    return JSON.stringify(value, null, 2);
+  }
+
+  // ================== 监控点 C ==================
+  if (value.includes('"')) {
+    console.log(`🕵️ [LOG C - formatValue] 准备格式化 (主路径):`);
+    console.log(`  - Input:           '${value}'`);
+  }
+  // ===============================================
+
+  if (quotePreference === '"') {
+    const result = JSON.stringify(value);
+    if (value.includes('"')) {
+      console.log(`  - Output (pref "):  ${result}`);
+    }
+    return result;
+  }
+
+  const content = value
+    .replace(/\\/g, '\\\\')
+    .replace(/'/g, "\\'");
+
+  const result = `'${content}'`;
+  if (value.includes('"')) {
+    console.log(`  - Output (pref '):  ${result}`);
+  }
+  return result;
+}
+
+
+/**
+ * ✨ 升级版的数组更新函数
+ * (替换旧的同名函数)
+ */
+function updateArrayLiteral(
+  arrayNode: any,
+  newArray: any[]
+): void {
+  const astElements = arrayNode.getElements();
+  const maxLength = Math.max(astElements.length, newArray.length);
+
+  for (let i = 0; i < maxLength; i++) {
+    const astElement = astElements[i];
+    const newElementValue = newArray[i];
+
+    if (i < newArray.length && i < astElements.length) {
+      // --- 更新现有元素 ---
+      let quotePreference: "'" | '"' = "'"; // 默认单引号
+      if (astElement.getKind() === SyntaxKind.StringLiteral) {
+        if (astElement.getText().startsWith('"')) {
+          quotePreference = '"';
+        }
+      }
+
+      const isNewValueObject = typeof newElementValue === "object" && newElementValue !== null && !Array.isArray(newElementValue);
+      const isNewValueArray = Array.isArray(newElementValue);
+
+      if (isNewValueObject && astElement.getKind() === SyntaxKind.ObjectLiteralExpression) {
+        updateObjectLiteralWithCommentsAndRemoval(astElement as ObjectLiteralExpression, newElementValue);
+      } else if (isNewValueArray && astElement.getKind() === SyntaxKind.ArrayLiteralExpression) {
+        updateArrayLiteral(astElement as ArrayLiteralExpression, newElementValue);
+      } else {
+        const formattedValue = formatValue(newElementValue, quotePreference);
+        if (astElement.getText() !== formattedValue) {
+          astElement.replaceWithText(formattedValue);
+        }
+      }
+    } else if (i < newArray.length) {
+      // --- 新增元素 (默认使用单引号) ---
+      arrayNode.addElement(formatValue(newElementValue, "'"));
+    }
+  }
+  if (newArray.length < astElements.length) {
+    arrayNode.removeElements([newArray.length, astElements.length - 1]);
+  }
+}
+
+/**
+ * ✨ 升级版的对象更新函数
+ * (替换旧的同名函数)
+ */
 function updateObjectLiteralWithCommentsAndRemoval(
   objLiteral: ObjectLiteralExpression,
   newObj: any,
@@ -838,84 +1009,66 @@ function updateObjectLiteralWithCommentsAndRemoval(
 ): void {
   const existingProps = new Map<string, PropertyAssignment>();
 
-  // 收集现有属性
   objLiteral.getProperties().forEach((prop) => {
     if (prop.getKind() === SyntaxKind.PropertyAssignment) {
       const propAssignment = prop as PropertyAssignment;
-      const key = propAssignment.getName();
+      const nameNode = propAssignment.getNameNode();
+      let key = nameNode.getText();
+      if (nameNode.getKind() === SyntaxKind.StringLiteral) {
+        key = key.substring(1, key.length - 1);
+      }
       existingProps.set(key, propAssignment);
     }
   });
 
-  // 1. 首先删除不需要的顶级keys
-  const topLevelKeysToRemove = keysToRemove.filter((key) => !key.includes("."));
-  topLevelKeysToRemove.forEach((key) => {
-    const prop = existingProps.get(key);
-    if (prop) {
-      console.log(`🗑️  删除顶级属性: ${key}`);
-      prop.remove();
-      existingProps.delete(key);
-    }
-  });
-
-  // 2. 更新现有属性，添加新属性
-  for (const [key, value] of Object.entries(newObj)) {
+  for (const [key, newValue] of Object.entries(newObj)) {
     const existingProp = existingProps.get(key);
 
     if (existingProp) {
-      // 属性已存在，更新值
-      const existingValue = existingProp.getInitializer();
-
-      if (Array.isArray(value)) {
-        // 🆕 数组类型
-        existingProp.setInitializer(formatArray(value));
-      } else if (typeof value === "object" && value !== null) {
-        // 嵌套对象且原来也是对象，递归更新
-        if (
-          existingValue &&
-          existingValue.getKind() === SyntaxKind.ObjectLiteralExpression
-        ) {
-          const nestedKeysToRemove = keysToRemove
-            .filter((k) => k.startsWith(`${key}.`))
-            .map((k) => k.substring(key.length + 1));
-
-          updateObjectLiteralWithCommentsAndRemoval(
-            existingValue as ObjectLiteralExpression,
-            value,
-            nestedKeysToRemove
-          );
-        } else {
-          // 原来不是对象，直接替换
-          existingProp.setInitializer(formatObjectForInline(value));
+      // --- 属性已存在，智能更新 ---
+      const initializer = existingProp.getInitializer();
+      let quotePreference: "'" | '"' = "'"; // 默认单引号
+      if (initializer && initializer.getKind() === SyntaxKind.StringLiteral) {
+        // 检测原始引号风格
+        if (initializer.getText().startsWith('"')) {
+          quotePreference = '"';
         }
-      } else {
-        // 简单值，直接更新
-        const quotedValue = formatSimpleValue(value as string);
-        existingProp.setInitializer(quotedValue);
       }
 
-      existingProps.delete(key); // 标记为已处理
-    } else {
-      // 新属性，添加到最后
-      if (Array.isArray(value)) {
-        // 🆕 数组
-        objLiteral.addPropertyAssignment({
-          name: key,
-          initializer: formatArray(value)
-        });
-      } else if (typeof value === "object" && value !== null) {
-        // 对象
-        objLiteral.addPropertyAssignment({
-          name: key,
-          initializer: formatObjectForInline(value)
-        });
-      } else {
-        // 简单值
-        objLiteral.addPropertyAssignment({
-          name: key,
-          initializer: formatSimpleValue(value as string)
-        });
+      if (!initializer) {
+        existingProp.setInitializer(formatValue(newValue, quotePreference));
+        continue;
       }
+
+      const isNewValueObject = typeof newValue === "object" && newValue !== null && !Array.isArray(newValue);
+      const isNewValueArray = Array.isArray(newValue);
+
+      if (isNewValueObject && initializer.getKind() === SyntaxKind.ObjectLiteralExpression) {
+        updateObjectLiteralWithCommentsAndRemoval(initializer as ObjectLiteralExpression, newValue);
+      }
+      else if (isNewValueArray && initializer.getKind() === SyntaxKind.ArrayLiteralExpression) {
+        updateArrayLiteral(initializer as ArrayLiteralExpression, newValue);
+      }
+      else {
+        const formattedValue = formatValue(newValue, quotePreference);
+        if (initializer.getText() !== formattedValue) {
+          existingProp.setInitializer(formattedValue);
+        }
+      }
+      existingProps.delete(key);
+    } else {
+      // --- 属性不存在，新增 (默认使用单引号) ---
+      const keyIdentifier = key.match(/^[a-zA-Z_$][a-zA-Z0-9_$]*$/) ? key : `'${key}'`;
+      objLiteral.addPropertyAssignment({
+        name: keyIdentifier,
+        initializer: formatValue(newValue, "'"),
+      });
+    }
+  }
+
+  for (const [key, prop] of existingProps.entries()) {
+    if (keysToRemove.includes(key)) {
+      prop.remove();
     }
   }
 }
@@ -1094,47 +1247,7 @@ function findExtraKeys(
   return extraKeys;
 }
 
-// 🆕 新增：展开顶级keys为所有子keys
-function expandTopLevelKeys(keys: string[], baseFlat: { [key: string]: string }): string[] {
-  const expandedKeys: string[] = [];
-
-  for (const key of keys) {
-    // 检查是否为顶级key（不包含点）
-    if (!key.includes('.')) {
-      // 查找所有以这个key开头的子keys
-      const subKeys = Object.keys(baseFlat).filter(flatKey =>
-        flatKey.startsWith(key + '.') || flatKey === key
-      );
-
-      if (subKeys.length > 0) {
-        console.log(`🔄 展开顶级key "${key}" 为 ${subKeys.length} 个子keys`);
-        console.log(`   子keys: ${subKeys.slice(0, 5).join(', ')}${subKeys.length > 5 ? '...' : ''}`);
-        expandedKeys.push(...subKeys);
-      } else {
-        // 如果没找到子keys，保留原key
-        console.log(`⚠️  顶级key "${key}" 没有找到匹配的子keys，保留原key`);
-        expandedKeys.push(key);
-      }
-    } else {
-      // 非顶级key，直接添加
-      expandedKeys.push(key);
-    }
-  }
-
-  // 去重
-  const uniqueKeys = [...new Set(expandedKeys)];
-  console.log(`📊 展开后总共 ${uniqueKeys.length} 个唯一keys`);
-  return uniqueKeys;
-}
-
-// 🆕 新增功能：更新指定的keys
-interface UpdateKeysOptions {
-  keys: string[]; // 要更新的key数组，支持嵌套路径如 "user.profile.name"
-  useAI?: boolean; // 是否使用AI翻译
-  targetLanguages?: string[]; // 目标语言，不传则更新所有语言
-  forceUpdate?: boolean; // 是否强制更新（即使目标key已存在）
-  baseLanguage?: string; // 🆕 基准语言文件，默认为 'zh-CN'
-}
+// ✅ 请用下面这个【完整的新版本】替换你现有的 updateSpecificKeys 函数 ✅
 
 async function updateSpecificKeys(options: UpdateKeysOptions) {
   const {
@@ -1154,23 +1267,57 @@ async function updateSpecificKeys(options: UpdateKeysOptions) {
   const baseFilePath = path.join(langPath, `${baseLanguage}.ts`);
   console.log(`📖 读取基准文件: ${baseFilePath}`);
 
+  // ✨ 关键：我们需要未平铺的原始对象来进行展开操作
   const baseObj = parseObjectFromFile(baseFilePath);
   const baseFlat = flattenObject(baseObj);
 
-  // 🆕 展开顶级keys
-  const expandedKeys = expandTopLevelKeys(keys, baseFlat);
+  // =================================================================
+  // ✨ 全新、更强大的键展开逻辑 ✨
+  // =================================================================
+  console.log('正在展开用户指定的 keys...');
+  const expandedKeys: string[] = [];
+  for (const key of keys) {
+    // 使用 getValueByDotNotation 从【原始对象】中查找这个 key 对应的值
+    const value = getValueByDotNotation(baseObj, key);
+    console.log(`${key}====getValueByDotNotation-------${JSON.stringify(value)}`);
+
+    // 检查这个值是不是一个可以展开的对象
+    if (typeof value === 'object' && value !== null && !Array.isArray(value)) {
+      console.log(`  -> 键 '${key}' 是一个对象，正在展开其所有子键...`);
+      // 使用 getLeafKeys 展开所有叶子节点，并提供当前 key 作为前缀
+      const leafKeys = getLeafKeys(value, key);
+      expandedKeys.push(...leafKeys);
+    } else {
+      // 如果不是对象，或者 key 在基准文件中不存在，就按原样处理
+      console.log(`  -> 键 '${key}' 是一个具体的值或不存在，直接处理。`);
+      expandedKeys.push(key);
+    }
+  }
+
+  // =================================================================
 
   // 验证展开后的keys是否存在于基准文件中
   const validKeys: string[] = [];
   const invalidKeys: string[] = [];
 
-  for (const key of expandedKeys) {
-    if (key in baseFlat) {
+  // 使用 Set 去重，以防用户输入了 'a.b' 和 'a.b.c' 这样的重复情况
+  const uniqueKeys = [...new Set(expandedKeys)];
+  console.log(`uniqueKeys-------${uniqueKeys.join(", ")}`);
+
+  for (const key of uniqueKeys) {
+    if (key in baseFlat || `${key}[0]` in baseFlat) {
       validKeys.push(key);
     } else {
       invalidKeys.push(key);
     }
   }
+
+  // console.log(`baseFlat-------${JSON.stringify(baseFlat)}`);
+  // console.log(`validKeys-------${validKeys.join(", ")}`);
+  // console.log(`invalidKeys-------${invalidKeys.join(", ")}`);
+  // if (invalidKeys.length > -10) {
+  //   return;
+  // }
 
   if (invalidKeys.length > 0) {
     console.warn(`⚠️  以下keys在基准文件中不存在: ${invalidKeys.join(", ")}`);
@@ -1181,7 +1328,7 @@ async function updateSpecificKeys(options: UpdateKeysOptions) {
     return;
   }
 
-  console.log(`✅ 有效的keys: ${validKeys.length} 个`);
+  console.log(`✅ 最终有效keys: ${validKeys.length} 个`);
   console.log(`   前5个: ${validKeys.slice(0, 5).join(", ")}${validKeys.length > 5 ? '...' : ''}`);
 
   // 🆕 修复：确定目标语言（排除基准语言，并且只处理存在的语言）
@@ -1285,6 +1432,16 @@ async function updateSpecificKeys(options: UpdateKeysOptions) {
   }
 
   console.log("\n🎉 指定keys更新完成！");
+}
+
+
+// 🆕 新增功能：更新指定的keys
+interface UpdateKeysOptions {
+  keys: string[]; // 要更新的key数组，支持嵌套路径如 "user.profile.name"
+  useAI?: boolean; // 是否使用AI翻译
+  targetLanguages?: string[]; // 目标语言，不传则更新所有语言
+  forceUpdate?: boolean; // 是否强制更新（即使目标key已存在）
+  baseLanguage?: string; // 🆕 基准语言文件，默认为 'zh-CN'
 }
 
 // 🆕 解析命令行参数的功能

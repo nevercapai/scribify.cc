@@ -656,8 +656,8 @@ let message = {
     uploadWithinHours: "10 órás feltöltések",
     yourSubscription: "Az előfizetése {time} törlésre kerül.",
     save: "Megtakarítás",
-      freeversion2: "Ingyenes Csomag"
-},
+    freeversion2: "Ingyenes Csomag"
+  },
   // 语言对应关系
   LanguageMap: {
     sysLanguagesMap: {
@@ -1050,8 +1050,8 @@ let message = {
     Resources: "Források",
     YouTubetoMP4: "YouTube MP4-be",
     StartFreeTrial: "Próbálja Ki Ingyen",
-      Blog: "Blog"
-},
+    Blog: "Blog"
+  },
   Footer: {
     des: "A világ első valóban korlátlan mesterséges intelligencia átírási szolgáltatása. Nincs korlát, nincs limit, csak a kreativitás szabadsága.",
     Features: "Funkciók",
@@ -1059,20 +1059,20 @@ let message = {
     Company: "Cég",
     featureMenus: ["Korlátlan Átírás", "Tömeges Feltöltés", "96%-os Pontosság"],
     useCaseMenus: [
-          "Minden Használati Eset",
-          "Podcast-készítők",
-          "Újságírók",
-          "Tartalomkészítők",
-          "Kutatók",
-          "Üzleti csapatok",
-          "Oktatók"
-        ],
+      "Minden Használati Eset",
+      "Podcast-készítők",
+      "Újságírók",
+      "Tartalomkészítők",
+      "Kutatók",
+      "Üzleti csapatok",
+      "Oktatók"
+    ],
     companyMenus: [
-          "Rólunk",
-          "Árazás",
-          "Adatvédelem",
-          "Feltételek"
-        ]
+      "Rólunk",
+      "Árazás",
+      "Adatvédelem",
+      "Feltételek"
+    ]
   },
   Index: {
     Hero: {
@@ -1085,7 +1085,7 @@ let message = {
       NoCap: "Nincs Havi Perc Korlát",
       Hour: "10 Órás Fájlok Támogatottak",
       ExploreUseCases: "Fedezd Fel a Használati Eseteket",
-        subtitleA: "A NeverCap mesterséges intelligenciája videókat ír át és hangokat szöveggé alakít, egyszerre 50 fájlt dolgoz fel havi korlátok nélkül. Átírás, amely valóban veled együtt skálázódik."
+      subtitleA: "A NeverCap mesterséges intelligenciája videókat ír át és hangokat szöveggé alakít, egyszerre 50 fájlt dolgoz fel havi korlátok nélkül. Átírás, amely valóban veled együtt skálázódik."
     },
     Stats: {
       monthlyMinutes: "Havi Percek",
@@ -1113,7 +1113,7 @@ let message = {
       feat_langs_desc: "Írasd át videókat és hanganyagokat 100+ nyelven, fordítsd 249+ nyelvre. Nincs extra díj különböző nyelvekért. Globális tartalom, egy egyszerű ár.",
       feat_pro: "Professzionális Funkciók",
       feat_pro_desc: "Szószintű időbélyegek pontos hang/videó pozicionáláshoz, pontos beszélőazonosítás gyors beszélgetésváltások közben is, és tökéletesen formázott szöveg bekezdésekkel, mondatokkal és írásjelekkel a könnyű olvashatóság érdekében.",
-        features: "Funkciók"
+      features: "Funkciók"
     },
     UseCases: {
       built_for: "Kötegelt",
@@ -1161,7 +1161,7 @@ let message = {
         "author": "Jessica Park",
         "role": "Szabadúszó újságíró"
       },
-        titleA: "Több mint 50 000 felhasználó kedveli"
+      titleA: "Több mint 50 000 felhasználó kedveli"
     },
     PricingPreview: {
       "title": "Átlátható árazás",
@@ -1172,52 +1172,52 @@ let message = {
       "title": "Gyakran Ismételt",
       "titleHighlight": "Kérdések",
       "questions": [
-            {
-              "q": "AI átirat",
-              "question": "Mi az az AI átirat, és hogyan működik?",
-              "answer": "Az AI átirat a hang automatikus szöveggé alakítása fejlett mesterséges intelligencia segítségével. A NeverCap-nél egyszerűen feltöltöd a fájljaidat, és az AI-nk akár 96%-os pontossággal átírja a tartalmat. Szolgáltatásunk videófájlok (pl. MP4, MOV) és hangfájlok (pl. MP3, WAV) olvasható, szerkeszthető szöveggé alakítására szolgál, beszélőcímkékkel és időbélyegekkel."
-            },
-            {
-              "q": "unlimited_policy",
-              "question": "Tényleg korlátlan? Mi a trükk?",
-              "answer": "Igen, valóban korlátlan! Nincsenek havi perckorlátok, nincsenek túllépési díjak. Az egyetlen korlátok technikai jellegűek: az egyes fájlok legfeljebb 10 órásak vagy 5GB méretűek lehetnek, és egyszerre 50 fájlt dolgozhatsz fel. De annyi köteget tölthetsz fel, amennyit csak akarsz, egész hónapban."
-            },
-            {
-              "q": "accuracy",
-              "question": "Mennyire pontos az átirat?",
-              "answer": "96%-os pontosságot garantálunk tiszta hang esetén. Az AI-nk több millió órányi különféle tartalmon tanult, és kiválóan kezeli az akcentusokat, szakkifejezéseket és több beszélőt. Kihívást jelentő hang esetén az intelligens javító funkcióink segítenek javítani az eredményeket."
-            },
-            {
-              "q": "languages",
-              "question": "Milyen nyelveket támogattok?",
-              "answer": "Több mint 100 nyelv átírását támogatjuk, beleértve az angolt, spanyolt, mandarint, hindit, arabot, franciát és még sok mást. Ezen felül az átirataidat 249 különböző nyelvre lefordíthatod, ami ideális a globális tartalmakhoz."
-            },
-            {
-              "q": "speed",
-              "question": "Milyen gyors az átirat?",
-              "answer": "Villámgyors! Egy 1 órás hangfájl általában 5 percen belül elkészül. A kötegelt feldolgozással egyszerre 50 fájlt tölthetsz fel, és párhuzamosan dolgozhatnak fel. A legtöbb felhasználó arra ébred, hogy egész könyvtárát átírták éjszaka."
-            },
-            {
-              "q": "cancellation",
-              "question": "Bármikor lemondhatom?",
-              "answer": "Abszolút! Nincsenek szerződések, nincsenek lemondási díjak. Bármikor frissítheted, leminősítheted vagy lemondhatod az előfizetésed az irányítópultodról. Ha lemondod, a hozzáférésed a számlázási időszak végéig megmarad."
-            },
-            {
-              "q": "security",
-              "question": "Biztonságban vannak az adataim?",
-              "answer": "A biztonságod a prioritásunk. SOC 2 tanúsítvánnyal rendelkezünk, minden adatot 256 bites titkosítással védünk, és soha nem használjuk fel a tartalmaidat a modelleink tanítására. Bármikor törölheted a fájljaidat, és mi 30 nap után automatikusan töröljük őket. GDPR és CCPA kompatibilis."
-            },
-            {
-              "q": "export_formats",
-              "question": "Milyen export formátumok érhetők el?",
-              "answer": "Töltsd le az átirataidat bármilyen formátumban, amire szükséged van: PDF, Word (DOCX), Excel, CSV, SRT feliratok, egyszerű szöveg (TXT) és VTT feliratok. Tökéletes bármilyen munkafolyamathoz."
-            },
-            {
-              "q": "file_formats",
-              "question": "Milyen hang- és videofájlokat tölthetek fel?",
-              "answer": "Szinte minden hang- és videóformátumot támogatunk, amivel találkozhatsz: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV és még sok más. Ha le tudod játszani, mi át tudjuk írni."
-            }
-          ]
+        {
+          "q": "AI átirat",
+          "question": "Mi az az AI átirat, és hogyan működik?",
+          "answer": "Az AI átirat a hang automatikus szöveggé alakítása fejlett mesterséges intelligencia segítségével. A NeverCap-nél egyszerűen feltöltöd a fájljaidat, és az AI-nk akár 96%-os pontossággal átírja a tartalmat. Szolgáltatásunk videófájlok (pl. MP4, MOV) és hangfájlok (pl. MP3, WAV) olvasható, szerkeszthető szöveggé alakítására szolgál, beszélőcímkékkel és időbélyegekkel."
+        },
+        {
+          "q": "unlimited_policy",
+          "question": "Tényleg korlátlan? Mi a trükk?",
+          "answer": "Igen, valóban korlátlan! Nincsenek havi perckorlátok, nincsenek túllépési díjak. Az egyetlen korlátok technikai jellegűek: az egyes fájlok legfeljebb 10 órásak vagy 5GB méretűek lehetnek, és egyszerre 50 fájlt dolgozhatsz fel. De annyi köteget tölthetsz fel, amennyit csak akarsz, egész hónapban."
+        },
+        {
+          "q": "accuracy",
+          "question": "Mennyire pontos az átirat?",
+          "answer": "96%-os pontosságot garantálunk tiszta hang esetén. Az AI-nk több millió órányi különféle tartalmon tanult, és kiválóan kezeli az akcentusokat, szakkifejezéseket és több beszélőt. Kihívást jelentő hang esetén az intelligens javító funkcióink segítenek javítani az eredményeket."
+        },
+        {
+          "q": "languages",
+          "question": "Milyen nyelveket támogattok?",
+          "answer": "Több mint 100 nyelv átírását támogatjuk, beleértve az angolt, spanyolt, mandarint, hindit, arabot, franciát és még sok mást. Ezen felül az átirataidat 249 különböző nyelvre lefordíthatod, ami ideális a globális tartalmakhoz."
+        },
+        {
+          "q": "speed",
+          "question": "Milyen gyors az átirat?",
+          "answer": "Villámgyors! Egy 1 órás hangfájl általában 5 percen belül elkészül. A kötegelt feldolgozással egyszerre 50 fájlt tölthetsz fel, és párhuzamosan dolgozhatnak fel. A legtöbb felhasználó arra ébred, hogy egész könyvtárát átírták éjszaka."
+        },
+        {
+          "q": "cancellation",
+          "question": "Bármikor lemondhatom?",
+          "answer": "Abszolút! Nincsenek szerződések, nincsenek lemondási díjak. Bármikor frissítheted, leminősítheted vagy lemondhatod az előfizetésed az irányítópultodról. Ha lemondod, a hozzáférésed a számlázási időszak végéig megmarad."
+        },
+        {
+          "q": "security",
+          "question": "Biztonságban vannak az adataim?",
+          "answer": "A biztonságod a prioritásunk. SOC 2 tanúsítvánnyal rendelkezünk, minden adatot 256 bites titkosítással védünk, és soha nem használjuk fel a tartalmaidat a modelleink tanítására. Bármikor törölheted a fájljaidat, és mi 30 nap után automatikusan töröljük őket. GDPR és CCPA kompatibilis."
+        },
+        {
+          "q": "export_formats",
+          "question": "Milyen export formátumok érhetők el?",
+          "answer": "Töltsd le az átirataidat bármilyen formátumban, amire szükséged van: PDF, Word (DOCX), Excel, CSV, SRT feliratok, egyszerű szöveg (TXT) és VTT feliratok. Tökéletes bármilyen munkafolyamathoz."
+        },
+        {
+          "q": "file_formats",
+          "question": "Milyen hang- és videofájlokat tölthetek fel?",
+          "answer": "Szinte minden hang- és videóformátumot támogatunk, amivel találkozhatsz: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV és még sok más. Ha le tudod játszani, mi át tudjuk írni."
+        }
+      ]
     },
     CTASection: {
       "title": "Készen állsz a korlátok ledöntésére?",
@@ -1305,11 +1305,11 @@ let message = {
       feature3Label: "Közösségi bizonyíték",
       feature3TitlePart1: "Felhasználók",
       feature3TitlePart2: "Naponta váltanak",
-      feature3Description: '\"Évi 100 dollárt fizetek az Otterért, és havonta 10 fájl importra korlátoznak. Amint van korlátlan import alternatíva, azonnal lelépek!\" - Valódi Reddit felhasználó',
+      feature3Description: '"Évi 100 dollárt fizetek az Otterért, és havonta 10 fájl importra korlátoznak. Amint van korlátlan import alternatíva, azonnal lelépek!" - Valódi Reddit felhasználó',
       feature3Point1Icon: "✓",
       feature3Point1Text: "50 000+ felhasználó váltott",
       feature3Point2Icon: "✓",
-      feature3Point2Text: 'Az Otter \"zsugorodásától\"',
+      feature3Point2Text: 'Az Otter "zsugorodásától"',
       feature3Point3Icon: "✓",
       feature3Point3Text: "Soha nem térnek vissza",
       feature3Stat1Number: "50K+",
@@ -1331,8 +1331,8 @@ let message = {
       ctaTitle: "Ne fizess ál-korlátlanért",
       ctaSubtitle: "Csatlakozz több ezer felhasználóhoz, akik a valóban korlátlan átírást választották",
       finalCta: "Próbáld ki a NeverCap ingyenes verzióját",
-        heroSubtitle1: "Míg a Trint 50 órában, az Otter pedig havi 10 fájlban korlátozza a munkaidőt,",
-        heroSubtitle2: "Azt nyújtjuk, amit ígérünk: korlátlan átírás rejtett nagyítások nélkül."
+      heroSubtitle1: "Míg a Trint 50 órában, az Otter pedig havi 10 fájlban korlátozza a munkaidőt,",
+      heroSubtitle2: "Azt nyújtjuk, amit ígérünk: korlátlan átírás rejtett nagyítások nélkül."
     },
     BulkUpload: {
       heroBadgeIcon: "📁",
@@ -1587,9 +1587,9 @@ let message = {
       ctaTitle: "96%-os pontosság élménye",
       ctaSubtitle: "Töltse fel legnehezebb hanganyagát és lássa a különbséget",
       finalCta: "Tesztelje a pontosságunkat most →",
-        languageSectionTitlePart2: "12 Fő Nyelven",
-        comparisonDes1: "Nézd meg, hogyan",
-        comparisonDes2: "felveszi a versenyt a versenytársakkal"
+      languageSectionTitlePart2: "12 Fő Nyelven",
+      comparisonDes1: "Nézd meg, hogyan",
+      comparisonDes2: "felveszi a versenyt a versenytársakkal"
     }
   },
   Pricing: {
@@ -1603,93 +1603,94 @@ let message = {
       "highlighted_text": "Nincsenek rejtett korlátok.",
       "description": "Válassza ki az Önnek megfelelő csomagot. Bármikor frissíthet vagy lemondhat. Nincsenek szerződések, nincsenek meglepetések.",
       "plans": [
-            {
-              "name": "Ingyenes",
-              "price": "$0",
-              "period": "hó",
-              "discount": "Ideális a szolgáltatásunk kipróbálásához",
-              "limits": {
-                "title": "Napi korlátok",
-                "items": [
-                  "3 fájl/nap (≈90 perc összesen/nap)",
-                  "Legfeljebb 30 perc/fájl (≤250 MB)",
-                  "Egyszerre 1 fájl feltöltése",
-                  "Szabványos prioritási sorrend"
-                ]
-              },
-              "features": {
-                "title": "Funkciók",
-                "items": [
-                  "100+ nyelv",
-                  "Beszélő címkék",
-                  "Fordítás",
-                  "Minden exportformátum"
-                ]
-              },
-              "cta": {
-                "text": "Kezdés ingyen. Bankkártya nélkül.",
-                "button": "Jelenlegi csomag"
-              }
-            },
-            {
-              "name": "Pro Havi",
-              "price": "$17.99",
-              "period": "hó",
-              "discount": "$9.99 az első hónapban",
-              "limits": {
-                "title": "Nincs havi limit",
-                "items": [
-                  "Korlátlan összes perc",
-                  "Legfeljebb 10 óra / 5 GB fájlonként",
-                  "Egyszerre 50 fájl feltöltése",
-                  "Prioritási sorrend"
-                ]
-              },
-              "features": {
-                "title": "Minden, ami az Ingyenesben, plusz",
-                "items": [
-                  "Szószintű időbélyegek",
-                  "Fejlett beszélőazonosítás",
-                  "Formázott bekezdések & központozás",
-                  "Prioritásos támogatás"
-                ]
-              },
-              "cta": {
-                "text": "Korlátlan percek. Prioritásos sebesség. Csomagos feltöltés.",
-                "button": "Proba"
-              },
-              "badge": "Legnépszerűbb"
-            },
-            {
-              "name": "Pro Éves",
-              "price": "$8.99",
-              "period": "hó",
-              "discount": "Éves számlázás $107.88",
-              "limits": {
-                "title": "Ugyanaz, mint a Pro havi",
-                "items": [
-                  "Korlátlan összes perc",
-                  "Legfeljebb 10 óra / 5 GB fájlonként",
-                  "Egyszerre 50 fájl feltöltése",
-                  "Prioritási sorrend"
-                ]
-              },
-              "features": {
-                "title": "Minden, ami az Ingyenesben, plusz",
-                "items": [
-                  "Szószintű időbélyegek",
-                  "Fejlett beszélőazonosítás",
-                  "Formázott bekezdések & központozás",
-                  "Prioritásos támogatás"
-                ]
-              },
-              "cta": {
-                "text": "Korlátlan percek. Prioritásos sebesség. Csomagos feltöltés.",
-                "button": "Proba"
-              },
-              "badge": "Legjobb Érték - "
-            }
-          ],
+        {
+          "name": "Ingyenes",
+          "price": "$0",
+          "period": "hó",
+          "discount": "Ideális a szolgáltatásunk kipróbálásához",
+          "limits": {
+            "title": "Napi korlátok",
+            "items": [
+              "3 fájl naponta",
+              "Akár 10 óra / 5 GB fájlonként",
+              "Ingyenes 30 perces előzetes az összes átirathoz",
+              "Egyszerre 1 fájl feltöltése",
+              'Normál prioritási sor'
+            ]
+          },
+          "features": {
+            "title": "Funkciók",
+            "items": [
+              "100+ nyelv",
+              "Beszélő címkék",
+              "Fordítás",
+              "Minden exportformátum"
+            ]
+          },
+          "cta": {
+            "text": "Kezdés ingyen. Bankkártya nélkül.",
+            "button": "Jelenlegi csomag"
+          }
+        },
+        {
+          "name": "Pro Havi",
+          "price": "$17.99",
+          "period": "hó",
+          "discount": "$9.99 az első hónapban",
+          "limits": {
+            "title": "Nincs havi limit",
+            "items": [
+              "Korlátlan összes perc",
+              "Legfeljebb 10 óra / 5 GB fájlonként",
+              "Egyszerre 50 fájl feltöltése",
+              "Prioritási sorrend"
+            ]
+          },
+          "features": {
+            "title": "Minden, ami az Ingyenesben, plusz",
+            "items": [
+              "Szószintű időbélyegek",
+              "Fejlett beszélőazonosítás",
+              "Formázott bekezdések & központozás",
+              "Prioritásos támogatás"
+            ]
+          },
+          "cta": {
+            "text": "Korlátlan percek. Prioritásos sebesség. Csomagos feltöltés.",
+            "button": "Proba"
+          },
+          "badge": "Legnépszerűbb"
+        },
+        {
+          "name": "Pro Éves",
+          "price": "$8.99",
+          "period": "hó",
+          "discount": "Éves számlázás $107.88",
+          "limits": {
+            "title": "Ugyanaz, mint a Pro havi",
+            "items": [
+              "Korlátlan összes perc",
+              "Legfeljebb 10 óra / 5 GB fájlonként",
+              "Egyszerre 50 fájl feltöltése",
+              "Prioritási sorrend"
+            ]
+          },
+          "features": {
+            "title": "Minden, ami az Ingyenesben, plusz",
+            "items": [
+              "Szószintű időbélyegek",
+              "Fejlett beszélőazonosítás",
+              "Formázott bekezdések & központozás",
+              "Prioritásos támogatás"
+            ]
+          },
+          "cta": {
+            "text": "Korlátlan percek. Prioritásos sebesség. Csomagos feltöltés.",
+            "button": "Proba"
+          },
+          "badge": "Legjobb Érték - "
+        }
+      ],
       "disclaimer": 'A "korlátlan" azt jelenti, hogy nincs havi limit és mesterséges lassítás. A tisztességes felhasználás vonatkozik az visszaélő automatizálásra vagy terjesztésre.'
     },
     ComparisonTable: {
@@ -1699,115 +1700,119 @@ let message = {
         "subtitle": "Pontosan lásd, mit kapsz minden csomaggal. Nincsenek rejtett korlátozások."
       },
       "plans": [
-              "Funkciók",
-              "Ingyenes",
-              "Pro Monthly",
-              "Pro Annual"
-            ],
+        "Funkciók",
+        "Ingyenes",
+        "Pro Monthly",
+        "Pro Annual"
+      ],
       "features": [
+        {
+          "name": "Ár",
+          "values": [
+            "$0/hónap",
             {
-              "name": "Ár",
-              "values": [
-                "$0/hónap",
-                {
-                  "main": "$17.99/hónap",
-                  "note": "$9.99 első hónap"
-                },
-                {
-                  "main": "$8.99/hónap",
-                  "note": "Éves számlázás $107.88"
-                }
-              ]
+              "main": "$17.99/hónap",
+              "note": "$9.99 első hónap"
             },
             {
-              "name": "Havi percek",
-              "values": ["~2,700 (90/nap)", "Korlátlan", "Korlátlan"]
-            },
-            {
-              "name": "Maximális fájltartam",
-              "values": ["30 perc", "10 óra", "10 óra"]
-            },
-            {
-              "name": "Maximális fájlméret",
-              "values": ["250 MB", "5 GB", "5 GB"]
-            },
-            {
-              "name": "Csomagos feltöltés",
-              "values": ["1 fájl", "50 fájl", "50 fájl"]
-            },
-            {
-              "name": "Feldolgozási sebesség",
-              "values": ["Standard", "Prioritásos", "Prioritásos"]
-            },
-            {
-              "name": "Támogatott nyelvek",
-              "values": ["100+ nyelv", "100+ nyelv", "100+ nyelv"]
-            },
-            {
-              "name": "Fordítás",
-              "values": ["true", "true", "true"]
-            },
-            {
-              "name": "Beszélő azonosítás",
-              "values": ["Alap", "Haladó (20 beszélő)", "Haladó (20 beszélő)"]
-            },
-            {
-              "name": "Szószintű időbélyegek",
-              "values": ["false", "true", "true"]
-            },
-            {
-              "name": "Formázott bekezdések",
-              "values": ["false", "true", "true"]
-            },
-            {
-              "name": "Export formátumok",
-              "values": ["Minden formátum", "Minden formátum", "Minden formátum"]
-            },
-            {
-              "name": "Támogatás",
-              "values": ["E-mail", "Prioritásos e-mail", "Prioritásos e-mail"]
-            },
-            {
-              "name": "Adatmegtartás",
-              "values": ["30 nap", "Örökre", "Örökre"]
+              "main": "$8.99/hónap",
+              "note": "Éves számlázás $107.88"
             }
           ]
+        },
+        {
+          "name": "Napi fájlkorlát",
+          "values": ["3 fájl/nap", "Korlátlan", "Korlátlan"]
+        },
+        {
+          "name": "Maximális fájlhossz",
+          "values": ["10 óra", "10 óra", "10 óra"]
+        },
+        {
+          "name": "Max. fájlméret",
+          "values": ["5 GB", "5 GB", "5 GB"]
+        },
+        {
+          "name": "Átirathozzáférés",
+          "values": ["Első 30 perces előzetes", "Teljes átirat", "Teljes átirat"]
+        },
+        {
+          "name": "Csomagos feltöltés",
+          "values": ["1 fájl", "50 fájl", "50 fájl"]
+        },
+        {
+          "name": "Feldolgozási sebesség",
+          "values": ["Standard", "Prioritásos", "Prioritásos"]
+        },
+        {
+          "name": "Támogatott nyelvek",
+          "values": ["100+ nyelv", "100+ nyelv", "100+ nyelv"]
+        },
+        {
+          "name": "Fordítás",
+          "values": ["true", "true", "true"]
+        },
+        {
+          "name": "Beszélő azonosítás",
+          "values": ["Alap", "Haladó (20 beszélő)", "Haladó (20 beszélő)"]
+        },
+        {
+          "name": "Szószintű időbélyegek",
+          "values": ["false", "true", "true"]
+        },
+        {
+          "name": "Formázott bekezdések",
+          "values": ["false", "true", "true"]
+        },
+        {
+          "name": "Export formátumok",
+          "values": ["Minden formátum", "Minden formátum", "Minden formátum"]
+        },
+        {
+          "name": "Támogatás",
+          "values": ["E-mail", "Prioritásos e-mail", "Prioritásos e-mail"]
+        },
+        {
+          "name": "Adatmegtartás",
+          "values": ["30 nap", "Örökre", "Örökre"]
+        }
+      ]
     },
     FAQ: {
       "title": "Gyakran Ismételt",
       "titleHighligt": "Kérdések",
       "items": [
-            {
-              "q": "unlimited_policy",
-              "question": "Valóban korlátlan?",
-              "answer": "Igen! A Pro csomagokban nincsenek havi perckorlátok. Az egyetlen korlát a technikai: maximális 10 órás fájlméret és 5GB fájlméret. Annyi fájlt dolgozhat fel, amennyire szüksége van."
-            },
-            {
-              "q": "plan_change",
-              "question": "Bármikor változtathatok csomagot?",
-              "answer": "Természetesen! Bármikor lemondhatja előfizetését az irányítópultjáról. Frissítsen vagy lépjen vissza, amikor csak szükséges."
-            },
-            {
-              "q": "payment_methods",
-              "question": "Milyen fizetési módokat fogadtok el?",
-              "answer": "Minden nagyobb hitelkártyát, bankkártyát és PayPalt elfogadunk biztonságos, gondmentes fizetésért."
-            },
-            {
-              "q": "free_trial",
-              "question": "Van ingyenes próbaidőszak a Prohoz?",
-              "answer": "Igen! Próbálja ki a Pro-t 7 napig ingyen, bankkártya nélkül. Ráadásul az első havi előfizetés 45% kedvezménnyel jár."
-            },
-            {
-              "q": "file_retention",
-              "question": "Meddig tároljátok a fájljaimat?",
-              "answer": "Ingyenes csomag: 30 nap. Pro csomagok: Örökre! Az átiratai mindig elérhetők a fiókjában."
-            },
-            {
-              "q": "data_security",
-              "question": "Mi a helyzet az adatbiztonsággal?",
-              "answer": "SOC 2 tanúsítvánnyal rendelkezünk és 256 bites titkosítást használunk. Soha nem használjuk fel tartalmait a modelleink tanításához. Az Ön adatai az Önék."
-            }
-          ]
+        {
+          "q": "unlimited_policy",
+          "question": "Valóban korlátlan?",
+          "answer": "Igen! A Pro csomagokban nincsenek havi perckorlátok. Az egyetlen korlát a technikai: maximális 10 órás fájlméret és 5GB fájlméret. Annyi fájlt dolgozhat fel, amennyire szüksége van."
+        },
+        {
+          "q": "plan_change",
+          "question": "Bármikor változtathatok csomagot?",
+          "answer": "Természetesen! Bármikor lemondhatja előfizetését az irányítópultjáról. Frissítsen vagy lépjen vissza, amikor csak szükséges."
+        },
+        {
+          "q": "payment_methods",
+          "question": "Milyen fizetési módokat fogadtok el?",
+          "answer": "Minden nagyobb hitelkártyát, bankkártyát és PayPalt elfogadunk biztonságos, gondmentes fizetésért."
+        },
+        {
+          "q": "free_trial",
+          "question": "Van ingyenes próbaidőszak a Prohoz?",
+          "answer": "Igen! Próbálja ki a Pro-t 7 napig ingyen, bankkártya nélkül. Ráadásul az első havi előfizetés 45% kedvezménnyel jár."
+        },
+        {
+          "q": "file_retention",
+          "question": "Meddig tároljátok a fájljaimat?",
+          "answer": "Ingyenes csomag: 30 nap. Pro csomagok: Örökre! Az átiratai mindig elérhetők a fiókjában."
+        },
+        {
+          "q": "data_security",
+          "question": "Mi a helyzet az adatbiztonsággal?",
+          "answer": "SOC 2 tanúsítvánnyal rendelkezünk és 256 bites titkosítást használunk. Soha nem használjuk fel tartalmait a modelleink tanításához. Az Ön adatai az Önék."
+        }
+      ]
     },
     CTA: {
       "title": "Készen áll a korlátlan lehetőségre?",
@@ -2024,7 +2029,7 @@ let message = {
         subtitle: "Csatlakozzon 50 000+ szakemberhez, akik abbahagyták a percek számolását és elkezdtek alkotni",
         button: "Kezdje El Korlátlan Utazását →"
       },
-        heroSubtitleA: "Az évekig tartó elmaradásokkal rendelkező podcastkészítőktől a több száz interjúval rendelkező kutatókig. Nézze meg, hogyan használják a szakemberek a {NeverCap}-et a feltöltési korlátok és a perckorlátok leküzdésére."
+      heroSubtitleA: "Az évekig tartó elmaradásokkal rendelkező podcastkészítőktől a több száz interjúval rendelkező kutatókig. Nézze meg, hogyan használják a szakemberek a {NeverCap}-et a feltöltési korlátok és a perckorlátok leküzdésére."
     },
     Podcasters: {
       badge: "Podcast-Készítőknek Készült",
@@ -2194,7 +2199,7 @@ let message = {
       ctaSubtitle: "Csatlakozzon 10 000+ podcasterhez, akik soha nem aggódnak a korlátok miatt",
       ctaButton: "Töltse Fel Az Első 50 Epizódot Ingyen →",
       ctaDisclaimer: "Nincs bankkártya szükséges • Korlátlan epizód feldolgozás • Bármikor lemondható",
-        solutionDescriptionA: "A {NeverCap} segítségével valóban korlátlan átírást kapsz. Töltsd fel a teljes archívumodat. Írj le minden új epizódot. Készíts műsorjegyzeteket nagy léptékben. Nincsenek korlátozások, nincsenek korlátok, csak növekedés."
+      solutionDescriptionA: "A {NeverCap} segítségével valóban korlátlan átírást kapsz. Töltsd fel a teljes archívumodat. Írj le minden új epizódot. Készíts műsorjegyzeteket nagy léptékben. Nincsenek korlátozások, nincsenek korlátok, csak növekedés."
     },
     Journalists: {
       hero: {
@@ -2266,7 +2271,7 @@ let message = {
         solution: {
           title: "A",
           titleHighlight: "NeverCap Megoldás",
-            descriptionA: "A {NeverCap} segítségével korlátlan átírást kapsz. Töltsd fel a teljes nyomozásodat. Írj le minden interjút. Azonnal kereshetsz az összes idézet között. Nincsenek nagybetűk, nincsenek korlátok, csak újságírás."
+          descriptionA: "A {NeverCap} segítségével korlátlan átírást kapsz. Töltsd fel a teljes nyomozásodat. Írj le minden interjút. Azonnal kereshetsz az összes idézet között. Nincsenek nagybetűk, nincsenek korlátok, csak újságírás."
         }
       },
       solution: {
@@ -2326,20 +2331,20 @@ let message = {
               }
             }
           },
-            ironclad: {
-                  label: "Forrásvédelem",
-                  title: "Vasalt Forrásvédelem",
-                  description: "Robusztus biztonsági funkciókat kínálunk az érzékeny interjúadatok és bizalmas források védelmére. Banki szintű titkosítás biztosítja nyomozásaid biztonságát.",
-                  points: {
-                    accuracyGuarantee: "Teljes körű titkosítás",
-                    handlesAccents: "Automatikus fájltörlési lehetőségek",
-                    smartPunctuation: "GDPR & adatvédelmi szabályozásnak megfelelő"
-                  },
-                  visual: {
-                    accuracy: "🔒",
-                    label: "Maximális Biztonság"
-                  }
-                }
+          ironclad: {
+            label: "Forrásvédelem",
+            title: "Vasalt Forrásvédelem",
+            description: "Robusztus biztonsági funkciókat kínálunk az érzékeny interjúadatok és bizalmas források védelmére. Banki szintű titkosítás biztosítja nyomozásaid biztonságát.",
+            points: {
+              accuracyGuarantee: "Teljes körű titkosítás",
+              handlesAccents: "Automatikus fájltörlési lehetőségek",
+              smartPunctuation: "GDPR & adatvédelmi szabályozásnak megfelelő"
+            },
+            visual: {
+              accuracy: "🔒",
+              label: "Maximális Biztonság"
+            }
+          }
         }
       },
       features: {
@@ -2422,8 +2427,8 @@ let message = {
             label: "Platform"
           }
         },
-          subtitleA: "Akár egy YouTube-videót kell átírnod, akár egy TikTok-videót kell átírnod ​​újrafelhasználáshoz, vagy kitalálnod, hogyan írj át egy Facebook-videót szöveggé, a {NeverCap} zökkenőmentesen kezeli mindezt. Generálj feliratokat több mint 100 nyelven havi korlátok nélkül – csak tiszta kreatív szabadság."
-    },
+        subtitleA: "Akár egy YouTube-videót kell átírnod, akár egy TikTok-videót kell átírnod ​​újrafelhasználáshoz, vagy kitalálnod, hogyan írj át egy Facebook-videót szöveggé, a {NeverCap} zökkenőmentesen kezeli mindezt. Generálj feliratokat több mint 100 nyelven havi korlátok nélkül – csak tiszta kreatív szabadság."
+      },
       platforms: {
         title: "Lekérés & Átirat Bármely Platformról",
         platformNames: {
@@ -2436,9 +2441,9 @@ let message = {
           tiktok: "TikTok",
           instagram: "Instagram"
         },
-          titleMax: "Videók Átirata",
-          titleMaxHighlight: "Bármely Platformról"
-    },
+        titleMax: "Videók Átirata",
+        titleMaxHighlight: "Bármely Platformról"
+      },
       features: {
         title: "Minden, Amire Szükséged Van",
         titleHighlight: "Tartalom Skálázásához",
@@ -2560,29 +2565,29 @@ let message = {
         subtitle: "Csatlakozz 50 000+ alkotóhoz, akik abbahagyták a percek számolását, és elkezdtek alkotni",
         button: "Indítsd a Korlátlan Feliratozást →"
       },
-        FAQSection: {
-              "title": "Az Átírással Kapcsolatos Kérdéseid,",
-              "titleHighlight": "Megválaszolva",
-              subtitle: "Minden, amit tudnod kell a videók átírásáról különböző platformokról",
-              "questions": [
-                    {
-                      "question": "K: Hogyan íratok át YouTube videót a NeverCap-pel?",
-                      "answer": "Egyszerű. Keress meg egy YouTube videót, másold az URL-jét, és illeszd be az alkalmazásunkba. Az MI percek alatt letölti a videót és teljes szöveges átírást készít."
-                    },
-                    {
-                      "question": "K: Mi a legjobb módja egy Facebook videó szöveggé történő átírásának?",
-                      "answer": "A legegyszerűbb mód a közvetlen link használata. Másold a Facebook videó URL-jét, a platformunk pedig 96%-os pontossággal átalakítja a beszédet szöveggé, megkímélve a kézi átírástól."
-                    },
-                    {
-                      "question": "K: Átírhatok TikTok és Instagram videókat?",
-                      "answer": "Természetesen. Támogatjuk a TikTok és Instagram videók átírását. Ideális tartalomkészítőknek, akik rövid videóikat blogbejegyzésekbe, cikkekbe vagy szöveges közösségi média posztokká szeretnék átalakítani."
-                    },
-                    {
-                      "question": "K: Hogyan írok át Vimeo videót szöveggé?",
-                      "answer": "A Vimeo videók átírása ugyanolyan egyszerű, mint bármely más platformon. Másold a Vimeo videó URL-jét és illeszd be a NeverCap-be. Az MI feldolgozza a videót és pontos szöveges átírást készít, amelyet több formátumban letölthetsz."
-                    }
-                  ]
-            }
+      FAQSection: {
+        "title": "Az Átírással Kapcsolatos Kérdéseid,",
+        "titleHighlight": "Megválaszolva",
+        subtitle: "Minden, amit tudnod kell a videók átírásáról különböző platformokról",
+        "questions": [
+          {
+            "question": "K: Hogyan íratok át YouTube videót a NeverCap-pel?",
+            "answer": "Egyszerű. Keress meg egy YouTube videót, másold az URL-jét, és illeszd be az alkalmazásunkba. Az MI percek alatt letölti a videót és teljes szöveges átírást készít."
+          },
+          {
+            "question": "K: Mi a legjobb módja egy Facebook videó szöveggé történő átírásának?",
+            "answer": "A legegyszerűbb mód a közvetlen link használata. Másold a Facebook videó URL-jét, a platformunk pedig 96%-os pontossággal átalakítja a beszédet szöveggé, megkímélve a kézi átírástól."
+          },
+          {
+            "question": "K: Átírhatok TikTok és Instagram videókat?",
+            "answer": "Természetesen. Támogatjuk a TikTok és Instagram videók átírását. Ideális tartalomkészítőknek, akik rövid videóikat blogbejegyzésekbe, cikkekbe vagy szöveges közösségi média posztokká szeretnék átalakítani."
+          },
+          {
+            "question": "K: Hogyan írok át Vimeo videót szöveggé?",
+            "answer": "A Vimeo videók átírása ugyanolyan egyszerű, mint bármely más platformon. Másold a Vimeo videó URL-jét és illeszd be a NeverCap-be. Az MI feldolgozza a videót és pontos szöveges átírást készít, amelyet több formátumban letölthetsz."
+          }
+        ]
+      }
     },
     Researchers: {
       heroBadge: "A Tudományos Kiválóságért Tervezve",
@@ -2666,23 +2671,23 @@ let message = {
       ctaTitle: "Ne Válassza Ki, Milyen Adatokat Elemezzen",
       ctaSubtitle: "Csatlakozzon 50 000+ kutatóhoz, akik mindent leírnak",
       ctaButton: "Próbálja Ki Ingyen a NeverCap-et",
-        problemTitle2: "Kutatási Átírási Probléma",
-        title: "A",
-        useCasesTitle2: "Minden Kutatási Módszerhez",
-        testimonialTitle2: "Vezető Kutatók",
-        feature1TitleHl: "Teljes kutatási projektje",
-        feature1TitlePost: "Minden egy helyen",
-        feature2TitleHl: "Fókuszcsoport-interjú",
-        feature2TitlePost: "Minden alkalommal sikerrel",
-        feature3TitleHl: "96%-os pontosság",
-        feature4TitleHl: "Biztonság",
-        testimonialText2Hl: "200 óra",
-        testimonialText3: "fókuszcsoport-felvétele a közösségi egészségtanulmányunkból. Más szolgáltatások a költségek miatt arra kértek, hogy válasszuk ki, mely üléseket írjuk át. A NeverCap lehetővé tette számunkra, hogy feldolgozzuk",
-        testimonialText4Hl: "mindezt egy hétvégén",
-        testimonialText5: ". A 20 beszélő azonosítója tényleg működött – még a legzűrösebb vitáink során is, amikor mindenki egyszerre beszélt. Ez az eszköz",
-        testimonialText6Hl: "teljesen megváltoztatta",
-        testimonialText7: "a kvalitatív adataink kezelésének módját.",
-        solutionDescA: "A {NeverCap} segítségével korlátlan átírást kapsz. Töltsd fel a teljes tanulmányodat. Írj le minden interjút. Elemezd az összes adatodat. Nincsenek korlátozások, nincsenek korlátok, csak kutatás."
+      problemTitle2: "Kutatási Átírási Probléma",
+      title: "A",
+      useCasesTitle2: "Minden Kutatási Módszerhez",
+      testimonialTitle2: "Vezető Kutatók",
+      feature1TitleHl: "Teljes kutatási projektje",
+      feature1TitlePost: "Minden egy helyen",
+      feature2TitleHl: "Fókuszcsoport-interjú",
+      feature2TitlePost: "Minden alkalommal sikerrel",
+      feature3TitleHl: "96%-os pontosság",
+      feature4TitleHl: "Biztonság",
+      testimonialText2Hl: "200 óra",
+      testimonialText3: "fókuszcsoport-felvétele a közösségi egészségtanulmányunkból. Más szolgáltatások a költségek miatt arra kértek, hogy válasszuk ki, mely üléseket írjuk át. A NeverCap lehetővé tette számunkra, hogy feldolgozzuk",
+      testimonialText4Hl: "mindezt egy hétvégén",
+      testimonialText5: ". A 20 beszélő azonosítója tényleg működött – még a legzűrösebb vitáink során is, amikor mindenki egyszerre beszélt. Ez az eszköz",
+      testimonialText6Hl: "teljesen megváltoztatta",
+      testimonialText7: "a kvalitatív adataink kezelésének módját.",
+      solutionDescA: "A {NeverCap} segítségével korlátlan átírást kapsz. Töltsd fel a teljes tanulmányodat. Írj le minden interjút. Elemezd az összes adatodat. Nincsenek korlátozások, nincsenek korlátok, csak kutatás."
     },
     BusinessTeams: {
       heroBadge: "Üzleti Csapatoknak",
@@ -2755,9 +2760,9 @@ let message = {
       ctaTitle: "Ne veszíts el fontos beszélgetéseket",
       ctaSubtitle: "Csatlakozz több ezer csapathoz, akik korlátlan átirattal rögzítik minden megbeszélésüket",
       ctaButton: "Kezdj el felvenni ingyen →",
-        featuresTitle2: "Értekezlet",
-        workflowTitle2: "Zoom felvételt szöveggé",
-        heroSubtitleA: "Rögzítse a megbeszéléseket közvetlenül a böngészőjében, vagy töltsön fel azonnal hangfájlokat. Készítsen kereshető archívumot korlátlan számú beszélgetésből. Soha többé ne veszítse el a fontos beszélgetéseket a {NeverCap} valóban korlátlan átiratával."
+      featuresTitle2: "Értekezlet",
+      workflowTitle2: "Zoom felvételt szöveggé",
+      heroSubtitleA: "Rögzítse a megbeszéléseket közvetlenül a böngészőjében, vagy töltsön fel azonnal hangfájlokat. Készítsen kereshető archívumot korlátlan számú beszélgetésből. Soha többé ne veszítse el a fontos beszélgetéseket a {NeverCap} valóban korlátlan átiratával."
     },
     Educators: {
       heroBadge: "Oktatóknak és tanároknak",
@@ -2839,11 +2844,11 @@ let message = {
       ctaTitle: "Tegye Elérhetővé Minden Oktatási Tartalmát",
       ctaSubtitle: "Csatlakozzon több ezer oktatóhoz, akik valóban korlátlan átírást használnak",
       ctaButton: "Próbálja Ki Ingyen a NeverCap-et",
-        featuresTitle2: "Videó Átirat",
-        grid: "Hangfájl Tanulási Segédletté",
-        useCasesTitle2: "Oktatási Igényre",
-        testimonialTitle2: "50 000+ Oktató",
-        testimonialTextA: "„A {NeverCap} programot használom a teljes YouTube-csatornám matematikai oktatóanyagainak átírására. Ami más szolgáltatásokkal hetekig tartott, az most órákig tart. A linkek közvetlen beillesztésének és az azonnali átiratok megszerzésének lehetősége átalakította a hozzáférhető tartalmak létrehozásának módját. A külföldi diákjaim különösen szeretik a többnyelvű feliratokat!”"
+      featuresTitle2: "Videó Átirat",
+      grid: "Hangfájl Tanulási Segédletté",
+      useCasesTitle2: "Oktatási Igényre",
+      testimonialTitle2: "50 000+ Oktató",
+      testimonialTextA: "„A {NeverCap} programot használom a teljes YouTube-csatornám matematikai oktatóanyagainak átírására. Ami más szolgáltatásokkal hetekig tartott, az most órákig tart. A linkek közvetlen beillesztésének és az azonnali átiratok megszerzésének lehetősége átalakította a hozzáférhető tartalmak létrehozásának módját. A külföldi diákjaim különösen szeretik a többnyelvű feliratokat!”"
     }
   },
   Resources: {
@@ -2860,132 +2865,132 @@ let message = {
       part2: {
         "title": "Így alakíthat YouTube-videót letölthető MP4-fájllá 3 egyszerű lépésben",
         "steps": [
-                {
-                  title: "Másolja az URL-t",
-                  content: "Nyissa meg a kívánt YouTube-videót, majd másolja a linket a böngésző címsorából."
-                },
-                {
-                  title: "Illessze be a linket",
-                  content: "Lépjen a videóletöltő eszközébe, és illessze be az URL-t a beviteli mezőbe."
-                },
-                {
-                  title: "Töltse le az MP4-et",
-                  content: "A feldolgozás után kattintson a letöltés gombra az MP4-fájl mentéséhez."
-                }
-              ]
+          {
+            title: "Másolja az URL-t",
+            content: "Nyissa meg a kívánt YouTube-videót, majd másolja a linket a böngésző címsorából."
+          },
+          {
+            title: "Illessze be a linket",
+            content: "Lépjen a videóletöltő eszközébe, és illessze be az URL-t a beviteli mezőbe."
+          },
+          {
+            title: "Töltse le az MP4-et",
+            content: "A feldolgozás után kattintson a letöltés gombra az MP4-fájl mentéséhez."
+          }
+        ]
       },
       part3: {
         content: [
-                "Szokott offline módon YouTube-videókat nézni?",
-                "Akár metrózik, repülőn utazik, fontos oktatóvideót tanulmányoz, szakmai tartalmakat elemez, vagy fontos videóanyagokat archivál – a megbízható offline hozzáférés gyakori probléma. Itt jön képbe a letöltőnk.",
-                "A letöltővel gyorsan és egyszerűen konvertálhat YouTube-videókat MP4 formátumba. Mentse el őket az eszközére, és nézze meg bármikor.",
-                "A folyamat gyors, egyszerű és zökkenőmentes. Letöltés után élvezze a kedvenc videóit bárhol, bármikor – internetkapcsolat nélkül."
-              ]
+          "Szokott offline módon YouTube-videókat nézni?",
+          "Akár metrózik, repülőn utazik, fontos oktatóvideót tanulmányoz, szakmai tartalmakat elemez, vagy fontos videóanyagokat archivál – a megbízható offline hozzáférés gyakori probléma. Itt jön képbe a letöltőnk.",
+          "A letöltővel gyorsan és egyszerűen konvertálhat YouTube-videókat MP4 formátumba. Mentse el őket az eszközére, és nézze meg bármikor.",
+          "A folyamat gyors, egyszerű és zökkenőmentes. Letöltés után élvezze a kedvenc videóit bárhol, bármikor – internetkapcsolat nélkül."
+        ]
       },
       part4: {
         content: ["Íme az 5 fő előnye a", "YouTube-videók MP4-fájlként való letöltésének"],
         list: [
-                {
-                  title: "Adatköltségek spórolása:",
-                  content: "A YouTube-on történő videónézés jelentős mobiladatot fogyaszt. Offline megtekintéssel elkerülheti ezeket a költségeket."
-                },
-                {
-                  title: "Bárhol, bármikor nézheti:",
-                  content: "Zökkenőmentes videónézés, még instabil internetkapcsolat mellett is. Nincs többé pufferelés."
-                },
-                {
-                  title: "Egyszerű archiválás és megőrzés:",
-                  content: "Az MP4-ként mentett videókkal könnyedén építhet személyes gyűjteményt, különösen az értékes tartalmak esetében."
-                },
-                {
-                  title: "Egyszerűbb megosztás:",
-                  content: "Az MP4-fájl megosztása sokkal kényelmesebb, mint egy link küldése. Közvetlenül küldheti a videót WhatsApp-on vagy Instagramon keresztül, YouTube megnyitása nélkül."
-                },
-                {
-                  title: "Azonnali megtekintés, közös élmény:",
-                  content: "Szeretne egy kedvenc videót mutatni a barátainak vagy családjának? Letöltött MP4-fájllal azonnal és zökkenőmentesen nézhetik együtt."
-                }
-              ]
+          {
+            title: "Adatköltségek spórolása:",
+            content: "A YouTube-on történő videónézés jelentős mobiladatot fogyaszt. Offline megtekintéssel elkerülheti ezeket a költségeket."
+          },
+          {
+            title: "Bárhol, bármikor nézheti:",
+            content: "Zökkenőmentes videónézés, még instabil internetkapcsolat mellett is. Nincs többé pufferelés."
+          },
+          {
+            title: "Egyszerű archiválás és megőrzés:",
+            content: "Az MP4-ként mentett videókkal könnyedén építhet személyes gyűjteményt, különösen az értékes tartalmak esetében."
+          },
+          {
+            title: "Egyszerűbb megosztás:",
+            content: "Az MP4-fájl megosztása sokkal kényelmesebb, mint egy link küldése. Közvetlenül küldheti a videót WhatsApp-on vagy Instagramon keresztül, YouTube megnyitása nélkül."
+          },
+          {
+            title: "Azonnali megtekintés, közös élmény:",
+            content: "Szeretne egy kedvenc videót mutatni a barátainak vagy családjának? Letöltött MP4-fájllal azonnal és zökkenőmentesen nézhetik együtt."
+          }
+        ]
       },
       part5: {
         title: "Miért kiemelkedő a letöltőnk?",
         cards: [
-                {
-                  title: "Egyszerű, egy kattintással",
-                  content: "Könnyű beállítás és intuitív működés."
-                },
-                {
-                  title: "Villámgyors, korlátlan",
-                  content: "Konvertáljon és töltse le maximális sebességgel – korlátok nélkül."
-                },
-                {
-                  title: "Azonnali konvertálás",
-                  content: "Azonnal feldolgozza a fájlokat, várakozás nélkül."
-                },
-                {
-                  title: "Zero Ads, Zero Distractions",
-                  content: "Tiszta felület, felugró ablakok és zavaró elemek nélkül – zökkenőmentes videókonvertálás."
-                },
-                {
-                  icon: "5",
-                  color: "#DEE5FF",
-                  title: "Eredeti minőség garantálva",
-                  content: "A letöltött fájlok megtartják a videó eredeti felbontását, tökéles lejátszáshoz."
-                },
-                {
-                  icon: "6",
-                  color: "#DEF6EE",
-                  title: "Bárhol működik",
-                  content: "Teljes kompatibilitás minden böngészővel és eszközzel."
-                }
-              ]
+          {
+            title: "Egyszerű, egy kattintással",
+            content: "Könnyű beállítás és intuitív működés."
+          },
+          {
+            title: "Villámgyors, korlátlan",
+            content: "Konvertáljon és töltse le maximális sebességgel – korlátok nélkül."
+          },
+          {
+            title: "Azonnali konvertálás",
+            content: "Azonnal feldolgozza a fájlokat, várakozás nélkül."
+          },
+          {
+            title: "Zero Ads, Zero Distractions",
+            content: "Tiszta felület, felugró ablakok és zavaró elemek nélkül – zökkenőmentes videókonvertálás."
+          },
+          {
+            icon: "5",
+            color: "#DEE5FF",
+            title: "Eredeti minőség garantálva",
+            content: "A letöltött fájlok megtartják a videó eredeti felbontását, tökéles lejátszáshoz."
+          },
+          {
+            icon: "6",
+            color: "#DEF6EE",
+            title: "Bárhol működik",
+            content: "Teljes kompatibilitás minden böngészővel és eszközzel."
+          }
+        ]
       },
       part6: {
         title: ["Maximálja YouTube-videó letöltéseit", "A Letöltővel"],
         content: [
-                "Zökkenőmentes YouTube-MP4 konvertálás: Gyors, egyszerű és ingyenes.",
-                "Itt vagyunk mi. Felhasználóbarát felületünk mindenki számára készült – nem kell hozzá szaktudás. Azonnal konvertálhat videókat. Regisztráció nélkül: Azonnal megkapja, amire szüksége van.",
-                "Nyugodt lelkiismerettel – a letöltött MP4-fájlok megtartják a videó eredeti minőségét és élességét, pontosan úgy, ahogy a YouTube-on látta.",
-                "Bárhol működik. Teljesen kompatibilis minden főbb platformmal és eszközzel. Legyen szó Windows, macOS, Linux, Android vagy iOS rendszerről – okostelefonon, táblagépen vagy számítógépen – zökkenőmentesen tölthet le videókat."
-              ]
+          "Zökkenőmentes YouTube-MP4 konvertálás: Gyors, egyszerű és ingyenes.",
+          "Itt vagyunk mi. Felhasználóbarát felületünk mindenki számára készült – nem kell hozzá szaktudás. Azonnal konvertálhat videókat. Regisztráció nélkül: Azonnal megkapja, amire szüksége van.",
+          "Nyugodt lelkiismerettel – a letöltött MP4-fájlok megtartják a videó eredeti minőségét és élességét, pontosan úgy, ahogy a YouTube-on látta.",
+          "Bárhol működik. Teljesen kompatibilis minden főbb platformmal és eszközzel. Legyen szó Windows, macOS, Linux, Android vagy iOS rendszerről – okostelefonon, táblagépen vagy számítógépen – zökkenőmentesen tölthet le videókat."
+        ]
       },
       part7: {
         title: "Kulcskérdések a YouTube-videók letöltéséről",
         list: [
-                {
-                  question: "Letölthetek szerzői jogvédelem alatt álló YouTube-videót?",
-                  answer: "Szerzői jogvédelem alatt álló YouTube-videók letöltése a jogtulajdonos engedélye nélkül törvénybe ütközik."
-                },
-                {
-                  question: "Biztonságos ez a letöltő eszköz?",
-                  answer: "Igen, biztonságos és megbízható. Nem kérünk személyes adatokat, és erős vírusvédelmi intézkedéseket alkalmazunk. Mindig legyen óvatos az internetről letöltött fájlokkal: kerülje a gyanús linkekre kattintást és a kétséges fájlok letöltését."
-                },
-                {
-                  question: "Milyen nyelveket támogat a YouTube-MP4 letöltés?",
-                  answer: "Szolgáltatásunk minden népszerű nyelven letölti a YouTube-videókat."
-                },
-                {
-                  question: "Milyen tényezők befolyásolják a YouTube-videó letöltési idejét?",
-                  answer: "Bár a leggyorsabb letöltési élményt biztosítjuk, a letöltési időt befolyásolhatja a videó hossza és az internetkapcsolat sebessége."
-                },
-                {
-                  question: "Ha okostelefonnal töltök le egy MP4-videót, hova kerül el?",
-                  answer: 'Miután letöltöttél egy MP4 fájlt okostelefonodra, általában az eszközöd fájlkezelő alkalmazásában a "Letöltések" mappában találod meg.'
-                },
-                {
-                  question: "Csökken a videó minősége, ha MP4-ként töltöm le a YouTube-videót?",
-                  answer: "Nem. YouTube-videók MP4-ként való letöltése eszközünkkel megtartja a videó eredeti minőségét. A konvertálás során megőrizzük a forrásminőséget, így ugyanazt a nézői élményt nyújtja, mint a YouTube-on."
-                }
-              ]
+          {
+            question: "Letölthetek szerzői jogvédelem alatt álló YouTube-videót?",
+            answer: "Szerzői jogvédelem alatt álló YouTube-videók letöltése a jogtulajdonos engedélye nélkül törvénybe ütközik."
+          },
+          {
+            question: "Biztonságos ez a letöltő eszköz?",
+            answer: "Igen, biztonságos és megbízható. Nem kérünk személyes adatokat, és erős vírusvédelmi intézkedéseket alkalmazunk. Mindig legyen óvatos az internetről letöltött fájlokkal: kerülje a gyanús linkekre kattintást és a kétséges fájlok letöltését."
+          },
+          {
+            question: "Milyen nyelveket támogat a YouTube-MP4 letöltés?",
+            answer: "Szolgáltatásunk minden népszerű nyelven letölti a YouTube-videókat."
+          },
+          {
+            question: "Milyen tényezők befolyásolják a YouTube-videó letöltési idejét?",
+            answer: "Bár a leggyorsabb letöltési élményt biztosítjuk, a letöltési időt befolyásolhatja a videó hossza és az internetkapcsolat sebessége."
+          },
+          {
+            question: "Ha okostelefonnal töltök le egy MP4-videót, hova kerül el?",
+            answer: 'Miután letöltöttél egy MP4 fájlt okostelefonodra, általában az eszközöd fájlkezelő alkalmazásában a "Letöltések" mappában találod meg.'
+          },
+          {
+            question: "Csökken a videó minősége, ha MP4-ként töltöm le a YouTube-videót?",
+            answer: "Nem. YouTube-videók MP4-ként való letöltése eszközünkkel megtartja a videó eredeti minőségét. A konvertálás során megőrizzük a forrásminőséget, így ugyanazt a nézői élményt nyújtja, mint a YouTube-on."
+          }
+        ]
       },
-        err1: "YouTube linkformátum hiba.",
-        err2: "Sajnáljuk! Jelenleg csak YouTube-linkekkel működünk. Ha más oldalak támogatására van szükséged, értesíteni foglak, ha a jövőben hozzáadjuk.",
-        videoDownload: {
-              title: "YouTube-videók letöltése MP4 formátumban. Ingyenes, gyors és reklámmentes.",
-              description: "Köszönjük, hogy minket választott! Nagyra értékeljük a bizalmadat, és reméljük, hogy élményedet fokoztuk. Hatalmas segítséget jelentene, ha megosztanád weboldalunkat a barátaiddal.",
-              downloadButton: "Letöltés",
-              downloadError: "Letöltési hiba."
-            }
+      err1: "YouTube linkformátum hiba.",
+      err2: "Sajnáljuk! Jelenleg csak YouTube-linkekkel működünk. Ha más oldalak támogatására van szükséged, értesíteni foglak, ha a jövőben hozzáadjuk.",
+      videoDownload: {
+        title: "YouTube-videók letöltése MP4 formátumban. Ingyenes, gyors és reklámmentes.",
+        description: "Köszönjük, hogy minket választott! Nagyra értékeljük a bizalmadat, és reméljük, hogy élményedet fokoztuk. Hatalmas segítséget jelentene, ha megosztanád weboldalunkat a barátaiddal.",
+        downloadButton: "Letöltés",
+        downloadError: "Letöltési hiba."
+      }
     }
   },
   About: {
@@ -2999,67 +3004,67 @@ let message = {
       "highlighted_text": "Impact",
       "subtitle": "Globális kommunikáció lehetővé tétele legmodernebb AI-technológiával",
       "metrics": [
-            {
-              "value": "96%+",
-              "label": "Pontossági arány",
-              "description": "Piacvezető átírási pontosság fejlett AI-val"
-            },
-            {
-              "value": "100+",
-              "label": "Támogatott nyelvek",
-              "description": "Beszédfelismerés globális tartalmakhoz"
-            },
-            {
-              "value": "249+",
-              "label": "Fordítási nyelvek",
-              "description": "Az átírt szöveg fordítása szinte bármely nyelvre"
-            }
-          ]
+        {
+          "value": "96%+",
+          "label": "Pontossági arány",
+          "description": "Piacvezető átírási pontosság fejlett AI-val"
+        },
+        {
+          "value": "100+",
+          "label": "Támogatott nyelvek",
+          "description": "Beszédfelismerés globális tartalmakhoz"
+        },
+        {
+          "value": "249+",
+          "label": "Fordítási nyelvek",
+          "description": "Az átírt szöveg fordítása szinte bármely nyelvre"
+        }
+      ]
     },
     Mission: {
       "title": "Miért válassza a",
       "subtitle": "Hiszünk abban, hogy le kell rombolni a nyelvi akadályokat, és mindenki számára hozzáférhetővé kell tenni a tartalmakat",
       "features": [
-            {
-              "icon": "🎯",
-              "title": "Példa nélküli pontosság",
-              "description": "AI-modelljeink folyamatosan finomítottak, így meghaladják a 96%-os átírási pontosságot, és néhány főbb nyelv esetében akár 99%-ot is elérhetnek a fejlett optimalizálásnak köszönhetően."
-            },
-            {
-              "icon": "🌍",
-              "title": "Globális nyelvi támogatás",
-              "description": "Több mint 100 nyelv beszédfelismerése és 249+ nyelvre történő fordítási lehetősége, így tartalma valóban globálissá válik."
-            },
-            {
-              "icon": "⚡",
-              "title": "Villámgyors feldolgozás",
-              "description": "Óráknyi hang- és videótartalom feldolgozása percek alatt. Optimalizált AI-folyamatunk biztosítja, hogy gyorsan megkapja az átírásokat minőségvesztés nélkül."
-            },
-            {
-              "icon": "🔒",
-              "title": "Vállalati szintű biztonság",
-              "description": "Adatbiztonsága elsődleges szempontunk. Ipari szabványnak megfelelő titkosítást használunk, és betartjuk a globális adatvédelmi szabályozásokat, hogy tartalma biztonságban és bizalmas maradjon."
-            }
-          ]
+        {
+          "icon": "🎯",
+          "title": "Példa nélküli pontosság",
+          "description": "AI-modelljeink folyamatosan finomítottak, így meghaladják a 96%-os átírási pontosságot, és néhány főbb nyelv esetében akár 99%-ot is elérhetnek a fejlett optimalizálásnak köszönhetően."
+        },
+        {
+          "icon": "🌍",
+          "title": "Globális nyelvi támogatás",
+          "description": "Több mint 100 nyelv beszédfelismerése és 249+ nyelvre történő fordítási lehetősége, így tartalma valóban globálissá válik."
+        },
+        {
+          "icon": "⚡",
+          "title": "Villámgyors feldolgozás",
+          "description": "Óráknyi hang- és videótartalom feldolgozása percek alatt. Optimalizált AI-folyamatunk biztosítja, hogy gyorsan megkapja az átírásokat minőségvesztés nélkül."
+        },
+        {
+          "icon": "🔒",
+          "title": "Vállalati szintű biztonság",
+          "description": "Adatbiztonsága elsődleges szempontunk. Ipari szabványnak megfelelő titkosítást használunk, és betartjuk a globális adatvédelmi szabályozásokat, hogy tartalma biztonságban és bizalmas maradjon."
+        }
+      ]
     },
     Company: {
       "title": "Céginformáció",
       "highlighted_text": "Information",
       "subtitle": "Lépjen kapcsolatba velünk bármilyen kérdéssel vagy támogatásért",
       "details": [
-            {
-              "label": "Cégnév",
-              "value": "SCRIBIFY AI INC"
-            },
-            {
-              "label": "Székhely",
-              "value": ["30 N Gould St Ste R", "Sheridan, WY 82801", "Egyesült Államok"]
-            },
-            {
-              "label": "Lépjen kapcsolatba velünk",
-              "value": ["Email", "24/7-es támogatás"]
-            }
-          ]
+        {
+          "label": "Cégnév",
+          "value": "SCRIBIFY AI INC"
+        },
+        {
+          "label": "Székhely",
+          "value": ["30 N Gould St Ste R", "Sheridan, WY 82801", "Egyesült Államok"]
+        },
+        {
+          "label": "Lépjen kapcsolatba velünk",
+          "value": ["Email", "24/7-es támogatás"]
+        }
+      ]
     },
     CTA: {
       "title": "Készen áll a különbség megtapasztalására?",
@@ -3113,10 +3118,10 @@ let message = {
     "contactTitle": "9. Lépj kapcsolatba velünk",
     "websiteUrl": "https://www.nevercap.ai/",
     at: "címen",
-      childrenDescription: "A Szolgáltatások nem gyermekeknek szólnak, és tudatosan nem gyűjtünk Személyes Adatokat 13 év alatti gyermekektől. Ha 13 év alatti vagy, kérjük, ne adj meg személyes adatokat a Szolgáltatásokon keresztül. Ha úgy gondolja, hogy egy gyermek megsértve ezt a Szabályzatot adott meg nekünk Személyes Adatot, kérjük, lépjen kapcsolatba velünk az alábbiakban megadott {at} {email} címen.",
-      contactDescription: "Ha kérdése, észrevétele vagy panasza van az Adatvédelmi Szabályzatunkkal kapcsolatban, kérjük, lépjen kapcsolatba velünk {at} {email} címen, és mindent meg fogunk tenni, hogy a panaszát a lehető leghamarabb kezeljük.",
-      policyDescriptionA: 'Ez a Szabályzat leírja, hogyan gyűjti, használja és hozza nyilvánosságra a {NeverCap} (a továbbiakban: \"NeverCap\", \"mi\", \"minket\") az Ön személyes adatait, amikor Ön szolgáltatásainkat, webhelyeinket ({url}) és szoftvereinket (együttesen a \"Szolgáltatások\") használja.'
-},
+    childrenDescription: "A Szolgáltatások nem gyermekeknek szólnak, és tudatosan nem gyűjtünk Személyes Adatokat 13 év alatti gyermekektől. Ha 13 év alatti vagy, kérjük, ne adj meg személyes adatokat a Szolgáltatásokon keresztül. Ha úgy gondolja, hogy egy gyermek megsértve ezt a Szabályzatot adott meg nekünk Személyes Adatot, kérjük, lépjen kapcsolatba velünk az alábbiakban megadott {at} {email} címen.",
+    contactDescription: "Ha kérdése, észrevétele vagy panasza van az Adatvédelmi Szabályzatunkkal kapcsolatban, kérjük, lépjen kapcsolatba velünk {at} {email} címen, és mindent meg fogunk tenni, hogy a panaszát a lehető leghamarabb kezeljük.",
+    policyDescriptionA: 'Ez a Szabályzat leírja, hogyan gyűjti, használja és hozza nyilvánosságra a {NeverCap} (a továbbiakban: "NeverCap", "mi", "minket") az Ön személyes adatait, amikor Ön szolgáltatásainkat, webhelyeinket ({url}) és szoftvereinket (együttesen a "Szolgáltatások") használja.'
+  },
   TermsOfUse: {
     title: "Szolgáltatási",
     titleGradient: "Feltételek",
@@ -3181,7 +3186,7 @@ let message = {
     "automation": "Rendszer automatizált használatát folytatni, például szkriptek használatával megjegyzéseket vagy üzeneteket küldeni, vagy bármilyen adatbányászatot, robotokat vagy hasonló adatgyűjtő és -kinyerő eszközöket használni.",
     "copyrightRemoval": "A szerzői jogi vagy egyéb tulajdonjogi nyilatkozatot törölni bármely tartalomból.",
     "impersonation": "Megkísérelni másik felhasználót vagy személyt utánzani, vagy másik felhasználó felhasználónevét használni.",
-    "spyware": 'Feltölteni vagy továbbítani (vagy megkísérelni feltölteni vagy továbbítani) olyan anyagot, amely passzív vagy aktív információgyűjtő vagy -továbbító mechanizmusként működik, beleértve, de nem kizárólagosan, tiszta grafikus csereformátumokat (\"gif\"), 1×1 pixeleket, webhibákat, sütiket vagy más hasonló eszközöket (amelyeket néha \"kémprogramoknak\" vagy \"passzív gyűjtő mechanizmusoknak\" vagy \"pcms\"-nek neveznek).',
+    "spyware": 'Feltölteni vagy továbbítani (vagy megkísérelni feltölteni vagy továbbítani) olyan anyagot, amely passzív vagy aktív információgyűjtő vagy -továbbító mechanizmusként működik, beleértve, de nem kizárólagosan, tiszta grafikus csereformátumokat ("gif"), 1×1 pixeleket, webhibákat, sütiket vagy más hasonló eszközöket (amelyeket néha "kémprogramoknak" vagy "passzív gyűjtő mechanizmusoknak" vagy "pcms"-nek neveznek).',
     "disruption": "Zavarni, megzavarni vagy indokolatlan terhet jelenteni a webhelyen vagy a hozzá kapcsolódó hálózatokon vagy szolgáltatásokon.",
     "employeeHarassment": "Zaklatni, bosszantani, megfélemlíteni vagy fenyegetni bármely munkatársunkat vagy ügynökünket, aki a webhely bármely részét Önnek nyújtja.",
     "accessCircumvention": "Megkísérelni megkerülni a webhelyen található, a hozzáférés megakadályozására vagy korlátozására szolgáló intézkedéseket, vagy a webhely bármely részét.",
@@ -3211,41 +3216,41 @@ let message = {
     "site": "Weboldal",
     "services": "Szolgáltatások",
     at: "címen",
-      trademarkProtection: "A Szolgáltatások nevei, megjelenése és hangulata a Társaság szerzői jogvédelem alatt áll. Minden jog fenntartva. A HTML, CSS, JavaScript vagy vizuális tervezési elemek egy részét sem szabad másolni, reprodukálni vagy újra felhasználni a Társaság írásos engedélye nélkül. Engedélyt kell kérnie a Társaság emblémájának vagy bármely Szolgáltatás emblémájának promóciós célú használatához. Kérjük, küldjön e-mailt {at} {email} címre az emblémák használatával kapcsolatos kérésekkel. Fenntartjuk a jogot, hogy visszavonjuk ezt az engedélyt, ha megsérti ezeket a Szolgáltatási Feltételeket.",
-      privacyPolicyDescription: "Fontosnak tartjuk az adatvédelem és biztonságot. Kérjük, tekintse át {policy} szabályzatunkat. A Webhely használatával elfogadja, hogy kötelesnek tartja magát az Adatvédelmi Szabályzatunkra, amely integrált része ezeknek a Szolgáltatási Feltételeknek. Tájékoztatjuk, hogy a Webhely az Egyesült Államokban található. Ha a Webhelyet a világ bármely más régiójából éri el, ahol a személyes adatok gyűjtésére, használatára vagy nyilvánosságra hozatalára vonatkozó törvények vagy egyéb követelmények eltérnek az Egyesült Államokban érvényes törvényektől, akkor a Webhely további használatával Ön átadja adatait az Egyesült Államokba, és hozzájárul, hogy azok az Egyesült Államokban legyenek feldolgozva.",
-      contactDescription: "Ha kérdése van a Szolgáltatási Feltételek bármelyikével kapcsolatban, kérjük, lépjen kapcsolatba velünk {at} {email} címen.",
-      "companyDefinitionA": "Amikor ebben a dokumentumban a „Vállalat”, „mi”, „minket” vagy „minket” kifejezéseket használjuk, a {NeverCap} vállalatra utalunk."
-},
-    Blog: {
-          Hero: {
-            "title": "Legyen egy",
-            "highlighted_text": "Átírás varázsló",
-            "description": "A {NeverCap} oktatóanyagai, stratégiái és mesterséges intelligencia eszközei segítenek korlátlan mennyiségű tartalom létrehozásában professzionális átírási munkafolyamatokkal."
-          },
-          Featured: {
-            FeaturedGuide: "Kiemelt útmutató",
-            ReadFullGuide: "Olvassa el a teljes útmutatót"
-          },
-          ListSection: {
-            title: "Legújabb",
-            highlighted_text: "Cikkek",
-            subtitle: "Szakértői tippek és oktatóanyagok korlátlan átíráshoz",
-            categories: [
-              "Minden bejegyzés",
-              "Oktatóanyagok",
-              "Podcastolás",
-              "Tartalomkészítés",
-              "Üzleti",
-              "MI-tippek"
-            ]
-          },
-          Detail: {
-            Home: "Otthon",
-            Blog: "Blog",
-            GoToSignup: "Próbálja ki a NeverCapet ingyen - Nincs szükség hitelkártyára",
-            HowWorks: "Nézd meg, hogyan működik"
-          }
-        }
+    trademarkProtection: "A Szolgáltatások nevei, megjelenése és hangulata a Társaság szerzői jogvédelem alatt áll. Minden jog fenntartva. A HTML, CSS, JavaScript vagy vizuális tervezési elemek egy részét sem szabad másolni, reprodukálni vagy újra felhasználni a Társaság írásos engedélye nélkül. Engedélyt kell kérnie a Társaság emblémájának vagy bármely Szolgáltatás emblémájának promóciós célú használatához. Kérjük, küldjön e-mailt {at} {email} címre az emblémák használatával kapcsolatos kérésekkel. Fenntartjuk a jogot, hogy visszavonjuk ezt az engedélyt, ha megsérti ezeket a Szolgáltatási Feltételeket.",
+    privacyPolicyDescription: "Fontosnak tartjuk az adatvédelem és biztonságot. Kérjük, tekintse át {policy} szabályzatunkat. A Webhely használatával elfogadja, hogy kötelesnek tartja magát az Adatvédelmi Szabályzatunkra, amely integrált része ezeknek a Szolgáltatási Feltételeknek. Tájékoztatjuk, hogy a Webhely az Egyesült Államokban található. Ha a Webhelyet a világ bármely más régiójából éri el, ahol a személyes adatok gyűjtésére, használatára vagy nyilvánosságra hozatalára vonatkozó törvények vagy egyéb követelmények eltérnek az Egyesült Államokban érvényes törvényektől, akkor a Webhely további használatával Ön átadja adatait az Egyesült Államokba, és hozzájárul, hogy azok az Egyesült Államokban legyenek feldolgozva.",
+    contactDescription: "Ha kérdése van a Szolgáltatási Feltételek bármelyikével kapcsolatban, kérjük, lépjen kapcsolatba velünk {at} {email} címen.",
+    "companyDefinitionA": "Amikor ebben a dokumentumban a „Vállalat”, „mi”, „minket” vagy „minket” kifejezéseket használjuk, a {NeverCap} vállalatra utalunk."
+  },
+  Blog: {
+    Hero: {
+      "title": "Legyen egy",
+      "highlighted_text": "Átírás varázsló",
+      "description": "A {NeverCap} oktatóanyagai, stratégiái és mesterséges intelligencia eszközei segítenek korlátlan mennyiségű tartalom létrehozásában professzionális átírási munkafolyamatokkal."
+    },
+    Featured: {
+      FeaturedGuide: "Kiemelt útmutató",
+      ReadFullGuide: "Olvassa el a teljes útmutatót"
+    },
+    ListSection: {
+      title: "Legújabb",
+      highlighted_text: "Cikkek",
+      subtitle: "Szakértői tippek és oktatóanyagok korlátlan átíráshoz",
+      categories: [
+        "Minden bejegyzés",
+        "Oktatóanyagok",
+        "Podcastolás",
+        "Tartalomkészítés",
+        "Üzleti",
+        "MI-tippek"
+      ]
+    },
+    Detail: {
+      Home: "Otthon",
+      Blog: "Blog",
+      GoToSignup: "Próbálja ki a NeverCapet ingyen - Nincs szükség hitelkártyára",
+      HowWorks: "Nézd meg, hogyan működik"
+    }
+  }
 };
 
 export default defineI18nLocale(async (locale) => {

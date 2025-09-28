@@ -1151,8 +1151,9 @@ let message = {
           "limits": {
             "title": "Daily Limits",
             "items": [
-              "3 files/day (≈90 min total/day)",
-              "Up to 30 min per file (≤250 MB)",
+              "3 files per day",
+              "Up to 10 hours / 5 GB per file",
+              "Free 30-Minute Preview on all transcripts",
               "Upload 1 file at a time",
               "Standard priority queue"
             ]
@@ -1255,16 +1256,20 @@ let message = {
           ]
         },
         {
-          "name": "Monthly minutes",
-          "values": ["~2,700 (90/day)", "Unlimited", "Unlimited"]
+          "name": "Daily file limit",
+          "values": ["3 files/day", "Unlimited", "Unlimited"]
         },
         {
           "name": "Max file duration",
-          "values": ["30 minutes", "10 hours", "10 hours"]
+          "values": ["10 hours", "10 hours", "10 hours"]
         },
         {
           "name": "Max file size",
-          "values": ["250 MB", "5 GB", "5 GB"]
+          "values": ["5 GB", "5 GB", "5 GB"]
+        },
+        {
+          "name": "Transcript access",
+          "values": ["First 30 min preview", "Full transcript", "Full transcript"]
         },
         {
           "name": "Batch uploads",

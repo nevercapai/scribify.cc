@@ -662,8 +662,8 @@ let message = {
     uploadWithinHours: "10-uur uploads",
     yourSubscription: "Uw abonnement wordt op {time} geannuleerd.",
     save: "Besparen",
-      freeversion2: "Gratis Abonnement"
-},
+    freeversion2: "Gratis Abonnement"
+  },
   // Taalkaart
   LanguageMap: {
     sysLanguagesMap: {
@@ -1059,8 +1059,8 @@ let message = {
     Resources: "Hulpmiddelen",
     YouTubetoMP4: "YouTube naar MP4",
     StartFreeTrial: "Probeer Het Gratis",
-      Blog: "Blog"
-},
+    Blog: "Blog"
+  },
   Footer: {
     des: "'s Werelds eerste echt onbeperkte AI-transcriptieservice. Geen limieten, geen grenzen, alleen vrijheid om te creëren.",
     Features: "Functies",
@@ -1068,20 +1068,20 @@ let message = {
     Company: "Bedrijf",
     featureMenus: ["Onbeperkte Transcriptie", "Bulk Upload", "96% Nauwkeurigheid"],
     useCaseMenus: [
-          "Alle Gebruiksscenario's",
-          "Podcastmakers",
-          "Journalisten",
-          "Contentmakers",
-          "Onderzoekers",
-          "Bedrijfsteams",
-          "Onderwijzers"
-        ],
+      "Alle Gebruiksscenario's",
+      "Podcastmakers",
+      "Journalisten",
+      "Contentmakers",
+      "Onderzoekers",
+      "Bedrijfsteams",
+      "Onderwijzers"
+    ],
     companyMenus: [
-          "Over ons",
-          "Prijzen",
-          "Privacy",
-          "Voorwaarden"
-        ]
+      "Over ons",
+      "Prijzen",
+      "Privacy",
+      "Voorwaarden"
+    ]
   },
   Index: {
     Hero: {
@@ -1094,7 +1094,7 @@ let message = {
       NoCap: "Geen Maandelijkse Minutenlimiet",
       Hour: "Bestanden tot 10 Uur Ondersteund",
       ExploreUseCases: "Verken Gebruiksvoorbeelden",
-        subtitleA: "De AI van NeverCap transcribeert video en converteert audio naar tekst. Het verwerkt 50 bestanden tegelijk, zonder maandelijkse limieten. Transcriptie die echt met u meegroeit."
+      subtitleA: "De AI van NeverCap transcribeert video en converteert audio naar tekst. Het verwerkt 50 bestanden tegelijk, zonder maandelijkse limieten. Transcriptie die echt met u meegroeit."
     },
     Stats: {
       monthlyMinutes: "Maandelijkse Minuten",
@@ -1122,7 +1122,7 @@ let message = {
       feat_langs_desc: "Transcribeer video en audio in 100+ talen, vertaal naar 249+. Geen extra kosten voor verschillende talen. Wereldwijde content, één eenvoudige prijs.",
       feat_pro: "Professionele Functies",
       feat_pro_desc: "Woordniveau tijdstempels voor precieze audio/video positionering, nauwkeurige sprekersidentificatie zelfs tijdens snelle gesprekswisselingen, en perfect opgemaakte tekst met alinea's, zinnen en interpunctie voor makkelijk lezen.",
-        features: "Functies"
+      features: "Functies"
     },
     UseCases: {
       built_for: "Bulk",
@@ -1170,7 +1170,7 @@ let message = {
         "author": "Jessica Park",
         "role": "Freelance Journalist"
       },
-        titleA: "Geliefd bij meer dan 50.000 gebruikers van"
+      titleA: "Geliefd bij meer dan 50.000 gebruikers van"
     },
     PricingPreview: {
       "title": "Transparante Prijzen",
@@ -1181,52 +1181,52 @@ let message = {
       "title": "Veelgestelde",
       "titleHighlight": "Vragen",
       "questions": [
-            {
-              "q": "AI-transcriptie",
-              "question": "Wat is AI-transcriptie en hoe werkt het?",
-              "answer": "AI-transcriptie is het automatisch omzetten van audio naar tekst met geavanceerde kunstmatige intelligentie. Bij NeverCap upload je simpelweg je bestanden, en onze AI transcribeert de inhoud met tot 96% nauwkeurigheid. Onze dienst is ontworpen om videobestanden (zoals MP4, MOV) en audiobestanden (zoals MP3, WAV) om te zetten in leesbare, bewerkbare tekst, inclusief sprekerlabels en tijdstempels."
-            },
-            {
-              "q": "unlimited_policy",
-              "question": "Is het echt onbeperkt? Wat is het addertje?",
-              "answer": "Ja, het is echt onbeperkt! Geen maandelijkse minutenlimieten, geen extra kosten. De enige limieten zijn technisch: individuele bestanden kunnen maximaal 10 uur lang of 5GB groot zijn, en je kunt 50 bestanden tegelijk verwerken. Maar je kunt zoveel batches uploaden als je wilt, de hele maand door."
-            },
-            {
-              "q": "accuracy",
-              "question": "Hoe nauwkeurig is de transcriptie?",
-              "answer": "We garanderen 96% nauwkeurigheid voor heldere audio. Onze AI is getraind op miljoenen uren diverse inhoud en gaat uitstekend om met accenten, technische termen en meerdere sprekers. Voor uitdagende audio helpen onze slimme verbeteringsfuncties de resultaten te verbeteren."
-            },
-            {
-              "q": "languages",
-              "question": "Welke talen ondersteunen jullie?",
-              "answer": "We ondersteunen transcriptie in meer dan 100 talen, waaronder Engels, Spaans, Mandarijn, Hindi, Arabisch, Frans en meer. Daarnaast kun je je transcripties vertalen in 249 verschillende talen, ideaal voor wereldwijde inhoud."
-            },
-            {
-              "q": "speed",
-              "question": "Hoe snel is de transcriptie?",
-              "answer": "Bliksemsnel! Een audiobestand van 1 uur wordt meestal in minder dan 5 minuten verwerkt. Met batchverwerking kun je 50 bestanden tegelijk uploaden en parallel laten verwerken. De meeste gebruikers vinden hun hele bibliotheek de volgende ochtend getranscribeerd."
-            },
-            {
-              "q": "cancellation",
-              "question": "Kan ik op elk moment annuleren?",
-              "answer": "Absoluut! Geen contracten, geen annuleringskosten. Je kunt je abonnement op elk moment upgraden, downgraden of annuleren via je dashboard. Als je annuleert, behoud je toegang tot het einde van je factureringsperiode."
-            },
-            {
-              "q": "security",
-              "question": "Is mijn data veilig?",
-              "answer": "Jouw veiligheid is onze prioriteit. We zijn SOC 2-gecertificeerd, gebruiken 256-bit encryptie voor alle data en gebruiken je inhoud nooit om onze modellen te trainen. Je kunt je bestanden altijd verwijderen, en we wissen ze automatisch na 30 dagen. GDPR- en CCPA-compliant."
-            },
-            {
-              "q": "export_formats",
-              "question": "Welke exportformaten zijn beschikbaar?",
-              "answer": "Download je transcripties in elk gewenst formaat: PDF, Word (DOCX), Excel, CSV, SRT-ondertiteling, platte tekst (TXT) en VTT-ondertiteling. Perfect voor elke workflow."
-            },
-            {
-              "q": "file_formats",
-              "question": "Welke audio- en videobestanden kan ik uploaden?",
-              "answer": "We ondersteunen vrijwel elk audio- en videoformaat dat je tegenkomt: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV en meer. Als je het kunt afspelen, kunnen wij het transcriberen."
-            }
-          ]
+        {
+          "q": "AI-transcriptie",
+          "question": "Wat is AI-transcriptie en hoe werkt het?",
+          "answer": "AI-transcriptie is het automatisch omzetten van audio naar tekst met geavanceerde kunstmatige intelligentie. Bij NeverCap upload je simpelweg je bestanden, en onze AI transcribeert de inhoud met tot 96% nauwkeurigheid. Onze dienst is ontworpen om videobestanden (zoals MP4, MOV) en audiobestanden (zoals MP3, WAV) om te zetten in leesbare, bewerkbare tekst, inclusief sprekerlabels en tijdstempels."
+        },
+        {
+          "q": "unlimited_policy",
+          "question": "Is het echt onbeperkt? Wat is het addertje?",
+          "answer": "Ja, het is echt onbeperkt! Geen maandelijkse minutenlimieten, geen extra kosten. De enige limieten zijn technisch: individuele bestanden kunnen maximaal 10 uur lang of 5GB groot zijn, en je kunt 50 bestanden tegelijk verwerken. Maar je kunt zoveel batches uploaden als je wilt, de hele maand door."
+        },
+        {
+          "q": "accuracy",
+          "question": "Hoe nauwkeurig is de transcriptie?",
+          "answer": "We garanderen 96% nauwkeurigheid voor heldere audio. Onze AI is getraind op miljoenen uren diverse inhoud en gaat uitstekend om met accenten, technische termen en meerdere sprekers. Voor uitdagende audio helpen onze slimme verbeteringsfuncties de resultaten te verbeteren."
+        },
+        {
+          "q": "languages",
+          "question": "Welke talen ondersteunen jullie?",
+          "answer": "We ondersteunen transcriptie in meer dan 100 talen, waaronder Engels, Spaans, Mandarijn, Hindi, Arabisch, Frans en meer. Daarnaast kun je je transcripties vertalen in 249 verschillende talen, ideaal voor wereldwijde inhoud."
+        },
+        {
+          "q": "speed",
+          "question": "Hoe snel is de transcriptie?",
+          "answer": "Bliksemsnel! Een audiobestand van 1 uur wordt meestal in minder dan 5 minuten verwerkt. Met batchverwerking kun je 50 bestanden tegelijk uploaden en parallel laten verwerken. De meeste gebruikers vinden hun hele bibliotheek de volgende ochtend getranscribeerd."
+        },
+        {
+          "q": "cancellation",
+          "question": "Kan ik op elk moment annuleren?",
+          "answer": "Absoluut! Geen contracten, geen annuleringskosten. Je kunt je abonnement op elk moment upgraden, downgraden of annuleren via je dashboard. Als je annuleert, behoud je toegang tot het einde van je factureringsperiode."
+        },
+        {
+          "q": "security",
+          "question": "Is mijn data veilig?",
+          "answer": "Jouw veiligheid is onze prioriteit. We zijn SOC 2-gecertificeerd, gebruiken 256-bit encryptie voor alle data en gebruiken je inhoud nooit om onze modellen te trainen. Je kunt je bestanden altijd verwijderen, en we wissen ze automatisch na 30 dagen. GDPR- en CCPA-compliant."
+        },
+        {
+          "q": "export_formats",
+          "question": "Welke exportformaten zijn beschikbaar?",
+          "answer": "Download je transcripties in elk gewenst formaat: PDF, Word (DOCX), Excel, CSV, SRT-ondertiteling, platte tekst (TXT) en VTT-ondertiteling. Perfect voor elke workflow."
+        },
+        {
+          "q": "file_formats",
+          "question": "Welke audio- en videobestanden kan ik uploaden?",
+          "answer": "We ondersteunen vrijwel elk audio- en videoformaat dat je tegenkomt: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV en meer. Als je het kunt afspelen, kunnen wij het transcriberen."
+        }
+      ]
     },
     CTASection: {
       "title": "Klaar om de Limieten te Doorbreken?",
@@ -1318,7 +1318,7 @@ let message = {
       feature3Point1Icon: "✓",
       feature3Point1Text: "50.000+ gebruikers gestapt",
       feature3Point2Icon: "✓",
-      feature3Point2Text: `Van Otter's "krimpflatie"`,
+      feature3Point2Text: 'Van Otter\\\'s "krimpflatie"',
       feature3Point3Icon: "✓",
       feature3Point3Text: "Nooit meer terug",
       feature3Stat1Number: "50K+",
@@ -1340,8 +1340,8 @@ let message = {
       ctaTitle: "Stop met Betalen voor Nep-Onbeperkt",
       ctaSubtitle: "Sluit je aan bij duizenden die overstapten naar echt onbeperkte transcriptie",
       finalCta: "Probeer NeverCap Gratis",
-        heroSubtitle1: "Terwijl Trint je beperkt tot 50 uur en Otter je beperkt tot 10 bestanden per maand,",
-        heroSubtitle2: "leveren wat we daadwerkelijk beloven: onbeperkte transcriptie zonder verborgen limieten."
+      heroSubtitle1: "Terwijl Trint je beperkt tot 50 uur en Otter je beperkt tot 10 bestanden per maand,",
+      heroSubtitle2: "leveren wat we daadwerkelijk beloven: onbeperkte transcriptie zonder verborgen limieten."
     },
     BulkUpload: {
       heroBadgeIcon: "📁",
@@ -1558,47 +1558,47 @@ let message = {
       ctaSubtitle: "Upload uw meest uitdagende audio en zie het verschil",
       finalCta: "Test Onze Nauwkeurigheid Nu →",
       languageSectionTitlePart2: "over 12 belangrijke talen",
-        heroSubtitle: "Toonaangevende nauwkeurigheid in 12 hoofdtalen. Woordniveau timestamps voor perfecte synchronisatie. Slimme sprekerherkenning die snelle gesprekken aankan. Professionele opmaak die echt leesbaar is.",
-        primaryCta: "Test Onze Nauwkeurigheid →",
-        secondaryCta: "Bekijk Talen",
-        statCard1Percentage: "96%",
-        statCard1DescriptionLine1: "Nauwkeurigheid in",
-        statCard1DescriptionLine2: "12 Hoofdtalen",
-        statCard2Percentage: "95%+",
-        statCard2DescriptionLine1: "Nauwkeurigheid met",
-        statCard2DescriptionLine2: "Accenten & Dialecten",
-        statCard3Percentage: "100ms",
-        statCard3DescriptionLine1: "Woordniveau",
-        statCard3DescriptionLine2: "Timestamp Precisie",
-        languageSectionTitlePart1: "96% Nauwkeurigheid",
-        languageSubtitle: "Professionele transcriptie voor wereldwijde content",
-        languageCard1Flag: "🇺🇸",
-        languageCard1Name: "Engels",
-        languageCard1Accuracy: "96% Nauwkeurigheid",
-        languageCard2Flag: "🇪🇸",
-        languageCard2Name: "Spaans",
-        languageCard2Accuracy: "96% Nauwkeurigheid",
-        languageCard3Flag: "🇨🇳",
-        languageCard3Name: "Mandarijn",
-        languageCard3Accuracy: "96% Nauwkeurigheid",
-        languageCard4Flag: "🇫🇷",
-        languageCard4Name: "Frans",
-        languageCard4Accuracy: "96% Nauwkeurigheid",
-        languageCard5Flag: "🇩🇪",
-        languageCard5Name: "Duits",
-        languageCard5Accuracy: "96% Nauwkeurigheid",
-        languageCard6Flag: "🇯🇵",
-        languageCard6Name: "Japans",
-        languageCard6Accuracy: "96% Nauwkeurigheid",
-        languageCard7Flag: "🇰🇷",
-        languageCard7Name: "Koreaans",
-        languageCard7Accuracy: "96% Nauwkeurigheid",
-        languageCard8Flag: "🇵🇹",
-        languageCard8Name: "Portugees",
-        languageCard8Accuracy: "96% Nauwkeurigheid",
-        languageCard9Flag: "🇷🇺",
-        comparisonDes1: "Zie hoe",
-        comparisonDes2: "zich verhouden tot de concurrentie"
+      heroSubtitle: "Toonaangevende nauwkeurigheid in 12 hoofdtalen. Woordniveau timestamps voor perfecte synchronisatie. Slimme sprekerherkenning die snelle gesprekken aankan. Professionele opmaak die echt leesbaar is.",
+      primaryCta: "Test Onze Nauwkeurigheid →",
+      secondaryCta: "Bekijk Talen",
+      statCard1Percentage: "96%",
+      statCard1DescriptionLine1: "Nauwkeurigheid in",
+      statCard1DescriptionLine2: "12 Hoofdtalen",
+      statCard2Percentage: "95%+",
+      statCard2DescriptionLine1: "Nauwkeurigheid met",
+      statCard2DescriptionLine2: "Accenten & Dialecten",
+      statCard3Percentage: "100ms",
+      statCard3DescriptionLine1: "Woordniveau",
+      statCard3DescriptionLine2: "Timestamp Precisie",
+      languageSectionTitlePart1: "96% Nauwkeurigheid",
+      languageSubtitle: "Professionele transcriptie voor wereldwijde content",
+      languageCard1Flag: "🇺🇸",
+      languageCard1Name: "Engels",
+      languageCard1Accuracy: "96% Nauwkeurigheid",
+      languageCard2Flag: "🇪🇸",
+      languageCard2Name: "Spaans",
+      languageCard2Accuracy: "96% Nauwkeurigheid",
+      languageCard3Flag: "🇨🇳",
+      languageCard3Name: "Mandarijn",
+      languageCard3Accuracy: "96% Nauwkeurigheid",
+      languageCard4Flag: "🇫🇷",
+      languageCard4Name: "Frans",
+      languageCard4Accuracy: "96% Nauwkeurigheid",
+      languageCard5Flag: "🇩🇪",
+      languageCard5Name: "Duits",
+      languageCard5Accuracy: "96% Nauwkeurigheid",
+      languageCard6Flag: "🇯🇵",
+      languageCard6Name: "Japans",
+      languageCard6Accuracy: "96% Nauwkeurigheid",
+      languageCard7Flag: "🇰🇷",
+      languageCard7Name: "Koreaans",
+      languageCard7Accuracy: "96% Nauwkeurigheid",
+      languageCard8Flag: "🇵🇹",
+      languageCard8Name: "Portugees",
+      languageCard8Accuracy: "96% Nauwkeurigheid",
+      languageCard9Flag: "🇷🇺",
+      comparisonDes1: "Zie hoe",
+      comparisonDes2: "zich verhouden tot de concurrentie"
     }
   },
   Pricing: {
@@ -1612,93 +1612,94 @@ let message = {
       "highlighted_text": "Geen Verborgen Limieten.",
       "description": "Kies het abonnement dat bij u past. Upgrade of downgrade wanneer u wilt. Geen contracten, geen verrassingen.",
       "plans": [
-            {
-              "name": "Gratis",
-              "price": "$0",
-              "period": "maand",
-              "discount": "Perfect om onze service uit te proberen",
-              "limits": {
-                "title": "Dagelijkse limieten",
-                "items": [
-                  "3 bestanden/dag (≈90 min totaal/dag)",
-                  "Maximaal 30 min per bestand (≤250 MB)",
-                  "Upload 1 bestand per keer",
-                  "Standaard prioriteitswachtrij"
-                ]
-              },
-              "features": {
-                "title": "Functies",
-                "items": [
-                  "100+ talen",
-                  "Sprekerlabels",
-                  "Vertaling",
-                  "Alle exportformaten"
-                ]
-              },
-              "cta": {
-                "text": "Start gratis. Geen creditcard nodig.",
-                "button": "Huidig abonnement"
-              }
-            },
-            {
-              "name": "Pro Maandelijks",
-              "price": "$17.99",
-              "period": "maand",
-              "discount": "$9,99 voor de eerste maand",
-              "limits": {
-                "title": "Geen maandelijkse limiet",
-                "items": [
-                  "Onbeperkte totale minuten",
-                  "Tot 10 uur / 5 GB per bestand",
-                  "Upload 50 bestanden tegelijk",
-                  "Prioriteitswachtrij"
-                ]
-              },
-              "features": {
-                "title": "Alles in Gratis, plus",
-                "items": [
-                  "Tijdstempels op woordniveau",
-                  "Geavanceerde sprekerherkenning",
-                  "Opgemaakte alinea's & interpunctie",
-                  "Prioritaire ondersteuning"
-                ]
-              },
-              "cta": {
-                "text": "Onbeperkte minuten. Prioritaire snelheid. Batch-uploads.",
-                "button": "Ga Pro"
-              },
-              "badge": "Meest populair"
-            },
-            {
-              "name": "Pro Jaarlijks",
-              "price": "$8,99",
-              "period": "maand",
-              "discount": "Jaarlijks gefactureerd $107,88",
-              "limits": {
-                "title": "Hetzelfde als Pro Maandelijks",
-                "items": [
-                  "Onbeperkte totale minuten",
-                  "Tot 10 uur / 5 GB per bestand",
-                  "Upload 50 bestanden tegelijk",
-                  "Prioriteitswachtrij"
-                ]
-              },
-              "features": {
-                "title": "Alles in Gratis, plus",
-                "items": [
-                  "Tijdstempels op woordniveau",
-                  "Geavanceerde sprekerherkenning",
-                  "Opgemaakte alinea's & interpunctie",
-                  "Prioritaire ondersteuning"
-                ]
-              },
-              "cta": {
-                "text": "Onbeperkte minuten. Prioritaire snelheid. Batch-uploads.",
-                "button": "Ga Pro"
-              },
-              "badge": "Beste Waarde - "
-            }
-          ],
+        {
+          "name": "Gratis",
+          "price": "$0",
+          "period": "maand",
+          "discount": "Perfect om onze service uit te proberen",
+          "limits": {
+            "title": "Dagelijkse limieten",
+            "items": [
+              "3 bestanden per dag",
+              "Tot 10 uur / 5 GB per bestand",
+              "Gratis 30 minuten preview van alle transcripties",
+              "Upload 1 bestand per keer",
+              'Standaard prioriteitswachtrij'
+            ]
+          },
+          "features": {
+            "title": "Functies",
+            "items": [
+              "100+ talen",
+              "Sprekerlabels",
+              "Vertaling",
+              "Alle exportformaten"
+            ]
+          },
+          "cta": {
+            "text": "Start gratis. Geen creditcard nodig.",
+            "button": "Huidig abonnement"
+          }
+        },
+        {
+          "name": "Pro Maandelijks",
+          "price": "$17.99",
+          "period": "maand",
+          "discount": "$9,99 voor de eerste maand",
+          "limits": {
+            "title": "Geen maandelijkse limiet",
+            "items": [
+              "Onbeperkte totale minuten",
+              "Tot 10 uur / 5 GB per bestand",
+              "Upload 50 bestanden tegelijk",
+              "Prioriteitswachtrij"
+            ]
+          },
+          "features": {
+            "title": "Alles in Gratis, plus",
+            "items": [
+              "Tijdstempels op woordniveau",
+              "Geavanceerde sprekerherkenning",
+              "Opgemaakte alinea's & interpunctie",
+              "Prioritaire ondersteuning"
+            ]
+          },
+          "cta": {
+            "text": "Onbeperkte minuten. Prioritaire snelheid. Batch-uploads.",
+            "button": "Ga Pro"
+          },
+          "badge": "Meest populair"
+        },
+        {
+          "name": "Pro Jaarlijks",
+          "price": "$8,99",
+          "period": "maand",
+          "discount": "Jaarlijks gefactureerd $107,88",
+          "limits": {
+            "title": "Hetzelfde als Pro Maandelijks",
+            "items": [
+              "Onbeperkte totale minuten",
+              "Tot 10 uur / 5 GB per bestand",
+              "Upload 50 bestanden tegelijk",
+              "Prioriteitswachtrij"
+            ]
+          },
+          "features": {
+            "title": "Alles in Gratis, plus",
+            "items": [
+              "Tijdstempels op woordniveau",
+              "Geavanceerde sprekerherkenning",
+              "Opgemaakte alinea's & interpunctie",
+              "Prioritaire ondersteuning"
+            ]
+          },
+          "cta": {
+            "text": "Onbeperkte minuten. Prioritaire snelheid. Batch-uploads.",
+            "button": "Ga Pro"
+          },
+          "badge": "Beste Waarde - "
+        }
+      ],
       "disclaimer": '"Onbeperkt" betekent geen maandelijkse limiet en geen kunstmatige vertraging. Redelijk gebruik is van toepassing op misbruik van automatisering of herdistributie.'
     },
     ComparisonTable: {
@@ -1708,115 +1709,119 @@ let message = {
         "subtitle": "Zie precies wat je krijgt met elk abonnement. Geen verborgen beperkingen."
       },
       "plans": [
-              "Functies",
-              "Free",
-              "Pro Monthly",
-              "Pro Annual"
-            ],
+        "Functies",
+        "Free",
+        "Pro Monthly",
+        "Pro Annual"
+      ],
       "features": [
+        {
+          "name": "Prijs",
+          "values": [
+            "$0/maand",
             {
-              "name": "Prijs",
-              "values": [
-                "$0/maand",
-                {
-                  "main": "$17,99/maand",
-                  "note": "$9,99 eerste maand"
-                },
-                {
-                  "main": "$8,99/maand",
-                  "note": "Gefactureerd $107,88/jaar"
-                }
-              ]
+              "main": "$17,99/maand",
+              "note": "$9,99 eerste maand"
             },
             {
-              "name": "Maandelijkse minuten",
-              "values": ["~2.700 (90/dag)", "Onbeperkt", "Onbeperkt"]
-            },
-            {
-              "name": "Maximale bestandsduur",
-              "values": ["30 minuten", "10 uur", "10 uur"]
-            },
-            {
-              "name": "Maximale bestandsgrootte",
-              "values": ["250 MB", "5 GB", "5 GB"]
-            },
-            {
-              "name": "Batch-uploads",
-              "values": ["1 bestand", "50 bestanden", "50 bestanden"]
-            },
-            {
-              "name": "Verwerkingssnelheid",
-              "values": ["Standaard", "Prioriteit", "Prioriteit"]
-            },
-            {
-              "name": "Ondersteunde talen",
-              "values": ["100+ talen", "100+ talen", "100+ talen"]
-            },
-            {
-              "name": "Vertaling",
-              "values": ["true", "true", "true"]
-            },
-            {
-              "name": "Sprekeridentificatie",
-              "values": ["Basis", "Geavanceerd (20 sprekers)", "Geavanceerd (20 sprekers)"]
-            },
-            {
-              "name": "Tijdstempels op woordniveau",
-              "values": ["false", "true", "true"]
-            },
-            {
-              "name": "Opgemaakte alinea's",
-              "values": ["false", "true", "true"]
-            },
-            {
-              "name": "Exportformaten",
-              "values": ["Alle formaten", "Alle formaten", "Alle formaten"]
-            },
-            {
-              "name": "Ondersteuning",
-              "values": ["E-mail", "Prioritaire e-mail", "Prioritaire e-mail"]
-            },
-            {
-              "name": "Gegevensretentie",
-              "values": ["30 dagen", "Voor altijd", "Voor altijd"]
+              "main": "$8,99/maand",
+              "note": "Gefactureerd $107,88/jaar"
             }
           ]
+        },
+        {
+          "name": "Dagelijkse bestandslimiet",
+          "values": ["3 bestanden/dag", "Onbeperkt", "Onbeperkt"]
+        },
+        {
+          "name": "Maximale bestandsduur",
+          "values": ["10 uur", "10 uur", "10 uur"]
+        },
+        {
+          "name": "Maximale bestandsgrootte",
+          "values": ["5 GB", "5 GB", "5 GB"]
+        },
+        {
+          "name": "Toegang tot transcriptie",
+          "values": ["Eerste 30 min preview", "Volledig transcript", "Volledig transcript"]
+        },
+        {
+          "name": "Batch-uploads",
+          "values": ["1 bestand", "50 bestanden", "50 bestanden"]
+        },
+        {
+          "name": "Verwerkingssnelheid",
+          "values": ["Standaard", "Prioriteit", "Prioriteit"]
+        },
+        {
+          "name": "Ondersteunde talen",
+          "values": ["100+ talen", "100+ talen", "100+ talen"]
+        },
+        {
+          "name": "Vertaling",
+          "values": ["true", "true", "true"]
+        },
+        {
+          "name": "Sprekeridentificatie",
+          "values": ["Basis", "Geavanceerd (20 sprekers)", "Geavanceerd (20 sprekers)"]
+        },
+        {
+          "name": "Tijdstempels op woordniveau",
+          "values": ["false", "true", "true"]
+        },
+        {
+          "name": "Opgemaakte alinea's",
+          "values": ["false", "true", "true"]
+        },
+        {
+          "name": "Exportformaten",
+          "values": ["Alle formaten", "Alle formaten", "Alle formaten"]
+        },
+        {
+          "name": "Ondersteuning",
+          "values": ["E-mail", "Prioritaire e-mail", "Prioritaire e-mail"]
+        },
+        {
+          "name": "Gegevensretentie",
+          "values": ["30 dagen", "Voor altijd", "Voor altijd"]
+        }
+      ]
     },
     FAQ: {
       "title": "Veelgestelde",
       "titleHighligt": "Vragen",
       "items": [
-            {
-              "q": "unlimited_policy",
-              "question": "Is het echt onbeperkt?",
-              "answer": "Ja! Pro-abonnementen hebben geen maandelijkse limiet. De enige beperkingen zijn technisch: maximaal 10 uur bestandsduur en 5GB bestandsgrootte. Je kunt zoveel bestanden verwerken als je nodig hebt."
-            },
-            {
-              "q": "plan_change",
-              "question": "Kan ik op elk moment van abonnement wisselen?",
-              "answer": "Absoluut! Je kunt je abonnement op elk moment opzeggen via je dashboard. Upgrade of downgrade wanneer je maar wilt."
-            },
-            {
-              "q": "payment_methods",
-              "question": "Welke betaalmethoden accepteren jullie?",
-              "answer": "We accepteren alle grote creditcards, debetkaarten en PayPal voor veilige, probleemloze betalingen."
-            },
-            {
-              "q": "free_trial",
-              "question": "Is er een gratis proefperiode voor Pro?",
-              "answer": "Ja! Probeer Pro 7 dagen gratis, geen creditcard nodig. Plus, krijg je eerste maand met 45% korting bij inschrijving."
-            },
-            {
-              "q": "file_retention",
-              "question": "Hoe lang bewaren jullie mijn bestanden?",
-              "answer": "Gratis abonnement: 30 dagen. Pro-abonnementen: Voor altijd! Je transcripties zijn altijd beschikbaar in je account."
-            },
-            {
-              "q": "data_security",
-              "question": "Hoe zit het met gegevensbeveiliging?",
-              "answer": "Wij zijn SOC 2-gecertificeerd en gebruiken 256-bit encryptie. Wij gebruiken uw inhoud nooit om onze modellen te trainen. Uw gegevens blijven van u."
-            }
-          ]
+        {
+          "q": "unlimited_policy",
+          "question": "Is het echt onbeperkt?",
+          "answer": "Ja! Pro-abonnementen hebben geen maandelijkse limiet. De enige beperkingen zijn technisch: maximaal 10 uur bestandsduur en 5GB bestandsgrootte. Je kunt zoveel bestanden verwerken als je nodig hebt."
+        },
+        {
+          "q": "plan_change",
+          "question": "Kan ik op elk moment van abonnement wisselen?",
+          "answer": "Absoluut! Je kunt je abonnement op elk moment opzeggen via je dashboard. Upgrade of downgrade wanneer je maar wilt."
+        },
+        {
+          "q": "payment_methods",
+          "question": "Welke betaalmethoden accepteren jullie?",
+          "answer": "We accepteren alle grote creditcards, debetkaarten en PayPal voor veilige, probleemloze betalingen."
+        },
+        {
+          "q": "free_trial",
+          "question": "Is er een gratis proefperiode voor Pro?",
+          "answer": "Ja! Probeer Pro 7 dagen gratis, geen creditcard nodig. Plus, krijg je eerste maand met 45% korting bij inschrijving."
+        },
+        {
+          "q": "file_retention",
+          "question": "Hoe lang bewaren jullie mijn bestanden?",
+          "answer": "Gratis abonnement: 30 dagen. Pro-abonnementen: Voor altijd! Je transcripties zijn altijd beschikbaar in je account."
+        },
+        {
+          "q": "data_security",
+          "question": "Hoe zit het met gegevensbeveiliging?",
+          "answer": "Wij zijn SOC 2-gecertificeerd en gebruiken 256-bit encryptie. Wij gebruiken uw inhoud nooit om onze modellen te trainen. Uw gegevens blijven van u."
+        }
+      ]
     },
     CTA: {
       "title": "Klaar voor Onbeperkt?",
@@ -1957,7 +1962,7 @@ let message = {
       },
       educators: {
         title: "Onderwijzers",
-        pain: `"YouTube-video's hebben directe transcriptie nodig"`,
+        pain: '"YouTube-video\\\'s hebben directe transcriptie nodig"',
         description: "Plak gewoon YouTube-links om directe transcripties en automatisch gegenereerde ondertiteling te krijgen. Maak elk educatief video toegankelijk en doorzoekbaar.",
         benefits: {
           benefit1: "Directe YouTube-link transcriptie",
@@ -1993,9 +1998,9 @@ let message = {
             role: "Podcast-host"
           },
           jessica: {
-            textBefore: `"Als freelance journalist kan ik Trint's`,
+            textBefore: '"Als freelance journalist kan ik Trint\\\'s',
             highlight: "$100/maand",
-            textAfter: `niet betalen, maar ik kan ook niet werken met Otter's limiet van 10 bestanden per maand. NeverCap redde mijn carrière."`,
+            textAfter: 'niet betalen, maar ik kan ook niet werken met Otter\\\'s limiet van 10 bestanden per maand. NeverCap redde mijn carrière."',
             name: "Jessica Park",
             role: "Freelance Journalist"
           },
@@ -2033,7 +2038,7 @@ let message = {
         subtitle: "Sluit je aan bij 50.000+ professionals die stoppen met minuten tellen en beginnen met creëren",
         button: "Start Je Onbeperkte Reis →"
       },
-        heroSubtitleA: "Van podcasters met een jarenlange achterstand tot onderzoekers met honderden interviews. Ontdek hoe professionals {NeverCap} gebruiken om uploadlimieten en minuutlimieten te omzeilen."
+      heroSubtitleA: "Van podcasters met een jarenlange achterstand tot onderzoekers met honderden interviews. Ontdek hoe professionals {NeverCap} gebruiken om uploadlimieten en minuutlimieten te omzeilen."
     },
     Podcasters: {
       badge: "Gebouwd voor Podcasters",
@@ -2203,7 +2208,7 @@ let message = {
       ctaSubtitle: "Sluit je aan bij 10.000+ podcastmakers die nooit over limieten hoeven na te denken",
       ctaButton: "Upload Je Eerste 50 Afleveringen Gratis →",
       ctaDisclaimer: "Geen creditcard nodig • Verwerk onbeperkte afleveringen • Altijd opzegbaar",
-        solutionDescriptionA: "Met {NeverCap} krijg je echt onbeperkte transcriptie. Upload je volledige archief. Transcribeer elke nieuwe aflevering. Genereer shownotities op schaal. Geen caps, geen limieten, alleen groei."
+      solutionDescriptionA: "Met {NeverCap} krijg je echt onbeperkte transcriptie. Upload je volledige archief. Transcribeer elke nieuwe aflevering. Genereer shownotities op schaal. Geen caps, geen limieten, alleen groei."
     },
     Journalists: {
       hero: {
@@ -2275,7 +2280,7 @@ let message = {
         solution: {
           title: "The",
           titleHighlight: "NeverCap Oplossing",
-            descriptionA: "Met {NeverCap} krijg je echt onbeperkte transcriptie. Upload je volledige onderzoek. Transcribeer elk interview. Zoek direct naar alle citaten. Geen hoofdletters, geen limieten, gewoon journalistiek."
+          descriptionA: "Met {NeverCap} krijg je echt onbeperkte transcriptie. Upload je volledige onderzoek. Transcribeer elk interview. Zoek direct naar alle citaten. Geen hoofdletters, geen limieten, gewoon journalistiek."
         }
       },
       solution: {
@@ -2335,20 +2340,20 @@ let message = {
               }
             }
           },
-            ironclad: {
-                  label: "Bronbescherming",
-                  title: "Onwrikbare Bronbescherming",
-                  description: "Wij bieden robuuste beveiligingsfuncties om uw gevoelige interviewgegevens en vertrouwelijke bronnen te beschermen. Bankniveau-encryptie houdt uw onderzoeken veilig.",
-                  points: {
-                    accuracyGuarantee: "End-to-end encryptie",
-                    handlesAccents: "Opties voor automatisch bestandsverwijderen",
-                    smartPunctuation: "GDPR & privacy compliant"
-                  },
-                  visual: {
-                    accuracy: "🔒",
-                    label: "Maximale Beveiliging"
-                  }
-                }
+          ironclad: {
+            label: "Bronbescherming",
+            title: "Onwrikbare Bronbescherming",
+            description: "Wij bieden robuuste beveiligingsfuncties om uw gevoelige interviewgegevens en vertrouwelijke bronnen te beschermen. Bankniveau-encryptie houdt uw onderzoeken veilig.",
+            points: {
+              accuracyGuarantee: "End-to-end encryptie",
+              handlesAccents: "Opties voor automatisch bestandsverwijderen",
+              smartPunctuation: "GDPR & privacy compliant"
+            },
+            visual: {
+              accuracy: "🔒",
+              label: "Maximale Beveiliging"
+            }
+          }
         }
       },
       features: {
@@ -2431,8 +2436,8 @@ let message = {
             label: "Platforms"
           }
         },
-          subtitleA: "Of je nu een YouTube-video moet transcriberen, een TikTok-video moet transcriberen voor hergebruik, of moet uitvogelen hoe je een Facebook-video naar tekst kunt transcriberen, {NeverCap} regelt het allemaal naadloos. Genereer ondertitels in meer dan 100 talen zonder maandelijkse limieten – gewoon pure creatieve vrijheid."
-    },
+        subtitleA: "Of je nu een YouTube-video moet transcriberen, een TikTok-video moet transcriberen voor hergebruik, of moet uitvogelen hoe je een Facebook-video naar tekst kunt transcriberen, {NeverCap} regelt het allemaal naadloos. Genereer ondertitels in meer dan 100 talen zonder maandelijkse limieten – gewoon pure creatieve vrijheid."
+      },
       platforms: {
         title: "Haal op & transcriberen vanaf elk platform",
         platformNames: {
@@ -2445,9 +2450,9 @@ let message = {
           tiktok: "TikTok",
           instagram: "Instagram"
         },
-          titleMax: "Transcribeer video's van",
-          titleMaxHighlight: "Elk platform"
-    },
+        titleMax: "Transcribeer video's van",
+        titleMaxHighlight: "Elk platform"
+      },
       features: {
         title: "Alles wat je nodig hebt om",
         titleHighlight: "Content te schalen",
@@ -2569,29 +2574,29 @@ let message = {
         subtitle: "Sluit je aan bij 50.000+ creators die stoppen met minuten tellen en beginnen met creëren",
         button: "Start Onbeperkt Ondertitelen →"
       },
-        FAQSection: {
-              "title": "Je Transcriptievragen,",
-              "titleHighlight": "Beantwoord",
-              subtitle: "Alles wat je moet weten over het transcriberen van video's van verschillende platforms",
-              "questions": [
-                    {
-                      "question": "V: Hoe transcribeer ik een YouTube-video met NeverCap?",
-                      "answer": "Het is simpel. Zoek de YouTube-video die je wilt transcriberen, kopieer de URL en plak deze in onze app. Onze AI haalt de video automatisch op en geeft binnen enkele minuten een volledige teksttranscriptie."
-                    },
-                    {
-                      "question": "V: Wat is de beste manier om een Facebook-video naar tekst te transcriberen?",
-                      "answer": "De makkelijkste manier is een directe link. Kopieer de URL van de Facebook-video en ons platform doet de rest, met een nauwkeurigheid van 96%, zodat je niet handmatig hoeft te transcriberen."
-                    },
-                    {
-                      "question": "V: Kan ik TikTok- en Instagram-video's transcriberen?",
-                      "answer": "Absoluut. We ondersteunen transcriptie voor zowel TikTok- als Instagram-video's. Perfect voor creators die hun korte video's willen hergebruiken in blogs, artikelen of tekstupdates op sociale media."
-                    },
-                    {
-                      "question": "V: Hoe transcribeer ik een Vimeo-video naar tekst?",
-                      "answer": "Vimeo-video's transcriberen is net zo makkelijk als op andere platforms. Kopieer de Vimeo-URL en plak deze in NeverCap. Onze AI verwerkt de video en genereert een nauwkeurige teksttranscriptie die je in meerdere formaten kunt downloaden."
-                    }
-                  ]
-            }
+      FAQSection: {
+        "title": "Je Transcriptievragen,",
+        "titleHighlight": "Beantwoord",
+        subtitle: "Alles wat je moet weten over het transcriberen van video's van verschillende platforms",
+        "questions": [
+          {
+            "question": "V: Hoe transcribeer ik een YouTube-video met NeverCap?",
+            "answer": "Het is simpel. Zoek de YouTube-video die je wilt transcriberen, kopieer de URL en plak deze in onze app. Onze AI haalt de video automatisch op en geeft binnen enkele minuten een volledige teksttranscriptie."
+          },
+          {
+            "question": "V: Wat is de beste manier om een Facebook-video naar tekst te transcriberen?",
+            "answer": "De makkelijkste manier is een directe link. Kopieer de URL van de Facebook-video en ons platform doet de rest, met een nauwkeurigheid van 96%, zodat je niet handmatig hoeft te transcriberen."
+          },
+          {
+            "question": "V: Kan ik TikTok- en Instagram-video's transcriberen?",
+            "answer": "Absoluut. We ondersteunen transcriptie voor zowel TikTok- als Instagram-video's. Perfect voor creators die hun korte video's willen hergebruiken in blogs, artikelen of tekstupdates op sociale media."
+          },
+          {
+            "question": "V: Hoe transcribeer ik een Vimeo-video naar tekst?",
+            "answer": "Vimeo-video's transcriberen is net zo makkelijk als op andere platforms. Kopieer de Vimeo-URL en plak deze in NeverCap. Onze AI verwerkt de video en genereert een nauwkeurige teksttranscriptie die je in meerdere formaten kunt downloaden."
+          }
+        ]
+      }
     },
     Researchers: {
       heroBadge: "Gebouwd voor Academische Excellentie",
@@ -2675,23 +2680,23 @@ let message = {
       ctaTitle: "Stop met Kiezen Welke Data te Analyseren",
       ctaSubtitle: "Sluit u aan bij 50.000+ onderzoekers die alles transcriberen",
       ctaButton: "Probeer NeverCap Gratis",
-        problemTitle2: "Onderzoekstranscriptieprobleem",
-        title: "The",
-        useCasesTitle2: "Elke Onderzoeksmethode",
-        testimonialTitle2: "Toonaangevende Onderzoekers",
-        feature1TitleHl: "Volledige onderzoeksproject",
-        feature1TitlePost: "Alles in één",
-        feature2TitleHl: "Focusgroepinterviews",
-        feature2TitlePost: "Altijd succesvol",
-        feature3TitleHl: "96% nauwkeurigheid",
-        feature4TitleHl: "Beveiliging",
-        testimonialText2Hl: "200 uur",
-        testimonialText3: "aan focusgroepopnames van ons gemeenschapsgezondheidsonderzoek. Andere diensten wilden dat we sessies selecteerden vanwege de kosten. NeverCap liet ons",
-        testimonialText4Hl: "alles verwerken in een weekend",
-        testimonialText5: ". De 20-sprekerherkenning werkte echt—zelfs tijdens onze rommeligste discussies waar iedereen door elkaar praatte. Deze tool heeft",
-        testimonialText6Hl: "volledig veranderd",
-        testimonialText7: "hoe we kwalitatieve gegevens verwerken.",
-        solutionDescA: "Met {NeverCap} krijg je echt onbeperkte transcriptie. Upload je volledige onderzoek. Transcribeer elk interview. Analyseer al je data. Geen caps, geen limieten, gewoon onderzoek."
+      problemTitle2: "Onderzoekstranscriptieprobleem",
+      title: "The",
+      useCasesTitle2: "Elke Onderzoeksmethode",
+      testimonialTitle2: "Toonaangevende Onderzoekers",
+      feature1TitleHl: "Volledige onderzoeksproject",
+      feature1TitlePost: "Alles in één",
+      feature2TitleHl: "Focusgroepinterviews",
+      feature2TitlePost: "Altijd succesvol",
+      feature3TitleHl: "96% nauwkeurigheid",
+      feature4TitleHl: "Beveiliging",
+      testimonialText2Hl: "200 uur",
+      testimonialText3: "aan focusgroepopnames van ons gemeenschapsgezondheidsonderzoek. Andere diensten wilden dat we sessies selecteerden vanwege de kosten. NeverCap liet ons",
+      testimonialText4Hl: "alles verwerken in een weekend",
+      testimonialText5: ". De 20-sprekerherkenning werkte echt—zelfs tijdens onze rommeligste discussies waar iedereen door elkaar praatte. Deze tool heeft",
+      testimonialText6Hl: "volledig veranderd",
+      testimonialText7: "hoe we kwalitatieve gegevens verwerken.",
+      solutionDescA: "Met {NeverCap} krijg je echt onbeperkte transcriptie. Upload je volledige onderzoek. Transcribeer elk interview. Analyseer al je data. Geen caps, geen limieten, gewoon onderzoek."
     },
     BusinessTeams: {
       heroBadge: "Voor Bedrijfsteams",
@@ -2764,9 +2769,9 @@ let message = {
       ctaTitle: "Stop met het verliezen van belangrijke gesprekken",
       ctaSubtitle: "Sluit je aan bij duizenden teams die elke vergadering vastleggen met onbeperkte transcriptie",
       ctaButton: "Begin gratis met opnemen →",
-        featuresTitle2: "Vergadering",
-        workflowTitle2: "Zoom-opname naar tekst",
-        heroSubtitleA: "Neem vergaderingen rechtstreeks op in uw browser of upload direct audiobestanden. Creëer doorzoekbare archieven van onbeperkte gesprekken. Raak nooit meer belangrijke discussies kwijt met echt onbeperkte transcriptie van {NeverCap}."
+      featuresTitle2: "Vergadering",
+      workflowTitle2: "Zoom-opname naar tekst",
+      heroSubtitleA: "Neem vergaderingen rechtstreeks op in uw browser of upload direct audiobestanden. Creëer doorzoekbare archieven van onbeperkte gesprekken. Raak nooit meer belangrijke discussies kwijt met echt onbeperkte transcriptie van {NeverCap}."
     },
     Educators: {
       heroBadge: "Voor docenten & leraren",
@@ -2848,11 +2853,11 @@ let message = {
       ctaTitle: "Maak Al Je Onderwijsmateriaal Toegankelijk",
       ctaSubtitle: "Sluit je aan bij duizenden docenten die echt onbeperkte transcriptie gebruiken",
       ctaButton: "Probeer NeverCap Gratis",
-        featuresTitle2: "Videotranscriptie",
-        grid: "Audiobestand naar Studiegids",
-        useCasesTitle2: "Onderwijsbehoefte",
-        testimonialTitle2: "50.000+ Docenten",
-        testimonialTextA: "Ik gebruik {NeverCap} om mijn hele YouTube-kanaal met wiskundetutorials te transcriberen. Wat vroeger weken duurde bij andere diensten, duurt nu uren. De mogelijkheid om links direct te plakken en direct transcripties te krijgen, heeft de manier waarop ik toegankelijke content maak, radicaal veranderd. Vooral mijn internationale studenten zijn dol op de meertalige ondertiteling!"
+      featuresTitle2: "Videotranscriptie",
+      grid: "Audiobestand naar Studiegids",
+      useCasesTitle2: "Onderwijsbehoefte",
+      testimonialTitle2: "50.000+ Docenten",
+      testimonialTextA: "Ik gebruik {NeverCap} om mijn hele YouTube-kanaal met wiskundetutorials te transcriberen. Wat vroeger weken duurde bij andere diensten, duurt nu uren. De mogelijkheid om links direct te plakken en direct transcripties te krijgen, heeft de manier waarop ik toegankelijke content maak, radicaal veranderd. Vooral mijn internationale studenten zijn dol op de meertalige ondertiteling!"
     }
   },
   Resources: {
@@ -2869,132 +2874,132 @@ let message = {
       part2: {
         "title": "Zo zet je een YouTube-video in 3 eenvoudige stappen om in een downloadbaar MP4-bestand",
         "steps": [
-                {
-                  title: "Kopieer de URL",
-                  content: "Open je gewenste YouTube-video en kopieer de link uit de adresbalk van je browser."
-                },
-                {
-                  title: "Plak de link",
-                  content: "Ga naar je video-downloadtool en plak de URL in het invoerveld."
-                },
-                {
-                  title: "Download de MP4",
-                  content: "Na verwerking, klik op de downloadknop om je MP4-bestand op te slaan."
-                }
-              ]
+          {
+            title: "Kopieer de URL",
+            content: "Open je gewenste YouTube-video en kopieer de link uit de adresbalk van je browser."
+          },
+          {
+            title: "Plak de link",
+            content: "Ga naar je video-downloadtool en plak de URL in het invoerveld."
+          },
+          {
+            title: "Download de MP4",
+            content: "Na verwerking, klik op de downloadknop om je MP4-bestand op te slaan."
+          }
+        ]
       },
       part3: {
         content: [
-                "Wil je YouTube-video's offline bekijken?",
-                "Of je nu pendelt in de metro, vliegt in een vliegtuig, een belangrijke tutorial bestudeert, verdiept in vaardigheden of belangrijke videomaterialen archiveert – betrouwbare offline toegang is een veelvoorkomende wens. Hier blinkt onze downloader uit.",
-                "Met onze downloader kun je snel en eenvoudig YouTube-video's naar MP4-formaat omzetten. Sla ze op je apparaat op en bekijk ze wanneer je maar wilt.",
-                "Het proces is snel, eenvoudig en moeiteloos. Geniet na het downloaden van je favoriete video's, waar en wanneer je maar wilt – zonder internet."
-              ]
+          "Wil je YouTube-video's offline bekijken?",
+          "Of je nu pendelt in de metro, vliegt in een vliegtuig, een belangrijke tutorial bestudeert, verdiept in vaardigheden of belangrijke videomaterialen archiveert – betrouwbare offline toegang is een veelvoorkomende wens. Hier blinkt onze downloader uit.",
+          "Met onze downloader kun je snel en eenvoudig YouTube-video's naar MP4-formaat omzetten. Sla ze op je apparaat op en bekijk ze wanneer je maar wilt.",
+          "Het proces is snel, eenvoudig en moeiteloos. Geniet na het downloaden van je favoriete video's, waar en wanneer je maar wilt – zonder internet."
+        ]
       },
       part4: {
         content: ["Dit zijn de 5 belangrijkste voordelen van het downloaden", "van YouTube-video's als MP4-bestanden"],
         list: [
-                {
-                  title: "Bespaar op datakosten:",
-                  content: "Normaal gesproken verbruikt het bekijken van video's op YouTube veel mobiele data. Door offline te downloaden, voorkom je deze onnodige kosten."
-                },
-                {
-                  title: "Overal en altijd kijken:",
-                  content: "Geniet naadloos van je video's, zelfs met een slechte internetverbinding. Geen buffering meer."
-                },
-                {
-                  title: "Eenvoudig archiveren & bewaren:",
-                  content: "Video's als MP4's opslaan maakt het opbouwen van een persoonlijke collectie eenvoudig, vooral voor content die je waardevol of belangrijk vindt."
-                },
-                {
-                  title: "Eenvoudiger delen:",
-                  content: "Een MP4-bestand delen is veel handiger dan een link sturen. Je kunt het videobestand direct via apps zoals WhatsApp of Instagram verzenden, zonder YouTube te openen."
-                },
-                {
-                  title: "Direct bekijken, gedeelde momenten:",
-                  content: "Wil je een favoriete video enthousiast aan vrienden of familie laten zien? Met de gedownloade MP4 kun je hem meteen soepel samen bekijken, zonder vervelende laadtijden."
-                }
-              ]
+          {
+            title: "Bespaar op datakosten:",
+            content: "Normaal gesproken verbruikt het bekijken van video's op YouTube veel mobiele data. Door offline te downloaden, voorkom je deze onnodige kosten."
+          },
+          {
+            title: "Overal en altijd kijken:",
+            content: "Geniet naadloos van je video's, zelfs met een slechte internetverbinding. Geen buffering meer."
+          },
+          {
+            title: "Eenvoudig archiveren & bewaren:",
+            content: "Video's als MP4's opslaan maakt het opbouwen van een persoonlijke collectie eenvoudig, vooral voor content die je waardevol of belangrijk vindt."
+          },
+          {
+            title: "Eenvoudiger delen:",
+            content: "Een MP4-bestand delen is veel handiger dan een link sturen. Je kunt het videobestand direct via apps zoals WhatsApp of Instagram verzenden, zonder YouTube te openen."
+          },
+          {
+            title: "Direct bekijken, gedeelde momenten:",
+            content: "Wil je een favoriete video enthousiast aan vrienden of familie laten zien? Met de gedownloade MP4 kun je hem meteen soepel samen bekijken, zonder vervelende laadtijden."
+          }
+        ]
       },
       part5: {
         title: "Waarom onze downloader opvalt",
         cards: [
-                {
-                  title: "Eénkliks eenvoud",
-                  content: "Moeiteloze installatie en intuïtieve bediening."
-                },
-                {
-                  title: "Razendsnel, onbeperkt",
-                  content: "Converteer en download op topsnelheid – geen limieten."
-                },
-                {
-                  title: "Direct converteren",
-                  content: "Verwerk je bestanden direct, zonder wachttijd."
-                },
-                {
-                  title: "Geen advertenties, geen afleiding",
-                  content: "Geniet van een schone interface zonder pop-ups, banners of onderbrekingen – alleen naadloze videoconversie."
-                },
-                {
-                  icon: "5",
-                  color: "#DEE5FF",
-                  title: "Originele kwaliteit gegarandeerd",
-                  content: "Je downloads behouden de volledige resolutie van de bronvideo voor perfecte weergave."
-                },
-                {
-                  icon: "6",
-                  color: "#DEF6EE",
-                  title: "Werkt overal",
-                  content: "Volledig compatibel met elke browser, op elk apparaat."
-                }
-              ]
+          {
+            title: "Eénkliks eenvoud",
+            content: "Moeiteloze installatie en intuïtieve bediening."
+          },
+          {
+            title: "Razendsnel, onbeperkt",
+            content: "Converteer en download op topsnelheid – geen limieten."
+          },
+          {
+            title: "Direct converteren",
+            content: "Verwerk je bestanden direct, zonder wachttijd."
+          },
+          {
+            title: "Geen advertenties, geen afleiding",
+            content: "Geniet van een schone interface zonder pop-ups, banners of onderbrekingen – alleen naadloze videoconversie."
+          },
+          {
+            icon: "5",
+            color: "#DEE5FF",
+            title: "Originele kwaliteit gegarandeerd",
+            content: "Je downloads behouden de volledige resolutie van de bronvideo voor perfecte weergave."
+          },
+          {
+            icon: "6",
+            color: "#DEF6EE",
+            title: "Werkt overal",
+            content: "Volledig compatibel met elke browser, op elk apparaat."
+          }
+        ]
       },
       part6: {
         title: ["Maximaliseer je YouTube-videodownloads", "Met de downloader"],
         content: [
-                "Moeiteloze YouTube naar MP4-conversie: Snel, Eenvoudig & Gratis.",
-                "Daar blinken we in uit. Onze gebruiksvriendelijke interface is voor iedereen – geen technische kennis nodig. Ongeacht je ervaringsniveau, je kunt direct video's converteren. Geen aanmelding nodig: krijg meteen wat je nodig hebt.",
-                "Wees gerust – je gedownloade MP4's behouden de originele videokwaliteit en helderheid, precies zoals je ze op YouTube zag.",
-                "Werkt overal waar jij bent. Volledig compatibel met alle grote platforms en apparaten. Of je nu Windows, macOS, Linux, Android of iOS gebruikt – op smartphone, tablet of desktop – je kunt naadloos video's downloaden."
-              ]
+          "Moeiteloze YouTube naar MP4-conversie: Snel, Eenvoudig & Gratis.",
+          "Daar blinken we in uit. Onze gebruiksvriendelijke interface is voor iedereen – geen technische kennis nodig. Ongeacht je ervaringsniveau, je kunt direct video's converteren. Geen aanmelding nodig: krijg meteen wat je nodig hebt.",
+          "Wees gerust – je gedownloade MP4's behouden de originele videokwaliteit en helderheid, precies zoals je ze op YouTube zag.",
+          "Werkt overal waar jij bent. Volledig compatibel met alle grote platforms en apparaten. Of je nu Windows, macOS, Linux, Android of iOS gebruikt – op smartphone, tablet of desktop – je kunt naadloos video's downloaden."
+        ]
       },
       part7: {
         title: "Belangrijke vragen over YouTube-video's downloaden",
         list: [
-                {
-                  question: "Kan ik een YouTube-video downloaden als deze auteursrechtelijk beschermd is?",
-                  answer: "Het downloaden van auteursrechtelijk beschermde YouTube-video's zonder toestemming van de eigenaar is illegaal."
-                },
-                {
-                  question: "Is deze downloadtool veilig?",
-                  answer: "Ja, hij is veilig en betrouwbaar. We vragen geen persoonlijke gegevens en nemen strenge maatregelen tegen virussen. We raden aan altijd voorzichtig te zijn bij het downloaden van bestanden: vermijd verdachte links of twijfelachtige bestanden."
-                },
-                {
-                  question: "Welke talen ondersteunt YouTube naar MP4 downloaden?",
-                  answer: "Onze service ondersteunt het downloaden van YouTube-video's in alle populaire talen."
-                },
-                {
-                  question: "Welke factoren beïnvloeden de downloadtijd van een YouTube-video?",
-                  answer: "Hoewel we de snelst mogelijke downloadervaring garanderen, wordt de downloadtijd ook beïnvloed door factoren zoals de lengte van de video en je internetsnelheid."
-                },
-                {
-                  question: "Waar wordt een MP4-video opgeslagen als ik hem met mijn smartphone download?",
-                  answer: 'Nadat u een MP4 op uw smartphone heeft gedownload, kunt u deze meestal vinden in de map "Downloads" binnen uw bestandsbeheerapp.'
-                },
-                {
-                  question: "Vermindert het downloaden van een YouTube-video als MP4 de videokwaliteit?",
-                  answer: "Nee. Het downloaden van YouTube-video's als MP4 met onze tool behoudt de originele videokwaliteit. Het conversieproces behoudt de bronkwaliteit, zodat je dezelfde kijkervaring hebt als op YouTube."
-                }
-              ]
+          {
+            question: "Kan ik een YouTube-video downloaden als deze auteursrechtelijk beschermd is?",
+            answer: "Het downloaden van auteursrechtelijk beschermde YouTube-video's zonder toestemming van de eigenaar is illegaal."
+          },
+          {
+            question: "Is deze downloadtool veilig?",
+            answer: "Ja, hij is veilig en betrouwbaar. We vragen geen persoonlijke gegevens en nemen strenge maatregelen tegen virussen. We raden aan altijd voorzichtig te zijn bij het downloaden van bestanden: vermijd verdachte links of twijfelachtige bestanden."
+          },
+          {
+            question: "Welke talen ondersteunt YouTube naar MP4 downloaden?",
+            answer: "Onze service ondersteunt het downloaden van YouTube-video's in alle populaire talen."
+          },
+          {
+            question: "Welke factoren beïnvloeden de downloadtijd van een YouTube-video?",
+            answer: "Hoewel we de snelst mogelijke downloadervaring garanderen, wordt de downloadtijd ook beïnvloed door factoren zoals de lengte van de video en je internetsnelheid."
+          },
+          {
+            question: "Waar wordt een MP4-video opgeslagen als ik hem met mijn smartphone download?",
+            answer: 'Nadat u een MP4 op uw smartphone heeft gedownload, kunt u deze meestal vinden in de map "Downloads" binnen uw bestandsbeheerapp.'
+          },
+          {
+            question: "Vermindert het downloaden van een YouTube-video als MP4 de videokwaliteit?",
+            answer: "Nee. Het downloaden van YouTube-video's als MP4 met onze tool behoudt de originele videokwaliteit. Het conversieproces behoudt de bronkwaliteit, zodat je dezelfde kijkervaring hebt als op YouTube."
+          }
+        ]
       },
-        err1: "YouTube-linkformaat fout.",
-        err2: "Sorry! We werken momenteel alleen met YouTube-links. Als je ondersteuning voor andere sites nodig hebt, houden we je op de hoogte wanneer we dit in de toekomst toevoegen.",
-        videoDownload: {
-              title: "YouTube-video's downloaden als MP4. Gratis, snel en zonder advertenties.",
-              description: "Bedankt voor het kiezen van onze service! We waarderen je vertrouwen en hopen dat het je ervaring heeft verbeterd. Als je onze website met vrienden wilt delen, zou dat een enorme hulp zijn.",
-              downloadButton: "Downloaden",
-              downloadError: "Downloadfout."
-            }
+      err1: "YouTube-linkformaat fout.",
+      err2: "Sorry! We werken momenteel alleen met YouTube-links. Als je ondersteuning voor andere sites nodig hebt, houden we je op de hoogte wanneer we dit in de toekomst toevoegen.",
+      videoDownload: {
+        title: "YouTube-video's downloaden als MP4. Gratis, snel en zonder advertenties.",
+        description: "Bedankt voor het kiezen van onze service! We waarderen je vertrouwen en hopen dat het je ervaring heeft verbeterd. Als je onze website met vrienden wilt delen, zou dat een enorme hulp zijn.",
+        downloadButton: "Downloaden",
+        downloadError: "Downloadfout."
+      }
     }
   },
   About: {
@@ -3008,67 +3013,67 @@ let message = {
       "highlighted_text": "Impact",
       "subtitle": "Wereldwijde communicatie mogelijk maken met geavanceerde AI-technologie",
       "metrics": [
-            {
-              "value": "96%+",
-              "label": "Nauwkeurigheid",
-              "description": "Toonaangevende transcriptienauwkeurigheid met geavanceerde AI"
-            },
-            {
-              "value": "100+",
-              "label": "Ondersteunde Talen",
-              "description": "Spraakherkenning voor wereldwijde inhoud"
-            },
-            {
-              "value": "249+",
-              "label": "Vertaaltalen",
-              "description": "Vertaal getranscribeerde tekst naar vrijwel elke taal"
-            }
-          ]
+        {
+          "value": "96%+",
+          "label": "Nauwkeurigheid",
+          "description": "Toonaangevende transcriptienauwkeurigheid met geavanceerde AI"
+        },
+        {
+          "value": "100+",
+          "label": "Ondersteunde Talen",
+          "description": "Spraakherkenning voor wereldwijde inhoud"
+        },
+        {
+          "value": "249+",
+          "label": "Vertaaltalen",
+          "description": "Vertaal getranscribeerde tekst naar vrijwel elke taal"
+        }
+      ]
     },
     Mission: {
       "title": "Waarom Kiezen voor",
       "subtitle": "Wij geloven in het doorbreken van taalbarrières en het toegankelijk maken van inhoud voor iedereen",
       "features": [
-            {
-              "icon": "🎯",
-              "title": "Onovertroffen Nauwkeurigheid",
-              "description": "Onze AI-modellen worden continu verfijnd om transcriptienauwkeurigheid van meer dan 96% te leveren, met enkele belangrijke talen tot 99% nauwkeurigheid door geavanceerde optimalisatie."
-            },
-            {
-              "icon": "🌍",
-              "title": "Wereldwijde Taalondersteuning",
-              "description": "Ondersteuning voor meer dan 100 talen in spraakherkenning en vertaalcapaciteiten voor meer dan 249 talen, waardoor uw inhoud echt wereldwijd wordt."
-            },
-            {
-              "icon": "⚡",
-              "title": "Bliksemsnelle Verwerking",
-              "description": "Verwerk uren aan audio- en videocontent in minuten, niet in uren. Onze geoptimaliseerde AI-pipeline zorgt voor snelle transcripties zonder kwaliteitsverlies."
-            },
-            {
-              "icon": "🔒",
-              "title": "Enterprise-Grade Beveiliging",
-              "description": "Uw gegevensbeveiliging is onze prioriteit. Wij gebruiken industriestandaard encryptie en voldoen aan wereldwijde privacyregels om uw inhoud veilig en vertrouwelijk te houden."
-            }
-          ]
+        {
+          "icon": "🎯",
+          "title": "Onovertroffen Nauwkeurigheid",
+          "description": "Onze AI-modellen worden continu verfijnd om transcriptienauwkeurigheid van meer dan 96% te leveren, met enkele belangrijke talen tot 99% nauwkeurigheid door geavanceerde optimalisatie."
+        },
+        {
+          "icon": "🌍",
+          "title": "Wereldwijde Taalondersteuning",
+          "description": "Ondersteuning voor meer dan 100 talen in spraakherkenning en vertaalcapaciteiten voor meer dan 249 talen, waardoor uw inhoud echt wereldwijd wordt."
+        },
+        {
+          "icon": "⚡",
+          "title": "Bliksemsnelle Verwerking",
+          "description": "Verwerk uren aan audio- en videocontent in minuten, niet in uren. Onze geoptimaliseerde AI-pipeline zorgt voor snelle transcripties zonder kwaliteitsverlies."
+        },
+        {
+          "icon": "🔒",
+          "title": "Enterprise-Grade Beveiliging",
+          "description": "Uw gegevensbeveiliging is onze prioriteit. Wij gebruiken industriestandaard encryptie en voldoen aan wereldwijde privacyregels om uw inhoud veilig en vertrouwelijk te houden."
+        }
+      ]
     },
     Company: {
       "title": "Bedrijfs-",
       "highlighted_text": "Informatie",
       "subtitle": "Neem contact met ons op voor vragen of ondersteuning",
       "details": [
-            {
-              "label": "Bedrijfsnaam",
-              "value": "SCRIBIFY AI INC"
-            },
-            {
-              "label": "Hoofdkantoor",
-              "value": ["30 N Gould St Ste R", "Sheridan, WY 82801", "Verenigde Staten"]
-            },
-            {
-              "label": "Contacteer Ons",
-              "value": ["E-mail", "Ondersteuning 24/7 beschikbaar"]
-            }
-          ]
+        {
+          "label": "Bedrijfsnaam",
+          "value": "SCRIBIFY AI INC"
+        },
+        {
+          "label": "Hoofdkantoor",
+          "value": ["30 N Gould St Ste R", "Sheridan, WY 82801", "Verenigde Staten"]
+        },
+        {
+          "label": "Contacteer Ons",
+          "value": ["E-mail", "Ondersteuning 24/7 beschikbaar"]
+        }
+      ]
     },
     CTA: {
       "title": "Klaar om het Verschil te Ervaren?",
@@ -3122,10 +3127,10 @@ let message = {
     "contactTitle": "9. Contacteer Ons",
     "websiteUrl": "https://www.nevercap.ai/",
     at: "via",
-      childrenDescription: "De Diensten zijn niet gericht op kinderen en wij verzamelen niet bewust persoonlijke informatie van kinderen onder de 13 jaar. Als u jonger bent dan 13 jaar, gelieve geen persoonlijke informatie via de Diensten in te dienen. Als u denkt dat een kind ons persoonlijke informatie heeft verstrekt in strijd met dit Beleid, neem dan contact met ons op op {at} {email} zoals hieronder aangegeven.",
-      contactDescription: "Als u vragen, opmerkingen of klachten heeft over ons Privacybeleid, neem dan contact met ons op via {at} {email} en wij zullen uw klacht zo snel mogelijk behandelen.",
-      policyDescriptionA: 'In dit beleid wordt beschreven hoe {NeverCap} (hierna aangeduid als "NeverCap", "onze", "wij", "ons") uw persoonsgegevens verzamelt, gebruikt en openbaar maakt wanneer u gebruikmaakt van onze diensten, websites ({url}) en software (gezamenlijk de "Diensten").'
-},
+    childrenDescription: "De Diensten zijn niet gericht op kinderen en wij verzamelen niet bewust persoonlijke informatie van kinderen onder de 13 jaar. Als u jonger bent dan 13 jaar, gelieve geen persoonlijke informatie via de Diensten in te dienen. Als u denkt dat een kind ons persoonlijke informatie heeft verstrekt in strijd met dit Beleid, neem dan contact met ons op op {at} {email} zoals hieronder aangegeven.",
+    contactDescription: "Als u vragen, opmerkingen of klachten heeft over ons Privacybeleid, neem dan contact met ons op via {at} {email} en wij zullen uw klacht zo snel mogelijk behandelen.",
+    policyDescriptionA: 'In dit beleid wordt beschreven hoe {NeverCap} (hierna aangeduid als "NeverCap", "onze", "wij", "ons") uw persoonsgegevens verzamelt, gebruikt en openbaar maakt wanneer u gebruikmaakt van onze diensten, websites ({url}) en software (gezamenlijk de "Diensten").'
+  },
   TermsOfUse: {
     title: "Voorwaarden van",
     titleGradient: "Dienst",
@@ -3190,7 +3195,7 @@ let message = {
     "automation": "Geautomatiseerd gebruik van het systeem te maken, zoals het gebruik van scripts om reacties of berichten te verzenden, of datamining, robots of soortgelijke gegevensverzamelings- en extractietools te gebruiken.",
     "copyrightRemoval": "Het copyright of andere eigendomsrechtenvermeldingen van inhoud te verwijderen.",
     "impersonation": "Te proberen een andere gebruiker of persoon te imiteren of de gebruikersnaam van een andere gebruiker te gebruiken.",
-    "spyware": 'Materiaal te uploaden of te verzenden (of te proberen te uploaden of te verzenden) dat fungeert als een passief of actief mechanisme voor gegevensverzameling of -overdracht, zoals clear graphics interchange formats (\"gifs\"), 1×1 pixels, webbugs, cookies of soortgelijke apparaten (ook wel \"spyware\" of \"passieve verzamelmechanismen\" genoemd).',
+    "spyware": 'Materiaal te uploaden of te verzenden (of te proberen te uploaden of te verzenden) dat fungeert als een passief of actief mechanisme voor gegevensverzameling of -overdracht, zoals clear graphics interchange formats ("gifs"), 1×1 pixels, webbugs, cookies of soortgelijke apparaten (ook wel "spyware" of "passieve verzamelmechanismen" genoemd).',
     "disruption": "De Site of de daaraan verbonden netwerken of diensten te verstoren, te overbelasten of een onevenredige belasting te veroorzaken.",
     "employeeHarassment": "Onze medewerkers of agenten die betrokken zijn bij het aanbieden van de Site te lastigvallen, te irriteren, te intimideren of te bedreigen.",
     "accessCircumvention": "Maatregelen van de Site die toegang tot de Site of delen daarvan beperken, te omzeilen.",
@@ -3220,41 +3225,41 @@ let message = {
     "site": "Site",
     "services": "Diensten",
     at: "via",
-      trademarkProtection: "De namen, uitstraling en vormgeving van de Diensten zijn auteursrechtelijk beschermd© door de Onderneming. Alle rechten voorbehouden. U mag geen enkel deel van de HTML, CSS, JavaScript of visuele ontwerpelementen dupliceren, kopiëren of hergebruiken zonder uitdrukkelijke schriftelijke toestemming van de Onderneming. U moet toestemming vragen om het logo van de Onderneming of dienstlogos voor promotiedoeleinden te gebruiken. Mail ons op {at} {email} voor verzoeken om logos te gebruiken. Wij behouden ons het recht voor om deze toestemming in te trekken als u deze Servicevoorwaarden schendt.",
-      privacyPolicyDescription: "Wij hechten waarde aan gegevensprivacy en -beveiliging. Lees ons {policy} door. Door de Site te gebruiken, gaat u akkoord met ons Privacybeleid, dat onderdeel is van deze Servicevoorwaarden. Houd er rekening mee dat de Site in de Verenigde Staten wordt gehost. Als u de Site gebruikt vanuit een andere regio met wetten of vereisten voor persoonlijke gegevens die afwijken van de Amerikaanse wetgeving, dan draagt u door verder gebruik uw gegevens over naar de Verenigde Staten en gaat u akkoord met deze overdracht en verwerking.",
-      contactDescription: "Als u vragen heeft over een van de Servicevoorwaarden, neem dan contact met ons op via {at} {email}.",
-      "companyDefinitionA": 'Wanneer we in dit document de termen "Bedrijf", "wij", "onze" of "ons" gebruiken, verwijzen we naar {NeverCap}.'
-},
-    Blog: {
-          Hero: {
-            "title": "Word een",
-            "highlighted_text": "Transcriptiewizard",
-            "description": "Tutorials, strategieën en AI-tools van {NeverCap} om u te helpen onbeperkt content te creëren met professionele transcriptieworkflows."
-          },
-          Featured: {
-            FeaturedGuide: "Aanbevolen gids",
-            ReadFullGuide: "Lees de volledige gids"
-          },
-          ListSection: {
-            title: "Laatste",
-            highlighted_text: "Artikelen",
-            subtitle: "Deskundige tips en tutorials voor onbeperkte transcriptie",
-            categories: [
-              "Alle berichten",
-              "Zelfstudies",
-              "Podcasten",
-              "Contentcreatie",
-              "Bedrijf",
-              "AI-tips"
-            ]
-          },
-          Detail: {
-            Home: "Thuis",
-            Blog: "Blog",
-            GoToSignup: "Probeer NeverCap gratis - Geen creditcard nodig",
-            HowWorks: "Bekijk hoe het werkt"
-          }
-        }
+    trademarkProtection: "De namen, uitstraling en vormgeving van de Diensten zijn auteursrechtelijk beschermd© door de Onderneming. Alle rechten voorbehouden. U mag geen enkel deel van de HTML, CSS, JavaScript of visuele ontwerpelementen dupliceren, kopiëren of hergebruiken zonder uitdrukkelijke schriftelijke toestemming van de Onderneming. U moet toestemming vragen om het logo van de Onderneming of dienstlogos voor promotiedoeleinden te gebruiken. Mail ons op {at} {email} voor verzoeken om logos te gebruiken. Wij behouden ons het recht voor om deze toestemming in te trekken als u deze Servicevoorwaarden schendt.",
+    privacyPolicyDescription: "Wij hechten waarde aan gegevensprivacy en -beveiliging. Lees ons {policy} door. Door de Site te gebruiken, gaat u akkoord met ons Privacybeleid, dat onderdeel is van deze Servicevoorwaarden. Houd er rekening mee dat de Site in de Verenigde Staten wordt gehost. Als u de Site gebruikt vanuit een andere regio met wetten of vereisten voor persoonlijke gegevens die afwijken van de Amerikaanse wetgeving, dan draagt u door verder gebruik uw gegevens over naar de Verenigde Staten en gaat u akkoord met deze overdracht en verwerking.",
+    contactDescription: "Als u vragen heeft over een van de Servicevoorwaarden, neem dan contact met ons op via {at} {email}.",
+    "companyDefinitionA": 'Wanneer we in dit document de termen "Bedrijf", "wij", "onze" of "ons" gebruiken, verwijzen we naar {NeverCap}.'
+  },
+  Blog: {
+    Hero: {
+      "title": "Word een",
+      "highlighted_text": "Transcriptiewizard",
+      "description": "Tutorials, strategieën en AI-tools van {NeverCap} om u te helpen onbeperkt content te creëren met professionele transcriptieworkflows."
+    },
+    Featured: {
+      FeaturedGuide: "Aanbevolen gids",
+      ReadFullGuide: "Lees de volledige gids"
+    },
+    ListSection: {
+      title: "Laatste",
+      highlighted_text: "Artikelen",
+      subtitle: "Deskundige tips en tutorials voor onbeperkte transcriptie",
+      categories: [
+        "Alle berichten",
+        "Zelfstudies",
+        "Podcasten",
+        "Contentcreatie",
+        "Bedrijf",
+        "AI-tips"
+      ]
+    },
+    Detail: {
+      Home: "Thuis",
+      Blog: "Blog",
+      GoToSignup: "Probeer NeverCap gratis - Geen creditcard nodig",
+      HowWorks: "Bekijk hoe het werkt"
+    }
+  }
 };
 
 export default defineI18nLocale(async (locale) => {

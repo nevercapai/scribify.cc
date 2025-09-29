@@ -232,10 +232,10 @@ onMounted(() => {
   margin-bottom: 26px;
 }
 .feature-section-1 {
-  margin-bottom: 79px;
+  margin-bottom: 65px;
 }
 .feature-section-2 {
-  margin-bottom: 80px;
+  margin-bottom: 66px;
 }
 
 .feature-section h4 {
@@ -253,8 +253,8 @@ onMounted(() => {
 .feature-list li {
   display: flex;
   align-items: center;
-  gap: 12px;
-  margin-bottom: 22px;
+  gap: 10px;
+  margin-bottom: 8px;
   font-size: 14px;
 }
 

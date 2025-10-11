@@ -64,6 +64,8 @@ const request = ofetch.create({
     const offset = -new Date().getTimezoneOffset() / 60;
     const utcOffset = `UTC${offset >= 0 ? "+" : ""}${offset}:00`;
     const token = useCrossDomainCookie("token");
+    const fingerprintId = useCrossDomainCookie("fp");
+    const userid = useCrossDomainCookie("userid");
     const headers = new Headers(options.headers);
     const XLanguage = headers.get("X-Language"); // 接口已经传了【X-Language】
     if (!XLanguage) {
@@ -71,9 +73,11 @@ const request = ofetch.create({
     }
     headers.set("X-Time-Zone", `${utcOffset}`); // UTC偏移量
     headers.set("X-Date-Now", `${Date.now()}`); // Date.now()
+    headers.set("X-Fingerprint-Id", fingerprintId.value); // 指纹id
     const Auth = headers.get("Authorization"); // 登录接口已经传了【Authorization】
     if (token.value && !Auth) {
       headers.set("Authorization", `Bearer ${token.value}`);
+      userid.value && headers.set("X-F-User-Id", userid.value); // userid
       options.headers = headers;
     } else {
       options.headers = headers;

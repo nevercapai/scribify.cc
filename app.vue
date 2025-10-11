@@ -23,7 +23,9 @@ import { message as en_US } from "~/i18n/lang/en-US"; // 英语（美国）
 import { runI18nCheck } from "~/i18n/check.js";
 import { useCrossDomainCookie } from "~/hooks/useCrossDomainCookie";
 import { usePageJump } from "~/composables/usePageJump";
+import { useVisitor } from "~/hooks/useVisitor";
 useScrollTitle();
+const { getVisitorId, visitorId } = useVisitor();
 const { jumpPage } = usePageJump();
 const route = useRoute();
 const { locale, locales, setLocaleMessage } = useI18n();
@@ -139,7 +141,12 @@ const saveInfoToStore = () => {
     }, 100);
   }
 };
-
+const pvEventHandle = async ({ path }) => {
+  if (!visitorId.value) await getVisitorId();
+  const { useCommonApi } = await import("~/api/common");
+  const { collectEvent } = useCommonApi;
+  await collectEvent({ eventType: "website_visit", path });
+};
 // 其它逻辑保持不变
 if (process.client) {
   const config = useRuntimeConfig();
@@ -151,6 +158,7 @@ if (process.client) {
   if (window.localStorage.getItem("notShowHead")) {
   }
 }
+
 onMounted(async () => {
   setCookieEventKey();
   saveInfoToStore();
@@ -170,9 +178,14 @@ onMounted(async () => {
     console.error("获取构建信息失败:", error);
   }
   $mitt.on("goToEvent", goToEvent);
+  $mitt.on("pvEvent", pvEventHandle);
+  setTimeout(() => {
+    $mitt.emit("pvEvent", { path: route.path });
+  }, 500);
 });
 onUnmounted(() => {
   $mitt.off("goToEvent", goToEvent);
+  $mitt.off("pvEvent", pvEventHandle);
 });
 
 const { clear } = useGuestUploadStore();

@@ -235,6 +235,7 @@ watchEffect(async () => {
 
 const guestLogin = async () => {
   const token = useCrossDomainCookie("token");
+  const userid = useCrossDomainCookie("userid");
   if (!token.value) {
     if (!visitorId.value) await getVisitorId();
     const { userApi } = await importWithRetry("user");
@@ -249,6 +250,7 @@ const guestLogin = async () => {
     };
     userInfo.value = { token: res.token };
     token.value = res.token;
+    userid.value = res.userid;
   }
 };
 

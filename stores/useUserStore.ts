@@ -45,10 +45,12 @@ export const useUserStore = defineStore(
       userInfo.value = user;
       const subscriptionStore = useSubscriptionStore();
       const { subscriptionStatus } = storeToRefs(useSubscriptionStore());
+      const token = useCrossDomainCookie("token");
+      const userid = useCrossDomainCookie("userid");
       if (user?.token) {
         window?.localStorage.setItem("token", user.token);
-        const token = useCrossDomainCookie("token");
         token.value = user.token; // 设置值
+        userid.value = user.userInfoVO?.userid;
         subscriptionStore.getStatusUserIdFetch();
         subscriptionStatus.value = user.userInfoVO.subscriptionStatus ?? null;
         // 这里调用 setEmail 方法
@@ -61,6 +63,7 @@ export const useUserStore = defineStore(
         window?.localStorage.removeItem("token");
         const token = useCrossDomainCookie("token");
         token.value = "";
+        userid.value = "";
         emailStore.setEmail("");
         // 订阅信息
         subscriptionStore.clearSubscriptionDetail();

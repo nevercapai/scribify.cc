@@ -1,9 +1,11 @@
 import { useCrossDomainCookie } from "~/hooks/useCrossDomainCookie";
-import useJumpPage from "~/hooks/useJumpPage";
 
 export default defineNuxtRouteMiddleware((to, from) => {
   const isClient = process.client;
   const { $mitt } = useNuxtApp();
+  if (isClient) {
+    $mitt.emit("pvEvent", { path: to.path });
+  }
   // 判断页面 meta 是否需要登录
   if (to.meta.requireAuth) {
     // 这里根据你的 userStore 或 token 判断是否已登录
@@ -32,12 +34,5 @@ export default defineNuxtRouteMiddleware((to, from) => {
   ) {
     console.log("navigateTo_3");
     return $mitt.emit("goToEvent", { path: "/user/login" });
-  }
-  // 页面跳转
-  if (from.name !== undefined) {
-    const path = to.path;
-    if (path.includes("/transcript/") && !from.path.includes('/getPro')) {
-      window.sessionStorage.setItem("jumpTranscriptOrigin", from.path);
-    }
   }
 });

@@ -69,9 +69,9 @@ export const transcriptApi = {
       if (res.code === 0) {
         return res.data;
       }
-      throw new Error(res as any);
+      throw new Error(JSON.stringify(res as any));
     } catch (err) {
-      throw new Error(err as any);
+      throw new Error(JSON.stringify(err as any));
     }
   },
   // 编辑文件基础设置
@@ -84,9 +84,9 @@ export const transcriptApi = {
       if (res.code === 0) {
         return res.data;
       }
-      throw new Error(res as any);
+      throw new Error(JSON.stringify(res as any));
     } catch (err) {
-      throw new Error(err as any);
+      throw new Error(JSON.stringify(err as any));
     }
   },
   // 获取转录内容
@@ -171,9 +171,9 @@ export const transcriptApi = {
       if (res.code === 0) {
         return res.data;
       }
-      throw new Error(res as any);
+      throw new Error(JSON.stringify(res as any));
     } catch (err) {
-      throw new Error(err as any);
+      throw new Error(JSON.stringify(err as any));
     }
   },
   // 保存播放设置
@@ -190,9 +190,9 @@ export const transcriptApi = {
       if (res.code === 0) {
         return res.data;
       }
-      throw new Error(res as any);
+      throw new Error(JSON.stringify(res as any));
     } catch (err) {
-      throw new Error(err as any);
+      throw new Error(JSON.stringify(err as any));
     }
   },
   // 说话人编辑
@@ -205,9 +205,9 @@ export const transcriptApi = {
       if (res.code === 0) {
         return res.data;
       }
-      throw new Error(res as any);
+      throw new Error(JSON.stringify(res as any));
     } catch (err) {
-      throw new Error(err as any);
+      throw new Error(JSON.stringify(err as any));
     }
   },
   async getRecentLang() {
@@ -218,9 +218,9 @@ export const transcriptApi = {
       if (res.code === 0) {
         return res.data;
       }
-      throw new Error(res as any);
+      throw new Error(JSON.stringify(res as any));
     } catch (err) {
-      throw new Error(err as any);
+      throw new Error(JSON.stringify(err as any));
     }
   },
   async getTranRecentLang() {
@@ -234,9 +234,9 @@ export const transcriptApi = {
       if (res.code === 0) {
         return res.data;
       }
-      throw new Error(res as any);
+      throw new Error(JSON.stringify(res as any));
     } catch (err) {
-      throw new Error(err as any);
+      throw new Error(JSON.stringify(err as any));
     }
   }
 };

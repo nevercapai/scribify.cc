@@ -4,6 +4,7 @@ export const useCommonApi = {
   // 上报
   async collectEvent(body: any) {
     try {
+      body.path = window.location.href
       if (!Array.isArray(body)) {
         body = JSON.stringify([body]);
       }

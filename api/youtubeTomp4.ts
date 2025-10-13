@@ -11,9 +11,9 @@ export const downloadFileApi = {
       if (res.code === 0) {
         return res.data;
       }
-      throw new Error(res as any);
+      throw new Error(JSON.stringify(res as any));
     } catch (e) {
-      throw new Error(e as any);
+      throw new Error(JSON.stringify(e as any));
     }
   },
 
@@ -30,9 +30,9 @@ export const downloadFileApi = {
       if (res.code === 0) {
         return res.data;
       }
-      throw new Error(res as any);
+      throw new Error(JSON.stringify(res as any));
     } catch (e) {
-      throw new Error(e as any);
+      throw new Error(JSON.stringify(e as any));
     }
   },
 };

@@ -204,9 +204,9 @@ export const userApi = {
       if (res.code === 0) {
         return res.data;
       }
-      throw new Error(res as any);
+      throw new Error(JSON.stringify(res as any));
     } catch (e) {
-      throw new Error(e as any);
+      throw new Error(JSON.stringify(e as any));
     }
   },
 
@@ -222,9 +222,9 @@ export const userApi = {
       if (res.code === 0) {
         return true;
       }
-      throw new Error(res as any);
+      throw new Error(JSON.stringify(res as any));
     } catch (e) {
-      throw new Error(e as any);
+      throw new Error(JSON.stringify(e as any));
     }
   },
 
@@ -239,7 +239,7 @@ export const userApi = {
         return res.data;
       }
     } catch (e) {
-      throw new Error(e as any);
+      throw new Error(JSON.stringify(e as any));
     }
   }
 };

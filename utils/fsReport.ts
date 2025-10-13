@@ -47,10 +47,17 @@ export function useErrorReporting() {
   }
 
   // 系统报错日志通知
+  const exceptCode = [401, 610013];
+  // 401 用户登录过期需要重新登录
+  // // 610013  游客信息如果被清理了   再进入详情或者分享就会报   页面会显示not found
   function reportSystemError(res: any, customData = true) {
     const url = res?.url;
     const headers = res?.headers || new Map();
     const data = res?._data;
+    const exceptCodeFlag = (data?.code && exceptCode.includes(data?.code)) || false;
+    if (exceptCodeFlag) {
+      customData = true;
+    }
     const webhook = getWebhookUrl(customData);
     if (!webhook) return;
     let storageData = JSON.parse(JSON.stringify(window.localStorage));
@@ -77,9 +84,9 @@ export function useErrorReporting() {
       cardType7: 'hr',
       缓存数据: JSON.stringify(storageData)
     };
-    if (customData) {
+    if (customData && !exceptCodeFlag) {
       params = {
-        访问服务: 'Scrify',
+        访问服务: 'Nevercap Web',
         上报类型: 'customData',
         页面地址: location.href,
         cardType1: 'hr',

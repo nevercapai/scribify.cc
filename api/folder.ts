@@ -24,9 +24,9 @@ export const useFolderApi = {
       if (res.code === 0) {
         return true;
       }
-      throw new Error(res as any);
+      throw new Error(JSON.stringify(res as any));
     } catch (e) {
-      throw new Error(e as any);
+      throw new Error(JSON.stringify(e as any));
     }
   },
 
@@ -43,9 +43,9 @@ export const useFolderApi = {
       if (res.code === 0) {
         return true;
       }
-      throw new Error(res as any);
+      throw new Error(JSON.stringify(res as any));
     } catch (e) {
-      throw new Error(e as any);
+      throw new Error(JSON.stringify(e as any));
     }
   },
 
@@ -62,9 +62,9 @@ export const useFolderApi = {
       if (res.code === 0) {
         return true;
       }
-      throw new Error(res as any);
+      throw new Error(JSON.stringify(res as any));
     } catch (e) {
-      throw new Error(e as any);
+      throw new Error(JSON.stringify(e as any));
     }
   },
 
@@ -81,9 +81,9 @@ export const useFolderApi = {
       if (res.code === 0) {
         return res.data;
       }
-      throw new Error(res as any);
+      throw new Error(JSON.stringify(res as any));
     } catch (e) {
-      throw new Error(e as any);
+      throw new Error(JSON.stringify(e as any));
     }
   },
 
@@ -100,9 +100,9 @@ export const useFolderApi = {
       if (res.code === 0) {
         return true;
       }
-      throw new Error(res as any);
+      throw new Error(JSON.stringify(res as any));
     } catch (e) {
-      throw new Error(e as any);
+      throw new Error(JSON.stringify(e as any));
     }
   },
 
@@ -123,9 +123,9 @@ export const useFolderApi = {
       if (res.code === 0) {
         return res.data;
       }
-      throw new Error(res as any);
+      throw new Error(JSON.stringify(res as any));
     } catch (e) {
-      throw new Error(e as any);
+      throw new Error(JSON.stringify(e as any));
     }
   },
 
@@ -142,9 +142,9 @@ export const useFolderApi = {
       if (res.code === 0) {
         return res.data;
       }
-      throw new Error(res as any);
+      throw new Error(JSON.stringify(res as any));
     } catch (e) {
-      throw new Error(e as any);
+      throw new Error(JSON.stringify(e as any));
     }
   },
 
@@ -162,9 +162,9 @@ export const useFolderApi = {
       if (res.code === 0) {
         return res.data;
       }
-      throw new Error(res as any);
+      throw new Error(JSON.stringify(res as any));
     } catch (e) {
-      throw new Error(e as any);
+      throw new Error(JSON.stringify(e as any));
     }
   },
 
@@ -181,9 +181,9 @@ export const useFolderApi = {
       if (res.code === 0) {
         return res.data;
       }
-      throw new Error(res as any);
+      throw new Error(JSON.stringify(res as any));
     } catch (e) {
-      throw new Error(e as any);
+      throw new Error(JSON.stringify(e as any));
     }
   },
 
@@ -216,7 +216,7 @@ export const useFolderApi = {
         return res.data;
       }
     } catch (e) {
-      throw new Error(e as any);
+      throw new Error(JSON.stringify(e as any));
     }
   },
 
@@ -231,7 +231,7 @@ export const useFolderApi = {
         return res.data;
       }
     } catch (e) {
-      throw new Error(e as any);
+      throw new Error(JSON.stringify(e as any));
     }
   },
 
@@ -245,14 +245,14 @@ export const useFolderApi = {
             taskId: string;
             duration: number;
             status:
-              | "PENDING"
-              | "QUEUED"
-              | "PROCESSING"
-              | "PAUSED"
-              | "CANCELLED"
-              | "FAILED_RETRYABLE"
-              | "FAILED_PERMANENT"
-              | "COMPLETED";
+            | "PENDING"
+            | "QUEUED"
+            | "PROCESSING"
+            | "PAUSED"
+            | "CANCELLED"
+            | "FAILED_RETRYABLE"
+            | "FAILED_PERMANENT"
+            | "COMPLETED";
           }[]
         >
       >("/wapi/taskServer/api/v1/transcription/task/status", {
@@ -266,7 +266,7 @@ export const useFolderApi = {
         return res.data;
       }
     } catch (e) {
-      throw new Error(e as any);
+      throw new Error(JSON.stringify(e as any));
     }
   },
 
@@ -299,9 +299,9 @@ export const useFolderApi = {
       if (res.code === 0) {
         return res.data;
       }
-      throw new Error(res as any);
+      throw new Error(JSON.stringify(res as any));
     } catch (e) {
-      throw new Error(e as any);
+      throw new Error(JSON.stringify(e as any));
     }
   },
 
@@ -320,9 +320,9 @@ export const useFolderApi = {
       if (res.code === 0) {
         return res.data;
       }
-      throw new Error(res as any);
+      throw new Error(JSON.stringify(res as any));
     } catch (e) {
-      throw new Error(e as any);
+      throw new Error(JSON.stringify(e as any));
     }
   },
 
@@ -336,9 +336,9 @@ export const useFolderApi = {
       if (res.code === 0) {
         return res.data;
       }
-      throw new Error(res as any);
+      throw new Error(JSON.stringify(res as any));
     } catch (e) {
-      throw new Error(e as any);
+      throw new Error(JSON.stringify(e as any));
     }
   },
 
@@ -360,9 +360,9 @@ export const useFolderApi = {
       if (res.code === 0) {
         return res.data;
       }
-      throw new Error(res as any);
+      throw new Error(JSON.stringify(res as any));
     } catch (e) {
-      throw new Error(e as any);
+      throw new Error(JSON.stringify(e as any));
     }
   },
 
@@ -387,9 +387,9 @@ export const useFolderApi = {
       if (res.code === 0) {
         return res.data;
       }
-      throw new Error(res as any);
+      throw new Error(JSON.stringify(res as any));
     } catch (e) {
-      throw new Error(e as any);
+      throw new Error(JSON.stringify(e as any));
     }
   },
 
@@ -405,7 +405,7 @@ export const useFolderApi = {
         return res.data;
       }
     } catch (e) {
-      throw new Error(e as any);
+      throw new Error(JSON.stringify(e as any));
     }
   }
 };

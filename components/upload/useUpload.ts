@@ -197,13 +197,7 @@ export const useUpload = () => {
       eventType: "upload"
     };
     if (!validateFile(file)) {
-      const collectEvent = await getCollectEvent();
-      const errorParams: any = {
-        ...commonParams,
-        failReason: file.errorText,
-        eventType: "upload_failed"
-      };
-      return collectEvent(errorParams);
+      return;
     }
 
     file.status = "hashing";
@@ -258,7 +252,9 @@ export const useUpload = () => {
             failReason: e?.toString() || file.errorText,
             eventType: "upload_failed"
           };
-          collectEvent(errorParams);
+          if (!(e instanceof Error && e.message && e.message.includes('"code":401'))) {
+            collectEvent(errorParams);
+          }
           reject(e);
         }
       }
@@ -559,7 +555,7 @@ export const useUpload = () => {
       if (eTags?.length === totalChunks) {
         mergeFile(file, eTags);
       }
-    } catch (e) {}
+    } catch (e) { }
   };
 
   // todo 废弃的文件分片

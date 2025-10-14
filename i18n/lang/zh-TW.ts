@@ -2968,8 +2968,23 @@ let message = {
                   "title": "轉錄 YouTube 影片",
                   "content": "將 YouTube 影片轉換為準確的文字或字幕。只需貼上 YouTube 連結即可。"
                 }
-              ]
-            }
+              ],
+            stepsNew: [
+                  {
+                    "title": "免費音訊和視訊轉錄",
+                    "content": "在幾秒鐘內將音訊和視訊檔案轉換為文字。每天 3 份免費成績單。"
+                  },
+                  {
+                    "title": "將音訊檔案轉換為文字",
+                    "content": "上傳 MP3、MP4、WAV、MOV。",
+                    "content2": "下載 DOCX、TXT、SRT（字幕）。"
+                  },
+                  {
+                    "title": "轉錄 YouTube 影片",
+                    "content": "將 YouTube 影片轉換為準確的文字或字幕。只需貼上 YouTube 連結即可。"
+                  }
+                ]
+        }
     }
   },
   About: {

@@ -3010,8 +3010,23 @@ let message = {
                   "title": "YouTube-videók átírása",
                   "content": "Konvertálja a YouTube-videókat pontos szöveggé vagy felirattá. Csak illessze be a YouTube-linket."
                 }
-              ]
-            }
+              ],
+            stepsNew: [
+                  {
+                    "title": "Ingyenes hang- és videóátírás",
+                    "content": "Másodpercek alatt hang- és videofájlokat konvertálhat szöveggé. Naponta 3 ingyenes átirat."
+                  },
+                  {
+                    "title": "Hangfájlok szöveggé konvertálása",
+                    "content": "MP3, MP4, WAV és MOV fájlok feltöltése.",
+                    "content2": "DOCX, TXT, SRT (feliratok) letöltése."
+                  },
+                  {
+                    "title": "YouTube-videók átírása",
+                    "content": "Konvertálja a YouTube-videókat pontos szöveggé vagy felirattá. Csak illessze be a YouTube-linket."
+                  }
+                ]
+        }
     }
   },
   About: {

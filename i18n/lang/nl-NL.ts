@@ -1318,7 +1318,7 @@ let message = {
       feature3Point1Icon: "✓",
       feature3Point1Text: "50.000+ gebruikers gestapt",
       feature3Point2Icon: "✓",
-      feature3Point2Text: 'Van Otter\\\\\\\'s "krimpflatie"',
+      feature3Point2Text: 'Van Otter\\\\\\\\\\\\\\\'s "krimpflatie"',
       feature3Point3Icon: "✓",
       feature3Point3Text: "Nooit meer terug",
       feature3Stat1Number: "50K+",
@@ -1962,7 +1962,7 @@ let message = {
       },
       educators: {
         title: "Onderwijzers",
-        pain: '"YouTube-video\\\\\\\'s hebben directe transcriptie nodig"',
+        pain: '"YouTube-video\\\\\\\\\\\\\\\'s hebben directe transcriptie nodig"',
         description: "Plak gewoon YouTube-links om directe transcripties en automatisch gegenereerde ondertiteling te krijgen. Maak elk educatief video toegankelijk en doorzoekbaar.",
         benefits: {
           benefit1: "Directe YouTube-link transcriptie",
@@ -1998,9 +1998,9 @@ let message = {
             role: "Podcast-host"
           },
           jessica: {
-            textBefore: '"Als freelance journalist kan ik Trint\\\\\\\'s',
+            textBefore: '"Als freelance journalist kan ik Trint\\\\\\\\\\\\\\\'s',
             highlight: "$100/maand",
-            textAfter: 'niet betalen, maar ik kan ook niet werken met Otter\\\\\\\'s limiet van 10 bestanden per maand. NeverCap redde mijn carrière."',
+            textAfter: 'niet betalen, maar ik kan ook niet werken met Otter\\\\\\\\\\\\\\\'s limiet van 10 bestanden per maand. NeverCap redde mijn carrière."',
             name: "Jessica Park",
             role: "Freelance Journalist"
           },
@@ -3019,8 +3019,23 @@ let message = {
                   "title": "YouTube-video's transcriberen",
                   "content": "Converteer YouTube-video's naar correcte tekst of ondertitels. Plak gewoon de YouTube-link."
                 }
-              ]
-            }
+              ],
+            stepsNew: [
+                  {
+                    "title": "Gratis audio- en videotranscriptie",
+                    "content": "Converteer audio- en videobestanden in enkele seconden naar tekst. Elke dag 3 gratis transcripties."
+                  },
+                  {
+                    "title": "Converteer audiobestanden naar tekst",
+                    "content": "Upload MP3, MP4, WAV, MOV.",
+                    "content2": "Download DOCX, TXT, SRT (ondertitels)."
+                  },
+                  {
+                    "title": "YouTube-video's transcriberen",
+                    "content": "Converteer YouTube-video's naar correcte tekst of ondertitels. Plak gewoon de YouTube-link."
+                  }
+                ]
+        }
     }
   },
   About: {

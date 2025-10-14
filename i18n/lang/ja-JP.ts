@@ -3168,8 +3168,23 @@ let message = {
                   "title": "YouTube動画の文字起こし",
                   "content": "YouTube 動画を正確なテキストまたは字幕に変換します。YouTube リンクを貼り付けるだけです。"
                 }
-              ]
-            }
+              ],
+            stepsNew: [
+                  {
+                    "title": "無料の音声・動画文字起こし",
+                    "content": "オーディオ ファイルとビデオ ファイルを数秒でテキストに変換します。毎日 3 つのトランスクリプトが無料で提供されます。"
+                  },
+                  {
+                    "title": "オーディオファイルをテキストに変換する",
+                    "content": "MP3、MP4、WAV、MOV をアップロードします。",
+                    "content2": "DOCX、TXT、SRT（字幕）をダウンロードしてください。"
+                  },
+                  {
+                    "title": "YouTube動画の文字起こし",
+                    "content": "YouTube 動画を正確なテキストまたは字幕に変換します。YouTube リンクを貼り付けるだけです。"
+                  }
+                ]
+        }
     }
   },
   About: {

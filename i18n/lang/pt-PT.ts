@@ -3177,8 +3177,23 @@ let message = {
                   "title": "Transcrever vídeos do YouTube",
                   "content": "Converta vídeos do YouTube em texto ou legendas precisas. Basta colar o link do YouTube."
                 }
-              ]
-            }
+              ],
+            stepsNew: [
+                  {
+                    "title": "Transcrição gratuita de áudio e vídeo",
+                    "content": "Converta arquivos de áudio e vídeo em texto em segundos. 3 transcrições gratuitas todos os dias."
+                  },
+                  {
+                    "title": "Converter arquivos de áudio em texto",
+                    "content": "Carregue MP3, MP4, WAV, MOV.",
+                    "content2": "Baixe DOCX, TXT, SRT (legendas)."
+                  },
+                  {
+                    "title": "Transcrever vídeos do YouTube",
+                    "content": "Converta vídeos do YouTube em texto ou legendas precisas. Basta colar o link do YouTube."
+                  }
+                ]
+        }
     }
   },
   About: {

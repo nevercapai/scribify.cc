@@ -3001,8 +3001,23 @@ let message = {
                   "title": "YouTube 동영상 필사",
                   "content": "YouTube 동영상을 정확한 텍스트나 자막으로 변환하세요. YouTube 링크를 붙여넣기만 하면 됩니다."
                 }
-              ]
-            }
+              ],
+            stepsNew: [
+                  {
+                    "title": "무료 오디오 및 비디오 필사",
+                    "content": "몇 초 만에 오디오 및 비디오 파일을 텍스트로 변환하세요. 매일 3개의 무료 대본이 제공됩니다."
+                  },
+                  {
+                    "title": "오디오 파일을 텍스트로 변환",
+                    "content": "MP3, MP4, WAV, MOV를 업로드하세요.",
+                    "content2": "DOCX, TXT, SRT(자막)을 다운로드하세요."
+                  },
+                  {
+                    "title": "YouTube 동영상 필사",
+                    "content": "YouTube 동영상을 정확한 텍스트나 자막으로 변환하세요. YouTube 링크를 붙여넣기만 하면 됩니다."
+                  }
+                ]
+        }
     }
   },
   About: {

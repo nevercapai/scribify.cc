@@ -1991,9 +1991,9 @@ let message = {
             role: "Podcast Host → Podcast-vert"
           },
           jessica: {
-            textBefore: '"As a freelance journalist, I can\\\\\\\'t afford Trint\\\\\\\'s → "Som frilansjournalist har jeg ikke råd til Trints',
+            textBefore: '"As a freelance journalist, I can\\\\\\\\\\\\\\\'t afford Trint\\\\\\\\\\\\\\\'s → "Som frilansjournalist har jeg ikke råd til Trints',
             highlight: "$100/month → $100/måned",
-            textAfter: ', but I also can\\\\\\\'t work with Otter\\\\\\\'s 10 files per month limit. NeverCap saved my career." → , men jeg kan heller ikke jobbe med Otters grense på 10 filer per måned. NeverCap reddet karrieren min."',
+            textAfter: ', but I also can\\\\\\\\\\\\\\\'t work with Otter\\\\\\\\\\\\\\\'s 10 files per month limit. NeverCap saved my career." → , men jeg kan heller ikke jobbe med Otters grense på 10 filer per måned. NeverCap reddet karrieren min."',
             name: "Jessica Park → Jessica Park",
             role: "Freelance Journalist → Frilansjournalist"
           },
@@ -3012,8 +3012,23 @@ let message = {
                   "title": "Transkribere YouTube-videoer",
                   "content": "Konverter YouTube-videoer til nøyaktig tekst eller undertekster. Bare lim inn YouTube-lenken."
                 }
-              ]
-            }
+              ],
+            stepsNew: [
+                  {
+                    "title": "Gratis transkripsjon av lyd og video",
+                    "content": "Konverter lyd- og videofiler til tekst på sekunder. 3 gratis transkripsjoner hver dag."
+                  },
+                  {
+                    "title": "Konverter lydfiler til tekst",
+                    "content": "Last opp MP3, MP4, WAV, MOV.",
+                    "content2": "Last ned DOCX, TXT, SRT (teksting)."
+                  },
+                  {
+                    "title": "Transkribere YouTube-videoer",
+                    "content": "Konverter YouTube-videoer til nøyaktig tekst eller undertekster. Bare lim inn YouTube-lenken."
+                  }
+                ]
+        }
     }
   },
   About: {

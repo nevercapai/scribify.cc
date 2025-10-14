@@ -3013,8 +3013,23 @@ let message = {
                   "title": "Transkrybuj filmy z YouTube",
                   "content": "Konwertuj filmy z YouTube na dokładny tekst lub napisy. Wystarczy wkleić link YouTube."
                 }
-              ]
-            }
+              ],
+            stepsNew: [
+                  {
+                    "title": "Bezpłatna transkrypcja audio i wideo",
+                    "content": "Konwertuj pliki audio i wideo na tekst w kilka sekund. 3 bezpłatne transkrypcje dziennie."
+                  },
+                  {
+                    "title": "Konwertuj pliki audio na tekst",
+                    "content": "Prześlij pliki MP3, MP4, WAV, MOV.",
+                    "content2": "Pobierz DOCX, TXT, SRT (napisy)."
+                  },
+                  {
+                    "title": "Transkrybuj filmy z YouTube",
+                    "content": "Konwertuj filmy z YouTube na dokładny tekst lub napisy. Wystarczy wkleić link YouTube."
+                  }
+                ]
+        }
     }
   },
   About: {

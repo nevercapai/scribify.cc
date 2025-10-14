@@ -3024,8 +3024,23 @@ let message = {
                   "title": "YouTube-Videos transkribieren",
                   "content": "Konvertieren Sie YouTube-Videos in präzisen Text oder Untertitel. Fügen Sie einfach den YouTube-Link ein."
                 }
-              ]
-            }
+              ],
+            stepsNew: [
+                  {
+                    "title": "Kostenlose Audio- und Videotranskription",
+                    "content": "Konvertieren Sie Audio- und Videodateien in Sekundenschnelle in Text. Jeden Tag 3 kostenlose Transkripte."
+                  },
+                  {
+                    "title": "Audiodateien in Text konvertieren",
+                    "content": "Laden Sie MP3, MP4, WAV, MOV hoch.",
+                    "content2": "Laden Sie DOCX, TXT, SRT (Untertitel) herunter."
+                  },
+                  {
+                    "title": "YouTube-Videos transkribieren",
+                    "content": "Konvertieren Sie YouTube-Videos in präzisen Text oder Untertitel. Fügen Sie einfach den YouTube-Link ein."
+                  }
+                ]
+        }
     }
   },
   About: {

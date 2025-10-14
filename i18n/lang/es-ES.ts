@@ -3017,8 +3017,23 @@ let message = {
                   "title": "Transcribir vídeos de YouTube",
                   "content": "Convierte videos de YouTube en texto o subtítulos precisos. Simplemente pega el enlace de YouTube."
                 }
-              ]
-            }
+              ],
+            stepsNew: [
+                  {
+                    "title": "Transcripción gratuita de audio y vídeo",
+                    "content": "Convierte archivos de audio y video a texto en segundos. 3 transcripciones gratuitas todos los días."
+                  },
+                  {
+                    "title": "Convertir archivos de audio a texto",
+                    "content": "Subir MP3, MP4, WAV, MOV.",
+                    "content2": "Descargar DOCX, TXT, SRT (subtítulos)."
+                  },
+                  {
+                    "title": "Transcribir vídeos de YouTube",
+                    "content": "Convierte videos de YouTube en texto o subtítulos precisos. Simplemente pega el enlace de YouTube."
+                  }
+                ]
+        }
     }
   },
   About: {

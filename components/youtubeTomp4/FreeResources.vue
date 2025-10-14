@@ -23,7 +23,7 @@
       <NuxtLink :to="$localePath('/')">
         <div class="step-container">
           <div class="step-title">
-            {{ $i(`steps[0].title`) }}
+            {{ $i(`stepsNew[0].title`) }}
           </div>
           <div class="step-imgs">
             <el-image
@@ -48,7 +48,7 @@
             ></el-image>
           </div>
           <div class="step-content">
-            {{ $i(`steps[0].content`) }}
+            {{ $i(`stepsNew[0].content`) }}
           </div>
         </div>
       </NuxtLink>
@@ -56,7 +56,7 @@
       <NuxtLink :to="$localePath('/')">
         <div class="step-container">
           <div class="step-title">
-            {{ $i(`steps[1].title`) }}
+            {{ $i(`stepsNew[1].title`) }}
           </div>
           <div class="step-imgs">
             <el-image
@@ -81,8 +81,9 @@
             ></el-image>
           </div>
           <div class="step-content">
-            {{ $i(`steps[1].content`) }}
-            {{ $i(`steps[1].content2`) }}
+            {{ $i(`stepsNew[1].content`) }}
+            <br></br>
+            {{ $i(`stepsNew[1].content2`) }}
           </div>
         </div>
       </NuxtLink>
@@ -90,7 +91,7 @@
       <NuxtLink :to="$localePath('/')">
         <div class="step-container">
           <div class="step-title text-linear">
-            {{ $i(`steps[2].title`) }}
+            {{ $i(`stepsNew[2].title`) }}
           </div>
           <div class="step-imgs">
             <el-image
@@ -111,7 +112,7 @@
             ></el-image>
           </div>
           <div class="step-content">
-            {{ $i(`steps[2].content`) }}
+            {{ $i(`stepsNew[2].content`) }}
           </div>
         </div>
       </NuxtLink>

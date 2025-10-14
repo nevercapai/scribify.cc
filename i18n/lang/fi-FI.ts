@@ -3008,8 +3008,23 @@ let message = {
                   "title": "Litteroi YouTube-videoita",
                   "content": "Muunna YouTube-videot tarkkaan tekstiin tai tekstityksiin. Liitä vain YouTube-linkki."
                 }
-              ]
-            }
+              ],
+            stepsNew: [
+                  {
+                    "title": "Ilmainen äänen ja videon transkriptio",
+                    "content": "Muunna ääni- ja videotiedostot tekstiksi sekunneissa. 3 ilmaista transkriptiota joka päivä."
+                  },
+                  {
+                    "title": "Muunna äänitiedostot tekstiksi",
+                    "content": "Lataa MP3-, MP4-, WAV- ja MOV-tiedostoja.",
+                    "content2": "Lataa DOCX-, TXT- ja SRT-tiedostot (tekstitykset)."
+                  },
+                  {
+                    "title": "Litteroi YouTube-videoita",
+                    "content": "Muunna YouTube-videot tarkkaan tekstiin tai tekstityksiin. Liitä vain YouTube-linkki."
+                  }
+                ]
+        }
     }
   },
   About: {

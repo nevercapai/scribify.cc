@@ -2967,8 +2967,23 @@ let message = {
                   "title": "转录 YouTube 视频",
                   "content": "将 YouTube 视频转换为准确的文本或字幕。只需粘贴 YouTube 链接即可。"
                 }
-              ]
-            }
+              ],
+            stepsNew: [
+                  {
+                    "title": "免费音频和视频转录",
+                    "content": "在几秒钟内将音频和视频文件转换为文本。每天 3 份免费成绩单。"
+                  },
+                  {
+                    "title": "将音频文件转换为文本",
+                    "content": "上传 MP3、MP4、WAV、MOV。",
+                    "content2": "下载 DOCX、TXT、SRT（字幕）。"
+                  },
+                  {
+                    "title": "转录 YouTube 视频",
+                    "content": "将 YouTube 视频转换为准确的文本或字幕。只需粘贴 YouTube 链接即可。"
+                  }
+                ]
+        }
     }
   },
   About: {

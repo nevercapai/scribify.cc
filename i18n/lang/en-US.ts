@@ -2514,10 +2514,10 @@ let message = {
         "linkTitle": "Powered by {NeverCap}",
         "linkTitle2": "- Truly Unlimited AI Transcription",
         "title": "Free Resources",
-        "steps": [
+        "stepsNew": [
           {
-            title: 'Free Audio and Video',
-            content: 'Convert audio and video files to text in seconds 3 free transcripts every day.',
+            title: 'Free Audio and Video Transcription',
+            content: 'Convert audio and video files to text in seconds. 3 free transcripts every day.',
           },
           {
             title: 'Convert Audio Files to Text',

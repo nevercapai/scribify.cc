@@ -3008,8 +3008,23 @@ let message = {
                   "title": "Transkribera YouTube-videor",
                   "content": "Konvertera YouTube-videor till korrekt text eller undertexter. Klistra bara in YouTube-länken."
                 }
-              ]
-            }
+              ],
+            stepsNew: [
+                  {
+                    "title": "Gratis ljud- och videotranskription",
+                    "content": "Konvertera ljud- och videofiler till text på några sekunder. 3 gratis transkriptioner varje dag."
+                  },
+                  {
+                    "title": "Konvertera ljudfiler till text",
+                    "content": "Ladda upp MP3, MP4, WAV, MOV.",
+                    "content2": "Ladda ner DOCX, TXT, SRT (undertexter)."
+                  },
+                  {
+                    "title": "Transkribera YouTube-videor",
+                    "content": "Konvertera YouTube-videor till korrekt text eller undertexter. Klistra bara in YouTube-länken."
+                  }
+                ]
+        }
     }
   },
   About: {

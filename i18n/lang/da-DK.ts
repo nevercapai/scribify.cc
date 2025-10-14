@@ -3008,8 +3008,23 @@ let message = {
                   "title": "Transskriber YouTube-videoer",
                   "content": "Konverter YouTube-videoer til præcis tekst eller undertekster. Indsæt blot YouTube-linket."
                 }
-              ]
-            }
+              ],
+            stepsNew: [
+                  {
+                    "title": "Gratis lyd- og videotransskription",
+                    "content": "Konverter lyd- og videofiler til tekst på få sekunder. 3 gratis transskriptioner hver dag."
+                  },
+                  {
+                    "title": "Konverter lydfiler til tekst",
+                    "content": "Upload MP3, MP4, WAV, MOV.",
+                    "content2": "Download DOCX, TXT, SRT (undertekster)."
+                  },
+                  {
+                    "title": "Transskriber YouTube-videoer",
+                    "content": "Konverter YouTube-videoer til præcis tekst eller undertekster. Indsæt blot YouTube-linket."
+                  }
+                ]
+        }
     }
   },
   About: {

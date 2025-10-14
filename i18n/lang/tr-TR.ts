@@ -1116,7 +1116,7 @@ let message = {
     UseCases: {
       built_for: "Toplu",
       "heavy_users": "Ses & Video Transkripsiyon",
-      "join_users": 'Sizin Gibi Yoğun Kullanıcılar İçin Tasarlandı - "Küçülme enflasyonu" hizmetlerinden geçen YouTuber\\\'lara, içerik üreticilerine ve podcast yapımcılarına katılın',
+      "join_users": 'Sizin Gibi Yoğun Kullanıcılar İçin Tasarlandı - "Küçülme enflasyonu" hizmetlerinden geçen YouTuber\\\\\\\'lara, içerik üreticilerine ve podcast yapımcılarına katılın',
       "podcasters": {
         "title": "Podcast Yapımcıları",
         "des": "Tüm arşivinizi yükleyin. Her bölüm için gösteri notları oluşturun. Hangi bölümleri transkribe edeceğinizi seçmek zorunda kalmayın."
@@ -1303,11 +1303,11 @@ let message = {
       feature3Label: "Sosyal Kanıt",
       feature3TitlePart1: "Kullanıcılar",
       feature3TitlePart2: "Her Gün Geçiş Yapıyor",
-      feature3Description: '"Otter\\\'a yılda 100$ ödüyorum ve beni ayda 10 dosya ile sınırlıyorlar. Sınırsız içe aktarma sunan bir alternatif çıkar çıkmaz gidiyorum!" - Gerçek Reddit kullanıcısı',
+      feature3Description: '"Otter\\\\\\\'a yılda 100$ ödüyorum ve beni ayda 10 dosya ile sınırlıyorlar. Sınırsız içe aktarma sunan bir alternatif çıkar çıkmaz gidiyorum!" - Gerçek Reddit kullanıcısı',
       feature3Point1Icon: "✓",
       feature3Point1Text: "50.000+ kullanıcı geçti",
       feature3Point2Icon: "✓",
-      feature3Point2Text: 'Otter\\\'ın "küçülme enflasyonu"ndan',
+      feature3Point2Text: 'Otter\\\\\\\'ın "küçülme enflasyonu"ndan',
       feature3Point3Icon: "✓",
       feature3Point3Text: "Asla geri dönmüyor",
       feature3Stat1Number: "50K+",
@@ -1987,7 +1987,7 @@ let message = {
             role: "Podcast Sunucusu"
           },
           jessica: {
-            textBefore: '"Serbest çalışan bir gazeteci olarak Trint\\\'in aylık $100\\\'ını karşılayamam, ama Otter\\\'ın aylık 10 dosya limitiyle de çalışamam. NeverCap kariyerimi kurtardı."',
+            textBefore: '"Serbest çalışan bir gazeteci olarak Trint\\\\\\\'in aylık $100\\\\\\\'ını karşılayamam, ama Otter\\\\\\\'ın aylık 10 dosya limitiyle de çalışamam. NeverCap kariyerimi kurtardı."',
             highlight: "$100/ay",
             textAfter: ", ama Otter'ın aylık 10 dosya limitiyle de çalışamam. NeverCap kariyerimi kurtardı.",
             name: "Jessica Park",
@@ -2001,7 +2001,7 @@ let message = {
             role: "Baş Araştırmacı"
           },
           carlos: {
-            textBefore: '"İspanyolca eğitim içeriği üretiyorum. NeverCap mükemmel transkribe ediyor ve daha geniş kitleler için İngilizce\\\'ye çeviriyor. Sınır yok, sadece büyüme."',
+            textBefore: '"İspanyolca eğitim içeriği üretiyorum. NeverCap mükemmel transkribe ediyor ve daha geniş kitleler için İngilizce\\\\\\\'ye çeviriyor. Sınır yok, sadece büyüme."',
             highlight: "İngilizce'ye çevir",
             textAfter: "daha geniş kitleler için. Sınır yok, sadece büyüme.",
             name: "Carlos Martinez",
@@ -2987,8 +2987,29 @@ let message = {
         title: "YouTube videolarını MP4 olarak indirin. Ücretsiz, hızlı ve reklamsız.",
         description: "Hizmetimizi seçtiğiniz için teşekkürler! Güveniniz bizim için çok değerli ve deneyiminizi geliştirdiğini umuyoruz. Web sitemizi arkadaşlarınızla paylaşırsanız çok yardımcı olursunuz.",
         downloadButton: "İndir",
-        downloadError: "İndirme Hatası."
-      }
+        downloadError: "İndirme Hatası.",
+          TranscribeButton: 'Uyarlamak'
+    },
+        freeResources: {
+              "linkTitle": "{NeverCap} tarafından desteklenmektedir",
+              "linkTitle2": "- Gerçekten Sınırsız Yapay Zeka Transkripsiyonu",
+              "title": "Ücretsiz Kaynaklar",
+              "steps": [
+                {
+                  "title": "Ücretsiz Ses ve Görüntü",
+                  "content": "Ses ve video dosyalarını saniyeler içinde metne dönüştürün Her gün 3 ücretsiz transkript."
+                },
+                {
+                  "title": "Ses Dosyalarını Metne Dönüştür",
+                  "content": "MP3, MP4, WAV, MOV yükleyin.",
+                  "content2": "DOCX, TXT, SRT (altyazılı) indirin."
+                },
+                {
+                  "title": "YouTube Videolarını Metne Dönüştür",
+                  "content": "YouTube videolarını doğru metne veya altyazıya dönüştürün. Sadece YouTube bağlantısını yapıştırın."
+                }
+              ]
+            }
     }
   },
   About: {
@@ -3118,7 +3139,7 @@ let message = {
     at: "adresinden",
     childrenDescription: "Hizmetler çocuklara yönelik değildir ve bilerek 13 yaşın altındaki çocuklardan Kişisel Bilgi toplamayız. 13 yaşın altındaysanız, lütfen Hizmetler aracılığıyla herhangi bir kişisel bilgi göndermeyin. Bir çocuğun bu Politikayı ihlal ederek bize Kişisel Bilgi sağladığını düşünüyorsanız, lütfen aşağıda belirtilen {at} {email} adresinden bizimle iletişime geçin.",
     contactDescription: "Gizlilik Politikamız hakkında herhangi bir sorunuz, yorumunuz veya şikayetiniz varsa, lütfen bizimle {at} {email} adresinden iletişime geçin ve şikayetinizi en kısa sürede ele almaya çalışacağız.",
-    policyDescriptionA: 'Bu Politika, {NeverCap}\\\'in (bundan böyle "NeverCap", "bizim", "bizi", "bize" olarak anılacaktır) hizmetlerimizi, web sitelerimizi ({url}) ve yazılımlarımızı (toplu olarak "Hizmetler") kullandığınızda kişisel bilgilerinizi nasıl topladığını, kullandığını ve ifşa ettiğini açıklar.'
+    policyDescriptionA: 'Bu Politika, {NeverCap}\\\\\\\'in (bundan böyle "NeverCap", "bizim", "bizi", "bize" olarak anılacaktır) hizmetlerimizi, web sitelerimizi ({url}) ve yazılımlarımızı (toplu olarak "Hizmetler") kullandığınızda kişisel bilgilerinizi nasıl topladığını, kullandığını ve ifşa ettiğini açıklar.'
   },
   TermsOfUse: {
     title: "Kullanım",
@@ -3217,7 +3238,7 @@ let message = {
     trademarkProtection: "Hizmetlerin adları, görünümü ve hissi Şirketin telif hakkı© altındadır. Tüm hakları saklıdır. Şirketten açık yazılı izin alınmadıkça HTML, CSS, JavaScript veya görsel tasarım öğelerinin herhangi bir bölümünü çoğaltamaz, kopyalayamaz veya yeniden kullanamazsınız. Şirketin logosunu veya herhangi bir Hizmet logosunu tanıtım amaçlı kullanmak için izin almalısınız. Logo kullanım isteklerini lütfen {at} {email} adresine e-posta ile gönderin. Hizmet Şartlarını ihlal etmeniz durumunda bu izni geri çekme hakkını saklı tutarız.",
     privacyPolicyDescription: "Veri gizliliği ve güvenliğine önem veriyoruz. Lütfen {policy}'mizi inceleyin. Siteyi kullanarak, bu Hizmet Şartlarına dahil edilen Gizlilik Politikamızla bağlı olmayı kabul edersiniz. Sitenin Amerika Birleşik Devletleri'nde barındırıldığını lütfen unutmayın. Siteye, kişisel veri toplama, kullanma veya açıklama konusunda Amerika Birleşik Devletleri'ndeki uygulanabilir yasalardan farklı yasa veya diğer gereklilikleri olan dünyanın herhangi bir başka bölgesinden erişiyorsanız, Siteyi kullanmaya devam etmekle verilerinizi Amerika Birleşik Devletleri'ne aktarıyor ve verilerinizin Amerika Birleşik Devletleri'ne transfer edilerek işlenmesini kabul ediyorsunuz.",
     contactDescription: "Hizmet Şartları hakkında bir sorunuz varsa, lütfen bizimle {at} {email} adresinden iletişime geçin.",
-    "companyDefinitionA": 'Bu belgede "Şirket", "biz", "bizim" veya "bize" dediğimizde {NeverCap}\\\'ten bahsediyoruz.'
+    "companyDefinitionA": 'Bu belgede "Şirket", "biz", "bizim" veya "bize" dediğimizde {NeverCap}\\\\\\\'ten bahsediyoruz.'
   },
   Blog: {
     Hero: {

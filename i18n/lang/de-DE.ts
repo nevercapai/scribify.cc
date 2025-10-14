@@ -3003,8 +3003,29 @@ let message = {
         title: "YouTube-Videos als MP4 herunterladen. Kostenlos, schnell und ohne Werbung.",
         description: "Vielen Dank, dass Sie unseren Service gewählt haben! Wir schätzen Ihr Vertrauen und hoffen, es hat Ihnen gefallen. Es würde uns sehr helfen, wenn Sie unsere Website mit Ihren Freunden teilen würden.",
         downloadButton: "Herunterladen",
-        downloadError: "Downloadfehler."
-      }
+        downloadError: "Downloadfehler.",
+          TranscribeButton: 'Transkribieren'
+    },
+        freeResources: {
+              "linkTitle": "Unterstützt von {NeverCap}",
+              "linkTitle2": "- Wirklich unbegrenzte KI-Transkription",
+              "title": "Kostenlose Ressourcen",
+              "steps": [
+                {
+                  "title": "Kostenloses Audio und Video",
+                  "content": "Konvertieren Sie Audio- und Videodateien in Sekundenschnelle in Text. 3 kostenlose Transkripte jeden Tag."
+                },
+                {
+                  "title": "Audiodateien in Text konvertieren",
+                  "content": "Laden Sie MP3, MP4, WAV, MOV hoch.",
+                  "content2": "Laden Sie DOCX, TXT, SRT (Untertitel) herunter."
+                },
+                {
+                  "title": "YouTube-Videos transkribieren",
+                  "content": "Konvertieren Sie YouTube-Videos in präzisen Text oder Untertitel. Fügen Sie einfach den YouTube-Link ein."
+                }
+              ]
+            }
     }
   },
   About: {

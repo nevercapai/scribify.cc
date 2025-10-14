@@ -2947,8 +2947,29 @@ let message = {
         title: "下載 YouTube 影片為 MP4。免費、快速且無廣告。",
         description: "感謝您選擇我們的服務！我們真心感謝您的信任，並希望這提升了您的使用體驗。如果您能將我們的網站分享給朋友，那將是極大的幫助。",
         downloadButton: "下載",
-        downloadError: "下載錯誤。"
-      }
+        downloadError: "下載錯誤。",
+          TranscribeButton: '錄製'
+    },
+        freeResources: {
+              "linkTitle": "由 {NeverCap} 提供支持",
+              "linkTitle2": "- 真正無限的人工智慧轉錄",
+              "title": "免費資源",
+              "steps": [
+                {
+                  "title": "免費音訊和視頻",
+                  "content": "只需幾秒鐘即可將音訊和視訊檔案轉換為文本，每天 3 個免費成績單。"
+                },
+                {
+                  "title": "將音訊檔案轉換為文字",
+                  "content": "上傳 MP3、MP4、WAV、MOV。",
+                  "content2": "下載 DOCX、TXT、SRT（字幕）。"
+                },
+                {
+                  "title": "轉錄 YouTube 影片",
+                  "content": "將 YouTube 影片轉換為準確的文字或字幕。只需貼上 YouTube 連結即可。"
+                }
+              ]
+            }
     }
   },
   About: {

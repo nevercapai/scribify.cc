@@ -2996,8 +2996,29 @@ let message = {
         title: "Descarga videos de YouTube como MP4. Gratis, rápido y sin anuncios.",
         description: "¡Gracias por elegir nuestro servicio! Realmente apreciamos tu confianza y esperamos que haya mejorado tu experiencia. Si pudieras compartir nuestro sitio web con tus amigos, sería de gran ayuda.",
         downloadButton: "Descargar",
-        downloadError: "Error de descarga."
-      }
+        downloadError: "Error de descarga.",
+          TranscribeButton: 'Transcribir'
+    },
+        freeResources: {
+              "linkTitle": "Desarrollado por {NeverCap}",
+              "linkTitle2": "- Transcripción de IA verdaderamente ilimitada",
+              "title": "Recursos gratuitos",
+              "steps": [
+                {
+                  "title": "Audio y vídeo gratuitos",
+                  "content": "Convierte archivos de audio y video a texto en segundos. 3 transcripciones gratuitas todos los días."
+                },
+                {
+                  "title": "Convertir archivos de audio a texto",
+                  "content": "Subir MP3, MP4, WAV, MOV.",
+                  "content2": "Descargar DOCX, TXT, SRT (subtítulos)."
+                },
+                {
+                  "title": "Transcribir vídeos de YouTube",
+                  "content": "Convierte videos de YouTube en texto o subtítulos precisos. Simplemente pega el enlace de YouTube."
+                }
+              ]
+            }
     }
   },
   About: {

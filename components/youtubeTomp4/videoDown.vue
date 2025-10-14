@@ -6,11 +6,11 @@
       <!-- 顶部文案说明 -->
       <div class="mb-[1.25rem]">
         <div class="text-[1rem] font-medium text-white">
-          {{ t('Resources.YouTubeToMP4.videoDownload.title') }}
+          {{ t("Resources.YouTubeToMP4.videoDownload.title") }}
         </div>
         <div class="download-line h-1 w-[6.5rem] rounded"></div>
         <div class="text-[1rem] leading-snug text-white">
-          {{ t('Resources.YouTubeToMP4.videoDownload.description') }}
+          {{ t("Resources.YouTubeToMP4.videoDownload.description") }}
         </div>
       </div>
       <!-- 内容卡片：左右布局 -->
@@ -36,15 +36,26 @@
           >
             {{ file.fileName }}
           </div>
-          <el-button
-            @click="throttledDownload"
-            :loading="loading"
-            type="primary"
-            class="!h-[2.75rem] !w-[13.5rem] !rounded-[1.375rem] !border-0 !bg-[#9334EB] !text-[1rem] font-bold"
-            color="#3470FF"
-          >
-            {{ t('Resources.YouTubeToMP4.videoDownload.downloadButton') }}
-          </el-button>
+          <div class="flex">
+            <el-button
+              @click="throttledDownload"
+              :loading="loading"
+              type="primary"
+              class="!h-[2.75rem] !w-[13.5rem] !rounded-[1.375rem] !border-0 !bg-[#9334EB] !text-[1rem] font-bold"
+              color="#3470FF"
+            >
+              {{ t("Resources.YouTubeToMP4.videoDownload.downloadButton") }}
+            </el-button>
+            <NuxtLink
+              class="ms-[0.625rem] flex !h-[2.75rem] !w-[13.5rem] items-center justify-center !rounded-[1.375rem] !border-0 !text-[1rem] font-bold"
+              style="
+                background: linear-gradient(90deg, #dc2628 0%, #9534e6 100%);
+              "
+              :to="$localePath('/')"
+            >
+              {{ t("Resources.YouTubeToMP4.videoDownload.TranscribeButton") }}
+            </NuxtLink>
+          </div>
         </div>
       </div>
     </div>
@@ -101,7 +112,7 @@ const downloadVideo = async () => {
   } catch (e) {
     loading.value = false;
     Msg({
-      message: t('Resources.YouTubeToMP4.videoDownload.downloadError'),
+      message: t("Resources.YouTubeToMP4.videoDownload.downloadError"),
       type: "error"
     });
   }

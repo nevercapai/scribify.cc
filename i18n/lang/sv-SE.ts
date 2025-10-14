@@ -2987,8 +2987,29 @@ let message = {
         title: "Ladda ner YouTube-videor som MP4. Gratis, snabbt och utan reklam.",
         description: "Tack för att du valt vår tjänst! Vi uppskattar verkligen ditt förtroende och hoppas att det förbättrat din upplevelse. Om du kan dela vår webbplats med dina vänner skulle det vara en stor hjälp.",
         downloadButton: "Ladda ner",
-        downloadError: "Nedladdningsfel"
-      }
+        downloadError: "Nedladdningsfel",
+          TranscribeButton: 'Transkribera'
+    },
+        freeResources: {
+              "linkTitle": "Drivs av {NeverCap}",
+              "linkTitle2": "- Verkligen obegränsad AI-transkription",
+              "title": "Gratis resurser",
+              "steps": [
+                {
+                  "title": "Gratis ljud och video",
+                  "content": "Konvertera ljud- och videofiler till text på några sekunder. 3 gratis transkriptioner varje dag."
+                },
+                {
+                  "title": "Konvertera ljudfiler till text",
+                  "content": "Ladda upp MP3, MP4, WAV, MOV.",
+                  "content2": "Ladda ner DOCX, TXT, SRT (undertexter)."
+                },
+                {
+                  "title": "Transkribera YouTube-videor",
+                  "content": "Konvertera YouTube-videor till korrekt text eller undertexter. Klistra bara in YouTube-länken."
+                }
+              ]
+            }
     }
   },
   About: {

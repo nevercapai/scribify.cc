@@ -2989,8 +2989,29 @@ let message = {
         title: "YouTube-videók letöltése MP4 formátumban. Ingyenes, gyors és reklámmentes.",
         description: "Köszönjük, hogy minket választott! Nagyra értékeljük a bizalmadat, és reméljük, hogy élményedet fokoztuk. Hatalmas segítséget jelentene, ha megosztanád weboldalunkat a barátaiddal.",
         downloadButton: "Letöltés",
-        downloadError: "Letöltési hiba."
-      }
+        downloadError: "Letöltési hiba.",
+          TranscribeButton: 'Lemásol'
+    },
+        freeResources: {
+              "linkTitle": "{NeverCap} által működtetve",
+              "linkTitle2": "- Valóban korlátlan AI átírás",
+              "title": "Ingyenes források",
+              "steps": [
+                {
+                  "title": "Ingyenes hang- és videó",
+                  "content": "Konvertáljon hang- és videofájlokat szöveggé másodpercek alatt. Naponta 3 ingyenes átirat."
+                },
+                {
+                  "title": "Hangfájlok konvertálása szöveggé",
+                  "content": "MP3, MP4, WAV és MOV fájlok feltöltése.",
+                  "content2": "DOCX, TXT, SRT (feliratok) letöltése."
+                },
+                {
+                  "title": "YouTube-videók átírása",
+                  "content": "Konvertálja a YouTube-videókat pontos szöveggé vagy felirattá. Csak illessze be a YouTube-linket."
+                }
+              ]
+            }
     }
   },
   About: {

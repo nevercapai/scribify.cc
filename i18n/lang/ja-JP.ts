@@ -3147,8 +3147,29 @@ let message = {
         title: "YouTube動画をMP4形式でダウンロード。無料、高速、広告なし",
         description: "当サービスをご利用いただきありがとうございます！お客様の信頼に心から感謝し、体験を向上させられたことを願っています。友人と当サイトを共有していただけると大変助かります",
         downloadButton: "ダウンロード",
-        downloadError: "ダウンロードエラー"
-      }
+        downloadError: "ダウンロードエラー",
+          TranscribeButton: '転写'
+    },
+        freeResources: {
+              "linkTitle": "{NeverCap} によって提供",
+              "linkTitle2": "- 真に無制限のAIトランスクリプション",
+              "title": "無料リソース",
+              "steps": [
+                {
+                  "title": "無料のオーディオとビデオ",
+                  "content": "オーディオ ファイルとビデオ ファイルを数秒でテキストに変換します。毎日 3 つのトランスクリプトが無料で提供されます。"
+                },
+                {
+                  "title": "オーディオファイルをテキストに変換する",
+                  "content": "MP3、MP4、WAV、MOV をアップロードします。",
+                  "content2": "DOCX、TXT、SRT（字幕）をダウンロードしてください。"
+                },
+                {
+                  "title": "YouTube動画の文字起こし",
+                  "content": "YouTube 動画を正確なテキストまたは字幕に変換します。YouTube リンクを貼り付けるだけです。"
+                }
+              ]
+            }
     }
   },
   About: {

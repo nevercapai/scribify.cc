@@ -2987,8 +2987,29 @@ let message = {
         title: "Download YouTube-videoer som MP4. Gratis, hurtigt og ingen reklamer.",
         description: "Tak fordi du valgte vores service! Vi sætter stor pris på din tillid og håber, det forbedrede din oplevelse. Hvis du vil dele vores hjemmeside med dine venner, ville det være en stor hjælp.",
         downloadButton: "Download",
-        downloadError: "Downloadfejl."
-      }
+        downloadError: "Downloadfejl.",
+          TranscribeButton: 'Transskriber'
+    },
+        freeResources: {
+              "linkTitle": "Drevet af {NeverCap}",
+              "linkTitle2": "- Virkelig ubegrænset AI-transkription",
+              "title": "Gratis ressourcer",
+              "steps": [
+                {
+                  "title": "Gratis lyd og video",
+                  "content": "Konverter lyd- og videofiler til tekst på få sekunder. 3 gratis transskriptioner hver dag."
+                },
+                {
+                  "title": "Konverter lydfiler til tekst",
+                  "content": "Upload MP3, MP4, WAV, MOV.",
+                  "content2": "Download DOCX, TXT, SRT (undertekster)."
+                },
+                {
+                  "title": "Transskriber YouTube-videoer",
+                  "content": "Konverter YouTube-videoer til præcis tekst eller undertekster. Indsæt blot YouTube-linket."
+                }
+              ]
+            }
     }
   },
   About: {

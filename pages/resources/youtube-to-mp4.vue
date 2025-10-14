@@ -20,6 +20,8 @@
         </transition>
         <!--2、 三步操作流程 -->
         <div class="divide-line"></div>
+        <YoutubeTomp4FreeResources></YoutubeTomp4FreeResources>
+        <div class="divide-line"></div>
         <part2></part2>
       </div>
     </main>

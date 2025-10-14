@@ -1118,7 +1118,7 @@ let message = {
       no_surprises: "Transcription IA",
       transparency: "Plus de Limites Cachées, Plus de Surprises - Alors que d'autres réduisent discrètement vos minutes ou cachent des plafonds dans les petits caractères, nous croyons en une transparence radicale",
       feat_unltd: "Vraiment Illimité",
-      feat_unltd_desc: 'Pas de "politique d\\\'usage raisonnable" cachée dans les conditions. Pas de plafonds de stockage déguisés en "illimité". Téléchargez toute votre archive, transcrivez tout pour tous vos besoins audio. Nous le pensons vraiment.',
+      feat_unltd_desc: 'Pas de "politique d\\\\\\\'usage raisonnable" cachée dans les conditions. Pas de plafonds de stockage déguisés en "illimité". Téléchargez toute votre archive, transcrivez tout pour tous vos besoins audio. Nous le pensons vraiment.',
       feat_bulk: "Liberté de Téléchargement en Masse",
       feat_bulk_desc: 'Fatigué des "3 imports à vie" ou "10 fichiers par mois" ? Téléchargez 50 fichiers à la fois, autant de fois que nécessaire. Idéal pour traiter les retards.',
       feat_batch: "Traitement par Lots",
@@ -1288,7 +1288,7 @@ let message = {
       feature1TitlePart2: "Même Prix.",
       feature1Description: "Arrêtez de compter les minutes. Arrêtez de surveiller les plafonds. Que vous transcriviez 10 heures ou 10 000 heures par mois, vous payez le même tarif fixe. Pas de frais supplémentaires. Pas de factures surprises.",
       feature1Point1Icon: "✓",
-      feature1Point1Text: 'Pas de pièges de "politique d\\\'usage équitable"',
+      feature1Point1Text: 'Pas de pièges de "politique d\\\\\\\'usage équitable"',
       feature1Point2Icon: "✓",
       feature1Point2Text: "Pas de ralentissement après X heures",
       feature1Point3Icon: "✓",
@@ -1321,11 +1321,11 @@ let message = {
       feature3Label: "Preuve sociale",
       feature3TitlePart1: "Les utilisateurs",
       feature3TitlePart2: "Changent chaque jour",
-      feature3Description: '"Je paie 100 $/an pour Otter et ils me limitent à 10 imports de fichiers par mois. Dès qu\\\'il y aura une alternative avec des imports illimités, je pars !" - Vrai utilisateur Reddit',
+      feature3Description: '"Je paie 100 $/an pour Otter et ils me limitent à 10 imports de fichiers par mois. Dès qu\\\\\\\'il y aura une alternative avec des imports illimités, je pars !" - Vrai utilisateur Reddit',
       feature3Point1Icon: "✓",
       feature3Point1Text: "50 000+ utilisateurs ont changé",
       feature3Point2Icon: "✓",
-      feature3Point2Text: 'Face à la "shrinkflation" d\\\'Otter',
+      feature3Point2Text: 'Face à la "shrinkflation" d\\\\\\\'Otter',
       feature3Point3Icon: "✓",
       feature3Point3Text: "Jamais de retour en arrière",
       feature3Stat1Number: "50 K+",
@@ -1358,7 +1358,7 @@ let message = {
       heroSubtitle: "Otter ne vous offre que 3 imports à vie. TROIS. Pour toute votre vie. Nous vous offrons des transferts illimités, par lots de 50 fichiers, quand vous voulez.",
       primaryCta: "Commencer le Transfert en Masse →",
       secondaryCta: "Voir les Limites",
-      redditQuote: '"J\\\'ai 3 ans d\\\'épisodes de podcast à transcrire. Otter m\\\'annonce 3 imports à vie. TROIS. C\\\'est insultant."',
+      redditQuote: '"J\\\\\\\'ai 3 ans d\\\\\\\'épisodes de podcast à transcrire. Otter m\\\\\\\'annonce 3 imports à vie. TROIS. C\\\\\\\'est insultant."',
       redditAuthorIcon: "📍",
       redditAuthorText: "Réelle frustration de r/podcasting",
       comparisonSectionTitlePart1: "Les",
@@ -1384,7 +1384,7 @@ let message = {
       feature1TitlePart1: "Traitez Vos",
       feature1TitleHighlight: "Archives Entières",
       feature1TitlePart2: "en Une Nuit",
-      feature1Description: 'Transférez 50 fichiers avant de dormir. Réveillez-vous avec les transcriptions prêtes. Pas de file d\\\'attente, pas d\\\'attente, pas de messages "upgradez". Juste une puissance de traitement à portée de main.',
+      feature1Description: 'Transférez 50 fichiers avant de dormir. Réveillez-vous avec les transcriptions prêtes. Pas de file d\\\\\\\'attente, pas d\\\\\\\'attente, pas de messages "upgradez". Juste une puissance de traitement à portée de main.',
       feature1Point1Icon: "✓",
       feature1Point1Text: "50 transferts simultanés",
       feature1Point2Icon: "✓",
@@ -1426,7 +1426,7 @@ let message = {
       feature3TitlePart1: "Pas de files d'attente.",
       feature3TitleHighlight: "Pas d'attente.",
       feature3TitlePart2: "Pas de limites.",
-      feature3Description: 'Alors que d\\\'autres vous font attendre dans des files virtuelles ou vous proposent des mises à niveau pour un "traitement prioritaire", nous traitons chaque téléchargement avec urgence. Votre contenu compte, et il ne devrait pas attendre.',
+      feature3Description: 'Alors que d\\\\\\\'autres vous font attendre dans des files virtuelles ou vous proposent des mises à niveau pour un "traitement prioritaire", nous traitons chaque téléchargement avec urgence. Votre contenu compte, et il ne devrait pas attendre.',
       feature3Point1Icon: "✓",
       feature3Point1Text: "Pas de niveaux de priorité",
       feature3Point2Icon: "✓",
@@ -1707,7 +1707,7 @@ let message = {
           "badge": "Meilleur Rapport Qualité-Prix - "
         }
       ],
-      "disclaimer": '"Illimité" signifie pas de plafond mensuel ni de ralentissement artificiel. L\\\'usage équitable s\\\'applique à l\\\'automatisation abusive ou la redistribution.'
+      "disclaimer": '"Illimité" signifie pas de plafond mensuel ni de ralentissement artificiel. L\\\\\\\'usage équitable s\\\\\\\'applique à l\\\\\\\'automatisation abusive ou la redistribution.'
     },
     ComparisonTable: {
       "header": {
@@ -1894,7 +1894,7 @@ let message = {
       },
       contentCreators: {
         title: "Créateurs de contenu",
-        pain: '"L\\\'accessibilité ne devrait pas être coûteuse"',
+        pain: '"L\\\\\\\'accessibilité ne devrait pas être coûteuse"',
         description: "Sous-titrez toute votre chaîne YouTube. Générez des sous-titres en plusieurs langues et améliorez instantanément le SEO de vos vidéos.",
         benefits: {
           benefit1: "Sous-titrez toutes les vidéos en une fois",
@@ -1969,7 +1969,7 @@ let message = {
       },
       educators: {
         title: "Éducateurs",
-        pain: '"Les vidéos YouTube ont besoin d\\\'une transcription instantanée"',
+        pain: '"Les vidéos YouTube ont besoin d\\\\\\\'une transcription instantanée"',
         description: "Collez simplement des liens YouTube pour obtenir des transcriptions instantanées et des sous-titres générés automatiquement. Transformez toute vidéo éducative en contenu accessible et consultable.",
         benefits: {
           benefit1: "Transcription directe de liens YouTube",
@@ -1998,23 +1998,23 @@ let message = {
         subtitle: "Écoutez des professionnels qui ont brisé les limites artificielles",
         testimonials: {
           mike: {
-            textBefore: '"J\\\'avais',
+            textBefore: '"J\\\\\\\'avais',
             highlight: "3 ans d'épisodes",
-            textAfter: 'non transcrits. Otter voulait que j\\\'en choisisse 3. TROIS. NeverCap m\\\'a permis de télécharger les 150 épisodes en un week-end."',
+            textAfter: 'non transcrits. Otter voulait que j\\\\\\\'en choisisse 3. TROIS. NeverCap m\\\\\\\'a permis de télécharger les 150 épisodes en un week-end."',
             name: "Mike Rodriguez",
             role: "Animateur de podcast"
           },
           jessica: {
             textBefore: '"En tant que journaliste indépendante, je ne peux pas me permettre les',
             highlight: "$100/mois",
-            textAfter: 'de Trint, mais je ne peux pas non plus travailler avec la limite de 10 fichiers par mois d\\\'Otter. NeverCap a sauvé ma carrière."',
+            textAfter: 'de Trint, mais je ne peux pas non plus travailler avec la limite de 10 fichiers par mois d\\\\\\\'Otter. NeverCap a sauvé ma carrière."',
             name: "Jessica Park",
             role: "Journaliste indépendante"
           },
           sarah: {
             textBefore: '"Notre équipe de recherche avait',
             highlight: "200 heures",
-            textAfter: 'd\\\'enregistrements de groupes de discussion. Nous avons tout traité en un week-end au lieu de rationner les minutes mensuelles."',
+            textAfter: 'd\\\\\\\'enregistrements de groupes de discussion. Nous avons tout traité en un week-end au lieu de rationner les minutes mensuelles."',
             name: "Dr. Sarah Chen",
             role: "Chercheuse principale"
           },
@@ -2077,7 +2077,7 @@ let message = {
       },
       problemTitle: "Le",
       problemTitleHighlight: "Problème de transcription de podcasts",
-      problemSubtitle: 'D\\\'autres services vous obligent à choisir quels épisodes "méritent" d\\\'être transcrits',
+      problemSubtitle: 'D\\\\\\\'autres services vous obligent à choisir quels épisodes "méritent" d\\\\\\\'être transcrits',
       problems: {
         problem1: {
           title: "Les limites de téléchargement tuent les archives",
@@ -2149,12 +2149,12 @@ let message = {
       testimonialsSubtitle: "Des histoires vraies de vrais podcasteurs",
       testimonials: {
         mike: {
-          text: '"Je fais un podcast depuis 3 ans et je transcrivais tout manuellement comme un idiot. J\\\'ai téléchargé 6 épisodes d\\\'un coup et cela a parfaitement séparé mon co-animateur et moi. L\\\'épisode en café que je pensais raté ? Une transcription cristalline. Je ne retaperai plus jamais ça moi-même."',
+          text: '"Je fais un podcast depuis 3 ans et je transcrivais tout manuellement comme un idiot. J\\\\\\\'ai téléchargé 6 épisodes d\\\\\\\'un coup et cela a parfaitement séparé mon co-animateur et moi. L\\\\\\\'épisode en café que je pensais raté ? Une transcription cristalline. Je ne retaperai plus jamais ça moi-même."',
           name: "Mike Rodriguez",
           role: 'Animateur du podcast "The Daily Grind"'
         },
         sarah: {
-          text: '"Otter me limitait à 10 imports de fichiers par mois. J\\\'avais 150 épisodes en retard. NeverCap m\\\'a permis de tout télécharger en 3 lots. Mon trafic organique a augmenté de 300% depuis l\\\'ajout de transcriptions aux anciens épisodes. Cela s\\\'est littéralement payé tout seul."',
+          text: '"Otter me limitait à 10 imports de fichiers par mois. J\\\\\\\'avais 150 épisodes en retard. NeverCap m\\\\\\\'a permis de tout télécharger en 3 lots. Mon trafic organique a augmenté de 300% depuis l\\\\\\\'ajout de transcriptions aux anciens épisodes. Cela s\\\\\\\'est littéralement payé tout seul."',
           name: "Sarah Chen",
           role: 'Créatrice de "Tech Talks Today"'
         }
@@ -2269,7 +2269,7 @@ let message = {
       problem: {
         title: "Le",
         titleHighlight: "Problème de transcription des journalistes",
-        subtitle: 'D\\\'autres services vous obligent à choisir quelles interviews "méritent" d\\\'être transcrites',
+        subtitle: 'D\\\\\\\'autres services vous obligent à choisir quelles interviews "méritent" d\\\\\\\'être transcrites',
         problems: {
           uploadLimits: {
             title: "Les limites de téléchargement tuent les enquêtes",
@@ -2617,7 +2617,7 @@ let message = {
       statsSpeakersId: "ID intervenants",
       statsCompliant: "Conforme",
       problemTitle: "Le",
-      problemSubtitle: 'D\\\'autres services vous font choisir quelles données "méritent" d\\\'être transcrites',
+      problemSubtitle: 'D\\\\\\\'autres services vous font choisir quelles données "méritent" d\\\\\\\'être transcrites',
       problemCard1Title: "Les limites de téléchargement tuent les études",
       problemCard1Desc: "Otter offre 3 imports à vie. Comment transcrire 200 heures de groupes de discussion ?",
       problemCard2Title: "Données critiques manquantes",
@@ -2627,7 +2627,7 @@ let message = {
       solutionTitle: "Solution NeverCap",
       feature1Label: "Pas de limites",
       feature1Title: "Gérer votre",
-      feature1Desc: 'Téléchargez 200 heures d\\\'entretiens ce soir. Réveillez-vous avec des transcriptions complètes et consultables. Pas de plafonds mensuels, pas de limites par fichier, pas de "fair use" absurde.',
+      feature1Desc: 'Téléchargez 200 heures d\\\\\\\'entretiens ce soir. Réveillez-vous avec des transcriptions complètes et consultables. Pas de plafonds mensuels, pas de limites par fichier, pas de "fair use" absurde.',
       feature1Point1: "Téléchargement par lots de 50 fichiers simultanément",
       feature1Point2: "Traitez complètement les études longitudinales",
       feature1Point3: "Pas de limites de stockage pour les transcriptions",
@@ -2764,7 +2764,7 @@ let message = {
       workflowStep4Desc: "Découvrez des insights dans toutes vos réunions",
       testimonialsTitle: "Les équipes adorent",
       testimonialsSubtitle: "Découvrez comment les entreprises transforment leur culture de réunion",
-      testimonial1Text: '"Nous sommes passés à côté de détails cruciaux à une archive consultable de chaque conversation. La fonction d\\\'enregistrement direct signifie que nous n\\\'oublions jamais de capturer les discussions importantes."',
+      testimonial1Text: '"Nous sommes passés à côté de détails cruciaux à une archive consultable de chaque conversation. La fonction d\\\\\\\'enregistrement direct signifie que nous n\\\\\\\'oublions jamais de capturer les discussions importantes."',
       testimonial1AuthorName: "James Kim",
       testimonial1AuthorRole: "Chef de produit, TechCorp",
       testimonial2Text: '"Otter nous limitait à 10 téléversements par mois. Maintenant, nous téléversons tous nos appels clients instantanément. Un changement radical pour le suivi de notre équipe commerciale."',
@@ -2991,7 +2991,7 @@ let message = {
           },
           {
             question: "Où est enregistré un MP4 téléchargé sur smartphone ?",
-            answer: 'Après avoir téléchargé un MP4 sur votre smartphone, vous pouvez généralement le trouver dans le dossier "Téléchargements" de l\\\'application de gestion de fichiers de votre appareil.'
+            answer: 'Après avoir téléchargé un MP4 sur votre smartphone, vous pouvez généralement le trouver dans le dossier "Téléchargements" de l\\\\\\\'application de gestion de fichiers de votre appareil.'
           },
           {
             question: "La conversion en MP4 réduit-elle la qualité ?",
@@ -3005,8 +3005,29 @@ let message = {
         title: "Téléchargez les vidéos YouTube en MP4. Gratuit, rapide et sans publicité.",
         description: "Merci d'avoir choisi notre service ! Nous apprécions vraiment votre confiance et espérons que cela a amélioré votre expérience. Si vous pouviez partager notre site avec vos amis, ce serait une aide précieuse.",
         downloadButton: "Télécharger",
-        downloadError: "Erreur de téléchargement."
-      }
+        downloadError: "Erreur de téléchargement.",
+          TranscribeButton: 'Transcrire'
+    },
+        freeResources: {
+              "linkTitle": "Propulsé par {NeverCap}",
+              "linkTitle2": "- Transcription IA véritablement illimitée",
+              "title": "Ressources gratuites",
+              "steps": [
+                {
+                  "title": "Audio et vidéo gratuits",
+                  "content": "Convertissez des fichiers audio et vidéo en texte en quelques secondes. 3 transcriptions gratuites chaque jour."
+                },
+                {
+                  "title": "Convertir des fichiers audio en texte",
+                  "content": "Téléchargez MP3, MP4, WAV, MOV.",
+                  "content2": "Téléchargez DOCX, TXT, SRT (sous-titres)."
+                },
+                {
+                  "title": "Transcrire des vidéos YouTube",
+                  "content": "Convertissez les vidéos YouTube en texte précis ou en sous-titres. Collez simplement le lien YouTube."
+                }
+              ]
+            }
     }
   },
   About: {
@@ -3202,7 +3223,7 @@ let message = {
     "automation": "Utiliser des systèmes automatisés, comme des scripts pour envoyer des commentaires ou messages, ou des outils de collecte de données.",
     "copyrightRemoval": "Supprimer les mentions de droits d'auteur ou autres droits de propriété de tout Contenu.",
     "impersonation": "Tenter d'usurper l'identité d'un autre utilisateur ou personne.",
-    "spyware": 'Télécharger ou transmettre tout matériel servant de mécanisme passif ou actif de collecte ou transmission d\\\'informations, comme des "gifs", pixels invisibles, cookies, etc.',
+    "spyware": 'Télécharger ou transmettre tout matériel servant de mécanisme passif ou actif de collecte ou transmission d\\\\\\\'informations, comme des "gifs", pixels invisibles, cookies, etc.',
     "disruption": "Interférer avec ou surcharger le Site ou les réseaux et services qui y sont connectés.",
     "employeeHarassment": "Harceler, ennuyer, intimider ou menacer nos employés ou agents.",
     "accessCircumvention": "Tenter de contourner les mesures de restriction d'accès au Site ou à certaines parties.",

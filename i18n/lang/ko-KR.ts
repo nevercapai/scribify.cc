@@ -2980,8 +2980,29 @@ let message = {
         title: "YouTube 동영상을 MP4로 다운로드하세요. 무료, 빠르고 광고 없음.",
         description: "저희 서비스를 선택해 주셔서 감사합니다! 신뢰에 깊이 감사드리며 더 좋은 경험이 되었기를 바랍니다. 친구들에게 저희 웹사이트를 공유해 주시면 큰 도움이 됩니다.",
         downloadButton: "다운로드",
-        downloadError: "다운로드 오류."
-      }
+        downloadError: "다운로드 오류.",
+          TranscribeButton: '고쳐 쓰다'
+    },
+        freeResources: {
+              "linkTitle": "{NeverCap}에서 제공",
+              "linkTitle2": "- 진정한 무제한 AI 필사",
+              "title": "무료 리소스",
+              "steps": [
+                {
+                  "title": "무료 오디오 및 비디오",
+                  "content": "오디오 및 비디오 파일을 몇 초 만에 텍스트로 변환합니다. 매일 무료로 3개의 대본을 받아보세요."
+                },
+                {
+                  "title": "오디오 파일을 텍스트로 변환",
+                  "content": "MP3, MP4, WAV, MOV를 업로드하세요.",
+                  "content2": "DOCX, TXT, SRT(자막)을 다운로드하세요."
+                },
+                {
+                  "title": "YouTube 동영상 필사",
+                  "content": "YouTube 동영상을 정확한 텍스트나 자막으로 변환하세요. YouTube 링크를 붙여넣기만 하면 됩니다."
+                }
+              ]
+            }
     }
   },
   About: {

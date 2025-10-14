@@ -1807,8 +1807,16 @@ let message = {
         {
           "name": "Retenção de dados",
           "values": ["30 dias", "Para sempre", "Para sempre"]
-        }
-      ]
+        },
+          {
+            "name": "Retenção de dados",
+            "values": [
+              "30 dias",
+              "Para sempre",
+              "Para sempre"
+            ]
+          }
+    ]
     },
     FAQ: {
       "title": "Perguntas",
@@ -3148,8 +3156,29 @@ let message = {
         title: "Baixe vídeos do YouTube como MP4. Grátis, rápido e sem anúncios.",
         description: "Obrigado por escolher nosso serviço! Nós realmente valorizamos sua confiança e esperamos que tenha melhorado sua experiência. Se puder compartilhar nosso site com seus amigos, será de grande ajuda.",
         downloadButton: "Baixar",
-        downloadError: "Erro no download."
-      }
+        downloadError: "Erro no download.",
+          TranscribeButton: 'Transcrever'
+    },
+        freeResources: {
+              "linkTitle": "Desenvolvido por {NeverCap}",
+              "linkTitle2": "- Transcrição de IA verdadeiramente ilimitada",
+              "title": "Recursos gratuitos",
+              "steps": [
+                {
+                  "title": "Áudio e vídeo gratuitos",
+                  "content": "Converta arquivos de áudio e vídeo em texto em segundos. 3 transcrições gratuitas todos os dias."
+                },
+                {
+                  "title": "Converter arquivos de áudio em texto",
+                  "content": "Carregue MP3, MP4, WAV, MOV.",
+                  "content2": "Baixe DOCX, TXT, SRT (legendas)."
+                },
+                {
+                  "title": "Transcrever vídeos do YouTube",
+                  "content": "Converta vídeos do YouTube em texto ou legendas precisas. Basta colar o link do YouTube."
+                }
+              ]
+            }
     }
   },
   About: {

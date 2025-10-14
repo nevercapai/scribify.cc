@@ -1308,7 +1308,7 @@ let message = {
       feature3Label: "Prova sociale",
       feature3TitlePart1: "Gli utenti",
       feature3TitlePart2: "Cambiano ogni giorno",
-      feature3Description: '"Pago $100/anno per Otter e mi limitano a 10 importazioni di file al mese. Nel momento in cui ci sarà un\\\'alternativa con importazioni illimitate, me ne vado!" - Utente reale di Reddit',
+      feature3Description: '"Pago $100/anno per Otter e mi limitano a 10 importazioni di file al mese. Nel momento in cui ci sarà un\\\\\\\'alternativa con importazioni illimitate, me ne vado!" - Utente reale di Reddit',
       feature3Point1Icon: "✓",
       feature3Point1Text: "50.000+ utenti hanno cambiato",
       feature3Point2Icon: "✓",
@@ -1371,7 +1371,7 @@ let message = {
       feature1TitlePart1: "Elabora il Tuo",
       feature1TitleHighlight: "Intero Archivio",
       feature1TitlePart2: "In una Notte",
-      feature1Description: 'Carica 50 file prima di dormire. Svegliati con le trascrizioni complete. Niente code, niente attese, nessun messaggio "aggiorna l\\\'account". Solo pura potenza di elaborazione a portata di mano.',
+      feature1Description: 'Carica 50 file prima di dormire. Svegliati con le trascrizioni complete. Niente code, niente attese, nessun messaggio "aggiorna l\\\\\\\'account". Solo pura potenza di elaborazione a portata di mano.',
       feature1Point1Icon: "✓",
       feature1Point1Text: "50 caricamenti simultanei",
       feature1Point2Icon: "✓",
@@ -1881,7 +1881,7 @@ let message = {
       },
       contentCreators: {
         title: "Creatori di Contenuti",
-        pain: '"L\\\'accessibilità non dovrebbe essere costosa"',
+        pain: '"L\\\\\\\'accessibilità non dovrebbe essere costosa"',
         description: "Sottotitola l'intero canale YouTube. Genera sottotitoli in più lingue e migliora subito il SEO dei tuoi video.",
         benefits: {
           benefit1: "Sottotitola tutti i video insieme",
@@ -2136,7 +2136,7 @@ let message = {
       testimonialsSubtitle: "Storie vere da veri podcaster",
       testimonials: {
         mike: {
-          text: '"Faccio un podcast da 3 anni e trascrivevo tutto manualmente come un idiota. Ho caricato 6 episodi insieme e ha separato perfettamente me e il mio co-host. L\\\'episodio del caffè che pensavo fosse rovinato? Trascrizione cristallina. Non tornerò mai più a digitare queste cose da solo."',
+          text: '"Faccio un podcast da 3 anni e trascrivevo tutto manualmente come un idiota. Ho caricato 6 episodi insieme e ha separato perfettamente me e il mio co-host. L\\\\\\\'episodio del caffè che pensavo fosse rovinato? Trascrizione cristallina. Non tornerò mai più a digitare queste cose da solo."',
           name: "Mike Rodriguez",
           role: 'Conduttore del podcast "The Daily Grind"'
         },
@@ -2751,13 +2751,13 @@ let message = {
       workflowStep4Desc: "Trova approfondimenti in tutte le riunioni",
       testimonialsTitle: "I team amano",
       testimonialsSubtitle: "Scopri come le aziende trasformano la loro cultura delle riunioni",
-      testimonial1Text: '"Siamo passati dal perdere dettagli cruciali all\\\'avere un archivio ricercabile di ogni conversazione. La registrazione diretta significa che non dimenticheremo mai discussioni importanti."',
+      testimonial1Text: '"Siamo passati dal perdere dettagli cruciali all\\\\\\\'avere un archivio ricercabile di ogni conversazione. La registrazione diretta significa che non dimenticheremo mai discussioni importanti."',
       testimonial1AuthorName: "James Kim",
       testimonial1AuthorRole: "Product Manager, TechCorp",
-      testimonial2Text: '"Otter ci limitava a 10 caricamenti al mese. Ora carichiamo tutte le chiamate con i clienti all\\\'istante. Un punto di svolta per i follow-up del nostro team vendite."',
+      testimonial2Text: '"Otter ci limitava a 10 caricamenti al mese. Ora carichiamo tutte le chiamate con i clienti all\\\\\\\'istante. Un punto di svolta per i follow-up del nostro team vendite."',
       testimonial2AuthorName: "Sarah Rodriguez",
       testimonial2AuthorRole: "Sales Director, ConsultPro",
-      testimonial3Text: '"La possibilità di cercare tra mesi di riunioni ci ha salvato durante l\\\'audit. Trovato ogni decisione e approvazione in secondi."',
+      testimonial3Text: '"La possibilità di cercare tra mesi di riunioni ci ha salvato durante l\\\\\\\'audit. Trovato ogni decisione e approvazione in secondi."',
       testimonial3AuthorName: "Mark Liu",
       testimonial3AuthorRole: "COO, FinanceHub",
       ctaTitle: "Smetti di perdere conversazioni importanti",
@@ -2851,7 +2851,7 @@ let message = {
       grid: "File Audio a Guida di Studio",
       useCasesTitle2: "Esigenza Educativa",
       testimonialTitle2: "50.000+ Educatori",
-      testimonialTextA: '"Ho usato {NeverCap} per trascrivere l\\\'intero canale YouTube di tutorial di matematica. Quello che prima richiedeva settimane con altri servizi, ora richiede ore. La possibilità di incollare i link direttamente e ottenere trascrizioni istantanee ha trasformato il mio modo di creare contenuti accessibili. I miei studenti internazionali adorano in particolare i sottotitoli multilingue!"'
+      testimonialTextA: '"Ho usato {NeverCap} per trascrivere l\\\\\\\'intero canale YouTube di tutorial di matematica. Quello che prima richiedeva settimane con altri servizi, ora richiede ore. La possibilità di incollare i link direttamente e ottenere trascrizioni istantanee ha trasformato il mio modo di creare contenuti accessibili. I miei studenti internazionali adorano in particolare i sottotitoli multilingue!"'
     }
   },
   Resources: {
@@ -2978,7 +2978,7 @@ let message = {
           },
           {
             question: "Quando scarico un video MP4 con il mio smartphone, dove viene salvato?",
-            answer: 'Dopo aver scaricato un MP4 sul tuo smartphone, puoi in genere trovarlo nella cartella "Downloads" all\\\'interno dell\\\'app di gestione file del dispositivo.'
+            answer: 'Dopo aver scaricato un MP4 sul tuo smartphone, puoi in genere trovarlo nella cartella "Downloads" all\\\\\\\'interno dell\\\\\\\'app di gestione file del dispositivo.'
           },
           {
             question: "Scaricare un video YouTube come MP4 riduce la qualità del video?",
@@ -2992,8 +2992,29 @@ let message = {
         title: "Scarica video da YouTube come MP4. Gratuito, veloce e senza pubblicità.",
         description: "Grazie per aver scelto il nostro servizio! Apprezziamo la tua fiducia e speriamo che abbia migliorato la tua esperienza. Condividere il nostro sito con gli amici sarebbe di grande aiuto.",
         downloadButton: "Scarica",
-        downloadError: "Errore di download."
-      }
+        downloadError: "Errore di download.",
+          TranscribeButton: 'Trascrivere'
+    },
+        freeResources: {
+              "linkTitle": "Alimentato da {NeverCap}",
+              "linkTitle2": "- Trascrizione AI veramente illimitata",
+              "title": "Risorse gratuite",
+              "steps": [
+                {
+                  "title": "Audio e video gratuiti",
+                  "content": "Converti file audio e video in testo in pochi secondi. 3 trascrizioni gratuite ogni giorno."
+                },
+                {
+                  "title": "Convertire file audio in testo",
+                  "content": "Carica MP3, MP4, WAV, MOV.",
+                  "content2": "Scarica DOCX, TXT, SRT (sottotitoli)."
+                },
+                {
+                  "title": "Trascrivi i video di YouTube",
+                  "content": "Converti i video di YouTube in testo o sottotitoli accurati. Basta incollare il link di YouTube."
+                }
+              ]
+            }
     }
   },
   About: {
@@ -3159,9 +3180,9 @@ let message = {
     "terminationRights": "Ci riserviamo il diritto di sospendere o terminare il tuo account e rifiutare qualsiasi uso attuale o futuro dei nostri Servizi per qualsiasi motivo in qualsiasi momento. La sospensione significa che non potrai accedere all'account o a qualsiasi contenuto in esso presente. La terminazione comporterà inoltre la cancellazione del tuo account o del tuo accesso all'account e la perdita di tutti i contenuti nel tuo account. Ci riserviamo anche il diritto di rifiutare l'uso dei Servizi a chiunque per qualsiasi motivo in qualsiasi momento. Abbiamo questa clausola perché, statisticamente parlando, tra le centinaia di migliaia di account sui nostri Servizi, ce n'è almeno uno che fa qualcosa di nefasto.",
     "abusePolicy": "Abusi verbali, fisici, scritti o di altro tipo (comprese minacce di abuso o ritorsione) nei confronti di un dipendente o dirigente della Società possono comportare la terminazione immediata dell'account.",
     "submissionsTitle": "6. Contributi",
-    "submissionsDescription": 'Riconosci e accetti che qualsiasi domanda, commento, suggerimento, idea, feedback o altra informazione riguardante il Sito ("Contributi") fornita da te a noi è non confidenziale e diventerà nostra proprietà esclusiva. Avremo diritti esclusivi, inclusi tutti i diritti di proprietà intellettuale, e saremo autorizzati all\\\'uso e alla diffusione illimitati di questi Contributi per qualsiasi scopo legale, commerciale o meno, senza riconoscimento o compenso per te. Rinunci a tutti i diritti morali su tali Contributi e garantisci che tali Contributi siano originali o che tu abbia il diritto di inviarli. Accetti che non ci sarà alcuna rivalsa contro di noi per qualsiasi presunta o effettiva violazione o appropriazione indebita di qualsiasi diritto proprietario nei tuoi Contributi.',
+    "submissionsDescription": 'Riconosci e accetti che qualsiasi domanda, commento, suggerimento, idea, feedback o altra informazione riguardante il Sito ("Contributi") fornita da te a noi è non confidenziale e diventerà nostra proprietà esclusiva. Avremo diritti esclusivi, inclusi tutti i diritti di proprietà intellettuale, e saremo autorizzati all\\\\\\\'uso e alla diffusione illimitati di questi Contributi per qualsiasi scopo legale, commerciale o meno, senza riconoscimento o compenso per te. Rinunci a tutti i diritti morali su tali Contributi e garantisci che tali Contributi siano originali o che tu abbia il diritto di inviarli. Accetti che non ci sarà alcuna rivalsa contro di noi per qualsiasi presunta o effettiva violazione o appropriazione indebita di qualsiasi diritto proprietario nei tuoi Contributi.',
     "uptimeTitle": "7. Disponibilità e Sicurezza",
-    "serviceAvailability": 'L\\\'uso dei Servizi è a tuo rischio. Forniamo questi Servizi "così come sono" e "come disponibili". Non offriamo accordi di livello di servizio per la maggior parte dei nostri Servizi, ma prendiamo seriamente la disponibilità delle nostre applicazioni.',
+    "serviceAvailability": 'L\\\\\\\'uso dei Servizi è a tuo rischio. Forniamo questi Servizi "così come sono" e "come disponibili". Non offriamo accordi di livello di servizio per la maggior parte dei nostri Servizi, ma prendiamo seriamente la disponibilità delle nostre applicazioni.',
     "throttlingPolicy": "Ci riserviamo il diritto di limitare temporaneamente l'accesso all'account in rari casi in cui l'attività di un utente influisca negativamente sulla stabilità e sulle prestazioni del Servizio per altri utenti. Tranne nei casi più critici, ti contatteremo per trovare una soluzione prima di agire.",
     "dataSecurity": "Adottiamo molte misure per proteggere e garantire la sicurezza dei tuoi dati attraverso backup, ridondanze e crittografia. Impieghiamo la crittografia per la trasmissione dei dati su Internet pubblico.",
     "thirdPartyVendors": "Utilizziamo fornitori e partner di hosting terzi per fornire l'hardware, il software, la rete, lo storage e la tecnologia correlata necessari per erogare i Servizi.",

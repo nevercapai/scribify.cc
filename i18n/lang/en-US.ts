@@ -2510,6 +2510,26 @@ let message = {
         "howToDownload": "How to download?",
         "tutorial": "Watch the tutorial"
       },
+      freeResources: {
+        "linkTitle": "Powered by {NeverCap}",
+        "linkTitle2": "- Truly Unlimited AI Transcription",
+        "title": "Free Resources",
+        "steps": [
+          {
+            title: 'Free Audio and Video',
+            content: 'Convert audio and video files to text in seconds 3 free transcripts every day.',
+          },
+          {
+            title: 'Convert Audio Files to Text',
+            content: 'Upload MP3, MP4, WAV, MOV.',
+            content2: 'Download DOCX, TXT, SRT (subtitles).',
+          },
+          {
+            title: 'Transcribe YouTube Videos',
+            content: 'Convert YouTube videos to accurate text or subtitles.Just paste the YouTube link.'
+          }
+        ]
+      },
       part2: {
         "title": "Here's how to turn a YouTube video into a downloadable MP4 file in 3 easy steps",
         "steps": [
@@ -2657,6 +2677,7 @@ let message = {
         title: "Download YouTube videos as MP4.Free,fast,and no ads.",
         description: "Thanks for choosing our service! We truly appreciate your trust and hope it enhanced your experience. If you could share our website with your friends, that would be a huge help.",
         downloadButton: "Download",
+        TranscribeButton: "Transcribe",
         downloadError: "Download Error."
       }
     },

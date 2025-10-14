@@ -2987,8 +2987,29 @@ let message = {
         title: "Lataa YouTube-videoita MP4-muodossa. Ilmaista, nopeaa ja ilman mainoksia.",
         description: "Kiitos, että valitsit palvelumme! Arvostamme luottamustasi ja toivomme, että se paransi kokemustasi. Jos voisit jakaa verkkosivustomme ystäviesi kanssa, se olisi suuri apu.",
         downloadButton: "Lataa",
-        downloadError: "Latausvirhe."
-      }
+        downloadError: "Latausvirhe.",
+          TranscribeButton: 'Litteroi'
+    },
+        freeResources: {
+              "linkTitle": "Powered by {NeverCap}",
+              "linkTitle2": "- Todella rajaton tekoälyn transkriptio",
+              "title": "Ilmaisia ​​resursseja",
+              "steps": [
+                {
+                  "title": "Ilmainen ääni ja video",
+                  "content": "Muunna ääni- ja videotiedostot tekstiksi sekunneissa. 3 ilmaista transkriptiota joka päivä."
+                },
+                {
+                  "title": "Muunna äänitiedostot tekstiksi",
+                  "content": "Lataa MP3-, MP4-, WAV- ja MOV-tiedostoja.",
+                  "content2": "Lataa DOCX-, TXT- ja SRT-tiedostot (tekstitykset)."
+                },
+                {
+                  "title": "Litteroi YouTube-videoita",
+                  "content": "Muunna YouTube-videot tarkkaan tekstiin tai tekstityksiin. Liitä vain YouTube-linkki."
+                }
+              ]
+            }
     }
   },
   About: {

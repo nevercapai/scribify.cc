@@ -297,7 +297,9 @@
 ./public/assets/images/nation/Hungarian.png
 ./public/assets/images/nation/Tajik.png
 ./public/assets/images/downloadMp4
+./public/assets/images/downloadMp4/freeResources-wav.svg
 ./public/assets/images/downloadMp4/black_step_2.png
+./public/assets/images/downloadMp4/freeResources-yt.svg
 ./public/assets/images/downloadMp4/howToDownload.mp4
 ./public/assets/images/downloadMp4/advantage_2.png
 ./public/assets/images/downloadMp4/black_advantage_4.png
@@ -305,11 +307,13 @@
 ./public/assets/images/downloadMp4/advantage_1.png
 ./public/assets/images/downloadMp4/black_advantage_5.png
 ./public/assets/images/downloadMp4/index_3.png
+./public/assets/images/downloadMp4/freeResources-txt.svg
 ./public/assets/images/downloadMp4/index_2.png
 ./public/assets/images/downloadMp4/maximize.png
 ./public/assets/images/downloadMp4/black_advantage_1.png
 ./public/assets/images/downloadMp4/Youtube.png
 ./public/assets/images/downloadMp4/black_down.png
+./public/assets/images/downloadMp4/freeResources-pdf.svg
 ./public/assets/images/downloadMp4/black_advantage_2.png
 ./public/assets/images/downloadMp4/black_advantage_6.png
 ./public/assets/images/downloadMp4/step_1.png
@@ -317,6 +321,9 @@
 ./public/assets/images/downloadMp4/index_1.png
 ./public/assets/images/downloadMp4/advantage_4.png
 ./public/assets/images/downloadMp4/advantage_3.png
+./public/assets/images/downloadMp4/freeResources-mp3.svg
+./public/assets/images/downloadMp4/freeResources-arrow.svg
+./public/assets/images/downloadMp4/freeResources-mp4.svg
 ./public/assets/images/downloadMp4/black_Youtube.png
 ./public/assets/images/downloadMp4/play.png
 ./public/assets/images/downloadMp4/black_step_1.png
@@ -326,6 +333,8 @@
 ./public/assets/images/downloadMp4/step_3.png
 ./public/assets/images/downloadMp4/black_major.png
 ./public/assets/images/downloadMp4/down.png
+./public/assets/images/downloadMp4/freeResources-srt.svg
+./public/assets/images/downloadMp4/freeResources-docx.svg
 ./public/assets/images/downloadMp4/play_1.png
 ./public/assets/images/downloadMp4/poster.png
 ./public/assets/images/downloadMp4/black_step_3.png
@@ -482,6 +491,7 @@
 ./components/youtubeTomp4/howToDownload.vue
 ./components/youtubeTomp4/top.vue
 ./components/youtubeTomp4/part2.vue
+./components/youtubeTomp4/FreeResources.vue
 ./components/youtubeTomp4/part6.vue
 ./components/youtubeTomp4/part3.vue
 ./components/youtubeTomp4/part1.vue

@@ -2992,8 +2992,29 @@ let message = {
         title: "Pobieraj filmy z YouTube jako MP4. Darmowe, szybkie i bez reklam.",
         description: "Dziękujemy za wybranie naszej usługi! Doceniamy Twoje zaufanie i mamy nadzieję, że poprawiło to Twoje wrażenia. Jeśli możesz udostępnić naszą stronę znajomym, byłoby to ogromną pomocą.",
         downloadButton: "Pobierz",
-        downloadError: "Błąd pobierania."
-      }
+        downloadError: "Błąd pobierania.",
+          TranscribeButton: 'Rozpisać'
+    },
+        freeResources: {
+              "linkTitle": "Obsługiwane przez {NeverCap}",
+              "linkTitle2": "- Naprawdę nieograniczona transkrypcja AI",
+              "title": "Bezpłatne zasoby",
+              "steps": [
+                {
+                  "title": "Bezpłatne audio i wideo",
+                  "content": "Konwertuj pliki audio i wideo na tekst w kilka sekund. 3 bezpłatne transkrypcje dziennie."
+                },
+                {
+                  "title": "Konwertuj pliki audio na tekst",
+                  "content": "Prześlij pliki MP3, MP4, WAV, MOV.",
+                  "content2": "Pobierz DOCX, TXT, SRT (napisy)."
+                },
+                {
+                  "title": "Transkrybuj filmy z YouTube",
+                  "content": "Konwertuj filmy z YouTube na dokładny tekst lub napisy. Wystarczy wkleić link YouTube."
+                }
+              ]
+            }
     }
   },
   About: {

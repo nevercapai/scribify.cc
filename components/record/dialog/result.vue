@@ -119,6 +119,8 @@ const isTimeOver3h = computed(() => {
   return h >= 3;
 });
 const showSpeakerModal = ref(false);
+let retryCount = 2;
+const { reportSystemError } = useErrorReporting();
 const handleTranscribe = async () => {
   if (diarizeEnabled.value && isTimeOver3h.value) {
     showSpeakerModal.value = true;
@@ -156,13 +158,25 @@ const handleTranscribe = async () => {
     visible.value = false;
     endRecord();
     updateNewFileList(fileIds);
+    retryCount = 2;
   } catch (e) {
     if (e?.code === 15010) {
       showPro();
     }
+    if (retryCount > 0) {
+      reportSystemError({
+        message: `录音上传失败: ${JSON.stringify(e)}，retryCount：${retryCount}`
+      });
+      retryCount--;
+      handleTranscribe();
+    } else {
+      retryCount = 2;
+    }
   } finally {
     setTimeout(() => {
-      transcribing.value = false;
+      if (retryCount === 2) {
+        transcribing.value = false;
+      }
     }, 10000);
   }
 };

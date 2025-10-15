@@ -343,7 +343,7 @@ export const useUpload = () => {
     if ((file as any).localRequestId) {
       obj.status = "uploading";
       obj.uploadText = t("FileUploadAndRecording.upload.linkUpload");
-      // simulateProgress(reactive(obj));
+      simulateProgress(reactive(obj));
       fetchFileUploadStatus((file as any).localRequestId, reactive(obj));
     }
     return obj;
@@ -395,7 +395,6 @@ export const useUpload = () => {
       // 使用S型曲线模拟真实上传速度变化
       const progressRatio = 1 / (1 + Math.exp(-6 * (timeRatio - 0.5)));
       let progress = Math.floor(progressRatio * 98); // 最终进度停在98%
-
       // 添加微小波动模拟网络不稳定
       if (progress > file.progress + 1) {
         progress = Math.max(

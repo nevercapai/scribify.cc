@@ -30,7 +30,7 @@
     </div>
     <transition name="slide-fade">
       <div
-        v-if="file.progress && file.status !== 'success'"
+        v-if="file.progress && file.status === 'uploading'"
         class="progress w-[22.5rem] pb-5 pt-1"
       >
         <el-progress :percentage="file.progress" :stroke-width="8">

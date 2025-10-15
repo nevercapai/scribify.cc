@@ -71,15 +71,6 @@
               ></span>
             </el-tooltip>
           </div>
-          <div
-            class="flex w-full items-center text-start"
-            v-else-if="item.uploadText"
-          >
-            <span class="me-1">{{
-              t("FileUploadAndRecording.upload.linkUpload")
-            }}</span>
-            <el-icon class="is-loading mt-1"><Loading /></el-icon>
-          </div>
           <el-progress
             :stroke-width="8"
             class="flex-1"

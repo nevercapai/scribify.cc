@@ -5,7 +5,11 @@
       class="m-auto mb-[2.5rem] w-full max-w-[62rem] text-center text-[1rem] font-semibold"
     >
       <NuxtLink :to="$localePath('/')" class="hover:underline">
-        {{ $i("linkTitle") }} NeverCap
+        <i18n-t keypath="Resources.YouTubeToMP4.freeResources.linkTitle" tag="span">
+          <template #NeverCap>
+              NeverCap
+          </template>
+        </i18n-t>
         <span class="font-light">
           {{ $i("linkTitle2") }}
         </span>

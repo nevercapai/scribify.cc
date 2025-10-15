@@ -10,13 +10,13 @@
       <el-input
         v-model="link"
         class="!h-[2.75rem]"
-        :class="{link}"
+        :class="{ link }"
         :placeholder="$i('placeholder')"
       />
       <span
         @click="link = ''"
         v-if="link"
-        class="iconfont icon-shanchu1 absolute sm:right-[7.5rem] right-[7.1rem] top-[0.625rem] cursor-pointer text-[#6A1B85]"
+        class="iconfont icon-shanchu1 absolute right-[7.1rem] top-[0.625rem] cursor-pointer text-[#6A1B85] sm:right-[7.5rem]"
       ></span>
       <el-button
         @click="handleDownload"
@@ -28,8 +28,18 @@
         {{ $i("Download") }}
       </el-button>
     </div>
+    <transition name="slide-fade">
+      <div
+        v-if="file.progress && file.status !== 'success'"
+        class="progress w-[22.5rem] pb-5 pt-1"
+      >
+        <el-progress :percentage="file.progress" :stroke-width="8">
+          <span class="text-base text-white">{{ file.progress }}%</span>
+        </el-progress>
+      </div>
+    </transition>
     <div
-      class="text-center text-sm text-[rgba(255,255,255,0.7)] flex items-center"
+      class="flex items-center text-center text-sm text-[rgba(255,255,255,0.7)]"
       :class="[loading ? 'mb-[1.375rem]' : '']"
     >
       <el-image
@@ -57,7 +67,7 @@ const emit = defineEmits([
   "download-click",
   "howDownload"
 ]);
-const { link, loading, handleDownload } = downloadVideo(emit);
+const { link, loading, handleDownload, file } = downloadVideo(emit);
 
 const handleHowDownload = () => {
   emit("howDownload");
@@ -92,6 +102,18 @@ const handleHowDownload = () => {
 .download-btn {
   background: linear-gradient(90deg, #9534e6 0%, #dc2628 100%);
   border: transparent;
+  &.is-loading {
+    background: #1a0734 !important;
+    color: #6a1b85 !important;
+    border: 1px solid #6a36a2;
+    border-left: 0;
+    :deep(.el-icon) {
+      display: none;
+    }
+    &::before {
+      background-color: transparent;
+    }
+  }
 }
 
 :deep(.el-link.el-link--primary) {
@@ -107,5 +129,29 @@ const handleHowDownload = () => {
 }
 :deep(.link .el-input__inner) {
   padding-inline-end: 30px;
+}
+.progress {
+  :deep(.el-progress) {
+    .el-progress-bar__outer {
+      background-color: #2e164d;
+    }
+    .el-progress-bar__inner {
+      background: linear-gradient(90deg, #9534e6 0%, #dc2628 100%);
+    }
+    .el-progress__text {
+      margin-left: 0.5rem;
+    }
+  }
+}
+/* 动画样式 */
+.slide-fade-enter-active,
+.slide-fade-leave-active {
+  transition: all 0.3s ease;
+}
+
+.slide-fade-enter-from,
+.slide-fade-leave-to {
+  transform: translateY(-1rem);
+  opacity: 0;
 }
 </style>

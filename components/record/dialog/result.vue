@@ -161,9 +161,9 @@ const handleTranscribe = async () => {
     retryCount = 2;
   } catch (e) {
     if (e?.code === 15010) {
+      retryCount = 2;
       showPro();
-    }
-    if (retryCount > 0) {
+    } else if (retryCount > 0) {
       reportSystemError({
         message: `录音上传失败: ${JSON.stringify(e)}，retryCount：${retryCount}`
       });

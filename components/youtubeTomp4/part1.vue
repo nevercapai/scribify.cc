@@ -31,7 +31,7 @@
     <transition name="slide-fade">
       <div
         v-if="file.progress && file.status === 'uploading'"
-        class="progress w-[22.5rem] pb-5 pt-1"
+        class="progress w-full max-w-[22.5rem] pb-5 pt-1"
       >
         <el-progress :percentage="file.progress" :stroke-width="8">
           <span class="text-base text-white">{{ file.progress }}%</span>
@@ -139,7 +139,9 @@ const handleHowDownload = () => {
       background: linear-gradient(90deg, #9534e6 0%, #dc2628 100%);
     }
     .el-progress__text {
-      margin-left: 0.5rem;
+      margin-inline-start: 0.5rem;
+      min-width: 2rem;
+      @apply flex items-center justify-center;
     }
   }
 }
@@ -153,5 +155,27 @@ const handleHowDownload = () => {
 .slide-fade-leave-to {
   transform: translateY(-1rem);
   opacity: 0;
+}
+[dir="rtl"] .icon-shanchu1 {
+  right: unset;
+  @apply left-[7.1rem] sm:left-[7.5rem];
+}
+[dir="rtl"] .download-btn {
+  border-radius: 0.5rem 0 0 0.5rem;
+  left: 0;
+  &.is-loading {
+    border: 1px solid #6a36a2;
+    border-right: 0;
+  }
+}
+[dir="rtl"] .link {
+  :deep(.el-input__wrapper) {
+    border-radius: 0 0.5rem 0.5rem 0 !important;
+  }
+}
+[dir="rtl"] .progress {
+  :deep(.el-progress-bar__outer) {
+    transform: rotate(180deg);
+  }
 }
 </style>

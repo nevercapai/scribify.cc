@@ -152,14 +152,14 @@ let message = {
       },
       maxFileNum: "The number of files cannot exceed {num}.",
       speaker: "Identify Speakers",
-      speakerLabel:
-        "Automatically detect who's speaking",
+      speakerLabel: "Automatically detect who's speaking",
       guest: {
-        transcribe: 'Transcribe',
-        file: 'File',
-        audio: 'Audio / Video File',
-        Uploading: 'Uploading...',
-      }
+        transcribe: "Transcribe",
+        file: "File",
+        audio: "Audio / Video File",
+        Uploading: "Uploading..."
+      },
+      fileEmpty: "The file is empty"
     }
   },
   // 转录详情页
@@ -550,8 +550,16 @@ let message = {
     UseCases: "Use Cases",
     Company: "Company",
     featureMenus: ["Unlimited Transcription", "Bulk Upload", "96% Accuracy"],
-    useCaseMenus: ['All Use Cases', 'Podcasters', 'Journalists', 'Content Creators', 'Researchers', 'Business Teams', 'Educators'],
-    companyMenus: ['About', 'Pricing', 'Privacy Policy', 'Terms of Service']
+    useCaseMenus: [
+      "All Use Cases",
+      "Podcasters",
+      "Journalists",
+      "Content Creators",
+      "Researchers",
+      "Business Teams",
+      "Educators"
+    ],
+    companyMenus: ["About", "Pricing", "Privacy Policy", "Terms of Service"]
   },
   Index: {
     Hero: {
@@ -580,7 +588,7 @@ let message = {
       upload_50: "Upload up to 50 files at once, right here.",
       no_limits: "Advanced",
       no_surprises: "AI Transcription",
-      features: 'Features',
+      features: "Features",
       transparency:
         "No More Hidden Limits, No More Surprises - While others quietly reduce your minutes or hide caps in fine print, we believe in radical transparency",
       feat_unltd: "Actually Unlimited",
@@ -604,19 +612,20 @@ let message = {
     },
     UseCases: {
       built_for: "Bulk",
-      "heavy_users": "Audio & Video Transcription",
-      "join_users": 'Built for Heavy Users Like You - Join YouTubers, content creators, and podcasters who switched from "shrinkflation" services',
-      "podcasters": {
-        "title": "Podcasters",
-        "des": "Upload your entire back catalog. Create show notes for every episode. No more choosing which episodes to transcribe."
+      heavy_users: "Audio & Video Transcription",
+      join_users:
+        'Built for Heavy Users Like You - Join YouTubers, content creators, and podcasters who switched from "shrinkflation" services',
+      podcasters: {
+        title: "Podcasters",
+        des: "Upload your entire back catalog. Create show notes for every episode. No more choosing which episodes to transcribe."
       },
-      "content_creators": {
-        "title": "Content Creators",
-        "des": "Turn your video library into searchable text by using our service to transcribe video files automatically. Generate captions for everything. No counting minutes, just creating."
+      content_creators: {
+        title: "Content Creators",
+        des: "Turn your video library into searchable text by using our service to transcribe video files automatically. Generate captions for everything. No counting minutes, just creating."
       },
-      "journalists": {
-        "title": "Journalists",
-        "des": "Upload all your interviews at once. No more \"10 files per month\" roadblocks when on deadline. Process everything."
+      journalists: {
+        title: "Journalists",
+        des: 'Upload all your interviews at once. No more "10 files per month" roadblocks when on deadline. Process everything.'
       },
       researchers: {
         title: "Researchers",
@@ -634,85 +643,97 @@ let message = {
     Testimonials: {
       titleA: "Loved by 50,000+ Users of",
       // highlighted_users: "50,000+ Users",
-      subtitle: "See why professionals choose NeverCap over limited alternatives",
+      subtitle:
+        "See why professionals choose NeverCap over limited alternatives",
       Mike: {
-        "text": "Holy crap, this thing actually works! Been doing a podcast for 3 years and was manually transcribing everything like an idiot. Uploaded 6 episodes at once and it separated me and my co-host perfectly. The coffee shop episode I thought was ruined? Crystal clear transcript. I'm never going back to typing this stuff out myself.",
-        "author": "Mike Rodriguez",
-        "role": "Podcast Host"
+        text: "Holy crap, this thing actually works! Been doing a podcast for 3 years and was manually transcribing everything like an idiot. Uploaded 6 episodes at once and it separated me and my co-host perfectly. The coffee shop episode I thought was ruined? Crystal clear transcript. I'm never going back to typing this stuff out myself.",
+        author: "Mike Rodriguez",
+        role: "Podcast Host"
       },
       Sarah: {
-        "text": "I teach online and needed captions for my videos. Tried 3 other tools that either had weird limits or took forever. This one just... works? Uploaded my Spanish lecture, got perfect subtitles in like 2 minutes. My students with hearing issues are so happy. Wish I found this sooner!",
-        "author": "Sarah Chen",
-        "role": "Online Teacher"
+        text: "I teach online and needed captions for my videos. Tried 3 other tools that either had weird limits or took forever. This one just... works? Uploaded my Spanish lecture, got perfect subtitles in like 2 minutes. My students with hearing issues are so happy. Wish I found this sooner!",
+        author: "Sarah Chen",
+        role: "Online Teacher"
       },
       Jessica: {
-        "text": "Been using this for my interviews and it's insane how accurate it is. Had a 2-hour interview in broken English + Spanish and it got everything right, even the timestamps. Used to pay my intern $200/month just to transcribe stuff. This is literally saving me money every month.",
-        "author": "Jessica Park",
-        "role": "Freelance Journalist"
+        text: "Been using this for my interviews and it's insane how accurate it is. Had a 2-hour interview in broken English + Spanish and it got everything right, even the timestamps. Used to pay my intern $200/month just to transcribe stuff. This is literally saving me money every month.",
+        author: "Jessica Park",
+        role: "Freelance Journalist"
       }
     },
     PricingPreview: {
-      "title": "Transparent Pricing",
-      "highlighted_text": "No Hidden Caps",
-      "subtitle": "Choose your plan. No asterisks, no fine print, no surprises",
+      title: "Transparent Pricing",
+      highlighted_text: "No Hidden Caps",
+      subtitle: "Choose your plan. No asterisks, no fine print, no surprises"
     },
     FAQSection: {
-      "title": "Frequently Asked",
-      "titleHighlight": "Questions",
-      "questions": [
+      title: "Frequently Asked",
+      titleHighlight: "Questions",
+      questions: [
         {
-          "q": "AI transcription",
-          "question": "What is AI transcription and how does it work?",
-          "answer": "AI transcription is the process of automatically converting audio to text using advanced artificial intelligence. At NeverCap, you simply upload your files, and our AI transcribes the content with up to 96% accuracy. Our service is designed to transcribe video files (like MP4, MOV) and audio files (like MP3, WAV) into readable, editable text, complete with speaker labels and timestamps."
+          q: "AI transcription",
+          question: "What is AI transcription and how does it work?",
+          answer:
+            "AI transcription is the process of automatically converting audio to text using advanced artificial intelligence. At NeverCap, you simply upload your files, and our AI transcribes the content with up to 96% accuracy. Our service is designed to transcribe video files (like MP4, MOV) and audio files (like MP3, WAV) into readable, editable text, complete with speaker labels and timestamps."
         },
         {
-          "q": "unlimited_policy",
-          "question": "Is it really unlimited? What's the catch?",
-          "answer": "Yes, it's truly unlimited! No monthly minute caps, no overage fees. The only limits are technical: individual files can be up to 10 hours long or 5GB in size, and you can process 50 files at once. But you can upload as many batches as you want, all month long."
+          q: "unlimited_policy",
+          question: "Is it really unlimited? What's the catch?",
+          answer:
+            "Yes, it's truly unlimited! No monthly minute caps, no overage fees. The only limits are technical: individual files can be up to 10 hours long or 5GB in size, and you can process 50 files at once. But you can upload as many batches as you want, all month long."
         },
         {
-          "q": "accuracy",
-          "question": "How accurate is the transcription?",
-          "answer": "We guarantee 96% accuracy for clear audio. Our AI is trained on millions of hours of diverse content and handles accents, technical terms, and multiple speakers exceptionally well. For challenging audio, our smart enhancement features help improve results."
+          q: "accuracy",
+          question: "How accurate is the transcription?",
+          answer:
+            "We guarantee 96% accuracy for clear audio. Our AI is trained on millions of hours of diverse content and handles accents, technical terms, and multiple speakers exceptionally well. For challenging audio, our smart enhancement features help improve results."
         },
         {
-          "q": "languages",
-          "question": "Which languages do you support?",
-          "answer": "We support transcription in over 100 languages including English, Spanish, Mandarin, Hindi, Arabic, French, and more. Additionally, you can translate your transcripts into 249 different languages, making it perfect for global content."
+          q: "languages",
+          question: "Which languages do you support?",
+          answer:
+            "We support transcription in over 100 languages including English, Spanish, Mandarin, Hindi, Arabic, French, and more. Additionally, you can translate your transcripts into 249 different languages, making it perfect for global content."
         },
         {
-          "q": "speed",
-          "question": "How fast is the transcription?",
-          "answer": "Lightning fast! A 1-hour audio file typically processes in under 5 minutes. With batch processing, you can upload 50 files simultaneously and let them process in parallel. Most users wake up to find their entire library transcribed overnight."
+          q: "speed",
+          question: "How fast is the transcription?",
+          answer:
+            "Lightning fast! A 1-hour audio file typically processes in under 5 minutes. With batch processing, you can upload 50 files simultaneously and let them process in parallel. Most users wake up to find their entire library transcribed overnight."
         },
         {
-          "q": "cancellation",
-          "question": "Can I cancel anytime?",
-          "answer": "Absolutely! No contracts, no cancellation fees. You can upgrade, downgrade, or cancel your subscription anytime from your dashboard. If you cancel, you'll retain access until the end of your billing period."
+          q: "cancellation",
+          question: "Can I cancel anytime?",
+          answer:
+            "Absolutely! No contracts, no cancellation fees. You can upgrade, downgrade, or cancel your subscription anytime from your dashboard. If you cancel, you'll retain access until the end of your billing period."
         },
         {
-          "q": "security",
-          "question": "Is my data secure?",
-          "answer": "Your security is our priority. We're SOC 2 certified, use 256-bit encryption for all data, and never use your content to train our models. You can delete your files anytime, and we automatically purge them after 30 days. GDPR and CCPA compliant."
+          q: "security",
+          question: "Is my data secure?",
+          answer:
+            "Your security is our priority. We're SOC 2 certified, use 256-bit encryption for all data, and never use your content to train our models. You can delete your files anytime, and we automatically purge them after 30 days. GDPR and CCPA compliant."
         },
         {
-          "q": "export_formats",
-          "question": "What export formats are available?",
-          "answer": "Download your transcripts in any format you need: PDF, Word (DOCX), Excel, CSV, SRT subtitles, plain text (TXT), and VTT captions. Perfect for whatever workflow you have."
+          q: "export_formats",
+          question: "What export formats are available?",
+          answer:
+            "Download your transcripts in any format you need: PDF, Word (DOCX), Excel, CSV, SRT subtitles, plain text (TXT), and VTT captions. Perfect for whatever workflow you have."
         },
         {
-          "q": "file_formats",
-          "question": "What audio and video files can I upload?",
-          "answer": "We support virtually every audio and video format you'll encounter: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV, and more. If you can play it, we can transcribe it."
+          q: "file_formats",
+          question: "What audio and video files can I upload?",
+          answer:
+            "We support virtually every audio and video format you'll encounter: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV, and more. If you can play it, we can transcribe it."
         }
       ]
     },
     CTASection: {
-      "title": "Ready to Break Free from Limits?",
-      "subtitle": "Join 50,000+ professionals who've made the switch to truly unlimited transcription",
-      "button": "Try NeverCap Free",
-      "disclaimer": "No credit card required for the Free Plan • Upgrade anytime for unlimited access"
-    },
+      title: "Ready to Break Free from Limits?",
+      subtitle:
+        "Join 50,000+ professionals who've made the switch to truly unlimited transcription",
+      button: "Try NeverCap Free",
+      disclaimer:
+        "No credit card required for the Free Plan • Upgrade anytime for unlimited access"
+    }
   },
   Features: {
     UnlimitedTranscription: {
@@ -1134,23 +1155,25 @@ let message = {
   },
   Pricing: {
     Hero: {
-      "title": "Simple, Transparent Pricing",
-      "highlighted_text": "No Hidden Caps",
-      "description": "Choose the plan that fits your needs. Upgrade or downgrade anytime. No contracts, no surprises."
+      title: "Simple, Transparent Pricing",
+      highlighted_text: "No Hidden Caps",
+      description:
+        "Choose the plan that fits your needs. Upgrade or downgrade anytime. No contracts, no surprises."
     },
     Cards: {
-      "title": "Simple, Transparent Pricing.",
-      "highlighted_text": "No Hidden Caps.",
-      "description": "Choose the plan that fits your needs. Upgrade or downgrade anytime. No contracts, no surprises.",
-      "plans": [
+      title: "Simple, Transparent Pricing.",
+      highlighted_text: "No Hidden Caps.",
+      description:
+        "Choose the plan that fits your needs. Upgrade or downgrade anytime. No contracts, no surprises.",
+      plans: [
         {
-          "name": "Free",
-          "price": "$0",
-          "period": "month",
-          "discount": "Perfect for trying out our service",
-          "limits": {
-            "title": "Daily Limits",
-            "items": [
+          name: "Free",
+          price: "$0",
+          period: "month",
+          discount: "Perfect for trying out our service",
+          limits: {
+            title: "Daily Limits",
+            items: [
               "3 files per day",
               "Up to 10 hours / 5 GB per file",
               "Free 30-Minute Preview on all transcripts",
@@ -1158,202 +1181,210 @@ let message = {
               "Standard priority queue"
             ]
           },
-          "features": {
-            "title": "Features",
-            "items": [
+          features: {
+            title: "Features",
+            items: [
               "100+ languages",
               "Speaker labels",
               "Translation",
               "All export formats"
             ]
           },
-          "cta": {
-            "text": "Start free. No credit card.",
-            "button": "Start Free"
+          cta: {
+            text: "Start free. No credit card.",
+            button: "Start Free"
           }
         },
         {
-          "name": "Pro Monthly",
-          "price": "$17.99",
-          "period": "month",
-          "discount": "$9.99 for the first month",
-          "limits": {
-            "title": "No Monthly Cap",
-            "items": [
+          name: "Pro Monthly",
+          price: "$17.99",
+          period: "month",
+          discount: "$9.99 for the first month",
+          limits: {
+            title: "No Monthly Cap",
+            items: [
               "Unlimited total minutes",
               "Up to 10 hours / 5 GB per file",
               "Upload 50 files at once",
               "Priority queue"
             ]
           },
-          "features": {
-            "title": "Everything in Free, plus",
-            "items": [
+          features: {
+            title: "Everything in Free, plus",
+            items: [
               "Word-level timestamps",
               "Advanced speaker identification",
               "Formatted paragraphs & punctuation",
               "Priority support"
             ]
           },
-          "cta": {
-            "text": "Unlimited minutes. Priority speed. Batch uploads.",
-            "button": "Go Pro"
+          cta: {
+            text: "Unlimited minutes. Priority speed. Batch uploads.",
+            button: "Go Pro"
           },
-          "badge": "Most Popular"
+          badge: "Most Popular"
         },
         {
-          "name": "Pro Annual",
-          "price": "$8.99",
-          "period": "month",
-          "discount": "Billed annually $107.88",
-          "limits": {
-            "title": "Same as Pro Monthly",
-            "items": [
+          name: "Pro Annual",
+          price: "$8.99",
+          period: "month",
+          discount: "Billed annually $107.88",
+          limits: {
+            title: "Same as Pro Monthly",
+            items: [
               "Unlimited total minutes",
               "Up to 10 hours / 5 GB per file",
               "Upload 50 files at once",
               "Priority queue"
             ]
           },
-          "features": {
-            "title": "Everything in Free, plus",
-            "items": [
+          features: {
+            title: "Everything in Free, plus",
+            items: [
               "Word-level timestamps",
               "Advanced speaker identification",
               "Formatted paragraphs & punctuation",
               "Priority support"
             ]
           },
-          "cta": {
-            "text": "Unlimited minutes. Priority speed. Batch uploads.",
-            "button": "Go Pro"
+          cta: {
+            text: "Unlimited minutes. Priority speed. Batch uploads.",
+            button: "Go Pro"
           },
-          "badge": "Best Value - ",
+          badge: "Best Value - "
         }
       ],
-      "disclaimer": "\"Unlimited\" means no monthly cap and no artificial slowdown. Fair-use applies to abusive automation or redistribution."
+      disclaimer:
+        '"Unlimited" means no monthly cap and no artificial slowdown. Fair-use applies to abusive automation or redistribution.'
     },
     ComparisonTable: {
-      "header": {
-        "title": "Compare ",
-        "highlighted_text": "All Features",
-        "subtitle": "See exactly what you get with each plan. No hidden limitations."
+      header: {
+        title: "Compare ",
+        highlighted_text: "All Features",
+        subtitle:
+          "See exactly what you get with each plan. No hidden limitations."
       },
-      "plans": ["Features", "Free", "Pro Monthly", "Pro Annual"],
-      "features": [
+      plans: ["Features", "Free", "Pro Monthly", "Pro Annual"],
+      features: [
         {
-          "name": "Price",
-          "values": [
+          name: "Price",
+          values: [
             "$0/month",
             {
-              "main": "$17.99/month",
-              "note": "$9.99 first month"
+              main: "$17.99/month",
+              note: "$9.99 first month"
             },
             {
-              "main": "$8.99/month",
-              "note": "Billed $107.88/year"
+              main: "$8.99/month",
+              note: "Billed $107.88/year"
             }
           ]
         },
         {
-          "name": "Daily file limit",
-          "values": ["3 files/day", "Unlimited", "Unlimited"]
+          name: "Daily file limit",
+          values: ["3 files/day", "Unlimited", "Unlimited"]
         },
         {
-          "name": "Max file duration",
-          "values": ["10 hours", "10 hours", "10 hours"]
+          name: "Max file duration",
+          values: ["10 hours", "10 hours", "10 hours"]
         },
         {
-          "name": "Max file size",
-          "values": ["5 GB", "5 GB", "5 GB"]
+          name: "Max file size",
+          values: ["5 GB", "5 GB", "5 GB"]
         },
         {
-          "name": "Transcript access",
-          "values": ["First 30 min preview", "Full transcript", "Full transcript"]
+          name: "Transcript access",
+          values: ["First 30 min preview", "Full transcript", "Full transcript"]
         },
         {
-          "name": "Batch uploads",
-          "values": ["1 file", "50 files", "50 files"]
+          name: "Batch uploads",
+          values: ["1 file", "50 files", "50 files"]
         },
         {
-          "name": "Processing speed",
-          "values": ["Standard", "Priority", "Priority"]
+          name: "Processing speed",
+          values: ["Standard", "Priority", "Priority"]
         },
         {
-          "name": "Languages supported",
-          "values": ["100+ languages", "100+ languages", "100+ languages"]
+          name: "Languages supported",
+          values: ["100+ languages", "100+ languages", "100+ languages"]
         },
         {
-          "name": "Translation",
-          "values": [true, true, true]
+          name: "Translation",
+          values: [true, true, true]
         },
         {
-          "name": "Speaker identification",
-          "values": ["Basic", "Advanced (20 speakers)", "Advanced (20 speakers)"]
+          name: "Speaker identification",
+          values: ["Basic", "Advanced (20 speakers)", "Advanced (20 speakers)"]
         },
         {
-          "name": "Word-level timestamps",
-          "values": [false, true, true]
+          name: "Word-level timestamps",
+          values: [false, true, true]
         },
         {
-          "name": "Formatted paragraphs",
-          "values": [false, true, true]
+          name: "Formatted paragraphs",
+          values: [false, true, true]
         },
         {
-          "name": "Export formats",
-          "values": ["All formats", "All formats", "All formats"]
+          name: "Export formats",
+          values: ["All formats", "All formats", "All formats"]
         },
         {
-          "name": "Support",
-          "values": ["Email", "Priority email", "Priority email"]
+          name: "Support",
+          values: ["Email", "Priority email", "Priority email"]
         },
         {
-          "name": "Data retention",
-          "values": ["30 days", "Forever", "Forever"]
+          name: "Data retention",
+          values: ["30 days", "Forever", "Forever"]
         }
       ]
     },
     FAQ: {
-      "title": "Frequently Asked ",
-      "titleHighligt": "Questions",
-      "items": [
+      title: "Frequently Asked ",
+      titleHighligt: "Questions",
+      items: [
         {
-          "q": "unlimited_policy",
-          "question": "Is it really unlimited?",
-          "answer": "Yes! Pro plans have no monthly minute caps. The only limits are technical: 10-hour max file duration and 5GB file size. You can process as many files as you need."
+          q: "unlimited_policy",
+          question: "Is it really unlimited?",
+          answer:
+            "Yes! Pro plans have no monthly minute caps. The only limits are technical: 10-hour max file duration and 5GB file size. You can process as many files as you need."
         },
         {
-          "q": "plan_change",
-          "question": "Can I change plans anytime?",
-          "answer": "Absolutely! You can cancel your subscription anytime from your dashboard. Upgrade or downgrade whenever you need."
+          q: "plan_change",
+          question: "Can I change plans anytime?",
+          answer:
+            "Absolutely! You can cancel your subscription anytime from your dashboard. Upgrade or downgrade whenever you need."
         },
         {
-          "q": "payment_methods",
-          "question": "What payment methods do you accept?",
-          "answer": "We accept all major credit cards, debit cards, and PayPal for secure, hassle-free payments."
+          q: "payment_methods",
+          question: "What payment methods do you accept?",
+          answer:
+            "We accept all major credit cards, debit cards, and PayPal for secure, hassle-free payments."
         },
         {
-          "q": "free_trial",
-          "question": "Is there a free trial for Pro?",
-          "answer": "Yes! Try Pro free for 7 days, no credit card required. Plus, get your first month at 45% off when you subscribe."
+          q: "free_trial",
+          question: "Is there a free trial for Pro?",
+          answer:
+            "Yes! Try Pro free for 7 days, no credit card required. Plus, get your first month at 45% off when you subscribe."
         },
         {
-          "q": "file_retention",
-          "question": "How long do you keep my files?",
-          "answer": "Free plan: 30 days. Pro plans: Forever! Your transcripts are always available in your account."
+          q: "file_retention",
+          question: "How long do you keep my files?",
+          answer:
+            "Free plan: 30 days. Pro plans: Forever! Your transcripts are always available in your account."
         },
         {
-          "q": "data_security",
-          "question": "What about data security?",
-          "answer": "We're SOC 2 certified and use 256-bit encryption. We never use your content to train our models. Your data is yours."
+          q: "data_security",
+          question: "What about data security?",
+          answer:
+            "We're SOC 2 certified and use 256-bit encryption. We never use your content to train our models. Your data is yours."
         }
       ]
     },
     CTA: {
-      "title": "Ready to Go Unlimited?",
-      "subtitle": "Join 50,000+ professionals transcribing without limits",
-      "button": "Try NeverCap Free →",
-      "disclaimer": "No credit card required • Start transcribing in seconds"
+      title: "Ready to Go Unlimited?",
+      subtitle: "Join 50,000+ professionals transcribing without limits",
+      button: "Try NeverCap Free →",
+      disclaimer: "No credit card required • Start transcribing in seconds"
     }
   },
   UseCases: {
@@ -1829,7 +1860,7 @@ let message = {
             },
             searchDemo: {
               placeholder: `5min`,
-              resultsText: `Per Hour of Audio`,
+              resultsText: `Per Hour of Audio`
             }
           },
           professionalAccuracy: {
@@ -1857,7 +1888,7 @@ let message = {
             },
             visual: {
               accuracy: `🔒`,
-              label: `Maximum Security`,
+              label: `Maximum Security`
             }
           }
         }
@@ -1946,7 +1977,7 @@ let message = {
       },
       platforms: {
         titleMax: `Transcribe Videos from`,
-        titleMaxHighlight: 'Any Platform',
+        titleMaxHighlight: "Any Platform",
         title: `Fetch & Transcribe From Any Platform`,
         platformNames: {
           youtube: `YouTube`,
@@ -2081,35 +2112,42 @@ let message = {
         button: `Start Unlimited Captioning →`
       },
       FAQSection: {
-        "title": "Your Transcription Questions,",
-        "titleHighlight": "Answered",
-        subtitle: 'Everything you need to know about transcribing videos from different platforms',
-        "questions": [
+        title: "Your Transcription Questions,",
+        titleHighlight: "Answered",
+        subtitle:
+          "Everything you need to know about transcribing videos from different platforms",
+        questions: [
           {
-            "question": "Q: How do I transcribe a YouTube video with NeverCap?",
-            "answer": "It's simple. Just find the YouTube video you want to transcribe, copy its URL, and paste it into our app. Our AI will automatically fetch the video and provide a full text transcript in minutes."
+            question: "Q: How do I transcribe a YouTube video with NeverCap?",
+            answer:
+              "It's simple. Just find the YouTube video you want to transcribe, copy its URL, and paste it into our app. Our AI will automatically fetch the video and provide a full text transcript in minutes."
           },
           {
-            "question": "Q: What is the best way to transcribe a Facebook video to text?",
-            "answer": "The easiest way is to use a direct link. Copy the URL of the Facebook video, and our platform will handle the rest, converting the speech to text with up to 96% accuracy, saving you from manual transcription."
+            question:
+              "Q: What is the best way to transcribe a Facebook video to text?",
+            answer:
+              "The easiest way is to use a direct link. Copy the URL of the Facebook video, and our platform will handle the rest, converting the speech to text with up to 96% accuracy, saving you from manual transcription."
           },
           {
-            "question": "Q: Can I transcribe TikTok and Instagram videos?",
-            "answer": "Absolutely. We support transcription for both TikTok and Instagram videos. This is perfect for content creators who want to repurpose their short-form video content into blog posts, articles, or text-based social media updates."
+            question: "Q: Can I transcribe TikTok and Instagram videos?",
+            answer:
+              "Absolutely. We support transcription for both TikTok and Instagram videos. This is perfect for content creators who want to repurpose their short-form video content into blog posts, articles, or text-based social media updates."
           },
           {
-            "question": "Q: How do I transcribe a Vimeo video to text?",
-            "answer": "Transcribing Vimeo videos is just as easy as any other platform. Simply copy the Vimeo video URL and paste it into NeverCap. Our AI will process the video and generate accurate text transcription that you can download in multiple formats."
+            question: "Q: How do I transcribe a Vimeo video to text?",
+            answer:
+              "Transcribing Vimeo videos is just as easy as any other platform. Simply copy the Vimeo video URL and paste it into NeverCap. Our AI will process the video and generate accurate text transcription that you can download in multiple formats."
           }
         ]
-      },
+      }
     },
     Researchers: {
       // Hero Section
       heroBadge: "Built for Academic Excellence",
       heroTitle1: "Transcribe Every Interview.",
       heroTitle2: "Analyze All Your Data.",
-      heroSubtitle: "Stop choosing which focus groups to transcribe. Process all your qualitative data with 96% accuracy and flawless speaker identification—even with 20 participants talking over each other.",
+      heroSubtitle:
+        "Stop choosing which focus groups to transcribe. Process all your qualitative data with 96% accuracy and flawless speaker identification—even with 20 participants talking over each other.",
       heroCtaPrimary: "Try It Free - No Credit Card",
       heroCtaSecondary: "See How It Works",
 
@@ -2234,13 +2272,15 @@ let message = {
       // Testimonial Section
       testimonialTitle: "Trusted by",
       testimonialTitle2: "Leading Researchers",
-      testimonialText: 'Our research team had ',
-      testimonialText2Hl: '200 hours',
-      testimonialText3: ' of focus group recordings from our community health study. Other services wanted us to pick and choose which sessions to transcribe because of the cost. NeverCap let us process',
-      testimonialText4Hl: 'everything over a weekend',
-      testimonialText5: '. The 20-speaker identification actually worked—even during our messiest discussions where everyone was talking at once. This tool has',
-      testimonialText6Hl: 'completely changed',
-      testimonialText7: 'how we handle qualitative data.',
+      testimonialText: "Our research team had ",
+      testimonialText2Hl: "200 hours",
+      testimonialText3:
+        " of focus group recordings from our community health study. Other services wanted us to pick and choose which sessions to transcribe because of the cost. NeverCap let us process",
+      testimonialText4Hl: "everything over a weekend",
+      testimonialText5:
+        ". The 20-speaker identification actually worked—even during our messiest discussions where everyone was talking at once. This tool has",
+      testimonialText6Hl: "completely changed",
+      testimonialText7: "how we handle qualitative data.",
 
       testimonialAuthorName: "Dr. Sarah Chen",
       testimonialAuthorRole: "Lead Researcher, Public Health Institute",
@@ -2329,10 +2369,12 @@ let message = {
         "A seamless workflow that captures every important moment",
 
       workflowStep1Title: "Record or Upload",
-      workflowStep1Desc: "Start recording live or simply download meeting recording from Zoom, Google Meet, or Microsoft Teams",
+      workflowStep1Desc:
+        "Start recording live or simply download meeting recording from Zoom, Google Meet, or Microsoft Teams",
 
       workflowStep2Title: "Auto-Transcribe",
-      workflowStep2Desc: "Our AI will automatically transcribe the recording to text with 96% accuracy in minutes",
+      workflowStep2Desc:
+        "Our AI will automatically transcribe the recording to text with 96% accuracy in minutes",
 
       workflowStep3Title: "Collaborate",
       workflowStep3Desc: "Share, comment, and extract action items",
@@ -2371,7 +2413,8 @@ let message = {
       heroBadge: "For Educators & Teachers",
       heroTitle1: "Make Learning",
       heroTitle2: "Accessible for Everyone",
-      heroSubtitle: "Simply paste YouTube links to get instant transcripts with auto-generated captions. Transform lectures, tutorials, and educational videos into searchable, accessible content that every student can learn from.",
+      heroSubtitle:
+        "Simply paste YouTube links to get instant transcripts with auto-generated captions. Transform lectures, tutorials, and educational videos into searchable, accessible content that every student can learn from.",
       heroCtaPrimary: "Try It Free - No Credit Card",
       heroCtaSecondary: "Watch Demo",
 
@@ -2438,19 +2481,23 @@ let message = {
       // Workflow Section
       workflowTitle: "How It Works:",
       grid: "Audio File to Study Guide",
-      workflowSubtitle: "From video link to accessible transcript and study materials in minutes",
+      workflowSubtitle:
+        "From video link to accessible transcript and study materials in minutes",
 
       workflowStep1Title: "Upload Your Lecture",
-      workflowStep1Desc: "Upload any audio or video file (MP3, MP4, WAV) or paste a YouTube link",
+      workflowStep1Desc:
+        "Upload any audio or video file (MP3, MP4, WAV) or paste a YouTube link",
 
       workflowStep2Title: "AI Transcription",
-      workflowStep2Desc: "Our AI transcribes the audio, separates speakers, and identifies key topics",
+      workflowStep2Desc:
+        "Our AI transcribes the audio, separates speakers, and identifies key topics",
 
       workflowStep3Title: "Generate Captions",
       workflowStep3Desc: "Auto-create perfectly synced subtitles",
 
       workflowStep4Title: "Export Study Guide",
-      workflowStep4Desc: "Download the text, summary, or export it to create your final study guide",
+      workflowStep4Desc:
+        "Download the text, summary, or export it to create your final study guide",
 
       // Use Cases Section
       useCasesTitle: "Perfect for Every",
@@ -2493,46 +2540,50 @@ let message = {
 
       // CTA Section
       ctaTitle: "Make All Your Educational Content Accessible",
-      ctaSubtitle: "Join thousands of educators using truly unlimited transcription",
+      ctaSubtitle:
+        "Join thousands of educators using truly unlimited transcription",
       ctaButton: "Try NeverCap Free"
     }
   },
   Resources: {
     YouTubeToMP4: {
-      err1: 'YouTube link format error.',
-      err2: 'Sorry! We currently only work with YouTube links. If you need support for other sites, we\'ll keep you updated when we add it in the future.',
+      err1: "YouTube link format error.",
+      err2: "Sorry! We currently only work with YouTube links. If you need support for other sites, we'll keep you updated when we add it in the future.",
       part1: {
-        "title": "Download YouTube Videos As MP4",
-        "placeholder": "Search or paste your Youtube link here",
-        "clear_icon": "Clear input", // 图标功能描述
-        "Download": "Download",
-        "loading_text": "Processing the link to download. Stay on the page.",
-        "howToDownload": "How to download?",
-        "tutorial": "Watch the tutorial"
+        title: "Download YouTube Videos As MP4",
+        placeholder: "Search or paste your Youtube link here",
+        clear_icon: "Clear input", // 图标功能描述
+        Download: "Download",
+        loading_text: "Processing the link to download. Stay on the page.",
+        howToDownload: "How to download?",
+        tutorial: "Watch the tutorial"
       },
       freeResources: {
-        "linkTitle": "Powered by {NeverCap}",
-        "linkTitle2": "- Truly Unlimited AI Transcription",
-        "title": "Free Resources",
-        "stepsNew": [
+        linkTitle: "Powered by {NeverCap}",
+        linkTitle2: "- Truly Unlimited AI Transcription",
+        title: "Free Resources",
+        stepsNew: [
           {
-            title: 'Free Audio and Video Transcription',
-            content: 'Convert audio and video files to text in seconds. 3 free transcripts every day.',
+            title: "Free Audio and Video Transcription",
+            content:
+              "Convert audio and video files to text in seconds. 3 free transcripts every day."
           },
           {
-            title: 'Convert Audio Files to Text',
-            content: 'Upload MP3, MP4, WAV, MOV.',
-            content2: 'Download DOCX, TXT, SRT (subtitles).',
+            title: "Convert Audio Files to Text",
+            content: "Upload MP3, MP4, WAV, MOV.",
+            content2: "Download DOCX, TXT, SRT (subtitles)."
           },
           {
-            title: 'Transcribe YouTube Videos',
-            content: 'Convert YouTube videos to accurate text or subtitles.Just paste the YouTube link.'
+            title: "Transcribe YouTube Videos",
+            content:
+              "Convert YouTube videos to accurate text or subtitles.Just paste the YouTube link."
           }
         ]
       },
       part2: {
-        "title": "Here's how to turn a YouTube video into a downloadable MP4 file in 3 easy steps",
-        "steps": [
+        title:
+          "Here's how to turn a YouTube video into a downloadable MP4 file in 3 easy steps",
+        steps: [
           {
             title: "Copy the URL",
             content:
@@ -2545,13 +2596,14 @@ let message = {
           },
           {
             title: "Download the MP4",
-            content: "Once processed, hit the download button to save your MP4 file."
+            content:
+              "Once processed, hit the download button to save your MP4 file."
           }
         ]
       },
       part3: {
         content: [
-          'Ever found yourself needing to watch YouTube videos offline?',
+          "Ever found yourself needing to watch YouTube videos offline?",
           "Whether you're commuting on the subway, flying on a plane, studying a crucial tutorial, diving deep into skill–building content, or archiving important video material—having reliable offline access is a common frustration. This is where our downloader shines.",
           "The downloader lets you quickly and easily convert YouTube videos to MP4 format for download. Save them to your device, and watch anytime.",
           "The process is fast, simple, and hassle–free. Once downloaded, enjoy your favorite videos whenever and wherever you are—no internet needed."
@@ -2626,16 +2678,16 @@ let message = {
         ]
       },
       part6: {
-        title: ['Maximize Your YouTube Video Downloads', 'With The Downloader'],
+        title: ["Maximize Your YouTube Video Downloads", "With The Downloader"],
         content: [
           "Effortless YouTube to MP4 Conversion: Fast, Simple & Free.",
           "That's where we excel. Our user–friendly interface is designed for everyone — no tech skills needed. Regardless of your experience level, you can convert videos instantly. No sign–up required: Get exactly what you need, straight away.",
           "Rest assured — your downloaded MP4s maintain the original video quality and clarity, exactly as you watched them on YouTube.",
-          "Works Everywhere You Do. Fully compatible across all major platforms and devices. Whether you're on Windows, macOS, Linux, Android, or iOS — using a smartphone, tablet, or desktop — you can download videos seamlessly.",
+          "Works Everywhere You Do. Fully compatible across all major platforms and devices. Whether you're on Windows, macOS, Linux, Android, or iOS — using a smartphone, tablet, or desktop — you can download videos seamlessly."
         ]
       },
       part7: {
-        title: 'Key Questions on Downloading YouTube Videos',
+        title: "Key Questions on Downloading YouTube Videos",
         list: [
           {
             question: "Can I download a YouTube video if it's copyrighted?",
@@ -2661,7 +2713,8 @@ let message = {
           {
             question:
               "When I download an MP4 video using my smartphone, where is it saved?",
-            answer: 'After downloading an MP4 on your smartphone, you can typically find it in the "Downloads" folder within your, device\'s file manager app.'
+            answer:
+              'After downloading an MP4 on your smartphone, you can typically find it in the "Downloads" folder within your, device\'s file manager app.'
           },
           {
             question:
@@ -2675,264 +2728,372 @@ let message = {
       videoDown: {},
       videoDownload: {
         title: "Download YouTube videos as MP4.Free,fast,and no ads.",
-        description: "Thanks for choosing our service! We truly appreciate your trust and hope it enhanced your experience. If you could share our website with your friends, that would be a huge help.",
+        description:
+          "Thanks for choosing our service! We truly appreciate your trust and hope it enhanced your experience. If you could share our website with your friends, that would be a huge help.",
         downloadButton: "Download",
         TranscribeButton: "Transcribe",
         downloadError: "Download Error."
       }
-    },
+    }
   },
   Blog: {
     Hero: {
-      "title": "Become a",
-      "highlighted_text": "Transcription Wizard",
-      "description": "Tutorials, strategies, and AI tools from {NeverCap} to help you create unlimited content with professional transcription workflows."
+      title: "Become a",
+      highlighted_text: "Transcription Wizard",
+      description:
+        "Tutorials, strategies, and AI tools from {NeverCap} to help you create unlimited content with professional transcription workflows."
     },
     Featured: {
-      FeaturedGuide: 'Featured Guide',
-      ReadFullGuide: 'Read Full Guide'
+      FeaturedGuide: "Featured Guide",
+      ReadFullGuide: "Read Full Guide"
     },
     ListSection: {
-      title: 'Latest',
+      title: "Latest",
       highlighted_text: "Articles",
-      subtitle: 'Expert tips and tutorials for unlimited transcription',
-      categories: ['All Posts', 'Tutorials', 'Podcasting', 'Content Creation', 'Business', 'AI Tips']
+      subtitle: "Expert tips and tutorials for unlimited transcription",
+      categories: [
+        "All Posts",
+        "Tutorials",
+        "Podcasting",
+        "Content Creation",
+        "Business",
+        "AI Tips"
+      ]
     },
     Detail: {
       Home: "Home",
       Blog: "Blog",
       GoToSignup: "Try NeverCap Free - No Credit Card",
-      HowWorks: "See How It Works",
+      HowWorks: "See How It Works"
     }
   },
   About: {
     Hero: {
-      "badge": "Industry-Leading AI Technology",
-      "title": "About ",
-      "description": "Our mission is to provide the most accurate audio and video transcription services. Leveraging industry-leading AI technology, we achieve transcription accuracy rates of over 96%. For some major languages, through technical optimization, we can even reach 99% accuracy."
+      badge: "Industry-Leading AI Technology",
+      title: "About ",
+      description:
+        "Our mission is to provide the most accurate audio and video transcription services. Leveraging industry-leading AI technology, we achieve transcription accuracy rates of over 96%. For some major languages, through technical optimization, we can even reach 99% accuracy."
     },
     Stats: {
-      "title": "Our ",
-      "highlighted_text": "Impact",
-      "subtitle": "Empowering global communication with cutting-edge AI technology",
-      "metrics": [
+      title: "Our ",
+      highlighted_text: "Impact",
+      subtitle:
+        "Empowering global communication with cutting-edge AI technology",
+      metrics: [
         {
-          "value": "96%+",
-          "label": "Accuracy Rate",
-          "description": "Industry-leading transcription accuracy with advanced AI"
+          value: "96%+",
+          label: "Accuracy Rate",
+          description:
+            "Industry-leading transcription accuracy with advanced AI"
         },
         {
-          "value": "100+",
-          "label": "Languages Supported",
-          "description": "Spoken word recognition for global content"
+          value: "100+",
+          label: "Languages Supported",
+          description: "Spoken word recognition for global content"
         },
         {
-          "value": "249+",
-          "label": "Translation Languages",
-          "description": "Translate transcribed text to virtually any language"
+          value: "249+",
+          label: "Translation Languages",
+          description: "Translate transcribed text to virtually any language"
         }
       ]
     },
     Mission: {
-      "title": "Why Choose ",
-      "subtitle": "We believe in breaking down language barriers and making content accessible to everyone",
-      "features": [
+      title: "Why Choose ",
+      subtitle:
+        "We believe in breaking down language barriers and making content accessible to everyone",
+      features: [
         {
-          "icon": "🎯",
-          "title": "Unmatched Accuracy",
-          "description": "Our AI models are continuously refined to deliver transcription accuracy rates exceeding 96%, with some major languages reaching up to 99% accuracy through advanced optimization."
+          icon: "🎯",
+          title: "Unmatched Accuracy",
+          description:
+            "Our AI models are continuously refined to deliver transcription accuracy rates exceeding 96%, with some major languages reaching up to 99% accuracy through advanced optimization."
         },
         {
-          "icon": "🌍",
-          "title": "Global Language Support",
-          "description": "Support for over 100 languages in spoken word recognition and translation capabilities for more than 249 languages, making your content truly global."
+          icon: "🌍",
+          title: "Global Language Support",
+          description:
+            "Support for over 100 languages in spoken word recognition and translation capabilities for more than 249 languages, making your content truly global."
         },
         {
-          "icon": "⚡",
-          "title": "Lightning Fast Processing",
-          "description": "Process hours of audio and video content in minutes, not hours. Our optimized AI pipeline ensures you get your transcriptions quickly without sacrificing quality."
+          icon: "⚡",
+          title: "Lightning Fast Processing",
+          description:
+            "Process hours of audio and video content in minutes, not hours. Our optimized AI pipeline ensures you get your transcriptions quickly without sacrificing quality."
         },
         {
-          "icon": "🔒",
-          "title": "Enterprise-Grade Security",
-          "description": "Your data security is our priority. We use industry-standard encryption and comply with global privacy regulations to keep your content safe and confidential."
+          icon: "🔒",
+          title: "Enterprise-Grade Security",
+          description:
+            "Your data security is our priority. We use industry-standard encryption and comply with global privacy regulations to keep your content safe and confidential."
         }
       ]
     },
     Company: {
-      "title": "Company ",
-      "highlighted_text": "Information",
-      "subtitle": "Get in touch with us for any questions or support",
-      "details": [
+      title: "Company ",
+      highlighted_text: "Information",
+      subtitle: "Get in touch with us for any questions or support",
+      details: [
         {
-          "label": "Company Name",
-          "value": "SCRIBIFY AI INC"
+          label: "Company Name",
+          value: "SCRIBIFY AI INC"
         },
         {
-          "label": "Headquarters",
-          "value": ["30 N Gould St Ste R", "Sheridan, WY 82801", "United States"]
+          label: "Headquarters",
+          value: ["30 N Gould St Ste R", "Sheridan, WY 82801", "United States"]
         },
         {
-          "label": "Contact Us",
-          "value": ['Email', "Support available 24/7"]
+          label: "Contact Us",
+          value: ["Email", "Support available 24/7"]
         }
       ]
     },
     CTA: {
-      "title": "Ready to Experience the Difference?",
-      "subtitle": "Join thousands of professionals who trust NeverCap for their transcription needs",
-      "button": "Try NeverCap Free →",
-      "disclaimer": "No credit card required • Start transcribing in seconds"
+      title: "Ready to Experience the Difference?",
+      subtitle:
+        "Join thousands of professionals who trust NeverCap for their transcription needs",
+      button: "Try NeverCap Free →",
+      disclaimer: "No credit card required • Start transcribing in seconds"
     }
   },
   Privacy: {
-    title: 'Privacy',
-    titleGradient: 'Policy',
-    subtitle: 'Learn how we collect, use, and protect your personal information',
-    "lastUpdated": "Last updated: {date}",
-    "lastUpdatedDate": "July 21, 2025",
-    "privacyPolicyTitle": "Privacy Policy",
-    policyDescriptionA: "This Policy describes how {NeverCap} (hereinafter referred to as \"NeverCap\", \"our\", \"we\", \"us\") collects, uses, and discloses your personal information when you use our services, websites ({url}) , and software (collectively, the \"Services\").",
-    "policyAgreement": "Please read this Privacy Policy carefully and ensure that you understand it. By using any of our Services, you agree to this Privacy Policy. If you do not agree to our use of your personal data in line with this Policy, you must stop using our Services immediately.",
-    "policyOverview": "In this policy, we lay out: what data we collect and why; how your data is handled; and your rights with respect to your data. We do not sell your data.",
-    "scopeTitle": "1. Scope of this Privacy Policy",
-    "scopeDescription": "This Privacy Policy applies only to our collection and processing of information about users of the Services. This Privacy Policy does not apply to any services, websites or software operated by third parties that are linked to us (whether we provide those links or other users share them) nor does it apply to content, data, applications or materials from third parties. We advise you to check the privacy policies of any third party website or software before providing any information to them.",
-    "collectionTitle": "2. What we collect and why",
-    "collectionPrinciple": "Our guiding principle is to collect only what we need. Here's what that means in practice:",
-    "identityTitle": "2.1 Identity & access",
-    "identityDescription": "When you sign up for one of our products, we ask for identifying information such as your name, email address. This is to provide essential product functionality and so we can send you product updates and other essential information.",
-    "billingTitle": "2.2 Billing information",
-    "billingDescription": "If you sign up for a paid product, you will be asked to provide your payment information and billing address. Payment information is submitted directly to our payment processor and doesn't hit our servers.",
-    "productInteractionsTitle": "2.3 Product interactions",
-    "productInteractionsDescription": "We store on our servers the content that you upload or receive or maintain in your product accounts. Unless you delete this content, we may keep this content as long as your account is active.",
-    "websiteInteractionsTitle": "2.4 Website interactions",
-    "websiteInteractionsDescription": "We collect information about your browsing activity for analytics and statistical purposes such as conversion rate testing and experimenting with new product designs. This includes, for example, your browser and operating system versions, your IP address, which web pages you visited and how long they took to load, and which website referred you to us. If you have an account and are signed in, these web analytics data are tied to your IP address and user account until your account is no longer active.",
-    "cookiesTitle": "2.5 Cookies",
-    "cookiesDescription1": "We also use persistent first-party cookies and some third-party cookies to store certain preferences, make it easier for you to use our applications, and perform A/B testing as well as support some analytics.",
-    "cookiesDescription2": "A cookie is a piece of text stored by your browser. It may help remember login information and site preferences. It might also collect information such as your browser type, operating system, web pages visited, duration of visit, content viewed, and other click-stream data. You can adjust cookie retention settings and accept or block individual cookies in your browser settings, although our apps won't work and other aspects of our service may not function properly if you turn cookies off.",
-    "correspondenceTitle": "2.6 Voluntary correspondence",
-    "correspondenceDescription": "When you email us with a question or to ask for help, we keep that correspondence, including your email address, so that we have a history of past correspondence to reference if you reach out in the future.",
-    "accessTitle": "3. When we access or share your information",
-    "accessDescription1": "To provide products or services you've requested. We use some third-party subprocessors to help run our applications and provide the Services to you. This includes cloud and analytics providers.",
-    "accessDescription2": "To investigate, prevent, or take action regarding abuse. Accessing a customer's account when investigating potential abuse is a measure of last resort. We want to protect the privacy and safety of both our customers and the people reporting issues to us, and we do our best to balance those responsibilities throughout the process. If we discover you are using our products for a restricted purpose, we will take action as necessary, including notifying appropriate authorities where warranted.",
-    "accessDescription3": "When required under applicable law.",
-    "dataRequests": "Requests for user data. Our policy is to not respond to government requests for user data unless we are compelled by legal process or in limited circumstances in the event of an emergency request. However, if U.S. law enforcement authorities have the necessary warrant, criminal subpoena, or court order requiring us to share data, we must comply. Likewise, we will only respond to requests from government authorities outside the U.S. if compelled by the U.S. government through procedures outlined in a mutual legal assistance treaty or agreement. It is our policy to notify affected users before we share data unless we are legally prohibited from doing so, and except in some emergency cases.",
-    "preservationRequests": "Preservation requests. Similarly, our policy is to comply with requests to preserve data only if compelled by the U.S. Federal Stored Communications Act, 18 U.S.C. Section 2703(f), or by a properly served U.S. subpoena for civil matters. We do not share preserved data unless required by law or compelled by a court order that we choose not to appeal. Furthermore, unless we receive a proper warrant, court order, or subpoena before the required preservation period expires, we will destroy any preserved copies of customer data at the end of the preservation period.",
-    "taxAudits": "If we are audited by a tax authority, we may be required to share billing-related information. If that happens, we will share only the minimum needed, such as billing addresses and tax exemption information.",
-    "securityTitle": "4. How we secure your data",
-    "securityDescription": "All data is encrypted via SSL/TLS when transmitted from our servers to your browser.",
-    "deletionTitle": "5. What happens when you delete your content",
-    "deletionDescription": "If you delete any content, it will become immediately inaccessible.",
-    "locationTitle": "6. Location of site and data",
-    "locationDescription": "Our products and other web properties are operated in the United States. If you are located in the European Union, UK, or elsewhere outside of the United States, please be aware that any information you provide to us will be transferred to and stored in the United States. By using our websites or Services and/or providing us with your personal information, you consent to this transfer.",
-    "childrenTitle": "7. Children's Privacy",
-    childrenDescription: "The Services are not aimed at children, and we do not knowingly collect Personal Information from children under the age of 13. If you are under the age of 13, please do not submit any personal information through the Services. If you believe that a child has provided us with Personal Information in violation of this Policy, please contact us as {at} {email} indicated below.",
-    at: 'at',
-    "updatesTitle": "8. Updates to this Privacy Policy",
-    "updatesDescription": "We may update this policy as needed to comply with relevant regulations and reflect any new practices. Whenever we make a significant change to our policies, we will refresh the date at the top of this page.",
-    "contactTitle": "9. Contact Us",
+    title: "Privacy",
+    titleGradient: "Policy",
+    subtitle:
+      "Learn how we collect, use, and protect your personal information",
+    lastUpdated: "Last updated: {date}",
+    lastUpdatedDate: "July 21, 2025",
+    privacyPolicyTitle: "Privacy Policy",
+    policyDescriptionA:
+      'This Policy describes how {NeverCap} (hereinafter referred to as "NeverCap", "our", "we", "us") collects, uses, and discloses your personal information when you use our services, websites ({url}) , and software (collectively, the "Services").',
+    policyAgreement:
+      "Please read this Privacy Policy carefully and ensure that you understand it. By using any of our Services, you agree to this Privacy Policy. If you do not agree to our use of your personal data in line with this Policy, you must stop using our Services immediately.",
+    policyOverview:
+      "In this policy, we lay out: what data we collect and why; how your data is handled; and your rights with respect to your data. We do not sell your data.",
+    scopeTitle: "1. Scope of this Privacy Policy",
+    scopeDescription:
+      "This Privacy Policy applies only to our collection and processing of information about users of the Services. This Privacy Policy does not apply to any services, websites or software operated by third parties that are linked to us (whether we provide those links or other users share them) nor does it apply to content, data, applications or materials from third parties. We advise you to check the privacy policies of any third party website or software before providing any information to them.",
+    collectionTitle: "2. What we collect and why",
+    collectionPrinciple:
+      "Our guiding principle is to collect only what we need. Here's what that means in practice:",
+    identityTitle: "2.1 Identity & access",
+    identityDescription:
+      "When you sign up for one of our products, we ask for identifying information such as your name, email address. This is to provide essential product functionality and so we can send you product updates and other essential information.",
+    billingTitle: "2.2 Billing information",
+    billingDescription:
+      "If you sign up for a paid product, you will be asked to provide your payment information and billing address. Payment information is submitted directly to our payment processor and doesn't hit our servers.",
+    productInteractionsTitle: "2.3 Product interactions",
+    productInteractionsDescription:
+      "We store on our servers the content that you upload or receive or maintain in your product accounts. Unless you delete this content, we may keep this content as long as your account is active.",
+    websiteInteractionsTitle: "2.4 Website interactions",
+    websiteInteractionsDescription:
+      "We collect information about your browsing activity for analytics and statistical purposes such as conversion rate testing and experimenting with new product designs. This includes, for example, your browser and operating system versions, your IP address, which web pages you visited and how long they took to load, and which website referred you to us. If you have an account and are signed in, these web analytics data are tied to your IP address and user account until your account is no longer active.",
+    cookiesTitle: "2.5 Cookies",
+    cookiesDescription1:
+      "We also use persistent first-party cookies and some third-party cookies to store certain preferences, make it easier for you to use our applications, and perform A/B testing as well as support some analytics.",
+    cookiesDescription2:
+      "A cookie is a piece of text stored by your browser. It may help remember login information and site preferences. It might also collect information such as your browser type, operating system, web pages visited, duration of visit, content viewed, and other click-stream data. You can adjust cookie retention settings and accept or block individual cookies in your browser settings, although our apps won't work and other aspects of our service may not function properly if you turn cookies off.",
+    correspondenceTitle: "2.6 Voluntary correspondence",
+    correspondenceDescription:
+      "When you email us with a question or to ask for help, we keep that correspondence, including your email address, so that we have a history of past correspondence to reference if you reach out in the future.",
+    accessTitle: "3. When we access or share your information",
+    accessDescription1:
+      "To provide products or services you've requested. We use some third-party subprocessors to help run our applications and provide the Services to you. This includes cloud and analytics providers.",
+    accessDescription2:
+      "To investigate, prevent, or take action regarding abuse. Accessing a customer's account when investigating potential abuse is a measure of last resort. We want to protect the privacy and safety of both our customers and the people reporting issues to us, and we do our best to balance those responsibilities throughout the process. If we discover you are using our products for a restricted purpose, we will take action as necessary, including notifying appropriate authorities where warranted.",
+    accessDescription3: "When required under applicable law.",
+    dataRequests:
+      "Requests for user data. Our policy is to not respond to government requests for user data unless we are compelled by legal process or in limited circumstances in the event of an emergency request. However, if U.S. law enforcement authorities have the necessary warrant, criminal subpoena, or court order requiring us to share data, we must comply. Likewise, we will only respond to requests from government authorities outside the U.S. if compelled by the U.S. government through procedures outlined in a mutual legal assistance treaty or agreement. It is our policy to notify affected users before we share data unless we are legally prohibited from doing so, and except in some emergency cases.",
+    preservationRequests:
+      "Preservation requests. Similarly, our policy is to comply with requests to preserve data only if compelled by the U.S. Federal Stored Communications Act, 18 U.S.C. Section 2703(f), or by a properly served U.S. subpoena for civil matters. We do not share preserved data unless required by law or compelled by a court order that we choose not to appeal. Furthermore, unless we receive a proper warrant, court order, or subpoena before the required preservation period expires, we will destroy any preserved copies of customer data at the end of the preservation period.",
+    taxAudits:
+      "If we are audited by a tax authority, we may be required to share billing-related information. If that happens, we will share only the minimum needed, such as billing addresses and tax exemption information.",
+    securityTitle: "4. How we secure your data",
+    securityDescription:
+      "All data is encrypted via SSL/TLS when transmitted from our servers to your browser.",
+    deletionTitle: "5. What happens when you delete your content",
+    deletionDescription:
+      "If you delete any content, it will become immediately inaccessible.",
+    locationTitle: "6. Location of site and data",
+    locationDescription:
+      "Our products and other web properties are operated in the United States. If you are located in the European Union, UK, or elsewhere outside of the United States, please be aware that any information you provide to us will be transferred to and stored in the United States. By using our websites or Services and/or providing us with your personal information, you consent to this transfer.",
+    childrenTitle: "7. Children's Privacy",
+    childrenDescription:
+      "The Services are not aimed at children, and we do not knowingly collect Personal Information from children under the age of 13. If you are under the age of 13, please do not submit any personal information through the Services. If you believe that a child has provided us with Personal Information in violation of this Policy, please contact us as {at} {email} indicated below.",
+    at: "at",
+    updatesTitle: "8. Updates to this Privacy Policy",
+    updatesDescription:
+      "We may update this policy as needed to comply with relevant regulations and reflect any new practices. Whenever we make a significant change to our policies, we will refresh the date at the top of this page.",
+    contactTitle: "9. Contact Us",
     contactDescription: `If you have any questions, comments or complaints about our Privacy Policy, please contact us {at} {email} and we will endeavor to deal with your complaint as soon as possible.`,
-    "websiteUrl": "https://www.nevercap.ai/",
+    websiteUrl: "https://www.nevercap.ai/"
   },
   TermsOfUse: {
-    title: 'Terms of',
-    titleGradient: 'Service',
-    subtitle: 'Please read these terms carefully before using our services',
-    "lastUpdated": "Last updated: {date}",
-    "lastUpdatedDate": "July 21, 2025",
-    "termsOfServiceTitle": "Terms of Service",
-    "thankYou": "Thank you for using our products!",
-    "companyDefinitionA": "When we say \"Company\", \"we\", \"our\", or \"us\" in this document, we are referring to {NeverCap}.",
-    "servicesDefinition": "When we say \"Services\", we mean any product created and maintained by NeverCap, whether delivered within a web browser, desktop application, mobile application, or another format.",
-    "termsUpdate": "We may update these Terms of Service in the future. Typically these changes have been to clarify some of these terms by linking to an expanded related policy. Whenever we make a significant change to our policies, we will refresh the date at the top of this page and take any other appropriate steps to notify account holders.",
-    "acceptanceTitle": "1. Acceptance of Agreement",
-    "acceptanceDescription1": "By using our Services, you are indicating your acceptance of this Agreement, which thereby becomes a binding contract between you and NeverCap. You represent that you are legally able to accept these Terms, and affirm that you are of legal age to form a binding contract. NeverCap's acceptance is expressly conditioned upon your assent to all the terms and conditions of this Agreement.",
-    "eligibilityRequirement": "The Services are not intended for and should not be used by anyone under the age of 18. By using the Services, you represent and warrant that you meet the foregoing eligibility requirement.",
-    "userResponsibility": "The terms \"you,\" \"your,\" \"yourself\" shall also include your employees, agents, business representatives and any other individuals that you provide access to the Services through your Account (as defined below). You are responsible for ensuring that all persons who access the Services through your account are aware of these Terms and comply with them.",
-    "termsRevision": "NeverCap reserves the right to revise and update these Terms from time to time in its sole discretion. All changes are effective immediately when posted. Your continued use of the Services following the posting of revised Terms means that you accept and agree to the changes. You are expected to check this page from time to time so you are aware of any changes, as they are binding on you.",
-    "servicesTitle": "2. NeverCap's Services",
-    "servicesDescription1": "Our Services enables users to transform voice conversations into transcribed text that can be searched, translated and shared with others.",
-    "servicesOptions": "You may choose whether to use the free version of the Services (\"Free Services\") or the subscription-based paid version of the Services for which you may be required to pay fees (the \"Paid Services\").",
-    "servicesAccess": "We will make the Services available to you. You are responsible for making all arrangements necessary for you to have access to the Services.",
-    "accountTermsTitle": "3. Account Terms",
-    "accountSecurity": "You are responsible for maintaining the security of your account. The Company cannot and will not be liable for any loss or damage from your failure to comply with this security obligation.",
-    "lawfulUse": "You may not use the Services for any unlawful, unethical, or immoral purpose.",
-    "contentResponsibility": "You are responsible for all content posted and activity that occurs under your account. That includes content posted by others who either: (a) have access to your login credentials; or (b) have their own logins under your account.",
-    "humanRequirement": "You must be a human. Accounts registered by \"bots\" or other automated methods are not permitted.",
-    "paymentTitle": "4. Payment, Refunds, and Plan Changes",
-    "freeTrial": "For paid Services that offer a free trial, we explain the length of trial when you sign up. After the trial period, you need to pay in advance to keep using the Service. If you do not pay, these services will end.",
-    "upgradePolicy": "If you are upgrading from a free plan to a paid plan, we will charge your card immediately and your billing cycle starts on the day of upgrade.",
-    "taxes": "All fees are exclusive of all taxes, levies, or duties imposed by taxing authorities. Where required, we will collect those taxes on behalf of the taxing authority and remit those taxes to taxing authorities. Otherwise, you are responsible for payment of all taxes, levies, or duties.",
-    "refunds": "All purchases are non-refundable. You can cancel any paid services at any time by logging into your account. For paid subscriptions, your cancellation will take effect at the end of the current paid term, unless otherwise stated.",
-    "cancellationTitle": "5. Cancellation and Termination",
-    "cancellationPolicy": "If you cancel the Service before the end of any paid up time, your cancellation will take effect immediately, and you will not be charged again. We do not automatically prorate unused time in the last billing cycle.",
-    "terminationRights": "We have the right to suspend or terminate your account and refuse any and all current or future use of our Services for any reason at any time. Suspension means you will not be able to access the account or any content in the account. Termination will furthermore result in the deletion of your account or your access to your account, and the forfeiture and relinquishment of all content in your account. We also reserve the right to refuse the use of the Services to anyone for any reason at any time. We have this clause because statistically speaking, out of the hundreds of thousands of accounts on our Services, there is at least one doing something nefarious.",
-    "abusePolicy": "Verbal, physical, written or other abuse (including threats of abuse or retribution) of Company employee or officer may result in immediate account termination.",
-    "submissionsTitle": "6. Submissions",
-    "submissionsDescription": "You acknowledge and agree that any questions, comments, suggestions, ideas, feedback, or other information regarding the Site (\"Submissions\") provided by you to us are non-confidential and shall become our sole property. We shall own exclusive rights, including all intellectual property rights, and shall be entitled to the unrestricted use and dissemination of these Submissions for any lawful purpose, commercial or otherwise, without acknowledgment or compensation to you. You hereby waive all moral rights to any such Submissions, and you hereby warrant that any such Submissions are original with you or that you have the right to submit such Submissions. You agree there shall be no recourse against us for any alleged or actual infringement or misappropriation of any proprietary right in your Submissions.",
-    "uptimeTitle": "7. Uptime and Security",
-    "serviceAvailability": "Your use of the Services is at your sole risk. We provide these Services on an \"as is\" and \"as available\" basis. We do not offer service-level agreements for most of our Services, but do take uptime of our applications seriously.",
-    "throttlingPolicy": "We reserve the right to temporarily throttle or limit account access in rare cases where a user's activity is verified to be negatively impacting the stability and performance of the Service for other users. In all but the most critical instances, we will contact you to find a solution before taking action.",
-    "dataSecurity": "We take many measures to protect and secure your data through backups, redundancies, and encryption. We enforce encryption for data transmission over the public Internet.",
-    "thirdPartyVendors": "We use third party vendors and hosting partners to provide the necessary hardware, software, networking, storage, and related technology required to run the Services.",
-    "siteManagementTitle": "8. Site Management",
-    "siteManagementDescription": "We reserve the right, but not the obligation, to: (1) monitor the Site for violations of these Terms of Service ; (2) take appropriate legal action against anyone who, in our sole discretion, violates the law or these Terms of Service , including without limitation, reporting such user to law enforcement authorities; (3) in our sole discretion and without limitation, refuse, restrict access to, limit the availability of, or disable (to the extent technologically feasible) any of your Contributions or any portion thereof; (4) in our sole discretion and without limitation, notice, or liability, to remove from the Site or otherwise disable all files and content that are excessive in size or are in any way burdensome to our systems; and (5) otherwise manage the Site in a manner designed to protect our rights and property and to facilitate the proper functioning of the Site.",
-    "copyrightTitle": "9. Copyright and Content Ownership",
-    "copyrightCompliance": "All content posted on the Services must comply with U.S. copyright law.",
-    "ipRights": "We claim no intellectual property rights over the material you provide to the Services. All materials uploaded remain yours.",
-    "contentModeration": "We do not pre-screen content, but reserve the right (but not the obligation) in our sole discretion to refuse or remove any content that is available via the Service.",
-    trademarkProtection: "The names, look, and feel of the Services are copyright© to the Company. All rights reserved. You may not duplicate, copy, or reuse any portion of the HTML, CSS, JavaScript, or visual design elements without express written permission from the Company. You must request permission to use the Company's logo or any Service logos for promotional purposes. Please email us {at} {email} with requests to use logos. We reserve the right to rescind this permission if you violate these Terms of Service.",
-    "prohibitedExploitation": "You agree not to reproduce, duplicate, copy, sell, resell or exploit any portion of the Services, use of the Services, or access to the Services without the express written permission by the Company.",
-    "impersonationProhibition": "You must not modify another website so as to falsely imply that it is associated with the Services or the Company.",
-    "dmcaPolicy": "We respect the intellectual property rights of others. If you believe that any material available on or through the Site infringes upon any copyright you own or control, please immediately contact us .A copy of your Notification will be sent to the person who posted or stored the material addressed in the Notification. Please be advised that pursuant to applicable law you may be held liable for damages if you make material misrepresentations in a Notification. Thus, if you are not sure that material located on or linked to by the Site infringes your copyright, you should consider first contacting an attorney.",
-    "prohibitedActivitiesTitle": "10. Prohibited Activities",
-    "generalProhibition": "You may not access or use the Site for any purpose other than that for which we make the Site available. The Site may not be used in connection with any commercial endeavors except those that are specifically endorsed or approved by us.",
-    "userObligations": "As a user of the Site, you agree not to:",
-    "dataScraping": "Systematically retrieve data or other content from the Site to create or compile, directly or indirectly, a collection, compilation, database, or directory without written permission from us.",
-    "fraud": "Trick, defraud, or mislead us and other users, especially in any attempt to learn sensitive account information such as user passwords.",
-    "securityInterference": "Circumvent, disable, or otherwise interfere with security-related features of the Site, including features that prevent or restrict the use or copying of any Content or enforce limitations on the use of the Site and/or the Content contained therein.",
-    "defamation": "Disparage, tarnish, or otherwise harm, in our opinion, us and/or the Site.",
-    "harassment": "Use any information obtained from the Site in order to harass, abuse, or harm another person.",
-    "supportAbuse": "Make improper use of our support services or submit false reports of abuse or misconduct.",
-    "legalCompliance": "Use the Site in a manner inconsistent with any applicable laws or regulations.",
-    "framingProhibition": "Engage in unauthorized framing of or linking to the Site.",
-    "malware": "Upload or transmit (or attempt to upload or to transmit) viruses, Trojan horses, or other material, including excessive use of capital letters and spamming (continuous posting of repetitive text), that interferes with any party's uninterrupted use and enjoyment of the Site or modifies, impairs, disrupts, alters, or interferes with the use, features, functions, operation, or maintenance of the Site.",
-    "automation": "Engage in any automated use of the system, such as using scripts to send comments or messages, or using any data mining, robots, or similar data gathering and extraction tools.",
-    "copyrightRemoval": "Delete the copyright or other proprietary rights notice from any Content.",
-    "impersonation": "Attempt to impersonate another user or person or use the username of another user.",
-    "spyware": "Upload or transmit (or attempt to upload or to transmit) any material that acts as a passive or active information collection or transmission mechanism, including without limitation, clear graphics interchange formats (\"gifs\"), 1×1 pixels, web bugs, cookies, or other similar devices (sometimes referred to as \"spyware\" or \"passive collection mechanisms\" or \"pcms\").",
-    "disruption": "Interfere with, disrupt, or create an undue burden on the Site or the networks or services connected to the Site.",
-    "employeeHarassment": "Harass, annoy, intimidate, or threaten any of our employees or agents engaged in providing any portion of the Site to you.",
-    "accessCircumvention": "Attempt to bypass any measures of the Site designed to prevent or restrict access to the Site, or any portion of the Site.",
-    "codeCopying": "Copy or adapt the Site's software, including but not limited to Flash, PHP, HTML, JavaScript, or other code.",
-    "reverseEngineering": "Except as permitted by applicable law, decipher, decompile, disassemble, or reverse engineer any of the software comprising or in any way making up a part of the Site.",
-    "bots": "Except as may be the result of standard search engine or Internet browser usage, use, launch, develop, or distribute any automated system, including without limitation, any spider, robot, cheat utility, scraper, or offline reader that accesses the Site, or using or launching any unauthorized script or other software.",
-    "buyingAgents": "Use a buying agent or purchasing agent to make purchases on the Site.",
-    "unauthorizedUse": "Make any unauthorized use of the Site, including collecting usernames and/or email addresses of users by electronic or other means for the purpose of sending unsolicited email, or creating user accounts by automated means or under false pretenses.",
-    "competition": "Use the Site as part of any effort to compete with us or otherwise use the Site and/or the Content for any revenue-generating endeavor or commercial enterprise.",
-    "advertising": "Use the Site to advertise or offer to sell goods and services.",
-    "profileTransfer": "Sell or otherwise transfer your profile.",
-    "featuresTitle": "11. Features and Bugs",
-    "featuresDescription": "We design our Services with care, based on our own experience and the experiences of customers who share their time and feedback. However, there is no such thing as a service that pleases everybody. We make no guarantees that our Services will meet your specific requirements or expectations.",
-    "bugsDescription": "We also test all of our features before shipping them. As with any software, our Services inevitably have some bugs. We track the bugs reported to us and work through them, especially any related to security or privacy. Not all reported bugs will get fixed and we don't guarantee completely error-free Services.",
-    "correctionsTitle": "12. Corrections",
-    "informationAccuracy": "There may be information on the Site that contains typographical errors, inaccuracies, or omissions, including descriptions, pricing, availability, and various other information. We reserve the right to correct any errors, inaccuracies, or omissions and to change or update the information on the Site at any time, without prior notice.",
-    "siteAvailability": "We cannot guarantee the Site will be available at all times. We may experience hardware, software, or other problems or need to perform maintenance related to the Site, resulting in interruptions, delays, or errors. We reserve the right to change, revise, update, suspend, discontinue, or otherwise modify the Site at any time or for any reason without notice to you. You agree that we have no liability whatsoever for any loss, damage, or inconvenience caused by your inability to access or use the Site during any downtime or discontinuance of the Site. Nothing in these Terms of Service will be construed to obligate us to maintain and support the Site or to supply any corrections, updates, or releases in connection therewith.",
-    "userDataTitle": "13. User Data",
-    "userDataDescription": "We will maintain certain data that you transmit to the Site for the purpose of managing the performance of the Site, as well as data relating to your use of the Site. Although we perform regular routine backups of data, you are solely responsible for all data that you transmit or that relates to any activity you have undertaken using the Site. You agree that we shall have no liability to you for any loss or corruption of any such data, and you hereby waive any right of action against us arising from any such loss or corruption of such data.",
-    "privacyPolicyTitle": "14. Privacy Policy",
-    privacyPolicyDescription: "We care about data privacy and security. Please review our {policy}. By using the Site, you agree to be bound by our Privacy Policy, which is incorporated into these Terms of Service. Please be advised the Site is hosted in the United States. If you access the Site from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in the United States , then through your continued use of the Site, you are transferring your data to the United States , and you agree to have your data transferred to and processed in the United States.",
-    "liabilityTitle": "15. Liability",
-    "liabilityIntroduction": "We mention liability throughout these Terms but to put it all in one section:",
-    "liabilityWaiver": "You expressly understand and agree that the Company shall not be liable, in law or in equity, to you or to any third party for any direct, indirect, incidental, lost profits, special, consequential, punitive or exemplary damages, including, but not limited to, damages for loss of profits, goodwill, use, data or other intangible losses (even if the Company has been advised of the possibility of such damages), resulting from: (1) the use or the inability to use the Services; (2) errors, mistakes, or inaccuracies of content and materials; (3) personal injury or property damage, of any nature whatsoever, resulting from your access to and use of the site; (4) the cost of procurement of substitute goods and services resulting from any goods, data, information or services purchased or obtained or messages received or transactions entered into through or from the Services; (5) any unauthorized access to or use of our secure servers and/or any and all personal information and/or financial information stored therein; (6) any interruption or cessation of transmission to or from the site; (7) any bugs, viruses, trojan horses, or the like which may be transmitted to or through the site by any third party, and/or; (8) any errors or omissions in any content and materials or for any loss or damage of any kind incurred as a result of the use of any content posted, transmitted, or otherwise made available via the site; (9) statements or conduct of any third party on the service; (10) or any other matter relating to this Terms of Service or the Services, whether as a breach of contract, tort (including negligence whether active or passive), or any other theory of liability.",
-    "miscellaneousTitle": "16. Miscellaneous",
-    "miscellaneousDescription": "These Terms of Service and any policies or operating rules posted by us on the Site or in respect to the Site constitute the entire agreement and understanding between you and us. Our failure to exercise or enforce any right or provision of these Terms of Service shall not operate as a waiver of such right or provision. These Terms of Service operate to the fullest extent permissible by law. We may assign any or all of our rights and obligations to others at any time. We shall not be responsible or liable for any loss, damage, delay, or failure to act caused by any cause beyond our reasonable control. If any provision or part of a provision of these Terms of Service is determined to be unlawful, void, or unenforceable, that provision or part of the provision is deemed severable from these Terms of Service and does not affect the validity and enforceability of any remaining provisions. There is no joint venture, partnership, employment or agency relationship created between you and us as a result of these Terms of Service or use of the Site. You agree that these Terms of Service will not be construed against us by virtue of having drafted them. You hereby waive any and all defenses you may have based on the electronic form of these Terms of Service and the lack of signing by the parties hereto to execute these Terms of Service.",
-    "contactTitle": "17. Contact Us",
-    contactDescription: "If you have a question about any of the Terms of Service, please contact us {at} {email}.",
-    at: 'at',
-    "site": "Site",
-    "services": "Services"
-  },
+    title: "Terms of",
+    titleGradient: "Service",
+    subtitle: "Please read these terms carefully before using our services",
+    lastUpdated: "Last updated: {date}",
+    lastUpdatedDate: "July 21, 2025",
+    termsOfServiceTitle: "Terms of Service",
+    thankYou: "Thank you for using our products!",
+    companyDefinitionA:
+      'When we say "Company", "we", "our", or "us" in this document, we are referring to {NeverCap}.',
+    servicesDefinition:
+      'When we say "Services", we mean any product created and maintained by NeverCap, whether delivered within a web browser, desktop application, mobile application, or another format.',
+    termsUpdate:
+      "We may update these Terms of Service in the future. Typically these changes have been to clarify some of these terms by linking to an expanded related policy. Whenever we make a significant change to our policies, we will refresh the date at the top of this page and take any other appropriate steps to notify account holders.",
+    acceptanceTitle: "1. Acceptance of Agreement",
+    acceptanceDescription1:
+      "By using our Services, you are indicating your acceptance of this Agreement, which thereby becomes a binding contract between you and NeverCap. You represent that you are legally able to accept these Terms, and affirm that you are of legal age to form a binding contract. NeverCap's acceptance is expressly conditioned upon your assent to all the terms and conditions of this Agreement.",
+    eligibilityRequirement:
+      "The Services are not intended for and should not be used by anyone under the age of 18. By using the Services, you represent and warrant that you meet the foregoing eligibility requirement.",
+    userResponsibility:
+      'The terms "you," "your," "yourself" shall also include your employees, agents, business representatives and any other individuals that you provide access to the Services through your Account (as defined below). You are responsible for ensuring that all persons who access the Services through your account are aware of these Terms and comply with them.',
+    termsRevision:
+      "NeverCap reserves the right to revise and update these Terms from time to time in its sole discretion. All changes are effective immediately when posted. Your continued use of the Services following the posting of revised Terms means that you accept and agree to the changes. You are expected to check this page from time to time so you are aware of any changes, as they are binding on you.",
+    servicesTitle: "2. NeverCap's Services",
+    servicesDescription1:
+      "Our Services enables users to transform voice conversations into transcribed text that can be searched, translated and shared with others.",
+    servicesOptions:
+      'You may choose whether to use the free version of the Services ("Free Services") or the subscription-based paid version of the Services for which you may be required to pay fees (the "Paid Services").',
+    servicesAccess:
+      "We will make the Services available to you. You are responsible for making all arrangements necessary for you to have access to the Services.",
+    accountTermsTitle: "3. Account Terms",
+    accountSecurity:
+      "You are responsible for maintaining the security of your account. The Company cannot and will not be liable for any loss or damage from your failure to comply with this security obligation.",
+    lawfulUse:
+      "You may not use the Services for any unlawful, unethical, or immoral purpose.",
+    contentResponsibility:
+      "You are responsible for all content posted and activity that occurs under your account. That includes content posted by others who either: (a) have access to your login credentials; or (b) have their own logins under your account.",
+    humanRequirement:
+      'You must be a human. Accounts registered by "bots" or other automated methods are not permitted.',
+    paymentTitle: "4. Payment, Refunds, and Plan Changes",
+    freeTrial:
+      "For paid Services that offer a free trial, we explain the length of trial when you sign up. After the trial period, you need to pay in advance to keep using the Service. If you do not pay, these services will end.",
+    upgradePolicy:
+      "If you are upgrading from a free plan to a paid plan, we will charge your card immediately and your billing cycle starts on the day of upgrade.",
+    taxes:
+      "All fees are exclusive of all taxes, levies, or duties imposed by taxing authorities. Where required, we will collect those taxes on behalf of the taxing authority and remit those taxes to taxing authorities. Otherwise, you are responsible for payment of all taxes, levies, or duties.",
+    refunds:
+      "All purchases are non-refundable. You can cancel any paid services at any time by logging into your account. For paid subscriptions, your cancellation will take effect at the end of the current paid term, unless otherwise stated.",
+    cancellationTitle: "5. Cancellation and Termination",
+    cancellationPolicy:
+      "If you cancel the Service before the end of any paid up time, your cancellation will take effect immediately, and you will not be charged again. We do not automatically prorate unused time in the last billing cycle.",
+    terminationRights:
+      "We have the right to suspend or terminate your account and refuse any and all current or future use of our Services for any reason at any time. Suspension means you will not be able to access the account or any content in the account. Termination will furthermore result in the deletion of your account or your access to your account, and the forfeiture and relinquishment of all content in your account. We also reserve the right to refuse the use of the Services to anyone for any reason at any time. We have this clause because statistically speaking, out of the hundreds of thousands of accounts on our Services, there is at least one doing something nefarious.",
+    abusePolicy:
+      "Verbal, physical, written or other abuse (including threats of abuse or retribution) of Company employee or officer may result in immediate account termination.",
+    submissionsTitle: "6. Submissions",
+    submissionsDescription:
+      'You acknowledge and agree that any questions, comments, suggestions, ideas, feedback, or other information regarding the Site ("Submissions") provided by you to us are non-confidential and shall become our sole property. We shall own exclusive rights, including all intellectual property rights, and shall be entitled to the unrestricted use and dissemination of these Submissions for any lawful purpose, commercial or otherwise, without acknowledgment or compensation to you. You hereby waive all moral rights to any such Submissions, and you hereby warrant that any such Submissions are original with you or that you have the right to submit such Submissions. You agree there shall be no recourse against us for any alleged or actual infringement or misappropriation of any proprietary right in your Submissions.',
+    uptimeTitle: "7. Uptime and Security",
+    serviceAvailability:
+      'Your use of the Services is at your sole risk. We provide these Services on an "as is" and "as available" basis. We do not offer service-level agreements for most of our Services, but do take uptime of our applications seriously.',
+    throttlingPolicy:
+      "We reserve the right to temporarily throttle or limit account access in rare cases where a user's activity is verified to be negatively impacting the stability and performance of the Service for other users. In all but the most critical instances, we will contact you to find a solution before taking action.",
+    dataSecurity:
+      "We take many measures to protect and secure your data through backups, redundancies, and encryption. We enforce encryption for data transmission over the public Internet.",
+    thirdPartyVendors:
+      "We use third party vendors and hosting partners to provide the necessary hardware, software, networking, storage, and related technology required to run the Services.",
+    siteManagementTitle: "8. Site Management",
+    siteManagementDescription:
+      "We reserve the right, but not the obligation, to: (1) monitor the Site for violations of these Terms of Service ; (2) take appropriate legal action against anyone who, in our sole discretion, violates the law or these Terms of Service , including without limitation, reporting such user to law enforcement authorities; (3) in our sole discretion and without limitation, refuse, restrict access to, limit the availability of, or disable (to the extent technologically feasible) any of your Contributions or any portion thereof; (4) in our sole discretion and without limitation, notice, or liability, to remove from the Site or otherwise disable all files and content that are excessive in size or are in any way burdensome to our systems; and (5) otherwise manage the Site in a manner designed to protect our rights and property and to facilitate the proper functioning of the Site.",
+    copyrightTitle: "9. Copyright and Content Ownership",
+    copyrightCompliance:
+      "All content posted on the Services must comply with U.S. copyright law.",
+    ipRights:
+      "We claim no intellectual property rights over the material you provide to the Services. All materials uploaded remain yours.",
+    contentModeration:
+      "We do not pre-screen content, but reserve the right (but not the obligation) in our sole discretion to refuse or remove any content that is available via the Service.",
+    trademarkProtection:
+      "The names, look, and feel of the Services are copyright© to the Company. All rights reserved. You may not duplicate, copy, or reuse any portion of the HTML, CSS, JavaScript, or visual design elements without express written permission from the Company. You must request permission to use the Company's logo or any Service logos for promotional purposes. Please email us {at} {email} with requests to use logos. We reserve the right to rescind this permission if you violate these Terms of Service.",
+    prohibitedExploitation:
+      "You agree not to reproduce, duplicate, copy, sell, resell or exploit any portion of the Services, use of the Services, or access to the Services without the express written permission by the Company.",
+    impersonationProhibition:
+      "You must not modify another website so as to falsely imply that it is associated with the Services or the Company.",
+    dmcaPolicy:
+      "We respect the intellectual property rights of others. If you believe that any material available on or through the Site infringes upon any copyright you own or control, please immediately contact us .A copy of your Notification will be sent to the person who posted or stored the material addressed in the Notification. Please be advised that pursuant to applicable law you may be held liable for damages if you make material misrepresentations in a Notification. Thus, if you are not sure that material located on or linked to by the Site infringes your copyright, you should consider first contacting an attorney.",
+    prohibitedActivitiesTitle: "10. Prohibited Activities",
+    generalProhibition:
+      "You may not access or use the Site for any purpose other than that for which we make the Site available. The Site may not be used in connection with any commercial endeavors except those that are specifically endorsed or approved by us.",
+    userObligations: "As a user of the Site, you agree not to:",
+    dataScraping:
+      "Systematically retrieve data or other content from the Site to create or compile, directly or indirectly, a collection, compilation, database, or directory without written permission from us.",
+    fraud:
+      "Trick, defraud, or mislead us and other users, especially in any attempt to learn sensitive account information such as user passwords.",
+    securityInterference:
+      "Circumvent, disable, or otherwise interfere with security-related features of the Site, including features that prevent or restrict the use or copying of any Content or enforce limitations on the use of the Site and/or the Content contained therein.",
+    defamation:
+      "Disparage, tarnish, or otherwise harm, in our opinion, us and/or the Site.",
+    harassment:
+      "Use any information obtained from the Site in order to harass, abuse, or harm another person.",
+    supportAbuse:
+      "Make improper use of our support services or submit false reports of abuse or misconduct.",
+    legalCompliance:
+      "Use the Site in a manner inconsistent with any applicable laws or regulations.",
+    framingProhibition:
+      "Engage in unauthorized framing of or linking to the Site.",
+    malware:
+      "Upload or transmit (or attempt to upload or to transmit) viruses, Trojan horses, or other material, including excessive use of capital letters and spamming (continuous posting of repetitive text), that interferes with any party's uninterrupted use and enjoyment of the Site or modifies, impairs, disrupts, alters, or interferes with the use, features, functions, operation, or maintenance of the Site.",
+    automation:
+      "Engage in any automated use of the system, such as using scripts to send comments or messages, or using any data mining, robots, or similar data gathering and extraction tools.",
+    copyrightRemoval:
+      "Delete the copyright or other proprietary rights notice from any Content.",
+    impersonation:
+      "Attempt to impersonate another user or person or use the username of another user.",
+    spyware:
+      'Upload or transmit (or attempt to upload or to transmit) any material that acts as a passive or active information collection or transmission mechanism, including without limitation, clear graphics interchange formats ("gifs"), 1×1 pixels, web bugs, cookies, or other similar devices (sometimes referred to as "spyware" or "passive collection mechanisms" or "pcms").',
+    disruption:
+      "Interfere with, disrupt, or create an undue burden on the Site or the networks or services connected to the Site.",
+    employeeHarassment:
+      "Harass, annoy, intimidate, or threaten any of our employees or agents engaged in providing any portion of the Site to you.",
+    accessCircumvention:
+      "Attempt to bypass any measures of the Site designed to prevent or restrict access to the Site, or any portion of the Site.",
+    codeCopying:
+      "Copy or adapt the Site's software, including but not limited to Flash, PHP, HTML, JavaScript, or other code.",
+    reverseEngineering:
+      "Except as permitted by applicable law, decipher, decompile, disassemble, or reverse engineer any of the software comprising or in any way making up a part of the Site.",
+    bots: "Except as may be the result of standard search engine or Internet browser usage, use, launch, develop, or distribute any automated system, including without limitation, any spider, robot, cheat utility, scraper, or offline reader that accesses the Site, or using or launching any unauthorized script or other software.",
+    buyingAgents:
+      "Use a buying agent or purchasing agent to make purchases on the Site.",
+    unauthorizedUse:
+      "Make any unauthorized use of the Site, including collecting usernames and/or email addresses of users by electronic or other means for the purpose of sending unsolicited email, or creating user accounts by automated means or under false pretenses.",
+    competition:
+      "Use the Site as part of any effort to compete with us or otherwise use the Site and/or the Content for any revenue-generating endeavor or commercial enterprise.",
+    advertising:
+      "Use the Site to advertise or offer to sell goods and services.",
+    profileTransfer: "Sell or otherwise transfer your profile.",
+    featuresTitle: "11. Features and Bugs",
+    featuresDescription:
+      "We design our Services with care, based on our own experience and the experiences of customers who share their time and feedback. However, there is no such thing as a service that pleases everybody. We make no guarantees that our Services will meet your specific requirements or expectations.",
+    bugsDescription:
+      "We also test all of our features before shipping them. As with any software, our Services inevitably have some bugs. We track the bugs reported to us and work through them, especially any related to security or privacy. Not all reported bugs will get fixed and we don't guarantee completely error-free Services.",
+    correctionsTitle: "12. Corrections",
+    informationAccuracy:
+      "There may be information on the Site that contains typographical errors, inaccuracies, or omissions, including descriptions, pricing, availability, and various other information. We reserve the right to correct any errors, inaccuracies, or omissions and to change or update the information on the Site at any time, without prior notice.",
+    siteAvailability:
+      "We cannot guarantee the Site will be available at all times. We may experience hardware, software, or other problems or need to perform maintenance related to the Site, resulting in interruptions, delays, or errors. We reserve the right to change, revise, update, suspend, discontinue, or otherwise modify the Site at any time or for any reason without notice to you. You agree that we have no liability whatsoever for any loss, damage, or inconvenience caused by your inability to access or use the Site during any downtime or discontinuance of the Site. Nothing in these Terms of Service will be construed to obligate us to maintain and support the Site or to supply any corrections, updates, or releases in connection therewith.",
+    userDataTitle: "13. User Data",
+    userDataDescription:
+      "We will maintain certain data that you transmit to the Site for the purpose of managing the performance of the Site, as well as data relating to your use of the Site. Although we perform regular routine backups of data, you are solely responsible for all data that you transmit or that relates to any activity you have undertaken using the Site. You agree that we shall have no liability to you for any loss or corruption of any such data, and you hereby waive any right of action against us arising from any such loss or corruption of such data.",
+    privacyPolicyTitle: "14. Privacy Policy",
+    privacyPolicyDescription:
+      "We care about data privacy and security. Please review our {policy}. By using the Site, you agree to be bound by our Privacy Policy, which is incorporated into these Terms of Service. Please be advised the Site is hosted in the United States. If you access the Site from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in the United States , then through your continued use of the Site, you are transferring your data to the United States , and you agree to have your data transferred to and processed in the United States.",
+    liabilityTitle: "15. Liability",
+    liabilityIntroduction:
+      "We mention liability throughout these Terms but to put it all in one section:",
+    liabilityWaiver:
+      "You expressly understand and agree that the Company shall not be liable, in law or in equity, to you or to any third party for any direct, indirect, incidental, lost profits, special, consequential, punitive or exemplary damages, including, but not limited to, damages for loss of profits, goodwill, use, data or other intangible losses (even if the Company has been advised of the possibility of such damages), resulting from: (1) the use or the inability to use the Services; (2) errors, mistakes, or inaccuracies of content and materials; (3) personal injury or property damage, of any nature whatsoever, resulting from your access to and use of the site; (4) the cost of procurement of substitute goods and services resulting from any goods, data, information or services purchased or obtained or messages received or transactions entered into through or from the Services; (5) any unauthorized access to or use of our secure servers and/or any and all personal information and/or financial information stored therein; (6) any interruption or cessation of transmission to or from the site; (7) any bugs, viruses, trojan horses, or the like which may be transmitted to or through the site by any third party, and/or; (8) any errors or omissions in any content and materials or for any loss or damage of any kind incurred as a result of the use of any content posted, transmitted, or otherwise made available via the site; (9) statements or conduct of any third party on the service; (10) or any other matter relating to this Terms of Service or the Services, whether as a breach of contract, tort (including negligence whether active or passive), or any other theory of liability.",
+    miscellaneousTitle: "16. Miscellaneous",
+    miscellaneousDescription:
+      "These Terms of Service and any policies or operating rules posted by us on the Site or in respect to the Site constitute the entire agreement and understanding between you and us. Our failure to exercise or enforce any right or provision of these Terms of Service shall not operate as a waiver of such right or provision. These Terms of Service operate to the fullest extent permissible by law. We may assign any or all of our rights and obligations to others at any time. We shall not be responsible or liable for any loss, damage, delay, or failure to act caused by any cause beyond our reasonable control. If any provision or part of a provision of these Terms of Service is determined to be unlawful, void, or unenforceable, that provision or part of the provision is deemed severable from these Terms of Service and does not affect the validity and enforceability of any remaining provisions. There is no joint venture, partnership, employment or agency relationship created between you and us as a result of these Terms of Service or use of the Site. You agree that these Terms of Service will not be construed against us by virtue of having drafted them. You hereby waive any and all defenses you may have based on the electronic form of these Terms of Service and the lack of signing by the parties hereto to execute these Terms of Service.",
+    contactTitle: "17. Contact Us",
+    contactDescription:
+      "If you have a question about any of the Terms of Service, please contact us {at} {email}.",
+    at: "at",
+    site: "Site",
+    services: "Services"
+  }
 };
 
 export default defineI18nLocale(async (locale) => {

@@ -258,7 +258,8 @@ let message = {
         file: "Tiedosto",
         audio: "Ääni-/videotiedosto",
         Uploading: "Ladataan..."
-      }
+      },
+      fileEmpty: "Tiedosto on tyhjä"
     }
   },
   // Tekstitystiedot sivu
@@ -1065,12 +1066,7 @@ let message = {
       "Liiketiimit",
       "Opettajat"
     ],
-    companyMenus: [
-      "Tietoja",
-      "Hinnoittelu",
-      "Tietosuoja",
-      "Käyttöehdot"
-    ]
+    companyMenus: ["Tietoja", "Hinnoittelu", "Tietosuoja", "Käyttöehdot"]
   },
   Index: {
     Hero: {
@@ -1083,7 +1079,8 @@ let message = {
       NoCap: "Ei kuukausittaisia minuuttirajoja",
       Hour: "10 tunnin tiedostot tuettu",
       ExploreUseCases: "Tutki käyttötapoja",
-      subtitleA: "NeverCapin tekoäly litteroi videon ja muuntaa äänen tekstiksi, käsittelemällä 50 tiedostoa kerralla ilman kuukausittaisia ​​rajoituksia. Litterointi, joka todella skaalautuu kanssasi."
+      subtitleA:
+        "NeverCapin tekoäly litteroi videon ja muuntaa äänen tekstiksi, käsittelemällä 50 tiedostoa kerralla ilman kuukausittaisia ​​rajoituksia. Litterointi, joka todella skaalautuu kanssasi."
     },
     Stats: {
       monthlyMinutes: "Kuukausittaiset minuutit",
@@ -1098,36 +1095,44 @@ let message = {
       upload_50: "Lähetä jopa 50 tiedostoa kerralla, tästä.",
       no_limits: "Edistynyt",
       no_surprises: "Tekoälytekstitys",
-      transparency: "Ei enää piilotettuja rajoja, ei enää yllätyksiä - Kun toiset hiljaa vähentävät minuuttejasi tai piilottavat rajat pienellä präntillä, uskomme radikaaliin läpinäkyvyyteen",
+      transparency:
+        "Ei enää piilotettuja rajoja, ei enää yllätyksiä - Kun toiset hiljaa vähentävät minuuttejasi tai piilottavat rajat pienellä präntillä, uskomme radikaaliin läpinäkyvyyteen",
       feat_unltd: "Todella rajaton",
-      feat_unltd_desc: 'Ei "kohtuullisen käytön" sääntöjä ehtojen joukossa. Ei tallennusrajoja "rajattomana" naamioituina. Lähetä koko arkistosi, tekstitä kaikki äänityksesi tarpeisiin. Me tarkoitamme sitä.',
+      feat_unltd_desc:
+        'Ei "kohtuullisen käytön" sääntöjä ehtojen joukossa. Ei tallennusrajoja "rajattomana" naamioituina. Lähetä koko arkistosi, tekstitä kaikki äänityksesi tarpeisiin. Me tarkoitamme sitä.',
       feat_bulk: "Massalähetyksen vapaus",
-      feat_bulk_desc: 'Kyllästynyt "3 elinikäiseen tuontiin" tai "10 tiedostoon kuukaudessa"? Lähetä 50 tiedostoa kerralla, niin usein kuin haluat. Täydellinen käsittelemään jääneitä töitä.',
+      feat_bulk_desc:
+        'Kyllästynyt "3 elinikäiseen tuontiin" tai "10 tiedostoon kuukaudessa"? Lähetä 50 tiedostoa kerralla, niin usein kuin haluat. Täydellinen käsittelemään jääneitä töitä.',
       feat_batch: "Eräkäsittely",
-      feat_batch_desc: "Käsittele koko podcast-kausi yhdessä yössä. Lähetä 50 haastattelua kerralla. Anna tekoälymme työskennellä kun nukut. Herää valmiiden tekstitysten ääreen.",
+      feat_batch_desc:
+        "Käsittele koko podcast-kausi yhdessä yössä. Lähetä 50 haastattelua kerralla. Anna tekoälymme työskennellä kun nukut. Herää valmiiden tekstitysten ääreen.",
       feat_accuracy: "96 % tarkkuus",
-      feat_accuracy_desc: "Alan kärjessä oleva tekoälymme tekstittää ääntä älykkäällä välimerkinnällä, puhujien erottelulla jopa 20 puhujalle, ja käsittelee aksentit ja ammattisanat moitteettomasti.",
+      feat_accuracy_desc:
+        "Alan kärjessä oleva tekoälymme tekstittää ääntä älykkäällä välimerkinnällä, puhujien erottelulla jopa 20 puhujalle, ja käsittelee aksentit ja ammattisanat moitteettomasti.",
       feat_langs: "100+ kieltä",
-      feat_langs_desc: "Tekstitä video ja ääni 100+ kielellä, käännä 249+ kielelle. Ei lisäkustannuksia eri kielistä. Maailmanlaajuista sisältöä, yksi yksinkertainen hinta.",
+      feat_langs_desc:
+        "Tekstitä video ja ääni 100+ kielellä, käännä 249+ kielelle. Ei lisäkustannuksia eri kielistä. Maailmanlaajuista sisältöä, yksi yksinkertainen hinta.",
       feat_pro: "Ammattimaiset ominaisuudet",
-      feat_pro_desc: "Sanatason aikaleimat tarkkaan ääni-/videosijaintiin, tarkka puhujien tunnistus nopeiden keskusteluvaihtojen aikana, ja täydellisesti muotoiltu teksti kappaleineen, lauseineen ja välimerkkeineen helpompaa lukemista varten.",
+      feat_pro_desc:
+        "Sanatason aikaleimat tarkkaan ääni-/videosijaintiin, tarkka puhujien tunnistus nopeiden keskusteluvaihtojen aikana, ja täydellisesti muotoiltu teksti kappaleineen, lauseineen ja välimerkkeineen helpompaa lukemista varten.",
       features: "Ominaisuudet"
     },
     UseCases: {
       built_for: "Massa",
-      "heavy_users": "Ääni- ja videotekstitys",
-      "join_users": 'Rakennettu sinun kaltaisillesi raskaalle käyttäjälle - Liity YouTubettajien, sisällöntuottajien ja podcastaajien joukkoon, jotka ovat siirtyneet "kutistumispalveluista"',
-      "podcasters": {
-        "title": "Podcastaajat",
-        "des": "Lähetä koko vanha katalogisi. Luo ohjelmamuistiinpanot jaksokohtaisesti. Ei enää valintoja, mitkä jaksot tekstittää."
+      heavy_users: "Ääni- ja videotekstitys",
+      join_users:
+        'Rakennettu sinun kaltaisillesi raskaalle käyttäjälle - Liity YouTubettajien, sisällöntuottajien ja podcastaajien joukkoon, jotka ovat siirtyneet "kutistumispalveluista"',
+      podcasters: {
+        title: "Podcastaajat",
+        des: "Lähetä koko vanha katalogisi. Luo ohjelmamuistiinpanot jaksokohtaisesti. Ei enää valintoja, mitkä jaksot tekstittää."
       },
-      "content_creators": {
-        "title": "Sisällöntuottajat",
-        "des": "Muuta videokokoelmasi haettavaksi tekstiksi käyttämällä palveluamme videoiden automaattiseen tekstittämiseen. Luo tekstitykset kaikelle. Ei minuuttien laskemista, vain luomista."
+      content_creators: {
+        title: "Sisällöntuottajat",
+        des: "Muuta videokokoelmasi haettavaksi tekstiksi käyttämällä palveluamme videoiden automaattiseen tekstittämiseen. Luo tekstitykset kaikelle. Ei minuuttien laskemista, vain luomista."
       },
-      "journalists": {
-        "title": "Toimittajat",
-        "des": 'Lähetä kaikki haastattelusi kerralla. Ei enää "10 tiedostoa kuukaudessa" -esteitä kiireellisten aikataulujen aikana. Käsittele kaikki.'
+      journalists: {
+        title: "Toimittajat",
+        des: 'Lähetä kaikki haastattelusi kerralla. Ei enää "10 tiedostoa kuukaudessa" -esteitä kiireellisten aikataulujen aikana. Käsittele kaikki.'
       },
       researchers: {
         title: "Tutkijat",
@@ -1143,85 +1148,98 @@ let message = {
       }
     },
     Testimonials: {
-      subtitle: "Katso miksi ammattilaiset valitsevat NeverCapin rajoitettujen vaihtoehtojen sijaan",
+      subtitle:
+        "Katso miksi ammattilaiset valitsevat NeverCapin rajoitettujen vaihtoehtojen sijaan",
       Mike: {
-        "text": "Voi hitsi, tämä oikeasti toimii! Tehnyt podcastia 3 vuotta ja kirjoittanut kaiken itse tyhmänä. Latasin 6 jaksoa kerralla ja se erotti minut ja juontajaparini täydellisesti. Kahvilajakso, joka mielestäni oli pilalla? Kirkas kuin kristalli. En enää ikinä kirjoita näitä itse.",
-        "author": "Mike Rodriguez",
-        "role": "Podcastin isäntä"
+        text: "Voi hitsi, tämä oikeasti toimii! Tehnyt podcastia 3 vuotta ja kirjoittanut kaiken itse tyhmänä. Latasin 6 jaksoa kerralla ja se erotti minut ja juontajaparini täydellisesti. Kahvilajakso, joka mielestäni oli pilalla? Kirkas kuin kristalli. En enää ikinä kirjoita näitä itse.",
+        author: "Mike Rodriguez",
+        role: "Podcastin isäntä"
       },
       Sarah: {
-        "text": "Opetan verkossa ja tarvitsin tekstityksiä videoihini. Kokeilin 3 muuta työkalua, joilla oli outoja rajoituksia tai ne veivät ikuisuuden. Tämä vain... toimii? Lataisin espanjankielisen luentoni, sain täydelliset tekstitykset noin 2 minuutissa. Kuulovammaiset oppilaani ovat niin iloisia. Olisinpa löytänyt tämän aikaisemmin!",
-        "author": "Sarah Chen",
-        "role": "Verkkopääluokka"
+        text: "Opetan verkossa ja tarvitsin tekstityksiä videoihini. Kokeilin 3 muuta työkalua, joilla oli outoja rajoituksia tai ne veivät ikuisuuden. Tämä vain... toimii? Lataisin espanjankielisen luentoni, sain täydelliset tekstitykset noin 2 minuutissa. Kuulovammaiset oppilaani ovat niin iloisia. Olisinpa löytänyt tämän aikaisemmin!",
+        author: "Sarah Chen",
+        role: "Verkkopääluokka"
       },
       Jessica: {
-        "text": "Käyttänyt tätä haastatteluihini ja uskomaton kuinka tarkka se on. 2 tunnin haastattelu rikkinäisessä englannissa + espanjassa ja se sai kaiken oikein, jopa aikaleimat. Maksoin harjoittelijalleni 200$/kk vain tekstityksestä. Tämä säästää minua kirjaimellisesti rahaa joka kuukausi.",
-        "author": "Jessica Park",
-        "role": "Freelance-toimittaja"
+        text: "Käyttänyt tätä haastatteluihini ja uskomaton kuinka tarkka se on. 2 tunnin haastattelu rikkinäisessä englannissa + espanjassa ja se sai kaiken oikein, jopa aikaleimat. Maksoin harjoittelijalleni 200$/kk vain tekstityksestä. Tämä säästää minua kirjaimellisesti rahaa joka kuukausi.",
+        author: "Jessica Park",
+        role: "Freelance-toimittaja"
       },
       titleA: "Yli 50 000 käyttäjän rakastama"
     },
     PricingPreview: {
-      "title": "Läpinäkyvä hinnoittelu",
-      "highlighted_text": "Ei piilotettuja rajoituksia",
-      "subtitle": "Valitse suunnitelma. Ei asteriskeja, ei pienellä präntättyä tekstiä, ei yllätyksiä"
+      title: "Läpinäkyvä hinnoittelu",
+      highlighted_text: "Ei piilotettuja rajoituksia",
+      subtitle:
+        "Valitse suunnitelma. Ei asteriskeja, ei pienellä präntättyä tekstiä, ei yllätyksiä"
     },
     FAQSection: {
-      "title": "Usein Kysytyt",
-      "titleHighlight": "Kysymykset",
-      "questions": [
+      title: "Usein Kysytyt",
+      titleHighlight: "Kysymykset",
+      questions: [
         {
-          "q": "Tekstitys tekoälyllä",
-          "question": "Mikä on tekoälytekstitys ja miten se toimii?",
-          "answer": "Tekoälytekstitys on äänen automaattinen muuntaminen tekstiksi kehittyneen tekoälyn avulla. NeverCapissa lataat tiedostosi ja tekoälymme tekstittää sisällön jopa 96% tarkkuudella. Palvelumme on suunniteltu tekstittämään videotiedostoja (kuten MP4, MOV) ja äänitiedostoja (kuten MP3, WAV) luettavaksi, muokattavaksi tekstiksi, mukaan lukien puhujien tunnisteet ja aikaleimat."
+          q: "Tekstitys tekoälyllä",
+          question: "Mikä on tekoälytekstitys ja miten se toimii?",
+          answer:
+            "Tekoälytekstitys on äänen automaattinen muuntaminen tekstiksi kehittyneen tekoälyn avulla. NeverCapissa lataat tiedostosi ja tekoälymme tekstittää sisällön jopa 96% tarkkuudella. Palvelumme on suunniteltu tekstittämään videotiedostoja (kuten MP4, MOV) ja äänitiedostoja (kuten MP3, WAV) luettavaksi, muokattavaksi tekstiksi, mukaan lukien puhujien tunnisteet ja aikaleimat."
         },
         {
-          "q": "unlimited_policy",
-          "question": "Onko se todella rajoittamaton? Mikä on juju?",
-          "answer": "Kyllä, se on todella rajoittamaton! Ei kuukausittaisia minuuttirajoja, ei ylitysmaksuja. Ainoat rajat ovat tekniset: yksittäiset tiedostot voivat olla jopa 10 tuntia pitkiä tai 5GB kokoisia, ja voit käsitellä 50 tiedostoa kerralla. Mutta voit ladata niin monta erää kuin haluat, koko kuukauden ajan."
+          q: "unlimited_policy",
+          question: "Onko se todella rajoittamaton? Mikä on juju?",
+          answer:
+            "Kyllä, se on todella rajoittamaton! Ei kuukausittaisia minuuttirajoja, ei ylitysmaksuja. Ainoat rajat ovat tekniset: yksittäiset tiedostot voivat olla jopa 10 tuntia pitkiä tai 5GB kokoisia, ja voit käsitellä 50 tiedostoa kerralla. Mutta voit ladata niin monta erää kuin haluat, koko kuukauden ajan."
         },
         {
-          "q": "accuracy",
-          "question": "Kuinka tarkka tekstitys on?",
-          "answer": "Takaamme 96% tarkkuuden selkeälle äänelle. Tekoälymme on koulutettu miljoonien tuntien monipuolisella sisällöllä ja se käsittelee aksentteja, ammattisanastoa ja useita puhujia erityisen hyvin. Haastavalle äänelle älykkäät parannusominaisuutemme auttavat parantamaan tuloksia."
+          q: "accuracy",
+          question: "Kuinka tarkka tekstitys on?",
+          answer:
+            "Takaamme 96% tarkkuuden selkeälle äänelle. Tekoälymme on koulutettu miljoonien tuntien monipuolisella sisällöllä ja se käsittelee aksentteja, ammattisanastoa ja useita puhujia erityisen hyvin. Haastavalle äänelle älykkäät parannusominaisuutemme auttavat parantamaan tuloksia."
         },
         {
-          "q": "languages",
-          "question": "Mitä kieliä tuette?",
-          "answer": "Tuemme tekstitystä yli 100 kielellä, mukaan lukien englanti, espanja, mandariinikiina, hindi, arabia, ranska ja monet muut. Lisäksi voit kääntää tekstityksesi 249 eri kielelle, mikä tekee siitä täydellisen globaalille sisällölle."
+          q: "languages",
+          question: "Mitä kieliä tuette?",
+          answer:
+            "Tuemme tekstitystä yli 100 kielellä, mukaan lukien englanti, espanja, mandariinikiina, hindi, arabia, ranska ja monet muut. Lisäksi voit kääntää tekstityksesi 249 eri kielelle, mikä tekee siitä täydellisen globaalille sisällölle."
         },
         {
-          "q": "speed",
-          "question": "Kuinka nopea tekstitys on?",
-          "answer": "Salamannopea! 1 tunnin äänitiedosto käsitellään yleensä alle 5 minuutissa. Eräkäsittelyllä voit ladata 50 tiedostoa samanaikaisesti ja antaa niiden käsitellä rinnakkain. Useimmat käyttäjät heräävät ja huomaavat koko kirjastonsa tekstitetyksi yön aikana."
+          q: "speed",
+          question: "Kuinka nopea tekstitys on?",
+          answer:
+            "Salamannopea! 1 tunnin äänitiedosto käsitellään yleensä alle 5 minuutissa. Eräkäsittelyllä voit ladata 50 tiedostoa samanaikaisesti ja antaa niiden käsitellä rinnakkain. Useimmat käyttäjät heräävät ja huomaavat koko kirjastonsa tekstitetyksi yön aikana."
         },
         {
-          "q": "cancellation",
-          "question": "Voinko peruuttaa milloin tahansa?",
-          "answer": "Ehdottomasti! Ei sopimuksia, ei peruutusmaksuja. Voit päivittää, alentaa tai peruuttaa tilauksesi milloin tahansa hallintapaneelistasi. Jos peruutat, säilytät pääsyn laskutusjakson loppuun asti."
+          q: "cancellation",
+          question: "Voinko peruuttaa milloin tahansa?",
+          answer:
+            "Ehdottomasti! Ei sopimuksia, ei peruutusmaksuja. Voit päivittää, alentaa tai peruuttaa tilauksesi milloin tahansa hallintapaneelistasi. Jos peruutat, säilytät pääsyn laskutusjakson loppuun asti."
         },
         {
-          "q": "security",
-          "question": "Onko tietoni turvassa?",
-          "answer": "Turvallisuutesi on prioriteettimme. Olemme SOC 2 -sertifioitu, käytämme 256-bittistä salauskaikille tiedoille emmekä koskaan käytä sisältöäsi malliemme kouluttamiseen. Voit poistaa tiedostosi milloin tahansa, ja poistamme ne automaattisesti 30 päivän jälkeen. GDPR- ja CCPA-yhteensopiva."
+          q: "security",
+          question: "Onko tietoni turvassa?",
+          answer:
+            "Turvallisuutesi on prioriteettimme. Olemme SOC 2 -sertifioitu, käytämme 256-bittistä salauskaikille tiedoille emmekä koskaan käytä sisältöäsi malliemme kouluttamiseen. Voit poistaa tiedostosi milloin tahansa, ja poistamme ne automaattisesti 30 päivän jälkeen. GDPR- ja CCPA-yhteensopiva."
         },
         {
-          "q": "export_formats",
-          "question": "Mitä vientimuotoja on saatavilla?",
-          "answer": "Lataa tekstityksesi haluamassasi muodossa: PDF, Word (DOCX), Excel, CSV, SRT-tekstitykset, pelkkä teksti (TXT) ja VTT-tekstitykset. Täydellinen mihin tahansa työnkulkuun."
+          q: "export_formats",
+          question: "Mitä vientimuotoja on saatavilla?",
+          answer:
+            "Lataa tekstityksesi haluamassasi muodossa: PDF, Word (DOCX), Excel, CSV, SRT-tekstitykset, pelkkä teksti (TXT) ja VTT-tekstitykset. Täydellinen mihin tahansa työnkulkuun."
         },
         {
-          "q": "file_formats",
-          "question": "Mitä ääni- ja videotiedostoja voin ladata?",
-          "answer": "Tuemme lähes kaikkia ääni- ja videomuotoja, joihin törmäät: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV ja monet muut. Jos voit toistaa sen, voimme tekstittää sen."
+          q: "file_formats",
+          question: "Mitä ääni- ja videotiedostoja voin ladata?",
+          answer:
+            "Tuemme lähes kaikkia ääni- ja videomuotoja, joihin törmäät: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV ja monet muut. Jos voit toistaa sen, voimme tekstittää sen."
         }
       ]
     },
     CTASection: {
-      "title": "Valmis vapautumaan rajoituksista?",
-      "subtitle": "Liity yli 50 000 ammattilaisen joukkoon, jotka ovat siirtyneet todella rajoittamattomaan tekstitykseen",
-      "button": "Kokeile NeverCapia ilmaiseksi",
-      "disclaimer": "Luottokorttia ei vaadita ilmaissuunnitelmaan • Päivitä milloin tahansa saadaksesi rajoittamattoman pääsyn"
+      title: "Valmis vapautumaan rajoituksista?",
+      subtitle:
+        "Liity yli 50 000 ammattilaisen joukkoon, jotka ovat siirtyneet todella rajoittamattomaan tekstitykseen",
+      button: "Kokeile NeverCapia ilmaiseksi",
+      disclaimer:
+        "Luottokorttia ei vaadita ilmaissuunnitelmaan • Päivitä milloin tahansa saadaksesi rajoittamattoman pääsyn"
     }
   },
   Features: {
@@ -1268,7 +1286,8 @@ let message = {
       feature1Label: "Ei rajoja",
       feature1TitlePart1: "Tekstitätkö 1000 tuntia?",
       feature1TitlePart2: "Sama hinta.",
-      feature1Description: "Lopeta minuuttien laskeminen. Lopeta rajojen tarkkailu. Tekstitätkö 10 tuntia vai 10 000 tuntia kuukaudessa - maksat saman kiinteän hinnan. Ei ylityskustannuksia. Ei yllätyslaskuja.",
+      feature1Description:
+        "Lopeta minuuttien laskeminen. Lopeta rajojen tarkkailu. Tekstitätkö 10 tuntia vai 10 000 tuntia kuukaudessa - maksat saman kiinteän hinnan. Ei ylityskustannuksia. Ei yllätyslaskuja.",
       feature1Point1Icon: "✓",
       feature1Point1Text: 'Ei "kohtuullinen käyttö" -käytäntö temppuja',
       feature1Point2Icon: "✓",
@@ -1286,7 +1305,8 @@ let message = {
       feature2Label: "Massavapaus",
       feature2TitlePart1: "Lataa",
       feature2TitlePart2: "Koko arkistosi",
-      feature2Description: "Otter tarjoaa 3 elinikäistä tuontia ilmaisversiossa, 10 kuukaudessa Pro-versiossa. Me tarjoamme rajattomasti. Lataa podcastitaakkasi, kaikki haastattelusi, vuosien äänitteet. Ei rajoituksia.",
+      feature2Description:
+        "Otter tarjoaa 3 elinikäistä tuontia ilmaisversiossa, 10 kuukaudessa Pro-versiossa. Me tarjoamme rajattomasti. Lataa podcastitaakkasi, kaikki haastattelusi, vuosien äänitteet. Ei rajoituksia.",
       feature2Point1Icon: "✓",
       feature2Point1Text: "50 tiedostoa erässä",
       feature2Point2Icon: "✓",
@@ -1303,7 +1323,8 @@ let message = {
       feature3Label: "Sosiaalinen todiste",
       feature3TitlePart1: "Käyttäjät",
       feature3TitlePart2: "Vaihtavat päivittäin",
-      feature3Description: '"Maksan Otterille $100/vuodessa ja he rajoittavat minua 10 tiedoston tuontiin kuukaudessa. Heti kun on vaihtoehto rajattomilla tuonneilla, olen poissa!" - Todellinen Reddit-käyttäjä',
+      feature3Description:
+        '"Maksan Otterille $100/vuodessa ja he rajoittavat minua 10 tiedoston tuontiin kuukaudessa. Heti kun on vaihtoehto rajattomilla tuonneilla, olen poissa!" - Todellinen Reddit-käyttäjä',
       feature3Point1Icon: "✓",
       feature3Point1Text: "50 000+ käyttäjää vaihtanut",
       feature3Point2Icon: "✓",
@@ -1327,26 +1348,32 @@ let message = {
       trustBadge4Number: "50",
       trustBadge4Label: "Erälataus",
       ctaTitle: "Lopeta maksaminen vale-rajattomasta",
-      ctaSubtitle: "Liity tuhansiin, jotka vaihtoivat todella rajoittamattomaan tekstitykseen",
+      ctaSubtitle:
+        "Liity tuhansiin, jotka vaihtoivat todella rajoittamattomaan tekstitykseen",
       finalCta: "Kokeile NeverCapia ilmaiseksi",
-      heroSubtitle1: "Trint rajoittaa tiedostojen käsittelyn 50 tuntiin ja Otter 10 tiedostoon kuukaudessa.",
-      heroSubtitle2: "Pidämme lupauksemme: rajaton transkriptio ilman piilotettuja isoja kirjaimia."
+      heroSubtitle1:
+        "Trint rajoittaa tiedostojen käsittelyn 50 tuntiin ja Otter 10 tiedostoon kuukaudessa.",
+      heroSubtitle2:
+        "Pidämme lupauksemme: rajaton transkriptio ilman piilotettuja isoja kirjaimia."
     },
     BulkUpload: {
       heroBadgeIcon: "📁",
       heroBadgeText: "Massalatauksen vapaus",
       heroTitleLine1: "Lataa 50 tiedostoa.",
       heroTitleHighlight: "Käsittele kaikki.",
-      heroSubtitle: "Otter tarjoaa 3 elinikäistä tuontia. KOLME. Koko elämäsi ajaksi. Me tarjoamme rajoittamattomat lataukset, 50 tiedostoa kerrallaan, milloin tahansa tarvitset.",
+      heroSubtitle:
+        "Otter tarjoaa 3 elinikäistä tuontia. KOLME. Koko elämäsi ajaksi. Me tarjoamme rajoittamattomat lataukset, 50 tiedostoa kerrallaan, milloin tahansa tarvitset.",
       primaryCta: "Aloita massalataus →",
       secondaryCta: "Katso rajat",
-      redditQuote: '"Minulla on 3 vuoden podcast-jaksoja tekstittääkseni. Otter kertoo, että saan 3 elinikäistä tuontia. KOLME. Tämä on loukkaavaa."',
+      redditQuote:
+        '"Minulla on 3 vuoden podcast-jaksoja tekstittääkseni. Otter kertoo, että saan 3 elinikäistä tuontia. KOLME. Tämä on loukkaavaa."',
       redditAuthorIcon: "📍",
       redditAuthorText: "Todellista turhautumista r/podcastingista",
       comparisonSectionTitlePart1: "Ne",
       comparisonSectionTitleHighlight: "Naurettavat rajat",
       comparisonSectionTitlePart2: "Joita ne asettavat",
-      comparisonSubtitle: "Kuinka kilpailijat rajoittavat sisältösi käsittelykykyä",
+      comparisonSubtitle:
+        "Kuinka kilpailijat rajoittavat sisältösi käsittelykykyä",
       limitCard1Service: "Otter Free",
       limitCard1Number: "3",
       limitCard1DescriptionLine1: "Elinikäiset tuonnit",
@@ -1366,7 +1393,8 @@ let message = {
       feature1TitlePart1: "Käsittele",
       feature1TitleHighlight: "Koko arkistosi",
       feature1TitlePart2: "Yhdessä yössä",
-      feature1Description: 'Lataa 50 tiedostoa ennen nukkumaanmenoa. Herää valmiiden tekstitysten pariin. Ei jonotusta, ei odottamista, ei "päivitä tilisi" -viestejä. Pelkkää käsittelytehoa käytettävissäsi.',
+      feature1Description:
+        'Lataa 50 tiedostoa ennen nukkumaanmenoa. Herää valmiiden tekstitysten pariin. Ei jonotusta, ei odottamista, ei "päivitä tilisi" -viestejä. Pelkkää käsittelytehoa käytettävissäsi.',
       feature1Point1Icon: "✓",
       feature1Point1Text: "50 samanaikaista latausta",
       feature1Point2Icon: "✓",
@@ -1385,7 +1413,8 @@ let message = {
       feature2Label: "Nopeus",
       feature2TitlePart1: "Lähetyksestä",
       feature2TitleHighlight: "Valmis tunneissa",
-      feature2Description: "Rinnakkaiskäsittelyinfrastruktuurimme tarkoittaa, että 50 tiedostoasi eivät jonoile. Ne kaikki tekstitetään samanaikaisesti. Mikä ennen vei viikkoja, vie nyt tunteja.",
+      feature2Description:
+        "Rinnakkaiskäsittelyinfrastruktuurimme tarkoittaa, että 50 tiedostoasi eivät jonoile. Ne kaikki tekstitetään samanaikaisesti. Mikä ennen vei viikkoja, vie nyt tunteja.",
       feature2Point1Icon: "✓",
       feature2Point1Text: "1 tunnin tiedosto: 5 minuuttia",
       feature2Point2Icon: "✓",
@@ -1408,7 +1437,8 @@ let message = {
       feature3TitlePart1: "Ei jonoja.",
       feature3TitleHighlight: "Ei odotusta.",
       feature3TitlePart2: "Ei rajoja.",
-      feature3Description: 'Kun muut pakottavat odottamaan virtuaalisissa jonoissa tai päivittämään "prioriteettikäsittelyyn", me käsittelemme jokaisen lähetyksen kiireellisesti. Sisältösi on tärkeää, eikä sen pitäisi odottaa.',
+      feature3Description:
+        'Kun muut pakottavat odottamaan virtuaalisissa jonoissa tai päivittämään "prioriteettikäsittelyyn", me käsittelemme jokaisen lähetyksen kiireellisesti. Sisältösi on tärkeää, eikä sen pitäisi odottaa.',
       feature3Point1Icon: "✓",
       feature3Point1Text: "Ei prioriteettitasoja",
       feature3Point2Icon: "✓",
@@ -1420,19 +1450,26 @@ let message = {
       feature3VisualSubtext: "Lähetä kun inspiraatio iskee",
       useCasesTitlePart1: "Täydellinen",
       useCasesTitleHighlight: "Runsaasti lähettäville",
-      useCasesSubtitle: "Todellisia tilanteita, joissa massalähetys pelastaa päivän",
+      useCasesSubtitle:
+        "Todellisia tilanteita, joissa massalähetys pelastaa päivän",
       useCase1Title: "Podcast-arkistot",
-      useCase1Description: "Lähetä 3 vuoden jaksoja kerralla. Luo tekstitykset koko arkistoosi. Luo SEO-sisältöä jokaiselle jaksolle.",
+      useCase1Description:
+        "Lähetä 3 vuoden jaksoja kerralla. Luo tekstitykset koko arkistoosi. Luo SEO-sisältöä jokaiselle jaksolle.",
       useCase2Title: "Kurssien luonti",
-      useCase2Description: "Käsittele kaikki luentovideot samanaikaisesti. Luo opiskelijoille saatavilla olevat tekstitykset. Luo haettavia kurssimateriaaleja.",
+      useCase2Description:
+        "Käsittele kaikki luentovideot samanaikaisesti. Luo opiskelijoille saatavilla olevat tekstitykset. Luo haettavia kurssimateriaaleja.",
       useCase3Title: "Haastattelujen kasa",
-      useCase3Description: "Tyhjennä se kasa tekstittämättömiä haastatteluja. Käsittele viikkojen tutkimus tunneissa. Täytä määräaika ilman paniikkia.",
+      useCase3Description:
+        "Tyhjennä se kasa tekstittämättömiä haastatteluja. Käsittele viikkojen tutkimus tunneissa. Täytä määräaika ilman paniikkia.",
       useCase4Title: "YouTube-kirjasto",
-      useCase4Description: "Luo tekstitykset koko kanavallesi. Luo blogikirjoituksia videosisällöstä. Paranna kaikkien videoiden SEO.",
+      useCase4Description:
+        "Luo tekstitykset koko kanavallesi. Luo blogikirjoituksia videosisällöstä. Paranna kaikkien videoiden SEO.",
       useCase5Title: "Kokousarkistot",
-      useCase5Description: "Lataa kuukausien mittaiset tallennetut kokoukset. Luo haettavia kokousmuistiinpanoja. Älä enää koskaan hukkaa tärkeitä päätöksiä.",
+      useCase5Description:
+        "Lataa kuukausien mittaiset tallennetut kokoukset. Luo haettavia kokousmuistiinpanoja. Älä enää koskaan hukkaa tärkeitä päätöksiä.",
       useCase6Title: "Tutkimusdata",
-      useCase6Description: "Käsittele kohderyhmiä joukoittain. Puheta kaikki osallistujahaastattelut. Analysoi laadullista dataa tehokkaasti.",
+      useCase6Description:
+        "Käsittele kohderyhmiä joukoittain. Puheta kaikki osallistujahaastattelut. Analysoi laadullista dataa tehokkaasti.",
       ctaTitle: "Lopeta lisälatausten kerjääminen",
       ctaSubtitle: "Saat rajattoman joukkokäsittelyn, joka todella toimii",
       finalCta: "Lataa 50 tiedostoa nyt →"
@@ -1442,7 +1479,8 @@ let message = {
       heroBadgeText: "Alan johtava tarkkuus",
       heroTitleLine1: "96 % tarkkuus.",
       heroTitleHighlight: "Jokainen sana merkitsee.",
-      heroSubtitle: "Alan johtava tarkkuus 12 pääkielellä. Sanatason aikaleimat täydellistä synkronointia varten. Älykäs puhujan tunnistus, joka käsittelee nopeita keskusteluja. Ammattimainen muotoilu, joka on oikeasti luettavissa.",
+      heroSubtitle:
+        "Alan johtava tarkkuus 12 pääkielellä. Sanatason aikaleimat täydellistä synkronointia varten. Älykäs puhujan tunnistus, joka käsittelee nopeita keskusteluja. Ammattimainen muotoilu, joka on oikeasti luettavissa.",
       primaryCta: "Testaa tarkkuutemme →",
       secondaryCta: "Katso kielet",
       statCard1Percentage: "96 %",
@@ -1455,7 +1493,8 @@ let message = {
       statCard3DescriptionLine1: "Sanatason",
       statCard3DescriptionLine2: "Aikaleiman tarkkuus",
       languageSectionTitlePart1: "96 % tarkkuus",
-      languageSubtitle: "Ammattiluokan puheentunnistus maailmanlaajuiselle sisällölle",
+      languageSubtitle:
+        "Ammattiluokan puheentunnistus maailmanlaajuiselle sisällölle",
       languageCard1Flag: "🇺🇸",
       languageCard1Name: "Englanti",
       languageCard1Accuracy: "96 % tarkkuus",
@@ -1496,7 +1535,8 @@ let message = {
       feature1Label: "Tarkkuus",
       feature1TitlePart1: "Sanataso",
       feature1TitleHighlight: "Aikaleimat",
-      feature1Description: "Jokainen sana on täydellisesti synkronoitu äänen kanssa. Luo napsautettavia tekstityksiä, tarkkoja tekstityksiä tai hyppää tarkkoihin kohtiin nauhoituksissasi. 100 ms:n tarkkuus, johon ammattilaiset luottavat.",
+      feature1Description:
+        "Jokainen sana on täydellisesti synkronoitu äänen kanssa. Luo napsautettavia tekstityksiä, tarkkoja tekstityksiä tai hyppää tarkkoihin kohtiin nauhoituksissasi. 100 ms:n tarkkuus, johon ammattilaiset luottavat.",
       feature1Point1Icon: "✓",
       feature1Point1Text: "100 ms:n aikaleimatarkkuus",
       feature1Point2Icon: "✓",
@@ -1520,7 +1560,8 @@ let message = {
       feature2Label: "Älykäs tekoäly",
       feature2TitlePart1: "Hallitsee",
       feature2TitleHighlight: "Nopeat keskustelut",
-      feature2Description: "Tekoälymme tunnistaa puhujat tarkasti, vaikka puhe olisi päällekkäistä, keskeytyksistä täynnä tai nopeaa vuoropuhelua. Erinomainen haastatteluihin, podcasteihin ja kokouksiin, joissa puhujat keskeyttävät usein.",
+      feature2Description:
+        "Tekoälymme tunnistaa puhujat tarkasti, vaikka puhe olisi päällekkäistä, keskeytyksistä täynnä tai nopeaa vuoropuhelua. Erinomainen haastatteluihin, podcasteihin ja kokouksiin, joissa puhujat keskeyttävät usein.",
       feature2Point1Icon: "✓",
       feature2Point1Text: "Tunnistaa jopa 20 puhujaa",
       feature2Point2Icon: "✓",
@@ -1535,7 +1576,8 @@ let message = {
       feature3Label: "Luettavuus",
       feature3TitlePart1: "Täydellisesti",
       feature3TitleHighlight: "Muotoiltu teksti",
-      feature3Description: "Ei enää tekstimuureja. Tekoälymme lisää automaattisesti kappaleita, virkkeitä ja välimerkkejä juuri oikeaan paikkaan. Lopputulos? Luettavissa olevia ja helposti skannattavia puheenauhoituksia.",
+      feature3Description:
+        "Ei enää tekstimuureja. Tekoälymme lisää automaattisesti kappaleita, virkkeitä ja välimerkkejä juuri oikeaan paikkaan. Lopputulos? Luettavissa olevia ja helposti skannattavia puheenauhoituksia.",
       feature3Point1Icon: "✓",
       feature3Point1Text: "Älykkäät kappalejaot",
       feature3Point2Icon: "✓",
@@ -1546,9 +1588,11 @@ let message = {
       feature3Point4Text: "Siisti, helposti luettava tulos",
       formattingTitle: "Ennen & jälkeen",
       formattingBeforeLabel: "❌ Muut:",
-      formattingBeforeText: "tänään puhumme uusista ominaisuuksista joita olemme kehittäneet luulen että pidätte niistä kovasti käyttäjät ovat pyytäneet niitä pitkään ja vihdoin saimme ne valmiiksi",
+      formattingBeforeText:
+        "tänään puhumme uusista ominaisuuksista joita olemme kehittäneet luulen että pidätte niistä kovasti käyttäjät ovat pyytäneet niitä pitkään ja vihdoin saimme ne valmiiksi",
       formattingAfterLabel: "✓ NeverCap:",
-      formattingAfterText: "Tänään puhumme uusista ominaisuuksista, joita olemme kehittäneet. Luulen, että pidätte niistä kovasti. Käyttäjät ovat pyytäneet niitä pitkään, ja vihdoin saimme ne valmiiksi.",
+      formattingAfterText:
+        "Tänään puhumme uusista ominaisuuksista, joita olemme kehittäneet. Luulen, että pidätte niistä kovasti. Käyttäjät ovat pyytäneet niitä pitkään, ja vihdoin saimme ne valmiiksi.",
       comparisonSubtitle: "Tarkkuus",
       comparisonSectionTitle: "Vertailu",
       tableHeader1: "Ominaisuus",
@@ -1592,242 +1636,254 @@ let message = {
   },
   Pricing: {
     Hero: {
-      "title": "Yksinkertainen, Läpinäkyvä Hinnoittelu",
-      "highlighted_text": "Ei Piilotettuja Kattoja",
-      "description": "Valitse tarpeitasi vastaava suunnitelma. Päivitä tai alenna milloin tahansa. Ei sopimuksia, ei yllätyksiä."
+      title: "Yksinkertainen, Läpinäkyvä Hinnoittelu",
+      highlighted_text: "Ei Piilotettuja Kattoja",
+      description:
+        "Valitse tarpeitasi vastaava suunnitelma. Päivitä tai alenna milloin tahansa. Ei sopimuksia, ei yllätyksiä."
     },
     Cards: {
-      "title": "Yksinkertainen, Läpinäkyvä Hinnoittelu.",
-      "highlighted_text": "Ei Piilotettuja Kattoja.",
-      "description": "Valitse tarpeitasi vastaava suunnitelma. Päivitä tai alenna milloin tahansa. Ei sopimuksia, ei yllätyksiä.",
-      "plans": [
+      title: "Yksinkertainen, Läpinäkyvä Hinnoittelu.",
+      highlighted_text: "Ei Piilotettuja Kattoja.",
+      description:
+        "Valitse tarpeitasi vastaava suunnitelma. Päivitä tai alenna milloin tahansa. Ei sopimuksia, ei yllätyksiä.",
+      plans: [
         {
-          "name": "Ilmainen",
-          "price": "$0",
-          "period": "kk",
-          "discount": "Erinomainen palvelumme kokeiluun",
-          "limits": {
-            "title": "Päivittäiset rajat",
-            "items": [
+          name: "Ilmainen",
+          price: "$0",
+          period: "kk",
+          discount: "Erinomainen palvelumme kokeiluun",
+          limits: {
+            title: "Päivittäiset rajat",
+            items: [
               "3 tiedostoa päivässä",
               "Jopa 10 tuntia / 5 Gt tiedostoa kohden",
               "Ilmainen 30 minuutin esikatselu kaikista transkriptioista",
               "Lataa yksi tiedosto kerrallaan",
-              'Normaali prioriteettijono'
+              "Normaali prioriteettijono"
             ]
           },
-          "features": {
-            "title": "Ominaisuudet",
-            "items": [
+          features: {
+            title: "Ominaisuudet",
+            items: [
               "100+ kieltä",
               "Puhujien tunnisteet",
               "Käännös",
               "Kaikki vientiformaatit"
             ]
           },
-          "cta": {
-            "text": "Aloita ilmaiseksi. Ei luottokorttia.",
-            "button": "Nykyinen suunnitelma"
+          cta: {
+            text: "Aloita ilmaiseksi. Ei luottokorttia.",
+            button: "Nykyinen suunnitelma"
           }
         },
         {
-          "name": "Pro Kuukausittain",
-          "price": "$17.99",
-          "period": "kk",
-          "discount": "$9.99 ensimmäiseksi kuukaudeksi",
-          "limits": {
-            "title": "Ei kuukausirajaa",
-            "items": [
+          name: "Pro Kuukausittain",
+          price: "$17.99",
+          period: "kk",
+          discount: "$9.99 ensimmäiseksi kuukaudeksi",
+          limits: {
+            title: "Ei kuukausirajaa",
+            items: [
               "Rajoittamattomat minuutit",
               "Enintään 10 tuntia / 5 GT tiedostoa kohden",
               "Lataa 50 tiedostoa kerralla",
               "Etusijajono"
             ]
           },
-          "features": {
-            "title": "Kaikki Ilmaisessa, plus",
-            "items": [
+          features: {
+            title: "Kaikki Ilmaisessa, plus",
+            items: [
               "Sanatason aikaleimat",
               "Kehittynyt puhujien tunnistus",
               "Muotoillut kappaleet & välimerkit",
               "Etusijatuki"
             ]
           },
-          "cta": {
-            "text": "Rajoittamattomat minuutit. Etusijanopeus. Massalataukset.",
-            "button": "Siirry Pro"
+          cta: {
+            text: "Rajoittamattomat minuutit. Etusijanopeus. Massalataukset.",
+            button: "Siirry Pro"
           },
-          "badge": "Suosituin"
+          badge: "Suosituin"
         },
         {
-          "name": "Pro Vuosittain",
-          "price": "$8.99",
-          "period": "kk",
-          "discount": "Laskutetaan vuosittain $107.88",
-          "limits": {
-            "title": "Sama kuin Pro-kuukausi",
-            "items": [
+          name: "Pro Vuosittain",
+          price: "$8.99",
+          period: "kk",
+          discount: "Laskutetaan vuosittain $107.88",
+          limits: {
+            title: "Sama kuin Pro-kuukausi",
+            items: [
               "Rajoittamattomat minuutit",
               "Enintään 10 tuntia / 5 GT tiedostoa kohden",
               "Lataa 50 tiedostoa kerralla",
               "Etusijajono"
             ]
           },
-          "features": {
-            "title": "Kaikki Ilmaisessa, plus",
-            "items": [
+          features: {
+            title: "Kaikki Ilmaisessa, plus",
+            items: [
               "Sanatason aikaleimat",
               "Kehittynyt puhujien tunnistus",
               "Muotoillut kappaleet & välimerkit",
               "Etusijatuki"
             ]
           },
-          "cta": {
-            "text": "Rajoittamattomat minuutit. Etusijanopeus. Massalataukset.",
-            "button": "Siirry Pro"
+          cta: {
+            text: "Rajoittamattomat minuutit. Etusijanopeus. Massalataukset.",
+            button: "Siirry Pro"
           },
-          "badge": "Paras Arvo - "
+          badge: "Paras Arvo - "
         }
       ],
-      "disclaimer": '"Rajaton" tarkoittaa ei kuukausirajoitusta eikä keinotekoista hidastamista. Kohtuullinen käyttö koskee väärinkäyttöä tai uudelleenjakelua.'
+      disclaimer:
+        '"Rajaton" tarkoittaa ei kuukausirajoitusta eikä keinotekoista hidastamista. Kohtuullinen käyttö koskee väärinkäyttöä tai uudelleenjakelua.'
     },
     ComparisonTable: {
-      "header": {
-        "title": "Vertaa",
-        "highlighted_text": "Kaikki ominaisuudet",
-        "subtitle": "Katso tarkalleen, mitä saat kussakin suunnitelmassa. Ei piilotettuja rajoituksia."
+      header: {
+        title: "Vertaa",
+        highlighted_text: "Kaikki ominaisuudet",
+        subtitle:
+          "Katso tarkalleen, mitä saat kussakin suunnitelmassa. Ei piilotettuja rajoituksia."
       },
-      "plans": [
-        "Ominaisuudet",
-        "Ilmainen",
-        "Pro Monthly",
-        "Pro Annual"
-      ],
-      "features": [
+      plans: ["Ominaisuudet", "Ilmainen", "Pro Monthly", "Pro Annual"],
+      features: [
         {
-          "name": "Hinta",
-          "values": [
+          name: "Hinta",
+          values: [
             "0 $/kk",
             {
-              "main": "17,99 $/kk",
-              "note": "9,99 $ ensimmäinen kuukausi"
+              main: "17,99 $/kk",
+              note: "9,99 $ ensimmäinen kuukausi"
             },
             {
-              "main": "8,99 $/kk",
-              "note": "Laskutetaan 107,88 $/vuosi"
+              main: "8,99 $/kk",
+              note: "Laskutetaan 107,88 $/vuosi"
             }
           ]
         },
         {
-          "name": "Päivittäinen tiedostorajoitus",
-          "values": ["3 tiedostoa/päivä", "Rajoittamaton", "Rajoittamaton"]
+          name: "Päivittäinen tiedostorajoitus",
+          values: ["3 tiedostoa/päivä", "Rajoittamaton", "Rajoittamaton"]
         },
         {
-          "name": "Tiedoston enimmäiskesto",
-          "values": ["10 tuntia", "10 tuntia", "10 tuntia"]
+          name: "Tiedoston enimmäiskesto",
+          values: ["10 tuntia", "10 tuntia", "10 tuntia"]
         },
         {
-          "name": "Tiedoston enimmäiskoko",
-          "values": ["5 Gt", "5 Gt", "5 Gt"]
+          name: "Tiedoston enimmäiskoko",
+          values: ["5 Gt", "5 Gt", "5 Gt"]
         },
         {
-          "name": "Opintopisteiden käyttöoikeus",
-          "values": ["Ensimmäinen 30 minuutin esikatselu", "Täydellinen transkriptio", "Täydellinen transkriptio"]
+          name: "Opintopisteiden käyttöoikeus",
+          values: [
+            "Ensimmäinen 30 minuutin esikatselu",
+            "Täydellinen transkriptio",
+            "Täydellinen transkriptio"
+          ]
         },
         {
-          "name": "Joukkolataukset",
-          "values": ["1 tiedosto", "50 tiedostoa", "50 tiedostoa"]
+          name: "Joukkolataukset",
+          values: ["1 tiedosto", "50 tiedostoa", "50 tiedostoa"]
         },
         {
-          "name": "Käsittelynopeus",
-          "values": ["Vakio", "Etusija", "Etusija"]
+          name: "Käsittelynopeus",
+          values: ["Vakio", "Etusija", "Etusija"]
         },
         {
-          "name": "Tuetut kielet",
-          "values": ["100+ kieltä", "100+ kieltä", "100+ kieltä"]
+          name: "Tuetut kielet",
+          values: ["100+ kieltä", "100+ kieltä", "100+ kieltä"]
         },
         {
-          "name": "Käännös",
-          "values": ["true", "true", "true"]
+          name: "Käännös",
+          values: ["true", "true", "true"]
         },
         {
-          "name": "Puhujan tunnistus",
-          "values": ["Perus", "Edistynyt (20 puhujaa)", "Edistynyt (20 puhujaa)"]
+          name: "Puhujan tunnistus",
+          values: ["Perus", "Edistynyt (20 puhujaa)", "Edistynyt (20 puhujaa)"]
         },
         {
-          "name": "Sanatason aikaleimat",
-          "values": ["false", "true", "true"]
+          name: "Sanatason aikaleimat",
+          values: ["false", "true", "true"]
         },
         {
-          "name": "Muotoillut kappaleet",
-          "values": ["false", "true", "true"]
+          name: "Muotoillut kappaleet",
+          values: ["false", "true", "true"]
         },
         {
-          "name": "Vie muodoissa",
-          "values": ["Kaikki muodot", "Kaikki muodot", "Kaikki muodot"]
+          name: "Vie muodoissa",
+          values: ["Kaikki muodot", "Kaikki muodot", "Kaikki muodot"]
         },
         {
-          "name": "Tuki",
-          "values": ["Sähköposti", "Etusijasähköposti", "Etusijasähköposti"]
+          name: "Tuki",
+          values: ["Sähköposti", "Etusijasähköposti", "Etusijasähköposti"]
         },
         {
-          "name": "Tietojen säilytys",
-          "values": ["30 päivää", "Ikuisesti", "Ikuisesti"]
+          name: "Tietojen säilytys",
+          values: ["30 päivää", "Ikuisesti", "Ikuisesti"]
         }
       ]
     },
     FAQ: {
-      "title": "Usein Kysytyt",
-      "titleHighligt": "Kysymykset",
-      "items": [
+      title: "Usein Kysytyt",
+      titleHighligt: "Kysymykset",
+      items: [
         {
-          "q": "unlimited_policy",
-          "question": "Onko se todella rajaton?",
-          "answer": "Kyllä! Pro-suunnitelmissa ei ole kuukausittaisia minuuttirajoja. Ainoat rajat ovat tekniset: enintään 10 tunnin tiedeston pituus ja 5GB tiedostokoko. Voit käsitellä niin monta tiedostoa kuin tarvitset."
+          q: "unlimited_policy",
+          question: "Onko se todella rajaton?",
+          answer:
+            "Kyllä! Pro-suunnitelmissa ei ole kuukausittaisia minuuttirajoja. Ainoat rajat ovat tekniset: enintään 10 tunnin tiedeston pituus ja 5GB tiedostokoko. Voit käsitellä niin monta tiedostoa kuin tarvitset."
         },
         {
-          "q": "plan_change",
-          "question": "Voinko vaihtaa suunnitelmaa milloin tahansa?",
-          "answer": "Ehdottomasti! Voit peruuttaa tilauksesi milloin tahansa hallintapaneelistasi. Päivitä tai alenna suunnitelmaa tarpeen mukaan."
+          q: "plan_change",
+          question: "Voinko vaihtaa suunnitelmaa milloin tahansa?",
+          answer:
+            "Ehdottomasti! Voit peruuttaa tilauksesi milloin tahansa hallintapaneelistasi. Päivitä tai alenna suunnitelmaa tarpeen mukaan."
         },
         {
-          "q": "payment_methods",
-          "question": "Mitä maksutapoja hyväksytte?",
-          "answer": "Hyväksymme kaikki suuret luottokortit, pankkikortit ja PayPalin turvallista ja vaivatonta maksamista varten."
+          q: "payment_methods",
+          question: "Mitä maksutapoja hyväksytte?",
+          answer:
+            "Hyväksymme kaikki suuret luottokortit, pankkikortit ja PayPalin turvallista ja vaivatonta maksamista varten."
         },
         {
-          "q": "free_trial",
-          "question": "Onko Pro:lle ilmainen kokeilu?",
-          "answer": "Kyllä! Kokeile Pro:ta ilmaiseksi 7 päiväksi, luottokorttia ei tarvita. Lisäksi saat ensimmäisen kuukauden 45% alennuksella tilatessasi."
+          q: "free_trial",
+          question: "Onko Pro:lle ilmainen kokeilu?",
+          answer:
+            "Kyllä! Kokeile Pro:ta ilmaiseksi 7 päiväksi, luottokorttia ei tarvita. Lisäksi saat ensimmäisen kuukauden 45% alennuksella tilatessasi."
         },
         {
-          "q": "file_retention",
-          "question": "Kuinka kauan säilytätte tiedostojani?",
-          "answer": "Ilmainen suunnitelma: 30 päivää. Pro-suunnitelmat: Ikuisesti! Tekstityksesi ovat aina käytettävissä tililläsi."
+          q: "file_retention",
+          question: "Kuinka kauan säilytätte tiedostojani?",
+          answer:
+            "Ilmainen suunnitelma: 30 päivää. Pro-suunnitelmat: Ikuisesti! Tekstityksesi ovat aina käytettävissä tililläsi."
         },
         {
-          "q": "data_security",
-          "question": "Entä tietoturva?",
-          "answer": "Olemme SOC 2 -sertifioitu ja käytämme 256-bittistä salausmenetelmää. Emme koskaan käytä sisältöäsi malliemme kouluttamiseen. Sinun tietosi ovat sinun."
+          q: "data_security",
+          question: "Entä tietoturva?",
+          answer:
+            "Olemme SOC 2 -sertifioitu ja käytämme 256-bittistä salausmenetelmää. Emme koskaan käytä sisältöäsi malliemme kouluttamiseen. Sinun tietosi ovat sinun."
         }
       ]
     },
     CTA: {
-      "title": "Valmiina siirtymään rajoittamattomaan?",
-      "subtitle": "Liity yli 50 000 ammattilaisen joukkoon, jotka tekstittävät ilman rajoja",
-      "button": "Kokeile NeverCapia ilmaiseksi →",
-      "disclaimer": "Luottokorttia ei vaadita • Aloita tekstitys sekunneissa"
+      title: "Valmiina siirtymään rajoittamattomaan?",
+      subtitle:
+        "Liity yli 50 000 ammattilaisen joukkoon, jotka tekstittävät ilman rajoja",
+      button: "Kokeile NeverCapia ilmaiseksi →",
+      disclaimer: "Luottokorttia ei vaadita • Aloita tekstitys sekunneissa"
     }
   },
   UseCases: {
     AllUseCases: {
       builtFor: "Suunniteltu",
       heavyUsers: "Aktiivikäyttäjät",
-      whoActuallyNeed: "jotka todella tarvitsevat rajoittamattomia ominaisuuksia",
+      whoActuallyNeed:
+        "jotka todella tarvitsevat rajoittamattomia ominaisuuksia",
       podcasters: {
         title: "Podcastaajat",
         pain: '"Lopeta jaksojen valitseminen tekstitysten arvoiseksi"',
-        description: "Lataa koko podcast-arkistosi kerralla. Luo esitysmuistiinpanoja, paranna SEO:ta ja uudelleenkäytä sisältöä minuutteja laskematta.",
+        description:
+          "Lataa koko podcast-arkistosi kerralla. Luo esitysmuistiinpanoja, paranna SEO:ta ja uudelleenkäytä sisältöä minuutteja laskematta.",
         benefits: {
           benefit1: "Lataa kaikki jaksot, ei vain 3",
           benefit2: "Luo SEO-ystävälliset esitysmuistiinpanot",
@@ -1852,7 +1908,8 @@ let message = {
       journalists: {
         title: "Toimittajat & Kirjoittajat",
         pain: '"Määräaikapaine kohtaa latausrajoitukset"',
-        description: "Lataa kaikki haastattelut eränä ennen määräaikaa. Etsi tekstityksistä välittömästi äläkä missaa tärkeää lainausta.",
+        description:
+          "Lataa kaikki haastattelut eränä ennen määräaikaa. Etsi tekstityksistä välittömästi äläkä missaa tärkeää lainausta.",
         benefits: {
           benefit1: "Lataa eränä ennen määräaikoja",
           benefit2: "Etsi kaikki haastattelut kerralla",
@@ -1877,7 +1934,8 @@ let message = {
       contentCreators: {
         title: "Sisältötuottajat",
         pain: '"Saavutettavuuden ei pitäisi olla kallista"',
-        description: "Tekstitä koko YouTube-kanavasi. Luo tekstityksiä useilla kielillä ja paranna videosi SEO:ta välittömästi.",
+        description:
+          "Tekstitä koko YouTube-kanavasi. Luo tekstityksiä useilla kielillä ja paranna videosi SEO:ta välittömästi.",
         benefits: {
           benefit1: "Tekstitä kaikki videot kerralla",
           benefit2: "249 kielen käännökset",
@@ -1902,7 +1960,8 @@ let message = {
       researchers: {
         title: "Tutkijat & Akateemikot",
         pain: '"Laadullisen datan ei pitäisi jonottaa"',
-        description: "Käsittele kokonaiset tutkimukset kerralla. Hallitse kohderyhmiä, haastatteluja ja paneelikeskusteluja täydellisen puhujan tunnistuksen kanssa.",
+        description:
+          "Käsittele kokonaiset tutkimukset kerralla. Hallitse kohderyhmiä, haastatteluja ja paneelikeskusteluja täydellisen puhujan tunnistuksen kanssa.",
         benefits: {
           benefit1: "Käsittele kohderyhmiä erissä",
           benefit2: "20 puhujan tunnistus",
@@ -1927,7 +1986,8 @@ let message = {
       businessTeams: {
         title: "Liiketiimit",
         pain: '"Kokousnauhoitukset pitäisi olla vaivattomia"',
-        description: "Nauhoita kokouksia suoraan tai lataa äänitiedostot välittömään tekstitykseen. Luo haettavia arkistoja rajattomista keskusteluista äläkä koskaan enää menetä tärkeitä keskusteluja.",
+        description:
+          "Nauhoita kokouksia suoraan tai lataa äänitiedostot välittömään tekstitykseen. Luo haettavia arkistoja rajattomista keskusteluista äläkä koskaan enää menetä tärkeitä keskusteluja.",
         benefits: {
           benefit1: "Suora ääninauhoitus & tekstitys",
           benefit2: "Rajattomat kokousnauhoitukset",
@@ -1952,7 +2012,8 @@ let message = {
       educators: {
         title: "Opettajat",
         pain: '"YouTube-videoita tarvitaan välittömään tekstitykseen"',
-        description: "Liitä YouTube-linkit saadaksesi välittömät tekstitykset ja automaattisesti luodut tekstitykset. Muuta mikä tahansa opetusvideo helposti saatavilla olevaksi, haettavaksi sisällöksi.",
+        description:
+          "Liitä YouTube-linkit saadaksesi välittömät tekstitykset ja automaattisesti luodut tekstitykset. Muuta mikä tahansa opetusvideo helposti saatavilla olevaksi, haettavaksi sisällöksi.",
         benefits: {
           benefit1: "Suora YouTube-linkin tekstitys",
           benefit2: "Automaattiset videotekstitykset",
@@ -1977,33 +2038,39 @@ let message = {
       quotes: {
         title: "Oikeat käyttäjät,",
         titleHighlight: "Oikea vapaus",
-        subtitle: "Kuuntele ammattilaisia, jotka vapautuivat keinotekoisista rajoituksista",
+        subtitle:
+          "Kuuntele ammattilaisia, jotka vapautuivat keinotekoisista rajoituksista",
         testimonials: {
           mike: {
             textBefore: '"Minulla oli',
             highlight: "3 vuoden jaksoja",
-            textAfter: 'tekemättä tekstityksiä. Otter halusi minun valitsevan 3. KOLME. NeverCap antoi minun ladata kaikki 150 jaksoa yhden viikonlopun aikana."',
+            textAfter:
+              'tekemättä tekstityksiä. Otter halusi minun valitsevan 3. KOLME. NeverCap antoi minun ladata kaikki 150 jaksoa yhden viikonlopun aikana."',
             name: "Mike Rodriguez",
             role: "Podcast-isäntä"
           },
           jessica: {
             textBefore: '"Freelance-toimittajana en voi maksaa Trintin',
             highlight: "$100/kk",
-            textAfter: ', mutta en myöskään voi työskennellä Otterin 10 tiedoston kuukausirajoituksen kanssa. NeverCap pelasti urani."',
+            textAfter:
+              ', mutta en myöskään voi työskennellä Otterin 10 tiedoston kuukausirajoituksen kanssa. NeverCap pelasti urani."',
             name: "Jessica Park",
             role: "Freelance-toimittaja"
           },
           sarah: {
             textBefore: '"Tutkimusryhmällämme oli',
             highlight: "200 tuntia",
-            textAfter: 'kohderyhmänauhoituksia. Käsittelimme kaiken viikonlopun aikana kuukausittaisen minuuttirajoituksen sijaan."',
+            textAfter:
+              'kohderyhmänauhoituksia. Käsittelimme kaiken viikonlopun aikana kuukausittaisen minuuttirajoituksen sijaan."',
             name: "Dr. Sarah Chen",
             role: "Päätutkija"
           },
           carlos: {
-            textBefore: '"Teen opetussisältöä espanjaksi. NeverCap tekstittää täydellisesti ja',
+            textBefore:
+              '"Teen opetussisältöä espanjaksi. NeverCap tekstittää täydellisesti ja',
             highlight: "kääntää englanniksi",
-            textAfter: 'laajemman yleisön saavuttamiseksi. Ei rajoja, vain kasvua."',
+            textAfter:
+              'laajemman yleisön saavuttamiseksi. Ei rajoja, vain kasvua."',
             name: "Carlos Martinez",
             role: "YouTube-opettaja"
           }
@@ -2024,16 +2091,19 @@ let message = {
       },
       cta: {
         title: "Myös sinun käyttötapauksesi tarvitsee rajattoman",
-        subtitle: "Liity 50 000+ ammattilaiseen, jotka lopettivat minuuttien laskemisen ja alkoivat luoda",
+        subtitle:
+          "Liity 50 000+ ammattilaiseen, jotka lopettivat minuuttien laskemisen ja alkoivat luoda",
         button: "Aloita rajaton matkasi →"
       },
-      heroSubtitleA: "Vuosien työjonojen omaavista podcast-juontajista satojen haastattelujen tehneisiin tutkijoihin. Katso, kuinka ammattilaiset käyttävät {NeverCap}-sovellusta päästäkseen eroon latausrajoituksista ja minuuttirajoituksista."
+      heroSubtitleA:
+        "Vuosien työjonojen omaavista podcast-juontajista satojen haastattelujen tehneisiin tutkijoihin. Katso, kuinka ammattilaiset käyttävät {NeverCap}-sovellusta päästäkseen eroon latausrajoituksista ja minuuttirajoituksista."
     },
     Podcasters: {
       badge: "Rakennettu podcastaajille",
       heroTitle: "Tekstitä",
       heroTitleHighlight: "Koko podcast-arkistosi",
-      heroSubtitle: "Lataa koko takaluettelosi. Luo jakson tiedotteet jokaiselle jaksolle. Ei enää valintoja, mitkä jaksot tekstitetään.",
+      heroSubtitle:
+        "Lataa koko takaluettelosi. Luo jakson tiedotteet jokaiselle jaksolle. Ei enää valintoja, mitkä jaksot tekstitetään.",
       ctaPrimary: "Aloita tekstitys ilmaiseksi",
       ctaSecondary: "Katso miten se toimii",
       trustBadge1: "10 000+ podcastaajaa",
@@ -2059,38 +2129,46 @@ let message = {
       },
       problemTitle: "Podcast-litterointi",
       problemTitleHighlight: "Podcast-tekstitysongelma",
-      problemSubtitle: 'Muut palvelut pakottavat valitsemaan, mitkä jaksot ovat "tekstityksen arvoisia"',
+      problemSubtitle:
+        'Muut palvelut pakottavat valitsemaan, mitkä jaksot ovat "tekstityksen arvoisia"',
       problems: {
         problem1: {
           title: "Latausrajat tuhoavat arkistot",
-          description: "Otter tarjoaa 3 elinikäistä tuontia ilmaisella, 10 kuukaudessa Prolla. Miten tekstität 3 vuoden jaksoja?"
+          description:
+            "Otter tarjoaa 3 elinikäistä tuontia ilmaisella, 10 kuukaudessa Prolla. Miten tekstität 3 vuoden jaksoja?"
         },
         problem2: {
           title: "Menetetty SEO-mahdollisuus",
-          description: "Jokainen tekstittämätön jakso on menetetty SEO-liikenne. Mutta Descript rajoittaa sinut 30 tuntiin/kk parhaimmillaan."
+          description:
+            "Jokainen tekstittämätön jakso on menetetty SEO-liikenne. Mutta Descript rajoittaa sinut 30 tuntiin/kk parhaimmillaan."
         },
         problem3: {
           title: "Kustannukset räjähtävät kasvun myötä",
-          description: "Podcastisi kasvaessa tekstityskustannukset nousevat pilviin. 2$/h ylitysmaksut tekevät skaalautumisen mahdottomaksi."
+          description:
+            "Podcastisi kasvaessa tekstityskustannukset nousevat pilviin. 2$/h ylitysmaksut tekevät skaalautumisen mahdottomaksi."
         }
       },
       solutionTitle: "NeverCap",
       solutionTitleHighlight: "NeverCap-ratkaisu",
       workflowTitle: "Podcast-työskentelysi,",
       workflowTitleHighlight: "Yksinkertaistettu",
-      workflowSubtitle: "Äänityksestä SEO-optimoituihin jakson tiedotteisiin minuuteissa",
+      workflowSubtitle:
+        "Äänityksestä SEO-optimoituihin jakson tiedotteisiin minuuteissa",
       workflow: {
         step1: {
           title: "Lataa jaksot",
-          description: "Pudota 50 jaksoa kerralla. MP3, MP4, WAV - käsittelemme ne kaikki."
+          description:
+            "Pudota 50 jaksoa kerralla. MP3, MP4, WAV - käsittelemme ne kaikki."
         },
         step2: {
           title: "AI tekstittää",
-          description: "96 % tarkkuus puhujien tunnistuksella. Täydellinen haastatteluihin."
+          description:
+            "96 % tarkkuus puhujien tunnistuksella. Täydellinen haastatteluihin."
         },
         step3: {
           title: "Älykäs muotoilu",
-          description: "AI lisää kappaleet, lauseet ja välimerkit automaattisesti."
+          description:
+            "AI lisää kappaleet, lauseet ja välimerkit automaattisesti."
         },
         step4: {
           title: "Julkaise & Sijoitu",
@@ -2103,27 +2181,33 @@ let message = {
       features: {
         feature1: {
           title: "Usean Puhujan Tunnistus",
-          description: "Tunnistaa ja nimeää automaattisesti jopa 20 puhujaa. Täydellinen paneelikeskusteluihin, haastatteluihin ja yhteisjuonnettuihin ohjelmiin."
+          description:
+            "Tunnistaa ja nimeää automaattisesti jopa 20 puhujaa. Täydellinen paneelikeskusteluihin, haastatteluihin ja yhteisjuonnettuihin ohjelmiin."
         },
         feature2: {
           title: "Aikaleimaluokat",
-          description: "Luo napsautettavia aikaleimoja YouTube-kuvauksiin. Anna kuulijoiden hypätä suosikkikohtiinsa heti."
+          description:
+            "Luo napsautettavia aikaleimoja YouTube-kuvauksiin. Anna kuulijoiden hypätä suosikkikohtiinsa heti."
         },
         feature3: {
           title: "Älykäs Muotoilu",
-          description: "Lisää automaattisesti kappaleet, lauseet ja välimerkit. Saada siistit, luettavat tekstitykset. Säästä tunteja jälkituotannossa."
+          description:
+            "Lisää automaattisesti kappaleet, lauseet ja välimerkit. Saada siistit, luettavat tekstitykset. Säästä tunteja jälkituotannossa."
         },
         feature4: {
           title: "SEO-Optimointi",
-          description: "Hakukoneille muotoillut tekstitykset. Paranna podcastisi löydettävyyttä ja tavoita uusia yleisöjä."
+          description:
+            "Hakukoneille muotoillut tekstitykset. Paranna podcastisi löydettävyyttä ja tavoita uusia yleisöjä."
         },
         feature5: {
           title: "100+ Kieltä",
-          description: "Tekstitä millä tahansa kielellä. Käännä yli 249 kielelle. Tavoita maailmanlaajuiset yleisöt vaivattomasti."
+          description:
+            "Tekstitä millä tahansa kielellä. Käännä yli 249 kielelle. Tavoita maailmanlaajuiset yleisöt vaivattomasti."
         },
         feature6: {
           title: "Eräkäsittely",
-          description: "Lataa 50 jaksoa ennen nukkumaanmenoa. Herää valmiiden tekstitysten pariin. Käsittele koko arkistosi yhdessä yössä."
+          description:
+            "Lataa 50 jaksoa ennen nukkumaanmenoa. Herää valmiiden tekstitysten pariin. Käsittele koko arkistosi yhdessä yössä."
         }
       },
       testimonialsTitle: "Podcastaajat, Jotka Tekivät",
@@ -2194,17 +2278,21 @@ let message = {
         }
       },
       ctaTitle: "Aloita jokaisen jakson tekstitys",
-      ctaSubtitle: "Liity 10 000+ podcastaajaan, jotka eivät koskaan huolehdi rajoituksista",
+      ctaSubtitle:
+        "Liity 10 000+ podcastaajaan, jotka eivät koskaan huolehdi rajoituksista",
       ctaButton: "Lataa ensimmäiset 50 jaksoasi ilmaiseksi →",
-      ctaDisclaimer: "Luottokorttia ei vaadita • Käsittele rajattomasti jaksoja • Peruuta milloin tahansa",
-      solutionDescriptionA: "{NeverCap}:n avulla saat todella rajattoman transkription. Lataa koko arkistosi. Transkriptoi jokainen uusi jakso. Luo ohjelman muistiinpanoja skaalautuvasti. Ei ylärajoja, ei rajoituksia, vain kasvua."
+      ctaDisclaimer:
+        "Luottokorttia ei vaadita • Käsittele rajattomasti jaksoja • Peruuta milloin tahansa",
+      solutionDescriptionA:
+        "{NeverCap}:n avulla saat todella rajattoman transkription. Lataa koko arkistosi. Transkriptoi jokainen uusi jakso. Luo ohjelman muistiinpanoja skaalautuvasti. Ei ylärajoja, ei rajoituksia, vain kasvua."
     },
     Journalists: {
       hero: {
         badge: "Toimittajille & kirjoittajille",
         title: "Tekstitä jokainen haastattelu.",
         titleHighlight: "Älä koskaan missaa lainausta.",
-        subtitle: "Lopeta haastattelujen valitseminen tekstityksen arvoiseksi. Lataa kaikki nauhoitukset kerralla, etsi kaikesta heti ja täytä määräaikasi ilman latausahdistusta.",
+        subtitle:
+          "Lopeta haastattelujen valitseminen tekstityksen arvoiseksi. Lataa kaikki nauhoitukset kerralla, etsi kaikesta heti ja täytä määräaikasi ilman latausahdistusta.",
         ctaPrimary: "Aloita rajattomat lataukset →",
         ctaSecondary: "Katso miten se toimii",
         stats: {
@@ -2251,37 +2339,44 @@ let message = {
       problem: {
         title: "Toimittaja",
         titleHighlight: "Toimittajien tekstitysongelma",
-        subtitle: 'Muut palvelut pakottavat valitsemaan, mitkä haastattelut ovat "arvoisia" tekstitykseen',
+        subtitle:
+          'Muut palvelut pakottavat valitsemaan, mitkä haastattelut ovat "arvoisia" tekstitykseen',
         problems: {
           uploadLimits: {
             title: "Latausrajoitukset tappavat tutkimukset",
-            description: "Otter tarjoaa 10 tiedoston tuonnin kuukaudessa Pro-versiossa. Miten tekstität 3 viikon tutkimushaastattelut?"
+            description:
+              "Otter tarjoaa 10 tiedoston tuonnin kuukaudessa Pro-versiossa. Miten tekstität 3 viikon tutkimushaastattelut?"
           },
           missingQuotes: {
             title: "Ratkaisevien lainausten puute",
-            description: "Jokainen tekstittämätön haastattelu voi sisältää tarinan avainlainauksen. Mutta Trint rajoittaa sinut korkeintaan 50 tuntiin/kk."
+            description:
+              "Jokainen tekstittämätön haastattelu voi sisältää tarinan avainlainauksen. Mutta Trint rajoittaa sinut korkeintaan 50 tuntiin/kk."
           },
           costExplosion: {
             title: "Kustannukset räjähtävät määräaikoihin",
-            description: "Tutkimuksesi syventyessä transkription kustannukset nousevat pilviin. 100 $/kk ylitysmaksut tekevät uutisista mahdottomia."
+            description:
+              "Tutkimuksesi syventyessä transkription kustannukset nousevat pilviin. 100 $/kk ylitysmaksut tekevät uutisista mahdottomia."
           }
         },
         solution: {
           title: "The",
           titleHighlight: "NeverCap-ratkaisu",
-          descriptionA: "{NeverCap}:n avulla saat todella rajattoman litteroinnin. Lataa koko tutkimuksesi. Litteroi jokainen haastattelu. Hae kaikista lainauksista välittömästi. Ei isoja kirjaimia, ei rajoituksia, vain journalismia."
+          descriptionA:
+            "{NeverCap}:n avulla saat todella rajattoman litteroinnin. Lataa koko tutkimuksesi. Litteroi jokainen haastattelu. Hae kaikista lainauksista välittömästi. Ei isoja kirjaimia, ei rajoituksia, vain journalismia."
         }
       },
       solution: {
         title: "1",
         titleHighlight: "Paras haastattelujen transkriptio-ohjelmisto",
         titleSuffix: "Journalisteille",
-        subtitle: "Todelliset edut, kun määräajat ovat tiukkoja ja tarkkuus on kaikki kaikessa",
+        subtitle:
+          "Todelliset edut, kun määräajat ovat tiukkoja ja tarkkuus on kaikki kaikessa",
         solutions: {
           unlimitedUploads: {
             label: "Rajaton määrä",
             title: "Rajaton määrä kaikille haastatteluillesi",
-            description: "Toisin kuin minuuttirajoitteiset ohjelmistot, voit transkriptoida jokaisen haastattelun nopeasta keskustelusta monituntiseen keskusteluun. Älä koskaan huoli luottorajojen loppumisesta määräajan alla.",
+            description:
+              "Toisin kuin minuuttirajoitteiset ohjelmistot, voit transkriptoida jokaisen haastattelun nopeasta keskustelusta monituntiseen keskusteluun. Älä koskaan huoli luottorajojen loppumisesta määräajan alla.",
             points: {
               simultaneousUpload: "Ei kuukausittaisia minuuttirajoja",
               noLimits: "Tukee 10 tunnin haastatteluja",
@@ -2296,7 +2391,8 @@ let message = {
           instantSearch: {
             label: "Salaman nopeus",
             title: "Nopeus, joka vastaa uutissyklisiä",
-            description: "Saat haastattelusi transkription minuuteissa, ei päivissä. Käsittele tarinoita nopeammin kuin koskaan. Tekoälymme prosessoi tunteja äänitteitä, kun nappaat kahvia.",
+            description:
+              "Saat haastattelusi transkription minuuteissa, ei päivissä. Käsittele tarinoita nopeammin kuin koskaan. Tekoälymme prosessoi tunteja äänitteitä, kun nappaat kahvia.",
             points: {
               searchAll: "5 minuutin käsittelyaika 1 tunnin haastatteluille",
               wordTimestamps: "Etusijakäsittely kiireellisille tarinoille",
@@ -2314,7 +2410,8 @@ let message = {
           professionalAccuracy: {
             label: "Lainausvalmis tarkkuus",
             title: "Tarkkuus, jota voit lainata",
-            description: "Tekoälymme tuottaa erittäin tarkkoja transkriptioita, varmistaen julkaisemiesi lainausten tarkkuuden ja luotettavuuden. Ammattimainen transkriptio, jota toimittajat luottavat.",
+            description:
+              "Tekoälymme tuottaa erittäin tarkkoja transkriptioita, varmistaen julkaisemiesi lainausten tarkkuuden ja luotettavuuden. Ammattimainen transkriptio, jota toimittajat luottavat.",
             points: {
               accuracyGuarantee: "96 % tarkkuustakuu",
               handlesAccents: "Käsittelee teknistä terminologiaa",
@@ -2324,7 +2421,8 @@ let message = {
               accuracy: "96 %",
               label: "Julkaisuvalmis tarkkuus",
               transcript: {
-                speaker1: '"Tutkinta paljasti merkittäviä ristiriitaisuuksia taloudellisissa raporteissa."',
+                speaker1:
+                  '"Tutkinta paljasti merkittäviä ristiriitaisuuksia taloudellisissa raporteissa."',
                 speaker2: '"Voisitko tarkentaa näitä erityisiä eroja?"'
               }
             }
@@ -2332,7 +2430,8 @@ let message = {
           ironclad: {
             label: "Lähdesuoja",
             title: "Rautainen lähdesuoja",
-            description: "Tarjoamme vankkoja turvatoimia herkkien haastattelutietojesi ja luottamuksellisten lähteidesi suojaamiseksi. Pankkitason salaus pitää tutkimuksesi turvassa.",
+            description:
+              "Tarjoamme vankkoja turvatoimia herkkien haastattelutietojesi ja luottamuksellisten lähteidesi suojaamiseksi. Pankkitason salaus pitää tutkimuksesi turvassa.",
             points: {
               accuracyGuarantee: "Päästä päähän -salaus",
               handlesAccents: "Automaattiset tiedostonpoistovaihtoehdot",
@@ -2348,45 +2447,55 @@ let message = {
       features: {
         title: "Kaikki mitä",
         titleHighlight: "Toimittaja tarvitsee",
-        subtitle: "Ammattimaiset työkalut, jotka kunnioittavat työskentelytapojasi",
+        subtitle:
+          "Ammattimaiset työkalut, jotka kunnioittavat työskentelytapojasi",
         featuresList: {
           languages: {
             title: "100+ kieltä",
-            description: "Haastattele lähteitä maailmanlaajuisesti 12 pääkielellä 96 % tarkkuudella."
+            description:
+              "Haastattele lähteitä maailmanlaajuisesti 12 pääkielellä 96 % tarkkuudella."
           },
           exportFormats: {
             title: "Vie muodoissa",
-            description: "Word, PDF, SRT, TXT. Yhteensopiva minkä tahansa työnkulkun kanssa."
+            description:
+              "Word, PDF, SRT, TXT. Yhteensopiva minkä tahansa työnkulkun kanssa."
           },
           sourceProtection: {
             title: "Lähdesuoja",
-            description: "Pankkitason salaus. Lähteesi pysyvät luottamuksellisina."
+            description:
+              "Pankkitason salaus. Lähteesi pysyvät luottamuksellisina."
           },
           timestamps: {
             title: "Aikaleimat",
-            description: "Napsauta mitä tahansa lainausta siirtyäksesi tarkkaan äänikohtaan."
+            description:
+              "Napsauta mitä tahansa lainausta siirtyäksesi tarkkaan äänikohtaan."
           },
           teamSharing: {
             title: "Tiimijako",
-            description: "Tee yhteistyötä toimittajien kanssa. Jaa tekstitykset turvallisesti."
+            description:
+              "Tee yhteistyötä toimittajien kanssa. Jaa tekstitykset turvallisesti."
           },
           mobileReady: {
             title: "Mobiilivalmis",
-            description: "Lataa puhelimesta. Tarkastele tekstityksiä missä tahansa."
+            description:
+              "Lataa puhelimesta. Tarkastele tekstityksiä missä tahansa."
           },
           smartFormatting: {
             title: "Älykäs Muotoilu",
-            description: "Automaattiset kappaleet ja välimerkit luettaviksi tekstityksiksi."
+            description:
+              "Automaattiset kappaleet ja välimerkit luettaviksi tekstityksiksi."
           },
           batchProcessing: {
             title: "Eräkäsittely",
-            description: "Lataa 50 tiedostoa kerralla. Käsittele yön aikana kun nukut."
+            description:
+              "Lataa 50 tiedostoa kerralla. Käsittele yön aikana kun nukut."
           }
         }
       },
       testimonials: {
         jessica: {
-          quote: '"Minulla oli 3 vuoden haastattelut tekemättä tekstityksiä latausrajojen vuoksi. NeverCap mahdollisti kaiken käsittelyn yhden viikonlopun aikana. Mullistavaa."',
+          quote:
+            '"Minulla oli 3 vuoden haastattelut tekemättä tekstityksiä latausrajojen vuoksi. NeverCap mahdollisti kaiken käsittelyn yhden viikonlopun aikana. Mullistavaa."',
           name: "Jessica Park",
           role: "Freelance-toimittaja, Entinen Otter-käyttäjä"
         }
@@ -2394,7 +2503,8 @@ let message = {
       cta: {
         title: "Aloita Tekstittäminen",
         titleHighlight: "Ilman Rajoja",
-        subtitle: "Liity tuhansiin toimittajiin, jotka lopettivat latausten laskemisen ja keskittyivät tarinoihin",
+        subtitle:
+          "Liity tuhansiin toimittajiin, jotka lopettivat latausten laskemisen ja keskittyivät tarinoihin",
         ctaPrimary: "Kokeile Rajoitonta Ilmaiseksi →",
         ctaSecondary: "Katso Hinnasto"
       }
@@ -2425,7 +2535,8 @@ let message = {
             label: "Alustaa"
           }
         },
-        subtitleA: "Tarvitsetpa sitten YouTube-videon litterointia, TikTok-videon litterointia uudelleenkäyttöä varten tai Facebook-videon litterointia tekstiksi, {NeverCap} hoitaa kaiken saumattomasti. Luo tekstityksiä yli 100 kielellä ilman kuukausirajoituksia – vain puhdasta luovaa vapautta."
+        subtitleA:
+          "Tarvitsetpa sitten YouTube-videon litterointia, TikTok-videon litterointia uudelleenkäyttöä varten tai Facebook-videon litterointia tekstiksi, {NeverCap} hoitaa kaiken saumattomasti. Luo tekstityksiä yli 100 kielellä ilman kuukausirajoituksia – vain puhdasta luovaa vapautta."
       },
       platforms: {
         title: "Nouda & Tekstitä Mistä Tahansa Alustasta",
@@ -2450,7 +2561,8 @@ let message = {
           label: "Yhden Klikkauksen Tuonti",
           title: "Tekstitä YouTube, TikTok &",
           titleHighlight: "Instagram-videot Liittämällä Linkki",
-          description: "Työkalumme yksinkertaistaa videosisällön tekstittämistä. Lisää vain linkki tekstittääksesi Instagram-videon. Sama koskee Vimeo-videoiden tekstittämistä. Käsittele koko kanavasi taakka yhden viikonlopun aikana.",
+          description:
+            "Työkalumme yksinkertaistaa videosisällön tekstittämistä. Lisää vain linkki tekstittääksesi Instagram-videon. Sama koskee Vimeo-videoiden tekstittämistä. Käsittele koko kanavasi taakka yhden viikonlopun aikana.",
           points: {
             directYoutube: "Suora YouTube-linkin tekstitys",
             multiplePlatforms: "Hae 10+ alustalta",
@@ -2467,7 +2579,8 @@ let message = {
           label: "Maailmanlaajuinen ulottuvuus",
           title: "100+ kieltä.",
           titleHighlight: "Ei rajoja.",
-          description: "Tavoita maailmanlaajuisia yleisöjä automaattisella käännöksellä 100+ kielelle. Luo tekstityksiä usealla kielellä samanaikaisesti. Ei lisäkustannuksia, ei kuukausirajoja käännöksille.",
+          description:
+            "Tavoita maailmanlaajuisia yleisöjä automaattisella käännöksellä 100+ kielelle. Luo tekstityksiä usealla kielellä samanaikaisesti. Ei lisäkustannuksia, ei kuukausirajoja käännöksille.",
           points: {
             highAccuracy: "96 % tarkkuus 12 pääkielellä",
             unlimitedTranslations: "Rajattomat käännökset sisältyvät",
@@ -2484,7 +2597,8 @@ let message = {
           label: "Joustava vienti",
           title: "Jokainen tarvitsemasi",
           titleHighlight: "Muoto",
-          description: "Vie työnkulkusi mukaisessa muodossa. YouTubeen tarkoitetuista SRT-tiedostoista VTT-tiedostoihin verkkosoitinta varten tai muokattaviin asiakirjoihin käsikirjoituksia varten. Kaikki viennit rajattomia, kaikki sisältyy jokaiseen suunnitelmaan.",
+          description:
+            "Vie työnkulkusi mukaisessa muodossa. YouTubeen tarkoitetuista SRT-tiedostoista VTT-tiedostoihin verkkosoitinta varten tai muokattaviin asiakirjoihin käsikirjoituksia varten. Kaikki viennit rajattomia, kaikki sisältyy jokaiseen suunnitelmaan.",
           points: {
             videoFormats: "SRT & VTT videoplatformeille",
             editingFormats: "DOCX & PDF muokkausta varten",
@@ -2509,11 +2623,13 @@ let message = {
         steps: {
           pasteLinks: {
             title: "Liitä linkit",
-            description: "Pudota YouTube-, TikTok- tai mikä tahansa videolinkki. Tai lataa tiedostot suoraan."
+            description:
+              "Pudota YouTube-, TikTok- tai mikä tahansa videolinkki. Tai lataa tiedostot suoraan."
           },
           autoTranscribe: {
             title: "Automaattinen tekstitys",
-            description: "AI käsittelee 96 % tarkkuudella. Hallitsee aksentit ja useat puhujat."
+            description:
+              "AI käsittelee 96 % tarkkuudella. Hallitsee aksentit ja useat puhujat."
           },
           editTranslate: {
             title: "Muokkaa & Käännä",
@@ -2521,7 +2637,8 @@ let message = {
           },
           exportPublish: {
             title: "Vie & Julkaise",
-            description: "Lataa missä tahansa muodossa. Lataa alustallesi. Valmista!"
+            description:
+              "Lataa missä tahansa muodossa. Lataa alustallesi. Valmista!"
           }
         }
       },
@@ -2530,29 +2647,34 @@ let message = {
         titleHighlight: "Vaihtavat päivittäin",
         subtitle: "Rajoitetuista suunnitelmista rajattomaan vapautteen",
         carlos: {
-          textBefore: "Teen opetusmateriaalia espanjaksi. NeverCap tekstittää täydellisesti ja",
-          textAfter: "laajemman tavoittavuuden vuoksi. Ei rajoja, vain kasvua. Kanavani katselukerrat kolminkertaistuivat monikielisten tekstitysten lisäämisen jälkeen.",
+          textBefore:
+            "Teen opetusmateriaalia espanjaksi. NeverCap tekstittää täydellisesti ja",
+          textAfter:
+            "laajemman tavoittavuuden vuoksi. Ei rajoja, vain kasvua. Kanavani katselukerrat kolminkertaistuivat monikielisten tekstitysten lisäämisen jälkeen.",
           highlight: "kääntää englanniksi",
           name: "Carlos Martinez",
           role: "YouTube-opettaja • 250 tilaajaa"
         },
         sarah: {
           textBefore: "Descript pyysi 30 $/kk",
-          textAfter: ". Minulla on yli 500 videota jonossa. NeverCap antoi minun käsitellä kaiken yhden viikonlopun aikana. Tekstitysten SEO-boosti maksoi itsensä takaisin ensimmäisessä kuussa.",
+          textAfter:
+            ". Minulla on yli 500 videota jonossa. NeverCap antoi minun käsitellä kaiken yhden viikonlopun aikana. Tekstitysten SEO-boosti maksoi itsensä takaisin ensimmäisessä kuussa.",
           highlight: "30 tuntia",
           name: "Sarah Lee",
           role: "Elämäntapavloggaaja • 180 tilaajaa"
         },
         jake: {
           textBefore: "Tämä",
-          textAfter: "ominaisuus on pelinmuuttaja. En lataa enää mitään. Liitä vain, transkriboi, valmis. Podcast-leikkeiden käsittely TikTokia varten ei ole koskaan ollut helpompaa.",
+          textAfter:
+            "ominaisuus on pelinmuuttaja. En lataa enää mitään. Liitä vain, transkriboi, valmis. Podcast-leikkeiden käsittely TikTokia varten ei ole koskaan ollut helpompaa.",
           highlight: "suora YouTube-haku",
           name: "Jake Wilson",
           role: "Podcast-isäntä • Top 1 % -sisällöntuottaja"
         },
         yuki: {
           textBefore: "Luon sisältöä 5 kielellä. Muut palvelut veloittavat",
-          textAfter: ". NeverCap tarjoaa minulle rajattomat käännökset. Kansainvälinen yleisöni kasvoi 400 % alkaessani käyttää oikeita alkuperäistekstityksiä.",
+          textAfter:
+            ". NeverCap tarjoaa minulle rajattomat käännökset. Kansainvälinen yleisöni kasvoi 400 % alkaessani käyttää oikeita alkuperäistekstityksiä.",
           highlight: "per käännös",
           name: "Yuki Tanaka",
           role: "Pelisisällöntuottaja • 500 tilaajaa"
@@ -2560,29 +2682,36 @@ let message = {
       },
       cta: {
         title: "Koko kanavasi. Tekstitetty. Tänään.",
-        subtitle: "Liity yli 50 000 sisällöntuottajan joukkoon, jotka lopettivat minuuttien laskemisen ja alkoivat luoda",
+        subtitle:
+          "Liity yli 50 000 sisällöntuottajan joukkoon, jotka lopettivat minuuttien laskemisen ja alkoivat luoda",
         button: "Aloita rajaton tekstitys →"
       },
       FAQSection: {
-        "title": "Transkriptiokysymyksesi,",
-        "titleHighlight": "Vastattu",
-        subtitle: "Kaikki mitä sinun tulee tietää videoiden transkriptiosta eri alustoilla",
-        "questions": [
+        title: "Transkriptiokysymyksesi,",
+        titleHighlight: "Vastattu",
+        subtitle:
+          "Kaikki mitä sinun tulee tietää videoiden transkriptiosta eri alustoilla",
+        questions: [
           {
-            "question": "K: Miten transkriboin YouTube-videon NeverCapilla?",
-            "answer": "Se on helppoa. Etsi vain haluamasi YouTube-video, kopioi sen URL ja liitä se sovellukseemme. Tekoälymme hakee videon automaattisesti ja tarjoaa täyden tekstityksen minuuteissa."
+            question: "K: Miten transkriboin YouTube-videon NeverCapilla?",
+            answer:
+              "Se on helppoa. Etsi vain haluamasi YouTube-video, kopioi sen URL ja liitä se sovellukseemme. Tekoälymme hakee videon automaattisesti ja tarjoaa täyden tekstityksen minuuteissa."
           },
           {
-            "question": "K: Mikä on paras tapa transkriboida Facebook-video tekstiksi?",
-            "answer": "Helpoin tapa on käyttää suoraa linkkiä. Kopioi Facebook-videon URL ja alustamme hoitaa loput, muuntaen puheen tekstiksi jopa 96 % tarkkuudella, säästäen sinut manuaaliselta transkriptiolta."
+            question:
+              "K: Mikä on paras tapa transkriboida Facebook-video tekstiksi?",
+            answer:
+              "Helpoin tapa on käyttää suoraa linkkiä. Kopioi Facebook-videon URL ja alustamme hoitaa loput, muuntaen puheen tekstiksi jopa 96 % tarkkuudella, säästäen sinut manuaaliselta transkriptiolta."
           },
           {
-            "question": "K: Voinko transkriboida TikTok- ja Instagram-videoita?",
-            "answer": "Totta kai. Tukemme sekä TikTok- että Instagram-videoiden transkriptiota. Tämä on täydellistä sisällöntuottajille, jotka haluavat muokata lyhytmuotoista videosisältöään blogikirjoituksiksi, artikkeleiksi tai tekstipohjaisiksi some-päivityksiksi."
+            question: "K: Voinko transkriboida TikTok- ja Instagram-videoita?",
+            answer:
+              "Totta kai. Tukemme sekä TikTok- että Instagram-videoiden transkriptiota. Tämä on täydellistä sisällöntuottajille, jotka haluavat muokata lyhytmuotoista videosisältöään blogikirjoituksiksi, artikkeleiksi tai tekstipohjaisiksi some-päivityksiksi."
           },
           {
-            "question": "K: Miten transkriboin Vimeo-videon tekstiksi?",
-            "answer": "Vimeo-videoiden transkriptio on yhtä helppoa kuin muidenkin alustojen. Kopioi vain Vimeo-videon URL ja liitä se NeverCapiin. Tekoälymme käsittelee videon ja luo tarkan tekstityksen, jonka voit ladata useassa eri muodossa."
+            question: "K: Miten transkriboin Vimeo-videon tekstiksi?",
+            answer:
+              "Vimeo-videoiden transkriptio on yhtä helppoa kuin muidenkin alustojen. Kopioi vain Vimeo-videon URL ja liitä se NeverCapiin. Tekoälymme käsittelee videon ja luo tarkan tekstityksen, jonka voit ladata useassa eri muodossa."
           }
         ]
       }
@@ -2591,7 +2720,8 @@ let message = {
       heroBadge: "Rakennettu akateemiseen huippuosaamiseen",
       heroTitle1: "Transkriboi jokainen haastattelu.",
       heroTitle2: "Analysoi kaikki tietosi.",
-      heroSubtitle: "Lopeta valitsemasta, mitkä kohderyhmät transkriboida. Käsittele kaikki laadulliset tietosi 96 % tarkkuudella ja moitteettomalla puhujien tunnistuksella – vaikka 20 osallistujaa puhuisivat päällekkäin.",
+      heroSubtitle:
+        "Lopeta valitsemasta, mitkä kohderyhmät transkriboida. Käsittele kaikki laadulliset tietosi 96 % tarkkuudella ja moitteettomalla puhujien tunnistuksella – vaikka 20 osallistujaa puhuisivat päällekkäin.",
       heroCtaPrimary: "Ilmainen kokeilu – ei luottokorttia",
       heroCtaSecondary: "Katso miten se toimii",
       statsInterviewHours: "Haastattelutunnit",
@@ -2599,17 +2729,22 @@ let message = {
       statsSpeakersId: "Puhujien tunnistus",
       statsCompliant: "Yhteensopiva",
       problemTitle: "Tämä",
-      problemSubtitle: 'Muut palvelut pakottavat sinut valitsemaan, mitkä tiedot ovat "transkriboimisen arvoisia"',
+      problemSubtitle:
+        'Muut palvelut pakottavat sinut valitsemaan, mitkä tiedot ovat "transkriboimisen arvoisia"',
       problemCard1Title: "Lähetysrajoitukset tuhoavat tutkimukset",
-      problemCard1Desc: "Otter tarjoaa 3 elinikäistä tuontia. Miten transkriboit 200 tuntia kohderyhmäkeskusteluja?",
+      problemCard1Desc:
+        "Otter tarjoaa 3 elinikäistä tuontia. Miten transkriboit 200 tuntia kohderyhmäkeskusteluja?",
       problemCard2Title: "Kriittisten tietojen puuttuminen",
-      problemCard2Desc: "Jokainen transkriboimaton haastattelu voi sisältää läpimurtotietoja. Mutta Rev veloittaa vähintään 2 $/min.",
+      problemCard2Desc:
+        "Jokainen transkriboimaton haastattelu voi sisältää läpimurtotietoja. Mutta Rev veloittaa vähintään 2 $/min.",
       problemCard3Title: "Apurahat katoavat",
-      problemCard3Desc: "Kun tietojoukkosi kasvaa, transkription kustannukset räjähtävät. 500 dollaria kohderyhmää kohden tekee skaalautumisesta mahdotonta.",
+      problemCard3Desc:
+        "Kun tietojoukkosi kasvaa, transkription kustannukset räjähtävät. 500 dollaria kohderyhmää kohden tekee skaalautumisesta mahdotonta.",
       solutionTitle: "NeverCap-ratkaisu",
       feature1Label: "Ei rajoja",
       feature1Title: "Käsittele sinun",
-      feature1Desc: 'Lataa kaikki 200 tuntia haastatteluja tänä yönä. Herää valmiiksi, haettaviin transkriptioihin. Ei kuukausirajoja, ei tiedostokohtaisia rajoja, ei "kohtuullisen käytön" hölynpölyä.',
+      feature1Desc:
+        'Lataa kaikki 200 tuntia haastatteluja tänä yönä. Herää valmiiksi, haettaviin transkriptioihin. Ei kuukausirajoja, ei tiedostokohtaisia rajoja, ei "kohtuullisen käytön" hölynpölyä.',
       feature1Point1: "Lähetä 50 tiedostoa kerralla",
       feature1Point2: "Käsittele pitkittäistutkimukset kokonaan",
       feature1Point3: "Ei tallennusrajoja transkriptioille",
@@ -2618,23 +2753,28 @@ let message = {
       feature1Visual2: "Sama hinta, olipa kyseessä 10 tai 10 000 tuntia",
       feature2Label: "Älykäs tekoäly",
       feature2Title: "Täsmällinen hallinta",
-      feature2Desc: "Tekoälymme seuraa jopa 20 puhujaa, vaikka he puhuisivat päällekkäin, keskeyttäisivät toisiaan tai puhuisivat kaikki yhtä aikaa. Jokainen ääni tallennetaan ja merkitään oikein.",
+      feature2Desc:
+        "Tekoälymme seuraa jopa 20 puhujaa, vaikka he puhuisivat päällekkäin, keskeyttäisivät toisiaan tai puhuisivat kaikki yhtä aikaa. Jokainen ääni tallennetaan ja merkitään oikein.",
       feature2Point1: "20 puhujan tunnistus",
       feature2Point2: "Hallitsee päällekkäiset puheet ja keskeytykset",
       feature2Point3: "Puhujien nimet, joita voit muokata",
       feature2Point4: "Aikaleima jokaiselle sanalle",
       conversationParticipant1: "Osallistuja 1",
-      conversationText1: "Suurin este, johon törmäämme, on ehdottomasti hoidon korkea hinta...",
+      conversationText1:
+        "Suurin este, johon törmäämme, on ehdottomasti hoidon korkea hinta...",
       conversationParticipant2: "Osallistuja 2",
       conversationText2: "Ehdottomasti, mutta lisäisin, että saatavuus on—",
       conversationParticipant3: "Osallistuja 3",
-      conversationText3: "—anteeksi keskeytys, mutta liikenne on myös valtava ongelma.",
+      conversationText3:
+        "—anteeksi keskeytys, mutta liikenne on myös valtava ongelma.",
       conversationText4: "Kyllä! Juuri sitä aioin sanoa.",
       conversationParticipant4: "Osallistuja 4",
-      conversationText5: "Maaseudulla kaikki kolme ovat ongelmia: hinta, saatavuus JA liikenne.",
+      conversationText5:
+        "Maaseudulla kaikki kolme ovat ongelmia: hinta, saatavuus JA liikenne.",
       feature3Label: "Tarkkuus",
       feature3Title: "Luotettava",
-      feature3Desc: "Hallitsee ammattilaisen tavoin teknistä termistöä, vahvoja aksentteja ja alakohtaisia termejä. Riittävän tarkka julkaisuihin, vertaisarviointiin ja väitöskirjatoimikunnalle.",
+      feature3Desc:
+        "Hallitsee ammattilaisen tavoin teknistä termistöä, vahvoja aksentteja ja alakohtaisia termejä. Riittävän tarkka julkaisuihin, vertaisarviointiin ja väitöskirjatoimikunnalle.",
       feature3Point1: "Lääketieteellinen ja tieteellinen termistö",
       feature3Point2: "100+ kieltä ja murretta",
       feature3Point3: "Sanatarkka ja siisti lukutila",
@@ -2643,7 +2783,8 @@ let message = {
       feature3Visual2: "Yli 50 000 tutkijan luottama",
       feature4Label: "Turvallisuus",
       feature4Title: "IRB-sertifioitu",
-      feature4Desc: "Arkaluontoinen tutkimustietosi on suojattu yritysluokan turvallisuudella. GDPR-yhteensopiva, HIPAA-valmis vaihtoehdot ja täydelliset valvontajäljet IRB-vaatimuksia varten.",
+      feature4Desc:
+        "Arkaluontoinen tutkimustietosi on suojattu yritysluokan turvallisuudella. GDPR-yhteensopiva, HIPAA-valmis vaihtoehdot ja täydelliset valvontajäljet IRB-vaatimuksia varten.",
       feature4Point1: "Päästä päähän -salaus",
       feature4Point2: "GDPR- ja CCPA-yhteensopiva",
       feature4Point3: "Automaattiset poistokäytännöt",
@@ -2651,23 +2792,31 @@ let message = {
       useCasesTitle: "Täydellinen",
       useCasesSubtitle: "Etnografiasta kliinisiin kokeisiin",
       useCase1Title: "Kohderyhmät",
-      useCase1Desc: "Hallitse 8–20 osallistujaa päällekkäisillä puheilla. Täydellinen puhujien tunnistus jopa kiihkeissä keskusteluissa. Vie suoraan laadulliseen analyysiohjelmistoon.",
+      useCase1Desc:
+        "Hallitse 8–20 osallistujaa päällekkäisillä puheilla. Täydellinen puhujien tunnistus jopa kiihkeissä keskusteluissa. Vie suoraan laadulliseen analyysiohjelmistoon.",
       useCase2Title: "Syvähaastattelut",
-      useCase2Desc: "Käsittele satoja yksilöllisiä haastatteluja samanaikaisesti. Säilytä johdonmukaisuus koko aineistossasi. Hae kaikista puhtaaksikirjoituksista välittömästi.",
+      useCase2Desc:
+        "Käsittele satoja yksilöllisiä haastatteluja samanaikaisesti. Säilytä johdonmukaisuus koko aineistossasi. Hae kaikista puhtaaksikirjoituksista välittömästi.",
       useCase3Title: "Kliininen tutkimus",
-      useCase3Desc: "HIPAA-yhteensopivat vaihtoehdot potilashaastatteluihin. Tarkka lääketieteellinen terminologian puhtaaksikirjoitus. Turvallinen käsittely herkille terveystiedoille.",
+      useCase3Desc:
+        "HIPAA-yhteensopivat vaihtoehdot potilashaastatteluihin. Tarkka lääketieteellinen terminologian puhtaaksikirjoitus. Turvallinen käsittely herkille terveystiedoille.",
       useCase4Title: "Etnografiset tutkimukset",
-      useCase4Desc: "Kenttänauhoitukset luonnollisissa ympäristöissä. Hallitse taustamelua ja useita puhujia. Tuki yli 100 kielelle ja murteelle.",
+      useCase4Desc:
+        "Kenttänauhoitukset luonnollisissa ympäristöissä. Hallitse taustamelua ja useita puhujia. Tuki yli 100 kielelle ja murteelle.",
       useCase5Title: "Suullisen historian projektit",
-      useCase5Desc: "Säilytä kokonaisia arkistoja ilman rajoja. Luo haettavia historiallisia tallenteita. Ihanteellinen pitkittäis- ja sukupolvitutkimuksiin.",
+      useCase5Desc:
+        "Säilytä kokonaisia arkistoja ilman rajoja. Luo haettavia historiallisia tallenteita. Ihanteellinen pitkittäis- ja sukupolvitutkimuksiin.",
       useCase6Title: "Väitöskirjatutkimus",
-      useCase6Desc: "Opiskelijaystävälliset hinnat täysillä ominaisuuksilla. Käsittele koko aineistosi edullisesti. Täytä tiukat määräajat eräkäsittelyllä.",
+      useCase6Desc:
+        "Opiskelijaystävälliset hinnat täysillä ominaisuuksilla. Käsittele koko aineistosi edullisesti. Täytä tiukat määräajat eräkäsittelyllä.",
       testimonialTitle: "Luottavat",
-      testimonialText: "Tutkimusryhmällämme oli 200 tuntia kohderyhmänauhoituksia yhteisön terveystutkimuksestamme. Muut palvelut halusivat meidän valitsevan, mitkä istunnot puhtaaksikirjoitetaan kustannusten vuoksi. NeverCap antoi meidän käsitellä kaiken viikonlopun aikana. 20 puhujan tunnistus toimi todella – jopa sekavimmissa keskusteluissamme, joissa kaikki puhuivat yhtä aikaa. Tämä työkalu on muuttanut täysin kvalitatiivisen datan käsittelyämme.",
+      testimonialText:
+        "Tutkimusryhmällämme oli 200 tuntia kohderyhmänauhoituksia yhteisön terveystutkimuksestamme. Muut palvelut halusivat meidän valitsevan, mitkä istunnot puhtaaksikirjoitetaan kustannusten vuoksi. NeverCap antoi meidän käsitellä kaiken viikonlopun aikana. 20 puhujan tunnistus toimi todella – jopa sekavimmissa keskusteluissamme, joissa kaikki puhuivat yhtä aikaa. Tämä työkalu on muuttanut täysin kvalitatiivisen datan käsittelyämme.",
       testimonialAuthorName: "Dr. Sarah Chen",
       testimonialAuthorRole: "Päätutkija, Public Health Institute",
       ctaTitle: "Lopeta datan valitseminen analysoitavaksi",
-      ctaSubtitle: "Liity yli 50 000 tutkijan joukkoon, jotka puhtaaksikirjoittavat kaiken",
+      ctaSubtitle:
+        "Liity yli 50 000 tutkijan joukkoon, jotka puhtaaksikirjoittavat kaiken",
       ctaButton: "Kokeile NeverCapia ilmaiseksi",
       problemTitle2: "Tutkimustranskription ongelma",
       title: "The",
@@ -2680,12 +2829,15 @@ let message = {
       feature3TitleHl: "96 % tarkkuus",
       feature4TitleHl: "Turvallisuus",
       testimonialText2Hl: "200 tuntia",
-      testimonialText3: "fokusryhmän äänitteitä yhteisöterveystutkimuksestamme. Muut palvelut halusivat meidän valikoida mitkä istunnot litteroidaan kustannusten vuoksi. NeverCap antoi meidän käsitellä",
+      testimonialText3:
+        "fokusryhmän äänitteitä yhteisöterveystutkimuksestamme. Muut palvelut halusivat meidän valikoida mitkä istunnot litteroidaan kustannusten vuoksi. NeverCap antoi meidän käsitellä",
       testimonialText4Hl: "kaiken viikonloppuna",
-      testimonialText5: ". 20 puhujan tunnistus toimi todella - jopa sekavimmissa keskusteluissamme, kun kaikki puhuivat yhtä aikaa. Tämä työkalu on",
+      testimonialText5:
+        ". 20 puhujan tunnistus toimi todella - jopa sekavimmissa keskusteluissamme, kun kaikki puhuivat yhtä aikaa. Tämä työkalu on",
       testimonialText6Hl: "täysin muuttanut",
       testimonialText7: "miten käsittelemme laadullista dataa.",
-      solutionDescA: "{NeverCap}:n avulla saat todella rajattoman litteroinnin. Lataa koko tutkimuksesi. Litteroi jokainen haastattelu. Analysoi kaikki tietosi. Ei ylärajoja, ei rajoituksia, vain tutkimusta."
+      solutionDescA:
+        "{NeverCap}:n avulla saat todella rajattoman litteroinnin. Lataa koko tutkimuksesi. Litteroi jokainen haastattelu. Analysoi kaikki tietosi. Ei ylärajoja, ei rajoituksia, vain tutkimusta."
     },
     BusinessTeams: {
       heroBadge: "Liiketiimeille",
@@ -2699,9 +2851,11 @@ let message = {
       statsSpeakerID: "Puhujan tunnistus",
       statsInstantUpload: "Lataa & käsittele",
       featuresTitle: "Puhtaaksikirjoitus jokaiselle yritykselle",
-      featuresSubtitle: "Live-nauhoituksesta välittömään lataukseen olemme poistaneet kaikki kitkakohdat",
+      featuresSubtitle:
+        "Live-nauhoituksesta välittömään lataukseen olemme poistaneet kaikki kitkakohdat",
       feature1Title: "Nauhoita suoraan selaimessasi",
-      feature1Desc: "Ei latauksia, ei liitännäisiä. Aloita nauhoitus välittömästi yhdellä napsautuksella. Täydellinen äänenlaatu, automaattinen puhujien tunnistus.",
+      feature1Desc:
+        "Ei latauksia, ei liitännäisiä. Aloita nauhoitus välittömästi yhdellä napsautuksella. Täydellinen äänenlaatu, automaattinen puhujien tunnistus.",
       feature1Benefit1: "Yhden napsautuksen nauhoitus",
       feature1Benefit2: "Ei ohjelmiston asennusta",
       feature1Benefit3: "Toimii millä tahansa laitteella",
@@ -2709,14 +2863,17 @@ let message = {
       feature1Visual1: "Napsauta & nauhoita",
       feature1Visual2: "Ei asennusta tarvita",
       feature2Title: "Lataa mikä tahansa äänitiedosto välittömästi",
-      feature2Desc: "Onko sinulla nauhoituksia Zoomista, Teamsista tai puhelimestasi? Lataa ne välittömästi. Tuki kaikille suurimmille ääni- ja videoformaateille. Käsittele useita tiedostoja samanaikaisesti ilman odottamista.",
-      feature2Benefit1: "Tuetut: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV, FLAC",
+      feature2Desc:
+        "Onko sinulla nauhoituksia Zoomista, Teamsista tai puhelimestasi? Lataa ne välittömästi. Tuki kaikille suurimmille ääni- ja videoformaateille. Käsittele useita tiedostoja samanaikaisesti ilman odottamista.",
+      feature2Benefit1:
+        "Tuetut: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV, FLAC",
       feature2Benefit2: "Erälatausmahdollisuus",
       feature2Benefit3: "10 tunnin tiedostot tuettu",
       feature2Benefit4: "Käsittele työskennellessäsi",
       feature2Visual1: "Vedä & pudota tiedostot",
       feature3Title: "Rakennettu tiimiyhteistyötä varten",
-      feature3Desc: "Jaa puhtaaksikirjoitukset tiimillesi välittömästi. Kuunnelkaa nauhoituksia yhdessä, vie puhtaaksikirjoitukset useissa muodoissa ja varmista, että kaikki pysyvät linjassa haettavien kokousarkistojen avulla.",
+      feature3Desc:
+        "Jaa puhtaaksikirjoitukset tiimillesi välittömästi. Kuunnelkaa nauhoituksia yhdessä, vie puhtaaksikirjoitukset useissa muodoissa ja varmista, että kaikki pysyvät linjassa haettavien kokousarkistojen avulla.",
       feature3Benefit1: "Jaa puhtaaksikirjoitukset kenelle tahansa",
       feature3Benefit2: "Kuuntele alkuperäisiä äänitteitä",
       feature3Benefit3: "Vie tekstitykset useissa muodoissa",
@@ -2724,7 +2881,8 @@ let message = {
       feature3Visual1: "Tiimin Jäsenet",
       feature3Visual2: "Rajoittamaton yhteistyö",
       feature4Title: "Löydä Keskustelu Heti",
-      feature4Desc: "Hae kaikista kokouksistasi kerralla. Löydä viime neljänneksen ratkaiseva päätös tai kuukausia sitten esitetty asiakkaan vaatimus. Tekoälyavusteinen haku ymmärtää kontekstia, ei vain avainsanoja.",
+      feature4Desc:
+        "Hae kaikista kokouksistasi kerralla. Löydä viime neljänneksen ratkaiseva päätös tai kuukausia sitten esitetty asiakkaan vaatimus. Tekoälyavusteinen haku ymmärtää kontekstia, ei vain avainsanoja.",
       feature4Benefit1: "Hae kaikista kokouksista kerralla",
       feature4Benefit2: "Tekoäly ymmärtää kontekstia",
       feature4Benefit3: "Suodata puhujan tai päivämäärän mukaan",
@@ -2735,38 +2893,48 @@ let message = {
       feature4Meeting2: "Hallituksen Kokous - 20.10.",
       feature4Meeting2Text: '"...Q4 liikevaihtoennusteet..."',
       workflowTitle: "Kuinka Muunnat",
-      workflowSubtitle: "Saumaton työnkulku, joka tallentaa jokaisen tärkeän hetken",
+      workflowSubtitle:
+        "Saumaton työnkulku, joka tallentaa jokaisen tärkeän hetken",
       workflowStep1Title: "Nauhoita tai Lataa",
-      workflowStep1Desc: "Aloita suora nauhoitus tai lataa kokousäänite Zoomista, Google Meetistä tai Microsoft Teamsista",
+      workflowStep1Desc:
+        "Aloita suora nauhoitus tai lataa kokousäänite Zoomista, Google Meetistä tai Microsoft Teamsista",
       workflowStep2Title: "Automaattinen Tekstitys",
-      workflowStep2Desc: "Tekoälymme muuntaa äänitteen tekstiksi 96 % tarkkuudella minuuteissa",
+      workflowStep2Desc:
+        "Tekoälymme muuntaa äänitteen tekstiksi 96 % tarkkuudella minuuteissa",
       workflowStep3Title: "Tee Yhteistyötä",
       workflowStep3Desc: "Jaa, kommentoi ja poimi tehtävät",
       workflowStep4Title: "Hae & Analysoi",
       workflowStep4Desc: "Löydä oivalluksia kaikista kokouksistasi",
       testimonialsTitle: "Tiimit Rakastavat",
-      testimonialsSubtitle: "Katso, miten yritykset muuttavat kokouskulttuuriaan",
-      testimonial1Text: '"Siirryimme tärkeiden yksityiskohtien unohtamisesta kaikkien keskustelujen haettavaan arkistoon. Suora nauhoitus tarkoittaa, että emme koskaan unohda tallentaa tärkeitä keskusteluja."',
+      testimonialsSubtitle:
+        "Katso, miten yritykset muuttavat kokouskulttuuriaan",
+      testimonial1Text:
+        '"Siirryimme tärkeiden yksityiskohtien unohtamisesta kaikkien keskustelujen haettavaan arkistoon. Suora nauhoitus tarkoittaa, että emme koskaan unohda tallentaa tärkeitä keskusteluja."',
       testimonial1AuthorName: "James Kim",
       testimonial1AuthorRole: "Tuotepäällikkö, TechCorp",
-      testimonial2Text: '"Otter rajoitti meitä 10 tiedoston lataukseen kuukaudessa. Nyt lataamme kaikki asiakaspuhelumme heti. Mullistava muutos myyntitiimimme seurantaan."',
+      testimonial2Text:
+        '"Otter rajoitti meitä 10 tiedoston lataukseen kuukaudessa. Nyt lataamme kaikki asiakaspuhelumme heti. Mullistava muutos myyntitiimimme seurantaan."',
       testimonial2AuthorName: "Sarah Rodriguez",
       testimonial2AuthorRole: "Myyntipäällikkö, ConsultPro",
-      testimonial3Text: '"Mahdollisuus hakea kuukausien kokouksista pelasti meidän tilintarkastuksemme. Löysimme jokaisen päätöksen ja hyväksynnän sekunneissa."',
+      testimonial3Text:
+        '"Mahdollisuus hakea kuukausien kokouksista pelasti meidän tilintarkastuksemme. Löysimme jokaisen päätöksen ja hyväksynnän sekunneissa."',
       testimonial3AuthorName: "Mark Liu",
       testimonial3AuthorRole: "COO, FinanceHub",
       ctaTitle: "Lopeta Tärkeiden Keskustelujen Häviäminen",
-      ctaSubtitle: "Liity tuhansiin tiimeihin, jotka tallentavat jokaisen kokouksen rajoittamattomalla tekstityksellä",
+      ctaSubtitle:
+        "Liity tuhansiin tiimeihin, jotka tallentavat jokaisen kokouksen rajoittamattomalla tekstityksellä",
       ctaButton: "Aloita Nauhoitus Ilmaiseksi →",
       featuresTitle2: "Kokous",
       workflowTitle2: "Zoom-äänitteen Tekstiksi",
-      heroSubtitleA: "Tallenna kokoukset suoraan selaimeesi tai lataa äänitiedostoja välittömästi. Luo haettavia arkistoja rajattomasta määrästä keskusteluja. Älä koskaan enää menetä tärkeitä keskusteluja {NeverCapin} todella rajattoman transkription avulla."
+      heroSubtitleA:
+        "Tallenna kokoukset suoraan selaimeesi tai lataa äänitiedostoja välittömästi. Luo haettavia arkistoja rajattomasta määrästä keskusteluja. Älä koskaan enää menetä tärkeitä keskusteluja {NeverCapin} todella rajattoman transkription avulla."
     },
     Educators: {
       heroBadge: "Opettajille & Kouluttajille",
       heroTitle1: "Tee Oppimisesta",
       heroTitle2: "Kaikille Saatavilla",
-      heroSubtitle: "Liitä YouTube-linkit saadaksesi välittömät tekstitykset automaattisilla tekstityksillä. Muunna luennot, oppaat ja opetusvideot haettavaksi, kaikille opiskelijoille saatavilla olevaksi sisällöksi.",
+      heroSubtitle:
+        "Liitä YouTube-linkit saadaksesi välittömät tekstitykset automaattisilla tekstityksillä. Muunna luennot, oppaat ja opetusvideot haettavaksi, kaikille opiskelijoille saatavilla olevaksi sisällöksi.",
       heroCtaPrimary: "Ilmainen kokeilu - Ei Luottokorttia",
       heroCtaSecondary: "Katso Demo",
       stats1Number: "1-Napsautus",
@@ -2778,15 +2946,18 @@ let message = {
       stats4Number: "96%",
       stats4Label: "Tarkkuusaste",
       featuresTitle: "Kaikki mitä opettajat tarvitsevat",
-      featuresSubtitle: "YouTube-luentojen tallennettuihin oppitunteihin - tee kaikesta sisällöstäsi helposti saatavilla olevaa",
+      featuresSubtitle:
+        "YouTube-luentojen tallennettuihin oppitunteihin - tee kaikesta sisällöstäsi helposti saatavilla olevaa",
       feature1Title: "Pikaiset YouTube- ja alustalinkit",
-      feature1Desc: "Liitä minkä tahansa videon linkki ja saat tekstityksen heti. Toimii YouTuben, Vimeon, Facebookin, X:n (Twitter), TikTokin, Instagramin, Dropboxin, Google Driven ja muiden kanssa. Ei latauksia, ei odottamista.",
+      feature1Desc:
+        "Liitä minkä tahansa videon linkki ja saat tekstityksen heti. Toimii YouTuben, Vimeon, Facebookin, X:n (Twitter), TikTokin, Instagramin, Dropboxin, Google Driven ja muiden kanssa. Ei latauksia, ei odottamista.",
       feature1Point1: "Suora linkin tekstitys - ei latauksia tarvita",
       feature1Point2: "Tuki kaikille suurille alustoille",
       feature1Point3: "Käsittele kokonaisia soittolistoja kerralla",
       feature1Point4: "Toimii yksityisvideoilla (luvalla)",
       feature2Title: "Automaattiset tekstitykset ja alatekstit",
-      feature2Desc: "Luo tarkkoja tekstityksiä heti kaikille opetusvideoillesi. Tee sisällöstä saatavilla olevaa kuulovammaisille opiskelijoille, ei-äidinkielisille tai niille, jotka haluavat lukea mukaan.",
+      feature2Desc:
+        "Luo tarkkoja tekstityksiä heti kaikille opetusvideoillesi. Tee sisällöstä saatavilla olevaa kuulovammaisille opiskelijoille, ei-äidinkielisille tai niille, jotka haluavat lukea mukaan.",
       feature2Point1: "SRT, VTT ja TXT vientiformaatit",
       feature2Point2: "Sanatason aikaleimat täydellistä synkronointia varten",
       feature2Point3: "Muokkaa ja mukauta tekstityksiä helposti",
@@ -2794,7 +2965,8 @@ let message = {
       feature2Visual1: "Kielenkääntäminen",
       feature2Visual2: "Tee sisällöstäsi globaalisti saatavilla olevaa",
       feature3Title: "Järjestä kursseittain ja luokittain",
-      feature3Desc: "Luo kansioita järjestelläksesi tekstityksesi kurssin, aiheen tai lukukauden mukaan. Pidä kaikki opetussisältösi siististi luokiteltuna ja helposti haettavissa. Rakenna kattava saatavilla olevien kurssimateriaalien kirjasto.",
+      feature3Desc:
+        "Luo kansioita järjestelläksesi tekstityksesi kurssin, aiheen tai lukukauden mukaan. Pidä kaikki opetussisältösi siististi luokiteltuna ja helposti haettavissa. Rakenna kattava saatavilla olevien kurssimateriaalien kirjasto.",
       feature3Point1: "Luo rajoittamattomasti kansioita ja alikansioita",
       feature3Point2: "Merkitse videot aiheen tai vaikeustason mukaan",
       feature3Point3: "Järjestä useita tekstityksiä joukkona",
@@ -2806,66 +2978,85 @@ let message = {
       feature3Folder4: "Historiadokumentit",
       feature3Folder5: "Kieltenoppiminen",
       feature4Title: "AI - Äänitiedoston tekstitys opinto-oppaaksi",
-      feature4Desc: "Älä vain jaa tallenteita. Muunna luennot automaattisesti tekstiksi ja muut äänitiedostot yksityiskohtaisiksi opinto-oppaiksi, joissa on yhteenvedot ja keskeiset käsitteet tehokkaaseen opiskelijoiden kertaukseen. Vie TXT-, DOCX- tai PDF-muodoissa.",
+      feature4Desc:
+        "Älä vain jaa tallenteita. Muunna luennot automaattisesti tekstiksi ja muut äänitiedostot yksityiskohtaisiksi opinto-oppaiksi, joissa on yhteenvedot ja keskeiset käsitteet tehokkaaseen opiskelijoiden kertaukseen. Vie TXT-, DOCX- tai PDF-muodoissa.",
       feature4Point1: "TXT yksinkertaista tekstin muokkausta varten",
       feature4Point2: "DOCX muotoilluista asiakirjoista",
       feature4Point3: "PDF helposta jakamisesta ja tulostamisesta",
       feature4Point4: "Vie useita tiedostoja kerralla",
       workflowTitle: "Miten se toimii:",
-      workflowSubtitle: "Videolinkistä saatavilla olevaan tekstitykseen ja opintomateriaaleihin minuuteissa",
+      workflowSubtitle:
+        "Videolinkistä saatavilla olevaan tekstitykseen ja opintomateriaaleihin minuuteissa",
       workflowStep1Title: "Lataa luentosi",
-      workflowStep1Desc: "Lataa mikä tahansa ääni- tai videotiedosto (MP3, MP4, WAV) tai liitä YouTube-linkki",
+      workflowStep1Desc:
+        "Lataa mikä tahansa ääni- tai videotiedosto (MP3, MP4, WAV) tai liitä YouTube-linkki",
       workflowStep2Title: "AI-tekstitys",
-      workflowStep2Desc: "Tekoälymme tekstittää äänen, erottaa puhujat ja tunnistaa keskeiset aiheet",
+      workflowStep2Desc:
+        "Tekoälymme tekstittää äänen, erottaa puhujat ja tunnistaa keskeiset aiheet",
       workflowStep3Title: "Luo tekstitykset",
-      workflowStep3Desc: "Luo automaattisesti täydellisesti synkronoidut alatekstit",
+      workflowStep3Desc:
+        "Luo automaattisesti täydellisesti synkronoidut alatekstit",
       workflowStep4Title: "1. Vie Opintopolkuja",
-      workflowStep4Desc: "2. Lataa teksti, yhteenveto tai vie se luodaksesi lopullisen opinto-oppaan",
+      workflowStep4Desc:
+        "2. Lataa teksti, yhteenveto tai vie se luodaksesi lopullisen opinto-oppaan",
       useCasesTitle: "3. Täydellinen jokaiseen",
-      useCasesSubtitle: "5. Katso, kuinka opettajat käyttävät NeverCapia oppimisen tehostamiseen",
+      useCasesSubtitle:
+        "5. Katso, kuinka opettajat käyttävät NeverCapia oppimisen tehostamiseen",
       useCase1Title: "6. Nauhoitetut Luennot",
-      useCase1Text: "7. Muunna kokonaiset lukukaudet nauhoitettuja luentoja. Opiskelijat voivat etsiä tiettyjä aiheita, kerrata keskeisiä käsitteitä eivätkä koskaan jää paitsi tärkeästä tiedosta.",
+      useCase1Text:
+        "7. Muunna kokonaiset lukukaudet nauhoitettuja luentoja. Opiskelijat voivat etsiä tiettyjä aiheita, kerrata keskeisiä käsitteitä eivätkä koskaan jää paitsi tärkeästä tiedosta.",
       useCase2Title: "8. Verkkokurssit",
-      useCase2Text: "9. Tee verkkokurssistasi kansainvälisille opiskelijoille saatavilla yli 100 kielellä. Lisää osallistujamääriä ja tyytyväisyyttä.",
+      useCase2Text:
+        "9. Tee verkkokurssistasi kansainvälisille opiskelijoille saatavilla yli 100 kielellä. Lisää osallistujamääriä ja tyytyväisyyttä.",
       useCase3Title: "10. Opintomateriaalit",
-      useCase3Text: "11. Käytä tekoälyä muuntaaksesi äänitiedostot opinto-oppaiksi video-oppaista ja luennoista. Ihanteellista opiskelijoille, jotka pitävät lukemisesta tai tarvitsevat nopeasti kerrattavaa, haettavaa tekstiä.",
+      useCase3Text:
+        "11. Käytä tekoälyä muuntaaksesi äänitiedostot opinto-oppaiksi video-oppaista ja luennoista. Ihanteellista opiskelijoille, jotka pitävät lukemisesta tai tarvitsevat nopeasti kerrattavaa, haettavaa tekstiä.",
       useCase4Title: "12. Saavutettavuusvaatimukset",
       useCase4Text: "14. Käänteinen Luokkahuone",
-      useCase5Title: "15. Jaa videoluennoit tekstityksinä ennen tuntia. Opiskelijat voivat kerrata omalla tahdillaan ja tulla valmiina keskusteluihin.",
+      useCase5Title:
+        "15. Jaa videoluennoit tekstityksinä ennen tuntia. Opiskelijat voivat kerrata omalla tahdillaan ja tulla valmiina keskusteluihin.",
       useCase5Text: "16. Tutkimus & Lähdeviittaukset",
-      useCase6Title: "17. Auta opiskelijoita lainaamaan videolähteet tarkasti aikaleimoilla. Täydellinen tutkimusprojekteihin ja akateemisiin papereihin.",
+      useCase6Title:
+        "17. Auta opiskelijoita lainaamaan videolähteet tarkasti aikaleimoilla. Täydellinen tutkimusprojekteihin ja akateemisiin papereihin.",
       useCase6Text: "18. Luottavat",
       testimonialTitle: "19. 50 000+ Opettajaa",
-      testimonialSubtitle: '21. "Olen käyttänyt NeverCapia matematiikka-oppaani koko YouTube-kanavan tekstittämiseen. Mikä ennen kesti viikkoja muilla palveluilla, vie nyt tunteja. Linkkien suora liittäminen ja välittömät tekstitykset ovat muuttaneet saavutettavan sisällön luomistani. Kansainväliset opiskelijani rakastavat erityisesti monikielisiä tekstityksiä!"',
+      testimonialSubtitle:
+        '21. "Olen käyttänyt NeverCapia matematiikka-oppaani koko YouTube-kanavan tekstittämiseen. Mikä ennen kesti viikkoja muilla palveluilla, vie nyt tunteja. Linkkien suora liittäminen ja välittömät tekstitykset ovat muuttaneet saavutettavan sisällön luomistani. Kansainväliset opiskelijani rakastavat erityisesti monikielisiä tekstityksiä!"',
       testimonialAuthorName: "23. Matematiikan professori, verkkopedagogi",
-      testimonialAuthorRole: "24. Tee kaikesta koulutuksellisesta sisällöstäsi saavutettavaa",
-      ctaTitle: "25. Liity tuhansiin opettajiin, jotka käyttävät todella rajatonta tekstitystä",
+      testimonialAuthorRole:
+        "24. Tee kaikesta koulutuksellisesta sisällöstäsi saavutettavaa",
+      ctaTitle:
+        "25. Liity tuhansiin opettajiin, jotka käyttävät todella rajatonta tekstitystä",
       ctaSubtitle: "26. Kokeile NeverCapia Ilmaiseksi",
       ctaButton: "27. Ominaisuudet",
       featuresTitle2: "Videoiden tekstitykseen",
       grid: "Äänitiedosto opinto-oppaaksi",
       useCasesTitle2: "4. Koulutustarpeeseen",
-      testimonialTitle2: "20. Katso, miksi opettajat ympäri maailman valitsevat NeverCapin",
-      testimonialTextA: '"Olen käyttänyt {NeverCap}-palvelua koko YouTube-kanavani matematiikan tutoriaalien litterointiin. Se, mikä ennen kesti viikkoja muilla palveluilla, vie nyt tunteja. Mahdollisuus liittää linkkejä suoraan ja saada välittömät litteroinnit on mullistanut tapani luoda saavutettavaa sisältöä. Kansainväliset opiskelijani rakastavat erityisesti monikielisiä tekstityksiä!"'
+      testimonialTitle2:
+        "20. Katso, miksi opettajat ympäri maailman valitsevat NeverCapin",
+      testimonialTextA:
+        '"Olen käyttänyt {NeverCap}-palvelua koko YouTube-kanavani matematiikan tutoriaalien litterointiin. Se, mikä ennen kesti viikkoja muilla palveluilla, vie nyt tunteja. Mahdollisuus liittää linkkejä suoraan ja saada välittömät litteroinnit on mullistanut tapani luoda saavutettavaa sisältöä. Kansainväliset opiskelijani rakastavat erityisesti monikielisiä tekstityksiä!"'
     }
   },
   Resources: {
     YouTubeToMP4: {
       part1: {
-        "title": "Lataa YouTube-videot MP4-muodossa",
-        "placeholder": "Etsi tai liitä YouTube-linkkisi tähän",
-        "clear_icon": "Tyhjennä syöte",
-        "Download": "Lataa",
-        "loading_text": "Käsitellään linkkiä latausta varten. Pysy sivulla.",
-        "howToDownload": "Kuinka ladata?",
-        "tutorial": "Katso opetusvideo"
+        title: "Lataa YouTube-videot MP4-muodossa",
+        placeholder: "Etsi tai liitä YouTube-linkkisi tähän",
+        clear_icon: "Tyhjennä syöte",
+        Download: "Lataa",
+        loading_text: "Käsitellään linkkiä latausta varten. Pysy sivulla.",
+        howToDownload: "Kuinka ladata?",
+        tutorial: "Katso opetusvideo"
       },
       part2: {
-        "title": "Näin muutat YouTube-videon ladattavaksi MP4-tiedostoksi kolmessa helpossa vaiheessa",
-        "steps": [
+        title:
+          "Näin muutat YouTube-videon ladattavaksi MP4-tiedostoksi kolmessa helpossa vaiheessa",
+        steps: [
           {
             title: "Kopioi URL",
-            content: "Avaa haluamasi YouTube-video ja kopioi linkki selaimen osoitepalkista."
+            content:
+              "Avaa haluamasi YouTube-video ja kopioi linkki selaimen osoitepalkista."
           },
           {
             title: "Liitä linkki",
@@ -2873,7 +3064,8 @@ let message = {
           },
           {
             title: "Lataa MP4",
-            content: "Kun käsittely on valmis, napsauta latauspainiketta tallentaaksesi MP4-tiedostosi."
+            content:
+              "Kun käsittely on valmis, napsauta latauspainiketta tallentaaksesi MP4-tiedostosi."
           }
         ]
       },
@@ -2886,27 +3078,35 @@ let message = {
         ]
       },
       part4: {
-        content: ["Tässä 5 suurta hyötyä YouTube-videoiden", "lataamisesta MP4-tiedostoina"],
+        content: [
+          "Tässä 5 suurta hyötyä YouTube-videoiden",
+          "lataamisesta MP4-tiedostoina"
+        ],
         list: [
           {
             title: "Säästä datakuluissa:",
-            content: "YouTube-videoiden katselu kuluttaa normaalisti paljon mobiilidataa. Lataamalla ne offline-katselua varten voit välttää nämä tarpeettomat kustannukset."
+            content:
+              "YouTube-videoiden katselu kuluttaa normaalisti paljon mobiilidataa. Lataamalla ne offline-katselua varten voit välttää nämä tarpeettomat kustannukset."
           },
           {
             title: "Katso missä ja milloin tahansa:",
-            content: "Nauti videoistasi saumattomasti, vaikka internetyhteys olisi heikko. Ei enää puskurointiongelmia."
+            content:
+              "Nauti videoistasi saumattomasti, vaikka internetyhteys olisi heikko. Ei enää puskurointiongelmia."
           },
           {
             title: "Helppo arkistointi ja säilytys:",
-            content: "Videoiden tallentaminen MP4-muodossa helpottaa henkilökohtaisen kokoelmasi rakentamista, erityisesti arvokkaan tai tärkeän sisällön osalta."
+            content:
+              "Videoiden tallentaminen MP4-muodossa helpottaa henkilökohtaisen kokoelmasi rakentamista, erityisesti arvokkaan tai tärkeän sisällön osalta."
           },
           {
             title: "Yksinkertaisempi jakaminen:",
-            content: "MP4-tiedoston jakaminen on paljon helpompaa kuin linkin lähettäminen. Voit lähettää videotiedoston suoraan sovelluksien kuten WhatsAppin tai Instagramin kautta, välttäen YouTubeen siirtymisen."
+            content:
+              "MP4-tiedoston jakaminen on paljon helpompaa kuin linkin lähettäminen. Voit lähettää videotiedoston suoraan sovelluksien kuten WhatsAppin tai Instagramin kautta, välttäen YouTubeen siirtymisen."
           },
           {
             title: "Heti katsottavissa, jaettuja hetkiä:",
-            content: "Haluatko innostuneesti näyttää suosikkivideosi läheisille ystäville tai perheenjäsenille? Ladattuasi MP4:n voitte kaikki katsoa sen sujuvasti heti, ilman latauksen aiheuttamia kömpelöitä taukoja."
+            content:
+              "Haluatko innostuneesti näyttää suosikkivideosi läheisille ystäville tai perheenjäsenille? Ladattuasi MP4:n voitte kaikki katsoa sen sujuvasti heti, ilman latauksen aiheuttamia kömpelöitä taukoja."
           }
         ]
       },
@@ -2927,19 +3127,22 @@ let message = {
           },
           {
             title: "Ei mainoksia, ei häiriötekijöitä",
-            content: "Nauti puhtaalta käyttöliittymältä ilman ponnahdusikkunoita, bannereita tai keskeytyksiä – vain saumatonta videomuunnosta."
+            content:
+              "Nauti puhtaalta käyttöliittymältä ilman ponnahdusikkunoita, bannereita tai keskeytyksiä – vain saumatonta videomuunnosta."
           },
           {
             icon: "5",
             color: "#DEE5FF",
             title: "Alkuperäinen laatu taattu",
-            content: "Latauksesi säilyttävät lähdevideon täyden resoluution täydellistä toistoa varten joka kerta."
+            content:
+              "Latauksesi säilyttävät lähdevideon täyden resoluution täydellistä toistoa varten joka kerta."
           },
           {
             icon: "6",
             color: "#DEF6EE",
             title: "Toimii kaikkialla",
-            content: "Täysin yhteensopiva kaikkien selaimien ja laitteiden kanssa."
+            content:
+              "Täysin yhteensopiva kaikkien selaimien ja laitteiden kanssa."
           }
         ]
       },
@@ -2956,310 +3159,422 @@ let message = {
         title: "Keskeisiä kysymyksiä YouTube-videoiden lataamisesta",
         list: [
           {
-            question: "Voinko ladata YouTube-videon, jos se on tekijänoikeussuojattu?",
-            answer: "Tekijänoikeussuojattujen YouTube-videoiden lataaminen ilman tekijänoikeuden omistajan lupaa on laitonta."
+            question:
+              "Voinko ladata YouTube-videon, jos se on tekijänoikeussuojattu?",
+            answer:
+              "Tekijänoikeussuojattujen YouTube-videoiden lataaminen ilman tekijänoikeuden omistajan lupaa on laitonta."
           },
           {
             question: "Onko tämä lataustyökalu turvallinen?",
-            answer: "Kyllä, se on turvallinen ja luotettava. Emme vaadi käyttäjiltä henkilökohtaisia tietoja ja otamme vahvat toimet viruksia vastaan. Muistutamme, että tulee aina olla varovainen ladatessaan tiedostoja internetistä: välttä epäilyttäviä linkkejä ja tiedostoja."
+            answer:
+              "Kyllä, se on turvallinen ja luotettava. Emme vaadi käyttäjiltä henkilökohtaisia tietoja ja otamme vahvat toimet viruksia vastaan. Muistutamme, että tulee aina olla varovainen ladatessaan tiedostoja internetistä: välttä epäilyttäviä linkkejä ja tiedostoja."
           },
           {
             question: "Mitä kieliä YouTube MP4-lataus tukee?",
-            answer: "Palvelumme tukee YouTube-videoiden lataamista kaikilla suosituilla kielillä."
+            answer:
+              "Palvelumme tukee YouTube-videoiden lataamista kaikilla suosituilla kielillä."
           },
           {
             question: "Mitkä tekijät vaikuttavat YouTube-videon latausaikaan?",
-            answer: "Vaikka takaamme mahdollisimman nopean latauskokemuksen, latausaikaan vaikuttavat myös tekijät kuten videon pituus ja internet-yhteytesi nopeus."
+            answer:
+              "Vaikka takaamme mahdollisimman nopean latauskokemuksen, latausaikaan vaikuttavat myös tekijät kuten videon pituus ja internet-yhteytesi nopeus."
           },
           {
-            question: "Minne MP4-video tallentuu, kun lataan sen älypuhelimella?",
-            answer: 'Ladattuaan MP4-tiedoston älypuhelimeen, löydät sen yleensä laitteesi tiedostonhallintaohjelman "Lataukset"-kansiosta.'
+            question:
+              "Minne MP4-video tallentuu, kun lataan sen älypuhelimella?",
+            answer:
+              'Ladattuaan MP4-tiedoston älypuhelimeen, löydät sen yleensä laitteesi tiedostonhallintaohjelman "Lataukset"-kansiosta.'
           },
           {
-            question: "Heikentääkö YouTube-videon lataaminen MP4-muotona videon laatua?",
-            answer: "Ei. YouTube-videoiden lataaminen MP4-muotona käyttäen työkaluamme säilyttää alkuperäisen videon laadun. Muunnosprosessi säilyttää lähdelaadun, joten saat saman katselukokemuksen kuin YouTubessa."
+            question:
+              "Heikentääkö YouTube-videon lataaminen MP4-muotona videon laatua?",
+            answer:
+              "Ei. YouTube-videoiden lataaminen MP4-muotona käyttäen työkaluamme säilyttää alkuperäisen videon laadun. Muunnosprosessi säilyttää lähdelaadun, joten saat saman katselukokemuksen kuin YouTubessa."
           }
         ]
       },
       err1: "YouTube-linkin muotoiluvauri.",
       err2: "Valitettavasti! Toimimme tällä hetkellä vain YouTube-linkkien kanssa. Jos tarvitset tukea muille sivustoille, pidämme sinut ajan tasalla, kun lisäämme sen tulevaisuudessa.",
       videoDownload: {
-        title: "Lataa YouTube-videoita MP4-muodossa. Ilmaista, nopeaa ja ilman mainoksia.",
-        description: "Kiitos, että valitsit palvelumme! Arvostamme luottamustasi ja toivomme, että se paransi kokemustasi. Jos voisit jakaa verkkosivustomme ystäviesi kanssa, se olisi suuri apu.",
+        title:
+          "Lataa YouTube-videoita MP4-muodossa. Ilmaista, nopeaa ja ilman mainoksia.",
+        description:
+          "Kiitos, että valitsit palvelumme! Arvostamme luottamustasi ja toivomme, että se paransi kokemustasi. Jos voisit jakaa verkkosivustomme ystäviesi kanssa, se olisi suuri apu.",
         downloadButton: "Lataa",
         downloadError: "Latausvirhe.",
-          TranscribeButton: 'Litteroi'
-    },
-        freeResources: {
-              "linkTitle": "Powered by {NeverCap}",
-              "linkTitle2": "- Todella rajaton tekoälyn transkriptio",
-              "title": "Ilmaisia ​​resursseja",
-              "steps": [
-                {
-                  "title": "Ilmainen ääni ja video",
-                  "content": "Muunna ääni- ja videotiedostot tekstiksi sekunneissa. 3 ilmaista transkriptiota joka päivä."
-                },
-                {
-                  "title": "Muunna äänitiedostot tekstiksi",
-                  "content": "Lataa MP3-, MP4-, WAV- ja MOV-tiedostoja.",
-                  "content2": "Lataa DOCX-, TXT- ja SRT-tiedostot (tekstitykset)."
-                },
-                {
-                  "title": "Litteroi YouTube-videoita",
-                  "content": "Muunna YouTube-videot tarkkaan tekstiin tai tekstityksiin. Liitä vain YouTube-linkki."
-                }
-              ],
-            stepsNew: [
-                  {
-                    "title": "Ilmainen äänen ja videon transkriptio",
-                    "content": "Muunna ääni- ja videotiedostot tekstiksi sekunneissa. 3 ilmaista transkriptiota joka päivä."
-                  },
-                  {
-                    "title": "Muunna äänitiedostot tekstiksi",
-                    "content": "Lataa MP3-, MP4-, WAV- ja MOV-tiedostoja.",
-                    "content2": "Lataa DOCX-, TXT- ja SRT-tiedostot (tekstitykset)."
-                  },
-                  {
-                    "title": "Litteroi YouTube-videoita",
-                    "content": "Muunna YouTube-videot tarkkaan tekstiin tai tekstityksiin. Liitä vain YouTube-linkki."
-                  }
-                ]
-        }
+        TranscribeButton: "Litteroi"
+      },
+      freeResources: {
+        linkTitle: "Powered by {NeverCap}",
+        linkTitle2: "- Todella rajaton tekoälyn transkriptio",
+        title: "Ilmaisia ​​resursseja",
+        steps: [
+          {
+            title: "Ilmainen ääni ja video",
+            content:
+              "Muunna ääni- ja videotiedostot tekstiksi sekunneissa. 3 ilmaista transkriptiota joka päivä."
+          },
+          {
+            title: "Muunna äänitiedostot tekstiksi",
+            content: "Lataa MP3-, MP4-, WAV- ja MOV-tiedostoja.",
+            content2: "Lataa DOCX-, TXT- ja SRT-tiedostot (tekstitykset)."
+          },
+          {
+            title: "Litteroi YouTube-videoita",
+            content:
+              "Muunna YouTube-videot tarkkaan tekstiin tai tekstityksiin. Liitä vain YouTube-linkki."
+          }
+        ],
+        stepsNew: [
+          {
+            title: "Ilmainen äänen ja videon transkriptio",
+            content:
+              "Muunna ääni- ja videotiedostot tekstiksi sekunneissa. 3 ilmaista transkriptiota joka päivä."
+          },
+          {
+            title: "Muunna äänitiedostot tekstiksi",
+            content: "Lataa MP3-, MP4-, WAV- ja MOV-tiedostoja.",
+            content2: "Lataa DOCX-, TXT- ja SRT-tiedostot (tekstitykset)."
+          },
+          {
+            title: "Litteroi YouTube-videoita",
+            content:
+              "Muunna YouTube-videot tarkkaan tekstiin tai tekstityksiin. Liitä vain YouTube-linkki."
+          }
+        ]
+      }
     }
   },
   About: {
     Hero: {
-      "badge": "Alaa johtava tekoälytekniikka",
-      "title": "Tietoja",
-      "description": "Tehtävämme on tarjota tarkimmat ääni- ja videotekstityspalvelut. Hyödyntämällä alaa johtavaa tekoälytekniikkaa saavutamme yli 96 % tarkkuuden tekstityksissä. Joillakin suurilla kielillä teknisten optimointien ansiosta tarkkuus voi olla jopa 99 %."
+      badge: "Alaa johtava tekoälytekniikka",
+      title: "Tietoja",
+      description:
+        "Tehtävämme on tarjota tarkimmat ääni- ja videotekstityspalvelut. Hyödyntämällä alaa johtavaa tekoälytekniikkaa saavutamme yli 96 % tarkkuuden tekstityksissä. Joillakin suurilla kielillä teknisten optimointien ansiosta tarkkuus voi olla jopa 99 %."
     },
     Stats: {
-      "title": "Meidän",
-      "highlighted_text": "Vaikutus",
-      "subtitle": "Edistetään globaalia viestintää huipputeknologialla",
-      "metrics": [
+      title: "Meidän",
+      highlighted_text: "Vaikutus",
+      subtitle: "Edistetään globaalia viestintää huipputeknologialla",
+      metrics: [
         {
-          "value": "96 %+",
-          "label": "Tarkkuusaste",
-          "description": "Alaa johtava tekstitystarkkuus kehittyneellä tekoälyllä"
+          value: "96 %+",
+          label: "Tarkkuusaste",
+          description: "Alaa johtava tekstitystarkkuus kehittyneellä tekoälyllä"
         },
         {
-          "value": "100+",
-          "label": "Tuetut kielet",
-          "description": "Puheentunnistus globaalille sisällölle"
+          value: "100+",
+          label: "Tuetut kielet",
+          description: "Puheentunnistus globaalille sisällölle"
         },
         {
-          "value": "249+",
-          "label": "Käännöskielet",
-          "description": "Käännä tekstitys melkein mihin tahansa kieleen"
+          value: "249+",
+          label: "Käännöskielet",
+          description: "Käännä tekstitys melkein mihin tahansa kieleen"
         }
       ]
     },
     Mission: {
-      "title": "Miksi valita",
-      "subtitle": "Uskomme kielirajojen murtamiseen ja sisällön saavutettavuuteen kaikille",
-      "features": [
+      title: "Miksi valita",
+      subtitle:
+        "Uskomme kielirajojen murtamiseen ja sisällön saavutettavuuteen kaikille",
+      features: [
         {
-          "icon": "🎯",
-          "title": "Vertaansa vailla oleva tarkkuus",
-          "description": "Tekoälymallimme kehittyvät jatkuvasti tarjoten yli 96 % tekstitystarkkuuden, ja joillakin suurilla kielillä kehittyneen optimoinnin ansiosta jopa 99 % tarkkuuden."
+          icon: "🎯",
+          title: "Vertaansa vailla oleva tarkkuus",
+          description:
+            "Tekoälymallimme kehittyvät jatkuvasti tarjoten yli 96 % tekstitystarkkuuden, ja joillakin suurilla kielillä kehittyneen optimoinnin ansiosta jopa 99 % tarkkuuden."
         },
         {
-          "icon": "🌍",
-          "title": "Globaali kielituki",
-          "description": "Yli 100 kielen puheentunnistus ja yli 249 kielen käännöstoiminnot tekevät sisällöstäsi todella globaalin."
+          icon: "🌍",
+          title: "Globaali kielituki",
+          description:
+            "Yli 100 kielen puheentunnistus ja yli 249 kielen käännöstoiminnot tekevät sisällöstäsi todella globaalin."
         },
         {
-          "icon": "⚡",
-          "title": "Salamannopea käsittely",
-          "description": "Käsittele tuntien pituinen ääni- ja videosisältö minuuteissa. Optimoitu tekoälyputki varmistaa nopeat tekstitykset laadun kustannuksella."
+          icon: "⚡",
+          title: "Salamannopea käsittely",
+          description:
+            "Käsittele tuntien pituinen ääni- ja videosisältö minuuteissa. Optimoitu tekoälyputki varmistaa nopeat tekstitykset laadun kustannuksella."
         },
         {
-          "icon": "🔒",
-          "title": "Yritystason turvallisuus",
-          "description": "Tietoturvasi on prioriteettimme. Käytämme alan standardeja noudattavaa salausmenetelmää ja noudatamme globaaleja tietosuoja-asetuksia pitääksemme sisältösi turvassa ja luottamuksellisena."
+          icon: "🔒",
+          title: "Yritystason turvallisuus",
+          description:
+            "Tietoturvasi on prioriteettimme. Käytämme alan standardeja noudattavaa salausmenetelmää ja noudatamme globaaleja tietosuoja-asetuksia pitääksemme sisältösi turvassa ja luottamuksellisena."
         }
       ]
     },
     Company: {
-      "title": "Yrityksen",
-      "highlighted_text": "Tiedot",
-      "subtitle": "Ota yhteyttä kaikissa kysymyksissä tai tukipyynnöissä",
-      "details": [
+      title: "Yrityksen",
+      highlighted_text: "Tiedot",
+      subtitle: "Ota yhteyttä kaikissa kysymyksissä tai tukipyynnöissä",
+      details: [
         {
-          "label": "Yrityksen nimi",
-          "value": "SCRIBIFY AI INC"
+          label: "Yrityksen nimi",
+          value: "SCRIBIFY AI INC"
         },
         {
-          "label": "Pääkonttori",
-          "value": ["30 N Gould St Ste R", "Sheridan, WY 82801", "Yhdysvallat"]
+          label: "Pääkonttori",
+          value: ["30 N Gould St Ste R", "Sheridan, WY 82801", "Yhdysvallat"]
         },
         {
-          "label": "Ota yhteyttä",
-          "value": ["Sähköposti", "Tuki saatavilla 24/7"]
+          label: "Ota yhteyttä",
+          value: ["Sähköposti", "Tuki saatavilla 24/7"]
         }
       ]
     },
     CTA: {
-      "title": "Valmiina kokeilemaan eroa?",
-      "subtitle": "Liity tuhansien ammattilaisten joukkoon, jotka luottavat NeverCapiin tekstitystarpeissaan",
-      "button": "Kokeile NeverCapia ilmaiseksi →",
-      "disclaimer": "Luottokorttia ei vaadita • Aloita tekstitys sekunneissa"
+      title: "Valmiina kokeilemaan eroa?",
+      subtitle:
+        "Liity tuhansien ammattilaisten joukkoon, jotka luottavat NeverCapiin tekstitystarpeissaan",
+      button: "Kokeile NeverCapia ilmaiseksi →",
+      disclaimer: "Luottokorttia ei vaadita • Aloita tekstitys sekunneissa"
     }
   },
   Privacy: {
     title: "Tietosuoja",
     titleGradient: "Käytäntö",
     subtitle: "Opi, miten keräämme, käytämme ja suojelemme henkilötietojasi",
-    "lastUpdated": "Viimeksi päivitetty: {date}",
-    "lastUpdatedDate": "21. heinäkuuta 2025",
-    "privacyPolicyTitle": "Tietosuojakäytäntö",
-    "policyAgreement": "Lue tämä tietosuojakäytäntö huolellisesti ja varmista, että ymmärrät sen. Käyttämällä mitä tahansa Palveluitamme hyväksyt tämän tietosuojakäytännön. Jos et hyväksy henkilötietojesi käyttöä tämän käytännön mukaisesti, sinun on lopetettava Palveluidemme käyttö välittömästi.",
-    "policyOverview": "Tässä käytännössä kerromme: mitä tietoja keräämme ja miksi; miten tietojasi käsitellään; ja oikeutesi tietoihisi. Emme myy tietojasi.",
-    "scopeTitle": "1. Tietosuojakäytännön soveltamisala",
-    "scopeDescription": "Tämä tietosuojakäytäntö koskee vain Palveluiden käyttäjien tietojen keräämistä ja käsittelyä. Tämä tietosuojakäytäntö ei koske kolmansien osapuolten toimittamia linkitettyjä palveluja, verkkosivuja tai ohjelmistoja (oli linkit meidän tai muiden käyttäjien jakamia) eikä kolmansien osapuolten sisältöä, tietoja, sovelluksia tai materiaaleja. Suosittelemme tarkistamaan kolmannen osapuolen verkkosivuston tai ohjelmiston tietosuojakäytännöt ennen tietojen antamista niille.",
-    "collectionTitle": "2. Mitä keräämme ja miksi",
-    "collectionPrinciple": "Ohjeena on kerätä vain tarvitsemamme tiedot. Käytännössä tämä tarkoittaa seuraavaa:",
-    "identityTitle": "2.1 Henkilöllisyys ja pääsy",
-    "identityDescription": "Kun rekisteröidyt johonkin tuotteistamme, pyydämme henkilöyttäviä tietoja, kuten nimeäsi ja sähköpostiosoitetta. Tämä on tarpeen tuotteen perustoimintojen tarjoamiseksi ja jotta voimme lähettää sinulle tuotepäivityksiä ja muuta oleellista tietoa.",
-    "billingTitle": "2.2 Laskutustiedot",
-    "billingDescription": "Jos rekisteröidyt maksulliseen tuotteeseen, sinua pyydetään antamaan maksutietosi ja laskutusosoitteesi. Maksutiedot lähetetään suoraan maksunvälittäjällemme eivätkä koskaan saavu palvelimillemme.",
-    "productInteractionsTitle": "2.3 Tuotteen käyttö",
-    "productInteractionsDescription": "Tallennamme palvelimillemme sisällön, jonka lataat, vastaanotat tai säilytät tuotetileissäsi. Ellei sisältöä poisteta, säilytämme sitä niin kauan kuin tilisi on aktiivinen.",
-    "websiteInteractionsTitle": "2.4 Verkkosivuston käyttö",
-    "websiteInteractionsDescription": "Keräämme tietoa selausaktiviteetistasi analytiikkaa ja tilastoja varten, kuten konversiotestaukseen ja uusien tuotesuunnitelmien kokeiluun. Tämä sisältää esimerkiksi selain- ja käyttöjärjestelmäversiosi, IP-osoitteesi, vierailemasi verkkosivut ja niiden latausajat sekä verkkosivuston, jolta tulit meille. Jos sinulla on tili ja olet kirjautunut sisään, nämä verkkoseurantatiedot liitetään IP-osoitteeseesi ja käyttäjätiliisi, kunnes tilisi ei ole enää aktiivinen.",
-    "cookiesTitle": "2.5 Evästeet",
-    "cookiesDescription1": "Käytämme myös pysyviä ensimmäisen osapuolen evästeitä ja joitain kolmannen osapuolen evästeitä tiettyjen asetusten tallentamiseen, sovellustemme helpottamiseen sekä A/B-testaukseen ja analytiikan tukemiseen.",
-    "cookiesDescription2": "Eväste on selaimesi tallentama tekstinpätkä. Se voi auttaa muistamaan kirjautumistiedot ja sivuston asetukset. Se voi myös kerätä tietoa, kuten selaintyyppisi, käyttöjärjestelmäsi, vierailemasi sivut, vierailun keston, katselusi sisällön ja muuta napsautusdataa. Voit säätää evästeiden säilytysasetuksia ja hyväksyä tai estää yksittäisiä evästeitä selaimen asetuksissasi, vaikka sovelluksemme eivät toimi ja muut palvelumme osa-alueet eivät välttämättä toimi kunnolla, jos evästeet on kytketty pois päältä.",
-    "correspondenceTitle": "2.6 Vapaaehtoinen kirjeenvaihto",
-    "correspondenceDescription": "Kun lähetät meille sähköpostia kysymyksen tai avunpyynnön kanssa, säilytämme tämän kirjeenvaihdon, mukaan lukien sähköpostiosoitteesi, jotta meillä on historia aiemmasta kirjeenvaihdosta, johon viitata, jos otat yhteyttä tulevaisuudessa.",
-    "accessTitle": "3. Milloin käytämme tai jaamme tietojasi",
-    "accessDescription1": "Tarjotaksemme pyytämiäsi tuotteita tai palveluita. Käytämme joitain kolmannen osapuolen alihankkijoita sovellustemme pyörittämiseen ja Palvelujen tarjoamiseen sinulle. Tämä sisältää pilvi- ja analytiikkapalveluntarjoajat.",
-    "accessDescription2": "Väärinkäytösten tutkimiseen, estämiseen tai toimenpiteisiin. Asiakastilin käyttö väärinkäytön tutkimisen yhteydessä on viimeinen keino. Haluamme suojata sekä asiakkaidemme että meille ongelmista raportoivien henkilöiden yksityisyyttä ja turvallisuutta, ja teemme parhaamme vastuiden tasapainottamiseksi koko prosessin ajan. Jos huomaamme, että käytät tuotteitamme kielletyllä tavalla, ryhdymme tarvittaviin toimenpiteisiin, mukaan lukien asianomaisten viranomaisten ilmoittaminen tarvittaessa.",
-    "accessDescription3": "Kun sovellettava laki niin vaatii.",
-    "dataRequests": "Käyttäjätietopyynnöt. Käytäntömme on olla vastaamatta viranomaisten käyttäjätietopyyntöihin, ellemme ole oikeudenkäynnin pakottamia tai poikkeustapauksissa hätäpyynnön yhteydessä. Jos Yhdysvaltain lainvalvontaviranomaisilla on tarvittava etsintälupa, rikoskuulutus tai tuomioistuimen määräys, joka edellyttää tietojen jakamista, meidän on kuitenkin noudatettava. Vastaamme myös vain Yhdysvaltain ulkopuolisten viranomaisten pyyntöihin, jos Yhdysvaltain hallitus pakottaa meidät keskinäisen oikeusavun sopimuksen tai sopimuksen mukaisin menettelyin. Käytäntömme on ilmoittaa vaikutuksista käyttäjille ennen tietojen jakamista, ellemme ole laillisesti estettyjä tekemästä niin, lukuun ottamatta joitain hätätapauksia.",
-    "preservationRequests": "Tietojen säilytyspyynnöt. Vastaavasti noudatamme tietojen säilytyspyyntöjä vain, jos Yhdysvaltain liittovaltion tallennettujen viestien laki, 18 U.S.C. § 2703(f), tai asianmukaisesti toimitettu Yhdysvaltain siviiliasioiden kuulutus pakottaa meidät siihen. Emme jaa säilytettyjä tietoja, ellei laki niin edellytä tai tuomioistuimen määräys, jota emme halua valittaa, pakota meitä siihen. Lisäksi, ellemme saa asianmukaista etsintälupaa, tuomioistuimen määräystä tai kuulutusta ennen säilytysajan päättymistä, tuhomme säilytysajan lopussa kaikki säilytetyt asiakastietojen kopiot.",
-    "taxAudits": "Jos veroviranomainen tarkastaa meitä, saatamme joutua jakamaan laskutukseen liittyviä tietoja. Tällöin jaamme vain vähimmäismäärän tarvittavia tietoja, kuten laskutusosoitteita ja verovapautustietoja.",
-    "securityTitle": "4. Miten suojaamme tietojasi",
-    "securityDescription": "Kaikki tiedot salataan SSL/TLS:llä siirrettäessä palvelimilta selaimellesi.",
-    "deletionTitle": "5. Mitä tapahtuu, kun poistat sisältöä",
-    "deletionDescription": "Jos poistat sisältöä, siihen ei pääse enää heti käsiksi.",
-    "locationTitle": "6. Sivuston ja tietojen sijainti",
-    "locationDescription": "Tuotteemme ja muut verkkosivustomme toimivat Yhdysvalloissa. Jos sijaitsee Euroopan unionissa, Britanniassa tai muualla Yhdysvaltojen ulkopuolella, huomaa, että kaikki meille antamasi tiedot siirretään ja tallennetaan Yhdysvaltoihin. Käyttämällä verkkosivustoja tai Palveluitamme ja/tai antamalla meille henkilötietojasi suostut tähän siirtoon.",
-    "childrenTitle": "7. Lasten tietosuoja",
-    "updatesTitle": "8. Tietosuojakäytännön päivitykset",
-    "updatesDescription": "Voimme päivittää tätä käytäntöä tarpeen mukaan noudattaaksemme asianomaisia säännöksiä ja heijastaaksemme uusia käytäntöjä. Aina kun teemme merkittäviä muutoksia käytäntöihimme, päivitämme tämän sivun yläosassa olevan päivämäärän.",
-    "contactTitle": "9. Ota yhteyttä",
-    "websiteUrl": "https://www.nevercap.ai/",
+    lastUpdated: "Viimeksi päivitetty: {date}",
+    lastUpdatedDate: "21. heinäkuuta 2025",
+    privacyPolicyTitle: "Tietosuojakäytäntö",
+    policyAgreement:
+      "Lue tämä tietosuojakäytäntö huolellisesti ja varmista, että ymmärrät sen. Käyttämällä mitä tahansa Palveluitamme hyväksyt tämän tietosuojakäytännön. Jos et hyväksy henkilötietojesi käyttöä tämän käytännön mukaisesti, sinun on lopetettava Palveluidemme käyttö välittömästi.",
+    policyOverview:
+      "Tässä käytännössä kerromme: mitä tietoja keräämme ja miksi; miten tietojasi käsitellään; ja oikeutesi tietoihisi. Emme myy tietojasi.",
+    scopeTitle: "1. Tietosuojakäytännön soveltamisala",
+    scopeDescription:
+      "Tämä tietosuojakäytäntö koskee vain Palveluiden käyttäjien tietojen keräämistä ja käsittelyä. Tämä tietosuojakäytäntö ei koske kolmansien osapuolten toimittamia linkitettyjä palveluja, verkkosivuja tai ohjelmistoja (oli linkit meidän tai muiden käyttäjien jakamia) eikä kolmansien osapuolten sisältöä, tietoja, sovelluksia tai materiaaleja. Suosittelemme tarkistamaan kolmannen osapuolen verkkosivuston tai ohjelmiston tietosuojakäytännöt ennen tietojen antamista niille.",
+    collectionTitle: "2. Mitä keräämme ja miksi",
+    collectionPrinciple:
+      "Ohjeena on kerätä vain tarvitsemamme tiedot. Käytännössä tämä tarkoittaa seuraavaa:",
+    identityTitle: "2.1 Henkilöllisyys ja pääsy",
+    identityDescription:
+      "Kun rekisteröidyt johonkin tuotteistamme, pyydämme henkilöyttäviä tietoja, kuten nimeäsi ja sähköpostiosoitetta. Tämä on tarpeen tuotteen perustoimintojen tarjoamiseksi ja jotta voimme lähettää sinulle tuotepäivityksiä ja muuta oleellista tietoa.",
+    billingTitle: "2.2 Laskutustiedot",
+    billingDescription:
+      "Jos rekisteröidyt maksulliseen tuotteeseen, sinua pyydetään antamaan maksutietosi ja laskutusosoitteesi. Maksutiedot lähetetään suoraan maksunvälittäjällemme eivätkä koskaan saavu palvelimillemme.",
+    productInteractionsTitle: "2.3 Tuotteen käyttö",
+    productInteractionsDescription:
+      "Tallennamme palvelimillemme sisällön, jonka lataat, vastaanotat tai säilytät tuotetileissäsi. Ellei sisältöä poisteta, säilytämme sitä niin kauan kuin tilisi on aktiivinen.",
+    websiteInteractionsTitle: "2.4 Verkkosivuston käyttö",
+    websiteInteractionsDescription:
+      "Keräämme tietoa selausaktiviteetistasi analytiikkaa ja tilastoja varten, kuten konversiotestaukseen ja uusien tuotesuunnitelmien kokeiluun. Tämä sisältää esimerkiksi selain- ja käyttöjärjestelmäversiosi, IP-osoitteesi, vierailemasi verkkosivut ja niiden latausajat sekä verkkosivuston, jolta tulit meille. Jos sinulla on tili ja olet kirjautunut sisään, nämä verkkoseurantatiedot liitetään IP-osoitteeseesi ja käyttäjätiliisi, kunnes tilisi ei ole enää aktiivinen.",
+    cookiesTitle: "2.5 Evästeet",
+    cookiesDescription1:
+      "Käytämme myös pysyviä ensimmäisen osapuolen evästeitä ja joitain kolmannen osapuolen evästeitä tiettyjen asetusten tallentamiseen, sovellustemme helpottamiseen sekä A/B-testaukseen ja analytiikan tukemiseen.",
+    cookiesDescription2:
+      "Eväste on selaimesi tallentama tekstinpätkä. Se voi auttaa muistamaan kirjautumistiedot ja sivuston asetukset. Se voi myös kerätä tietoa, kuten selaintyyppisi, käyttöjärjestelmäsi, vierailemasi sivut, vierailun keston, katselusi sisällön ja muuta napsautusdataa. Voit säätää evästeiden säilytysasetuksia ja hyväksyä tai estää yksittäisiä evästeitä selaimen asetuksissasi, vaikka sovelluksemme eivät toimi ja muut palvelumme osa-alueet eivät välttämättä toimi kunnolla, jos evästeet on kytketty pois päältä.",
+    correspondenceTitle: "2.6 Vapaaehtoinen kirjeenvaihto",
+    correspondenceDescription:
+      "Kun lähetät meille sähköpostia kysymyksen tai avunpyynnön kanssa, säilytämme tämän kirjeenvaihdon, mukaan lukien sähköpostiosoitteesi, jotta meillä on historia aiemmasta kirjeenvaihdosta, johon viitata, jos otat yhteyttä tulevaisuudessa.",
+    accessTitle: "3. Milloin käytämme tai jaamme tietojasi",
+    accessDescription1:
+      "Tarjotaksemme pyytämiäsi tuotteita tai palveluita. Käytämme joitain kolmannen osapuolen alihankkijoita sovellustemme pyörittämiseen ja Palvelujen tarjoamiseen sinulle. Tämä sisältää pilvi- ja analytiikkapalveluntarjoajat.",
+    accessDescription2:
+      "Väärinkäytösten tutkimiseen, estämiseen tai toimenpiteisiin. Asiakastilin käyttö väärinkäytön tutkimisen yhteydessä on viimeinen keino. Haluamme suojata sekä asiakkaidemme että meille ongelmista raportoivien henkilöiden yksityisyyttä ja turvallisuutta, ja teemme parhaamme vastuiden tasapainottamiseksi koko prosessin ajan. Jos huomaamme, että käytät tuotteitamme kielletyllä tavalla, ryhdymme tarvittaviin toimenpiteisiin, mukaan lukien asianomaisten viranomaisten ilmoittaminen tarvittaessa.",
+    accessDescription3: "Kun sovellettava laki niin vaatii.",
+    dataRequests:
+      "Käyttäjätietopyynnöt. Käytäntömme on olla vastaamatta viranomaisten käyttäjätietopyyntöihin, ellemme ole oikeudenkäynnin pakottamia tai poikkeustapauksissa hätäpyynnön yhteydessä. Jos Yhdysvaltain lainvalvontaviranomaisilla on tarvittava etsintälupa, rikoskuulutus tai tuomioistuimen määräys, joka edellyttää tietojen jakamista, meidän on kuitenkin noudatettava. Vastaamme myös vain Yhdysvaltain ulkopuolisten viranomaisten pyyntöihin, jos Yhdysvaltain hallitus pakottaa meidät keskinäisen oikeusavun sopimuksen tai sopimuksen mukaisin menettelyin. Käytäntömme on ilmoittaa vaikutuksista käyttäjille ennen tietojen jakamista, ellemme ole laillisesti estettyjä tekemästä niin, lukuun ottamatta joitain hätätapauksia.",
+    preservationRequests:
+      "Tietojen säilytyspyynnöt. Vastaavasti noudatamme tietojen säilytyspyyntöjä vain, jos Yhdysvaltain liittovaltion tallennettujen viestien laki, 18 U.S.C. § 2703(f), tai asianmukaisesti toimitettu Yhdysvaltain siviiliasioiden kuulutus pakottaa meidät siihen. Emme jaa säilytettyjä tietoja, ellei laki niin edellytä tai tuomioistuimen määräys, jota emme halua valittaa, pakota meitä siihen. Lisäksi, ellemme saa asianmukaista etsintälupaa, tuomioistuimen määräystä tai kuulutusta ennen säilytysajan päättymistä, tuhomme säilytysajan lopussa kaikki säilytetyt asiakastietojen kopiot.",
+    taxAudits:
+      "Jos veroviranomainen tarkastaa meitä, saatamme joutua jakamaan laskutukseen liittyviä tietoja. Tällöin jaamme vain vähimmäismäärän tarvittavia tietoja, kuten laskutusosoitteita ja verovapautustietoja.",
+    securityTitle: "4. Miten suojaamme tietojasi",
+    securityDescription:
+      "Kaikki tiedot salataan SSL/TLS:llä siirrettäessä palvelimilta selaimellesi.",
+    deletionTitle: "5. Mitä tapahtuu, kun poistat sisältöä",
+    deletionDescription:
+      "Jos poistat sisältöä, siihen ei pääse enää heti käsiksi.",
+    locationTitle: "6. Sivuston ja tietojen sijainti",
+    locationDescription:
+      "Tuotteemme ja muut verkkosivustomme toimivat Yhdysvalloissa. Jos sijaitsee Euroopan unionissa, Britanniassa tai muualla Yhdysvaltojen ulkopuolella, huomaa, että kaikki meille antamasi tiedot siirretään ja tallennetaan Yhdysvaltoihin. Käyttämällä verkkosivustoja tai Palveluitamme ja/tai antamalla meille henkilötietojasi suostut tähän siirtoon.",
+    childrenTitle: "7. Lasten tietosuoja",
+    updatesTitle: "8. Tietosuojakäytännön päivitykset",
+    updatesDescription:
+      "Voimme päivittää tätä käytäntöä tarpeen mukaan noudattaaksemme asianomaisia säännöksiä ja heijastaaksemme uusia käytäntöjä. Aina kun teemme merkittäviä muutoksia käytäntöihimme, päivitämme tämän sivun yläosassa olevan päivämäärän.",
+    contactTitle: "9. Ota yhteyttä",
+    websiteUrl: "https://www.nevercap.ai/",
     at: "osoitteeseen",
-    childrenDescription: "Palvelut eivät kohdistu lapsille, emmekä tahallaan kerää henkilötietoja alle 13-vuotiailta. Jos olet alle 13-vuotias, älä lähetä henkilötietoja Palvelujen kautta. Jos uskot, että lapsi on antanut meille henkilötietoja tämän käytännön vastaisesti, ota yhteyttä sähköpostitse {at} {email}.",
-    contactDescription: "Jos sinulla on kysyttävää, kommentteja tai valituksia tietosuojakäytännöstämme, ota yhteyttä {at} {email}, ja pyrimme käsittelemään valituksesi mahdollisimman pian.",
-    policyDescriptionA: 'Tässä tietosuojakäytännössä kuvataan, miten {NeverCap} (jäljempänä "NeverCap", "me", "meitä") kerää, käyttää ja luovuttaa henkilötietojasi, kun käytät palveluitamme, verkkosivustojamme ({url}) ja ohjelmistojamme (yhdessä "Palvelut").'
+    childrenDescription:
+      "Palvelut eivät kohdistu lapsille, emmekä tahallaan kerää henkilötietoja alle 13-vuotiailta. Jos olet alle 13-vuotias, älä lähetä henkilötietoja Palvelujen kautta. Jos uskot, että lapsi on antanut meille henkilötietoja tämän käytännön vastaisesti, ota yhteyttä sähköpostitse {at} {email}.",
+    contactDescription:
+      "Jos sinulla on kysyttävää, kommentteja tai valituksia tietosuojakäytännöstämme, ota yhteyttä {at} {email}, ja pyrimme käsittelemään valituksesi mahdollisimman pian.",
+    policyDescriptionA:
+      'Tässä tietosuojakäytännössä kuvataan, miten {NeverCap} (jäljempänä "NeverCap", "me", "meitä") kerää, käyttää ja luovuttaa henkilötietojasi, kun käytät palveluitamme, verkkosivustojamme ({url}) ja ohjelmistojamme (yhdessä "Palvelut").'
   },
   TermsOfUse: {
     title: "Käyttöehdot",
     titleGradient: "Palvelu",
     subtitle: "Lue nämä ehdot huolellisesti ennen palveluidemme käyttöä",
-    "lastUpdated": "Viimeksi päivitetty: {date}",
-    "lastUpdatedDate": "21. heinäkuuta 2025",
-    "termsOfServiceTitle": "Käyttöehdot",
-    "thankYou": "Kiitos, että käytät tuotteitamme!",
-    "servicesDefinition": 'Kun puhumme "Palveluista", tarkoitamme mitä tahansa NeverCapin luomaa ja ylläpitämää tuotetta, olipa se toimitettu selaimessa, työpöytäsovelluksessa, mobiilisovelluksessa tai muussa muodossa.',
-    "termsUpdate": "Saatamme päivittää näitä Käyttöehtoja tulevaisuudessa. Tyypillisesti muutokset on tehty selventämään ehtoja linkittämällä laajennettuun politiikkaan. Merkittävien muutosten yhteydessä päivitämme sivun yläosassa olevan päivämäärän ja ilmoitamme tilinomistajille asianmukaisesti.",
-    "acceptanceTitle": "1. Sopimuksen hyväksyminen",
-    "acceptanceDescription1": "Käyttämällä Palveluitamme hyväksyt tämän Sopimuksen, joka siten muodostaa sitovan sopimuksen sinun ja NeverCapin välille. Vakuutat, että sinulla on oikeus hyväksyä nämä Ehdot ja että olet täysi-ikäinen solmiaksesi sitovan sopimuksen. NeverCapin hyväksyntä on ehdollinen siitä, että hyväksyt kaikki tämän Sopimuksen ehdot.",
-    "eligibilityRequirement": "Palvelut eivät ole tarkoitettu alle 18-vuotiaille, eikä niitä saa käyttää. Käyttämällä Palveluita vakuutat täyttäväsi edellä mainitun kelpoisuusvaatimuksen.",
-    "userResponsibility": 'Termit "sinä", "sinun", "itsesi" sisältävät myös työntekijäsi, edustajasi ja muut henkilöt, joille annat pääsyn Palveluihin Tilisi kautta. Olet vastuussa siitä, että kaikki Tilisi kautta Palveluihin pääsevät henkilöt tietävät näistä Ehdoista ja noudattavat niitä.',
-    "termsRevision": "NeverCap pidättää oikeuden muokata ja päivittää näitä Ehtoja harkintansa mukaan. Kaikki muutokset tulevat voimaan heti julkaisun jälkeen. Palveluiden jatkaminen muutosten jälkeen tarkoittaa, että hyväksyt ja suostut muutoksiin. Sinun odotetaan tarkistavan tätä sivua ajoittain ollaksesi tietoinen muutoksista, koska ne ovat sitovia.",
-    "servicesTitle": "2. NeverCapin Palvelut",
-    "servicesDescription1": "Palvelumme mahdollistavat äänikeskustelujen muuntamisen tekstiksi, jota voidaan hakea, kääntää ja jakaa muiden kanssa.",
-    "servicesOptions": 'Voit valata käyttääkö ilmaista ("Ilmaiset Palvelut") tai tilauspohjaista maksullista versiota ("Maksulliset Palvelut").',
-    "servicesAccess": "Tarjoamme Palvelut käyttöösi. Olet vastuussa kaikista Palveluiden käyttöön tarvittavista järjestelyistä.",
-    "accountTermsTitle": "3. Tilin ehdot",
-    "accountSecurity": "Olet vastuussa Tilisi turvallisuudesta. Yhtiö ei ole vastuussa tästä turvallisuusvelvoitteesta aiheutuvista vahingoista.",
-    "lawfulUse": "Et saa käyttää Palveluita laittomiin, epäeettisiin tai moraalittomiin tarkoituksiin.",
-    "contentResponsibility": "Olet vastuussa kaikesta Tilisi alla julkaistavasta sisällöstä ja toiminnoista, mukaan lukien muiden julkaisema sisältö, joilla on pääsy kirjautumistietoihisi tai omat kirjautumistietonsa Tilisi alla.",
-    "humanRequirement": 'Sinun on oltava ihminen. "Bottien" tai muiden automaattisten menetelmien luomat tilit eivät ole sallittuja.',
-    "paymentTitle": "4. Maksut, hyvitykset ja suunnitelman muutokset",
-    "freeTrial": "Maksullisille Palveluille, joissa on ilmainen kokeilujakso, kerromme kokeilujakson pituuden rekisteröityessäsi. Kokeilujakson jälkeen sinun on maksettava etukäteen jatkaaksesi Palvelun käyttöä. Jos et maksa, nämä palvelut päättyvät.",
-    "upgradePolicy": "Jos päivität ilmaisesta suunnitelmasta maksulliseen, veloitamme korttisi välittömästi ja laskutusjakso alkaa päivityspäivästä.",
-    "taxes": "Kaikki hinnat ovat verottomia. Tarvittaessa perimme verot viranomaisten puolesta ja suoritamme ne viranomaisille. Muussa tapauksessa olet vastuussa kaikista veroista ja maksuista.",
-    "refunds": "Kaikki ostot ovat palautuskelvottomia. Voit peruuttaa maksulliset palvelut milloin tahansa kirjautumalla Tilillesi. Tilaukset päättyvät nykyisen laskutusjakson lopussa, ellei toisin mainita.",
-    "cancellationTitle": "5. Peruuttaminen ja irtisanominen",
-    "cancellationPolicy": "Jos peruutat Palvelun ennen maksuaikaa, peruutus astuu voimaan välittömästi, etkä joudu maksamaan uudelleen. Emme automaattisesti hyvitä käyttämättömiä aikoja.",
-    "terminationRights": "Pidätämme oikeuden keskeyttää tai irtisanoa Tilisi ja evätä Palveluiden käytön milloin tahansa ilman syytä. Keskeytyksellä estetään pääsy Tiliisi ja sen sisältöön. Irtisanominen johtaa Tilisi poistamiseen ja kaiken sisällön menetykseen. Pidätämme myös oikeuden evätä Palveluiden käyttö keneltä tahansa milloin tahansa.",
-    "abusePolicy": "Yhtiön työntekijöiden tai edustajien suullinen, fyysinen, kirjallinen tai muu väärinkäyttö (mukaan lukien väkivallan tai kostouhkaukset) voi johtaa välittömään tilin irtisanomiseen.",
-    "submissionsTitle": "6. Lähetykset",
-    "submissionsDescription": 'Hyväksyt, että kaikki sivustoon liittyvät kysymykset, kommentit, ehdotukset, ideat, palaute tai muu tieto ("Lähetykset") ovat luottamuksellisia ja meidän yksinomaista omaisuuttamme. Meillä on yksinoikeus käyttää ja levittää niitä ilman korvausta tai tunnustusta. Luovut kaikki moraaliset oikeutesi Lähetyksiin ja vakuutat niiden alkuperäisyydestä tai oikeudestasi lähettää ne. Et voi vaatia meitä vastuuseen Lähetysten oikeuksien loukkaamisesta.',
-    "uptimeTitle": "7. Käytettävyys ja turvallisuus",
-    "serviceAvailability": 'Käytät Palveluita omalla vastuullasi. Tarjoamme Palvelut "sellaisenaan" ja "saatavuuden mukaan". Emme tarjoa palvelutasosopimuksia, mutta otamme sovellustemme käytettävyyden vakavasti.',
-    "throttlingPolicy": "Pidätämme oikeuden rajoittaa tilin käyttöä harvinaisissa tapauksissa, joissa käyttäjän toiminta vaarantaa Palvelun vakautta muille käyttäjille. Yritämme useimmissa tapauksissa ottaa yhteyttä ennen toimia.",
-    "dataSecurity": "Suojaamme ja turvaamme tietojasi varmuuskopioinnilla, redundanssilla ja salauksella. Pakotamme salauksen julkisessa Internetissä tapahtuvaan tiedonsiirtoon.",
-    "thirdPartyVendors": "Käytämme kolmannen osapuolen toimittajia ja isännöintipartnereita tarjotaksemme Palveluiden käyttöön tarvittavan laitteiston, ohjelmiston, verkon, tallennustilan ja muun teknologian.",
-    "siteManagementTitle": "8. Sivuston hallinta",
-    "siteManagementDescription": "Pidätämme oikeuden, mutta emme velvollisuutta: (1) valvoa sivustoa Käyttöehtojen rikkomuksia varten; (2) ryhtyä oikeustoimiin Käyttöehtoja tai lakia rikkovia vastaan; (3) evätä, rajoittaa tai poistaa sisältöä; (4) poistaa liian suuria tai järjestelmää rasittavia tiedostoja; ja (5) hallita sivustoa oikeuksiemme ja omaisuutemme suojelemiseksi.",
-    "copyrightTitle": "9. Tekijänoikeudet ja sisällön omistus",
-    "copyrightCompliance": "Kaiken Palveluissa julkaistavan sisällön on noudatettava Yhdysvaltain tekijänoikeuslakia.",
-    "ipRights": "Emme vaadi tekijänoikeuksia materiaaliisi. Kaikki lähettämäsi materiaali pysyy sinun omaisuuttanasi.",
-    "contentModeration": "Emme ennakkotarkasta sisältöä, mutta pidätämme oikeuden poistaa sisältöä harkintamme mukaan.",
-    "prohibitedExploitation": "Et saa kopioida, myydä tai hyödyntää Palveluita ilman Yhtiön kirjallista lupaa.",
-    "impersonationProhibition": "Et saa muokata muita verkkosivustoja antaakseen väärän kuvan niiden yhteydestä Palveluihin tai Yhtiöön.",
-    "dmcaPolicy": "Kunnioitamme muiden tekijänoikeuksia. Jos uskot, että sivustomme sisältö loukkaa tekijänoikeuksiasi, ota välittömästi yhteyttä. Ilmoituksesi kopio lähetetään materiaalin lähettäjälle. Huomaa, että väärät ilmoitukset voivat aiheuttaa vahingonkorvausvelvollisuuden.",
-    "prohibitedActivitiesTitle": "10. Kiellettyjä toimia",
-    "generalProhibition": "1. Et saa käyttää Sivustoa muuhun tarkoitukseen kuin siihen, jota varten olemme sen tarjonneet. Sivustoa ei saa käyttää kaupallisiin tarkoituksiin, paitsi niihin, jotka olemme nimenomaisesti hyväksyneet.",
-    "userObligations": "2. Sivuston käyttäjänä sitoudut olemaan:",
-    "dataScraping": "3. Keräämällä tai kokoamalla järjestelmällisesti tietoja tai muuta sisältöä Sivustolta suoraan tai välillisesti kokoelmaa, tietokantaa tai hakemistoa varten ilman kirjallista lupaa.",
-    "fraud": "4. Huijaamalla, harhauttamalla tai johtamalla harhaan meitä tai muita käyttäjiä, erityisesti yrityksissä saada käyttäjien arkaluonteisia tilitietoja, kuten salasanoja.",
-    "securityInterference": "5. Ohittaen, poistaen käytöstä tai muuten häiritsemällä Sivuston turvallisuuteen liittyviä ominaisuuksia, mukaan lukien ominaisuuksia, jotka estävät sisällön käytön tai kopioinnin tai rajoittavat Sivuston ja/tai sen sisällön käyttöä.",
-    "defamation": "6. Halventamalla, tahraamalla tai muuten vahingoittamalla mielestämme meitä ja/tai Sivustoa.",
-    "harassment": "7. Käyttämällä Sivustolta saatuja tietoja toisen henkilön häirintään, hyväksikäyttöön tai vahingoittamiseen.",
-    "supportAbuse": "8. Käyttämällä tukipalveluitamme väärin tai jättämällä väärä ilmoitus väärinkäytöksistä tai sopimattomasta käyttäytymisestä.",
-    "legalCompliance": "9. Käyttämällä Sivustoa lain tai säädösten vastaisesti.",
-    "framingProhibition": "10. Kehystämällä Sivustoa tai linkittämällä siihen luvattomasti.",
-    "malware": "11. Lähettämällä tai yrittämällä lähettää viruksia, troijalaisia tai muita häiritseviä materiaaleja, kuten suuraakkosten liiallista käyttöä tai roskapostitusta, jotka häiritsevät Sivuston käyttöä tai vaikuttavat sen toimintaan.",
-    "automation": "12. Käyttämällä järjestelmää automaattisesti, kuten kommenttien tai viestien lähettämiseen skripteillä tai tiedon keräämiseen kaivostoimin tai vastaavilla työkaluilla.",
-    "copyrightRemoval": "13. Poistamalla sisällöstä tekijänoikeus- tai muun omistusoikeusilmoituksen.",
-    "impersonation": "14. Yrittämällä esiintyä toisena käyttäjänä tai henkilönä tai käyttää toisen käyttäjän käyttäjätunnusta.",
-    "spyware": '15. Lähettämällä tai yrittämällä lähettää materiaalia, joka toimii passiivisena tai aktiivisena tiedonkeruumenetelmänä, kuten selkeitä gif-kuvia, 1×1 pikseleitä, web-bugeja, evästeitä tai vastaavia laitteita (joskus kutsuttu "vakoiluohjelmiksi" tai "passiivisiksi keruumenetelmiksi").',
-    "disruption": "16. Häiritsemällä Sivustoa tai siihen liittyviä verkkoja tai palveluita aiheuttamalla kohtuutonta kuormitusta.",
-    "employeeHarassment": "17. Häiritsemällä, ärsyttämällä, pelottelemalla tai uhkaamalla työntekijöitämme tai edustajiamme, jotka tarjoavat Sivuston osia sinulle.",
-    "accessCircumvention": "18. Yrittämällä ohittaa Sivuston käyttöä rajoittavat toimenpiteet.",
-    "codeCopying": "19. Kopioimalla tai muokkaamalla Sivuston ohjelmistoa, kuten Flashia, PHP:tä, HTML:ää, JavaScriptiä tai muuta koodia.",
-    "reverseEngineering": "20. Purkamalla, dekompiloimalla tai kääntämällä Sivuston ohjelmistoa, paitsi mikäli laki sen sallii.",
-    "bots": "21. Käyttämällä, kehittämällä tai levittämällä automaattisia järjestelmiä, kuten hämäreitä, bott",
-    "buyingAgents": "Ostoedustajien tai hankintatoimijoiden käyttäminen ostoksiin tällä verkkosivustolla.",
-    "unauthorizedUse": "Verkkosivuston luvaton käyttö, mukaan lukien käyttäjänimien ja/tai sähköpostiosoitteiden kerääminen sähköisesti tai muilla keinoin ei-toivottujen sähköpostien lähettämiseksi, tai käyttäjätilien luominen automatisoiduilla keinoilla tai väärin perustein.",
-    "competition": "Verkkosivuston käyttäminen kanssamme kilpailussa oleviin tarkoituksiin tai verkkosivuston ja/tai sen sisällön käyttäminen tuloja tuottaviin tai kaupallisiin tarkoituksiin.",
-    "advertising": "Verkkosivuston käyttäminen tavaroiden ja palveluiden mainostamiseen tai myyntiin.",
-    "profileTransfer": "Profiilisi myyminen tai muu siirtäminen.",
-    "featuresTitle": "11. Ominaisuudet ja viat",
-    "featuresDescription": "Suunnittelemme palvelumme huolellisesti oman kokemuksemme sekä aikaa ja palautetta jakavien asiakkaiden kokemusten perusteella. Mikään palvelu ei kuitenkaan voi miellyttää kaikkia. Emme takaa, että palvelu täyttää erityiset vaatimuksesi tai odotuksesi.",
-    "bugsDescription": "Testaamme kaikki ominaisuudet ennen julkaisua. Kuten mikään ohjelmisto, palvelumme sisältää väistämättä joitakin vikoja. Seuraamme ja korjaamme ilmoitetut viat, erityisesti turvallisuuteen tai yksityisyyteen liittyvät. Kaikkia ilmoitettuja vikoja ei korjata, emmekä takaa palvelun täydellistä virheettömyyttä.",
-    "correctionsTitle": "12. Korjaukset",
-    "informationAccuracy": "Tämän verkkosivuston tiedoissa saattaa olla painovirheitä, epätarkkuuksia tai puutteita, mukaan lukien kuvaukset, hinnat, saatavuus ja muut tiedot. Pidätämme oikeuden korjata virheet, epätarkkuudet tai puutteet sekä muuttaa tai päivittää verkkosivuston tietoja milloin tahansa ilman ennakkoilmoitusta.",
-    "siteAvailability": "Emme voi taata verkkosivuston jatkuvaa saatavuutta. Laitteisto-, ohjelmisto- tai muita ongelmia saattaa esiintyä, tai verkkosivustoon liittyvää huoltoa saattaa tarvita, mikä aiheuttaa keskeytyksä, viivästyksiä tai virheitä. Pidätämme oikeuden muuttaa, tarkistaa, päivittää, keskeyttää, lopettaa tai muulla tavoin muokata verkkosivustoa milloin tahansa tai mistä tahansa syystä ilman ennakkoilmoitusta. Hyväksyt, ettemme ole vastuussa mistään menetyksistä, vahingoista tai hankaluuksista, jotka aiheutuvat verkkosivuston käyttökelvottomuudesta verkkosivuston seisokin tai lopetuksen aikana. Mikään näissä palveluehdoissa ei velvoita meitä ylläpitämään ja tukemaan verkkosivustoa tai tarjoamaan korjauksia, päivityksiä tai julkaisuja.",
-    "userDataTitle": "13. Käyttäjätiedot",
-    "userDataDescription": "Säilytämme tiettyjä verkkosivustolle siirtämiäsi tietoja verkkosivuston suorituskyvyn hallintaa ja verkkosivuston käyttöösi liittyviä tietoja varten. Vaikka varmuuskopioimme tietoja säännöllisesti, olet täysin vastuussa kaikista siirtämistäsi tiedoista tai verkkosivustolla tekemistäsi toimista. Hyväksyt, ettemme ole sinulle vastuussa tällaisten tietojen katoamisesta tai vaurioitumisesta, ja luovut täten oikeudesta ryhtyä toimiin meitä vastaan tällaisten tietojen katoamisen tai vaurioitumisen vuoksi.",
-    "privacyPolicyTitle": "14. Tietosuojakäytäntö",
-    "liabilityTitle": "15. Vastuu",
-    "liabilityIntroduction": "Viittaamme vastuuseen useaan kertaan näissä ehdoissa, joten selitämme sen yhtenäisesti tässä:",
-    "liabilityWaiver": "Ymmärrät ja hyväksyt nimenomaisesti, että yritys ei ole lain tai oikeudenmukaisuuden perusteella vastuussa sinulle tai kenellekään kolmannelle osapuolelle mistään suorista, välillisistä, satunnaisista, voiton menetykseen liittyvistä, erityisistä, seuraamuksellisista, rankaisevista tai kurinpidollisista vahingonkorvauksista (vaikka yritystä olisi varoitettu tällaisten vahinkojen mahdollisuudesta), mukaan lukien mutta ei rajoittuen voiton, liikearvon, käytön, tietojen tai muiden aineettomien tappioiden menetyksiin, jotka johtuvat: (1) palvelun käytöstä tai käyttökelvottomuudesta; (2) sisällön ja materiaalien virheistä, epätarkkuuksista; (3) verkkosivuston käytöstä ja käyttämisestä aiheutuneista ruumiinvammoista tai omaisuusvahingoista; (4) palvelun kautta ostettujen, hankittujen tavaroiden, tietojen, tietojen tai palveluiden tai viestien vastaanottamisen tai transaktioiden tekemisen korvaavien tavaroiden ja palveluiden hankintakustannuksista; (5) turvallisten palvelimiemme ja niissä tallennettujen henkilö- ja/tai taloustietojen luvattomasta käytöstä; (6) verkkosivuston tiedonsiirron keskeytyksistä tai pysäytyksistä; (7) kolmansien osapuolten verkkosivuston kautta tai verkkosivustoon lähettämistä vioista, viruksista, troijalaisista jne.; (8) sisällön ja materiaalien virheistä tai puutteista, tai verkkosivuston kautta julkaistun, lähetetyn tai muutoin toimitetun sisällön käytöstä aiheutuneista vahingoista; (9) palvelun kolmansien osapuolien lausunnoista tai toimista; (10) tai mistä tahansa muusta näihin palveluehtoihin tai palveluun liittyvästä asiasta, riippumatta siitä, perustuuko se sopimusrikkomukseen, vahingonkorvaukseen (mukaan lukien aktiivinen tai passiivinen huolimattomuus) vai mihin tahansa muuhun vastuuteoriaan.",
-    "miscellaneousTitle": "16. Sekalaiset määräykset",
-    "miscellaneousDescription": "Nämä palveluehdot ja verkkosivustollamme julkaisemamme käytännöt tai toimintasäännöt muodostavat täydellisen sopimuksen ja ymmärryksen sinun ja meidän välillämme. Se, että emme käytä tai pane täytäntöön näiden palveluehtojen oikeutta tai määräystä, ei merkitse kyseisestä oikeudesta tai määräyksestä luopumista. Näitä palveluehtoja sovelletaan lain sallimassa laajimmassa määrin. Voimme siirtää kaikki oikeutemme ja velvollisuutemme toisille milloin tahansa. Emme ole vastuussa mistään menetyksistä, vahingoista, viivästyksistä tai toimimattomuudesta, joka johtuu mistä tahansa kohtuullisen hallintamme ulkopuolella olevasta syystä. Jos näiden palveluehtojen määräys tai osa määräyksestä todetaan laittomaksi, mitättömäksi tai täytäntöönpanokelvottomaksi, kyseinen määräys tai osa määräyksestä katsotaan erotettavaksi eikä se vaikuta muiden määräysten pätevyyteen ja täytäntöönpanokelpoisuuteen. Nämä palveluehdot tai verkkosivuston käyttö ei luo yhteisyritys-, kumppanuus-, työsuhde- tai edustussuhdetta sinun ja meidän välillämme. Hyväksyt, että näitä palveluehtoja ei tulkita meitä vastaan sen vuoksi, että olemme laatineet ne. Luovut täten kaikista puolustuskeinoista, jotka saattavat perustua näiden palveluehtojen sähköiseen muotoon ja siihen, että osapuolet eivät ole allekirjoittaneet näitä palveluehtoja.",
-    "contactTitle": "17. Ota yhteyttä",
-    "site": "Verkkosivusto",
-    "services": "Palvelut",
+    lastUpdated: "Viimeksi päivitetty: {date}",
+    lastUpdatedDate: "21. heinäkuuta 2025",
+    termsOfServiceTitle: "Käyttöehdot",
+    thankYou: "Kiitos, että käytät tuotteitamme!",
+    servicesDefinition:
+      'Kun puhumme "Palveluista", tarkoitamme mitä tahansa NeverCapin luomaa ja ylläpitämää tuotetta, olipa se toimitettu selaimessa, työpöytäsovelluksessa, mobiilisovelluksessa tai muussa muodossa.',
+    termsUpdate:
+      "Saatamme päivittää näitä Käyttöehtoja tulevaisuudessa. Tyypillisesti muutokset on tehty selventämään ehtoja linkittämällä laajennettuun politiikkaan. Merkittävien muutosten yhteydessä päivitämme sivun yläosassa olevan päivämäärän ja ilmoitamme tilinomistajille asianmukaisesti.",
+    acceptanceTitle: "1. Sopimuksen hyväksyminen",
+    acceptanceDescription1:
+      "Käyttämällä Palveluitamme hyväksyt tämän Sopimuksen, joka siten muodostaa sitovan sopimuksen sinun ja NeverCapin välille. Vakuutat, että sinulla on oikeus hyväksyä nämä Ehdot ja että olet täysi-ikäinen solmiaksesi sitovan sopimuksen. NeverCapin hyväksyntä on ehdollinen siitä, että hyväksyt kaikki tämän Sopimuksen ehdot.",
+    eligibilityRequirement:
+      "Palvelut eivät ole tarkoitettu alle 18-vuotiaille, eikä niitä saa käyttää. Käyttämällä Palveluita vakuutat täyttäväsi edellä mainitun kelpoisuusvaatimuksen.",
+    userResponsibility:
+      'Termit "sinä", "sinun", "itsesi" sisältävät myös työntekijäsi, edustajasi ja muut henkilöt, joille annat pääsyn Palveluihin Tilisi kautta. Olet vastuussa siitä, että kaikki Tilisi kautta Palveluihin pääsevät henkilöt tietävät näistä Ehdoista ja noudattavat niitä.',
+    termsRevision:
+      "NeverCap pidättää oikeuden muokata ja päivittää näitä Ehtoja harkintansa mukaan. Kaikki muutokset tulevat voimaan heti julkaisun jälkeen. Palveluiden jatkaminen muutosten jälkeen tarkoittaa, että hyväksyt ja suostut muutoksiin. Sinun odotetaan tarkistavan tätä sivua ajoittain ollaksesi tietoinen muutoksista, koska ne ovat sitovia.",
+    servicesTitle: "2. NeverCapin Palvelut",
+    servicesDescription1:
+      "Palvelumme mahdollistavat äänikeskustelujen muuntamisen tekstiksi, jota voidaan hakea, kääntää ja jakaa muiden kanssa.",
+    servicesOptions:
+      'Voit valata käyttääkö ilmaista ("Ilmaiset Palvelut") tai tilauspohjaista maksullista versiota ("Maksulliset Palvelut").',
+    servicesAccess:
+      "Tarjoamme Palvelut käyttöösi. Olet vastuussa kaikista Palveluiden käyttöön tarvittavista järjestelyistä.",
+    accountTermsTitle: "3. Tilin ehdot",
+    accountSecurity:
+      "Olet vastuussa Tilisi turvallisuudesta. Yhtiö ei ole vastuussa tästä turvallisuusvelvoitteesta aiheutuvista vahingoista.",
+    lawfulUse:
+      "Et saa käyttää Palveluita laittomiin, epäeettisiin tai moraalittomiin tarkoituksiin.",
+    contentResponsibility:
+      "Olet vastuussa kaikesta Tilisi alla julkaistavasta sisällöstä ja toiminnoista, mukaan lukien muiden julkaisema sisältö, joilla on pääsy kirjautumistietoihisi tai omat kirjautumistietonsa Tilisi alla.",
+    humanRequirement:
+      'Sinun on oltava ihminen. "Bottien" tai muiden automaattisten menetelmien luomat tilit eivät ole sallittuja.',
+    paymentTitle: "4. Maksut, hyvitykset ja suunnitelman muutokset",
+    freeTrial:
+      "Maksullisille Palveluille, joissa on ilmainen kokeilujakso, kerromme kokeilujakson pituuden rekisteröityessäsi. Kokeilujakson jälkeen sinun on maksettava etukäteen jatkaaksesi Palvelun käyttöä. Jos et maksa, nämä palvelut päättyvät.",
+    upgradePolicy:
+      "Jos päivität ilmaisesta suunnitelmasta maksulliseen, veloitamme korttisi välittömästi ja laskutusjakso alkaa päivityspäivästä.",
+    taxes:
+      "Kaikki hinnat ovat verottomia. Tarvittaessa perimme verot viranomaisten puolesta ja suoritamme ne viranomaisille. Muussa tapauksessa olet vastuussa kaikista veroista ja maksuista.",
+    refunds:
+      "Kaikki ostot ovat palautuskelvottomia. Voit peruuttaa maksulliset palvelut milloin tahansa kirjautumalla Tilillesi. Tilaukset päättyvät nykyisen laskutusjakson lopussa, ellei toisin mainita.",
+    cancellationTitle: "5. Peruuttaminen ja irtisanominen",
+    cancellationPolicy:
+      "Jos peruutat Palvelun ennen maksuaikaa, peruutus astuu voimaan välittömästi, etkä joudu maksamaan uudelleen. Emme automaattisesti hyvitä käyttämättömiä aikoja.",
+    terminationRights:
+      "Pidätämme oikeuden keskeyttää tai irtisanoa Tilisi ja evätä Palveluiden käytön milloin tahansa ilman syytä. Keskeytyksellä estetään pääsy Tiliisi ja sen sisältöön. Irtisanominen johtaa Tilisi poistamiseen ja kaiken sisällön menetykseen. Pidätämme myös oikeuden evätä Palveluiden käyttö keneltä tahansa milloin tahansa.",
+    abusePolicy:
+      "Yhtiön työntekijöiden tai edustajien suullinen, fyysinen, kirjallinen tai muu väärinkäyttö (mukaan lukien väkivallan tai kostouhkaukset) voi johtaa välittömään tilin irtisanomiseen.",
+    submissionsTitle: "6. Lähetykset",
+    submissionsDescription:
+      'Hyväksyt, että kaikki sivustoon liittyvät kysymykset, kommentit, ehdotukset, ideat, palaute tai muu tieto ("Lähetykset") ovat luottamuksellisia ja meidän yksinomaista omaisuuttamme. Meillä on yksinoikeus käyttää ja levittää niitä ilman korvausta tai tunnustusta. Luovut kaikki moraaliset oikeutesi Lähetyksiin ja vakuutat niiden alkuperäisyydestä tai oikeudestasi lähettää ne. Et voi vaatia meitä vastuuseen Lähetysten oikeuksien loukkaamisesta.',
+    uptimeTitle: "7. Käytettävyys ja turvallisuus",
+    serviceAvailability:
+      'Käytät Palveluita omalla vastuullasi. Tarjoamme Palvelut "sellaisenaan" ja "saatavuuden mukaan". Emme tarjoa palvelutasosopimuksia, mutta otamme sovellustemme käytettävyyden vakavasti.',
+    throttlingPolicy:
+      "Pidätämme oikeuden rajoittaa tilin käyttöä harvinaisissa tapauksissa, joissa käyttäjän toiminta vaarantaa Palvelun vakautta muille käyttäjille. Yritämme useimmissa tapauksissa ottaa yhteyttä ennen toimia.",
+    dataSecurity:
+      "Suojaamme ja turvaamme tietojasi varmuuskopioinnilla, redundanssilla ja salauksella. Pakotamme salauksen julkisessa Internetissä tapahtuvaan tiedonsiirtoon.",
+    thirdPartyVendors:
+      "Käytämme kolmannen osapuolen toimittajia ja isännöintipartnereita tarjotaksemme Palveluiden käyttöön tarvittavan laitteiston, ohjelmiston, verkon, tallennustilan ja muun teknologian.",
+    siteManagementTitle: "8. Sivuston hallinta",
+    siteManagementDescription:
+      "Pidätämme oikeuden, mutta emme velvollisuutta: (1) valvoa sivustoa Käyttöehtojen rikkomuksia varten; (2) ryhtyä oikeustoimiin Käyttöehtoja tai lakia rikkovia vastaan; (3) evätä, rajoittaa tai poistaa sisältöä; (4) poistaa liian suuria tai järjestelmää rasittavia tiedostoja; ja (5) hallita sivustoa oikeuksiemme ja omaisuutemme suojelemiseksi.",
+    copyrightTitle: "9. Tekijänoikeudet ja sisällön omistus",
+    copyrightCompliance:
+      "Kaiken Palveluissa julkaistavan sisällön on noudatettava Yhdysvaltain tekijänoikeuslakia.",
+    ipRights:
+      "Emme vaadi tekijänoikeuksia materiaaliisi. Kaikki lähettämäsi materiaali pysyy sinun omaisuuttanasi.",
+    contentModeration:
+      "Emme ennakkotarkasta sisältöä, mutta pidätämme oikeuden poistaa sisältöä harkintamme mukaan.",
+    prohibitedExploitation:
+      "Et saa kopioida, myydä tai hyödyntää Palveluita ilman Yhtiön kirjallista lupaa.",
+    impersonationProhibition:
+      "Et saa muokata muita verkkosivustoja antaakseen väärän kuvan niiden yhteydestä Palveluihin tai Yhtiöön.",
+    dmcaPolicy:
+      "Kunnioitamme muiden tekijänoikeuksia. Jos uskot, että sivustomme sisältö loukkaa tekijänoikeuksiasi, ota välittömästi yhteyttä. Ilmoituksesi kopio lähetetään materiaalin lähettäjälle. Huomaa, että väärät ilmoitukset voivat aiheuttaa vahingonkorvausvelvollisuuden.",
+    prohibitedActivitiesTitle: "10. Kiellettyjä toimia",
+    generalProhibition:
+      "1. Et saa käyttää Sivustoa muuhun tarkoitukseen kuin siihen, jota varten olemme sen tarjonneet. Sivustoa ei saa käyttää kaupallisiin tarkoituksiin, paitsi niihin, jotka olemme nimenomaisesti hyväksyneet.",
+    userObligations: "2. Sivuston käyttäjänä sitoudut olemaan:",
+    dataScraping:
+      "3. Keräämällä tai kokoamalla järjestelmällisesti tietoja tai muuta sisältöä Sivustolta suoraan tai välillisesti kokoelmaa, tietokantaa tai hakemistoa varten ilman kirjallista lupaa.",
+    fraud:
+      "4. Huijaamalla, harhauttamalla tai johtamalla harhaan meitä tai muita käyttäjiä, erityisesti yrityksissä saada käyttäjien arkaluonteisia tilitietoja, kuten salasanoja.",
+    securityInterference:
+      "5. Ohittaen, poistaen käytöstä tai muuten häiritsemällä Sivuston turvallisuuteen liittyviä ominaisuuksia, mukaan lukien ominaisuuksia, jotka estävät sisällön käytön tai kopioinnin tai rajoittavat Sivuston ja/tai sen sisällön käyttöä.",
+    defamation:
+      "6. Halventamalla, tahraamalla tai muuten vahingoittamalla mielestämme meitä ja/tai Sivustoa.",
+    harassment:
+      "7. Käyttämällä Sivustolta saatuja tietoja toisen henkilön häirintään, hyväksikäyttöön tai vahingoittamiseen.",
+    supportAbuse:
+      "8. Käyttämällä tukipalveluitamme väärin tai jättämällä väärä ilmoitus väärinkäytöksistä tai sopimattomasta käyttäytymisestä.",
+    legalCompliance: "9. Käyttämällä Sivustoa lain tai säädösten vastaisesti.",
+    framingProhibition:
+      "10. Kehystämällä Sivustoa tai linkittämällä siihen luvattomasti.",
+    malware:
+      "11. Lähettämällä tai yrittämällä lähettää viruksia, troijalaisia tai muita häiritseviä materiaaleja, kuten suuraakkosten liiallista käyttöä tai roskapostitusta, jotka häiritsevät Sivuston käyttöä tai vaikuttavat sen toimintaan.",
+    automation:
+      "12. Käyttämällä järjestelmää automaattisesti, kuten kommenttien tai viestien lähettämiseen skripteillä tai tiedon keräämiseen kaivostoimin tai vastaavilla työkaluilla.",
+    copyrightRemoval:
+      "13. Poistamalla sisällöstä tekijänoikeus- tai muun omistusoikeusilmoituksen.",
+    impersonation:
+      "14. Yrittämällä esiintyä toisena käyttäjänä tai henkilönä tai käyttää toisen käyttäjän käyttäjätunnusta.",
+    spyware:
+      '15. Lähettämällä tai yrittämällä lähettää materiaalia, joka toimii passiivisena tai aktiivisena tiedonkeruumenetelmänä, kuten selkeitä gif-kuvia, 1×1 pikseleitä, web-bugeja, evästeitä tai vastaavia laitteita (joskus kutsuttu "vakoiluohjelmiksi" tai "passiivisiksi keruumenetelmiksi").',
+    disruption:
+      "16. Häiritsemällä Sivustoa tai siihen liittyviä verkkoja tai palveluita aiheuttamalla kohtuutonta kuormitusta.",
+    employeeHarassment:
+      "17. Häiritsemällä, ärsyttämällä, pelottelemalla tai uhkaamalla työntekijöitämme tai edustajiamme, jotka tarjoavat Sivuston osia sinulle.",
+    accessCircumvention:
+      "18. Yrittämällä ohittaa Sivuston käyttöä rajoittavat toimenpiteet.",
+    codeCopying:
+      "19. Kopioimalla tai muokkaamalla Sivuston ohjelmistoa, kuten Flashia, PHP:tä, HTML:ää, JavaScriptiä tai muuta koodia.",
+    reverseEngineering:
+      "20. Purkamalla, dekompiloimalla tai kääntämällä Sivuston ohjelmistoa, paitsi mikäli laki sen sallii.",
+    bots: "21. Käyttämällä, kehittämällä tai levittämällä automaattisia järjestelmiä, kuten hämäreitä, bott",
+    buyingAgents:
+      "Ostoedustajien tai hankintatoimijoiden käyttäminen ostoksiin tällä verkkosivustolla.",
+    unauthorizedUse:
+      "Verkkosivuston luvaton käyttö, mukaan lukien käyttäjänimien ja/tai sähköpostiosoitteiden kerääminen sähköisesti tai muilla keinoin ei-toivottujen sähköpostien lähettämiseksi, tai käyttäjätilien luominen automatisoiduilla keinoilla tai väärin perustein.",
+    competition:
+      "Verkkosivuston käyttäminen kanssamme kilpailussa oleviin tarkoituksiin tai verkkosivuston ja/tai sen sisällön käyttäminen tuloja tuottaviin tai kaupallisiin tarkoituksiin.",
+    advertising:
+      "Verkkosivuston käyttäminen tavaroiden ja palveluiden mainostamiseen tai myyntiin.",
+    profileTransfer: "Profiilisi myyminen tai muu siirtäminen.",
+    featuresTitle: "11. Ominaisuudet ja viat",
+    featuresDescription:
+      "Suunnittelemme palvelumme huolellisesti oman kokemuksemme sekä aikaa ja palautetta jakavien asiakkaiden kokemusten perusteella. Mikään palvelu ei kuitenkaan voi miellyttää kaikkia. Emme takaa, että palvelu täyttää erityiset vaatimuksesi tai odotuksesi.",
+    bugsDescription:
+      "Testaamme kaikki ominaisuudet ennen julkaisua. Kuten mikään ohjelmisto, palvelumme sisältää väistämättä joitakin vikoja. Seuraamme ja korjaamme ilmoitetut viat, erityisesti turvallisuuteen tai yksityisyyteen liittyvät. Kaikkia ilmoitettuja vikoja ei korjata, emmekä takaa palvelun täydellistä virheettömyyttä.",
+    correctionsTitle: "12. Korjaukset",
+    informationAccuracy:
+      "Tämän verkkosivuston tiedoissa saattaa olla painovirheitä, epätarkkuuksia tai puutteita, mukaan lukien kuvaukset, hinnat, saatavuus ja muut tiedot. Pidätämme oikeuden korjata virheet, epätarkkuudet tai puutteet sekä muuttaa tai päivittää verkkosivuston tietoja milloin tahansa ilman ennakkoilmoitusta.",
+    siteAvailability:
+      "Emme voi taata verkkosivuston jatkuvaa saatavuutta. Laitteisto-, ohjelmisto- tai muita ongelmia saattaa esiintyä, tai verkkosivustoon liittyvää huoltoa saattaa tarvita, mikä aiheuttaa keskeytyksä, viivästyksiä tai virheitä. Pidätämme oikeuden muuttaa, tarkistaa, päivittää, keskeyttää, lopettaa tai muulla tavoin muokata verkkosivustoa milloin tahansa tai mistä tahansa syystä ilman ennakkoilmoitusta. Hyväksyt, ettemme ole vastuussa mistään menetyksistä, vahingoista tai hankaluuksista, jotka aiheutuvat verkkosivuston käyttökelvottomuudesta verkkosivuston seisokin tai lopetuksen aikana. Mikään näissä palveluehdoissa ei velvoita meitä ylläpitämään ja tukemaan verkkosivustoa tai tarjoamaan korjauksia, päivityksiä tai julkaisuja.",
+    userDataTitle: "13. Käyttäjätiedot",
+    userDataDescription:
+      "Säilytämme tiettyjä verkkosivustolle siirtämiäsi tietoja verkkosivuston suorituskyvyn hallintaa ja verkkosivuston käyttöösi liittyviä tietoja varten. Vaikka varmuuskopioimme tietoja säännöllisesti, olet täysin vastuussa kaikista siirtämistäsi tiedoista tai verkkosivustolla tekemistäsi toimista. Hyväksyt, ettemme ole sinulle vastuussa tällaisten tietojen katoamisesta tai vaurioitumisesta, ja luovut täten oikeudesta ryhtyä toimiin meitä vastaan tällaisten tietojen katoamisen tai vaurioitumisen vuoksi.",
+    privacyPolicyTitle: "14. Tietosuojakäytäntö",
+    liabilityTitle: "15. Vastuu",
+    liabilityIntroduction:
+      "Viittaamme vastuuseen useaan kertaan näissä ehdoissa, joten selitämme sen yhtenäisesti tässä:",
+    liabilityWaiver:
+      "Ymmärrät ja hyväksyt nimenomaisesti, että yritys ei ole lain tai oikeudenmukaisuuden perusteella vastuussa sinulle tai kenellekään kolmannelle osapuolelle mistään suorista, välillisistä, satunnaisista, voiton menetykseen liittyvistä, erityisistä, seuraamuksellisista, rankaisevista tai kurinpidollisista vahingonkorvauksista (vaikka yritystä olisi varoitettu tällaisten vahinkojen mahdollisuudesta), mukaan lukien mutta ei rajoittuen voiton, liikearvon, käytön, tietojen tai muiden aineettomien tappioiden menetyksiin, jotka johtuvat: (1) palvelun käytöstä tai käyttökelvottomuudesta; (2) sisällön ja materiaalien virheistä, epätarkkuuksista; (3) verkkosivuston käytöstä ja käyttämisestä aiheutuneista ruumiinvammoista tai omaisuusvahingoista; (4) palvelun kautta ostettujen, hankittujen tavaroiden, tietojen, tietojen tai palveluiden tai viestien vastaanottamisen tai transaktioiden tekemisen korvaavien tavaroiden ja palveluiden hankintakustannuksista; (5) turvallisten palvelimiemme ja niissä tallennettujen henkilö- ja/tai taloustietojen luvattomasta käytöstä; (6) verkkosivuston tiedonsiirron keskeytyksistä tai pysäytyksistä; (7) kolmansien osapuolten verkkosivuston kautta tai verkkosivustoon lähettämistä vioista, viruksista, troijalaisista jne.; (8) sisällön ja materiaalien virheistä tai puutteista, tai verkkosivuston kautta julkaistun, lähetetyn tai muutoin toimitetun sisällön käytöstä aiheutuneista vahingoista; (9) palvelun kolmansien osapuolien lausunnoista tai toimista; (10) tai mistä tahansa muusta näihin palveluehtoihin tai palveluun liittyvästä asiasta, riippumatta siitä, perustuuko se sopimusrikkomukseen, vahingonkorvaukseen (mukaan lukien aktiivinen tai passiivinen huolimattomuus) vai mihin tahansa muuhun vastuuteoriaan.",
+    miscellaneousTitle: "16. Sekalaiset määräykset",
+    miscellaneousDescription:
+      "Nämä palveluehdot ja verkkosivustollamme julkaisemamme käytännöt tai toimintasäännöt muodostavat täydellisen sopimuksen ja ymmärryksen sinun ja meidän välillämme. Se, että emme käytä tai pane täytäntöön näiden palveluehtojen oikeutta tai määräystä, ei merkitse kyseisestä oikeudesta tai määräyksestä luopumista. Näitä palveluehtoja sovelletaan lain sallimassa laajimmassa määrin. Voimme siirtää kaikki oikeutemme ja velvollisuutemme toisille milloin tahansa. Emme ole vastuussa mistään menetyksistä, vahingoista, viivästyksistä tai toimimattomuudesta, joka johtuu mistä tahansa kohtuullisen hallintamme ulkopuolella olevasta syystä. Jos näiden palveluehtojen määräys tai osa määräyksestä todetaan laittomaksi, mitättömäksi tai täytäntöönpanokelvottomaksi, kyseinen määräys tai osa määräyksestä katsotaan erotettavaksi eikä se vaikuta muiden määräysten pätevyyteen ja täytäntöönpanokelpoisuuteen. Nämä palveluehdot tai verkkosivuston käyttö ei luo yhteisyritys-, kumppanuus-, työsuhde- tai edustussuhdetta sinun ja meidän välillämme. Hyväksyt, että näitä palveluehtoja ei tulkita meitä vastaan sen vuoksi, että olemme laatineet ne. Luovut täten kaikista puolustuskeinoista, jotka saattavat perustua näiden palveluehtojen sähköiseen muotoon ja siihen, että osapuolet eivät ole allekirjoittaneet näitä palveluehtoja.",
+    contactTitle: "17. Ota yhteyttä",
+    site: "Verkkosivusto",
+    services: "Palvelut",
     at: "osoitteeseen",
-    trademarkProtection: "Palveluiden nimet, ulkoasu ja ilmiasma ovat yrityksen tekijänoikeussuojattuja. Kaikki oikeudet pidätetään. HTML-, CSS-, JavaScript- tai visuaalisten suunnitteluelementtien monistaminen, kopioiminen tai uudelleenkäyttö ilman yrityksen kirjallista lupaa on kielletty. Logojen käyttöön markkinointitarkoituksessa vaaditaan erillinen lupa. Lähetä logojen käyttölupykyselyt sähköpostitse osoitteeseen {at} {email}. Meillä on oikeus peruuttaa lupa, jos rikot käyttöehtoja.",
-    privacyPolicyDescription: "Välitämme tietosuojasta ja -turvallisuudesta. Tutustu {policy}. Sivuston käyttäminen edellyttää tietosuojakäytäntöön sitoutumista. Sivusto sijaitsee Yhdysvalloissa. Käyttäessäsi sivustoa muulta alueelta, jossa henkilötietojen keräämistä, käyttöä tai luovuttamista koskevat erilaiset lait, tietosi siirretään Yhdysvaltoihin. Hyväksyt tietojesi siirron ja käsittelyn Yhdysvalloissa.",
-    contactDescription: "Jos sinulla on kysyttävää käyttöehdoista, ota yhteyttä {at} {email}.",
-    "companyDefinitionA": 'Kun sanomme tässä asiakirjassa "Yritys", "me", "meidän" tai "meitä", viittaamme {NeverCap}-yritykseen.'
+    trademarkProtection:
+      "Palveluiden nimet, ulkoasu ja ilmiasma ovat yrityksen tekijänoikeussuojattuja. Kaikki oikeudet pidätetään. HTML-, CSS-, JavaScript- tai visuaalisten suunnitteluelementtien monistaminen, kopioiminen tai uudelleenkäyttö ilman yrityksen kirjallista lupaa on kielletty. Logojen käyttöön markkinointitarkoituksessa vaaditaan erillinen lupa. Lähetä logojen käyttölupykyselyt sähköpostitse osoitteeseen {at} {email}. Meillä on oikeus peruuttaa lupa, jos rikot käyttöehtoja.",
+    privacyPolicyDescription:
+      "Välitämme tietosuojasta ja -turvallisuudesta. Tutustu {policy}. Sivuston käyttäminen edellyttää tietosuojakäytäntöön sitoutumista. Sivusto sijaitsee Yhdysvalloissa. Käyttäessäsi sivustoa muulta alueelta, jossa henkilötietojen keräämistä, käyttöä tai luovuttamista koskevat erilaiset lait, tietosi siirretään Yhdysvaltoihin. Hyväksyt tietojesi siirron ja käsittelyn Yhdysvalloissa.",
+    contactDescription:
+      "Jos sinulla on kysyttävää käyttöehdoista, ota yhteyttä {at} {email}.",
+    companyDefinitionA:
+      'Kun sanomme tässä asiakirjassa "Yritys", "me", "meidän" tai "meitä", viittaamme {NeverCap}-yritykseen.'
   },
   Blog: {
     Hero: {
-      "title": "Ryhdy",
-      "highlighted_text": "Transkriptio-ohjattu",
-      "description": "{NeverCap}:n tutoriaaleja, strategioita ja tekoälytyökaluja, jotka auttavat sinua luomaan rajattomasti sisältöä ammattimaisten transkriptiotyönkulkujen avulla."
+      title: "Ryhdy",
+      highlighted_text: "Transkriptio-ohjattu",
+      description:
+        "{NeverCap}:n tutoriaaleja, strategioita ja tekoälytyökaluja, jotka auttavat sinua luomaan rajattomasti sisältöä ammattimaisten transkriptiotyönkulkujen avulla."
     },
     Featured: {
       FeaturedGuide: "Esittelyssä opas",

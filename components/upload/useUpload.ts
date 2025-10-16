@@ -77,6 +77,12 @@ export const useUpload = () => {
   const { selectedFolder } = storeToRefs(useFolderStore());
 
   const validateFile = (file: UploadFile): boolean => {
+    //  文件大小不能为0
+    if (file.size === 0) {
+      file.status = "error";
+      file.errorText = t("FileUploadAndRecording.upload.fileEmpty");
+      return false;
+    }
     // 大小验证 (5GB)
     if (file.size > MAX_FILE_SIZE) {
       file.status = "error";

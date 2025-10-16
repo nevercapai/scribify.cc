@@ -256,14 +256,14 @@ let message = {
       },
       maxFileNum: "Die Anzahl der Dateien darf {num} nicht überschreiten.",
       speaker: "Sprecher identifizieren",
-      speakerLabel:
-        "Sprecher automatisch erkennen",
+      speakerLabel: "Sprecher automatisch erkennen",
       guest: {
         transcribe: "Transkribieren",
         file: "Datei",
         audio: "Audio-/Videodatei",
         Uploading: "Hochladen..."
-      }
+      },
+      fileEmpty: "Die Datei ist leer"
     }
   },
   // 转录详情页
@@ -1071,7 +1071,11 @@ let message = {
     Features: "Funktionen",
     UseCases: "Anwendungsfälle",
     Company: "Unternehmen",
-    featureMenus: ["Unbegrenzte Transkription", "Massen-Upload", "96% Genauigkeit"],
+    featureMenus: [
+      "Unbegrenzte Transkription",
+      "Massen-Upload",
+      "96% Genauigkeit"
+    ],
     useCaseMenus: [
       "Alle Anwendungsfälle",
       "Podcaster",
@@ -1081,12 +1085,7 @@ let message = {
       "Geschäftsteams",
       "Pädagogen"
     ],
-    companyMenus: [
-      "Über uns",
-      "Preise",
-      "Datenschutz",
-      "Nutzungsbedingungen"
-    ]
+    companyMenus: ["Über uns", "Preise", "Datenschutz", "Nutzungsbedingungen"]
   },
   Index: {
     Hero: {
@@ -1099,7 +1098,8 @@ let message = {
       NoCap: "Keine monatliche Minuten-Obergrenze",
       Hour: "10-Stunden-Dateien unterstützt",
       ExploreUseCases: "Anwendungsfälle erkunden",
-      subtitleA: "Die KI von NeverCap transkribiert Videos und konvertiert Audio in Text. Dabei können bis zu 50 Dateien gleichzeitig verarbeitet werden, ohne monatliche Obergrenzen. Transkription, die wirklich mit Ihnen skaliert."
+      subtitleA:
+        "Die KI von NeverCap transkribiert Videos und konvertiert Audio in Text. Dabei können bis zu 50 Dateien gleichzeitig verarbeitet werden, ohne monatliche Obergrenzen. Transkription, die wirklich mit Ihnen skaliert."
     },
     Stats: {
       monthlyMinutes: "Monatliche Minuten",
@@ -1114,36 +1114,44 @@ let message = {
       upload_50: "Laden Sie hier bis zu 50 Dateien gleichzeitig hoch.",
       no_limits: "Erweitert",
       no_surprises: "KI-Transkription",
-      transparency: "Keine versteckten Limits, keine Überraschungen - Während andere stillschweigend Ihre Minuten reduzieren oder Obergrenzen im Kleingedruckten verstecken, setzen wir auf radikale Transparenz",
+      transparency:
+        "Keine versteckten Limits, keine Überraschungen - Während andere stillschweigend Ihre Minuten reduzieren oder Obergrenzen im Kleingedruckten verstecken, setzen wir auf radikale Transparenz",
       feat_unltd: "Wirklich unbegrenzt",
-      feat_unltd_desc: 'Keine "Fair-Use-Policy" in den AGB. Keine Speicherbeschränkungen als "unbegrenzt" getarnt. Laden Sie Ihr gesamtes Archiv hoch, transkribieren Sie alles für alle Ihre Audio-Transkriptionsbedürfnisse. Wir meinen es ernst.',
+      feat_unltd_desc:
+        'Keine "Fair-Use-Policy" in den AGB. Keine Speicherbeschränkungen als "unbegrenzt" getarnt. Laden Sie Ihr gesamtes Archiv hoch, transkribieren Sie alles für alle Ihre Audio-Transkriptionsbedürfnisse. Wir meinen es ernst.',
       feat_bulk: "Freiheit beim Massen-Upload",
-      feat_bulk_desc: 'Müde von "3 lebenslangen Importen" oder "10 Dateien pro Monat"? Laden Sie 50 Dateien gleichzeitig hoch, so oft Sie möchten. Perfekt für die Bearbeitung von Rückständen.',
+      feat_bulk_desc:
+        'Müde von "3 lebenslangen Importen" oder "10 Dateien pro Monat"? Laden Sie 50 Dateien gleichzeitig hoch, so oft Sie möchten. Perfekt für die Bearbeitung von Rückständen.',
       feat_batch: "Stapelverarbeitung",
-      feat_batch_desc: "Verarbeiten Sie Ihre gesamte Podcast-Saison über Nacht. Laden Sie 50 Interviews gleichzeitig hoch. Lassen Sie unsere KI arbeiten, während Sie schlafen. Wachen Sie zu fertigen Transkripten auf.",
+      feat_batch_desc:
+        "Verarbeiten Sie Ihre gesamte Podcast-Saison über Nacht. Laden Sie 50 Interviews gleichzeitig hoch. Lassen Sie unsere KI arbeiten, während Sie schlafen. Wachen Sie zu fertigen Transkripten auf.",
       feat_accuracy: "96% Genauigkeit",
-      feat_accuracy_desc: "Unsere branchenführende KI transkribiert Audio mit intelligenter Zeichensetzung, Sprechererkennung für bis zu 20 Sprecher und meistert Akzente sowie Fachbegriffe fehlerfrei.",
+      feat_accuracy_desc:
+        "Unsere branchenführende KI transkribiert Audio mit intelligenter Zeichensetzung, Sprechererkennung für bis zu 20 Sprecher und meistert Akzente sowie Fachbegriffe fehlerfrei.",
       feat_langs: "100+ Sprachen",
-      feat_langs_desc: "Transkribieren Sie Video und Audio in 100+ Sprachen, übersetzen Sie in 249+. Keine Extrakosten für verschiedene Sprachen. Globale Inhalte, ein einfacher Preis.",
+      feat_langs_desc:
+        "Transkribieren Sie Video und Audio in 100+ Sprachen, übersetzen Sie in 249+. Keine Extrakosten für verschiedene Sprachen. Globale Inhalte, ein einfacher Preis.",
       feat_pro: "Professionelle Funktionen",
-      feat_pro_desc: "Wortgenaue Zeitstempel für präzise Audio/Video-Positionierung, genaue Sprechererkennung auch bei schnellen Gesprächswechseln und perfekt formatierter Text mit Absätzen, Sätzen und Zeichensetzung für einfaches Lesen.",
+      feat_pro_desc:
+        "Wortgenaue Zeitstempel für präzise Audio/Video-Positionierung, genaue Sprechererkennung auch bei schnellen Gesprächswechseln und perfekt formatierter Text mit Absätzen, Sätzen und Zeichensetzung für einfaches Lesen.",
       features: "Funktionen"
     },
     UseCases: {
       built_for: "Massen-",
-      "heavy_users": "Audio- & Video-Transkription",
-      "join_users": 'Entwickelt für Power-User wie Sie - Schließen Sie sich YouTubern, Content-Erstellern und Podcastern an, die von "Shrinkflation"-Diensten gewechselt sind',
-      "podcasters": {
-        "title": "Podcaster",
-        "des": "Laden Sie Ihren gesamten Backkatalog hoch. Erstellen Sie Shownotes für jede Folge. Keine Auswahl mehr, welche Folgen transkribiert werden sollen."
+      heavy_users: "Audio- & Video-Transkription",
+      join_users:
+        'Entwickelt für Power-User wie Sie - Schließen Sie sich YouTubern, Content-Erstellern und Podcastern an, die von "Shrinkflation"-Diensten gewechselt sind',
+      podcasters: {
+        title: "Podcaster",
+        des: "Laden Sie Ihren gesamten Backkatalog hoch. Erstellen Sie Shownotes für jede Folge. Keine Auswahl mehr, welche Folgen transkribiert werden sollen."
       },
-      "content_creators": {
-        "title": "Content-Ersteller",
-        "des": "Wandeln Sie Ihre Videobibliothek in durchsuchbaren Text um, indem Sie unseren Service zur automatischen Videotranskription nutzen. Generieren Sie Untertitel für alles. Kein Minuten zählen, einfach kreativ sein."
+      content_creators: {
+        title: "Content-Ersteller",
+        des: "Wandeln Sie Ihre Videobibliothek in durchsuchbaren Text um, indem Sie unseren Service zur automatischen Videotranskription nutzen. Generieren Sie Untertitel für alles. Kein Minuten zählen, einfach kreativ sein."
       },
-      "journalists": {
-        "title": "Journalisten",
-        "des": 'Laden Sie alle Ihre Interviews gleichzeitig hoch. Keine "10 Dateien pro Monat"-Hindernisse mehr bei Deadlines. Verarbeiten Sie alles.'
+      journalists: {
+        title: "Journalisten",
+        des: 'Laden Sie alle Ihre Interviews gleichzeitig hoch. Keine "10 Dateien pro Monat"-Hindernisse mehr bei Deadlines. Verarbeiten Sie alles.'
       },
       researchers: {
         title: "Forscher",
@@ -1159,85 +1167,98 @@ let message = {
       }
     },
     Testimonials: {
-      subtitle: "Sehen Sie, warum Profis NeverCap begrenzten Alternativen vorziehen",
+      subtitle:
+        "Sehen Sie, warum Profis NeverCap begrenzten Alternativen vorziehen",
       Mike: {
-        "text": "Heilige Scheiße, das Ding funktioniert tatsächlich! Habe seit 3 Jahren einen Podcast und habe alles wie ein Idiot manuell transkribiert. 6 Folgen auf einmal hochgeladen und es hat mich und meinen Co-Host perfekt getrennt. Die Café-Folge, die ich für ruiniert hielt? Kristallklare Transkription. Ich werde das nie wieder selbst tippen.",
-        "author": "Mike Rodriguez",
-        "role": "Podcast-Host"
+        text: "Heilige Scheiße, das Ding funktioniert tatsächlich! Habe seit 3 Jahren einen Podcast und habe alles wie ein Idiot manuell transkribiert. 6 Folgen auf einmal hochgeladen und es hat mich und meinen Co-Host perfekt getrennt. Die Café-Folge, die ich für ruiniert hielt? Kristallklare Transkription. Ich werde das nie wieder selbst tippen.",
+        author: "Mike Rodriguez",
+        role: "Podcast-Host"
       },
       Sarah: {
-        "text": "Ich unterrichte online und brauchte Untertitel für meine Videos. Habe 3 andere Tools ausprobiert, die entweder komische Limits hatten oder ewig brauchten. Dieses hier... funktioniert einfach? Meinen spanischen Vortrag hochgeladen, in 2 Minuten perfekte Untertitel bekommen. Meine Schüler mit Hörproblemen sind so glücklich. Wünschte, ich hätte das früher gefunden!",
-        "author": "Sarah Chen",
-        "role": "Online-Lehrerin"
+        text: "Ich unterrichte online und brauchte Untertitel für meine Videos. Habe 3 andere Tools ausprobiert, die entweder komische Limits hatten oder ewig brauchten. Dieses hier... funktioniert einfach? Meinen spanischen Vortrag hochgeladen, in 2 Minuten perfekte Untertitel bekommen. Meine Schüler mit Hörproblemen sind so glücklich. Wünschte, ich hätte das früher gefunden!",
+        author: "Sarah Chen",
+        role: "Online-Lehrerin"
       },
       Jessica: {
-        "text": "Nutze das für meine Interviews und es ist irre, wie akkurat es ist. Ein 2-stündiges Interview in gebrochenem Englisch + Spanisch und alles war korrekt, sogar die Zeitstempel. Habe früher meinem Praktikanten 200$/Monat fürs Transkribieren gezahlt. Das spart mir buchstäblich jeden Monat Geld.",
-        "author": "Jessica Park",
-        "role": "Freie Journalistin"
+        text: "Nutze das für meine Interviews und es ist irre, wie akkurat es ist. Ein 2-stündiges Interview in gebrochenem Englisch + Spanisch und alles war korrekt, sogar die Zeitstempel. Habe früher meinem Praktikanten 200$/Monat fürs Transkribieren gezahlt. Das spart mir buchstäblich jeden Monat Geld.",
+        author: "Jessica Park",
+        role: "Freie Journalistin"
       },
       titleA: "Beliebt bei über 50.000 Benutzern von"
     },
     PricingPreview: {
-      "title": "Transparente Preise",
-      "highlighted_text": "Keine versteckten Limits",
-      "subtitle": "Wählen Sie Ihren Plan. Keine Sternchen, kein Kleingedrucktes, keine Überraschungen"
+      title: "Transparente Preise",
+      highlighted_text: "Keine versteckten Limits",
+      subtitle:
+        "Wählen Sie Ihren Plan. Keine Sternchen, kein Kleingedrucktes, keine Überraschungen"
     },
     FAQSection: {
-      "title": "Häufig gestellte",
-      "titleHighlight": "Fragen",
-      "questions": [
+      title: "Häufig gestellte",
+      titleHighlight: "Fragen",
+      questions: [
         {
-          "q": "KI-Transkription",
-          "question": "Was ist KI-Transkription und wie funktioniert sie?",
-          "answer": "KI-Transkription ist der automatische Prozess der Umwandlung von Audio in Text mittels fortschrittlicher künstlicher Intelligenz. Bei NeverCap laden Sie einfach Ihre Dateien hoch, und unsere KI transkribiert den Inhalt mit bis zu 96% Genauigkeit. Unser Service ist dafür ausgelegt, Video- (wie MP4, MOV) und Audiodateien (wie MP3, WAV) in lesbaren, bearbeitbaren Text umzuwandeln – inklusive Sprecherkennung und Zeitstempeln."
+          q: "KI-Transkription",
+          question: "Was ist KI-Transkription und wie funktioniert sie?",
+          answer:
+            "KI-Transkription ist der automatische Prozess der Umwandlung von Audio in Text mittels fortschrittlicher künstlicher Intelligenz. Bei NeverCap laden Sie einfach Ihre Dateien hoch, und unsere KI transkribiert den Inhalt mit bis zu 96% Genauigkeit. Unser Service ist dafür ausgelegt, Video- (wie MP4, MOV) und Audiodateien (wie MP3, WAV) in lesbaren, bearbeitbaren Text umzuwandeln – inklusive Sprecherkennung und Zeitstempeln."
         },
         {
-          "q": "unlimited_policy",
-          "question": "Ist es wirklich unbegrenzt? Wo ist der Haken?",
-          "answer": "Ja, es ist wirklich unbegrenzt! Keine monatlichen Minutenlimits, keine Zusatzkosten. Die einzigen Limits sind technisch: Einzelne Dateien können bis zu 10 Stunden lang oder 5 GB groß sein, und Sie können 50 Dateien gleichzeitig verarbeiten. Aber Sie können den ganzen Monar über so viele Batches hochladen, wie Sie möchten."
+          q: "unlimited_policy",
+          question: "Ist es wirklich unbegrenzt? Wo ist der Haken?",
+          answer:
+            "Ja, es ist wirklich unbegrenzt! Keine monatlichen Minutenlimits, keine Zusatzkosten. Die einzigen Limits sind technisch: Einzelne Dateien können bis zu 10 Stunden lang oder 5 GB groß sein, und Sie können 50 Dateien gleichzeitig verarbeiten. Aber Sie können den ganzen Monar über so viele Batches hochladen, wie Sie möchten."
         },
         {
-          "q": "accuracy",
-          "question": "Wie genau ist die Transkription?",
-          "answer": "Wir garantieren 96% Genauigkeit bei klarem Audio. Unsere KI wurde mit Millionen Stunden vielfältiger Inhalte trainiert und meistert Akzente, Fachbegriffe und mehrere Sprecher hervorragend. Bei schwierigem Audio helfen unsere Smart-Enhancement-Funktionen, die Ergebnisse zu verbessern."
+          q: "accuracy",
+          question: "Wie genau ist die Transkription?",
+          answer:
+            "Wir garantieren 96% Genauigkeit bei klarem Audio. Unsere KI wurde mit Millionen Stunden vielfältiger Inhalte trainiert und meistert Akzente, Fachbegriffe und mehrere Sprecher hervorragend. Bei schwierigem Audio helfen unsere Smart-Enhancement-Funktionen, die Ergebnisse zu verbessern."
         },
         {
-          "q": "languages",
-          "question": "Welche Sprachen werden unterstützt?",
-          "answer": "Wir unterstützen Transkription in über 100 Sprachen, darunter Englisch, Spanisch, Mandarin, Hindi, Arabisch, Französisch und mehr. Zusätzlich können Sie Ihre Transkripte in 249 verschiedene Sprachen übersetzen – perfekt für globale Inhalte."
+          q: "languages",
+          question: "Welche Sprachen werden unterstützt?",
+          answer:
+            "Wir unterstützen Transkription in über 100 Sprachen, darunter Englisch, Spanisch, Mandarin, Hindi, Arabisch, Französisch und mehr. Zusätzlich können Sie Ihre Transkripte in 249 verschiedene Sprachen übersetzen – perfekt für globale Inhalte."
         },
         {
-          "q": "speed",
-          "question": "Wie schnell ist die Transkription?",
-          "answer": "Blitzschnell! Eine 1-stündige Audiodatei wird typischerweise in unter 5 Minuten verarbeitet. Mit Batch-Verarbeitung können Sie 50 Dateien gleichzeitig hochladen und parallel verarbeiten lassen. Die meisten Nutzer wachen auf und finden ihre gesamte Bibliothek über Nacht transkribiert."
+          q: "speed",
+          question: "Wie schnell ist die Transkription?",
+          answer:
+            "Blitzschnell! Eine 1-stündige Audiodatei wird typischerweise in unter 5 Minuten verarbeitet. Mit Batch-Verarbeitung können Sie 50 Dateien gleichzeitig hochladen und parallel verarbeiten lassen. Die meisten Nutzer wachen auf und finden ihre gesamte Bibliothek über Nacht transkribiert."
         },
         {
-          "q": "cancellation",
-          "question": "Kann ich jederzeit kündigen?",
-          "answer": "Absolut! Keine Verträge, keine Kündigungsgebühren. Sie können Ihr Abo jederzeit in Ihrem Dashboard upgraden, downgraden oder kündigen. Bei Kündigung behalten Sie den Zugang bis zum Ende Ihres Abrechnungszeitraums."
+          q: "cancellation",
+          question: "Kann ich jederzeit kündigen?",
+          answer:
+            "Absolut! Keine Verträge, keine Kündigungsgebühren. Sie können Ihr Abo jederzeit in Ihrem Dashboard upgraden, downgraden oder kündigen. Bei Kündigung behalten Sie den Zugang bis zum Ende Ihres Abrechnungszeitraums."
         },
         {
-          "q": "security",
-          "question": "Sind meine Daten sicher?",
-          "answer": "Ihre Sicherheit hat Priorität. Wir sind SOC-2-zertifiziert, verwenden 256-Bit-Verschlüsselung für alle Daten und nutzen Ihre Inhalte nie zum Trainieren unserer Modelle. Sie können Ihre Dateien jederzeit löschen, und wir löschen sie automatisch nach 30 Tagen. DSGVO- und CCPA-konform."
+          q: "security",
+          question: "Sind meine Daten sicher?",
+          answer:
+            "Ihre Sicherheit hat Priorität. Wir sind SOC-2-zertifiziert, verwenden 256-Bit-Verschlüsselung für alle Daten und nutzen Ihre Inhalte nie zum Trainieren unserer Modelle. Sie können Ihre Dateien jederzeit löschen, und wir löschen sie automatisch nach 30 Tagen. DSGVO- und CCPA-konform."
         },
         {
-          "q": "export_formats",
-          "question": "Welche Exportformate gibt es?",
-          "answer": "Laden Sie Ihre Transkripte in jedem benötigten Format herunter: PDF, Word (DOCX), Excel, CSV, SRT-Untertitel, reiner Text (TXT) und VTT-Untertitel. Perfekt für jeden Workflow."
+          q: "export_formats",
+          question: "Welche Exportformate gibt es?",
+          answer:
+            "Laden Sie Ihre Transkripte in jedem benötigten Format herunter: PDF, Word (DOCX), Excel, CSV, SRT-Untertitel, reiner Text (TXT) und VTT-Untertitel. Perfekt für jeden Workflow."
         },
         {
-          "q": "file_formats",
-          "question": "Welche Audio- und Videoformate kann ich hochladen?",
-          "answer": "Wir unterstützen praktisch jedes Audio- und Videoformat: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV und mehr. Wenn Sie es abspielen können, können wir es transkribieren."
+          q: "file_formats",
+          question: "Welche Audio- und Videoformate kann ich hochladen?",
+          answer:
+            "Wir unterstützen praktisch jedes Audio- und Videoformat: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV und mehr. Wenn Sie es abspielen können, können wir es transkribieren."
         }
       ]
     },
     CTASection: {
-      "title": "Bereit, Grenzen zu sprengen?",
-      "subtitle": "Schließen Sie sich 50.000+ Profis an, die zu wirklich unbegrenzter Transkription gewechselt haben",
-      "button": "NeverCap kostenlos testen",
-      "disclaimer": "Keine Kreditkarte für den kostenlosen Plan erforderlich • Jederzeit für unbegrenzten Zugang upgraden"
+      title: "Bereit, Grenzen zu sprengen?",
+      subtitle:
+        "Schließen Sie sich 50.000+ Profis an, die zu wirklich unbegrenzter Transkription gewechselt haben",
+      button: "NeverCap kostenlos testen",
+      disclaimer:
+        "Keine Kreditkarte für den kostenlosen Plan erforderlich • Jederzeit für unbegrenzten Zugang upgraden"
     }
   },
   Features: {
@@ -1255,7 +1276,8 @@ let message = {
       comparisonBadItem1Text: '"Unbegrenzt" = 50 Stunden/Monat Limit',
       comparisonBadItem2Icon: "✕",
       comparisonBadItem2Strong: "Otter:",
-      comparisonBadItem2Text: "3 lebenslange Importe (kostenlos), 10/Monat (Pro)",
+      comparisonBadItem2Text:
+        "3 lebenslange Importe (kostenlos), 10/Monat (Pro)",
       comparisonBadItem3Icon: "✕",
       comparisonBadItem3Strong: "Fireflies:",
       comparisonBadItem3Text: "800 Minuten Speicherlimit",
@@ -1284,7 +1306,8 @@ let message = {
       feature1Label: "Keine Grenzen",
       feature1TitlePart1: "1.000 Stunden transkribieren?",
       feature1TitlePart2: "Gleicher Preis.",
-      feature1Description: "Hören Sie auf, Minuten zu zählen. Hören Sie auf, auf Limits zu achten. Egal, ob Sie 10 oder 10.000 Stunden pro Monat transkribieren, Sie zahlen den gleichen Pauschalpreis. Keine Zusatzkosten. Keine Überraschungsrechnungen.",
+      feature1Description:
+        "Hören Sie auf, Minuten zu zählen. Hören Sie auf, auf Limits zu achten. Egal, ob Sie 10 oder 10.000 Stunden pro Monat transkribieren, Sie zahlen den gleichen Pauschalpreis. Keine Zusatzkosten. Keine Überraschungsrechnungen.",
       feature1Point1Icon: "✓",
       feature1Point1Text: 'Keine "Fair Use"-Richtlinientricks',
       feature1Point2Icon: "✓",
@@ -1302,7 +1325,8 @@ let message = {
       feature2Label: "Bulk-Freiheit",
       feature2TitlePart1: "Laden Sie Ihr",
       feature2TitlePart2: "Gesamtes Archiv hoch",
-      feature2Description: "Otter bietet 3 lebenslange Importe kostenlos, 10 pro Monat bei Pro. Wir bieten unbegrenzt. Laden Sie Ihre Podcast-Backlogs, alle Interviews, Jahre an Aufnahmen hoch. Keine Einschränkungen.",
+      feature2Description:
+        "Otter bietet 3 lebenslange Importe kostenlos, 10 pro Monat bei Pro. Wir bieten unbegrenzt. Laden Sie Ihre Podcast-Backlogs, alle Interviews, Jahre an Aufnahmen hoch. Keine Einschränkungen.",
       feature2Point1Icon: "✓",
       feature2Point1Text: "50 Dateien pro Batch",
       feature2Point2Icon: "✓",
@@ -1319,7 +1343,8 @@ let message = {
       feature3Label: "Sozialer Beweis",
       feature3TitlePart1: "Nutzer wechseln",
       feature3TitlePart2: "Täglich",
-      feature3Description: '"Ich zahle $100/Jahr für Otter und bin auf 10 Dateiimporte pro Monat beschränkt. Sobald es eine Alternative mit unbegrenzten Importen gibt, bin ich weg!" - Echter Reddit-Nutzer',
+      feature3Description:
+        '"Ich zahle $100/Jahr für Otter und bin auf 10 Dateiimporte pro Monat beschränkt. Sobald es eine Alternative mit unbegrenzten Importen gibt, bin ich weg!" - Echter Reddit-Nutzer',
       feature3Point1Icon: "✓",
       feature3Point1Text: "50.000+ Nutzer gewechselt",
       feature3Point2Icon: "✓",
@@ -1343,26 +1368,32 @@ let message = {
       trustBadge4Number: "50",
       trustBadge4Label: "Batch-Upload",
       ctaTitle: "Zahlen Sie nicht für falsches Unbegrenzt",
-      ctaSubtitle: "Schließen Sie sich Tausenden an, die zu wirklich unbegrenzter Transkription gewechselt sind",
+      ctaSubtitle:
+        "Schließen Sie sich Tausenden an, die zu wirklich unbegrenzter Transkription gewechselt sind",
       finalCta: "NeverCap kostenlos testen",
-      heroSubtitle1: "Während Trint Sie auf 50 Stunden begrenzt und Otter Sie auf 10 Dateien pro Monat beschränkt,",
-      heroSubtitle2: "halten, was wir tatsächlich versprechen: unbegrenzte Transkription ohne versteckte Obergrenzen."
+      heroSubtitle1:
+        "Während Trint Sie auf 50 Stunden begrenzt und Otter Sie auf 10 Dateien pro Monat beschränkt,",
+      heroSubtitle2:
+        "halten, was wir tatsächlich versprechen: unbegrenzte Transkription ohne versteckte Obergrenzen."
     },
     BulkUpload: {
       heroBadgeIcon: "📁",
       heroBadgeText: "Bulk-Upload-Freiheit",
       heroTitleLine1: "50 Dateien hochladen.",
       heroTitleHighlight: "Alles verarbeiten.",
-      heroSubtitle: "Otter gibt Ihnen 3 lebenslange Importe. DREI. Für Ihr gesamtes Leben. Wir bieten Ihnen unbegrenzte Uploads, jeweils 50 Dateien, wann immer Sie möchten.",
+      heroSubtitle:
+        "Otter gibt Ihnen 3 lebenslange Importe. DREI. Für Ihr gesamtes Leben. Wir bieten Ihnen unbegrenzte Uploads, jeweils 50 Dateien, wann immer Sie möchten.",
       primaryCta: "Bulk-Upload starten →",
       secondaryCta: "Grenzen anzeigen",
-      redditQuote: '"Ich habe 3 Jahre Podcast-Episoden zu transkribieren. Otter sagt mir, ich bekomme 3 lebenslange Importe. DREI. Das ist beleidigend."',
+      redditQuote:
+        '"Ich habe 3 Jahre Podcast-Episoden zu transkribieren. Otter sagt mir, ich bekomme 3 lebenslange Importe. DREI. Das ist beleidigend."',
       redditAuthorIcon: "📍",
       redditAuthorText: "Echte Frustration von r/podcasting",
       comparisonSectionTitlePart1: "Die",
       comparisonSectionTitleHighlight: "Lächerlichen Grenzen",
       comparisonSectionTitlePart2: "Die sie auferlegen",
-      comparisonSubtitle: "Wie Konkurrenten Ihre Verarbeitungsfähigkeit einschränken",
+      comparisonSubtitle:
+        "Wie Konkurrenten Ihre Verarbeitungsfähigkeit einschränken",
       limitCard1Service: "Otter Free",
       limitCard1Number: "3",
       limitCard1DescriptionLine1: "Lebenslange Importe",
@@ -1382,7 +1413,8 @@ let message = {
       feature1TitlePart1: "Verarbeiten Sie Ihr",
       feature1TitleHighlight: "Gesamtes Archiv",
       feature1TitlePart2: "Über Nacht",
-      feature1Description: 'Laden Sie 50 Dateien vor dem Schlafengehen hoch. Wachen Sie mit fertigen Transkripten auf. Keine Warteschlange, kein Warten, keine "Bitte upgraden"-Nachrichten. Einfach pure Verarbeitungsleistung zur Hand.',
+      feature1Description:
+        'Laden Sie 50 Dateien vor dem Schlafengehen hoch. Wachen Sie mit fertigen Transkripten auf. Keine Warteschlange, kein Warten, keine "Bitte upgraden"-Nachrichten. Einfach pure Verarbeitungsleistung zur Hand.',
       feature1Point1Icon: "✓",
       feature1Point1Text: "50 gleichzeitige Uploads",
       feature1Point2Icon: "✓",
@@ -1401,7 +1433,8 @@ let message = {
       feature2Label: "Geschwindigkeit",
       feature2TitlePart1: "Vom Hochladen bis",
       feature2TitleHighlight: "Fertig in Stunden",
-      feature2Description: "Unsere parallele Verarbeitungsinfrastruktur bedeutet, dass Ihre 50 Dateien nicht in der Warteschlange stehen. Sie werden alle gleichzeitig transkribiert. Was früher Wochen dauerte, ist jetzt in Stunden erledigt.",
+      feature2Description:
+        "Unsere parallele Verarbeitungsinfrastruktur bedeutet, dass Ihre 50 Dateien nicht in der Warteschlange stehen. Sie werden alle gleichzeitig transkribiert. Was früher Wochen dauerte, ist jetzt in Stunden erledigt.",
       feature2Point1Icon: "✓",
       feature2Point1Text: "1-stündige Datei: 5 Minuten",
       feature2Point2Icon: "✓",
@@ -1424,7 +1457,8 @@ let message = {
       feature3TitlePart1: "Keine Warteschlangen.",
       feature3TitleHighlight: "Kein Warten.",
       feature3TitlePart2: "Keine Grenzen.",
-      feature3Description: "Während andere Sie in virtuellen Schlangen warten lassen oder ein Upgrade für „Prioritätsverarbeitung“ verlangen, behandeln wir jeden Upload mit Dringlichkeit. Ihr Content ist wichtig und sollte nicht warten.",
+      feature3Description:
+        "Während andere Sie in virtuellen Schlangen warten lassen oder ein Upgrade für „Prioritätsverarbeitung“ verlangen, behandeln wir jeden Upload mit Dringlichkeit. Ihr Content ist wichtig und sollte nicht warten.",
       feature3Point1Icon: "✓",
       feature3Point1Text: "Keine Prioritätsstufen",
       feature3Point2Icon: "✓",
@@ -1436,21 +1470,29 @@ let message = {
       feature3VisualSubtext: "Hochladen, wann immer die Inspiration kommt",
       useCasesTitlePart1: "Perfekt für",
       useCasesTitleHighlight: "Viel-Uploader",
-      useCasesSubtitle: "Echte Szenarien, in denen Massen-Uploads den Tag retten",
+      useCasesSubtitle:
+        "Echte Szenarien, in denen Massen-Uploads den Tag retten",
       useCase1Title: "Podcast-Archive",
-      useCase1Description: "Laden Sie 3 Jahre Episoden auf einmal hoch. Erstellen Sie Transkripte für Ihren gesamten Backkatalog. Generieren Sie SEO-Inhalte für jede Episode.",
+      useCase1Description:
+        "Laden Sie 3 Jahre Episoden auf einmal hoch. Erstellen Sie Transkripte für Ihren gesamten Backkatalog. Generieren Sie SEO-Inhalte für jede Episode.",
       useCase2Title: "Kurserstellung",
-      useCase2Description: "Verarbeiten Sie alle Ihre Vorlesungsvideos gleichzeitig. Erstellen Sie barrierefreie Transkripte für Studenten. Bauen Sie durchsuchbare Kursmaterialien auf.",
+      useCase2Description:
+        "Verarbeiten Sie alle Ihre Vorlesungsvideos gleichzeitig. Erstellen Sie barrierefreie Transkripte für Studenten. Bauen Sie durchsuchbare Kursmaterialien auf.",
       useCase3Title: "Interview-Backlog",
-      useCase3Description: "Räumen Sie den Berg untranskribierter Interviews ab. Verarbeiten Sie Wochen an Forschung in Stunden. Halten Sie Ihre Deadline ohne Panik ein.",
+      useCase3Description:
+        "Räumen Sie den Berg untranskribierter Interviews ab. Verarbeiten Sie Wochen an Forschung in Stunden. Halten Sie Ihre Deadline ohne Panik ein.",
       useCase4Title: "YouTube-Bibliothek",
-      useCase4Description: "Generieren Sie Untertitel für Ihren gesamten Kanal. Erstellen Sie Blogposts aus Videoinhalten. Verbessern Sie die SEO für alle Videos.",
+      useCase4Description:
+        "Generieren Sie Untertitel für Ihren gesamten Kanal. Erstellen Sie Blogposts aus Videoinhalten. Verbessern Sie die SEO für alle Videos.",
       useCase5Title: "Meeting-Archive",
-      useCase5Description: "Laden Sie monatelang aufgezeichnete Meetings hoch. Erstellen Sie durchsuchbare Besprechungsnotizen. Verlieren Sie nie wieder wichtige Entscheidungen.",
+      useCase5Description:
+        "Laden Sie monatelang aufgezeichnete Meetings hoch. Erstellen Sie durchsuchbare Besprechungsnotizen. Verlieren Sie nie wieder wichtige Entscheidungen.",
       useCase6Title: "Forschungsdaten",
-      useCase6Description: "Verarbeiten Sie Fokusgruppen in Massen. Transkribieren Sie alle Teilnehmerinterviews. Analysieren Sie qualitative Daten effizient.",
+      useCase6Description:
+        "Verarbeiten Sie Fokusgruppen in Massen. Transkribieren Sie alle Teilnehmerinterviews. Analysieren Sie qualitative Daten effizient.",
       ctaTitle: "Schluss mit dem Betteln um mehr Uploads",
-      ctaSubtitle: "Erhalten Sie unbegrenzte Massenverarbeitung, die wirklich funktioniert",
+      ctaSubtitle:
+        "Erhalten Sie unbegrenzte Massenverarbeitung, die wirklich funktioniert",
       finalCta: "Jetzt 50 Dateien hochladen →"
     },
     Accuracy: {
@@ -1458,7 +1500,8 @@ let message = {
       heroBadgeText: "Branchenführende Genauigkeit",
       heroTitleLine1: "96% Genauigkeit.",
       heroTitleHighlight: "Jedes Wort zählt.",
-      heroSubtitle: "Branchenführende Genauigkeit in 12 Hauptsprachen. Wortgenaue Zeitstempel für perfekte Synchronisation. Intelligente Sprechererkennung für schnelle Gespräche. Professionelle Formatierung, die wirklich lesbar ist.",
+      heroSubtitle:
+        "Branchenführende Genauigkeit in 12 Hauptsprachen. Wortgenaue Zeitstempel für perfekte Synchronisation. Intelligente Sprechererkennung für schnelle Gespräche. Professionelle Formatierung, die wirklich lesbar ist.",
       primaryCta: "Testen Sie unsere Genauigkeit →",
       secondaryCta: "Sprachen anzeigen",
       statCard1Percentage: "96%",
@@ -1508,11 +1551,13 @@ let message = {
       languageCard12Flag: "🇸🇦",
       languageCard12Name: "Arabisch",
       languageCard12Accuracy: "96 % Genauigkeit",
-      moreLanguagesText: "+ 88 weitere Sprachen mit 95 %+ Genauigkeit unterstützt",
+      moreLanguagesText:
+        "+ 88 weitere Sprachen mit 95 %+ Genauigkeit unterstützt",
       feature1Label: "Präzision",
       feature1TitlePart1: "Wortgenau",
       feature1TitleHighlight: "Zeitstempel",
-      feature1Description: "Jedes Wort ist perfekt mit seiner Audio-Position synchronisiert. Erstellen Sie klickbare Transkripte, generieren Sie präzise Untertitel oder springen Sie zu exakten Momenten in Ihren Aufnahmen. 100 ms Präzision, der Profis vertrauen.",
+      feature1Description:
+        "Jedes Wort ist perfekt mit seiner Audio-Position synchronisiert. Erstellen Sie klickbare Transkripte, generieren Sie präzise Untertitel oder springen Sie zu exakten Momenten in Ihren Aufnahmen. 100 ms Präzision, der Profis vertrauen.",
       feature1Point1Icon: "✓",
       feature1Point1Text: "100 ms Zeitstempel-Genauigkeit",
       feature1Point2Icon: "✓",
@@ -1532,11 +1577,13 @@ let message = {
       transcriptLine3Text: "Lasst uns direkt zum Hauptthema kommen...",
       transcriptLine4Timestamp: "00:20.120",
       transcriptLine4Speaker: "Sprecher 2",
-      transcriptLine4Text: "Auf jeden Fall, ich freue mich darauf, darüber zu sprechen.",
+      transcriptLine4Text:
+        "Auf jeden Fall, ich freue mich darauf, darüber zu sprechen.",
       feature2Label: "Intelligente KI",
       feature2TitlePart1: "Verarbeitet",
       feature2TitleHighlight: "Schnelle Gespräche",
-      feature2Description: "Unsere KI erkennt Sprecher selbst bei überlappender Sprache, Unterbrechungen und schnellen Hin-und-Her-Gesprächen genau. Perfekt für Interviews, Podcasts und Meetings, in denen häufig dazwischengeredet wird.",
+      feature2Description:
+        "Unsere KI erkennt Sprecher selbst bei überlappender Sprache, Unterbrechungen und schnellen Hin-und-Her-Gesprächen genau. Perfekt für Interviews, Podcasts und Meetings, in denen häufig dazwischengeredet wird.",
       feature2Point1Icon: "✓",
       feature2Point1Text: "Erkennt bis zu 20 Sprecher",
       feature2Point2Icon: "✓",
@@ -1551,7 +1598,8 @@ let message = {
       feature3Label: "Lesbarkeit",
       feature3TitlePart1: "Perfekt",
       feature3TitleHighlight: "Formatierter Text",
-      feature3Description: "Keine Textwände mehr. Unsere KI fügt automatisch Absätze, Sätze und Satzzeichen genau dort ein, wo sie hingehören. Das Ergebnis? Transkripte, die angenehm zu lesen und einfach zu überfliegen sind.",
+      feature3Description:
+        "Keine Textwände mehr. Unsere KI fügt automatisch Absätze, Sätze und Satzzeichen genau dort ein, wo sie hingehören. Das Ergebnis? Transkripte, die angenehm zu lesen und einfach zu überfliegen sind.",
       feature3Point1Icon: "✓",
       feature3Point1Text: "Intelligente Absatzumbrüche",
       feature3Point2Icon: "✓",
@@ -1562,9 +1610,11 @@ let message = {
       feature3Point4Text: "Saubere, überfliegbare Ausgabe",
       formattingTitle: "Vorher & Nachher",
       formattingBeforeLabel: "❌ Andere:",
-      formattingBeforeText: "so today were going to talk about the new features weve been working on i think youll really like them theyve been requested by users for a long time and we finally got them done",
+      formattingBeforeText:
+        "so today were going to talk about the new features weve been working on i think youll really like them theyve been requested by users for a long time and we finally got them done",
       formattingAfterLabel: "✓ NeverCap:",
-      formattingAfterText: "So today, we're going to talk about the new features we've been working on. I think you'll really like them. They've been requested by users for a long time, and we finally got them done.",
+      formattingAfterText:
+        "So today, we're going to talk about the new features we've been working on. I think you'll really like them. They've been requested by users for a long time, and we finally got them done.",
       comparisonSubtitle: "Genauigkeit",
       comparisonSectionTitle: "Vergleich",
       tableHeader1: "Funktion",
@@ -1599,7 +1649,8 @@ let message = {
       tableRow6Descript: "✕",
       tableRow6Rev: "✕",
       ctaTitle: "Erleben Sie 96% Genauigkeit",
-      ctaSubtitle: "Laden Sie Ihre anspruchsvollste Audiodatei hoch und sehen Sie den Unterschied",
+      ctaSubtitle:
+        "Laden Sie Ihre anspruchsvollste Audiodatei hoch und sehen Sie den Unterschied",
       finalCta: "Jetzt Genauigkeit testen →",
       languageSectionTitlePart2: "in 12 Hauptsprachen",
       comparisonDes1: "So geht's",
@@ -1608,231 +1659,246 @@ let message = {
   },
   Pricing: {
     Hero: {
-      "title": "Einfache, transparente Preise",
-      "highlighted_text": "Keine versteckten Limits",
-      "description": "Wählen Sie den passenden Tarif. Jederzeit upgraden oder downgraden. Keine Verträge, keine Überraschungen."
+      title: "Einfache, transparente Preise",
+      highlighted_text: "Keine versteckten Limits",
+      description:
+        "Wählen Sie den passenden Tarif. Jederzeit upgraden oder downgraden. Keine Verträge, keine Überraschungen."
     },
     Cards: {
-      "title": "Einfache, transparente Preise.",
-      "highlighted_text": "Keine versteckten Limits.",
-      "description": "Wählen Sie den passenden Tarif. Jederzeit upgraden oder downgraden. Keine Verträge, keine Überraschungen.",
-      "plans": [
+      title: "Einfache, transparente Preise.",
+      highlighted_text: "Keine versteckten Limits.",
+      description:
+        "Wählen Sie den passenden Tarif. Jederzeit upgraden oder downgraden. Keine Verträge, keine Überraschungen.",
+      plans: [
         {
-          "name": "Kostenlos",
-          "price": "$0",
-          "period": "Monat",
-          "discount": "Ideal zum Ausprobieren unseres Dienstes",
-          "limits": {
-            "title": "Tägliche Limits",
-            "items": [
+          name: "Kostenlos",
+          price: "$0",
+          period: "Monat",
+          discount: "Ideal zum Ausprobieren unseres Dienstes",
+          limits: {
+            title: "Tägliche Limits",
+            items: [
               "3 Dateien pro Tag",
               "Bis zu 10 Stunden / 5 GB pro Datei",
               "Kostenlose 30-minütige Vorschau auf alle Transkripte",
               "Laden Sie jeweils 1 Datei hoch",
-              'Standard-Prioritätswarteschlange'
+              "Standard-Prioritätswarteschlange"
             ]
           },
-          "features": {
-            "title": "Funktionen",
-            "items": [
+          features: {
+            title: "Funktionen",
+            items: [
               "100+ Sprachen",
               "Sprecherkennung",
               "Übersetzung",
               "Alle Exportformate"
             ]
           },
-          "cta": {
-            "text": "Kostenlos starten. Keine Kreditkarte.",
-            "button": "Aktueller Tarif"
+          cta: {
+            text: "Kostenlos starten. Keine Kreditkarte.",
+            button: "Aktueller Tarif"
           }
         },
         {
-          "name": "Pro-Monatsabo",
-          "price": "$17,99",
-          "period": "Monat",
-          "discount": "$9,99 im ersten Monat",
-          "limits": {
-            "title": "Kein monatliches Limit",
-            "items": [
+          name: "Pro-Monatsabo",
+          price: "$17,99",
+          period: "Monat",
+          discount: "$9,99 im ersten Monat",
+          limits: {
+            title: "Kein monatliches Limit",
+            items: [
               "Unbegrenzte Minuten gesamt",
               "Bis zu 10 Std. / 5 GB pro Datei",
               "50 Dateien gleichzeitig hochladen",
               "Priorisierte Warteschlange"
             ]
           },
-          "features": {
-            "title": "Alles aus Kostenlos, plus",
-            "items": [
+          features: {
+            title: "Alles aus Kostenlos, plus",
+            items: [
               "Wortgenaue Zeitstempel",
               "Erweiterte Sprechererkennung",
               "Formatierte Absätze & Zeichensetzung",
               "Priorisierter Support"
             ]
           },
-          "cta": {
-            "text": "Unbegrenzte Minuten. Priorisierte Geschwindigkeit. Stapeluploads.",
-            "button": "Pro werden"
+          cta: {
+            text: "Unbegrenzte Minuten. Priorisierte Geschwindigkeit. Stapeluploads.",
+            button: "Pro werden"
           },
-          "badge": "Beliebtester"
+          badge: "Beliebtester"
         },
         {
-          "name": "Pro-Jahresabo",
-          "price": "$8.99",
-          "period": "Monat",
-          "discount": "Jährliche Abrechnung $107,88",
-          "limits": {
-            "title": "Wie Pro Monatlich",
-            "items": [
+          name: "Pro-Jahresabo",
+          price: "$8.99",
+          period: "Monat",
+          discount: "Jährliche Abrechnung $107,88",
+          limits: {
+            title: "Wie Pro Monatlich",
+            items: [
               "Unbegrenzte Minuten gesamt",
               "Bis zu 10 Std. / 5 GB pro Datei",
               "50 Dateien gleichzeitig hochladen",
               "Priorisierte Warteschlange"
             ]
           },
-          "features": {
-            "title": "Alles aus Kostenlos, plus",
-            "items": [
+          features: {
+            title: "Alles aus Kostenlos, plus",
+            items: [
               "Wortgenaue Zeitstempel",
               "Erweiterte Sprechererkennung",
               "Formatierte Absätze & Zeichensetzung",
               "Priorisierter Support"
             ]
           },
-          "cta": {
-            "text": "Unbegrenzte Minuten. Priorisierte Geschwindigkeit. Stapeluploads.",
-            "button": "Pro werden"
+          cta: {
+            text: "Unbegrenzte Minuten. Priorisierte Geschwindigkeit. Stapeluploads.",
+            button: "Pro werden"
           },
-          "badge": "Bestes Preis-Leistungs-Verhältnis - "
+          badge: "Bestes Preis-Leistungs-Verhältnis - "
         }
       ],
-      "disclaimer": '"Unbegrenzt" bedeutet keine monatliche Obergrenze und keine künstliche Verlangsamung. Fair-Use gilt bei missbräuchlicher Automatisierung oder Weiterverteilung.'
+      disclaimer:
+        '"Unbegrenzt" bedeutet keine monatliche Obergrenze und keine künstliche Verlangsamung. Fair-Use gilt bei missbräuchlicher Automatisierung oder Weiterverteilung.'
     },
     ComparisonTable: {
-      "header": {
-        "title": "Vergleichen",
-        "highlighted_text": "Alle Funktionen",
-        "subtitle": "Sehen Sie genau, was Sie mit jedem Tarif erhalten. Keine versteckten Einschränkungen."
+      header: {
+        title: "Vergleichen",
+        highlighted_text: "Alle Funktionen",
+        subtitle:
+          "Sehen Sie genau, was Sie mit jedem Tarif erhalten. Keine versteckten Einschränkungen."
       },
-      "plans": [
-        "Funktionen",
-        "Kostenlos",
-        "Pro Monatlich",
-        "Pro Jährlich"
-      ],
-      "features": [
+      plans: ["Funktionen", "Kostenlos", "Pro Monatlich", "Pro Jährlich"],
+      features: [
         {
-          "name": "Preis",
-          "values": [
+          name: "Preis",
+          values: [
             "$0/Monat",
             {
-              "main": "$17.99/Monat",
-              "note": "$9.99 erste Monat"
+              main: "$17.99/Monat",
+              note: "$9.99 erste Monat"
             },
             {
-              "main": "$8.99/Monat",
-              "note": "Jährliche Zahlung $107.88"
+              main: "$8.99/Monat",
+              note: "Jährliche Zahlung $107.88"
             }
           ]
         },
         {
-          "name": "Tägliches Dateilimit",
-          "values": ["3 Dateien/Tag", "Unbegrenzt", "Unbegrenzt"]
+          name: "Tägliches Dateilimit",
+          values: ["3 Dateien/Tag", "Unbegrenzt", "Unbegrenzt"]
         },
         {
-          "name": "Maximale Dateidauer",
-          "values": ["10 Stunden", "10 Stunden", "10 Stunden"]
+          name: "Maximale Dateidauer",
+          values: ["10 Stunden", "10 Stunden", "10 Stunden"]
         },
         {
-          "name": "Maximale Dateigröße",
-          "values": ["5 GB", "5 GB", "5 GB"]
+          name: "Maximale Dateigröße",
+          values: ["5 GB", "5 GB", "5 GB"]
         },
         {
-          "name": "Zugriff auf Transkripte",
-          "values": ["Erste 30-minütige Vorschau", "Vollständiges Transkript", "Vollständiges Transkript"]
+          name: "Zugriff auf Transkripte",
+          values: [
+            "Erste 30-minütige Vorschau",
+            "Vollständiges Transkript",
+            "Vollständiges Transkript"
+          ]
         },
         {
-          "name": "Stapel-Uploads",
-          "values": ["1 Datei", "50 Dateien", "50 Dateien"]
+          name: "Stapel-Uploads",
+          values: ["1 Datei", "50 Dateien", "50 Dateien"]
         },
         {
-          "name": "Verarbeitungsgeschwindigkeit",
-          "values": ["Standard", "Priorität", "Priorität"]
+          name: "Verarbeitungsgeschwindigkeit",
+          values: ["Standard", "Priorität", "Priorität"]
         },
         {
-          "name": "Unterstützte Sprachen",
-          "values": ["100+ Sprachen", "100+ Sprachen", "100+ Sprachen"]
+          name: "Unterstützte Sprachen",
+          values: ["100+ Sprachen", "100+ Sprachen", "100+ Sprachen"]
         },
         {
-          "name": "Übersetzung",
-          "values": ["true", "true", "true"]
+          name: "Übersetzung",
+          values: ["true", "true", "true"]
         },
         {
-          "name": "Sprechererkennung",
-          "values": ["Basis", "Erweitert (20 Sprecher)", "Erweitert (20 Sprecher)"]
+          name: "Sprechererkennung",
+          values: [
+            "Basis",
+            "Erweitert (20 Sprecher)",
+            "Erweitert (20 Sprecher)"
+          ]
         },
         {
-          "name": "Wortgenaue Zeitstempel",
-          "values": ["false", "true", "true"]
+          name: "Wortgenaue Zeitstempel",
+          values: ["false", "true", "true"]
         },
         {
-          "name": "Formatierte Absätze",
-          "values": ["false", "true", "true"]
+          name: "Formatierte Absätze",
+          values: ["false", "true", "true"]
         },
         {
-          "name": "Exportformate",
-          "values": ["Alle Formate", "Alle Formate", "Alle Formate"]
+          name: "Exportformate",
+          values: ["Alle Formate", "Alle Formate", "Alle Formate"]
         },
         {
-          "name": "Support",
-          "values": ["E-Mail", "Priorisierte E-Mail", "Priorisierte E-Mail"]
+          name: "Support",
+          values: ["E-Mail", "Priorisierte E-Mail", "Priorisierte E-Mail"]
         },
         {
-          "name": "Datenspeicherung",
-          "values": ["30 Tage", "Dauerhaft", "Dauerhaft"]
+          name: "Datenspeicherung",
+          values: ["30 Tage", "Dauerhaft", "Dauerhaft"]
         }
       ]
     },
     FAQ: {
-      "title": "Häufig gestellte",
-      "titleHighligt": "Fragen",
-      "items": [
+      title: "Häufig gestellte",
+      titleHighligt: "Fragen",
+      items: [
         {
-          "q": "unlimited_policy",
-          "question": "Ist es wirklich unbegrenzt?",
-          "answer": "Ja! Pro-Pläne haben keine monatlichen Minutengrenzen. Die einzigen Limits sind technisch: Maximale Dateidauer von 10 Stunden und Dateigröße von 5GB. Sie können so viele Dateien verarbeiten, wie Sie benötigen."
+          q: "unlimited_policy",
+          question: "Ist es wirklich unbegrenzt?",
+          answer:
+            "Ja! Pro-Pläne haben keine monatlichen Minutengrenzen. Die einzigen Limits sind technisch: Maximale Dateidauer von 10 Stunden und Dateigröße von 5GB. Sie können so viele Dateien verarbeiten, wie Sie benötigen."
         },
         {
-          "q": "plan_change",
-          "question": "Kann ich Pläne jederzeit ändern?",
-          "answer": "Absolut! Sie können Ihr Abonnement jederzeit über Ihr Dashboard kündigen. Jederzeit hoch- oder herabstufen, wie Sie es benötigen."
+          q: "plan_change",
+          question: "Kann ich Pläne jederzeit ändern?",
+          answer:
+            "Absolut! Sie können Ihr Abonnement jederzeit über Ihr Dashboard kündigen. Jederzeit hoch- oder herabstufen, wie Sie es benötigen."
         },
         {
-          "q": "payment_methods",
-          "question": "Welche Zahlungsmethoden akzeptieren Sie?",
-          "answer": "Wir akzeptieren alle gängigen Kreditkarten, Debitkarten und PayPal für sichere, problemlose Zahlungen."
+          q: "payment_methods",
+          question: "Welche Zahlungsmethoden akzeptieren Sie?",
+          answer:
+            "Wir akzeptieren alle gängigen Kreditkarten, Debitkarten und PayPal für sichere, problemlose Zahlungen."
         },
         {
-          "q": "free_trial",
-          "question": "Gibt es eine kostenlose Testversion für Pro?",
-          "answer": "Ja! Testen Sie Pro 7 Tage lang kostenlos, ohne Kreditkarte. Plus: Erhalten Sie Ihren ersten Monat mit 45% Rabatt bei Anmeldung."
+          q: "free_trial",
+          question: "Gibt es eine kostenlose Testversion für Pro?",
+          answer:
+            "Ja! Testen Sie Pro 7 Tage lang kostenlos, ohne Kreditkarte. Plus: Erhalten Sie Ihren ersten Monat mit 45% Rabatt bei Anmeldung."
         },
         {
-          "q": "file_retention",
-          "question": "Wie lange werden meine Dateien gespeichert?",
-          "answer": "Kostenloser Plan: 30 Tage. Pro-Pläne: Dauerhaft! Ihre Transkripte sind immer in Ihrem Konto verfügbar."
+          q: "file_retention",
+          question: "Wie lange werden meine Dateien gespeichert?",
+          answer:
+            "Kostenloser Plan: 30 Tage. Pro-Pläne: Dauerhaft! Ihre Transkripte sind immer in Ihrem Konto verfügbar."
         },
         {
-          "q": "data_security",
-          "question": "Wie sieht es mit der Datensicherheit aus?",
-          "answer": "Wir sind SOC 2-zertifiziert und verwenden 256-Bit-Verschlüsselung. Wir nutzen Ihre Inhalte nie zum Training unserer Modelle. Ihre Daten gehören Ihnen."
+          q: "data_security",
+          question: "Wie sieht es mit der Datensicherheit aus?",
+          answer:
+            "Wir sind SOC 2-zertifiziert und verwenden 256-Bit-Verschlüsselung. Wir nutzen Ihre Inhalte nie zum Training unserer Modelle. Ihre Daten gehören Ihnen."
         }
       ]
     },
     CTA: {
-      "title": "Bereit für unbegrenzte Nutzung?",
-      "subtitle": "Schließen Sie sich 50.000+ Profis an, die ohne Limits transkribieren",
-      "button": "NeverCap kostenlos testen →",
-      "disclaimer": "Keine Kreditkarte erforderlich • Sofort mit der Transkription beginnen"
+      title: "Bereit für unbegrenzte Nutzung?",
+      subtitle:
+        "Schließen Sie sich 50.000+ Profis an, die ohne Limits transkribieren",
+      button: "NeverCap kostenlos testen →",
+      disclaimer:
+        "Keine Kreditkarte erforderlich • Sofort mit der Transkription beginnen"
     }
   },
   UseCases: {
@@ -1843,7 +1909,8 @@ let message = {
       podcasters: {
         title: "Podcaster",
         pain: '"Hör auf, Folgen für Transkripte auszuwählen"',
-        description: "Lade dein gesamtes Podcast-Archiv auf einmal hoch. Erstelle Shownotes, verbessere SEO und verwandle Inhalte neu – ohne Minuten zu zählen.",
+        description:
+          "Lade dein gesamtes Podcast-Archiv auf einmal hoch. Erstelle Shownotes, verbessere SEO und verwandle Inhalte neu – ohne Minuten zu zählen.",
         benefits: {
           benefit1: "Lade alle Folgen hoch, nicht nur 3",
           benefit2: "SEO-freundliche Shownotes erstellen",
@@ -1868,7 +1935,8 @@ let message = {
       journalists: {
         title: "Journalisten & Autoren",
         pain: '"Deadline-Druck trifft Upload-Beschränkungen"',
-        description: "Lade alle Interviews vor der Deadline hoch. Durchsuche Transkripte sofort und verpasse kein wichtiges Zitat.",
+        description:
+          "Lade alle Interviews vor der Deadline hoch. Durchsuche Transkripte sofort und verpasse kein wichtiges Zitat.",
         benefits: {
           benefit1: "Stapel-Upload vor Deadlines",
           benefit2: "Alle Interviews auf einmal durchsuchen",
@@ -1893,7 +1961,8 @@ let message = {
       contentCreators: {
         title: "Content-Ersteller",
         pain: '"Barrierefreiheit sollte nicht teuer sein"',
-        description: "Untertitel deinen gesamten YouTube-Kanal. Erstelle Untertitel in mehreren Sprachen und verbessere deine Video-SEO sofort.",
+        description:
+          "Untertitel deinen gesamten YouTube-Kanal. Erstelle Untertitel in mehreren Sprachen und verbessere deine Video-SEO sofort.",
         benefits: {
           benefit1: "Alle Videos auf einmal untertiteln",
           benefit2: "249 Sprachübersetzungen",
@@ -1918,7 +1987,8 @@ let message = {
       researchers: {
         title: "Forscher & Akademiker",
         pain: '"Qualitative Daten sollten nicht warten müssen"',
-        description: "Verarbeite gesamte Forschungsstudien auf einmal. Bearbeite Fokusgruppen, Interviews und Podiumsdiskussionen mit perfekter Sprechererkennung.",
+        description:
+          "Verarbeite gesamte Forschungsstudien auf einmal. Bearbeite Fokusgruppen, Interviews und Podiumsdiskussionen mit perfekter Sprechererkennung.",
         benefits: {
           benefit1: "Fokusgruppen stapelweise verarbeiten",
           benefit2: "20-Sprecher-Erkennung",
@@ -1943,7 +2013,8 @@ let message = {
       businessTeams: {
         title: "Geschäftsteams",
         pain: '"Besprechungsaufnahmen sollten mühelos sein"',
-        description: "Nehmen Sie Besprechungen direkt auf oder laden Sie Audiodateien für sofortige Transkription hoch. Erstellen Sie durchsuchbare Archive aus unbegrenzten Gesprächen und verlieren Sie nie wieder wichtige Diskussionen.",
+        description:
+          "Nehmen Sie Besprechungen direkt auf oder laden Sie Audiodateien für sofortige Transkription hoch. Erstellen Sie durchsuchbare Archive aus unbegrenzten Gesprächen und verlieren Sie nie wieder wichtige Diskussionen.",
         benefits: {
           benefit1: "Direkte Audioaufnahme & Transkription",
           benefit2: "Unbegrenzte Besprechungsaufnahmen",
@@ -1968,7 +2039,8 @@ let message = {
       educators: {
         title: "Pädagogen",
         pain: '"YouTube-Videos benötigen sofortige Transkription"',
-        description: "Fügen Sie einfach YouTube-Links ein, um sofortige Transkripte und automatisch generierte Untertitel zu erhalten. Verwandeln Sie jedes Lehrvideo in zugängliche, durchsuchbare Inhalte.",
+        description:
+          "Fügen Sie einfach YouTube-Links ein, um sofortige Transkripte und automatisch generierte Untertitel zu erhalten. Verwandeln Sie jedes Lehrvideo in zugängliche, durchsuchbare Inhalte.",
         benefits: {
           benefit1: "Direkte YouTube-Link-Transkription",
           benefit2: "Automatisch generierte Video-Untertitel",
@@ -1993,33 +2065,39 @@ let message = {
       quotes: {
         title: "Echte Nutzer,",
         titleHighlight: "Echte Freiheit",
-        subtitle: "Hören Sie von Profis, die sich von künstlichen Grenzen befreit haben",
+        subtitle:
+          "Hören Sie von Profis, die sich von künstlichen Grenzen befreit haben",
         testimonials: {
           mike: {
             textBefore: '"Ich hatte',
             highlight: "3 Jahre Episoden",
-            textAfter: 'unübersetzt. Otter wollte, dass ich 3 auswähle. DREI. NeverCap ließ mich alle 150 Episoden an einem Wochenende hochladen."',
+            textAfter:
+              'unübersetzt. Otter wollte, dass ich 3 auswähle. DREI. NeverCap ließ mich alle 150 Episoden an einem Wochenende hochladen."',
             name: "Mike Rodriguez",
             role: "Podcast-Host"
           },
           jessica: {
             textBefore: '"Als freiberufliche Journalistin kann ich mir Trints',
             highlight: "$100/Monat",
-            textAfter: 'nicht leisten, aber ich kann auch nicht mit Otters Limit von 10 Dateien pro Monat arbeiten. NeverCap hat meine Karriere gerettet."',
+            textAfter:
+              'nicht leisten, aber ich kann auch nicht mit Otters Limit von 10 Dateien pro Monat arbeiten. NeverCap hat meine Karriere gerettet."',
             name: "Jessica Park",
             role: "Freiberufliche Journalistin"
           },
           sarah: {
             textBefore: '"Unser Forschungsteam hatte',
             highlight: "200 Stunden",
-            textAfter: 'Fokusgruppenaufnahmen. Wir haben alles an einem Wochenende verarbeitet, anstatt monatliche Minuten zu rationieren."',
+            textAfter:
+              'Fokusgruppenaufnahmen. Wir haben alles an einem Wochenende verarbeitet, anstatt monatliche Minuten zu rationieren."',
             name: "Dr. Sarah Chen",
             role: "Leitende Forscherin"
           },
           carlos: {
-            textBefore: '"Ich erstelle Bildungsinhalte auf Spanisch. NeverCap transkribiert perfekt und',
+            textBefore:
+              '"Ich erstelle Bildungsinhalte auf Spanisch. NeverCap transkribiert perfekt und',
             highlight: "übersetzt ins Englische",
-            textAfter: 'für eine größere Reichweite. Keine Grenzen, nur Wachstum."',
+            textAfter:
+              'für eine größere Reichweite. Keine Grenzen, nur Wachstum."',
             name: "Carlos Martinez",
             role: "YouTube Educator"
           }
@@ -2040,16 +2118,19 @@ let message = {
       },
       cta: {
         title: "Auch Ihr Anwendungsfall braucht Unbegrenzt",
-        subtitle: "Werden Sie einer von 50.000+ Profis, die Minuten zählen hinter sich ließen und mit dem Kreieren begannen",
+        subtitle:
+          "Werden Sie einer von 50.000+ Profis, die Minuten zählen hinter sich ließen und mit dem Kreieren begannen",
         button: "Starten Sie Ihre unbegrenzte Reise →"
       },
-      heroSubtitleA: "Von Podcastern mit jahrelangem Rückstand bis hin zu Forschern mit Hunderten von Interviews. Sehen Sie, wie Profis {NeverCap} verwenden, um Upload- und Minutenbeschränkungen zu umgehen."
+      heroSubtitleA:
+        "Von Podcastern mit jahrelangem Rückstand bis hin zu Forschern mit Hunderten von Interviews. Sehen Sie, wie Profis {NeverCap} verwenden, um Upload- und Minutenbeschränkungen zu umgehen."
     },
     Podcasters: {
       badge: "Für Podcaster gemacht",
       heroTitle: "Transkribieren Sie Ihr",
       heroTitleHighlight: "Gesamtes Podcast-Archiv",
-      heroSubtitle: "Laden Sie Ihren gesamten Backkatalog hoch. Erstellen Sie Shownotes für jede Folge. Keine Auswahl mehr, welche Folgen transkribiert werden.",
+      heroSubtitle:
+        "Laden Sie Ihren gesamten Backkatalog hoch. Erstellen Sie Shownotes für jede Folge. Keine Auswahl mehr, welche Folgen transkribiert werden.",
       ctaPrimary: "Kostenlos transkribieren",
       ctaSecondary: "So funktioniert's",
       trustBadge1: "10.000+ Podcaster",
@@ -2075,42 +2156,51 @@ let message = {
       },
       problemTitle: "Das",
       problemTitleHighlight: "Podcast-Transkriptionsproblem",
-      problemSubtitle: 'Andere Dienste lassen Sie wählen, welche Folgen "wert" sind, transkribiert zu werden',
+      problemSubtitle:
+        'Andere Dienste lassen Sie wählen, welche Folgen "wert" sind, transkribiert zu werden',
       problems: {
         problem1: {
           title: "Upload-Limits zerstören Archive",
-          description: "Otter bietet 3 lebenslange Importe kostenlos, 10 pro Monat mit Pro. Wie transkribieren Sie 3 Jahre Folgen?"
+          description:
+            "Otter bietet 3 lebenslange Importe kostenlos, 10 pro Monat mit Pro. Wie transkribieren Sie 3 Jahre Folgen?"
         },
         problem2: {
           title: "Verpasste SEO-Chancen",
-          description: "Jede nicht transkribierte Folge bedeutet verlorenen SEO-Traffic. Aber Descript begrenzt Sie auf maximal 30 Stunden/Monat."
+          description:
+            "Jede nicht transkribierte Folge bedeutet verlorenen SEO-Traffic. Aber Descript begrenzt Sie auf maximal 30 Stunden/Monat."
         },
         problem3: {
           title: "Kosten explodieren mit Wachstum",
-          description: "Wenn Ihr Podcast wächst, explodieren die Transkriptionskosten. $2/Stunde Überziehungsgebühren machen Skalierung unmöglich."
+          description:
+            "Wenn Ihr Podcast wächst, explodieren die Transkriptionskosten. $2/Stunde Überziehungsgebühren machen Skalierung unmöglich."
         }
       },
       solutionTitle: "Die",
       solutionTitleHighlight: "NeverCap-Lösung",
       workflowTitle: "Ihr Podcast-Workflow,",
       workflowTitleHighlight: "Vereinfacht",
-      workflowSubtitle: "Von der Aufnahme zu SEO-optimierten Shownotes in Minuten",
+      workflowSubtitle:
+        "Von der Aufnahme zu SEO-optimierten Shownotes in Minuten",
       workflow: {
         step1: {
           title: "Folgen hochladen",
-          description: "50 Folgen auf einmal ablegen. MP3, MP4, WAV – wir verarbeiten alles."
+          description:
+            "50 Folgen auf einmal ablegen. MP3, MP4, WAV – wir verarbeiten alles."
         },
         step2: {
           title: "KI transkribiert",
-          description: "96% Genauigkeit mit Sprechererkennung. Perfekt für Interviews."
+          description:
+            "96% Genauigkeit mit Sprechererkennung. Perfekt für Interviews."
         },
         step3: {
           title: "Intelligente Formatierung",
-          description: "KI fügt automatisch Absätze, Sätze und Satzzeichen hinzu."
+          description:
+            "KI fügt automatisch Absätze, Sätze und Satzzeichen hinzu."
         },
         step4: {
           title: "Veröffentlichen & Ranken",
-          description: "Auf Ihre Website exportieren. Beobachten Sie, wie Ihr SEO-Traffic wächst."
+          description:
+            "Auf Ihre Website exportieren. Beobachten Sie, wie Ihr SEO-Traffic wächst."
         }
       },
       featuresTitle: "Funktionen für Podcaster",
@@ -2119,27 +2209,33 @@ let message = {
       features: {
         feature1: {
           title: "Mehrfachsprecher-Erkennung",
-          description: "Identifiziert und kennzeichnet automatisch bis zu 20 Sprecher. Perfekt für Paneldiskussionen, Interviews und Co-Hosted-Shows."
+          description:
+            "Identifiziert und kennzeichnet automatisch bis zu 20 Sprecher. Perfekt für Paneldiskussionen, Interviews und Co-Hosted-Shows."
         },
         feature2: {
           title: "Zeitstempel-Kapitel",
-          description: "Erzeugt klickbare Zeitstempel für YouTube-Beschreibungen. Hörer können sofort zu ihren Lieblingssegmenten springen."
+          description:
+            "Erzeugt klickbare Zeitstempel für YouTube-Beschreibungen. Hörer können sofort zu ihren Lieblingssegmenten springen."
         },
         feature3: {
           title: "Intelligente Formatierung",
-          description: "Fügt automatisch Absätze, Sätze und Satzzeichen hinzu. Erhalten Sie saubere, lesbare Transkripte. Sparen Sie Stunden in der Nachbearbeitung."
+          description:
+            "Fügt automatisch Absätze, Sätze und Satzzeichen hinzu. Erhalten Sie saubere, lesbare Transkripte. Sparen Sie Stunden in der Nachbearbeitung."
         },
         feature4: {
           title: "SEO-Optimierung",
-          description: "Für Suchmaschinen optimierte Transkripte. Steigern Sie die Auffindbarkeit Ihres Podcasts und erreichen Sie neue Zielgruppen."
+          description:
+            "Für Suchmaschinen optimierte Transkripte. Steigern Sie die Auffindbarkeit Ihres Podcasts und erreichen Sie neue Zielgruppen."
         },
         feature5: {
           title: "100+ Sprachen",
-          description: "Transkribieren Sie in jeder Sprache. Übersetzen Sie in 249+ Sprachen. Erreichen Sie mühelos ein globales Publikum."
+          description:
+            "Transkribieren Sie in jeder Sprache. Übersetzen Sie in 249+ Sprachen. Erreichen Sie mühelos ein globales Publikum."
         },
         feature6: {
           title: "Stapelverarbeitung",
-          description: "Laden Sie 50 Folgen vor dem Schlafengehen hoch. Wachen Sie mit fertigen Transkripten auf. Verarbeiten Sie Ihr gesamtes Archiv über Nacht."
+          description:
+            "Laden Sie 50 Folgen vor dem Schlafengehen hoch. Wachen Sie mit fertigen Transkripten auf. Verarbeiten Sie Ihr gesamtes Archiv über Nacht."
         }
       },
       testimonialsTitle: "Podcaster, die den",
@@ -2158,7 +2254,8 @@ let message = {
         }
       },
       comparisonTitle: "Warum Podcaster",
-      comparisonSubtitle: "Sehen Sie, wie wir uns gegen die Konkurrenz behaupten",
+      comparisonSubtitle:
+        "Sehen Sie, wie wir uns gegen die Konkurrenz behaupten",
       comparison: {
         headers: {
           feature: "Funktion",
@@ -2210,17 +2307,21 @@ let message = {
         }
       },
       ctaTitle: "Jede Folge transkribieren",
-      ctaSubtitle: "Schließen Sie sich 10.000+ Podcastern an, die sich nie um Limits sorgen",
+      ctaSubtitle:
+        "Schließen Sie sich 10.000+ Podcastern an, die sich nie um Limits sorgen",
       ctaButton: "Laden Sie Ihre ersten 50 Folgen kostenlos hoch →",
-      ctaDisclaimer: "Keine Kreditkarte erforderlich • Unbegrenzte Folgen verarbeiten • Jederzeit kündbar",
-      solutionDescriptionA: "Mit {NeverCap} erhalten Sie unbegrenzte Transkription. Laden Sie Ihr gesamtes Archiv hoch. Transkribieren Sie jede neue Episode. Erstellen Sie Show-Notizen in großem Umfang. Keine Obergrenzen, keine Limits, nur Wachstum."
+      ctaDisclaimer:
+        "Keine Kreditkarte erforderlich • Unbegrenzte Folgen verarbeiten • Jederzeit kündbar",
+      solutionDescriptionA:
+        "Mit {NeverCap} erhalten Sie unbegrenzte Transkription. Laden Sie Ihr gesamtes Archiv hoch. Transkribieren Sie jede neue Episode. Erstellen Sie Show-Notizen in großem Umfang. Keine Obergrenzen, keine Limits, nur Wachstum."
     },
     Journalists: {
       hero: {
         badge: "Für Journalisten & Autoren",
         title: "Jedes Interview transkribieren.",
         titleHighlight: "Kein Zitat verpassen.",
-        subtitle: "Hören Sie auf zu entscheiden, welche Interviews eine Transkription verdienen. Laden Sie alle Aufnahmen auf einmal hoch, durchsuchen Sie alles sofort und halten Sie Ihre Deadlines ohne Upload-Stress ein.",
+        subtitle:
+          "Hören Sie auf zu entscheiden, welche Interviews eine Transkription verdienen. Laden Sie alle Aufnahmen auf einmal hoch, durchsuchen Sie alles sofort und halten Sie Ihre Deadlines ohne Upload-Stress ein.",
         ctaPrimary: "Unbegrenzte Uploads starten →",
         ctaSecondary: "So funktioniert's",
         stats: {
@@ -2267,37 +2368,44 @@ let message = {
       problem: {
         title: "Das",
         titleHighlight: "Journalisten-Transkriptionsproblem",
-        subtitle: 'Andere Dienste zwingen Sie, zu entscheiden, welche Interviews "wert" sind, transkribiert zu werden',
+        subtitle:
+          'Andere Dienste zwingen Sie, zu entscheiden, welche Interviews "wert" sind, transkribiert zu werden',
         problems: {
           uploadLimits: {
             title: "Upload-Limits töten Recherchen",
-            description: "Otter bietet Ihnen 10 Dateiimporte pro Monat mit Pro. Wie transkribieren Sie 3 Wochen Recherche-Interviews?"
+            description:
+              "Otter bietet Ihnen 10 Dateiimporte pro Monat mit Pro. Wie transkribieren Sie 3 Wochen Recherche-Interviews?"
           },
           missingQuotes: {
             title: "Fehlende entscheidende Zitate",
-            description: "Jedes nicht transkribierte Interview könnte das Schlüsselzitat der Geschichte enthalten. Aber Trint begrenzt Sie auf maximal 50 Stunden/Monat."
+            description:
+              "Jedes nicht transkribierte Interview könnte das Schlüsselzitat der Geschichte enthalten. Aber Trint begrenzt Sie auf maximal 50 Stunden/Monat."
           },
           costExplosion: {
             title: "Kosten explodieren bei Deadlines",
-            description: "Wenn Ihre Recherche tiefer geht, explodieren die Transkriptionskosten. $100/Monat Überziehungsgebühren machen Eilmeldungen unmöglich."
+            description:
+              "Wenn Ihre Recherche tiefer geht, explodieren die Transkriptionskosten. $100/Monat Überziehungsgebühren machen Eilmeldungen unmöglich."
           }
         },
         solution: {
           title: "Die",
           titleHighlight: "NeverCap-Lösung",
-          descriptionA: "Mit {NeverCap} erhalten Sie unbegrenzte Transkription. Laden Sie Ihre gesamte Recherche hoch. Transkribieren Sie jedes Interview. Durchsuchen Sie alle Zitate sofort. Keine Großbuchstaben, keine Grenzen, nur Journalismus."
+          descriptionA:
+            "Mit {NeverCap} erhalten Sie unbegrenzte Transkription. Laden Sie Ihre gesamte Recherche hoch. Transkribieren Sie jedes Interview. Durchsuchen Sie alle Zitate sofort. Keine Großbuchstaben, keine Grenzen, nur Journalismus."
         }
       },
       solution: {
         title: "1",
         titleHighlight: "Beste Interview-Transkriptionssoftware",
         titleSuffix: "für Journalisten",
-        subtitle: "Echte Vorteile, die zählen, wenn Termine knapp sind und Genauigkeit alles ist",
+        subtitle:
+          "Echte Vorteile, die zählen, wenn Termine knapp sind und Genauigkeit alles ist",
         solutions: {
           unlimitedUploads: {
             label: "Unbegrenztes Volumen",
             title: "Unbegrenztes Volumen für alle Ihre Interviews",
-            description: "Im Gegensatz zu Software mit Minutenlimits können Sie jedes Interview transkribieren, vom kurzen Gespräch bis zur mehrstündigen Diskussion. Keine Sorge, dass Ihnen kurz vor Fristende die Credits ausgehen.",
+            description:
+              "Im Gegensatz zu Software mit Minutenlimits können Sie jedes Interview transkribieren, vom kurzen Gespräch bis zur mehrstündigen Diskussion. Keine Sorge, dass Ihnen kurz vor Fristende die Credits ausgehen.",
             points: {
               simultaneousUpload: "Keine monatlichen Minutenlimits",
               noLimits: "Unterstützung für 10-Stunden-Interviews",
@@ -2312,10 +2420,12 @@ let message = {
           instantSearch: {
             label: "Blitzschnell",
             title: "Geschwindigkeit, die zu Ihrem Nachrichtenzyklus passt",
-            description: "Erhalten Sie Ihre Interviewtranskription in Minuten, nicht Tagen. Veröffentlichen Sie Geschichten schneller als je zuvor. Unsere KI verarbeitet Stunden von Audio, während Sie Kaffee trinken.",
+            description:
+              "Erhalten Sie Ihre Interviewtranskription in Minuten, nicht Tagen. Veröffentlichen Sie Geschichten schneller als je zuvor. Unsere KI verarbeitet Stunden von Audio, während Sie Kaffee trinken.",
             points: {
               searchAll: "5-minütige Bearbeitung für 1-Stunden-Interviews",
-              wordTimestamps: "Priorisierte Bearbeitung für dringende Geschichten",
+              wordTimestamps:
+                "Priorisierte Bearbeitung für dringende Geschichten",
               jumpToMoments: "Echtzeit-Fortschrittsverfolgung"
             },
             searchDemo: {
@@ -2330,7 +2440,8 @@ let message = {
           professionalAccuracy: {
             label: "Zitatfertige Genauigkeit",
             title: "Genauigkeit, die Sie zitieren können",
-            description: "Unsere KI liefert hochpräzise Transkripte, sodass die von Ihnen veröffentlichten Zitate präzise und zuverlässig sind. Professionelle Transkription, der Redakteure vertrauen.",
+            description:
+              "Unsere KI liefert hochpräzise Transkripte, sodass die von Ihnen veröffentlichten Zitate präzise und zuverlässig sind. Professionelle Transkription, der Redakteure vertrauen.",
             points: {
               accuracyGuarantee: "96% Genauigkeitsgarantie",
               handlesAccents: "Verarbeitet Fachbegriffe",
@@ -2340,15 +2451,18 @@ let message = {
               accuracy: "96%",
               label: "Veröffentlichungsfertige Genauigkeit",
               transcript: {
-                speaker1: "„Die Untersuchung ergab erhebliche Unstimmigkeiten in den Finanzberichten.“",
-                speaker2: "„Können Sie diese spezifischen Diskrepanzen näher erläutern?“"
+                speaker1:
+                  "„Die Untersuchung ergab erhebliche Unstimmigkeiten in den Finanzberichten.“",
+                speaker2:
+                  "„Können Sie diese spezifischen Diskrepanzen näher erläutern?“"
               }
             }
           },
           ironclad: {
             label: "Quellenschutz",
             title: "Eiserner Quellenschutz",
-            description: "Wir bieten robuste Sicherheitsfunktionen zum Schutz Ihrer sensiblen Interviewdaten und vertraulichen Quellen. Bank-Level-Verschlüsselung sichert Ihre Recherchen.",
+            description:
+              "Wir bieten robuste Sicherheitsfunktionen zum Schutz Ihrer sensiblen Interviewdaten und vertraulichen Quellen. Bank-Level-Verschlüsselung sichert Ihre Recherchen.",
             points: {
               accuracyGuarantee: "Ende-zu-Ende-Verschlüsselung",
               handlesAccents: "Optionen für automatische Dateilöschung",
@@ -2368,7 +2482,8 @@ let message = {
         featuresList: {
           languages: {
             title: "100+ Sprachen",
-            description: "Interviewen Sie Quellen weltweit in 12 Hauptsprachen mit 96% Genauigkeit."
+            description:
+              "Interviewen Sie Quellen weltweit in 12 Hauptsprachen mit 96% Genauigkeit."
           },
           exportFormats: {
             title: "Exportformate",
@@ -2376,15 +2491,18 @@ let message = {
           },
           sourceProtection: {
             title: "Quellenschutz",
-            description: "Bank-Level-Verschlüsselung. Ihre Quellen bleiben vertraulich."
+            description:
+              "Bank-Level-Verschlüsselung. Ihre Quellen bleiben vertraulich."
           },
           timestamps: {
             title: "Zeitstempel",
-            description: "Klicken Sie auf ein Zitat, um zur exakten Audio-Stelle zu springen."
+            description:
+              "Klicken Sie auf ein Zitat, um zur exakten Audio-Stelle zu springen."
           },
           teamSharing: {
             title: "Team-Freigabe",
-            description: "Arbeiten Sie mit Redakteuren zusammen. Teilen Sie Transkripte sicher."
+            description:
+              "Arbeiten Sie mit Redakteuren zusammen. Teilen Sie Transkripte sicher."
           },
           mobileReady: {
             title: "Mobil bereit",
@@ -2392,17 +2510,20 @@ let message = {
           },
           smartFormatting: {
             title: "Intelligente Formatierung",
-            description: "Automatische Absätze und Zeichensetzung für lesbare Transkripte."
+            description:
+              "Automatische Absätze und Zeichensetzung für lesbare Transkripte."
           },
           batchProcessing: {
             title: "Stapelverarbeitung",
-            description: "Laden Sie 50 Dateien auf einmal hoch. Verarbeitung über Nacht, während Sie schlafen."
+            description:
+              "Laden Sie 50 Dateien auf einmal hoch. Verarbeitung über Nacht, während Sie schlafen."
           }
         }
       },
       testimonials: {
         jessica: {
-          quote: '"Ich hatte 3 Jahre unübersetzte Interviews wegen Upload-Limits. NeverCap ließ mich alles an einem Wochenende verarbeiten. Ein Game-Changer."',
+          quote:
+            '"Ich hatte 3 Jahre unübersetzte Interviews wegen Upload-Limits. NeverCap ließ mich alles an einem Wochenende verarbeiten. Ein Game-Changer."',
           name: "Jessica Park",
           role: "Freiberufliche Journalistin, ehemalige Otter-Nutzerin"
         }
@@ -2410,7 +2531,8 @@ let message = {
       cta: {
         title: "Transkription starten",
         titleHighlight: "Ohne Grenzen",
-        subtitle: "Schließen Sie sich Tausenden Journalisten an, die Uploads nicht mehr zählen und sich auf Geschichten konzentrieren",
+        subtitle:
+          "Schließen Sie sich Tausenden Journalisten an, die Uploads nicht mehr zählen und sich auf Geschichten konzentrieren",
         ctaPrimary: "Kostenlos unbegrenzt testen →",
         ctaSecondary: "Preise anzeigen"
       }
@@ -2441,7 +2563,8 @@ let message = {
             label: "Plattformen"
           }
         },
-        subtitleA: "Egal, ob Sie ein YouTube-Video transkribieren, ein TikTok-Video zur Weiterverwendung transkribieren oder herausfinden möchten, wie Sie ein Facebook-Video in Text transkribieren, {NeverCap} erledigt alles nahtlos. Erstellen Sie Untertitel in über 100 Sprachen ohne monatliche Begrenzung – einfach pure kreative Freiheit."
+        subtitleA:
+          "Egal, ob Sie ein YouTube-Video transkribieren, ein TikTok-Video zur Weiterverwendung transkribieren oder herausfinden möchten, wie Sie ein Facebook-Video in Text transkribieren, {NeverCap} erledigt alles nahtlos. Erstellen Sie Untertitel in über 100 Sprachen ohne monatliche Begrenzung – einfach pure kreative Freiheit."
       },
       platforms: {
         title: "Abrufen & Transkribieren von jeder Plattform",
@@ -2465,8 +2588,10 @@ let message = {
         oneClickImport: {
           label: "Ein-Klick-Import",
           title: "YouTube-, TikTok- &",
-          titleHighlight: "Instagram-Videos durch Link-Einfügung transkribieren",
-          description: "Unser Tool vereinfacht die Transkription von Videoinhalten. Für Instagram-Videos einfach den Link einfügen. Für Vimeo-Videos genauso. Bearbeiten Sie Ihren gesamten Kanalrückstau an einem Wochenende.",
+          titleHighlight:
+            "Instagram-Videos durch Link-Einfügung transkribieren",
+          description:
+            "Unser Tool vereinfacht die Transkription von Videoinhalten. Für Instagram-Videos einfach den Link einfügen. Für Vimeo-Videos genauso. Bearbeiten Sie Ihren gesamten Kanalrückstau an einem Wochenende.",
           points: {
             directYoutube: "Direkte YouTube-Link-Transkription",
             multiplePlatforms: "Abruf von 10+ Plattformen",
@@ -2483,7 +2608,8 @@ let message = {
           label: "Globale Reichweite",
           title: "100+ Sprachen.",
           titleHighlight: "Keine Grenzen.",
-          description: "Erreichen Sie ein globales Publikum mit automatischer Übersetzung in 100+ Sprachen. Generieren Sie Untertitel in mehreren Sprachen gleichzeitig. Keine Extrakosten, keine monatlichen Übersetzungslimits.",
+          description:
+            "Erreichen Sie ein globales Publikum mit automatischer Übersetzung in 100+ Sprachen. Generieren Sie Untertitel in mehreren Sprachen gleichzeitig. Keine Extrakosten, keine monatlichen Übersetzungslimits.",
           points: {
             highAccuracy: "96% Genauigkeit in 12 Hauptsprachen",
             unlimitedTranslations: "Unbegrenzte Übersetzungen inklusive",
@@ -2500,7 +2626,8 @@ let message = {
           label: "Flexibler Export",
           title: "Jedes Format",
           titleHighlight: "Das Sie brauchen",
-          description: "Exportieren Sie im passenden Format für Ihren Workflow. Von SRT-Dateien für YouTube bis VTT für Webplayer oder bearbeitbare Dokumente für Skripte. Alle Exporte unbegrenzt, in jedem Plan enthalten.",
+          description:
+            "Exportieren Sie im passenden Format für Ihren Workflow. Von SRT-Dateien für YouTube bis VTT für Webplayer oder bearbeitbare Dokumente für Skripte. Alle Exporte unbegrenzt, in jedem Plan enthalten.",
           points: {
             videoFormats: "SRT & VTT für Videoplattformen",
             editingFormats: "DOCX & PDF zur Bearbeitung",
@@ -2525,19 +2652,23 @@ let message = {
         steps: {
           pasteLinks: {
             title: "Links einfügen",
-            description: "YouTube-, TikTok- oder beliebige Video-Links einfügen. Oder Dateien direkt hochladen."
+            description:
+              "YouTube-, TikTok- oder beliebige Video-Links einfügen. Oder Dateien direkt hochladen."
           },
           autoTranscribe: {
             title: "Automatische Transkription",
-            description: "KI-Verarbeitung mit 96% Genauigkeit. Versteht Akzente & mehrere Sprecher."
+            description:
+              "KI-Verarbeitung mit 96% Genauigkeit. Versteht Akzente & mehrere Sprecher."
           },
           editTranslate: {
             title: "Bearbeiten & Übersetzen",
-            description: "Perfektionieren Sie Untertitel. Sofort in 100+ Sprachen übersetzen."
+            description:
+              "Perfektionieren Sie Untertitel. Sofort in 100+ Sprachen übersetzen."
           },
           exportPublish: {
             title: "Exportieren & Veröffentlichen",
-            description: "In jedem Format herunterladen. Auf Ihrer Plattform hochladen. Fertig!"
+            description:
+              "In jedem Format herunterladen. Auf Ihrer Plattform hochladen. Fertig!"
           }
         }
       },
@@ -2546,29 +2677,35 @@ let message = {
         titleHighlight: "täglich",
         subtitle: "Von begrenzten Plänen zu unbegrenzter Freiheit",
         carlos: {
-          textBefore: "Ich erstelle Bildungsinhalte auf Spanisch. NeverCap transkribiert perfekt und",
-          textAfter: "für größere Reichweite. Keine Grenzen, nur Wachstum. Meine Kanalaufrufe verdreifachten sich nach mehrsprachigen Untertiteln.",
+          textBefore:
+            "Ich erstelle Bildungsinhalte auf Spanisch. NeverCap transkribiert perfekt und",
+          textAfter:
+            "für größere Reichweite. Keine Grenzen, nur Wachstum. Meine Kanalaufrufe verdreifachten sich nach mehrsprachigen Untertiteln.",
           highlight: "übersetzt ins Englische",
           name: "Carlos Martinez",
           role: "YouTube-Edukator • 250K Abonnenten"
         },
         sarah: {
           textBefore: "Descript wollte $30/Monat für",
-          textAfter: ". Ich hatte 500+ Videos im Rückstand. NeverCap ließ mich alles an einem Wochenende bearbeiten. Der SEO-Schub durch Untertitel hat sich im ersten Monat amortisiert.",
+          textAfter:
+            ". Ich hatte 500+ Videos im Rückstand. NeverCap ließ mich alles an einem Wochenende bearbeiten. Der SEO-Schub durch Untertitel hat sich im ersten Monat amortisiert.",
           highlight: "30 Stunden",
           name: "Sarah Lee",
           role: "Lifestyle-Vloggerin • 180K Abonnenten"
         },
         jake: {
           textBefore: "Die",
-          textAfter: "Funktion ist revolutionär. Ich lade nichts mehr herunter. Einfach einfügen, transkribieren, fertig. Die Bearbeitung meiner Podcast-Clips für TikTok war noch nie so einfach.",
+          textAfter:
+            "Funktion ist revolutionär. Ich lade nichts mehr herunter. Einfach einfügen, transkribieren, fertig. Die Bearbeitung meiner Podcast-Clips für TikTok war noch nie so einfach.",
           highlight: "direkter YouTube-Abruf",
           name: "Jake Wilson",
           role: "Podcast-Host • Top 1% Creator"
         },
         yuki: {
-          textBefore: "Ich erstelle Inhalte in 5 Sprachen. Andere Dienste verlangen",
-          textAfter: ". NeverCap bietet mir unbegrenzte Übersetzungen. Mein internationales Publikum ist seit der Verwendung nativer Untertitel um 400% gewachsen.",
+          textBefore:
+            "Ich erstelle Inhalte in 5 Sprachen. Andere Dienste verlangen",
+          textAfter:
+            ". NeverCap bietet mir unbegrenzte Übersetzungen. Mein internationales Publikum ist seit der Verwendung nativer Untertitel um 400% gewachsen.",
           highlight: "pro Übersetzung",
           name: "Yuki Tanaka",
           role: "Gaming-Creator • 500K Abonnenten"
@@ -2576,29 +2713,37 @@ let message = {
       },
       cta: {
         title: "Dein gesamter Kanal. Untertitelt. Heute.",
-        subtitle: "Schließe dich 50.000+ Creatorn an, die aufhören, Minuten zu zählen, und anfangen zu kreieren",
+        subtitle:
+          "Schließe dich 50.000+ Creatorn an, die aufhören, Minuten zu zählen, und anfangen zu kreieren",
         button: "Unbegrenzte Untertitelung starten →"
       },
       FAQSection: {
-        "title": "Deine Transkriptionsfragen,",
-        "titleHighlight": "Beantwortet",
-        subtitle: "Alles, was du über das Transkribieren von Videos von verschiedenen Plattformen wissen musst",
-        "questions": [
+        title: "Deine Transkriptionsfragen,",
+        titleHighlight: "Beantwortet",
+        subtitle:
+          "Alles, was du über das Transkribieren von Videos von verschiedenen Plattformen wissen musst",
+        questions: [
           {
-            "question": "F: Wie transkribiere ich ein YouTube-Video mit NeverCap?",
-            "answer": "Ganz einfach: Finde das YouTube-Video, kopiere die URL und füge sie in unsere App ein. Unsere KI holt das Video automatisch und liefert in Minuten eine vollständige Texttranskription."
+            question:
+              "F: Wie transkribiere ich ein YouTube-Video mit NeverCap?",
+            answer:
+              "Ganz einfach: Finde das YouTube-Video, kopiere die URL und füge sie in unsere App ein. Unsere KI holt das Video automatisch und liefert in Minuten eine vollständige Texttranskription."
           },
           {
-            "question": "F: Wie transkribiere ich ein Facebook-Video am besten?",
-            "answer": "Am einfachsten mit einem Direktlink. Kopiere die Facebook-Video-URL und unsere Plattform übernimmt den Rest – mit bis zu 96% Genauigkeit und ohne manuelle Transkription."
+            question: "F: Wie transkribiere ich ein Facebook-Video am besten?",
+            answer:
+              "Am einfachsten mit einem Direktlink. Kopiere die Facebook-Video-URL und unsere Plattform übernimmt den Rest – mit bis zu 96% Genauigkeit und ohne manuelle Transkription."
           },
           {
-            "question": "F: Kann ich TikTok- und Instagram-Videos transkribieren?",
-            "answer": "Absolut. Wir unterstützen Transkriptionen für beide Plattformen. Perfekt für Creator, die Short-Form-Videos in Blogposts, Artikel oder Text-Updates umwandeln möchten."
+            question:
+              "F: Kann ich TikTok- und Instagram-Videos transkribieren?",
+            answer:
+              "Absolut. Wir unterstützen Transkriptionen für beide Plattformen. Perfekt für Creator, die Short-Form-Videos in Blogposts, Artikel oder Text-Updates umwandeln möchten."
           },
           {
-            "question": "F: Wie transkribiere ich ein Vimeo-Video?",
-            "answer": "So einfach wie bei anderen Plattformen: Vimeo-URL kopieren, in NeverCap einfügen. Unsere KI erstellt eine präzise Transkription in verschiedenen Download-Formaten."
+            question: "F: Wie transkribiere ich ein Vimeo-Video?",
+            answer:
+              "So einfach wie bei anderen Plattformen: Vimeo-URL kopieren, in NeverCap einfügen. Unsere KI erstellt eine präzise Transkription in verschiedenen Download-Formaten."
           }
         ]
       }
@@ -2607,7 +2752,8 @@ let message = {
       heroBadge: "Für akademische Exzellenz entwickelt",
       heroTitle1: "Transkribiere jedes Interview.",
       heroTitle2: "Analysiere alle Daten.",
-      heroSubtitle: "Entscheide nicht mehr, welche Fokusgruppen transkribiert werden. Verarbeite alle qualitativen Daten mit 96% Genauigkeit und perfekter Sprechererkennung – selbst bei 20 durcheinanderredenden Teilnehmern.",
+      heroSubtitle:
+        "Entscheide nicht mehr, welche Fokusgruppen transkribiert werden. Verarbeite alle qualitativen Daten mit 96% Genauigkeit und perfekter Sprechererkennung – selbst bei 20 durcheinanderredenden Teilnehmern.",
       heroCtaPrimary: "Kostenlos testen – ohne Kreditkarte",
       heroCtaSecondary: "So funktioniert's",
       statsInterviewHours: "Interviewstunden",
@@ -2615,17 +2761,22 @@ let message = {
       statsSpeakersId: "Sprecher-ID",
       statsCompliant: "Konform",
       problemTitle: "Das",
-      problemSubtitle: 'Andere Dienste lassen dich entscheiden, welche Daten "transkriptionswürdig" sind',
+      problemSubtitle:
+        'Andere Dienste lassen dich entscheiden, welche Daten "transkriptionswürdig" sind',
       problemCard1Title: "Upload-Limits gefährden Studien",
-      problemCard1Desc: "Otter erlaubt 3 lebenslange Importe. Wie transkribierst du 200 Stunden Fokusgruppen?",
+      problemCard1Desc:
+        "Otter erlaubt 3 lebenslange Importe. Wie transkribierst du 200 Stunden Fokusgruppen?",
       problemCard2Title: "Kritische Daten fehlen",
-      problemCard2Desc: "Jedes nicht transkribierte Interview könnte bahnbrechende Erkenntnisse enthalten. Aber Rev verlangt mindestens $2/Minute.",
+      problemCard2Desc:
+        "Jedes nicht transkribierte Interview könnte bahnbrechende Erkenntnisse enthalten. Aber Rev verlangt mindestens $2/Minute.",
       problemCard3Title: "Forschungsgelder verschwinden",
-      problemCard3Desc: "Wenn Ihr Datensatz wächst, explodieren die Transkriptionskosten. 500$ pro Fokusgruppe machen Skalierung unmöglich.",
+      problemCard3Desc:
+        "Wenn Ihr Datensatz wächst, explodieren die Transkriptionskosten. 500$ pro Fokusgruppe machen Skalierung unmöglich.",
       solutionTitle: "NeverCap-Lösung",
       feature1Label: "Keine Grenzen",
       feature1Title: "Bearbeitung Ihrer",
-      feature1Desc: 'Laden Sie heute Abend alle 200 Stunden Interviews hoch. Wachen Sie mit vollständigen, durchsuchbaren Transkripten auf. Keine monatlichen Limits, keine Dateibeschränkungen, kein "Fair Use"-Unsinn.',
+      feature1Desc:
+        'Laden Sie heute Abend alle 200 Stunden Interviews hoch. Wachen Sie mit vollständigen, durchsuchbaren Transkripten auf. Keine monatlichen Limits, keine Dateibeschränkungen, kein "Fair Use"-Unsinn.',
       feature1Point1: "50 Dateien gleichzeitig stapelweise hochladen",
       feature1Point2: "Längsschnittstudien vollständig verarbeiten",
       feature1Point3: "Keine Speicherbegrenzungen für Transkripte",
@@ -2634,23 +2785,28 @@ let message = {
       feature1Visual2: "Gleicher Preis für 10 oder 10.000 Stunden",
       feature2Label: "Intelligente KI",
       feature2Title: "Präzise Umsetzung",
-      feature2Desc: "Unsere KI erkennt bis zu 20 Sprecher, selbst wenn sie sich überschneiden, unterbrechen oder gleichzeitig reden. Jede Stimme wird korrekt erfasst und gekennzeichnet.",
+      feature2Desc:
+        "Unsere KI erkennt bis zu 20 Sprecher, selbst wenn sie sich überschneiden, unterbrechen oder gleichzeitig reden. Jede Stimme wird korrekt erfasst und gekennzeichnet.",
       feature2Point1: "20-Sprecher-Identifikation",
       feature2Point2: "Verarbeitet Überlappungen & Unterbrechungen",
       feature2Point3: "Sprecherkennung, die Sie umbenennen können",
       feature2Point4: "Zeitstempel für jedes Wort",
       conversationParticipant1: "Teilnehmer 1",
-      conversationText1: "Die Hauptbarriere ist definitiv die Behandlungskosten...",
+      conversationText1:
+        "Die Hauptbarriere ist definitiv die Behandlungskosten...",
       conversationParticipant2: "Teilnehmer 2",
       conversationText2: "Absolut, aber ich würde hinzufügen, dass Zugang—",
       conversationParticipant3: "Teilnehmer 3",
-      conversationText3: "—Entschuldigung für die Unterbrechung, aber Transport ist auch riesig.",
+      conversationText3:
+        "—Entschuldigung für die Unterbrechung, aber Transport ist auch riesig.",
       conversationText4: "Ja! Genau das wollte ich sagen.",
       conversationParticipant4: "Teilnehmer 4",
-      conversationText5: "In ländlichen Gebieten sind es alle drei: Kosten, Zugang UND Transport.",
+      conversationText5:
+        "In ländlichen Gebieten sind es alle drei: Kosten, Zugang UND Transport.",
       feature3Label: "Präzision",
       feature3Title: "Vertrauenswürdig",
-      feature3Desc: "Meistert Fachjargon, starke Akzente und branchenspezifische Begriffe wie ein Profi. Präzise genug für Veröffentlichungen, Peer-Review und Ihr Dissertationsteam.",
+      feature3Desc:
+        "Meistert Fachjargon, starke Akzente und branchenspezifische Begriffe wie ein Profi. Präzise genug für Veröffentlichungen, Peer-Review und Ihr Dissertationsteam.",
       feature3Point1: "Medizinische & wissenschaftliche Terminologie",
       feature3Point2: "100+ Sprachen & Dialekte",
       feature3Point3: "Wortgetreue & bereinigte Lesemodi",
@@ -2659,7 +2815,8 @@ let message = {
       feature3Visual2: "Vertrauen von 50.000+ Forschern",
       feature4Label: "Sicherheit",
       feature4Title: "IRB-konforme Zertifizierung",
-      feature4Desc: "Ihre sensiblen Forschungsdaten sind mit Unternehmenssicherheit geschützt. GDPR-konform, HIPAA-bereite Optionen und vollständige Prüfpfade für IRB-Anforderungen.",
+      feature4Desc:
+        "Ihre sensiblen Forschungsdaten sind mit Unternehmenssicherheit geschützt. GDPR-konform, HIPAA-bereite Optionen und vollständige Prüfpfade für IRB-Anforderungen.",
       feature4Point1: "Ende-zu-Ende-Verschlüsselung",
       feature4Point2: "GDPR & CCPA konform",
       feature4Point3: "Automatische Löschrichtlinien",
@@ -2667,23 +2824,31 @@ let message = {
       useCasesTitle: "Perfekt für",
       useCasesSubtitle: "Von Ethnographie bis klinische Studien",
       useCase1Title: "Fokusgruppen",
-      useCase1Desc: "Verarbeitet 8-20 Teilnehmer mit überlappender Sprache. Perfekte Sprechererkennung auch bei hitzigen Diskussionen. Direkter Export zu qualitativer Analysesoftware.",
+      useCase1Desc:
+        "Verarbeitet 8-20 Teilnehmer mit überlappender Sprache. Perfekte Sprechererkennung auch bei hitzigen Diskussionen. Direkter Export zu qualitativer Analysesoftware.",
       useCase2Title: "Ausführliche Interviews",
-      useCase2Desc: "Verarbeiten Sie Hunderte von Einzelinterviews gleichzeitig. Gewährleisten Sie Konsistenz in Ihrem gesamten Datensatz. Durchsuchen Sie alle Transkripte sofort.",
+      useCase2Desc:
+        "Verarbeiten Sie Hunderte von Einzelinterviews gleichzeitig. Gewährleisten Sie Konsistenz in Ihrem gesamten Datensatz. Durchsuchen Sie alle Transkripte sofort.",
       useCase3Title: "Klinische Forschung",
-      useCase3Desc: "HIPAA-konforme Optionen für Patientengespräche. Präzise Transkription medizinischer Fachbegriffe. Sichere Verarbeitung sensibler Gesundheitsdaten.",
+      useCase3Desc:
+        "HIPAA-konforme Optionen für Patientengespräche. Präzise Transkription medizinischer Fachbegriffe. Sichere Verarbeitung sensibler Gesundheitsdaten.",
       useCase4Title: "Ethnografische Studien",
-      useCase4Desc: "Feldaufnahmen in natürlicher Umgebung. Bewältigen Sie Hintergrundgeräusche und mehrere Sprecher. Unterstützung für 100+ Sprachen und Dialekte.",
+      useCase4Desc:
+        "Feldaufnahmen in natürlicher Umgebung. Bewältigen Sie Hintergrundgeräusche und mehrere Sprecher. Unterstützung für 100+ Sprachen und Dialekte.",
       useCase5Title: "Oral-History-Projekte",
-      useCase5Desc: "Bewahren Sie ganze Archive ohne Einschränkungen. Erstellen Sie durchsuchbare historische Aufzeichnungen. Ideal für Längs- und Generationenstudien.",
+      useCase5Desc:
+        "Bewahren Sie ganze Archive ohne Einschränkungen. Erstellen Sie durchsuchbare historische Aufzeichnungen. Ideal für Längs- und Generationenstudien.",
       useCase6Title: "Dissertationen",
-      useCase6Desc: "Studentenfreundliche Preise mit vollem Funktionsumfang. Verarbeiten Sie Ihren gesamten Datensatz kostengünstig. Halten Sie enge Fristen mit Stapelverarbeitung ein.",
+      useCase6Desc:
+        "Studentenfreundliche Preise mit vollem Funktionsumfang. Verarbeiten Sie Ihren gesamten Datensatz kostengünstig. Halten Sie enge Fristen mit Stapelverarbeitung ein.",
       testimonialTitle: "Vertrauen von",
-      testimonialText: "Unser Forschungsteam hatte 200 Stunden Fokusgruppenaufnahmen aus unserer Gemeindegesundheitsstudie. Andere Dienste wollten, dass wir aufgrund der Kosten auswählen, welche Sitzungen transkribiert werden. NeverCap ermöglichte uns, alles an einem Wochenende zu verarbeiten. Die 20-Sprecher-Identifikation funktionierte tatsächlich – selbst während unserer chaotischsten Diskussionen, bei denen alle gleichzeitig sprachen. Dieses Tool hat unsere qualitative Datenverarbeitung komplett verändert.",
+      testimonialText:
+        "Unser Forschungsteam hatte 200 Stunden Fokusgruppenaufnahmen aus unserer Gemeindegesundheitsstudie. Andere Dienste wollten, dass wir aufgrund der Kosten auswählen, welche Sitzungen transkribiert werden. NeverCap ermöglichte uns, alles an einem Wochenende zu verarbeiten. Die 20-Sprecher-Identifikation funktionierte tatsächlich – selbst während unserer chaotischsten Diskussionen, bei denen alle gleichzeitig sprachen. Dieses Tool hat unsere qualitative Datenverarbeitung komplett verändert.",
       testimonialAuthorName: "Dr. Sarah Chen",
       testimonialAuthorRole: "Leitende Forscherin, Public Health Institute",
       ctaTitle: "Hören Sie auf, Daten auszuwählen",
-      ctaSubtitle: "Schließen Sie sich 50.000+ Forschern an, die alles transkribieren",
+      ctaSubtitle:
+        "Schließen Sie sich 50.000+ Forschern an, die alles transkribieren",
       ctaButton: "NeverCap kostenlos testen",
       problemTitle2: "Forschungs-Transkriptionsproblem",
       title: "Die",
@@ -2696,12 +2861,15 @@ let message = {
       feature3TitleHl: "96% Genauigkeit",
       feature4TitleHl: "Sicherheit",
       testimonialText2Hl: "200 Stunden",
-      testimonialText3: "von Fokusgruppenaufnahmen aus unserer Gemeindegesundheitsstudie. Andere Dienste wollten, dass wir aufgrund der Kosten auswählen, welche Sitzungen transkribiert werden. NeverCap ermöglichte uns die Verarbeitung",
+      testimonialText3:
+        "von Fokusgruppenaufnahmen aus unserer Gemeindegesundheitsstudie. Andere Dienste wollten, dass wir aufgrund der Kosten auswählen, welche Sitzungen transkribiert werden. NeverCap ermöglichte uns die Verarbeitung",
       testimonialText4Hl: "alles an einem Wochenende",
-      testimonialText5: ". Die 20-Sprecher-Identifikation funktionierte tatsächlich – selbst während unserer chaotischsten Diskussionen, bei denen alle gleichzeitig sprachen. Dieses Tool hat",
+      testimonialText5:
+        ". Die 20-Sprecher-Identifikation funktionierte tatsächlich – selbst während unserer chaotischsten Diskussionen, bei denen alle gleichzeitig sprachen. Dieses Tool hat",
       testimonialText6Hl: "völlig verändert",
       testimonialText7: "wie wir qualitative Daten verarbeiten.",
-      solutionDescA: "Mit {NeverCap} erhalten Sie unbegrenzte Transkription. Laden Sie Ihre gesamte Studie hoch. Transkribieren Sie jedes Interview. Analysieren Sie alle Ihre Daten. Keine Obergrenzen, keine Einschränkungen, nur Forschung."
+      solutionDescA:
+        "Mit {NeverCap} erhalten Sie unbegrenzte Transkription. Laden Sie Ihre gesamte Studie hoch. Transkribieren Sie jedes Interview. Analysieren Sie alle Ihre Daten. Keine Obergrenzen, keine Einschränkungen, nur Forschung."
     },
     BusinessTeams: {
       heroBadge: "Für Geschäftsteams",
@@ -2715,9 +2883,11 @@ let message = {
       statsSpeakerID: "Sprechererkennung",
       statsInstantUpload: "Hochladen & Verarbeiten",
       featuresTitle: "Transkription für jedes Unternehmen",
-      featuresSubtitle: "Von Live-Aufnahmen bis zu sofortigen Uploads – wir haben alle Hindernisse beseitigt",
+      featuresSubtitle:
+        "Von Live-Aufnahmen bis zu sofortigen Uploads – wir haben alle Hindernisse beseitigt",
       feature1Title: "Direkt im Browser aufnehmen",
-      feature1Desc: "Keine Downloads, keine Plugins. Starten Sie die Aufnahme sofort mit einem Klick. Perfekte Audioqualität, automatische Sprechererkennung.",
+      feature1Desc:
+        "Keine Downloads, keine Plugins. Starten Sie die Aufnahme sofort mit einem Klick. Perfekte Audioqualität, automatische Sprechererkennung.",
       feature1Benefit1: "Aufnahme mit einem Klick",
       feature1Benefit2: "Keine Softwareinstallation",
       feature1Benefit3: "Funktioniert auf jedem Gerät",
@@ -2725,14 +2895,17 @@ let message = {
       feature1Visual1: "Klicken & Aufnehmen",
       feature1Visual2: "Keine Einrichtung erforderlich",
       feature2Title: "Laden Sie jede Audiodatei sofort hoch",
-      feature2Desc: "Haben Sie Aufnahmen von Zoom, Teams oder Ihrem Handy? Laden Sie sie sofort hoch. Unterstützung für alle gängigen Audio- und Videoformate. Verarbeiten Sie mehrere Dateien gleichzeitig ohne Wartezeit.",
-      feature2Benefit1: "Unterstützt: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV, FLAC",
+      feature2Desc:
+        "Haben Sie Aufnahmen von Zoom, Teams oder Ihrem Handy? Laden Sie sie sofort hoch. Unterstützung für alle gängigen Audio- und Videoformate. Verarbeiten Sie mehrere Dateien gleichzeitig ohne Wartezeit.",
+      feature2Benefit1:
+        "Unterstützt: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV, FLAC",
       feature2Benefit2: "Stapelverarbeitung möglich",
       feature2Benefit3: "10-Stunden-Dateien unterstützt",
       feature2Benefit4: "Verarbeitung während der Arbeit",
       feature2Visual1: "Dateien ziehen & ablegen",
       feature3Title: "Für Teamarbeit konzipiert",
-      feature3Desc: "Teilen Sie Transkripte sofort mit Ihrem Team. Hören Sie Aufnahmen gemeinsam an, exportieren Sie Transkripte in verschiedenen Formaten und halten Sie alle mit durchsuchbaren Besprechungsarchiven auf dem gleichen Stand.",
+      feature3Desc:
+        "Teilen Sie Transkripte sofort mit Ihrem Team. Hören Sie Aufnahmen gemeinsam an, exportieren Sie Transkripte in verschiedenen Formaten und halten Sie alle mit durchsuchbaren Besprechungsarchiven auf dem gleichen Stand.",
       feature3Benefit1: "Transkripte mit jedem teilen",
       feature3Benefit2: "Originalaufnahmen anhören",
       feature3Benefit3: "Transkripte in mehreren Formaten exportieren",
@@ -2740,7 +2913,8 @@ let message = {
       feature3Visual1: "Teammitglieder",
       feature3Visual2: "Unbegrenzte Zusammenarbeit",
       feature4Title: "Jedes Gespräch sofort finden",
-      feature4Desc: "Durchsuchen Sie alle Ihre Besprechungen auf einmal. Finden Sie wichtige Entscheidungen vom letzten Quartal oder Kundenanforderungen von vor Monaten. Die KI-basierte Suche versteht Kontext, nicht nur Schlüsselwörter.",
+      feature4Desc:
+        "Durchsuchen Sie alle Ihre Besprechungen auf einmal. Finden Sie wichtige Entscheidungen vom letzten Quartal oder Kundenanforderungen von vor Monaten. Die KI-basierte Suche versteht Kontext, nicht nur Schlüsselwörter.",
       feature4Benefit1: "Alle Besprechungen auf einmal durchsuchen",
       feature4Benefit2: "KI versteht Kontext",
       feature4Benefit3: "Nach Sprecher oder Datum filtern",
@@ -2751,38 +2925,48 @@ let message = {
       feature4Meeting2: "Vorstandssitzung - 20. Okt.",
       feature4Meeting2Text: "„...Q4-Umsatzprognosen...“",
       workflowTitle: "So transkribieren Sie eine",
-      workflowSubtitle: "Ein nahtloser Workflow, der jeden wichtigen Moment erfasst",
+      workflowSubtitle:
+        "Ein nahtloser Workflow, der jeden wichtigen Moment erfasst",
       workflowStep1Title: "Aufnehmen oder Hochladen",
-      workflowStep1Desc: "Nehmen Sie live auf oder laden Sie einfach Besprechungsaufnahmen von Zoom, Google Meet oder Microsoft Teams herunter",
+      workflowStep1Desc:
+        "Nehmen Sie live auf oder laden Sie einfach Besprechungsaufnahmen von Zoom, Google Meet oder Microsoft Teams herunter",
       workflowStep2Title: "Automatische Transkription",
-      workflowStep2Desc: "Unsere KI transkribiert die Aufnahme automatisch mit 96 % Genauigkeit in Minuten",
+      workflowStep2Desc:
+        "Unsere KI transkribiert die Aufnahme automatisch mit 96 % Genauigkeit in Minuten",
       workflowStep3Title: "Zusammenarbeiten",
       workflowStep3Desc: "Teilen, kommentieren und Aufgaben extrahieren",
       workflowStep4Title: "Suchen & Analysieren",
       workflowStep4Desc: "Erkenntnisse in allen Besprechungen finden",
       testimonialsTitle: "Teams lieben",
-      testimonialsSubtitle: "Sehen Sie, wie Unternehmen ihre Meetingkultur verändern",
-      testimonial1Text: "„Früher haben wir wichtige Details verpasst, jetzt haben wir ein durchsuchbares Archiv jeder Unterhaltung. Die direkte Aufnahmefunktion sorgt dafür, dass wir wichtige Diskussionen nie vergessen.“",
+      testimonialsSubtitle:
+        "Sehen Sie, wie Unternehmen ihre Meetingkultur verändern",
+      testimonial1Text:
+        "„Früher haben wir wichtige Details verpasst, jetzt haben wir ein durchsuchbares Archiv jeder Unterhaltung. Die direkte Aufnahmefunktion sorgt dafür, dass wir wichtige Diskussionen nie vergessen.“",
       testimonial1AuthorName: "James Kim",
       testimonial1AuthorRole: "Produktmanager, TechCorp",
-      testimonial2Text: "„Otter erlaubte uns nur 10 Datei-Uploads pro Monat. Jetzt laden wir alle Kundengespräche sofort hoch. Ein Game Changer für das Follow-up unseres Vertriebsteams.“",
+      testimonial2Text:
+        "„Otter erlaubte uns nur 10 Datei-Uploads pro Monat. Jetzt laden wir alle Kundengespräche sofort hoch. Ein Game Changer für das Follow-up unseres Vertriebsteams.“",
       testimonial2AuthorName: "Sarah Rodriguez",
       testimonial2AuthorRole: "Vertriebsleiterin, ConsultPro",
-      testimonial3Text: "„Die Möglichkeit, monatelange Besprechungen zu durchsuchen, hat uns während der Auditierung gerettet. Jede Entscheidung und Genehmigung wurde in Sekunden gefunden.“",
+      testimonial3Text:
+        "„Die Möglichkeit, monatelange Besprechungen zu durchsuchen, hat uns während der Auditierung gerettet. Jede Entscheidung und Genehmigung wurde in Sekunden gefunden.“",
       testimonial3AuthorName: "Mark Liu",
       testimonial3AuthorRole: "COO, FinanceHub",
       ctaTitle: "Verlieren Sie keine wichtigen Gespräche mehr",
-      ctaSubtitle: "Schließen Sie sich Tausenden Teams an, die jede Besprechung mit unbegrenzter Transkription erfassen",
+      ctaSubtitle:
+        "Schließen Sie sich Tausenden Teams an, die jede Besprechung mit unbegrenzter Transkription erfassen",
       ctaButton: "Kostenlos aufnehmen →",
       featuresTitle2: "Besprechung",
       workflowTitle2: "Zoom-Aufnahme in Text",
-      heroSubtitleA: "Zeichnen Sie Meetings direkt im Browser auf oder laden Sie Audiodateien sofort hoch. Erstellen Sie durchsuchbare Archive aus einer unbegrenzten Anzahl von Gesprächen. Verlieren Sie nie wieder wichtige Gespräche mit der wirklich unbegrenzten Transkription von {NeverCap}."
+      heroSubtitleA:
+        "Zeichnen Sie Meetings direkt im Browser auf oder laden Sie Audiodateien sofort hoch. Erstellen Sie durchsuchbare Archive aus einer unbegrenzten Anzahl von Gesprächen. Verlieren Sie nie wieder wichtige Gespräche mit der wirklich unbegrenzten Transkription von {NeverCap}."
     },
     Educators: {
       heroBadge: "Für Lehrkräfte & Pädagogen",
       heroTitle1: "Lernen für",
       heroTitle2: "Alle zugänglich machen",
-      heroSubtitle: "Fügen Sie einfach YouTube-Links ein, um sofortige Transkripte mit automatisch generierten Untertiteln zu erhalten. Verwandeln Sie Vorlesungen, Tutorials und Lehrvideos in durchsuchbare, zugängliche Inhalte, von denen jeder Schüler lernen kann.",
+      heroSubtitle:
+        "Fügen Sie einfach YouTube-Links ein, um sofortige Transkripte mit automatisch generierten Untertiteln zu erhalten. Verwandeln Sie Vorlesungen, Tutorials und Lehrvideos in durchsuchbare, zugängliche Inhalte, von denen jeder Schüler lernen kann.",
       heroCtaPrimary: "Kostenlos testen - Keine Kreditkarte",
       heroCtaSecondary: "Demo ansehen",
       stats1Number: "1-Klick",
@@ -2794,15 +2978,18 @@ let message = {
       stats4Number: "96%",
       stats4Label: "Genauigkeitsrate",
       featuresTitle: "Alles, was Pädagogen benötigen für",
-      featuresSubtitle: "Von YouTube-Vorlesungen bis aufgezeichnete Kurse – machen Sie alle Ihre Inhalte zugänglich",
+      featuresSubtitle:
+        "Von YouTube-Vorlesungen bis aufgezeichnete Kurse – machen Sie alle Ihre Inhalte zugänglich",
       feature1Title: "Sofortige YouTube- & Plattform-Links",
-      feature1Desc: "Fügen Sie einfach einen Video-Link ein und erhalten Sie sofortige Transkripte. Funktioniert mit YouTube, Vimeo, Facebook, X (Twitter), TikTok, Instagram, Dropbox, Google Drive und mehr. Kein Herunterladen, kein Warten.",
+      feature1Desc:
+        "Fügen Sie einfach einen Video-Link ein und erhalten Sie sofortige Transkripte. Funktioniert mit YouTube, Vimeo, Facebook, X (Twitter), TikTok, Instagram, Dropbox, Google Drive und mehr. Kein Herunterladen, kein Warten.",
       feature1Point1: "Direkte Link-Transkription – keine Downloads nötig",
       feature1Point2: "Unterstützung für alle großen Plattformen",
       feature1Point3: "Ganze Playlists auf einmal verarbeiten",
       feature1Point4: "Funktioniert mit privaten Videos (mit Berechtigung)",
       feature2Title: "Automatisch erzeugte Untertitel & Beschriftungen",
-      feature2Desc: "Erstellen Sie sofort genaue Untertitel für alle Ihre Lehrvideos. Machen Sie Inhalte zugänglich für Studierende mit Hörbehinderungen, Nicht-Muttersprachler oder solche, die lieber mitlesen.",
+      feature2Desc:
+        "Erstellen Sie sofort genaue Untertitel für alle Ihre Lehrvideos. Machen Sie Inhalte zugänglich für Studierende mit Hörbehinderungen, Nicht-Muttersprachler oder solche, die lieber mitlesen.",
       feature2Point1: "SRT-, VTT- und TXT-Exportformate",
       feature2Point2: "Wortgenaue Zeitstempel für perfekte Synchronisation",
       feature2Point3: "Untertitel einfach bearbeiten und anpassen",
@@ -2810,7 +2997,8 @@ let message = {
       feature2Visual1: "Sprachübersetzungen",
       feature2Visual2: "Machen Sie Ihre Inhalte weltweit zugänglich",
       feature3Title: "Nach Kursen & Kategorien organisieren",
-      feature3Desc: "Erstellen Sie Ordner, um Ihre Transkripte nach Kurs, Fach oder Semester zu organisieren. Halten Sie alle Ihre Lehrinhalte übersichtlich kategorisiert und leicht durchsuchbar. Bauen Sie eine umfassende Bibliothek zugänglicher Kursmaterialien auf.",
+      feature3Desc:
+        "Erstellen Sie Ordner, um Ihre Transkripte nach Kurs, Fach oder Semester zu organisieren. Halten Sie alle Ihre Lehrinhalte übersichtlich kategorisiert und leicht durchsuchbar. Bauen Sie eine umfassende Bibliothek zugänglicher Kursmaterialien auf.",
       feature3Point1: "Erstellen Sie unbegrenzte Ordner und Unterordner",
       feature3Point2: "Videos nach Thema oder Schwierigkeitsgrad taggen",
       feature3Point3: "Mehrere Transkripte stapelweise organisieren",
@@ -2822,74 +3010,93 @@ let message = {
       feature3Folder4: "Geschichtsdokumentationen",
       feature3Folder5: "Sprachenlernen",
       feature4Title: "KI-Transkription von Audiodateien zu Lernhilfen",
-      feature4Desc: "Teilen Sie nicht nur Aufnahmen. Transkribieren Sie Vorlesungen automatisch in Text und andere Audiodateien in detaillierte Lernhilfen, komplett mit Zusammenfassungen und Schlüsselkonzepten für effektive Wiederholung. Export in TXT-, DOCX- oder PDF-Formaten.",
+      feature4Desc:
+        "Teilen Sie nicht nur Aufnahmen. Transkribieren Sie Vorlesungen automatisch in Text und andere Audiodateien in detaillierte Lernhilfen, komplett mit Zusammenfassungen und Schlüsselkonzepten für effektive Wiederholung. Export in TXT-, DOCX- oder PDF-Formaten.",
       feature4Point1: "TXT für einfache Textbearbeitung",
       feature4Point2: "DOCX für formatierte Dokumente",
       feature4Point3: "PDF für einfaches Teilen und Drucken",
       feature4Point4: "Mehrere Dateien stapelweise exportieren",
       workflowTitle: "So funktioniert's:",
-      workflowSubtitle: "Vom Video-Link zum zugänglichen Transkript und Lernmaterial in Minuten",
+      workflowSubtitle:
+        "Vom Video-Link zum zugänglichen Transkript und Lernmaterial in Minuten",
       workflowStep1Title: "Ihre Vorlesung hochladen",
-      workflowStep1Desc: "Laden Sie jede Audio- oder Videodatei hoch (MP3, MP4, WAV) oder fügen Sie einen YouTube-Link ein",
+      workflowStep1Desc:
+        "Laden Sie jede Audio- oder Videodatei hoch (MP3, MP4, WAV) oder fügen Sie einen YouTube-Link ein",
       workflowStep2Title: "KI-Transkription",
-      workflowStep2Desc: "Unsere KI transkribiert das Audio, trennt Sprecher und identifiziert Schlüsselthemen",
+      workflowStep2Desc:
+        "Unsere KI transkribiert das Audio, trennt Sprecher und identifiziert Schlüsselthemen",
       workflowStep3Title: "Untertitel generieren",
-      workflowStep3Desc: "Automatisch perfekt synchronisierte Untertitel erstellen",
+      workflowStep3Desc:
+        "Automatisch perfekt synchronisierte Untertitel erstellen",
       workflowStep4Title: "Studienleitfaden exportieren",
-      workflowStep4Desc: "Laden Sie den Text oder die Zusammenfassung herunter oder exportieren Sie sie, um Ihren endgültigen Studienleitfaden zu erstellen",
+      workflowStep4Desc:
+        "Laden Sie den Text oder die Zusammenfassung herunter oder exportieren Sie sie, um Ihren endgültigen Studienleitfaden zu erstellen",
       useCasesTitle: "Perfekt für jeden",
-      useCasesSubtitle: "Sehen Sie, wie Pädagogen NeverCap nutzen, um das Lernen zu verbessern",
+      useCasesSubtitle:
+        "Sehen Sie, wie Pädagogen NeverCap nutzen, um das Lernen zu verbessern",
       useCase1Title: "Aufgezeichnete Vorlesungen",
-      useCase1Text: "Transkribieren Sie ganze Semester aufgezeichneter Vorlesungen. Studierende können nach bestimmten Themen suchen, Schlüsselkonzepte wiederholen und wichtige Informationen nie verpassen.",
+      useCase1Text:
+        "Transkribieren Sie ganze Semester aufgezeichneter Vorlesungen. Studierende können nach bestimmten Themen suchen, Schlüsselkonzepte wiederholen und wichtige Informationen nie verpassen.",
       useCase2Title: "Online-Kurse",
-      useCase2Text: "Machen Sie Ihre Online-Kurse für internationale Studierende zugänglich mit Übersetzungen in 100+ Sprachen. Steigern Sie die Einschreibungen und Zufriedenheit.",
+      useCase2Text:
+        "Machen Sie Ihre Online-Kurse für internationale Studierende zugänglich mit Übersetzungen in 100+ Sprachen. Steigern Sie die Einschreibungen und Zufriedenheit.",
       useCase3Title: "Studienmaterialien",
-      useCase3Text: "Nutzen Sie KI, um Audiodateien aus Video-Tutorials und Vorlesungen in Studienleitfäden zu transkribieren. Perfekt für Studierende, die lieber lesen oder Inhalte schnell mit durchsuchbarem Text wiederholen möchten.",
+      useCase3Text:
+        "Nutzen Sie KI, um Audiodateien aus Video-Tutorials und Vorlesungen in Studienleitfäden zu transkribieren. Perfekt für Studierende, die lieber lesen oder Inhalte schnell mit durchsuchbarem Text wiederholen möchten.",
       useCase4Title: "Barrierefreiheit",
-      useCase4Text: "Erfüllen Sie die Anforderungen an Barrierefreiheit, indem Sie Untertitel und Transkripte für alle Videoinhalte bereitstellen. Gewährleisten Sie gleichen Zugang für alle Studierenden.",
+      useCase4Text:
+        "Erfüllen Sie die Anforderungen an Barrierefreiheit, indem Sie Untertitel und Transkripte für alle Videoinhalte bereitstellen. Gewährleisten Sie gleichen Zugang für alle Studierenden.",
       useCase5Title: "Flipped Classroom",
-      useCase5Text: "Teilen Sie Video-Vorlesungen mit Transkripten vor dem Unterricht. Studierende können in ihrem eigenen Tempo wiederholen und vorbereitet zu Diskussionen erscheinen.",
+      useCase5Text:
+        "Teilen Sie Video-Vorlesungen mit Transkripten vor dem Unterricht. Studierende können in ihrem eigenen Tempo wiederholen und vorbereitet zu Diskussionen erscheinen.",
       useCase6Title: "Forschung & Zitate",
-      useCase6Text: "Helfen Sie Studierenden, Videoquellen mit Zeitstempeln korrekt zu zitieren. Perfekt für Forschungsprojekte und akademische Arbeiten.",
+      useCase6Text:
+        "Helfen Sie Studierenden, Videoquellen mit Zeitstempeln korrekt zu zitieren. Perfekt für Forschungsprojekte und akademische Arbeiten.",
       testimonialTitle: "Vertrauen von",
       testimonialSubtitle: "Sehen Sie, warum Lehrer weltweit NeverCap wählen",
       testimonialAuthorName: "Prof. Karen Mitchell",
       testimonialAuthorRole: "Mathematikprofessorin, Online-Pädagogin",
       ctaTitle: "Machen Sie alle Ihre Bildungsinhalte zugänglich",
-      ctaSubtitle: "Schließen Sie sich Tausenden Pädagogen an, die wirklich unbegrenzte Transkription nutzen",
+      ctaSubtitle:
+        "Schließen Sie sich Tausenden Pädagogen an, die wirklich unbegrenzte Transkription nutzen",
       ctaButton: "NeverCap kostenlos testen",
       featuresTitle2: "Video-Transkription",
       grid: "Audiodatei zu Lernhilfe",
       useCasesTitle2: "Bildungsbedarf",
       testimonialTitle2: "50.000+ Pädagogen",
-      testimonialTextA: "„Ich habe {NeverCap} verwendet, um meinen gesamten YouTube-Kanal mit Mathe-Tutorials zu transkribieren. Was bei anderen Diensten früher Wochen dauerte, dauert jetzt Stunden. Die Möglichkeit, Links direkt einzufügen und sofort Transkripte zu erhalten, hat die Art und Weise, wie ich barrierefreie Inhalte erstelle, verändert. Meine internationalen Studenten lieben besonders die mehrsprachigen Untertitel!“"
+      testimonialTextA:
+        "„Ich habe {NeverCap} verwendet, um meinen gesamten YouTube-Kanal mit Mathe-Tutorials zu transkribieren. Was bei anderen Diensten früher Wochen dauerte, dauert jetzt Stunden. Die Möglichkeit, Links direkt einzufügen und sofort Transkripte zu erhalten, hat die Art und Weise, wie ich barrierefreie Inhalte erstelle, verändert. Meine internationalen Studenten lieben besonders die mehrsprachigen Untertitel!“"
     }
   },
   Resources: {
     YouTubeToMP4: {
       part1: {
-        "title": "YouTube-Videos als MP4 herunterladen",
-        "placeholder": "Suche oder füge deinen YouTube-Link hier ein",
-        "clear_icon": "Eingabe löschen",
-        "Download": "Herunterladen",
-        "loading_text": "Der Link wird verarbeitet. Bleib auf der Seite.",
-        "howToDownload": "Wie wird heruntergeladen?",
-        "tutorial": "Tutorial ansehen"
+        title: "YouTube-Videos als MP4 herunterladen",
+        placeholder: "Suche oder füge deinen YouTube-Link hier ein",
+        clear_icon: "Eingabe löschen",
+        Download: "Herunterladen",
+        loading_text: "Der Link wird verarbeitet. Bleib auf der Seite.",
+        howToDownload: "Wie wird heruntergeladen?",
+        tutorial: "Tutorial ansehen"
       },
       part2: {
-        "title": "So wandelst du ein YouTube-Video in 3 einfachen Schritten in eine herunterladbare MP4-Datei um",
-        "steps": [
+        title:
+          "So wandelst du ein YouTube-Video in 3 einfachen Schritten in eine herunterladbare MP4-Datei um",
+        steps: [
           {
             title: "URL kopieren",
-            content: "Öffne das gewünschte YouTube-Video und kopiere den Link aus der Adressleiste deines Browsers."
+            content:
+              "Öffne das gewünschte YouTube-Video und kopiere den Link aus der Adressleiste deines Browsers."
           },
           {
             title: "Link einfügen",
-            content: "Gehe zu deinem Video-Downloader und füge die URL in das Eingabefeld ein."
+            content:
+              "Gehe zu deinem Video-Downloader und füge die URL in das Eingabefeld ein."
           },
           {
             title: "MP4 herunterladen",
-            content: "Nach der Verarbeitung klicke auf den Download-Button, um deine MP4-Datei zu speichern."
+            content:
+              "Nach der Verarbeitung klicke auf den Download-Button, um deine MP4-Datei zu speichern."
           }
         ]
       },
@@ -2902,27 +3109,35 @@ let message = {
         ]
       },
       part4: {
-        content: ["Hier sind die 5 wichtigsten Vorteile des Herunterladens", "von YouTube-Videos als MP4-Dateien"],
+        content: [
+          "Hier sind die 5 wichtigsten Vorteile des Herunterladens",
+          "von YouTube-Videos als MP4-Dateien"
+        ],
         list: [
           {
             title: "Datenkosten sparen:",
-            content: "Normalerweise verbraucht das Ansehen von YouTube-Videos viel mobiles Datenvolumen. Durch Offline-Downloads vermeidest du diese unnötigen Kosten."
+            content:
+              "Normalerweise verbraucht das Ansehen von YouTube-Videos viel mobiles Datenvolumen. Durch Offline-Downloads vermeidest du diese unnötigen Kosten."
           },
           {
             title: "Überall und jederzeit ansehen:",
-            content: "Genieße deine Videos ohne Unterbrechungen, selbst bei schlechter Internetverbindung. Kein lästiges Buffern mehr."
+            content:
+              "Genieße deine Videos ohne Unterbrechungen, selbst bei schlechter Internetverbindung. Kein lästiges Buffern mehr."
           },
           {
             title: "Einfaches Archivieren & Speichern:",
-            content: "Das Speichern von Videos als MP4 erleichtert das Erstellen einer persönlichen Sammlung, besonders für wertvolle oder wichtige Inhalte."
+            content:
+              "Das Speichern von Videos als MP4 erleichtert das Erstellen einer persönlichen Sammlung, besonders für wertvolle oder wichtige Inhalte."
           },
           {
             title: "Einfacher teilen:",
-            content: "Eine MP4-Datei zu teilen ist viel bequemer als einen Link zu senden. Du kannst die Videodatei direkt über Apps wie WhatsApp oder Instagram versenden, ohne YouTube öffnen zu müssen."
+            content:
+              "Eine MP4-Datei zu teilen ist viel bequemer als einen Link zu senden. Du kannst die Videodatei direkt über Apps wie WhatsApp oder Instagram versenden, ohne YouTube öffnen zu müssen."
           },
           {
             title: "Sofortiges Ansehen, gemeinsame Momente:",
-            content: "Möchtest du Freunden oder Familie ein Lieblingsvideo zeigen? Mit der heruntergeladenen MP4 könnt ihr es sofort gemeinsam ansehen, ohne auf das Laden warten zu müssen."
+            content:
+              "Möchtest du Freunden oder Familie ein Lieblingsvideo zeigen? Mit der heruntergeladenen MP4 könnt ihr es sofort gemeinsam ansehen, ohne auf das Laden warten zu müssen."
           }
         ]
       },
@@ -2935,7 +3150,8 @@ let message = {
           },
           {
             title: "Blitzschnell, unbegrenzt",
-            content: "Konvertiere und lade mit Höchstgeschwindigkeit herunter – keine Begrenzungen."
+            content:
+              "Konvertiere und lade mit Höchstgeschwindigkeit herunter – keine Begrenzungen."
           },
           {
             title: "Sofortige Konvertierung",
@@ -2943,13 +3159,15 @@ let message = {
           },
           {
             title: "Keine Werbung, keine Ablenkungen",
-            content: "Genieße eine saubere Oberfläche ohne Pop-ups, Banner oder Unterbrechungen – nur nahtlose Videokonvertierung."
+            content:
+              "Genieße eine saubere Oberfläche ohne Pop-ups, Banner oder Unterbrechungen – nur nahtlose Videokonvertierung."
           },
           {
             icon: "5",
             color: "#DEE5FF",
             title: "Originalqualität garantiert",
-            content: "Deine Downloads behalten die volle Auflösung des Originalvideos für eine perfekte Wiedergabe."
+            content:
+              "Deine Downloads behalten die volle Auflösung des Originalvideos für eine perfekte Wiedergabe."
           },
           {
             icon: "6",
@@ -2960,7 +3178,10 @@ let message = {
         ]
       },
       part6: {
-        title: ["Maximiere deine YouTube-Video-Downloads", "Mit dem Downloader"],
+        title: [
+          "Maximiere deine YouTube-Video-Downloads",
+          "Mit dem Downloader"
+        ],
         content: [
           "Einfache YouTube-zu-MP4-Konvertierung: Schnell, einfach & kostenlos.",
           "Darin sind wir spitze. Unsere benutzerfreundliche Oberfläche ist für alle gemacht – keine technischen Kenntnisse nötig. Egal auf welchem Level, du kannst Videos sofort konvertieren. Keine Anmeldung erforderlich: Hol dir direkt, was du brauchst.",
@@ -2972,310 +3193,435 @@ let message = {
         title: "Wichtige Fragen zum Herunterladen von YouTube-Videos",
         list: [
           {
-            question: "Kann ich ein YouTube-Video herunterladen, wenn es urheberrechtlich geschützt ist?",
-            answer: "Das Herunterladen urheberrechtlich geschützter YouTube-Videos ohne Erlaubnis des Rechteinhabers ist illegal."
+            question:
+              "Kann ich ein YouTube-Video herunterladen, wenn es urheberrechtlich geschützt ist?",
+            answer:
+              "Das Herunterladen urheberrechtlich geschützter YouTube-Videos ohne Erlaubnis des Rechteinhabers ist illegal."
           },
           {
             question: "Ist dieses Download-Tool sicher?",
-            answer: "Ja, es ist sicher und vertrauenswürdig. Wir benötigen keine persönlichen Daten und ergreifen strenge Maßnahmen gegen Viren. Wir raten dir, beim Herunterladen von Dateien aus dem Internet stets vorsichtig zu sein: Vermeide das Klicken auf verdächtige Links oder das Herunterladen fragwürdiger Dateien."
+            answer:
+              "Ja, es ist sicher und vertrauenswürdig. Wir benötigen keine persönlichen Daten und ergreifen strenge Maßnahmen gegen Viren. Wir raten dir, beim Herunterladen von Dateien aus dem Internet stets vorsichtig zu sein: Vermeide das Klicken auf verdächtige Links oder das Herunterladen fragwürdiger Dateien."
           },
           {
-            question: "Welche Sprachen unterstützt der YouTube-zu-MP4-Download?",
-            answer: "Unser Service unterstützt das Herunterladen von YouTube-Videos in allen gängigen Sprachen."
+            question:
+              "Welche Sprachen unterstützt der YouTube-zu-MP4-Download?",
+            answer:
+              "Unser Service unterstützt das Herunterladen von YouTube-Videos in allen gängigen Sprachen."
           },
           {
-            question: "Welche Faktoren beeinflussen die Download-Zeit eines YouTube-Videos?",
-            answer: "Während wir die schnellstmögliche Download-Erfahrung gewährleisten, hängt die Download-Zeit auch von Faktoren wie der Videolänge und deiner Internetgeschwindigkeit ab."
+            question:
+              "Welche Faktoren beeinflussen die Download-Zeit eines YouTube-Videos?",
+            answer:
+              "Während wir die schnellstmögliche Download-Erfahrung gewährleisten, hängt die Download-Zeit auch von Faktoren wie der Videolänge und deiner Internetgeschwindigkeit ab."
           },
           {
-            question: "Wo wird eine MP4-Videodatei auf meinem Smartphone gespeichert?",
-            answer: 'Nach dem Herunterladen einer MP4-Datei auf Ihrem Smartphone finden Sie diese normalerweise im Ordner "Downloads" der Dateimanager-App Ihres Geräts.'
+            question:
+              "Wo wird eine MP4-Videodatei auf meinem Smartphone gespeichert?",
+            answer:
+              'Nach dem Herunterladen einer MP4-Datei auf Ihrem Smartphone finden Sie diese normalerweise im Ordner "Downloads" der Dateimanager-App Ihres Geräts.'
           },
           {
-            question: "Verschlechtert das Herunterladen eines YouTube-Videos als MP4 die Videoqualität?",
-            answer: "Nein. Das Herunterladen von YouTube-Videos als MP4 mit unserem Tool behält die Originalqualität bei. Der Konvertierungsprozess bewahrt die Quellqualität, sodass du das gleiche Ansehen-Erlebnis wie auf YouTube hast."
+            question:
+              "Verschlechtert das Herunterladen eines YouTube-Videos als MP4 die Videoqualität?",
+            answer:
+              "Nein. Das Herunterladen von YouTube-Videos als MP4 mit unserem Tool behält die Originalqualität bei. Der Konvertierungsprozess bewahrt die Quellqualität, sodass du das gleiche Ansehen-Erlebnis wie auf YouTube hast."
           }
         ]
       },
       err1: "YouTube-Link-Formatfehler.",
       err2: "Entschuldigung! Wir unterstützen derzeit nur YouTube-Links. Falls Sie Unterstützung für andere Seiten benötigen, informieren wir Sie, sobald wir diese hinzufügen.",
       videoDownload: {
-        title: "YouTube-Videos als MP4 herunterladen. Kostenlos, schnell und ohne Werbung.",
-        description: "Vielen Dank, dass Sie unseren Service gewählt haben! Wir schätzen Ihr Vertrauen und hoffen, es hat Ihnen gefallen. Es würde uns sehr helfen, wenn Sie unsere Website mit Ihren Freunden teilen würden.",
+        title:
+          "YouTube-Videos als MP4 herunterladen. Kostenlos, schnell und ohne Werbung.",
+        description:
+          "Vielen Dank, dass Sie unseren Service gewählt haben! Wir schätzen Ihr Vertrauen und hoffen, es hat Ihnen gefallen. Es würde uns sehr helfen, wenn Sie unsere Website mit Ihren Freunden teilen würden.",
         downloadButton: "Herunterladen",
         downloadError: "Downloadfehler.",
-          TranscribeButton: 'Transkribieren'
-    },
-        freeResources: {
-              "linkTitle": "Unterstützt von {NeverCap}",
-              "linkTitle2": "- Wirklich unbegrenzte KI-Transkription",
-              "title": "Kostenlose Ressourcen",
-              "steps": [
-                {
-                  "title": "Kostenloses Audio und Video",
-                  "content": "Konvertieren Sie Audio- und Videodateien in Sekundenschnelle in Text. 3 kostenlose Transkripte jeden Tag."
-                },
-                {
-                  "title": "Audiodateien in Text konvertieren",
-                  "content": "Laden Sie MP3, MP4, WAV, MOV hoch.",
-                  "content2": "Laden Sie DOCX, TXT, SRT (Untertitel) herunter."
-                },
-                {
-                  "title": "YouTube-Videos transkribieren",
-                  "content": "Konvertieren Sie YouTube-Videos in präzisen Text oder Untertitel. Fügen Sie einfach den YouTube-Link ein."
-                }
-              ],
-            stepsNew: [
-                  {
-                    "title": "Kostenlose Audio- und Videotranskription",
-                    "content": "Konvertieren Sie Audio- und Videodateien in Sekundenschnelle in Text. Jeden Tag 3 kostenlose Transkripte."
-                  },
-                  {
-                    "title": "Audiodateien in Text konvertieren",
-                    "content": "Laden Sie MP3, MP4, WAV, MOV hoch.",
-                    "content2": "Laden Sie DOCX, TXT, SRT (Untertitel) herunter."
-                  },
-                  {
-                    "title": "YouTube-Videos transkribieren",
-                    "content": "Konvertieren Sie YouTube-Videos in präzisen Text oder Untertitel. Fügen Sie einfach den YouTube-Link ein."
-                  }
-                ]
-        }
+        TranscribeButton: "Transkribieren"
+      },
+      freeResources: {
+        linkTitle: "Unterstützt von {NeverCap}",
+        linkTitle2: "- Wirklich unbegrenzte KI-Transkription",
+        title: "Kostenlose Ressourcen",
+        steps: [
+          {
+            title: "Kostenloses Audio und Video",
+            content:
+              "Konvertieren Sie Audio- und Videodateien in Sekundenschnelle in Text. 3 kostenlose Transkripte jeden Tag."
+          },
+          {
+            title: "Audiodateien in Text konvertieren",
+            content: "Laden Sie MP3, MP4, WAV, MOV hoch.",
+            content2: "Laden Sie DOCX, TXT, SRT (Untertitel) herunter."
+          },
+          {
+            title: "YouTube-Videos transkribieren",
+            content:
+              "Konvertieren Sie YouTube-Videos in präzisen Text oder Untertitel. Fügen Sie einfach den YouTube-Link ein."
+          }
+        ],
+        stepsNew: [
+          {
+            title: "Kostenlose Audio- und Videotranskription",
+            content:
+              "Konvertieren Sie Audio- und Videodateien in Sekundenschnelle in Text. Jeden Tag 3 kostenlose Transkripte."
+          },
+          {
+            title: "Audiodateien in Text konvertieren",
+            content: "Laden Sie MP3, MP4, WAV, MOV hoch.",
+            content2: "Laden Sie DOCX, TXT, SRT (Untertitel) herunter."
+          },
+          {
+            title: "YouTube-Videos transkribieren",
+            content:
+              "Konvertieren Sie YouTube-Videos in präzisen Text oder Untertitel. Fügen Sie einfach den YouTube-Link ein."
+          }
+        ]
+      }
     }
   },
   About: {
     Hero: {
-      "badge": "Branchenführende KI-Technologie",
-      "title": "Über",
-      "description": "Unsere Mission ist es, die präzisesten Audio- und Video-Transkriptionsdienste anzubieten. Mit branchenführender KI-Technologie erreichen wir Transkriptionsgenauigkeiten von über 96%. Bei einigen Hauptsprachen können wir durch technische Optimierung sogar 99% Genauigkeit erreichen."
+      badge: "Branchenführende KI-Technologie",
+      title: "Über",
+      description:
+        "Unsere Mission ist es, die präzisesten Audio- und Video-Transkriptionsdienste anzubieten. Mit branchenführender KI-Technologie erreichen wir Transkriptionsgenauigkeiten von über 96%. Bei einigen Hauptsprachen können wir durch technische Optimierung sogar 99% Genauigkeit erreichen."
     },
     Stats: {
-      "title": "Unser",
-      "highlighted_text": "Impact",
-      "subtitle": "Globale Kommunikation mit modernster KI-Technologie ermöglichen",
-      "metrics": [
+      title: "Unser",
+      highlighted_text: "Impact",
+      subtitle:
+        "Globale Kommunikation mit modernster KI-Technologie ermöglichen",
+      metrics: [
         {
-          "value": "96%+",
-          "label": "Genauigkeitsrate",
-          "description": "Branchenführende Transkriptionsgenauigkeit mit fortschrittlicher KI"
+          value: "96%+",
+          label: "Genauigkeitsrate",
+          description:
+            "Branchenführende Transkriptionsgenauigkeit mit fortschrittlicher KI"
         },
         {
-          "value": "100+",
-          "label": "Unterstützte Sprachen",
-          "description": "Spracherkennung für globale Inhalte"
+          value: "100+",
+          label: "Unterstützte Sprachen",
+          description: "Spracherkennung für globale Inhalte"
         },
         {
-          "value": "249+",
-          "label": "Übersetzungssprachen",
-          "description": "Transkribierten Text in nahezu jede Sprache übersetzen"
+          value: "249+",
+          label: "Übersetzungssprachen",
+          description: "Transkribierten Text in nahezu jede Sprache übersetzen"
         }
       ]
     },
     Mission: {
-      "title": "Warum",
-      "subtitle": "Wir glauben daran, Sprachbarrieren abzubauen und Inhalte für alle zugänglich zu machen",
-      "features": [
+      title: "Warum",
+      subtitle:
+        "Wir glauben daran, Sprachbarrieren abzubauen und Inhalte für alle zugänglich zu machen",
+      features: [
         {
-          "icon": "🎯",
-          "title": "Unübertroffene Genauigkeit",
-          "description": "Unsere KI-Modelle werden kontinuierlich verbessert, um Transkriptionsgenauigkeiten von über 96% zu liefern, bei einigen Hauptsprachen sogar bis zu 99% durch fortgeschrittene Optimierung."
+          icon: "🎯",
+          title: "Unübertroffene Genauigkeit",
+          description:
+            "Unsere KI-Modelle werden kontinuierlich verbessert, um Transkriptionsgenauigkeiten von über 96% zu liefern, bei einigen Hauptsprachen sogar bis zu 99% durch fortgeschrittene Optimierung."
         },
         {
-          "icon": "🌍",
-          "title": "Globale Sprachunterstützung",
-          "description": "Unterstützung für über 100 Sprachen in der Spracherkennung und Übersetzungsmöglichkeiten für mehr als 249 Sprachen, um Ihre Inhalte wirklich global zu machen."
+          icon: "🌍",
+          title: "Globale Sprachunterstützung",
+          description:
+            "Unterstützung für über 100 Sprachen in der Spracherkennung und Übersetzungsmöglichkeiten für mehr als 249 Sprachen, um Ihre Inhalte wirklich global zu machen."
         },
         {
-          "icon": "⚡",
-          "title": "Blitzschnelle Verarbeitung",
-          "description": "Verarbeiten Sie Stunden an Audio- und Videoinhalten in Minuten, nicht Stunden. Unsere optimierte KI-Pipeline sorgt für schnelle Transkriptionen ohne Qualitätseinbußen."
+          icon: "⚡",
+          title: "Blitzschnelle Verarbeitung",
+          description:
+            "Verarbeiten Sie Stunden an Audio- und Videoinhalten in Minuten, nicht Stunden. Unsere optimierte KI-Pipeline sorgt für schnelle Transkriptionen ohne Qualitätseinbußen."
         },
         {
-          "icon": "🔒",
-          "title": "Unternehmensgrade Sicherheit",
-          "description": "Ihre Datensicherheit ist unsere Priorität. Wir verwenden branchenübliche Verschlüsselung und halten uns an globale Datenschutzbestimmungen, um Ihre Inhalte sicher und vertraulich zu halten."
+          icon: "🔒",
+          title: "Unternehmensgrade Sicherheit",
+          description:
+            "Ihre Datensicherheit ist unsere Priorität. Wir verwenden branchenübliche Verschlüsselung und halten uns an globale Datenschutzbestimmungen, um Ihre Inhalte sicher und vertraulich zu halten."
         }
       ]
     },
     Company: {
-      "title": "Firmen",
-      "highlighted_text": "Informationen",
-      "subtitle": "Kontaktieren Sie uns bei Fragen oder Support",
-      "details": [
+      title: "Firmen",
+      highlighted_text: "Informationen",
+      subtitle: "Kontaktieren Sie uns bei Fragen oder Support",
+      details: [
         {
-          "label": "Firmenname",
-          "value": "SCRIBIFY AI INC"
+          label: "Firmenname",
+          value: "SCRIBIFY AI INC"
         },
         {
-          "label": "Hauptsitz",
-          "value": ["30 N Gould St Ste R", "Sheridan, WY 82801", "Vereinigte Staaten"]
+          label: "Hauptsitz",
+          value: [
+            "30 N Gould St Ste R",
+            "Sheridan, WY 82801",
+            "Vereinigte Staaten"
+          ]
         },
         {
-          "label": "Kontakt",
-          "value": ["E-Mail", "Support rund um die Uhr verfügbar"]
+          label: "Kontakt",
+          value: ["E-Mail", "Support rund um die Uhr verfügbar"]
         }
       ]
     },
     CTA: {
-      "title": "Bereit für den Unterschied?",
-      "subtitle": "Schließen Sie sich Tausenden Profis an, die NeverCap für ihre Transkriptionsbedürfnisse vertrauen",
-      "button": "NeverCap kostenlos testen →",
-      "disclaimer": "Keine Kreditkarte erforderlich • In Sekunden mit der Transkription beginnen"
+      title: "Bereit für den Unterschied?",
+      subtitle:
+        "Schließen Sie sich Tausenden Profis an, die NeverCap für ihre Transkriptionsbedürfnisse vertrauen",
+      button: "NeverCap kostenlos testen →",
+      disclaimer:
+        "Keine Kreditkarte erforderlich • In Sekunden mit der Transkription beginnen"
     }
   },
   Privacy: {
     title: "Datenschutz",
     titleGradient: "Richtlinie",
-    subtitle: "Erfahren Sie, wie wir Ihre persönlichen Daten sammeln, nutzen und schützen",
-    "lastUpdated": "Zuletzt aktualisiert: {date}",
-    "lastUpdatedDate": "21. Juli 2025",
-    "privacyPolicyTitle": "Datenschutzrichtlinie",
-    "policyAgreement": "Bitte lesen Sie diese Datenschutzrichtlinie sorgfältig und stellen Sie sicher, dass Sie sie verstehen. Durch die Nutzung unserer Dienste erklären Sie sich mit dieser Datenschutzrichtlinie einverstanden. Wenn Sie nicht einverstanden sind, dass wir Ihre persönlichen Daten gemäß dieser Richtlinie verwenden, müssen Sie die Nutzung unserer Dienste sofort beenden.",
-    "policyOverview": "In dieser Richtlinie legen wir dar: welche Daten wir sammeln und warum; wie Ihre Daten behandelt werden; und Ihre Rechte in Bezug auf Ihre Daten. Wir verkaufen Ihre Daten nicht.",
-    "scopeTitle": "1. Geltungsbereich dieser Datenschutzrichtlinie",
-    "scopeDescription": "Diese Datenschutzrichtlinie gilt nur für unsere Erhebung und Verarbeitung von Informationen über Nutzer der Dienste. Sie gilt nicht für Dienste, Websites oder Software von Dritten, die mit uns verlinkt sind (unabhängig davon, ob wir diese Links bereitstellen oder andere Nutzer sie teilen), noch für Inhalte, Daten, Anwendungen oder Materialien von Dritten. Wir empfehlen Ihnen, die Datenschutzrichtlinien jeder Website oder Software eines Drittanbieters zu prüfen, bevor Sie ihnen Informationen bereitstellen.",
-    "collectionTitle": "2. Was wir sammeln und warum",
-    "collectionPrinciple": "Unser Leitprinzip ist, nur das zu sammeln, was wir benötigen. In der Praxis bedeutet das:",
-    "identityTitle": "2.1 Identität & Zugang",
-    "identityDescription": "Wenn Sie sich für eines unserer Produkte anmelden, fragen wir nach Identifikationsdaten wie Ihrem Namen und Ihrer E-Mail-Adresse. Dies dient der Bereitstellung wesentlicher Produktfunktionen und ermöglicht es uns, Ihnen Produktaktualisierungen und andere wichtige Informationen zuzusenden.",
-    "billingTitle": "2.2 Zahlungsinformationen",
-    "billingDescription": "Wenn Sie sich für ein kostenpflichtiges Produkt anmelden, werden Sie aufgefordert, Ihre Zahlungsinformationen und Rechnungsadresse anzugeben. Zahlungsinformationen werden direkt an unseren Zahlungsabwickler übermittelt und gelangen nicht auf unsere Server.",
-    "productInteractionsTitle": "2.3 Produktinteraktionen",
-    "productInteractionsDescription": "Wir speichern auf unseren Servern die Inhalte, die Sie hochladen, empfangen oder in Ihren Produktkonten verwalten. Sofern Sie diese Inhalte nicht löschen, behalten wir sie, solange Ihr Konto aktiv ist.",
-    "websiteInteractionsTitle": "2.4 Website-Interaktionen",
-    "websiteInteractionsDescription": "Wir sammeln Informationen über Ihre Browseraktivität zu Analyse- und Statistikzwecken, z. B. für Conversion-Rate-Tests und Experimente mit neuen Produktdesigns. Dazu gehören beispielsweise Ihre Browser- und Betriebssystemversionen, Ihre IP-Adresse, welche Webseiten Sie besucht haben und wie lange sie zum Laden benötigten, sowie welche Website Sie zu uns weitergeleitet hat. Wenn Sie ein Konto haben und angemeldet sind, werden diese Webanalysedaten Ihrer IP-Adresse und Ihrem Benutzerkonto zugeordnet, bis Ihr Konto nicht mehr aktiv ist.",
-    "cookiesTitle": "2.5 Cookies",
-    "cookiesDescription1": "Wir verwenden auch persistente First-Party-Cookies und einige Third-Party-Cookies, um bestimmte Präferenzen zu speichern, die Nutzung unserer Anwendungen zu erleichtern, A/B-Tests durchzuführen und Analysen zu unterstützen.",
-    "cookiesDescription2": "Ein Cookie ist ein Textstück, das von Ihrem Browser gespeichert wird. Es kann helfen, sich an Anmeldeinformationen und Website-Einstellungen zu erinnern. Es können auch Informationen wie Ihr Browsertyp, Betriebssystem, besuchte Webseiten, Verweildauer, angesehene Inhalte und andere Clickstream-Daten gesammelt werden. Sie können die Cookie-Einstellungen anpassen und einzelne Cookies in Ihren Browser-Einstellungen akzeptieren oder blockieren, obwohl unsere Apps nicht funktionieren und andere Aspekte unseres Dienstes möglicherweise nicht ordnungsgemäß arbeiten, wenn Sie Cookies deaktivieren.",
-    "correspondenceTitle": "2.6 Freiwillige Korrespondenz",
-    "correspondenceDescription": "Wenn Sie uns eine Frage per E-Mail stellen oder um Hilfe bitten, bewahren wir diese Korrespondenz einschließlich Ihrer E-Mail-Adresse auf, damit wir auf eine Historie vergangener Korrespondenz zurückgreifen können, falls Sie sich in Zukunft erneut melden.",
-    "accessTitle": "3. Wann wir auf Ihre Daten zugreifen oder sie teilen",
-    "accessDescription1": "Um die von Ihnen angeforderten Produkte oder Dienste bereitzustellen. Wir nutzen einige Subunternehmer, die uns bei der Ausführung unserer Anwendungen und der Bereitstellung der Dienste unterstützen. Dazu gehören Cloud- und Analyseanbieter.",
-    "accessDescription2": "Um Missbrauch zu untersuchen, zu verhindern oder Maßnahmen dagegen zu ergreifen. Der Zugriff auf das Konto eines Kunden bei der Untersuchung möglichen Missbrauchs ist das letzte Mittel. Wir möchten die Privatsphäre und Sicherheit unserer Kunden und der Personen, die uns Probleme melden, schützen und bemühen uns, diese Verantwortlichkeiten während des gesamten Prozesses auszugleichen. Wenn wir feststellen, dass Sie unsere Produkte für einen eingeschränkten Zweck nutzen, werden wir die erforderlichen Maßnahmen ergreifen, einschließlich der Benachrichtigung der zuständigen Behörden, falls gerechtfertigt.",
-    "accessDescription3": "Wenn dies nach geltendem Recht erforderlich ist.",
-    "dataRequests": "Anfragen zu Nutzerdaten. Unsere Richtlinie ist, nicht auf behördliche Anfragen zu Nutzerdaten zu reagieren, es sei denn, wir sind durch ein gesetzliches Verfahren dazu gezwungen oder in begrenzten Fällen einer Notfallanfrage. Wenn US-Strafverfolgungsbehörden jedoch einen notwendigen Haftbefehl, eine strafrechtliche Vorladung oder eine gerichtliche Anordnung haben, die uns zur Weitergabe von Daten verpflichtet, müssen wir dieser Folge leisten. Ebenso werden wir nur auf Anfragen von Behörden außerhalb der USA reagieren, wenn wir durch die US-Regierung im Rahmen eines Rechtshilfeabkommens dazu verpflichtet werden. Es ist unsere Richtlinie, betroffene Nutzer vor der Weitergabe von Daten zu benachrichtigen, es sei denn, wir sind gesetzlich daran gehindert, und außer in einigen Notfällen.",
-    "preservationRequests": "Aufbewahrungsanfragen. Ebenso ist es unsere Richtlinie, Anfragen zur Datenaufbewahrung nur nachzukommen, wenn wir durch den US Federal Stored Communications Act, 18 U.S.C. Section 2703(f), oder durch eine ordnungsgemäß zugestellte US-Vorladung in Zivilsachen dazu verpflichtet werden. Wir geben aufbewahrte Daten nicht weiter, es sei denn, dies ist gesetzlich vorgeschrieben oder durch eine gerichtliche Anordnung, gegen die wir keinen Einspruch einlegen, erzwungen. Darüber hinaus werden wir alle aufbewahrten Kopien von Kundendaten am Ende der Aufbewahrungsfrist vernichten, es sei denn, wir erhalten vor Ablauf dieser Frist einen ordnungsgemäßen Haftbefehl, eine gerichtliche Anordnung oder eine Vorladung.",
-    "taxAudits": "Wenn wir von einer Steuerbehörde geprüft werden, können wir verpflichtet sein, abrechnungsrelevante Informationen weiterzugeben. In diesem Fall geben wir nur das erforderliche Minimum weiter, wie Rechnungsadressen und Steuerbefreiungsinformationen.",
-    "securityTitle": "4. Wie wir Ihre Daten sichern",
-    "securityDescription": "Alle Daten werden bei der Übertragung von unseren Servern an Ihren Browser über SSL/TLS verschlüsselt.",
-    "deletionTitle": "5. Was passiert, wenn Sie Inhalte löschen",
-    "deletionDescription": "Wenn Sie Inhalte löschen, sind diese sofort nicht mehr zugänglich.",
-    "locationTitle": "6. Standort der Website und der Daten",
-    "locationDescription": "Unsere Produkte und anderen Web-Eigenschaften werden in den USA betrieben. Wenn Sie sich in der Europäischen Union, im Vereinigten Königreich oder außerhalb der USA befinden, beachten Sie bitte, dass alle Informationen, die Sie uns bereitstellen, in die USA übertragen und dort gespeichert werden. Durch die Nutzung unserer Websites oder Dienste und/oder die Bereitstellung Ihrer persönlichen Daten erklären Sie sich mit dieser Übertragung einverstanden.",
-    "childrenTitle": "7. Datenschutz für Kinder",
-    "updatesTitle": "8. Aktualisierungen dieser Datenschutzrichtlinie",
-    "updatesDescription": "Wir können diese Richtlinie bei Bedarf aktualisieren, um relevanten Vorschriften zu entsprechen und neue Praktiken zu berücksichtigen. Wenn wir eine wesentliche Änderung an unseren Richtlinien vornehmen, aktualisieren wir das Datum oben auf dieser Seite.",
-    "contactTitle": "9. Kontakt",
-    "websiteUrl": "https://www.nevercap.ai/",
+    subtitle:
+      "Erfahren Sie, wie wir Ihre persönlichen Daten sammeln, nutzen und schützen",
+    lastUpdated: "Zuletzt aktualisiert: {date}",
+    lastUpdatedDate: "21. Juli 2025",
+    privacyPolicyTitle: "Datenschutzrichtlinie",
+    policyAgreement:
+      "Bitte lesen Sie diese Datenschutzrichtlinie sorgfältig und stellen Sie sicher, dass Sie sie verstehen. Durch die Nutzung unserer Dienste erklären Sie sich mit dieser Datenschutzrichtlinie einverstanden. Wenn Sie nicht einverstanden sind, dass wir Ihre persönlichen Daten gemäß dieser Richtlinie verwenden, müssen Sie die Nutzung unserer Dienste sofort beenden.",
+    policyOverview:
+      "In dieser Richtlinie legen wir dar: welche Daten wir sammeln und warum; wie Ihre Daten behandelt werden; und Ihre Rechte in Bezug auf Ihre Daten. Wir verkaufen Ihre Daten nicht.",
+    scopeTitle: "1. Geltungsbereich dieser Datenschutzrichtlinie",
+    scopeDescription:
+      "Diese Datenschutzrichtlinie gilt nur für unsere Erhebung und Verarbeitung von Informationen über Nutzer der Dienste. Sie gilt nicht für Dienste, Websites oder Software von Dritten, die mit uns verlinkt sind (unabhängig davon, ob wir diese Links bereitstellen oder andere Nutzer sie teilen), noch für Inhalte, Daten, Anwendungen oder Materialien von Dritten. Wir empfehlen Ihnen, die Datenschutzrichtlinien jeder Website oder Software eines Drittanbieters zu prüfen, bevor Sie ihnen Informationen bereitstellen.",
+    collectionTitle: "2. Was wir sammeln und warum",
+    collectionPrinciple:
+      "Unser Leitprinzip ist, nur das zu sammeln, was wir benötigen. In der Praxis bedeutet das:",
+    identityTitle: "2.1 Identität & Zugang",
+    identityDescription:
+      "Wenn Sie sich für eines unserer Produkte anmelden, fragen wir nach Identifikationsdaten wie Ihrem Namen und Ihrer E-Mail-Adresse. Dies dient der Bereitstellung wesentlicher Produktfunktionen und ermöglicht es uns, Ihnen Produktaktualisierungen und andere wichtige Informationen zuzusenden.",
+    billingTitle: "2.2 Zahlungsinformationen",
+    billingDescription:
+      "Wenn Sie sich für ein kostenpflichtiges Produkt anmelden, werden Sie aufgefordert, Ihre Zahlungsinformationen und Rechnungsadresse anzugeben. Zahlungsinformationen werden direkt an unseren Zahlungsabwickler übermittelt und gelangen nicht auf unsere Server.",
+    productInteractionsTitle: "2.3 Produktinteraktionen",
+    productInteractionsDescription:
+      "Wir speichern auf unseren Servern die Inhalte, die Sie hochladen, empfangen oder in Ihren Produktkonten verwalten. Sofern Sie diese Inhalte nicht löschen, behalten wir sie, solange Ihr Konto aktiv ist.",
+    websiteInteractionsTitle: "2.4 Website-Interaktionen",
+    websiteInteractionsDescription:
+      "Wir sammeln Informationen über Ihre Browseraktivität zu Analyse- und Statistikzwecken, z. B. für Conversion-Rate-Tests und Experimente mit neuen Produktdesigns. Dazu gehören beispielsweise Ihre Browser- und Betriebssystemversionen, Ihre IP-Adresse, welche Webseiten Sie besucht haben und wie lange sie zum Laden benötigten, sowie welche Website Sie zu uns weitergeleitet hat. Wenn Sie ein Konto haben und angemeldet sind, werden diese Webanalysedaten Ihrer IP-Adresse und Ihrem Benutzerkonto zugeordnet, bis Ihr Konto nicht mehr aktiv ist.",
+    cookiesTitle: "2.5 Cookies",
+    cookiesDescription1:
+      "Wir verwenden auch persistente First-Party-Cookies und einige Third-Party-Cookies, um bestimmte Präferenzen zu speichern, die Nutzung unserer Anwendungen zu erleichtern, A/B-Tests durchzuführen und Analysen zu unterstützen.",
+    cookiesDescription2:
+      "Ein Cookie ist ein Textstück, das von Ihrem Browser gespeichert wird. Es kann helfen, sich an Anmeldeinformationen und Website-Einstellungen zu erinnern. Es können auch Informationen wie Ihr Browsertyp, Betriebssystem, besuchte Webseiten, Verweildauer, angesehene Inhalte und andere Clickstream-Daten gesammelt werden. Sie können die Cookie-Einstellungen anpassen und einzelne Cookies in Ihren Browser-Einstellungen akzeptieren oder blockieren, obwohl unsere Apps nicht funktionieren und andere Aspekte unseres Dienstes möglicherweise nicht ordnungsgemäß arbeiten, wenn Sie Cookies deaktivieren.",
+    correspondenceTitle: "2.6 Freiwillige Korrespondenz",
+    correspondenceDescription:
+      "Wenn Sie uns eine Frage per E-Mail stellen oder um Hilfe bitten, bewahren wir diese Korrespondenz einschließlich Ihrer E-Mail-Adresse auf, damit wir auf eine Historie vergangener Korrespondenz zurückgreifen können, falls Sie sich in Zukunft erneut melden.",
+    accessTitle: "3. Wann wir auf Ihre Daten zugreifen oder sie teilen",
+    accessDescription1:
+      "Um die von Ihnen angeforderten Produkte oder Dienste bereitzustellen. Wir nutzen einige Subunternehmer, die uns bei der Ausführung unserer Anwendungen und der Bereitstellung der Dienste unterstützen. Dazu gehören Cloud- und Analyseanbieter.",
+    accessDescription2:
+      "Um Missbrauch zu untersuchen, zu verhindern oder Maßnahmen dagegen zu ergreifen. Der Zugriff auf das Konto eines Kunden bei der Untersuchung möglichen Missbrauchs ist das letzte Mittel. Wir möchten die Privatsphäre und Sicherheit unserer Kunden und der Personen, die uns Probleme melden, schützen und bemühen uns, diese Verantwortlichkeiten während des gesamten Prozesses auszugleichen. Wenn wir feststellen, dass Sie unsere Produkte für einen eingeschränkten Zweck nutzen, werden wir die erforderlichen Maßnahmen ergreifen, einschließlich der Benachrichtigung der zuständigen Behörden, falls gerechtfertigt.",
+    accessDescription3: "Wenn dies nach geltendem Recht erforderlich ist.",
+    dataRequests:
+      "Anfragen zu Nutzerdaten. Unsere Richtlinie ist, nicht auf behördliche Anfragen zu Nutzerdaten zu reagieren, es sei denn, wir sind durch ein gesetzliches Verfahren dazu gezwungen oder in begrenzten Fällen einer Notfallanfrage. Wenn US-Strafverfolgungsbehörden jedoch einen notwendigen Haftbefehl, eine strafrechtliche Vorladung oder eine gerichtliche Anordnung haben, die uns zur Weitergabe von Daten verpflichtet, müssen wir dieser Folge leisten. Ebenso werden wir nur auf Anfragen von Behörden außerhalb der USA reagieren, wenn wir durch die US-Regierung im Rahmen eines Rechtshilfeabkommens dazu verpflichtet werden. Es ist unsere Richtlinie, betroffene Nutzer vor der Weitergabe von Daten zu benachrichtigen, es sei denn, wir sind gesetzlich daran gehindert, und außer in einigen Notfällen.",
+    preservationRequests:
+      "Aufbewahrungsanfragen. Ebenso ist es unsere Richtlinie, Anfragen zur Datenaufbewahrung nur nachzukommen, wenn wir durch den US Federal Stored Communications Act, 18 U.S.C. Section 2703(f), oder durch eine ordnungsgemäß zugestellte US-Vorladung in Zivilsachen dazu verpflichtet werden. Wir geben aufbewahrte Daten nicht weiter, es sei denn, dies ist gesetzlich vorgeschrieben oder durch eine gerichtliche Anordnung, gegen die wir keinen Einspruch einlegen, erzwungen. Darüber hinaus werden wir alle aufbewahrten Kopien von Kundendaten am Ende der Aufbewahrungsfrist vernichten, es sei denn, wir erhalten vor Ablauf dieser Frist einen ordnungsgemäßen Haftbefehl, eine gerichtliche Anordnung oder eine Vorladung.",
+    taxAudits:
+      "Wenn wir von einer Steuerbehörde geprüft werden, können wir verpflichtet sein, abrechnungsrelevante Informationen weiterzugeben. In diesem Fall geben wir nur das erforderliche Minimum weiter, wie Rechnungsadressen und Steuerbefreiungsinformationen.",
+    securityTitle: "4. Wie wir Ihre Daten sichern",
+    securityDescription:
+      "Alle Daten werden bei der Übertragung von unseren Servern an Ihren Browser über SSL/TLS verschlüsselt.",
+    deletionTitle: "5. Was passiert, wenn Sie Inhalte löschen",
+    deletionDescription:
+      "Wenn Sie Inhalte löschen, sind diese sofort nicht mehr zugänglich.",
+    locationTitle: "6. Standort der Website und der Daten",
+    locationDescription:
+      "Unsere Produkte und anderen Web-Eigenschaften werden in den USA betrieben. Wenn Sie sich in der Europäischen Union, im Vereinigten Königreich oder außerhalb der USA befinden, beachten Sie bitte, dass alle Informationen, die Sie uns bereitstellen, in die USA übertragen und dort gespeichert werden. Durch die Nutzung unserer Websites oder Dienste und/oder die Bereitstellung Ihrer persönlichen Daten erklären Sie sich mit dieser Übertragung einverstanden.",
+    childrenTitle: "7. Datenschutz für Kinder",
+    updatesTitle: "8. Aktualisierungen dieser Datenschutzrichtlinie",
+    updatesDescription:
+      "Wir können diese Richtlinie bei Bedarf aktualisieren, um relevanten Vorschriften zu entsprechen und neue Praktiken zu berücksichtigen. Wenn wir eine wesentliche Änderung an unseren Richtlinien vornehmen, aktualisieren wir das Datum oben auf dieser Seite.",
+    contactTitle: "9. Kontakt",
+    websiteUrl: "https://www.nevercap.ai/",
     at: "unter",
-    childrenDescription: "Die Dienste richten sich nicht an Kinder, und wir erheben wissentlich keine personenbezogenen Daten von Kindern unter 13 Jahren. Wenn Sie unter 13 Jahre alt sind, übermitteln Sie bitte keine persönlichen Daten über die Dienste. Wenn Sie der Meinung sind, dass ein Kind uns entgegen dieser Richtlinie personenbezogene Daten bereitgestellt hat, kontaktieren Sie uns bitte unter {at} {email}.",
-    contactDescription: "Wenn Sie Fragen, Kommentare oder Beschwerden zu unserer Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter {at} {email}, und wir werden uns bemühen, Ihre Beschwerde so schnell wie möglich zu bearbeiten.",
-    policyDescriptionA: "Diese Richtlinie beschreibt, wie {NeverCap} (nachfolgend als „NeverCap“, „unser“, „wir“, „uns“ bezeichnet) Ihre personenbezogenen Daten sammelt, verwendet und weitergibt, wenn Sie unsere Dienste, Websites ({url}) und Software (zusammen die „Dienste“) nutzen."
+    childrenDescription:
+      "Die Dienste richten sich nicht an Kinder, und wir erheben wissentlich keine personenbezogenen Daten von Kindern unter 13 Jahren. Wenn Sie unter 13 Jahre alt sind, übermitteln Sie bitte keine persönlichen Daten über die Dienste. Wenn Sie der Meinung sind, dass ein Kind uns entgegen dieser Richtlinie personenbezogene Daten bereitgestellt hat, kontaktieren Sie uns bitte unter {at} {email}.",
+    contactDescription:
+      "Wenn Sie Fragen, Kommentare oder Beschwerden zu unserer Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter {at} {email}, und wir werden uns bemühen, Ihre Beschwerde so schnell wie möglich zu bearbeiten.",
+    policyDescriptionA:
+      "Diese Richtlinie beschreibt, wie {NeverCap} (nachfolgend als „NeverCap“, „unser“, „wir“, „uns“ bezeichnet) Ihre personenbezogenen Daten sammelt, verwendet und weitergibt, wenn Sie unsere Dienste, Websites ({url}) und Software (zusammen die „Dienste“) nutzen."
   },
   TermsOfUse: {
     title: "Nutzungsbedingungen",
     titleGradient: "Dienst",
-    subtitle: "Bitte lesen Sie diese Bedingungen sorgfältig durch, bevor Sie unsere Dienste nutzen",
-    "lastUpdated": "Zuletzt aktualisiert: {date}",
-    "lastUpdatedDate": "21. Juli 2025",
-    "termsOfServiceTitle": "Nutzungsbedingungen",
-    "thankYou": "Vielen Dank, dass Sie unsere Produkte nutzen!",
-    "servicesDefinition": "Wenn wir „Services“ sagen, meinen wir jedes Produkt, das von NeverCap erstellt und gewartet wird, egal ob es in einem Webbrowser, einer Desktop-Anwendung, einer mobilen Anwendung oder einem anderen Format bereitgestellt wird.",
-    "termsUpdate": "Wir können diese Nutzungsbedingungen in Zukunft aktualisieren. Typischerweise dienen diese Änderungen dazu, einige dieser Bedingungen durch Verlinkung auf eine erweiterte, verwandte Richtlinie zu klären. Immer wenn wir eine signifikante Änderung unserer Richtlinien vornehmen, werden wir das Datum oben auf dieser Seite aktualisieren und angemessene Schritte unternehmen, um Kontoinhaber zu benachrichtigen.",
-    "acceptanceTitle": "1. Annahme der Vereinbarung",
-    "acceptanceDescription1": "Durch die Nutzung unserer Dienste erklären Sie sich mit dieser Vereinbarung einverstanden, die damit zu einem bindenden Vertrag zwischen Ihnen und NeverCap wird. Sie bestätigen, dass Sie rechtlich in der Lage sind, diese Bedingungen zu akzeptieren, und versichern, dass Sie volljährig sind, um einen bindenden Vertrag abzuschließen. Die Annahme durch NeverCap ist ausdrücklich von Ihrer Zustimmung zu allen Bedingungen dieser Vereinbarung abhängig.",
-    "eligibilityRequirement": "Die Dienste sind nicht für Personen unter 18 Jahren bestimmt und sollten nicht von diesen genutzt werden. Durch die Nutzung der Dienste bestätigen und garantieren Sie, dass Sie die genannte Altersvoraussetzung erfüllen.",
-    "userResponsibility": "Die Begriffe „you“, „your“, „yourself“ schließen auch Ihre Mitarbeiter, Vertreter, Geschäftspartner und alle anderen Personen ein, denen Sie über Ihr Konto Zugang zu den Diensten gewähren. Sie sind dafür verantwortlich, sicherzustellen, dass alle Personen, die über Ihr Konto auf die Dienste zugreifen, diese Bedingungen kennen und einhalten.",
-    "termsRevision": "NeverCap behält sich das Recht vor, diese Bedingungen nach eigenem Ermessen von Zeit zu Zeit zu überarbeiten und zu aktualisieren. Alle Änderungen treten sofort nach der Veröffentlichung in Kraft. Ihre fortgesetzte Nutzung der Dienste nach der Veröffentlichung der überarbeiteten Bedingungen bedeutet, dass Sie die Änderungen akzeptieren und ihnen zustimmen. Sie sollten diese Seite regelmäßig überprüfen, um sich über etwaige Änderungen zu informieren, da diese für Sie bindend sind.",
-    "servicesTitle": "2. Dienste von NeverCap",
-    "servicesDescription1": "Unsere Dienste ermöglichen es Nutzern, Sprachgespräche in transkribierten Text umzuwandeln, der durchsucht, übersetzt und mit anderen geteilt werden kann.",
-    "servicesOptions": "Sie können wählen, ob Sie die kostenlose Version der Dienste („Free Services“) oder die abonnementbasierte, kostenpflichtige Version der Dienste nutzen möchten, für die Sie möglicherweise Gebühren zahlen müssen (die „Paid Services“).",
-    "servicesAccess": "Wir werden Ihnen die Dienste zur Verfügung stellen. Sie sind dafür verantwortlich, alle notwendigen Vorkehrungen zu treffen, um Zugang zu den Diensten zu erhalten.",
-    "accountTermsTitle": "3. Kontobedingungen",
-    "accountSecurity": "Sie sind für die Sicherheit Ihres Kontos verantwortlich. Das Unternehmen kann und wird nicht für Verluste oder Schäden haftbar gemacht werden, die aus Ihrer Nichteinhaltung dieser Sicherheitspflicht resultieren.",
-    "lawfulUse": "Sie dürfen die Dienste nicht für unlautere, unethische oder unmoralische Zwecke nutzen.",
-    "contentResponsibility": "Sie sind für alle Inhalte und Aktivitäten verantwortlich, die unter Ihrem Konto stattfinden. Dazu gehören Inhalte, die von anderen gepostet werden, die entweder: (a) Zugriff auf Ihre Anmeldedaten haben; oder (b) eigene Anmeldungen unter Ihrem Konto haben.",
-    "humanRequirement": "Sie müssen eine natürliche Person sein. Konten, die von „Bots“ oder anderen automatisierten Methoden registriert werden, sind nicht erlaubt.",
-    "paymentTitle": "4. Zahlung, Rückerstattungen und Planänderungen",
-    "freeTrial": "Bei kostenpflichtigen Diensten, die eine kostenlose Testversion anbieten, erklären wir die Dauer der Testphase bei der Anmeldung. Nach der Testphase müssen Sie im Voraus bezahlen, um den Dienst weiter nutzen zu können. Wenn Sie nicht bezahlen, enden diese Dienste.",
-    "upgradePolicy": "Wenn Sie von einem kostenlosen Plan auf einen kostenpflichtigen Plan wechseln, belasten wir Ihre Karte sofort und Ihr Abrechnungszyklus beginnt am Tag des Upgrades.",
-    "taxes": "Alle Gebühren sind exklusive aller Steuern, Abgaben oder Zölle, die von Steuerbehörden erhoben werden. Falls erforderlich, werden wir diese Steuern im Namen der Steuerbehörde einziehen und an diese abführen. Andernfalls sind Sie für die Zahlung aller Steuern, Abgaben oder Zölle verantwortlich.",
-    "refunds": "Alle Käufe sind nicht erstattungsfähig. Sie können kostenpflichtige Dienste jederzeit durch Anmeldung in Ihrem Konto kündigen. Für kostenpflichtige Abonnements tritt Ihre Kündigung am Ende der aktuellen Laufzeit in Kraft, sofern nicht anders angegeben.",
-    "cancellationTitle": "5. Kündigung und Beendigung",
-    "cancellationPolicy": "Wenn Sie den Dienst vor Ablauf der bereits bezahlten Zeit kündigen, tritt Ihre Kündigung sofort in Kraft und Sie werden nicht erneut belastet. Wir berechnen nicht automatisch ungenutzte Zeit im letzten Abrechnungszyklus anteilig zurück.",
-    "terminationRights": "Wir behalten uns das Recht vor, Ihr Konto jederzeit aus beliebigem Grund zu sperren oder zu kündigen und jede aktuelle oder zukünftige Nutzung unserer Dienste zu verweigern. Eine Sperrung bedeutet, dass Sie nicht auf das Konto oder dessen Inhalte zugreifen können. Eine Kündigung führt darüber hinaus zur Löschung Ihres Kontos oder Ihres Zugriffs darauf sowie zum Verlust aller Inhalte in Ihrem Konto. Wir behalten uns auch das Recht vor, die Nutzung unserer Dienste jederzeit aus beliebigem Grund zu verweigern. Diese Klausel haben wir, weil statistisch gesehen unter Hunderttausenden von Konten mindestens eines ist, das etwas Unrechtes tut.",
-    "abusePolicy": "Verbale, physische, schriftliche oder andere Misshandlungen (einschließlich Drohungen von Misshandlung oder Vergeltung) von Mitarbeitern oder Führungskräften des Unternehmens können zur sofortigen Kündigung Ihres Kontos führen.",
-    "submissionsTitle": "6. Einreichungen",
-    "submissionsDescription": "Sie bestätigen und erklären sich damit einverstanden, dass alle Fragen, Kommentare, Vorschläge, Ideen, Feedback oder andere Informationen bezüglich der Website („Einreichungen“), die Sie uns zur Verfügung stellen, nicht vertraulich sind und unser alleiniges Eigentum werden. Wir besitzen alle exklusiven Rechte, einschließlich aller geistigen Eigentumsrechte, und sind berechtigt, diese Einreichungen ohne Anerkennung oder Entschädigung an Sie für jeden rechtmäßigen Zweck, kommerziell oder anderweitig, uneingeschränkt zu nutzen und zu verbreiten. Sie verzichten hiermit auf alle Urheberpersönlichkeitsrechte an solchen Einreichungen und garantieren, dass solche Einreichungen von Ihnen stammen oder Sie das Recht haben, sie einzureichen. Sie erklären sich damit einverstanden, dass Sie keine Ansprüche gegen uns geltend machen können, falls Ihre Einreichungen angeblich oder tatsächlich Rechte Dritter verletzen oder unrechtmäßig angeeignet werden.",
-    "uptimeTitle": "7. Verfügbarkeit und Sicherheit",
-    "serviceAvailability": "Die Nutzung unserer Dienste erfolgt auf Ihr eigenes Risiko. Wir bieten diese Dienste „wie besehen“ und „wie verfügbar“ an. Wir bieten für die meisten unserer Dienste keine Service-Level-Vereinbarungen an, nehmen die Verfügbarkeit unserer Anwendungen jedoch ernst.",
-    "throttlingPolicy": "Wir behalten uns das Recht vor, in seltenen Fällen, in denen die Aktivität eines Nutzers nachweislich die Stabilität und Leistung des Dienstes für andere Nutzer negativ beeinflusst, den Kontozugriff vorübergehend zu drosseln oder zu beschränken. In allen außer den kritischsten Fällen werden wir Sie kontaktieren, um eine Lösung zu finden, bevor wir Maßnahmen ergreifen.",
-    "dataSecurity": "Wir ergreifen zahlreiche Maßnahmen, um Ihre Daten durch Backups, Redundanzen und Verschlüsselung zu schützen und zu sichern. Wir erzwingen Verschlüsselung für die Datenübertragung über das öffentliche Internet.",
-    "thirdPartyVendors": "Wir nutzen Drittanbieter und Hosting-Partner, um die notwendige Hardware, Software, Netzwerke, Speicher und verwandte Technologien bereitzustellen, die für den Betrieb der Dienste erforderlich sind.",
-    "siteManagementTitle": "8. Website-Verwaltung",
-    "siteManagementDescription": "Wir behalten uns das Recht vor, jedoch nicht die Verpflichtung, (1) die Website auf Verstöße gegen diese Nutzungsbedingungen zu überwachen; (2) geeignete rechtliche Schritte gegen jeden zu unternehmen, der nach unserem Ermessen gegen das Gesetz oder diese Nutzungsbedingungen verstößt, einschließlich, aber nicht beschränkt auf, die Meldung solcher Nutzer an Strafverfolgungsbehörden; (3) nach unserem Ermessen und ohne Einschränkung den Zugriff auf Ihre Beiträge oder Teile davon zu verweigern, einzuschränken, die Verfügbarkeit zu begrenzen oder (soweit technisch möglich) zu deaktivieren; (4) nach unserem Ermessen und ohne vorherige Ankündigung oder Haftung Dateien und Inhalte von der Website zu entfernen oder anderweitig zu deaktivieren, die übermäßig groß sind oder unsere Systeme belasten; und (5) die Website auf eine Weise zu verwalten, die unsere Rechte und unser Eigentum schützt und die ordnungsgemäße Funktion der Website gewährleistet.",
-    "copyrightTitle": "9. Urheberrecht und Inhalteigentum",
-    "copyrightCompliance": "Alle auf den Diensten veröffentlichten Inhalte müssen dem US-Urheberrecht entsprechen.",
-    "ipRights": "Wir erheben keine Ansprüche auf geistiges Eigentum an dem Material, das Sie den Diensten zur Verfügung stellen. Alle hochgeladenen Materialien bleiben Ihr Eigentum.",
-    "contentModeration": "Wir überprüfen Inhalte nicht vorab, behalten uns jedoch das Recht (aber nicht die Verpflichtung) vor, nach unserem Ermessen Inhalte, die über den Dienst verfügbar sind, abzulehnen oder zu entfernen.",
-    "prohibitedExploitation": "Sie erklären sich damit einverstanden, keinen Teil der Dienste, deren Nutzung oder Zugang ohne ausdrückliche schriftliche Genehmigung des Unternehmens zu reproduzieren, zu duplizieren, zu kopieren, zu verkaufen, weiterzuverkaufen oder auszubeuten.",
-    "impersonationProhibition": "Sie dürfen keine andere Website so verändern, dass fälschlicherweise der Eindruck entsteht, sie sei mit den Diensten oder dem Unternehmen verbunden.",
-    "dmcaPolicy": "Wir respektieren die geistigen Eigentumsrechte anderer. Wenn Sie glauben, dass Material auf oder durch die Website Urheberrechte verletzt, die Sie besitzen oder kontrollieren, kontaktieren Sie uns bitte umgehend. Eine Kopie Ihrer Benachrichtigung wird an die Person gesendet, die das betreffende Material gepostet oder gespeichert hat. Bitte beachten Sie, dass Sie gemäß geltendem Recht für Schäden haftbar gemacht werden können, wenn Sie in einer Benachrichtigung falsche Angaben machen. Wenn Sie sich nicht sicher sind, ob Material auf oder über die Website Ihr Urheberrecht verletzt, sollten Sie zunächst einen Anwalt konsultieren.",
-    "prohibitedActivitiesTitle": "10. Verbotene Aktivitäten",
-    "generalProhibition": "Sie dürfen die Website nicht für andere Zwecke als diejenigen nutzen, für die wir sie zur Verfügung stellen. Die Website darf nicht für kommerzielle Unternehmungen verwendet werden, es sei denn, diese werden ausdrücklich von uns genehmigt oder befürwortet.",
-    "userObligations": "Als Nutzer der Website erklären Sie sich damit einverstanden, Folgendes nicht zu tun:",
-    "dataScraping": "Ohne unsere schriftliche Erlaubnis systematisch Daten oder andere Inhalte von der Website abzurufen, um direkt oder indirekt eine Sammlung, Zusammenstellung, Datenbank oder ein Verzeichnis zu erstellen.",
-    "fraud": "Uns oder andere Nutzer zu täuschen, zu betrügen oder in die Irre zu führen, insbesondere um sensible Kontoinformationen wie Passwörter zu erhalten.",
-    "securityInterference": "Sicherheitsfunktionen der Website zu umgehen, zu deaktivieren oder anderweitig zu beeinträchtigen, einschließlich Funktionen, die die Verwendung oder das Kopieren von Inhalten verhindern oder einschränken oder die Nutzung der Website und/oder der darin enthaltenen Inhalte begrenzen.",
-    "defamation": "Uns und/oder die Website in unseren Augen herabzuwürdigen, zu beschädigen oder anderweitig zu schädigen.",
-    "harassment": "Informationen von der Website zu verwenden, um eine andere Person zu belästigen, zu missbrauchen oder zu schädigen.",
-    "supportAbuse": "Unsere Supportdienste missbräuchlich zu nutzen oder falsche Meldungen über Missbrauch oder Fehlverhalten einzureichen.",
-    "legalCompliance": "Die Website in einer Weise zu nutzen, die nicht mit geltenden Gesetzen oder Vorschriften vereinbar ist.",
-    "framingProhibition": "Unbefugtes Framing oder Verlinken der Website durchzuführen.",
-    "malware": "Viren, Trojaner oder anderes Material hochzuladen oder zu übertragen (oder zu versuchen), einschließlich übermäßiger Verwendung von Großbuchstaben und Spamming (wiederholtes Posten von Text), das die Nutzung der Website durch Dritte beeinträchtigt oder die Funktionen, den Betrieb oder die Wartung der Website stört.",
-    "automation": "Automatisierte Systeme zu verwenden, wie Skripte zum Senden von Kommentaren oder Nachrichten, oder Datenmining-, Robot- oder ähnliche Tools zur Datenerfassung und -extraktion.",
-    "copyrightRemoval": "Urheberrechts- oder andere Eigentumsvermerke aus Inhalten zu entfernen.",
-    "impersonation": "Zu versuchen, sich als anderer Nutzer oder eine andere Person auszugeben oder den Benutzernamen eines anderen Nutzers zu verwenden.",
-    "spyware": 'Material hochzuladen oder zu übertragen (oder zu versuchen), das als passiver oder aktiver Informationssammlungs- oder Übertragungsmechanismus dient, einschließlich klarer GIFs, 1×1-Pixel, Web Bugs, Cookies oder ähnlicher Geräte (auch als "Spyware" oder "passive Sammlungsmechanismen" bezeichnet).',
-    "disruption": "Die Website oder die damit verbundenen Netzwerke oder Dienste zu stören oder übermäßig zu belasten.",
-    "employeeHarassment": "Unsere Mitarbeiter oder Agenten zu belästigen, zu ärgern, einzuschüchtern oder zu bedrohen, die Ihnen Teile der Website bereitstellen.",
-    "accessCircumvention": "Zu versuchen, Maßnahmen der Website zu umgehen, die den Zugriff auf die Website oder Teile davon verhindern oder einschränken sollen.",
-    "codeCopying": "Die Software der Website zu kopieren oder anzupassen, einschließlich Flash, PHP, HTML, JavaScript oder anderem Code.",
-    "reverseEngineering": "Sofern nicht durch geltendes Recht gestattet, die Software der Website zu dechiffrieren, zu dekompilieren, zu disassemblieren oder reverse zu engineerieren.",
-    "bots": "Sofern nicht durch Standard-Suchmaschinen oder Internetbrowser verursacht, automatisierte Systeme wie Spider, Robots oder Cheat-Tools zu verwenden, zu starten, zu entwickeln oder zu verteilen, die auf die Website zugreifen.",
-    "buyingAgents": "Einen Einkaufsagenten oder Käufer zu beauftragen, um Einkäufe auf der Website zu tätigen.",
-    "unauthorizedUse": "Unbefugte Nutzung der Website, einschließlich des Sammelns von Benutzernamen und/oder E-Mail-Adressen, um unerwünschte E-Mails zu versenden, oder das Erstellen von Benutzerkonten durch automatisierte Mittel oder unter falschen Angaben.",
-    "competition": "Die Website zu nutzen, um mit uns zu konkurrieren oder die Website und/oder Inhalte für gewinnbringende Unternehmungen oder kommerzielle Zwecke zu verwenden.",
-    "advertising": "Die Website zu nutzen, um Waren oder Dienstleistungen zu bewerben oder anzubieten.",
-    "profileTransfer": "Ihr Profil zu verkaufen oder anderweitig zu übertragen.",
-    "featuresTitle": "11. Funktionen und Fehler",
-    "featuresDescription": "Wir gestalten unsere Dienste sorgfältig basierend auf unseren Erfahrungen und denen unserer Kunden. Es gibt jedoch keinen Dienst, der jedem gefällt. Wir garantieren nicht, dass unsere Dienste Ihre spezifischen Anforderungen oder Erwartungen erfüllen.",
-    "bugsDescription": "Wir testen alle Funktionen vor der Veröffentlichung. Wie jede Software haben auch unsere Dienste Fehler. Wir verfolgen gemeldete Fehler und beheben sie, insbesondere sicherheits- oder datenschutzrelevante. Nicht alle gemeldeten Fehler werden behoben, und wir garantieren keine fehlerfreien Dienste.",
-    "correctionsTitle": "12. Korrekturen",
-    "informationAccuracy": "Auf der Website können Tippfehler, Ungenauigkeiten oder Auslassungen enthalten sein, einschließlich Beschreibungen, Preisen, Verfügbarkeit und anderen Informationen. Wir behalten uns das Recht vor, diese jederzeit ohne Vorankündigung zu korrigieren oder zu aktualisieren.",
-    "siteAvailability": "Wir können nicht garantieren, dass die Website ständig verfügbar ist. Wir behalten uns das Recht vor, die Website jederzeit ohne Ankündigung zu ändern, zu aktualisieren oder einzustellen. Sie stimmen zu, dass wir nicht haftbar für Ausfälle oder Unterbrechungen sind.",
-    "userDataTitle": "13. Nutzerdaten",
-    "userDataDescription": "Wir speichern bestimmte Daten, die Sie an die Website übermitteln, um deren Leistung zu verwalten. Sie sind allein verantwortlich für alle Daten, die Sie übermitteln oder die mit Ihrer Nutzung der Website zusammenhängen. Wir haften nicht für Verlust oder Beschädigung dieser Daten.",
-    "privacyPolicyTitle": "14. Datenschutzrichtlinie",
-    "liabilityTitle": "15. Haftung",
-    "liabilityIntroduction": "Wir erwähnen die Haftung in diesen Bedingungen, aber hier ist alles zusammengefasst:",
-    "liabilityWaiver": "Sie verstehen und stimmen ausdrücklich zu, dass wir nicht haftbar sind für direkte, indirekte, zufällige oder sonstige Schäden, einschließlich Gewinn- oder Datenverlust, die aus der Nutzung oder Nichtnutzung der Dienste resultieren, selbst wenn wir auf die Möglichkeit solcher Schäden hingewiesen wurden.",
-    "miscellaneousTitle": "16. Sonstiges",
-    "miscellaneousDescription": "Diese Nutzungsbedingungen und alle Richtlinien auf der Website stellen die gesamte Vereinbarung dar. Das Nichtgeltendmachen eines Rechts bedeutet nicht dessen Verzicht. Wir können Rechte und Pflichten übertragen. Wir haften nicht für unkontrollierbare Ereignisse. Ungültige Klauseln beeinträchtigen nicht den Rest der Bedingungen. Durch diese Bedingungen entsteht keine Partnerschaft oder Arbeitsverhältnis.",
-    "contactTitle": "17. Kontakt",
-    "site": "Website",
-    "services": "Dienste",
+    subtitle:
+      "Bitte lesen Sie diese Bedingungen sorgfältig durch, bevor Sie unsere Dienste nutzen",
+    lastUpdated: "Zuletzt aktualisiert: {date}",
+    lastUpdatedDate: "21. Juli 2025",
+    termsOfServiceTitle: "Nutzungsbedingungen",
+    thankYou: "Vielen Dank, dass Sie unsere Produkte nutzen!",
+    servicesDefinition:
+      "Wenn wir „Services“ sagen, meinen wir jedes Produkt, das von NeverCap erstellt und gewartet wird, egal ob es in einem Webbrowser, einer Desktop-Anwendung, einer mobilen Anwendung oder einem anderen Format bereitgestellt wird.",
+    termsUpdate:
+      "Wir können diese Nutzungsbedingungen in Zukunft aktualisieren. Typischerweise dienen diese Änderungen dazu, einige dieser Bedingungen durch Verlinkung auf eine erweiterte, verwandte Richtlinie zu klären. Immer wenn wir eine signifikante Änderung unserer Richtlinien vornehmen, werden wir das Datum oben auf dieser Seite aktualisieren und angemessene Schritte unternehmen, um Kontoinhaber zu benachrichtigen.",
+    acceptanceTitle: "1. Annahme der Vereinbarung",
+    acceptanceDescription1:
+      "Durch die Nutzung unserer Dienste erklären Sie sich mit dieser Vereinbarung einverstanden, die damit zu einem bindenden Vertrag zwischen Ihnen und NeverCap wird. Sie bestätigen, dass Sie rechtlich in der Lage sind, diese Bedingungen zu akzeptieren, und versichern, dass Sie volljährig sind, um einen bindenden Vertrag abzuschließen. Die Annahme durch NeverCap ist ausdrücklich von Ihrer Zustimmung zu allen Bedingungen dieser Vereinbarung abhängig.",
+    eligibilityRequirement:
+      "Die Dienste sind nicht für Personen unter 18 Jahren bestimmt und sollten nicht von diesen genutzt werden. Durch die Nutzung der Dienste bestätigen und garantieren Sie, dass Sie die genannte Altersvoraussetzung erfüllen.",
+    userResponsibility:
+      "Die Begriffe „you“, „your“, „yourself“ schließen auch Ihre Mitarbeiter, Vertreter, Geschäftspartner und alle anderen Personen ein, denen Sie über Ihr Konto Zugang zu den Diensten gewähren. Sie sind dafür verantwortlich, sicherzustellen, dass alle Personen, die über Ihr Konto auf die Dienste zugreifen, diese Bedingungen kennen und einhalten.",
+    termsRevision:
+      "NeverCap behält sich das Recht vor, diese Bedingungen nach eigenem Ermessen von Zeit zu Zeit zu überarbeiten und zu aktualisieren. Alle Änderungen treten sofort nach der Veröffentlichung in Kraft. Ihre fortgesetzte Nutzung der Dienste nach der Veröffentlichung der überarbeiteten Bedingungen bedeutet, dass Sie die Änderungen akzeptieren und ihnen zustimmen. Sie sollten diese Seite regelmäßig überprüfen, um sich über etwaige Änderungen zu informieren, da diese für Sie bindend sind.",
+    servicesTitle: "2. Dienste von NeverCap",
+    servicesDescription1:
+      "Unsere Dienste ermöglichen es Nutzern, Sprachgespräche in transkribierten Text umzuwandeln, der durchsucht, übersetzt und mit anderen geteilt werden kann.",
+    servicesOptions:
+      "Sie können wählen, ob Sie die kostenlose Version der Dienste („Free Services“) oder die abonnementbasierte, kostenpflichtige Version der Dienste nutzen möchten, für die Sie möglicherweise Gebühren zahlen müssen (die „Paid Services“).",
+    servicesAccess:
+      "Wir werden Ihnen die Dienste zur Verfügung stellen. Sie sind dafür verantwortlich, alle notwendigen Vorkehrungen zu treffen, um Zugang zu den Diensten zu erhalten.",
+    accountTermsTitle: "3. Kontobedingungen",
+    accountSecurity:
+      "Sie sind für die Sicherheit Ihres Kontos verantwortlich. Das Unternehmen kann und wird nicht für Verluste oder Schäden haftbar gemacht werden, die aus Ihrer Nichteinhaltung dieser Sicherheitspflicht resultieren.",
+    lawfulUse:
+      "Sie dürfen die Dienste nicht für unlautere, unethische oder unmoralische Zwecke nutzen.",
+    contentResponsibility:
+      "Sie sind für alle Inhalte und Aktivitäten verantwortlich, die unter Ihrem Konto stattfinden. Dazu gehören Inhalte, die von anderen gepostet werden, die entweder: (a) Zugriff auf Ihre Anmeldedaten haben; oder (b) eigene Anmeldungen unter Ihrem Konto haben.",
+    humanRequirement:
+      "Sie müssen eine natürliche Person sein. Konten, die von „Bots“ oder anderen automatisierten Methoden registriert werden, sind nicht erlaubt.",
+    paymentTitle: "4. Zahlung, Rückerstattungen und Planänderungen",
+    freeTrial:
+      "Bei kostenpflichtigen Diensten, die eine kostenlose Testversion anbieten, erklären wir die Dauer der Testphase bei der Anmeldung. Nach der Testphase müssen Sie im Voraus bezahlen, um den Dienst weiter nutzen zu können. Wenn Sie nicht bezahlen, enden diese Dienste.",
+    upgradePolicy:
+      "Wenn Sie von einem kostenlosen Plan auf einen kostenpflichtigen Plan wechseln, belasten wir Ihre Karte sofort und Ihr Abrechnungszyklus beginnt am Tag des Upgrades.",
+    taxes:
+      "Alle Gebühren sind exklusive aller Steuern, Abgaben oder Zölle, die von Steuerbehörden erhoben werden. Falls erforderlich, werden wir diese Steuern im Namen der Steuerbehörde einziehen und an diese abführen. Andernfalls sind Sie für die Zahlung aller Steuern, Abgaben oder Zölle verantwortlich.",
+    refunds:
+      "Alle Käufe sind nicht erstattungsfähig. Sie können kostenpflichtige Dienste jederzeit durch Anmeldung in Ihrem Konto kündigen. Für kostenpflichtige Abonnements tritt Ihre Kündigung am Ende der aktuellen Laufzeit in Kraft, sofern nicht anders angegeben.",
+    cancellationTitle: "5. Kündigung und Beendigung",
+    cancellationPolicy:
+      "Wenn Sie den Dienst vor Ablauf der bereits bezahlten Zeit kündigen, tritt Ihre Kündigung sofort in Kraft und Sie werden nicht erneut belastet. Wir berechnen nicht automatisch ungenutzte Zeit im letzten Abrechnungszyklus anteilig zurück.",
+    terminationRights:
+      "Wir behalten uns das Recht vor, Ihr Konto jederzeit aus beliebigem Grund zu sperren oder zu kündigen und jede aktuelle oder zukünftige Nutzung unserer Dienste zu verweigern. Eine Sperrung bedeutet, dass Sie nicht auf das Konto oder dessen Inhalte zugreifen können. Eine Kündigung führt darüber hinaus zur Löschung Ihres Kontos oder Ihres Zugriffs darauf sowie zum Verlust aller Inhalte in Ihrem Konto. Wir behalten uns auch das Recht vor, die Nutzung unserer Dienste jederzeit aus beliebigem Grund zu verweigern. Diese Klausel haben wir, weil statistisch gesehen unter Hunderttausenden von Konten mindestens eines ist, das etwas Unrechtes tut.",
+    abusePolicy:
+      "Verbale, physische, schriftliche oder andere Misshandlungen (einschließlich Drohungen von Misshandlung oder Vergeltung) von Mitarbeitern oder Führungskräften des Unternehmens können zur sofortigen Kündigung Ihres Kontos führen.",
+    submissionsTitle: "6. Einreichungen",
+    submissionsDescription:
+      "Sie bestätigen und erklären sich damit einverstanden, dass alle Fragen, Kommentare, Vorschläge, Ideen, Feedback oder andere Informationen bezüglich der Website („Einreichungen“), die Sie uns zur Verfügung stellen, nicht vertraulich sind und unser alleiniges Eigentum werden. Wir besitzen alle exklusiven Rechte, einschließlich aller geistigen Eigentumsrechte, und sind berechtigt, diese Einreichungen ohne Anerkennung oder Entschädigung an Sie für jeden rechtmäßigen Zweck, kommerziell oder anderweitig, uneingeschränkt zu nutzen und zu verbreiten. Sie verzichten hiermit auf alle Urheberpersönlichkeitsrechte an solchen Einreichungen und garantieren, dass solche Einreichungen von Ihnen stammen oder Sie das Recht haben, sie einzureichen. Sie erklären sich damit einverstanden, dass Sie keine Ansprüche gegen uns geltend machen können, falls Ihre Einreichungen angeblich oder tatsächlich Rechte Dritter verletzen oder unrechtmäßig angeeignet werden.",
+    uptimeTitle: "7. Verfügbarkeit und Sicherheit",
+    serviceAvailability:
+      "Die Nutzung unserer Dienste erfolgt auf Ihr eigenes Risiko. Wir bieten diese Dienste „wie besehen“ und „wie verfügbar“ an. Wir bieten für die meisten unserer Dienste keine Service-Level-Vereinbarungen an, nehmen die Verfügbarkeit unserer Anwendungen jedoch ernst.",
+    throttlingPolicy:
+      "Wir behalten uns das Recht vor, in seltenen Fällen, in denen die Aktivität eines Nutzers nachweislich die Stabilität und Leistung des Dienstes für andere Nutzer negativ beeinflusst, den Kontozugriff vorübergehend zu drosseln oder zu beschränken. In allen außer den kritischsten Fällen werden wir Sie kontaktieren, um eine Lösung zu finden, bevor wir Maßnahmen ergreifen.",
+    dataSecurity:
+      "Wir ergreifen zahlreiche Maßnahmen, um Ihre Daten durch Backups, Redundanzen und Verschlüsselung zu schützen und zu sichern. Wir erzwingen Verschlüsselung für die Datenübertragung über das öffentliche Internet.",
+    thirdPartyVendors:
+      "Wir nutzen Drittanbieter und Hosting-Partner, um die notwendige Hardware, Software, Netzwerke, Speicher und verwandte Technologien bereitzustellen, die für den Betrieb der Dienste erforderlich sind.",
+    siteManagementTitle: "8. Website-Verwaltung",
+    siteManagementDescription:
+      "Wir behalten uns das Recht vor, jedoch nicht die Verpflichtung, (1) die Website auf Verstöße gegen diese Nutzungsbedingungen zu überwachen; (2) geeignete rechtliche Schritte gegen jeden zu unternehmen, der nach unserem Ermessen gegen das Gesetz oder diese Nutzungsbedingungen verstößt, einschließlich, aber nicht beschränkt auf, die Meldung solcher Nutzer an Strafverfolgungsbehörden; (3) nach unserem Ermessen und ohne Einschränkung den Zugriff auf Ihre Beiträge oder Teile davon zu verweigern, einzuschränken, die Verfügbarkeit zu begrenzen oder (soweit technisch möglich) zu deaktivieren; (4) nach unserem Ermessen und ohne vorherige Ankündigung oder Haftung Dateien und Inhalte von der Website zu entfernen oder anderweitig zu deaktivieren, die übermäßig groß sind oder unsere Systeme belasten; und (5) die Website auf eine Weise zu verwalten, die unsere Rechte und unser Eigentum schützt und die ordnungsgemäße Funktion der Website gewährleistet.",
+    copyrightTitle: "9. Urheberrecht und Inhalteigentum",
+    copyrightCompliance:
+      "Alle auf den Diensten veröffentlichten Inhalte müssen dem US-Urheberrecht entsprechen.",
+    ipRights:
+      "Wir erheben keine Ansprüche auf geistiges Eigentum an dem Material, das Sie den Diensten zur Verfügung stellen. Alle hochgeladenen Materialien bleiben Ihr Eigentum.",
+    contentModeration:
+      "Wir überprüfen Inhalte nicht vorab, behalten uns jedoch das Recht (aber nicht die Verpflichtung) vor, nach unserem Ermessen Inhalte, die über den Dienst verfügbar sind, abzulehnen oder zu entfernen.",
+    prohibitedExploitation:
+      "Sie erklären sich damit einverstanden, keinen Teil der Dienste, deren Nutzung oder Zugang ohne ausdrückliche schriftliche Genehmigung des Unternehmens zu reproduzieren, zu duplizieren, zu kopieren, zu verkaufen, weiterzuverkaufen oder auszubeuten.",
+    impersonationProhibition:
+      "Sie dürfen keine andere Website so verändern, dass fälschlicherweise der Eindruck entsteht, sie sei mit den Diensten oder dem Unternehmen verbunden.",
+    dmcaPolicy:
+      "Wir respektieren die geistigen Eigentumsrechte anderer. Wenn Sie glauben, dass Material auf oder durch die Website Urheberrechte verletzt, die Sie besitzen oder kontrollieren, kontaktieren Sie uns bitte umgehend. Eine Kopie Ihrer Benachrichtigung wird an die Person gesendet, die das betreffende Material gepostet oder gespeichert hat. Bitte beachten Sie, dass Sie gemäß geltendem Recht für Schäden haftbar gemacht werden können, wenn Sie in einer Benachrichtigung falsche Angaben machen. Wenn Sie sich nicht sicher sind, ob Material auf oder über die Website Ihr Urheberrecht verletzt, sollten Sie zunächst einen Anwalt konsultieren.",
+    prohibitedActivitiesTitle: "10. Verbotene Aktivitäten",
+    generalProhibition:
+      "Sie dürfen die Website nicht für andere Zwecke als diejenigen nutzen, für die wir sie zur Verfügung stellen. Die Website darf nicht für kommerzielle Unternehmungen verwendet werden, es sei denn, diese werden ausdrücklich von uns genehmigt oder befürwortet.",
+    userObligations:
+      "Als Nutzer der Website erklären Sie sich damit einverstanden, Folgendes nicht zu tun:",
+    dataScraping:
+      "Ohne unsere schriftliche Erlaubnis systematisch Daten oder andere Inhalte von der Website abzurufen, um direkt oder indirekt eine Sammlung, Zusammenstellung, Datenbank oder ein Verzeichnis zu erstellen.",
+    fraud:
+      "Uns oder andere Nutzer zu täuschen, zu betrügen oder in die Irre zu führen, insbesondere um sensible Kontoinformationen wie Passwörter zu erhalten.",
+    securityInterference:
+      "Sicherheitsfunktionen der Website zu umgehen, zu deaktivieren oder anderweitig zu beeinträchtigen, einschließlich Funktionen, die die Verwendung oder das Kopieren von Inhalten verhindern oder einschränken oder die Nutzung der Website und/oder der darin enthaltenen Inhalte begrenzen.",
+    defamation:
+      "Uns und/oder die Website in unseren Augen herabzuwürdigen, zu beschädigen oder anderweitig zu schädigen.",
+    harassment:
+      "Informationen von der Website zu verwenden, um eine andere Person zu belästigen, zu missbrauchen oder zu schädigen.",
+    supportAbuse:
+      "Unsere Supportdienste missbräuchlich zu nutzen oder falsche Meldungen über Missbrauch oder Fehlverhalten einzureichen.",
+    legalCompliance:
+      "Die Website in einer Weise zu nutzen, die nicht mit geltenden Gesetzen oder Vorschriften vereinbar ist.",
+    framingProhibition:
+      "Unbefugtes Framing oder Verlinken der Website durchzuführen.",
+    malware:
+      "Viren, Trojaner oder anderes Material hochzuladen oder zu übertragen (oder zu versuchen), einschließlich übermäßiger Verwendung von Großbuchstaben und Spamming (wiederholtes Posten von Text), das die Nutzung der Website durch Dritte beeinträchtigt oder die Funktionen, den Betrieb oder die Wartung der Website stört.",
+    automation:
+      "Automatisierte Systeme zu verwenden, wie Skripte zum Senden von Kommentaren oder Nachrichten, oder Datenmining-, Robot- oder ähnliche Tools zur Datenerfassung und -extraktion.",
+    copyrightRemoval:
+      "Urheberrechts- oder andere Eigentumsvermerke aus Inhalten zu entfernen.",
+    impersonation:
+      "Zu versuchen, sich als anderer Nutzer oder eine andere Person auszugeben oder den Benutzernamen eines anderen Nutzers zu verwenden.",
+    spyware:
+      'Material hochzuladen oder zu übertragen (oder zu versuchen), das als passiver oder aktiver Informationssammlungs- oder Übertragungsmechanismus dient, einschließlich klarer GIFs, 1×1-Pixel, Web Bugs, Cookies oder ähnlicher Geräte (auch als "Spyware" oder "passive Sammlungsmechanismen" bezeichnet).',
+    disruption:
+      "Die Website oder die damit verbundenen Netzwerke oder Dienste zu stören oder übermäßig zu belasten.",
+    employeeHarassment:
+      "Unsere Mitarbeiter oder Agenten zu belästigen, zu ärgern, einzuschüchtern oder zu bedrohen, die Ihnen Teile der Website bereitstellen.",
+    accessCircumvention:
+      "Zu versuchen, Maßnahmen der Website zu umgehen, die den Zugriff auf die Website oder Teile davon verhindern oder einschränken sollen.",
+    codeCopying:
+      "Die Software der Website zu kopieren oder anzupassen, einschließlich Flash, PHP, HTML, JavaScript oder anderem Code.",
+    reverseEngineering:
+      "Sofern nicht durch geltendes Recht gestattet, die Software der Website zu dechiffrieren, zu dekompilieren, zu disassemblieren oder reverse zu engineerieren.",
+    bots: "Sofern nicht durch Standard-Suchmaschinen oder Internetbrowser verursacht, automatisierte Systeme wie Spider, Robots oder Cheat-Tools zu verwenden, zu starten, zu entwickeln oder zu verteilen, die auf die Website zugreifen.",
+    buyingAgents:
+      "Einen Einkaufsagenten oder Käufer zu beauftragen, um Einkäufe auf der Website zu tätigen.",
+    unauthorizedUse:
+      "Unbefugte Nutzung der Website, einschließlich des Sammelns von Benutzernamen und/oder E-Mail-Adressen, um unerwünschte E-Mails zu versenden, oder das Erstellen von Benutzerkonten durch automatisierte Mittel oder unter falschen Angaben.",
+    competition:
+      "Die Website zu nutzen, um mit uns zu konkurrieren oder die Website und/oder Inhalte für gewinnbringende Unternehmungen oder kommerzielle Zwecke zu verwenden.",
+    advertising:
+      "Die Website zu nutzen, um Waren oder Dienstleistungen zu bewerben oder anzubieten.",
+    profileTransfer: "Ihr Profil zu verkaufen oder anderweitig zu übertragen.",
+    featuresTitle: "11. Funktionen und Fehler",
+    featuresDescription:
+      "Wir gestalten unsere Dienste sorgfältig basierend auf unseren Erfahrungen und denen unserer Kunden. Es gibt jedoch keinen Dienst, der jedem gefällt. Wir garantieren nicht, dass unsere Dienste Ihre spezifischen Anforderungen oder Erwartungen erfüllen.",
+    bugsDescription:
+      "Wir testen alle Funktionen vor der Veröffentlichung. Wie jede Software haben auch unsere Dienste Fehler. Wir verfolgen gemeldete Fehler und beheben sie, insbesondere sicherheits- oder datenschutzrelevante. Nicht alle gemeldeten Fehler werden behoben, und wir garantieren keine fehlerfreien Dienste.",
+    correctionsTitle: "12. Korrekturen",
+    informationAccuracy:
+      "Auf der Website können Tippfehler, Ungenauigkeiten oder Auslassungen enthalten sein, einschließlich Beschreibungen, Preisen, Verfügbarkeit und anderen Informationen. Wir behalten uns das Recht vor, diese jederzeit ohne Vorankündigung zu korrigieren oder zu aktualisieren.",
+    siteAvailability:
+      "Wir können nicht garantieren, dass die Website ständig verfügbar ist. Wir behalten uns das Recht vor, die Website jederzeit ohne Ankündigung zu ändern, zu aktualisieren oder einzustellen. Sie stimmen zu, dass wir nicht haftbar für Ausfälle oder Unterbrechungen sind.",
+    userDataTitle: "13. Nutzerdaten",
+    userDataDescription:
+      "Wir speichern bestimmte Daten, die Sie an die Website übermitteln, um deren Leistung zu verwalten. Sie sind allein verantwortlich für alle Daten, die Sie übermitteln oder die mit Ihrer Nutzung der Website zusammenhängen. Wir haften nicht für Verlust oder Beschädigung dieser Daten.",
+    privacyPolicyTitle: "14. Datenschutzrichtlinie",
+    liabilityTitle: "15. Haftung",
+    liabilityIntroduction:
+      "Wir erwähnen die Haftung in diesen Bedingungen, aber hier ist alles zusammengefasst:",
+    liabilityWaiver:
+      "Sie verstehen und stimmen ausdrücklich zu, dass wir nicht haftbar sind für direkte, indirekte, zufällige oder sonstige Schäden, einschließlich Gewinn- oder Datenverlust, die aus der Nutzung oder Nichtnutzung der Dienste resultieren, selbst wenn wir auf die Möglichkeit solcher Schäden hingewiesen wurden.",
+    miscellaneousTitle: "16. Sonstiges",
+    miscellaneousDescription:
+      "Diese Nutzungsbedingungen und alle Richtlinien auf der Website stellen die gesamte Vereinbarung dar. Das Nichtgeltendmachen eines Rechts bedeutet nicht dessen Verzicht. Wir können Rechte und Pflichten übertragen. Wir haften nicht für unkontrollierbare Ereignisse. Ungültige Klauseln beeinträchtigen nicht den Rest der Bedingungen. Durch diese Bedingungen entsteht keine Partnerschaft oder Arbeitsverhältnis.",
+    contactTitle: "17. Kontakt",
+    site: "Website",
+    services: "Dienste",
     at: "unter",
-    trademarkProtection: "Die Namen, das Aussehen und die Gestaltung der Dienste sind urheberrechtlich© durch das Unternehmen geschützt. Alle Rechte vorbehalten. Sie dürfen keine Teile der HTML-, CSS-, JavaScript- oder visuellen Designtelemente ohne ausdrückliche schriftliche Genehmigung des Unternehmens duplizieren, kopieren oder wiederverwenden. Sie müssen eine Genehmigung beantragen, um das Logo des Unternehmens oder Dienstlogos zu Werbezwecken zu nutzen. Bitte senden Sie uns eine E-Mail unter {at} {email} für Anfragen zur Logonutzung. Wir behalten uns das Recht vor, diese Genehmigung zu widerrufen, wenn Sie gegen diese Nutzungsbedingungen verstoßen.",
-    privacyPolicyDescription: "Uns sind Datenschutz und Sicherheit wichtig. Bitte lesen Sie unsere {policy}. Durch die Nutzung der Website erklären Sie sich mit unserer Datenschutzrichtlinie einverstanden, die in diese Nutzungsbedingungen integriert ist. Bitte beachten Sie, dass die Website in den Vereinigten Staaten gehostet wird. Wenn Sie die Website aus einer anderen Region der Welt aufrufen, in der andere Gesetze oder Anforderungen zur Erhebung, Nutzung oder Offenlegung personenbezogener Daten gelten als in den Vereinigten Staaten, dann transferieren Sie durch die weitere Nutzung der Website Ihre Daten in die Vereinigten Staaten und erklären sich damit einverstanden, dass Ihre Daten in die Vereinigten Staaten übertragen und dort verarbeitet werden.",
-    contactDescription: "Wenn Sie eine Frage zu den Nutzungsbedingungen haben, kontaktieren Sie uns bitte unter {at} {email}.",
-    "companyDefinitionA": "Wenn wir in diesem Dokument „Unternehmen“, „wir“, „unser“ oder „uns“ sagen, beziehen wir uns auf {NeverCap}."
+    trademarkProtection:
+      "Die Namen, das Aussehen und die Gestaltung der Dienste sind urheberrechtlich© durch das Unternehmen geschützt. Alle Rechte vorbehalten. Sie dürfen keine Teile der HTML-, CSS-, JavaScript- oder visuellen Designtelemente ohne ausdrückliche schriftliche Genehmigung des Unternehmens duplizieren, kopieren oder wiederverwenden. Sie müssen eine Genehmigung beantragen, um das Logo des Unternehmens oder Dienstlogos zu Werbezwecken zu nutzen. Bitte senden Sie uns eine E-Mail unter {at} {email} für Anfragen zur Logonutzung. Wir behalten uns das Recht vor, diese Genehmigung zu widerrufen, wenn Sie gegen diese Nutzungsbedingungen verstoßen.",
+    privacyPolicyDescription:
+      "Uns sind Datenschutz und Sicherheit wichtig. Bitte lesen Sie unsere {policy}. Durch die Nutzung der Website erklären Sie sich mit unserer Datenschutzrichtlinie einverstanden, die in diese Nutzungsbedingungen integriert ist. Bitte beachten Sie, dass die Website in den Vereinigten Staaten gehostet wird. Wenn Sie die Website aus einer anderen Region der Welt aufrufen, in der andere Gesetze oder Anforderungen zur Erhebung, Nutzung oder Offenlegung personenbezogener Daten gelten als in den Vereinigten Staaten, dann transferieren Sie durch die weitere Nutzung der Website Ihre Daten in die Vereinigten Staaten und erklären sich damit einverstanden, dass Ihre Daten in die Vereinigten Staaten übertragen und dort verarbeitet werden.",
+    contactDescription:
+      "Wenn Sie eine Frage zu den Nutzungsbedingungen haben, kontaktieren Sie uns bitte unter {at} {email}.",
+    companyDefinitionA:
+      "Wenn wir in diesem Dokument „Unternehmen“, „wir“, „unser“ oder „uns“ sagen, beziehen wir uns auf {NeverCap}."
   },
   Blog: {
     Hero: {
-      "title": "Werde ein",
-      "highlighted_text": "Transkriptionsassistent",
-      "description": "Tutorials, Strategien und KI-Tools von {NeverCap} helfen Ihnen, mit professionellen Transkriptions-Workflows unbegrenzt Inhalte zu erstellen."
+      title: "Werde ein",
+      highlighted_text: "Transkriptionsassistent",
+      description:
+        "Tutorials, Strategien und KI-Tools von {NeverCap} helfen Ihnen, mit professionellen Transkriptions-Workflows unbegrenzt Inhalte zu erstellen."
     },
     Featured: {
       FeaturedGuide: "Empfohlene Anleitung",

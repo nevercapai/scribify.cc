@@ -256,7 +256,8 @@ let message = {
         file: "Fil",
         audio: "Ljud-/videofil",
         Uploading: "Laddar upp..."
-      }
+      },
+      fileEmpty: "Filen är tom"
     }
   },
   // Transkriptionsdetaljsida
@@ -792,8 +793,7 @@ let message = {
     policyDescription:
       'Denna policy beskriver hur Scribify (nedan kallat "Scribify", "vår", "vi", "oss") samlar in, använder och lämnar ut dina personuppgifter när du använder våra tjänster, webbplatser',
     websiteLink: "(https://www.scribify.ai/)",
-    servicesDefinition:
-      'och programvara (gemensamt kallade "Tjänsterna").',
+    servicesDefinition: 'och programvara (gemensamt kallade "Tjänsterna").',
     policyAgreement:
       "Läs denna integritetspolicy noggrant och se till att du förstår den. Genom att använda någon av våra tjänster godkänner du denna integritetspolicy. Om du inte samtycker till vår användning av dina personuppgifter i enlighet med denna policy måste du omedelbart sluta använda våra tjänster.",
     policyOverview:
@@ -1055,7 +1055,11 @@ let message = {
     Features: "Funktioner",
     UseCases: "Användningsområden",
     Company: "Företag",
-    featureMenus: ["Obegränsad transkription", "Massuppladdning", "96 % noggrannhet"],
+    featureMenus: [
+      "Obegränsad transkription",
+      "Massuppladdning",
+      "96 % noggrannhet"
+    ],
     useCaseMenus: [
       "Alla användningsområden",
       "Poddsändare",
@@ -1065,12 +1069,7 @@ let message = {
       "Affärsteam",
       "Utbildare"
     ],
-    companyMenus: [
-      "Om oss",
-      "Prissättning",
-      "Sekretess",
-      "Villkor"
-    ]
+    companyMenus: ["Om oss", "Prissättning", "Sekretess", "Villkor"]
   },
   Index: {
     Hero: {
@@ -1083,7 +1082,8 @@ let message = {
       NoCap: "Inget Månatligt Minuttak",
       Hour: "10-Timmars Filer Stöds",
       ExploreUseCases: "Utforska Användningsområden",
-      subtitleA: "NeverCaps AI transkriberar video och konverterar ljud till text och bearbetar 50 filer samtidigt utan månadstak. Transkribering som verkligen skalar med dig."
+      subtitleA:
+        "NeverCaps AI transkriberar video och konverterar ljud till text och bearbetar 50 filer samtidigt utan månadstak. Transkribering som verkligen skalar med dig."
     },
     Stats: {
       monthlyMinutes: "Månatliga Minuter",
@@ -1098,36 +1098,44 @@ let message = {
       upload_50: "Ladda upp upp till 50 filer samtidigt, precis här.",
       no_limits: "Avancerat",
       no_surprises: "AI-avskrift",
-      transparency: "Inga Fler Dolda Begränsningar, Inga Fler Överraskningar - Medan andra tyst minskar dina minuter eller gömmer tak i finstilt text, tror vi på radikal transparens",
+      transparency:
+        "Inga Fler Dolda Begränsningar, Inga Fler Överraskningar - Medan andra tyst minskar dina minuter eller gömmer tak i finstilt text, tror vi på radikal transparens",
       feat_unltd: "Verkligen Obegränsat",
-      feat_unltd_desc: 'Ingen "fair use policy" gömd i villkoren. Inga lagringstak förklädda som "obegränsade." Ladda upp hela ditt arkiv, skriv av allt för alla dina ljudavskriftsbehov. Vi menar det.',
+      feat_unltd_desc:
+        'Ingen "fair use policy" gömd i villkoren. Inga lagringstak förklädda som "obegränsade." Ladda upp hela ditt arkiv, skriv av allt för alla dina ljudavskriftsbehov. Vi menar det.',
       feat_bulk: "Massuppladdningsfrihet",
-      feat_bulk_desc: 'Trött på "3 livstidsimport" eller "10 filer per månad"? Ladda upp 50 filer samtidigt, så många gånger du behöver. Perfekt för att bearbeta eftersläpningar.',
+      feat_bulk_desc:
+        'Trött på "3 livstidsimport" eller "10 filer per månad"? Ladda upp 50 filer samtidigt, så många gånger du behöver. Perfekt för att bearbeta eftersläpningar.',
       feat_batch: "Batchbearbetning",
-      feat_batch_desc: "Bearbeta hela din podcast-säsong över natten. Ladda upp 50 intervjuer samtidigt. Låt vår AI jobba medan du sover. Vakna till färdiga avskrifter.",
+      feat_batch_desc:
+        "Bearbeta hela din podcast-säsong över natten. Ladda upp 50 intervjuer samtidigt. Låt vår AI jobba medan du sover. Vakna till färdiga avskrifter.",
       feat_accuracy: "96% Noggrannhet",
-      feat_accuracy_desc: "Vår branschledande AI skriver av ljud med smart interpunktion, talardiarisering för upp till 20 talare och hanterar dialekter och tekniska termer felfritt.",
+      feat_accuracy_desc:
+        "Vår branschledande AI skriver av ljud med smart interpunktion, talardiarisering för upp till 20 talare och hanterar dialekter och tekniska termer felfritt.",
       feat_langs: "100+ Språk",
-      feat_langs_desc: "Skriv av video och ljud på 100+ språk, översätt till 249+. Inga extra avgifter för olika språk. Globalt innehåll, ett enkelt pris.",
+      feat_langs_desc:
+        "Skriv av video och ljud på 100+ språk, översätt till 249+. Inga extra avgifter för olika språk. Globalt innehåll, ett enkelt pris.",
       feat_pro: "Professionella Funktioner",
-      feat_pro_desc: "Ord-nivå tidsstämplar för exakt ljud-/videopositionering, korrekt talaridentifiering även vid snabba konversationsbyten och perfekt formaterad text med stycken, meningar och interpunktion för enkel läsning.",
+      feat_pro_desc:
+        "Ord-nivå tidsstämplar för exakt ljud-/videopositionering, korrekt talaridentifiering även vid snabba konversationsbyten och perfekt formaterad text med stycken, meningar och interpunktion för enkel läsning.",
       features: "Funktioner"
     },
     UseCases: {
       built_for: "Mass-",
-      "heavy_users": "Ljud- & Videoavskrift",
-      "join_users": 'Byggd för Tunga Användare Som Dig - Gå med YouTubers, innehållsskapare och poddare som bytt från "shrinkflation"-tjänster',
-      "podcasters": {
-        "title": "Poddare",
-        "des": "Ladda upp hela ditt bakkatalog. Skapa shownotes för varje avsnitt. Inget mer välja vilka avsnitt som ska avskrivas."
+      heavy_users: "Ljud- & Videoavskrift",
+      join_users:
+        'Byggd för Tunga Användare Som Dig - Gå med YouTubers, innehållsskapare och poddare som bytt från "shrinkflation"-tjänster',
+      podcasters: {
+        title: "Poddare",
+        des: "Ladda upp hela ditt bakkatalog. Skapa shownotes för varje avsnitt. Inget mer välja vilka avsnitt som ska avskrivas."
       },
-      "content_creators": {
-        "title": "Innehållsskapare",
-        "des": "Gör ditt videobibliotek sökbart genom att använda vår tjänst för att automatiskt transkribera videofiler. Generera undertexter till allt. Inget räkna minuter, bara skapa."
+      content_creators: {
+        title: "Innehållsskapare",
+        des: "Gör ditt videobibliotek sökbart genom att använda vår tjänst för att automatiskt transkribera videofiler. Generera undertexter till allt. Inget räkna minuter, bara skapa."
       },
-      "journalists": {
-        "title": "Journalister",
-        "des": 'Ladda upp alla dina intervjuer samtidigt. Inget mer "10 filer per månad" hinder när deadline närmar sig. Bearbeta allt.'
+      journalists: {
+        title: "Journalister",
+        des: 'Ladda upp alla dina intervjuer samtidigt. Inget mer "10 filer per månad" hinder när deadline närmar sig. Bearbeta allt.'
       },
       researchers: {
         title: "Forskare",
@@ -1143,85 +1151,98 @@ let message = {
       }
     },
     Testimonials: {
-      subtitle: "Se varför proffs väljer NeverCap framför begränsade alternativ",
+      subtitle:
+        "Se varför proffs väljer NeverCap framför begränsade alternativ",
       Mike: {
-        "text": "Herrejävlar, det här funkar faktiskt! Har hållit på med podcast i 3 år och transkriberat allt manuellt som en idiot. Laddade upp 6 avsnitt på en gång och den separerade mig och min medvärd perfekt. Avsnittet från kaféet jag trodde var förstört? Kristallklar transkription. Jag skriver aldrig det här själv igen.",
-        "author": "Mike Rodriguez",
-        "role": "Podcasthost"
+        text: "Herrejävlar, det här funkar faktiskt! Har hållit på med podcast i 3 år och transkriberat allt manuellt som en idiot. Laddade upp 6 avsnitt på en gång och den separerade mig och min medvärd perfekt. Avsnittet från kaféet jag trodde var förstört? Kristallklar transkription. Jag skriver aldrig det här själv igen.",
+        author: "Mike Rodriguez",
+        role: "Podcasthost"
       },
       Sarah: {
-        "text": "Jag undervisar online och behövde undertexter till mina videor. Testade 3 andra verktyg som antingen hade konstiga begränsningar eller tog evigheter. Den här bara... funkar? Laddade upp min föreläsning på spanska, fick perfekta undertexter på typ 2 minuter. Mina studenter med hörselnedsättning är så glada. Önskar jag hittade det här tidigare!",
-        "author": "Sarah Chen",
-        "role": "Onlineundervisare"
+        text: "Jag undervisar online och behövde undertexter till mina videor. Testade 3 andra verktyg som antingen hade konstiga begränsningar eller tog evigheter. Den här bara... funkar? Laddade upp min föreläsning på spanska, fick perfekta undertexter på typ 2 minuter. Mina studenter med hörselnedsättning är så glada. Önskar jag hittade det här tidigare!",
+        author: "Sarah Chen",
+        role: "Onlineundervisare"
       },
       Jessica: {
-        "text": "Har använt det här till mina intervjuer och det är otroligt hur exakt det är. Hade en 2-timmarsintervju på bruten engelska + spanska och den fick allt rätt, till och med tidsstämplarna. Brukade betala min praktikant $200/månad bara för att transkribera. Det här sparar mig bokstavligen pengar varje månad.",
-        "author": "Jessica Park",
-        "role": "Frilansjournalist"
+        text: "Har använt det här till mina intervjuer och det är otroligt hur exakt det är. Hade en 2-timmarsintervju på bruten engelska + spanska och den fick allt rätt, till och med tidsstämplarna. Brukade betala min praktikant $200/månad bara för att transkribera. Det här sparar mig bokstavligen pengar varje månad.",
+        author: "Jessica Park",
+        role: "Frilansjournalist"
       },
       titleA: "Älskad av över 50 000 användare"
     },
     PricingPreview: {
-      "title": "Transparent prissättning",
-      "highlighted_text": "Inga dolda tak",
-      "subtitle": "Välj din plan. Inga asterisker, ingen finstilt text, inga överraskningar"
+      title: "Transparent prissättning",
+      highlighted_text: "Inga dolda tak",
+      subtitle:
+        "Välj din plan. Inga asterisker, ingen finstilt text, inga överraskningar"
     },
     FAQSection: {
-      "title": "Vanliga frågor",
-      "titleHighlight": "Frågor",
-      "questions": [
+      title: "Vanliga frågor",
+      titleHighlight: "Frågor",
+      questions: [
         {
-          "q": "AI-transkription",
-          "question": "Vad är AI-transkription och hur fungerar det?",
-          "answer": "AI-transkription är processen att automatiskt omvandla ljud till text med avancerad artificiell intelligens. Hos NeverCap laddar du bara upp dina filer, och vår AI transkriberar innehållet med upp till 96% noggrannhet. Vår tjänst är utformad för att transkribera videofiler (som MP4, MOV) och ljudfiler (som MP3, WAV) till läsbar, redigerbar text, komplett med talarmärkningar och tidsstämplar."
+          q: "AI-transkription",
+          question: "Vad är AI-transkription och hur fungerar det?",
+          answer:
+            "AI-transkription är processen att automatiskt omvandla ljud till text med avancerad artificiell intelligens. Hos NeverCap laddar du bara upp dina filer, och vår AI transkriberar innehållet med upp till 96% noggrannhet. Vår tjänst är utformad för att transkribera videofiler (som MP4, MOV) och ljudfiler (som MP3, WAV) till läsbar, redigerbar text, komplett med talarmärkningar och tidsstämplar."
         },
         {
-          "q": "unlimited_policy",
-          "question": "Är det verkligen obegränsat? Vad är haken?",
-          "answer": "Ja, det är verkligen obegränsat! Inga månatliga minutgränser, inga överanvändningsavgifter. De enda begränsningarna är tekniska: enskilda filer kan vara upp till 10 timmar långa eller 5 GB i storlek, och du kan bearbeta 50 filer samtidigt. Men du kan ladda upp så många batchar du vill, hela månaden."
+          q: "unlimited_policy",
+          question: "Är det verkligen obegränsat? Vad är haken?",
+          answer:
+            "Ja, det är verkligen obegränsat! Inga månatliga minutgränser, inga överanvändningsavgifter. De enda begränsningarna är tekniska: enskilda filer kan vara upp till 10 timmar långa eller 5 GB i storlek, och du kan bearbeta 50 filer samtidigt. Men du kan ladda upp så många batchar du vill, hela månaden."
         },
         {
-          "q": "accuracy",
-          "question": "Hur exakt är transkriptionen?",
-          "answer": "Vi garanterar 96% noggrannhet för tydligt ljud. Vår AI är tränad på miljontals timmar av olika innehåll och hanterar dialekter, tekniska termer och flera talare exceptionellt bra. För utmanande ljud hjälper våra smarta förbättringsfunktioner till att förbättra resultaten."
+          q: "accuracy",
+          question: "Hur exakt är transkriptionen?",
+          answer:
+            "Vi garanterar 96% noggrannhet för tydligt ljud. Vår AI är tränad på miljontals timmar av olika innehåll och hanterar dialekter, tekniska termer och flera talare exceptionellt bra. För utmanande ljud hjälper våra smarta förbättringsfunktioner till att förbättra resultaten."
         },
         {
-          "q": "languages",
-          "question": "Vilka språk stöder ni?",
-          "answer": "Vi stöder transkription på över 100 språk inklusive engelska, spanska, mandarin, hindi, arabiska, franska och mer. Dessutom kan du översätta dina transkriptioner till 249 olika språk, vilket gör det perfekt för globalt innehåll."
+          q: "languages",
+          question: "Vilka språk stöder ni?",
+          answer:
+            "Vi stöder transkription på över 100 språk inklusive engelska, spanska, mandarin, hindi, arabiska, franska och mer. Dessutom kan du översätta dina transkriptioner till 249 olika språk, vilket gör det perfekt för globalt innehåll."
         },
         {
-          "q": "speed",
-          "question": "Hur snabb är transkriptionen?",
-          "answer": "Blixtsnabb! En 1-timmars ljudfil behandlas vanligtvis på under 5 minuter. Med batchbearbetning kan du ladda upp 50 filer samtidigt och låta dem bearbetas parallellt. De flesta användare vaknar och upptäcker att hela deras bibliotek transkriberats över natten."
+          q: "speed",
+          question: "Hur snabb är transkriptionen?",
+          answer:
+            "Blixtsnabb! En 1-timmars ljudfil behandlas vanligtvis på under 5 minuter. Med batchbearbetning kan du ladda upp 50 filer samtidigt och låta dem bearbetas parallellt. De flesta användare vaknar och upptäcker att hela deras bibliotek transkriberats över natten."
         },
         {
-          "q": "cancellation",
-          "question": "Kan jag avbryta när som helst?",
-          "answer": "Absolut! Inga bindningstider, inga avbokningsavgifter. Du kan uppgradera, nedgradera eller avbryta din prenumeration när som helst från din instrumentpanel. Om du avbryter behåller du åtkomst till slutet av din faktureringsperiod."
+          q: "cancellation",
+          question: "Kan jag avbryta när som helst?",
+          answer:
+            "Absolut! Inga bindningstider, inga avbokningsavgifter. Du kan uppgradera, nedgradera eller avbryta din prenumeration när som helst från din instrumentpanel. Om du avbryter behåller du åtkomst till slutet av din faktureringsperiod."
         },
         {
-          "q": "security",
-          "question": "Är mina data säkra?",
-          "answer": "Din säkerhet är vår prioritet. Vi är SOC 2-certifierade, använder 256-bitars kryptering för all data och använder aldrig ditt innehåll för att träna våra modeller. Du kan ta bort dina filer när som helst, och vi raderar dem automatiskt efter 30 dagar. GDPR- och CCPA-kompatibelt."
+          q: "security",
+          question: "Är mina data säkra?",
+          answer:
+            "Din säkerhet är vår prioritet. Vi är SOC 2-certifierade, använder 256-bitars kryptering för all data och använder aldrig ditt innehåll för att träna våra modeller. Du kan ta bort dina filer när som helst, och vi raderar dem automatiskt efter 30 dagar. GDPR- och CCPA-kompatibelt."
         },
         {
-          "q": "export_formats",
-          "question": "Vilka exportformat finns tillgängliga?",
-          "answer": "Ladda ner dina transkriptioner i vilket format du behöver: PDF, Word (DOCX), Excel, CSV, SRText, vanlig text (TXT) och VTT-undertexter. Perfekt för vilket arbetsflöde du än har."
+          q: "export_formats",
+          question: "Vilka exportformat finns tillgängliga?",
+          answer:
+            "Ladda ner dina transkriptioner i vilket format du behöver: PDF, Word (DOCX), Excel, CSV, SRText, vanlig text (TXT) och VTT-undertexter. Perfekt för vilket arbetsflöde du än har."
         },
         {
-          "q": "file_formats",
-          "question": "Vilka ljud- och videofiler kan jag ladda upp?",
-          "answer": "Vi stöder i princip alla ljud- och videoformat du stöter på: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV och mer. Om du kan spela upp det kan vi transkribera det."
+          q: "file_formats",
+          question: "Vilka ljud- och videofiler kan jag ladda upp?",
+          answer:
+            "Vi stöder i princip alla ljud- och videoformat du stöter på: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV och mer. Om du kan spela upp det kan vi transkribera det."
         }
       ]
     },
     CTASection: {
-      "title": "Redo att bryta fri från begränsningar?",
-      "subtitle": "Gå med bland 50 000+ proffs som har bytt till verkligen obegränsad transkription",
-      "button": "Prova NeverCap gratis",
-      "disclaimer": "Inget kreditkort krävs för gratisplanen • Uppgradera när som helst för obegränsad åtkomst"
+      title: "Redo att bryta fri från begränsningar?",
+      subtitle:
+        "Gå med bland 50 000+ proffs som har bytt till verkligen obegränsad transkription",
+      button: "Prova NeverCap gratis",
+      disclaimer:
+        "Inget kreditkort krävs för gratisplanen • Uppgradera när som helst för obegränsad åtkomst"
     }
   },
   Features: {
@@ -1268,7 +1289,8 @@ let message = {
       feature1Label: "Inga Gränser",
       feature1TitlePart1: "Avskriva 1 000 Timmar?",
       feature1TitlePart2: "Samma Pris.",
-      feature1Description: "Sluta räkna minuter. Sluta titta på tak. Oavsett om du avskriver 10 timmar eller 10 000 timmar per månad, betalar du samma fasta pris. Inga överlagsavgifter. Inga överraskningsräkningar.",
+      feature1Description:
+        "Sluta räkna minuter. Sluta titta på tak. Oavsett om du avskriver 10 timmar eller 10 000 timmar per månad, betalar du samma fasta pris. Inga överlagsavgifter. Inga överraskningsräkningar.",
       feature1Point1Icon: "✓",
       feature1Point1Text: 'Inga "rimlig användning"-policyknep',
       feature1Point2Icon: "✓",
@@ -1286,7 +1308,8 @@ let message = {
       feature2Label: "Massfrihet",
       feature2TitlePart1: "Ladda upp din",
       feature2TitlePart2: "Hela arkivet",
-      feature2Description: "Otter ger dig 3 livstidsimports gratis, 10 per månad på Pro. Vi ger dig obegränsat. Ladda upp din podcast-efterföljd, alla dina intervjuer, års inspelningar. Inga begränsningar.",
+      feature2Description:
+        "Otter ger dig 3 livstidsimports gratis, 10 per månad på Pro. Vi ger dig obegränsat. Ladda upp din podcast-efterföljd, alla dina intervjuer, års inspelningar. Inga begränsningar.",
       feature2Point1Icon: "✓",
       feature2Point1Text: "50 filer per batch",
       feature2Point2Icon: "✓",
@@ -1303,7 +1326,8 @@ let message = {
       feature3Label: "Socialt Bevis",
       feature3TitlePart1: "Användare",
       feature3TitlePart2: "Byter Varje Dag",
-      feature3Description: '"Jag betalar $100/år för Otter och de begränsar mig till 10 filimports per månad. När det finns ett alternativ med obegränsade imports, är jag borta!" - Riktig Reddit-användare',
+      feature3Description:
+        '"Jag betalar $100/år för Otter och de begränsar mig till 10 filimports per månad. När det finns ett alternativ med obegränsade imports, är jag borta!" - Riktig Reddit-användare',
       feature3Point1Icon: "✓",
       feature3Point1Text: "50,000+ användare har bytt",
       feature3Point2Icon: "✓",
@@ -1327,26 +1351,32 @@ let message = {
       trustBadge4Number: "50",
       trustBadge4Label: "Batchuppladdning",
       ctaTitle: "Sluta Betala för Falskt Obegränsat",
-      ctaSubtitle: "Gå med i tusentals som bytte till verkligt obegränsad transkribering",
+      ctaSubtitle:
+        "Gå med i tusentals som bytte till verkligt obegränsad transkribering",
       finalCta: "Prova NeverCap Gratis",
-      heroSubtitle1: "Medan Trint begränsar dig till 50 timmar och Otter begränsar dig till 10 filer per månad,",
-      heroSubtitle2: "levererar vad vi faktiskt lovar: obegränsad transkription utan dolda tak."
+      heroSubtitle1:
+        "Medan Trint begränsar dig till 50 timmar och Otter begränsar dig till 10 filer per månad,",
+      heroSubtitle2:
+        "levererar vad vi faktiskt lovar: obegränsad transkription utan dolda tak."
     },
     BulkUpload: {
       heroBadgeIcon: "📁",
       heroBadgeText: "Massuppladdningsfrihet",
       heroTitleLine1: "Ladda upp 50 filer.",
       heroTitleHighlight: "Bearbeta allt.",
-      heroSubtitle: "Otter ger dig 3 livstidsimport. TRE. För hela ditt liv. Vi ger dig obegränsade uppladdningar, 50 filer åt gången, när du behöver.",
+      heroSubtitle:
+        "Otter ger dig 3 livstidsimport. TRE. För hela ditt liv. Vi ger dig obegränsade uppladdningar, 50 filer åt gången, när du behöver.",
       primaryCta: "Starta Massuppladdning →",
       secondaryCta: "Se Begränsningarna",
-      redditQuote: '"Jag har 3 års poddavsnitt att transkribera. Otter säger att jag får 3 livstidsimport. TRE. Detta är förolämpande."',
+      redditQuote:
+        '"Jag har 3 års poddavsnitt att transkribera. Otter säger att jag får 3 livstidsimport. TRE. Detta är förolämpande."',
       redditAuthorIcon: "📍",
       redditAuthorText: "Riktig frustration från r/podcasting",
       comparisonSectionTitlePart1: "De",
       comparisonSectionTitleHighlight: "Löjliga Begränsningarna",
       comparisonSectionTitlePart2: "De Inför",
-      comparisonSubtitle: "Hur konkurrenter begränsar din möjlighet att bearbeta innehåll",
+      comparisonSubtitle:
+        "Hur konkurrenter begränsar din möjlighet att bearbeta innehåll",
       limitCard1Service: "Otter Free",
       limitCard1Number: "3",
       limitCard1DescriptionLine1: "Livstidsimport",
@@ -1366,7 +1396,8 @@ let message = {
       feature1TitlePart1: "Bearbeta Ditt",
       feature1TitleHighlight: "Hela Arkiv",
       feature1TitlePart2: "Över Natten",
-      feature1Description: 'Ladda upp 50 filer innan läggdags. Vakna till färdiga transkript. Ingen kö, ingen väntan, inga "uppgradera"-meddelanden. Ren bearbetningskraft vid dina fingertoppar.',
+      feature1Description:
+        'Ladda upp 50 filer innan läggdags. Vakna till färdiga transkript. Ingen kö, ingen väntan, inga "uppgradera"-meddelanden. Ren bearbetningskraft vid dina fingertoppar.',
       feature1Point1Icon: "✓",
       feature1Point1Text: "50 samtidiga uppladdningar",
       feature1Point2Icon: "✓",
@@ -1385,7 +1416,8 @@ let message = {
       feature2Label: "Hastighet",
       feature2TitlePart1: "Från uppladdning till",
       feature2TitleHighlight: "Klart på timmar",
-      feature2Description: "Vår parallellbehandlingsinfrastruktur innebär att dina 50 filer inte köar. Alla transkriberas samtidigt. Vad som tidigare tog veckor tar nu timmar.",
+      feature2Description:
+        "Vår parallellbehandlingsinfrastruktur innebär att dina 50 filer inte köar. Alla transkriberas samtidigt. Vad som tidigare tog veckor tar nu timmar.",
       feature2Point1Icon: "✓",
       feature2Point1Text: "1-timmars fil: 5 minuter",
       feature2Point2Icon: "✓",
@@ -1408,7 +1440,8 @@ let message = {
       feature3TitlePart1: "Inga köer.",
       feature3TitleHighlight: "Inget väntande.",
       feature3TitlePart2: "Inga gränser.",
-      feature3Description: 'Medan andra låter dig vänta i virtuella köer eller uppgradera för "prioriterad behandling", tar vi varje uppladdning på allvar. Ditt innehåll är viktigt och ska inte behöva vänta.',
+      feature3Description:
+        'Medan andra låter dig vänta i virtuella köer eller uppgradera för "prioriterad behandling", tar vi varje uppladdning på allvar. Ditt innehåll är viktigt och ska inte behöva vänta.',
       feature3Point1Icon: "✓",
       feature3Point1Text: "Inga prioriteringsnivåer",
       feature3Point2Icon: "✓",
@@ -1422,17 +1455,23 @@ let message = {
       useCasesTitleHighlight: "Stora uppladdare",
       useCasesSubtitle: "Verkliga scenarier där massuppladdning räddar dagen",
       useCase1Title: "Podcastarkiv",
-      useCase1Description: "Ladda upp 3 års avsnitt på en gång. Skriv ut transkriptioner för hela ditt arkiv. Generera SEO-innehåll för varje avsnitt.",
+      useCase1Description:
+        "Ladda upp 3 års avsnitt på en gång. Skriv ut transkriptioner för hela ditt arkiv. Generera SEO-innehåll för varje avsnitt.",
       useCase2Title: "Kursutveckling",
-      useCase2Description: "Bearbeta alla dina föreläsningsvideor samtidigt. Skapa tillgängliga transkriptioner för studenter. Bygg sökbara kursmaterial.",
+      useCase2Description:
+        "Bearbeta alla dina föreläsningsvideor samtidigt. Skapa tillgängliga transkriptioner för studenter. Bygg sökbara kursmaterial.",
       useCase3Title: "Intervjubacklogg",
-      useCase3Description: "Rensa det berg av otranskriberade intervjuer. Bearbeta veckors forskning på timmar. Möt din deadline utan panik.",
+      useCase3Description:
+        "Rensa det berg av otranskriberade intervjuer. Bearbeta veckors forskning på timmar. Möt din deadline utan panik.",
       useCase4Title: "YouTube-bibliotek",
-      useCase4Description: "Generera undertexter för hela din kanal. Skapa blogginlägg från videor. Förbättra SEO för alla videor.",
+      useCase4Description:
+        "Generera undertexter för hela din kanal. Skapa blogginlägg från videor. Förbättra SEO för alla videor.",
       useCase5Title: "Mötesarkiv",
-      useCase5Description: "Ladda upp månaders inspelade möten. Skapa sökbara mötesanteckningar. Förlora aldrig viktiga beslut igen.",
+      useCase5Description:
+        "Ladda upp månaders inspelade möten. Skapa sökbara mötesanteckningar. Förlora aldrig viktiga beslut igen.",
       useCase6Title: "Forskningsdata",
-      useCase6Description: "Bearbeta fokusgrupper i bulk. Transkribera alla deltagarintervjuer. Analysera kvalitativa data effektivt.",
+      useCase6Description:
+        "Bearbeta fokusgrupper i bulk. Transkribera alla deltagarintervjuer. Analysera kvalitativa data effektivt.",
       ctaTitle: "Sluta Be om Fler Uppladdningar",
       ctaSubtitle: "Få obegränsad bulkbearbetning som faktiskt fungerar",
       finalCta: "Ladda Upp 50 Filer Nu →"
@@ -1442,7 +1481,8 @@ let message = {
       heroBadgeText: "Branschledande Noggrannhet",
       heroTitleLine1: "96% Noggrannhet.",
       heroTitleHighlight: "Varje Ord Räknas.",
-      heroSubtitle: "Branschledande noggrannhet i 12 huvudspråk. Ordvisa tidsstämplar för perfekt synk. Smart högtalaridentifiering som hanterar snabba samtal. Professionell formatering som faktiskt är läsbar.",
+      heroSubtitle:
+        "Branschledande noggrannhet i 12 huvudspråk. Ordvisa tidsstämplar för perfekt synk. Smart högtalaridentifiering som hanterar snabba samtal. Professionell formatering som faktiskt är läsbar.",
       primaryCta: "Testa Vår Noggrannhet →",
       secondaryCta: "Se Språk",
       statCard1Percentage: "96%",
@@ -1496,7 +1536,8 @@ let message = {
       feature1Label: "Precision",
       feature1TitlePart1: "Ord-nivå",
       feature1TitleHighlight: "Tidsstämplar",
-      feature1Description: "Varje ord är perfekt synkat med sin ljudposition. Skapa klickbara transkriptioner, generera exakta undertexter eller hoppa till exakta ögonblick i dina inspelningar. 100ms precision som proffs litar på.",
+      feature1Description:
+        "Varje ord är perfekt synkat med sin ljudposition. Skapa klickbara transkriptioner, generera exakta undertexter eller hoppa till exakta ögonblick i dina inspelningar. 100ms precision som proffs litar på.",
       feature1Point1Icon: "✓",
       feature1Point1Text: "100ms tidsstämpelprecision",
       feature1Point2Icon: "✓",
@@ -1520,7 +1561,8 @@ let message = {
       feature2Label: "Smart AI",
       feature2TitlePart1: "Hanterar",
       feature2TitleHighlight: "Snabba konversationer",
-      feature2Description: "Vår AI identifierar talare exakt även vid överlappande tal, avbrott och snabba fram-och-tillbaka-samtal. Perfekt för intervjuer, podcasts och möten där talare ofta avbryter.",
+      feature2Description:
+        "Vår AI identifierar talare exakt även vid överlappande tal, avbrott och snabba fram-och-tillbaka-samtal. Perfekt för intervjuer, podcasts och möten där talare ofta avbryter.",
       feature2Point1Icon: "✓",
       feature2Point1Text: "Identifierar upp till 20 talare",
       feature2Point2Icon: "✓",
@@ -1535,7 +1577,8 @@ let message = {
       feature3Label: "Läsbarhet",
       feature3TitlePart1: "Perfekt",
       feature3TitleHighlight: "Formaterad text",
-      feature3Description: "Inga mer textväggar. Vår AI lägger automatiskt till stycken, meningar och skiljetecken precis där de hör hemma. Resultatet? Avskrifter som faktiskt är trevliga att läsa och enkla att skumma.",
+      feature3Description:
+        "Inga mer textväggar. Vår AI lägger automatiskt till stycken, meningar och skiljetecken precis där de hör hemma. Resultatet? Avskrifter som faktiskt är trevliga att läsa och enkla att skumma.",
       feature3Point1Icon: "✓",
       feature3Point1Text: "Smarta styckesbrytningar",
       feature3Point2Icon: "✓",
@@ -1546,9 +1589,11 @@ let message = {
       feature3Point4Text: "Ren, skanningsbar utdata",
       formattingTitle: "Före & Efter",
       formattingBeforeLabel: "❌ Andra:",
-      formattingBeforeText: "så idag ska vi prata om de nya funktionerna vi har arbetat på jag tror du verkligen kommer gilla dem de har efterfrågats av användare länge och vi har äntligen fått dem klara",
+      formattingBeforeText:
+        "så idag ska vi prata om de nya funktionerna vi har arbetat på jag tror du verkligen kommer gilla dem de har efterfrågats av användare länge och vi har äntligen fått dem klara",
       formattingAfterLabel: "✓ NeverCap:",
-      formattingAfterText: "Så idag ska vi prata om de nya funktionerna vi har arbetat med. Jag tror du verkligen kommer gilla dem. De har efterfrågats av användare länge, och vi har äntligen fått dem klara.",
+      formattingAfterText:
+        "Så idag ska vi prata om de nya funktionerna vi har arbetat med. Jag tror du verkligen kommer gilla dem. De har efterfrågats av användare länge, och vi har äntligen fått dem klara.",
       comparisonSubtitle: "Noggrannhet",
       comparisonSectionTitle: "Jämförelse",
       tableHeader1: "Funktion",
@@ -1592,231 +1637,245 @@ let message = {
   },
   Pricing: {
     Hero: {
-      "title": "Enkla, transparenta priser",
-      "highlighted_text": "Inga dolda tak",
-      "description": "Välj den plan som passar dina behov. Uppgradera eller nedgradera när som helst. Inga avtal, inga överraskningar."
+      title: "Enkla, transparenta priser",
+      highlighted_text: "Inga dolda tak",
+      description:
+        "Välj den plan som passar dina behov. Uppgradera eller nedgradera när som helst. Inga avtal, inga överraskningar."
     },
     Cards: {
-      "title": "Enkla, transparenta priser.",
-      "highlighted_text": "Inga dolda tak.",
-      "description": "Välj den plan som passar dina behov. Uppgradera eller nedgradera när som helst. Inga avtal, inga överraskningar.",
-      "plans": [
+      title: "Enkla, transparenta priser.",
+      highlighted_text: "Inga dolda tak.",
+      description:
+        "Välj den plan som passar dina behov. Uppgradera eller nedgradera när som helst. Inga avtal, inga överraskningar.",
+      plans: [
         {
-          "name": "Gratis",
-          "price": "$0",
-          "period": "månad",
-          "discount": "Perfekt för att prova vår tjänst",
-          "limits": {
-            "title": "Dagliga gränser",
-            "items": [
+          name: "Gratis",
+          price: "$0",
+          period: "månad",
+          discount: "Perfekt för att prova vår tjänst",
+          limits: {
+            title: "Dagliga gränser",
+            items: [
               "3 filer per dag",
               "Upp till 10 timmar / 5 GB per fil",
               "Gratis 30-minuters förhandsvisning av alla transkript",
               "Ladda upp 1 fil åt gången",
-              'Standardprioritetskö'
+              "Standardprioritetskö"
             ]
           },
-          "features": {
-            "title": "Funktioner",
-            "items": [
+          features: {
+            title: "Funktioner",
+            items: [
               "100+ språk",
               "Talarmärkningar",
               "Översättning",
               "Alla exportformat"
             ]
           },
-          "cta": {
-            "text": "Börja gratis. Ingen kreditkort behövs.",
-            "button": "Nuvarande abonnemang"
+          cta: {
+            text: "Börja gratis. Ingen kreditkort behövs.",
+            button: "Nuvarande abonnemang"
           }
         },
         {
-          "name": "Pro Månadsvis",
-          "price": "$17.99",
-          "period": "månad",
-          "discount": "$9.99 första månaden",
-          "limits": {
-            "title": "Ingen månatlig gräns",
-            "items": [
+          name: "Pro Månadsvis",
+          price: "$17.99",
+          period: "månad",
+          discount: "$9.99 första månaden",
+          limits: {
+            title: "Ingen månatlig gräns",
+            items: [
               "Obegränsade totala minuter",
               "Upp till 10 timmar / 5 GB per fil",
               "Ladda upp 50 filer samtidigt",
               "Prioriterad kö"
             ]
           },
-          "features": {
-            "title": "Allt i Gratis, plus",
-            "items": [
+          features: {
+            title: "Allt i Gratis, plus",
+            items: [
               "Tidsstämplar på ordnivå",
               "Avancerad talaridentifiering",
               "Formaterade stycken & skiljetecken",
               "Prioriterat stöd"
             ]
           },
-          "cta": {
-            "text": "Obegränsade minuter. Prioriterad hastighet. Massuppladdning.",
-            "button": "Gå Pro"
+          cta: {
+            text: "Obegränsade minuter. Prioriterad hastighet. Massuppladdning.",
+            button: "Gå Pro"
           },
-          "badge": "Mest populär"
+          badge: "Mest populär"
         },
         {
-          "name": "Pro Årlig",
-          "price": "$8.99",
-          "period": "månad",
-          "discount": "Faktureras årligen $107.88",
-          "limits": {
-            "title": "Samma som Pro Månadsvis",
-            "items": [
+          name: "Pro Årlig",
+          price: "$8.99",
+          period: "månad",
+          discount: "Faktureras årligen $107.88",
+          limits: {
+            title: "Samma som Pro Månadsvis",
+            items: [
               "Obegränsade totala minuter",
               "Upp till 10 timmar / 5 GB per fil",
               "Ladda upp 50 filer samtidigt",
               "Prioriterad kö"
             ]
           },
-          "features": {
-            "title": "Allt i Gratis, plus",
-            "items": [
+          features: {
+            title: "Allt i Gratis, plus",
+            items: [
               "Tidsstämplar på ordnivå",
               "Avancerad talaridentifiering",
               "Formaterade stycken & skiljetecken",
               "Prioriterat stöd"
             ]
           },
-          "cta": {
-            "text": "Obegränsade minuter. Prioriterad hastighet. Massuppladdning.",
-            "button": "Gå Pro"
+          cta: {
+            text: "Obegränsade minuter. Prioriterad hastighet. Massuppladdning.",
+            button: "Gå Pro"
           },
-          "badge": "Bästa Värde - "
+          badge: "Bästa Värde - "
         }
       ],
-      "disclaimer": '"Obegränsat" innebär ingen månatlig tak och ingen artificell nedgång. Skäligt bruk gäller för missbruk av automatisering eller vidaredistribution.'
+      disclaimer:
+        '"Obegränsat" innebär ingen månatlig tak och ingen artificell nedgång. Skäligt bruk gäller för missbruk av automatisering eller vidaredistribution.'
     },
     ComparisonTable: {
-      "header": {
-        "title": "Jämför",
-        "highlighted_text": "Alla funktioner",
-        "subtitle": "Se exakt vad du får med varje plan. Inga dolda begränsningar."
+      header: {
+        title: "Jämför",
+        highlighted_text: "Alla funktioner",
+        subtitle:
+          "Se exakt vad du får med varje plan. Inga dolda begränsningar."
       },
-      "plans": [
-        "Funktioner",
-        "Free",
-        "Pro Monthly",
-        "Pro Annual"
-      ],
-      "features": [
+      plans: ["Funktioner", "Free", "Pro Monthly", "Pro Annual"],
+      features: [
         {
-          "name": "Pris",
-          "values": [
+          name: "Pris",
+          values: [
             "$0/månad",
             {
-              "main": "$17.99/månad",
-              "note": "$9.99 första månaden"
+              main: "$17.99/månad",
+              note: "$9.99 första månaden"
             },
             {
-              "main": "$8.99/månad",
-              "note": "Faktureras $107.88/år"
+              main: "$8.99/månad",
+              note: "Faktureras $107.88/år"
             }
           ]
         },
         {
-          "name": "Daglig filgräns",
-          "values": ["3 filer/dag", "Obegränsat", "Obegränsat"]
+          name: "Daglig filgräns",
+          values: ["3 filer/dag", "Obegränsat", "Obegränsat"]
         },
         {
-          "name": "Maximal fillängd",
-          "values": ["10 timmar", "10 timmar", "10 timmar"]
+          name: "Maximal fillängd",
+          values: ["10 timmar", "10 timmar", "10 timmar"]
         },
         {
-          "name": "Maximal filstorlek",
-          "values": ["5 GB", "5 GB", "5 GB"]
+          name: "Maximal filstorlek",
+          values: ["5 GB", "5 GB", "5 GB"]
         },
         {
-          "name": "Åtkomst till transkription",
-          "values": ["Första 30 minuters förhandsvisning", "Fullständig transkription", "Fullständig transkription"]
+          name: "Åtkomst till transkription",
+          values: [
+            "Första 30 minuters förhandsvisning",
+            "Fullständig transkription",
+            "Fullständig transkription"
+          ]
         },
         {
-          "name": "Massuppladdningar",
-          "values": ["1 fil", "50 filer", "50 filer"]
+          name: "Massuppladdningar",
+          values: ["1 fil", "50 filer", "50 filer"]
         },
         {
-          "name": "Bearbetningshastighet",
-          "values": ["Standard", "Prioriterad", "Prioriterad"]
+          name: "Bearbetningshastighet",
+          values: ["Standard", "Prioriterad", "Prioriterad"]
         },
         {
-          "name": "Språk som stöds",
-          "values": ["100+ språk", "100+ språk", "100+ språk"]
+          name: "Språk som stöds",
+          values: ["100+ språk", "100+ språk", "100+ språk"]
         },
         {
-          "name": "Översättning",
-          "values": ["true", "true", "true"]
+          name: "Översättning",
+          values: ["true", "true", "true"]
         },
         {
-          "name": "Talaridentifiering",
-          "values": ["Grundläggande", "Avancerat (20 talare)", "Avancerat (20 talare)"]
+          name: "Talaridentifiering",
+          values: [
+            "Grundläggande",
+            "Avancerat (20 talare)",
+            "Avancerat (20 talare)"
+          ]
         },
         {
-          "name": "Tidsstämplar på ordnivå",
-          "values": ["false", "true", "true"]
+          name: "Tidsstämplar på ordnivå",
+          values: ["false", "true", "true"]
         },
         {
-          "name": "Formaterade stycken",
-          "values": ["false", "true", "true"]
+          name: "Formaterade stycken",
+          values: ["false", "true", "true"]
         },
         {
-          "name": "Exportformat",
-          "values": ["Alla format", "Alla format", "Alla format"]
+          name: "Exportformat",
+          values: ["Alla format", "Alla format", "Alla format"]
         },
         {
-          "name": "Support",
-          "values": ["E-post", "Prioriterad e-post", "Prioriterad e-post"]
+          name: "Support",
+          values: ["E-post", "Prioriterad e-post", "Prioriterad e-post"]
         },
         {
-          "name": "Datakvarhållning",
-          "values": ["30 dagar", "För alltid", "För alltid"]
+          name: "Datakvarhållning",
+          values: ["30 dagar", "För alltid", "För alltid"]
         }
       ]
     },
     FAQ: {
-      "title": "Vanliga Frågor",
-      "titleHighligt": "Frågor",
-      "items": [
+      title: "Vanliga Frågor",
+      titleHighligt: "Frågor",
+      items: [
         {
-          "q": "unlimited_policy",
-          "question": "Är det verkligen obegränsat?",
-          "answer": "Ja! Pro-planer har inga månatliga minutgränser. De enda begränsningarna är tekniska: max 10 timmars fillängd och 5GB filstorlek. Du kan bearbeta så många filer du behöver."
+          q: "unlimited_policy",
+          question: "Är det verkligen obegränsat?",
+          answer:
+            "Ja! Pro-planer har inga månatliga minutgränser. De enda begränsningarna är tekniska: max 10 timmars fillängd och 5GB filstorlek. Du kan bearbeta så många filer du behöver."
         },
         {
-          "q": "plan_change",
-          "question": "Kan jag byta plan när som helst?",
-          "answer": "Absolut! Du kan avbryta din prenumeration när som helst från din instrumentpanel. Uppgradera eller nedgradera när du behöver."
+          q: "plan_change",
+          question: "Kan jag byta plan när som helst?",
+          answer:
+            "Absolut! Du kan avbryta din prenumeration när som helst från din instrumentpanel. Uppgradera eller nedgradera när du behöver."
         },
         {
-          "q": "payment_methods",
-          "question": "Vilka betalningsmetoder accepterar ni?",
-          "answer": "Vi accepterar alla större kreditkort, betalkort och PayPal för säkra och enkla betalningar."
+          q: "payment_methods",
+          question: "Vilka betalningsmetoder accepterar ni?",
+          answer:
+            "Vi accepterar alla större kreditkort, betalkort och PayPal för säkra och enkla betalningar."
         },
         {
-          "q": "free_trial",
-          "question": "Finns det en gratis provperiod för Pro?",
-          "answer": "Ja! Prova Pro gratis i 7 dagar, inget kreditkort krävs. Dessutom får du din första månad till 45% rabatt när du prenumererar."
+          q: "free_trial",
+          question: "Finns det en gratis provperiod för Pro?",
+          answer:
+            "Ja! Prova Pro gratis i 7 dagar, inget kreditkort krävs. Dessutom får du din första månad till 45% rabatt när du prenumererar."
         },
         {
-          "q": "file_retention",
-          "question": "Hur länge sparar ni mina filer?",
-          "answer": "Gratisplan: 30 dagar. Pro-planer: För alltid! Dina transkriptioner är alltid tillgängliga i ditt konto."
+          q: "file_retention",
+          question: "Hur länge sparar ni mina filer?",
+          answer:
+            "Gratisplan: 30 dagar. Pro-planer: För alltid! Dina transkriptioner är alltid tillgängliga i ditt konto."
         },
         {
-          "q": "data_security",
-          "question": "Hur är det med datasäkerhet?",
-          "answer": "Vi är SOC 2-certifierade och använder 256-bitars kryptering. Vi använder aldrig ditt innehåll för att träna våra modeller. Dina data tillhör dig."
+          q: "data_security",
+          question: "Hur är det med datasäkerhet?",
+          answer:
+            "Vi är SOC 2-certifierade och använder 256-bitars kryptering. Vi använder aldrig ditt innehåll för att träna våra modeller. Dina data tillhör dig."
         }
       ]
     },
     CTA: {
-      "title": "Redo att gå obegränsat?",
-      "subtitle": "Gå med bland 50 000+ professionella som transkriberar utan gränser",
-      "button": "Prova NeverCap gratis →",
-      "disclaimer": "Inget kreditkort krävs • Börja transkribera på sekunder"
+      title: "Redo att gå obegränsat?",
+      subtitle:
+        "Gå med bland 50 000+ professionella som transkriberar utan gränser",
+      button: "Prova NeverCap gratis →",
+      disclaimer: "Inget kreditkort krävs • Börja transkribera på sekunder"
     }
   },
   UseCases: {
@@ -1827,7 +1886,8 @@ let message = {
       podcasters: {
         title: "Podcasters",
         pain: '"Sluta välja vilka avsnitt som förtjänar avskrifter"',
-        description: "Ladda upp hela ditt podcastarkiv på en gång. Skapa shownotes, förbättra SEO och återanvänd innehåll utan att räkna minuter.",
+        description:
+          "Ladda upp hela ditt podcastarkiv på en gång. Skapa shownotes, förbättra SEO och återanvänd innehåll utan att räkna minuter.",
         benefits: {
           benefit1: "Ladda upp alla avsnitt, inte bara 3",
           benefit2: "Skapa SEO-vänliga shownotes",
@@ -1852,7 +1912,8 @@ let message = {
       journalists: {
         title: "Journalister & Författare",
         pain: '"Deadlinepress möter uppladdningsbegränsningar"',
-        description: "Ladda upp alla intervjuer i batch före deadline. Sök igenom avskrifter direkt och missa aldrig ett avgörande citat.",
+        description:
+          "Ladda upp alla intervjuer i batch före deadline. Sök igenom avskrifter direkt och missa aldrig ett avgörande citat.",
         benefits: {
           benefit1: "Batchuppladdning före deadline",
           benefit2: "Sök alla intervjuer på en gång",
@@ -1877,7 +1938,8 @@ let message = {
       contentCreators: {
         title: "Innehållsskapare",
         pain: '"Tillgänglighet ska inte vara dyrt"',
-        description: "Texta hela din YouTube-kanal. Generera undertexter på flera språk och förbättra din video-SEO direkt.",
+        description:
+          "Texta hela din YouTube-kanal. Generera undertexter på flera språk och förbättra din video-SEO direkt.",
         benefits: {
           benefit1: "Texta alla videor på en gång",
           benefit2: "249 språköversättningar",
@@ -1902,7 +1964,8 @@ let message = {
       researchers: {
         title: "Forskare & Akademiker",
         pain: '"Kvalitativ data ska inte stå i kö"',
-        description: "Bearbeta hela forskningsstudier på en gång. Hantera fokusgrupper, intervjuer och panelsamtal med perfekt talaridentifiering.",
+        description:
+          "Bearbeta hela forskningsstudier på en gång. Hantera fokusgrupper, intervjuer och panelsamtal med perfekt talaridentifiering.",
         benefits: {
           benefit1: "Bearbeta fokusgrupper i bulk",
           benefit2: "20-talarsidentifiering",
@@ -1927,7 +1990,8 @@ let message = {
       businessTeams: {
         title: "Affärsteam",
         pain: '"Mötesinspelningar ska vara enkla"',
-        description: "Spela in möten direkt eller ladda upp ljudfiler för omedelbar transkribering. Skapa sökbara arkiv från obegränsade konversationer och förlorar aldrig viktiga diskussioner igen.",
+        description:
+          "Spela in möten direkt eller ladda upp ljudfiler för omedelbar transkribering. Skapa sökbara arkiv från obegränsade konversationer och förlorar aldrig viktiga diskussioner igen.",
         benefits: {
           benefit1: "Direkt ljudinspelning & transkribering",
           benefit2: "Obegränsade mötesinspelningar",
@@ -1952,7 +2016,8 @@ let message = {
       educators: {
         title: "Utbildare",
         pain: '"YouTube-videor behöver omedelbar transkribering"',
-        description: "Klistra bara in YouTube-länkar för att få omedelbara transkriptioner och automatgenererade undertexter. Gör alla utbildningsvideor tillgängliga och sökbara.",
+        description:
+          "Klistra bara in YouTube-länkar för att få omedelbara transkriptioner och automatgenererade undertexter. Gör alla utbildningsvideor tillgängliga och sökbara.",
         benefits: {
           benefit1: "Direkt transkribering av YouTube-länk",
           benefit2: "Automatgenerera videotext",
@@ -1977,33 +2042,39 @@ let message = {
       quotes: {
         title: "Riktiga Användare,",
         titleHighlight: "Riktig Frihet",
-        subtitle: "Hör från professionella som brutit sig fria från artificiella begränsningar",
+        subtitle:
+          "Hör från professionella som brutit sig fria från artificiella begränsningar",
         testimonials: {
           mike: {
             textBefore: '"Jag hade',
             highlight: "3 års avsnitt",
-            textAfter: 'som låg otranskriberade. Otter ville att jag skulle välja 3. TRE. NeverCap lät mig ladda upp alla 150 avsnitt under en helg."',
+            textAfter:
+              'som låg otranskriberade. Otter ville att jag skulle välja 3. TRE. NeverCap lät mig ladda upp alla 150 avsnitt under en helg."',
             name: "Mike Rodriguez",
             role: "Podcastvärd"
           },
           jessica: {
             textBefore: '"Som frilansjournalist har jag inte råd med Trints',
             highlight: "$100/månad",
-            textAfter: ', men jag kan heller inte arbeta med Otters 10 filer per månad. NeverCap räddade min karriär."',
+            textAfter:
+              ', men jag kan heller inte arbeta med Otters 10 filer per månad. NeverCap räddade min karriär."',
             name: "Jessica Park",
             role: "Frilansjournalist"
           },
           sarah: {
             textBefore: '"Vårt forskarteam hade',
             highlight: "200 timmar",
-            textAfter: 'av fokusgruppinspelningar. Vi bearbetade allt under en helg istället för att ransonera månatliga minuter."',
+            textAfter:
+              'av fokusgruppinspelningar. Vi bearbetade allt under en helg istället för att ransonera månatliga minuter."',
             name: "Dr. Sarah Chen",
             role: "Chefeforskare"
           },
           carlos: {
-            textBefore: '"Jag skapar utbildningsinnehåll på spanska. NeverCap transkriberar perfekt och',
+            textBefore:
+              '"Jag skapar utbildningsinnehåll på spanska. NeverCap transkriberar perfekt och',
             highlight: "översätter till engelska",
-            textAfter: 'för bredare räckvidd. Inga begränsningar, bara tillväxt."',
+            textAfter:
+              'för bredare räckvidd. Inga begränsningar, bara tillväxt."',
             name: "Carlos Martinez",
             role: "YouTube-utbildare"
           }
@@ -2024,16 +2095,19 @@ let message = {
       },
       cta: {
         title: "Din användning behöver också obegränsat",
-        subtitle: "Gå med 50 000+ professionella som slutade räkna minuter och började skapa",
+        subtitle:
+          "Gå med 50 000+ professionella som slutade räkna minuter och började skapa",
         button: "Starta din obegränsade resa →"
       },
-      heroSubtitleA: "Från poddare med åratal av eftersläpning till forskare med hundratals intervjuer. Se hur yrkesverksamma använder {NeverCap} för att bryta sig loss från uppladdningsgränser och minutbegränsningar."
+      heroSubtitleA:
+        "Från poddare med åratal av eftersläpning till forskare med hundratals intervjuer. Se hur yrkesverksamma använder {NeverCap} för att bryta sig loss från uppladdningsgränser och minutbegränsningar."
     },
     Podcasters: {
       badge: "Skapat för poddare",
       heroTitle: "Transkribera din",
       heroTitleHighlight: "Hela podcastarkiv",
-      heroSubtitle: "Ladda upp hela ditt bakkatalog. Skapa avsnittsanteckningar för varje avsnitt. Inget mer val om vilka avsnitt som ska transkriberas.",
+      heroSubtitle:
+        "Ladda upp hela ditt bakkatalog. Skapa avsnittsanteckningar för varje avsnitt. Inget mer val om vilka avsnitt som ska transkriberas.",
       ctaPrimary: "Börja transkribera gratis",
       ctaSecondary: "Se hur det fungerar",
       trustBadge1: "10 000+ poddare",
@@ -2059,38 +2133,46 @@ let message = {
       },
       problemTitle: "Det",
       problemTitleHighlight: "Podcasttranskriberingsproblemet",
-      problemSubtitle: 'Andra tjänster tvingar dig välja vilka avsnitt som är "värda" att transkribera',
+      problemSubtitle:
+        'Andra tjänster tvingar dig välja vilka avsnitt som är "värda" att transkribera',
       problems: {
         problem1: {
           title: "Uppladdningsgränser dödar arkiv",
-          description: "Otter ger dig 3 livstidsimport på gratis, 10 per månad på Pro. Hur transkriberar du 3 års avsnitt?"
+          description:
+            "Otter ger dig 3 livstidsimport på gratis, 10 per månad på Pro. Hur transkriberar du 3 års avsnitt?"
         },
         problem2: {
           title: "Missade SEO-möjligheter",
-          description: "Varje otranskriberat avsnitt är förlorad SEO-trafik. Men Descript begränsar dig till 30 timmar/månad som mest."
+          description:
+            "Varje otranskriberat avsnitt är förlorad SEO-trafik. Men Descript begränsar dig till 30 timmar/månad som mest."
         },
         problem3: {
           title: "Kostnaderna exploderar med tillväxt",
-          description: "När din podcast växer skjuter transkriberingskostnaderna i höjden. $2/timme överbrukavgifter gör skalning omöjlig."
+          description:
+            "När din podcast växer skjuter transkriberingskostnaderna i höjden. $2/timme överbrukavgifter gör skalning omöjlig."
         }
       },
       solutionTitle: "Det",
       solutionTitleHighlight: "NeverCap-lösningen",
       workflowTitle: "Din podcast-arbetsflöde,",
       workflowTitleHighlight: "Förenklat",
-      workflowSubtitle: "Från inspelning till SEO-optimerade avsnittsanteckningar på minuter",
+      workflowSubtitle:
+        "Från inspelning till SEO-optimerade avsnittsanteckningar på minuter",
       workflow: {
         step1: {
           title: "Ladda upp avsnitt",
-          description: "Släpp 50 avsnitt på en gång. MP3, MP4, WAV - vi hanterar alla."
+          description:
+            "Släpp 50 avsnitt på en gång. MP3, MP4, WAV - vi hanterar alla."
         },
         step2: {
           title: "AI-transkribering",
-          description: "96 % noggrannhet med talaridentifiering. Perfekt för intervjuer."
+          description:
+            "96 % noggrannhet med talaridentifiering. Perfekt för intervjuer."
         },
         step3: {
           title: "Smart formatering",
-          description: "AI lägger till stycken, meningar och skiljetecken automatiskt."
+          description:
+            "AI lägger till stycken, meningar och skiljetecken automatiskt."
         },
         step4: {
           title: "Publicera & Ranka",
@@ -2103,27 +2185,33 @@ let message = {
       features: {
         feature1: {
           title: "Flerspråksigenkänning",
-          description: "Identifierar och etiketterar automatiskt upp till 20 talare. Perfekt för panelsamtal, intervjuer och samproduktioner."
+          description:
+            "Identifierar och etiketterar automatiskt upp till 20 talare. Perfekt för panelsamtal, intervjuer och samproduktioner."
         },
         feature2: {
           title: "Tidsstämpelkapitel",
-          description: "Generera klickbara tidsstämplar för YouTube-beskrivningar. Låt lyssnarna hoppa direkt till sina favoritavsnitt."
+          description:
+            "Generera klickbara tidsstämplar för YouTube-beskrivningar. Låt lyssnarna hoppa direkt till sina favoritavsnitt."
         },
         feature3: {
           title: "Smart Formatering",
-          description: "Lägger automatiskt till stycken, meningar och skiljetecken. Få rena, läsbara avskrifter. Spara timmar på efterproduktion."
+          description:
+            "Lägger automatiskt till stycken, meningar och skiljetecken. Få rena, läsbara avskrifter. Spara timmar på efterproduktion."
         },
         feature4: {
           title: "SEO-Optimering",
-          description: "Avskrifter formaterade för sökmotorer. Öka din podds synlighet och nå nya lyssnare."
+          description:
+            "Avskrifter formaterade för sökmotorer. Öka din podds synlighet och nå nya lyssnare."
         },
         feature5: {
           title: "100+ Språk",
-          description: "Transkribera på valfritt språk. Översätt till 249+ språk. Nå en global publik utan ansträngning."
+          description:
+            "Transkribera på valfritt språk. Översätt till 249+ språk. Nå en global publik utan ansträngning."
         },
         feature6: {
           title: "Batchbearbetning",
-          description: "Ladda upp 50 avsnitt innan läggdags. Vakna till färdiga avskrifter. Bearbeta hela ditt arkiv över natten."
+          description:
+            "Ladda upp 50 avsnitt innan läggdags. Vakna till färdiga avskrifter. Bearbeta hela ditt arkiv över natten."
         }
       },
       testimonialsTitle: "Poddare Som Gjorde",
@@ -2196,15 +2284,18 @@ let message = {
       ctaTitle: "Börja transkribera varje avsnitt",
       ctaSubtitle: "Gå med i 10 000+ poddare som aldrig oroar sig för gränser",
       ctaButton: "Ladda upp dina första 50 avsnitt gratis →",
-      ctaDisclaimer: "Ingen kreditkort krävs • Bearbeta obegränsat med avsnitt • Avbryt när som helst",
-      solutionDescriptionA: "Med {NeverCap} får du obegränsad transkription. Ladda upp hela ditt arkiv. Transkribera varje nytt avsnitt. Generera programanteckningar i stor skala. Inga tak, inga begränsningar, bara tillväxt."
+      ctaDisclaimer:
+        "Ingen kreditkort krävs • Bearbeta obegränsat med avsnitt • Avbryt när som helst",
+      solutionDescriptionA:
+        "Med {NeverCap} får du obegränsad transkription. Ladda upp hela ditt arkiv. Transkribera varje nytt avsnitt. Generera programanteckningar i stor skala. Inga tak, inga begränsningar, bara tillväxt."
     },
     Journalists: {
       hero: {
         badge: "För journalister & författare",
         title: "Transkribera varje intervju.",
         titleHighlight: "Missa aldrig ett citat.",
-        subtitle: "Sluta välja vilka intervjuer som förtjänar transkribering. Ladda upp alla inspelningar på en gång, sök igenom allt direkt och möt dina deadlines utan uppladdningsångest.",
+        subtitle:
+          "Sluta välja vilka intervjuer som förtjänar transkribering. Ladda upp alla inspelningar på en gång, sök igenom allt direkt och möt dina deadlines utan uppladdningsångest.",
         ctaPrimary: "Börja med obegränsade uppladdningar →",
         ctaSecondary: "Se hur det fungerar",
         stats: {
@@ -2251,37 +2342,44 @@ let message = {
       problem: {
         title: "Den här",
         titleHighlight: "Journalistens transkriberingsproblem",
-        subtitle: 'Andra tjänster tvingar dig att välja vilka intervjuer som är "värda" att transkribera',
+        subtitle:
+          'Andra tjänster tvingar dig att välja vilka intervjuer som är "värda" att transkribera',
         problems: {
           uploadLimits: {
             title: "Uppladdningsgränser dödar utredningar",
-            description: "Otter ger dig 10 filimport per månad på Pro. Hur transkriberar du 3 veckors utredningsintervjuer?"
+            description:
+              "Otter ger dig 10 filimport per månad på Pro. Hur transkriberar du 3 veckors utredningsintervjuer?"
           },
           missingQuotes: {
             title: "Missar avgörande citat",
-            description: "Varje otranskriberad intervju kan innehålla nyckeln till historien. Men Trint begränsar dig till 50 timmar/månad som mest."
+            description:
+              "Varje otranskriberad intervju kan innehålla nyckeln till historien. Men Trint begränsar dig till 50 timmar/månad som mest."
           },
           costExplosion: {
             title: "Kostnaderna exploderar med deadlines",
-            description: "När din utredning fördjupas, skjuter transkriptionskostnaderna i höjden. $100/månad i överavgifter gör nyheter i realtid omöjliga."
+            description:
+              "När din utredning fördjupas, skjuter transkriptionskostnaderna i höjden. $100/månad i överavgifter gör nyheter i realtid omöjliga."
           }
         },
         solution: {
           title: "The",
           titleHighlight: "NeverCap-lösningen",
-          descriptionA: "Med {NeverCap} får du obegränsad transkribering. Ladda upp hela din undersökning. Transkribera varje intervju. Sök efter alla citat direkt. Inga versaler, inga begränsningar, bara journalistik."
+          descriptionA:
+            "Med {NeverCap} får du obegränsad transkribering. Ladda upp hela din undersökning. Transkribera varje intervju. Sök efter alla citat direkt. Inga versaler, inga begränsningar, bara journalistik."
         }
       },
       solution: {
         title: "1",
         titleHighlight: "Bästa intervjutranskriptionsprogrammet",
         titleSuffix: "för Journalister",
-        subtitle: "Verkliga fördelar som spelar roll när deadlines är snäva och precision är allt",
+        subtitle:
+          "Verkliga fördelar som spelar roll när deadlines är snäva och precision är allt",
         solutions: {
           unlimitedUploads: {
             label: "Obegränsat Volym",
             title: "Obegränsat volym för alla dina intervjuer",
-            description: "Till skillnad från program med minutbegränsningar kan du transkribera varje intervju, från en snabb pratstund till en flertimmarsdiskussion. Oroa dig aldrig för att få slut på krediter inför deadline.",
+            description:
+              "Till skillnad från program med minutbegränsningar kan du transkribera varje intervju, från en snabb pratstund till en flertimmarsdiskussion. Oroa dig aldrig för att få slut på krediter inför deadline.",
             points: {
               simultaneousUpload: "Inga månatliga minutgränser",
               noLimits: "Stöd för 10-timmarsintervjuer",
@@ -2296,17 +2394,20 @@ let message = {
           instantSearch: {
             label: "Blixtsnabb Hastighet",
             title: "Hastighet som matchar din nyhetscykel",
-            description: "Få din intervjutranskription på minuter, inte dagar. Slutför berättelser snabbare än någonsin. Vår AI bearbetar timmar av ljud medan du tar en kaffe.",
+            description:
+              "Få din intervjutranskription på minuter, inte dagar. Slutför berättelser snabbare än någonsin. Vår AI bearbetar timmar av ljud medan du tar en kaffe.",
             points: {
               searchAll: "5-minuters leverans för 1-timmarsintervjuer",
-              wordTimestamps: "Prioriterad bearbetning för brådskande berättelser",
+              wordTimestamps:
+                "Prioriterad bearbetning för brådskande berättelser",
               jumpToMoments: "Realtidsuppföljning av framsteg"
             },
             searchDemo: {
               placeholder: "5min",
               resultsText: "Per timme ljud",
               results: {
-                mayorInterview: '"...vår klimatpolitik kommer att förändras..."',
+                mayorInterview:
+                  '"...vår klimatpolitik kommer att förändras..."',
                 expertPanel: '"...policyförklaringen visar tydligt..."'
               }
             }
@@ -2314,7 +2415,8 @@ let message = {
           professionalAccuracy: {
             label: "Citatklar Noggrannhet",
             title: "Noggrannhet du kan citera",
-            description: "Vår AI levererar mycket noggranna transkriptioner, så att citaten du publicerar är exakta och tillförlitliga. Professionell transkription som redaktörer litar på.",
+            description:
+              "Vår AI levererar mycket noggranna transkriptioner, så att citaten du publicerar är exakta och tillförlitliga. Professionell transkription som redaktörer litar på.",
             points: {
               accuracyGuarantee: "96% noggrannhetsgaranti",
               handlesAccents: "Hanterar teknisk terminologi",
@@ -2324,7 +2426,8 @@ let message = {
               accuracy: "96%",
               label: "Publiceringsklar noggrannhet",
               transcript: {
-                speaker1: '"Utredningen avslöjade betydande avvikelser i de finansiella rapporterna."',
+                speaker1:
+                  '"Utredningen avslöjade betydande avvikelser i de finansiella rapporterna."',
                 speaker2: '"Kan du utveckla de specifika avvikelserna?"'
               }
             }
@@ -2332,7 +2435,8 @@ let message = {
           ironclad: {
             label: "Källskydd",
             title: "Bombssäkert källskydd",
-            description: "Vi erbjuder robusta säkerhetsfunktioner för att skydda din känsliga intervjudata och konfidentiella källor. Banknivåkryptering säkrar dina utredningar.",
+            description:
+              "Vi erbjuder robusta säkerhetsfunktioner för att skydda din känsliga intervjudata och konfidentiella källor. Banknivåkryptering säkrar dina utredningar.",
             points: {
               accuracyGuarantee: "End-to-end-kryptering",
               handlesAccents: "Automatiska filraderingsalternativ",
@@ -2352,19 +2456,23 @@ let message = {
         featuresList: {
           languages: {
             title: "100+ Språk",
-            description: "Intervjua källor globalt på 12 huvudspråk med 96% noggrannhet."
+            description:
+              "Intervjua källor globalt på 12 huvudspråk med 96% noggrannhet."
           },
           exportFormats: {
             title: "Exportformat",
-            description: "Word, PDF, SRT, TXT. Kompatibelt med alla arbetsflöden."
+            description:
+              "Word, PDF, SRT, TXT. Kompatibelt med alla arbetsflöden."
           },
           sourceProtection: {
             title: "Källskydd",
-            description: "Banknivåkryptering. Dina källor förblir konfidentiella."
+            description:
+              "Banknivåkryptering. Dina källor förblir konfidentiella."
           },
           timestamps: {
             title: "Tidsstämplar",
-            description: "Klicka på valfritt citat för att hoppa till exakt ljudögonblick."
+            description:
+              "Klicka på valfritt citat för att hoppa till exakt ljudögonblick."
           },
           teamSharing: {
             title: "Teamdelning",
@@ -2372,21 +2480,25 @@ let message = {
           },
           mobileReady: {
             title: "Mobilanpassad",
-            description: "Ladda upp från telefon. Granska avskrifter var som helst."
+            description:
+              "Ladda upp från telefon. Granska avskrifter var som helst."
           },
           smartFormatting: {
             title: "Smart formatering",
-            description: "Automatiska stycken och skiljetecken för läsbara avskrifter."
+            description:
+              "Automatiska stycken och skiljetecken för läsbara avskrifter."
           },
           batchProcessing: {
             title: "Batchbearbetning",
-            description: "Ladda upp 50 filer samtidigt. Bearbeta över natten medan du sover."
+            description:
+              "Ladda upp 50 filer samtidigt. Bearbeta över natten medan du sover."
           }
         }
       },
       testimonials: {
         jessica: {
-          quote: '"Jag hade 3 års intervjuer oavskrivna på grund av uppladdningsbegränsningar. NeverCap lät mig bearbeta allt på en helg. En spelväxlare."',
+          quote:
+            '"Jag hade 3 års intervjuer oavskrivna på grund av uppladdningsbegränsningar. NeverCap lät mig bearbeta allt på en helg. En spelväxlare."',
           name: "Jessica Park",
           role: "Frilansjournalist, före detta Otter-användare"
         }
@@ -2394,7 +2506,8 @@ let message = {
       cta: {
         title: "Börja transkribera",
         titleHighlight: "Utan gränser",
-        subtitle: "Gå med i tusentals journalister som slutade räkna uppladdningar och började fokusera på berättelser",
+        subtitle:
+          "Gå med i tusentals journalister som slutade räkna uppladdningar och började fokusera på berättelser",
         ctaPrimary: "Prova obegränsat gratis →",
         ctaSecondary: "Se priser"
       }
@@ -2425,7 +2538,8 @@ let message = {
             label: "Plattformar"
           }
         },
-        subtitleA: "Oavsett om du behöver transkribera en YouTube-video, transkribera en TikTok-video för återanvändning eller lista ut hur man transkriberar en Facebook-video till text, hanterar {NeverCap} allt sömlöst. Generera undertexter på över 100 språk utan månadsgränser – bara ren kreativ frihet."
+        subtitleA:
+          "Oavsett om du behöver transkribera en YouTube-video, transkribera en TikTok-video för återanvändning eller lista ut hur man transkriberar en Facebook-video till text, hanterar {NeverCap} allt sömlöst. Generera undertexter på över 100 språk utan månadsgränser – bara ren kreativ frihet."
       },
       platforms: {
         title: "Hämta & transkribera från vilken plattform som helst",
@@ -2450,7 +2564,8 @@ let message = {
           label: "Enklicksimport",
           title: "Transkribera YouTube, TikTok &",
           titleHighlight: "Instagram-videor genom att klistra in en länk",
-          description: "Vårt verktyg förenklar hur du transkriberar videor. För att transkribera en Instagram-video, klistra bara in länken. Samma gäller för att transkribera en Vimeo-video till text. Bearbeta hela din kanals eftersläpning på en helg.",
+          description:
+            "Vårt verktyg förenklar hur du transkriberar videor. För att transkribera en Instagram-video, klistra bara in länken. Samma gäller för att transkribera en Vimeo-video till text. Bearbeta hela din kanals eftersläpning på en helg.",
           points: {
             directYoutube: "Direkt transkription från YouTube-länk",
             multiplePlatforms: "Hämta från 10+ plattformar",
@@ -2467,7 +2582,8 @@ let message = {
           label: "Global Räckvidd",
           title: "100+ Språk.",
           titleHighlight: "Inga Gränser.",
-          description: "Nå en global publik med automatisk översättning till 100+ språk. Generera undertexter på flera språk samtidigt. Inga extra kostnader, inga månatliga tak för översättningar.",
+          description:
+            "Nå en global publik med automatisk översättning till 100+ språk. Generera undertexter på flera språk samtidigt. Inga extra kostnader, inga månatliga tak för översättningar.",
           points: {
             highAccuracy: "96% noggrannhet i 12 huvudspråk",
             unlimitedTranslations: "Obegränsade översättningar inkluderade",
@@ -2484,7 +2600,8 @@ let message = {
           label: "Flexibel Export",
           title: "Alla Format",
           titleHighlight: "Du Behöver",
-          description: "Exportera i det format som passar ditt arbetsflöde. Från SRT-filer för YouTube till VTT för webbläsare, eller redigerbara dokument för manus. Alla exportalternativ obegränsade, alla ingår i varje plan.",
+          description:
+            "Exportera i det format som passar ditt arbetsflöde. Från SRT-filer för YouTube till VTT för webbläsare, eller redigerbara dokument för manus. Alla exportalternativ obegränsade, alla ingår i varje plan.",
           points: {
             videoFormats: "SRT & VTT för videoplattformar",
             editingFormats: "DOCX & PDF för redigering",
@@ -2509,19 +2626,23 @@ let message = {
         steps: {
           pasteLinks: {
             title: "Klistra In Länkar",
-            description: "Släpp in en YouTube-, TikTok- eller valfri videolänk. Eller ladda upp filer direkt."
+            description:
+              "Släpp in en YouTube-, TikTok- eller valfri videolänk. Eller ladda upp filer direkt."
           },
           autoTranscribe: {
             title: "Auto-Transkribera",
-            description: "AI bearbetar med 96% noggrannhet. Hanterar dialekter & flera talare."
+            description:
+              "AI bearbetar med 96% noggrannhet. Hanterar dialekter & flera talare."
           },
           editTranslate: {
             title: "Redigera & Översätt",
-            description: "Perfektionera dina undertexter. Översätt till 100+ språk direkt."
+            description:
+              "Perfektionera dina undertexter. Översätt till 100+ språk direkt."
           },
           exportPublish: {
             title: "Exportera & Publicera",
-            description: "Ladda ner i valfritt format. Ladda upp till din plattform. Klart!"
+            description:
+              "Ladda ner i valfritt format. Ladda upp till din plattform. Klart!"
           }
         }
       },
@@ -2530,29 +2651,35 @@ let message = {
         titleHighlight: "Dagligen",
         subtitle: "Från begränsade planer till obegränsad frihet",
         carlos: {
-          textBefore: "Jag skapar utbildningsinnehåll på spanska. NeverCap transkriberar perfekt och",
-          textAfter: "för bredare räckvidd. Inga gränser, bara tillväxt. Mina kanalvisningar ökade 3x efter att jag lade till flerspråkiga undertexter.",
+          textBefore:
+            "Jag skapar utbildningsinnehåll på spanska. NeverCap transkriberar perfekt och",
+          textAfter:
+            "för bredare räckvidd. Inga gränser, bara tillväxt. Mina kanalvisningar ökade 3x efter att jag lade till flerspråkiga undertexter.",
           highlight: "översätts till engelska",
           name: "Carlos Martinez",
           role: "YouTube-pedagog • 250 000 prenumeranter"
         },
         sarah: {
           textBefore: "Descript ville ha $30/månad för",
-          textAfter: ". Jag hade 500+ videor i backlog. NeverCap lät mig bearbeta allt på en helg. SEO-boosten från undertexter betalade för sig själv den första månaden.",
+          textAfter:
+            ". Jag hade 500+ videor i backlog. NeverCap lät mig bearbeta allt på en helg. SEO-boosten från undertexter betalade för sig själv den första månaden.",
           highlight: "30 timmar",
           name: "Sarah Lee",
           role: "Livsstilsvlogger • 180 000 prenumeranter"
         },
         jake: {
           textBefore: "Funktionen",
-          textAfter: "är en spelväxlare. Jag laddar inte ner något längre. Bara klistra in, transkribera, klart. Att bearbeta mina podcastklipp för TikTok har aldrig varit enklare.",
+          textAfter:
+            "är en spelväxlare. Jag laddar inte ner något längre. Bara klistra in, transkribera, klart. Att bearbeta mina podcastklipp för TikTok har aldrig varit enklare.",
           highlight: "direkt YouTube-hämtning",
           name: "Jake Wilson",
           role: "Podcastvärd • Topp 1%-skapare"
         },
         yuki: {
-          textBefore: "Jag skapar innehåll på 5 språk. Andra tjänster tar betalt",
-          textAfter: ". NeverCap ger mig obegränsade översättningar. Min internationella publik växte med 400% sedan jag började använda riktiga inhemska undertexter.",
+          textBefore:
+            "Jag skapar innehåll på 5 språk. Andra tjänster tar betalt",
+          textAfter:
+            ". NeverCap ger mig obegränsade översättningar. Min internationella publik växte med 400% sedan jag började använda riktiga inhemska undertexter.",
           highlight: "per översättning",
           name: "Yuki Tanaka",
           role: "Spelskapare • 500 000 prenumeranter"
@@ -2560,29 +2687,36 @@ let message = {
       },
       cta: {
         title: "Hela din kanal. Undertextad. Idag.",
-        subtitle: "Gå med bland 50 000+ skapare som slutade räkna minuter och började skapa",
+        subtitle:
+          "Gå med bland 50 000+ skapare som slutade räkna minuter och började skapa",
         button: "Starta obegränsad undertextning →"
       },
       FAQSection: {
-        "title": "Dina transkriberingsfrågor,",
-        "titleHighlight": "Besvarade",
-        subtitle: "Allt du behöver veta om att transkribera videor från olika plattformar",
-        "questions": [
+        title: "Dina transkriberingsfrågor,",
+        titleHighlight: "Besvarade",
+        subtitle:
+          "Allt du behöver veta om att transkribera videor från olika plattformar",
+        questions: [
           {
-            "question": "F: Hur transkriberar jag en YouTube-video med NeverCap?",
-            "answer": "Det är enkelt. Hitta bara YouTube-videon du vill transkribera, kopiera dess URL och klistra in den i vår app. Vår AI hämtar videon automatiskt och ger en fullständig texttranskription på några minuter."
+            question: "F: Hur transkriberar jag en YouTube-video med NeverCap?",
+            answer:
+              "Det är enkelt. Hitta bara YouTube-videon du vill transkribera, kopiera dess URL och klistra in den i vår app. Vår AI hämtar videon automatiskt och ger en fullständig texttranskription på några minuter."
           },
           {
-            "question": "F: Vad är det bästa sättet att transkribera en Facebook-video till text?",
-            "answer": "Det enklaste sättet är att använda en direktlänk. Kopiera URL:en till Facebook-videon, och vår plattform hanterar resten, konverterar tal till text med upp till 96% noggrannhet och sparar dig från manuell transkribering."
+            question:
+              "F: Vad är det bästa sättet att transkribera en Facebook-video till text?",
+            answer:
+              "Det enklaste sättet är att använda en direktlänk. Kopiera URL:en till Facebook-videon, och vår plattform hanterar resten, konverterar tal till text med upp till 96% noggrannhet och sparar dig från manuell transkribering."
           },
           {
-            "question": "F: Kan jag transkribera TikTok- och Instagram-videor?",
-            "answer": "Absolut. Vi stöder transkribering för både TikTok- och Instagram-videor. Detta är perfekt för innehållsskapare som vill återanvända sitt kortformade videomaterial till blogginlägg, artiklar eller textbaserade sociala medieuppdateringar."
+            question: "F: Kan jag transkribera TikTok- och Instagram-videor?",
+            answer:
+              "Absolut. Vi stöder transkribering för både TikTok- och Instagram-videor. Detta är perfekt för innehållsskapare som vill återanvända sitt kortformade videomaterial till blogginlägg, artiklar eller textbaserade sociala medieuppdateringar."
           },
           {
-            "question": "F: Hur transkriberar jag en Vimeo-video till text?",
-            "answer": "Att transkribera Vimeo-videor är lika enkelt som på andra plattformar. Kopiera bara Vimeo-videons URL och klistra in den i NeverCap. Vår AI bearbetar videon och genererar en korrekt texttranskription som du kan ladda ner i flera format."
+            question: "F: Hur transkriberar jag en Vimeo-video till text?",
+            answer:
+              "Att transkribera Vimeo-videor är lika enkelt som på andra plattformar. Kopiera bara Vimeo-videons URL och klistra in den i NeverCap. Vår AI bearbetar videon och genererar en korrekt texttranskription som du kan ladda ner i flera format."
           }
         ]
       }
@@ -2591,7 +2725,8 @@ let message = {
       heroBadge: "Byggd för akademisk excellens",
       heroTitle1: "Transkribera varje intervju.",
       heroTitle2: "Analysera alla dina data.",
-      heroSubtitle: "Sluta välja vilka fokusgrupper som ska transkriberas. Bearbeta alla dina kvalitativa data med 96% noggrannhet och felfri talaridentifiering—även med 20 deltagare som pratar samtidigt.",
+      heroSubtitle:
+        "Sluta välja vilka fokusgrupper som ska transkriberas. Bearbeta alla dina kvalitativa data med 96% noggrannhet och felfri talaridentifiering—även med 20 deltagare som pratar samtidigt.",
       heroCtaPrimary: "Prova gratis - inget kreditkort",
       heroCtaSecondary: "Se hur det fungerar",
       statsInterviewHours: "Intervjutimmar",
@@ -2599,17 +2734,22 @@ let message = {
       statsSpeakersId: "Talar-ID",
       statsCompliant: "Kompatibel",
       problemTitle: "Den här",
-      problemSubtitle: 'Andra tjänster får dig att välja vilka data som är "värda" att transkribera',
+      problemSubtitle:
+        'Andra tjänster får dig att välja vilka data som är "värda" att transkribera',
       problemCard1Title: "Uppladdningsgränser dödar studier",
-      problemCard1Desc: "Otter ger dig 3 livstidsimports. Hur transkriberar du 200 timmars fokusgrupper?",
+      problemCard1Desc:
+        "Otter ger dig 3 livstidsimports. Hur transkriberar du 200 timmars fokusgrupper?",
       problemCard2Title: "Kritisk data saknas",
-      problemCard2Desc: "Varje otranskriberad intervju kan innehålla banbrytande insikter. Men Rev tar minst $2/minut.",
+      problemCard2Desc:
+        "Varje otranskriberad intervju kan innehålla banbrytande insikter. Men Rev tar minst $2/minut.",
       problemCard3Title: "Bidragsmedel försvinner",
-      problemCard3Desc: "När din datamängd växer exploderar transkriptionskostnaderna. $500 per fokusgrupp gör skalning omöjlig.",
+      problemCard3Desc:
+        "När din datamängd växer exploderar transkriptionskostnaderna. $500 per fokusgrupp gör skalning omöjlig.",
       solutionTitle: "NeverCap-lösningen",
       feature1Label: "Inga Gränser",
       feature1Title: "Hantera dina",
-      feature1Desc: 'Ladda upp alla 200 timmars intervjuer ikväll. Vakna till färdiga, sökbara transkript. Inga månatliga tak, inga filbegränsningar, ingen "rimlig användning"-skitsnack.',
+      feature1Desc:
+        'Ladda upp alla 200 timmars intervjuer ikväll. Vakna till färdiga, sökbara transkript. Inga månatliga tak, inga filbegränsningar, ingen "rimlig användning"-skitsnack.',
       feature1Point1: "Massuppladdning av 50 filer samtidigt",
       feature1Point2: "Bearbeta longitudinella studier helt",
       feature1Point3: "Inga lagringsgränser för transkript",
@@ -2618,23 +2758,28 @@ let message = {
       feature1Visual2: "Samma pris oavsett 10 eller 10 000 timmar",
       feature2Label: "Smart AI",
       feature2Title: "Exakt precision",
-      feature2Desc: "Vår AI spårar upp till 20 talare även när de talar samtidigt, avbryter varandra eller svarar på en gång. Varje röst fångas och etiketteras korrekt.",
+      feature2Desc:
+        "Vår AI spårar upp till 20 talare även när de talar samtidigt, avbryter varandra eller svarar på en gång. Varje röst fångas och etiketteras korrekt.",
       feature2Point1: "20-talaridentifiering",
       feature2Point2: "Hanterar samtalsöverlappningar & avbrott",
       feature2Point3: "Talaretiketter du kan döpa om",
       feature2Point4: "Tidsstämpel för varje ord",
       conversationParticipant1: "Deltagare 1",
-      conversationText1: "Det största hindret vi möter är definitivt kostnaden för behandling...",
+      conversationText1:
+        "Det största hindret vi möter är definitivt kostnaden för behandling...",
       conversationParticipant2: "Deltagare 2",
       conversationText2: "Absolut, men jag vill tillägga att tillgången är—",
       conversationParticipant3: "Deltagare 3",
-      conversationText3: "—ursäkta att jag avbryter, men transport är också jätteviktigt.",
+      conversationText3:
+        "—ursäkta att jag avbryter, men transport är också jätteviktigt.",
       conversationText4: "Ja! Precis det jag skulle säga.",
       conversationParticipant4: "Deltagare 4",
-      conversationText5: "På landsbygden är det alla tre: kostnad, tillgång OCH transport.",
+      conversationText5:
+        "På landsbygden är det alla tre: kostnad, tillgång OCH transport.",
       feature3Label: "Precision",
       feature3Title: "Pålitlig",
-      feature3Desc: "Hanterar fackspråk, starka dialekter och branschspecifik terminologi som en proffs. Tillräckligt exakt för publikation, peer review och din avhandlingskommitté.",
+      feature3Desc:
+        "Hanterar fackspråk, starka dialekter och branschspecifik terminologi som en proffs. Tillräckligt exakt för publikation, peer review och din avhandlingskommitté.",
       feature3Point1: "Medicinsk & vetenskaplig terminologi",
       feature3Point2: "100+ språk & dialekter",
       feature3Point3: "Ordagranna & renlästa lägen",
@@ -2643,7 +2788,8 @@ let message = {
       feature3Visual2: "Förtroende av 50 000+ forskare",
       feature4Label: "Säkerhet",
       feature4Title: "IRB-certifiering",
-      feature4Desc: "Din känsliga forskningsdata skyddas med företagsklassad säkerhet. GDPR-uppfyllande, HIPAA-redo alternativ och fullständiga revisionsspår för IRB-krav.",
+      feature4Desc:
+        "Din känsliga forskningsdata skyddas med företagsklassad säkerhet. GDPR-uppfyllande, HIPAA-redo alternativ och fullständiga revisionsspår för IRB-krav.",
       feature4Point1: "End-to-end-kryptering",
       feature4Point2: "GDPR & CCPA-uppfyllande",
       feature4Point3: "Automatiska borttagningspolicyer",
@@ -2651,19 +2797,26 @@ let message = {
       useCasesTitle: "Perfekt för",
       useCasesSubtitle: "Från etnografi till kliniska studier",
       useCase1Title: "Fokusgrupper",
-      useCase1Desc: "Hanterar 8-20 deltagare med överlappande tal. Perfekt talaridentifiering även under heta diskussioner. Exportera direkt till kvalitativ analysprogramvara.",
+      useCase1Desc:
+        "Hanterar 8-20 deltagare med överlappande tal. Perfekt talaridentifiering även under heta diskussioner. Exportera direkt till kvalitativ analysprogramvara.",
       useCase2Title: "Djupintervjuer",
-      useCase2Desc: "Bearbeta hundratals en-mot-en-intervjuer samtidigt. Bibehåll konsistens i hela din datamängd. Sök igenom alla transkriptioner direkt.",
+      useCase2Desc:
+        "Bearbeta hundratals en-mot-en-intervjuer samtidigt. Bibehåll konsistens i hela din datamängd. Sök igenom alla transkriptioner direkt.",
       useCase3Title: "Klinisk forskning",
-      useCase3Desc: "HIPAA-kompatibla alternativ för patientintervjuer. Korrekt transkription av medicinsk terminologi. Säker hantering av känslig hälsoinformation.",
+      useCase3Desc:
+        "HIPAA-kompatibla alternativ för patientintervjuer. Korrekt transkription av medicinsk terminologi. Säker hantering av känslig hälsoinformation.",
       useCase4Title: "Etnografiska studier",
-      useCase4Desc: "Fältinspelningar i naturliga miljöer. Hanterar bakgrundsljud och flera talare. Stöd för 100+ språk och dialekter.",
+      useCase4Desc:
+        "Fältinspelningar i naturliga miljöer. Hanterar bakgrundsljud och flera talare. Stöd för 100+ språk och dialekter.",
       useCase5Title: "Muntliga historieprojekt",
-      useCase5Desc: "Bevara hela arkiv utan begränsningar. Skapa sökbara historiska dokument. Perfekt för longitudinella och generationsstudier.",
+      useCase5Desc:
+        "Bevara hela arkiv utan begränsningar. Skapa sökbara historiska dokument. Perfekt för longitudinella och generationsstudier.",
       useCase6Title: "Avhandlingsforskning",
-      useCase6Desc: "Studentvänliga priser med fullständiga funktioner. Bearbeta hela din datamängd till en överkomlig kostnad. Möt tighta deadlines med batchbearbetning.",
+      useCase6Desc:
+        "Studentvänliga priser med fullständiga funktioner. Bearbeta hela din datamängd till en överkomlig kostnad. Möt tighta deadlines med batchbearbetning.",
       testimonialTitle: "Förtroende av",
-      testimonialText: "Vårt forskningsteam hade 200 timmar fokusgruppinspelningar från vår studie om folkhälsa. Andra tjänster ville att vi skulle välja vilka sessioner som skulle transkriberas på grund av kostnaden. NeverCap lät oss bearbeta allt under en helg. Talaridentifieringen för 20 personer fungerade faktiskt—även under våra rörigaste diskussioner där alla pratade samtidigt. Detta verktyg har helt förändrat hur vi hanterar kvalitativa data.",
+      testimonialText:
+        "Vårt forskningsteam hade 200 timmar fokusgruppinspelningar från vår studie om folkhälsa. Andra tjänster ville att vi skulle välja vilka sessioner som skulle transkriberas på grund av kostnaden. NeverCap lät oss bearbeta allt under en helg. Talaridentifieringen för 20 personer fungerade faktiskt—även under våra rörigaste diskussioner där alla pratade samtidigt. Detta verktyg har helt förändrat hur vi hanterar kvalitativa data.",
       testimonialAuthorName: "Dr. Sarah Chen",
       testimonialAuthorRole: "Cheforskar, Public Health Institute",
       ctaTitle: "Sluta välja vilka data som ska analyseras",
@@ -2680,12 +2833,15 @@ let message = {
       feature3TitleHl: "96% noggrannhet",
       feature4TitleHl: "Säkerhet",
       testimonialText2Hl: "200 timmar",
-      testimonialText3: "av fokusgruppinspelningar från vår hälsostudie i samhället. Andra tjänster ville att vi skulle välja vilka sessioner som skulle avskrivas på grund av kostnaden. NeverCap lät oss behandla",
+      testimonialText3:
+        "av fokusgruppinspelningar från vår hälsostudie i samhället. Andra tjänster ville att vi skulle välja vilka sessioner som skulle avskrivas på grund av kostnaden. NeverCap lät oss behandla",
       testimonialText4Hl: "allt på en helg",
-      testimonialText5: ". Identifieringen av 20 talare fungerade faktiskt – till och med under våra rörigaste diskussioner där alla pratade samtidigt. Det här verktyget har",
+      testimonialText5:
+        ". Identifieringen av 20 talare fungerade faktiskt – till och med under våra rörigaste diskussioner där alla pratade samtidigt. Det här verktyget har",
       testimonialText6Hl: "helt förändrat",
       testimonialText7: "hur vi hanterar kvalitativa data.",
-      solutionDescA: "Med {NeverCap} får du obegränsad transkribering. Ladda upp hela din studie. Transkribera varje intervju. Analysera all din data. Inga begränsningar, inga begränsningar, bara research."
+      solutionDescA:
+        "Med {NeverCap} får du obegränsad transkribering. Ladda upp hela din studie. Transkribera varje intervju. Analysera all din data. Inga begränsningar, inga begränsningar, bara research."
     },
     BusinessTeams: {
       heroBadge: "För företagsteam",
@@ -2699,9 +2855,11 @@ let message = {
       statsSpeakerID: "Talar-ID",
       statsInstantUpload: "Ladda upp & Bearbeta",
       featuresTitle: "Transkription för alla företag",
-      featuresSubtitle: "Från liveinspelning till direktuppladdning—vi har eliminerat alla friktionspunkter",
+      featuresSubtitle:
+        "Från liveinspelning till direktuppladdning—vi har eliminerat alla friktionspunkter",
       feature1Title: "Spela in direkt i din webbläsare",
-      feature1Desc: "Inga nedladdningar, inga tillägg. Börja spela in direkt med ett klick. Perfekt ljudkvalitet, automatisk talaridentifiering.",
+      feature1Desc:
+        "Inga nedladdningar, inga tillägg. Börja spela in direkt med ett klick. Perfekt ljudkvalitet, automatisk talaridentifiering.",
       feature1Benefit1: "Enklicksinspelning",
       feature1Benefit2: "Ingen programinstallation",
       feature1Benefit3: "Fungerar på alla enheter",
@@ -2709,14 +2867,17 @@ let message = {
       feature1Visual1: "Klicka & Spela in",
       feature1Visual2: "Ingen installation krävs",
       feature2Title: "Ladda upp vilken ljudfil som helst direkt",
-      feature2Desc: "Har du inspelningar från Zoom, Teams eller din telefon? Ladda upp dem direkt. Stöd för alla större ljud- och videoformat. Bearbeta flera filer samtidigt utan väntan.",
-      feature2Benefit1: "Stödjer: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV, FLAC",
+      feature2Desc:
+        "Har du inspelningar från Zoom, Teams eller din telefon? Ladda upp dem direkt. Stöd för alla större ljud- och videoformat. Bearbeta flera filer samtidigt utan väntan.",
+      feature2Benefit1:
+        "Stödjer: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV, FLAC",
       feature2Benefit2: "Batchuppladdningsfunktion",
       feature2Benefit3: "Filer på upp till 10 timmar stöds",
       feature2Benefit4: "Bearbeta medan du arbetar",
       feature2Visual1: "Dra & Släpp filer",
       feature3Title: "Byggd för teamsamarbete",
-      feature3Desc: "Dela transkriptioner med ditt team direkt. Lyssna på inspelningar tillsammans, exportera transkriptioner i flera format och se till att alla håller sig uppdaterade med sökbara mötesarkiv.",
+      feature3Desc:
+        "Dela transkriptioner med ditt team direkt. Lyssna på inspelningar tillsammans, exportera transkriptioner i flera format och se till att alla håller sig uppdaterade med sökbara mötesarkiv.",
       feature3Benefit1: "Dela transkriptioner med vem som helst",
       feature3Benefit2: "Lyssna på originalinspelningar",
       feature3Benefit3: "Exportera avskrifter i flera format",
@@ -2724,7 +2885,8 @@ let message = {
       feature3Visual1: "Teammedlemmar",
       feature3Visual2: "Obegränsat samarbete",
       feature4Title: "Hitta vilket samtal som helst direkt",
-      feature4Desc: "Sök igenom alla dina möten på en gång. Hitta det viktiga beslutet från förra kvartalet eller kundkravet från månader sedan. AI-driven sökning förstår kontext, inte bara nyckelord.",
+      feature4Desc:
+        "Sök igenom alla dina möten på en gång. Hitta det viktiga beslutet från förra kvartalet eller kundkravet från månader sedan. AI-driven sökning förstår kontext, inte bara nyckelord.",
       feature4Benefit1: "Sök alla möten på en gång",
       feature4Benefit2: "AI förstår kontext",
       feature4Benefit3: "Filtrera efter talare eller datum",
@@ -2735,38 +2897,47 @@ let message = {
       feature4Meeting2: "Styrelsemöte - 20 okt",
       feature4Meeting2Text: '"...Q4 intäktsprognoser..."',
       workflowTitle: "Hur man transkriberar en",
-      workflowSubtitle: "Ett smidigt arbetsflöde som fångar varje viktigt ögonblick",
+      workflowSubtitle:
+        "Ett smidigt arbetsflöde som fångar varje viktigt ögonblick",
       workflowStep1Title: "Spela in eller ladda upp",
-      workflowStep1Desc: "Börja spela in live eller ladda enkelt ner mötesinspelningar från Zoom, Google Meet eller Microsoft Teams",
+      workflowStep1Desc:
+        "Börja spela in live eller ladda enkelt ner mötesinspelningar från Zoom, Google Meet eller Microsoft Teams",
       workflowStep2Title: "Auto-transkribering",
-      workflowStep2Desc: "Vår AI transkriberar automatiskt inspelningen till text med 96% noggrannhet på minuter",
+      workflowStep2Desc:
+        "Vår AI transkriberar automatiskt inspelningen till text med 96% noggrannhet på minuter",
       workflowStep3Title: "Samarbeta",
       workflowStep3Desc: "Dela, kommentera och extrahera åtgärdslistor",
       workflowStep4Title: "Sök & analysera",
       workflowStep4Desc: "Hitta insikter i alla dina möten",
       testimonialsTitle: "Team älskar",
       testimonialsSubtitle: "Se hur företag förändrar sin möteskultur",
-      testimonial1Text: '"Vi gick från att missa viktiga detaljer till att ha ett sökbart arkiv av varje konversation. Direktinspelningsfunktionen gör att vi aldrig glömmer att fånga viktiga diskussioner."',
+      testimonial1Text:
+        '"Vi gick från att missa viktiga detaljer till att ha ett sökbart arkiv av varje konversation. Direktinspelningsfunktionen gör att vi aldrig glömmer att fånga viktiga diskussioner."',
       testimonial1AuthorName: "James Kim",
       testimonial1AuthorRole: "Produktchef, TechCorp",
-      testimonial2Text: '"Otter begränsade oss till 10 filuppladdningar per månad. Nu laddar vi upp alla våra kundsamtal direkt. En spelväxlare för vårt säljteams uppföljningar."',
+      testimonial2Text:
+        '"Otter begränsade oss till 10 filuppladdningar per månad. Nu laddar vi upp alla våra kundsamtal direkt. En spelväxlare för vårt säljteams uppföljningar."',
       testimonial2AuthorName: "Sarah Rodriguez",
       testimonial2AuthorRole: "Säljchef, ConsultPro",
-      testimonial3Text: '"Möjligheten att söka igenom månaders möten räddade oss under revisionen. Hittade varje beslut och godkännande på sekunder."',
+      testimonial3Text:
+        '"Möjligheten att söka igenom månaders möten räddade oss under revisionen. Hittade varje beslut och godkännande på sekunder."',
       testimonial3AuthorName: "Mark Liu",
       testimonial3AuthorRole: "COO, FinanceHub",
       ctaTitle: "Sluta tappa bort viktiga samtal",
-      ctaSubtitle: "Gå med i tusentals team som fångar varje möte med obegränsad transkribering",
+      ctaSubtitle:
+        "Gå med i tusentals team som fångar varje möte med obegränsad transkribering",
       ctaButton: "Börja spela in gratis →",
       featuresTitle2: "Möte",
       workflowTitle2: "Zoom-inspelning till text",
-      heroSubtitleA: "Spela in möten direkt i din webbläsare eller ladda upp ljudfiler direkt. Bygg sökbara arkiv från obegränsade konversationer. Förlora aldrig viktiga diskussioner igen med helt obegränsad transkription från {NeverCap}."
+      heroSubtitleA:
+        "Spela in möten direkt i din webbläsare eller ladda upp ljudfiler direkt. Bygg sökbara arkiv från obegränsade konversationer. Förlora aldrig viktiga diskussioner igen med helt obegränsad transkription från {NeverCap}."
     },
     Educators: {
       heroBadge: "För lärare & pedagoger",
       heroTitle1: "Gör lärande",
       heroTitle2: "Tillgängligt för alla",
-      heroSubtitle: "Klistra bara in YouTube-länkar för att få omedelbara avskrifter med automatgenererade undertexter. Omvandla föreläsningar, guider och utbildningsvideor till sökbart, tillgängligt innehåll som alla elever kan lära sig av.",
+      heroSubtitle:
+        "Klistra bara in YouTube-länkar för att få omedelbara avskrifter med automatgenererade undertexter. Omvandla föreläsningar, guider och utbildningsvideor till sökbart, tillgängligt innehåll som alla elever kan lära sig av.",
       heroCtaPrimary: "Prova gratis - Inget kreditkort",
       heroCtaSecondary: "Se demo",
       stats1Number: "1-klick",
@@ -2778,15 +2949,18 @@ let message = {
       stats4Number: "96%",
       stats4Label: "Noggrannhetsgrad",
       featuresTitle: "Allt pedagoger behöver för",
-      featuresSubtitle: "Från YouTube-föreläsningar till inspelade lektioner – gör allt ditt innehåll tillgängligt",
+      featuresSubtitle:
+        "Från YouTube-föreläsningar till inspelade lektioner – gör allt ditt innehåll tillgängligt",
       feature1Title: "Direktlänkar för YouTube & plattformar",
-      feature1Desc: "Klistra in vilken videolänk som helst och få transkript direkt. Fungerar med YouTube, Vimeo, Facebook, X (Twitter), TikTok, Instagram, Dropbox, Google Drive och mer. Ingen nedladdning, ingen väntan.",
+      feature1Desc:
+        "Klistra in vilken videolänk som helst och få transkript direkt. Fungerar med YouTube, Vimeo, Facebook, X (Twitter), TikTok, Instagram, Dropbox, Google Drive och mer. Ingen nedladdning, ingen väntan.",
       feature1Point1: "Direkttranskription – ingen nedladdning behövs",
       feature1Point2: "Stöd för alla större plattformar",
       feature1Point3: "Bearbeta hela spellistor på en gång",
       feature1Point4: "Fungerar med privata videor (med tillstånd)",
       feature2Title: "Automatgenererade textningar & undertexter",
-      feature2Desc: "Skapa exakta textningar direkt för alla dina utbildningsvideor. Gör innehållet tillgängligt för studenter med hörselnedsättning, icke-modersmålstalare eller de som föredrar att läsa med.",
+      feature2Desc:
+        "Skapa exakta textningar direkt för alla dina utbildningsvideor. Gör innehållet tillgängligt för studenter med hörselnedsättning, icke-modersmålstalare eller de som föredrar att läsa med.",
       feature2Point1: "SRT, VTT och TXT exportformat",
       feature2Point2: "Ordvisa tidsstämplar för perfekt synk",
       feature2Point3: "Redigera och anpassa textningar enkelt",
@@ -2794,7 +2968,8 @@ let message = {
       feature2Visual1: "Språköversättningar",
       feature2Visual2: "Gör ditt innehåll globalt tillgängligt",
       feature3Title: "Organisera efter kurser & kategorier",
-      feature3Desc: "Skapa mappar för att organisera dina transkript efter kurs, ämne eller termin. Håll allt ditt utbildningsmaterial snyggt kategoriserat och lättsökt. Bygg ett omfattande bibliotek med tillgängligt kursmaterial.",
+      feature3Desc:
+        "Skapa mappar för att organisera dina transkript efter kurs, ämne eller termin. Håll allt ditt utbildningsmaterial snyggt kategoriserat och lättsökt. Bygg ett omfattande bibliotek med tillgängligt kursmaterial.",
       feature3Point1: "Skapa obegränsat med mappar och undermappar",
       feature3Point2: "Tagga videor efter ämne eller svårighetsgrad",
       feature3Point3: "Organisera flera transkript i grupp",
@@ -2806,74 +2981,92 @@ let message = {
       feature3Folder4: "Historiska dokumentärer",
       feature3Folder5: "Språkinlärning",
       feature4Title: "AI-transkribera ljudfil till studieguide",
-      feature4Desc: "Dela inte bara inspelningar. Transkribera automatiskt föreläsningar till text och andra ljudfiler till detaljerade studieguider, kompletta med sammanfattningar och nyckelbegrepp för effektiv studentåterblick. Exportera i TXT, DOCX eller PDF-format.",
+      feature4Desc:
+        "Dela inte bara inspelningar. Transkribera automatiskt föreläsningar till text och andra ljudfiler till detaljerade studieguider, kompletta med sammanfattningar och nyckelbegrepp för effektiv studentåterblick. Exportera i TXT, DOCX eller PDF-format.",
       feature4Point1: "TXT för enkel textredigering",
       feature4Point2: "DOCX för formaterade dokument",
       feature4Point3: "PDF för enkel delning och utskrift",
       feature4Point4: "Exportera flera filer i grupp",
       workflowTitle: "Så fungerar det:",
-      workflowSubtitle: "Från videolänk till tillgängligt transkript och studiematerial på minuter",
+      workflowSubtitle:
+        "Från videolänk till tillgängligt transkript och studiematerial på minuter",
       workflowStep1Title: "Ladda upp din föreläsning",
-      workflowStep1Desc: "Ladda upp vilken ljud- eller videofil som helst (MP3, MP4, WAV) eller klistra in en YouTube-länk",
+      workflowStep1Desc:
+        "Ladda upp vilken ljud- eller videofil som helst (MP3, MP4, WAV) eller klistra in en YouTube-länk",
       workflowStep2Title: "AI-transkription",
-      workflowStep2Desc: "Vår AI transkriberar ljudet, separerar talare och identifierar nyckelämnen",
+      workflowStep2Desc:
+        "Vår AI transkriberar ljudet, separerar talare och identifierar nyckelämnen",
       workflowStep3Title: "Generera textning",
       workflowStep3Desc: "Skapa perfekt synkade undertexter automatiskt",
       workflowStep4Title: "Exportera studieguide",
-      workflowStep4Desc: "Ladda ner texten, sammanfattningen eller exportera för att skapa din slutliga studieguide",
+      workflowStep4Desc:
+        "Ladda ner texten, sammanfattningen eller exportera för att skapa din slutliga studieguide",
       useCasesTitle: "Perfekt för alla",
-      useCasesSubtitle: "Se hur lärare använder NeverCap för att förbättra lärandet",
+      useCasesSubtitle:
+        "Se hur lärare använder NeverCap för att förbättra lärandet",
       useCase1Title: "Inspelade föreläsningar",
-      useCase1Text: "Transkribera hela terminers inspelade föreläsningar. Studenter kan söka efter specifika ämnen, granska nyckelbegrepp och missa aldrig viktig information.",
+      useCase1Text:
+        "Transkribera hela terminers inspelade föreläsningar. Studenter kan söka efter specifika ämnen, granska nyckelbegrepp och missa aldrig viktig information.",
       useCase2Title: "Onlinekurser",
-      useCase2Text: "Gör dina onlinekurser tillgängliga för internationella studenter med översättningar i 100+ språk. Öka antalet anmälningar och tillfredsställelse.",
+      useCase2Text:
+        "Gör dina onlinekurser tillgängliga för internationella studenter med översättningar i 100+ språk. Öka antalet anmälningar och tillfredsställelse.",
       useCase3Title: "Studiematerial",
-      useCase3Text: "Använd AI för att transkribera ljudfiler till studieguider från videogenomgångar och föreläsningar. Perfekt för studenter som föredrar att läsa eller snabbt behöver granska innehåll med sökbar text.",
+      useCase3Text:
+        "Använd AI för att transkribera ljudfiler till studieguider från videogenomgångar och föreläsningar. Perfekt för studenter som föredrar att läsa eller snabbt behöver granska innehåll med sökbar text.",
       useCase4Title: "Tillgänglighetsanpassning",
-      useCase4Text: "Uppfyll tillgänglighetskrav genom att tillhandahålla textning och transkriptioner för allt videomaterial. Säkerställ lika tillgång för alla studenter.",
+      useCase4Text:
+        "Uppfyll tillgänglighetskrav genom att tillhandahålla textning och transkriptioner för allt videomaterial. Säkerställ lika tillgång för alla studenter.",
       useCase5Title: "Omvänd klassrum",
-      useCase5Text: "Dela videoföreläsningar med transkriptioner före lektionen. Studenter kan granska i sin egen takt och komma förberedda för diskussioner.",
+      useCase5Text:
+        "Dela videoföreläsningar med transkriptioner före lektionen. Studenter kan granska i sin egen takt och komma förberedda för diskussioner.",
       useCase6Title: "Forskning & citat",
-      useCase6Text: "Hjälp studenter att citera videokällor korrekt med tidsstämplar. Perfekt för forskningsprojekt och akademiska uppsatser.",
+      useCase6Text:
+        "Hjälp studenter att citera videokällor korrekt med tidsstämplar. Perfekt för forskningsprojekt och akademiska uppsatser.",
       testimonialTitle: "Används av",
       testimonialSubtitle: "Se varför lärare över hela världen väljer NeverCap",
       testimonialAuthorName: "Prof. Karen Mitchell",
       testimonialAuthorRole: "Matematikprofessor, onlineutbildare",
       ctaTitle: "Gör allt ditt utbildningsmaterial tillgängligt",
-      ctaSubtitle: "Gå med i tusentals lärare som använder verkligen obegränsad transkription",
+      ctaSubtitle:
+        "Gå med i tusentals lärare som använder verkligen obegränsad transkription",
       ctaButton: "Prova NeverCap gratis",
       featuresTitle2: "Videotranskription",
       grid: "Ljudfil till studieguide",
       useCasesTitle2: "Utbildningsbehov",
       testimonialTitle2: "50 000+ lärare",
-      testimonialTextA: '"Jag har använt {NeverCap} för att transkribera hela min YouTube-kanal med mattehandledningar. Det som brukade ta veckor med andra tjänster tar nu timmar. Möjligheten att klistra in länkar direkt och få omedelbara transkriberingar har förändrat hur jag skapar tillgängligt innehåll. Mina internationella studenter älskar särskilt de flerspråkiga texterna!"'
+      testimonialTextA:
+        '"Jag har använt {NeverCap} för att transkribera hela min YouTube-kanal med mattehandledningar. Det som brukade ta veckor med andra tjänster tar nu timmar. Möjligheten att klistra in länkar direkt och få omedelbara transkriberingar har förändrat hur jag skapar tillgängligt innehåll. Mina internationella studenter älskar särskilt de flerspråkiga texterna!"'
     }
   },
   Resources: {
     YouTubeToMP4: {
       part1: {
-        "title": "Ladda ner YouTube-videor som MP4",
-        "placeholder": "Sök eller klistra in din YouTube-länk här",
-        "clear_icon": "Rensa inmatning",
-        "Download": "Ladda ner",
-        "loading_text": "Bearbetar länken för nedladdning. Stanna kvar på sidan.",
-        "howToDownload": "Hur laddar man ner?",
-        "tutorial": "Titta på handledningen"
+        title: "Ladda ner YouTube-videor som MP4",
+        placeholder: "Sök eller klistra in din YouTube-länk här",
+        clear_icon: "Rensa inmatning",
+        Download: "Ladda ner",
+        loading_text: "Bearbetar länken för nedladdning. Stanna kvar på sidan.",
+        howToDownload: "Hur laddar man ner?",
+        tutorial: "Titta på handledningen"
       },
       part2: {
-        "title": "Så här gör du en YouTube-video till en nedladdningsbar MP4-fil i 3 enkla steg",
-        "steps": [
+        title:
+          "Så här gör du en YouTube-video till en nedladdningsbar MP4-fil i 3 enkla steg",
+        steps: [
           {
             title: "Kopiera URL:en",
-            content: "Öppna din YouTube-video och kopiera länken från webbläsarens adressfält."
+            content:
+              "Öppna din YouTube-video och kopiera länken från webbläsarens adressfält."
           },
           {
             title: "Klistra in länken",
-            content: "Gå till ditt videonerladdningsverktyg och klistra in URL:en i inmatningsfältet."
+            content:
+              "Gå till ditt videonerladdningsverktyg och klistra in URL:en i inmatningsfältet."
           },
           {
             title: "Ladda ner MP4:en",
-            content: "När bearbetningen är klar, klicka på nedladdningsknappen för att spara din MP4-fil."
+            content:
+              "När bearbetningen är klar, klicka på nedladdningsknappen för att spara din MP4-fil."
           }
         ]
       },
@@ -2886,27 +3079,35 @@ let message = {
         ]
       },
       part4: {
-        content: ["Här är de 5 största fördelarna med att ladda ner", "YouTube-videor som MP4-filer"],
+        content: [
+          "Här är de 5 största fördelarna med att ladda ner",
+          "YouTube-videor som MP4-filer"
+        ],
         list: [
           {
             title: "Spara på datakostnader:",
-            content: "Normalt sett förbrukar det mycket mobildata att titta på videor på YouTube. Genom att ladda ner för offlinevisning kan du undvika dessa onödiga kostnader."
+            content:
+              "Normalt sett förbrukar det mycket mobildata att titta på videor på YouTube. Genom att ladda ner för offlinevisning kan du undvika dessa onödiga kostnader."
           },
           {
             title: "Titta var som helst, när som helst:",
-            content: "Njut av dina videor sömlöst, även med dålig internetuppkoppling. Inga mer buffringsbekymmer."
+            content:
+              "Njut av dina videor sömlöst, även med dålig internetuppkoppling. Inga mer buffringsbekymmer."
           },
           {
             title: "Enkel arkivering & bevarande:",
-            content: "Att spara videor som MP4-filer gör det enkelt att bygga din personliga samling, särskilt för innehåll du finner särskilt värdefullt eller viktigt."
+            content:
+              "Att spara videor som MP4-filer gör det enkelt att bygga din personliga samling, särskilt för innehåll du finner särskilt värdefullt eller viktigt."
           },
           {
             title: "Enklare delning:",
-            content: "Att dela en MP4-fil är mycket bekvämare än att skicka en länk. Du kan skicka videofilen direkt via appar som WhatsApp eller Instagram och slippa steget att öppna YouTube."
+            content:
+              "Att dela en MP4-fil är mycket bekvämare än att skicka en länk. Du kan skicka videofilen direkt via appar som WhatsApp eller Instagram och slippa steget att öppna YouTube."
           },
           {
             title: "Omedelbar visning, delade stunder:",
-            content: "Vill du entusiastiskt visa en favoritvideo för vänner eller familj i närheten? Med MP4-filen nedladdad kan ni alla titta på den smidigt tillsammans direkt, utan besvärliga pauser medan den laddas."
+            content:
+              "Vill du entusiastiskt visa en favoritvideo för vänner eller familj i närheten? Med MP4-filen nedladdad kan ni alla titta på den smidigt tillsammans direkt, utan besvärliga pauser medan den laddas."
           }
         ]
       },
@@ -2919,7 +3120,8 @@ let message = {
           },
           {
             title: "Bländande snabb, obegränsad",
-            content: "Konvertera och ladda ner i högsta hastighet – inga tak, inga begränsningar."
+            content:
+              "Konvertera och ladda ner i högsta hastighet – inga tak, inga begränsningar."
           },
           {
             title: "Konvertera på direkten",
@@ -2927,13 +3129,15 @@ let message = {
           },
           {
             title: "Noll annonser, noll distraktioner",
-            content: "Njut av ett rent gränssnitt utan popup-fönster, banners eller avbrott – bara sömlös videokonvertering."
+            content:
+              "Njut av ett rent gränssnitt utan popup-fönster, banners eller avbrott – bara sömlös videokonvertering."
           },
           {
             icon: "5",
             color: "#DEE5FF",
             title: "Originalkvalitet garanterad",
-            content: "Dina nedladdningar behåller källvideons fulla upplösning för pixelfelfri uppspelning varje gång."
+            content:
+              "Dina nedladdningar behåller källvideons fulla upplösning för pixelfelfri uppspelning varje gång."
           },
           {
             icon: "6",
@@ -2956,310 +3160,432 @@ let message = {
         title: "Viktiga frågor om att ladda ner YouTube-videor",
         list: [
           {
-            question: "Kan jag ladda ner en YouTube-video om den är upphovsrättsskyddad?",
-            answer: "Att ladda ner upphovsrättsskyddade YouTube-videor utan upphovsrättsinnehavarens tillstånd är olagligt."
+            question:
+              "Kan jag ladda ner en YouTube-video om den är upphovsrättsskyddad?",
+            answer:
+              "Att ladda ner upphovsrättsskyddade YouTube-videor utan upphovsrättsinnehavarens tillstånd är olagligt."
           },
           {
             question: "Är detta nedladdningsverktyg säkert?",
-            answer: "Ja, det är säkert och pålitligt. Vi kräver ingen personlig information från användare och vidtar starka åtgärder mot virus. Vi påminner dig om att alltid vara försiktig när du laddar ner filer från internet: undvik att klicka på misstänkta länkar eller ladda ner tvivelaktiga filer."
+            answer:
+              "Ja, det är säkert och pålitligt. Vi kräver ingen personlig information från användare och vidtar starka åtgärder mot virus. Vi påminner dig om att alltid vara försiktig när du laddar ner filer från internet: undvik att klicka på misstänkta länkar eller ladda ner tvivelaktiga filer."
           },
           {
             question: "Vilka språk stöder YouTube till MP4-nedladdning?",
-            answer: "Vår tjänst stöder nedladdning av YouTube-videor på alla populära språk."
+            answer:
+              "Vår tjänst stöder nedladdning av YouTube-videor på alla populära språk."
           },
           {
-            question: "Vilka faktorer påverkar tiden det tar att ladda ner en YouTube-video?",
-            answer: "Även om vi säkerställer den snabbaste möjliga nedladdningsupplevelsen, påverkas nedladdningstiden också av faktorer som videons längd och din internetanslutnings hastighet."
+            question:
+              "Vilka faktorer påverkar tiden det tar att ladda ner en YouTube-video?",
+            answer:
+              "Även om vi säkerställer den snabbaste möjliga nedladdningsupplevelsen, påverkas nedladdningstiden också av faktorer som videons längd och din internetanslutnings hastighet."
           },
           {
-            question: "När jag laddar ner en MP4-video med min smartphone, var sparas den?",
-            answer: 'Efter att ha laddat ned en MP4-fil på din smartphone hittar du den vanligtvis i mappen "Nedladdningar" i din enhets filhanterarapp.'
+            question:
+              "När jag laddar ner en MP4-video med min smartphone, var sparas den?",
+            answer:
+              'Efter att ha laddat ned en MP4-fil på din smartphone hittar du den vanligtvis i mappen "Nedladdningar" i din enhets filhanterarapp.'
           },
           {
-            question: "Minskar videokvaliteten när jag laddar ner en YouTube-video som MP4?",
-            answer: "Nej. Att ladda ner YouTube-videor som MP4 med vårt verktyg behåller originalvideons kvalitet. Konverteringsprocessen bevarar källkvaliteten, så du får samma visningsupplevelse som på YouTube."
+            question:
+              "Minskar videokvaliteten när jag laddar ner en YouTube-video som MP4?",
+            answer:
+              "Nej. Att ladda ner YouTube-videor som MP4 med vårt verktyg behåller originalvideons kvalitet. Konverteringsprocessen bevarar källkvaliteten, så du får samma visningsupplevelse som på YouTube."
           }
         ]
       },
       err1: "Felaktigt YouTube-länkformat.",
       err2: "Tyvärr! Vi stöder för närvarande endast YouTube-länkar. Om du behöver stöd för andra webbplatser kommer vi att uppdatera dig när vi lägger till det i framtiden.",
       videoDownload: {
-        title: "Ladda ner YouTube-videor som MP4. Gratis, snabbt och utan reklam.",
-        description: "Tack för att du valt vår tjänst! Vi uppskattar verkligen ditt förtroende och hoppas att det förbättrat din upplevelse. Om du kan dela vår webbplats med dina vänner skulle det vara en stor hjälp.",
+        title:
+          "Ladda ner YouTube-videor som MP4. Gratis, snabbt och utan reklam.",
+        description:
+          "Tack för att du valt vår tjänst! Vi uppskattar verkligen ditt förtroende och hoppas att det förbättrat din upplevelse. Om du kan dela vår webbplats med dina vänner skulle det vara en stor hjälp.",
         downloadButton: "Ladda ner",
         downloadError: "Nedladdningsfel",
-          TranscribeButton: 'Transkribera'
-    },
-        freeResources: {
-              "linkTitle": "Drivs av {NeverCap}",
-              "linkTitle2": "- Verkligen obegränsad AI-transkription",
-              "title": "Gratis resurser",
-              "steps": [
-                {
-                  "title": "Gratis ljud och video",
-                  "content": "Konvertera ljud- och videofiler till text på några sekunder. 3 gratis transkriptioner varje dag."
-                },
-                {
-                  "title": "Konvertera ljudfiler till text",
-                  "content": "Ladda upp MP3, MP4, WAV, MOV.",
-                  "content2": "Ladda ner DOCX, TXT, SRT (undertexter)."
-                },
-                {
-                  "title": "Transkribera YouTube-videor",
-                  "content": "Konvertera YouTube-videor till korrekt text eller undertexter. Klistra bara in YouTube-länken."
-                }
-              ],
-            stepsNew: [
-                  {
-                    "title": "Gratis ljud- och videotranskription",
-                    "content": "Konvertera ljud- och videofiler till text på några sekunder. 3 gratis transkriptioner varje dag."
-                  },
-                  {
-                    "title": "Konvertera ljudfiler till text",
-                    "content": "Ladda upp MP3, MP4, WAV, MOV.",
-                    "content2": "Ladda ner DOCX, TXT, SRT (undertexter)."
-                  },
-                  {
-                    "title": "Transkribera YouTube-videor",
-                    "content": "Konvertera YouTube-videor till korrekt text eller undertexter. Klistra bara in YouTube-länken."
-                  }
-                ]
-        }
+        TranscribeButton: "Transkribera"
+      },
+      freeResources: {
+        linkTitle: "Drivs av {NeverCap}",
+        linkTitle2: "- Verkligen obegränsad AI-transkription",
+        title: "Gratis resurser",
+        steps: [
+          {
+            title: "Gratis ljud och video",
+            content:
+              "Konvertera ljud- och videofiler till text på några sekunder. 3 gratis transkriptioner varje dag."
+          },
+          {
+            title: "Konvertera ljudfiler till text",
+            content: "Ladda upp MP3, MP4, WAV, MOV.",
+            content2: "Ladda ner DOCX, TXT, SRT (undertexter)."
+          },
+          {
+            title: "Transkribera YouTube-videor",
+            content:
+              "Konvertera YouTube-videor till korrekt text eller undertexter. Klistra bara in YouTube-länken."
+          }
+        ],
+        stepsNew: [
+          {
+            title: "Gratis ljud- och videotranskription",
+            content:
+              "Konvertera ljud- och videofiler till text på några sekunder. 3 gratis transkriptioner varje dag."
+          },
+          {
+            title: "Konvertera ljudfiler till text",
+            content: "Ladda upp MP3, MP4, WAV, MOV.",
+            content2: "Ladda ner DOCX, TXT, SRT (undertexter)."
+          },
+          {
+            title: "Transkribera YouTube-videor",
+            content:
+              "Konvertera YouTube-videor till korrekt text eller undertexter. Klistra bara in YouTube-länken."
+          }
+        ]
+      }
     }
   },
   About: {
     Hero: {
-      "badge": "Ledande AI-teknik i branschen",
-      "title": "Om",
-      "description": "Vårt uppdrag är att tillhandahålla de mest exakta ljud- och videotranskriberingstjänsterna. Med hjälp av branschledande AI-teknik uppnår vi transkriberingsnoggrannhet på över 96%. För vissa större språk kan vi till och med nå 99% noggrannhet genom teknisk optimering."
+      badge: "Ledande AI-teknik i branschen",
+      title: "Om",
+      description:
+        "Vårt uppdrag är att tillhandahålla de mest exakta ljud- och videotranskriberingstjänsterna. Med hjälp av branschledande AI-teknik uppnår vi transkriberingsnoggrannhet på över 96%. För vissa större språk kan vi till och med nå 99% noggrannhet genom teknisk optimering."
     },
     Stats: {
-      "title": "Vår",
-      "highlighted_text": "Påverkan",
-      "subtitle": "Stärker global kommunikation med banbrytande AI-teknik",
-      "metrics": [
+      title: "Vår",
+      highlighted_text: "Påverkan",
+      subtitle: "Stärker global kommunikation med banbrytande AI-teknik",
+      metrics: [
         {
-          "value": "96%+",
-          "label": "Noggrannhet",
-          "description": "Branschledande transkriberingsnoggrannhet med avancerad AI"
+          value: "96%+",
+          label: "Noggrannhet",
+          description:
+            "Branschledande transkriberingsnoggrannhet med avancerad AI"
         },
         {
-          "value": "100+",
-          "label": "Språk som stöds",
-          "description": "Taligenkänning för globalt innehåll"
+          value: "100+",
+          label: "Språk som stöds",
+          description: "Taligenkänning för globalt innehåll"
         },
         {
-          "value": "249+",
-          "label": "Översättningsspråk",
-          "description": "Översätt transkriberad text till i princip vilket språk som helst"
+          value: "249+",
+          label: "Översättningsspråk",
+          description:
+            "Översätt transkriberad text till i princip vilket språk som helst"
         }
       ]
     },
     Mission: {
-      "title": "Varför välja",
-      "subtitle": "Vi tror på att bryta ner språkbarriärer och göra innehåll tillgängligt för alla",
-      "features": [
+      title: "Varför välja",
+      subtitle:
+        "Vi tror på att bryta ner språkbarriärer och göra innehåll tillgängligt för alla",
+      features: [
         {
-          "icon": "🎯",
-          "title": "Oöverträffad noggrannhet",
-          "description": "Våra AI-modeller förfinas kontinuerligt för att leverera transkriberingsnoggrannhet över 96%, med vissa större språk som når upp till 99% noggrannhet genom avancerad optimering."
+          icon: "🎯",
+          title: "Oöverträffad noggrannhet",
+          description:
+            "Våra AI-modeller förfinas kontinuerligt för att leverera transkriberingsnoggrannhet över 96%, med vissa större språk som når upp till 99% noggrannhet genom avancerad optimering."
         },
         {
-          "icon": "🌍",
-          "title": "Global språkstöd",
-          "description": "Stöd för över 100 språk i taligenkänning och översättningsmöjligheter för mer än 249 språk, vilket gör ditt innehåll verkligen globalt."
+          icon: "🌍",
+          title: "Global språkstöd",
+          description:
+            "Stöd för över 100 språk i taligenkänning och översättningsmöjligheter för mer än 249 språk, vilket gör ditt innehåll verkligen globalt."
         },
         {
-          "icon": "⚡",
-          "title": "Blixtsnabb bearbetning",
-          "description": "Bearbeta timmar av ljud- och videoinnehåll på minuter, inte timmar. Vår optimerade AI-pipeline säkerställer att du får dina transkriptioner snabbt utan att offra kvalitet."
+          icon: "⚡",
+          title: "Blixtsnabb bearbetning",
+          description:
+            "Bearbeta timmar av ljud- och videoinnehåll på minuter, inte timmar. Vår optimerade AI-pipeline säkerställer att du får dina transkriptioner snabbt utan att offra kvalitet."
         },
         {
-          "icon": "🔒",
-          "title": "Säkerhet på företagsnivå",
-          "description": "Din datasäkerhet är vår prioritet. Vi använder branschstandardkryptering och följer globala sekretessregler för att hålla ditt innehåll säkert och konfidentiellt."
+          icon: "🔒",
+          title: "Säkerhet på företagsnivå",
+          description:
+            "Din datasäkerhet är vår prioritet. Vi använder branschstandardkryptering och följer globala sekretessregler för att hålla ditt innehåll säkert och konfidentiellt."
         }
       ]
     },
     Company: {
-      "title": "Företagets",
-      "highlighted_text": "Information",
-      "subtitle": "Kontakta oss för frågor eller support",
-      "details": [
+      title: "Företagets",
+      highlighted_text: "Information",
+      subtitle: "Kontakta oss för frågor eller support",
+      details: [
         {
-          "label": "Företagsnamn",
-          "value": "SCRIBIFY AI INC"
+          label: "Företagsnamn",
+          value: "SCRIBIFY AI INC"
         },
         {
-          "label": "Huvudkontor",
-          "value": ["30 N Gould St Ste R", "Sheridan, WY 82801", "Förenta staterna"]
+          label: "Huvudkontor",
+          value: [
+            "30 N Gould St Ste R",
+            "Sheridan, WY 82801",
+            "Förenta staterna"
+          ]
         },
         {
-          "label": "Kontakta oss",
-          "value": ["E-post", "Support dygnet runt"]
+          label: "Kontakta oss",
+          value: ["E-post", "Support dygnet runt"]
         }
       ]
     },
     CTA: {
-      "title": "Redo att uppleva skillnaden?",
-      "subtitle": "Gå med bland tusentals professionella som litar på NeverCap för sina transkriberingsbehov",
-      "button": "Prova NeverCap gratis →",
-      "disclaimer": "Ingen kreditkort krävs • Börja transkribera på sekunder"
+      title: "Redo att uppleva skillnaden?",
+      subtitle:
+        "Gå med bland tusentals professionella som litar på NeverCap för sina transkriberingsbehov",
+      button: "Prova NeverCap gratis →",
+      disclaimer: "Ingen kreditkort krävs • Börja transkribera på sekunder"
     }
   },
   Privacy: {
     title: "Sekretess",
     titleGradient: "Policy",
-    subtitle: "Lär dig hur vi samlar in, använder och skyddar din personliga information",
-    "lastUpdated": "Senast uppdaterad: {date}",
-    "lastUpdatedDate": "21 juli 2025",
-    "privacyPolicyTitle": "Integritetspolicy",
-    "policyAgreement": "Läs denna integritetspolicy noggrant och se till att du förstår den. Genom att använda någon av våra Tjänster godkänner du denna integritetspolicy. Om du inte godkänner vår användning av dina personuppgifter i enlighet med denna policy måste du omedelbart sluta använda våra Tjänster.",
-    "policyOverview": "I denna policy beskriver vi: vilka data vi samlar in och varför; hur dina data hanteras; och dina rättigheter gällande dina data. Vi säljer inte dina data.",
-    "scopeTitle": "1. Omfattning av denna integritetspolicy",
-    "scopeDescription": "Denna integritetspolicy gäller endast vår insamling och behandling av information om användare av Tjänsterna. Denna integritetspolicy gäller inte för tjänster, webbplatser eller programvara som drivs av tredje part och som är länkade till oss (oavsett om vi tillhandahåller dessa länkar eller andra användare delar dem) och gäller inte heller för innehåll, data, applikationer eller material från tredje part. Vi rekommenderar att du kontrollerar integritetspolicyn för alla webbplatser eller program från tredje part innan du lämnar någon information till dem.",
-    "collectionTitle": "2. Vad vi samlar in och varför",
-    "collectionPrinciple": "Vår ledande princip är att endast samla in det vi behöver. Här är vad det betyder i praktiken:",
-    "identityTitle": "2.1 Identitet & åtkomst",
-    "identityDescription": "När du registrerar dig för en av våra produkter ber vi om identifierande information såsom ditt namn och e-postadress. Detta är för att tillhandahålla grundläggande produktfunktionalitet och så att vi kan skicka dig produktuppdateringar och annan viktig information.",
-    "billingTitle": "2.2 Faktureringsinformation",
-    "billingDescription": "Om du registrerar dig för en betald produkt kommer du att bli ombedd att ange din betalningsinformation och faktureringsadress. Betalningsinformation skickas direkt till vår betalningsprocessor och når inte våra servrar.",
-    "productInteractionsTitle": "2.3 Produktinteraktioner",
-    "productInteractionsDescription": "Vi lagrar på våra servrar det innehåll som du laddar upp, tar emot eller förvarar i dina produktkonton. Om du inte tar bort detta innehåll kan vi behålla det så länge ditt konto är aktivt.",
-    "websiteInteractionsTitle": "2.4 Webbplatsinteraktioner",
-    "websiteInteractionsDescription": "Vi samlar in information om din surfaktivitet för analys- och statistiska ändamål såsom konverteringstestning och experiment med nya produktdesigns. Detta inkluderar till exempel din webbläsare och operativsystemversioner, din IP-adress, vilka webbsidor du besökte och hur lång tid de tog att ladda, samt vilken webbplats som hänvisade dig till oss. Om du har ett konto och är inloggad är dessa webbanalysdata kopplade till din IP-adress och användarkonto tills ditt konto inte längre är aktivt.",
-    "cookiesTitle": "2.5 Cookies",
-    "cookiesDescription1": "Vi använder också beständiga förstaparts-cookies och vissa tredjeparts-cookies för att lagra vissa inställningar, göra det enklare för dig att använda våra applikationer och utföra A/B-testning samt stödja vissa analyser.",
-    "cookiesDescription2": "En cookie är en textbit som lagras av din webbläsare. Den kan hjälpa till att komma ihåg inloggningsinformation och webbplatsinställningar. Den kan också samla in information såsom din webbläsartyp, operativsystem, besökta webbsidor, besökstid, visat innehåll och annan klickströmdata. Du kan justera cookie-lagringsinställningar och acceptera eller blockera enskilda cookies i dina webbläsarinställningar, men våra appar kommer inte att fungera och andra aspekter av vår tjänst kan inte fungera korrekt om du stänger av cookies.",
-    "correspondenceTitle": "2.6 Frivillig korrespondens",
-    "correspondenceDescription": "När du skickar e-post till oss med en fråga eller för att be om hjälp sparar vi denna korrespondens, inklusive din e-postadress, så att vi har en historik över tidigare korrespondens att referera till om du kontaktar oss i framtiden.",
-    "accessTitle": "3. När vi kommer åt eller delar din information",
-    "accessDescription1": "För att tillhandahålla produkter eller tjänster du har begärt. Vi använder vissa tredjepartsunderleverantörer för att hjälpa till att driva våra applikationer och tillhandahålla Tjänsterna till dig. Detta inkluderar moln- och analysleverantörer.",
-    "accessDescription2": "För att undersöka, förhindra eller vidta åtgärder angående missbruk. Att komma åt en kunds konto när man undersöker potentiellt missbruk är en sista utväg. Vi vill skydda både våra kunders integritet och säkerhet och de personer som rapporterar problem till oss, och vi gör vårt bästa för att balansera dessa ansvarsområden under hela processen. Om vi upptäcker att du använder våra produkter för ett begränsat ändamål kommer vi att vidta nödvändiga åtgärder, inklusive att under vissa omständigheter meddela lämpliga myndigheter.",
-    "accessDescription3": "När det krävs enligt tillämplig lag.",
-    "dataRequests": "Begäran om användardata. Vår policy är att inte svara på statliga begäran om användardata om vi inte tvingas av rättsprocess eller i begränsade omständigheter vid en nödbegäran. Men om amerikanska lagföringsmyndigheter har nödvändigt warrant, straffsubpoena eller domstolsbeslut som kräver att vi delar data, måste vi följa det. Likaså kommer vi endast att svara på begäran från myndigheter utanför USA om vi tvingas av den amerikanska regeringen genom processer som beskrivs i en ömsesidig rättslig biståndsavtal. Det är vår policy att meddela berörda användare innan vi delar data om vi inte är juridiskt förhindrade från att göra det, och förutom i vissa nödsituationer.",
-    "preservationRequests": "Bevaring av data. På samma sätt är vår policy att följa begäran om att bevara data endast om vi tvingas av den amerikanska Federal Stored Communications Act, 18 U.S.C. Section 2703(f), eller av en korrekt utfärdad amerikansk subpoena för civila ärenden. Vi delar inte bevarad data om inte lagen kräver det eller om vi tvingas av en domstolsorder som vi väljer att inte överklaga. Dessutom, om vi inte får ett korrekt warrant, domstolsbeslut eller subpoena innan den nödvändiga bevarandeperioden löper ut, kommer vi att förstöra alla bevarade kopior av kunddata vid slutet av bevarandeperioden.",
-    "taxAudits": "Om vi granskas av en skattemyndighet kan vi bli tvungna att dela faktureringsrelaterad information. Om det händer kommer vi endast att dela det minsta som behövs, såsom faktureringsadresser och skatteundantagsinformation.",
-    "securityTitle": "4. Hur vi skyddar dina data",
-    "securityDescription": "All data krypteras via SSL/TLS när den överförs från våra servrar till din webbläsare.",
-    "deletionTitle": "5. Vad som händer när du tar bort ditt innehåll",
-    "deletionDescription": "Om du tar bort något innehåll blir det omedelbart otillgängligt.",
-    "locationTitle": "6. Plats för webbplats och data",
-    "locationDescription": "Våra produkter och andra webbegenskaper drivs i USA. Om du befinner dig i EU, Storbritannien eller någon annanstans utanför USA, var medveten om att all information du tillhandahåller oss kommer att överföras till och lagras i USA. Genom att använda våra webbplatser eller Tjänster och/eller tillhandahålla oss med din personliga information samtycker du till denna överföring.",
-    "childrenTitle": "7. Barns integritet",
-    "updatesTitle": "8. Uppdateringar av denna integritetspolicy",
-    "updatesDescription": "Vi kan uppdatera denna policy efter behov för att följa relevanta regler och reflektera nya metoder. När vi gör en betydande ändring av våra policyer uppdaterar vi datumet högst upp på denna sida.",
-    "contactTitle": "9. Kontakta oss",
-    "websiteUrl": "https://www.nevercap.ai/",
+    subtitle:
+      "Lär dig hur vi samlar in, använder och skyddar din personliga information",
+    lastUpdated: "Senast uppdaterad: {date}",
+    lastUpdatedDate: "21 juli 2025",
+    privacyPolicyTitle: "Integritetspolicy",
+    policyAgreement:
+      "Läs denna integritetspolicy noggrant och se till att du förstår den. Genom att använda någon av våra Tjänster godkänner du denna integritetspolicy. Om du inte godkänner vår användning av dina personuppgifter i enlighet med denna policy måste du omedelbart sluta använda våra Tjänster.",
+    policyOverview:
+      "I denna policy beskriver vi: vilka data vi samlar in och varför; hur dina data hanteras; och dina rättigheter gällande dina data. Vi säljer inte dina data.",
+    scopeTitle: "1. Omfattning av denna integritetspolicy",
+    scopeDescription:
+      "Denna integritetspolicy gäller endast vår insamling och behandling av information om användare av Tjänsterna. Denna integritetspolicy gäller inte för tjänster, webbplatser eller programvara som drivs av tredje part och som är länkade till oss (oavsett om vi tillhandahåller dessa länkar eller andra användare delar dem) och gäller inte heller för innehåll, data, applikationer eller material från tredje part. Vi rekommenderar att du kontrollerar integritetspolicyn för alla webbplatser eller program från tredje part innan du lämnar någon information till dem.",
+    collectionTitle: "2. Vad vi samlar in och varför",
+    collectionPrinciple:
+      "Vår ledande princip är att endast samla in det vi behöver. Här är vad det betyder i praktiken:",
+    identityTitle: "2.1 Identitet & åtkomst",
+    identityDescription:
+      "När du registrerar dig för en av våra produkter ber vi om identifierande information såsom ditt namn och e-postadress. Detta är för att tillhandahålla grundläggande produktfunktionalitet och så att vi kan skicka dig produktuppdateringar och annan viktig information.",
+    billingTitle: "2.2 Faktureringsinformation",
+    billingDescription:
+      "Om du registrerar dig för en betald produkt kommer du att bli ombedd att ange din betalningsinformation och faktureringsadress. Betalningsinformation skickas direkt till vår betalningsprocessor och når inte våra servrar.",
+    productInteractionsTitle: "2.3 Produktinteraktioner",
+    productInteractionsDescription:
+      "Vi lagrar på våra servrar det innehåll som du laddar upp, tar emot eller förvarar i dina produktkonton. Om du inte tar bort detta innehåll kan vi behålla det så länge ditt konto är aktivt.",
+    websiteInteractionsTitle: "2.4 Webbplatsinteraktioner",
+    websiteInteractionsDescription:
+      "Vi samlar in information om din surfaktivitet för analys- och statistiska ändamål såsom konverteringstestning och experiment med nya produktdesigns. Detta inkluderar till exempel din webbläsare och operativsystemversioner, din IP-adress, vilka webbsidor du besökte och hur lång tid de tog att ladda, samt vilken webbplats som hänvisade dig till oss. Om du har ett konto och är inloggad är dessa webbanalysdata kopplade till din IP-adress och användarkonto tills ditt konto inte längre är aktivt.",
+    cookiesTitle: "2.5 Cookies",
+    cookiesDescription1:
+      "Vi använder också beständiga förstaparts-cookies och vissa tredjeparts-cookies för att lagra vissa inställningar, göra det enklare för dig att använda våra applikationer och utföra A/B-testning samt stödja vissa analyser.",
+    cookiesDescription2:
+      "En cookie är en textbit som lagras av din webbläsare. Den kan hjälpa till att komma ihåg inloggningsinformation och webbplatsinställningar. Den kan också samla in information såsom din webbläsartyp, operativsystem, besökta webbsidor, besökstid, visat innehåll och annan klickströmdata. Du kan justera cookie-lagringsinställningar och acceptera eller blockera enskilda cookies i dina webbläsarinställningar, men våra appar kommer inte att fungera och andra aspekter av vår tjänst kan inte fungera korrekt om du stänger av cookies.",
+    correspondenceTitle: "2.6 Frivillig korrespondens",
+    correspondenceDescription:
+      "När du skickar e-post till oss med en fråga eller för att be om hjälp sparar vi denna korrespondens, inklusive din e-postadress, så att vi har en historik över tidigare korrespondens att referera till om du kontaktar oss i framtiden.",
+    accessTitle: "3. När vi kommer åt eller delar din information",
+    accessDescription1:
+      "För att tillhandahålla produkter eller tjänster du har begärt. Vi använder vissa tredjepartsunderleverantörer för att hjälpa till att driva våra applikationer och tillhandahålla Tjänsterna till dig. Detta inkluderar moln- och analysleverantörer.",
+    accessDescription2:
+      "För att undersöka, förhindra eller vidta åtgärder angående missbruk. Att komma åt en kunds konto när man undersöker potentiellt missbruk är en sista utväg. Vi vill skydda både våra kunders integritet och säkerhet och de personer som rapporterar problem till oss, och vi gör vårt bästa för att balansera dessa ansvarsområden under hela processen. Om vi upptäcker att du använder våra produkter för ett begränsat ändamål kommer vi att vidta nödvändiga åtgärder, inklusive att under vissa omständigheter meddela lämpliga myndigheter.",
+    accessDescription3: "När det krävs enligt tillämplig lag.",
+    dataRequests:
+      "Begäran om användardata. Vår policy är att inte svara på statliga begäran om användardata om vi inte tvingas av rättsprocess eller i begränsade omständigheter vid en nödbegäran. Men om amerikanska lagföringsmyndigheter har nödvändigt warrant, straffsubpoena eller domstolsbeslut som kräver att vi delar data, måste vi följa det. Likaså kommer vi endast att svara på begäran från myndigheter utanför USA om vi tvingas av den amerikanska regeringen genom processer som beskrivs i en ömsesidig rättslig biståndsavtal. Det är vår policy att meddela berörda användare innan vi delar data om vi inte är juridiskt förhindrade från att göra det, och förutom i vissa nödsituationer.",
+    preservationRequests:
+      "Bevaring av data. På samma sätt är vår policy att följa begäran om att bevara data endast om vi tvingas av den amerikanska Federal Stored Communications Act, 18 U.S.C. Section 2703(f), eller av en korrekt utfärdad amerikansk subpoena för civila ärenden. Vi delar inte bevarad data om inte lagen kräver det eller om vi tvingas av en domstolsorder som vi väljer att inte överklaga. Dessutom, om vi inte får ett korrekt warrant, domstolsbeslut eller subpoena innan den nödvändiga bevarandeperioden löper ut, kommer vi att förstöra alla bevarade kopior av kunddata vid slutet av bevarandeperioden.",
+    taxAudits:
+      "Om vi granskas av en skattemyndighet kan vi bli tvungna att dela faktureringsrelaterad information. Om det händer kommer vi endast att dela det minsta som behövs, såsom faktureringsadresser och skatteundantagsinformation.",
+    securityTitle: "4. Hur vi skyddar dina data",
+    securityDescription:
+      "All data krypteras via SSL/TLS när den överförs från våra servrar till din webbläsare.",
+    deletionTitle: "5. Vad som händer när du tar bort ditt innehåll",
+    deletionDescription:
+      "Om du tar bort något innehåll blir det omedelbart otillgängligt.",
+    locationTitle: "6. Plats för webbplats och data",
+    locationDescription:
+      "Våra produkter och andra webbegenskaper drivs i USA. Om du befinner dig i EU, Storbritannien eller någon annanstans utanför USA, var medveten om att all information du tillhandahåller oss kommer att överföras till och lagras i USA. Genom att använda våra webbplatser eller Tjänster och/eller tillhandahålla oss med din personliga information samtycker du till denna överföring.",
+    childrenTitle: "7. Barns integritet",
+    updatesTitle: "8. Uppdateringar av denna integritetspolicy",
+    updatesDescription:
+      "Vi kan uppdatera denna policy efter behov för att följa relevanta regler och reflektera nya metoder. När vi gör en betydande ändring av våra policyer uppdaterar vi datumet högst upp på denna sida.",
+    contactTitle: "9. Kontakta oss",
+    websiteUrl: "https://www.nevercap.ai/",
     at: "på",
-    childrenDescription: "Tjänsterna är inte avsedda för barn, och vi samlar inte medvetet in personuppgifter från barn under 13 år. Om du är under 13 år, vänligen skicka inte någon personlig information via Tjänsterna. Om du tror att ett barn har lämnat personuppgifter till oss i strid med denna Policy, vänligen kontakta oss {at} {email} enligt nedan.",
-    contactDescription: "Om du har frågor, synpunkter eller klagomål om vår Integritetspolicy, vänligen kontakta oss {at} {email} så försöker vi hantera din fråga så snart som möjligt.",
-    policyDescriptionA: 'Denna policy beskriver hur {NeverCap} (nedan kallat "NeverCap", "vår", "vi", "oss") samlar in, använder och lämnar ut dina personuppgifter när du använder våra tjänster, webbplatser ({url}) och programvara (gemensamt kallade "Tjänsterna").'
+    childrenDescription:
+      "Tjänsterna är inte avsedda för barn, och vi samlar inte medvetet in personuppgifter från barn under 13 år. Om du är under 13 år, vänligen skicka inte någon personlig information via Tjänsterna. Om du tror att ett barn har lämnat personuppgifter till oss i strid med denna Policy, vänligen kontakta oss {at} {email} enligt nedan.",
+    contactDescription:
+      "Om du har frågor, synpunkter eller klagomål om vår Integritetspolicy, vänligen kontakta oss {at} {email} så försöker vi hantera din fråga så snart som möjligt.",
+    policyDescriptionA:
+      'Denna policy beskriver hur {NeverCap} (nedan kallat "NeverCap", "vår", "vi", "oss") samlar in, använder och lämnar ut dina personuppgifter när du använder våra tjänster, webbplatser ({url}) och programvara (gemensamt kallade "Tjänsterna").'
   },
   TermsOfUse: {
     title: "Användarvillkor",
     titleGradient: "Tjänst",
-    subtitle: "Läs noggrant igenom dessa villkor innan du använder våra tjänster",
-    "lastUpdated": "Senast uppdaterad: {date}",
-    "lastUpdatedDate": "21 juli 2025",
-    "termsOfServiceTitle": "Användarvillkor",
-    "thankYou": "Tack för att du använder våra produkter!",
-    "servicesDefinition": 'När vi säger "Tjänster" menar vi alla produkter som skapats och underhålls av NeverCap, oavsett om de levereras via en webbläsare, skrivbordsapplikation, mobilapplikation eller annat format.',
-    "termsUpdate": "Vi kan uppdatera dessa Användarvillkor i framtiden. Vanligtvis har ändringarna gjorts för att klargöra vissa villkor genom att länka till en utökad relaterad policy. När vi gör en betydande ändring av våra policyer uppdaterar vi datumet högst upp på denna sida och vidtar lämpliga åtgärder för att meddela kontoinnehavare.",
-    "acceptanceTitle": "1. Godkännande av avtal",
-    "acceptanceDescription1": "Genom att använda våra Tjänster godkänner du detta Avtal, som därmed blir ett bindande avtal mellan dig och NeverCap. Du intygar att du har rättslig kapacitet att godkänna dessa Villkor och bekräftar att du är myndig att ingå bindande avtal. NeverCaps godkännande är uttryckligen beroende av ditt samtycke till alla villkor i detta Avtal.",
-    "eligibilityRequirement": "Tjänsterna är inte avsedda för och bör inte användas av någon under 18 år. Genom att använda Tjänsterna intygar och garanterar du att du uppfyller ovanstående behörighetskrav.",
-    "userResponsibility": 'Termerna "du", "din", "dig" inkluderar även dina anställda, ombud, företagsrepresentanter och andra personer som du ger tillgång till Tjänsterna via ditt Konto (enligt definitionen nedan). Du ansvarar för att alla som använder Tjänsterna via ditt konto känner till och följer dessa Villkor.',
-    "termsRevision": "NeverCap förbehåller sig rätten att när som helst efter eget gottfinnande revidera och uppdatera dessa Villkor. Alla ändringar träder i kraft omedelbart efter publicering. Din fortsatta användning av Tjänsterna efter publicering av reviderade Villkor innebär att du accepterar och godkänner ändringarna. Du bör regelbundet kontrollera denna sida för att vara medveten om eventuella ändringar, eftersom de är bindande för dig.",
-    "servicesTitle": "2. NeverCaps tjänster",
-    "servicesDescription1": "Våra Tjänster gör det möjligt för användare att omvandla röstkonversationer till transkriberad text som kan sökas, översättas och delas med andra.",
-    "servicesOptions": 'Du kan välja att använda den kostnadsfria versionen av Tjänsterna ("Gratistjänster") eller den prenumerationsbaserade betalversionen av Tjänsterna där du kan behöva betala avgifter ("Betaltjänster").',
-    "servicesAccess": "Vi kommer att göra Tjänsterna tillgängliga för dig. Du ansvarar för alla arrangemang som krävs för att du ska ha tillgång till Tjänsterna.",
-    "accountTermsTitle": "3. Kontovillkor",
-    "accountSecurity": "Du ansvarar för att upprätthålla säkerheten för ditt konto. Företaget kan inte och kommer inte att vara ansvarigt för eventuella förluster eller skador som uppstår på grund av att du inte följer detta säkerhetskrav.",
-    "lawfulUse": "Du får inte använda Tjänsterna för olagliga, oetiska eller omoraliska ändamål.",
-    "contentResponsibility": "Du ansvarar för allt innehåll och all aktivitet som sker under ditt konto. Detta inkluderar innehåll som publiceras av andra som antingen: (a) har tillgång till dina inloggningsuppgifter; eller (b) har egna inloggningar under ditt konto.",
-    "humanRequirement": 'Du måste vara en människa. Konton som registreras av "bots" eller andra automatiserade metoder är inte tillåtna.',
-    "paymentTitle": "4. Betalning, återbetalningar och planändringar",
-    "freeTrial": "För betaltjänster som erbjuder en gratis provperiod förklarar vi provperiodens längd när du registrerar dig. Efter provperioden måste du betala i förväg för att fortsätta använda Tjänsten. Om du inte betalar kommer dessa tjänster att upphöra.",
-    "upgradePolicy": "Om du uppgraderar från en gratis plan till en betalplan debiterar vi ditt kort omedelbart och din faktureringsperiod börjar på uppgraderingsdagen.",
-    "taxes": "Alla avgifter är exklusive skatter, avgifter eller tullar som påförs av skattemyndigheter. Där det krävs kommer vi att samla in dessa skatter på uppdrag av skattemyndigheten och överföra dem till skattemyndigheterna. Annars ansvarar du för betalning av alla skatter, avgifter eller tullar.",
-    "refunds": "Alla köp är icke-återbetalningsbara. Du kan när som helst avbryta betalda tjänster genom att logga in på ditt konto. För betalprenumerationer träder din uppsägning i kraft vid slutet av den aktuella betalda perioden, om inte annat anges.",
-    "cancellationTitle": "5. Uppsägning och avslut",
-    "cancellationPolicy": "Om du säger upp Tjänsten innan den betalda tiden löper ut träder uppsägningen i kraft omedelbart och du kommer inte att debiteras igen. Vi gör inte automatiskt en proportionell återbetalning för oanvänd tid under den sista faktureringsperioden.",
-    "terminationRights": "Vi har rätt att när som helst av vilken anledning som helst suspendera eller avsluta ditt konto och vägra all nuvarande eller framtida användning av våra Tjänster. Suspension innebär att du inte kommer att kunna komma åt kontot eller något innehåll i kontot. Avslut kommer dessutom att resultera i radering av ditt konto eller din åtkomst till ditt konto samt förverkande och avstående av allt innehåll i ditt konto. Vi förbehåller oss även rätten att när som helst av vilken anledning som helst vägra användning av Tjänsterna för vem som helst. Vi har denna klausul eftersom det statistiskt sett, bland hundratusentals konton på våra Tjänster, finns minst ett som gör något skadligt.",
-    "abusePolicy": "Verbala, fysiska, skriftliga eller andra former av misshandel (inklusive hot om misshandel eller vedergällning) mot företagets anställda eller befattningshavare kan leda till omedelbar kontouppsägning.",
-    "submissionsTitle": "6. Inlämningar",
-    "submissionsDescription": 'Du erkänner och godkänner att alla frågor, kommentarer, förslag, idéer, feedback eller annan information om Webbplatsen ("Inlämningar") som du lämnar till oss är icke-konfidentiella och blir vår ensakliga egendom. Vi ska äga exklusiva rättigheter, inklusive alla immateriella rättigheter, och ska vara berättigade till obegränsad användning och spridning av dessa Inlämningar för alla lagliga ändamål, kommersiella eller andra, utan erkännande eller ersättning till dig. Härmed avstår du från alla moraliska rättigheter till sådana Inlämningar, och du intygar härmed att sådana Inlämningar är original av dig eller att du har rätt att lämna in sådana Inlämningar. Du godkänner att vi inte kan hållas ansvariga för eventuell eller faktisk intrång eller tillägnelse av någon äganderätt i dina Inlämningar.',
-    "uptimeTitle": "7. Upptid och säkerhet",
-    "serviceAvailability": 'Din användning av Tjänsterna sker på egen risk. Vi tillhandahåller dessa Tjänster i befintligt skick ("as is") och "tillgängliga" ("as available"). Vi erbjuder inte servicenivåavtal för de flesta av våra Tjänster, men tar våra applikationers upptid på allvar.',
-    "throttlingPolicy": "Vi förbehåller oss rätten att tillfälligt begränsa eller minska kontots åtkomst i sällsynta fall där en användares aktivitet verifieras påverka Tjänstens stabilitet och prestanda negativt för andra användare. I alla utom de mest kritiska fallen kommer vi att kontakta dig för att hitta en lösning innan vi vidtar åtgärder.",
-    "dataSecurity": "Vi vidtar många åtgärder för att skydda och säkra dina data genom säkerhetskopieringar, redundans och kryptering. Vi tillämpar kryptering för dataöverföring över det offentliga internet.",
-    "thirdPartyVendors": "Vi använder tredjepartsleverantörer och hostingpartners för att tillhandahålla den nödvändiga hårdvaran, mjukvaran, nätverket, lagringen och relaterad teknik som krävs för att driva Tjänsterna.",
-    "siteManagementTitle": "8. Webbplatshantering",
-    "siteManagementDescription": "Vi förbehåller oss rätten, men inte skyldigheten, att: (1) övervaka Webbplatsen för brott mot dessa Användarvillkor; (2) vidta lämpliga rättsliga åtgärder mot den som, efter vårt gottfinnande, bryter mot lagen eller dessa Användarvillkor, inklusive men inte begränsat till att rapportera sådan användare till rättsliga myndigheter; (3) efter vårt gottfinnande och utan begränsning vägra, begränsa åtkomsten till, begränsa tillgängligheten för eller inaktivera (i den utsträckning som är tekniskt möjligt) några av dina Bidrag eller delar därav; (4) efter vårt gottfinnande och utan begränsning, meddelande eller ansvar, ta bort från Webbplatsen eller på annat sätt inaktivera alla filer och innehåll som är för stora i storlek eller på något sätt belastar våra system; och (5) på annat sätt hantera Webbplatsen på ett sätt som är utformat för att skydda våra rättigheter och egendom och underlätta Webbplatsens korrekta funktion.",
-    "copyrightTitle": "9. Upphovsrätt och innehållsägande",
-    "copyrightCompliance": "Allt innehåll som publiceras på Tjänsterna måste följa amerikansk upphovsrättslagstiftning.",
-    "ipRights": "Vi gör inte anspråk på immateriella rättigheter över det material du tillhandahåller till Tjänsterna. Allt uppladdat material förblir ditt.",
-    "contentModeration": "Vi granskar inte innehåll i förväg, men förbehåller oss rätten (men inte skyldigheten) att efter eget gottfinnande vägra eller ta bort allt innehåll som finns tillgängligt via Tjänsten.",
-    "prohibitedExploitation": "Du godkänner att inte reproducera, duplicera, kopiera, sälja, vidareförsälja eller utnyttja någon del av Tjänsterna, användningen av Tjänsterna eller tillgången till Tjänsterna utan Företagets uttryckliga skriftliga tillstånd.",
-    "impersonationProhibition": "Du får inte modifiera en annan webbplats på ett sätt som felaktigt antyder att den är associerad med Tjänsterna eller Företaget.",
-    "dmcaPolicy": "Vi respekterar andras immateriella rättigheter. Om du anser att något material som finns tillgängligt på eller via Webbplatsen kränker någon upphovsrätt som du äger eller kontrollerar, vänligen kontakta oss omedelbart. En kopia av din Anmälan kommer att skickas till den person som publicerade eller lagrade det aktuella materialet. Var medveten om att enligt tillämplig lag kan du hållas ansvarig för skadestånd om du lämnar felaktiga uppgifter i en Anmälan. Om du inte är säker på om material som finns på eller länkas från Webbplatsen kränker din upphovsrätt bör du därför överväga att först kontakta en advokat.",
-    "prohibitedActivitiesTitle": "10. Förbjudna aktiviteter",
-    "generalProhibition": "Du får inte komma åt eller använda webbplatsen för något annat ändamål än det som vi gör webbplatsen tillgänglig för. Webbplatsen får inte användas i samband med några kommersiella verksamheter utom de som specifikt godkänts eller godkänts av oss.",
-    "userObligations": "Som användare av webbplatsen samtycker du till att inte:",
-    "dataScraping": "Systematiskt hämta data eller annat innehåll från webbplatsen för att skapa eller sammanställa, direkt eller indirekt, en samling, kompilering, databas eller katalog utan skriftligt tillstånd från oss.",
-    "fraud": "Lura, bedra eller vilseleda oss och andra användare, särskilt i något försök att få kännedom om känslig kontoinformation som användarlösenord.",
-    "securityInterference": "Kringgå, inaktivera eller på annat sätt störa säkerhetsrelaterade funktioner på webbplatsen, inklusive funktioner som förhindrar eller begränsar användningen eller kopieringen av innehåll eller tillämpar begränsningar för användningen av webbplatsen och/eller det innehåll som finns där.",
-    "defamation": "Förminska, fläcka eller på annat sätt skada, enligt vår åsikt, oss och/eller webbplatsen.",
-    "harassment": "Använda information från webbplatsen för att trakassera, misshandla eller skada en annan person.",
-    "supportAbuse": "Missbruka våra supporttjänster eller lämna falska rapporter om missbruk eller olämpligt beteende.",
-    "legalCompliance": "Använda webbplatsen på ett sätt som inte överensstämmer med tillämpliga lagar eller föreskrifter.",
-    "framingProhibition": "Delta i obehörig inramning eller länkning till webbplatsen.",
-    "malware": "Ladda upp eller överföra (eller försöka ladda upp eller överföra) virus, trojanska hästar eller annat material, inklusive överdriven användning av versaler och spam (kontinuerlig publicering av upprepande text), som stör någon parts ostörda användning och njutning av webbplatsen eller ändrar, försämrar, stör eller påverkar användningen, funktionerna, driften eller underhållet av webbplatsen.",
-    "automation": "Delta i automatiserad användning av systemet, såsom att använda skript för att skicka kommentarer eller meddelanden, eller använda datamining, robotar eller liknande verktyg för datainsamling och extrahering.",
-    "copyrightRemoval": "Ta bort upphovsrättsmeddelanden eller andra äganderättsmeddelanden från innehåll.",
-    "impersonation": "Försöka imitera en annan användare eller person eller använda ett annat användarnamn.",
-    "spyware": 'Ladda upp eller överföra (eller försöka ladda upp eller överföra) material som fungerar som en passiv eller aktiv informationsinsamlings- eller överföringsmekanism, inklusive men inte begränsat till clear graphics interchange formats ("gifs"), 1×1 pixlar, webbbuggar, cookies eller liknande enheter (ibland kallade "spionprogram" eller "passiva insamlingsmekanismer" eller "pcms").',
-    "disruption": "Störa, skapa en oskälig belastning på webbplatsen eller de nätverk eller tjänster som är anslutna till webbplatsen.",
-    "employeeHarassment": "Trakassera, irritera, hota eller skrämma våra anställda eller agenter som är engagerade i att tillhandahålla webbplatsen för dig.",
-    "accessCircumvention": "Försöka kringgå åtgärder på webbplatsen som är utformade för att förhindra eller begränsa åtkomst till webbplatsen eller en del av webbplatsen.",
-    "codeCopying": "Kopiera eller anpassa webbplatsens mjukvara, inklusive men inte begränsat till Flash, PHP, HTML, JavaScript eller annan kod.",
-    "reverseEngineering": "Utom som tillåtet av tillämplig lag, dechiffrera, dekompilera, disassemblera eller reverse-engineera någon av de programvaror som utgör eller på något sätt är en del av webbplatsen.",
-    "bots": "Utom som kan vara resultatet av standardanvändning av sökmotor eller webbläsare, använda, lansera, utveckla eller distribuera automatiserade system, inklusive men inte begränsat till spindlar, robotar, fuskverktyg, skrapare eller offline-läsare som kommer åt webbplatsen, eller använda eller lansera obehöriga skript eller annan programvara.",
-    "buyingAgents": "Använda en köpagent eller inköpsagent för att göra inköp på webbplatsen.",
-    "unauthorizedUse": "Göra obehörig användning av webbplatsen, inklusive att samla användarnamn och/eller e-postadresser från användare via elektroniska eller andra medel för att skicka oönskad e-post, eller skapa användarkonton via automatiserade medel eller under falska förespeglingar.",
-    "competition": "Använda webbplatsen som en del av någon ansträngning att konkurrera med oss eller på annat sätt använda webbplatsen och/eller innehållet för någon inkomstgenererande verksamhet eller kommersiellt företag.",
-    "advertising": "Använda webbplatsen för att annonsera eller erbjuda varor och tjänster till försäljning.",
-    "profileTransfer": "Sälja eller på annat sätt överföra din profil.",
-    "featuresTitle": "11. Funktioner och buggar",
-    "featuresDescription": "Vi utformar våra tjänster med omsorg, baserat på vår egen erfarenhet och erfarenheter från kunder som delar sin tid och feedback. Men det finns ingen tjänst som passar alla. Vi ger inga garantier för att våra tjänster kommer att uppfylla dina specifika krav eller förväntningar.",
-    "bugsDescription": "Vi testar också alla våra funktioner innan de lanseras. Som med all programvara har våra tjänster oundvikligen vissa buggar. Vi spårar de buggar som rapporteras till oss och arbetar med dem, särskilt de som rör säkerhet eller integritet. Inte alla rapporterade buggar kommer att åtgärdas och vi garanterar inte helt felfria tjänster.",
-    "correctionsTitle": "12. Rättelser",
-    "informationAccuracy": "Det kan finnas information på webbplatsen som innehåller tryckfel, felaktigheter eller utelämnanden, inklusive beskrivningar, priser, tillgänglighet och annan information. Vi förbehåller oss rätten att rätta till fel, felaktigheter eller utelämnanden och att ändra eller uppdatera informationen på webbplatsen när som helst utan föregående meddelande.",
-    "siteAvailability": "Vi kan inte garantera att webbplatsen alltid är tillgänglig. Vi kan uppleva hårdvaru-, mjukvaru- eller andra problem eller behöva utföra underhåll relaterat till webbplatsen, vilket kan leda till avbrott, förseningar eller fel. Vi förbehåller oss rätten att ändra, revidera, uppdatera, avbryta eller på annat sätt modifiera webbplatsen när som helst eller av någon anledning utan meddelande till dig. Du samtycker till att vi inte har något ansvar för förlust, skada eller olägenhet orsakad av din oförmåga att komma åt eller använda webbplatsen under driftstopp eller avbrott. Ingenting i dessa användarvillkor ska tolkas som att vi är skyldiga att underhålla och stödja webbplatsen eller tillhandahålla rättelser, uppdateringar eller versioner i samband med denna.",
-    "userDataTitle": "13. Användardata",
-    "userDataDescription": "Vi kommer att bevara viss data som du överför till webbplatsen för att hantera webbplatsens prestanda, samt data relaterade till din användning av webbplatsen. Även om vi regelbundet säkerhetskopierar data, är du ensam ansvarig för all data som du överför eller som rör aktiviteter du har utfört med hjälp av webbplatsen. Du samtycker till att vi inte har något ansvar för förlust eller korruption av sådan data, och du avstår härmed från alla rättsliga åtgärder mot oss som uppstår på grund av sådan förlust eller korruption.",
-    "privacyPolicyTitle": "14. Integritetspolicy",
-    "liabilityTitle": "15. Ansvar",
-    "liabilityIntroduction": "Vi nämner ansvar i dessa villkor men sammanfattar allt i detta avsnitt:",
-    "liabilityWaiver": "Du förstår och samtycker uttryckligen till att Företaget inte ska vara ansvarigt, enligt lag eller rättvisa, mot dig eller någon tredje part för direkta, indirekta, tillfälliga, förlorade vinster, särskilda, följd-, straff- eller exemplariska skador, inklusive men inte begränsat till skador för förlust av vinster, goodwill, användning, data eller andra immateriella förluster (även om Företaget har informerats om möjligheten till sådana skador), som uppstår från: (1) användning eller oförmåga att använda tjänsterna; (2) fel, misstag eller felaktigheter i innehåll och material; (3) personskada eller egendomsskada av någon art som helst, som uppstår från din åtkomst till och användning av webbplatsen; (4) kostnaden för anskaffning av ersättningsvaror och tjänster som uppstår från varor, data, information eller tjänster som köpts eller erhållits eller meddelanden som mottagits eller transaktioner som ingåtts via eller från tjänsterna; (5) obehörig åtkomst till eller användning av våra säkra servrar och/eller all personlig och/eller finansiell information som lagras där; (6) avbrott eller upphörande av överföring till eller från webbplatsen; (7) buggar, virus, trojanska hästar eller liknande som kan överföras till eller via webbplatsen av någon tredje part, och/eller; (8) fel eller utelämnanden i innehåll och material eller förlust eller skada av något slag som uppstår från användning av innehåll som publicerats, överförts eller annars gjorts tillgängligt via webbplatsen; (9) uttalanden eller beteende från någon tredje part i tjänsten; (10) eller någon annan fråga relaterad till dessa användarvillkor eller tjänsterna, oavsett om det är ett avtalsbrott, skadestånd (inklusive vårdslöshet, aktiv eller passiv), eller någon annan ansvarsteori.",
-    "miscellaneousTitle": "16. Diverse",
-    "miscellaneousDescription": "Dessa användarvillkor och eventuella policyer eller driftregler som vi publicerar på webbplatsen eller i förhållande till webbplatsen utgör hela avtalet och förståelsen mellan dig och oss. Vår underlåtenhet att utöva eller verkställa någon rättighet eller bestämmelse i dessa användarvillkor ska inte tolkas som ett avstående från sådan rättighet eller bestämmelse. Dessa användarvillkor gäller i den utsträckning som lagen tillåter. Vi kan överlåta alla eller några av våra rättigheter och skyldigheter till andra när som helst. Vi ska inte vara ansvariga eller skyldiga för förlust, skada, försening eller underlåtenhet att agera orsakad av någon omständighet utanför vår rimliga kontroll. Om någon bestämmelse eller del av en bestämmelse i dessa användarvillkor anses vara olaglig, ogiltig eller ogenomförbar, ska den bestämmelsen eller delen anses vara avskiljbar från dessa användarvillkor och påverka inte giltigheten eller genomförbarheten av återstående bestämmelser. Inget joint venture, partnerskap, anställnings- eller agentförhållande skapas mellan dig och oss som ett resultat av dessa användarvillkor eller användning av webbplatsen. Du samtycker till att dessa användarvillkor inte ska tolkas till vår nackdel på grund av att vi har utformat dem. Du avstår härmed från alla försvar du kan ha baserat på den elektroniska formen av dessa användarvillkor och frånvaron av underskrifter från parterna för att verkställa dessa användarvillkor.",
-    "contactTitle": "17. Kontakta oss",
-    "site": "Webbplats",
-    "services": "Tjänster",
+    subtitle:
+      "Läs noggrant igenom dessa villkor innan du använder våra tjänster",
+    lastUpdated: "Senast uppdaterad: {date}",
+    lastUpdatedDate: "21 juli 2025",
+    termsOfServiceTitle: "Användarvillkor",
+    thankYou: "Tack för att du använder våra produkter!",
+    servicesDefinition:
+      'När vi säger "Tjänster" menar vi alla produkter som skapats och underhålls av NeverCap, oavsett om de levereras via en webbläsare, skrivbordsapplikation, mobilapplikation eller annat format.',
+    termsUpdate:
+      "Vi kan uppdatera dessa Användarvillkor i framtiden. Vanligtvis har ändringarna gjorts för att klargöra vissa villkor genom att länka till en utökad relaterad policy. När vi gör en betydande ändring av våra policyer uppdaterar vi datumet högst upp på denna sida och vidtar lämpliga åtgärder för att meddela kontoinnehavare.",
+    acceptanceTitle: "1. Godkännande av avtal",
+    acceptanceDescription1:
+      "Genom att använda våra Tjänster godkänner du detta Avtal, som därmed blir ett bindande avtal mellan dig och NeverCap. Du intygar att du har rättslig kapacitet att godkänna dessa Villkor och bekräftar att du är myndig att ingå bindande avtal. NeverCaps godkännande är uttryckligen beroende av ditt samtycke till alla villkor i detta Avtal.",
+    eligibilityRequirement:
+      "Tjänsterna är inte avsedda för och bör inte användas av någon under 18 år. Genom att använda Tjänsterna intygar och garanterar du att du uppfyller ovanstående behörighetskrav.",
+    userResponsibility:
+      'Termerna "du", "din", "dig" inkluderar även dina anställda, ombud, företagsrepresentanter och andra personer som du ger tillgång till Tjänsterna via ditt Konto (enligt definitionen nedan). Du ansvarar för att alla som använder Tjänsterna via ditt konto känner till och följer dessa Villkor.',
+    termsRevision:
+      "NeverCap förbehåller sig rätten att när som helst efter eget gottfinnande revidera och uppdatera dessa Villkor. Alla ändringar träder i kraft omedelbart efter publicering. Din fortsatta användning av Tjänsterna efter publicering av reviderade Villkor innebär att du accepterar och godkänner ändringarna. Du bör regelbundet kontrollera denna sida för att vara medveten om eventuella ändringar, eftersom de är bindande för dig.",
+    servicesTitle: "2. NeverCaps tjänster",
+    servicesDescription1:
+      "Våra Tjänster gör det möjligt för användare att omvandla röstkonversationer till transkriberad text som kan sökas, översättas och delas med andra.",
+    servicesOptions:
+      'Du kan välja att använda den kostnadsfria versionen av Tjänsterna ("Gratistjänster") eller den prenumerationsbaserade betalversionen av Tjänsterna där du kan behöva betala avgifter ("Betaltjänster").',
+    servicesAccess:
+      "Vi kommer att göra Tjänsterna tillgängliga för dig. Du ansvarar för alla arrangemang som krävs för att du ska ha tillgång till Tjänsterna.",
+    accountTermsTitle: "3. Kontovillkor",
+    accountSecurity:
+      "Du ansvarar för att upprätthålla säkerheten för ditt konto. Företaget kan inte och kommer inte att vara ansvarigt för eventuella förluster eller skador som uppstår på grund av att du inte följer detta säkerhetskrav.",
+    lawfulUse:
+      "Du får inte använda Tjänsterna för olagliga, oetiska eller omoraliska ändamål.",
+    contentResponsibility:
+      "Du ansvarar för allt innehåll och all aktivitet som sker under ditt konto. Detta inkluderar innehåll som publiceras av andra som antingen: (a) har tillgång till dina inloggningsuppgifter; eller (b) har egna inloggningar under ditt konto.",
+    humanRequirement:
+      'Du måste vara en människa. Konton som registreras av "bots" eller andra automatiserade metoder är inte tillåtna.',
+    paymentTitle: "4. Betalning, återbetalningar och planändringar",
+    freeTrial:
+      "För betaltjänster som erbjuder en gratis provperiod förklarar vi provperiodens längd när du registrerar dig. Efter provperioden måste du betala i förväg för att fortsätta använda Tjänsten. Om du inte betalar kommer dessa tjänster att upphöra.",
+    upgradePolicy:
+      "Om du uppgraderar från en gratis plan till en betalplan debiterar vi ditt kort omedelbart och din faktureringsperiod börjar på uppgraderingsdagen.",
+    taxes:
+      "Alla avgifter är exklusive skatter, avgifter eller tullar som påförs av skattemyndigheter. Där det krävs kommer vi att samla in dessa skatter på uppdrag av skattemyndigheten och överföra dem till skattemyndigheterna. Annars ansvarar du för betalning av alla skatter, avgifter eller tullar.",
+    refunds:
+      "Alla köp är icke-återbetalningsbara. Du kan när som helst avbryta betalda tjänster genom att logga in på ditt konto. För betalprenumerationer träder din uppsägning i kraft vid slutet av den aktuella betalda perioden, om inte annat anges.",
+    cancellationTitle: "5. Uppsägning och avslut",
+    cancellationPolicy:
+      "Om du säger upp Tjänsten innan den betalda tiden löper ut träder uppsägningen i kraft omedelbart och du kommer inte att debiteras igen. Vi gör inte automatiskt en proportionell återbetalning för oanvänd tid under den sista faktureringsperioden.",
+    terminationRights:
+      "Vi har rätt att när som helst av vilken anledning som helst suspendera eller avsluta ditt konto och vägra all nuvarande eller framtida användning av våra Tjänster. Suspension innebär att du inte kommer att kunna komma åt kontot eller något innehåll i kontot. Avslut kommer dessutom att resultera i radering av ditt konto eller din åtkomst till ditt konto samt förverkande och avstående av allt innehåll i ditt konto. Vi förbehåller oss även rätten att när som helst av vilken anledning som helst vägra användning av Tjänsterna för vem som helst. Vi har denna klausul eftersom det statistiskt sett, bland hundratusentals konton på våra Tjänster, finns minst ett som gör något skadligt.",
+    abusePolicy:
+      "Verbala, fysiska, skriftliga eller andra former av misshandel (inklusive hot om misshandel eller vedergällning) mot företagets anställda eller befattningshavare kan leda till omedelbar kontouppsägning.",
+    submissionsTitle: "6. Inlämningar",
+    submissionsDescription:
+      'Du erkänner och godkänner att alla frågor, kommentarer, förslag, idéer, feedback eller annan information om Webbplatsen ("Inlämningar") som du lämnar till oss är icke-konfidentiella och blir vår ensakliga egendom. Vi ska äga exklusiva rättigheter, inklusive alla immateriella rättigheter, och ska vara berättigade till obegränsad användning och spridning av dessa Inlämningar för alla lagliga ändamål, kommersiella eller andra, utan erkännande eller ersättning till dig. Härmed avstår du från alla moraliska rättigheter till sådana Inlämningar, och du intygar härmed att sådana Inlämningar är original av dig eller att du har rätt att lämna in sådana Inlämningar. Du godkänner att vi inte kan hållas ansvariga för eventuell eller faktisk intrång eller tillägnelse av någon äganderätt i dina Inlämningar.',
+    uptimeTitle: "7. Upptid och säkerhet",
+    serviceAvailability:
+      'Din användning av Tjänsterna sker på egen risk. Vi tillhandahåller dessa Tjänster i befintligt skick ("as is") och "tillgängliga" ("as available"). Vi erbjuder inte servicenivåavtal för de flesta av våra Tjänster, men tar våra applikationers upptid på allvar.',
+    throttlingPolicy:
+      "Vi förbehåller oss rätten att tillfälligt begränsa eller minska kontots åtkomst i sällsynta fall där en användares aktivitet verifieras påverka Tjänstens stabilitet och prestanda negativt för andra användare. I alla utom de mest kritiska fallen kommer vi att kontakta dig för att hitta en lösning innan vi vidtar åtgärder.",
+    dataSecurity:
+      "Vi vidtar många åtgärder för att skydda och säkra dina data genom säkerhetskopieringar, redundans och kryptering. Vi tillämpar kryptering för dataöverföring över det offentliga internet.",
+    thirdPartyVendors:
+      "Vi använder tredjepartsleverantörer och hostingpartners för att tillhandahålla den nödvändiga hårdvaran, mjukvaran, nätverket, lagringen och relaterad teknik som krävs för att driva Tjänsterna.",
+    siteManagementTitle: "8. Webbplatshantering",
+    siteManagementDescription:
+      "Vi förbehåller oss rätten, men inte skyldigheten, att: (1) övervaka Webbplatsen för brott mot dessa Användarvillkor; (2) vidta lämpliga rättsliga åtgärder mot den som, efter vårt gottfinnande, bryter mot lagen eller dessa Användarvillkor, inklusive men inte begränsat till att rapportera sådan användare till rättsliga myndigheter; (3) efter vårt gottfinnande och utan begränsning vägra, begränsa åtkomsten till, begränsa tillgängligheten för eller inaktivera (i den utsträckning som är tekniskt möjligt) några av dina Bidrag eller delar därav; (4) efter vårt gottfinnande och utan begränsning, meddelande eller ansvar, ta bort från Webbplatsen eller på annat sätt inaktivera alla filer och innehåll som är för stora i storlek eller på något sätt belastar våra system; och (5) på annat sätt hantera Webbplatsen på ett sätt som är utformat för att skydda våra rättigheter och egendom och underlätta Webbplatsens korrekta funktion.",
+    copyrightTitle: "9. Upphovsrätt och innehållsägande",
+    copyrightCompliance:
+      "Allt innehåll som publiceras på Tjänsterna måste följa amerikansk upphovsrättslagstiftning.",
+    ipRights:
+      "Vi gör inte anspråk på immateriella rättigheter över det material du tillhandahåller till Tjänsterna. Allt uppladdat material förblir ditt.",
+    contentModeration:
+      "Vi granskar inte innehåll i förväg, men förbehåller oss rätten (men inte skyldigheten) att efter eget gottfinnande vägra eller ta bort allt innehåll som finns tillgängligt via Tjänsten.",
+    prohibitedExploitation:
+      "Du godkänner att inte reproducera, duplicera, kopiera, sälja, vidareförsälja eller utnyttja någon del av Tjänsterna, användningen av Tjänsterna eller tillgången till Tjänsterna utan Företagets uttryckliga skriftliga tillstånd.",
+    impersonationProhibition:
+      "Du får inte modifiera en annan webbplats på ett sätt som felaktigt antyder att den är associerad med Tjänsterna eller Företaget.",
+    dmcaPolicy:
+      "Vi respekterar andras immateriella rättigheter. Om du anser att något material som finns tillgängligt på eller via Webbplatsen kränker någon upphovsrätt som du äger eller kontrollerar, vänligen kontakta oss omedelbart. En kopia av din Anmälan kommer att skickas till den person som publicerade eller lagrade det aktuella materialet. Var medveten om att enligt tillämplig lag kan du hållas ansvarig för skadestånd om du lämnar felaktiga uppgifter i en Anmälan. Om du inte är säker på om material som finns på eller länkas från Webbplatsen kränker din upphovsrätt bör du därför överväga att först kontakta en advokat.",
+    prohibitedActivitiesTitle: "10. Förbjudna aktiviteter",
+    generalProhibition:
+      "Du får inte komma åt eller använda webbplatsen för något annat ändamål än det som vi gör webbplatsen tillgänglig för. Webbplatsen får inte användas i samband med några kommersiella verksamheter utom de som specifikt godkänts eller godkänts av oss.",
+    userObligations: "Som användare av webbplatsen samtycker du till att inte:",
+    dataScraping:
+      "Systematiskt hämta data eller annat innehåll från webbplatsen för att skapa eller sammanställa, direkt eller indirekt, en samling, kompilering, databas eller katalog utan skriftligt tillstånd från oss.",
+    fraud:
+      "Lura, bedra eller vilseleda oss och andra användare, särskilt i något försök att få kännedom om känslig kontoinformation som användarlösenord.",
+    securityInterference:
+      "Kringgå, inaktivera eller på annat sätt störa säkerhetsrelaterade funktioner på webbplatsen, inklusive funktioner som förhindrar eller begränsar användningen eller kopieringen av innehåll eller tillämpar begränsningar för användningen av webbplatsen och/eller det innehåll som finns där.",
+    defamation:
+      "Förminska, fläcka eller på annat sätt skada, enligt vår åsikt, oss och/eller webbplatsen.",
+    harassment:
+      "Använda information från webbplatsen för att trakassera, misshandla eller skada en annan person.",
+    supportAbuse:
+      "Missbruka våra supporttjänster eller lämna falska rapporter om missbruk eller olämpligt beteende.",
+    legalCompliance:
+      "Använda webbplatsen på ett sätt som inte överensstämmer med tillämpliga lagar eller föreskrifter.",
+    framingProhibition:
+      "Delta i obehörig inramning eller länkning till webbplatsen.",
+    malware:
+      "Ladda upp eller överföra (eller försöka ladda upp eller överföra) virus, trojanska hästar eller annat material, inklusive överdriven användning av versaler och spam (kontinuerlig publicering av upprepande text), som stör någon parts ostörda användning och njutning av webbplatsen eller ändrar, försämrar, stör eller påverkar användningen, funktionerna, driften eller underhållet av webbplatsen.",
+    automation:
+      "Delta i automatiserad användning av systemet, såsom att använda skript för att skicka kommentarer eller meddelanden, eller använda datamining, robotar eller liknande verktyg för datainsamling och extrahering.",
+    copyrightRemoval:
+      "Ta bort upphovsrättsmeddelanden eller andra äganderättsmeddelanden från innehåll.",
+    impersonation:
+      "Försöka imitera en annan användare eller person eller använda ett annat användarnamn.",
+    spyware:
+      'Ladda upp eller överföra (eller försöka ladda upp eller överföra) material som fungerar som en passiv eller aktiv informationsinsamlings- eller överföringsmekanism, inklusive men inte begränsat till clear graphics interchange formats ("gifs"), 1×1 pixlar, webbbuggar, cookies eller liknande enheter (ibland kallade "spionprogram" eller "passiva insamlingsmekanismer" eller "pcms").',
+    disruption:
+      "Störa, skapa en oskälig belastning på webbplatsen eller de nätverk eller tjänster som är anslutna till webbplatsen.",
+    employeeHarassment:
+      "Trakassera, irritera, hota eller skrämma våra anställda eller agenter som är engagerade i att tillhandahålla webbplatsen för dig.",
+    accessCircumvention:
+      "Försöka kringgå åtgärder på webbplatsen som är utformade för att förhindra eller begränsa åtkomst till webbplatsen eller en del av webbplatsen.",
+    codeCopying:
+      "Kopiera eller anpassa webbplatsens mjukvara, inklusive men inte begränsat till Flash, PHP, HTML, JavaScript eller annan kod.",
+    reverseEngineering:
+      "Utom som tillåtet av tillämplig lag, dechiffrera, dekompilera, disassemblera eller reverse-engineera någon av de programvaror som utgör eller på något sätt är en del av webbplatsen.",
+    bots: "Utom som kan vara resultatet av standardanvändning av sökmotor eller webbläsare, använda, lansera, utveckla eller distribuera automatiserade system, inklusive men inte begränsat till spindlar, robotar, fuskverktyg, skrapare eller offline-läsare som kommer åt webbplatsen, eller använda eller lansera obehöriga skript eller annan programvara.",
+    buyingAgents:
+      "Använda en köpagent eller inköpsagent för att göra inköp på webbplatsen.",
+    unauthorizedUse:
+      "Göra obehörig användning av webbplatsen, inklusive att samla användarnamn och/eller e-postadresser från användare via elektroniska eller andra medel för att skicka oönskad e-post, eller skapa användarkonton via automatiserade medel eller under falska förespeglingar.",
+    competition:
+      "Använda webbplatsen som en del av någon ansträngning att konkurrera med oss eller på annat sätt använda webbplatsen och/eller innehållet för någon inkomstgenererande verksamhet eller kommersiellt företag.",
+    advertising:
+      "Använda webbplatsen för att annonsera eller erbjuda varor och tjänster till försäljning.",
+    profileTransfer: "Sälja eller på annat sätt överföra din profil.",
+    featuresTitle: "11. Funktioner och buggar",
+    featuresDescription:
+      "Vi utformar våra tjänster med omsorg, baserat på vår egen erfarenhet och erfarenheter från kunder som delar sin tid och feedback. Men det finns ingen tjänst som passar alla. Vi ger inga garantier för att våra tjänster kommer att uppfylla dina specifika krav eller förväntningar.",
+    bugsDescription:
+      "Vi testar också alla våra funktioner innan de lanseras. Som med all programvara har våra tjänster oundvikligen vissa buggar. Vi spårar de buggar som rapporteras till oss och arbetar med dem, särskilt de som rör säkerhet eller integritet. Inte alla rapporterade buggar kommer att åtgärdas och vi garanterar inte helt felfria tjänster.",
+    correctionsTitle: "12. Rättelser",
+    informationAccuracy:
+      "Det kan finnas information på webbplatsen som innehåller tryckfel, felaktigheter eller utelämnanden, inklusive beskrivningar, priser, tillgänglighet och annan information. Vi förbehåller oss rätten att rätta till fel, felaktigheter eller utelämnanden och att ändra eller uppdatera informationen på webbplatsen när som helst utan föregående meddelande.",
+    siteAvailability:
+      "Vi kan inte garantera att webbplatsen alltid är tillgänglig. Vi kan uppleva hårdvaru-, mjukvaru- eller andra problem eller behöva utföra underhåll relaterat till webbplatsen, vilket kan leda till avbrott, förseningar eller fel. Vi förbehåller oss rätten att ändra, revidera, uppdatera, avbryta eller på annat sätt modifiera webbplatsen när som helst eller av någon anledning utan meddelande till dig. Du samtycker till att vi inte har något ansvar för förlust, skada eller olägenhet orsakad av din oförmåga att komma åt eller använda webbplatsen under driftstopp eller avbrott. Ingenting i dessa användarvillkor ska tolkas som att vi är skyldiga att underhålla och stödja webbplatsen eller tillhandahålla rättelser, uppdateringar eller versioner i samband med denna.",
+    userDataTitle: "13. Användardata",
+    userDataDescription:
+      "Vi kommer att bevara viss data som du överför till webbplatsen för att hantera webbplatsens prestanda, samt data relaterade till din användning av webbplatsen. Även om vi regelbundet säkerhetskopierar data, är du ensam ansvarig för all data som du överför eller som rör aktiviteter du har utfört med hjälp av webbplatsen. Du samtycker till att vi inte har något ansvar för förlust eller korruption av sådan data, och du avstår härmed från alla rättsliga åtgärder mot oss som uppstår på grund av sådan förlust eller korruption.",
+    privacyPolicyTitle: "14. Integritetspolicy",
+    liabilityTitle: "15. Ansvar",
+    liabilityIntroduction:
+      "Vi nämner ansvar i dessa villkor men sammanfattar allt i detta avsnitt:",
+    liabilityWaiver:
+      "Du förstår och samtycker uttryckligen till att Företaget inte ska vara ansvarigt, enligt lag eller rättvisa, mot dig eller någon tredje part för direkta, indirekta, tillfälliga, förlorade vinster, särskilda, följd-, straff- eller exemplariska skador, inklusive men inte begränsat till skador för förlust av vinster, goodwill, användning, data eller andra immateriella förluster (även om Företaget har informerats om möjligheten till sådana skador), som uppstår från: (1) användning eller oförmåga att använda tjänsterna; (2) fel, misstag eller felaktigheter i innehåll och material; (3) personskada eller egendomsskada av någon art som helst, som uppstår från din åtkomst till och användning av webbplatsen; (4) kostnaden för anskaffning av ersättningsvaror och tjänster som uppstår från varor, data, information eller tjänster som köpts eller erhållits eller meddelanden som mottagits eller transaktioner som ingåtts via eller från tjänsterna; (5) obehörig åtkomst till eller användning av våra säkra servrar och/eller all personlig och/eller finansiell information som lagras där; (6) avbrott eller upphörande av överföring till eller från webbplatsen; (7) buggar, virus, trojanska hästar eller liknande som kan överföras till eller via webbplatsen av någon tredje part, och/eller; (8) fel eller utelämnanden i innehåll och material eller förlust eller skada av något slag som uppstår från användning av innehåll som publicerats, överförts eller annars gjorts tillgängligt via webbplatsen; (9) uttalanden eller beteende från någon tredje part i tjänsten; (10) eller någon annan fråga relaterad till dessa användarvillkor eller tjänsterna, oavsett om det är ett avtalsbrott, skadestånd (inklusive vårdslöshet, aktiv eller passiv), eller någon annan ansvarsteori.",
+    miscellaneousTitle: "16. Diverse",
+    miscellaneousDescription:
+      "Dessa användarvillkor och eventuella policyer eller driftregler som vi publicerar på webbplatsen eller i förhållande till webbplatsen utgör hela avtalet och förståelsen mellan dig och oss. Vår underlåtenhet att utöva eller verkställa någon rättighet eller bestämmelse i dessa användarvillkor ska inte tolkas som ett avstående från sådan rättighet eller bestämmelse. Dessa användarvillkor gäller i den utsträckning som lagen tillåter. Vi kan överlåta alla eller några av våra rättigheter och skyldigheter till andra när som helst. Vi ska inte vara ansvariga eller skyldiga för förlust, skada, försening eller underlåtenhet att agera orsakad av någon omständighet utanför vår rimliga kontroll. Om någon bestämmelse eller del av en bestämmelse i dessa användarvillkor anses vara olaglig, ogiltig eller ogenomförbar, ska den bestämmelsen eller delen anses vara avskiljbar från dessa användarvillkor och påverka inte giltigheten eller genomförbarheten av återstående bestämmelser. Inget joint venture, partnerskap, anställnings- eller agentförhållande skapas mellan dig och oss som ett resultat av dessa användarvillkor eller användning av webbplatsen. Du samtycker till att dessa användarvillkor inte ska tolkas till vår nackdel på grund av att vi har utformat dem. Du avstår härmed från alla försvar du kan ha baserat på den elektroniska formen av dessa användarvillkor och frånvaron av underskrifter från parterna för att verkställa dessa användarvillkor.",
+    contactTitle: "17. Kontakta oss",
+    site: "Webbplats",
+    services: "Tjänster",
     at: "på",
-    trademarkProtection: "Namn, utseende och känsla av Tjänsterna är upphovsrättsligt skyddade © av Företaget. Alla rättigheter förbehålls. Du får inte duplicera, kopiera eller återanvända någon del av HTML, CSS, JavaScript eller visuella designelement utan uttryckligt skriftligt tillstånd från Företaget. Du måste begära tillstånd för att använda Företagets logotyp eller tjänstlogotyper för marknadsföringssyften. Vänligen skicka förfrågningar om logoanvändning till oss {at} {email}. Vi förbehåller oss rätten att återkalla detta tillstånd om du bryter mot dessa Användarvillkor.",
-    privacyPolicyDescription: "Vi bryr oss om dataprivacy och säkerhet. Läs vår {policy}. Genom att använda Webbplatsen godkänner du vår Integritetspolicy, som ingår i dessa Användarvillkor. Observera att Webbplatsen finns i USA. Om du ansluter till Webbplatsen från andra delar av världen med lagar eller krav om insamling, användning eller delning av personuppgifter som skiljer sig från amerikansk lag, så överför du genom fortsatt användning av Webbplatsen dina data till USA och godkänner att dina data överförs och behandlas där.",
-    contactDescription: "Om du har frågor om något av Användarvillkoren, vänligen kontakta oss {at} {email}.",
-    "companyDefinitionA": 'När vi säger "Företag", "vi", "vår" eller "oss" i detta dokument, syftar vi på {NeverCap}.'
+    trademarkProtection:
+      "Namn, utseende och känsla av Tjänsterna är upphovsrättsligt skyddade © av Företaget. Alla rättigheter förbehålls. Du får inte duplicera, kopiera eller återanvända någon del av HTML, CSS, JavaScript eller visuella designelement utan uttryckligt skriftligt tillstånd från Företaget. Du måste begära tillstånd för att använda Företagets logotyp eller tjänstlogotyper för marknadsföringssyften. Vänligen skicka förfrågningar om logoanvändning till oss {at} {email}. Vi förbehåller oss rätten att återkalla detta tillstånd om du bryter mot dessa Användarvillkor.",
+    privacyPolicyDescription:
+      "Vi bryr oss om dataprivacy och säkerhet. Läs vår {policy}. Genom att använda Webbplatsen godkänner du vår Integritetspolicy, som ingår i dessa Användarvillkor. Observera att Webbplatsen finns i USA. Om du ansluter till Webbplatsen från andra delar av världen med lagar eller krav om insamling, användning eller delning av personuppgifter som skiljer sig från amerikansk lag, så överför du genom fortsatt användning av Webbplatsen dina data till USA och godkänner att dina data överförs och behandlas där.",
+    contactDescription:
+      "Om du har frågor om något av Användarvillkoren, vänligen kontakta oss {at} {email}.",
+    companyDefinitionA:
+      'När vi säger "Företag", "vi", "vår" eller "oss" i detta dokument, syftar vi på {NeverCap}.'
   },
   Blog: {
     Hero: {
-      "title": "Bli en",
-      "highlighted_text": "Transkriptionsguiden",
-      "description": "Handledningar, strategier och AI-verktyg från {NeverCap} som hjälper dig att skapa obegränsat innehåll med professionella transkriptionsarbetsflöden."
+      title: "Bli en",
+      highlighted_text: "Transkriptionsguiden",
+      description:
+        "Handledningar, strategier och AI-verktyg från {NeverCap} som hjälper dig att skapa obegränsat innehåll med professionella transkriptionsarbetsflöden."
     },
     Featured: {
       FeaturedGuide: "Utvald guide",

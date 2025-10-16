@@ -95,6 +95,7 @@ export const downloadVideo = (emit: any) => {
         return;
       }
       loading.value = true;
+      simulateProgress(file);
       const { downloadFileApi } = await import("~/api/youtubeTomp4");
       const { createFileByLink } = downloadFileApi;
       const idObj = await createFileByLink({
@@ -103,7 +104,6 @@ export const downloadVideo = (emit: any) => {
       });
       //
       file.localRequestId = idObj.id;
-      simulateProgress(file);
       const res = (await fetchFileUploadStatus(idObj.id, file)) as any;
 
       emit("download-click", res);

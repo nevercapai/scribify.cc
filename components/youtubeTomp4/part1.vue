@@ -9,7 +9,7 @@
     >
       <el-input
         v-model="link"
-        class="!h-[2.75rem]"
+        class="link-input !h-[2.75rem]"
         :class="{ link }"
         :placeholder="$i('placeholder')"
       />
@@ -168,7 +168,7 @@ const handleHowDownload = () => {
     border-right: 0;
   }
 }
-[dir="rtl"] .link {
+[dir="rtl"] .link-input {
   :deep(.el-input__wrapper) {
     border-radius: 0 0.5rem 0.5rem 0 !important;
   }

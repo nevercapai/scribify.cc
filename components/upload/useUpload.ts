@@ -195,7 +195,7 @@ export const useUpload = () => {
     return collectEvent;
   };
   // 初始化
-  const initUpload = async (file: UploadFile) => {
+  const initUpload = async (file: UploadFile, { openType = 2 } = {}) => {
     const fileName = file.name;
     const commonParams = {
       fileName,
@@ -249,6 +249,8 @@ export const useUpload = () => {
           // 上传成功上报
           collectEvent({
             ...commonParams,
+            openType,
+            bucketId: file.bucket,
             uploadTime: durationSec
           });
           resolve(true);
@@ -327,7 +329,7 @@ export const useUpload = () => {
     });
   };
 
-  const createFileObject = (file: File): UploadFile => {
+  const createFileObject = (file: File, opts = {}): UploadFile => {
     const obj = {
       id: Date.now() + file.name,
       file,
@@ -340,7 +342,8 @@ export const useUpload = () => {
       __isDelIng: false,
       uploadId: "",
       key: "",
-      uploadText: ""
+      uploadText: "",
+      ...opts
     } as UploadFile;
     if ((file as any).localFileSize) {
       obj.size = (file as any).localFileSize;

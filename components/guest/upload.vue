@@ -212,14 +212,15 @@ const handleRecord = (item: any) => {
       new File([item.audioBlob!], item.recordTitle, {
         type: "audio/mp3", // 根据实际格式调整（如 'audio/mp3'）
         lastModified: Date.now() // 可选：设置最后修改时间
-      })
+      }),
+      { openType: 2 }
     )
   ];
 };
 watchEffect(async () => {
   if (!tableData.value.length) {
     tableData.value = selectRawFiles.value.map((file) =>
-      createFileObject(reactive(file))
+      createFileObject(reactive(file), { openType: 1 })
     );
   }
 });
@@ -268,7 +269,7 @@ watch(
 
     for (const file of tableData.value) {
       if (file.status !== "pending") break;
-      initUpload(reactive(file));
+      initUpload(reactive(file), { openType: file.openType });
     }
   }
 );

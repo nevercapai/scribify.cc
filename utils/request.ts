@@ -45,6 +45,10 @@ function responseReport(res: any) {
     status: response?.status,
     statusText: response?.statusText
   };
+  if (obj['接口超时多少上报'] && !obj['服务端debugID']) {
+    console.log('11-------', res);
+    debugger;
+  }
   if (resTime > compareTime) {
     reportSystemError(obj);
   }

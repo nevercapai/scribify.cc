@@ -105,10 +105,6 @@ export function useErrorReporting() {
       } catch (err) {
         navigator.sendBeacon(webhook, JSON.stringify(res));
       }
-      if (params['接口超时多少上报'] && !params['服务端debugID']) {
-        console.log(params, '2222222-------', res);
-        debugger;
-      }
     }
     logArr.value = [];
     for (const [label, value] of Object.entries(params)) {

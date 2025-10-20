@@ -45,9 +45,6 @@ function responseReport(res: any) {
     status: response?.status,
     statusText: response?.statusText
   };
-  if (obj['接口超时多少上报'] && !obj['服务端debugID']) {
-    debugger;
-  }
   if (resTime > compareTime) {
     reportSystemError(obj);
   }
@@ -91,17 +88,6 @@ const request = ofetch.create({
   // 响应拦截
   onResponse(res) {
     try {
-      console.log('--------------------begin---x-debug-request-id---------------')
-      console.log(res.response.headers?.get("x-debug-request-id"));
-      console.log('--------------------options------------------------------')
-      for (let item of res.options.headers.entries()) {
-        console.log(item[0], item[1]);
-      }
-      console.log('--------------------response------------------------------')
-      for (let item of res.response.headers.entries()) {
-        console.log(item[0], item[1]);
-      }
-      console.log('--------------------end---响应拦截---------------')
       responseReport(res);
     } catch (error) {
       console.log("🍎🍎 onResponse responseReport ~ error:", error);

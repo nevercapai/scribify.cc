@@ -24,7 +24,7 @@
       <ol
         class="max-w-[38.75rem] text-start text-[1.375rem] leading-[1.875rem] md:flex-[0_0_62%] md:basis-[62%] md:text-lg"
       >
-        <li v-for="(item, index) of 5" :key="index + 1">
+        <li v-for="(item, index) of 5" :key="index + 1" class="mb-[1rem]">
           <span>{{ index + 1 }}. </span>
           <span class="font-semibold">
             {{ $i(`list[${index}].title`) }}

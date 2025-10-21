@@ -2751,9 +2751,9 @@ let message = {
       part1: {
         title: "Convert YouTube Videos to MP3",
         title_des: "Extract audio from YouTube videos in seconds",
-        placeholder: "Search or paste your Youtube link here",
+        placeholder: "Paste your Youtube link here",
         clear_icon: "Clear input", // 图标功能描述
-        Download: "Download",
+        Download: "Convert",
         loading_text: "Processing the link to convert. Stay on the page.",
         howToDownload: "How to convert?",
         tutorial: "Watch the tutorial"

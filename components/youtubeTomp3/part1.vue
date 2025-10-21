@@ -93,13 +93,13 @@ const handleHowDownload = () => {
   --el-fill-color-blank: #2e164d;
   --el-border-radius-base: 0.5rem;
   --el-text-color-regular: #fff;
-  --el-text-color-placeholder: rgba(255, 255, 255, 0.7);
+  --el-text-color-placeholder: rgba(255, 255, 255, 0.5);
   .el-input__wrapper {
     border-bottom-right-radius: 0 !important;
     border-top-right-radius: 0 !important;
     padding-right: 0;
     padding-left: 0;
-    padding-inline-start: 8px;
+    padding-inline-start: 18px;
   }
 }
 .download-btn {

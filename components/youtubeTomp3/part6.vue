@@ -19,10 +19,8 @@
       <div
         class="max-w-[35.75rem] text-start text-[1.375rem] leading-[1.875rem] md:flex-[0_0_62%] md:basis-[62%] md:text-lg"
       >
-        <p>
-          {{ $i("content[0]") }}<br />
-          {{ $i("content[1]") }}
-        </p>
+        <p class="mb-[1rem]">{{ $i("content[0]") }}</p>
+        <p>{{ $i("content[1]") }}</p>
       </div>
       <!-- 右侧图片 -->
       <div

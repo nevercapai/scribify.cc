@@ -26,6 +26,7 @@ export interface UploadFile {
   region?: string;
   taskId?: string;
   allowedPath?: string;
+  localUrl?: string; // 上传到后端返回的文件链接
 }
 
 // 初始化COS实例
@@ -49,7 +50,7 @@ const initCosInstance = async (file: UploadFile) => {
   const allowedPath = auth.allowedPath;
   const config = useRuntimeConfig();
   const instance = new COS({
-    Domain: config.public.cosDomain || "", // 自定义加速域名
+    Domain: config.public.cosDomain + 1 || "", // 自定义加速域名
     getAuthorization: async (options, callback) => {
       callback({
         TmpSecretId: auth.tmpSecretId,
@@ -160,12 +161,7 @@ export const useUpload = () => {
     } catch (error) {
       if (error?.toString().includes("expired")) {
         console.log("cos过期重试");
-        reportSystemError(
-          {
-            message: "cos 过期重试" + error
-          },
-          false
-        );
+        reportSystemError({ message: "cos 过期重试" + error }, false);
         auth = null;
         authPromise = null;
         await initCosInstance(reactive(file));
@@ -174,14 +170,27 @@ export const useUpload = () => {
       }
 
       if (times > 0) {
-        console.log("cos上传重试" + error);
+        console.log(`cos上传重试${times}次` + error);
         reportSystemError(
           {
-            message: "cos 上传重试" + error
+            message: `cos上传重试${times}次` + error
           },
           false
         );
         return await directUpload(file, times - 1); // ✅ 递归调用，异常会自动传播
+      }
+
+      if (times === 0) {
+        let fileOrFalse
+        try {
+          fileOrFalse = await localUpload(file); // ✅ 递归调用，异常会自动向上传播
+        } catch (err) {
+          fileOrFalse = err;
+          reportSystemError({ message: "兜底上传失败" + (err as any)?.message || err }, false);
+        }
+        if ((fileOrFalse as any)?.localUrl) {
+          return Promise.resolve(true);
+        }
       }
 
       file.status = "error";
@@ -247,6 +256,9 @@ export const useUpload = () => {
           const durationSec = Math.round(durationMs / 1000);
           console.log("🚀 ~上传总共耗时 🚀", durationSec);
           // 上传成功上报
+          if (file.localUrl) {
+            openType = 4; // 走后端接口上传则openType为4
+          }
           collectEvent({
             ...commonParams,
             openType,
@@ -621,6 +633,209 @@ export const useUpload = () => {
       file.errorText = e?.toString();
     }
   };
+
+  /**-----------这里是本地上传逻辑 begin------------------- */
+
+  const localUpload = async (file: UploadFile) => {
+    if (!file.chunks) {
+      const chunks = await localFileToParts(file.file); // 对文件进行分片
+      file.chunks = chunks;
+    }
+    const initInfoRes = await localUploadInit(file); // 初始化上传
+    if (!initInfoRes?.id) {
+      throw new Error('localUploadInit Fun error');
+    }
+    const partsUploadRes = await localPartsUpload(file, initInfoRes); // 分片上传
+    if (!partsUploadRes) {
+      throw new Error('localPartsUpload Fun error');
+    }
+    const partsQueryRes = await localPartsQuery(file, initInfoRes); // 查询分片列表
+    if (!partsQueryRes || !partsQueryRes.length) {
+      throw new Error('localPartsQuery Fun error');
+    }
+    initInfoRes.partETags = partsQueryRes.map((item: any) => { delete item?.size; return item });
+    const partsMergeRes = await localPartsMerge(file, initInfoRes); // 合并分片
+    if (!partsMergeRes) {
+      throw new Error('localPartsMerge Fun error');
+    }
+    file.progress = 100;
+    file.status = "success";
+    file.localUrl = partsMergeRes;
+    file.key = initInfoRes.key;
+    return file;
+  };
+
+  // 初始化上传POST
+  const localUploadInit = async (file: UploadFile) => {
+    const { fileUploadApi } = await import("~/api/fileUploadLocal");
+    const fileNameArr = file.file.name?.split(".") || [];
+    fileNameArr.splice(-1);
+    const fileExtName = file.file.type?.split("/")[1] || file.file.type;
+    const params = {
+      "fileName": fileNameArr.toString(),
+      "fileSize": file.file.size, // 10GB 文件大小
+      "fileExtName": fileExtName, // 后缀
+      "partNum": file.chunks?.length || 0, // 分片数
+      "parentId": 0
+    };
+    return await fileUploadApi.uploadInit(params);
+  };
+
+  // 分片上传接口POST
+  const localPartsUpload = async (file: UploadFile, initInfoRes: any) => {
+    const { fileUploadApi } = await import("~/api/fileUploadLocal");
+
+    // 初始化进度数组
+    if (!file.chunkProgress) {
+      file.chunkProgress = new Array(file.chunks?.length || 0).fill(0);
+    }
+
+    // 并发控制函数
+    const uploadWithConcurrencyControl = async () => {
+      const MAX_CONCURRENT = 6; // 最大并发数
+      const MAX_RETRIES = 3; // 每个分片最大重试次数
+      const chunks = file.chunks || [];
+      const totalChunks = chunks.length;
+
+      // 创建一个信号量来控制并发
+      const semaphore = {
+        count: 0,
+        queue: [] as (() => void)[]
+      };
+
+      // 获取信号量
+      const acquire = (): Promise<void> => {
+        return new Promise((resolve) => {
+          if (semaphore.count < MAX_CONCURRENT) {
+            semaphore.count++;
+            resolve();
+          } else {
+            semaphore.queue.push(resolve);
+          }
+        });
+      };
+
+      // 释放信号量
+      const release = () => {
+        semaphore.count--;
+        if (semaphore.queue.length > 0) {
+          semaphore.count++;
+          const resolve = semaphore.queue.shift();
+          if (resolve) resolve();
+        }
+      };
+
+      // 上传单个分片
+      const uploadChunk = async (chunk: Blob, index: number): Promise<any> => {
+        let retries = 0;
+
+        while (retries <= MAX_RETRIES) {
+          try {
+            await acquire();
+
+            // 更新文件状态为上传中
+            file.status = "uploading";
+
+            const params = {
+              id: initInfoRes.id,  // 数据库id
+              fileKey: initInfoRes.key, // cos文件唯一id  初始化接口传过来的
+              uploadId: initInfoRes.uploadId, // 分片上传唯一id
+              partNumber: index + 1, // 当前分片数 (从1开始)
+              file: chunk
+            };
+
+            const result = await fileUploadApi.partsUpload(params);
+
+            // 更新进度
+            if (file.chunkProgress) {
+              file.chunkProgress[index] = 100;
+              // 计算总体进度
+              const completedChunks = file.chunkProgress.filter(p => p === 100).length;
+              file.progress = Math.floor((completedChunks / totalChunks) * 100);
+            }
+
+            release();
+            return result;
+          } catch (error) {
+            release();
+
+            retries++;
+            if (retries > MAX_RETRIES) {
+              // 重试次数用完，标记文件为错误状态
+              file.status = "error";
+              file.errorText = t("FileUploadAndRecording.upload.uploadErr");
+              throw error;
+            }
+
+            // 等待一段时间后重试
+            await new Promise(resolve => setTimeout(resolve, 1000 * retries));
+          }
+        }
+      };
+      // 创建所有上传任务
+      const uploadPromises = chunks.map((chunk, index) =>
+        uploadChunk(chunk, index)
+      );
+
+      // 等待所有上传完成
+      return Promise.all(uploadPromises);
+    };
+
+    try {
+      const partUploadRes = await uploadWithConcurrencyControl();
+      if (partUploadRes.length === file.chunks?.length) {
+        return Promise.resolve(true);
+      } else {
+        return Promise.resolve(false);
+      }
+    } catch (error) {
+      return Promise.resolve(false);
+    }
+  };
+
+  // 查询分片列表GET
+  const localPartsQuery = async (file: UploadFile, initInfoRes: any) => {
+    const { fileUploadApi } = await import("~/api/fileUploadLocal");
+    const params = {
+      "fileKey": initInfoRes.key,  // 分片初始化的返回值
+      "uploadId": initInfoRes.uploadId  // 分片初始化的返回值id: 111,  // 数据库id
+    };
+    return await fileUploadApi.partsQuery(params);
+  };
+
+  // 请求合并POST
+  const localPartsMerge = async (file: UploadFile, resInfo: any) => {
+    const { fileUploadApi } = await import("~/api/fileUploadLocal");
+    const params = {
+      "id": resInfo.id,
+      "fileKey": resInfo.key,
+      "uploadId": resInfo.uploadId,
+      "partETags": resInfo.partETags
+    };
+    return await fileUploadApi.partsMerge(params);
+  };
+  // 取消分片上传  POST
+  const localUploadCancel = async (file: UploadFile) => {
+    const { fileUploadApi } = await import("~/api/fileUploadLocal");
+    const params = {
+      "fileKey": "",  // 分片初始化的返回值
+      "uploadId": ""  // 分片初始化的返回值id: 111,  // 数据库id
+    };
+    return await fileUploadApi.uploadCancel(params);
+  };
+
+  // 对文件进行分片
+  const localFileToParts = (file: File): Blob[] => {
+    const chunks = [];
+    let start = 0;
+    while (start < file.size) {
+      const end = Math.min(start + CHUNK_SIZE, file.size);
+      chunks.push(file.slice(start, end));
+      start = end;
+    }
+    return chunks;
+  };
+  /**-----------这里是本地上传逻辑 end------------------- */
 
   return {
     initUpload,

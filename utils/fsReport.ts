@@ -48,8 +48,11 @@ export function useErrorReporting() {
 
   // 系统报错日志通知
   const exceptCode = [401, 610013, 140012];
-  // 401 用户登录过期需要重新登录
-  // // 610013  游客信息如果被清理了   再进入详情或者分享就会报   页面会显示not found
+  /**
+  * 401 用户登录过期需要重新登录
+  * 610013  游客信息如果被清理了   再进入详情或者分享就会报   页面会显示not found
+  * 140012  google帐号但是使用了帐号密码登录
+  */
   function reportSystemError(res: any, customData = true) {
     const url = res?.url;
     const headers = res?.headers || new Map();

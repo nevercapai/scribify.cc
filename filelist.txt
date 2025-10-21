@@ -352,6 +352,7 @@
 ./public/assets/images/home/upload.svg
 ./public/assets/logo2.svg
 ./api
+./api/fileUploadLocal.ts
 ./api/subscription.ts
 ./api/type
 ./api/type/folder.ts

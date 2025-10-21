@@ -66,17 +66,8 @@ import { useScrollTitle } from "~/utils/useScrollTitle";
 
 const title = "YouTube to MP4 Converter | Fast, HD, Ad-Free Downloads";
 const config = useRuntimeConfig();
-const env = config.public.env || process.env.NUXT_PUBLIC_ENV;
-let script = [];
-if (env === "production") {
-  script.push({
-    src: "https://www.googletagmanager.com/gtag/js?id=G-PR67RLEFJ3",
-    async: true
-  });
-}
 useHead({
   title: title,
-  script,
   meta: [
     {
       name: "description",

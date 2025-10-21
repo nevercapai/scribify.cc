@@ -228,7 +228,8 @@ const toggleDropdown = (index: number) => {
   }
 };
 
-const mobileDropdownOpen = index => useClickHandler(() => toggleDropdown(index))
+const mobileDropdownOpen = (index) =>
+  useClickHandler(() => toggleDropdown(index));
 
 // 监听窗口大小变化，在大屏幕上强制关闭移动端菜单
 watchEffect(() => {

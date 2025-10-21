@@ -51,11 +51,14 @@ const visible = computed({
   set: (value) => emit("update:modelValue", value)
 });
 
-const { link, loading, handleConfirm } = useLink(emit);
+const { link, loading, handleConfirm, linkValidate } = useLink(emit);
 
 const isOver = ref(false);
 const confirm = async () => {
   // loading.value = true;
+  if (!linkValidate()) {
+    return;
+  }
   if (props.isGuest) {
     emit("confirm", link.value);
     return;

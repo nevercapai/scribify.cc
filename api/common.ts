@@ -5,7 +5,7 @@ export const useCommonApi = {
   async collectEvent(body: any) {
     try {
       if (!body.path) {
-        body.path = window.location.href
+        body.path = window.location.href;
       }
       if (!Array.isArray(body)) {
         body = JSON.stringify([body]);

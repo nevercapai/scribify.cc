@@ -58,10 +58,21 @@ export const useLink = (emit?: any) => {
       loading.value = false;
     }
   };
-
+  const linkValidate = () => {
+    if (link.value?.includes("search_query=")) {
+      Msg({
+        message: t("FileUploadAndRecording.upload.link.errorTitle"),
+        customClass: "!z-[9999]",
+        type: "error"
+      });
+      return false;
+    }
+    return true;
+  };
   return {
     handleConfirm,
     loading,
-    link
+    link,
+    linkValidate
   };
 };

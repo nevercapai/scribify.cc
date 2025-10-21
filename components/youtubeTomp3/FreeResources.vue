@@ -5,7 +5,7 @@
       class="m-auto mb-[2.1875rem] w-full max-w-[62rem] text-center text-[1rem] font-semibold"
     >
       <NuxtLink :to="$localePath('/')" class="hover:underline">
-        <i18n-t keypath="Resources.YouTubeToMP4.freeResources.linkTitle" tag="span">
+        <i18n-t keypath="Resources.YouTubeToMP3.freeResources.linkTitle" tag="span">
           <template #NeverCap>
               NeverCap
           </template>
@@ -125,7 +125,7 @@
 <script setup lang="ts">
 /* part1 组件 */
 import { useI18nModule } from "~/utils/i18n";
-const $i = useI18nModule("Resources.YouTubeToMP4.freeResources");
+const $i = useI18nModule("Resources.YouTubeToMP3.freeResources");
 const list = ref([
   {
     img: "1",

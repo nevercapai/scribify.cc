@@ -65,7 +65,6 @@ import part7 from "~/components/youtubeTomp4/part7.vue";
 import { useScrollTitle } from "~/utils/useScrollTitle";
 
 const title = "YouTube to MP4 Converter | Fast, HD, Ad-Free Downloads";
-const config = useRuntimeConfig();
 useHead({
   title: title,
   meta: [
@@ -81,17 +80,6 @@ useHead({
     }
   ]
 });
-
-if (process.client) {
-  const script = document.createElement("script");
-  script.innerHTML = `
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-PR67RLEFJ3');
-  `;
-  document.head.appendChild(script);
-}
 
 useScrollTitle(title);
 

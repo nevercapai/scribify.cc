@@ -62,6 +62,17 @@
         <div class="footer-column">
           <h4>{{ $t("Footer.Company") }}</h4>
           <ul>
+            <li v-for="(menu, index) in resourcesMenus" :key="index">
+              <router-link :to="$localePath(menu.link)" class="underline">
+                <!-- {{ menu.name }} -->
+                {{ $t("Footer.resourcesMenus[" + index + "]") }}
+              </router-link>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>{{ $t("Footer.Company") }}</h4>
+          <ul>
             <li v-for="(menu, index) in companyMenus" :key="index">
               <router-link :to="$localePath(menu.link)" class="underline">
                 <!-- {{ menu.name }} -->
@@ -150,6 +161,16 @@ let useCaseMenus = ref([
     link: "/use-cases/educators"
   }
 ]);
+let resourcesMenus = ref([
+  {
+    name: "YouTube to MP4",
+    link: "/resources/youtube-to-mp4"
+  },
+  {
+    name: "YouTube to MP3",
+    link: "/resources/youtube-to-mp4"
+  }
+]);
 let companyMenus = ref([
   {
     name: "About",
@@ -180,7 +201,7 @@ footer {
 
 .footer-content {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
   gap: 40px;
   margin-bottom: 40px;
 }

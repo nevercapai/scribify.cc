@@ -307,6 +307,10 @@ const menuList = computed(() => [
       {
         name: t("HeadNavbar.YouTubetoMP4"),
         link: "/resources/youtube-to-mp4"
+      },
+      {
+        name: t("HeadNavbar.YouTubetoMP3"),
+        link: "/resources/youtube-to-mp3"
       }
     ]
   },

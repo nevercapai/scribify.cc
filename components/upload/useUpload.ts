@@ -50,7 +50,7 @@ const initCosInstance = async (file: UploadFile) => {
   const allowedPath = auth.allowedPath;
   const config = useRuntimeConfig();
   const instance = new COS({
-    Domain: config.public.cosDomain + 1 || "", // 自定义加速域名
+    Domain: config.public.cosDomain || "", // 自定义加速域名
     getAuthorization: async (options, callback) => {
       callback({
         TmpSecretId: auth.tmpSecretId,

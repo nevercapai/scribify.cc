@@ -318,6 +318,8 @@
 ./public/assets/images/downloadMp4/black_advantage_6.png
 ./public/assets/images/downloadMp4/step_1.png
 ./public/assets/images/downloadMp4/advantage_5.png
+./public/assets/images/downloadMp4/MP4.svg
+./public/assets/images/downloadMp4/AI.svg
 ./public/assets/images/downloadMp4/index_1.png
 ./public/assets/images/downloadMp4/advantage_4.png
 ./public/assets/images/downloadMp4/advantage_3.png
@@ -327,6 +329,7 @@
 ./public/assets/images/downloadMp4/black_Youtube.png
 ./public/assets/images/downloadMp4/play.png
 ./public/assets/images/downloadMp4/black_step_1.png
+./public/assets/images/downloadMp4/MP3.svg
 ./public/assets/images/downloadMp4/black_advantage_3.png
 ./public/assets/images/downloadMp4/major.png
 ./public/assets/images/downloadMp4/step_2.png
@@ -497,6 +500,7 @@
 ./components/youtubeTomp4/part3.vue
 ./components/youtubeTomp4/part1.vue
 ./components/youtubeTomp4/videoDown.vue
+./components/youtubeTomp4/MoreFreeTools.vue
 ./components/guest
 ./components/guest/upload.vue
 ./components/upload
@@ -531,6 +535,20 @@
 ./components/pricing/pricingCards.vue
 ./components/HeadNavbar.vue
 ./components/CTASection.vue
+./components/youtubeTomp3
+./components/youtubeTomp3/part5.vue
+./components/youtubeTomp3/downloadVideo.ts
+./components/youtubeTomp3/part7.vue
+./components/youtubeTomp3/part4.vue
+./components/youtubeTomp3/howToDownload.vue
+./components/youtubeTomp3/top.vue
+./components/youtubeTomp3/part2.vue
+./components/youtubeTomp3/FreeResources.vue
+./components/youtubeTomp3/part6.vue
+./components/youtubeTomp3/part3.vue
+./components/youtubeTomp3/part1.vue
+./components/youtubeTomp3/videoDown.vue
+./components/youtubeTomp3/MoreFreeTools.vue
 ./tailwind.config.js
 ./assets
 ./assets/xgplayerIcon
@@ -549,6 +567,7 @@
 ./pages/pricing.vue
 ./pages/resources
 ./pages/resources/youtube-to-mp4.vue
+./pages/resources/youtube-to-mp3.vue
 ./pages/downloader
 ./pages/downloader/youtube-to-mp4
 ./pages/downloader/youtube-to-mp4/index.vue

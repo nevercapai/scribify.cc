@@ -20,7 +20,7 @@
         </transition>
         <!--2、 三步操作流程 -->
         <div class="divide-line"></div>
-        <YoutubeTomp4FreeResources></YoutubeTomp4FreeResources>
+        <YoutubeTomp3FreeResources></YoutubeTomp3FreeResources>
         <div class="divide-line"></div>
         <part2></part2>
       </div>
@@ -65,32 +65,33 @@
 </template>
 
 <script setup lang="ts">
-import top from "~/components/youtubeTomp4/top.vue";
-import part1 from "~/components/youtubeTomp4/part1.vue";
-import howToDownload from "~/components/youtubeTomp4/howToDownload.vue";
-import videoDown from "~/components/youtubeTomp4/videoDown.vue";
-import part2 from "~/components/youtubeTomp4/part2.vue";
-import part3 from "~/components/youtubeTomp4/part3.vue";
-import part4 from "~/components/youtubeTomp4/part4.vue";
-import part5 from "~/components/youtubeTomp4/part5.vue";
-import part6 from "~/components/youtubeTomp4/part6.vue";
-import part7 from "~/components/youtubeTomp4/part7.vue";
+import top from "~/components/youtubeTomp3/top.vue";
+import part1 from "~/components/youtubeTomp3/part1.vue";
+import howToDownload from "~/components/youtubeTomp3/howToDownload.vue";
+import videoDown from "~/components/youtubeTomp3/videoDown.vue";
+import part2 from "~/components/youtubeTomp3/part2.vue";
+import part3 from "~/components/youtubeTomp3/part3.vue";
+import part4 from "~/components/youtubeTomp3/part4.vue";
+import part5 from "~/components/youtubeTomp3/part5.vue";
+import part6 from "~/components/youtubeTomp3/part6.vue";
+import part7 from "~/components/youtubeTomp3/part7.vue";
 import { useScrollTitle } from "~/utils/useScrollTitle";
-import MoreFreeTools from "~/components/youtubeTomp4/MoreFreeTools.vue";
+import MoreFreeTools from "~/components/youtubeTomp3/MoreFreeTools.vue";
 
-const title = "YouTube to MP4 Converter | Fast, HD, Ad-Free Downloads";
+const title =
+  "YouTube to MP3 Converter | Fast, High-Quality, Ad-Free Downloads";
 useHead({
   title: title,
   meta: [
     {
       name: "description",
       content:
-        "Convert YouTube to HD MP4s instantly. 100% secure, ad-free tool. Download videos for offline viewing on any device. Share anywhere, no signup!"
+        "Convert YouTube videos to MP3 audio files instantly. Free, fast, and easy to use. Extract audio from any YouTube video in high quality."
     },
     {
       name: "keywords",
       content:
-        "youtube to mp4, download youtube videos, youtube video converter, offline youtube videos, HD P4 converter, ad-free youtube downloader, free video download tool"
+        "youtube to mp3, youtube to mp3 converter, youtube to mp3 converter free, youtube to in mp3, convert youtube to mp3, youtube convert to mp3 converter, youtube to mp3 converter free, youtube to mp3 download, youtube mp3, mp3 converter, youtube audio download, youtube music converter"
     }
   ]
 });

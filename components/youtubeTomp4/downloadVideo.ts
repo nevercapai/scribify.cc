@@ -1,4 +1,5 @@
 import { Msg } from "~/utils/tools";
+import { useLink } from "~/components/upload/dialog/useLink";
 function simulateProgress(file: any) {
   // 初始化文件状态
   file.progress = 0;
@@ -72,6 +73,7 @@ export const downloadVideo = (emit: any) => {
     /^(https?:\/\/)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)$/;
   const youtubeRegex =
     /^(https?:\/\/)?([a-z0-9-]+\.)?(youtube\.com|youtu\.be)\/.+/i;
+  const { linkValidate } = useLink();
   const handleDownload = async () => {
     emit("download-click-pre");
     try {
@@ -92,6 +94,9 @@ export const downloadVideo = (emit: any) => {
           customClass: "!z-[9999]",
           type: "error"
         });
+        return;
+      }
+      if (!linkValidate(link.value)) {
         return;
       }
       loading.value = true;

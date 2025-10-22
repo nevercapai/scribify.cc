@@ -58,8 +58,20 @@ export const useLink = (emit?: any) => {
       loading.value = false;
     }
   };
-  const linkValidate = () => {
-    if (link.value?.includes("search_query=")) {
+  const linkValidate = (url?: string) => {
+    url ||= link.value;
+    const YOUTUBE_DOMAIN = "youtube.com/";
+    const channelPattern = new RegExp(
+      `${YOUTUBE_DOMAIN}(@|channel/|c/|user/|feed/)`,
+      "i"
+    );
+    const searchPattern = /search_query=/i;
+    const resultsPattern = new RegExp(`${YOUTUBE_DOMAIN}results[?]`, "i");
+
+    const isChannel = channelPattern.test(url);
+    const isSearch = searchPattern.test(url);
+    const isResults = resultsPattern.test(url);
+    if (isChannel || isSearch || isResults) {
       Msg({
         message: t("FileUploadAndRecording.upload.link.errorTitle"),
         customClass: "!z-[9999]",

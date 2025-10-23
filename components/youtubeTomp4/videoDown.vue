@@ -19,7 +19,7 @@
         <div class="md:flex-[0_0_47%] md:basis-[47%]">
           <video
             :src="file.fileUrl"
-            poster="/assets/images/downloadMp4/poster.png"
+            poster="/assets/images/downloadMp4/posterMP4.png"
             controls
             preload="metadata"
             class="aspect-video w-full rounded-[1rem]"

@@ -315,6 +315,7 @@
 ./public/assets/images/downloadMp4/black_down.png
 ./public/assets/images/downloadMp4/freeResources-pdf.svg
 ./public/assets/images/downloadMp4/black_advantage_2.png
+./public/assets/images/downloadMp4/posterMP3.png
 ./public/assets/images/downloadMp4/black_advantage_6.png
 ./public/assets/images/downloadMp4/step_1.png
 ./public/assets/images/downloadMp4/advantage_5.png
@@ -334,6 +335,7 @@
 ./public/assets/images/downloadMp4/major.png
 ./public/assets/images/downloadMp4/step_2.png
 ./public/assets/images/downloadMp4/step_3.png
+./public/assets/images/downloadMp4/posterMP4.png
 ./public/assets/images/downloadMp4/black_major.png
 ./public/assets/images/downloadMp4/down.png
 ./public/assets/images/downloadMp4/freeResources-srt.svg
@@ -536,11 +538,13 @@
 ./components/HeadNavbar.vue
 ./components/CTASection.vue
 ./components/youtubeTomp3
+./components/youtubeTomp3/CustomAudioPlayerUsage.vue
 ./components/youtubeTomp3/part5.vue
 ./components/youtubeTomp3/downloadVideo.ts
 ./components/youtubeTomp3/part7.vue
 ./components/youtubeTomp3/part4.vue
 ./components/youtubeTomp3/howToDownload.vue
+./components/youtubeTomp3/CustomAudioPlayer.vue
 ./components/youtubeTomp3/top.vue
 ./components/youtubeTomp3/part2.vue
 ./components/youtubeTomp3/FreeResources.vue

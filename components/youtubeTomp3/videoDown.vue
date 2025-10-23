@@ -16,15 +16,17 @@
       <!-- 内容卡片：左右布局 -->
       <div class="flex grid grid-cols-1 gap-[2.5rem] md:grid-cols-2">
         <!-- 左侧图片 -->
-        <div class="md:flex-[0_0_47%] md:basis-[47%]">
-          <video
-            :src="file.fileUrl"
-            poster="/assets/images/downloadMp4/poster.png"
-            controls
-            preload="metadata"
+        <div class="relative md:flex-[0_0_47%] md:basis-[47%]">
+          <NuxtImg
+            src="/assets/images/downloadMp4/posterMP3.png"
+            alt="nevercap Mp3"
             class="aspect-video w-full rounded-[1rem]"
-          ></video>
-          <!--autoplay -->
+          ></NuxtImg>
+          <CustomAudioPlayer
+            v-model="file.fileUrl"
+            class="absolute bottom-0 w-full"
+            style="border-radius: 0 0 8px 8px"
+          />
         </div>
 
         <!-- 右侧内容 -->
@@ -66,6 +68,7 @@
 /* videoDown 组件 */
 import { ref } from "vue";
 import { Msg } from "~/utils/tools";
+import CustomAudioPlayer from "./CustomAudioPlayer.vue";
 
 const { t } = useI18n();
 

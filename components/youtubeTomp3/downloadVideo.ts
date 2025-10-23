@@ -1,4 +1,5 @@
 import { Msg } from "~/utils/tools";
+import { useLink } from "~/components/upload/dialog/useLink";
 function simulateProgress(file: any) {
   // 初始化文件状态
   file.progress = 0;
@@ -72,6 +73,7 @@ export const downloadVideo = (emit: any) => {
     /^(https?:\/\/)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)$/;
   const youtubeRegex =
     /^(https?:\/\/)?([a-z0-9-]+\.)?(youtube\.com|youtu\.be)\/.+/i;
+  const { linkValidate } = useLink();
   const handleDownload = async () => {
     emit("download-click-pre");
     try {
@@ -94,11 +96,15 @@ export const downloadVideo = (emit: any) => {
         });
         return;
       }
+      if (!linkValidate(link.value)) {
+        return;
+      }
       loading.value = true;
       simulateProgress(file);
       const { downloadFileApi } = await import("~/api/youtubeTomp4");
       const { createFileByLink } = downloadFileApi;
       const idObj = await createFileByLink({
+        type: 'mp3',
         url: link.value,
         parentId: -1
       });
@@ -118,6 +124,20 @@ export const downloadVideo = (emit: any) => {
       const res = await getFileUploadStatus({
         id
       });
+      // let res = {
+      //   "fileMetaInfo": {
+      //     "id": "636381263554076672",
+      //     "fileName": "HANA ⧸ Burning Flower -Music Video-",
+      //     "parentId": -1,
+      //     "uploadTime": "2025-10-23T01:52:17.860+00:00",
+      //     "fileSize": 3149958,
+      //     "fileType": "mp3",
+      //     "fileUrl": "https://cos-whisperx-dev.aihujing.com/4c90b53eb13a9464b1ba1a4260736f33/202510/23/-1/HANA%C2%A0%E2%A7%B8%C2%A0Burning%C2%A0Flower%C2%A0-Music%C2%A0Video-.mp3",
+      //     "deleted": 0,
+      //     "errorTxt": null,
+      //     "urlConfig": "https://whisperx-dev-1302177102.cos.accelerate.myqcloud.com/4c90b53eb13a9464b1ba1a4260736f33/202510/23/-1/HANA%C2%A0%E2%A7%B8%C2%A0Burning%C2%A0Flower%C2%A0-Music%C2%A0Video-.mp3"
+      //   }
+      // }
 
       if (res?.fileMetaInfo?.deleted !== 0) {
         file.status = "error";

@@ -2932,7 +2932,7 @@ let message = {
         title: "Convert YouTube Links as MP3.Free,fast,and no ads.",
         description:
           "Thanks for choosing our service! We truly appreciate your trust and hope it enhanced your experience. If you could share our website with your friends, that would be a huge help.",
-        downloadButton: "Convert",
+        downloadButton: "Download",
         TranscribeButton: "Transcribe",
         downloadError: "Convert Error."
       }

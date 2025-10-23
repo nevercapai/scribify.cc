@@ -1,5 +1,6 @@
 import { ref, reactive } from 'vue';
 import { Decrypt, getUTCTime, timeUTCToLocal } from './tools';
+import { useCrossDomainCookie } from "~/hooks/useCrossDomainCookie.js";
 
 // 扩展 window 类型
 declare global {
@@ -47,13 +48,20 @@ export function useErrorReporting() {
   }
 
   // 系统报错日志通知
+  let TanmaUser: any[] = [];
+  try {
+    TanmaUser = JSON.parse(Decrypt('MIBo35PvYLv/tH+m9TgpfW+O1WsHQEcvrDaGj6AMnxY8P/BjIJsBkpaHXV+tj9LDqwGHwzP40EKgOZgctDxC6uophKlOQgcR7vMtWgEd22YaIwVBQ4dAYvg7ivpe1T1ZBX6Fm0khNqDcS0XIjce5iBXWxiNwqS934Djwow7Z+LMX0VIqO9n60o/TS2H0PtYIk95AxCpUjSiSjPoAImT0arFMdDynW48iW35thOrxAh+CTGqKEV5m0hyhts//UZIy7UDqacHSolu3hgy9+znsEjW4ZCtuomypUhLuG77DrK/yVSbcp9yKOBwFgkj8n8HFzJGy77xbN4nEaa+0gM9PMmqk1iiHeqVVO//ly/mbgnQ3azafDrCRI248jfFj21J3B9NDae74WumK2NF82Y7pNcafXMGvD8jqB8gNoz0muDmxnaKF508U0nPLXWjNWNp2I+n7uCluES0TBbY1EaCXQo0zSDpWzAlzFlkUZP4zP1fLBwU+lr+oPVFsfl2/R2r4OJSBDzcWozU5mPNjuAEDvxgCoCdTClRFh96xsoxhgnCyukppiDj1voWltrr1BMMNxhDlQzwRlrbRiAPhcU9FqC0rnZlMwWKLv7N5yTHP46Gal+jwnP/77jAR3bzwuasVGNTEbvmusFulcUTaec/RN9FHyXAYNdo8BsB0bUy2UQUvTuxvnlWwh369HcNBIEWlwjFuCJQ3ckPAzPKXZfgFlNLbbxa2qKpUgvmOE/Wa4ROEKwEF6X24UEklK3LZWp26KrGb/l8+W0OG6UFinTAF5TyzfkUdWJyipMvv9H2hjZZBHGx+7dbBdYYRuiAxG6ZnDLDAzFWUpbSEoULBEcrhLzHyi+WxbdUvKLx9QjU9wZ2PQ+F43dRGLHdGLPlTZm+yXsdygJXMHTseC/tY2URd++RuGoyXMH0VoNlWFRwvXfFn7GpDrnzZRvQ49IscsVwOogJttSZRCxFJfSOoYFGdwEBvzxUPBeirT0iiGPe3vKxqCxX4yBU/YbAN01Co6n/Kwwnb8LOJNJo+BR8WuMBzR03HSoHnxkbzAqTRcvVDXR7EP8E1lTBeEeGw+SRd1kha'))
+  } catch (err) {
+    console.log("err", err);
+  }
   const exceptCode = [401, 610013, 140012];
   /**
-  * 401 用户登录过期需要重新登录
-  * 610013  游客信息如果被清理了   再进入详情或者分享就会报   页面会显示not found
-  * 140012  google帐号但是使用了帐号密码登录
-  */
+   * 401 用户登录过期需要重新登录
+   * 610013  游客信息如果被清理了   再进入详情或者分享就会报   页面会显示not found
+   * 140012  google帐号但是使用了帐号密码登录
+   */
   function reportSystemError(res: any, customData = true) {
+    const email = useCrossDomainCookie('userInfoEmail');
     const url = res?.url;
     const headers = res?.headers || new Map();
     const data = res?._data;
@@ -85,7 +93,8 @@ export function useErrorReporting() {
       cardType6: 'hr',
       系统信息: window.navigator.userAgent,
       cardType7: 'hr',
-      缓存数据: JSON.stringify(storageData)
+      缓存数据: JSON.stringify(storageData),
+      内部账号: TanmaUser.includes(email.value) ? `是【${email.value}】` : `否【${email.value}】`
     };
     if (customData && !exceptCodeFlag) {
       params = {
@@ -99,6 +108,7 @@ export function useErrorReporting() {
         系统信息: window.navigator.userAgent,
         cardType3: 'hr',
         缓存数据: JSON.stringify(storageData),
+        内部账号: TanmaUser.includes(email.value) ? `是【${email.value}】` : `否【${email.value}】`,
         cardType4: 'hr'
       };
       try {

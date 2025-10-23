@@ -60,7 +60,7 @@
           </ul>
         </div>
         <div class="footer-column">
-          <h4>{{ $t("Footer.Company") }}</h4>
+          <h4>{{ $t("Footer.Resources") }}</h4>
           <ul>
             <li v-for="(menu, index) in resourcesMenus" :key="index">
               <router-link :to="$localePath(menu.link)" class="underline">
@@ -168,7 +168,7 @@ let resourcesMenus = ref([
   },
   {
     name: "YouTube to MP3",
-    link: "/resources/youtube-to-mp4"
+    link: "/resources/youtube-to-mp3"
   }
 ]);
 let companyMenus = ref([

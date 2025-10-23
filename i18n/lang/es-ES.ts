@@ -1057,8 +1057,9 @@ let message = {
     Resources: "Recursos",
     YouTubetoMP4: "YouTube a MP4",
     StartFreeTrial: "Pruébalo Gratis",
-    Blog: "Blog"
-  },
+    Blog: "Blog",
+      YouTubetoMP3: 'YouTube a MP3'
+},
   Footer: {
     des: "El primer servicio de transcripción por IA realmente ilimitado del mundo. Sin límites, sin restricciones, solo libertad para crear.",
     Features: "Características",
@@ -1078,8 +1079,13 @@ let message = {
       "Equipos empresariales",
       "Educadores"
     ],
-    companyMenus: ["Acerca de", "Precios", "Privacidad", "Términos"]
-  },
+    companyMenus: ["Acerca de", "Precios", "Privacidad", "Términos"],
+      Resources: 'Recursos',
+      resourcesMenus: [
+            "YouTube a MP4",
+            "YouTube a MP3"
+          ]
+},
   Index: {
     Hero: {
       badge: 'No Más "Shrinkflation" - Realmente Ilimitado',
@@ -3280,9 +3286,187 @@ let message = {
               "Convierte videos de YouTube en texto o subtítulos precisos. Simplemente pega el enlace de YouTube."
           }
         ]
-      }
-    }
-  },
+      },
+        MoreFreeTools: {
+              "title": "Más herramientas gratuitas",
+              "title_des": "Explora nuestras otras herramientas de conversión gratuitas",
+              "YouTubeToMP": "YouTube a MP3",
+              "YouTubeToMP_des": "Convierte videos de YouTube a formato MP3 para verlos sin conexión. Descarga videos de alta calidad al instante.",
+              "AITranscription": "Transcripción de IA",
+              "AITranscription_des": "Transcribe archivos de audio y video con una precisión del 96 %. Transcripción ilimitada para todo tu contenido."
+            }
+    },
+      YouTubeToMP3: {
+            "err1": "Error de formato del enlace de YouTube.",
+            "err2": "¡Lo sentimos! Actualmente solo trabajamos con enlaces de YouTube. Si necesitas ayuda con otros sitios, te mantendremos informado cuando los agreguemos en el futuro.",
+            "part1": {
+              "title": "Convertir vídeos de YouTube a MP3",
+              "title_des": "Extrae audio de vídeos de YouTube en segundos",
+              "placeholder": "Pega tu enlace de Youtube aquí",
+              "clear_icon": "Entrada clara",
+              "Download": "Convertir",
+              "loading_text": "Procesando el enlace para convertir. Permanezca en la página.",
+              "howToDownload": "¿Cómo convertir?",
+              "tutorial": "Mira el tutorial"
+            },
+            "freeResources": {
+              "linkTitle": "Desarrollado por {NeverCap}",
+              "linkTitle2": "- Transcripción de IA totalmente ilimitada",
+              "title": "Recursos gratuitos",
+              "stepsNew": [
+                {
+                  "title": "Transcripción gratuita de audio y vídeo",
+                  "content": "Convierte archivos de audio y vídeo a texto en segundos. 3 archivos transcritos cada día."
+                },
+                {
+                  "title": "Extraer archivos de audio a texto",
+                  "content": "Subir MP3, MP4, WAV, MOV.",
+                  "content2": "Descargue DOCX, TXT, SRT y más."
+                },
+                {
+                  "title": "Transcribir vídeos de YouTube",
+                  "content": "Convierte videos de YouTube en texto o subtítulos precisos y pega el enlace de forma gratuita."
+                }
+              ]
+            },
+            "part2": {
+              "title": "Aquí te explicamos cómo convertir un video de YouTube en un archivo MP3 descargable en 3 sencillos pasos",
+              "steps": [
+                {
+                  "title": "Copiar la URL",
+                  "content": "Abra el video de YouTube que desea ver y luego copie el enlace desde la barra de direcciones de su navegador."
+                },
+                {
+                  "title": "Pegar el enlace",
+                  "content": "Inserte en su herramienta de descarga de videos y pegue la URL en su campo de entrada."
+                },
+                {
+                  "title": "Convertir y descargar",
+                  "content": "Una vez completada la conversión, descargue su archivo MP3 para guardarlo."
+                }
+              ]
+            },
+            "part3": {
+              "content": [
+                "¿Quieres convertir vídeos de YouTube a MP3 para escucharlos en cualquier momento?",
+                "Ya sea que estés en el metro, en un avión o organizando podcasts, contenido de cursos o archivos importantes, a menudo nos cuesta acceder a ellos en cualquier momento. Nuestra herramienta de conversión te soluciona este problema.",
+                "Simplemente copia el enlace de YouTube, pégalo en el convertidor y, con un solo clic, podrás convertir videos a audio MP3 de alta calidad. Guarda, escucha y archiva en cualquier momento sin necesidad de conexión a internet."
+              ]
+            },
+            "part4": {
+              "content": [
+                "Aquí están los 5 principales beneficios de la conversión",
+                "Vídeos de YouTube a archivos MP3"
+              ],
+              "list": [
+                {
+                  "title": "Ahorre en almacenamiento:",
+                  "content": "Los archivos MP3 son más pequeños, lo que reduce el consumo de almacenamiento en YouTube. Ahorra datos móviles descargando la versión sin conexión y úsala cuando tengas internet."
+                },
+                {
+                  "title": "Ahorra batería:",
+                  "content": "Para ver videos de YouTube, utilizan un servicio de almacenamiento en búfer que utiliza conexiones fáciles de escuchar. Olvídate de los problemas de almacenamiento en búfer."
+                },
+                {
+                  "title": "Fácil archivado y conservación:",
+                  "content": "Algunos videos o MP3 hacen que sea más fácil crear su biblioteca personal, ya sea para contenido educativo, archivos de música o cosas importantes."
+                },
+                {
+                  "title": "Compartir más sencillamente:",
+                  "content": "Compartir un archivo MP3 es mucho más cómodo que compartir enlaces de YouTube. Puedes enviar archivos a tus amigos a través de aplicaciones como WhatsApp o Instagram, eliminando así el coste de abrir YouTube."
+                },
+                {
+                  "title": "Visualización instantánea, amplia flexibilidad:",
+                  "content": "Acceda a una mayor variedad de videos favoritos a su video favorito convirtiendo videos de YouTube donde los necesite y los formatos MP3 permiten unirlos sin problemas de inmediato, sin pausas incómodas esperando esta carga."
+                }
+              ]
+            },
+            "part5": {
+              "title": "Por qué nuestro convertidor se destaca",
+              "cards": [
+                {
+                  "title": "Simplicidad con un solo clic",
+                  "content": "Configuración sin esfuerzo y funcionamiento intuitivo."
+                },
+                {
+                  "title": "Ultrarrápido, ilimitado",
+                  "content": "Convierte y descarga a máxima velocidad: sin límites ni limitaciones."
+                },
+                {
+                  "title": "Convertir sobre la marcha",
+                  "content": "Procese sus archivos instantáneamente, sin necesidad de esperar."
+                },
+                {
+                  "title": "Cero anuncios, cero distracciones",
+                  "content": "Disfrute de una interfaz limpia sin ventanas emergentes, banners ni interrupciones: solo una conversión fluida e ininterrumpida."
+                },
+                {
+                  "title": "Calidad original garantizada",
+                  "content": "Tus descargas conservan la resolución completa del video de origen para una reproducción con píxeles perfectos en todo momento."
+                },
+                {
+                  "title": "Funciona en cualquier lugar",
+                  "content": "Totalmente compatible con cualquier navegador, en cualquier dispositivo."
+                }
+              ]
+            },
+            "part6": {
+              "title": [
+                "Maximice sus conversiones de YouTube a MP3",
+                "Con nuestro convertidor"
+              ],
+              "title_des": "Conversión de YouTube a MP3 sin esfuerzo: rápida, sencilla y gratuita",
+              "content": [
+                "Ahí es donde destacamos. Nuestra interfaz intuitiva está diseñada para todos; no se requieren conocimientos técnicos. Sin importar tu experiencia, puedes convertir videos al instante. No necesitas registrarte y es muy fácil empezar: tus MP3 descargados conservan la calidad y claridad del video original, tal como los viste en YouTube.",
+                "La velocidad también importa. Puedes descargar varios archivos rápidamente, sin anuncios ni dispositivos. Ya sea que uses Windows, macOS, Linux, Android o iOS (un smartphone, una tablet o una computadora de escritorio), puedes descargar videos sin esfuerzo."
+              ]
+            },
+            "part7": {
+              "title": "Preguntas clave sobre la conversión de YouTube a MP3",
+              "list": [
+                {
+                  "question": "¿Puedo convertir un vídeo de YouTube con derechos de autor a MP3?",
+                  "answer": "Aunque técnicamente es posible, convertir contenido protegido por derechos de autor sin permiso puede infringir las condiciones de servicio y las leyes de derechos de autor de YouTube. Asegúrate siempre de tener derecho a convertir el contenido o usarlo únicamente con fines personales y no comerciales."
+                },
+                {
+                  "question": "¿Es segura esta herramienta de conversión?",
+                  "answer": "Sí, nuestro convertidor es completamente seguro. No almacenamos tus datos ni archivos, y no hay riesgo de malware ni virus. La conversión se realiza de forma directa y segura."
+                },
+                {
+                  "question": "¿Qué idiomas admite la conversión de YouTube a MP3?",
+                  "answer": "Nuestro conversor es compatible con todos los idiomas disponibles en YouTube. El audio se extraerá exactamente como aparece en el vídeo original, conservando el idioma y la calidad del audio originales."
+                },
+                {
+                  "question": "¿Qué factores afectan el tiempo que tarda en convertirse un vídeo de YouTube?",
+                  "answer": "El tiempo de conversión depende de varios factores: la duración del video, la velocidad de tu conexión a internet y la carga del servidor. La mayoría de los videos de menos de 10 minutos se convierten en menos de 30 segundos."
+                },
+                {
+                  "question": "Cuando convierto y descargo un MP3 usando mi teléfono inteligente, ¿dónde se guarda?",
+                  "answer": "En la mayoría de los smartphones, los archivos MP3 convertidos se guardan en la carpeta Descargas. En iPhone, pueden ir a la app Archivos. En Android, revisa la carpeta Descargas en tu administrador de archivos o app de música."
+                },
+                {
+                  "question": "¿Convertir un vídeo de YouTube a MP3 reduce la calidad del audio?",
+                  "answer": "MP3 es un formato de solo audio, por lo que no incluye vídeo. La calidad del audio se conserva a la tasa de bits más alta disponible del vídeo original, normalmente entre 128 y 320 kbps, dependiendo de la calidad de la carga original."
+                }
+              ]
+            },
+            "MoreFreeTools": {
+              "title": "Más herramientas gratuitas",
+              "title_des": "Explora nuestras otras herramientas de conversión gratuitas",
+              "YouTubeToMP": "YouTube a MP4",
+              "YouTubeToMP_des": "Convierte videos de YouTube a formato MP4 para verlos sin conexión. Descarga videos de alta calidad al instante.",
+              "AITranscription": "Transcripción de IA",
+              "AITranscription_des": "Transcribe archivos de audio y video con una precisión del 96 %. Transcripción ilimitada para todo tu contenido."
+            },
+            "videoDownload": {
+              "title": "Convierte enlaces de YouTube a MP3. Gratis, rápido y sin anuncios.",
+              "description": "¡Gracias por elegir nuestro servicio! Agradecemos mucho su confianza y esperamos que haya mejorado su experiencia. Si pudiera compartir nuestro sitio web con sus amigos, sería de gran ayuda.",
+              "downloadButton": "Descargar",
+              "TranscribeButton": "Transcribir",
+              "downloadError": "Error de conversión."
+            }
+          }
+},
   About: {
     Hero: {
       badge: "Tecnología de IA Líder en la Industria",

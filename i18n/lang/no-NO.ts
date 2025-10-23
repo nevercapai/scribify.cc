@@ -1052,8 +1052,9 @@ let message = {
     Resources: "Ressurser",
     YouTubetoMP4: "YouTube til MP4",
     StartFreeTrial: "Prøv gratis",
-    Blog: "Blogg"
-  },
+    Blog: "Blogg",
+      YouTubetoMP3: 'YouTube til MP3'
+},
   Footer: {
     des: "Verdens første virkelig ubegrensede AI-transkripsjonstjeneste. Ingen tak, ingen grenser, bare frihet til å skape.",
     Features: "Funksjoner",
@@ -1073,8 +1074,13 @@ let message = {
       "Forretningslag",
       "Lærere"
     ],
-    companyMenus: ["Om", "Priser", "Personvern", "Vilkår"]
-  },
+    companyMenus: ["Om", "Priser", "Personvern", "Vilkår"],
+      Resources: 'Ressurser',
+      resourcesMenus: [
+            "YouTube til MP4",
+            "YouTube til MP3"
+          ]
+},
   Index: {
     Hero: {
       badge: 'Ikke mer "Shrinkflation" – Faktisk Ubegrenset',
@@ -2063,10 +2069,10 @@ let message = {
           },
           jessica: {
             textBefore:
-              "\"As a freelance journalist, I can\\\\\\\\\\\\\\'t afford Trint\\\\\\\\\\\\\\'s → \"Som frilansjournalist har jeg ikke råd til Trints",
+              "\"As a freelance journalist, I can\\\\\\\\\\\\\\\\\\\\\\\\\\\\'t afford Trint\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s → \"Som frilansjournalist har jeg ikke råd til Trints",
             highlight: "$100/month → $100/måned",
             textAfter:
-              ", but I also can\\\\\\\\\\\\\\'t work with Otter\\\\\\\\\\\\\\'s 10 files per month limit. NeverCap saved my career.\" → , men jeg kan heller ikke jobbe med Otters grense på 10 filer per måned. NeverCap reddet karrieren min.\"",
+              ", but I also can\\\\\\\\\\\\\\\\\\\\\\\\\\\\'t work with Otter\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s 10 files per month limit. NeverCap saved my career.\" → , men jeg kan heller ikke jobbe med Otters grense på 10 filer per måned. NeverCap reddet karrieren min.\"",
             name: "Jessica Park → Jessica Park",
             role: "Freelance Journalist → Frilansjournalist"
           },
@@ -3254,9 +3260,187 @@ let message = {
               "Konverter YouTube-videoer til nøyaktig tekst eller undertekster. Bare lim inn YouTube-lenken."
           }
         ]
-      }
-    }
-  },
+      },
+        MoreFreeTools: {
+              "title": "Flere gratis verktøy",
+              "title_des": "Utforsk våre andre gratis konverteringsverktøy",
+              "YouTubeToMP": "YouTube til MP3",
+              "YouTubeToMP_des": "Konverter YouTube-videoer til MP3-format for visning uten nett. Last ned videoer av høy kvalitet umiddelbart.",
+              "AITranscription": "AI-transkripsjon",
+              "AITranscription_des": "Transkriber lyd- og videofiler med 96 % nøyaktighet. Ubegrenset transkripsjon for alt innholdet ditt."
+            }
+    },
+      YouTubeToMP3: {
+            "err1": "Feil med formatering av YouTube-lenken.",
+            "err2": "Beklager! Vi jobber for øyeblikket bare med YouTube-lenker. Hvis du trenger støtte for andre nettsteder, holder vi deg oppdatert når vi legger det til i fremtiden.",
+            "part1": {
+              "title": "Konverter YouTube-videoer til MP3",
+              "title_des": "Trekk ut lyd fra YouTube-videoer på sekunder",
+              "placeholder": "Lim inn YouTube-lenken din her",
+              "clear_icon": "Fjern inndata",
+              "Download": "Konvertere",
+              "loading_text": "Behandler lenken for å konvertere. Bli på siden.",
+              "howToDownload": "Hvordan konvertere?",
+              "tutorial": "Se veiledningen"
+            },
+            "freeResources": {
+              "linkTitle": "Drevet av {NeverCap}",
+              "linkTitle2": "- Fullstendig ubegrenset AI-transkripsjon",
+              "title": "Gratis ressurser",
+              "stepsNew": [
+                {
+                  "title": "Gratis transkripsjon av lyd og video",
+                  "content": "Konverter lyd- og videofiler til tekst på sekunder. 3 filer transkriberes hver dag."
+                },
+                {
+                  "title": "Pakk ut lydfiler til tekst",
+                  "content": "Last opp MP3, MP4, WAV, MOV.",
+                  "content2": "Last ned DOCX, TXT, SRT og mer."
+                },
+                {
+                  "title": "Transkribere YouTube-videoer",
+                  "content": "Konverter YouTube-videoer til nøyaktig tekst eller undertekster, og lim inn lenken gratis."
+                }
+              ]
+            },
+            "part2": {
+              "title": "Slik gjør du om en YouTube-video til en nedlastbar MP3-fil i tre enkle trinn",
+              "steps": [
+                {
+                  "title": "Kopier URL-en",
+                  "content": "Åpne den ønskede YouTube-videoen, og kopier deretter lenken fra adressefeltet i nettleseren."
+                },
+                {
+                  "title": "Lim inn lenken",
+                  "content": "Sett inn i videonedlastingsverktøyet ditt og lim inn URL-en i inndatafeltet."
+                },
+                {
+                  "title": "Konverter og last ned",
+                  "content": "Når konverteringen er fullført, last ned MP3-filen din for å lagre den."
+                }
+              ]
+            },
+            "part3": {
+              "content": [
+                "Vil du konvertere YouTube-videoer til MP3 slik at du kan lytte til dem når som helst?",
+                "Enten du er på t-banen, på et fly eller organiserer podkaster, kursinnhold eller viktige arkiver, sliter vi ofte med at vi ikke har tilgang til dem når som helst. Her løser konverteringsverktøyet vårt dette problemet for deg.",
+                "Bare kopier YouTube-lenken, lim den inn i konvertereren, og med ett klikk kan du konvertere videoer til MP3-lyd av høy kvalitet. Lagre, lytt og arkiver når som helst uten å trenge internettforbindelse."
+              ]
+            },
+            "part4": {
+              "content": [
+                "Her er de 5 største fordelene med å konvertere",
+                "YouTube-videoer til MP3-filer"
+              ],
+              "list": [
+                {
+                  "title": "Spar på lagringsplass:",
+                  "content": "MP3-filer er mindre, noe som reduserer lagringsplassen på YouTube. Spar mobildata ved å laste ned offline-visning, og bruk dem når det er internettilgang."
+                },
+                {
+                  "title": "Sparer batteri:",
+                  "content": "For å se YouTube-videoer bruker de en buffertjeneste som bruker lettlyttede forbindelser. Ikke mer bekymringer om buffering."
+                },
+                {
+                  "title": "Enkel arkivering og bevaring:",
+                  "content": "Noen videoer eller MP3-filer gjør det enkelt å bygge ditt personlige bibliotek – enten det er for pedagogisk innhold, musikkarkiver eller viktige ting."
+                },
+                {
+                  "title": "Enklere deling:",
+                  "content": "Det er mye enklere å dele en MP3-fil enn YouTube-lenker. Du kan sende filer til venner via apper som WhatsApp eller Instagram, og dermed slippe å bruke YouTube på å åpne."
+                },
+                {
+                  "title": "Øyeblikkelig visning, bred fleksibilitet:",
+                  "content": "Få tilgang til en bredere favorittvideo til favorittvideoen din ved å konvertere YouTube-videoer der du trenger dem, og MP3-formater gir mulighet for jevn sammenkobling med en gang, uten vanskelige pauser i venting på denne lasten."
+                }
+              ]
+            },
+            "part5": {
+              "title": "Hvorfor konverteren vår skiller seg ut",
+              "cards": [
+                {
+                  "title": "Enkelhet med ett klikk",
+                  "content": "Enkel oppsett og intuitiv betjening."
+                },
+                {
+                  "title": "Lynraskt, ubegrenset",
+                  "content": "Konverter og last ned i topphastighet – ingen grenser, ingen innstillinger."
+                },
+                {
+                  "title": "Konverter på farten",
+                  "content": "Behandle filene dine umiddelbart, uten behov for venting."
+                },
+                {
+                  "title": "Null annonser, null distraksjoner",
+                  "content": "Nyt et rent grensesnitt uten popup-vinduer, bannere eller avbrudd – bare jevn og uavbrutt konvertering."
+                },
+                {
+                  "title": "Original kvalitet garantert",
+                  "content": "Nedlastingene dine beholder kildevideoens fulle oppløsning for pikselperfekt avspilling hver gang."
+                },
+                {
+                  "title": "Fungerer hvor som helst",
+                  "content": "Fullt kompatibel med alle nettlesere, på alle enheter."
+                }
+              ]
+            },
+            "part6": {
+              "title": [
+                "Maksimer YouTube til MP3-konverteringene dine",
+                "Med vår konverter"
+              ],
+              "title_des": "Enkel konvertering av YouTube til MP3 – raskt, enkelt og gratis",
+              "content": [
+                "Det er der vi utmerker oss. Vårt brukervennlige grensesnitt er designet for alle – ingen tekniske ferdigheter kreves. Uansett erfaringsnivå kan du konvertere videoer umiddelbart. Ingen registrering kreves, og du kan enkelt komme i gang – de nedlastede MP3-filene dine beholder den opprinnelige videokvaliteten og klarheten, akkurat slik du så dem på YouTube.",
+                "Hastighet teller også. Du kan laste ned flere filer raskt, uten annonser og enheter. Enten du bruker Windows, macOS, Linux, Android eller iOS – med en smarttelefon, et nettbrett eller en datamaskin – kan du laste ned videoer uten problemer."
+              ]
+            },
+            "part7": {
+              "title": "Viktige spørsmål om konvertering av YouTube til MP3",
+              "list": [
+                {
+                  "question": "Kan jeg konvertere en opphavsrettsbeskyttet YouTube-video til MP3?",
+                  "answer": "Selv om det er teknisk mulig, kan konvertering av opphavsrettsbeskyttet innhold uten tillatelse være i strid med YouTubes tjenestevilkår og lover om opphavsrett. Sørg alltid for at du har rett til å konvertere innhold eller bruke det kun til personlige, ikke-kommersielle formål."
+                },
+                {
+                  "question": "Er dette konverteringsverktøyet trygt?",
+                  "answer": "Ja, konverteren vår er fullstendig trygg og sikker. Vi lagrer ingen av dataene eller filene dine, og det er ingen risiko for skadelig programvare eller virus. Konverteringen skjer direkte og sikkert."
+                },
+                {
+                  "question": "Hvilke språk støttes av konvertering fra YouTube til MP3?",
+                  "answer": "Konverteringsprogrammet vårt støtter alle språk som er tilgjengelige på YouTube. Lyden blir hentet ut nøyaktig slik den vises i den originale videoen, og originalspråket og lydkvaliteten bevares."
+                },
+                {
+                  "question": "Hvilke faktorer påvirker tiden det tar å konvertere en YouTube-video?",
+                  "answer": "Konverteringstiden avhenger av flere faktorer: videoens lengde, internettforbindelsens hastighet og gjeldende serverbelastning. De fleste videoer under 10 minutter konverteres på under 30 sekunder."
+                },
+                {
+                  "question": "Når jeg konverterer og laster ned en MP3-fil med smarttelefonen min, hvor lagres den?",
+                  "answer": "På de fleste smarttelefoner lagres konverterte MP3-filer i Nedlastinger-mappen. På iPhone kan de havne i Filer-appen. På Android kan du sjekke Nedlastinger-mappen i filbehandleren eller musikkappen."
+                },
+                {
+                  "question": "Reduserer konvertering av YouTube-video til MP3 lydkvaliteten?",
+                  "answer": "MP3 er et kun lydformat, så det er ingen videokomponent. Lydkvaliteten bevares med den høyeste tilgjengelige bithastigheten fra kildevideoen, vanligvis 128–320 kbps, avhengig av den opprinnelige opplastingskvaliteten."
+                }
+              ]
+            },
+            "MoreFreeTools": {
+              "title": "Flere gratis verktøy",
+              "title_des": "Utforsk våre andre gratis konverteringsverktøy",
+              "YouTubeToMP": "YouTube til MP4",
+              "YouTubeToMP_des": "Konverter YouTube-videoer til MP4-format for visning uten nett. Last ned videoer av høy kvalitet umiddelbart.",
+              "AITranscription": "AI-transkripsjon",
+              "AITranscription_des": "Transkriber lyd- og videofiler med 96 % nøyaktighet. Ubegrenset transkripsjon for alt innholdet ditt."
+            },
+            "videoDownload": {
+              "title": "Konverter YouTube-lenker til MP3. Gratis, raskt og uten annonser.",
+              "description": "Takk for at du valgte tjenesten vår! Vi setter stor pris på tilliten du ga oss, og håper at den forbedret opplevelsen din. Det ville vært til stor hjelp hvis du kunne dele nettsiden vår med vennene dine.",
+              "downloadButton": "Last ned",
+              "TranscribeButton": "Transkribere",
+              "downloadError": "Konverteringsfeil."
+            }
+          }
+},
   About: {
     Hero: {
       badge: "Ledende AI-teknologi i bransjen",

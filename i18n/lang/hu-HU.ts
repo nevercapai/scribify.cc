@@ -1050,8 +1050,9 @@ let message = {
     Resources: "Források",
     YouTubetoMP4: "YouTube MP4-be",
     StartFreeTrial: "Próbálja Ki Ingyen",
-    Blog: "Blog"
-  },
+    Blog: "Blog",
+      YouTubetoMP3: 'YouTube-ból MP3-ba'
+},
   Footer: {
     des: "A világ első valóban korlátlan mesterséges intelligencia átírási szolgáltatása. Nincs korlát, nincs limit, csak a kreativitás szabadsága.",
     Features: "Funkciók",
@@ -1067,8 +1068,13 @@ let message = {
       "Üzleti csapatok",
       "Oktatók"
     ],
-    companyMenus: ["Rólunk", "Árazás", "Adatvédelem", "Feltételek"]
-  },
+    companyMenus: ["Rólunk", "Árazás", "Adatvédelem", "Feltételek"],
+      Resources: 'Erőforrás',
+      resourcesMenus: [
+            "YouTube-ból MP4-be",
+            "YouTube-ból MP3-ba"
+          ]
+},
   Index: {
     Hero: {
       badge: 'Nincs többé "Shrinkflation" - Valóban Korlátlan',
@@ -3239,9 +3245,187 @@ let message = {
               "Konvertálja a YouTube-videókat pontos szöveggé vagy felirattá. Csak illessze be a YouTube-linket."
           }
         ]
-      }
-    }
-  },
+      },
+        MoreFreeTools: {
+              "title": "További ingyenes eszközök",
+              "title_des": "Fedezze fel további ingyenes konverziós eszközeinket",
+              "YouTubeToMP": "YouTube-ból MP3-ba",
+              "YouTubeToMP_des": "Konvertálj YouTube-videókat MP3 formátumba offline megtekintéshez. Tölts le kiváló minőségű videókat azonnal.",
+              "AITranscription": "AI átírás",
+              "AITranscription_des": "Írj át hang- és videofájlokat 96%-os pontossággal. Korlátlan átírás minden tartalmadhoz."
+            }
+    },
+      YouTubeToMP3: {
+            "err1": "YouTube link formátumhiba.",
+            "err2": "Sajnáljuk! Jelenleg csak YouTube-linkekkel dolgozunk. Ha más oldalakkal kapcsolatban is segítségre van szükséged, értesítünk, ha a jövőben hozzáadjuk.",
+            "part1": {
+              "title": "YouTube-videók konvertálása MP3-ba",
+              "title_des": "Hangfelvétel YouTube-videókból másodpercek alatt",
+              "placeholder": "Illeszd be ide a Youtube linkedet",
+              "clear_icon": "Tiszta bevitel",
+              "Download": "Megtérít",
+              "loading_text": "A link feldolgozása folyamatban van a konvertáláshoz. Maradj az oldalon.",
+              "howToDownload": "Hogyan kell konvertálni?",
+              "tutorial": "Nézd meg az oktatóanyagot"
+            },
+            "freeResources": {
+              "linkTitle": "{NeverCap} által működtetve",
+              "linkTitle2": "- Teljesen korlátlan AI átírás",
+              "title": "Ingyenes források",
+              "stepsNew": [
+                {
+                  "title": "Ingyenes hang- és videóátírás",
+                  "content": "Másodpercek alatt hang- és videofájlokat szöveggé alakíthat. Naponta 3 fájl átírása."
+                },
+                {
+                  "title": "Hangfájlok kivonása szöveggé",
+                  "content": "MP3, MP4, WAV és MOV fájlok feltöltése.",
+                  "content2": "Tölts le DOCX, TXT, SRT és egyebeket."
+                },
+                {
+                  "title": "YouTube-videók átírása",
+                  "content": "Konvertálja YouTube-videókat pontos szöveggé vagy felirattá, és illessze be a linket ingyenesen."
+                }
+              ]
+            },
+            "part2": {
+              "title": "Így alakíthatsz YouTube-videót letölthető MP3 fájllá 3 egyszerű lépésben",
+              "steps": [
+                {
+                  "title": "Másolja az URL-t",
+                  "content": "Nyisd meg a célként kiszemelt YouTube-videót, majd másold ki a linket a böngésző címsorából."
+                },
+                {
+                  "title": "Illeszd be a linket",
+                  "content": "Írd be a videóletöltő eszközödbe, és illeszd be az URL-t a beviteli mezőbe."
+                },
+                {
+                  "title": "Konvertálás és letöltés",
+                  "content": "Miután a konvertálás befejeződött, töltse le az MP3 fájlt a mentéshez."
+                }
+              ]
+            },
+            "part3": {
+              "content": [
+                "Szeretnéd YouTube-videókat MP3-ba konvertálni, hogy bármikor meghallgathasd őket?",
+                "Akár metrón, akár repülőn utazol, vagy podcastokat, tananyagokat vagy fontos archívumokat rendezel, gyakran küzdünk azzal, hogy nem férhetünk hozzájuk bármikor. Itt a konvertáló eszközünk megoldja ezt a problémát.",
+                "Egyszerűen másold ki a YouTube linket, illeszd be a konverterbe, és egyetlen kattintással konvertálhatod a videókat kiváló minőségű MP3 hangfájlokká. Mentsd el, hallgasd meg és archiváld bármikor internetkapcsolat nélkül."
+              ]
+            },
+            "part4": {
+              "content": [
+                "Íme az átváltás 5 fő előnye",
+                "YouTube-videók MP3 fájlokká alakítása"
+              ],
+              "list": [
+                {
+                  "title": "Spóroljon a tárhelyen:",
+                  "content": "Az MP3 fájlok kisebbek, így kevesebb tárhelyet foglalnak a YouTube-on. Spórolj a mobil adatforgalmon az offline megtekintési fájlok letöltésével, és használd őket, ha van internetkapcsolat."
+                },
+                {
+                  "title": "Akkumulátor kímélése:",
+                  "content": "YouTube-videók megtekintéséhez pufferelési szolgáltatást használnak, amely könnyen hallgatható kapcsolatokat használ. Nincs több pufferelési aggodalom."
+                },
+                {
+                  "title": "Egyszerű archiválás és megőrzés:",
+                  "content": "Néhány videó vagy MP3 megkönnyíti a személyes könyvtár felépítését – legyen szó oktatási tartalmakról, zenei archívumokról vagy fontos fájlokról."
+                },
+                {
+                  "title": "Egyszerűbb megosztás:",
+                  "content": "Az MP3 fájlok megosztása sokkal kényelmesebb, mint a YouTube-linkek megosztása. Fájlokat küldhetsz a barátaidnak olyan alkalmazásokon keresztül, mint a WhatsApp vagy az Instagram, így nem kell megnyitnod a YouTube-ot."
+                },
+                {
+                  "title": "Azonnali megtekintés, széleskörű rugalmasság:",
+                  "content": "Hozzáférhetsz egy szélesebb kedvenc videódhoz a YouTube-videók konvertálásával, bárhol is vagy, az MP3 formátumok pedig lehetővé teszik a zökkenőmentes összeállítást azonnal, kínos szünetek nélkül a betöltés előtt."
+                }
+              ]
+            },
+            "part5": {
+              "title": "Miért tűnik ki a konverterünk?",
+              "cards": [
+                {
+                  "title": "Egy kattintásos egyszerűség",
+                  "content": "Könnyű beállítás és intuitív kezelés."
+                },
+                {
+                  "title": "Villámgyors, korlátlan",
+                  "content": "Konvertálás és letöltés maximális sebességgel – nincsenek korlátozások, nincsenek korlátok."
+                },
+                {
+                  "title": "Konvertálás menet közben",
+                  "content": "Azonnal feldolgozhatja fájljait, nem kell várnia."
+                },
+                {
+                  "title": "Nulla hirdetés, nulla zavaró tényező",
+                  "content": "Élvezd a letisztult felületet felugró ablakok, bannerek vagy megszakítások nélkül – csak zökkenőmentes, megszakítás nélküli konverziót."
+                },
+                {
+                  "title": "Eredeti minőség garantált",
+                  "content": "A letöltések megőrzik a forrásvideó teljes felbontását a pixelpontos lejátszás érdekében minden alkalommal."
+                },
+                {
+                  "title": "Bárhol működik",
+                  "content": "Teljesen kompatibilis bármilyen böngészővel, bármilyen eszközön."
+                }
+              ]
+            },
+            "part6": {
+              "title": [
+                "Maximalizáld a YouTube MP3 konverzióidat",
+                "Átalakítónkkal"
+              ],
+              "title_des": "Könnyed YouTube MP3-ba konvertálás — Gyors, egyszerű és ingyenes",
+              "content": [
+                "Ebben vagyunk a kiemelkedők. Felhasználóbarát felületünket mindenki számára terveztük – nincs szükség technikai ismeretekre. Tapasztalati szintjétől függetlenül azonnal konvertálhatsz videókat. Nincs szükség regisztrációra, és egyszerűen elkezdheted – a letöltött MP3-ak megőrzik az eredeti videóminőséget és tisztaságot, pontosan úgy, ahogyan a YouTube-on nézted őket.",
+                "A sebesség is számít. Gyorsan, hirdetések és eszközök nélkül tölthetsz le több fájlt is. Akár Windows, macOS, Linux, Android vagy iOS rendszert használsz – okostelefont, táblagépet vagy asztali számítógépet használsz –, könnyedén letölthetsz videókat."
+              ]
+            },
+            "part7": {
+              "title": "Kulcsfontosságú kérdések a YouTube MP3-ba konvertálásával kapcsolatban",
+              "list": [
+                {
+                  "question": "Átalakíthatok egy szerzői joggal védett YouTube-videót MP3-ba?",
+                  "answer": "Bár technikailag lehetséges, a szerzői joggal védett tartalom engedély nélküli konvertálása sértheti a YouTube szolgáltatási feltételeit és a szerzői jogi törvényeket. Mindig győződj meg róla, hogy jogosult vagy a tartalom konvertálására vagy személyes, nem kereskedelmi célú felhasználására."
+                },
+                {
+                  "question": "Biztonságos ez a konverter eszköz?",
+                  "answer": "Igen, a konverterünk teljesen biztonságos. Nem tároljuk az adatait vagy fájljait, és nincs veszélye a rosszindulatú programoknak vagy vírusoknak. A konvertálás közvetlenül és biztonságosan történik."
+                },
+                {
+                  "question": "Milyen nyelveket támogat a YouTube MP3-ba konvertálása?",
+                  "answer": "A konverterünk a YouTube-on elérhető összes nyelvet támogatja. A hanganyag pontosan úgy lesz kiolvasva, ahogyan az eredeti videóban megjelenik, megőrizve az eredeti nyelvet és hangminőséget."
+                },
+                {
+                  "question": "Milyen tényezők befolyásolják egy YouTube-videó konvertálásának idejét?",
+                  "answer": "A konverziós idő számos tényezőtől függ: a videó hosszától, az internetkapcsolat sebességétől és a szerver aktuális terhelésétől. A legtöbb 10 percnél rövidebb videó kevesebb mint 30 másodperc alatt konvertálódik."
+                },
+                {
+                  "question": "Amikor okostelefonnal konvertálok és letöltök egy MP3 fájlt, hová kerül mentésre?",
+                  "answer": "A legtöbb okostelefonon a konvertált MP3 fájlok a Letöltések mappába kerülnek mentésre. iPhone-on ezek a Fájlok alkalmazásba kerülhetnek. Androidon ellenőrizd a Letöltések mappát a fájlkezelőben vagy a zenealkalmazásban."
+                },
+                {
+                  "question": "Egy YouTube-videó MP3-ba konvertálása rontja a hangminőséget?",
+                  "answer": "Az MP3 egy csak hangfájlokat tartalmazó formátum, tehát nincs benne videó komponens. A hangminőség a forrásvideó legmagasabb elérhető bitrátáján marad, jellemzően 128-320 kbps között, az eredeti feltöltési minőségtől függően."
+                }
+              ]
+            },
+            "MoreFreeTools": {
+              "title": "További ingyenes eszközök",
+              "title_des": "Fedezze fel további ingyenes konverziós eszközeinket",
+              "YouTubeToMP": "YouTube-ból MP4-be",
+              "YouTubeToMP_des": "Konvertálj YouTube videókat MP4 formátumba offline megtekintéshez. Tölts le kiváló minőségű videókat azonnal.",
+              "AITranscription": "AI átírás",
+              "AITranscription_des": "Írj át hang- és videofájlokat 96%-os pontossággal. Korlátlan átírás minden tartalmadhoz."
+            },
+            "videoDownload": {
+              "title": "YouTube linkek konvertálása MP3-ba. Ingyenes, gyors és hirdetésmentes.",
+              "description": "Köszönjük, hogy minket választott! Nagyra értékeljük bizalmát, és reméljük, hogy jobbá tettük az élményét. Ha megosztaná weboldalunkat barátaival, az nagy segítség lenne.",
+              "downloadButton": "Letöltés",
+              "TranscribeButton": "Lemásol",
+              "downloadError": "Konvertálási hiba."
+            }
+          }
+},
   About: {
     Hero: {
       badge: "Piacvezető AI-technológia",

@@ -1067,8 +1067,9 @@ let message = {
     Resources: "Ressources",
     YouTubetoMP4: "YouTube vers MP4",
     StartFreeTrial: "Essayez Gratuitement",
-    Blog: "Blog"
-  },
+    Blog: "Blog",
+      YouTubetoMP3: 'YouTube en MP3'
+},
   Footer: {
     des: "Le premier service de transcription IA vraiment illimité au monde. Pas de plafond, pas de limites, juste la liberté de créer.",
     Features: "Fonctionnalités",
@@ -1088,8 +1089,13 @@ let message = {
       "Équipes commerciales",
       "Éducateurs"
     ],
-    companyMenus: ["À propos", "Tarifs", "Confidentialité", "Conditions"]
-  },
+    companyMenus: ["À propos", "Tarifs", "Confidentialité", "Conditions"],
+      Resources: 'Ressources',
+      resourcesMenus: [
+            "YouTube en MP4",
+            "YouTube en MP3"
+          ]
+},
   Index: {
     Hero: {
       badge: 'Finie la "Shrinkflation" - Vraiment Illimité',
@@ -1121,7 +1127,7 @@ let message = {
         "Plus de Limites Cachées, Plus de Surprises - Alors que d'autres réduisent discrètement vos minutes ou cachent des plafonds dans les petits caractères, nous croyons en une transparence radicale",
       feat_unltd: "Vraiment Illimité",
       feat_unltd_desc:
-        'Pas de "politique d\\\\\\\\\\\\\\\'usage raisonnable" cachée dans les conditions. Pas de plafonds de stockage déguisés en "illimité". Téléchargez toute votre archive, transcrivez tout pour tous vos besoins audio. Nous le pensons vraiment.',
+        'Pas de "politique d\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'usage raisonnable" cachée dans les conditions. Pas de plafonds de stockage déguisés en "illimité". Téléchargez toute votre archive, transcrivez tout pour tous vos besoins audio. Nous le pensons vraiment.',
       feat_bulk: "Liberté de Téléchargement en Masse",
       feat_bulk_desc:
         'Fatigué des "3 imports à vie" ou "10 fichiers par mois" ? Téléchargez 50 fichiers à la fois, autant de fois que nécessaire. Idéal pour traiter les retards.',
@@ -1312,7 +1318,7 @@ let message = {
         "Arrêtez de compter les minutes. Arrêtez de surveiller les plafonds. Que vous transcriviez 10 heures ou 10 000 heures par mois, vous payez le même tarif fixe. Pas de frais supplémentaires. Pas de factures surprises.",
       feature1Point1Icon: "✓",
       feature1Point1Text:
-        'Pas de pièges de "politique d\\\\\\\\\\\\\\\'usage équitable"',
+        'Pas de pièges de "politique d\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'usage équitable"',
       feature1Point2Icon: "✓",
       feature1Point2Text: "Pas de ralentissement après X heures",
       feature1Point3Icon: "✓",
@@ -1347,11 +1353,11 @@ let message = {
       feature3TitlePart1: "Les utilisateurs",
       feature3TitlePart2: "Changent chaque jour",
       feature3Description:
-        '"Je paie 100 $/an pour Otter et ils me limitent à 10 imports de fichiers par mois. Dès qu\\\\\\\\\\\\\\\'il y aura une alternative avec des imports illimités, je pars !" - Vrai utilisateur Reddit',
+        '"Je paie 100 $/an pour Otter et ils me limitent à 10 imports de fichiers par mois. Dès qu\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'il y aura une alternative avec des imports illimités, je pars !" - Vrai utilisateur Reddit',
       feature3Point1Icon: "✓",
       feature3Point1Text: "50 000+ utilisateurs ont changé",
       feature3Point2Icon: "✓",
-      feature3Point2Text: 'Face à la "shrinkflation" d\\\\\\\\\\\\\\\'Otter',
+      feature3Point2Text: 'Face à la "shrinkflation" d\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'Otter',
       feature3Point3Icon: "✓",
       feature3Point3Text: "Jamais de retour en arrière",
       feature3Stat1Number: "50 K+",
@@ -1389,7 +1395,7 @@ let message = {
       primaryCta: "Commencer le Transfert en Masse →",
       secondaryCta: "Voir les Limites",
       redditQuote:
-        "\"J\\\\\\\\\\\\\\'ai 3 ans d\\\\\\\\\\\\\\'épisodes de podcast à transcrire. Otter m\\\\\\\\\\\\\\'annonce 3 imports à vie. TROIS. C\\\\\\\\\\\\\\'est insultant.\"",
+        "\"J\\\\\\\\\\\\\\\\\\\\\\\\\\\\'ai 3 ans d\\\\\\\\\\\\\\\\\\\\\\\\\\\\'épisodes de podcast à transcrire. Otter m\\\\\\\\\\\\\\\\\\\\\\\\\\\\'annonce 3 imports à vie. TROIS. C\\\\\\\\\\\\\\\\\\\\\\\\\\\\'est insultant.\"",
       redditAuthorIcon: "📍",
       redditAuthorText: "Réelle frustration de r/podcasting",
       comparisonSectionTitlePart1: "Les",
@@ -1417,7 +1423,7 @@ let message = {
       feature1TitleHighlight: "Archives Entières",
       feature1TitlePart2: "en Une Nuit",
       feature1Description:
-        "Transférez 50 fichiers avant de dormir. Réveillez-vous avec les transcriptions prêtes. Pas de file d\\\\\\\\\\\\\\'attente, pas d\\\\\\\\\\\\\\'attente, pas de messages \"upgradez\". Juste une puissance de traitement à portée de main.",
+        "Transférez 50 fichiers avant de dormir. Réveillez-vous avec les transcriptions prêtes. Pas de file d\\\\\\\\\\\\\\\\\\\\\\\\\\\\'attente, pas d\\\\\\\\\\\\\\\\\\\\\\\\\\\\'attente, pas de messages \"upgradez\". Juste une puissance de traitement à portée de main.",
       feature1Point1Icon: "✓",
       feature1Point1Text: "50 transferts simultanés",
       feature1Point2Icon: "✓",
@@ -1461,7 +1467,7 @@ let message = {
       feature3TitleHighlight: "Pas d'attente.",
       feature3TitlePart2: "Pas de limites.",
       feature3Description:
-        'Alors que d\\\\\\\\\\\\\\\'autres vous font attendre dans des files virtuelles ou vous proposent des mises à niveau pour un "traitement prioritaire", nous traitons chaque téléchargement avec urgence. Votre contenu compte, et il ne devrait pas attendre.',
+        'Alors que d\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'autres vous font attendre dans des files virtuelles ou vous proposent des mises à niveau pour un "traitement prioritaire", nous traitons chaque téléchargement avec urgence. Votre contenu compte, et il ne devrait pas attendre.',
       feature3Point1Icon: "✓",
       feature3Point1Text: "Pas de niveaux de priorité",
       feature3Point2Icon: "✓",
@@ -1762,7 +1768,7 @@ let message = {
         }
       ],
       disclaimer:
-        "\"Illimité\" signifie pas de plafond mensuel ni de ralentissement artificiel. L\\\\\\\\\\\\\\'usage équitable s\\\\\\\\\\\\\\'applique à l\\\\\\\\\\\\\\'automatisation abusive ou la redistribution."
+        "\"Illimité\" signifie pas de plafond mensuel ni de ralentissement artificiel. L\\\\\\\\\\\\\\\\\\\\\\\\\\\\'usage équitable s\\\\\\\\\\\\\\\\\\\\\\\\\\\\'applique à l\\\\\\\\\\\\\\\\\\\\\\\\\\\\'automatisation abusive ou la redistribution."
     },
     ComparisonTable: {
       header: {
@@ -1959,7 +1965,7 @@ let message = {
       },
       contentCreators: {
         title: "Créateurs de contenu",
-        pain: '"L\\\\\\\\\\\\\\\'accessibilité ne devrait pas être coûteuse"',
+        pain: '"L\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'accessibilité ne devrait pas être coûteuse"',
         description:
           "Sous-titrez toute votre chaîne YouTube. Générez des sous-titres en plusieurs langues et améliorez instantanément le SEO de vos vidéos.",
         benefits: {
@@ -2037,7 +2043,7 @@ let message = {
       },
       educators: {
         title: "Éducateurs",
-        pain: '"Les vidéos YouTube ont besoin d\\\\\\\\\\\\\\\'une transcription instantanée"',
+        pain: '"Les vidéos YouTube ont besoin d\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'une transcription instantanée"',
         description:
           "Collez simplement des liens YouTube pour obtenir des transcriptions instantanées et des sous-titres générés automatiquement. Transformez toute vidéo éducative en contenu accessible et consultable.",
         benefits: {
@@ -2068,10 +2074,10 @@ let message = {
           "Écoutez des professionnels qui ont brisé les limites artificielles",
         testimonials: {
           mike: {
-            textBefore: "\"J\\\\\\\\\\\\\\'avais",
+            textBefore: "\"J\\\\\\\\\\\\\\\\\\\\\\\\\\\\'avais",
             highlight: "3 ans d'épisodes",
             textAfter:
-              "non transcrits. Otter voulait que j\\\\\\\\\\\\\\'en choisisse 3. TROIS. NeverCap m\\\\\\\\\\\\\\'a permis de télécharger les 150 épisodes en un week-end.\"",
+              "non transcrits. Otter voulait que j\\\\\\\\\\\\\\\\\\\\\\\\\\\\'en choisisse 3. TROIS. NeverCap m\\\\\\\\\\\\\\\\\\\\\\\\\\\\'a permis de télécharger les 150 épisodes en un week-end.\"",
             name: "Mike Rodriguez",
             role: "Animateur de podcast"
           },
@@ -2080,7 +2086,7 @@ let message = {
               '"En tant que journaliste indépendante, je ne peux pas me permettre les',
             highlight: "$100/mois",
             textAfter:
-              "de Trint, mais je ne peux pas non plus travailler avec la limite de 10 fichiers par mois d\\\\\\\\\\\\\\'Otter. NeverCap a sauvé ma carrière.\"",
+              "de Trint, mais je ne peux pas non plus travailler avec la limite de 10 fichiers par mois d\\\\\\\\\\\\\\\\\\\\\\\\\\\\'Otter. NeverCap a sauvé ma carrière.\"",
             name: "Jessica Park",
             role: "Journaliste indépendante"
           },
@@ -2088,7 +2094,7 @@ let message = {
             textBefore: '"Notre équipe de recherche avait',
             highlight: "200 heures",
             textAfter:
-              "d\\\\\\\\\\\\\\'enregistrements de groupes de discussion. Nous avons tout traité en un week-end au lieu de rationner les minutes mensuelles.\"",
+              "d\\\\\\\\\\\\\\\\\\\\\\\\\\\\'enregistrements de groupes de discussion. Nous avons tout traité en un week-end au lieu de rationner les minutes mensuelles.\"",
             name: "Dr. Sarah Chen",
             role: "Chercheuse principale"
           },
@@ -2158,7 +2164,7 @@ let message = {
       problemTitle: "Le",
       problemTitleHighlight: "Problème de transcription de podcasts",
       problemSubtitle:
-        "D\\\\\\\\\\\\\\'autres services vous obligent à choisir quels épisodes \"méritent\" d\\\\\\\\\\\\\\'être transcrits",
+        "D\\\\\\\\\\\\\\\\\\\\\\\\\\\\'autres services vous obligent à choisir quels épisodes \"méritent\" d\\\\\\\\\\\\\\\\\\\\\\\\\\\\'être transcrits",
       problems: {
         problem1: {
           title: "Les limites de téléchargement tuent les archives",
@@ -2244,12 +2250,12 @@ let message = {
       testimonialsSubtitle: "Des histoires vraies de vrais podcasteurs",
       testimonials: {
         mike: {
-          text: "\"Je fais un podcast depuis 3 ans et je transcrivais tout manuellement comme un idiot. J\\\\\\\\\\\\\\'ai téléchargé 6 épisodes d\\\\\\\\\\\\\\'un coup et cela a parfaitement séparé mon co-animateur et moi. L\\\\\\\\\\\\\\'épisode en café que je pensais raté ? Une transcription cristalline. Je ne retaperai plus jamais ça moi-même.\"",
+          text: "\"Je fais un podcast depuis 3 ans et je transcrivais tout manuellement comme un idiot. J\\\\\\\\\\\\\\\\\\\\\\\\\\\\'ai téléchargé 6 épisodes d\\\\\\\\\\\\\\\\\\\\\\\\\\\\'un coup et cela a parfaitement séparé mon co-animateur et moi. L\\\\\\\\\\\\\\\\\\\\\\\\\\\\'épisode en café que je pensais raté ? Une transcription cristalline. Je ne retaperai plus jamais ça moi-même.\"",
           name: "Mike Rodriguez",
           role: 'Animateur du podcast "The Daily Grind"'
         },
         sarah: {
-          text: "\"Otter me limitait à 10 imports de fichiers par mois. J\\\\\\\\\\\\\\'avais 150 épisodes en retard. NeverCap m\\\\\\\\\\\\\\'a permis de tout télécharger en 3 lots. Mon trafic organique a augmenté de 300% depuis l\\\\\\\\\\\\\\'ajout de transcriptions aux anciens épisodes. Cela s\\\\\\\\\\\\\\'est littéralement payé tout seul.\"",
+          text: "\"Otter me limitait à 10 imports de fichiers par mois. J\\\\\\\\\\\\\\\\\\\\\\\\\\\\'avais 150 épisodes en retard. NeverCap m\\\\\\\\\\\\\\\\\\\\\\\\\\\\'a permis de tout télécharger en 3 lots. Mon trafic organique a augmenté de 300% depuis l\\\\\\\\\\\\\\\\\\\\\\\\\\\\'ajout de transcriptions aux anciens épisodes. Cela s\\\\\\\\\\\\\\\\\\\\\\\\\\\\'est littéralement payé tout seul.\"",
           name: "Sarah Chen",
           role: 'Créatrice de "Tech Talks Today"'
         }
@@ -2369,7 +2375,7 @@ let message = {
         title: "Le",
         titleHighlight: "Problème de transcription des journalistes",
         subtitle:
-          "D\\\\\\\\\\\\\\'autres services vous obligent à choisir quelles interviews \"méritent\" d\\\\\\\\\\\\\\'être transcrites",
+          "D\\\\\\\\\\\\\\\\\\\\\\\\\\\\'autres services vous obligent à choisir quelles interviews \"méritent\" d\\\\\\\\\\\\\\\\\\\\\\\\\\\\'être transcrites",
         problems: {
           uploadLimits: {
             title: "Les limites de téléchargement tuent les enquêtes",
@@ -2765,7 +2771,7 @@ let message = {
       statsCompliant: "Conforme",
       problemTitle: "Le",
       problemSubtitle:
-        "D\\\\\\\\\\\\\\'autres services vous font choisir quelles données \"méritent\" d\\\\\\\\\\\\\\'être transcrites",
+        "D\\\\\\\\\\\\\\\\\\\\\\\\\\\\'autres services vous font choisir quelles données \"méritent\" d\\\\\\\\\\\\\\\\\\\\\\\\\\\\'être transcrites",
       problemCard1Title: "Les limites de téléchargement tuent les études",
       problemCard1Desc:
         "Otter offre 3 imports à vie. Comment transcrire 200 heures de groupes de discussion ?",
@@ -2779,7 +2785,7 @@ let message = {
       feature1Label: "Pas de limites",
       feature1Title: "Gérer votre",
       feature1Desc:
-        'Téléchargez 200 heures d\\\\\\\\\\\\\\\'entretiens ce soir. Réveillez-vous avec des transcriptions complètes et consultables. Pas de plafonds mensuels, pas de limites par fichier, pas de "fair use" absurde.',
+        'Téléchargez 200 heures d\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'entretiens ce soir. Réveillez-vous avec des transcriptions complètes et consultables. Pas de plafonds mensuels, pas de limites par fichier, pas de "fair use" absurde.',
       feature1Point1: "Téléchargement par lots de 50 fichiers simultanément",
       feature1Point2: "Traitez complètement les études longitudinales",
       feature1Point3: "Pas de limites de stockage pour les transcriptions",
@@ -2944,7 +2950,7 @@ let message = {
       testimonialsSubtitle:
         "Découvrez comment les entreprises transforment leur culture de réunion",
       testimonial1Text:
-        "\"Nous sommes passés à côté de détails cruciaux à une archive consultable de chaque conversation. La fonction d\\\\\\\\\\\\\\'enregistrement direct signifie que nous n\\\\\\\\\\\\\\'oublions jamais de capturer les discussions importantes.\"",
+        "\"Nous sommes passés à côté de détails cruciaux à une archive consultable de chaque conversation. La fonction d\\\\\\\\\\\\\\\\\\\\\\\\\\\\'enregistrement direct signifie que nous n\\\\\\\\\\\\\\\\\\\\\\\\\\\\'oublions jamais de capturer les discussions importantes.\"",
       testimonial1AuthorName: "James Kim",
       testimonial1AuthorRole: "Chef de produit, TechCorp",
       testimonial2Text:
@@ -3222,7 +3228,7 @@ let message = {
           {
             question: "Où est enregistré un MP4 téléchargé sur smartphone ?",
             answer:
-              'Après avoir téléchargé un MP4 sur votre smartphone, vous pouvez généralement le trouver dans le dossier "Téléchargements" de l\\\\\\\\\\\\\\\'application de gestion de fichiers de votre appareil.'
+              'Après avoir téléchargé un MP4 sur votre smartphone, vous pouvez généralement le trouver dans le dossier "Téléchargements" de l\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'application de gestion de fichiers de votre appareil.'
           },
           {
             question: "La conversion en MP4 réduit-elle la qualité ?",
@@ -3280,9 +3286,187 @@ let message = {
               "Convertissez les vidéos YouTube en texte précis ou en sous-titres. Collez simplement le lien YouTube."
           }
         ]
-      }
-    }
-  },
+      },
+        MoreFreeTools: {
+              "title": "Plus d'outils gratuits",
+              "title_des": "Découvrez nos autres outils de conversion gratuits",
+              "YouTubeToMP": "YouTube en MP3",
+              "YouTubeToMP_des": "Convertissez vos vidéos YouTube au format MP3 pour un visionnage hors ligne. Téléchargez instantanément des vidéos de haute qualité.",
+              "AITranscription": "Transcription IA",
+              "AITranscription_des": "Transcrivez vos fichiers audio et vidéo avec une précision de 96 %. Transcription illimitée pour tous vos contenus."
+            }
+    },
+      YouTubeToMP3: {
+            "err1": "Erreur de format de lien YouTube.",
+            "err2": "Désolé ! Nous ne travaillons actuellement qu'avec des liens YouTube. Si vous avez besoin d'aide pour d'autres sites, nous vous tiendrons informés dès que nous les ajouterons.",
+            "part1": {
+              "title": "Convertir des vidéos YouTube en MP3",
+              "title_des": "Extraire l'audio des vidéos YouTube en quelques secondes",
+              "placeholder": "Collez votre lien Youtube ici",
+              "clear_icon": "Effacer les entrées",
+              "Download": "Convertir",
+              "loading_text": "Traitement du lien pour la conversion. Restez sur la page.",
+              "howToDownload": "Comment convertir ?",
+              "tutorial": "Regardez le tutoriel"
+            },
+            "freeResources": {
+              "linkTitle": "Propulsé par {NeverCap}",
+              "linkTitle2": "- Transcription IA entièrement illimitée",
+              "title": "Ressources gratuites",
+              "stepsNew": [
+                {
+                  "title": "Transcription audio et vidéo gratuite",
+                  "content": "Convertissez des fichiers audio et vidéo en texte en quelques secondes. 3 fichiers transcrits chaque jour."
+                },
+                {
+                  "title": "Extraire des fichiers audio en texte",
+                  "content": "Téléchargez MP3, MP4, WAV, MOV.",
+                  "content2": "Téléchargez DOCX, TXT, SRT et plus encore."
+                },
+                {
+                  "title": "Transcrire des vidéos YouTube",
+                  "content": "Convertissez les vidéos YouTube en texte précis ou en sous-titres et collez le lien gratuitement."
+                }
+              ]
+            },
+            "part2": {
+              "title": "Voici comment transformer une vidéo YouTube en un fichier MP3 téléchargeable en 3 étapes faciles",
+              "steps": [
+                {
+                  "title": "Copier l'URL",
+                  "content": "Ouvrez votre vidéo YouTube cible, puis copiez le lien depuis la barre d’adresse de votre navigateur."
+                },
+                {
+                  "title": "Collez le lien",
+                  "content": "Insérez-le dans votre outil de téléchargement de vidéos et collez l'URL dans son champ de saisie."
+                },
+                {
+                  "title": "Convertir et télécharger",
+                  "content": "Une fois la conversion terminée, téléchargez votre fichier MP3 pour l'enregistrer."
+                }
+              ]
+            },
+            "part3": {
+              "content": [
+                "Vous souhaitez convertir des vidéos YouTube en MP3 pour les écouter à tout moment ?",
+                "Que vous soyez dans le métro, dans l'avion, ou que vous organisiez des podcasts, des contenus de cours ou des archives importantes, nous avons souvent du mal à y accéder à tout moment. Notre outil de conversion vous aide à résoudre ce problème.",
+                "Copiez simplement le lien YouTube, collez-le dans le convertisseur et, en un clic, convertissez vos vidéos en fichiers audio MP3 haute qualité. Enregistrez, écoutez et archivez vos vidéos à tout moment, sans connexion Internet."
+              ]
+            },
+            "part4": {
+              "content": [
+                "Voici les 5 principaux avantages de la conversion",
+                "Vidéos YouTube en fichiers MP3"
+              ],
+              "list": [
+                {
+                  "title": "Économisez sur le stockage :",
+                  "content": "Les fichiers MP3 sont plus petits, ce qui réduit l'espace de stockage nécessaire à la lecture de YouTube. Économisez vos données mobiles en téléchargeant les vidéos hors ligne et utilisez-les lorsque vous avez accès à Internet."
+                },
+                {
+                  "title": "Économise la batterie :",
+                  "content": "Pour regarder des vidéos YouTube, il existe un service de mise en mémoire tampon qui utilise des connexions faciles à écouter. Finis les soucis de mise en mémoire tampon."
+                },
+                {
+                  "title": "Archivage et conservation faciles :",
+                  "content": "Certaines vidéos ou MP3 facilitent la création de votre bibliothèque personnelle, qu'il s'agisse de contenu éducatif, d'archives musicales ou de documents importants."
+                },
+                {
+                  "title": "Partage simplifié :",
+                  "content": "Partager un fichier MP3 est bien plus pratique que de consulter des liens YouTube. Vous pouvez envoyer des fichiers à vos amis via des applications comme WhatsApp ou Instagram, éliminant ainsi les frais d'accès à YouTube."
+                },
+                {
+                  "title": "Visualisation instantanée, grande flexibilité :",
+                  "content": "Accédez à une vidéo préférée plus large vers votre vidéo préférée en convertissant les vidéos YouTube où vous en avez besoin et les formats MP3 permettent de les assembler en douceur immédiatement, sans pauses gênantes en attendant ce chargement."
+                }
+              ]
+            },
+            "part5": {
+              "title": "Pourquoi notre convertisseur se démarque",
+              "cards": [
+                {
+                  "title": "La simplicité en un clic",
+                  "content": "Installation sans effort et fonctionnement intuitif."
+                },
+                {
+                  "title": "Ultra-rapide, illimité",
+                  "content": "Convertissez et téléchargez à une vitesse maximale — sans plafond, sans limite."
+                },
+                {
+                  "title": "Convertissez à la volée",
+                  "content": "Traitez vos fichiers instantanément, aucune attente requise."
+                },
+                {
+                  "title": "Zéro publicité, zéro distraction",
+                  "content": "Bénéficiez d'une interface claire sans pop-ups, bannières ou interruptions - juste une conversion fluide et ininterrompue."
+                },
+                {
+                  "title": "Qualité originale garantie",
+                  "content": "Vos téléchargements conservent la pleine résolution de la vidéo source pour une lecture parfaite au pixel près à chaque fois."
+                },
+                {
+                  "title": "Fonctionne partout",
+                  "content": "Entièrement compatible avec n'importe quel navigateur, sur n'importe quel appareil."
+                }
+              ]
+            },
+            "part6": {
+              "title": [
+                "Maximisez vos conversions YouTube en MP3",
+                "Avec notre convertisseur"
+              ],
+              "title_des": "Conversion YouTube en MP3 sans effort — Rapide, simple et gratuite",
+              "content": [
+                "C'est là que nous excellons. Notre interface conviviale est conçue pour tous ; aucune compétence technique n'est requise. Quel que soit votre niveau d'expérience, vous pouvez convertir des vidéos instantanément. Aucune inscription n'est requise, et c'est simple : vos MP3 téléchargés conservent la qualité et la clarté d'origine, exactement comme vous les avez regardés sur YouTube.",
+                "La vitesse est également importante. Téléchargez rapidement plusieurs fichiers, sans publicité ni appareil. Que vous utilisiez Windows, macOS, Linux, Android ou iOS, que vous utilisiez un smartphone, une tablette ou un ordinateur, téléchargez des vidéos sans effort."
+              ]
+            },
+            "part7": {
+              "title": "Questions clés sur la conversion de YouTube en MP3",
+              "list": [
+                {
+                  "question": "Puis-je convertir une vidéo YouTube protégée par le droit d'auteur en MP3 ?",
+                  "answer": "Bien que techniquement possible, la conversion de contenu protégé par des droits d'auteur sans autorisation peut enfreindre les conditions d'utilisation de YouTube et les lois sur les droits d'auteur. Assurez-vous toujours d'avoir le droit de convertir du contenu ou de l'utiliser uniquement à des fins personnelles et non commerciales."
+                },
+                {
+                  "question": "Cet outil de conversion est-il sûr ?",
+                  "answer": "Oui, notre convertisseur est entièrement sécurisé. Nous ne stockons aucune de vos données ni de vos fichiers, et il n'y a aucun risque de malware ou de virus. La conversion s'effectue directement et en toute sécurité."
+                },
+                {
+                  "question": "Quelles langues la conversion YouTube en MP3 prend-elle en charge ?",
+                  "answer": "Notre convertisseur prend en charge toutes les langues disponibles sur YouTube. L'audio sera extrait exactement tel qu'il apparaît dans la vidéo originale, préservant ainsi la langue et la qualité audio d'origine."
+                },
+                {
+                  "question": "Quels facteurs affectent le temps nécessaire à la conversion d’une vidéo YouTube ?",
+                  "answer": "Le temps de conversion dépend de plusieurs facteurs : la durée de la vidéo, la vitesse de votre connexion Internet et la charge actuelle du serveur. La plupart des vidéos de moins de 10 minutes sont converties en moins de 30 secondes."
+                },
+                {
+                  "question": "Lorsque je convertis et télécharge un MP3 à l'aide de mon smartphone, où est-il enregistré ?",
+                  "answer": "Sur la plupart des smartphones, les fichiers MP3 convertis sont enregistrés dans votre dossier Téléchargements. Sur iPhone, ils peuvent être placés dans votre application Fichiers. Sur Android, consultez votre dossier Téléchargements dans votre gestionnaire de fichiers ou votre application musicale."
+                },
+                {
+                  "question": "La conversion d’une vidéo YouTube en MP3 réduit-elle la qualité audio ?",
+                  "answer": "Le format MP3 est exclusivement audio ; il ne contient donc aucune composante vidéo. La qualité audio est préservée au débit binaire maximal disponible pour la vidéo source, généralement entre 128 et 320 kbit/s, selon la qualité de la vidéo originale."
+                }
+              ]
+            },
+            "MoreFreeTools": {
+              "title": "Plus d'outils gratuits",
+              "title_des": "Découvrez nos autres outils de conversion gratuits",
+              "YouTubeToMP": "YouTube en MP4",
+              "YouTubeToMP_des": "Convertissez vos vidéos YouTube au format MP4 pour un visionnage hors ligne. Téléchargez instantanément des vidéos de haute qualité.",
+              "AITranscription": "Transcription IA",
+              "AITranscription_des": "Transcrivez vos fichiers audio et vidéo avec une précision de 96 %. Transcription illimitée pour tous vos contenus."
+            },
+            "videoDownload": {
+              "title": "Convertissez les liens YouTube en MP3. Gratuit, rapide et sans publicité.",
+              "description": "Merci d'avoir choisi notre service ! Nous vous remercions sincèrement de votre confiance et espérons qu'elle aura amélioré votre expérience. N'hésitez pas à partager notre site web avec vos amis, ce serait très utile.",
+              "downloadButton": "Télécharger",
+              "TranscribeButton": "Transcrire",
+              "downloadError": "Erreur de conversion."
+            }
+          }
+},
   About: {
     Hero: {
       badge: "Technologie IA de pointe",
@@ -3559,7 +3743,7 @@ let message = {
     impersonation:
       "Tenter d'usurper l'identité d'un autre utilisateur ou personne.",
     spyware:
-      'Télécharger ou transmettre tout matériel servant de mécanisme passif ou actif de collecte ou transmission d\\\\\\\\\\\\\\\'informations, comme des "gifs", pixels invisibles, cookies, etc.',
+      'Télécharger ou transmettre tout matériel servant de mécanisme passif ou actif de collecte ou transmission d\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'informations, comme des "gifs", pixels invisibles, cookies, etc.',
     disruption:
       "Interférer avec ou surcharger le Site ou les réseaux et services qui y sont connectés.",
     employeeHarassment:

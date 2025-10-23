@@ -550,6 +550,7 @@ let message = {
     Features: "Features",
     UseCases: "Use Cases",
     Company: "Company",
+    Resources: "Resources",
     featureMenus: ["Unlimited Transcription", "Bulk Upload", "96% Accuracy"],
     useCaseMenus: [
       "All Use Cases",

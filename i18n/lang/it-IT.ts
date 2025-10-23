@@ -1053,8 +1053,9 @@ let message = {
     Resources: "Risorse",
     YouTubetoMP4: "YouTube a MP4",
     StartFreeTrial: "Provalo Gratis",
-    Blog: "Blog"
-  },
+    Blog: "Blog",
+      YouTubetoMP3: 'YouTube in MP3'
+},
   Footer: {
     des: "Il primo servizio di trascrizione AI veramente illimitato al mondo. Senza limiti, solo libertà di creare.",
     Features: "Funzionalità",
@@ -1074,8 +1075,13 @@ let message = {
       "Team aziendali",
       "Educatori"
     ],
-    companyMenus: ["Informazioni", "Prezzi", "Privacy", "Termini"]
-  },
+    companyMenus: ["Informazioni", "Prezzi", "Privacy", "Termini"],
+      Resources: 'Risorse',
+      resourcesMenus: [
+            "YouTube in MP4",
+            "YouTube in MP3"
+          ]
+},
   Index: {
     Hero: {
       badge: 'Basta "Shrinkflation" - Davvero Illimitato',
@@ -1332,7 +1338,7 @@ let message = {
       feature3TitlePart1: "Gli utenti",
       feature3TitlePart2: "Cambiano ogni giorno",
       feature3Description:
-        '"Pago $100/anno per Otter e mi limitano a 10 importazioni di file al mese. Nel momento in cui ci sarà un\\\\\\\\\\\\\\\'alternativa con importazioni illimitate, me ne vado!" - Utente reale di Reddit',
+        '"Pago $100/anno per Otter e mi limitano a 10 importazioni di file al mese. Nel momento in cui ci sarà un\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'alternativa con importazioni illimitate, me ne vado!" - Utente reale di Reddit',
       feature3Point1Icon: "✓",
       feature3Point1Text: "50.000+ utenti hanno cambiato",
       feature3Point2Icon: "✓",
@@ -1402,7 +1408,7 @@ let message = {
       feature1TitleHighlight: "Intero Archivio",
       feature1TitlePart2: "In una Notte",
       feature1Description:
-        'Carica 50 file prima di dormire. Svegliati con le trascrizioni complete. Niente code, niente attese, nessun messaggio "aggiorna l\\\\\\\\\\\\\\\'account". Solo pura potenza di elaborazione a portata di mano.',
+        'Carica 50 file prima di dormire. Svegliati con le trascrizioni complete. Niente code, niente attese, nessun messaggio "aggiorna l\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'account". Solo pura potenza di elaborazione a portata di mano.',
       feature1Point1Icon: "✓",
       feature1Point1Text: "50 caricamenti simultanei",
       feature1Point2Icon: "✓",
@@ -1943,7 +1949,7 @@ let message = {
       },
       contentCreators: {
         title: "Creatori di Contenuti",
-        pain: '"L\\\\\\\\\\\\\\\'accessibilità non dovrebbe essere costosa"',
+        pain: '"L\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'accessibilità non dovrebbe essere costosa"',
         description:
           "Sottotitola l'intero canale YouTube. Genera sottotitoli in più lingue e migliora subito il SEO dei tuoi video.",
         benefits: {
@@ -2226,7 +2232,7 @@ let message = {
       testimonialsSubtitle: "Storie vere da veri podcaster",
       testimonials: {
         mike: {
-          text: '"Faccio un podcast da 3 anni e trascrivevo tutto manualmente come un idiota. Ho caricato 6 episodi insieme e ha separato perfettamente me e il mio co-host. L\\\\\\\\\\\\\\\'episodio del caffè che pensavo fosse rovinato? Trascrizione cristallina. Non tornerò mai più a digitare queste cose da solo."',
+          text: '"Faccio un podcast da 3 anni e trascrivevo tutto manualmente come un idiota. Ho caricato 6 episodi insieme e ha separato perfettamente me e il mio co-host. L\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'episodio del caffè che pensavo fosse rovinato? Trascrizione cristallina. Non tornerò mai più a digitare queste cose da solo."',
           name: "Mike Rodriguez",
           role: 'Conduttore del podcast "The Daily Grind"'
         },
@@ -2923,15 +2929,15 @@ let message = {
       testimonialsSubtitle:
         "Scopri come le aziende trasformano la loro cultura delle riunioni",
       testimonial1Text:
-        '"Siamo passati dal perdere dettagli cruciali all\\\\\\\\\\\\\\\'avere un archivio ricercabile di ogni conversazione. La registrazione diretta significa che non dimenticheremo mai discussioni importanti."',
+        '"Siamo passati dal perdere dettagli cruciali all\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'avere un archivio ricercabile di ogni conversazione. La registrazione diretta significa che non dimenticheremo mai discussioni importanti."',
       testimonial1AuthorName: "James Kim",
       testimonial1AuthorRole: "Product Manager, TechCorp",
       testimonial2Text:
-        '"Otter ci limitava a 10 caricamenti al mese. Ora carichiamo tutte le chiamate con i clienti all\\\\\\\\\\\\\\\'istante. Un punto di svolta per i follow-up del nostro team vendite."',
+        '"Otter ci limitava a 10 caricamenti al mese. Ora carichiamo tutte le chiamate con i clienti all\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'istante. Un punto di svolta per i follow-up del nostro team vendite."',
       testimonial2AuthorName: "Sarah Rodriguez",
       testimonial2AuthorRole: "Sales Director, ConsultPro",
       testimonial3Text:
-        '"La possibilità di cercare tra mesi di riunioni ci ha salvato durante l\\\\\\\\\\\\\\\'audit. Trovato ogni decisione e approvazione in secondi."',
+        '"La possibilità di cercare tra mesi di riunioni ci ha salvato durante l\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'audit. Trovato ogni decisione e approvazione in secondi."',
       testimonial3AuthorName: "Mark Liu",
       testimonial3AuthorRole: "COO, FinanceHub",
       ctaTitle: "Smetti di perdere conversazioni importanti",
@@ -3050,7 +3056,7 @@ let message = {
       useCasesTitle2: "Esigenza Educativa",
       testimonialTitle2: "50.000+ Educatori",
       testimonialTextA:
-        '"Ho usato {NeverCap} per trascrivere l\\\\\\\\\\\\\\\'intero canale YouTube di tutorial di matematica. Quello che prima richiedeva settimane con altri servizi, ora richiede ore. La possibilità di incollare i link direttamente e ottenere trascrizioni istantanee ha trasformato il mio modo di creare contenuti accessibili. I miei studenti internazionali adorano in particolare i sottotitoli multilingue!"'
+        '"Ho usato {NeverCap} per trascrivere l\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'intero canale YouTube di tutorial di matematica. Quello che prima richiedeva settimane con altri servizi, ora richiede ore. La possibilità di incollare i link direttamente e ottenere trascrizioni istantanee ha trasformato il mio modo di creare contenuti accessibili. I miei studenti internazionali adorano in particolare i sottotitoli multilingue!"'
     }
   },
   Resources: {
@@ -3204,7 +3210,7 @@ let message = {
             question:
               "Quando scarico un video MP4 con il mio smartphone, dove viene salvato?",
             answer:
-              "Dopo aver scaricato un MP4 sul tuo smartphone, puoi in genere trovarlo nella cartella \"Downloads\" all\\\\\\\\\\\\\\'interno dell\\\\\\\\\\\\\\'app di gestione file del dispositivo."
+              "Dopo aver scaricato un MP4 sul tuo smartphone, puoi in genere trovarlo nella cartella \"Downloads\" all\\\\\\\\\\\\\\\\\\\\\\\\\\\\'interno dell\\\\\\\\\\\\\\\\\\\\\\\\\\\\'app di gestione file del dispositivo."
           },
           {
             question:
@@ -3263,9 +3269,187 @@ let message = {
               "Converti i video di YouTube in testo o sottotitoli accurati. Basta incollare il link di YouTube."
           }
         ]
-      }
-    }
-  },
+      },
+        MoreFreeTools: {
+              "title": "Altri strumenti gratuiti",
+              "title_des": "Esplora i nostri altri strumenti di conversione gratuiti",
+              "YouTubeToMP": "YouTube in MP3",
+              "YouTubeToMP_des": "Converti i video di YouTube in formato MP3 per la visualizzazione offline. Scarica video di alta qualità all'istante.",
+              "AITranscription": "Trascrizione AI",
+              "AITranscription_des": "Trascrivi file audio e video con una precisione del 96%. Trascrizione illimitata per tutti i tuoi contenuti."
+            }
+    },
+      YouTubeToMP3: {
+            "err1": "Errore nel formato del collegamento YouTube.",
+            "err2": "Spiacenti! Al momento lavoriamo solo con link YouTube. Se hai bisogno di supporto per altri siti, ti terremo aggiornato quando li aggiungeremo in futuro.",
+            "part1": {
+              "title": "Converti i video di YouTube in MP3",
+              "title_des": "Estrai l'audio dai video di YouTube in pochi secondi",
+              "placeholder": "Incolla qui il tuo link Youtube",
+              "clear_icon": "Cancella input",
+              "Download": "Convertire",
+              "loading_text": "Elaborazione del collegamento per la conversione. Rimani sulla pagina.",
+              "howToDownload": "Come convertire?",
+              "tutorial": "Guarda il tutorial"
+            },
+            "freeResources": {
+              "linkTitle": "Alimentato da {NeverCap}",
+              "linkTitle2": "- Trascrizione AI completamente illimitata",
+              "title": "Risorse gratuite",
+              "stepsNew": [
+                {
+                  "title": "Trascrizione audio e video gratuita",
+                  "content": "Converti file audio e video in testo in pochi secondi. 3 file trascritti ogni giorno."
+                },
+                {
+                  "title": "Estrarre file audio in testo",
+                  "content": "Carica MP3, MP4, WAV, MOV.",
+                  "content2": "Scarica DOCX, TXT, SRT e altro ancora."
+                },
+                {
+                  "title": "Trascrivi i video di YouTube",
+                  "content": "Converti i video di YouTube in testo o sottotitoli accurati e incolla il link gratuitamente."
+                }
+              ]
+            },
+            "part2": {
+              "title": "Ecco come trasformare un video di YouTube in un file MP3 scaricabile in 3 semplici passaggi",
+              "steps": [
+                {
+                  "title": "Copia l'URL",
+                  "content": "Apri il video YouTube di destinazione, quindi copia il collegamento dalla barra degli indirizzi del browser."
+                },
+                {
+                  "title": "Incolla il collegamento",
+                  "content": "Inseriscilo nel tuo strumento di download video e incolla l'URL nel campo di input."
+                },
+                {
+                  "title": "Converti e scarica",
+                  "content": "Una volta completata la conversione, scarica il file MP3 per salvarlo."
+                }
+              ]
+            },
+            "part3": {
+              "content": [
+                "Vuoi convertire i video di YouTube in MP3 per ascoltarli in qualsiasi momento?",
+                "Che tu sia in metropolitana, in aereo o che tu stia organizzando podcast, contenuti di corsi o archivi importanti, spesso ci troviamo a non potervi accedere in qualsiasi momento. Il nostro strumento di conversione risolve questo problema.",
+                "Basta copiare il link di YouTube, incollarlo nel convertitore e con un clic potrai convertire i video in audio MP3 di alta qualità. Salva, ascolta e archivia in qualsiasi momento, senza bisogno di una connessione Internet."
+              ]
+            },
+            "part4": {
+              "content": [
+                "Ecco i 5 principali vantaggi della conversione",
+                "Video di YouTube in file MP3"
+              ],
+              "list": [
+                {
+                  "title": "Risparmia sullo spazio di archiviazione:",
+                  "content": "I file MP3 sono più piccoli, riducendo lo spazio di archiviazione su YouTube. Risparmia sui dati mobili scaricando la versione offline e utilizzala quando hai una connessione internet."
+                },
+                {
+                  "title": "Risparmia la batteria:",
+                  "content": "Per guardare i video di YouTube, c'è un servizio di buffering che utilizza connessioni facilmente ascoltabili. Niente più preoccupazioni di buffering."
+                },
+                {
+                  "title": "Archiviazione e conservazione facili:",
+                  "content": "Alcuni video o MP3 semplificano la creazione della propria libreria personale, che si tratti di contenuti didattici, archivi musicali o contenuti importanti."
+                },
+                {
+                  "title": "Condivisione più semplice:",
+                  "content": "Condividere un file MP3 è molto più comodo rispetto ai link di YouTube. Puoi inviare file agli amici tramite app come WhatsApp o Instagram, eliminando il costo di iscrizione per l'apertura di YouTube."
+                },
+                {
+                  "title": "Visualizzazione immediata, ampia flessibilità:",
+                  "content": "Accedi a un video preferito più ampio convertendo i video di YouTube ovunque ti servano e i formati MP3 consentono di unirli subito e senza problemi, senza fastidiose pause in attesa di questo caricamento."
+                }
+              ]
+            },
+            "part5": {
+              "title": "Perché il nostro convertitore si distingue",
+              "cards": [
+                {
+                  "title": "Semplicità con un clic",
+                  "content": "Configurazione semplice e funzionamento intuitivo."
+                },
+                {
+                  "title": "Velocissimo, illimitato",
+                  "content": "Converti e scarica alla massima velocità: senza limiti, senza limiti."
+                },
+                {
+                  "title": "Converti al volo",
+                  "content": "Elabora i tuoi file all'istante, senza tempi di attesa."
+                },
+                {
+                  "title": "Zero pubblicità, zero distrazioni",
+                  "content": "Goditi un'interfaccia pulita, senza pop-up, banner o interruzioni: solo una conversione fluida e senza interruzioni."
+                },
+                {
+                  "title": "Qualità originale garantita",
+                  "content": "I tuoi download mantengono la piena risoluzione del video sorgente, per una riproduzione perfetta ogni volta."
+                },
+                {
+                  "title": "Funziona ovunque",
+                  "content": "Completamente compatibile con qualsiasi browser, su qualsiasi dispositivo."
+                }
+              ]
+            },
+            "part6": {
+              "title": [
+                "Massimizza le tue conversioni da YouTube a MP3",
+                "Con il nostro convertitore"
+              ],
+              "title_des": "Conversione da YouTube a MP3 senza sforzo: veloce, semplice e gratuita",
+              "content": [
+                "È qui che eccelliamo. La nostra interfaccia intuitiva è progettata per tutti, senza bisogno di competenze tecniche. Indipendentemente dal tuo livello di esperienza, puoi convertire i video all'istante. Non è richiesta alcuna registrazione e puoi iniziare subito: i tuoi MP3 scaricati mantengono la qualità e la nitidezza del video originale, esattamente come li hai guardati su YouTube.",
+                "Anche la velocità è importante. Puoi scaricare più file velocemente, senza pubblicità e senza dispositivi. Che tu utilizzi Windows, macOS, Linux, Android o iOS, uno smartphone, un tablet o un computer desktop, puoi scaricare video senza problemi."
+              ]
+            },
+            "part7": {
+              "title": "Domande chiave sulla conversione di YouTube in MP3",
+              "list": [
+                {
+                  "question": "Posso convertire un video di YouTube protetto da copyright in MP3?",
+                  "answer": "Sebbene tecnicamente possibile, convertire contenuti protetti da copyright senza autorizzazione potrebbe violare i termini di servizio di YouTube e le leggi sul copyright. Assicurati sempre di avere il diritto di convertire i contenuti o di utilizzarli esclusivamente per scopi personali e non commerciali."
+                },
+                {
+                  "question": "Questo strumento di conversione è sicuro?",
+                  "answer": "Sì, il nostro convertitore è completamente sicuro e protetto. Non memorizziamo alcun dato o file e non vi è alcun rischio di malware o virus. La conversione avviene in modo diretto e sicuro."
+                },
+                {
+                  "question": "Quali lingue supporta la conversione da YouTube a MP3?",
+                  "answer": "Il nostro convertitore supporta tutte le lingue disponibili su YouTube. L'audio verrà estratto esattamente come appare nel video originale, preservando la lingua e la qualità audio originali."
+                },
+                {
+                  "question": "Quali fattori influiscono sul tempo necessario per convertire un video di YouTube?",
+                  "answer": "Il tempo di conversione dipende da diversi fattori: la durata del video, la velocità della connessione Internet e il carico attuale del server. La maggior parte dei video di durata inferiore a 10 minuti viene convertita in meno di 30 secondi."
+                },
+                {
+                  "question": "Quando converto e scarico un MP3 tramite il mio smartphone, dove viene salvato?",
+                  "answer": "Sulla maggior parte degli smartphone, i file MP3 convertiti vengono salvati nella cartella Download. Su iPhone, potrebbero essere salvati nell'app File. Su Android, controlla la cartella Download nel file manager o nell'app musicale."
+                },
+                {
+                  "question": "Convertire un video di YouTube in MP3 riduce la qualità audio?",
+                  "answer": "L'MP3 è un formato solo audio, quindi non contiene componenti video. La qualità audio viene preservata al bitrate più alto disponibile dal video sorgente, in genere 128-320 kbps, a seconda della qualità di caricamento originale."
+                }
+              ]
+            },
+            "MoreFreeTools": {
+              "title": "Altri strumenti gratuiti",
+              "title_des": "Esplora i nostri altri strumenti di conversione gratuiti",
+              "YouTubeToMP": "YouTube in MP4",
+              "YouTubeToMP_des": "Converti i video di YouTube in formato MP4 per la visualizzazione offline. Scarica video di alta qualità all'istante.",
+              "AITranscription": "Trascrizione AI",
+              "AITranscription_des": "Trascrivi file audio e video con una precisione del 96%. Trascrizione illimitata per tutti i tuoi contenuti."
+            },
+            "videoDownload": {
+              "title": "Converti i link di YouTube in MP3. Gratuito, veloce e senza pubblicità.",
+              "description": "Grazie per aver scelto il nostro servizio! Apprezziamo davvero la tua fiducia e speriamo che abbia migliorato la tua esperienza. Se potessi condividere il nostro sito web con i tuoi amici, ci faresti un immenso piacere.",
+              "downloadButton": "Scaricamento",
+              "TranscribeButton": "Trascrivere",
+              "downloadError": "Errore di conversione."
+            }
+          }
+},
   About: {
     Hero: {
       badge: "Tecnologia AI All'avanguardia",
@@ -3486,10 +3670,10 @@ let message = {
       "Abusi verbali, fisici, scritti o di altro tipo (comprese minacce di abuso o ritorsione) nei confronti di un dipendente o dirigente della Società possono comportare la terminazione immediata dell'account.",
     submissionsTitle: "6. Contributi",
     submissionsDescription:
-      'Riconosci e accetti che qualsiasi domanda, commento, suggerimento, idea, feedback o altra informazione riguardante il Sito ("Contributi") fornita da te a noi è non confidenziale e diventerà nostra proprietà esclusiva. Avremo diritti esclusivi, inclusi tutti i diritti di proprietà intellettuale, e saremo autorizzati all\\\\\\\\\\\\\\\'uso e alla diffusione illimitati di questi Contributi per qualsiasi scopo legale, commerciale o meno, senza riconoscimento o compenso per te. Rinunci a tutti i diritti morali su tali Contributi e garantisci che tali Contributi siano originali o che tu abbia il diritto di inviarli. Accetti che non ci sarà alcuna rivalsa contro di noi per qualsiasi presunta o effettiva violazione o appropriazione indebita di qualsiasi diritto proprietario nei tuoi Contributi.',
+      'Riconosci e accetti che qualsiasi domanda, commento, suggerimento, idea, feedback o altra informazione riguardante il Sito ("Contributi") fornita da te a noi è non confidenziale e diventerà nostra proprietà esclusiva. Avremo diritti esclusivi, inclusi tutti i diritti di proprietà intellettuale, e saremo autorizzati all\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'uso e alla diffusione illimitati di questi Contributi per qualsiasi scopo legale, commerciale o meno, senza riconoscimento o compenso per te. Rinunci a tutti i diritti morali su tali Contributi e garantisci che tali Contributi siano originali o che tu abbia il diritto di inviarli. Accetti che non ci sarà alcuna rivalsa contro di noi per qualsiasi presunta o effettiva violazione o appropriazione indebita di qualsiasi diritto proprietario nei tuoi Contributi.',
     uptimeTitle: "7. Disponibilità e Sicurezza",
     serviceAvailability:
-      'L\\\\\\\\\\\\\\\'uso dei Servizi è a tuo rischio. Forniamo questi Servizi "così come sono" e "come disponibili". Non offriamo accordi di livello di servizio per la maggior parte dei nostri Servizi, ma prendiamo seriamente la disponibilità delle nostre applicazioni.',
+      'L\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'uso dei Servizi è a tuo rischio. Forniamo questi Servizi "così come sono" e "come disponibili". Non offriamo accordi di livello di servizio per la maggior parte dei nostri Servizi, ma prendiamo seriamente la disponibilità delle nostre applicazioni.',
     throttlingPolicy:
       "Ci riserviamo il diritto di limitare temporaneamente l'accesso all'account in rari casi in cui l'attività di un utente influisca negativamente sulla stabilità e sulle prestazioni del Servizio per altri utenti. Tranne nei casi più critici, ti contatteremo per trovare una soluzione prima di agire.",
     dataSecurity:

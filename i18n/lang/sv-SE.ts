@@ -1048,8 +1048,9 @@ let message = {
     Resources: "Resurser",
     YouTubetoMP4: "YouTube till MP4",
     StartFreeTrial: "Prova gratis",
-    Blog: "Blogg"
-  },
+    Blog: "Blogg",
+      YouTubetoMP3: 'YouTube till MP3'
+},
   Footer: {
     des: "Världens första verkligen obegränsade AI-transkriptionstjänst. Inga tak, inga begränsningar, bara frihet att skapa.",
     Features: "Funktioner",
@@ -1069,8 +1070,13 @@ let message = {
       "Affärsteam",
       "Utbildare"
     ],
-    companyMenus: ["Om oss", "Prissättning", "Sekretess", "Villkor"]
-  },
+    companyMenus: ["Om oss", "Prissättning", "Sekretess", "Villkor"],
+      Resources: 'Resurser',
+      resourcesMenus: [
+            "YouTube till MP4",
+            "YouTube till MP3"
+          ]
+},
   Index: {
     Hero: {
       badge: 'Ingen mer "Shrinkflation" - Verkligen Obegränsat',
@@ -3244,9 +3250,187 @@ let message = {
               "Konvertera YouTube-videor till korrekt text eller undertexter. Klistra bara in YouTube-länken."
           }
         ]
-      }
-    }
-  },
+      },
+        MoreFreeTools: {
+              "title": "Fler gratisverktyg",
+              "title_des": "Utforska våra andra gratis konverteringsverktyg",
+              "YouTubeToMP": "YouTube till MP3",
+              "YouTubeToMP_des": "Konvertera YouTube-videor till MP3-format för visning offline. Ladda ner högkvalitativa videor direkt.",
+              "AITranscription": "AI-transkription",
+              "AITranscription_des": "Transkribera ljud- och videofiler med 96 % noggrannhet. Obegränsad transkribering för allt ditt innehåll."
+            }
+    },
+      YouTubeToMP3: {
+            "err1": "Fel på YouTube-länkformat.",
+            "err2": "Tyvärr! Vi arbetar för närvarande bara med YouTube-länkar. Om du behöver support för andra webbplatser kommer vi att hålla dig uppdaterad när vi lägger till det i framtiden.",
+            "part1": {
+              "title": "Konvertera YouTube-videor till MP3",
+              "title_des": "Extrahera ljud från YouTube-videor på några sekunder",
+              "placeholder": "Klistra in din Youtube-länk här",
+              "clear_icon": "Rensa inmatning",
+              "Download": "Konvertera",
+              "loading_text": "Bearbetar länken för att konvertera. Stanna kvar på sidan.",
+              "howToDownload": "Hur konverterar man?",
+              "tutorial": "Titta på handledningen"
+            },
+            "freeResources": {
+              "linkTitle": "Drivs av {NeverCap}",
+              "linkTitle2": "- Helt obegränsad AI-transkription",
+              "title": "Gratis resurser",
+              "stepsNew": [
+                {
+                  "title": "Gratis ljud- och videotranskription",
+                  "content": "Konvertera ljud- och videofiler till text på några sekunder. 3 filer transkriberas varje dag."
+                },
+                {
+                  "title": "Extrahera ljudfiler till text",
+                  "content": "Ladda upp MP3, MP4, WAV, MOV.",
+                  "content2": "Ladda ner DOCX, TXT, SRT med mera."
+                },
+                {
+                  "title": "Transkribera YouTube-videor",
+                  "content": "Konvertera YouTube-videor till korrekt text eller undertexter och klistra in länken gratis."
+                }
+              ]
+            },
+            "part2": {
+              "title": "Så här förvandlar du en YouTube-video till en nedladdningsbar MP3-fil i 3 enkla steg",
+              "steps": [
+                {
+                  "title": "Kopiera URL:en",
+                  "content": "Öppna din målvideo på YouTube och kopiera sedan länken från webbläsarens adressfält."
+                },
+                {
+                  "title": "Klistra in länken",
+                  "content": "Infoga i ditt videonedladdningsverktyg och klistra in URL:en i dess inmatningsfält."
+                },
+                {
+                  "title": "Konvertera och ladda ner",
+                  "content": "När konverteringen är klar, ladda ner din MP3-fil för att spara den."
+                }
+              ]
+            },
+            "part3": {
+              "content": [
+                "Vill du konvertera YouTube-videor till MP3 för att lyssna när som helst?",
+                "Oavsett om du är på tunnelbanan, på ett flygplan eller organiserar poddar, kursinnehåll eller viktiga arkiv, kämpar vi ofta med att inte kunna komma åt dem när som helst. Här löser vårt konverteringsverktyg problemet åt dig.",
+                "Kopiera bara YouTube-länken, klistra in den i konverteraren, och med ett klick kan du konvertera videor till högkvalitativt MP3-ljud. Spara, lyssna och arkivera när som helst utan att behöva en internetanslutning."
+              ]
+            },
+            "part4": {
+              "content": [
+                "Här är de 5 största fördelarna med att konvertera",
+                "YouTube-videor till MP3-filer"
+              ],
+              "list": [
+                {
+                  "title": "Spara på lagring:",
+                  "content": "MP3-filer är mindre, vilket minskar lagringsutrymmet på YouTube. Spara på mobildata genom att ladda ner offlinevisning och använd dem när det finns en internettjänst."
+                },
+                {
+                  "title": "Sparar batteri:",
+                  "content": "För att titta på YouTube-videor använder de en buffringstjänst som använder lättlyssnade anslutningar. Inga fler bekymmer om buffring."
+                },
+                {
+                  "title": "Enkel arkivering och bevarande:",
+                  "content": "Vissa videor eller MP3-filer gör det enkelt att bygga upp ditt personliga bibliotek – oavsett om det gäller utbildningsinnehåll, musikarkiv eller viktiga saker."
+                },
+                {
+                  "title": "Enklare delning:",
+                  "content": "Det är mycket bekvämare att dela en MP3-fil än att dela YouTube-länkar. Du kan skicka filer till vänner via appar som WhatsApp eller Instagram, vilket eliminerar inträdeskostnaden för att öppna YouTube."
+                },
+                {
+                  "title": "Direktvisning, bred flexibilitet:",
+                  "content": "Få tillgång till en bredare favoritvideo till din favoritvideo genom att konvertera YouTube-videor var du än behöver dem och MP3-format möjliggör smidig sammansättning direkt, utan obekväma pauser i väntan på denna laddning."
+                }
+              ]
+            },
+            "part5": {
+              "title": "Varför vår konverterare sticker ut",
+              "cards": [
+                {
+                  "title": "Enkelhet med ett klick",
+                  "content": "Enkel installation och intuitiv användning."
+                },
+                {
+                  "title": "Blixtsnabb, obegränsad",
+                  "content": "Konvertera och ladda ner i topphastighet – inga tak, inga begränsningar."
+                },
+                {
+                  "title": "Konvertera direkt",
+                  "content": "Bearbeta dina filer direkt, ingen väntetid krävs."
+                },
+                {
+                  "title": "Noll reklam, noll distraktioner",
+                  "content": "Njut av ett rent gränssnitt utan popup-fönster, banners eller avbrott – bara smidig och oavbruten konvertering."
+                },
+                {
+                  "title": "Originalkvalitet garanterad",
+                  "content": "Dina nedladdningar behåller källvideons fulla upplösning för pixelperfekt uppspelning varje gång."
+                },
+                {
+                  "title": "Fungerar var som helst",
+                  "content": "Helt kompatibel med alla webbläsare, på alla enheter."
+                }
+              ]
+            },
+            "part6": {
+              "title": [
+                "Maximera dina YouTube till MP3-konverteringar",
+                "Med vår konverterare"
+              ],
+              "title_des": "Enkel konvertering av YouTube till MP3 – Snabbt, enkelt och gratis",
+              "content": [
+                "Det är där vi utmärker oss. Vårt användarvänliga gränssnitt är utformat för alla – inga tekniska färdigheter krävs. Oavsett din erfarenhetsnivå kan du konvertera videor direkt. Ingen registrering krävs, och du kan enkelt komma igång – dina nedladdade MP3-filer bibehåller den ursprungliga videokvaliteten och skärpan, precis som du tittade på dem på YouTube.",
+                "Hastighet spelar också roll. Du kan ladda ner flera filer snabbt, utan reklam och enheter. Oavsett om du använder Windows, macOS, Linux, Android eller iOS – med en smartphone, surfplatta eller dator – kan du ladda ner videor utan ansträngning."
+              ]
+            },
+            "part7": {
+              "title": "Viktiga frågor om att konvertera YouTube till MP3",
+              "list": [
+                {
+                  "question": "Kan jag konvertera en upphovsrättsskyddad YouTube-video till MP3?",
+                  "answer": "Även om det är tekniskt möjligt kan konvertering av upphovsrättsskyddat innehåll utan tillstånd bryta mot YouTubes användarvillkor och upphovsrättslagar. Se alltid till att du har rätt att konvertera innehåll eller använda det endast för personliga, icke-kommersiella ändamål."
+                },
+                {
+                  "question": "Är det här konverteringsverktyget säkert?",
+                  "answer": "Ja, vår konverterare är helt säker och trygg. Vi lagrar inga dina data eller filer, och det finns ingen risk för skadlig programvara eller virus. Konverteringen sker direkt och säkert."
+                },
+                {
+                  "question": "Vilka språk stöds av YouTube till MP3-konvertering?",
+                  "answer": "Vår konverterare stöder alla språk som finns tillgängliga på YouTube. Ljudet extraheras exakt som det visas i originalvideon, vilket bevarar originalspråket och ljudkvaliteten."
+                },
+                {
+                  "question": "Vilka faktorer påverkar tiden det tar att konvertera en YouTube-video?",
+                  "answer": "Konverteringstiden beror på flera faktorer: videons längd, din internetanslutningshastighet och aktuell serverbelastning. De flesta videor under 10 minuter konverteras på mindre än 30 sekunder."
+                },
+                {
+                  "question": "När jag konverterar och laddar ner en MP3-fil med min smartphone, var sparas den?",
+                  "answer": "På de flesta smartphones sparas konverterade MP3-filer i din mapp Nedladdningar. På iPhone kan de hamna i din Fil-app. På Android kontrollerar du din mapp Nedladdningar i din filhanterare eller musikapp."
+                },
+                {
+                  "question": "Försämrar konvertering av en YouTube-video till MP3 ljudkvaliteten?",
+                  "answer": "MP3 är ett format som endast innehåller ljud, så det finns ingen videokomponent. Ljudkvaliteten bevaras vid högsta tillgängliga bithastighet från källvideon, vanligtvis 128–320 kbps beroende på den ursprungliga uppladdningskvaliteten."
+                }
+              ]
+            },
+            "MoreFreeTools": {
+              "title": "Fler gratisverktyg",
+              "title_des": "Utforska våra andra gratis konverteringsverktyg",
+              "YouTubeToMP": "YouTube till MP4",
+              "YouTubeToMP_des": "Konvertera YouTube-videor till MP4-format för visning offline. Ladda ner högkvalitativa videor direkt.",
+              "AITranscription": "AI-transkription",
+              "AITranscription_des": "Transkribera ljud- och videofiler med 96 % noggrannhet. Obegränsad transkribering för allt ditt innehåll."
+            },
+            "videoDownload": {
+              "title": "Konvertera YouTube-länkar till MP3. Gratis, snabbt och utan reklam.",
+              "description": "Tack för att du valde vår tjänst! Vi uppskattar verkligen ditt förtroende och hoppas att det förbättrade din upplevelse. Om du kunde dela vår webbplats med dina vänner skulle det vara till stor hjälp.",
+              "downloadButton": "Ladda ner",
+              "TranscribeButton": "Transkribera",
+              "downloadError": "Konverteringsfel."
+            }
+          }
+},
   About: {
     Hero: {
       badge: "Ledande AI-teknik i branschen",

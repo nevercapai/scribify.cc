@@ -1059,8 +1059,9 @@ let message = {
     Resources: "Hulpmiddelen",
     YouTubetoMP4: "YouTube naar MP4",
     StartFreeTrial: "Probeer Het Gratis",
-    Blog: "Blog"
-  },
+    Blog: "Blog",
+      YouTubetoMP3: 'YouTube naar MP3'
+},
   Footer: {
     des: "'s Werelds eerste echt onbeperkte AI-transcriptieservice. Geen limieten, geen grenzen, alleen vrijheid om te creëren.",
     Features: "Functies",
@@ -1080,8 +1081,13 @@ let message = {
       "Bedrijfsteams",
       "Onderwijzers"
     ],
-    companyMenus: ["Over ons", "Prijzen", "Privacy", "Voorwaarden"]
-  },
+    companyMenus: ["Over ons", "Prijzen", "Privacy", "Voorwaarden"],
+      Resources: 'Bronnen',
+      resourcesMenus: [
+            "YouTube naar MP4",
+            "YouTube naar MP3"
+          ]
+},
   Index: {
     Hero: {
       badge: 'Geen "Shrinkflation" Meer - Echt Onbeperkt',
@@ -1342,7 +1348,7 @@ let message = {
       feature3Point1Icon: "✓",
       feature3Point1Text: "50.000+ gebruikers gestapt",
       feature3Point2Icon: "✓",
-      feature3Point2Text: 'Van Otter\\\\\\\\\\\\\\\'s "krimpflatie"',
+      feature3Point2Text: 'Van Otter\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s "krimpflatie"',
       feature3Point3Icon: "✓",
       feature3Point3Text: "Nooit meer terug",
       feature3Stat1Number: "50K+",
@@ -2027,7 +2033,7 @@ let message = {
       },
       educators: {
         title: "Onderwijzers",
-        pain: '"YouTube-video\\\\\\\\\\\\\\\'s hebben directe transcriptie nodig"',
+        pain: '"YouTube-video\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s hebben directe transcriptie nodig"',
         description:
           "Plak gewoon YouTube-links om directe transcripties en automatisch gegenereerde ondertiteling te krijgen. Maak elk educatief video toegankelijk en doorzoekbaar.",
         benefits: {
@@ -2067,10 +2073,10 @@ let message = {
           },
           jessica: {
             textBefore:
-              "\"Als freelance journalist kan ik Trint\\\\\\\\\\\\\\'s",
+              "\"Als freelance journalist kan ik Trint\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s",
             highlight: "$100/maand",
             textAfter:
-              "niet betalen, maar ik kan ook niet werken met Otter\\\\\\\\\\\\\\'s limiet van 10 bestanden per maand. NeverCap redde mijn carrière.\"",
+              "niet betalen, maar ik kan ook niet werken met Otter\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s limiet van 10 bestanden per maand. NeverCap redde mijn carrière.\"",
             name: "Jessica Park",
             role: "Freelance Journalist"
           },
@@ -3259,9 +3265,187 @@ let message = {
               "Converteer YouTube-video's naar correcte tekst of ondertitels. Plak gewoon de YouTube-link."
           }
         ]
-      }
-    }
-  },
+      },
+        MoreFreeTools: {
+              "title": "Meer gratis tools",
+              "title_des": "Ontdek onze andere gratis conversietools",
+              "YouTubeToMP": "YouTube naar MP3",
+              "YouTubeToMP_des": "Converteer YouTube-video's naar MP3-formaat voor offline weergave. Download direct video's van hoge kwaliteit.",
+              "AITranscription": "AI-transcriptie",
+              "AITranscription_des": "Transcribeer audio- en videobestanden met 96% nauwkeurigheid. Onbeperkte transcriptie voor al uw content."
+            }
+    },
+      YouTubeToMP3: {
+            "err1": "Fout in de YouTube-linkindeling.",
+            "err2": "Sorry! Momenteel werken we alleen met YouTube-links. Mocht je ondersteuning nodig hebben voor andere sites, dan houden we je op de hoogte wanneer we die in de toekomst toevoegen.",
+            "part1": {
+              "title": "Converteer YouTube-video's naar MP3",
+              "title_des": "Haal binnen enkele seconden audio uit YouTube-video's",
+              "placeholder": "Plak hier je Youtube-link",
+              "clear_icon": "Invoer wissen",
+              "Download": "Overzetten",
+              "loading_text": "De link verwerken om te converteren. Blijf op de pagina.",
+              "howToDownload": "Hoe kan ik converteren?",
+              "tutorial": "Bekijk de tutorial"
+            },
+            "freeResources": {
+              "linkTitle": "Aangedreven door {NeverCap}",
+              "linkTitle2": "- Volledig onbeperkte AI-transcriptie",
+              "title": "Gratis bronnen",
+              "stepsNew": [
+                {
+                  "title": "Gratis audio- en videotranscriptie",
+                  "content": "Converteer audio- en videobestanden in enkele seconden naar tekst. Elke dag worden er 3 bestanden getranscribeerd."
+                },
+                {
+                  "title": "Audiobestanden naar tekst extraheren",
+                  "content": "Upload MP3, MP4, WAV, MOV.",
+                  "content2": "Download DOCX, TXT, SRT en meer."
+                },
+                {
+                  "title": "YouTube-video's transcriberen",
+                  "content": "Converteer YouTube-video's naar correcte tekst of ondertitels en plak de link gratis in."
+                }
+              ]
+            },
+            "part2": {
+              "title": "Zo zet je in 3 eenvoudige stappen een YouTube-video om in een downloadbaar MP3-bestand",
+              "steps": [
+                {
+                  "title": "Kopieer de URL",
+                  "content": "Open de YouTube-video die u wilt afspelen en kopieer de link uit de adresbalk van uw browser."
+                },
+                {
+                  "title": "Plak de link",
+                  "content": "Voer de URL in uw videodownloadtool in en plak deze in het invoerveld."
+                },
+                {
+                  "title": "Converteren en downloaden",
+                  "content": "Zodra de conversie is voltooid, downloadt u uw MP3-bestand om het op te slaan."
+                }
+              ]
+            },
+            "part3": {
+              "content": [
+                "Wilt u YouTube-video's naar MP3 converteren zodat u ze op elk gewenst moment kunt beluisteren?",
+                "Of je nu in de metro of het vliegtuig zit, of podcasts, cursusmateriaal of belangrijke archieven aan het ordenen bent, we hebben er vaak moeite mee dat we er niet altijd bij kunnen. Onze conversietool lost dit probleem voor je op.",
+                "Kopieer de YouTube-link, plak deze in de converter en met één klik converteer je video's naar hoogwaardige MP3-audio. Je kunt ze opslaan, beluisteren en archiveren wanneer je maar wilt, zonder internetverbinding."
+              ]
+            },
+            "part4": {
+              "content": [
+                "Dit zijn de 5 belangrijkste voordelen van het converteren",
+                "YouTube-video's naar MP3-bestanden"
+              ],
+              "list": [
+                {
+                  "title": "Bespaar op opslag:",
+                  "content": "MP3-bestanden zijn kleiner, waardoor er minder opslagruimte nodig is voor YouTube-gebruik. Bespaar op mobiele data door de offline weergave te downloaden en te gebruiken wanneer er internet is."
+                },
+                {
+                  "title": "Bespaart batterij:",
+                  "content": "Om YouTube-video's te bekijken, gebruiken ze een bufferservice die gebruikmaakt van gemakkelijk te beluisteren verbindingen. Geen zorgen meer over bufferen."
+                },
+                {
+                  "title": "Eenvoudig archiveren en bewaren:",
+                  "content": "Sommige video's of MP3's maken het eenvoudig om uw persoonlijke bibliotheek op te bouwen, of het nu gaat om educatieve content, muziekarchieven of belangrijke content."
+                },
+                {
+                  "title": "Eenvoudiger delen:",
+                  "content": "Het delen van een MP3-bestand is veel handiger dan YouTube-links. Je kunt bestanden naar vrienden sturen via apps zoals WhatsApp of Instagram, waardoor je de kosten voor het openen van YouTube kunt besparen."
+                },
+                {
+                  "title": "Direct bekijken, grote flexibiliteit:",
+                  "content": "Krijg toegang tot een bredere favoriete video door YouTube-video's te converteren naar uw favoriete video's, waar u ze ook nodig hebt. MP3-formaten zorgen ervoor dat u ze meteen soepel kunt samenvoegen, zonder ongemakkelijke pauzes tijdens het wachten op deze lading."
+                }
+              ]
+            },
+            "part5": {
+              "title": "Waarom onze converter opvalt",
+              "cards": [
+                {
+                  "title": "Eenvoud met één klik",
+                  "content": "Eenvoudige installatie en intuïtieve bediening."
+                },
+                {
+                  "title": "Razendsnel, onbeperkt",
+                  "content": "Converteer en download op topsnelheid — geen caps, geen limieten."
+                },
+                {
+                  "title": "Converteer direct",
+                  "content": "Uw bestanden worden direct verwerkt, u hoeft niet te wachten."
+                },
+                {
+                  "title": "Geen advertenties, geen afleidingen",
+                  "content": "Geniet van een overzichtelijke interface zonder pop-ups, banners of onderbrekingen: alleen een vloeiende, ononderbroken conversie."
+                },
+                {
+                  "title": "Originele kwaliteit gegarandeerd",
+                  "content": "Uw downloads behouden de volledige resolutie van de bronvideo, zodat deze altijd tot op de pixel perfect wordt afgespeeld."
+                },
+                {
+                  "title": "Werkt overal",
+                  "content": "Volledig compatibel met elke browser, op elk apparaat."
+                }
+              ]
+            },
+            "part6": {
+              "title": [
+                "Maximaliseer uw YouTube naar MP3-conversies",
+                "Met onze converter"
+              ],
+              "title_des": "Moeiteloze YouTube naar MP3-conversie - snel, eenvoudig en gratis",
+              "content": [
+                "Dat is waar wij in uitblinken. Onze gebruiksvriendelijke interface is ontworpen voor iedereen – geen technische vaardigheden vereist. Ongeacht je ervaringsniveau kun je video's direct converteren. Aanmelden is niet nodig, en wat je meteen kunt doen: je gedownloade MP3's behouden de originele videokwaliteit en helderheid, precies zoals je ze op YouTube hebt bekeken.",
+                "Snelheid is ook belangrijk. Je kunt meerdere bestanden snel downloaden, zonder advertenties en apparaten. Of je nu Windows, macOS, Linux, Android of iOS gebruikt – met een smartphone, tablet of desktop – je kunt moeiteloos video's downloaden."
+              ]
+            },
+            "part7": {
+              "title": "Belangrijke vragen over het converteren van YouTube naar MP3",
+              "list": [
+                {
+                  "question": "Kan ik een auteursrechtelijk beschermde YouTube-video naar MP3 converteren?",
+                  "answer": "Hoewel het technisch mogelijk is, kan het converteren van auteursrechtelijk beschermde content zonder toestemming een schending van de servicevoorwaarden en auteursrechtwetgeving van YouTube betekenen. Zorg er altijd voor dat je het recht hebt om content te converteren of te gebruiken voor persoonlijke, niet-commerciële doeleinden."
+                },
+                {
+                  "question": "Is deze conversietool veilig?",
+                  "answer": "Ja, onze converter is volledig veilig. We slaan uw gegevens of bestanden niet op en er is geen risico op malware of virussen. De conversie gebeurt direct en veilig."
+                },
+                {
+                  "question": "Welke talen worden ondersteund door YouTube naar MP3-conversie?",
+                  "answer": "Onze converter ondersteunt alle talen die op YouTube beschikbaar zijn. De audio wordt exact zoals in de originele video geëxtraheerd, met behoud van de oorspronkelijke taal en audiokwaliteit."
+                },
+                {
+                  "question": "Welke factoren beïnvloeden de tijd die nodig is om een ​​YouTube-video te converteren?",
+                  "answer": "De conversietijd is afhankelijk van verschillende factoren: de lengte van de video, de snelheid van je internetverbinding en de huidige serverbelasting. De meeste video's korter dan 10 minuten worden binnen 30 seconden geconverteerd."
+                },
+                {
+                  "question": "Waar wordt een MP3 opgeslagen wanneer ik deze met mijn smartphone converteer en download?",
+                  "answer": "Op de meeste smartphones worden geconverteerde MP3-bestanden opgeslagen in de map Downloads. Op een iPhone kunnen ze in de Bestanden-app terechtkomen. Op Android kun je de map Downloads in je bestandsbeheerder of muziek-app controleren."
+                },
+                {
+                  "question": "Wordt de audiokwaliteit minder als ik een YouTube-video naar MP3 converteer?",
+                  "answer": "MP3 is een audioformaat, dus er is geen videocomponent. De audiokwaliteit blijft behouden op de hoogst beschikbare bitsnelheid van de bronvideo, meestal 128-320 kbps, afhankelijk van de oorspronkelijke uploadkwaliteit."
+                }
+              ]
+            },
+            "MoreFreeTools": {
+              "title": "Meer gratis tools",
+              "title_des": "Ontdek onze andere gratis conversietools",
+              "YouTubeToMP": "YouTube naar MP4",
+              "YouTubeToMP_des": "Converteer YouTube-video's naar MP4-formaat voor offline weergave. Download direct video's van hoge kwaliteit.",
+              "AITranscription": "AI-transcriptie",
+              "AITranscription_des": "Transcribeer audio- en videobestanden met 96% nauwkeurigheid. Onbeperkte transcriptie voor al uw content."
+            },
+            "videoDownload": {
+              "title": "Converteer YouTube-links naar MP3. Gratis, snel en zonder advertenties.",
+              "description": "Bedankt dat u voor onze service hebt gekozen! We stellen uw vertrouwen enorm op prijs en hopen dat het uw ervaring heeft verbeterd. Als u onze website met uw vrienden zou willen delen, zou dat ons enorm helpen.",
+              "downloadButton": "Download",
+              "TranscribeButton": "Transcriberen",
+              "downloadError": "Fout bij conversie."
+            }
+          }
+},
   About: {
     Hero: {
       badge: "Toonaangevende AI-technologie",

@@ -1049,8 +1049,9 @@ let message = {
     Resources: "Resurssit",
     YouTubetoMP4: "YouTube MP4-muotoon",
     StartFreeTrial: "Ilmainen kokeilu",
-    Blog: "Blogi"
-  },
+    Blog: "Blogi",
+      YouTubetoMP3: 'YouTubesta MP3:een'
+},
   Footer: {
     des: "Maailman ensimmäinen todella rajaton AI-tekstitypalvelu. Ei rajoituksia, ei kattoja, vain vapaus luoda.",
     Features: "Ominaisuudet",
@@ -1066,8 +1067,13 @@ let message = {
       "Liiketiimit",
       "Opettajat"
     ],
-    companyMenus: ["Tietoja", "Hinnoittelu", "Tietosuoja", "Käyttöehdot"]
-  },
+    companyMenus: ["Tietoja", "Hinnoittelu", "Tietosuoja", "Käyttöehdot"],
+      Resources: 'Resurssit',
+      resourcesMenus: [
+            "YouTubesta MP4:ään",
+            "YouTubesta MP3:een"
+          ]
+},
   Index: {
     Hero: {
       badge: 'Ei enää "kutistumista" - Todella rajaton',
@@ -3242,9 +3248,187 @@ let message = {
               "Muunna YouTube-videot tarkkaan tekstiin tai tekstityksiin. Liitä vain YouTube-linkki."
           }
         ]
-      }
-    }
-  },
+      },
+        MoreFreeTools: {
+              "title": "Lisää ilmaisia ​​työkaluja",
+              "title_des": "Tutustu muihin ilmaisiin muunnostyökaluihimme",
+              "YouTubeToMP": "YouTubesta MP3:een",
+              "YouTubeToMP_des": "Muunna YouTube-videot MP3-muotoon offline-katselua varten. Lataa korkealaatuisia videoita välittömästi.",
+              "AITranscription": "Tekoälytranskriptio",
+              "AITranscription_des": "Litteroi ääni- ja videotiedostoja 96 %:n tarkkuudella. Rajoittamaton litterointi kaikelle sisällöllesi."
+            }
+    },
+      YouTubeToMP3: {
+            "err1": "YouTube-linkin muotovirhe.",
+            "err2": "Pahoittelut! Toimimme tällä hetkellä vain YouTube-linkkien kanssa. Jos tarvitset tukea muille sivustoille, pidämme sinut ajan tasalla, kun lisäämme ne tulevaisuudessa.",
+            "part1": {
+              "title": "Muunna YouTube-videot MP3-muotoon",
+              "title_des": "Poimi ääntä YouTube-videoista sekunneissa",
+              "placeholder": "Liitä Youtube-linkkisi tähän",
+              "clear_icon": "Tyhjennä syöte",
+              "Download": "Muuntaa",
+              "loading_text": "Linkkiä käsitellään muuntaaksesi sen. Pysy sivulla.",
+              "howToDownload": "Miten muuntaa?",
+              "tutorial": "Katso tutoriaali"
+            },
+            "freeResources": {
+              "linkTitle": "Powered by {NeverCap}",
+              "linkTitle2": "- Täysin rajaton tekoälyn transkriptio",
+              "title": "Ilmaisia ​​resursseja",
+              "stepsNew": [
+                {
+                  "title": "Ilmainen äänen ja videon transkriptio",
+                  "content": "Muunna ääni- ja videotiedostot tekstiksi sekunneissa. 3 tiedostoa litteroidaan joka päivä."
+                },
+                {
+                  "title": "Pura äänitiedostot tekstiksi",
+                  "content": "Lataa MP3-, MP4-, WAV- ja MOV-tiedostoja.",
+                  "content2": "Lataa DOCX-, TXT-, SRT- ja muita tiedostoja."
+                },
+                {
+                  "title": "Litteroi YouTube-videoita",
+                  "content": "Muunna YouTube-videot tarkkaan tekstiin tai tekstityksiin ja liitä linkki ilmaiseksi."
+                }
+              ]
+            },
+            "part2": {
+              "title": "Näin muutat YouTube-videon ladattavaksi MP3-tiedostoksi kolmessa helpossa vaiheessa",
+              "steps": [
+                {
+                  "title": "Kopioi URL-osoite",
+                  "content": "Avaa haluamasi YouTube-video ja kopioi linkki selaimesi osoiteriviltä."
+                },
+                {
+                  "title": "Liitä linkki",
+                  "content": "Lisää videoiden lataustyökaluusi ja liitä URL-osoite sen syöttökenttään."
+                },
+                {
+                  "title": "Muunna ja lataa",
+                  "content": "Kun muunnos on valmis, lataa MP3-tiedostosi tallentaaksesi sen."
+                }
+              ]
+            },
+            "part3": {
+              "content": [
+                "Haluatko muuntaa YouTube-videoita MP3-muotoon kuunnellaksesi niitä milloin tahansa?",
+                "Olitpa sitten metrossa, lentokoneessa tai järjestämässä podcasteja, kurssisisältöjä tai tärkeitä arkistoja, meillä on usein vaikeuksia päästä niihin käsiksi milloin tahansa. Tässä muunnostyökalumme ratkaisee tämän ongelman puolestasi.",
+                "Kopioi vain YouTube-linkki, liitä se muuntimeen ja yhdellä napsautuksella voit muuntaa videoita korkealaatuiseksi MP3-ääneksi. Tallenna, kuuntele ja arkistoi milloin tahansa ilman internetyhteyttä."
+              ]
+            },
+            "part4": {
+              "content": [
+                "Tässä ovat viisi tärkeintä hyötyä muuntamisesta",
+                "YouTube-videoista MP3-tiedostoihin"
+              ],
+              "list": [
+                {
+                  "title": "Säästä tallennustilaa:",
+                  "content": "MP3-tiedostot ovat pienempiä, mikä vähentää YouTuben tallennustilaa. Säästä mobiilidataa lataamalla offline-katselutiedostot ja käytä niitä vain, kun internetyhteys on saatavilla."
+                },
+                {
+                  "title": "Säästää akkua:",
+                  "content": "YouTube-videoiden katseluun he käyttävät puskurointipalvelua, joka käyttää helposti kuunneltavia yhteyksiä. Ei enää puskurointihuolia."
+                },
+                {
+                  "title": "Helppo arkistointi ja säilytys:",
+                  "content": "Jotkin videot tai MP3-tiedostot helpottavat henkilökohtaisen kirjaston rakentamista – olipa kyseessä sitten opetussisältö, musiikkiarkisto tai tärkeät tiedostot."
+                },
+                {
+                  "title": "Yksinkertaisempi jakaminen:",
+                  "content": "MP3-tiedoston jakaminen on paljon kätevämpää kuin YouTube-linkkien jakaminen. Voit lähettää tiedostoja ystäville sovellusten, kuten WhatsAppin tai Instagramin, kautta, mikä poistaa YouTuben avaamisen kustannukset."
+                },
+                {
+                  "title": "Välitön katselu, laaja joustavuus:",
+                  "content": "Käytä laajempaa suosikkivideosisältöäsi muuntamalla YouTube-videoita minne ikinä tarvitsetkin niitä. MP3-muodot mahdollistavat sujuvan yhteen kokoamisen heti ilman kiusallisia taukoja latauksen odottamisessa."
+                }
+              ]
+            },
+            "part5": {
+              "title": "Miksi muuntimemme erottuu joukosta",
+              "cards": [
+                {
+                  "title": "Yhden napsautuksen helppous",
+                  "content": "Vaivaton asennus ja intuitiivinen käyttö."
+                },
+                {
+                  "title": "Salamannopea, rajaton",
+                  "content": "Muunna ja lataa huippunopeudella – ei ylärajoja, ei rajoituksia."
+                },
+                {
+                  "title": "Muunna lennossa",
+                  "content": "Käsittele tiedostosi välittömästi, ei odottelua."
+                },
+                {
+                  "title": "Ei mainoksia, ei häiriötekijöitä",
+                  "content": "Nauti siististä käyttöliittymästä ilman ponnahdusikkunoita, bannereita tai keskeytyksiä – vain sujuvaa ja keskeytymätöntä muuntamista."
+                },
+                {
+                  "title": "Alkuperäinen laatu taattu",
+                  "content": "Latauksesi säilyttävät lähdevideon täyden resoluution pikselintarkkaa toistoa varten joka kerta."
+                },
+                {
+                  "title": "Toimii missä tahansa",
+                  "content": "Täysin yhteensopiva minkä tahansa selaimen kanssa, millä tahansa laitteella."
+                }
+              ]
+            },
+            "part6": {
+              "title": [
+                "Maksimoi YouTube-tiedostojesi muuntaminen MP3-tiedostoiksi",
+                "Muuntimemme avulla"
+              ],
+              "title_des": "Vaivaton YouTube-muunnos MP3-tiedostoiksi — nopea, yksinkertainen ja ilmainen",
+              "content": [
+                "Tässä olemme erinomaisia. Käyttäjäystävällinen käyttöliittymämme on suunniteltu kaikille – teknisiä taitoja ei tarvita. Kokemustasostasi riippumatta voit muuntaa videoita välittömästi. Rekisteröitymistä ei vaadita, ja pääset alkuun yksinkertaisesti sillä, mitä tarvitset – lataamasi MP3-tiedostot säilyttävät alkuperäisen videolaadun ja selkeyden, täsmälleen sellaisena kuin katsoit ne YouTubessa.",
+                "Myös nopeudella on merkitystä. Voit ladata useita tiedostoja nopeasti, ilman mainoksia ja laitteita. Käytitpä sitten Windowsia, macOS:ää, Linuxia, Androidia tai iOS:ää – älypuhelinta, tablettia tai pöytätietokonetta – voit ladata videoita vaivattomasti."
+              ]
+            },
+            "part7": {
+              "title": "Keskeisiä kysymyksiä YouTuben muuntamisesta MP3-muotoon",
+              "list": [
+                {
+                  "question": "Voinko muuntaa tekijänoikeuksin suojatun YouTube-videon MP3-muotoon?",
+                  "answer": "Vaikka se on teknisesti mahdollista, tekijänoikeuksin suojatun sisällön muuntaminen ilman lupaa voi rikkoa YouTuben palveluehtoja ja tekijänoikeuslakeja. Varmista aina, että sinulla on oikeus muuntaa sisältöä tai käyttää sitä vain henkilökohtaisiin, ei-kaupallisiin tarkoituksiin."
+                },
+                {
+                  "question": "Onko tämä muunnostyökalu turvallinen?",
+                  "answer": "Kyllä, muuntimemme on täysin turvallinen. Emme tallenna mitään tietojasi tai tiedostojasi, eikä haittaohjelmien tai virusten riskiä ole. Muunnos tapahtuu suoraan ja turvallisesti."
+                },
+                {
+                  "question": "Mitä kieliä YouTuben MP3-muotoon muuntaminen tukee?",
+                  "answer": "Muunnosohjelmamme tukee kaikkia YouTubessa saatavilla olevia kieliä. Ääni poimitaan täsmälleen sellaisena kuin se näkyy alkuperäisessä videossa, säilyttäen alkuperäisen kielen ja äänenlaadun."
+                },
+                {
+                  "question": "Mitkä tekijät vaikuttavat YouTube-videon muuntamiseen kuluvaan aikaan?",
+                  "answer": "Muunnosaika riippuu useista tekijöistä: videon pituudesta, internet-yhteytesi nopeudesta ja palvelimen nykyisestä kuormituksesta. Useimmat alle 10 minuutin mittaiset videot muuntuvat alle 30 sekunnissa."
+                },
+                {
+                  "question": "Kun muunnan ja lataan MP3-tiedoston älypuhelimellani, minne se tallennetaan?",
+                  "answer": "Useimmissa älypuhelimissa muunnetut MP3-tiedostot tallennetaan Lataukset-kansioon. iPhonessa ne saattavat mennä Tiedostot-sovellukseen. Androidissa tarkista Lataukset-kansio tiedostonhallinnasta tai musiikkisovelluksesta."
+                },
+                {
+                  "question": "Heikentääkö YouTube-videon muuntaminen MP3-muotoon äänenlaatua?",
+                  "answer": "MP3 on pelkkää ääntä sisältävä formaatti, joten siinä ei ole videokomponenttia. Äänenlaatu säilytetään lähdevideon korkeimmalla mahdollisella bittinopeudella, tyypillisesti 128–320 kbps alkuperäisestä latauslaadusta riippuen."
+                }
+              ]
+            },
+            "MoreFreeTools": {
+              "title": "Lisää ilmaisia ​​työkaluja",
+              "title_des": "Tutustu muihin ilmaisiin muunnostyökaluihimme",
+              "YouTubeToMP": "YouTubesta MP4:ään",
+              "YouTubeToMP_des": "Muunna YouTube-videot MP4-muotoon offline-katselua varten. Lataa korkealaatuisia videoita välittömästi.",
+              "AITranscription": "Tekoälytranskriptio",
+              "AITranscription_des": "Litteroi ääni- ja videotiedostoja 96 %:n tarkkuudella. Rajoittamaton litterointi kaikelle sisällöllesi."
+            },
+            "videoDownload": {
+              "title": "Muunna YouTube-linkit MP3-tiedostoiksi. Ilmainen, nopea ja ilman mainoksia.",
+              "description": "Kiitos, että valitsit palvelumme! Arvostamme todella luottamustasi ja toivomme, että se paransi kokemustasi. Olisi valtavasti apua, jos voisit jakaa verkkosivustomme ystäviesi kanssa.",
+              "downloadButton": "Lataa",
+              "TranscribeButton": "Litteroi",
+              "downloadError": "Muunnosvirhe."
+            }
+          }
+},
   About: {
     Hero: {
       badge: "Alaa johtava tekoälytekniikka",

@@ -1049,8 +1049,9 @@ let message = {
     Resources: "Kaynaklar",
     YouTubetoMP4: "YouTube'dan MP4'e",
     StartFreeTrial: "Ücretsiz Dene",
-    Blog: "Blog"
-  },
+    Blog: "Blog",
+      YouTubetoMP3: 'YouTube\'dan MP3\'e'
+},
   Footer: {
     des: "Dünyanın ilk gerçekten sınırsız AI transkripsiyon servisi. Sınır yok, kısıtlama yok, sadece özgürce yaratma özgürlüğü.",
     Features: "Özellikler",
@@ -1066,8 +1067,13 @@ let message = {
       "İş Ekipleri",
       "Eğitimciler"
     ],
-    companyMenus: ["Hakkında", "Fiyatlandırma", "Gizlilik", "Koşullar"]
-  },
+    companyMenus: ["Hakkında", "Fiyatlandırma", "Gizlilik", "Koşullar"],
+      Resources: 'Kaynaklar',
+      resourcesMenus: [
+            "YouTube'dan MP4'e",
+            "YouTube'dan MP3'e"
+          ]
+},
   Index: {
     Hero: {
       badge: 'Artık "Küçülme Enflasyonu" Yok - Gerçekten Sınırsız',
@@ -1121,7 +1127,7 @@ let message = {
       built_for: "Toplu",
       heavy_users: "Ses & Video Transkripsiyon",
       join_users:
-        'Sizin Gibi Yoğun Kullanıcılar İçin Tasarlandı - "Küçülme enflasyonu" hizmetlerinden geçen YouTuber\\\\\\\\\\\\\\\'lara, içerik üreticilerine ve podcast yapımcılarına katılın',
+        'Sizin Gibi Yoğun Kullanıcılar İçin Tasarlandı - "Küçülme enflasyonu" hizmetlerinden geçen YouTuber\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'lara, içerik üreticilerine ve podcast yapımcılarına katılın',
       podcasters: {
         title: "Podcast Yapımcıları",
         des: "Tüm arşivinizi yükleyin. Her bölüm için gösteri notları oluşturun. Hangi bölümleri transkribe edeceğinizi seçmek zorunda kalmayın."
@@ -1325,11 +1331,11 @@ let message = {
       feature3TitlePart1: "Kullanıcılar",
       feature3TitlePart2: "Her Gün Geçiş Yapıyor",
       feature3Description:
-        '"Otter\\\\\\\\\\\\\\\'a yılda 100$ ödüyorum ve beni ayda 10 dosya ile sınırlıyorlar. Sınırsız içe aktarma sunan bir alternatif çıkar çıkmaz gidiyorum!" - Gerçek Reddit kullanıcısı',
+        '"Otter\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'a yılda 100$ ödüyorum ve beni ayda 10 dosya ile sınırlıyorlar. Sınırsız içe aktarma sunan bir alternatif çıkar çıkmaz gidiyorum!" - Gerçek Reddit kullanıcısı',
       feature3Point1Icon: "✓",
       feature3Point1Text: "50.000+ kullanıcı geçti",
       feature3Point2Icon: "✓",
-      feature3Point2Text: 'Otter\\\\\\\\\\\\\\\'ın "küçülme enflasyonu"ndan',
+      feature3Point2Text: 'Otter\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'ın "küçülme enflasyonu"ndan',
       feature3Point3Icon: "✓",
       feature3Point3Text: "Asla geri dönmüyor",
       feature3Stat1Number: "50K+",
@@ -2049,7 +2055,7 @@ let message = {
           },
           jessica: {
             textBefore:
-              "\"Serbest çalışan bir gazeteci olarak Trint\\\\\\\\\\\\\\'in aylık $100\\\\\\\\\\\\\\'ını karşılayamam, ama Otter\\\\\\\\\\\\\\'ın aylık 10 dosya limitiyle de çalışamam. NeverCap kariyerimi kurtardı.\"",
+              "\"Serbest çalışan bir gazeteci olarak Trint\\\\\\\\\\\\\\\\\\\\\\\\\\\\'in aylık $100\\\\\\\\\\\\\\\\\\\\\\\\\\\\'ını karşılayamam, ama Otter\\\\\\\\\\\\\\\\\\\\\\\\\\\\'ın aylık 10 dosya limitiyle de çalışamam. NeverCap kariyerimi kurtardı.\"",
             highlight: "$100/ay",
             textAfter:
               ", ama Otter'ın aylık 10 dosya limitiyle de çalışamam. NeverCap kariyerimi kurtardı.",
@@ -2067,7 +2073,7 @@ let message = {
           },
           carlos: {
             textBefore:
-              '"İspanyolca eğitim içeriği üretiyorum. NeverCap mükemmel transkribe ediyor ve daha geniş kitleler için İngilizce\\\\\\\\\\\\\\\'ye çeviriyor. Sınır yok, sadece büyüme."',
+              '"İspanyolca eğitim içeriği üretiyorum. NeverCap mükemmel transkribe ediyor ve daha geniş kitleler için İngilizce\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'ye çeviriyor. Sınır yok, sadece büyüme."',
             highlight: "İngilizce'ye çevir",
             textAfter: "daha geniş kitleler için. Sınır yok, sadece büyüme.",
             name: "Carlos Martinez",
@@ -3245,9 +3251,187 @@ let message = {
               "YouTube videolarını doğru metne veya altyazıya dönüştürün. Sadece YouTube bağlantısını yapıştırın."
           }
         ]
-      }
-    }
-  },
+      },
+        MoreFreeTools: {
+              "title": "Daha Fazla Ücretsiz Araç",
+              "title_des": "Diğer ücretsiz dönüştürme araçlarımızı keşfedin",
+              "YouTubeToMP": "YouTube'dan MP3'e",
+              "YouTubeToMP_des": "YouTube videolarını çevrimdışı izlemek için MP3 formatına dönüştürün. Yüksek kaliteli videoları anında indirin.",
+              "AITranscription": "Yapay Zeka Transkripsiyonu",
+              "AITranscription_des": "Ses ve video dosyalarını %96 doğrulukla yazıya dökün. Tüm içerikleriniz için sınırsız yazıya dökme."
+            }
+    },
+      YouTubeToMP3: {
+            "err1": "YouTube bağlantı biçimi hatası.",
+            "err2": "Üzgünüz! Şu anda yalnızca YouTube bağlantılarıyla çalışıyoruz. Başka siteler için desteğe ihtiyacınız olursa, ileride eklediğimizde sizi bilgilendireceğiz.",
+            "part1": {
+              "title": "YouTube Videolarını MP3'e Dönüştürün",
+              "title_des": "YouTube videolarından saniyeler içinde ses çıkarın",
+              "placeholder": "Youtube bağlantınızı buraya yapıştırın",
+              "clear_icon": "Temiz giriş",
+              "Download": "Dönüştürmek",
+              "loading_text": "Bağlantı dönüştürülmek üzere işleniyor. Sayfada kalın.",
+              "howToDownload": "Nasıl dönüştürülür?",
+              "tutorial": "Eğitimi izleyin"
+            },
+            "freeResources": {
+              "linkTitle": "{NeverCap} tarafından desteklenmektedir",
+              "linkTitle2": "- Tamamen Sınırsız AI Transkripsiyonu",
+              "title": "Ücretsiz Kaynaklar",
+              "stepsNew": [
+                {
+                  "title": "Ücretsiz Ses ve Video Transkripsiyonu",
+                  "content": "Ses ve video dosyalarını saniyeler içinde metne dönüştürün. Her gün 3 dosya yazıya geçirilir."
+                },
+                {
+                  "title": "Ses Dosyalarını Metne Çıkarın",
+                  "content": "MP3, MP4, WAV, MOV yükleyin.",
+                  "content2": "DOCX, TXT, SRT ve daha fazlasını indirin."
+                },
+                {
+                  "title": "YouTube Videolarını Metne Dönüştür",
+                  "content": "YouTube videolarını doğru metne veya altyazıya dönüştürün ve bağlantısını ücretsiz olarak yapıştırın."
+                }
+              ]
+            },
+            "part2": {
+              "title": "İşte bir YouTube videosunu 3 kolay adımda indirilebilir bir MP3 dosyasına dönüştürmenin yolu",
+              "steps": [
+                {
+                  "title": "URL'yi kopyalayın",
+                  "content": "Hedef YouTube videonuzu açın, ardından tarayıcınızın adres çubuğundan bağlantıyı kopyalayın."
+                },
+                {
+                  "title": "Bağlantıyı yapıştırın",
+                  "content": "Video indirme aracınıza ekleyin ve URL'yi giriş alanına yapıştırın."
+                },
+                {
+                  "title": "Dönüştür ve İndir",
+                  "content": "Dönüştürme işlemi tamamlandıktan sonra MP3 dosyanızı kaydedip indirin."
+                }
+              ]
+            },
+            "part3": {
+              "content": [
+                "YouTube videolarını MP3'e dönüştürüp istediğiniz zaman dinlemek ister misiniz?",
+                "İster metroda, ister uçakta olun, ister podcast'leri, ders içeriklerini veya önemli arşivleri düzenliyor olun, çoğu zaman bunlara istediğiniz zaman erişememe sorunuyla karşı karşıya kalırız. Dönüştürücü aracımız bu sorunu sizin için çözüyor.",
+                "YouTube bağlantısını kopyalayıp dönüştürücüye yapıştırın ve tek tıklamayla videoları yüksek kaliteli MP3 sese dönüştürün. İnternet bağlantısına ihtiyaç duymadan istediğiniz zaman kaydedin, dinleyin ve arşivleyin."
+              ]
+            },
+            "part4": {
+              "content": [
+                "İşte dönüştürmenin 5 önemli faydası",
+                "YouTube videolarını MP3 dosyalarına dönüştürme"
+              ],
+              "list": [
+                {
+                  "title": "Depolamadan tasarruf edin:",
+                  "content": "MP3 dosyaları daha küçüktür ve YouTube kullanımında depolama alanını azaltır. Çevrimdışı izlemeyi indirerek mobil veriden tasarruf edin ve internet hizmetiniz olduğunda kullanın."
+                },
+                {
+                  "title": "Pil Tasarrufu Sağlar:",
+                  "content": "YouTube videolarını izlemek için, kolayca dinlenebilen bağlantıları kullanan ara belleğe alma hizmetini kullanabilirsiniz. Artık ara belleğe alma endişesi yok."
+                },
+                {
+                  "title": "Kolay Arşivleme ve Saklama:",
+                  "content": "Bazı videolar veya MP3'ler kişisel kütüphanenizi oluşturmanızı kolaylaştırır; ister eğitim içeriği, ister müzik arşivi, isterse önemli olsun."
+                },
+                {
+                  "title": "Daha Basit Paylaşım:",
+                  "content": "MP3 dosyası paylaşmak, YouTube bağlantılarından çok daha kullanışlıdır. WhatsApp veya Instagram gibi uygulamalar aracılığıyla dosyaları arkadaşlarınıza gönderebilir, YouTube'u açmanın maliyetini ortadan kaldırabilirsiniz."
+                },
+                {
+                  "title": "Anında Görüntüleme, Geniş Esneklik:",
+                  "content": "YouTube videolarını istediğiniz her yerde dönüştürerek daha geniş bir favori videoya erişin ve MP3 formatları, bu yüklemeyi beklerken garip duraklamalar olmadan hemen sorunsuz bir şekilde bir araya getirmenize olanak tanır."
+                }
+              ]
+            },
+            "part5": {
+              "title": "Dönüştürücümüz Neden Öne Çıkıyor?",
+              "cards": [
+                {
+                  "title": "Tek tıklamayla basitlik",
+                  "content": "Zahmetsiz kurulum ve sezgisel kullanım."
+                },
+                {
+                  "title": "Yıldırım hızında, sınırsız",
+                  "content": "En yüksek hızda dönüştürün ve indirin; sınır yok, limit yok."
+                },
+                {
+                  "title": "Anında dönüştürün",
+                  "content": "Dosyalarınızı anında işleyin, beklemenize gerek yok."
+                },
+                {
+                  "title": "Sıfır Reklam, Sıfır Dikkat Dağıtıcı",
+                  "content": "Hiçbir açılır pencere, banner veya kesinti içermeyen temiz bir arayüzün keyfini çıkarın; sadece sorunsuz, kesintisiz dönüşüm."
+                },
+                {
+                  "title": "Orijinal Kalite Garantili",
+                  "content": "İndirdiğiniz videolar her seferinde piksel mükemmelliğinde oynatım için kaynak videonun tam çözünürlüğünü korur."
+                },
+                {
+                  "title": "Her yerde çalışır",
+                  "content": "Herhangi bir tarayıcıyla, herhangi bir cihazla tam uyumludur."
+                }
+              ]
+            },
+            "part6": {
+              "title": [
+                "YouTube'dan MP3'e Dönüşümlerinizi Maksimize Edin",
+                "Dönüştürücümüzle"
+              ],
+              "title_des": "Zahmetsiz YouTube'dan MP3'e Dönüştürme — Hızlı, Basit ve Ücretsiz",
+              "content": [
+                "İşte tam da bu noktada mükemmeliz. Kullanıcı dostu arayüzümüz herkes için tasarlandı; teknik beceriye gerek yok. Deneyim seviyeniz ne olursa olsun, videoları anında dönüştürebilirsiniz. Kayıt olmanıza gerek yok ve hemen başlayabilirsiniz: İndirdiğiniz MP3'ler, YouTube'da izlediğiniz gibi orijinal video kalitesini ve netliğini korur.",
+                "Hız da önemli. Birden fazla dosyayı hızlı bir şekilde, reklamsız ve cihaz kısıtlaması olmadan indirebilirsiniz. İster Windows, ister macOS, Linux, Android veya iOS kullanıyor olun, akıllı telefon, tablet veya masaüstü bilgisayar kullanarak videoları zahmetsizce indirebilirsiniz."
+              ]
+            },
+            "part7": {
+              "title": "YouTube'u MP3'e Dönüştürmeyle İlgili Temel Sorular",
+              "list": [
+                {
+                  "question": "Telif hakkıyla korunan bir YouTube videosunu MP3'e dönüştürebilir miyim?",
+                  "answer": "Teknik olarak mümkün olsa da, telif hakkıyla korunan içeriğin izinsiz dönüştürülmesi YouTube hizmet şartlarını ve telif hakkı yasalarını ihlal edebilir. İçeriği dönüştürme veya yalnızca kişisel, ticari olmayan amaçlarla kullanma hakkınız olduğundan her zaman emin olun."
+                },
+                {
+                  "question": "Bu dönüştürücü alet güvenli mi?",
+                  "answer": "Evet, dönüştürücümüz tamamen güvenlidir. Verilerinizin veya dosyalarınızın hiçbirini saklamıyoruz ve kötü amaçlı yazılım veya virüs riski de yok. Dönüştürme işlemi doğrudan ve güvenli bir şekilde gerçekleşir."
+                },
+                {
+                  "question": "YouTube'dan MP3'e dönüştürme hangi dilleri destekliyor?",
+                  "answer": "Dönüştürücümüz, YouTube'da bulunan tüm dilleri destekler. Ses, orijinal videoda göründüğü gibi çıkarılacak ve orijinal dil ve ses kalitesi korunacaktır."
+                },
+                {
+                  "question": "Bir YouTube videosunun dönüştürülme süresini etkileyen faktörler nelerdir?",
+                  "answer": "Dönüştürme süresi çeşitli faktörlere bağlıdır: videonun uzunluğu, internet bağlantı hızınız ve mevcut sunucu yükünüz. 10 dakikadan kısa videoların çoğu 30 saniyeden kısa sürede dönüştürülür."
+                },
+                {
+                  "question": "Akıllı telefonumla bir MP3'ü dönüştürüp indirdiğimde nereye kaydediliyor?",
+                  "answer": "Çoğu akıllı telefonda, dönüştürülen MP3 dosyaları İndirilenler klasörünüze kaydedilir. iPhone'da, Dosyalar uygulamanıza da kaydedilebilirler. Android'de ise, dosya yöneticinizde veya müzik uygulamanızda İndirilenler klasörünüzü kontrol edin."
+                },
+                {
+                  "question": "YouTube videosunu MP3'e dönüştürmek ses kalitesini düşürür mü?",
+                  "answer": "MP3 yalnızca ses formatıdır, yani video bileşeni yoktur. Ses kalitesi, kaynak videodan elde edilen en yüksek bit hızında korunur; bu, orijinal yükleme kalitesine bağlı olarak genellikle 128-320 kbps'dir."
+                }
+              ]
+            },
+            "MoreFreeTools": {
+              "title": "Daha Fazla Ücretsiz Araç",
+              "title_des": "Diğer ücretsiz dönüştürme araçlarımızı keşfedin",
+              "YouTubeToMP": "YouTube'dan MP4'e",
+              "YouTubeToMP_des": "YouTube videolarını çevrimdışı izlemek için MP4 formatına dönüştürün. Yüksek kaliteli videoları anında indirin.",
+              "AITranscription": "Yapay Zeka Transkripsiyonu",
+              "AITranscription_des": "Ses ve video dosyalarını %96 doğrulukla yazıya dökün. Tüm içerikleriniz için sınırsız yazıya dökme."
+            },
+            "videoDownload": {
+              "title": "YouTube Bağlantılarını MP3'e Dönüştürün. Ücretsiz, hızlı ve reklamsız.",
+              "description": "Hizmetimizi tercih ettiğiniz için teşekkür ederiz! Güveninize gerçekten minnettarız ve deneyiminizi geliştirmemizi umuyoruz. Web sitemizi arkadaşlarınızla paylaşırsanız, bu bizim için çok faydalı olacaktır.",
+              "downloadButton": "İndirmek",
+              "TranscribeButton": "Uyarlamak",
+              "downloadError": "Dönüştürme Hatası."
+            }
+          }
+},
   About: {
     Hero: {
       badge: "Sektör Lideri AI Teknolojisi",
@@ -3412,7 +3596,7 @@ let message = {
     contactDescription:
       "Gizlilik Politikamız hakkında herhangi bir sorunuz, yorumunuz veya şikayetiniz varsa, lütfen bizimle {at} {email} adresinden iletişime geçin ve şikayetinizi en kısa sürede ele almaya çalışacağız.",
     policyDescriptionA:
-      'Bu Politika, {NeverCap}\\\\\\\\\\\\\\\'in (bundan böyle "NeverCap", "bizim", "bizi", "bize" olarak anılacaktır) hizmetlerimizi, web sitelerimizi ({url}) ve yazılımlarımızı (toplu olarak "Hizmetler") kullandığınızda kişisel bilgilerinizi nasıl topladığını, kullandığını ve ifşa ettiğini açıklar.'
+      'Bu Politika, {NeverCap}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'in (bundan böyle "NeverCap", "bizim", "bizi", "bize" olarak anılacaktır) hizmetlerimizi, web sitelerimizi ({url}) ve yazılımlarımızı (toplu olarak "Hizmetler") kullandığınızda kişisel bilgilerinizi nasıl topladığını, kullandığını ve ifşa ettiğini açıklar.'
   },
   TermsOfUse: {
     title: "Kullanım",
@@ -3579,7 +3763,7 @@ let message = {
     contactDescription:
       "Hizmet Şartları hakkında bir sorunuz varsa, lütfen bizimle {at} {email} adresinden iletişime geçin.",
     companyDefinitionA:
-      'Bu belgede "Şirket", "biz", "bizim" veya "bize" dediğimizde {NeverCap}\\\\\\\\\\\\\\\'ten bahsediyoruz.'
+      'Bu belgede "Şirket", "biz", "bizim" veya "bize" dediğimizde {NeverCap}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'ten bahsediyoruz.'
   },
   Blog: {
     Hero: {

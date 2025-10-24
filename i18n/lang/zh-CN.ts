@@ -1009,8 +1009,8 @@ let message = {
     YouTubetoMP4: "YouTube转MP4",
     StartFreeTrial: "免费试用",
     Blog: "博客",
-      YouTubetoMP3: 'YouTube 转 MP3'
-},
+    YouTubetoMP3: 'YouTube 转 MP3'
+  },
   Footer: {
     des: "全球首个真正无限的AI转录服务。无上限，无限制，尽享创作自由。",
     Features: "功能",
@@ -1027,12 +1027,12 @@ let message = {
       "教育工作者"
     ],
     companyMenus: ["关于", "定价", "隐私", "条款"],
-      Resources: '资源',
-      resourcesMenus: [
-            "YouTube 到 MP4",
-            "YouTube 转 MP3"
-          ]
-},
+    Resources: '资源',
+    resourcesMenus: [
+      "YouTube 转 MP4",
+      "YouTube 转 MP3"
+    ]
+  },
   Index: {
     Hero: {
       badge: '告别"缩水式无限" - 真正无限制',
@@ -3114,186 +3114,186 @@ let message = {
           }
         ]
       },
-        MoreFreeTools: {
-              "title": "更多免费工具",
-              "title_des": "探索我们的其他免费转换工具",
-              "YouTubeToMP": "YouTube 转 MP3",
-              "YouTubeToMP_des": "将 YouTube 视频转换为 MP3 格式以供离线观看。立即下载高质量视频。",
-              "AITranscription": "人工智能转录",
-              "AITranscription_des": "音频和视频文件转录准确率高达 96%。所有内容均可无限量转录。"
-            }
+      MoreFreeTools: {
+        "title": "更多免费工具",
+        "title_des": "探索我们的其他免费转换工具",
+        "YouTubeToMP": "YouTube 转 MP3",
+        "YouTubeToMP_des": "将 YouTube 视频转换为 MP3 格式以供离线观看。立即下载高质量视频。",
+        "AITranscription": "人工智能转录",
+        "AITranscription_des": "音频和视频文件转录准确率高达 96%。所有内容均可无限量转录。"
+      }
     },
-      YouTubeToMP3: {
-            "err1": "YouTube 链接格式错误。",
-            "err2": "抱歉！我们目前仅支持 YouTube 链接。如果您需要其他网站的支持，我们会在将来添加时及时通知您。",
-            "part1": {
-              "title": "将 YouTube 视频转换为 MP3",
-              "title_des": "几秒钟内从 YouTube 视频中提取音频",
-              "placeholder": "在此处粘贴您的 Youtube 链接",
-              "clear_icon": "清除输入",
-              "Download": "转变",
-              "loading_text": "处理要转换的链接。留在页面上。",
-              "howToDownload": "如何转换？",
-              "tutorial": "观看教程"
-            },
-            "freeResources": {
-              "linkTitle": "由 {NeverCap} 提供支持",
-              "linkTitle2": "- 完全无限制的 AI 转录",
-              "title": "免费资源",
-              "stepsNew": [
-                {
-                  "title": "免费音频和视频转录",
-                  "content": "在几秒钟内将音频和视频文件转换为文本。每天转录 3 个文件。"
-                },
-                {
-                  "title": "将音频文件提取为文本",
-                  "content": "上传 MP3、MP4、WAV、MOV。",
-                  "content2": "下载 DOCX、TXT、SRT 等。"
-                },
-                {
-                  "title": "转录 YouTube 视频",
-                  "content": "将 YouTube 视频转换为准确的文本或字幕，并免费粘贴链接。"
-                }
-              ]
-            },
-            "part2": {
-              "title": "只需 3 个简单步骤，即可将 YouTube 视频转换为可下载的 MP3 文件",
-              "steps": [
-                {
-                  "title": "复制 URL",
-                  "content": "打开目标 YouTube 视频，然后从浏览器的地址栏复制链接。"
-                },
-                {
-                  "title": "粘贴链接",
-                  "content": "插入您的视频下载工具并将 URL 粘贴到其输入字段中。"
-                },
-                {
-                  "title": "转换和下载",
-                  "content": "转换完成后，下载您的 MP3 文件并保存。"
-                }
-              ]
-            },
-            "part3": {
-              "content": [
-                "想要将 YouTube 视频转换为 MP3 以便随时收听吗？",
-                "无论是在地铁、飞机上，还是在整理播客、课程内容或重要档案时，我们常常会遇到无法随时访问文件的困扰。我们的转换工具可以帮您解决这个问题。",
-                "只需复制 YouTube 链接，粘贴到转换器中，一键即可将视频转换为高品质 MP3 音频。无需网络连接，即可随时保存、收听和存档。"
-              ]
-            },
-            "part4": {
-              "content": [
-                "以下是转换的 5 大好处",
-                "YouTube 视频转 MP3 文件"
-              ],
-              "list": [
-                {
-                  "title": "节省存储空间：",
-                  "content": "MP3 文件更小，减少了 YouTube 的存储空间。下载离线观看文件可节省移动数据流量，并在有网络时使用。"
-                },
-                {
-                  "title": "节省电池：",
-                  "content": "观看 YouTube 视频时，他们提供缓冲服务，使用易于监听的连接。无需再担心缓冲。"
-                },
-                {
-                  "title": "轻松存档和保存：",
-                  "content": "一些视频或 MP3 可以轻松构建您的个人库——无论是用于教育内容、音乐档案还是重要内容。"
-                },
-                {
-                  "title": "更简单的共享：",
-                  "content": "分享 MP3 文件比 YouTube 链接方便得多。您可以通过 WhatsApp 或 Instagram 等应用程序将文件发送给朋友，省去了打开 YouTube 的入门成本。"
-                },
-                {
-                  "title": "即时查看，广泛灵活性：",
-                  "content": "通过将 YouTube 视频转换为您需要的任意格式，可以访问更广泛的喜爱视频，并且 MP3 格式可以立即顺利地结合在一起，而无需尴尬地等待加载。"
-                }
-              ]
-            },
-            "part5": {
-              "title": "为什么我们的转换器脱颖而出",
-              "cards": [
-                {
-                  "title": "一键式操作",
-                  "content": "轻松设置和直观操作。"
-                },
-                {
-                  "title": "极速，无限",
-                  "content": "以最快速度转换和下载 — 无上限，无限制。"
-                },
-                {
-                  "title": "即时转换",
-                  "content": "立即处理您的文件，无需等待。"
-                },
-                {
-                  "title": "零广告，零干扰",
-                  "content": "享受干净的界面，没有弹出窗口、横幅或中断 - 只有流畅、不间断的转换。"
-                },
-                {
-                  "title": "原装品质保证",
-                  "content": "您的下载内容将保留源视频的完整分辨率，以便每次都能实现像素完美的播放。"
-                },
-                {
-                  "title": "可在任何地方使用",
-                  "content": "与任何设备上的任何浏览器完全兼容。"
-                }
-              ]
-            },
-            "part6": {
-              "title": [
-                "最大化 YouTube 到 MP3 的转换率",
-                "使用我们的转换器"
-              ],
-              "title_des": "轻松将 YouTube 转换为 MP3 — 快速、简单且免费",
-              "content": [
-                "这就是我们的优势所在。我们设计的用户友好界面，人人适用——无需任何技术技能。无论您的经验水平如何，都能立即转换视频。无需注册，轻松上手——您下载的 MP3 将保持原始视频质量和清晰度，与您在 YouTube 上观看时的效果完全一致。",
-                "速度也很重要。您可以快速下载多个文件，无广告，无需担心设备问题。无论您使用 Windows、macOS、Linux、Android 还是 iOS 系统，无论是智能手机、平板电脑还是台式电脑，都可以轻松下载视频。"
-              ]
-            },
-            "part7": {
-              "title": "将 YouTube 转换为 MP3 的关键问题",
-              "list": [
-                {
-                  "question": "我可以将受版权保护的 YouTube 视频转换为 MP3 吗？",
-                  "answer": "虽然技术上可行，但未经许可转换受版权保护的内容可能违反 YouTube 的服务条款和版权法。请务必确保您有权转换内容或仅将其用于个人非商业用途。"
-                },
-                {
-                  "question": "这个转换工具安全吗？",
-                  "answer": "是的，我们的转换器绝对安全可靠。我们不会存储您的任何数据或文件，也不存在恶意软件或病毒的风险。转换过程直接且安全。"
-                },
-                {
-                  "question": "YouTube 到 MP3 的转换支持哪些语言？",
-                  "answer": "我们的转换器支持 YouTube 上所有语言。音频将按原视频的格式准确提取，保留原始语言和音频质量。"
-                },
-                {
-                  "question": "哪些因素会影响转换 YouTube 视频所需的时间？",
-                  "answer": "转换时间取决于多种因素：视频时长、网络连接速度以及当前服务器负载。大多数 10 分钟以内的视频转换时间不到 30 秒。"
-                },
-                {
-                  "question": "当我使用智能手机转换和下载 MP3 时，它保存在哪里？",
-                  "answer": "在大多数智能手机上，转换后的 MP3 文件会保存到“下载”文件夹中。在 iPhone 上，它们可能会保存到“文件”应用中。在安卓设备上，请在文件管理器或音乐应用中查看“下载”文件夹。"
-                },
-                {
-                  "question": "将 YouTube 视频转换为 MP3 会降低音频质量吗？",
-                  "answer": "MP3 是一种纯音频格式，因此不包含视频部分。音频质量将保留源视频中可用的最高比特率，通常为 128-320 kbps，具体取决于原始上传质量。"
-                }
-              ]
-            },
-            "MoreFreeTools": {
-              "title": "更多免费工具",
-              "title_des": "探索我们的其他免费转换工具",
-              "YouTubeToMP": "YouTube 到 MP4",
-              "YouTubeToMP_des": "将 YouTube 视频转换为 MP4 格式以供离线观看。立即下载高质量视频。",
-              "AITranscription": "人工智能转录",
-              "AITranscription_des": "音频和视频文件转录准确率高达 96%。所有内容均可无限量转录。"
-            },
-            "videoDownload": {
-              "title": "将 YouTube 链接转换为 MP3。免费、快速且无广告。",
-              "description": "感谢您选择我们的服务！我们非常感谢您的信任，并希望这能提升您的体验。如果您能与朋友分享我们的网站，那将是我们莫大的帮助。",
-              "downloadButton": "下载",
-              "TranscribeButton": "录制",
-              "downloadError": "转换错误。"
-            }
+    YouTubeToMP3: {
+      "err1": "YouTube 链接格式错误。",
+      "err2": "抱歉！我们目前仅支持 YouTube 链接。如果您需要其他网站的支持，我们会在将来添加时及时通知您。",
+      "part1": {
+        "title": "将 YouTube 视频转换为 MP3",
+        "title_des": "几秒钟内从 YouTube 视频中提取音频",
+        "placeholder": "在此处粘贴您的 Youtube 链接",
+        "clear_icon": "清除输入",
+        "Download": "转变",
+        "loading_text": "处理要转换的链接。留在页面上。",
+        "howToDownload": "如何转换？",
+        "tutorial": "观看教程"
+      },
+      "freeResources": {
+        "linkTitle": "由 {NeverCap} 提供支持",
+        "linkTitle2": "- 完全无限制的 AI 转录",
+        "title": "免费资源",
+        "stepsNew": [
+          {
+            "title": "免费音频和视频转录",
+            "content": "在几秒钟内将音频和视频文件转换为文本。每天转录 3 个文件。"
+          },
+          {
+            "title": "将音频文件提取为文本",
+            "content": "上传 MP3、MP4、WAV、MOV。",
+            "content2": "下载 DOCX、TXT、SRT 等。"
+          },
+          {
+            "title": "转录 YouTube 视频",
+            "content": "将 YouTube 视频转换为准确的文本或字幕，并免费粘贴链接。"
           }
-},
+        ]
+      },
+      "part2": {
+        "title": "只需 3 个简单步骤，即可将 YouTube 视频转换为可下载的 MP3 文件",
+        "steps": [
+          {
+            "title": "复制 URL",
+            "content": "打开目标 YouTube 视频，然后从浏览器的地址栏复制链接。"
+          },
+          {
+            "title": "粘贴链接",
+            "content": "插入您的视频下载工具并将 URL 粘贴到其输入字段中。"
+          },
+          {
+            "title": "转换和下载",
+            "content": "转换完成后，下载您的 MP3 文件并保存。"
+          }
+        ]
+      },
+      "part3": {
+        "content": [
+          "想要将 YouTube 视频转换为 MP3 以便随时收听吗？",
+          "无论是在地铁、飞机上，还是在整理播客、课程内容或重要档案时，我们常常会遇到无法随时访问文件的困扰。我们的转换工具可以帮您解决这个问题。",
+          "只需复制 YouTube 链接，粘贴到转换器中，一键即可将视频转换为高品质 MP3 音频。无需网络连接，即可随时保存、收听和存档。"
+        ]
+      },
+      "part4": {
+        "content": [
+          "以下是转换的 5 大好处",
+          "YouTube 视频转 MP3 文件"
+        ],
+        "list": [
+          {
+            "title": "节省存储空间：",
+            "content": "MP3 文件更小，减少了 YouTube 的存储空间。下载离线观看文件可节省移动数据流量，并在有网络时使用。"
+          },
+          {
+            "title": "节省电池：",
+            "content": "观看 YouTube 视频时，他们提供缓冲服务，使用易于监听的连接。无需再担心缓冲。"
+          },
+          {
+            "title": "轻松存档和保存：",
+            "content": "一些视频或 MP3 可以轻松构建您的个人库——无论是用于教育内容、音乐档案还是重要内容。"
+          },
+          {
+            "title": "更简单的共享：",
+            "content": "分享 MP3 文件比 YouTube 链接方便得多。您可以通过 WhatsApp 或 Instagram 等应用程序将文件发送给朋友，省去了打开 YouTube 的入门成本。"
+          },
+          {
+            "title": "即时查看，广泛灵活性：",
+            "content": "通过将 YouTube 视频转换为您需要的任意格式，可以访问更广泛的喜爱视频，并且 MP3 格式可以立即顺利地结合在一起，而无需尴尬地等待加载。"
+          }
+        ]
+      },
+      "part5": {
+        "title": "为什么我们的转换器脱颖而出",
+        "cards": [
+          {
+            "title": "一键式操作",
+            "content": "轻松设置和直观操作。"
+          },
+          {
+            "title": "极速，无限",
+            "content": "以最快速度转换和下载 — 无上限，无限制。"
+          },
+          {
+            "title": "即时转换",
+            "content": "立即处理您的文件，无需等待。"
+          },
+          {
+            "title": "零广告，零干扰",
+            "content": "享受干净的界面，没有弹出窗口、横幅或中断 - 只有流畅、不间断的转换。"
+          },
+          {
+            "title": "原装品质保证",
+            "content": "您的下载内容将保留源视频的完整分辨率，以便每次都能实现像素完美的播放。"
+          },
+          {
+            "title": "可在任何地方使用",
+            "content": "与任何设备上的任何浏览器完全兼容。"
+          }
+        ]
+      },
+      "part6": {
+        "title": [
+          "最大化 YouTube 转 MP3 的转换率",
+          "使用我们的转换器"
+        ],
+        "title_des": "轻松将 YouTube 转换为 MP3 — 快速、简单且免费",
+        "content": [
+          "这就是我们的优势所在。我们设计的用户友好界面，人人适用——无需任何技术技能。无论您的经验水平如何，都能立即转换视频。无需注册，轻松上手——您下载的 MP3 将保持原始视频质量和清晰度，与您在 YouTube 上观看时的效果完全一致。",
+          "速度也很重要。您可以快速下载多个文件，无广告，无需担心设备问题。无论您使用 Windows、macOS、Linux、Android 还是 iOS 系统，无论是智能手机、平板电脑还是台式电脑，都可以轻松下载视频。"
+        ]
+      },
+      "part7": {
+        "title": "将 YouTube 转换为 MP3 的关键问题",
+        "list": [
+          {
+            "question": "我可以将受版权保护的 YouTube 视频转换为 MP3 吗？",
+            "answer": "虽然技术上可行，但未经许可转换受版权保护的内容可能违反 YouTube 的服务条款和版权法。请务必确保您有权转换内容或仅将其用于个人非商业用途。"
+          },
+          {
+            "question": "这个转换工具安全吗？",
+            "answer": "是的，我们的转换器绝对安全可靠。我们不会存储您的任何数据或文件，也不存在恶意软件或病毒的风险。转换过程直接且安全。"
+          },
+          {
+            "question": "YouTube 转 MP3 的转换支持哪些语言？",
+            "answer": "我们的转换器支持 YouTube 上所有语言。音频将按原视频的格式准确提取，保留原始语言和音频质量。"
+          },
+          {
+            "question": "哪些因素会影响转换 YouTube 视频所需的时间？",
+            "answer": "转换时间取决于多种因素：视频时长、网络连接速度以及当前服务器负载。大多数 10 分钟以内的视频转换时间不到 30 秒。"
+          },
+          {
+            "question": "当我使用智能手机转换和下载 MP3 时，它保存在哪里？",
+            "answer": "在大多数智能手机上，转换后的 MP3 文件会保存到“下载”文件夹中。在 iPhone 上，它们可能会保存到“文件”应用中。在安卓设备上，请在文件管理器或音乐应用中查看“下载”文件夹。"
+          },
+          {
+            "question": "将 YouTube 视频转换为 MP3 会降低音频质量吗？",
+            "answer": "MP3 是一种纯音频格式，因此不包含视频部分。音频质量将保留源视频中可用的最高比特率，通常为 128-320 kbps，具体取决于原始上传质量。"
+          }
+        ]
+      },
+      "MoreFreeTools": {
+        "title": "更多免费工具",
+        "title_des": "探索我们的其他免费转换工具",
+        "YouTubeToMP": "YouTube 转 MP4",
+        "YouTubeToMP_des": "将 YouTube 视频转换为 MP4 格式以供离线观看。立即下载高质量视频。",
+        "AITranscription": "人工智能转录",
+        "AITranscription_des": "音频和视频文件转录准确率高达 96%。所有内容均可无限量转录。"
+      },
+      "videoDownload": {
+        "title": "将 YouTube 链接转换为 MP3。免费、快速且无广告。",
+        "description": "感谢您选择我们的服务！我们非常感谢您的信任，并希望这能提升您的体验。如果您能与朋友分享我们的网站，那将是我们莫大的帮助。",
+        "downloadButton": "下载",
+        "TranscribeButton": "录制",
+        "downloadError": "转换错误。"
+      }
+    }
+  },
   About: {
     Hero: {
       badge: "行业领先的AI技术",

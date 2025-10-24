@@ -25,7 +25,7 @@ const { src } = defineProps({
 });
 
 // 使用响应式数据管理视频路径
-let videoSrc = ref("/assets/images/downloadMp4/howToDownload.mp4");
+let videoSrc = ref("/assets/images/downloadMp4/howToDownload_MP3.mp4");
 if (src) {
   videoSrc.value = src;
 }

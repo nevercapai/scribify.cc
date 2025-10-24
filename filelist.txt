@@ -314,6 +314,7 @@
 ./public/assets/images/downloadMp4/Youtube.png
 ./public/assets/images/downloadMp4/black_down.png
 ./public/assets/images/downloadMp4/freeResources-pdf.svg
+./public/assets/images/downloadMp4/howToDownload_MP4.mp4
 ./public/assets/images/downloadMp4/black_advantage_2.png
 ./public/assets/images/downloadMp4/posterMP3.png
 ./public/assets/images/downloadMp4/black_advantage_6.png
@@ -321,6 +322,7 @@
 ./public/assets/images/downloadMp4/advantage_5.png
 ./public/assets/images/downloadMp4/MP4.svg
 ./public/assets/images/downloadMp4/AI.svg
+./public/assets/images/downloadMp4/howToDownload_MP3.mp4
 ./public/assets/images/downloadMp4/index_1.png
 ./public/assets/images/downloadMp4/advantage_4.png
 ./public/assets/images/downloadMp4/advantage_3.png

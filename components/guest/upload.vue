@@ -317,7 +317,8 @@ const handleTranscribe = async () => {
               parentId: 0,
               fileName: getFileNameWithoutExt(file.name),
               fileSize: file.size,
-              openType: selectRawFiles.value.length > 0 ? 1 : 2
+              openType: selectRawFiles.value.length > 0 ? 1 : 2,
+              uploadTime: file.uploadTime
             };
           })
       )

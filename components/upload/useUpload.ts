@@ -27,6 +27,7 @@ export interface UploadFile {
   taskId?: string;
   allowedPath?: string;
   localUrl?: string; // 上传到后端返回的文件链接
+  uploadTime?: number;
 }
 
 // 初始化COS实例
@@ -51,6 +52,7 @@ const initCosInstance = async (file: UploadFile) => {
   const config = useRuntimeConfig();
   const instance = new COS({
     Domain: config.public.cosDomain || "", // 自定义加速域名
+    ForceSignHost: false,
     getAuthorization: async (options, callback) => {
       callback({
         TmpSecretId: auth.tmpSecretId,
@@ -152,7 +154,6 @@ export const useUpload = () => {
           file.progress = progress === 100 ? (progress = 99) : progress;
         }
       });
-
       setTimeout(() => {
         file.status = "success";
       }, 300);
@@ -243,7 +244,7 @@ export const useUpload = () => {
           const startTime = performance.now();
           await initCosInstance(file);
           const endTimeInit = performance.now();
-          const initDuration = Math.round((endTimeInit - startTime) / 1000);
+          const initDuration = (endTimeInit - startTime) / 1000;
           console.log("cos初始化耗时", initDuration);
           file.key = `${file.allowedPath!}${hash}/${file.name || "filename"}`;
 
@@ -265,6 +266,7 @@ export const useUpload = () => {
             bucketId: file.bucket,
             uploadTime: durationSec
           });
+          file.uploadTime = durationSec;
           resolve(true);
         } catch (e) {
           const errorParams: any = {

@@ -16,6 +16,8 @@ interface WebhookUrl {
   customDataTesting: string;
   customDataProduction: string;
   privatization?: string;
+  customDataTesting_fs: string;
+  customDataProduction_fs: string;
 }
 
 export function useErrorReporting() {
@@ -29,6 +31,9 @@ export function useErrorReporting() {
     production: Decrypt('ebxaZVDU7KprTl8QqXbhxqRUZ7ipw5mZByuwwtc+er5z8kaTSbyjBzc7ujtTE1C0QR5DOwl4sBUxXe/2LSe61QmadvqX1fTc1W1YzrbD4u08jYUb0gBpdPk2/upNMsoV'),
     customDataTesting: Decrypt('ebxaZVDU7KprTl8QqXbhxqRUZ7ipw5mZByuwwtc+er46sfroN5SV+DN5CoRHcr/lVtYH1E1VYJlHN0JifMZMdBzWJAv3yoASlH10SA5K3ZSR54eBhz9ttmOzxzZg1nIc'),
     customDataProduction: Decrypt('ebxaZVDU7KprTl8QqXbhxqRUZ7ipw5mZByuwwtc+er6pzXM+Xgb1GvVTlQyso0uD5MqkdSNNL73IlTgvcNeRmFnIQZlMhXZAIV2YPjnNg07aHwEvAJ61aq38Jmwiqi8P'),
+    customDataTesting_fs: Decrypt("CLTxMbk1XJ3zRmaS1aQevWlQvHvb5BUqfsR2Rdwx9t0Jq3VA0U6R/zeTpaAcP1Mh"),
+    customDataProduction_fs: Decrypt("Uft4YPDIVqsAljl9hjpyjeA3uFS40eR4bLzJa92mV4AJq3VA0U6R/zeTpaAcP1Mh")
+
   };
 
   // 日志内容
@@ -160,6 +165,11 @@ export function useErrorReporting() {
         elements: logArr.value
       }
     };
+    if (res['接口耗时'] && productionEnvHosts.includes(window.location.hostname)) {
+      const fsWebhook = productionEnvHosts.includes(window.location.hostname) ? webhookUrl.customDataProduction_fs : webhookUrl.customDataTesting_fs;
+      navigator.sendBeacon(fsWebhook, JSON.stringify(message));
+    }
+
     navigator.sendBeacon(webhook, JSON.stringify(message));
     logArr.value = [];
   }

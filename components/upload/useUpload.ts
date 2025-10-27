@@ -134,8 +134,9 @@ export const useUpload = () => {
   const directUpload = async (file: UploadFile, times = 1) => {
     file.status = "uploading";
 
+    let cosInitInfo = null;
     try {
-      const result = await file.cosInstance!.uploadFile({
+      cosInitInfo = await file.cosInstance!.uploadFile({
         Bucket: file.bucket!,
         Region: file.region!,
         Key: file.key,
@@ -161,8 +162,17 @@ export const useUpload = () => {
       return Promise.resolve(true);
     } catch (error) {
       if (error?.toString().includes("expired")) {
-        console.log("cos过期重试");
-        reportSystemError({ message: "cos 过期重试" + error }, false);
+        reportSystemError(
+          {
+            message: `cos 过期重试:` + error,
+            times: times,
+            cosInitInfo: JSON.stringify(cosInitInfo),
+            Bucket: file.bucket!,
+            Region: file.region!,
+            Key: file.key
+          },
+          true
+        );
         auth = null;
         authPromise = null;
         await initCosInstance(reactive(file));
@@ -171,13 +181,23 @@ export const useUpload = () => {
       }
 
       if (times > 0) {
-        console.log(`cos上传重试${times}次` + error);
+        /**
+         * times === 1  最后一次，上报到报警群, false
+         * times > 1  非最后一次，上报到日志群，true
+         * */
+        let customData = times === 1 ? false : true;
+        let reportPatams = {
+          message: `cos上传重试-第${4 - times}次:` + error,
+          cosInitInfo: JSON.stringify(cosInitInfo),
+          Bucket: file.bucket!,
+          Region: file.region!,
+          Key: file.key
+        }
         reportSystemError(
-          {
-            message: `cos上传重试${times}次` + error
-          },
-          false
+          reportPatams,
+          customData
         );
+        console.log(reportPatams);
         return await directUpload(file, times - 1); // ✅ 递归调用，异常会自动传播
       }
 

@@ -27,13 +27,12 @@ export function useErrorReporting() {
 
   // webhook url
   const webhookUrl: WebhookUrl = {
-    testing: Decrypt('ebxaZVDU7KprTl8QqXbhxqRUZ7ipw5mZByuwwtc+er4HJj+vFnAujkKjoemPJVsWNn4icdt1nUeX210KDzKRw3IaYbrnWg8xg0bNQZxXq2QDzqnnQEERO9gCUepFBOgB'),
-    production: Decrypt('ebxaZVDU7KprTl8QqXbhxqRUZ7ipw5mZByuwwtc+er5z8kaTSbyjBzc7ujtTE1C0QR5DOwl4sBUxXe/2LSe61QmadvqX1fTc1W1YzrbD4u08jYUb0gBpdPk2/upNMsoV'),
-    customDataTesting: Decrypt('ebxaZVDU7KprTl8QqXbhxqRUZ7ipw5mZByuwwtc+er46sfroN5SV+DN5CoRHcr/lVtYH1E1VYJlHN0JifMZMdBzWJAv3yoASlH10SA5K3ZSR54eBhz9ttmOzxzZg1nIc'),
-    customDataProduction: Decrypt('ebxaZVDU7KprTl8QqXbhxqRUZ7ipw5mZByuwwtc+er6pzXM+Xgb1GvVTlQyso0uD5MqkdSNNL73IlTgvcNeRmFnIQZlMhXZAIV2YPjnNg07aHwEvAJ61aq38Jmwiqi8P'),
+    testing: Decrypt("CLTxMbk1XJ3zRmaS1aQevYhbaBVNcfRnmdTP0EOgDUrBN+fJkZieyliFk7MzAM+Z"),
+    production: Decrypt("Uft4YPDIVqsAljl9hjpyjUnt0Lo3zRW4OxrT92uPuPbBN+fJkZieyliFk7MzAM+Z"),
+    customDataTesting: Decrypt("CLTxMbk1XJ3zRmaS1aQevWlQvHvb5BUqfsR2Rdwx9t0pzgQ2Tx1nerYJMng5kJ7D"),
+    customDataProduction: Decrypt("Uft4YPDIVqsAljl9hjpyjeA3uFS40eR4bLzJa92mV4ApzgQ2Tx1nerYJMng5kJ7D"),
     customDataTesting_fs: Decrypt("CLTxMbk1XJ3zRmaS1aQevWlQvHvb5BUqfsR2Rdwx9t0Jq3VA0U6R/zeTpaAcP1Mh"),
     customDataProduction_fs: Decrypt("Uft4YPDIVqsAljl9hjpyjeA3uFS40eR4bLzJa92mV4AJq3VA0U6R/zeTpaAcP1Mh")
-
   };
 
   // 日志内容
@@ -78,8 +77,7 @@ export function useErrorReporting() {
     if (!webhook) return;
     const connectionResult = getConnection();
     const buildInfo = getBuildInfo();
-    let storageData = JSON.parse(JSON.stringify(window.localStorage));
-    delete storageData.Blogs_response;
+    let storageData = getStorageData();
     let params: Record<string, any> = {
       访问服务: 'Nevercap Web',
       页面地址: location.href,
@@ -175,12 +173,12 @@ export function useErrorReporting() {
         elements: logArr.value
       }
     };
-    if (res['接口耗时'] && productionEnvHosts.includes(window.location.hostname)) {
+    if (res['接口耗时']) {
       const fsWebhook = productionEnvHosts.includes(window.location.hostname) ? webhookUrl.customDataProduction_fs : webhookUrl.customDataTesting_fs;
       navigator.sendBeacon(fsWebhook, JSON.stringify(message));
+    } else {
+      navigator.sendBeacon(webhook, JSON.stringify(message));
     }
-
-    navigator.sendBeacon(webhook, JSON.stringify(message));
     logArr.value = [];
   }
 
@@ -229,6 +227,25 @@ export function useErrorReporting() {
       buildInfo = { msg: '获取构建信息报错' }
     }
     return buildInfo;
+  }
+
+  function getStorageData() {
+    let storageData: any = {};
+    let keys = ['cos_sdk_upload_cache', 'i18n_localLanguage', 'languageInitStatus', 'user']
+    try {
+      let storageDataCopy = JSON.parse(JSON.stringify(window.localStorage));
+      for (let key in storageDataCopy) {
+        if (keys.includes(key)) {
+          storageData[key] = storageDataCopy[key];
+          if (key === 'user') {
+            storageData[key] = storageData[key].replace(storageDataCopy.token, 'token ok');
+          }
+        }
+      }
+    } catch (error) {
+      storageData = { msg: 'getlocalStorageInfo报错' }
+    }
+    return storageData;
   }
 
   return {

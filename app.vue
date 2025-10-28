@@ -110,7 +110,7 @@ watchEffect(async () => {
 });
 // 跳转事件
 const { $mitt } = useNuxtApp();
-const goToEvent = (data) => {
+const goToEvent = (data: any) => {
   jumpPage(data.path, data.newTab);
 };
 const times = ref(0);

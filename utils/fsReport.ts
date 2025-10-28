@@ -76,6 +76,8 @@ export function useErrorReporting() {
     }
     const webhook = getWebhookUrl(customData);
     if (!webhook) return;
+    const connectionResult = getConnection();
+    const buildInfo = getBuildInfo();
     let storageData = JSON.parse(JSON.stringify(window.localStorage));
     delete storageData.Blogs_response;
     let params: Record<string, any> = {
@@ -99,7 +101,11 @@ export function useErrorReporting() {
       系统信息: window.navigator.userAgent,
       cardType7: 'hr',
       缓存数据: JSON.stringify(storageData),
-      内部账号: TanmaUser.includes(email.value) ? `是【${email.value}】` : `否【${email.value}】`
+      内部账号: TanmaUser.includes(email.value) ? `是【${email.value}】` : `否【${email.value}】`,
+      cardType8: "hr",
+      ...buildInfo,
+      cardType9: "hr",
+      ...connectionResult
     };
     if ((customData && !exceptCodeFlag) || (!url && !data)) {
       params = {
@@ -114,7 +120,11 @@ export function useErrorReporting() {
         cardType3: 'hr',
         缓存数据: JSON.stringify(storageData),
         内部账号: TanmaUser.includes(email.value) ? `是【${email.value}】` : `否【${email.value}】`,
-        cardType4: 'hr'
+        cardType4: 'hr',
+        ...buildInfo,
+        cardType5: "hr",
+        ...connectionResult,
+        cardType6: "hr"
       };
       try {
         for (let key in res) {
@@ -172,6 +182,53 @@ export function useErrorReporting() {
 
     navigator.sendBeacon(webhook, JSON.stringify(message));
     logArr.value = [];
+  }
+
+  function getConnection() {
+    let connectionResult = {};
+    try {
+      // 更全面的检查确保 navigator 和 navigator.connection 存在
+      if (typeof navigator !== "undefined" && "connection" in navigator) {
+        const connection =
+          (navigator as any)?.connection ||
+          (navigator as any)?.mozConnection ||
+          (navigator as any)?.webkitConnection;
+
+        // 确保 connection 对象存在且有效
+        if (connection) {
+          connectionResult = {
+            "Downlink speed: ": connection.downlink + "Mbps",
+            "网络连接类型 Effective Type: ": connection.effectiveType,
+            "往返时间 RTT: ": connection.rtt + "ms",
+            "是否启用了数据节省模式 Save Data: ": connection.saveData
+          };
+        } else {
+          connectionResult = {
+            msg: "navigator.connection API is not supported or not available."
+          };
+        }
+      } else {
+        connectionResult = {
+          msg: "navigator.connection API is not supported in this environment."
+        };
+      }
+    } catch (error) {
+      connectionResult = {
+        msg: `navigator.connection API 报错: ${JSON.stringify(error)}`
+      };
+    }
+    return connectionResult;
+  }
+
+  function getBuildInfo() {
+    let buildInfo = {};
+    try {
+      const buildInfoStr = window.localStorage.getItem("buildInfo") || '{}';
+      buildInfo = JSON.parse(buildInfoStr);
+    } catch (error) {
+      buildInfo = { msg: '获取构建信息报错' }
+    }
+    return buildInfo;
   }
 
   return {

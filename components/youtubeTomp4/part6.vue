@@ -27,6 +27,8 @@
           src="/assets/images/downloadMp4/black_maximize.png"
           class="h-72 w-72 object-contain md:h-96 md:w-96"
           fit="contain"
+          alt="maximize"
+          lazy
         ></el-image>
       </div>
     </div>

@@ -18,6 +18,8 @@
           src="/assets/images/downloadMp4/black_major.png"
           class="h-60 w-60 object-contain md:h-80 md:w-80"
           fit="contain"
+          alt="major"
+          lazy
         ></el-image>
       </div>
       <!-- 右侧优势列表 -->

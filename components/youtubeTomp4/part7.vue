@@ -20,6 +20,8 @@
               class="h-[1.25rem] w-[1.25rem] object-contain transition-transform duration-300"
               fit="contain"
               :class="{ '-rotate-180': activeIdx === idx }"
+              lazy
+              alt="down"
             ></el-image>
           </span>
         </div>

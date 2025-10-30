@@ -46,10 +46,15 @@
         @click="handleHowDownload"
         src="/assets/images/downloadMp4/play_1.png"
         class="me-[0.5rem] h-5 w-5 cursor-pointer align-middle"
+        alt="play"
+        lazy
       ></el-image>
-      <el-link @click="handleHowDownload" type="primary" class="mr-2">
+      <span
+        @click="handleHowDownload"
+        class="mr-2 cursor-pointer text-[#9534e6] underline-offset-4 md:hover:underline"
+      >
         {{ $i("howToDownload") }}
-      </el-link>
+      </span>
       {{ $i("tutorial") }}
     </div>
     <div v-if="loading" class="text-[rgba(255,255,255,0.7)]">

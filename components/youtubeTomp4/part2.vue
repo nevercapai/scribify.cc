@@ -20,6 +20,8 @@
           class="mb-[1.875rem] w-full rounded-[1rem]"
           style="aspect-ratio: 100/57.4"
           fit="cover"
+          :alt="item.img"
+          lazy
         ></el-image>
         <div
           class="mb-[0.625rem] flex items-center self-start text-[1.375rem] font-semibold leading-[1.875rem]"

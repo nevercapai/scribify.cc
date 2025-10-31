@@ -1,5 +1,6 @@
 import COS from "cos-js-sdk-v5";
 import { useErrorReporting } from "~/utils/fsReport";
+import { truncateFilename } from "~/utils/tools";
 const { reportSystemError } = useErrorReporting();
 
 export interface UploadFile {
@@ -192,11 +193,8 @@ export const useUpload = () => {
           Bucket: file.bucket!,
           Region: file.region!,
           Key: file.key
-        }
-        reportSystemError(
-          reportPatams,
-          customData
-        );
+        };
+        reportSystemError(reportPatams, customData);
         console.log(reportPatams);
         return await directUpload(file, times - 1); // ✅ 递归调用，异常会自动传播
       }
@@ -367,7 +365,7 @@ export const useUpload = () => {
     const obj = {
       id: Date.now() + file.name,
       file,
-      name: file.name.slice(0, 80),
+      name: truncateFilename(file.name, 80),
       size: file.size,
       detailSize: niceBytes(String(file.size)),
       status: "pending",
@@ -597,7 +595,7 @@ export const useUpload = () => {
       if (eTags?.length === totalChunks) {
         mergeFile(file, eTags);
       }
-    } catch (e) { }
+    } catch (e) {}
   };
 
   // todo 废弃的文件分片

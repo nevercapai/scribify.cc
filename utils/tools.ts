@@ -43,7 +43,10 @@ export function getAuthorization(username: string, password: string) {
  * @param {string} format - 时间格式，默认为"YYYY-MM-DD HH:mm:ss"
  * @returns {string} 本地时间字符串
  */
-export function timeUTCToLocal(utcTime: string, format: string = "YYYY-MM-DD HH:mm:ss") {
+export function timeUTCToLocal(
+  utcTime: string,
+  format: string = "YYYY-MM-DD HH:mm:ss"
+) {
   if (!utcTime) {
     return utcTime;
   }
@@ -108,19 +111,19 @@ export function Msg(options: {
   title?: string;
   message: string;
   dangerouslyUseHTMLString?: boolean;
-  position?: 'top-right' | 'top-left' | 'bottom-right' | 'bottom-left';
+  position?: "top-right" | "top-left" | "bottom-right" | "bottom-left";
   duration?: number;
   showClose?: boolean;
-  type?: 'success' | 'warning' | 'info' | 'error';
+  type?: "success" | "warning" | "info" | "error";
   customClass?: string;
   appendTo?: any;
 }) {
   const defaultOptions = {
     dangerouslyUseHTMLString: false,
-    position: 'bottom-right',
+    position: "bottom-right",
     duration: 4500,
     showClose: true,
-    type: 'info'
+    type: "info"
   };
 
   const mergedOptions = { ...defaultOptions, ...options };
@@ -129,7 +132,31 @@ export function Msg(options: {
     ...mergedOptions
   });
 }
+export function truncateFilename(filename: string, maxLength = 80) {
+  // 分离文件名和后缀
+  const lastDotIndex = filename.lastIndexOf(".");
+  if (lastDotIndex === -1 || lastDotIndex === 0) {
+    return filename.length > maxLength
+      ? filename.slice(0, maxLength)
+      : filename;
+  }
 
+  const name = filename.slice(0, lastDotIndex);
+  const extension = filename.slice(lastDotIndex);
+  // 如果总长度不超过限制，直接返回
+  if (filename.length <= maxLength) {
+    return filename;
+  }
+  // 计算可用的文件名长度（保留后缀）
+  const availableNameLength = maxLength - extension.length;
+
+  // 如果后缀已经超过限制，直接返回后缀
+  if (availableNameLength <= 0) {
+    return extension.slice(0, maxLength);
+  }
+  // 截取文件名并保留后缀
+  return name.slice(0, availableNameLength) + extension;
+}
 const Utils = {
   EncryptRSA,
   getAuthorization,

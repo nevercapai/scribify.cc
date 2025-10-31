@@ -4,9 +4,9 @@
       class="mx-auto mt-[1.375rem] flex max-w-[28rem] flex-col rounded-[1rem] bg-black shadow-md"
     >
       <video
+        ref="videoRef"
         :src="videoSrc"
         controls
-        autoplay
         preload="metadata"
         class="aspect-video w-full rounded-[1rem]"
       ></video>
@@ -17,17 +17,33 @@
 <script setup lang="ts">
 /* videoDown 组件 */
 import { ref } from "vue";
-const { src } = defineProps({
+const props = defineProps({
+  autoplay: {
+    type: Boolean,
+    default: false
+  },
   src: {
     type: String,
     default: ""
   }
 });
-
+const videoRef = useTemplateRef("videoRef");
+watch(
+  () => props.autoplay,
+  (v) => {
+    if (videoRef.value) {
+      videoRef.value?.pause();
+      videoRef.value.currentTime = 0;
+    }
+    if (v) {
+      videoRef.value?.play();
+    }
+  }
+);
 // 使用响应式数据管理视频路径
 let videoSrc = ref("/assets/images/downloadMp4/howToDownload_MP4.mp4");
-if (src) {
-  videoSrc.value = src;
+if (props.src) {
+  videoSrc.value = props.src;
 }
 </script>
 

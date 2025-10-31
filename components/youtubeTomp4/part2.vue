@@ -20,7 +20,7 @@
           class="mb-[1.875rem] w-full rounded-[1rem]"
           style="aspect-ratio: 100/57.4"
           fit="cover"
-          :alt="item.img"
+          alt="NeverCap"
           lazy
         ></el-image>
         <div

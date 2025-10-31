@@ -30,7 +30,7 @@
     </div>
     <transition name="slide-fade">
       <div
-        v-if="file.progress && file.status === 'uploading'"
+        v-show="file.progress && file.status === 'uploading'"
         class="progress w-full max-w-[22.5rem] pb-5 pt-1"
       >
         <el-progress :percentage="file.progress" :stroke-width="8">
@@ -46,7 +46,7 @@
         @click="handleHowDownload"
         src="/assets/images/downloadMp4/play_1.png"
         class="me-[0.5rem] h-5 w-5 cursor-pointer align-middle"
-        alt="play"
+        alt="NeverCap"
         lazy
       ></el-image>
       <span

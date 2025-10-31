@@ -14,10 +14,13 @@
           </part1>
 
           <transition name="slide-fade">
-            <howToDownload v-if="showHowToDownload"></howToDownload>
+            <howToDownload
+              v-show="showHowToDownload"
+              :autoplay="showHowToDownload"
+            ></howToDownload>
           </transition>
           <transition name="slide-fade">
-            <videoDown :file="myFile" v-if="showVideoDown"></videoDown>
+            <videoDown :file="myFile" v-show="showVideoDown"></videoDown>
           </transition>
           <!--2、 三步操作流程 -->
           <div class="divide-line"></div>

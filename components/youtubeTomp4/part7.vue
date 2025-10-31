@@ -21,7 +21,7 @@
               fit="contain"
               :class="{ '-rotate-180': activeIdx === idx }"
               lazy
-              alt="down"
+              alt="NeverCap"
             ></el-image>
           </span>
         </div>

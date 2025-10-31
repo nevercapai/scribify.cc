@@ -31,31 +31,31 @@
             <el-image
               :src="`/assets/images/downloadMp4/freeResources-mp3.svg`"
               class="me-[0.75rem] h-[2.8125rem] w-[2.1875rem]"
-              alt="freeResources-mp3"
+              alt="NeverCap"
               lazy
             ></el-image>
             <el-image
               :src="`/assets/images/downloadMp4/freeResources-mp4.svg`"
               class="h-[2.8125rem] w-[2.1875rem]"
-              alt="freeResources-mp4"
+              alt="NeverCap"
               lazy
             ></el-image>
             <el-image
               :src="`/assets/images/downloadMp4/freeResources-arrow.svg`"
               class="mx-[1.625rem] h-[0.75rem] w-[1.5rem]"
-              alt="freeResources-arrow"
+              alt="NeverCap"
               lazy
             ></el-image>
             <el-image
               :src="`/assets/images/downloadMp4/freeResources-docx.svg`"
               class="me-[0.75rem] h-[2.8125rem] w-[2.1875rem]"
-              alt="freeResources-docx"
+              alt="NeverCap"
               lazy
             ></el-image>
             <el-image
               :src="`/assets/images/downloadMp4/freeResources-txt.svg`"
               class="h-[2.8125rem] w-[2.1875rem]"
-              alt="freeResources-txt"
+              alt="NeverCap"
               lazy
             ></el-image>
           </div>
@@ -74,31 +74,31 @@
             <el-image
               :src="`/assets/images/downloadMp4/freeResources-mp3.svg`"
               class="me-[0.75rem] h-[2.8125rem] w-[2.1875rem]"
-              alt="freeResources-mp3"
+              alt="NeverCap"
               lazy
             ></el-image>
             <el-image
               :src="`/assets/images/downloadMp4/freeResources-wav.svg`"
               class="h-[2.8125rem] w-[2.1875rem]"
-              alt="freeResources-wav"
+              alt="NeverCap"
               lazy
             ></el-image>
             <el-image
               :src="`/assets/images/downloadMp4/freeResources-arrow.svg`"
               class="mx-[1.625rem] h-[0.75rem] w-[1.5rem]"
-              alt="freeResources-arrow"
+              alt="NeverCap"
               lazy
             ></el-image>
             <el-image
               :src="`/assets/images/downloadMp4/freeResources-docx.svg`"
               class="me-[0.75rem] h-[2.8125rem] w-[2.1875rem]"
-              alt="freeResources-docx"
+              alt="NeverCap"
               lazy
             ></el-image>
             <el-image
               :src="`/assets/images/downloadMp4/freeResources-pdf.svg`"
               class="h-[2.8125rem] w-[2.1875rem]"
-              alt="freeResources-pdf"
+              alt="NeverCap"
               lazy
             ></el-image>
           </div>
@@ -119,25 +119,25 @@
             <el-image
               :src="`/assets/images/downloadMp4/freeResources-yt.svg`"
               class="me-[0.75rem] h-[2.8125rem] w-[2.1875rem]"
-              alt="freeResources-yt"
+              alt="NeverCap"
               lazy
             ></el-image>
             <el-image
               :src="`/assets/images/downloadMp4/freeResources-arrow.svg`"
               class="mx-[1.625rem] h-[0.75rem] w-[1.5rem]"
-              alt="freeResources-arrow"
+              alt="NeverCap"
               lazy
             ></el-image>
             <el-image
               :src="`/assets/images/downloadMp4/freeResources-txt.svg`"
               class="me-[0.75rem] h-[2.8125rem] w-[2.1875rem]"
-              alt="freeResources-txt"
+              alt="NeverCap"
               lazy
             ></el-image>
             <el-image
               :src="`/assets/images/downloadMp4/freeResources-srt.svg`"
               class="h-[2.8125rem] w-[2.1875rem]"
-              alt="freeResources-srt"
+              alt="NeverCap"
               lazy
             ></el-image>
           </div>

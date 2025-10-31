@@ -20,7 +20,7 @@
         :src="`/assets/images/downloadMp4/black_Youtube.png`"
         class="h-[6rem] w-[12rem] object-contain md:h-[8rem] md:w-[16rem]"
         fit="contain"
-        alt="Youtube"
+        alt="NeverCap"
         lazy
       ></el-image>
     </div>

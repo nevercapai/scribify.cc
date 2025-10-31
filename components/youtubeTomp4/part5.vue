@@ -16,7 +16,7 @@
           <el-image
             :src="`/assets/images/downloadMp4/black_advantage_${item.icon}.png`"
             class="h-[1.875rem] w-[1.875rem]"
-            :alt="'advantage_' + item.icon"
+            alt="NeverCap"
             lazy
           ></el-image>
         </div>

@@ -16,7 +16,7 @@
           margin-right: auto;
         "
       >
-        <NuxtLink :to="$localePath('/resources/youtube-to-mp3')">
+        <!-- <NuxtLink :to="$localePath('/resources/youtube-to-mp3')">
           <div class="resource-card" style="height: 100%">
             <div class="resource-icon">
               <el-image
@@ -29,7 +29,7 @@
               {{ $i("YouTubeToMP_des") }}
             </p>
           </div>
-        </NuxtLink>
+        </NuxtLink> -->
 
         <NuxtLink :to="$localePath('/')">
           <div class="resource-card" style="height: 100%">

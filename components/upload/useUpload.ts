@@ -136,6 +136,7 @@ export const useUpload = () => {
     file.status = "uploading";
 
     let cosInitInfo = null;
+    let xCosRequestId = null;
     try {
       cosInitInfo = await file.cosInstance!.uploadFile({
         Bucket: file.bucket!,
@@ -155,7 +156,16 @@ export const useUpload = () => {
           );
           file.progress = progress === 100 ? (progress = 99) : progress;
         }
+      }).then(data => {
+        xCosRequestId = (data as any)?.headers['x-cos-request-id'];
+        return data;
+      }).catch(err => {
+        xCosRequestId = (err as any)?.headers['x-cos-request-id'];
+        // console.log(err, '上传失败 xCosRequestId------', xCosRequestId);
+        err.message += `【xCosRequestId：${xCosRequestId}】`
+        throw err;
       });
+
       setTimeout(() => {
         file.status = "success";
       }, 300);
@@ -168,6 +178,7 @@ export const useUpload = () => {
             message: `cos 过期重试:` + error,
             times: times,
             cosInitInfo: JSON.stringify(cosInitInfo),
+            xCosRequestId: xCosRequestId,
             Bucket: file.bucket!,
             Region: file.region!,
             Key: file.key
@@ -190,12 +201,13 @@ export const useUpload = () => {
         let reportPatams = {
           message: `cos上传重试-第${4 - times}次:` + error,
           cosInitInfo: JSON.stringify(cosInitInfo),
+          xCosRequestId: xCosRequestId,
           Bucket: file.bucket!,
           Region: file.region!,
           Key: file.key
-        };
+        }
         reportSystemError(reportPatams, customData);
-        console.log(reportPatams);
+        console.log('cos上传重试-reportPatams', reportPatams);
         return await directUpload(file, times - 1); // ✅ 递归调用，异常会自动传播
       }
 
@@ -595,7 +607,7 @@ export const useUpload = () => {
       if (eTags?.length === totalChunks) {
         mergeFile(file, eTags);
       }
-    } catch (e) {}
+    } catch (e) { }
   };
 
   // todo 废弃的文件分片

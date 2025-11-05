@@ -165,11 +165,11 @@ let resourcesMenus = ref([
   {
     name: "YouTube to MP4",
     link: "/resources/youtube-to-mp4"
+  },
+  {
+    name: "YouTube to MP3",
+    link: "/resources/youtube-to-mp3"
   }
-  // {
-  //   name: "YouTube to MP3",
-  //   link: "/resources/youtube-to-mp3"
-  // }
 ]);
 let companyMenus = ref([
   {

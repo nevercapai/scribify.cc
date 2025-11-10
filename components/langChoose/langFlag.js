@@ -120,9 +120,9 @@ const languageData = [
     onlyGoogleTrans: false
   },
   {
-    lang: "Chinese",
+    lang: "Chinese(Traditional)",
     langZh: "中文",
-    langCode: "zh-CN",
+    langCode: "zh-TW",
     category: "popular",
     transCode: "zh",
     onlyGoogleTrans: false

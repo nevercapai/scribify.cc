@@ -6,6 +6,111 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "45940879",
+      "name": "discord",
+      "font_class": "discord",
+      "unicode": "e766",
+      "unicode_decimal": 59238
+    },
+    {
+      "icon_id": "45903609",
+      "name": "刷新",
+      "font_class": "retry",
+      "unicode": "e765",
+      "unicode_decimal": 59237
+    },
+    {
+      "icon_id": "45824075",
+      "name": "ppt",
+      "font_class": "a-svg-01beifen2",
+      "unicode": "e75e",
+      "unicode_decimal": 59230
+    },
+    {
+      "icon_id": "45824076",
+      "name": "pdf",
+      "font_class": "a-svg-01beifen3",
+      "unicode": "e75f",
+      "unicode_decimal": 59231
+    },
+    {
+      "icon_id": "45824077",
+      "name": "txt",
+      "font_class": "a-svg-01beifen4",
+      "unicode": "e760",
+      "unicode_decimal": 59232
+    },
+    {
+      "icon_id": "45824078",
+      "name": "excel",
+      "font_class": "svg-01",
+      "unicode": "e761",
+      "unicode_decimal": 59233
+    },
+    {
+      "icon_id": "45824079",
+      "name": "图片",
+      "font_class": "a-svg-01beifen6",
+      "unicode": "e762",
+      "unicode_decimal": 59234
+    },
+    {
+      "icon_id": "45824080",
+      "name": "???",
+      "font_class": "a-svg-01beifen5",
+      "unicode": "e763",
+      "unicode_decimal": 59235
+    },
+    {
+      "icon_id": "45824081",
+      "name": "word",
+      "font_class": "svg-01beifen",
+      "unicode": "e764",
+      "unicode_decimal": 59236
+    },
+    {
+      "icon_id": "45806610",
+      "name": "没有音频",
+      "font_class": "meiyouyinpin",
+      "unicode": "e75d",
+      "unicode_decimal": 59229
+    },
+    {
+      "icon_id": "45727863",
+      "name": "问卷",
+      "font_class": "wenjuan",
+      "unicode": "e75a",
+      "unicode_decimal": 59226
+    },
+    {
+      "icon_id": "45727858",
+      "name": "icon_哭",
+      "font_class": "icon_ku",
+      "unicode": "e75b",
+      "unicode_decimal": 59227
+    },
+    {
+      "icon_id": "45727857",
+      "name": "icon_笑",
+      "font_class": "icon_xiao",
+      "unicode": "e75c",
+      "unicode_decimal": 59228
+    },
+    {
+      "icon_id": "45599612",
+      "name": "分享(新)",
+      "font_class": "a-fenxiangxin",
+      "unicode": "e759",
+      "unicode_decimal": 59225
+    },
+    {
+      "icon_id": "45466320",
+      "name": "whatsapp",
+      "font_class": "whatsapp",
+      "unicode": "e758",
+      "unicode_decimal": 59224
+    },
+    {
       "icon_id": "45349735",
       "name": "icon_全部文件",
       "font_class": "icon_quanbuwenjian",

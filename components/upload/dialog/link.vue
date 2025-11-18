@@ -3,30 +3,20 @@
     <el-dialog
       v-model="visible"
       :close-on-click-modal="false"
-      @closed="link = ''"
+      @closed="handleClosed"
       @open="handleOpen"
       @close="handleClose"
       class="customer-dialog-link"
       append-to-body
-      :title="t('FileUploadAndRecording.upload.file.orTitle')"
+      :title="title"
     >
-      <upload-link
-        v-model:link="link"
-        :is-overed="isOver"
-        :is-loading="loading || linkLoading"
-        @enter="confirm"
-      />
+      <upload-link v-model:link="link" :is-overed="isOver" :is-loading="loading || linkLoading" @enter="confirm" />
       <template #footer>
         <el-button class="home-btn mb-2" @click="visible = false">
           {{ t("FileUploadAndRecording.upload.link.cancel") }}
         </el-button>
-        <el-button
-          class="home-btn mb-2"
-          :loading="loading || linkLoading"
-          @click="confirm"
-          type="primary"
-        >
-          {{ t("FileUploadAndRecording.upload.link.confirm") }}
+        <el-button class="home-btn mb-2" :loading="loading || linkLoading" @click="confirm" type="primary">
+          {{ confirmBtn }}
         </el-button>
       </template>
     </el-dialog>
@@ -43,6 +33,9 @@ const props = defineProps<{
   isGuest?: boolean;
   linkLoading?: boolean;
 }>();
+
+const title = ref(t("FileUploadAndRecording.upload.link.dialogTitle"));
+const confirmBtn = ref(t("FileUploadAndRecording.upload.link.confirm"));
 
 const emit = defineEmits(["update:modelValue", "confirm", "open", "close"]);
 
@@ -92,6 +85,33 @@ const handleClose = () => {
   emit("close");
   window.removeEventListener("keypress", handleKeyPress);
 };
+const setText = ({ titleText, confirmBtnText }) => {
+  title.value = titleText;
+  confirmBtn.value = confirmBtnText;
+};
+const setLink = (url = "") => {
+  link.value = url;
+};
+const handleClosed = () => {
+  setText({
+    titleText: t("FileUploadAndRecording.upload.link.dialogTitle"),
+    confirmBtnText: t("FileUploadAndRecording.upload.link.confirm")
+  });
+  setLink("");
+};
+
+const retry = (url: string) => {
+  isOver.value = false;
+  loading.value = true;
+  link.value = url;
+  confirm();
+};
+defineExpose({
+  retry,
+  setLink,
+  loading,
+  setText
+});
 </script>
 
 <style scoped>

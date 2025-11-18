@@ -2,6 +2,7 @@ import COS from "cos-js-sdk-v5";
 import { useErrorReporting } from "~/utils/fsReport";
 import { truncateFilename } from "~/utils/tools";
 const { reportSystemError } = useErrorReporting();
+import mockProgress from "./mockProgress";
 
 export interface UploadFile {
   id: string;
@@ -29,6 +30,7 @@ export interface UploadFile {
   allowedPath?: string;
   localUrl?: string; // 上传到后端返回的文件链接
   uploadTime?: number;
+  [key: string]: any;
 }
 
 // 初始化COS实例
@@ -46,6 +48,7 @@ const initCosInstance = async (file: UploadFile) => {
       authPromise = getAuthorization();
     }
     auth = await authPromise;
+    window.auth = auth;
   }
   const bucket = auth.bucket;
   const region = auth.region;
@@ -75,8 +78,8 @@ const initCosInstance = async (file: UploadFile) => {
 export const useUpload = () => {
   const MAX_FILE_SIZE = 5 * 1024 * 1024 * 1024; // 5GB
   const fileTypes = useUploadStore().fileTypes; // 允许的扩展名
-  const CHUNK_SIZE = 50 * 1024 * 1024; // 5MB分割
-  const NOTNEEDCHUNK_SIZE = 20 * 1024 * 1024; // 5MB
+  const CHUNK_SIZE = 30 * 1024 * 1024; // 30MB分割
+  const NOTNEEDCHUNK_SIZE = 30 * 1024 * 1024; // 30MB
   const { t } = useI18n();
   const { selectedFolder } = storeToRefs(useFolderStore());
 
@@ -93,15 +96,9 @@ export const useUpload = () => {
       file.errorText = t("FileUploadAndRecording.upload.tooLarge");
       return false;
     }
-    const isMimeValid = [
-      ...fileTypes,
-      "webm",
-      "x-m4a",
-      "quicktime",
-      "vnd.dlna.adts",
-      "x-ms-wma",
-      "x-ms-wmv"
-    ].includes(file.file.type?.split("/")[1]?.toLowerCase());
+    const isMimeValid = [...fileTypes, "webm", "x-m4a", "quicktime", "vnd.dlna.adts", "x-ms-wma", "x-ms-wmv"].includes(
+      file.file.type?.split("/")[1]?.toLowerCase()
+    );
 
     // 返回结果
     if (!isMimeValid) {
@@ -138,33 +135,33 @@ export const useUpload = () => {
     let cosInitInfo = null;
     let xCosRequestId = null;
     try {
-      cosInitInfo = await file.cosInstance!.uploadFile({
-        Bucket: file.bucket!,
-        Region: file.region!,
-        Key: file.key,
-        Body: file.file,
-        ChunkSize: CHUNK_SIZE,
-        AsyncLimit: 6,
-        SliceSize: NOTNEEDCHUNK_SIZE,
-        onTaskReady: (taskId) => {
-          file.taskId = taskId;
-        },
-        onProgress(progressData) {
-          let progress = Math.max(
-            parseInt(String(progressData.percent * 100)),
-            file.progress
-          );
-          file.progress = progress === 100 ? (progress = 99) : progress;
-        }
-      }).then(data => {
-        xCosRequestId = (data as any)?.headers['x-cos-request-id'];
-        return data;
-      }).catch(err => {
-        xCosRequestId = (err as any)?.headers['x-cos-request-id'];
-        // console.log(err, '上传失败 xCosRequestId------', xCosRequestId);
-        err.message += `【xCosRequestId：${xCosRequestId}】`
-        throw err;
-      });
+      cosInitInfo = await file
+        .cosInstance!.uploadFile({
+          Bucket: file.bucket!,
+          Region: file.region!,
+          Key: file.key,
+          Body: file.file,
+          ChunkSize: CHUNK_SIZE,
+          AsyncLimit: 6,
+          SliceSize: NOTNEEDCHUNK_SIZE,
+          onTaskReady: (taskId) => {
+            file.taskId = taskId;
+          },
+          onProgress(progressData) {
+            let progress = Math.max(parseInt(String(progressData.percent * 100)), file.progress);
+            file.progress = progress === 100 ? (progress = 99) : progress;
+          }
+        })
+        .then((data) => {
+          xCosRequestId = (data as any)?.headers["x-cos-request-id"];
+          return data;
+        })
+        .catch((err) => {
+          xCosRequestId = (err as any)?.headers["x-cos-request-id"];
+          // console.log(err, '上传失败 xCosRequestId------', xCosRequestId);
+          err.message += `【xCosRequestId：${xCosRequestId}】`;
+          throw err;
+        });
 
       setTimeout(() => {
         file.status = "success";
@@ -205,9 +202,9 @@ export const useUpload = () => {
           Bucket: file.bucket!,
           Region: file.region!,
           Key: file.key
-        }
+        };
         reportSystemError(reportPatams, customData);
-        console.log('cos上传重试-reportPatams', reportPatams);
+        console.log("cos上传重试-reportPatams", reportPatams);
         return await directUpload(file, times - 1); // ✅ 递归调用，异常会自动传播
       }
 
@@ -334,11 +331,7 @@ export const useUpload = () => {
 
   const { selectRawFiles } = storeToRefs(useUploadStore());
   const fetchFileUploadStatus = async (id: any, file: UploadFile) => {
-    if (
-      !selectRawFiles.value.some(
-        (e: any) => e.localRequestId === (file.file as any)?.localRequestId
-      )
-    ) {
+    if (!selectRawFiles.value.some((e: any) => e.localRequestId === (file.file as any)?.localRequestId)) {
       return;
     }
     return new Promise(async (resolve, reject) => {
@@ -352,6 +345,7 @@ export const useUpload = () => {
         reject(res.fileMetaInfo);
         file.status = "error";
         file.errorText = res.fileMetaInfo.errorTxt;
+        file.isGooglePrivate = res.fileMetaInfo.isGooglePrivate;
         return;
       }
 
@@ -396,8 +390,10 @@ export const useUpload = () => {
     if ((file as any).localRequestId) {
       obj.status = "uploading";
       obj.uploadText = t("FileUploadAndRecording.upload.linkUpload");
-      simulateProgress(reactive(obj));
-      fetchFileUploadStatus((file as any).localRequestId, reactive(obj));
+      mockProgress(reactive(obj));
+      fetchFileUploadStatus((file as any).localRequestId, reactive(obj)).catch((err) => {
+        console.log("🚀 ~ file: fetchFileUploadStatus 🚀", err);
+      });
     }
     return obj;
   };
@@ -411,64 +407,6 @@ export const useUpload = () => {
       n = n / 1024;
     }
     return n.toFixed(n < 10 && l > 0 ? 1 : 0) + " " + units[l];
-  }
-
-  function simulateProgress(file: UploadFile) {
-    // 初始化文件状态
-    file.progress = 0;
-    file.status = "uploading";
-
-    // 限制最大文件大小为5GB
-    const MAX_FILE_SIZE = 5 * 1024 * 1024 * 1024;
-    function isNumber(value: unknown) {
-      return typeof value === "number" && !isNaN(value);
-    }
-    const fileSize = Math.min(
-      isNumber(file.size) ? file.size : 1 * 1024 * 1024 * 1024,
-      MAX_FILE_SIZE
-    );
-
-    // 根据文件大小动态计算上传速度（5-20MB/s）
-    const speedFactor = 0.3 + 0.7 * (fileSize / MAX_FILE_SIZE);
-    const UPLOAD_SPEED =
-      5 * 1024 * 1024 + (20 * 1024 * 1024 - 5 * 1024 * 1024) * speedFactor;
-
-    // 计算上传时间（添加20%随机波动）
-    const baseDuration = (fileSize / UPLOAD_SPEED) * 1000;
-    const totalDuration = baseDuration * (0.8 + Math.random() * 0.4);
-    const startTime = Date.now();
-
-    // 进度更新函数
-    const update = () => {
-      if (file.status !== "uploading") return;
-
-      const elapsed = Date.now() - startTime;
-      const timeRatio = Math.min(elapsed / totalDuration, 1);
-
-      // 使用S型曲线模拟真实上传速度变化
-      const progressRatio = 1 / (1 + Math.exp(-6 * (timeRatio - 0.5)));
-      let progress = Math.floor(progressRatio * 98); // 最终进度停在98%
-      // 添加微小波动模拟网络不稳定
-      if (progress > file.progress + 1) {
-        progress = Math.max(
-          file.progress + 1,
-          progress - Math.floor(Math.random() * 3)
-        );
-      }
-
-      // 更新进度
-      if (progress > file.progress) {
-        file.progress = progress;
-      }
-
-      // 继续更新或完成
-      if (file.progress < 98) {
-        requestAnimationFrame(update);
-      }
-    };
-
-    // 启动模拟
-    requestAnimationFrame(update);
   }
 
   function postTranscode(file: UploadFile) {
@@ -607,7 +545,7 @@ export const useUpload = () => {
       if (eTags?.length === totalChunks) {
         mergeFile(file, eTags);
       }
-    } catch (e) { }
+    } catch (e) {}
   };
 
   // todo 废弃的文件分片

@@ -22,18 +22,15 @@ let message = {
       },
       step1: {
         title: "Fájlok átírása",
-        content:
-          "Három átírási módszert támogat: helyi fájlok, linkek és felvételek."
+        content: "Három átírási módszert támogat: helyi fájlok, linkek és felvételek."
       },
       step2: {
         title: "Mappa létrehozása",
-        content:
-          'Kattints a "+" jelre mappa létrehozásához és fájljaid rendszerezéséhez.'
+        content: 'Kattints a "+" jelre mappa létrehozásához és fájljaid rendszerezéséhez.'
       },
       step3: {
         title: "Átiratok részleteinek megtekintése és szerkesztése",
-        content:
-          "Kattints az elemre az átirat részleteinek megtekintéséhez, szerkesztéséhez és fordításához."
+        content: "Kattints az elemre az átirat részleteinek megtekintéséhez, szerkesztéséhez és fordításához."
       },
       next: "tovább",
       finish: "Értem"
@@ -60,10 +57,8 @@ let message = {
       description: "Itt a következőket teheti:",
       transcribe:
         "Könnyedén készítsen átiratokat a Scribify-jal—alakítsa át a hangbeszélgetéseket tiszta, kereshető és megosztható szöveggé egy pillanat alatt.",
-      precision:
-        "Kapjon pontos átiratokat azonnali beszélőazonosítással és időbélyegekkel.",
-      translate:
-        "Törje át a nyelvi korlátokat: fordítsa le az átiratokat több mint 200 nyelvre könnyedén.",
+      precision: "Kapjon pontos átiratokat azonnali beszélőazonosítással és időbélyegekkel.",
+      translate: "Törje át a nyelvi korlátokat: fordítsa le az átiratokat több mint 200 nyelvre könnyedén.",
       edit: "Szerkessze, finomítsa és exportálja átiratait az igényeinek megfelelő formátumokban.",
       collaborate: "Működjön együtt másokkal az átírt szöveg megosztásával.",
       button: "Kezdés",
@@ -163,8 +158,7 @@ let message = {
     create: "Létrehozás",
     endRecord: {
       title: "Figyelmeztetés",
-      content:
-        "Felvételt készítesz. Ez a művelet befejezi a felvételt. Be szeretnéd fejezni a felvételt?",
+      content: "Felvételt készítesz. Ez a művelet befejezi a felvételt. Be szeretnéd fejezni a felvételt?",
       confirm: "Felvétel Folytatása",
       cancel: "Felvétel Befejezése"
     }
@@ -179,8 +173,7 @@ let message = {
       endRecord: "Felvétel befejezése",
       delete: "Törlés",
       transcribe: "Átírás",
-      permissionDenied:
-        "Mikrofon hozzáférés megtagadva vagy az eszköz nem létezik",
+      permissionDenied: "Mikrofon hozzáférés megtagadva vagy az eszköz nem létezik",
       dialog: {
         delete: {
           title: "Figyelmeztetés",
@@ -190,8 +183,7 @@ let message = {
         },
         complete: {
           title: "Felvétel befejezve",
-          label:
-            "A felvétel elérte a 10 órát és automatikusan leállt. Kérjük, írd át.",
+          label: "A felvétel elérte a 10 órát és automatikusan leállt. Kérjük, írd át.",
           confirm: "Értem"
         },
         speaker: {
@@ -209,8 +201,7 @@ let message = {
         confirm: "Hozzáadás",
         cancel: "Mégse",
         // 请输入正确的链接
-        errorTitle:
-          "A megadott link helytelen. Kérjük, ellenőrizd és próbáld újra.",
+        errorTitle: "A megadott link helytelen. Kérjük, ellenőrizd és próbáld újra.",
         linkName: "Link"
       },
       file: {
@@ -258,7 +249,13 @@ let message = {
         audio: "Hang-/videófájl",
         Uploading: "Feltöltés..."
       },
-      fileEmpty: "A fájl üres"
+      fileEmpty: "A fájl üres",
+      howToSetup: "Hogyan állíthatom be?",
+      shareFilePublicly: "Fájl nyilvános megosztása",
+      retry: "Újra",
+      edit: "Szerkesztés",
+      delete: "Törlés",
+      updateAndRetry: "Frissítés és újra"
     }
   },
   // 转录详情页
@@ -573,8 +570,7 @@ let message = {
     passwordResetOk: "Jelszó sikeresen visszaállítva!", // 密码重置成功！
     signupToSaveProgress: "Fejezze be a regisztrációt a folyamat mentéséhez.",
     tip: "Tipp",
-    tipContentEmail:
-      "Most küldtük el fiókja bejelentkezési jelszavát az Ön e-mail címére.",
+    tipContentEmail: "Most küldtük el fiókja bejelentkezési jelszavát az Ön e-mail címére.",
     tipContentPassword:
       "Kérjük, ellenőrizze a beérkezett üzeneteit, majd jelentkezzen be e-mail címével és jelszavával.",
     codeToEmail:
@@ -594,13 +590,10 @@ let message = {
     currentPlan: "Jelenlegi csomag",
     professionalEdition: "professzionális verzió",
     unlimitedTranscription: "Korlátlan átirat",
-    unlimitedNumberOfTimes:
-      "Korlátlan átiratkészítési gyakoriság és időtartam.",
-    filesUploadedAtOnce:
-      "Minden fájl legfeljebb 10 óra hosszú / 5 GB lehet. Egyszerre 50 fájl tölthető fel.",
+    unlimitedNumberOfTimes: "Korlátlan átiratkészítési gyakoriság és időtartam.",
+    filesUploadedAtOnce: "Minden fájl legfeljebb 10 óra hosszú / 5 GB lehet. Egyszerre 50 fájl tölthető fel.",
     highestPriority: "legmagasabb prioritás",
-    weWillGiveTheHighest:
-      "Fájljaidat mindig a lehető leggyorsabban, legmagasabb prioritással írjuk át.",
+    weWillGiveTheHighest: "Fájljaidat mindig a lehető leggyorsabban, legmagasabb prioritással írjuk át.",
     theFirstMonth: "Az első hónap",
     subscribeTo: "előfizetés",
     basicVersionFree: "Alapverzió (ingyenes)",
@@ -645,14 +638,12 @@ let message = {
     changeToAnnual: "Váltás évesre",
     automaticRenewalon: "Automatikus megújítás",
     eachMonth: "Automatikus megújítás minden hónap {time}. napján.",
-    automaticRenewal:
-      "Az automatikus megújítás sikertelen volt, kérjük, ellenőrizze a fizetési módot.",
+    automaticRenewal: "Az automatikus megújítás sikertelen volt, kérjük, ellenőrizze a fizetési módot.",
     eachYear: "Automatikus megújítás minden év {time} napján.",
     returnAccountSetting: "Vissza",
     needsToWaitLonger: "Várjon tovább, amíg fájljai átírást kapnak.",
     freeThreeTimesDay: "Naponta 3 fájl ingyenes átírása.",
-    oneFileUploaded:
-      "Minden fájl legfeljebb 30 perc hosszú lehet. Töltsön fel egyszerre 1 fájlt.",
+    oneFileUploaded: "Minden fájl legfeljebb 30 perc hosszú lehet. Töltsön fel egyszerre 1 fájlt.",
     uploadWithinHours: "10 órás feltöltések",
     yourSubscription: "Az előfizetése {time} törlésre kerül.",
     save: "Megtakarítás",
@@ -693,12 +684,10 @@ let message = {
     startLink: "Ingyenes próba indítása~",
     thirdPartyLink: "Github →",
     waitlist: {
-      cardTitle:
-        "Iratkozz fel a várólistára, elsőként értesülj a NuxtPro hírekről ÉS kedvezményekről!",
+      cardTitle: "Iratkozz fel a várólistára, elsőként értesülj a NuxtPro hírekről ÉS kedvezményekről!",
       placeholder: "Add meg az e-mail címed",
       button: "Feliratkozás a várólistára",
-      joinCountMessage:
-        "🔥 A #{count}. korai felhasználó épp most csatlakozott a várólistához!"
+      joinCountMessage: "🔥 A #{count}. korai felhasználó épp most csatlakozott a várólistához!"
     },
     seo: {
       title: "Nyílt forráskódú Nuxt SaaS keretrendszer | NuxtPro",
@@ -750,11 +739,9 @@ let message = {
     HAVE_CURRENT_DATA:
       "Az aktuális lejátszási helyről elérhető adat, de nincs elég adat a következő képkocka/ezredmásodperc lejátszásához",
     HAVE_FUTURE_DATA: "Az aktuális és legalább egy képkocka adat elérhető",
-    HAVE_ENOUGH_DATA:
-      "A rendelkezésre álló adatok elegendőek a lejátszás megkezdéséhez",
+    HAVE_ENOUGH_DATA: "A rendelkezésre álló adatok elegendőek a lejátszás megkezdéséhez",
     NETWORK_EMPTY: "A hang/videó nincs inicializálva",
-    NETWORK_IDLE:
-      "A hang/videó aktív és ki van választva az erőforrásokhoz, de a hálózat nincs használatban",
+    NETWORK_IDLE: "A hang/videó aktív és ki van választva az erőforrásokhoz, de a hálózat nincs használatban",
     NETWORK_LOADING: "A böngésző letölti az adatokat",
     NETWORK_NO_SOURCE: "Nem található hang/videó forrás",
     MEDIA_ERR_ABORTED: "A lekérési folyamatot a felhasználó megszakította",
@@ -802,8 +789,7 @@ let message = {
       "Ebben a szabályzatban a következőket ismertetjük: milyen adatokat gyűjtünk és miért; hogyan kezeljük az adatait; és milyen jogai vannak az adataival kapcsolatban. Az adatait nem értékesítjük.",
     scopeTitle: "1. Az adatvédelmi irányelvek hatálya",
     whatWeCollectTitle: "2. Mit gyűjtünk és miért",
-    accessShareTitle:
-      "3. Mikor férünk hozzá az adataihoz, vagy mikor osztjuk meg azokat",
+    accessShareTitle: "3. Mikor férünk hozzá az adataihoz, vagy mikor osztjuk meg azokat",
     secureDataTitle: "4. Hogyan védjük az adatait",
     deleteContentTitle: "5. Mi történik, ha törlöd a tartalmaidat?",
     locationTitle: "6. A webhely és az adatok helye",
@@ -848,8 +834,7 @@ let message = {
     secureDataContent1: "Minden adat titkosítva van a következőn keresztül:",
     sslTlsLink: "SSL/TLS",
     secureDataContent2: "amikor szervereinkről továbbítják az Ön böngészőjébe.",
-    deleteContentContent:
-      "Ha bármilyen tartalmat töröl, az azonnal elérhetetlenné válik.",
+    deleteContentContent: "Ha bármilyen tartalmat töröl, az azonnal elérhetetlenné válik.",
     locationContent:
       "Termékeinket és egyéb webes felületeinket az Amerikai Egyesült Államokban üzemeltetjük. Ha az Európai Unióban, az Egyesült Királyságban vagy az Amerikai Egyesült Államokon kívül tartózkodik, kérjük, vegye figyelembe, hogy az Ön által megadott összes információ az Amerikai Egyesült Államokba kerül átvitelre és ott kerül tárolásra. Weboldalaink vagy Szolgáltatásaink használatával és/vagy személyes adatainak megadásával Ön hozzájárul ehhez az adatátvitelhez.",
     childrenPrivacyContent:
@@ -859,8 +844,7 @@ let message = {
     contactUsContent1:
       "Ha bármilyen kérdése, észrevétele vagy panasza van az Adatvédelmi Szabályzatunkkal kapcsolatban, kérjük,",
     contactUs: "lépjen kapcsolatba velünk",
-    contactUsContent2:
-      "és igyekszünk a lehető leghamarabb foglalkozni a panaszával."
+    contactUsContent2: "és igyekszünk a lehető leghamarabb foglalkozni a panaszával."
   },
   termsOfService: {
     termsOfServiceTitle: "Szolgáltatási feltételek",
@@ -905,8 +889,7 @@ let message = {
       "Mi biztosítjuk az Ön számára a Szolgáltatásokat. Ön felelős minden szükséges intézkedés megtételéért a Szolgáltatásokhoz való hozzáférés érdekében.",
     accountTerms1:
       "- Ön felelős fiókja biztonságának megőrzéséért. A Társaság nem vállal és nem is vállal felelősséget semmilyen veszteségért vagy kárért, amely a biztonsági kötelezettség be nem tartásából ered.",
-    accountTerms2:
-      "- A Szolgáltatásokat nem használhatja semmilyen jogellenes, etikátlan vagy erkölcstelen célra.",
+    accountTerms2: "- A Szolgáltatásokat nem használhatja semmilyen jogellenes, etikátlan vagy erkölcstelen célra.",
     accountTerms3:
       "- Ön felelős a fiókjában közzétett összes tartalomért és tevékenységért. Ez magában foglalja azokat a tartalmakat is, amelyeket mások tettek közzé, akik: (a) hozzáférnek az Ön bejelentkezési adataihoz; vagy (b) saját bejelentkezési adatokkal rendelkeznek az Ön fiókjában.",
     accountTerms4:
@@ -959,8 +942,7 @@ let message = {
       "Értesítésének egy példányát elküldjük annak a személynek, aki közzétette vagy tárolta az Értesítésben említett anyagot. Tájékoztatjuk, hogy a vonatkozó törvények értelmében kártérítési felelősségre vonható, ha az Értesítésben lényegesen félrevezető információkat tesz. Ezért, ha nem biztos abban, hogy a Webhelyen található vagy azon keresztül linkelt anyag sérti-e a szerzői jogait, először érdemes ügyvédhez fordulnia.",
     prohibitedActivitiesIntro:
       "A Weboldalt nem használhatja más célra, mint amelyre a Weboldalt elérhetővé tettük. A Weboldal nem használható kereskedelmi célokra, kivéve azokat, amelyeket kifejezetten támogatunk vagy jóváhagyunk.",
-    prohibitedActivitiesUserAgreement:
-      "A Webhely felhasználójaként Ön beleegyezik, hogy nem:",
+    prohibitedActivitiesUserAgreement: "A Webhely felhasználójaként Ön beleegyezik, hogy nem:",
     prohibitedActivity1:
       "- Szisztematikusan adatokat vagy egyéb tartalmakat lekérni a webhelyről gyűjtemény, összeállítás, adatbázis vagy könyvtár létrehozása vagy összeállítása céljából, közvetlenül vagy közvetve, írásos engedélyünk nélkül.",
     prohibitedActivity2:
@@ -973,8 +955,7 @@ let message = {
       "- A webhelyről származó információk felhasználása más személyek zaklatására, bántalmazására vagy károsítására.",
     prohibitedActivity6:
       "- Nem megfelelően használja a támogatási szolgáltatásainkat, vagy hamis bejelentéseket tesz visszaélésekről vagy helytelen viselkedésről.",
-    prohibitedActivity7:
-      "- A weboldal használata a vonatkozó törvényekkel vagy szabályozásokkal ellentétes módon.",
+    prohibitedActivity7: "- A weboldal használata a vonatkozó törvényekkel vagy szabályozásokkal ellentétes módon.",
     prohibitedActivity8:
       "- A webhely jogosulatlan keretezésében vagy a webhelyre mutató hivatkozások használatában részt venni.",
     prohibitedActivity9:
@@ -1005,8 +986,7 @@ let message = {
       "- A Webhely jogosulatlan használata, beleértve a felhasználók felhasználóneveinek és/vagy e-mail címeinek elektronikus vagy egyéb módon történő gyűjtését kéretlen e-mailek küldése céljából, illetve felhasználói fiókok automatizált eszközökkel vagy hamis ürügyeken történő létrehozását.",
     prohibitedActivity22:
       "- A Webhely használata bármilyen, velünk való versenyzésre irányuló erőfeszítés részeként, illetve a Webhely és/vagy a Tartalom bármilyen bevételt termelő tevékenységre vagy kereskedelmi vállalkozásra való felhasználása.",
-    prohibitedActivity23:
-      "- A weboldal használata áruk és szolgáltatások hirdetésére vagy eladásra kínálására.",
+    prohibitedActivity23: "- A weboldal használata áruk és szolgáltatások hirdetésére vagy eladásra kínálására.",
     prohibitedActivity24: "- Eladni vagy más módon átruházni a profilodat.",
     featuresContent1:
       "Szolgáltatásainkat gondosan tervezzük meg, saját tapasztalataink és az idejüket és visszajelzéseiket megosztó ügyfeleink véleménye alapján. Azonban nincs olyan, hogy mindenki elégedett legyen. Nem garantáljuk, hogy Szolgáltatásaink megfelelnek az Ön egyedi igényeinek vagy elvárásainak.",
@@ -1018,8 +998,7 @@ let message = {
       "Nem garantálhatjuk, hogy az Oldal mindenkor elérhető lesz. Előfordulhatnak hardver-, szoftver- vagy egyéb problémák, illetve karbantartásra lehet szükség az Oldallal kapcsolatban, ami megszakításokat, késéseket vagy hibákat eredményezhet. Fenntartjuk a jogot, hogy az Oldal bármikor és bármilyen okból, előzetes értesítés nélkül megváltoztassuk, felülvizsgáljuk, frissítsük, felfüggesszük, megszüntessük vagy egyéb módon módosítsuk. Ön beleegyezik, hogy semmilyen felelősséget nem vállalunk semmilyen veszteségért, kárért vagy kellemetlenségért, amelyet az Oldal leállása vagy megszűnése miatt az Oldal elérésének vagy használatának hiánya okoz. A jelen Szolgáltatási Feltételekben semmi sem értelmezhető úgy, hogy kötelezne minket az Oldal karbantartására és támogatására, illetve az azzal kapcsolatos javítások, frissítések vagy kiadások biztosítására.",
     userDataContent:
       "Bizonyos adatokat, amelyeket Ön a Webhelyre továbbít, a Webhely teljesítményének kezelése céljából, valamint a Webhely használatával kapcsolatos adatokat is megőrizzük. Bár rendszeres biztonsági mentéseket készítünk az adatokról, Ön kizárólagosan felelős minden olyan adatért, amelyet Ön továbbít, vagy amely a Webhely használatával végzett tevékenységéhez kapcsolódik. Ön beleegyezik, hogy nem vállalunk felelősséget az ilyen adatok elvesztéséért vagy sérüléséért, és ezennel lemond minden olyan jogról, amely az ilyen adatok elvesztéséből vagy sérüléséből eredhet ellenünk.",
-    privacyPolicyContent1:
-      "Törődünk az adatvédelemmel és -biztonsággal. Kérjük, tekintse át a következőt:",
+    privacyPolicyContent1: "Törődünk az adatvédelemmel és -biztonsággal. Kérjük, tekintse át a következőt:",
     privacyPolicy: "Adatvédelmi irányelvek",
     privacyPolicyContent2:
       "A Webhely használatával Ön elfogadja, hogy az Adatvédelmi Szabályzatunk kötelező érvényű Önre, amely a jelen Szolgáltatási Feltételek részét képezi. Tájékoztatjuk, hogy a Webhely az Amerikai Egyesült Államokban található. Ha a világ bármely más régiójából éri el a Webhelyet, ahol a személyes adatok gyűjtésére, felhasználására vagy közzétételére vonatkozó törvények vagy egyéb követelmények eltérnek az Amerikai Egyesült Államokban alkalmazandó törvényektől, akkor a Webhely további használatával adatait az Amerikai Egyesült Államokba továbbítja, és hozzájárul ahhoz, hogy adatait az Amerikai Egyesült Államokba továbbítsák és ott dolgozzák fel.",
@@ -1029,8 +1008,7 @@ let message = {
       "Ön kifejezetten tudomásul veszi és elfogadja, hogy a Társaság jogi vagy méltányossági alapon nem vállal felelősséget Önnel vagy harmadik féllel szemben semmilyen közvetlen, közvetett, véletlenszerű, elmaradt haszonért, különleges, következményes, büntető vagy elítélő kárért, beleértve, de nem kizárólagosan, az elmaradt haszonért, a jó hírnévért, a használatért, az adatokért vagy egyéb immateriális veszteségekért járó károkat (még akkor sem, ha a Társaságot tájékoztatták az ilyen károk lehetőségéről), amelyek a következőkből erednek: (1) a Szolgáltatások használatából vagy a használatuk lehetetlenségéből; (2) a tartalom és az anyagok hibáiból, tévedéseiből vagy pontatlanságaiból; (3) a webhelyhez való hozzáféréséből és használatából eredő bármilyen személyi sérülésből vagy vagyoni kárból; (4) a Szolgáltatásokon keresztül vagy azokból vásárolt vagy megszerzett árukból, adatokból, információkból vagy szolgáltatásokból, fogadott üzenetekből vagy végrehajtott tranzakciókból eredő helyettesítő áruk és szolgáltatások beszerzésének költségei; (5) biztonságos szervereinkhez és/vagy az azokon tárolt személyes adatokhoz és/vagy pénzügyi információkhoz való jogosulatlan hozzáférés vagy azok használata; (6) a webhelyre vagy a webhelyről történő adatátvitel megszakításából vagy megszüntetéséből; (7) bármely harmadik fél által a webhelyre vagy azon keresztül továbbított hibáért, vírusért, trójai vírusért vagy hasonlóért, és/vagy; (8) bármely tartalomban és anyagban található hibáért vagy hiányosságért, illetve a webhelyen közzétett, továbbított vagy más módon elérhetővé tett tartalom használatából eredő bármilyen veszteségért vagy kárért; (9) bármely harmadik fél nyilatkozatáért vagy magatartásáért a szolgáltatással kapcsolatban; (10) vagy bármely más, a jelen Szolgáltatási Feltételekkel vagy a Szolgáltatásokkal kapcsolatos ügyért, legyen az szerződésszegés, károkozás (beleértve az aktív vagy passzív gondatlanságot is), vagy bármely más felelősségi elmélet.",
     miscellaneousContent:
       "Jelen Szolgáltatási Feltételek, valamint az általunk a Webhelyen vagy a Webhelyre vonatkozóan közzétett irányelvek vagy működési szabályok alkotják a teljes megállapodást és egyetértést Ön és köztünk. A jelen Szolgáltatási Feltételekben foglalt bármely jog vagy rendelkezés gyakorlásának vagy érvényesítésének elmulasztása nem jelenti az ilyen jogról vagy rendelkezésről való lemondást. Jelen Szolgáltatási Feltételek a törvény által megengedett legteljesebb mértékben érvényesek. Jogainkat és kötelezettségeinket bármikor átruházhatjuk másokra. Nem vállalunk felelősséget semmilyen veszteségért, kárért, késedelemért vagy mulasztásért, amelyet az ésszerű ellenőrzésünkön kívül eső ok okoz. Ha a jelen Szolgáltatási Feltételek bármely rendelkezése vagy annak egy része jogellenesnek, semmisnek vagy végrehajthatatlannak bizonyul, az adott rendelkezés vagy annak egy része elválaszthatónak tekintendő a jelen Szolgáltatási Feltételektől, és nem befolyásolja a fennmaradó rendelkezések érvényességét és végrehajthatóságát. A jelen Szolgáltatási Feltételek vagy a Webhely használata eredményeként nem jön létre köztünk közös vállalkozás, partnerség, munkaviszony vagy ügynöki viszony. Ön beleegyezik, hogy a jelen Szolgáltatási Feltételeket nem értelmezik ellenünk amiatt, hogy mi fogalmaztuk meg azokat. Ön ezennel lemond minden olyan védekezési jogról, amely a jelen Szolgáltatási Feltételek elektronikus formájára és a felek jelen Szolgáltatási Feltételek aláírásának hiányára hivatkozik.",
-    contactUsContent1:
-      "Ha kérdése van a Szolgáltatási Feltételekkel kapcsolatban, kérjük,",
+    contactUsContent1: "Ha kérdése van a Szolgáltatási Feltételekkel kapcsolatban, kérjük,",
     contactUsContent2: "."
   },
   HeadNavbar: {
@@ -1051,8 +1029,8 @@ let message = {
     YouTubetoMP4: "YouTube MP4-be",
     StartFreeTrial: "Próbálja Ki Ingyen",
     Blog: "Blog",
-      YouTubetoMP3: 'YouTube-ból MP3-ba'
-},
+    YouTubetoMP3: "YouTube-ból MP3-ba"
+  },
   Footer: {
     des: "A világ első valóban korlátlan mesterséges intelligencia átírási szolgáltatása. Nincs korlát, nincs limit, csak a kreativitás szabadsága.",
     Features: "Funkciók",
@@ -1069,12 +1047,9 @@ let message = {
       "Oktatók"
     ],
     companyMenus: ["Rólunk", "Árazás", "Adatvédelem", "Feltételek"],
-      Resources: 'Erőforrás',
-      resourcesMenus: [
-            "YouTube-ból MP4-be",
-            "YouTube-ból MP3-ba"
-          ]
-},
+    Resources: "Erőforrás",
+    resourcesMenus: ["YouTube-ból MP4-be", "YouTube-ból MP3-ba"]
+  },
   Index: {
     Hero: {
       badge: 'Nincs többé "Shrinkflation" - Valóban Korlátlan',
@@ -1155,8 +1130,7 @@ let message = {
       }
     },
     Testimonials: {
-      subtitle:
-        "Nézd meg, miért választják a szakemberek a NeverCap-et a korlátozott alternatívák helyett",
+      subtitle: "Nézd meg, miért választják a szakemberek a NeverCap-et a korlátozott alternatívák helyett",
       Mike: {
         text: "Szent ég, ez tényleg működik! 3 éve készítek podcastot, és mint egy idióta, mindent kézzel írtam át. Egyszerre feltöltöttem 6 részt, és tökéletesen elkülönítette a társamat és engem. A kávézós rész, amit tönkrementnek hittem? Kristálytiszta átirat. Soha többé nem írom ezeket ki magamnak.",
         author: "Mike Rodriguez",
@@ -1177,8 +1151,7 @@ let message = {
     PricingPreview: {
       title: "Átlátható árazás",
       highlighted_text: "Nincsenek rejtett korlátok",
-      subtitle:
-        "Válaszd ki a csomagodat. Nincsenek csillagok, apróbetűs részek, meglepetések"
+      subtitle: "Válaszd ki a csomagodat. Nincsenek csillagok, apróbetűs részek, meglepetések"
     },
     FAQSection: {
       title: "Gyakran Ismételt",
@@ -1242,11 +1215,9 @@ let message = {
     },
     CTASection: {
       title: "Készen állsz a korlátok ledöntésére?",
-      subtitle:
-        "Csatlakozz 50 000+ szakemberhez, akik váltottak a valóban korlátlan átírásra",
+      subtitle: "Csatlakozz 50 000+ szakemberhez, akik váltottak a valóban korlátlan átírásra",
       button: "Próbáld ki a NeverCap-et ingyen",
-      disclaimer:
-        "Nem szükséges bankkártya az ingyenes csomaghoz • Frissíts bármikor korlátlan hozzáférésért"
+      disclaimer: "Nem szükséges bankkártya az ingyenes csomaghoz • Frissíts bármikor korlátlan hozzáférésért"
     }
   },
   Features: {
@@ -1355,13 +1326,10 @@ let message = {
       trustBadge4Number: "50",
       trustBadge4Label: "Kötegelt feltöltés",
       ctaTitle: "Ne fizess ál-korlátlanért",
-      ctaSubtitle:
-        "Csatlakozz több ezer felhasználóhoz, akik a valóban korlátlan átírást választották",
+      ctaSubtitle: "Csatlakozz több ezer felhasználóhoz, akik a valóban korlátlan átírást választották",
       finalCta: "Próbáld ki a NeverCap ingyenes verzióját",
-      heroSubtitle1:
-        "Míg a Trint 50 órában, az Otter pedig havi 10 fájlban korlátozza a munkaidőt,",
-      heroSubtitle2:
-        "Azt nyújtjuk, amit ígérünk: korlátlan átírás rejtett nagyítások nélkül."
+      heroSubtitle1: "Míg a Trint 50 órában, az Otter pedig havi 10 fájlban korlátozza a munkaidőt,",
+      heroSubtitle2: "Azt nyújtjuk, amit ígérünk: korlátlan átírás rejtett nagyítások nélkül."
     },
     BulkUpload: {
       heroBadgeIcon: "📁",
@@ -1379,8 +1347,7 @@ let message = {
       comparisonSectionTitlePart1: "A",
       comparisonSectionTitleHighlight: "Nevetséges korlátok",
       comparisonSectionTitlePart2: "Amiket kiszabnak",
-      comparisonSubtitle:
-        "Hogyan korlátozzák a versenytársak a tartalom feldolgozását",
+      comparisonSubtitle: "Hogyan korlátozzák a versenytársak a tartalom feldolgozását",
       limitCard1Service: "Otter Ingyenes",
       limitCard1Number: "3",
       limitCard1DescriptionLine1: "Életre szóló importok",
@@ -1536,8 +1503,7 @@ let message = {
       languageCard12Flag: "🇸🇦",
       languageCard12Name: "Arab",
       languageCard12Accuracy: "96%-os pontosság",
-      moreLanguagesText:
-        "+ 88 további nyelv 95% feletti pontossággal támogatott",
+      moreLanguagesText: "+ 88 további nyelv 95% feletti pontossággal támogatott",
       feature1Label: "Pontosság",
       feature1TitlePart1: "Szószintű",
       feature1TitleHighlight: "Időbélyegek",
@@ -1670,12 +1636,7 @@ let message = {
           },
           features: {
             title: "Funkciók",
-            items: [
-              "100+ nyelv",
-              "Beszélő címkék",
-              "Fordítás",
-              "Minden exportformátum"
-            ]
+            items: ["100+ nyelv", "Beszélő címkék", "Fordítás", "Minden exportformátum"]
           },
           cta: {
             text: "Kezdés ingyen. Bankkártya nélkül.",
@@ -1748,8 +1709,7 @@ let message = {
       header: {
         title: "Összehasonlítás",
         highlighted_text: "Összes funkció",
-        subtitle:
-          "Pontosan lásd, mit kapsz minden csomaggal. Nincsenek rejtett korlátozások."
+        subtitle: "Pontosan lásd, mit kapsz minden csomaggal. Nincsenek rejtett korlátozások."
       },
       plans: ["Funkciók", "Ingyenes", "Pro Monthly", "Pro Annual"],
       features: [
@@ -1844,8 +1804,7 @@ let message = {
         {
           q: "payment_methods",
           question: "Milyen fizetési módokat fogadtok el?",
-          answer:
-            "Minden nagyobb hitelkártyát, bankkártyát és PayPalt elfogadunk biztonságos, gondmentes fizetésért."
+          answer: "Minden nagyobb hitelkártyát, bankkártyát és PayPalt elfogadunk biztonságos, gondmentes fizetésért."
         },
         {
           q: "free_trial",
@@ -1856,8 +1815,7 @@ let message = {
         {
           q: "file_retention",
           question: "Meddig tároljátok a fájljaimat?",
-          answer:
-            "Ingyenes csomag: 30 nap. Pro csomagok: Örökre! Az átiratai mindig elérhetők a fiókjában."
+          answer: "Ingyenes csomag: 30 nap. Pro csomagok: Örökre! Az átiratai mindig elérhetők a fiókjában."
         },
         {
           q: "data_security",
@@ -2038,8 +1996,7 @@ let message = {
       quotes: {
         title: "Valódi felhasználók,",
         titleHighlight: "Valódi szabadság",
-        subtitle:
-          "Hallgassa meg a szakembereket, akik megszabadultak a mesterséges korlátoktól",
+        subtitle: "Hallgassa meg a szakembereket, akik megszabadultak a mesterséges korlátoktól",
         testimonials: {
           mike: {
             textBefore: '"Volt',
@@ -2050,8 +2007,7 @@ let message = {
             role: "Podcast házigazda"
           },
           jessica: {
-            textBefore:
-              '"Szabadúszó újságíróként nem engedhetem meg magamnak a Trint',
+            textBefore: '"Szabadúszó újságíróként nem engedhetem meg magamnak a Trint',
             highlight: "$100/hó",
             textAfter:
               'díját, de az Otter havi 10 fájllal való korláta sem működik számomra. A NeverCap mentette meg a karrieremet."',
@@ -2067,11 +2023,9 @@ let message = {
             role: "Fő kutató"
           },
           carlos: {
-            textBefore:
-              '"Spanyol nyelven készítek oktatóanyagokat. A NeverCap tökéletesen átírja és',
+            textBefore: '"Spanyol nyelven készítek oktatóanyagokat. A NeverCap tökéletesen átírja és',
             highlight: "angolra fordítja",
-            textAfter:
-              'a szélesebb körű elérés érdekében. Nincsenek korlátok, csak növekedés."',
+            textAfter: 'a szélesebb körű elérés érdekében. Nincsenek korlátok, csak növekedés."',
             name: "Carlos Martinez",
             role: "YouTube Oktató"
           }
@@ -2092,8 +2046,7 @@ let message = {
       },
       cta: {
         title: "Az Ön Esete is Korlátlanra Van Szüksége",
-        subtitle:
-          "Csatlakozzon 50 000+ szakemberhez, akik abbahagyták a percek számolását és elkezdtek alkotni",
+        subtitle: "Csatlakozzon 50 000+ szakemberhez, akik abbahagyták a percek számolását és elkezdtek alkotni",
         button: "Kezdje El Korlátlan Utazását →"
       },
       heroSubtitleA:
@@ -2130,8 +2083,7 @@ let message = {
       },
       problemTitle: "A",
       problemTitleHighlight: "Podcast Átírási Probléma",
-      problemSubtitle:
-        "Más szolgáltatások arra kényszerítenek, hogy kiválaszd, mely epizódok érik meg az átírást",
+      problemSubtitle: "Más szolgáltatások arra kényszerítenek, hogy kiválaszd, mely epizódok érik meg az átírást",
       problems: {
         problem1: {
           title: "A Feltöltési Korlátok Megölik az Archívumot",
@@ -2153,28 +2105,23 @@ let message = {
       solutionTitleHighlight: "NeverCap Megoldás",
       workflowTitle: "Podcast Munkafolyamatod,",
       workflowTitleHighlight: "Egyszerűsítve",
-      workflowSubtitle:
-        "A felvételtől az SEO-optimalizált műsorjegyzetekig percek alatt",
+      workflowSubtitle: "A felvételtől az SEO-optimalizált műsorjegyzetekig percek alatt",
       workflow: {
         step1: {
           title: "Epizódok Feltöltése",
-          description:
-            "Dobjon fel egyszerre 50 epizódot. MP3, MP4, WAV – mindet kezeljük."
+          description: "Dobjon fel egyszerre 50 epizódot. MP3, MP4, WAV – mindet kezeljük."
         },
         step2: {
           title: "AI Átír",
-          description:
-            "96%-os pontosság beszélőazonosítással. Tökéletes interjúkhoz."
+          description: "96%-os pontosság beszélőazonosítással. Tökéletes interjúkhoz."
         },
         step3: {
           title: "Okos Formázás",
-          description:
-            "Az AI automatikusan beilleszt bekezdéseket, mondatokat és írásjeleket."
+          description: "Az AI automatikusan beilleszt bekezdéseket, mondatokat és írásjeleket."
         },
         step4: {
           title: "Közzététel & Rangsorolás",
-          description:
-            "Exportálás a weboldaladra. Nézd, ahogy nő az SEO-forgalmad."
+          description: "Exportálás a weboldaladra. Nézd, ahogy nő az SEO-forgalmad."
         }
       },
       featuresTitle: "A Podcastkészítők",
@@ -2203,8 +2150,7 @@ let message = {
         },
         feature5: {
           title: "100+ Nyelv",
-          description:
-            "Átirat bármilyen nyelven. Fordítás 249+ nyelvre. Érd el könnyedén a globális közönséget."
+          description: "Átirat bármilyen nyelven. Fordítás 249+ nyelvre. Érd el könnyedén a globális közönséget."
         },
         feature6: {
           title: "Kötegelt Feldolgozás",
@@ -2280,11 +2226,9 @@ let message = {
         }
       },
       ctaTitle: "Kezdje el Minden Epizód Átírását",
-      ctaSubtitle:
-        "Csatlakozzon 10 000+ podcasterhez, akik soha nem aggódnak a korlátok miatt",
+      ctaSubtitle: "Csatlakozzon 10 000+ podcasterhez, akik soha nem aggódnak a korlátok miatt",
       ctaButton: "Töltse Fel Az Első 50 Epizódot Ingyen →",
-      ctaDisclaimer:
-        "Nincs bankkártya szükséges • Korlátlan epizód feldolgozás • Bármikor lemondható",
+      ctaDisclaimer: "Nincs bankkártya szükséges • Korlátlan epizód feldolgozás • Bármikor lemondható",
       solutionDescriptionA:
         "A {NeverCap} segítségével valóban korlátlan átírást kapsz. Töltsd fel a teljes archívumodat. Írj le minden új epizódot. Készíts műsorjegyzeteket nagy léptékben. Nincsenek korlátozások, nincsenek korlátok, csak növekedés."
     },
@@ -2341,8 +2285,7 @@ let message = {
       problem: {
         title: "Az",
         titleHighlight: "Újságírói Átírási Probléma",
-        subtitle:
-          'Más szolgáltatások arra kényszerítenek, hogy válassza ki, mely interjúkat "érdemes" átírni',
+        subtitle: 'Más szolgáltatások arra kényszerítenek, hogy válassza ki, mely interjúkat "érdemes" átírni',
         problems: {
           uploadLimits: {
             title: "A Feltöltési Korlátok Megölik a Nyomozásokat",
@@ -2371,8 +2314,7 @@ let message = {
         title: "1",
         titleHighlight: "Legjobb Interjú-Transzkripciós Szoftver",
         titleSuffix: "Újságíróknak",
-        subtitle:
-          "Valódi előnyök, amikor a határidők szorosan állnak és a pontosság az elsődleges",
+        subtitle: "Valódi előnyök, amikor a határidők szorosan állnak és a pontosság az elsődleges",
         solutions: {
           unlimitedUploads: {
             label: "Korlátlan Mennyiség",
@@ -2423,10 +2365,8 @@ let message = {
               accuracy: "96%",
               label: "Közzétételre Kész Pontosság",
               transcript: {
-                speaker1:
-                  "„A vizsgálat jelentős eltéréseket tárt fel a pénzügyi jelentésekben.”",
-                speaker2:
-                  "– Tudna bővebben kifejteni ezeket a konkrét ellentmondásokat?"
+                speaker1: "„A vizsgálat jelentős eltéréseket tárt fel a pénzügyi jelentésekben.”",
+                speaker2: "– Tudna bővebben kifejteni ezeket a konkrét ellentmondásokat?"
               }
             }
           },
@@ -2450,33 +2390,27 @@ let message = {
       features: {
         title: "Minden, Ami",
         titleHighlight: "Az Újságírónak Kell",
-        subtitle:
-          "Professzionális eszközök, amelyek tiszteletben tartják a munkafolyamataidat",
+        subtitle: "Professzionális eszközök, amelyek tiszteletben tartják a munkafolyamataidat",
         featuresList: {
           languages: {
             title: "100+ Nyelv",
-            description:
-              "Interjúforrások világszerte 12 fő nyelven 96%-os pontossággal."
+            description: "Interjúforrások világszerte 12 fő nyelven 96%-os pontossággal."
           },
           exportFormats: {
             title: "Export Formátumok",
-            description:
-              "Word, PDF, SRT, TXT. Kompatibilis bármilyen munkafolyamattal."
+            description: "Word, PDF, SRT, TXT. Kompatibilis bármilyen munkafolyamattal."
           },
           sourceProtection: {
             title: "Forrásvédelem",
-            description:
-              "Banki szintű titkosítás. Forrásaid bizalmasak maradnak."
+            description: "Banki szintű titkosítás. Forrásaid bizalmasak maradnak."
           },
           timestamps: {
             title: "Időbélyegek",
-            description:
-              "Kattints bármely idézetre, hogy az adott hangrészletre ugorj."
+            description: "Kattints bármely idézetre, hogy az adott hangrészletre ugorj."
           },
           teamSharing: {
             title: "Csapatmegosztás",
-            description:
-              "Együttműködés szerkesztőkkel. Az átiratok biztonságos megosztása."
+            description: "Együttműködés szerkesztőkkel. Az átiratok biztonságos megosztása."
           },
           mobileReady: {
             title: "Mobilbarát",
@@ -2484,13 +2418,11 @@ let message = {
           },
           smartFormatting: {
             title: "Okos Formázás",
-            description:
-              "Automatikus bekezdések és írásjelek olvashatóbb átiratokért."
+            description: "Automatikus bekezdések és írásjelek olvashatóbb átiratokért."
           },
           batchProcessing: {
             title: "Kötegelt Feldolgozás",
-            description:
-              "Egyszerre 50 fájl feltöltése. Feldolgozás éjszaka, amíg alszol."
+            description: "Egyszerre 50 fájl feltöltése. Feldolgozás éjszaka, amíg alszol."
           }
         }
       },
@@ -2621,8 +2553,7 @@ let message = {
         title: "Feltöltéstől",
         titleHighlight: "Közzétételig",
         titleSuffix: "Percek Alatt",
-        subtitle:
-          "A leggyorsabb módja a teljes tartalomkönyvtár feliratozásához",
+        subtitle: "A leggyorsabb módja a teljes tartalomkönyvtár feliratozásához",
         steps: {
           pasteLinks: {
             title: "Linkek Beillesztése",
@@ -2631,18 +2562,15 @@ let message = {
           },
           autoTranscribe: {
             title: "Automatikus Átírás",
-            description:
-              "Az AI 96%-os pontossággal dolgozik. Kezeli az akcentusokat és a több beszélőt."
+            description: "Az AI 96%-os pontossággal dolgozik. Kezeli az akcentusokat és a több beszélőt."
           },
           editTranslate: {
             title: "Szerkesztés & Fordítás",
-            description:
-              "Tökéletesítse feliratait. Azonnal fordítson 100+ nyelvre."
+            description: "Tökéletesítse feliratait. Azonnal fordítson 100+ nyelvre."
           },
           exportPublish: {
             title: "Exportálás & Közzététel",
-            description:
-              "Töltse le bármilyen formátumban. Töltse fel a platformjára. Kész!"
+            description: "Töltse le bármilyen formátumban. Töltse fel a platformjára. Kész!"
           }
         }
       },
@@ -2651,8 +2579,7 @@ let message = {
         titleHighlight: "Váltanak",
         subtitle: "A korlátozott csomagoktól a korlátlan szabadságig",
         carlos: {
-          textBefore:
-            "Spanyol nyelven készítek oktató tartalmakat. A NeverCap tökéletesen átírja és",
+          textBefore: "Spanyol nyelven készítek oktató tartalmakat. A NeverCap tökéletesen átírja és",
           textAfter:
             "szélesebb körű eléréshez. Nincsenek korlátok, csak növekedés. Csatornám nézettsége 3x-re nőtt a többnyelvű feliratok hozzáadása után.",
           highlight: "fordítása angolra",
@@ -2686,15 +2613,13 @@ let message = {
       },
       cta: {
         title: "Az Egész Csatornád. Feliratozva. Ma.",
-        subtitle:
-          "Csatlakozz 50 000+ alkotóhoz, akik abbahagyták a percek számolását, és elkezdtek alkotni",
+        subtitle: "Csatlakozz 50 000+ alkotóhoz, akik abbahagyták a percek számolását, és elkezdtek alkotni",
         button: "Indítsd a Korlátlan Feliratozást →"
       },
       FAQSection: {
         title: "Az Átírással Kapcsolatos Kérdéseid,",
         titleHighlight: "Megválaszolva",
-        subtitle:
-          "Minden, amit tudnod kell a videók átírásáról különböző platformokról",
+        subtitle: "Minden, amit tudnod kell a videók átírásáról különböző platformokról",
         questions: [
           {
             question: "K: Hogyan íratok át YouTube videót a NeverCap-pel?",
@@ -2702,8 +2627,7 @@ let message = {
               "Egyszerű. Keress meg egy YouTube videót, másold az URL-jét, és illeszd be az alkalmazásunkba. Az MI percek alatt letölti a videót és teljes szöveges átírást készít."
           },
           {
-            question:
-              "K: Mi a legjobb módja egy Facebook videó szöveggé történő átírásának?",
+            question: "K: Mi a legjobb módja egy Facebook videó szöveggé történő átírásának?",
             answer:
               "A legegyszerűbb mód a közvetlen link használata. Másold a Facebook videó URL-jét, a platformunk pedig 96%-os pontossággal átalakítja a beszédet szöveggé, megkímélve a kézi átírástól."
           },
@@ -2733,11 +2657,9 @@ let message = {
       statsSpeakersId: "Beszélők Azonosítása",
       statsCompliant: "Megfelelőség",
       problemTitle: "A",
-      problemSubtitle:
-        'Más szolgáltatások ráveszik, hogy kiválaszd, mely adatok "érdemesek" átírásra',
+      problemSubtitle: 'Más szolgáltatások ráveszik, hogy kiválaszd, mely adatok "érdemesek" átírásra',
       problemCard1Title: "A Feltöltési Korlátok Tönkreteszik a Tanulmányokat",
-      problemCard1Desc:
-        "Az Otter 3 élethosszig tartó importot ad. Hogyan írsz át 200 órányi fókuszcsoportot?",
+      problemCard1Desc: "Az Otter 3 élethosszig tartó importot ad. Hogyan írsz át 200 órányi fókuszcsoportot?",
       problemCard2Title: "Hiányzó Kritikus Adatok",
       problemCard2Desc:
         "Minden átíratlan interjú tartalmazhat áttörést hozó betekintést. De a Rev minimum $2/perctől számláz.",
@@ -2768,12 +2690,10 @@ let message = {
       conversationParticipant2: "2. Résztvevő",
       conversationText2: "Abszolút, de hozzátenném, hogy a hozzáférés—",
       conversationParticipant3: "3. Résztvevő",
-      conversationText3:
-        "—bocsánat a félbeszakításért, de a közlekedés is óriási tényező.",
+      conversationText3: "—bocsánat a félbeszakításért, de a közlekedés is óriási tényező.",
       conversationText4: "Igen! Pont ezt akartam mondani.",
       conversationParticipant4: "4. Résztvevő",
-      conversationText5:
-        "Vidéki területeken mindhárom: költség, hozzáférés ÉS közlekedés.",
+      conversationText5: "Vidéki területeken mindhárom: költség, hozzáférés ÉS közlekedés.",
       feature3Label: "Pontosság",
       feature3Title: "Megbízható",
       feature3Desc:
@@ -2853,8 +2773,7 @@ let message = {
       statsSpeakerID: "Beszélő Azonosító",
       statsInstantUpload: "Feltöltés & Feldolgozás",
       featuresTitle: "Átírás Minden Üzleti Számára",
-      featuresSubtitle:
-        "Az élő felvételtől a azonnali feltöltésig minden akadályt megszüntettünk",
+      featuresSubtitle: "Az élő felvételtől a azonnali feltöltésig minden akadályt megszüntettünk",
       feature1Title: "Közvetlen Felvétel a Böngészőben",
       feature1Desc:
         "Nincs letöltés, nincs bővítmény. Azonnali felvétel indítása egy kattintással. Tökéletes hangminőség, automatikus beszélőfelismerés.",
@@ -2867,8 +2786,7 @@ let message = {
       feature2Title: "Töltse Fel Bármilyen Audiofájlt Azonnal",
       feature2Desc:
         "Van felvétele Zoomról, Teamsről vagy telefonjáról? Töltse fel azonnal. Támogatja az összes főbb audio és video formátumot. Több fájl egyidejű feldolgozása várakozás nélkül.",
-      feature2Benefit1:
-        "Támogatott formátumok: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV, FLAC",
+      feature2Benefit1: "Támogatott formátumok: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV, FLAC",
       feature2Benefit2: "Kötegelt feltöltési lehetőség",
       feature2Benefit3: "10 órás fájlok támogatottak",
       feature2Benefit4: "Feldolgozás munka közben",
@@ -2895,21 +2813,18 @@ let message = {
       feature4Meeting2: "Igazgatótanácsi ülés - Okt. 20.",
       feature4Meeting2Text: '"...Q4 bevételi előrejelzések..."',
       workflowTitle: "Hogyan transzkribálj",
-      workflowSubtitle:
-        "Zökkenőmentes munkafolyamat, amely minden fontos pillanatot rögzít",
+      workflowSubtitle: "Zökkenőmentes munkafolyamat, amely minden fontos pillanatot rögzít",
       workflowStep1Title: "Felvétel vagy feltöltés",
       workflowStep1Desc:
         "Kezdj élő felvételt, vagy egyszerűen töltsd le a megbeszélést Zoomról, Google Meetről vagy Microsoft Teamsről",
       workflowStep2Title: "Automatikus átirat",
-      workflowStep2Desc:
-        "Az AI percek alatt 96%-os pontossággal transzkribálja a felvételt szöveggé",
+      workflowStep2Desc: "Az AI percek alatt 96%-os pontossággal transzkribálja a felvételt szöveggé",
       workflowStep3Title: "Együttműködés",
       workflowStep3Desc: "Megosztás, kommentelés és teendők kinyerése",
       workflowStep4Title: "Keresés és elemzés",
       workflowStep4Desc: "Értékes betekintések az összes megbeszélésedből",
       testimonialsTitle: "A csapatok imádják",
-      testimonialsSubtitle:
-        "Nézd meg, hogyan alakítják át a vállalatok a megbeszélési kultúrájukat",
+      testimonialsSubtitle: "Nézd meg, hogyan alakítják át a vállalatok a megbeszélési kultúrájukat",
       testimonial1Text:
         '"A kritikus részletek kihagyásáról a minden beszélgetés kereshető archívumára váltottunk. A közvetlen felvételi funkció azt jelenti, hogy soha nem felejtjük el rögzíteni a fontos megbeszéléseket."',
       testimonial1AuthorName: "James Kim",
@@ -2923,8 +2838,7 @@ let message = {
       testimonial3AuthorName: "Mark Liu",
       testimonial3AuthorRole: "Üzemeltetési vezető, FinanceHub",
       ctaTitle: "Ne veszíts el fontos beszélgetéseket",
-      ctaSubtitle:
-        "Csatlakozz több ezer csapathoz, akik korlátlan átirattal rögzítik minden megbeszélésüket",
+      ctaSubtitle: "Csatlakozz több ezer csapathoz, akik korlátlan átirattal rögzítik minden megbeszélésüket",
       ctaButton: "Kezdj el felvenni ingyen →",
       featuresTitle2: "Értekezlet",
       workflowTitle2: "Zoom felvételt szöveggé",
@@ -2948,8 +2862,7 @@ let message = {
       stats4Number: "96%",
       stats4Label: "Pontossági Arány",
       featuresTitle: "Minden, Amire az Oktatóknak Szükségük Van",
-      featuresSubtitle:
-        "YouTube előadásoktól a felvett órákig, tegye elérhetővé az összes tartalmát",
+      featuresSubtitle: "YouTube előadásoktól a felvett órákig, tegye elérhetővé az összes tartalmát",
       feature1Title: "Azonnali YouTube & Platform Linkek",
       feature1Desc:
         "Csak illesszen be bármilyen videólinket, és kapjon azonnali átiratot. Működik YouTube, Vimeo, Facebook, X (Twitter), TikTok, Instagram, Dropbox, Google Drive és másokkal. Nincs letöltés, nincs várakozás.",
@@ -2987,23 +2900,19 @@ let message = {
       feature4Point3: "PDF könnyű megosztáshoz és nyomtatáshoz",
       feature4Point4: "Több fájl tömeges exportálása egyszerre",
       workflowTitle: "Hogyan Működik:",
-      workflowSubtitle:
-        "Videólinktől elérhető átiratig és tanulási anyagokig percek alatt",
+      workflowSubtitle: "Videólinktől elérhető átiratig és tanulási anyagokig percek alatt",
       workflowStep1Title: "Töltse Fel az Előadását",
       workflowStep1Desc:
         "Töltsön fel bármilyen hang- vagy videófájlt (MP3, MP4, WAV) vagy illesszen be egy YouTube linket",
       workflowStep2Title: "AI Átirat",
-      workflowStep2Desc:
-        "Az MI-nk átírja a hangot, szétválasztja a beszélőket és azonosítja a kulcstémákat",
+      workflowStep2Desc: "Az MI-nk átírja a hangot, szétválasztja a beszélőket és azonosítja a kulcstémákat",
       workflowStep3Title: "Feliratok Generálása",
-      workflowStep3Desc:
-        "Automatikusan tökéletesen szinkronizált feliratok létrehozása",
+      workflowStep3Desc: "Automatikusan tökéletesen szinkronizált feliratok létrehozása",
       workflowStep4Title: "Tanulmányi Segédlet Exportálása",
       workflowStep4Desc:
         "Töltse le a szöveget, az összefoglalót, vagy exportálja a végső tanulmányi segédlet létrehozásához",
       useCasesTitle: "Tökéletes Minden",
-      useCasesSubtitle:
-        "Nézze meg, hogyan használják az oktatók a NeverCap-et a tanulás fejlesztésére",
+      useCasesSubtitle: "Nézze meg, hogyan használják az oktatók a NeverCap-et a tanulás fejlesztésére",
       useCase1Title: "Felvett Előadások",
       useCase1Text:
         "Egész félévnyi felvett előadások átírása. A diákok kereshetnek konkrét témákra, áttekinthetik a kulcsfogalmakat, és soha nem maradnak le fontos információkról.",
@@ -3023,13 +2932,11 @@ let message = {
       useCase6Text:
         "Segítsen a diákoknak pontos időbélyegekkel hivatkozni videóforrásokra. Tökéletes kutatási projektekhez és tudományos dolgozatokhoz.",
       testimonialTitle: "Megbízóink",
-      testimonialSubtitle:
-        "Nézze meg, miért választják a világ tanárai a NeverCap-et",
+      testimonialSubtitle: "Nézze meg, miért választják a világ tanárai a NeverCap-et",
       testimonialAuthorName: "Prof. Karen Mitchell",
       testimonialAuthorRole: "Matematika Professzor, Online Oktató",
       ctaTitle: "Tegye Elérhetővé Minden Oktatási Tartalmát",
-      ctaSubtitle:
-        "Csatlakozzon több ezer oktatóhoz, akik valóban korlátlan átírást használnak",
+      ctaSubtitle: "Csatlakozzon több ezer oktatóhoz, akik valóban korlátlan átírást használnak",
       ctaButton: "Próbálja Ki Ingyen a NeverCap-et",
       featuresTitle2: "Videó Átirat",
       grid: "Hangfájl Tanulási Segédletté",
@@ -3051,23 +2958,19 @@ let message = {
         tutorial: "Nézze meg az útmutatót"
       },
       part2: {
-        title:
-          "Így alakíthat YouTube-videót letölthető MP4-fájllá 3 egyszerű lépésben",
+        title: "Így alakíthat YouTube-videót letölthető MP4-fájllá 3 egyszerű lépésben",
         steps: [
           {
             title: "Másolja az URL-t",
-            content:
-              "Nyissa meg a kívánt YouTube-videót, majd másolja a linket a böngésző címsorából."
+            content: "Nyissa meg a kívánt YouTube-videót, majd másolja a linket a böngésző címsorából."
           },
           {
             title: "Illessze be a linket",
-            content:
-              "Lépjen a videóletöltő eszközébe, és illessze be az URL-t a beviteli mezőbe."
+            content: "Lépjen a videóletöltő eszközébe, és illessze be az URL-t a beviteli mezőbe."
           },
           {
             title: "Töltse le az MP4-et",
-            content:
-              "A feldolgozás után kattintson a letöltés gombra az MP4-fájl mentéséhez."
+            content: "A feldolgozás után kattintson a letöltés gombra az MP4-fájl mentéséhez."
           }
         ]
       },
@@ -3080,10 +2983,7 @@ let message = {
         ]
       },
       part4: {
-        content: [
-          "Íme az 5 fő előnye a",
-          "YouTube-videók MP4-fájlként való letöltésének"
-        ],
+        content: ["Íme az 5 fő előnye a", "YouTube-videók MP4-fájlként való letöltésének"],
         list: [
           {
             title: "Adatköltségek spórolása:",
@@ -3092,8 +2992,7 @@ let message = {
           },
           {
             title: "Bárhol, bármikor nézheti:",
-            content:
-              "Zökkenőmentes videónézés, még instabil internetkapcsolat mellett is. Nincs többé pufferelés."
+            content: "Zökkenőmentes videónézés, még instabil internetkapcsolat mellett is. Nincs többé pufferelés."
           },
           {
             title: "Egyszerű archiválás és megőrzés:",
@@ -3121,8 +3020,7 @@ let message = {
           },
           {
             title: "Villámgyors, korlátlan",
-            content:
-              "Konvertáljon és töltse le maximális sebességgel – korlátok nélkül."
+            content: "Konvertáljon és töltse le maximális sebességgel – korlátok nélkül."
           },
           {
             title: "Azonnali konvertálás",
@@ -3130,15 +3028,13 @@ let message = {
           },
           {
             title: "Zero Ads, Zero Distractions",
-            content:
-              "Tiszta felület, felugró ablakok és zavaró elemek nélkül – zökkenőmentes videókonvertálás."
+            content: "Tiszta felület, felugró ablakok és zavaró elemek nélkül – zökkenőmentes videókonvertálás."
           },
           {
             icon: "5",
             color: "#DEE5FF",
             title: "Eredeti minőség garantálva",
-            content:
-              "A letöltött fájlok megtartják a videó eredeti felbontását, tökéles lejátszáshoz."
+            content: "A letöltött fájlok megtartják a videó eredeti felbontását, tökéles lejátszáshoz."
           },
           {
             icon: "6",
@@ -3161,8 +3057,7 @@ let message = {
         title: "Kulcskérdések a YouTube-videók letöltéséről",
         list: [
           {
-            question:
-              "Letölthetek szerzői jogvédelem alatt álló YouTube-videót?",
+            question: "Letölthetek szerzői jogvédelem alatt álló YouTube-videót?",
             answer:
               "Szerzői jogvédelem alatt álló YouTube-videók letöltése a jogtulajdonos engedélye nélkül törvénybe ütközik."
           },
@@ -3173,24 +3068,20 @@ let message = {
           },
           {
             question: "Milyen nyelveket támogat a YouTube-MP4 letöltés?",
-            answer:
-              "Szolgáltatásunk minden népszerű nyelven letölti a YouTube-videókat."
+            answer: "Szolgáltatásunk minden népszerű nyelven letölti a YouTube-videókat."
           },
           {
-            question:
-              "Milyen tényezők befolyásolják a YouTube-videó letöltési idejét?",
+            question: "Milyen tényezők befolyásolják a YouTube-videó letöltési idejét?",
             answer:
               "Bár a leggyorsabb letöltési élményt biztosítjuk, a letöltési időt befolyásolhatja a videó hossza és az internetkapcsolat sebessége."
           },
           {
-            question:
-              "Ha okostelefonnal töltök le egy MP4-videót, hova kerül el?",
+            question: "Ha okostelefonnal töltök le egy MP4-videót, hova kerül el?",
             answer:
               'Miután letöltöttél egy MP4 fájlt okostelefonodra, általában az eszközöd fájlkezelő alkalmazásában a "Letöltések" mappában találod meg.'
           },
           {
-            question:
-              "Csökken a videó minősége, ha MP4-ként töltöm le a YouTube-videót?",
+            question: "Csökken a videó minősége, ha MP4-ként töltöm le a YouTube-videót?",
             answer:
               "Nem. YouTube-videók MP4-ként való letöltése eszközünkkel megtartja a videó eredeti minőségét. A konvertálás során megőrizzük a forrásminőséget, így ugyanazt a nézői élményt nyújtja, mint a YouTube-on."
           }
@@ -3199,8 +3090,7 @@ let message = {
       err1: "YouTube linkformátum hiba.",
       err2: "Sajnáljuk! Jelenleg csak YouTube-linkekkel működünk. Ha más oldalak támogatására van szükséged, értesíteni foglak, ha a jövőben hozzáadjuk.",
       videoDownload: {
-        title:
-          "YouTube-videók letöltése MP4 formátumban. Ingyenes, gyors és reklámmentes.",
+        title: "YouTube-videók letöltése MP4 formátumban. Ingyenes, gyors és reklámmentes.",
         description:
           "Köszönjük, hogy minket választott! Nagyra értékeljük a bizalmadat, és reméljük, hogy élményedet fokoztuk. Hatalmas segítséget jelentene, ha megosztanád weboldalunkat a barátaiddal.",
         downloadButton: "Letöltés",
@@ -3214,8 +3104,7 @@ let message = {
         steps: [
           {
             title: "Ingyenes hang- és videó",
-            content:
-              "Konvertáljon hang- és videofájlokat szöveggé másodpercek alatt. Naponta 3 ingyenes átirat."
+            content: "Konvertáljon hang- és videofájlokat szöveggé másodpercek alatt. Naponta 3 ingyenes átirat."
           },
           {
             title: "Hangfájlok konvertálása szöveggé",
@@ -3224,15 +3113,13 @@ let message = {
           },
           {
             title: "YouTube-videók átírása",
-            content:
-              "Konvertálja a YouTube-videókat pontos szöveggé vagy felirattá. Csak illessze be a YouTube-linket."
+            content: "Konvertálja a YouTube-videókat pontos szöveggé vagy felirattá. Csak illessze be a YouTube-linket."
           }
         ],
         stepsNew: [
           {
             title: "Ingyenes hang- és videóátírás",
-            content:
-              "Másodpercek alatt hang- és videofájlokat konvertálhat szöveggé. Naponta 3 ingyenes átirat."
+            content: "Másodpercek alatt hang- és videofájlokat konvertálhat szöveggé. Naponta 3 ingyenes átirat."
           },
           {
             title: "Hangfájlok szöveggé konvertálása",
@@ -3241,191 +3128,200 @@ let message = {
           },
           {
             title: "YouTube-videók átírása",
-            content:
-              "Konvertálja a YouTube-videókat pontos szöveggé vagy felirattá. Csak illessze be a YouTube-linket."
+            content: "Konvertálja a YouTube-videókat pontos szöveggé vagy felirattá. Csak illessze be a YouTube-linket."
           }
         ]
       },
-        MoreFreeTools: {
-              "title": "További ingyenes eszközök",
-              "title_des": "Fedezze fel további ingyenes konverziós eszközeinket",
-              "YouTubeToMP": "YouTube-ból MP3-ba",
-              "YouTubeToMP_des": "Konvertálj YouTube-videókat MP3 formátumba offline megtekintéshez. Tölts le kiváló minőségű videókat azonnal.",
-              "AITranscription": "AI átírás",
-              "AITranscription_des": "Írj át hang- és videofájlokat 96%-os pontossággal. Korlátlan átírás minden tartalmadhoz."
-            }
+      MoreFreeTools: {
+        title: "További ingyenes eszközök",
+        title_des: "Fedezze fel további ingyenes konverziós eszközeinket",
+        YouTubeToMP: "YouTube-ból MP3-ba",
+        YouTubeToMP_des:
+          "Konvertálj YouTube-videókat MP3 formátumba offline megtekintéshez. Tölts le kiváló minőségű videókat azonnal.",
+        AITranscription: "AI átírás",
+        AITranscription_des: "Írj át hang- és videofájlokat 96%-os pontossággal. Korlátlan átírás minden tartalmadhoz."
+      }
     },
-      YouTubeToMP3: {
-            "err1": "YouTube link formátumhiba.",
-            "err2": "Sajnáljuk! Jelenleg csak YouTube-linkekkel dolgozunk. Ha más oldalakkal kapcsolatban is segítségre van szükséged, értesítünk, ha a jövőben hozzáadjuk.",
-            "part1": {
-              "title": "YouTube-videók konvertálása MP3-ba",
-              "title_des": "Hangfelvétel YouTube-videókból másodpercek alatt",
-              "placeholder": "Illeszd be ide a Youtube linkedet",
-              "clear_icon": "Tiszta bevitel",
-              "Download": "Megtérít",
-              "loading_text": "A link feldolgozása folyamatban van a konvertáláshoz. Maradj az oldalon.",
-              "howToDownload": "Hogyan kell konvertálni?",
-              "tutorial": "Nézd meg az oktatóanyagot"
-            },
-            "freeResources": {
-              "linkTitle": "{NeverCap} által működtetve",
-              "linkTitle2": "- Teljesen korlátlan AI átírás",
-              "title": "Ingyenes források",
-              "stepsNew": [
-                {
-                  "title": "Ingyenes hang- és videóátírás",
-                  "content": "Másodpercek alatt hang- és videofájlokat szöveggé alakíthat. Naponta 3 fájl átírása."
-                },
-                {
-                  "title": "Hangfájlok kivonása szöveggé",
-                  "content": "MP3, MP4, WAV és MOV fájlok feltöltése.",
-                  "content2": "Tölts le DOCX, TXT, SRT és egyebeket."
-                },
-                {
-                  "title": "YouTube-videók átírása",
-                  "content": "Konvertálja YouTube-videókat pontos szöveggé vagy felirattá, és illessze be a linket ingyenesen."
-                }
-              ]
-            },
-            "part2": {
-              "title": "Így alakíthatsz YouTube-videót letölthető MP3 fájllá 3 egyszerű lépésben",
-              "steps": [
-                {
-                  "title": "Másolja az URL-t",
-                  "content": "Nyisd meg a célként kiszemelt YouTube-videót, majd másold ki a linket a böngésző címsorából."
-                },
-                {
-                  "title": "Illeszd be a linket",
-                  "content": "Írd be a videóletöltő eszközödbe, és illeszd be az URL-t a beviteli mezőbe."
-                },
-                {
-                  "title": "Konvertálás és letöltés",
-                  "content": "Miután a konvertálás befejeződött, töltse le az MP3 fájlt a mentéshez."
-                }
-              ]
-            },
-            "part3": {
-              "content": [
-                "Szeretnéd YouTube-videókat MP3-ba konvertálni, hogy bármikor meghallgathasd őket?",
-                "Akár metrón, akár repülőn utazol, vagy podcastokat, tananyagokat vagy fontos archívumokat rendezel, gyakran küzdünk azzal, hogy nem férhetünk hozzájuk bármikor. Itt a konvertáló eszközünk megoldja ezt a problémát.",
-                "Egyszerűen másold ki a YouTube linket, illeszd be a konverterbe, és egyetlen kattintással konvertálhatod a videókat kiváló minőségű MP3 hangfájlokká. Mentsd el, hallgasd meg és archiváld bármikor internetkapcsolat nélkül."
-              ]
-            },
-            "part4": {
-              "content": [
-                "Íme az átváltás 5 fő előnye",
-                "YouTube-videók MP3 fájlokká alakítása"
-              ],
-              "list": [
-                {
-                  "title": "Spóroljon a tárhelyen:",
-                  "content": "Az MP3 fájlok kisebbek, így kevesebb tárhelyet foglalnak a YouTube-on. Spórolj a mobil adatforgalmon az offline megtekintési fájlok letöltésével, és használd őket, ha van internetkapcsolat."
-                },
-                {
-                  "title": "Akkumulátor kímélése:",
-                  "content": "YouTube-videók megtekintéséhez pufferelési szolgáltatást használnak, amely könnyen hallgatható kapcsolatokat használ. Nincs több pufferelési aggodalom."
-                },
-                {
-                  "title": "Egyszerű archiválás és megőrzés:",
-                  "content": "Néhány videó vagy MP3 megkönnyíti a személyes könyvtár felépítését – legyen szó oktatási tartalmakról, zenei archívumokról vagy fontos fájlokról."
-                },
-                {
-                  "title": "Egyszerűbb megosztás:",
-                  "content": "Az MP3 fájlok megosztása sokkal kényelmesebb, mint a YouTube-linkek megosztása. Fájlokat küldhetsz a barátaidnak olyan alkalmazásokon keresztül, mint a WhatsApp vagy az Instagram, így nem kell megnyitnod a YouTube-ot."
-                },
-                {
-                  "title": "Azonnali megtekintés, széleskörű rugalmasság:",
-                  "content": "Hozzáférhetsz egy szélesebb kedvenc videódhoz a YouTube-videók konvertálásával, bárhol is vagy, az MP3 formátumok pedig lehetővé teszik a zökkenőmentes összeállítást azonnal, kínos szünetek nélkül a betöltés előtt."
-                }
-              ]
-            },
-            "part5": {
-              "title": "Miért tűnik ki a konverterünk?",
-              "cards": [
-                {
-                  "title": "Egy kattintásos egyszerűség",
-                  "content": "Könnyű beállítás és intuitív kezelés."
-                },
-                {
-                  "title": "Villámgyors, korlátlan",
-                  "content": "Konvertálás és letöltés maximális sebességgel – nincsenek korlátozások, nincsenek korlátok."
-                },
-                {
-                  "title": "Konvertálás menet közben",
-                  "content": "Azonnal feldolgozhatja fájljait, nem kell várnia."
-                },
-                {
-                  "title": "Nulla hirdetés, nulla zavaró tényező",
-                  "content": "Élvezd a letisztult felületet felugró ablakok, bannerek vagy megszakítások nélkül – csak zökkenőmentes, megszakítás nélküli konverziót."
-                },
-                {
-                  "title": "Eredeti minőség garantált",
-                  "content": "A letöltések megőrzik a forrásvideó teljes felbontását a pixelpontos lejátszás érdekében minden alkalommal."
-                },
-                {
-                  "title": "Bárhol működik",
-                  "content": "Teljesen kompatibilis bármilyen böngészővel, bármilyen eszközön."
-                }
-              ]
-            },
-            "part6": {
-              "title": [
-                "Maximalizáld a YouTube MP3 konverzióidat",
-                "Átalakítónkkal"
-              ],
-              "title_des": "Könnyed YouTube MP3-ba konvertálás — Gyors, egyszerű és ingyenes",
-              "content": [
-                "Ebben vagyunk a kiemelkedők. Felhasználóbarát felületünket mindenki számára terveztük – nincs szükség technikai ismeretekre. Tapasztalati szintjétől függetlenül azonnal konvertálhatsz videókat. Nincs szükség regisztrációra, és egyszerűen elkezdheted – a letöltött MP3-ak megőrzik az eredeti videóminőséget és tisztaságot, pontosan úgy, ahogyan a YouTube-on nézted őket.",
-                "A sebesség is számít. Gyorsan, hirdetések és eszközök nélkül tölthetsz le több fájlt is. Akár Windows, macOS, Linux, Android vagy iOS rendszert használsz – okostelefont, táblagépet vagy asztali számítógépet használsz –, könnyedén letölthetsz videókat."
-              ]
-            },
-            "part7": {
-              "title": "Kulcsfontosságú kérdések a YouTube MP3-ba konvertálásával kapcsolatban",
-              "list": [
-                {
-                  "question": "Átalakíthatok egy szerzői joggal védett YouTube-videót MP3-ba?",
-                  "answer": "Bár technikailag lehetséges, a szerzői joggal védett tartalom engedély nélküli konvertálása sértheti a YouTube szolgáltatási feltételeit és a szerzői jogi törvényeket. Mindig győződj meg róla, hogy jogosult vagy a tartalom konvertálására vagy személyes, nem kereskedelmi célú felhasználására."
-                },
-                {
-                  "question": "Biztonságos ez a konverter eszköz?",
-                  "answer": "Igen, a konverterünk teljesen biztonságos. Nem tároljuk az adatait vagy fájljait, és nincs veszélye a rosszindulatú programoknak vagy vírusoknak. A konvertálás közvetlenül és biztonságosan történik."
-                },
-                {
-                  "question": "Milyen nyelveket támogat a YouTube MP3-ba konvertálása?",
-                  "answer": "A konverterünk a YouTube-on elérhető összes nyelvet támogatja. A hanganyag pontosan úgy lesz kiolvasva, ahogyan az eredeti videóban megjelenik, megőrizve az eredeti nyelvet és hangminőséget."
-                },
-                {
-                  "question": "Milyen tényezők befolyásolják egy YouTube-videó konvertálásának idejét?",
-                  "answer": "A konverziós idő számos tényezőtől függ: a videó hosszától, az internetkapcsolat sebességétől és a szerver aktuális terhelésétől. A legtöbb 10 percnél rövidebb videó kevesebb mint 30 másodperc alatt konvertálódik."
-                },
-                {
-                  "question": "Amikor okostelefonnal konvertálok és letöltök egy MP3 fájlt, hová kerül mentésre?",
-                  "answer": "A legtöbb okostelefonon a konvertált MP3 fájlok a Letöltések mappába kerülnek mentésre. iPhone-on ezek a Fájlok alkalmazásba kerülhetnek. Androidon ellenőrizd a Letöltések mappát a fájlkezelőben vagy a zenealkalmazásban."
-                },
-                {
-                  "question": "Egy YouTube-videó MP3-ba konvertálása rontja a hangminőséget?",
-                  "answer": "Az MP3 egy csak hangfájlokat tartalmazó formátum, tehát nincs benne videó komponens. A hangminőség a forrásvideó legmagasabb elérhető bitrátáján marad, jellemzően 128-320 kbps között, az eredeti feltöltési minőségtől függően."
-                }
-              ]
-            },
-            "MoreFreeTools": {
-              "title": "További ingyenes eszközök",
-              "title_des": "Fedezze fel további ingyenes konverziós eszközeinket",
-              "YouTubeToMP": "YouTube-ból MP4-be",
-              "YouTubeToMP_des": "Konvertálj YouTube videókat MP4 formátumba offline megtekintéshez. Tölts le kiváló minőségű videókat azonnal.",
-              "AITranscription": "AI átírás",
-              "AITranscription_des": "Írj át hang- és videofájlokat 96%-os pontossággal. Korlátlan átírás minden tartalmadhoz."
-            },
-            "videoDownload": {
-              "title": "YouTube linkek konvertálása MP3-ba. Ingyenes, gyors és hirdetésmentes.",
-              "description": "Köszönjük, hogy minket választott! Nagyra értékeljük bizalmát, és reméljük, hogy jobbá tettük az élményét. Ha megosztaná weboldalunkat barátaival, az nagy segítség lenne.",
-              "downloadButton": "Letöltés",
-              "TranscribeButton": "Lemásol",
-              "downloadError": "Konvertálási hiba."
-            }
+    YouTubeToMP3: {
+      err1: "YouTube link formátumhiba.",
+      err2: "Sajnáljuk! Jelenleg csak YouTube-linkekkel dolgozunk. Ha más oldalakkal kapcsolatban is segítségre van szükséged, értesítünk, ha a jövőben hozzáadjuk.",
+      part1: {
+        title: "YouTube-videók konvertálása MP3-ba",
+        title_des: "Hangfelvétel YouTube-videókból másodpercek alatt",
+        placeholder: "Illeszd be ide a Youtube linkedet",
+        clear_icon: "Tiszta bevitel",
+        Download: "Megtérít",
+        loading_text: "A link feldolgozása folyamatban van a konvertáláshoz. Maradj az oldalon.",
+        howToDownload: "Hogyan kell konvertálni?",
+        tutorial: "Nézd meg az oktatóanyagot"
+      },
+      freeResources: {
+        linkTitle: "{NeverCap} által működtetve",
+        linkTitle2: "- Teljesen korlátlan AI átírás",
+        title: "Ingyenes források",
+        stepsNew: [
+          {
+            title: "Ingyenes hang- és videóátírás",
+            content: "Másodpercek alatt hang- és videofájlokat szöveggé alakíthat. Naponta 3 fájl átírása."
+          },
+          {
+            title: "Hangfájlok kivonása szöveggé",
+            content: "MP3, MP4, WAV és MOV fájlok feltöltése.",
+            content2: "Tölts le DOCX, TXT, SRT és egyebeket."
+          },
+          {
+            title: "YouTube-videók átírása",
+            content: "Konvertálja YouTube-videókat pontos szöveggé vagy felirattá, és illessze be a linket ingyenesen."
           }
-},
+        ]
+      },
+      part2: {
+        title: "Így alakíthatsz YouTube-videót letölthető MP3 fájllá 3 egyszerű lépésben",
+        steps: [
+          {
+            title: "Másolja az URL-t",
+            content: "Nyisd meg a célként kiszemelt YouTube-videót, majd másold ki a linket a böngésző címsorából."
+          },
+          {
+            title: "Illeszd be a linket",
+            content: "Írd be a videóletöltő eszközödbe, és illeszd be az URL-t a beviteli mezőbe."
+          },
+          {
+            title: "Konvertálás és letöltés",
+            content: "Miután a konvertálás befejeződött, töltse le az MP3 fájlt a mentéshez."
+          }
+        ]
+      },
+      part3: {
+        content: [
+          "Szeretnéd YouTube-videókat MP3-ba konvertálni, hogy bármikor meghallgathasd őket?",
+          "Akár metrón, akár repülőn utazol, vagy podcastokat, tananyagokat vagy fontos archívumokat rendezel, gyakran küzdünk azzal, hogy nem férhetünk hozzájuk bármikor. Itt a konvertáló eszközünk megoldja ezt a problémát.",
+          "Egyszerűen másold ki a YouTube linket, illeszd be a konverterbe, és egyetlen kattintással konvertálhatod a videókat kiváló minőségű MP3 hangfájlokká. Mentsd el, hallgasd meg és archiváld bármikor internetkapcsolat nélkül."
+        ]
+      },
+      part4: {
+        content: ["Íme az átváltás 5 fő előnye", "YouTube-videók MP3 fájlokká alakítása"],
+        list: [
+          {
+            title: "Spóroljon a tárhelyen:",
+            content:
+              "Az MP3 fájlok kisebbek, így kevesebb tárhelyet foglalnak a YouTube-on. Spórolj a mobil adatforgalmon az offline megtekintési fájlok letöltésével, és használd őket, ha van internetkapcsolat."
+          },
+          {
+            title: "Akkumulátor kímélése:",
+            content:
+              "YouTube-videók megtekintéséhez pufferelési szolgáltatást használnak, amely könnyen hallgatható kapcsolatokat használ. Nincs több pufferelési aggodalom."
+          },
+          {
+            title: "Egyszerű archiválás és megőrzés:",
+            content:
+              "Néhány videó vagy MP3 megkönnyíti a személyes könyvtár felépítését – legyen szó oktatási tartalmakról, zenei archívumokról vagy fontos fájlokról."
+          },
+          {
+            title: "Egyszerűbb megosztás:",
+            content:
+              "Az MP3 fájlok megosztása sokkal kényelmesebb, mint a YouTube-linkek megosztása. Fájlokat küldhetsz a barátaidnak olyan alkalmazásokon keresztül, mint a WhatsApp vagy az Instagram, így nem kell megnyitnod a YouTube-ot."
+          },
+          {
+            title: "Azonnali megtekintés, széleskörű rugalmasság:",
+            content:
+              "Hozzáférhetsz egy szélesebb kedvenc videódhoz a YouTube-videók konvertálásával, bárhol is vagy, az MP3 formátumok pedig lehetővé teszik a zökkenőmentes összeállítást azonnal, kínos szünetek nélkül a betöltés előtt."
+          }
+        ]
+      },
+      part5: {
+        title: "Miért tűnik ki a konverterünk?",
+        cards: [
+          {
+            title: "Egy kattintásos egyszerűség",
+            content: "Könnyű beállítás és intuitív kezelés."
+          },
+          {
+            title: "Villámgyors, korlátlan",
+            content: "Konvertálás és letöltés maximális sebességgel – nincsenek korlátozások, nincsenek korlátok."
+          },
+          {
+            title: "Konvertálás menet közben",
+            content: "Azonnal feldolgozhatja fájljait, nem kell várnia."
+          },
+          {
+            title: "Nulla hirdetés, nulla zavaró tényező",
+            content:
+              "Élvezd a letisztult felületet felugró ablakok, bannerek vagy megszakítások nélkül – csak zökkenőmentes, megszakítás nélküli konverziót."
+          },
+          {
+            title: "Eredeti minőség garantált",
+            content:
+              "A letöltések megőrzik a forrásvideó teljes felbontását a pixelpontos lejátszás érdekében minden alkalommal."
+          },
+          {
+            title: "Bárhol működik",
+            content: "Teljesen kompatibilis bármilyen böngészővel, bármilyen eszközön."
+          }
+        ]
+      },
+      part6: {
+        title: ["Maximalizáld a YouTube MP3 konverzióidat", "Átalakítónkkal"],
+        title_des: "Könnyed YouTube MP3-ba konvertálás — Gyors, egyszerű és ingyenes",
+        content: [
+          "Ebben vagyunk a kiemelkedők. Felhasználóbarát felületünket mindenki számára terveztük – nincs szükség technikai ismeretekre. Tapasztalati szintjétől függetlenül azonnal konvertálhatsz videókat. Nincs szükség regisztrációra, és egyszerűen elkezdheted – a letöltött MP3-ak megőrzik az eredeti videóminőséget és tisztaságot, pontosan úgy, ahogyan a YouTube-on nézted őket.",
+          "A sebesség is számít. Gyorsan, hirdetések és eszközök nélkül tölthetsz le több fájlt is. Akár Windows, macOS, Linux, Android vagy iOS rendszert használsz – okostelefont, táblagépet vagy asztali számítógépet használsz –, könnyedén letölthetsz videókat."
+        ]
+      },
+      part7: {
+        title: "Kulcsfontosságú kérdések a YouTube MP3-ba konvertálásával kapcsolatban",
+        list: [
+          {
+            question: "Átalakíthatok egy szerzői joggal védett YouTube-videót MP3-ba?",
+            answer:
+              "Bár technikailag lehetséges, a szerzői joggal védett tartalom engedély nélküli konvertálása sértheti a YouTube szolgáltatási feltételeit és a szerzői jogi törvényeket. Mindig győződj meg róla, hogy jogosult vagy a tartalom konvertálására vagy személyes, nem kereskedelmi célú felhasználására."
+          },
+          {
+            question: "Biztonságos ez a konverter eszköz?",
+            answer:
+              "Igen, a konverterünk teljesen biztonságos. Nem tároljuk az adatait vagy fájljait, és nincs veszélye a rosszindulatú programoknak vagy vírusoknak. A konvertálás közvetlenül és biztonságosan történik."
+          },
+          {
+            question: "Milyen nyelveket támogat a YouTube MP3-ba konvertálása?",
+            answer:
+              "A konverterünk a YouTube-on elérhető összes nyelvet támogatja. A hanganyag pontosan úgy lesz kiolvasva, ahogyan az eredeti videóban megjelenik, megőrizve az eredeti nyelvet és hangminőséget."
+          },
+          {
+            question: "Milyen tényezők befolyásolják egy YouTube-videó konvertálásának idejét?",
+            answer:
+              "A konverziós idő számos tényezőtől függ: a videó hosszától, az internetkapcsolat sebességétől és a szerver aktuális terhelésétől. A legtöbb 10 percnél rövidebb videó kevesebb mint 30 másodperc alatt konvertálódik."
+          },
+          {
+            question: "Amikor okostelefonnal konvertálok és letöltök egy MP3 fájlt, hová kerül mentésre?",
+            answer:
+              "A legtöbb okostelefonon a konvertált MP3 fájlok a Letöltések mappába kerülnek mentésre. iPhone-on ezek a Fájlok alkalmazásba kerülhetnek. Androidon ellenőrizd a Letöltések mappát a fájlkezelőben vagy a zenealkalmazásban."
+          },
+          {
+            question: "Egy YouTube-videó MP3-ba konvertálása rontja a hangminőséget?",
+            answer:
+              "Az MP3 egy csak hangfájlokat tartalmazó formátum, tehát nincs benne videó komponens. A hangminőség a forrásvideó legmagasabb elérhető bitrátáján marad, jellemzően 128-320 kbps között, az eredeti feltöltési minőségtől függően."
+          }
+        ]
+      },
+      MoreFreeTools: {
+        title: "További ingyenes eszközök",
+        title_des: "Fedezze fel további ingyenes konverziós eszközeinket",
+        YouTubeToMP: "YouTube-ból MP4-be",
+        YouTubeToMP_des:
+          "Konvertálj YouTube videókat MP4 formátumba offline megtekintéshez. Tölts le kiváló minőségű videókat azonnal.",
+        AITranscription: "AI átírás",
+        AITranscription_des: "Írj át hang- és videofájlokat 96%-os pontossággal. Korlátlan átírás minden tartalmadhoz."
+      },
+      videoDownload: {
+        title: "YouTube linkek konvertálása MP3-ba. Ingyenes, gyors és hirdetésmentes.",
+        description:
+          "Köszönjük, hogy minket választott! Nagyra értékeljük bizalmát, és reméljük, hogy jobbá tettük az élményét. Ha megosztaná weboldalunkat barátaival, az nagy segítség lenne.",
+        downloadButton: "Letöltés",
+        TranscribeButton: "Lemásol",
+        downloadError: "Konvertálási hiba."
+      }
+    }
+  },
   About: {
     Hero: {
       badge: "Piacvezető AI-technológia",
@@ -3436,8 +3332,7 @@ let message = {
     Stats: {
       title: "Hatásunk",
       highlighted_text: "Impact",
-      subtitle:
-        "Globális kommunikáció lehetővé tétele legmodernebb AI-technológiával",
+      subtitle: "Globális kommunikáció lehetővé tétele legmodernebb AI-technológiával",
       metrics: [
         {
           value: "96%+",
@@ -3490,8 +3385,7 @@ let message = {
     Company: {
       title: "Céginformáció",
       highlighted_text: "Information",
-      subtitle:
-        "Lépjen kapcsolatba velünk bármilyen kérdéssel vagy támogatásért",
+      subtitle: "Lépjen kapcsolatba velünk bármilyen kérdéssel vagy támogatásért",
       details: [
         {
           label: "Cégnév",
@@ -3499,11 +3393,7 @@ let message = {
         },
         {
           label: "Székhely",
-          value: [
-            "30 N Gould St Ste R",
-            "Sheridan, WY 82801",
-            "Egyesült Államok"
-          ]
+          value: ["30 N Gould St Ste R", "Sheridan, WY 82801", "Egyesült Államok"]
         },
         {
           label: "Lépjen kapcsolatba velünk",
@@ -3513,8 +3403,7 @@ let message = {
     },
     CTA: {
       title: "Készen áll a különbség megtapasztalására?",
-      subtitle:
-        "Csatlakozzon több ezer szakemberhez, akik a NeverCap-re bízzák átírási igényeiket",
+      subtitle: "Csatlakozzon több ezer szakemberhez, akik a NeverCap-re bízzák átírási igényeiket",
       button: "Próbáld ki a NeverCap ingyenes verzióját →",
       disclaimer: "Nem szükséges bankkártya • Azonnal elkezdheted az átírást"
     }
@@ -3522,8 +3411,7 @@ let message = {
   Privacy: {
     title: "Adatvédelmi",
     titleGradient: "Szabályzat",
-    subtitle:
-      "Tudj meg többet arról, hogyan gyűjtjük, használjuk és védjük a személyes adataidat",
+    subtitle: "Tudj meg többet arról, hogyan gyűjtjük, használjuk és védjük a személyes adataidat",
     lastUpdated: "Utoljára frissítve: {date}",
     lastUpdatedDate: "2025. július 21.",
     privacyPolicyTitle: "Adatvédelmi Szabályzat",
@@ -3570,11 +3458,9 @@ let message = {
     taxAudits:
       "Ha adóhatóság ellenőriz minket, előfordulhat, hogy meg kell osztanunk a számlázással kapcsolatos információkat. Ha ez történik, csak a minimálisan szükséges mennyiséget osztjuk meg, például a számlázási címeket és az adómentességi információkat.",
     securityTitle: "4. Hogyan védjük az adataidat",
-    securityDescription:
-      "Az összes adat SSL/TLS titkosítással van továbbítva a szervereinkről a böngésződbe.",
+    securityDescription: "Az összes adat SSL/TLS titkosítással van továbbítva a szervereinkről a böngésződbe.",
     deletionTitle: "5. Mi történik, ha törlöd a tartalmadat",
-    deletionDescription:
-      "Ha bármilyen tartalmat törölsz, az azonnal elérhetetlenné válik.",
+    deletionDescription: "Ha bármilyen tartalmat törölsz, az azonnal elérhetetlenné válik.",
     locationTitle: "6. Az oldal és az adatok helye",
     locationDescription:
       "Termékeink és egyéb webes tulajdonaink az Egyesült Államokban működnek. Ha az Európai Unióban, az Egyesült Királyságban vagy az Egyesült Államokon kívül máshol találkozol, kérjük, vedd figyelembe, hogy bármilyen információ, amit nekünk adsz, az Egyesült Államokba kerül átvitelre és tárolásra. A weboldalaink vagy Szolgáltatásaink használatával és/vagy személyes adataid megadásával hozzájárulsz ehhez az átvitelhez.",
@@ -3595,8 +3481,7 @@ let message = {
   TermsOfUse: {
     title: "Szolgáltatási",
     titleGradient: "Feltételek",
-    subtitle:
-      "Kérjük, olvassa el figyelmesen ezeket a feltételeket a szolgáltatásaink használata előtt",
+    subtitle: "Kérjük, olvassa el figyelmesen ezeket a feltételeket a szolgáltatásaink használata előtt",
     lastUpdated: "Utoljára frissítve: {date}",
     lastUpdatedDate: "2025. július 21.",
     termsOfServiceTitle: "Szolgáltatási Feltételek",
@@ -3624,8 +3509,7 @@ let message = {
     accountTermsTitle: "3. Fiók Feltételek",
     accountSecurity:
       "Az Ön felelőssége a fiókja biztonságának fenntartása. A Vállalat nem vállal felelősséget semmilyen veszteségért vagy kárért, amely a biztonsági kötelezettség betartásának elmulasztásából ered.",
-    lawfulUse:
-      "A Szolgáltatásokat nem használhatja semmilyen törvénytelen, etikátlan vagy erkölcstelen célra.",
+    lawfulUse: "A Szolgáltatásokat nem használhatja semmilyen törvénytelen, etikátlan vagy erkölcstelen célra.",
     contentResponsibility:
       "Felelős minden olyan tartalomért és tevékenységért, amely a fiókja alatt történik. Ez magában foglalja a mások által közzétett tartalmakat is, akik vagy: (a) hozzáférnek a bejelentkezési adataihoz; vagy (b) saját bejelentkezéssel rendelkeznek a fiókja alatt.",
     humanRequirement:
@@ -3690,16 +3574,13 @@ let message = {
       "Bármilyen, a webhelyről szerzett információt zaklatásra, bántalmazásra vagy más személy megkárosítására használni.",
     supportAbuse:
       "Támogatási szolgáltatásainkat helytelenül használni vagy hamis visszaélések vagy helytelen magatartás jelentését benyújtani.",
-    legalCompliance:
-      "A webhelyet bármilyen alkalmazandó törvénynek vagy rendeletnek ellentmondó módon használni.",
-    framingProhibition:
-      "Engedély nélkül keretbe foglalni vagy hivatkozni a webhelyre.",
+    legalCompliance: "A webhelyet bármilyen alkalmazandó törvénynek vagy rendeletnek ellentmondó módon használni.",
+    framingProhibition: "Engedély nélkül keretbe foglalni vagy hivatkozni a webhelyre.",
     malware:
       "Feltölteni vagy továbbítani (vagy megkísérelni feltölteni vagy továbbítani) vírusokat, trójai lovakat vagy más anyagot, beleértve a nagybetűk túlzott használatát és spammelést (ismétlődő szöveg folyamatos közzététele), amely zavarja bármely fél akadálytalan használatát és élvezetét a webhelyen, vagy módosítja, károsítja, megzavarja, megváltoztatja vagy befolyásolja a webhely használatát, funkcióit, működését vagy karbantartását.",
     automation:
       "Rendszer automatizált használatát folytatni, például szkriptek használatával megjegyzéseket vagy üzeneteket küldeni, vagy bármilyen adatbányászatot, robotokat vagy hasonló adatgyűjtő és -kinyerő eszközöket használni.",
-    copyrightRemoval:
-      "A szerzői jogi vagy egyéb tulajdonjogi nyilatkozatot törölni bármely tartalomból.",
+    copyrightRemoval: "A szerzői jogi vagy egyéb tulajdonjogi nyilatkozatot törölni bármely tartalomból.",
     impersonation:
       "Megkísérelni másik felhasználót vagy személyt utánzani, vagy másik felhasználó felhasználónevét használni.",
     spyware:
@@ -3715,14 +3596,12 @@ let message = {
     reverseEngineering:
       "Az alkalmazandó jogszabályokban meghatározott kivételektől eltekintve visszafejteni, dekompilálni, szétszedni vagy reverse engineerelni a webhely részét képező vagy annak bármely részét alkotó szoftvereket.",
     bots: "A szabványos keresőmotor vagy internetböngésző használatából eredő kivételektől eltekintve használni, indítani, fejleszteni vagy terjeszteni bármilyen automatizált rendszert, beleértve, de nem kizárólagosan pókokat, robotokat, csaló segédprogramokat, adatkaparókat vagy offline olvasókat, amelyek hozzáférnek a webhelyhez, vagy bármilyen jogosulatlan szkriptet vagy más szoftvert használni vagy indítani.",
-    buyingAgents:
-      "Vásárlási ügynököt vagy beszerzési ügynököt használni vásárlások végrehajtására a webhelyen.",
+    buyingAgents: "Vásárlási ügynököt vagy beszerzési ügynököt használni vásárlások végrehajtására a webhelyen.",
     unauthorizedUse:
       "A webhely jogosulatlan használatát folytatni, beleértve felhasználónevek és/vagy e-mail címek gyűjtését elektronikus vagy más eszközökkel kéretlen e-mailek küldése céljából, vagy felhasználói fiókok létrehozását automatizált eszközökkel vagy hamis indokokkal.",
     competition:
       "A webhelyet bármilyen versenyre való törekvés részeként használni velünk szemben, vagy a webhelyet és/vagy a tartalmat bármilyen bevételszerző vállalkozás vagy kereskedelmi vállalkozás céljára használni.",
-    advertising:
-      "A webhelyet áruk vagy szolgáltatások hirdetésére vagy értékesítésére felkínálására használni.",
+    advertising: "A webhelyet áruk vagy szolgáltatások hirdetésére vagy értékesítésére felkínálására használni.",
     profileTransfer: "Profilját eladni vagy más módon átruházni.",
     featuresTitle: "11. Funkciók és hibák",
     featuresDescription:
@@ -3774,20 +3653,12 @@ let message = {
       title: "Legújabb",
       highlighted_text: "Cikkek",
       subtitle: "Szakértői tippek és oktatóanyagok korlátlan átíráshoz",
-      categories: [
-        "Minden bejegyzés",
-        "Oktatóanyagok",
-        "Podcastolás",
-        "Tartalomkészítés",
-        "Üzleti",
-        "MI-tippek"
-      ]
+      categories: ["Minden bejegyzés", "Oktatóanyagok", "Podcastolás", "Tartalomkészítés", "Üzleti", "MI-tippek"]
     },
     Detail: {
       Home: "Otthon",
       Blog: "Blog",
-      GoToSignup:
-        "Próbálja ki a NeverCapet ingyen - Nincs szükség hitelkártyára",
+      GoToSignup: "Próbálja ki a NeverCapet ingyen - Nincs szükség hitelkártyára",
       HowWorks: "Nézd meg, hogyan működik"
     }
   }

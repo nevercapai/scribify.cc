@@ -1,62 +1,6 @@
 import { Msg } from "~/utils/tools";
 import { useLink } from "~/components/upload/dialog/useLink";
-function simulateProgress(file: any) {
-  // 初始化文件状态
-  file.progress = 0;
-  file.status = "uploading";
-  // 限制最大文件大小为5GB
-  const MAX_FILE_SIZE = 5 * 1024 * 1024 * 1024;
-  function isNumber(value: unknown) {
-    return typeof value === "number" && !isNaN(value);
-  }
-  const fileSize = Math.min(
-    isNumber(file.size) ? file.size : 1024 * 1024 * 1024,
-    MAX_FILE_SIZE
-  );
-
-  // 根据文件大小动态计算上传速度（5-20MB/s）
-  const speedFactor = 0.3 + 0.7 * (fileSize / MAX_FILE_SIZE);
-  const UPLOAD_SPEED =
-    5 * 1024 * 1024 + (20 * 1024 * 1024 - 5 * 1024 * 1024) * speedFactor;
-
-  // 计算上传时间（添加20%随机波动）
-  const baseDuration = (fileSize / UPLOAD_SPEED) * 1000;
-  const totalDuration = baseDuration * (0.8 + Math.random() * 0.4);
-  const startTime = Date.now();
-
-  // 进度更新函数
-  const update = () => {
-    if (file.status !== "uploading") return;
-
-    const elapsed = Date.now() - startTime;
-    const timeRatio = Math.min(elapsed / totalDuration, 1);
-
-    // 使用S型曲线模拟真实上传速度变化
-    const progressRatio = 1 / (1 + Math.exp(-6 * (timeRatio - 0.5)));
-    let progress = Math.floor(progressRatio * 98); // 最终进度停在98%
-
-    // 添加微小波动模拟网络不稳定
-    if (progress > file.progress + 1) {
-      progress = Math.max(
-        file.progress + 1,
-        progress - Math.floor(Math.random() * 3)
-      );
-    }
-
-    // 更新进度
-    if (progress > file.progress) {
-      file.progress = progress;
-    }
-
-    // 继续更新或完成
-    if (file.progress < 98) {
-      requestAnimationFrame(update);
-    }
-  };
-
-  // 启动模拟
-  requestAnimationFrame(update);
-}
+import mockProgress from "~/components/upload/mockProgress";
 export const downloadVideo = (emit: any) => {
   const loading = ref(false);
   const link = ref("");
@@ -71,8 +15,7 @@ export const downloadVideo = (emit: any) => {
   const { t } = useI18n();
   const urlRegex =
     /^(https?:\/\/)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)$/;
-  const youtubeRegex =
-    /^(https?:\/\/)?([a-z0-9-]+\.)?(youtube\.com|youtu\.be)\/.+/i;
+  const youtubeRegex = /^(https?:\/\/)?([a-z0-9-]+\.)?(youtube\.com|youtu\.be)\/.+/i;
   const { linkValidate } = useLink();
   const handleDownload = async () => {
     emit("download-click-pre");
@@ -100,7 +43,7 @@ export const downloadVideo = (emit: any) => {
         return;
       }
       loading.value = true;
-      simulateProgress(file);
+      mockProgress(file);
       const { downloadFileApi } = await import("~/api/youtubeTomp4");
       const { createFileByLink } = downloadFileApi;
       const idObj = await createFileByLink({

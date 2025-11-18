@@ -10,7 +10,7 @@
 .sys-btn.el-button.is-disabled,
 .sys-btn.el-button.is-disabled:hover {
   background: #f6f6f6;
-  border-color: #e7e7e7;
+  border-color: transparent;
 }
 .sys-btn.el-button--primary {
   --el-button-disabled-text-color: #808080;
@@ -135,4 +135,20 @@ body {
   user-drag: none;
   -webkit-user-select: none;
   user-select: none;
+}
+.el-dialog .el-dialog__close {
+  color: #000;
+  font-weight: 500;
+  width: 1.25rem;
+  height: 1.25rem;
+  filter:
+          drop-shadow(0.1px 0 0 rgba(from currentColor r g b / 0.2))
+          drop-shadow(-0.1px 0 0 rgba(from currentColor r g b / 0.2))
+          drop-shadow(0 0.1px 0 rgba(from currentColor r g b / 0.2))
+          drop-shadow(0 -0.1px 0 rgba(from currentColor r g b / 0.2));
+
+  svg {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
 }

@@ -75,6 +75,7 @@
 ./public/assets/video
 ./public/assets/video/See How It Works.mp4
 ./public/assets/video/Watch Demo.mp4
+./public/assets/video/setPublic.mp4
 ./public/assets/upload
 ./public/assets/upload/spark-md5.min.js
 ./public/assets/upload/md5.worker.js
@@ -441,6 +442,7 @@
 ./i18n/lang/el-GR.ts
 ./i18n/updateI18n.ts
 ./i18n/index.ts
+./i18n/updateI18n2.ts
 ./i18n/check.js
 ./scripts
 ./scripts/packagedVersion.js
@@ -506,6 +508,8 @@
 ./components/youtubeTomp4/videoDown.vue
 ./components/youtubeTomp4/MoreFreeTools.vue
 ./components/guest
+./components/guest/styleGlobal.scss
+./components/guest/style.scss
 ./components/guest/upload.vue
 ./components/upload
 ./components/upload/index.vue
@@ -517,8 +521,11 @@
 ./components/upload/dialog/file.vue
 ./components/upload/dialog/link.vue
 ./components/upload/dialog/result.vue
+./components/upload/setPublicVideo.vue
 ./components/upload/useUpload.ts
 ./components/upload/file.vue
+./components/upload/operationCell.vue
+./components/upload/mockProgress.ts
 ./components/upload/link.vue
 ./components/upload/useFileDrag.ts
 ./components/Footer.vue

@@ -1,0 +1,80 @@
+.customer-dialog-link {
+  @apply p-5 sm:w-[34rem];
+  color: black;
+  border-radius: 0.5rem; // 8px ÷ 16
+  width: calc(100% - 2rem);
+  padding-bottom: 12px;
+  max-width: 46.25rem; // 740px ÷ 16
+  box-shadow: 0 0.125rem 1.125rem 0 rgba(60, 115, 240, 0.1);
+
+  .el-dialog__footer {
+    padding-top: 49px;
+  }
+
+  .el-dialog__header {
+    @apply mb-5 p-0 text-base font-medium !text-black;
+
+    .el-dialog__title {
+      @apply text-[1.25rem] text-black sm:text-[1.375rem];
+    }
+  }
+
+  .el-dialog__headerbtn {
+    height: 4.125rem; // 66px ÷ 16
+    .el-icon {
+      margin-top: 0.5rem;
+      font-size: 1.5rem; // 24px ÷ 16
+      @apply text-black;
+    }
+  }
+
+  .el-button {
+    height: 44px;
+    min-width: 188px;
+    border-radius: 10px;
+    border: 1px solid #e2e4e6;
+    color: black;
+    font-size: 18px;
+
+    &:hover {
+      background: #fff;
+    }
+  }
+
+  .el-button--primary {
+    background: #6367f1;
+    color: white;
+
+    &:hover {
+      background: #6367f1;
+    }
+  }
+
+  .el-button + .el-button {
+    margin-inline-start: 8px !important;
+  }
+
+  .el-dialog__headerbtn {
+    @apply rtl:left-0 rtl:right-auto;
+  }
+}
+
+.record-dialog-upload {
+  @apply p-0 sm:w-[34rem];
+  color: black;
+  border-radius: 0.5rem; // 8px ÷ 16
+  width: calc(100% - 2rem);
+  max-width: 46.25rem; // 740px ÷ 16
+  box-shadow: 0 0.125rem 1.125rem 0 rgba(60, 115, 240, 0.1);
+
+  .el-dialog__header {
+    display: none;
+  }
+}
+
+.customer-dialog-link2 {
+  @apply p-5 sm:w-[34rem];
+  @extend .customer-dialog-link;
+  padding-bottom: 20px;
+  max-width: 34rem; // 740px ÷ 16
+}

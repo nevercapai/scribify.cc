@@ -54,8 +54,7 @@ let message = {
     welcome: {
       title: "欢迎使用 Scribify！",
       description: "在这里，您可以：",
-      transcribe:
-        "使用 Scribify 轻松转录—瞬间将语音对话转换为清晰、可搜索和可共享的文本。",
+      transcribe: "使用 Scribify 轻松转录—瞬间将语音对话转换为清晰、可搜索和可共享的文本。",
       precision: "立即获得带有说话者识别和时间戳的精确转录。",
       translate: "打破语言障碍：轻松将转录翻译成200多种语言。",
       edit: "编辑、完善并以适合您需求的格式导出转录文本。",
@@ -245,7 +244,13 @@ let message = {
         audio: "音频/视频文件",
         Uploading: "正在上传..."
       },
-      fileEmpty: "文件为空"
+      fileEmpty: "文件为空",
+      howToSetup: "如何设置？",
+      shareFilePublicly: "公开分享文件",
+      retry: "重试",
+      edit: "编辑",
+      delete: "删除",
+      updateAndRetry: "更新并重试"
     }
   },
   // 转录详情页
@@ -680,8 +685,7 @@ let message = {
     },
     seo: {
       title: "开源Nuxt SaaS样板 | NuxtPro",
-      description:
-        "包含您需要的一切的NuxtJS样板，让您的产品快速面向客户。从想法到生产只需5分钟。"
+      description: "包含您需要的一切的NuxtJS样板，让您的产品快速面向客户。从想法到生产只需5分钟。"
     },
     api: {
       title: "这是一个演示",
@@ -725,8 +729,7 @@ let message = {
     },
     HAVE_NOTHING: "没有关于音频/视频是否就绪的信息",
     HAVE_METADATA: "音频/视频的元数据已就绪",
-    HAVE_CURRENT_DATA:
-      "关于当前播放位置的数据是可用的，但没有足够的数据来播放下一帧/毫秒",
+    HAVE_CURRENT_DATA: "关于当前播放位置的数据是可用的，但没有足够的数据来播放下一帧/毫秒",
     HAVE_FUTURE_DATA: "当前及至少下一帧的数据是可用的",
     HAVE_ENOUGH_DATA: "可用数据足以开始播放",
     NETWORK_EMPTY: "音频/视频尚未初始化",
@@ -793,8 +796,7 @@ let message = {
     voluntaryCorrespondenceTitle: "2.6 自愿通信",
     scopeContent:
       "本隐私政策仅适用于我们对服务用户信息的收集和处理。本隐私政策不适用于任何链接到我们的第三方运营的服务、网站或软件（无论这些链接是由我们提供的还是其他用户分享的），也不适用于来自第三方的内容、数据、应用程序或资料。我们建议您在向任何第三方网站或软件提供任何信息之前，先查看其隐私政策。",
-    collectPrinciple:
-      "我们的指导原则是只收集我们需要的信息。以下是实际操作中的含义：",
+    collectPrinciple: "我们的指导原则是只收集我们需要的信息。以下是实际操作中的含义：",
     identityAccessContent:
       "当您注册我们的某款产品时，我们会要求您提供身份信息，例如您的姓名、电子邮件地址。这是为了提供必要的产品功能，并方便我们向您发送产品更新和其他重要信息。",
     billingInfoContent:
@@ -838,8 +840,7 @@ let message = {
     termsOfServiceTitle: "服务条款",
     lastUpdated: "最后更新：2022 年 9 月 21 日",
     thankYouMessage: "感谢您使用我们的产品！",
-    companyReference:
-      "当我们在本文档中说“公司”、“我们”、“我们的”或“我们”时，我们指的是 Scribify。",
+    companyReference: "当我们在本文档中说“公司”、“我们”、“我们的”或“我们”时，我们指的是 Scribify。",
     servicesDefinition:
       "当我们说“服务”时，我们指的是 Scribify 创建和维护的任何产品，无论是通过网络浏览器、桌面应用程序、移动应用程序还是其他格式交付。",
     termsUpdateNotice:
@@ -869,23 +870,19 @@ let message = {
       "“您”、“您的”、“您本人”等词语也包括您的员工、代理人、业务代表以及您允许通过您的帐户（定义见下文）访问服务的任何其他个人。您有责任确保所有通过您的帐户访问服务的人员均知悉并遵守本条款。",
     acceptanceContent4:
       "Scribify 保留随时自行决定修改和更新本条款的权利。所有变更一经发布即刻生效。如果您在修订条款发布后继续使用服务，即表示您接受并同意这些变更。由于变更对您具有约束力，因此请您不时查看此页面，以了解任何变更。",
-    servicesContent1:
-      "我们的服务使用户能够将语音对话转换为可搜索、翻译和与他人共享的转录文本。",
+    servicesContent1: "我们的服务使用户能够将语音对话转换为可搜索、翻译和与他人共享的转录文本。",
     servicesContent2:
       "您可以选择使用服务的免费版本（“免费服务”）或可能需要支付费用的订阅式付费版本服务（“付费服务”）。",
-    servicesContent3:
-      "我们将向您提供服务。您有责任做好一切必要安排，以便访问服务。",
+    servicesContent3: "我们将向您提供服务。您有责任做好一切必要安排，以便访问服务。",
     accountTerms1:
       "- 您有责任维护您的账户安全。如果您未能履行此安全义务，本公司将不承担任何因您未能履行此安全义务而造成的任何损失或损害。",
     accountTerms2: "- 您不得将服务用于任何非法、不道德或不道德的目的。",
     accountTerms3:
       "- 您应对您帐户下发布的所有内容和活动负责。这包括以下人员发布的内容：(a) 有权访问您的登录凭据；或 (b) 在您的帐户下拥有自己的登录信息。",
-    accountTerms4:
-      "- 您必须是人类。不允许使用“机器人”或其他自动化方法注册的账户。",
+    accountTerms4: "- 您必须是人类。不允许使用“机器人”或其他自动化方法注册的账户。",
     paymentContent1:
       "- 对于提供免费试用的付费服务，我们会在您注册时说明试用期限。试用期结束后，您需要提前付费才能继续使用服务。如果您不付费，这些服务将被终止。",
-    paymentContent2:
-      "- 如果您从免费计划升级到付费计划，我们将立即从您的卡中扣款，您的计费周期从升级当天开始。",
+    paymentContent2: "- 如果您从免费计划升级到付费计划，我们将立即从您的卡中扣款，您的计费周期从升级当天开始。",
     paymentContent3:
       "- 所有费用均不含税务机关征收的任何税费、征税或关税。如有需要，我们将代表税务机关代收这些税费，并将税费汇给税务机关。否则，您需自行承担所有税费、征税或关税。",
     paymentContent4:
@@ -904,20 +901,16 @@ let message = {
       "- 如果您的使用量显著超过其他用户的平均使用量，我们保留暂时停用您帐户的权利。当然，我们会在采取任何措施之前与您联系，除非在极少数情况下，您的使用量可能会对其他用户的服务性能产生负面影响。",
     uptimeContent3:
       "- 我们采取多种措施，通过备份、冗余和加密来保护您的数据安全。我们对通过公共互联网传输的数据强制加密。",
-    uptimeContent4:
-      "- 我们使用第三方供应商和托管合作伙伴来提供运行服务所需的必要硬件、软件、网络、存储和相关技术。",
+    uptimeContent4: "- 我们使用第三方供应商和托管合作伙伴来提供运行服务所需的必要硬件、软件、网络、存储和相关技术。",
     siteManagementContent:
       "我们保留以下权利（但没有义务）：（1）监控网站是否违反这些服务条款；（2）对我们自行决定违反法律或这些服务条款的任何人采取适当的法律行动，包括但不限于向执法部门举报该用户；（3）我们自行决定且不受限制地拒绝、限制访问、限制可用性或禁用（在技术可行的范围内）您的任何贡献或其任何部分；（4）我们自行决定且不受限制地、通知或承担责任，从网站中删除或以其他方式禁用所有过大或以任何方式对我们的系统造成负担的文件和内容；以及（5）以旨在保护我们的权利和财产并促进网站正常运行的方式管理网站。",
     copyrightContent1: "- 服务上发布的所有内容必须符合美国版权法。",
-    copyrightContent2:
-      "- 我们对您向服务提供的材料不主张任何知识产权。所有上传的材料仍归您所有。",
-    copyrightContent3:
-      "- 我们不预先筛选内容，但保留自行决定拒绝或删除通过服务提供的任何内容的权利（但没有义务）。",
+    copyrightContent2: "- 我们对您向服务提供的材料不主张任何知识产权。所有上传的材料仍归您所有。",
+    copyrightContent3: "- 我们不预先筛选内容，但保留自行决定拒绝或删除通过服务提供的任何内容的权利（但没有义务）。",
     copyrightContent4:
       "- 服务的名称、外观和风格均受公司版权©保护。保留所有权利。未经公司明确书面许可，您不得复制、抄袭或重复使用任何 HTML、CSS、JavaScript 或视觉设计元素。您必须申请许可才能将公司徽标或任何服务徽标用于推广目的。请",
     emailUs: "给我们发电子邮件",
-    copyrightContent5:
-      "请求使用徽标。如果您违反本服务条款，我们保留撤销此许可的权利。",
+    copyrightContent5: "请求使用徽标。如果您违反本服务条款，我们保留撤销此许可的权利。",
     copyrightContent6:
       "- 您同意未经公司明确的书面许可，不得复制、复印、拷贝、出售、转售或利用服务的任何部分、使用服务或访问服务。",
     copyrightContent7: "- 您不得修改其他网站以错误地暗示其与服务或公司相关。",
@@ -931,15 +924,12 @@ let message = {
     prohibitedActivitiesUserAgreement: "作为本网站的用户，您同意不：",
     prohibitedActivity1:
       "- 未经我们书面许可，系统地从网站检索数据或其他内容，以直接或间接地创建或编译集合、汇编、数据库或目录。",
-    prohibitedActivity2:
-      "- 欺骗、诈骗或误导我们和其他用户，尤其是试图了解用户密码等敏感帐户信息。",
+    prohibitedActivity2: "- 欺骗、诈骗或误导我们和其他用户，尤其是试图了解用户密码等敏感帐户信息。",
     prohibitedActivity3:
       "- 规避、禁用或以其他方式干扰本网站的安全相关功能，包括阻止或限制使用或复制任何内容或强制限制使用本网站和/或其中包含的内容的功能。",
-    prohibitedActivity4:
-      "- 我们认为，贬低、玷污或以其他方式损害我们和/或本网站。",
+    prohibitedActivity4: "- 我们认为，贬低、玷污或以其他方式损害我们和/或本网站。",
     prohibitedActivity5: "- 使用从本网站获得的任何信息来骚扰、辱骂或伤害他人。",
-    prohibitedActivity6:
-      "- 不当使用我们的支持服务或提交虚假的滥用或不当行为报告。",
+    prohibitedActivity6: "- 不当使用我们的支持服务或提交虚假的滥用或不当行为报告。",
     prohibitedActivity7: "- 以不符合任何适用法律或法规的方式使用本网站。",
     prohibitedActivity8: "- 未经授权构建或链接本网站。",
     prohibitedActivity9:
@@ -950,14 +940,10 @@ let message = {
     prohibitedActivity12: "- 试图冒充其他用户或个人或使用其他用户的用户名。",
     prohibitedActivity13:
       "- 上传或传输（或试图上传或传输）任何作为被动或主动信息收集或传输机制的材料，包括但不限于清晰图形交换格式（“gif”）、1×1像素、网络臭虫、cookies或其他类似设备（有时称为“间谍软件”或“被动收集机制”或“pcms”）。",
-    prohibitedActivity14:
-      "- 干扰、破坏或对本网站或与本网站相连的网络或服务造成不当负担。",
-    prohibitedActivity15:
-      "- 骚扰、烦扰、恐吓或威胁任何向您提供本网站任何部分的员工或代理人。",
-    prohibitedActivity16:
-      "- 试图绕过本网站为防止或限制访问本网站或本网站任何部分而设计的任何措施。",
-    prohibitedActivity17:
-      "- 复制或改编本网站的软件，包括但不限于 Flash、PHP、HTML、JavaScript 或其他代码。",
+    prohibitedActivity14: "- 干扰、破坏或对本网站或与本网站相连的网络或服务造成不当负担。",
+    prohibitedActivity15: "- 骚扰、烦扰、恐吓或威胁任何向您提供本网站任何部分的员工或代理人。",
+    prohibitedActivity16: "- 试图绕过本网站为防止或限制访问本网站或本网站任何部分而设计的任何措施。",
+    prohibitedActivity17: "- 复制或改编本网站的软件，包括但不限于 Flash、PHP、HTML、JavaScript 或其他代码。",
     prohibitedActivity18:
       "- 除适用法律允许外，不得对包含或以任何方式构成本网站一部分的任何软件进行解密、反编译、反汇编或反向工程。",
     prohibitedActivity19:
@@ -1009,7 +995,7 @@ let message = {
     YouTubetoMP4: "YouTube转MP4",
     StartFreeTrial: "免费试用",
     Blog: "博客",
-    YouTubetoMP3: 'YouTube 转 MP3'
+    YouTubetoMP3: "YouTube 转 MP3"
   },
   Footer: {
     des: "全球首个真正无限的AI转录服务。无上限，无限制，尽享创作自由。",
@@ -1017,21 +1003,10 @@ let message = {
     UseCases: "使用场景",
     Company: "公司",
     featureMenus: ["无限转录", "批量上传", "96%准确率"],
-    useCaseMenus: [
-      "所有使用场景",
-      "播客主",
-      "记者",
-      "内容创作者",
-      "研究人员",
-      "企业团队",
-      "教育工作者"
-    ],
+    useCaseMenus: ["所有使用场景", "播客主", "记者", "内容创作者", "研究人员", "企业团队", "教育工作者"],
     companyMenus: ["关于", "定价", "隐私", "条款"],
-    Resources: '资源',
-    resourcesMenus: [
-      "YouTube 转 MP4",
-      "YouTube 转 MP3"
-    ]
+    Resources: "资源",
+    resourcesMenus: ["YouTube 转 MP4", "YouTube 转 MP3"]
   },
   Index: {
     Hero: {
@@ -1060,33 +1035,26 @@ let message = {
       upload_50: "立即上传最多50个文件。",
       no_limits: "高级",
       no_surprises: "AI转录",
-      transparency:
-        "再无隐藏限制，再无意外 - 当其他服务悄悄缩减您的时长或将限制藏在细则中时，我们坚持彻底透明",
+      transparency: "再无隐藏限制，再无意外 - 当其他服务悄悄缩减您的时长或将限制藏在细则中时，我们坚持彻底透明",
       feat_unltd: "真正无限",
       feat_unltd_desc:
         '条款中没有"合理使用政策"，没有伪装成"无限"的存储限制。上传全部档案，满足所有音频转录需求。我们说到做到。',
       feat_bulk: "批量上传自由",
-      feat_bulk_desc:
-        '厌倦了"3次终身导入"或"每月10个文件"？一次性上传50个文件，不限次数。完美处理积压工作。',
+      feat_bulk_desc: '厌倦了"3次终身导入"或"每月10个文件"？一次性上传50个文件，不限次数。完美处理积压工作。',
       feat_batch: "批量处理",
-      feat_batch_desc:
-        "一夜处理整季播客。一次性上传50个采访。让AI在您睡觉时工作，醒来即获完整转录稿。",
+      feat_batch_desc: "一夜处理整季播客。一次性上传50个采访。让AI在您睡觉时工作，醒来即获完整转录稿。",
       feat_accuracy: "96%准确率",
-      feat_accuracy_desc:
-        "我们行业领先的AI可实现智能标点、支持20人讲话者分离，完美处理口音和专业术语。",
+      feat_accuracy_desc: "我们行业领先的AI可实现智能标点、支持20人讲话者分离，完美处理口音和专业术语。",
       feat_langs: "100+种语言",
-      feat_langs_desc:
-        "支持100+种语言音视频转录，可翻译至249+种语言。不同语言不加价。全球内容，统一价格。",
+      feat_langs_desc: "支持100+种语言音视频转录，可翻译至249+种语言。不同语言不加价。全球内容，统一价格。",
       feat_pro: "专业功能",
-      feat_pro_desc:
-        "词级时间戳精准定位音视频，快速对话切换时仍能准确识别讲话者，完美分段分句的格式化文本便于阅读。",
+      feat_pro_desc: "词级时间戳精准定位音视频，快速对话切换时仍能准确识别讲话者，完美分段分句的格式化文本便于阅读。",
       features: "功能"
     },
     UseCases: {
       built_for: "批量",
       heavy_users: "音视频转录",
-      join_users:
-        '专为您这样的重度用户打造 - 加入从"缩水服务"转投我们的YouTuber、内容创作者和播客主行列',
+      join_users: '专为您这样的重度用户打造 - 加入从"缩水服务"转投我们的YouTuber、内容创作者和播客主行列',
       podcasters: {
         title: "播客主",
         des: "上传全部历史节目。为每期节目创建笔记。无需再选择转录哪些内容。"
@@ -1247,8 +1215,7 @@ let message = {
       feature1Label: "无任何限制",
       feature1TitlePart1: "转录1000小时？",
       feature1TitlePart2: "价格不变",
-      feature1Description:
-        "无需计时，不必担心限额。无论每月转录10小时还是10,000小时，统一费率。无超额费用，无意外账单",
+      feature1Description: "无需计时，不必担心限额。无论每月转录10小时还是10,000小时，统一费率。无超额费用，无意外账单",
       feature1Point1Icon: "✓",
       feature1Point1Text: '无"合理使用"政策陷阱',
       feature1Point2Icon: "✓",
@@ -1311,8 +1278,7 @@ let message = {
       ctaTitle: "停止为虚假无限付费",
       ctaSubtitle: "加入数千用户行列，体验真正无限的转录服务",
       finalCta: "免费试用NeverCap",
-      heroSubtitle1:
-        "Trint 限制您每月使用 50 小时，而 Otter 限制您每月使用 10 个文件，",
+      heroSubtitle1: "Trint 限制您每月使用 50 小时，而 Otter 限制您每月使用 10 个文件，",
       heroSubtitle2: "兑现我们的实际承诺：无限制转录，无隐藏上限。"
     },
     BulkUpload: {
@@ -1320,12 +1286,10 @@ let message = {
       heroBadgeText: "批量上传自由",
       heroTitleLine1: "上传50个文件",
       heroTitleHighlight: "处理所有内容",
-      heroSubtitle:
-        "Otter仅提供3次终身导入。三次。终身只能用三次。我们提供无限上传，每次50个文件，随时满足需求",
+      heroSubtitle: "Otter仅提供3次终身导入。三次。终身只能用三次。我们提供无限上传，每次50个文件，随时满足需求",
       primaryCta: "开始批量上传 →",
       secondaryCta: "查看限制",
-      redditQuote:
-        '"我有三年播客内容需要转录。Otter说只给3次终身导入。三次。简直是侮辱"',
+      redditQuote: '"我有三年播客内容需要转录。Otter说只给3次终身导入。三次。简直是侮辱"',
       redditAuthorIcon: "📍",
       redditAuthorText: "来自r/podcasting的真实抱怨",
       comparisonSectionTitlePart1: "那些",
@@ -1351,8 +1315,7 @@ let message = {
       feature1TitlePart1: "完成你的",
       feature1TitleHighlight: "全部存档",
       feature1TitlePart2: "一夜之间",
-      feature1Description:
-        '睡前上传50个文件，醒来获得完整转录稿。无需排队、等待或"请升级"提示，尽享纯粹处理能力',
+      feature1Description: '睡前上传50个文件，醒来获得完整转录稿。无需排队、等待或"请升级"提示，尽享纯粹处理能力',
       feature1Point1Icon: "✓",
       feature1Point1Text: "50个同步上传",
       feature1Point2Icon: "✓",
@@ -1410,23 +1373,17 @@ let message = {
       useCasesTitleHighlight: "高频上传者",
       useCasesSubtitle: "批量上传拯救实际场景",
       useCase1Title: "播客存档",
-      useCase1Description:
-        "一次性上传3年节目。为全部历史内容生成转录。为每期节目创建SEO内容。",
+      useCase1Description: "一次性上传3年节目。为全部历史内容生成转录。为每期节目创建SEO内容。",
       useCase2Title: "课程制作",
-      useCase2Description:
-        "同时处理所有讲座视频。为学生创建无障碍转录。构建可搜索的课程资料。",
+      useCase2Description: "同时处理所有讲座视频。为学生创建无障碍转录。构建可搜索的课程资料。",
       useCase3Title: "采访积压",
-      useCase3Description:
-        "清理堆积如山的未转录采访。数小时完成数周的研究工作。从容应对截止期限。",
+      useCase3Description: "清理堆积如山的未转录采访。数小时完成数周的研究工作。从容应对截止期限。",
       useCase4Title: "YouTube 资料库",
-      useCase4Description:
-        "为整个频道生成字幕。从视频内容创建博客文章。提升所有视频的SEO。",
+      useCase4Description: "为整个频道生成字幕。从视频内容创建博客文章。提升所有视频的SEO。",
       useCase5Title: "会议存档",
-      useCase5Description:
-        "上传数月会议录音。生成可搜索的会议记录。重要决策永不遗漏。",
+      useCase5Description: "上传数月会议录音。生成可搜索的会议记录。重要决策永不遗漏。",
       useCase6Title: "研究数据",
-      useCase6Description:
-        "批量处理焦点小组。转录所有参与者访谈。高效分析定性数据。",
+      useCase6Description: "批量处理焦点小组。转录所有参与者访谈。高效分析定性数据。",
       ctaTitle: "告别上传限制",
       ctaSubtitle: "获得真正可用的无限批量处理",
       finalCta: "立即上传50个文件 →"
@@ -1632,21 +1589,11 @@ let message = {
           discount: "首月仅需$9.99",
           limits: {
             title: "无月度上限",
-            items: [
-              "无限总时长",
-              "每个文件最长10小时/5 GB",
-              "一次上传50个文件",
-              "优先队列"
-            ]
+            items: ["无限总时长", "每个文件最长10小时/5 GB", "一次上传50个文件", "优先队列"]
           },
           features: {
             title: "包含免费版所有功能，另加",
-            items: [
-              "单词级时间戳",
-              "高级说话人识别",
-              "格式化段落与标点",
-              "优先支持"
-            ]
+            items: ["单词级时间戳", "高级说话人识别", "格式化段落与标点", "优先支持"]
           },
           cta: {
             text: "无限时长。优先处理。批量上传。",
@@ -1661,21 +1608,11 @@ let message = {
           discount: "按年计费$107.88",
           limits: {
             title: "与月度专业版相同",
-            items: [
-              "无限总时长",
-              "每个文件最长10小时/5 GB",
-              "一次上传50个文件",
-              "优先队列"
-            ]
+            items: ["无限总时长", "每个文件最长10小时/5 GB", "一次上传50个文件", "优先队列"]
           },
           features: {
             title: "包含免费版所有功能，另加",
-            items: [
-              "单词级时间戳",
-              "高级说话人识别",
-              "格式化段落与标点",
-              "优先支持"
-            ]
+            items: ["单词级时间戳", "高级说话人识别", "格式化段落与标点", "优先支持"]
           },
           cta: {
             text: "无限时长。优先处理。批量上传。",
@@ -1684,8 +1621,7 @@ let message = {
           badge: "最佳价值 - "
         }
       ],
-      disclaimer:
-        '"无限"指无月度上限且无人工降速。合理使用政策适用于滥用自动化或转售行为。'
+      disclaimer: '"无限"指无月度上限且无人工降速。合理使用政策适用于滥用自动化或转售行为。'
     },
     ComparisonTable: {
       header: {
@@ -1795,14 +1731,12 @@ let message = {
         {
           q: "file_retention",
           question: "我的文件会保留多久？",
-          answer:
-            "免费计划：30 天。Pro 计划：永久！您的转录文本始终保存在账户中。"
+          answer: "免费计划：30 天。Pro 计划：永久！您的转录文本始终保存在账户中。"
         },
         {
           q: "data_security",
           question: "数据安全性如何？",
-          answer:
-            "我们通过SOC 2认证，采用256位加密技术。绝不使用您的内容训练AI模型。您的数据始终属于您。"
+          answer: "我们通过SOC 2认证，采用256位加密技术。绝不使用您的内容训练AI模型。您的数据始终属于您。"
         }
       ]
     },
@@ -1821,8 +1755,7 @@ let message = {
       podcasters: {
         title: "播客创作者",
         pain: '"无需再挑选哪些集数需要转录"',
-        description:
-          "一次性上传全部播客档案。生成节目备注、提升SEO，无时长限制地重复利用内容。",
+        description: "一次性上传全部播客档案。生成节目备注、提升SEO，无时长限制地重复利用内容。",
         benefits: {
           benefit1: "上传所有集数，不止3集",
           benefit2: "生成SEO友好型节目备注",
@@ -1847,8 +1780,7 @@ let message = {
       journalists: {
         title: "记者与作家",
         pain: '"截稿压力遇上上传限制"',
-        description:
-          "在截止日前批量上传所有采访。即时搜索文字稿，绝不遗漏关键引述。",
+        description: "在截止日前批量上传所有采访。即时搜索文字稿，绝不遗漏关键引述。",
         benefits: {
           benefit1: "截止日前批量上传",
           benefit2: "一次性搜索所有采访",
@@ -1873,8 +1805,7 @@ let message = {
       contentCreators: {
         title: "内容创作者",
         pain: '"无障碍服务不应昂贵"',
-        description:
-          "为整个YouTube频道添加字幕。即时生成多语言字幕并提升视频SEO。",
+        description: "为整个YouTube频道添加字幕。即时生成多语言字幕并提升视频SEO。",
         benefits: {
           benefit1: "一次性为所有视频加字幕",
           benefit2: "249种语言翻译",
@@ -1899,8 +1830,7 @@ let message = {
       researchers: {
         title: "研究人员与学者",
         pain: '"质性研究无需排队等待"',
-        description:
-          "一次性处理整个研究项目。完美识别发言者的焦点小组、访谈和小组讨论。",
+        description: "一次性处理整个研究项目。完美识别发言者的焦点小组、访谈和小组讨论。",
         benefits: {
           benefit1: "批量处理焦点小组",
           benefit2: "20人发言识别",
@@ -1925,8 +1855,7 @@ let message = {
       businessTeams: {
         title: "商务团队",
         pain: '"会议录制本该如此简单"',
-        description:
-          "直接录制会议或上传音频文件即时转写。从无限对话中构建可搜索的存档，再也不会丢失重要讨论。",
+        description: "直接录制会议或上传音频文件即时转写。从无限对话中构建可搜索的存档，再也不会丢失重要讨论。",
         benefits: {
           benefit1: "直接音频录制 & 转写",
           benefit2: "无限会议录制",
@@ -1951,8 +1880,7 @@ let message = {
       educators: {
         title: "教育工作者",
         pain: '"YouTube视频需要即时转写"',
-        description:
-          "只需粘贴YouTube链接即可获取即时转录和自动生成的字幕。将任何教育视频转化为可访问、可搜索的内容。",
+        description: "只需粘贴YouTube链接即可获取即时转录和自动生成的字幕。将任何教育视频转化为可访问、可搜索的内容。",
         benefits: {
           benefit1: "直接YouTube链接转写",
           benefit2: "自动生成视频字幕",
@@ -1982,24 +1910,21 @@ let message = {
           mike: {
             textBefore: '"我有',
             highlight: "3年的节目",
-            textAfter:
-              '未被转写。Otter让我选3个。就3个。NeverCap让我一个周末上传了全部150期节目。"',
+            textAfter: '未被转写。Otter让我选3个。就3个。NeverCap让我一个周末上传了全部150期节目。"',
             name: "Mike Rodriguez",
             role: "播客主持人"
           },
           jessica: {
             textBefore: '"作为自由记者，我负担不起Trint的',
             highlight: "$100/月",
-            textAfter:
-              '，但我也无法接受Otter每月10个文件的限制。NeverCap拯救了我的职业生涯。"',
+            textAfter: '，但我也无法接受Otter每月10个文件的限制。NeverCap拯救了我的职业生涯。"',
             name: "Jessica Park",
             role: "自由记者"
           },
           sarah: {
             textBefore: '"我们研究团队有',
             highlight: "200小时",
-            textAfter:
-              '焦点小组录音。我们用一个周末处理了所有内容，而不是按月分配分钟数。"',
+            textAfter: '焦点小组录音。我们用一个周末处理了所有内容，而不是按月分配分钟数。"',
             name: "Dr. Sarah Chen",
             role: "首席研究员"
           },
@@ -2037,8 +1962,7 @@ let message = {
       badge: "专为播客主打造",
       heroTitle: "转录您的",
       heroTitleHighlight: "完整播客档案",
-      heroSubtitle:
-        "上传全部历史内容。为每期节目生成笔记。无需再纠结哪些集数值得转录。",
+      heroSubtitle: "上传全部历史内容。为每期节目生成笔记。无需再纠结哪些集数值得转录。",
       ctaPrimary: "免费开始转录",
       ctaSecondary: "查看工作原理",
       trustBadge1: "10,000+播客主",
@@ -2068,18 +1992,15 @@ let message = {
       problems: {
         problem1: {
           title: "上传限制扼杀档案价值",
-          description:
-            "Otter免费版仅3次终身导入，Pro版每月10次。如何转录3年的节目？"
+          description: "Otter免费版仅3次终身导入，Pro版每月10次。如何转录3年的节目？"
         },
         problem2: {
           title: "错失SEO机遇",
-          description:
-            "每期未转录节目都意味着SEO流量流失。但Descript每月最多仅限30小时。"
+          description: "每期未转录节目都意味着SEO流量流失。但Descript每月最多仅限30小时。"
         },
         problem3: {
           title: "成本随规模激增",
-          description:
-            "播客发展时，转录费用暴涨。2美元/小时的超额费让扩展举步维艰。"
+          description: "播客发展时，转录费用暴涨。2美元/小时的超额费让扩展举步维艰。"
         }
       },
       solutionTitle: "NeverCap",
@@ -2111,8 +2032,7 @@ let message = {
       features: {
         feature1: {
           title: "多说话人识别",
-          description:
-            "自动识别并标记多达20位说话人 完美适用于小组讨论、访谈和双人主持节目"
+          description: "自动识别并标记多达20位说话人 完美适用于小组讨论、访谈和双人主持节目"
         },
         feature2: {
           title: "时间戳章节",
@@ -2120,8 +2040,7 @@ let message = {
         },
         feature3: {
           title: "智能排版",
-          description:
-            "自动添加段落、句子和标点 获得清晰易读的文字稿 节省数小时后期制作时间"
+          description: "自动添加段落、句子和标点 获得清晰易读的文字稿 节省数小时后期制作时间"
         },
         feature4: {
           title: "SEO优化",
@@ -2133,8 +2052,7 @@ let message = {
         },
         feature6: {
           title: "批量处理",
-          description:
-            "睡前上传50集节目 醒来即可获得完整文字稿 一夜处理全部存档内容"
+          description: "睡前上传50集节目 醒来即可获得完整文字稿 一夜处理全部存档内容"
         }
       },
       testimonialsTitle: "选择我们的",
@@ -2216,8 +2134,7 @@ let message = {
         badge: "记者与作家专享",
         title: "转录每次采访。",
         titleHighlight: "不错过任何引述。",
-        subtitle:
-          "无需选择哪些采访值得转录。一次性上传所有录音，即时全局搜索，告别上传焦虑准时交稿。",
+        subtitle: "无需选择哪些采访值得转录。一次性上传所有录音，即时全局搜索，告别上传焦虑准时交稿。",
         ctaPrimary: "开始无限上传 →",
         ctaSecondary: "查看工作原理",
         stats: {
@@ -2268,18 +2185,15 @@ let message = {
         problems: {
           uploadLimits: {
             title: "上传限制扼杀调查",
-            description:
-              "Otter专业版每月仅限10次文件导入。如何转录3周的调查采访？"
+            description: "Otter专业版每月仅限10次文件导入。如何转录3周的调查采访？"
           },
           missingQuotes: {
             title: "错失关键引述",
-            description:
-              "每段未转录的采访都可能包含报道的核心引述。但Trint每月最多只允许50小时。"
+            description: "每段未转录的采访都可能包含报道的核心引述。但Trint每月最多只允许50小时。"
           },
           costExplosion: {
             title: "截止日期导致成本飙升",
-            description:
-              "随着调查深入，转录成本飙升。每月$100的超额费用让突发新闻变得不可能。"
+            description: "随着调查深入，转录成本飙升。每月$100的超额费用让突发新闻变得不可能。"
           }
         },
         solution: {
@@ -2333,8 +2247,7 @@ let message = {
           professionalAccuracy: {
             label: "引用级准确度",
             title: "可放心引用的准确度",
-            description:
-              "我们的AI提供高准确度转录，确保您发布的引用精确可靠。编辑信赖的专业级转录。",
+            description: "我们的AI提供高准确度转录，确保您发布的引用精确可靠。编辑信赖的专业级转录。",
             points: {
               accuracyGuarantee: "96%准确率保证",
               handlesAccents: "处理专业术语",
@@ -2352,8 +2265,7 @@ let message = {
           ironclad: {
             label: "信源保护",
             title: "铁壁信源保护",
-            description:
-              "我们提供强大的安全功能，保护您的敏感访谈数据和机密信源。银行级加密保障调查安全。",
+            description: "我们提供强大的安全功能，保护您的敏感访谈数据和机密信源。银行级加密保障调查安全。",
             points: {
               accuracyGuarantee: "端到端加密",
               handlesAccents: "自动文件删除选项",
@@ -2407,8 +2319,7 @@ let message = {
       },
       testimonials: {
         jessica: {
-          quote:
-            "因上传限制，我积压了3年未转录的采访。NeverCap让我一个周末就全部搞定。彻底改变工作方式。",
+          quote: "因上传限制，我积压了3年未转录的采访。NeverCap让我一个周末就全部搞定。彻底改变工作方式。",
           name: "朴洁西卡",
           role: "自由记者 前Otter用户"
         }
@@ -2491,8 +2402,7 @@ let message = {
           label: "全球覆盖",
           title: "100+种语言",
           titleHighlight: "零限制",
-          description:
-            "通过自动翻译100+种语言触达全球观众。同时生成多语言字幕。无附加费用，翻译无月度上限。",
+          description: "通过自动翻译100+种语言触达全球观众。同时生成多语言字幕。无附加费用，翻译无月度上限。",
           points: {
             highAccuracy: "12种主要语言96%准确率",
             unlimitedTranslations: "包含无限翻译",
@@ -2557,8 +2467,7 @@ let message = {
         subtitle: "从受限方案到无限自由",
         carlos: {
           textBefore: "我制作西班牙语教育内容。NeverCap完美转录并",
-          textAfter:
-            "实现更广覆盖。无限制，只有增长。添加多语言字幕后我的频道观看量增长3倍。",
+          textAfter: "实现更广覆盖。无限制，只有增长。添加多语言字幕后我的频道观看量增长3倍。",
           highlight: "翻译为英文",
           name: "卡洛斯·马丁内斯",
           role: "YouTube教育者 • 25万订阅者"
@@ -2581,8 +2490,7 @@ let message = {
         },
         yuki: {
           textBefore: "我用5种语言创作内容。其他服务收费",
-          textAfter:
-            "。NeverCap提供无限翻译。自从使用地道母语字幕后，我的国际观众增长了400%。",
+          textAfter: "。NeverCap提供无限翻译。自从使用地道母语字幕后，我的国际观众增长了400%。",
           highlight: "每次翻译",
           name: "田中由纪",
           role: "游戏创作者 • 50万订阅者"
@@ -2638,11 +2546,9 @@ let message = {
       problemCard1Title: "上传限制扼杀研究",
       problemCard1Desc: "Otter仅提供3次终身导入。如何转录200小时的焦点小组？",
       problemCard2Title: "遗漏关键数据",
-      problemCard2Desc:
-        "每段未转录的访谈都可能包含突破性见解。但Rev最低收费2美元/分钟。",
+      problemCard2Desc: "每段未转录的访谈都可能包含突破性见解。但Rev最低收费2美元/分钟。",
       problemCard3Title: "科研经费消失",
-      problemCard3Desc:
-        "随着数据量增长，转录成本飙升。每次焦点小组500美元的费用让扩展研究难以为继。",
+      problemCard3Desc: "随着数据量增长，转录成本飙升。每次焦点小组500美元的费用让扩展研究难以为继。",
       solutionTitle: "NeverCap解决方案",
       feature1Label: "无限制",
       feature1Title: "处理您的",
@@ -2673,8 +2579,7 @@ let message = {
       conversationText5: "在农村地区，三个问题并存：成本、获取途径和交通。",
       feature3Label: "精准",
       feature3Title: "值得信赖",
-      feature3Desc:
-        "专业处理技术术语、浓重口音和领域专有词汇。精准度满足发表、同行评审和学位委员会要求。",
+      feature3Desc: "专业处理技术术语、浓重口音和领域专有词汇。精准度满足发表、同行评审和学位委员会要求。",
       feature3Point1: "医学术语与科学术语",
       feature3Point2: "100+种语言与方言",
       feature3Point3: "逐字记录与简洁阅读模式",
@@ -2683,8 +2588,7 @@ let message = {
       feature3Visual2: "受50,000+研究者信赖",
       feature4Label: "安全",
       feature4Title: "IRB合规认证",
-      feature4Desc:
-        "您的敏感研究数据受企业级安全保护。符合GDPR标准，提供HIPAA合规选项，完整审计追踪满足IRB要求。",
+      feature4Desc: "您的敏感研究数据受企业级安全保护。符合GDPR标准，提供HIPAA合规选项，完整审计追踪满足IRB要求。",
       feature4Point1: "端到端加密",
       feature4Point2: "符合GDPR和CCPA",
       feature4Point3: "自动删除策略",
@@ -2692,23 +2596,17 @@ let message = {
       useCasesTitle: "完美适用于",
       useCasesSubtitle: "从民族志到临床试验",
       useCase1Title: "焦点小组",
-      useCase1Desc:
-        "处理8-20人重叠对话。即使在激烈讨论中也能完美识别发言者。直接导出至质性分析软件。",
+      useCase1Desc: "处理8-20人重叠对话。即使在激烈讨论中也能完美识别发言者。直接导出至质性分析软件。",
       useCase2Title: "深度访谈",
-      useCase2Desc:
-        "同时处理数百份一对一访谈。保持整个数据集的一致性。即时搜索所有转录文本。",
+      useCase2Desc: "同时处理数百份一对一访谈。保持整个数据集的一致性。即时搜索所有转录文本。",
       useCase3Title: "临床研究",
-      useCase3Desc:
-        "符合HIPAA标准的患者访谈选项。精确的医学术语转录。安全处理敏感健康数据。",
+      useCase3Desc: "符合HIPAA标准的患者访谈选项。精确的医学术语转录。安全处理敏感健康数据。",
       useCase4Title: "民族志研究",
-      useCase4Desc:
-        "自然环境中的实地录音。处理背景噪音和多人对话。支持100多种语言和方言。",
+      useCase4Desc: "自然环境中的实地录音。处理背景噪音和多人对话。支持100多种语言和方言。",
       useCase5Title: "口述历史项目",
-      useCase5Desc:
-        "无限制保存完整档案。创建可搜索的历史记录。非常适合纵向和代际研究。",
+      useCase5Desc: "无限制保存完整档案。创建可搜索的历史记录。非常适合纵向和代际研究。",
       useCase6Title: "论文研究",
-      useCase6Desc:
-        "学生友好价格，功能齐全。经济高效地处理整个数据集。通过批量处理满足紧迫截止日期。",
+      useCase6Desc: "学生友好价格，功能齐全。经济高效地处理整个数据集。通过批量处理满足紧迫截止日期。",
       testimonialTitle: "获得以下机构信赖",
       testimonialText:
         "我们的研究团队有200小时的社区健康研究焦点小组录音。其他服务因成本要求我们挑选转录哪些部分。NeverCap让我们在一个周末处理了所有内容。20人说话者识别功能甚至在最混乱的讨论中也奏效——即使所有人同时发言。这个工具彻底改变了我们处理定性数据的方式。",
@@ -2731,8 +2629,7 @@ let message = {
       testimonialText3:
         "来自我们社区健康研究的焦点小组录音。其他服务因成本要求我们挑选转录片段，而NeverCap让我们能处理",
       testimonialText4Hl: "所有内容仅需一个周末",
-      testimonialText5:
-        "。20人语音识别真实有效——即使在最混乱的多人同时发言场景。该工具已",
+      testimonialText5: "。20人语音识别真实有效——即使在最混乱的多人同时发言场景。该工具已",
       testimonialText6Hl: "彻底改变",
       testimonialText7: "我们处理质性数据的方式。",
       solutionDescA:
@@ -2752,8 +2649,7 @@ let message = {
       featuresTitle: "适合每家企业",
       featuresSubtitle: "从实时录音到即时上传，我们消除了所有摩擦点",
       feature1Title: "直接在浏览器中录音",
-      feature1Desc:
-        "无需下载，无需插件。一键立即开始录音。完美音质，自动说话者检测。",
+      feature1Desc: "无需下载，无需插件。一键立即开始录音。完美音质，自动说话者检测。",
       feature1Benefit1: "一键开始录音",
       feature1Benefit2: "无需安装软件",
       feature1Benefit3: "适用于任何设备",
@@ -2761,10 +2657,8 @@ let message = {
       feature1Visual1: "点击并录音",
       feature1Visual2: "无需设置",
       feature2Title: "即时上传任何音频文件",
-      feature2Desc:
-        "有Zoom、Teams或手机录音？即时上传。支持所有主流音视频格式。无需等待，同时处理多个文件。",
-      feature2Benefit1:
-        "支持格式：MP3、MP4、M4A、MOV、AAC、WAV、OGG、OPUS、MPEG、WMA、WMV、FLAC",
+      feature2Desc: "有Zoom、Teams或手机录音？即时上传。支持所有主流音视频格式。无需等待，同时处理多个文件。",
+      feature2Benefit1: "支持格式：MP3、MP4、M4A、MOV、AAC、WAV、OGG、OPUS、MPEG、WMA、WMV、FLAC",
       feature2Benefit2: "批量上传功能",
       feature2Benefit3: "支持10小时文件",
       feature2Benefit4: "边工作边处理",
@@ -2793,8 +2687,7 @@ let message = {
       workflowTitle: "如何将",
       workflowSubtitle: "无缝记录每个重要时刻",
       workflowStep1Title: "录制或上传",
-      workflowStep1Desc:
-        "实时录制或直接下载Zoom/Google Meet/Microsoft Teams会议录音",
+      workflowStep1Desc: "实时录制或直接下载Zoom/Google Meet/Microsoft Teams会议录音",
       workflowStep2Title: "自动转录",
       workflowStep2Desc: "我们的AI将在数分钟内以96%准确率自动转录音频",
       workflowStep3Title: "协作",
@@ -2803,16 +2696,13 @@ let message = {
       workflowStep4Desc: "发现所有会议的深层洞察",
       testimonialsTitle: "团队挚爱",
       testimonialsSubtitle: "看企业如何变革会议文化",
-      testimonial1Text:
-        '"从遗漏关键细节到拥有可搜索的对话存档。直接录音功能确保重要讨论永不遗漏。"',
+      testimonial1Text: '"从遗漏关键细节到拥有可搜索的对话存档。直接录音功能确保重要讨论永不遗漏。"',
       testimonial1AuthorName: "James Kim",
       testimonial1AuthorRole: "TechCorp产品经理",
-      testimonial2Text:
-        '"Otter曾限制我们每月10次文件上传。现在可即时上传所有客户通话，彻底改变了销售团队的跟进方式。"',
+      testimonial2Text: '"Otter曾限制我们每月10次文件上传。现在可即时上传所有客户通话，彻底改变了销售团队的跟进方式。"',
       testimonial2AuthorName: "Sarah Rodriguez",
       testimonial2AuthorRole: "ConsultPro销售总监",
-      testimonial3Text:
-        '"跨月会议搜索功能在审计中拯救了我们，秒速找到每个决策和审批记录。"',
+      testimonial3Text: '"跨月会议搜索功能在审计中拯救了我们，秒速找到每个决策和审批记录。"',
       testimonial3AuthorName: "Mark Liu",
       testimonial3AuthorRole: "FinanceHub首席运营官",
       ctaTitle: "不再丢失重要对话",
@@ -2849,8 +2739,7 @@ let message = {
       feature1Point3: "批量处理整个播放列表",
       feature1Point4: "支持私有视频（需授权）",
       feature2Title: "自动生成字幕",
-      feature2Desc:
-        "立即为所有教育视频创建精准字幕。为听障学生、非母语者或偏好阅读的学习者提供无障碍内容。",
+      feature2Desc: "立即为所有教育视频创建精准字幕。为听障学生、非母语者或偏好阅读的学习者提供无障碍内容。",
       feature2Point1: "SRT、VTT和TXT导出格式",
       feature2Point2: "单词级时间戳实现完美同步",
       feature2Point3: "轻松编辑和自定义字幕",
@@ -2890,23 +2779,17 @@ let message = {
       useCasesTitle: "满足所有",
       useCasesSubtitle: "了解教育工作者如何使用NeverCap提升学习效果",
       useCase1Title: "录播课程",
-      useCase1Text:
-        "转录整学期的录播课程。学生可搜索特定主题、复习关键概念，不错过任何重要信息。",
+      useCase1Text: "转录整学期的录播课程。学生可搜索特定主题、复习关键概念，不错过任何重要信息。",
       useCase2Title: "在线课程",
-      useCase2Text:
-        "通过100+种语言翻译，让国际学生无障碍学习在线课程。提升注册率与满意度。",
+      useCase2Text: "通过100+种语言翻译，让国际学生无障碍学习在线课程。提升注册率与满意度。",
       useCase3Title: "学习资料",
-      useCase3Text:
-        "使用AI将视频教程和讲座的音频文件转录为学习指南。适合偏好阅读或需快速检索复习内容的学生。",
+      useCase3Text: "使用AI将视频教程和讲座的音频文件转录为学习指南。适合偏好阅读或需快速检索复习内容的学生。",
       useCase4Title: "无障碍合规",
-      useCase4Text:
-        "为所有视频内容提供字幕和文本，满足无障碍要求。确保每位学生平等获取。",
+      useCase4Text: "为所有视频内容提供字幕和文本，满足无障碍要求。确保每位学生平等获取。",
       useCase5Title: "翻转课堂",
-      useCase5Text:
-        "课前分享带文本的视频讲座。学生可自主预习，为课堂讨论做好准备。",
+      useCase5Text: "课前分享带文本的视频讲座。学生可自主预习，为课堂讨论做好准备。",
       useCase6Title: "研究与引用",
-      useCase6Text:
-        "通过时间戳帮助学生准确引用视频来源。专为研究项目和学术论文设计。",
+      useCase6Text: "通过时间戳帮助学生准确引用视频来源。专为研究项目和学术论文设计。",
       testimonialTitle: "深受",
       testimonialSubtitle: "了解全球教师选择NeverCap的原因",
       testimonialAuthorName: "Karen Mitchell教授",
@@ -2959,15 +2842,11 @@ let message = {
         ]
       },
       part4: {
-        content: [
-          "以下是下载YouTube视频为MP4文件的5大优势",
-          "YouTube视频下载为MP4文件"
-        ],
+        content: ["以下是下载YouTube视频为MP4文件的5大优势", "YouTube视频下载为MP4文件"],
         list: [
           {
             title: "节省数据费用：",
-            content:
-              "通常，在YouTube上观看视频会消耗大量移动数据。通过下载离线观看，您可以避免这些不必要的费用。"
+            content: "通常，在YouTube上观看视频会消耗大量移动数据。通过下载离线观看，您可以避免这些不必要的费用。"
           },
           {
             title: "随时随地观看：",
@@ -2975,8 +2854,7 @@ let message = {
           },
           {
             title: "轻松存档与保存：",
-            content:
-              "将视频保存为MP4格式，便于建立个人收藏，尤其是对您认为真正有价值或重要的内容。"
+            content: "将视频保存为MP4格式，便于建立个人收藏，尤其是对您认为真正有价值或重要的内容。"
           },
           {
             title: "分享更简单：",
@@ -3050,13 +2928,11 @@ let message = {
           },
           {
             question: "哪些因素会影响下载YouTube视频所需的时间？",
-            answer:
-              "虽然我们确保最快的下载体验，但下载时间也受视频长度和您的网络连接速度等因素影响。"
+            answer: "虽然我们确保最快的下载体验，但下载时间也受视频长度和您的网络连接速度等因素影响。"
           },
           {
             question: "使用智能手机下载MP4视频时，文件保存在哪里？",
-            answer:
-              '在智能手机上下载MP4文件后，通常可在设备的文件管理器应用中找到"下载"文件夹。'
+            answer: '在智能手机上下载MP4文件后，通常可在设备的文件管理器应用中找到"下载"文件夹。'
           },
           {
             question: "将YouTube视频下载为MP4会降低画质吗？",
@@ -3082,8 +2958,7 @@ let message = {
         steps: [
           {
             title: "免费音频和视频",
-            content:
-              "只需几秒钟即可将音频和视频文件转换为文本，每天 3 个免费成绩单。"
+            content: "只需几秒钟即可将音频和视频文件转换为文本，每天 3 个免费成绩单。"
           },
           {
             title: "将音频文件转换为文本",
@@ -3092,15 +2967,13 @@ let message = {
           },
           {
             title: "转录 YouTube 视频",
-            content:
-              "将 YouTube 视频转换为准确的文本或字幕。只需粘贴 YouTube 链接即可。"
+            content: "将 YouTube 视频转换为准确的文本或字幕。只需粘贴 YouTube 链接即可。"
           }
         ],
         stepsNew: [
           {
             title: "免费音频和视频转录",
-            content:
-              "在几秒钟内将音频和视频文件转换为文本。每天 3 份免费成绩单。"
+            content: "在几秒钟内将音频和视频文件转换为文本。每天 3 份免费成绩单。"
           },
           {
             title: "将音频文件转换为文本",
@@ -3109,188 +2982,189 @@ let message = {
           },
           {
             title: "转录 YouTube 视频",
-            content:
-              "将 YouTube 视频转换为准确的文本或字幕。只需粘贴 YouTube 链接即可。"
+            content: "将 YouTube 视频转换为准确的文本或字幕。只需粘贴 YouTube 链接即可。"
           }
         ]
       },
       MoreFreeTools: {
-        "title": "更多免费工具",
-        "title_des": "探索我们的其他免费转换工具",
-        "YouTubeToMP": "YouTube 转 MP3",
-        "YouTubeToMP_des": "将 YouTube 视频转换为 MP3 格式以供离线观看。立即下载高质量视频。",
-        "AITranscription": "人工智能转录",
-        "AITranscription_des": "音频和视频文件转录准确率高达 96%。所有内容均可无限量转录。"
+        title: "更多免费工具",
+        title_des: "探索我们的其他免费转换工具",
+        YouTubeToMP: "YouTube 转 MP3",
+        YouTubeToMP_des: "将 YouTube 视频转换为 MP3 格式以供离线观看。立即下载高质量视频。",
+        AITranscription: "人工智能转录",
+        AITranscription_des: "音频和视频文件转录准确率高达 96%。所有内容均可无限量转录。"
       }
     },
     YouTubeToMP3: {
-      "err1": "YouTube 链接格式错误。",
-      "err2": "抱歉！我们目前仅支持 YouTube 链接。如果您需要其他网站的支持，我们会在将来添加时及时通知您。",
-      "part1": {
-        "title": "将 YouTube 视频转换为 MP3",
-        "title_des": "几秒钟内从 YouTube 视频中提取音频",
-        "placeholder": "在此处粘贴您的 Youtube 链接",
-        "clear_icon": "清除输入",
-        "Download": "转变",
-        "loading_text": "处理要转换的链接。留在页面上。",
-        "howToDownload": "如何转换？",
-        "tutorial": "观看教程"
+      err1: "YouTube 链接格式错误。",
+      err2: "抱歉！我们目前仅支持 YouTube 链接。如果您需要其他网站的支持，我们会在将来添加时及时通知您。",
+      part1: {
+        title: "将 YouTube 视频转换为 MP3",
+        title_des: "几秒钟内从 YouTube 视频中提取音频",
+        placeholder: "在此处粘贴您的 Youtube 链接",
+        clear_icon: "清除输入",
+        Download: "转变",
+        loading_text: "处理要转换的链接。留在页面上。",
+        howToDownload: "如何转换？",
+        tutorial: "观看教程"
       },
-      "freeResources": {
-        "linkTitle": "由 {NeverCap} 提供支持",
-        "linkTitle2": "- 完全无限制的 AI 转录",
-        "title": "免费资源",
-        "stepsNew": [
+      freeResources: {
+        linkTitle: "由 {NeverCap} 提供支持",
+        linkTitle2: "- 完全无限制的 AI 转录",
+        title: "免费资源",
+        stepsNew: [
           {
-            "title": "免费音频和视频转录",
-            "content": "在几秒钟内将音频和视频文件转换为文本。每天转录 3 个文件。"
+            title: "免费音频和视频转录",
+            content: "在几秒钟内将音频和视频文件转换为文本。每天转录 3 个文件。"
           },
           {
-            "title": "将音频文件提取为文本",
-            "content": "上传 MP3、MP4、WAV、MOV。",
-            "content2": "下载 DOCX、TXT、SRT 等。"
+            title: "将音频文件提取为文本",
+            content: "上传 MP3、MP4、WAV、MOV。",
+            content2: "下载 DOCX、TXT、SRT 等。"
           },
           {
-            "title": "转录 YouTube 视频",
-            "content": "将 YouTube 视频转换为准确的文本或字幕，并免费粘贴链接。"
+            title: "转录 YouTube 视频",
+            content: "将 YouTube 视频转换为准确的文本或字幕，并免费粘贴链接。"
           }
         ]
       },
-      "part2": {
-        "title": "只需 3 个简单步骤，即可将 YouTube 视频转换为可下载的 MP3 文件",
-        "steps": [
+      part2: {
+        title: "只需 3 个简单步骤，即可将 YouTube 视频转换为可下载的 MP3 文件",
+        steps: [
           {
-            "title": "复制 URL",
-            "content": "打开目标 YouTube 视频，然后从浏览器的地址栏复制链接。"
+            title: "复制 URL",
+            content: "打开目标 YouTube 视频，然后从浏览器的地址栏复制链接。"
           },
           {
-            "title": "粘贴链接",
-            "content": "插入您的视频下载工具并将 URL 粘贴到其输入字段中。"
+            title: "粘贴链接",
+            content: "插入您的视频下载工具并将 URL 粘贴到其输入字段中。"
           },
           {
-            "title": "转换和下载",
-            "content": "转换完成后，下载您的 MP3 文件并保存。"
+            title: "转换和下载",
+            content: "转换完成后，下载您的 MP3 文件并保存。"
           }
         ]
       },
-      "part3": {
-        "content": [
+      part3: {
+        content: [
           "想要将 YouTube 视频转换为 MP3 以便随时收听吗？",
           "无论是在地铁、飞机上，还是在整理播客、课程内容或重要档案时，我们常常会遇到无法随时访问文件的困扰。我们的转换工具可以帮您解决这个问题。",
           "只需复制 YouTube 链接，粘贴到转换器中，一键即可将视频转换为高品质 MP3 音频。无需网络连接，即可随时保存、收听和存档。"
         ]
       },
-      "part4": {
-        "content": [
-          "以下是转换的 5 大好处",
-          "YouTube 视频转 MP3 文件"
-        ],
-        "list": [
+      part4: {
+        content: ["以下是转换的 5 大好处", "YouTube 视频转 MP3 文件"],
+        list: [
           {
-            "title": "节省存储空间：",
-            "content": "MP3 文件更小，减少了 YouTube 的存储空间。下载离线观看文件可节省移动数据流量，并在有网络时使用。"
+            title: "节省存储空间：",
+            content: "MP3 文件更小，减少了 YouTube 的存储空间。下载离线观看文件可节省移动数据流量，并在有网络时使用。"
           },
           {
-            "title": "节省电池：",
-            "content": "观看 YouTube 视频时，他们提供缓冲服务，使用易于监听的连接。无需再担心缓冲。"
+            title: "节省电池：",
+            content: "观看 YouTube 视频时，他们提供缓冲服务，使用易于监听的连接。无需再担心缓冲。"
           },
           {
-            "title": "轻松存档和保存：",
-            "content": "一些视频或 MP3 可以轻松构建您的个人库——无论是用于教育内容、音乐档案还是重要内容。"
+            title: "轻松存档和保存：",
+            content: "一些视频或 MP3 可以轻松构建您的个人库——无论是用于教育内容、音乐档案还是重要内容。"
           },
           {
-            "title": "更简单的共享：",
-            "content": "分享 MP3 文件比 YouTube 链接方便得多。您可以通过 WhatsApp 或 Instagram 等应用程序将文件发送给朋友，省去了打开 YouTube 的入门成本。"
+            title: "更简单的共享：",
+            content:
+              "分享 MP3 文件比 YouTube 链接方便得多。您可以通过 WhatsApp 或 Instagram 等应用程序将文件发送给朋友，省去了打开 YouTube 的入门成本。"
           },
           {
-            "title": "即时查看，广泛灵活性：",
-            "content": "通过将 YouTube 视频转换为您需要的任意格式，可以访问更广泛的喜爱视频，并且 MP3 格式可以立即顺利地结合在一起，而无需尴尬地等待加载。"
+            title: "即时查看，广泛灵活性：",
+            content:
+              "通过将 YouTube 视频转换为您需要的任意格式，可以访问更广泛的喜爱视频，并且 MP3 格式可以立即顺利地结合在一起，而无需尴尬地等待加载。"
           }
         ]
       },
-      "part5": {
-        "title": "为什么我们的转换器脱颖而出",
-        "cards": [
+      part5: {
+        title: "为什么我们的转换器脱颖而出",
+        cards: [
           {
-            "title": "一键式操作",
-            "content": "轻松设置和直观操作。"
+            title: "一键式操作",
+            content: "轻松设置和直观操作。"
           },
           {
-            "title": "极速，无限",
-            "content": "以最快速度转换和下载 — 无上限，无限制。"
+            title: "极速，无限",
+            content: "以最快速度转换和下载 — 无上限，无限制。"
           },
           {
-            "title": "即时转换",
-            "content": "立即处理您的文件，无需等待。"
+            title: "即时转换",
+            content: "立即处理您的文件，无需等待。"
           },
           {
-            "title": "零广告，零干扰",
-            "content": "享受干净的界面，没有弹出窗口、横幅或中断 - 只有流畅、不间断的转换。"
+            title: "零广告，零干扰",
+            content: "享受干净的界面，没有弹出窗口、横幅或中断 - 只有流畅、不间断的转换。"
           },
           {
-            "title": "原装品质保证",
-            "content": "您的下载内容将保留源视频的完整分辨率，以便每次都能实现像素完美的播放。"
+            title: "原装品质保证",
+            content: "您的下载内容将保留源视频的完整分辨率，以便每次都能实现像素完美的播放。"
           },
           {
-            "title": "可在任何地方使用",
-            "content": "与任何设备上的任何浏览器完全兼容。"
+            title: "可在任何地方使用",
+            content: "与任何设备上的任何浏览器完全兼容。"
           }
         ]
       },
-      "part6": {
-        "title": [
-          "最大化 YouTube 转 MP3 的转换率",
-          "使用我们的转换器"
-        ],
-        "title_des": "轻松将 YouTube 转换为 MP3 — 快速、简单且免费",
-        "content": [
+      part6: {
+        title: ["最大化 YouTube 转 MP3 的转换率", "使用我们的转换器"],
+        title_des: "轻松将 YouTube 转换为 MP3 — 快速、简单且免费",
+        content: [
           "这就是我们的优势所在。我们设计的用户友好界面，人人适用——无需任何技术技能。无论您的经验水平如何，都能立即转换视频。无需注册，轻松上手——您下载的 MP3 将保持原始视频质量和清晰度，与您在 YouTube 上观看时的效果完全一致。",
           "速度也很重要。您可以快速下载多个文件，无广告，无需担心设备问题。无论您使用 Windows、macOS、Linux、Android 还是 iOS 系统，无论是智能手机、平板电脑还是台式电脑，都可以轻松下载视频。"
         ]
       },
-      "part7": {
-        "title": "将 YouTube 转换为 MP3 的关键问题",
-        "list": [
+      part7: {
+        title: "将 YouTube 转换为 MP3 的关键问题",
+        list: [
           {
-            "question": "我可以将受版权保护的 YouTube 视频转换为 MP3 吗？",
-            "answer": "虽然技术上可行，但未经许可转换受版权保护的内容可能违反 YouTube 的服务条款和版权法。请务必确保您有权转换内容或仅将其用于个人非商业用途。"
+            question: "我可以将受版权保护的 YouTube 视频转换为 MP3 吗？",
+            answer:
+              "虽然技术上可行，但未经许可转换受版权保护的内容可能违反 YouTube 的服务条款和版权法。请务必确保您有权转换内容或仅将其用于个人非商业用途。"
           },
           {
-            "question": "这个转换工具安全吗？",
-            "answer": "是的，我们的转换器绝对安全可靠。我们不会存储您的任何数据或文件，也不存在恶意软件或病毒的风险。转换过程直接且安全。"
+            question: "这个转换工具安全吗？",
+            answer:
+              "是的，我们的转换器绝对安全可靠。我们不会存储您的任何数据或文件，也不存在恶意软件或病毒的风险。转换过程直接且安全。"
           },
           {
-            "question": "YouTube 转 MP3 的转换支持哪些语言？",
-            "answer": "我们的转换器支持 YouTube 上所有语言。音频将按原视频的格式准确提取，保留原始语言和音频质量。"
+            question: "YouTube 转 MP3 的转换支持哪些语言？",
+            answer: "我们的转换器支持 YouTube 上所有语言。音频将按原视频的格式准确提取，保留原始语言和音频质量。"
           },
           {
-            "question": "哪些因素会影响转换 YouTube 视频所需的时间？",
-            "answer": "转换时间取决于多种因素：视频时长、网络连接速度以及当前服务器负载。大多数 10 分钟以内的视频转换时间不到 30 秒。"
+            question: "哪些因素会影响转换 YouTube 视频所需的时间？",
+            answer:
+              "转换时间取决于多种因素：视频时长、网络连接速度以及当前服务器负载。大多数 10 分钟以内的视频转换时间不到 30 秒。"
           },
           {
-            "question": "当我使用智能手机转换和下载 MP3 时，它保存在哪里？",
-            "answer": "在大多数智能手机上，转换后的 MP3 文件会保存到“下载”文件夹中。在 iPhone 上，它们可能会保存到“文件”应用中。在安卓设备上，请在文件管理器或音乐应用中查看“下载”文件夹。"
+            question: "当我使用智能手机转换和下载 MP3 时，它保存在哪里？",
+            answer:
+              "在大多数智能手机上，转换后的 MP3 文件会保存到“下载”文件夹中。在 iPhone 上，它们可能会保存到“文件”应用中。在安卓设备上，请在文件管理器或音乐应用中查看“下载”文件夹。"
           },
           {
-            "question": "将 YouTube 视频转换为 MP3 会降低音频质量吗？",
-            "answer": "MP3 是一种纯音频格式，因此不包含视频部分。音频质量将保留源视频中可用的最高比特率，通常为 128-320 kbps，具体取决于原始上传质量。"
+            question: "将 YouTube 视频转换为 MP3 会降低音频质量吗？",
+            answer:
+              "MP3 是一种纯音频格式，因此不包含视频部分。音频质量将保留源视频中可用的最高比特率，通常为 128-320 kbps，具体取决于原始上传质量。"
           }
         ]
       },
-      "MoreFreeTools": {
-        "title": "更多免费工具",
-        "title_des": "探索我们的其他免费转换工具",
-        "YouTubeToMP": "YouTube 转 MP4",
-        "YouTubeToMP_des": "将 YouTube 视频转换为 MP4 格式以供离线观看。立即下载高质量视频。",
-        "AITranscription": "人工智能转录",
-        "AITranscription_des": "音频和视频文件转录准确率高达 96%。所有内容均可无限量转录。"
+      MoreFreeTools: {
+        title: "更多免费工具",
+        title_des: "探索我们的其他免费转换工具",
+        YouTubeToMP: "YouTube 转 MP4",
+        YouTubeToMP_des: "将 YouTube 视频转换为 MP4 格式以供离线观看。立即下载高质量视频。",
+        AITranscription: "人工智能转录",
+        AITranscription_des: "音频和视频文件转录准确率高达 96%。所有内容均可无限量转录。"
       },
-      "videoDownload": {
-        "title": "将 YouTube 链接转换为 MP3。免费、快速且无广告。",
-        "description": "感谢您选择我们的服务！我们非常感谢您的信任，并希望这能提升您的体验。如果您能与朋友分享我们的网站，那将是我们莫大的帮助。",
-        "downloadButton": "下载",
-        "TranscribeButton": "录制",
-        "downloadError": "转换错误。"
+      videoDownload: {
+        title: "将 YouTube 链接转换为 MP3。免费、快速且无广告。",
+        description:
+          "感谢您选择我们的服务！我们非常感谢您的信任，并希望这能提升您的体验。如果您能与朋友分享我们的网站，那将是我们莫大的帮助。",
+        downloadButton: "下载",
+        TranscribeButton: "录制",
+        downloadError: "转换错误。"
       }
     }
   },
@@ -3330,26 +3204,22 @@ let message = {
         {
           icon: "🎯",
           title: "无与伦比的准确度",
-          description:
-            "我们的AI模型持续优化，提供超96%的转录准确率，主要语言通过高级优化可达99%。"
+          description: "我们的AI模型持续优化，提供超96%的转录准确率，主要语言通过高级优化可达99%。"
         },
         {
           icon: "🌍",
           title: "全球语言支持",
-          description:
-            "支持100+种语言的语音识别和249+种语言的翻译能力，让您的内容真正全球化。"
+          description: "支持100+种语言的语音识别和249+种语言的翻译能力，让您的内容真正全球化。"
         },
         {
           icon: "⚡",
           title: "闪电般快速处理",
-          description:
-            "数分钟即可处理数小时的音视频内容。优化的AI流程确保您在保持质量的同时快速获取转录稿。"
+          description: "数分钟即可处理数小时的音视频内容。优化的AI流程确保您在保持质量的同时快速获取转录稿。"
         },
         {
           icon: "🔒",
           title: "企业级安全",
-          description:
-            "数据安全是我们的首要任务。采用行业标准加密技术，遵守全球隐私法规，确保您的内容安全保密。"
+          description: "数据安全是我们的首要任务。采用行业标准加密技术，遵守全球隐私法规，确保您的内容安全保密。"
         }
       ]
     },
@@ -3396,11 +3266,9 @@ let message = {
     collectionTitle: "2. 我们收集的内容及原因",
     collectionPrinciple: "我们的指导原则是仅收集必要信息。具体包括：",
     identityTitle: "2.1 身份与访问",
-    identityDescription:
-      "注册产品时我们会要求提供姓名、电子邮箱等身份信息，以提供核心功能并发送产品更新等重要通知。",
+    identityDescription: "注册产品时我们会要求提供姓名、电子邮箱等身份信息，以提供核心功能并发送产品更新等重要通知。",
     billingTitle: "2.2 账单信息",
-    billingDescription:
-      "订阅付费产品时需要提供付款信息和账单地址。付款信息直接提交至支付处理器，不经过我们服务器。",
+    billingDescription: "订阅付费产品时需要提供付款信息和账单地址。付款信息直接提交至支付处理器，不经过我们服务器。",
     productInteractionsTitle: "2.3 产品交互",
     productInteractionsDescription:
       "您在产品账户中上传/接收/存储的内容会保存在我们服务器上。除非您删除，否则这些内容将在账户有效期内保留。",
@@ -3413,8 +3281,7 @@ let message = {
     cookiesDescription2:
       "Cookie是浏览器存储的文本片段，可记忆登录信息和网站偏好，也会收集浏览器类型、操作系统、访问页面、停留时长、浏览内容等点击流数据。您可在浏览器设置中调整Cookie保留设置或屏蔽单个Cookie，但禁用Cookie将导致应用无法运行且部分服务异常。",
     correspondenceTitle: "2.6 主动通信",
-    correspondenceDescription:
-      "当您通过邮件咨询问题时，我们会保留通信记录（含邮箱地址）以便后续查阅历史记录。",
+    correspondenceDescription: "当您通过邮件咨询问题时，我们会保留通信记录（含邮箱地址）以便后续查阅历史记录。",
     accessTitle: "3. 我们访问或共享信息的场景",
     accessDescription1:
       "提供您请求的产品或服务。我们使用第三方子处理器（包括云服务和分析提供商）来运营应用和提供服务。",
@@ -3435,15 +3302,13 @@ let message = {
       "我们的产品和服务运营于美国。欧盟、英国或其他非美国地区的用户请注意，您提供的所有信息都将传输并存储在美国。使用我们的网站/服务即表示您同意此传输。",
     childrenTitle: "7. 儿童隐私",
     updatesTitle: "8. 隐私政策更新",
-    updatesDescription:
-      "我们可能根据法规要求或实践变化更新本政策。重大变更时会更新页首日期。",
+    updatesDescription: "我们可能根据法规要求或实践变化更新本政策。重大变更时会更新页首日期。",
     contactTitle: "9. 联系我们",
     websiteUrl: "https://www.nevercap.ai/",
     at: "：",
     childrenDescription:
       "本服务不面向儿童，我们不会有意收集13岁以下儿童的个人信息。如您未满13岁，请勿通过本服务提交任何个人信息。若您发现儿童违反本政策向我们提供了个人信息，请联系 {at} {email}。",
-    contactDescription:
-      "如对本隐私政策有任何疑问、意见或投诉，请联系 {at} {email}，我们将尽快处理您的投诉。",
+    contactDescription: "如对本隐私政策有任何疑问、意见或投诉，请联系 {at} {email}，我们将尽快处理您的投诉。",
     policyDescriptionA:
       "本政策描述了{NeverCap}（以下简称“NeverCap”、“我们的”、“我们”）在您使用我们的服务、网站（{url}）和软件（统称为“服务”）时如何收集、使用和披露您的个人信息。"
   },
@@ -3469,25 +3334,19 @@ let message = {
     termsRevision:
       "NeverCap保留随时自行修订和更新这些条款的权利。所有更改在发布后立即生效。您在修订条款发布后继续使用服务即表示您接受并同意这些更改。您应定期检查本页面以了解任何更改，因为它们对您具有约束力。",
     servicesTitle: "2. NeverCap的服务",
-    servicesDescription1:
-      "我们的服务使用户能够将语音对话转换为可搜索、翻译并与他人共享的转录文本。",
-    servicesOptions:
-      "您可以选择使用服务的免费版本（“免费服务”）或需要支付费用的订阅付费版本（“付费服务”）。",
-    servicesAccess:
-      "我们将向您提供服务。您负责安排访问服务所需的所有必要准备。",
+    servicesDescription1: "我们的服务使用户能够将语音对话转换为可搜索、翻译并与他人共享的转录文本。",
+    servicesOptions: "您可以选择使用服务的免费版本（“免费服务”）或需要支付费用的订阅付费版本（“付费服务”）。",
+    servicesAccess: "我们将向您提供服务。您负责安排访问服务所需的所有必要准备。",
     accountTermsTitle: "3. 账户条款",
-    accountSecurity:
-      "您有责任维护账户的安全。公司对您未能遵守此安全义务造成的任何损失或损害不承担任何责任。",
+    accountSecurity: "您有责任维护账户的安全。公司对您未能遵守此安全义务造成的任何损失或损害不承担任何责任。",
     lawfulUse: "您不得将服务用于任何非法、不道德或不道德的目的。",
     contentResponsibility:
       "您对账户下发布的所有内容及发生的所有活动负责。这包括以下人员发布的内容：(a) 拥有您登录凭据的人；或 (b) 在您账户下拥有自己登录权限的人。",
-    humanRequirement:
-      "您必须是人类。不允许通过“机器人”或其他自动化方法注册账户。",
+    humanRequirement: "您必须是人类。不允许通过“机器人”或其他自动化方法注册账户。",
     paymentTitle: "4. 付款、退款和计划变更",
     freeTrial:
       "对于提供免费试用的付费服务，我们会在您注册时说明试用时长。试用期结束后，您需要预付费用以继续使用服务。如果您不付款，这些服务将终止。",
-    upgradePolicy:
-      "如果您从免费计划升级到付费计划，我们将立即扣款，您的计费周期从升级当天开始。",
+    upgradePolicy: "如果您从免费计划升级到付费计划，我们将立即扣款，您的计费周期从升级当天开始。",
     taxes:
       "所有费用均不含税务机构征收的任何税款、费用或关税。在需要时，我们将代表税务机构收取这些税款并将其缴纳给税务机构。否则，您应负责支付所有税款、费用或关税。",
     refunds:
@@ -3497,8 +3356,7 @@ let message = {
       "如果您在任何付费时间结束前取消服务，取消将立即生效，并且您将不再被收费。我们不会自动按比例退还最后一个计费周期中未使用的时间。",
     terminationRights:
       "我们有权随时以任何理由暂停或终止您的账户，并拒绝您当前或未来使用我们的服务。暂停意味着您将无法访问账户或账户中的任何内容。终止还将导致您的账户或对账户的访问被删除，以及账户中所有内容的没收和放弃。我们还保留随时以任何理由拒绝任何人使用服务的权利。我们设置此条款是因为从统计数据来看，在我们服务的数十万个账户中，至少有一个在做一些恶意行为。",
-    abusePolicy:
-      "对公司员工或官员的口头、身体、书面或其他形式的虐待（包括虐待或报复的威胁）可能导致账户立即终止。",
+    abusePolicy: "对公司员工或官员的口头、身体、书面或其他形式的虐待（包括虐待或报复的威胁）可能导致账户立即终止。",
     submissionsTitle: "6. 提交内容",
     submissionsDescription:
       "您承认并同意，您向我们提供的有关网站的任何问题、评论、建议、想法、反馈或其他信息（“提交内容”）均为非保密内容，并成为我们的独家财产。我们将拥有包括所有知识产权在内的独家权利，并有权出于任何合法目的（商业或其他）无限制地使用和传播这些提交内容，无需向您确认或补偿。您在此放弃对任何此类提交内容的所有精神权利，并声明任何此类提交内容均为您原创或您有权提交。您同意，对于您提交内容中任何专有权的所谓或实际侵权或盗用，您不得对我们采取任何追索行动。",
@@ -3507,33 +3365,26 @@ let message = {
       "您使用服务需自行承担风险。我们以“按现状”和“按可用”为基础提供这些服务。我们不为大多数服务提供服务水平协议，但非常重视应用程序的正常运行时间。",
     throttlingPolicy:
       "在极少数情况下，如果验证发现用户的活动对其他用户的服务稳定性和性能产生负面影响，我们保留临时限制或限制账户访问的权利。在除最紧急情况外的所有情况下，我们将在采取行动前与您联系以寻找解决方案。",
-    dataSecurity:
-      "我们通过备份、冗余和加密等多种措施来保护和保护您的数据。我们对通过公共互联网传输的数据强制加密。",
-    thirdPartyVendors:
-      "我们使用第三方供应商和托管合作伙伴来提供运行服务所需的硬件、软件、网络、存储和相关技术。",
+    dataSecurity: "我们通过备份、冗余和加密等多种措施来保护和保护您的数据。我们对通过公共互联网传输的数据强制加密。",
+    thirdPartyVendors: "我们使用第三方供应商和托管合作伙伴来提供运行服务所需的硬件、软件、网络、存储和相关技术。",
     siteManagementTitle: "8. 网站管理",
     siteManagementDescription:
       "我们保留以下权利（但无义务）：(1) 监控网站是否违反这些服务条款；(2) 对我们自行认定违反法律或这些服务条款的任何人采取适当的法律行动，包括但不限于向执法机关报告该用户；(3) 在我们自行决定且无限制的情况下，拒绝、限制访问、限制可用性或禁用（在技术可行的范围内）您的贡献或其任何部分；(4) 在我们自行决定且无通知或责任的情况下，从网站中删除或以其他方式禁用所有过大或对我们的系统造成负担的文件和内容；(5) 以旨在保护我们权利和财产并促进网站正常运作的方式管理网站。",
     copyrightTitle: "9. 版权和内容所有权",
     copyrightCompliance: "在服务上发布的所有内容必须遵守美国版权法。",
-    ipRights:
-      "我们对您提供给服务的材料不主张任何知识产权。所有上传的材料仍归您所有。",
-    contentModeration:
-      "我们不会预先筛选内容，但保留自行决定拒绝或删除通过服务提供的任何内容的权利（但无义务）。",
+    ipRights: "我们对您提供给服务的材料不主张任何知识产权。所有上传的材料仍归您所有。",
+    contentModeration: "我们不会预先筛选内容，但保留自行决定拒绝或删除通过服务提供的任何内容的权利（但无义务）。",
     prohibitedExploitation:
       "您同意未经公司明确书面许可，不得复制、拷贝、出售、转售或利用服务的任何部分、服务的使用或对服务的访问。",
-    impersonationProhibition:
-      "您不得修改其他网站以虚假暗示其与服务或公司有关联。",
+    impersonationProhibition: "您不得修改其他网站以虚假暗示其与服务或公司有关联。",
     dmcaPolicy:
       "我们尊重他人的知识产权。如果您认为网站上或通过网站提供的任何材料侵犯了您拥有或控制的版权，请立即联系我们。您的通知副本将发送给发布或存储通知中所述材料的人员。请注意，根据适用法律，如果您在通知中做出重大虚假陈述，您可能会对损害承担责任。因此，如果您不确定网站上的材料或通过网站链接的材料是否侵犯了您的版权，您应考虑首先联系律师。",
     prohibitedActivitiesTitle: "10. 禁止活动",
     generalProhibition:
       "您不得出于我们提供本网站之外的任何目的访问或使用本网站。除非获得我们明确认可或批准，否则不得将本网站用于任何商业活动。",
     userObligations: "作为本网站用户，您同意不从事以下行为：",
-    dataScraping:
-      "未经我们书面许可，系统地检索数据或其他内容以直接或间接创建或汇编任何集合、汇编、数据库或目录。",
-    fraud:
-      "欺骗、欺诈或误导我们及其他用户，尤其是试图获取敏感账户信息（如用户密码）的行为。",
+    dataScraping: "未经我们书面许可，系统地检索数据或其他内容以直接或间接创建或汇编任何集合、汇编、数据库或目录。",
+    fraud: "欺骗、欺诈或误导我们及其他用户，尤其是试图获取敏感账户信息（如用户密码）的行为。",
     securityInterference:
       "规避、禁用或以其他方式干扰本网站的安全功能，包括防止或限制内容使用或复制，或强制执行网站及所含内容使用限制的功能。",
     defamation: "以我们认为会贬低、损害或危害我们和/或本网站的方式行事。",
@@ -3550,20 +3401,16 @@ let message = {
     spyware:
       '上传或传输（或试图上传或传输）任何作为被动或主动信息收集或传输机制的材料，包括但不限于清晰的图形交换格式（"gifs"）、1×1像素、网络信标、Cookie或其他类似设备（有时称为"间谍软件"或"被动收集机制"或"pcms"）。',
     disruption: "干扰、破坏或对本网站或与之相连的网络或服务造成不当负担。",
-    employeeHarassment:
-      "骚扰、烦扰、恐吓或威胁任何为我们提供网站服务的员工或代理。",
-    accessCircumvention:
-      "试图绕过本网站旨在防止或限制访问本网站或其任何部分的措施。",
-    codeCopying:
-      "复制或改编本网站的软件，包括但不限于Flash、PHP、HTML、JavaScript或其他代码。",
+    employeeHarassment: "骚扰、烦扰、恐吓或威胁任何为我们提供网站服务的员工或代理。",
+    accessCircumvention: "试图绕过本网站旨在防止或限制访问本网站或其任何部分的措施。",
+    codeCopying: "复制或改编本网站的软件，包括但不限于Flash、PHP、HTML、JavaScript或其他代码。",
     reverseEngineering:
       "除非适用法律允许，否则不得对构成或部分构成本网站的任何软件进行解密、反编译、反汇编或逆向工程。",
     bots: "除非是标准搜索引擎或互联网浏览器的使用结果，否则不得使用、启动、开发或分发任何自动化系统，包括但不限于任何访问本网站的蜘蛛、机器人、作弊工具、抓取工具或离线阅读器，或使用或启动任何未经授权的脚本或其他软件。",
     buyingAgents: "使用购买代理或采购代理在本网站进行购买。",
     unauthorizedUse:
       "对本网站进行任何未经授权的使用，包括通过电子或其他方式收集用户的用户名和/或电子邮件地址以发送未经请求的电子邮件，或通过自动化手段或虚假借口创建用户账户。",
-    competition:
-      "将本网站用于与我们竞争的任何努力，或以任何创收或商业企业为目的使用本网站和/或其内容。",
+    competition: "将本网站用于与我们竞争的任何努力，或以任何创收或商业企业为目的使用本网站和/或其内容。",
     advertising: "使用本网站宣传或销售商品和服务。",
     profileTransfer: "出售或以其他方式转让您的个人资料。",
     featuresTitle: "11. 功能与缺陷",
@@ -3596,15 +3443,13 @@ let message = {
     privacyPolicyDescription:
       "我们高度重视数据隐私与安全。请查阅我们的{policy}。使用本网站即表示您同意遵守已纳入本服务条款的隐私政策。请注意，本网站托管于美国。若您从其他司法管辖区访问本网站，该地区关于个人数据收集、使用或披露的法律要求可能与美国法律不同，继续使用本网站即表示您同意将数据传输至美国并进行处理。",
     contactDescription: "如对服务条款有任何疑问，请联系 {at} {email}。",
-    companyDefinitionA:
-      "当我们在本文档中说“公司”、“我们”、“我们的”或“我们”时，我们指的是 {NeverCap}。"
+    companyDefinitionA: "当我们在本文档中说“公司”、“我们”、“我们的”或“我们”时，我们指的是 {NeverCap}。"
   },
   Blog: {
     Hero: {
       title: "成为一名",
       highlighted_text: "转录向导",
-      description:
-        "{NeverCap} 提供的教程、策略和 AI 工具可帮助您通过专业的转录工作流程创建无限的内容。"
+      description: "{NeverCap} 提供的教程、策略和 AI 工具可帮助您通过专业的转录工作流程创建无限的内容。"
     },
     Featured: {
       FeaturedGuide: "特色指南",

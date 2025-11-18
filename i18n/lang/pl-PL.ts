@@ -3,8 +3,7 @@ let message = {
   // Strona główna
   HomePage: {
     home: "Wszystkie Transkrypcje",
-    times:
-      "{times} darmowych transkrypcji dziennie, {left} pozostało dzisiaj. ",
+    times: "{times} darmowych transkrypcji dziennie, {left} pozostało dzisiaj. ",
     tips: "Przejdź na Pro, aby uzyskać nieograniczone transkrypcje.",
     update: "Ulepsz teraz",
     rename: "Zmień nazwę",
@@ -18,14 +17,12 @@ let message = {
       step0: {
         title: "Witamy w {name}",
         tip: "Tutaj możesz:",
-        content:
-          "Transkrybować pojedyncze rozmowy, spotkania, wykłady i więcej",
+        content: "Transkrybować pojedyncze rozmowy, spotkania, wykłady i więcej",
         next: "Rozpocznij"
       },
       step1: {
         title: "Transkrybuj pliki",
-        content:
-          "Obsługuje trzy metody transkrypcji: pliki lokalne, linki i nagrania."
+        content: "Obsługuje trzy metody transkrypcji: pliki lokalne, linki i nagrania."
       },
       step2: {
         title: "Utwórz folder",
@@ -33,8 +30,7 @@ let message = {
       },
       step3: {
         title: "Przeglądaj szczegóły transkrypcji i edytuj",
-        content:
-          "Kliknij element, aby zobaczyć szczegóły transkrypcji, edytować i tłumaczyć."
+        content: "Kliknij element, aby zobaczyć szczegóły transkrypcji, edytować i tłumaczyć."
       },
       next: "dalej",
       finish: "Rozumiem"
@@ -61,10 +57,8 @@ let message = {
       description: "Tutaj możesz:",
       transcribe:
         "Bez wysiłku transkrybować z Scribify—zamień rozmowy głosowe w jasny, przeszukiwalny i udostępnialny tekst w mgnieniu oka.",
-      precision:
-        "Uzyskaj dokładne transkrypcje z identyfikacją mówiących i znacznikami czasu natychmiast.",
-      translate:
-        "Przełamuj bariery językowe: tłumacz transkrypcje na ponad 200 języków z łatwością.",
+      precision: "Uzyskaj dokładne transkrypcje z identyfikacją mówiących i znacznikami czasu natychmiast.",
+      translate: "Przełamuj bariery językowe: tłumacz transkrypcje na ponad 200 języków z łatwością.",
       edit: "Edytuj, udoskonalaj i eksportuj swoje transkrypcje w formatach dopasowanych do Twoich potrzeb.",
       collaborate: "Współpracuj, udostępniając swój przepisany tekst innym.",
       button: "Zacznij",
@@ -131,8 +125,7 @@ let message = {
       },
       share: {
         title: "Udostępnij",
-        label:
-          "Każdy z poniższym bezpiecznym linkiem może zobaczyć tę transkrypcję i powiązany plik multimedialny.",
+        label: "Każdy z poniższym bezpiecznym linkiem może zobaczyć tę transkrypcję i powiązany plik multimedialny.",
         confirm: "Kopiuj link",
         success: "Kopiowanie udane"
       },
@@ -164,8 +157,7 @@ let message = {
     create: "Utwórz",
     endRecord: {
       title: "Powiadomienie",
-      content:
-        "Nagrywasz. Ta akcja zakończy nagrywanie. Czy chcesz zakończyć nagrywanie?",
+      content: "Nagrywasz. Ta akcja zakończy nagrywanie. Czy chcesz zakończyć nagrywanie?",
       confirm: "Kontynuuj Nagrywanie",
       cancel: "Zakończ Nagrywanie"
     }
@@ -180,8 +172,7 @@ let message = {
       endRecord: "Zakończ nagrywanie",
       delete: "Usuń",
       transcribe: "Transkrybuj",
-      permissionDenied:
-        "Odmowa dostępu do mikrofonu lub urządzenie nie istnieje",
+      permissionDenied: "Odmowa dostępu do mikrofonu lub urządzenie nie istnieje",
       dialog: {
         delete: {
           title: "Ostrzeżenie",
@@ -191,13 +182,11 @@ let message = {
         },
         complete: {
           title: "Nagrywanie zakończone",
-          label:
-            "Nagranie osiągnęło 10 godzin i zostało automatycznie zatrzymane. Proszę o transkrypcję.",
+          label: "Nagranie osiągnęło 10 godzin i zostało automatycznie zatrzymane. Proszę o transkrypcję.",
           confirm: "Rozumiem"
         },
         speaker: {
-          content:
-            "W celu identyfikacji mówcy pliki są ograniczone do 3 godzin. Odznacz pole '{text}'."
+          content: "W celu identyfikacji mówcy pliki są ograniczone do 3 godzin. Odznacz pole '{text}'."
         }
       }
     },
@@ -210,8 +199,7 @@ let message = {
         confirm: "Dodaj",
         cancel: "Anuluj",
         // Wprowadź poprawny link
-        errorTitle:
-          "Wprowadzony adres linku jest nieprawidłowy. Sprawdź i spróbuj ponownie.",
+        errorTitle: "Wprowadzony adres linku jest nieprawidłowy. Sprawdź i spróbuj ponownie.",
         linkName: "Link"
       },
       file: {
@@ -224,8 +212,7 @@ let message = {
       },
       del: {
         title: "Ostrzeżenie",
-        content:
-          "Cały postęp zostanie utracony. Potwierdzić anulowanie transkrypcji?",
+        content: "Cały postęp zostanie utracony. Potwierdzić anulowanie transkrypcji?",
         cancel: "Potwierdź anulowanie",
         confirm: "Kontynuuj transkrypcję"
       },
@@ -260,7 +247,13 @@ let message = {
         audio: "Plik audio/wideo",
         Uploading: "Przesyłanie..."
       },
-      fileEmpty: "Plik jest pusty"
+      fileEmpty: "Plik jest pusty",
+      howToSetup: "Jak skonfigurować?",
+      shareFilePublicly: "Udostępnij plik publicznie",
+      retry: "Ponów",
+      edit: "Edytuj",
+      delete: "Usuń",
+      updateAndRetry: "Aktualizuj i ponów"
     }
   },
   // Strona szczegółów transkrypcji
@@ -575,10 +568,8 @@ let message = {
     passwordResetOk: "Hasło zostało pomyślnie zresetowane!", // hasło zostało pomyślnie zresetowane!
     signupToSaveProgress: "Dokończ rejestrację, aby zapisać swój postęp.",
     tip: "Wskazówka",
-    tipContentEmail:
-      "Właśnie wysłaliśmy hasło logowania do Twojego konta na podany adres e-mail.",
-    tipContentPassword:
-      "Sprawdź swoją skrzynkę odbiorczą i zaloguj się za pomocą adresu e-mail oraz hasła.",
+    tipContentEmail: "Właśnie wysłaliśmy hasło logowania do Twojego konta na podany adres e-mail.",
+    tipContentPassword: "Sprawdź swoją skrzynkę odbiorczą i zaloguj się za pomocą adresu e-mail oraz hasła.",
     codeToEmail:
       "Właśnie wysłaliśmy kod weryfikacyjny na Twój adres e-mail. Sprawdź swoją skrzynkę odbiorczą i wklej kod weryfikacyjny powyżej."
   },
@@ -596,13 +587,10 @@ let message = {
     currentPlan: "Obecny plan",
     professionalEdition: "wersja profesjonalna",
     unlimitedTranscription: "Nielimitowana transkrypcja",
-    unlimitedNumberOfTimes:
-      "Nieograniczona częstotliwość i czas trwania transkrypcji.",
-    filesUploadedAtOnce:
-      "Każdy plik może mieć do 10 godzin/5 GB. Prześlij 50 plików naraz.",
+    unlimitedNumberOfTimes: "Nieograniczona częstotliwość i czas trwania transkrypcji.",
+    filesUploadedAtOnce: "Każdy plik może mieć do 10 godzin/5 GB. Prześlij 50 plików naraz.",
     highestPriority: "najwyższy priorytet",
-    weWillGiveTheHighest:
-      "Zawsze transkrybujemy Twoje pliki najszybciej jak to możliwe z najwyższym priorytetem.",
+    weWillGiveTheHighest: "Zawsze transkrybujemy Twoje pliki najszybciej jak to możliwe z najwyższym priorytetem.",
     theFirstMonth: "Pierwszy miesiąc",
     subscribeTo: "subskrybuj",
     basicVersionFree: "Wersja podstawowa (darmowa)",
@@ -647,15 +635,12 @@ let message = {
     changeToAnnual: "Zmień na roczny",
     automaticRenewalon: "Automatyczne odnawianie",
     eachMonth: "Automatyczne odnawianie {time}. dnia każdego miesiąca.",
-    automaticRenewal:
-      "Automatyczne odnowienie nie powiodło się, sprawdź metodę płatności.",
+    automaticRenewal: "Automatyczne odnowienie nie powiodło się, sprawdź metodę płatności.",
     eachYear: "Automatyczne odnawianie w dniu {time} każdego roku.",
     returnAccountSetting: "Powrót",
-    needsToWaitLonger:
-      "Poczekaj dłużej, zanim Twoje pliki zostaną przetranskrybowane.",
+    needsToWaitLonger: "Poczekaj dłużej, zanim Twoje pliki zostaną przetranskrybowane.",
     freeThreeTimesDay: "Codziennie przetranskrybuj 3 pliki za darmo.",
-    oneFileUploaded:
-      "Każdy plik może trwać do 30 minut. Prześlij 1 plik na raz.",
+    oneFileUploaded: "Każdy plik może trwać do 30 minut. Prześlij 1 plik na raz.",
     uploadWithinHours: "Przesyłanie w ciągu 10 godzin",
     yourSubscription: "Twoja subskrypcja zostanie anulowana {time}.",
     save: "Oszczędzać",
@@ -696,12 +681,10 @@ let message = {
     startLink: "Rozpocznij bezpłatny okres próbny~",
     thirdPartyLink: "Github →",
     waitlist: {
-      cardTitle:
-        "Dołącz do listy oczekujących, otrzymuj najnowsze wiadomości NuxtPro jako pierwszy ORAZ zniżki!",
+      cardTitle: "Dołącz do listy oczekujących, otrzymuj najnowsze wiadomości NuxtPro jako pierwszy ORAZ zniżki!",
       placeholder: "Wprowadź swój email",
       button: "Dołącz do listy oczekujących",
-      joinCountMessage:
-        "🔥 Wczesny użytkownik #{count} właśnie dołączył do listy oczekujących!"
+      joinCountMessage: "🔥 Wczesny użytkownik #{count} właśnie dołączył do listy oczekujących!"
     },
     seo: {
       title: "Szablon SaaS Nuxt z otwartym kodem źródłowym | NuxtPro",
@@ -753,11 +736,9 @@ let message = {
     HAVE_CURRENT_DATA:
       "Dane o aktualnym położeniu odtwarzania są dostępne, ale nie ma wystarczających danych do odtworzenia następnej klatki/milisekundy",
     HAVE_FUTURE_DATA: "Dostępne są aktualne dane i przynajmniej jedna klatka",
-    HAVE_ENOUGH_DATA:
-      "Dostępne dane są wystarczające do rozpoczęcia odtwarzania",
+    HAVE_ENOUGH_DATA: "Dostępne dane są wystarczające do rozpoczęcia odtwarzania",
     NETWORK_EMPTY: "Audio/wideo nie zostało zainicjalizowane",
-    NETWORK_IDLE:
-      "Audio/wideo jest aktywne i zostało wybrane dla zasobów, ale sieć nie jest używana",
+    NETWORK_IDLE: "Audio/wideo jest aktywne i zostało wybrane dla zasobów, ale sieć nie jest używana",
     NETWORK_LOADING: "Przeglądarka pobiera dane",
     NETWORK_NO_SOURCE: "Nie znaleziono źródła audio/wideo",
     MEDIA_ERR_ABORTED: "Proces pobierania został przerwany przez użytkownika",
@@ -805,8 +786,7 @@ let message = {
       "W niniejszej polityce określamy: jakie dane gromadzimy i dlaczego; jak przetwarzamy Twoje dane; oraz Twoje prawa związane z Twoimi danymi. Nie sprzedajemy Twoich danych.",
     scopeTitle: "1. Zakres niniejszej Polityki Prywatności",
     whatWeCollectTitle: "2. Co zbieramy i dlaczego",
-    accessShareTitle:
-      "3. Kiedy uzyskujemy dostęp do Twoich danych lub udostępniamy je",
+    accessShareTitle: "3. Kiedy uzyskujemy dostęp do Twoich danych lub udostępniamy je",
     secureDataTitle: "4. Jak zabezpieczamy Twoje dane",
     deleteContentTitle: "5. Co się dzieje, gdy usuniesz swoją treść",
     locationTitle: "6. Lokalizacja witryny i danych",
@@ -850,10 +830,8 @@ let message = {
       "- W przypadku kontroli przez organ podatkowy możemy zostać zobowiązani do udostępnienia informacji dotyczących rozliczeń. W takim przypadku udostępnimy tylko niezbędne informacje, takie jak adresy rozliczeniowe i informacje o zwolnieniach podatkowych.",
     secureDataContent1: "Wszystkie dane są szyfrowane za pomocą",
     sslTlsLink: "SSL/TLS",
-    secureDataContent2:
-      "gdy są przesyłane z naszych serwerów do Twojej przeglądarki.",
-    deleteContentContent:
-      "Jeśli usuniesz jakąkolwiek treść, stanie się ona natychmiast niedostępna.",
+    secureDataContent2: "gdy są przesyłane z naszych serwerów do Twojej przeglądarki.",
+    deleteContentContent: "Jeśli usuniesz jakąkolwiek treść, stanie się ona natychmiast niedostępna.",
     locationContent:
       "Nasze produkty i inne zasoby internetowe są obsługiwane w Stanach Zjednoczonych. Jeśli mieszkasz w Unii Europejskiej, Wielkiej Brytanii lub innym miejscu poza Stanami Zjednoczonymi, pamiętaj, że wszelkie informacje, które nam przekazujesz, będą przesyłane do Stanów Zjednoczonych i tam przechowywane. Korzystając z naszych stron internetowych lub Usług i/lub przekazując nam swoje dane osobowe, wyrażasz zgodę na takie przesyłanie.",
     childrenPrivacyContent:
@@ -863,8 +841,7 @@ let message = {
     contactUsContent1:
       "Jeśli masz jakiekolwiek pytania, uwagi lub skargi dotyczące naszej Polityki prywatności, prosimy o kontakt:",
     contactUs: "Skontaktuj się z nami",
-    contactUsContent2:
-      "i postaramy się rozpatrzyć Twoją skargę najszybciej jak to możliwe."
+    contactUsContent2: "i postaramy się rozpatrzyć Twoją skargę najszybciej jak to możliwe."
   },
   termsOfService: {
     termsOfServiceTitle: "Warunki korzystania z usługi",
@@ -909,8 +886,7 @@ let message = {
       "Udostępnimy Ci Usługi. Ponosisz odpowiedzialność za podjęcie wszelkich niezbędnych działań, aby uzyskać dostęp do Usług.",
     accountTerms1:
       "- Jesteś odpowiedzialny za utrzymanie bezpieczeństwa swojego konta. Firma nie ponosi i nie będzie ponosić odpowiedzialności za jakiekolwiek straty lub szkody wynikające z nieprzestrzegania przez Ciebie tego obowiązku bezpieczeństwa.",
-    accountTerms2:
-      "- Nie możesz używać Usług w celach niezgodnych z prawem, nieetycznych lub niemoralnych.",
+    accountTerms2: "- Nie możesz używać Usług w celach niezgodnych z prawem, nieetycznych lub niemoralnych.",
     accountTerms3:
       "- Ponosisz odpowiedzialność za wszystkie treści publikowane i działania podejmowane na Twoim koncie. Dotyczy to również treści publikowanych przez inne osoby, które: (a) mają dostęp do Twoich danych logowania; lub (b) posiadają własne loginy do Twojego konta.",
     accountTerms4:
@@ -963,30 +939,25 @@ let message = {
       "Kopia Twojego Powiadomienia zostanie wysłana do osoby, która opublikowała lub przechowywała materiały, których dotyczy Powiadomienie. Informujemy, że zgodnie z obowiązującym prawem możesz ponieść odpowiedzialność za szkody, jeśli w Powiadomieniu podasz istotne nieprawdziwe informacje. Dlatego, jeśli nie masz pewności, czy materiały znajdujące się na Stronie lub do których linki znajdują się na Stronie naruszają Twoje prawa autorskie, powinieneś najpierw rozważyć kontakt z prawnikiem.",
     prohibitedActivitiesIntro:
       "Nie możesz uzyskiwać dostępu do Witryny ani korzystać z niej w żadnym innym celu niż ten, dla którego ją udostępniamy. Witryny nie wolno wykorzystywać w związku z żadnymi przedsięwzięciami komercyjnymi, z wyjątkiem tych, które zostały przez nas wyraźnie zatwierdzone lub poparte.",
-    prohibitedActivitiesUserAgreement:
-      "Jako użytkownik Serwisu zgadzasz się, że nie będziesz:",
+    prohibitedActivitiesUserAgreement: "Jako użytkownik Serwisu zgadzasz się, że nie będziesz:",
     prohibitedActivity1:
       "- Systematyczne pobieranie danych lub innej treści ze Strony w celu tworzenia lub kompilowania, bezpośrednio lub pośrednio, zbiorów, kompilacji, baz danych lub katalogów bez naszej pisemnej zgody.",
     prohibitedActivity2:
       "- Oszukiwać, wprowadzać w błąd nas i innych użytkowników, zwłaszcza w celu zdobycia poufnych informacji o koncie, takich jak hasła użytkowników.",
     prohibitedActivity3:
       "- Omijać, wyłączać lub w inny sposób ingerować w funkcje związane z bezpieczeństwem Witryny, w tym funkcje, które uniemożliwiają lub ograniczają korzystanie z Treści lub ich kopiowanie lub nakładają ograniczenia na korzystanie z Witryny i/lub Treści w niej zawartych.",
-    prohibitedActivity4:
-      "- naszym zdaniem dyskredytować, szkalować lub w inny sposób szkodzić nam i/lub Witrynie.",
+    prohibitedActivity4: "- naszym zdaniem dyskredytować, szkalować lub w inny sposób szkodzić nam i/lub Witrynie.",
     prohibitedActivity5:
       "- Wykorzystywać informacji uzyskanych ze Strony w celu nękania, znęcania się lub wyrządzania krzywdy innej osobie.",
     prohibitedActivity6:
       "- Niewłaściwie korzystaj z naszych usług wsparcia lub przesyłaj fałszywe raporty o nadużyciach lub niewłaściwym zachowaniu.",
-    prohibitedActivity7:
-      "- Korzystać ze Strony w sposób niezgodny z obowiązującymi przepisami prawa.",
-    prohibitedActivity8:
-      "- Angażować się w nieautoryzowane tworzenie ramek lub linków do Witryny.",
+    prohibitedActivity7: "- Korzystać ze Strony w sposób niezgodny z obowiązującymi przepisami prawa.",
+    prohibitedActivity8: "- Angażować się w nieautoryzowane tworzenie ramek lub linków do Witryny.",
     prohibitedActivity9:
       "- Przesyłać lub przekazywać (lub podejmować próby przesyłania lub przekazywać) wirusów, koni trojańskich lub innych materiałów, w tym nadmiernego używania wielkich liter i spamowania (ciągłego zamieszczania powtarzalnego tekstu), które zakłócają nieprzerwane korzystanie z Witryny przez jakąkolwiek stronę lub powodują zmiany, upośledzenia, zakłócenia, modyfikacje lub zakłócają korzystanie z Witryny, jej funkcje, działanie lub konserwację.",
     prohibitedActivity10:
       "- Podejmować jakiekolwiek zautomatyzowane działania związane z korzystaniem z systemu, takie jak stosowanie skryptów do wysyłania komentarzy lub wiadomości, bądź korzystanie z narzędzi do eksploracji danych, robotów lub podobnych narzędzi do gromadzenia i ekstrakcji danych.",
-    prohibitedActivity11:
-      "- Usuń informacje o prawach autorskich i innych prawach własności z wszelkich Treści.",
+    prohibitedActivity11: "- Usuń informacje o prawach autorskich i innych prawach własności z wszelkich Treści.",
     prohibitedActivity12:
       "- Próba podszywania się pod innego użytkownika lub osobę albo posługiwania się nazwą użytkownika innego użytkownika.",
     prohibitedActivity13:
@@ -1003,14 +974,12 @@ let message = {
       "- Z wyjątkiem przypadków dozwolonych przez obowiązujące prawo, nie wolno rozszyfrowywać, dekompilować, dezasemblować ani dokonywać inżynierii wstecznej żadnego oprogramowania wchodzącego w skład Witryny lub w jakikolwiek sposób stanowiącego jej część.",
     prohibitedActivity19:
       "- Z wyjątkiem przypadków wynikających ze standardowego korzystania z wyszukiwarki lub przeglądarki internetowej, nie wolno używać, uruchamiać, rozwijać ani rozpowszechniać żadnych zautomatyzowanych systemów, w tym między innymi pająków, robotów, narzędzi do oszukiwania, scraperów ani czytników offline uzyskujących dostęp do Witryny, ani używać lub uruchamiać żadnych nieautoryzowanych skryptów lub innego oprogramowania.",
-    prohibitedActivity20:
-      "- Dokonuj zakupów na Stronie za pośrednictwem agenta kupującego lub pośrednika zakupowego.",
+    prohibitedActivity20: "- Dokonuj zakupów na Stronie za pośrednictwem agenta kupującego lub pośrednika zakupowego.",
     prohibitedActivity21:
       "- Nie wolno wykorzystywać Serwisu w sposób nieautoryzowany, w tym zbierać nazw użytkowników i/lub adresów e-mail użytkowników drogą elektroniczną lub inną w celu wysyłania niechcianej poczty elektronicznej lub tworzyć kont użytkowników za pomocą środków automatycznych lub pod fałszywymi pozorami.",
     prohibitedActivity22:
       "- Korzystać ze Strony w celu konkurowania z nami lub w inny sposób wykorzystywać Stronę i/lub Treści w celach generujących dochód lub w ramach przedsięwzięcia komercyjnego.",
-    prohibitedActivity23:
-      "- Wykorzystywać Serwis do reklamowania lub oferowania sprzedaży towarów i usług.",
+    prohibitedActivity23: "- Wykorzystywać Serwis do reklamowania lub oferowania sprzedaży towarów i usług.",
     prohibitedActivity24: "- Sprzedać lub w inny sposób przenieść swój profil.",
     featuresContent1:
       "Projektujemy nasze Usługi z dbałością, opierając się na własnym doświadczeniu oraz na doświadczeniach klientów, którzy poświęcają nam swój czas i dzielą się swoimi opiniami. Nie ma jednak usługi, która zadowoliłaby wszystkich. Nie gwarantujemy, że nasze Usługi spełnią Państwa konkretne wymagania lub oczekiwania.",
@@ -1022,8 +991,7 @@ let message = {
       "Nie możemy zagwarantować, że Strona będzie dostępna przez cały czas. Możemy napotkać problemy ze sprzętem, oprogramowaniem lub inne problemy, a także przeprowadzić konserwację Strony, co może skutkować przerwami, opóźnieniami lub błędami. Zastrzegamy sobie prawo do zmiany, rewizji, aktualizacji, zawieszenia, zaprzestania lub innej modyfikacji Strony w dowolnym momencie i z dowolnego powodu bez powiadomienia. Zgadzasz się, że nie ponosimy żadnej odpowiedzialności za jakiekolwiek straty, szkody lub niedogodności spowodowane brakiem dostępu do Strony lub korzystania z niej podczas przestoju lub zaprzestania jej działania. Żadne z postanowień niniejszych Warunków korzystania z usługi nie będzie interpretowane jako zobowiązujące nas do utrzymywania i wspierania Strony ani do dostarczania jakichkolwiek korekt, aktualizacji lub wydań w związku z tym.",
     userDataContent:
       "Będziemy przechowywać pewne dane przesyłane przez Ciebie do Serwisu w celu zarządzania jego działaniem, a także dane dotyczące korzystania z niego. Chociaż regularnie tworzymy kopie zapasowe danych, ponosisz wyłączną odpowiedzialność za wszelkie dane przesyłane przez Ciebie lub związane z jakąkolwiek aktywnością wykonywaną przez Ciebie za pośrednictwem Serwisu. Zgadzasz się, że nie ponosimy wobec Ciebie żadnej odpowiedzialności za utratę lub uszkodzenie takich danych i niniejszym zrzekasz się wszelkich praw dochodzenia roszczeń wobec nas z tytułu takiej utraty lub uszkodzenia takich danych.",
-    privacyPolicyContent1:
-      "Dbamy o prywatność i bezpieczeństwo danych. Zapoznaj się z naszą",
+    privacyPolicyContent1: "Dbamy o prywatność i bezpieczeństwo danych. Zapoznaj się z naszą",
     privacyPolicy: "Polityka prywatności",
     privacyPolicyContent2:
       "Korzystając z Witryny, wyrażasz zgodę na przestrzeganie naszej Polityki Prywatności, która stanowi integralną część niniejszych Warunków Korzystania z Usługi. Informujemy, że Witryna jest hostowana w Stanach Zjednoczonych. Jeśli uzyskujesz dostęp do Witryny z dowolnego innego regionu świata, w którym obowiązują przepisy lub inne wymogi dotyczące gromadzenia, wykorzystywania lub ujawniania danych osobowych, które różnią się od przepisów obowiązujących w Stanach Zjednoczonych, dalsze korzystanie z Witryny oznacza przekazanie Twoich danych do Stanów Zjednoczonych i wyrażasz zgodę na ich przesyłanie i przetwarzanie w Stanach Zjednoczonych.",
@@ -1055,18 +1023,14 @@ let message = {
     YouTubetoMP4: "YouTube do MP4",
     StartFreeTrial: "Wypróbuj za darmo",
     Blog: "Blog",
-      YouTubetoMP3: 'YouTube na MP3'
-},
+    YouTubetoMP3: "YouTube na MP3"
+  },
   Footer: {
     des: "Pierwsza na świecie naprawdę nieograniczona usługa transkrypcji AI. Brak limitów, brak ograniczeń, tylko wolność tworzenia.",
     Features: "Funkcje",
     UseCases: "Zastosowania",
     Company: "Firma",
-    featureMenus: [
-      "Nieograniczona transkrypcja",
-      "Zbiorowe przesyłanie",
-      "96% dokładności"
-    ],
+    featureMenus: ["Nieograniczona transkrypcja", "Zbiorowe przesyłanie", "96% dokładności"],
     useCaseMenus: [
       "Wszystkie zastosowania",
       "Podcastowcy",
@@ -1077,12 +1041,9 @@ let message = {
       "Edukatorzy"
     ],
     companyMenus: ["O nas", "Cennik", "Prywatność", "Warunki"],
-      Resources: 'Zasoby',
-      resourcesMenus: [
-            "YouTube do MP4",
-            "YouTube na MP3"
-          ]
-},
+    Resources: "Zasoby",
+    resourcesMenus: ["YouTube do MP4", "YouTube na MP3"]
+  },
   Index: {
     Hero: {
       badge: 'Koniec z "Shrinkflation" - Naprawdę Nielimitowane',
@@ -1163,8 +1124,7 @@ let message = {
       }
     },
     Testimonials: {
-      subtitle:
-        "Zobacz, dlaczego profesjonaliści wybierają NeverCap zamiast ograniczonych alternatyw",
+      subtitle: "Zobacz, dlaczego profesjonaliści wybierają NeverCap zamiast ograniczonych alternatyw",
       Mike: {
         text: "O kurczę, to naprawdę działa! Prowadziłem podcast przez 3 lata i ręcznie przepisywałem wszystko jak idiota. Wgrałem 6 odcinków naraz, a narzędzie idealnie rozdzieliło mnie i mojego współprowadzącego. Odcinek nagrany w kawiarni, który uważałem za zrujnowany? Krystalicznie czysty transkrypt. Nigdy więcej nie będę tego sam przepisywał.",
         author: "Mike Rodriguez",
@@ -1185,8 +1145,7 @@ let message = {
     PricingPreview: {
       title: "Przejrzyste ceny",
       highlighted_text: "Żadnych ukrytych limitów",
-      subtitle:
-        "Wybierz swój plan. Bez gwiazdek, bez drobnego druku, bez niespodzianek"
+      subtitle: "Wybierz swój plan. Bez gwiazdek, bez drobnego druku, bez niespodzianek"
     },
     FAQSection: {
       title: "Często zadawane",
@@ -1250,8 +1209,7 @@ let message = {
     },
     CTASection: {
       title: "Gotowy, aby uwolnić się od limitów?",
-      subtitle:
-        "Dołącz do ponad 50 000 profesjonalistów, którzy przeszli na prawdziwie nielimitowaną transkrypcję",
+      subtitle: "Dołącz do ponad 50 000 profesjonalistów, którzy przeszli na prawdziwie nielimitowaną transkrypcję",
       button: "Wypróbuj NeverCap za darmo",
       disclaimer:
         "Karta kredytowa nie jest wymagana w planie darmowym • W każdej chwili możesz przejść na wyższy plan dla nielimitowanego dostępu"
@@ -1363,13 +1321,10 @@ let message = {
       trustBadge4Number: "50",
       trustBadge4Label: "Przesyłanie zbiorcze",
       ctaTitle: "Przestań płacić za fałszywie nielimitowane",
-      ctaSubtitle:
-        "Dołącz do tysięcy, którzy przeszli na naprawdę nielimitowaną transkrypcję",
+      ctaSubtitle: "Dołącz do tysięcy, którzy przeszli na naprawdę nielimitowaną transkrypcję",
       finalCta: "Wypróbuj NeverCap za darmo",
-      heroSubtitle1:
-        "Podczas gdy Trint ogranicza Cię do 50 godzin, a Otter do 10 plików miesięcznie,",
-      heroSubtitle2:
-        "dostarczamy to, co faktycznie obiecujemy: nieograniczoną transkrypcję bez ukrytych ograniczeń."
+      heroSubtitle1: "Podczas gdy Trint ogranicza Cię do 50 godzin, a Otter do 10 plików miesięcznie,",
+      heroSubtitle2: "dostarczamy to, co faktycznie obiecujemy: nieograniczoną transkrypcję bez ukrytych ograniczeń."
     },
     BulkUpload: {
       heroBadgeIcon: "📁",
@@ -1387,8 +1342,7 @@ let message = {
       comparisonSectionTitlePart1: "The",
       comparisonSectionTitleHighlight: "Niedorzeczne ograniczenia",
       comparisonSectionTitlePart2: "Które narzucają",
-      comparisonSubtitle:
-        "Jak konkurencja ogranicza Twoje możliwości przetwarzania treści",
+      comparisonSubtitle: "Jak konkurencja ogranicza Twoje możliwości przetwarzania treści",
       limitCard1Service: "Otter Free",
       limitCard1Number: "3",
       limitCard1DescriptionLine1: "Importy na całe życie",
@@ -1465,8 +1419,7 @@ let message = {
       feature3VisualSubtext: "Prześlij, gdy dopadnie Cię inspiracja",
       useCasesTitlePart1: "Idealne dla",
       useCasesTitleHighlight: "Dużych nadawców",
-      useCasesSubtitle:
-        "Rzeczywiste scenariusze, w których masowe przesyłanie ratuje sytuację",
+      useCasesSubtitle: "Rzeczywiste scenariusze, w których masowe przesyłanie ratuje sytuację",
       useCase1Title: "Archiwa podcastów",
       useCase1Description:
         "Prześlij 3 lata odcinków naraz. Stwórz transkrypcje dla całego swojego katalogu. Generuj treści SEO dla każdego odcinka.",
@@ -1486,8 +1439,7 @@ let message = {
       useCase6Description:
         "Przetwarzaj grupy fokusowe hurtowo. Transkrybuj wszystkie wywiady z uczestnikami. Analizuj dane jakościowe efektywnie.",
       ctaTitle: "Koniec z Proszeniem o Więcej Przesyłania",
-      ctaSubtitle:
-        "Otrzymaj nielimitowane przetwarzanie hurtowe, które naprawdę działa",
+      ctaSubtitle: "Otrzymaj nielimitowane przetwarzanie hurtowe, które naprawdę działa",
       finalCta: "Prześlij 50 Plików Teraz →"
     },
     Accuracy: {
@@ -1546,8 +1498,7 @@ let message = {
       languageCard12Flag: "🇸🇦",
       languageCard12Name: "Arabski",
       languageCard12Accuracy: "96% Dokładności",
-      moreLanguagesText:
-        "+ 88 więcej języków obsługiwanych z dokładnością 95%+",
+      moreLanguagesText: "+ 88 więcej języków obsługiwanych z dokładnością 95%+",
       feature1Label: "Precyzja",
       feature1TitlePart1: "Na poziomie słów",
       feature1TitleHighlight: "Znaczniki czasu",
@@ -1654,14 +1605,12 @@ let message = {
     Hero: {
       title: "Prosta, przejrzysta cena",
       highlighted_text: "Brak ukrytych limitów",
-      description:
-        "Wybierz plan dopasowany do Twoich potrzeb. Zmieniaj w każdej chwili. Brak umów, niespodzianek."
+      description: "Wybierz plan dopasowany do Twoich potrzeb. Zmieniaj w każdej chwili. Brak umów, niespodzianek."
     },
     Cards: {
       title: "Prosta, przejrzysta cena.",
       highlighted_text: "Brak ukrytych limitów.",
-      description:
-        "Wybierz plan dopasowany do Twoich potrzeb. Zmieniaj w każdej chwili. Brak umów, niespodzianek.",
+      description: "Wybierz plan dopasowany do Twoich potrzeb. Zmieniaj w każdej chwili. Brak umów, niespodzianek.",
       plans: [
         {
           name: "Darmowe",
@@ -1680,12 +1629,7 @@ let message = {
           },
           features: {
             title: "Funkcje",
-            items: [
-              "100+ języków",
-              "Etykiety mówców",
-              "Tłumaczenie",
-              "Wszystkie formaty eksportu"
-            ]
+            items: ["100+ języków", "Etykiety mówców", "Tłumaczenie", "Wszystkie formaty eksportu"]
           },
           cta: {
             text: "Zacznij za darmo. Bez karty kredytowej.",
@@ -1758,8 +1702,7 @@ let message = {
       header: {
         title: "Porównaj",
         highlighted_text: "Wszystkie funkcje",
-        subtitle:
-          "Zobacz dokładnie, co otrzymujesz w każdym planie. Bez ukrytych ograniczeń."
+        subtitle: "Zobacz dokładnie, co otrzymujesz w każdym planie. Bez ukrytych ograniczeń."
       },
       plans: ["Funkcje", "Free", "Pro Monthly", "Pro Annual"],
       features: [
@@ -1811,11 +1754,7 @@ let message = {
         },
         {
           name: "Identyfikacja mówców",
-          values: [
-            "Podstawowe",
-            "Zaawansowane (20 mówców)",
-            "Zaawansowane (20 mówców)"
-          ]
+          values: ["Podstawowe", "Zaawansowane (20 mówców)", "Zaawansowane (20 mówców)"]
         },
         {
           name: "Znaczniki czasowe na poziomie słów",
@@ -1827,11 +1766,7 @@ let message = {
         },
         {
           name: "Format eksportu",
-          values: [
-            "Wszystkie formaty",
-            "Wszystkie formaty",
-            "Wszystkie formaty"
-          ]
+          values: ["Wszystkie formaty", "Wszystkie formaty", "Wszystkie formaty"]
         },
         {
           name: "Wsparcie",
@@ -1874,8 +1809,7 @@ let message = {
         {
           q: "file_retention",
           question: "Jak długo przechowujecie moje pliki?",
-          answer:
-            "Darmowy plan: 30 dni. Plany Pro: Na zawsze! Twoje transkrypcje są zawsze dostępne na Twoim koncie."
+          answer: "Darmowy plan: 30 dni. Plany Pro: Na zawsze! Twoje transkrypcje są zawsze dostępne na Twoim koncie."
         },
         {
           q: "data_security",
@@ -1887,8 +1821,7 @@ let message = {
     },
     CTA: {
       title: "Gotowy na Nielimitowane Możliwości?",
-      subtitle:
-        "Dołącz do 50 000+ profesjonalistów przepisujących bez ograniczeń",
+      subtitle: "Dołącz do 50 000+ profesjonalistów przepisujących bez ograniczeń",
       button: "Wypróbuj NeverCap Za Darmo →",
       disclaimer: "Bez karty kredytowej • Zacznij przepisywać w kilka sekund"
     }
@@ -2057,8 +1990,7 @@ let message = {
       quotes: {
         title: "Prawdziwi użytkownicy,",
         titleHighlight: "Prawdziwa wolność",
-        subtitle:
-          "Posłuchaj profesjonalistów, którzy uwolnili się od sztucznych ograniczeń",
+        subtitle: "Posłuchaj profesjonalistów, którzy uwolnili się od sztucznych ograniczeń",
         testimonials: {
           mike: {
             textBefore: '"Miałem',
@@ -2069,8 +2001,7 @@ let message = {
             role: "Gospodarz podcastu"
           },
           jessica: {
-            textBefore:
-              '"Jako dziennikarka freelancer nie stać mnie na Trint za',
+            textBefore: '"Jako dziennikarka freelancer nie stać mnie na Trint za',
             highlight: "$100/miesiąc",
             textAfter:
               ', ale też nie mogę pracować z limitem 10 plików miesięcznie w Otter. NeverCap uratował moją karierę."',
@@ -2086,8 +2017,7 @@ let message = {
             role: "Główny badacz"
           },
           carlos: {
-            textBefore:
-              '"Tworzę treści edukacyjne po hiszpańsku. NeverCap doskonale transkrybuje i',
+            textBefore: '"Tworzę treści edukacyjne po hiszpańsku. NeverCap doskonale transkrybuje i',
             highlight: "tłumaczy na angielski",
             textAfter: 'dla szerszego zasięgu. Brak limitów, tylko rozwój."',
             name: "Carlos Martinez",
@@ -2098,8 +2028,7 @@ let message = {
       industries: {
         title: "Zaufany w różnych",
         titleHighlight: "Branżach",
-        subtitle:
-          "Profesjonaliści na całym świecie przechodzą na prawdziwie nielimitowane rozwiązania",
+        subtitle: "Profesjonaliści na całym świecie przechodzą na prawdziwie nielimitowane rozwiązania",
         list: {
           media: "Media i Wydawnictwa",
           education: "Edukacja",
@@ -2110,10 +2039,8 @@ let message = {
         }
       },
       cta: {
-        title:
-          "Twój przypadek użycia też potrzebuje nielimitowanych możliwości",
-        subtitle:
-          "Dołącz do 50 000+ profesjonalistów, którzy przestali liczyć minuty i zaczęli tworzyć",
+        title: "Twój przypadek użycia też potrzebuje nielimitowanych możliwości",
+        subtitle: "Dołącz do 50 000+ profesjonalistów, którzy przestali liczyć minuty i zaczęli tworzyć",
         button: "Rozpocznij swoją nielimitowaną podróż →"
       },
       heroSubtitleA:
@@ -2150,8 +2077,7 @@ let message = {
       },
       problemTitle: "Problem",
       problemTitleHighlight: "z transkrypcją podcastów",
-      problemSubtitle:
-        'Inne usługi zmuszają cię do wyboru, które odcinki są "warte" transkrypcji',
+      problemSubtitle: 'Inne usługi zmuszają cię do wyboru, które odcinki są "warte" transkrypcji',
       problems: {
         problem1: {
           title: "Limity przesyłania niszczą archiwa",
@@ -2173,18 +2099,15 @@ let message = {
       solutionTitleHighlight: "NeverCap",
       workflowTitle: "Twój przepływ pracy",
       workflowTitleHighlight: "Uproszczony",
-      workflowSubtitle:
-        "Od nagrania do zoptymalizowanych pod SEO notatek w kilka minut",
+      workflowSubtitle: "Od nagrania do zoptymalizowanych pod SEO notatek w kilka minut",
       workflow: {
         step1: {
           title: "Prześlij odcinki",
-          description:
-            "Wrzuć 50 odcinków naraz. MP3, MP4, WAV - obsługujemy wszystkie."
+          description: "Wrzuć 50 odcinków naraz. MP3, MP4, WAV - obsługujemy wszystkie."
         },
         step2: {
           title: "AI transkrybuje",
-          description:
-            "96% dokładności z identyfikacją mówców. Idealne do wywiadów."
+          description: "96% dokładności z identyfikacją mówców. Idealne do wywiadów."
         },
         step3: {
           title: "Inteligentne formatowanie",
@@ -2298,11 +2221,9 @@ let message = {
         }
       },
       ctaTitle: "Zacznij transkrybować każdy odcinek",
-      ctaSubtitle:
-        "Dołącz do 10 000+ podcastów, które nigdy nie martwią się limitami",
+      ctaSubtitle: "Dołącz do 10 000+ podcastów, które nigdy nie martwią się limitami",
       ctaButton: "Prześlij swoje pierwsze 50 odcinków za darmo →",
-      ctaDisclaimer:
-        "Bez karty kredytowej • Przetwarzaj nieograniczoną liczbę odcinków • Anuluj w dowolnym momencie",
+      ctaDisclaimer: "Bez karty kredytowej • Przetwarzaj nieograniczoną liczbę odcinków • Anuluj w dowolnym momencie",
       solutionDescriptionA:
         "Z {NeverCap} zyskujesz prawdziwie nieograniczoną transkrypcję. Prześlij całe swoje archiwum. Transkrybuj każdy nowy odcinek. Twórz notatki do odcinków na dużą skalę. Bez limitów, bez ograniczeń, tylko rozwój."
     },
@@ -2359,8 +2280,7 @@ let message = {
       problem: {
         title: "Problem",
         titleHighlight: "Transkrypcji dla Dziennikarzy",
-        subtitle:
-          'Inne usługi zmuszają cię do wyboru, które wywiady są "warte" transkrypcji',
+        subtitle: 'Inne usługi zmuszają cię do wyboru, które wywiady są "warte" transkrypcji',
         problems: {
           uploadLimits: {
             title: "Limity przesyłania zabijają śledztwa",
@@ -2389,8 +2309,7 @@ let message = {
         title: "1",
         titleHighlight: "Najlepsze oprogramowanie do transkrypcji wywiadów",
         titleSuffix: "dla Dziennikarzy",
-        subtitle:
-          "Rzeczywiste zalety, które mają znaczenie, gdy liczy się termin i precyzja",
+        subtitle: "Rzeczywiste zalety, które mają znaczenie, gdy liczy się termin i precyzja",
         solutions: {
           unlimitedUploads: {
             label: "Nieograniczona Objętość",
@@ -2422,8 +2341,7 @@ let message = {
               placeholder: "5min",
               resultsText: "Na Godzinę Nagrania",
               results: {
-                mayorInterview:
-                  "„...nasza polityka klimatyczna ulegnie zmianie...”",
+                mayorInterview: "„...nasza polityka klimatyczna ulegnie zmianie...”",
                 expertPanel: "„...oświadczenie polityczne wyraźnie pokazuje...”"
               }
             }
@@ -2442,10 +2360,8 @@ let message = {
               accuracy: "96%",
               label: "Dokładność Gotowa do Publikacji",
               transcript: {
-                speaker1:
-                  "„Śledztwo ujawniło istotne rozbieżności w sprawozdaniach finansowych”.",
-                speaker2:
-                  "„Czy może Pan wyjaśnić, na czym dokładnie polegają te rozbieżności?”"
+                speaker1: "„Śledztwo ujawniło istotne rozbieżności w sprawozdaniach finansowych”.",
+                speaker2: "„Czy może Pan wyjaśnić, na czym dokładnie polegają te rozbieżności?”"
               }
             }
           },
@@ -2473,8 +2389,7 @@ let message = {
         featuresList: {
           languages: {
             title: "100+ Języków",
-            description:
-              "Prowadź wywiady globalnie w 12 głównych językach z 96% dokładnością."
+            description: "Prowadź wywiady globalnie w 12 głównych językach z 96% dokładnością."
           },
           exportFormats: {
             title: "Format Eksportu",
@@ -2482,18 +2397,15 @@ let message = {
           },
           sourceProtection: {
             title: "Ochrona Źródeł",
-            description:
-              "Szyfrowanie na poziomie bankowym. Twoje źródła pozostają poufne."
+            description: "Szyfrowanie na poziomie bankowym. Twoje źródła pozostają poufne."
           },
           timestamps: {
             title: "Znaczniki czasu",
-            description:
-              "Kliknij dowolny cytat, aby przejść do dokładnego momentu w nagraniu."
+            description: "Kliknij dowolny cytat, aby przejść do dokładnego momentu w nagraniu."
           },
           teamSharing: {
             title: "Udostępnianie zespołowe",
-            description:
-              "Współpracuj z redaktorami. Bezpiecznie udostępniaj transkrypcje."
+            description: "Współpracuj z redaktorami. Bezpiecznie udostępniaj transkrypcje."
           },
           mobileReady: {
             title: "Gotowe na mobilne",
@@ -2501,13 +2413,11 @@ let message = {
           },
           smartFormatting: {
             title: "Inteligentne formatowanie",
-            description:
-              "Automatyczne akapity i interpunkcja dla czytelnych transkrypcji."
+            description: "Automatyczne akapity i interpunkcja dla czytelnych transkrypcji."
           },
           batchProcessing: {
             title: "Przetwarzanie zbiorcze",
-            description:
-              "Wgraj 50 plików naraz. Przetwarzaj przez noc, gdy śpisz."
+            description: "Wgraj 50 plików naraz. Przetwarzaj przez noc, gdy śpisz."
           }
         }
       },
@@ -2522,8 +2432,7 @@ let message = {
       cta: {
         title: "Rozpocznij transkrypcję",
         titleHighlight: "Bez ograniczeń",
-        subtitle:
-          "Dołącz do tysięcy dziennikarzy, którzy przestali liczyć przesyłane pliki i skupili się na historii",
+        subtitle: "Dołącz do tysięcy dziennikarzy, którzy przestali liczyć przesyłane pliki i skupili się na historii",
         ctaPrimary: "Wypróbuj bez ograniczeń za darmo →",
         ctaSecondary: "Zobacz cennik"
       }
@@ -2638,18 +2547,15 @@ let message = {
         title: "Od przesłania do",
         titleHighlight: "Opublikowania",
         titleSuffix: "W kilka minut",
-        subtitle:
-          "Najszybszy sposób na dodanie napisów do całej biblioteki treści",
+        subtitle: "Najszybszy sposób na dodanie napisów do całej biblioteki treści",
         steps: {
           pasteLinks: {
             title: "Wklej linki",
-            description:
-              "Dodaj linki z YouTube, TikTok lub dowolnego innego źródła. Lub prześlij pliki bezpośrednio."
+            description: "Dodaj linki z YouTube, TikTok lub dowolnego innego źródła. Lub prześlij pliki bezpośrednio."
           },
           autoTranscribe: {
             title: "Auto-transkrypcja",
-            description:
-              "AI przetwarza z 96% dokładnością. Obsługuje akcenty i wielu mówców."
+            description: "AI przetwarza z 96% dokładnością. Obsługuje akcenty i wielu mówców."
           },
           editTranslate: {
             title: "Edytuj i tłumacz",
@@ -2657,8 +2563,7 @@ let message = {
           },
           exportPublish: {
             title: "Eksportuj i publikuj",
-            description:
-              "Pobierz w dowolnym formacie. Prześlij na swoją platformę. Gotowe!"
+            description: "Pobierz w dowolnym formacie. Prześlij na swoją platformę. Gotowe!"
           }
         }
       },
@@ -2667,8 +2572,7 @@ let message = {
         titleHighlight: "Przechodzą codziennie",
         subtitle: "Od ograniczonych planów do nieograniczonej swobody",
         carlos: {
-          textBefore:
-            "Tworzę edukacyjne treści po hiszpańsku. NeverCap doskonale transkrybuje i",
+          textBefore: "Tworzę edukacyjne treści po hiszpańsku. NeverCap doskonale transkrybuje i",
           textAfter:
             "zwiększa zasięg. Bez limitów, tylko rozwój. Liczba wyświetleń na moim kanale wzrosła 3-krotnie po dodaniu napisów wielojęzycznych.",
           highlight: "tłumaczy na angielski",
@@ -2702,25 +2606,21 @@ let message = {
       },
       cta: {
         title: "Twój cały kanał. Z napisami. Już dziś.",
-        subtitle:
-          "Dołącz do 50 000+ twórców, którzy przestali liczyć minuty i zaczęli tworzyć",
+        subtitle: "Dołącz do 50 000+ twórców, którzy przestali liczyć minuty i zaczęli tworzyć",
         button: "Rozpocznij nielimitowane dodawanie napisów →"
       },
       FAQSection: {
         title: "Twoje pytania o transkrypcję,",
         titleHighlight: "Odpowiedzi",
-        subtitle:
-          "Wszystko, co musisz wiedzieć o transkrybowaniu filmów z różnych platform",
+        subtitle: "Wszystko, co musisz wiedzieć o transkrybowaniu filmów z różnych platform",
         questions: [
           {
-            question:
-              "P: Jak przetranskrybować film z YouTube za pomocą NeverCap?",
+            question: "P: Jak przetranskrybować film z YouTube za pomocą NeverCap?",
             answer:
               "To proste. Znajdź film YouTube, który chcesz transkrybować, skopiuj jego URL i wklej do naszej aplikacji. Nasze AI automatycznie pobierze film i dostarczy pełną transkrypcję tekstową w kilka minut."
           },
           {
-            question:
-              "P: Jaki jest najlepszy sposób na transkrypcję filmu z Facebooka?",
+            question: "P: Jaki jest najlepszy sposób na transkrypcję filmu z Facebooka?",
             answer:
               "Najłatwiej użyć bezpośredniego linku. Skopiuj URL filmu z Facebooka, a nasza platforma zajmie się resztą, konwertując mowę na tekst z dokładnością do 96%, oszczędzając Ci ręcznej transkrypcji."
           },
@@ -2750,11 +2650,9 @@ let message = {
       statsSpeakersId: "Identyfikacja mówców",
       statsCompliant: "Zgodne",
       problemTitle: "Problem",
-      problemSubtitle:
-        'Inne usługi zmuszają Cię do wyboru, które dane są "warte" transkrypcji',
+      problemSubtitle: 'Inne usługi zmuszają Cię do wyboru, które dane są "warte" transkrypcji',
       problemCard1Title: "Limity przesyłania niszczą badania",
-      problemCard1Desc:
-        "Otter daje tylko 3 importy na całe życie. Jak przetranskrybować 200 godzin grup fokusowych?",
+      problemCard1Desc: "Otter daje tylko 3 importy na całe życie. Jak przetranskrybować 200 godzin grup fokusowych?",
       problemCard2Title: "Brakujące kluczowe dane",
       problemCard2Desc:
         "Każde nieprzetranskrybowane interview może zawierać przełomowe spostrzeżenia. Ale Rev pobiera minimum 2$/minutę.",
@@ -2785,12 +2683,10 @@ let message = {
       conversationParticipant2: "Uczestnik 2",
       conversationText2: "Zgadzam się, ale dodałbym, że dostęp to—",
       conversationParticipant3: "Uczestnik 3",
-      conversationText3:
-        "—przepraszam, że przerywam, ale transport też jest ogromnym problemem.",
+      conversationText3: "—przepraszam, że przerywam, ale transport też jest ogromnym problemem.",
       conversationText4: "Tak! Właśnie to chciałem powiedzieć.",
       conversationParticipant4: "Uczestnik 4",
-      conversationText5:
-        "Na obszarach wiejskich to wszystkie trzy: koszt, dostęp I transport.",
+      conversationText5: "Na obszarach wiejskich to wszystkie trzy: koszt, dostęp I transport.",
       feature3Label: "Precyzja",
       feature3Title: "Godne zaufania",
       feature3Desc:
@@ -2884,8 +2780,7 @@ let message = {
       feature2Title: "Prześlij Dowolny Plik Audio Natychmiast",
       feature2Desc:
         "Masz nagrania z Zoom, Teams lub telefonu? Prześlij je natychmiast. Obsługa wszystkich głównych formatów audio i wideo. Przetwarzaj wiele plików jednocześnie bez czekania.",
-      feature2Benefit1:
-        "Obsługiwane formaty: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV, FLAC",
+      feature2Benefit1: "Obsługiwane formaty: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV, FLAC",
       feature2Benefit2: "Możliwość przesyłania zbiorczego",
       feature2Benefit3: "Obsługa plików do 10 godzin",
       feature2Benefit4: "Przetwarzaj podczas pracy",
@@ -2912,14 +2807,12 @@ let message = {
       feature4Meeting2: "Spotkanie zarządu - 20 paź",
       feature4Meeting2Text: '"...prognozy przychodów Q4..."',
       workflowTitle: "Jak transkrybować",
-      workflowSubtitle:
-        "Płynny przepływ pracy, który rejestruje każdy ważny moment",
+      workflowSubtitle: "Płynny przepływ pracy, który rejestruje każdy ważny moment",
       workflowStep1Title: "Nagrywaj lub przesyłaj",
       workflowStep1Desc:
         "Zacznij nagrywać na żywo lub po prostu pobierz nagranie spotkania z Zoom, Google Meet lub Microsoft Teams",
       workflowStep2Title: "Auto-transkrypcja",
-      workflowStep2Desc:
-        "Nasze AI automatycznie przetworzy nagranie na tekst z 96% dokładnością w kilka minut",
+      workflowStep2Desc: "Nasze AI automatycznie przetworzy nagranie na tekst z 96% dokładnością w kilka minut",
       workflowStep3Title: "Współpraca",
       workflowStep3Desc: "Udostępniaj, komentuj i wyodrębniaj zadania",
       workflowStep4Title: "Wyszukiwanie i analiza",
@@ -2939,8 +2832,7 @@ let message = {
       testimonial3AuthorName: "Mark Liu",
       testimonial3AuthorRole: "COO, FinanceHub",
       ctaTitle: "Przestań tracić ważne rozmowy",
-      ctaSubtitle:
-        "Dołącz do tysięcy zespołów rejestrujących każde spotkanie z nielimitowaną transkrypcją",
+      ctaSubtitle: "Dołącz do tysięcy zespołów rejestrujących każde spotkanie z nielimitowaną transkrypcją",
       ctaButton: "Zacznij nagrywać za darmo →",
       featuresTitle2: "Spotkanie",
       workflowTitle2: "Nagranie Zoom na tekst",
@@ -2964,8 +2856,7 @@ let message = {
       stats4Number: "96%",
       stats4Label: "Dokładność",
       featuresTitle: "Wszystko, czego potrzebują edukatorzy do",
-      featuresSubtitle:
-        "Od wykładów na YouTube po nagrane zajęcia – udostępniaj wszystkie swoje treści",
+      featuresSubtitle: "Od wykładów na YouTube po nagrane zajęcia – udostępniaj wszystkie swoje treści",
       feature1Title: "Natychmiastowe linki YouTube i innych platform",
       feature1Desc:
         "Wklej dowolny link do filmu i od razu otrzymaj transkrypcję. Działa z YouTube, Vimeo, Facebook, X (Twitter), TikTok, Instagram, Dropbox, Google Drive i innymi. Bez pobierania, bez czekania.",
@@ -2977,8 +2868,7 @@ let message = {
       feature2Desc:
         "Natychmiast twórz dokładne napisy do wszystkich filmów edukacyjnych. Ułatw dostęp do treści uczniom z wadami słuchu, obcokrajowcom lub tym, którzy wolą czytać.",
       feature2Point1: "Formaty eksportu: SRT, VTT i TXT",
-      feature2Point2:
-        "Znaczniki czasu na poziomie słów dla idealnej synchronizacji",
+      feature2Point2: "Znaczniki czasu na poziomie słów dla idealnej synchronizacji",
       feature2Point3: "Łatwo edytuj i dostosuj napisy",
       feature2Point4: "Prześlij bezpośrednio z powrotem na YouTube",
       feature2Visual1: "Tłumaczenia językowe",
@@ -3004,22 +2894,17 @@ let message = {
       feature4Point3: "PDF – do łatwego udostępniania i drukowania",
       feature4Point4: "Masowo eksportuj wiele plików naraz",
       workflowTitle: "Jak to działa:",
-      workflowSubtitle:
-        "Od linku do filmu do dostępnej transkrypcji i materiałów naukowych w kilka minut",
+      workflowSubtitle: "Od linku do filmu do dostępnej transkrypcji i materiałów naukowych w kilka minut",
       workflowStep1Title: "Prześlij swój wykład",
-      workflowStep1Desc:
-        "Prześlij dowolny plik audio lub wideo (MP3, MP4, WAV) lub wklej link z YouTube",
+      workflowStep1Desc: "Prześlij dowolny plik audio lub wideo (MP3, MP4, WAV) lub wklej link z YouTube",
       workflowStep2Title: "Transkrypcja AI",
-      workflowStep2Desc:
-        "Nasze AI transkrybuje audio, rozdziela mówców i identyfikuje kluczowe tematy",
+      workflowStep2Desc: "Nasze AI transkrybuje audio, rozdziela mówców i identyfikuje kluczowe tematy",
       workflowStep3Title: "Generuj napisy",
       workflowStep3Desc: "Automatycznie twórz idealnie zsynchronizowane napisy",
       workflowStep4Title: "Eksportuj przewodnik naukowy",
-      workflowStep4Desc:
-        "Pobierz tekst, podsumowanie lub wyeksportuj, aby stworzyć swój końcowy przewodnik naukowy",
+      workflowStep4Desc: "Pobierz tekst, podsumowanie lub wyeksportuj, aby stworzyć swój końcowy przewodnik naukowy",
       useCasesTitle: "Idealne dla każdego",
-      useCasesSubtitle:
-        "Zobacz, jak nauczyciele wykorzystują NeverCap, aby ulepszyć naukę",
+      useCasesSubtitle: "Zobacz, jak nauczyciele wykorzystują NeverCap, aby ulepszyć naukę",
       useCase1Title: "Nagrane wykłady",
       useCase1Text:
         "Transkrybuj całe semestry nagranych wykładów. Studenci mogą wyszukiwać konkretne tematy, przeglądać kluczowe koncepcje i nigdy nie przegapić ważnych informacji.",
@@ -3039,13 +2924,11 @@ let message = {
       useCase6Text:
         "Pomóż studentom dokładnie cytować źródła wideo z znacznikami czasu. Idealne dla projektów badawczych i prac akademickich.",
       testimonialTitle: "Zaufane przez",
-      testimonialSubtitle:
-        "Zobacz, dlaczego nauczyciele na całym świecie wybierają NeverCap",
+      testimonialSubtitle: "Zobacz, dlaczego nauczyciele na całym świecie wybierają NeverCap",
       testimonialAuthorName: "Prof. Karen Mitchell",
       testimonialAuthorRole: "Profesor matematyki, nauczyciel online",
       ctaTitle: "Uczyń wszystkie swoje treści edukacyjne dostępnymi",
-      ctaSubtitle:
-        "Dołącz do tysięcy nauczycieli korzystających z naprawdę nieograniczonej transkrypcji",
+      ctaSubtitle: "Dołącz do tysięcy nauczycieli korzystających z naprawdę nieograniczonej transkrypcji",
       ctaButton: "Wypróbuj NeverCap za darmo",
       featuresTitle2: "Transkrypcji wideo",
       grid: "Plik audio na przewodnik naukowy",
@@ -3067,23 +2950,19 @@ let message = {
         tutorial: "Obejrzyj poradnik"
       },
       part2: {
-        title:
-          "Oto jak w 3 prostych krokach zamienić film z YouTube na plik MP4 do pobrania",
+        title: "Oto jak w 3 prostych krokach zamienić film z YouTube na plik MP4 do pobrania",
         steps: [
           {
             title: "Skopiuj adres URL",
-            content:
-              "Otwórz wybrany film na YouTube, a następnie skopiuj link z paska adresu przeglądarki."
+            content: "Otwórz wybrany film na YouTube, a następnie skopiuj link z paska adresu przeglądarki."
           },
           {
             title: "Wklej link",
-            content:
-              "Przejdź do narzędzia do pobierania filmów i wklej URL w pole wprowadzania."
+            content: "Przejdź do narzędzia do pobierania filmów i wklej URL w pole wprowadzania."
           },
           {
             title: "Pobierz MP4",
-            content:
-              "Po przetworzeniu kliknij przycisk pobierania, aby zapisać plik MP4."
+            content: "Po przetworzeniu kliknij przycisk pobierania, aby zapisać plik MP4."
           }
         ]
       },
@@ -3096,10 +2975,7 @@ let message = {
         ]
       },
       part4: {
-        content: [
-          "Oto 5 głównych zalet pobierania",
-          "filmów z YouTube jako plików MP4"
-        ],
+        content: ["Oto 5 głównych zalet pobierania", "filmów z YouTube jako plików MP4"],
         list: [
           {
             title: "Oszczędność danych:",
@@ -3108,8 +2984,7 @@ let message = {
           },
           {
             title: "Oglądaj wszędzie i o każdej porze:",
-            content:
-              "Ciesz się filmami bez przerw, nawet przy słabym połączeniu. Żadnych problemów z buforowaniem."
+            content: "Ciesz się filmami bez przerw, nawet przy słabym połączeniu. Żadnych problemów z buforowaniem."
           },
           {
             title: "Łatwe archiwizowanie i przechowywanie:",
@@ -3137,8 +3012,7 @@ let message = {
           },
           {
             title: "Niesamowita szybkość, bez limitów",
-            content:
-              "Konwertuj i pobieraj z maksymalną prędkością — bez ograniczeń."
+            content: "Konwertuj i pobieraj z maksymalną prędkością — bez ograniczeń."
           },
           {
             title: "Konwersja w locie",
@@ -3146,15 +3020,13 @@ let message = {
           },
           {
             title: "Zero reklam, zero rozpraszania",
-            content:
-              "Czysty interfejs bez wyskakujących okienek czy banerów — tylko płynna konwersja wideo."
+            content: "Czysty interfejs bez wyskakujących okienek czy banerów — tylko płynna konwersja wideo."
           },
           {
             icon: "5",
             color: "#DEE5FF",
             title: "Gwarancja oryginalnej jakości",
-            content:
-              "Pobrane pliki zachowują pełną rozdzielczość źródłowego wideo dla idealnego odtwarzania."
+            content: "Pobrane pliki zachowują pełną rozdzielczość źródłowego wideo dla idealnego odtwarzania."
           },
           {
             icon: "6",
@@ -3165,10 +3037,7 @@ let message = {
         ]
       },
       part6: {
-        title: [
-          "Maksymalizuj swoje pobieranie filmów z YouTube",
-          "Z naszym konwerterem"
-        ],
+        title: ["Maksymalizuj swoje pobieranie filmów z YouTube", "Z naszym konwerterem"],
         content: [
           "Łatwa konwersja YouTube na MP4: szybko, prosto i za darmo.",
           "W tym jesteśmy najlepsi. Nasz przyjazny interfejs jest dla każdego — bez wymaganych umiejętności technicznych. Bez względu na doświadczenie, konwertuj filmy od razu. Bez rejestracji: odbierz to, czego potrzebujesz, natychmiast.",
@@ -3180,10 +3049,8 @@ let message = {
         title: "Kluczowe pytania o pobieranie filmów z YouTube",
         list: [
           {
-            question:
-              "Czy mogę pobrać film z YouTube, jeśli jest chroniony prawem autorskim?",
-            answer:
-              "Pobieranie chronionych filmów z YouTube bez zgody właściciela praw autorskich jest nielegalne."
+            question: "Czy mogę pobrać film z YouTube, jeśli jest chroniony prawem autorskim?",
+            answer: "Pobieranie chronionych filmów z YouTube bez zgody właściciela praw autorskich jest nielegalne."
           },
           {
             question: "Czy to narzędzie jest bezpieczne?",
@@ -3192,12 +3059,10 @@ let message = {
           },
           {
             question: "Jakie języki obsługuje pobieranie YouTube do MP4?",
-            answer:
-              "Nasza usługa obsługuje pobieranie filmów z YouTube we wszystkich popularnych językach."
+            answer: "Nasza usługa obsługuje pobieranie filmów z YouTube we wszystkich popularnych językach."
           },
           {
-            question:
-              "Jakie czynniki wpływają na czas pobierania filmu z YouTube?",
+            question: "Jakie czynniki wpływają na czas pobierania filmu z YouTube?",
             answer:
               "Choć zapewniamy najszybsze pobieranie, czas zależy też od długości filmu i prędkości Twojego internetu."
           },
@@ -3216,8 +3081,7 @@ let message = {
       err1: "Błąd formatu linku YouTube.",
       err2: "Przepraszamy! Obecnie obsługujemy tylko linki YouTube. Jeśli potrzebujesz wsparcia dla innych stron, poinformujemy Cię, gdy dodamy tę funkcję w przyszłości.",
       videoDownload: {
-        title:
-          "Pobieraj filmy z YouTube jako MP4. Darmowe, szybkie i bez reklam.",
+        title: "Pobieraj filmy z YouTube jako MP4. Darmowe, szybkie i bez reklam.",
         description:
           "Dziękujemy za wybranie naszej usługi! Doceniamy Twoje zaufanie i mamy nadzieję, że poprawiło to Twoje wrażenia. Jeśli możesz udostępnić naszą stronę znajomym, byłoby to ogromną pomocą.",
         downloadButton: "Pobierz",
@@ -3231,8 +3095,7 @@ let message = {
         steps: [
           {
             title: "Bezpłatne audio i wideo",
-            content:
-              "Konwertuj pliki audio i wideo na tekst w kilka sekund. 3 bezpłatne transkrypcje dziennie."
+            content: "Konwertuj pliki audio i wideo na tekst w kilka sekund. 3 bezpłatne transkrypcje dziennie."
           },
           {
             title: "Konwertuj pliki audio na tekst",
@@ -3241,15 +3104,13 @@ let message = {
           },
           {
             title: "Transkrybuj filmy z YouTube",
-            content:
-              "Konwertuj filmy z YouTube na dokładny tekst lub napisy. Wystarczy wkleić link YouTube."
+            content: "Konwertuj filmy z YouTube na dokładny tekst lub napisy. Wystarczy wkleić link YouTube."
           }
         ],
         stepsNew: [
           {
             title: "Bezpłatna transkrypcja audio i wideo",
-            content:
-              "Konwertuj pliki audio i wideo na tekst w kilka sekund. 3 bezpłatne transkrypcje dziennie."
+            content: "Konwertuj pliki audio i wideo na tekst w kilka sekund. 3 bezpłatne transkrypcje dziennie."
           },
           {
             title: "Konwertuj pliki audio na tekst",
@@ -3258,191 +3119,202 @@ let message = {
           },
           {
             title: "Transkrybuj filmy z YouTube",
-            content:
-              "Konwertuj filmy z YouTube na dokładny tekst lub napisy. Wystarczy wkleić link YouTube."
+            content: "Konwertuj filmy z YouTube na dokładny tekst lub napisy. Wystarczy wkleić link YouTube."
           }
         ]
       },
-        MoreFreeTools: {
-              "title": "Więcej darmowych narzędzi",
-              "title_des": "Poznaj nasze inne bezpłatne narzędzia do konwersji",
-              "YouTubeToMP": "YouTube na MP3",
-              "YouTubeToMP_des": "Konwertuj filmy z YouTube do formatu MP3, aby oglądać je offline. Pobieraj wysokiej jakości filmy natychmiast.",
-              "AITranscription": "Transkrypcja AI",
-              "AITranscription_des": "Transkrybuj pliki audio i wideo z dokładnością 96%. Nielimitowana transkrypcja wszystkich Twoich treści."
-            }
+      MoreFreeTools: {
+        title: "Więcej darmowych narzędzi",
+        title_des: "Poznaj nasze inne bezpłatne narzędzia do konwersji",
+        YouTubeToMP: "YouTube na MP3",
+        YouTubeToMP_des:
+          "Konwertuj filmy z YouTube do formatu MP3, aby oglądać je offline. Pobieraj wysokiej jakości filmy natychmiast.",
+        AITranscription: "Transkrypcja AI",
+        AITranscription_des:
+          "Transkrybuj pliki audio i wideo z dokładnością 96%. Nielimitowana transkrypcja wszystkich Twoich treści."
+      }
     },
-      YouTubeToMP3: {
-            "err1": "Błąd formatu łącza YouTube.",
-            "err2": "Przepraszamy! Obecnie obsługujemy tylko linki do YouTube. Jeśli potrzebujesz wsparcia dla innych stron, poinformujemy Cię na bieżąco, gdy dodamy je w przyszłości.",
-            "part1": {
-              "title": "Konwertuj filmy z YouTube na MP3",
-              "title_des": "Wyodrębnij dźwięk z filmów z YouTube w kilka sekund",
-              "placeholder": "Wklej tutaj swój link do YouTube",
-              "clear_icon": "Wyczyść dane wejściowe",
-              "Download": "Konwertować",
-              "loading_text": "Przetwarzanie linku do konwersji. Pozostań na stronie.",
-              "howToDownload": "Jak konwertować?",
-              "tutorial": "Obejrzyj samouczek"
-            },
-            "freeResources": {
-              "linkTitle": "Obsługiwane przez {NeverCap}",
-              "linkTitle2": "- W pełni nieograniczona transkrypcja AI",
-              "title": "Bezpłatne zasoby",
-              "stepsNew": [
-                {
-                  "title": "Bezpłatna transkrypcja audio i wideo",
-                  "content": "Konwertuj pliki audio i wideo na tekst w kilka sekund. Codziennie transkrybujemy 3 pliki."
-                },
-                {
-                  "title": "Wyodrębnij pliki audio do tekstu",
-                  "content": "Prześlij pliki MP3, MP4, WAV, MOV.",
-                  "content2": "Pobierz pliki DOCX, TXT, SRT i inne."
-                },
-                {
-                  "title": "Transkrybuj filmy z YouTube",
-                  "content": "Konwertuj filmy z YouTube na dokładny tekst lub napisy i wklej link za darmo."
-                }
-              ]
-            },
-            "part2": {
-              "title": "Oto jak w 3 prostych krokach przekształcić film z YouTube w plik MP3 do pobrania",
-              "steps": [
-                {
-                  "title": "Skopiuj adres URL",
-                  "content": "Otwórz docelowy film w serwisie YouTube, a następnie skopiuj link z paska adresu przeglądarki."
-                },
-                {
-                  "title": "Wklej link",
-                  "content": "Wpisz adres URL w narzędziu do pobierania filmów i wklej go w polu tekstowym."
-                },
-                {
-                  "title": "Konwertuj i pobieraj",
-                  "content": "Po zakończeniu konwersji pobierz plik MP3 i zapisz go."
-                }
-              ]
-            },
-            "part3": {
-              "content": [
-                "Chcesz przekonwertować filmy z YouTube na format MP3, aby móc ich słuchać w dowolnym momencie?",
-                "Niezależnie od tego, czy podróżujesz metrem, samolotem, czy organizujesz podcasty, materiały kursowe czy ważne archiwa, często borykamy się z brakiem dostępu do nich w dowolnym momencie. Oto nasze narzędzie do konwersji, które rozwiązuje ten problem.",
-                "Wystarczy skopiować link YouTube, wkleić go do konwertera i jednym kliknięciem przekonwertować filmy na wysokiej jakości dźwięk MP3. Zapisuj, słuchaj i archiwizuj w dowolnym momencie, bez połączenia z internetem."
-              ]
-            },
-            "part4": {
-              "content": [
-                "Oto 5 głównych korzyści płynących z konwersji",
-                "Filmy z YouTube'a do plików MP3"
-              ],
-              "list": [
-                {
-                  "title": "Oszczędzaj na przechowywaniu:",
-                  "content": "Pliki MP3 są mniejsze, co zmniejsza zużycie pamięci przez YouTube. Oszczędzaj transfer danych mobilnych, pobierając pliki do oglądania offline i korzystaj z nich, gdy masz dostęp do internetu."
-                },
-                {
-                  "title": "Oszczędza baterię:",
-                  "content": "Do oglądania filmów z YouTube, usługa buforowania wykorzystuje połączenia o wysokiej przepustowości. Koniec z zmartwieniami o buforowanie."
-                },
-                {
-                  "title": "Łatwa archiwizacja i przechowywanie:",
-                  "content": "Niektóre filmy i pliki MP3 ułatwiają zbudowanie własnej biblioteki — na przykład materiałów edukacyjnych, archiwów muzycznych lub innych ważnych treści."
-                },
-                {
-                  "title": "Prostsze udostępnianie:",
-                  "content": "Udostępnianie pliku MP3 jest o wiele wygodniejsze niż linkowanie do YouTube. Możesz wysyłać pliki znajomym za pośrednictwem aplikacji takich jak WhatsApp czy Instagram, eliminując koszty związane z otwarciem YouTube."
-                },
-                {
-                  "title": "Natychmiastowy podgląd, szeroka elastyczność:",
-                  "content": "Uzyskaj dostęp do szerszego wyboru ulubionych filmów, konwertując filmy z YouTube, gdziekolwiek ich potrzebujesz, a formaty MP3 umożliwiają natychmiastowe, płynne przesyłanie danych, bez niezręcznych przerw w oczekiwaniu na załadowanie."
-                }
-              ]
-            },
-            "part5": {
-              "title": "Dlaczego nasz konwerter wyróżnia się",
-              "cards": [
-                {
-                  "title": "Prostota jednym kliknięciem",
-                  "content": "Łatwa konfiguracja i intuicyjna obsługa."
-                },
-                {
-                  "title": "Błyskawicznie szybki, nieograniczony",
-                  "content": "Konwertuj i pobieraj z maksymalną prędkością — bez limitów i ograniczeń."
-                },
-                {
-                  "title": "Konwertuj w locie",
-                  "content": "Przetwarzaj pliki natychmiast, bez czekania."
-                },
-                {
-                  "title": "Zero reklam, zero rozpraszaczy",
-                  "content": "Ciesz się przejrzystym interfejsem bez wyskakujących okienek, banerów i przerw – zapewniasz sobie płynną, nieprzerwaną konwersję."
-                },
-                {
-                  "title": "Gwarancja oryginalnej jakości",
-                  "content": "Pobrane pliki zachowują pełną rozdzielczość źródłowego filmu, co pozwala na ich odtwarzanie z zachowaniem doskonałej jakości obrazu."
-                },
-                {
-                  "title": "Działa wszędzie",
-                  "content": "Pełna kompatybilność z dowolną przeglądarką, na dowolnym urządzeniu."
-                }
-              ]
-            },
-            "part6": {
-              "title": [
-                "Zmaksymalizuj konwersję z YouTube do MP3",
-                "Z naszym konwerterem"
-              ],
-              "title_des": "Bezproblemowa konwersja z YouTube do MP3 — szybka, prosta i darmowa",
-              "content": [
-                "W tym się wyróżniamy. Nasz przyjazny dla użytkownika interfejs jest zaprojektowany dla każdego — nie są wymagane żadne umiejętności techniczne. Niezależnie od poziomu doświadczenia, możesz konwertować filmy natychmiast. Nie jest wymagana rejestracja, a po prostu zacznij — pobrane pliki MP3 zachowują oryginalną jakość i przejrzystość wideo, dokładnie tak, jak oglądałeś je na YouTube.",
-                "Prędkość też ma znaczenie. Możesz szybko pobierać wiele plików, bez reklam i urządzeń. Niezależnie od tego, czy korzystasz z systemu Windows, macOS, Linux, Android czy iOS — na smartfonie, tablecie czy komputerze stacjonarnym — możesz pobierać filmy bez wysiłku."
-              ]
-            },
-            "part7": {
-              "title": "Kluczowe pytania dotyczące konwersji YouTube na MP3",
-              "list": [
-                {
-                  "question": "Czy mogę przekonwertować film z YouTube chroniony prawami autorskimi na format MP3?",
-                  "answer": "Choć technicznie jest to możliwe, konwersja treści chronionych prawem autorskim bez zezwolenia może naruszać warunki korzystania z usługi YouTube i prawa autorskie. Zawsze upewnij się, że masz prawo do konwersji treści lub wykorzystywania ich wyłącznie do celów osobistych i niekomercyjnych."
-                },
-                {
-                  "question": "Czy to narzędzie konwertujące jest bezpieczne?",
-                  "answer": "Tak, nasz konwerter jest całkowicie bezpieczny. Nie przechowujemy żadnych Twoich danych ani plików, a ryzyko infekcji złośliwym oprogramowaniem lub wirusami jest zerowe. Konwersja odbywa się bezpośrednio i bezpiecznie."
-                },
-                {
-                  "question": "Jakie języki obsługuje konwersja z YouTube do MP3?",
-                  "answer": "Nasz konwerter obsługuje wszystkie języki dostępne na YouTube. Dźwięk zostanie wyekstrahowany dokładnie tak, jak w oryginalnym filmie, zachowując oryginalny język i jakość dźwięku."
-                },
-                {
-                  "question": "Jakie czynniki wpływają na czas konwersji filmu na YouTube?",
-                  "answer": "Czas konwersji zależy od kilku czynników: długości filmu, szybkości połączenia internetowego i aktualnego obciążenia serwera. Większość filmów trwających krócej niż 10 minut konwertuje się w mniej niż 30 sekund."
-                },
-                {
-                  "question": "Gdzie jest zapisywany plik MP3, który konwertuję i pobieram za pomocą smartfona?",
-                  "answer": "W większości smartfonów przekonwertowane pliki MP3 są zapisywane w folderze Pobrane. Na iPhonie mogą one trafić do aplikacji Pliki. W systemie Android sprawdź folder Pobrane w menedżerze plików lub aplikacji muzycznej."
-                },
-                {
-                  "question": "Czy konwersja filmu z YouTube do formatu MP3 pogarsza jakość dźwięku?",
-                  "answer": "MP3 to format wyłącznie audio, więc nie zawiera komponentu wideo. Jakość dźwięku jest zachowana przy najwyższej dostępnej przepływności bitowej ze źródłowego wideo, zazwyczaj 128–320 kbps, w zależności od jakości oryginalnego przesłania."
-                }
-              ]
-            },
-            "MoreFreeTools": {
-              "title": "Więcej darmowych narzędzi",
-              "title_des": "Poznaj nasze inne bezpłatne narzędzia do konwersji",
-              "YouTubeToMP": "YouTube do MP4",
-              "YouTubeToMP_des": "Konwertuj filmy z YouTube do formatu MP4, aby oglądać je offline. Pobieraj filmy w wysokiej jakości natychmiast.",
-              "AITranscription": "Transkrypcja AI",
-              "AITranscription_des": "Transkrybuj pliki audio i wideo z dokładnością 96%. Nielimitowana transkrypcja wszystkich Twoich treści."
-            },
-            "videoDownload": {
-              "title": "Konwertuj linki YouTube do formatu MP3. Bezpłatnie, szybko i bez reklam.",
-              "description": "Dziękujemy za wybór naszych usług! Bardzo cenimy Państwa zaufanie i mamy nadzieję, że korzystanie z naszych usług było dla Państwa jeszcze przyjemniejsze. Jeśli zechcą Państwo polecić naszą stronę znajomym, będzie to dla nas ogromnym wsparciem.",
-              "downloadButton": "Pobierać",
-              "TranscribeButton": "Rozpisać",
-              "downloadError": "Błąd konwersji."
-            }
+    YouTubeToMP3: {
+      err1: "Błąd formatu łącza YouTube.",
+      err2: "Przepraszamy! Obecnie obsługujemy tylko linki do YouTube. Jeśli potrzebujesz wsparcia dla innych stron, poinformujemy Cię na bieżąco, gdy dodamy je w przyszłości.",
+      part1: {
+        title: "Konwertuj filmy z YouTube na MP3",
+        title_des: "Wyodrębnij dźwięk z filmów z YouTube w kilka sekund",
+        placeholder: "Wklej tutaj swój link do YouTube",
+        clear_icon: "Wyczyść dane wejściowe",
+        Download: "Konwertować",
+        loading_text: "Przetwarzanie linku do konwersji. Pozostań na stronie.",
+        howToDownload: "Jak konwertować?",
+        tutorial: "Obejrzyj samouczek"
+      },
+      freeResources: {
+        linkTitle: "Obsługiwane przez {NeverCap}",
+        linkTitle2: "- W pełni nieograniczona transkrypcja AI",
+        title: "Bezpłatne zasoby",
+        stepsNew: [
+          {
+            title: "Bezpłatna transkrypcja audio i wideo",
+            content: "Konwertuj pliki audio i wideo na tekst w kilka sekund. Codziennie transkrybujemy 3 pliki."
+          },
+          {
+            title: "Wyodrębnij pliki audio do tekstu",
+            content: "Prześlij pliki MP3, MP4, WAV, MOV.",
+            content2: "Pobierz pliki DOCX, TXT, SRT i inne."
+          },
+          {
+            title: "Transkrybuj filmy z YouTube",
+            content: "Konwertuj filmy z YouTube na dokładny tekst lub napisy i wklej link za darmo."
           }
-},
+        ]
+      },
+      part2: {
+        title: "Oto jak w 3 prostych krokach przekształcić film z YouTube w plik MP3 do pobrania",
+        steps: [
+          {
+            title: "Skopiuj adres URL",
+            content: "Otwórz docelowy film w serwisie YouTube, a następnie skopiuj link z paska adresu przeglądarki."
+          },
+          {
+            title: "Wklej link",
+            content: "Wpisz adres URL w narzędziu do pobierania filmów i wklej go w polu tekstowym."
+          },
+          {
+            title: "Konwertuj i pobieraj",
+            content: "Po zakończeniu konwersji pobierz plik MP3 i zapisz go."
+          }
+        ]
+      },
+      part3: {
+        content: [
+          "Chcesz przekonwertować filmy z YouTube na format MP3, aby móc ich słuchać w dowolnym momencie?",
+          "Niezależnie od tego, czy podróżujesz metrem, samolotem, czy organizujesz podcasty, materiały kursowe czy ważne archiwa, często borykamy się z brakiem dostępu do nich w dowolnym momencie. Oto nasze narzędzie do konwersji, które rozwiązuje ten problem.",
+          "Wystarczy skopiować link YouTube, wkleić go do konwertera i jednym kliknięciem przekonwertować filmy na wysokiej jakości dźwięk MP3. Zapisuj, słuchaj i archiwizuj w dowolnym momencie, bez połączenia z internetem."
+        ]
+      },
+      part4: {
+        content: ["Oto 5 głównych korzyści płynących z konwersji", "Filmy z YouTube'a do plików MP3"],
+        list: [
+          {
+            title: "Oszczędzaj na przechowywaniu:",
+            content:
+              "Pliki MP3 są mniejsze, co zmniejsza zużycie pamięci przez YouTube. Oszczędzaj transfer danych mobilnych, pobierając pliki do oglądania offline i korzystaj z nich, gdy masz dostęp do internetu."
+          },
+          {
+            title: "Oszczędza baterię:",
+            content:
+              "Do oglądania filmów z YouTube, usługa buforowania wykorzystuje połączenia o wysokiej przepustowości. Koniec z zmartwieniami o buforowanie."
+          },
+          {
+            title: "Łatwa archiwizacja i przechowywanie:",
+            content:
+              "Niektóre filmy i pliki MP3 ułatwiają zbudowanie własnej biblioteki — na przykład materiałów edukacyjnych, archiwów muzycznych lub innych ważnych treści."
+          },
+          {
+            title: "Prostsze udostępnianie:",
+            content:
+              "Udostępnianie pliku MP3 jest o wiele wygodniejsze niż linkowanie do YouTube. Możesz wysyłać pliki znajomym za pośrednictwem aplikacji takich jak WhatsApp czy Instagram, eliminując koszty związane z otwarciem YouTube."
+          },
+          {
+            title: "Natychmiastowy podgląd, szeroka elastyczność:",
+            content:
+              "Uzyskaj dostęp do szerszego wyboru ulubionych filmów, konwertując filmy z YouTube, gdziekolwiek ich potrzebujesz, a formaty MP3 umożliwiają natychmiastowe, płynne przesyłanie danych, bez niezręcznych przerw w oczekiwaniu na załadowanie."
+          }
+        ]
+      },
+      part5: {
+        title: "Dlaczego nasz konwerter wyróżnia się",
+        cards: [
+          {
+            title: "Prostota jednym kliknięciem",
+            content: "Łatwa konfiguracja i intuicyjna obsługa."
+          },
+          {
+            title: "Błyskawicznie szybki, nieograniczony",
+            content: "Konwertuj i pobieraj z maksymalną prędkością — bez limitów i ograniczeń."
+          },
+          {
+            title: "Konwertuj w locie",
+            content: "Przetwarzaj pliki natychmiast, bez czekania."
+          },
+          {
+            title: "Zero reklam, zero rozpraszaczy",
+            content:
+              "Ciesz się przejrzystym interfejsem bez wyskakujących okienek, banerów i przerw – zapewniasz sobie płynną, nieprzerwaną konwersję."
+          },
+          {
+            title: "Gwarancja oryginalnej jakości",
+            content:
+              "Pobrane pliki zachowują pełną rozdzielczość źródłowego filmu, co pozwala na ich odtwarzanie z zachowaniem doskonałej jakości obrazu."
+          },
+          {
+            title: "Działa wszędzie",
+            content: "Pełna kompatybilność z dowolną przeglądarką, na dowolnym urządzeniu."
+          }
+        ]
+      },
+      part6: {
+        title: ["Zmaksymalizuj konwersję z YouTube do MP3", "Z naszym konwerterem"],
+        title_des: "Bezproblemowa konwersja z YouTube do MP3 — szybka, prosta i darmowa",
+        content: [
+          "W tym się wyróżniamy. Nasz przyjazny dla użytkownika interfejs jest zaprojektowany dla każdego — nie są wymagane żadne umiejętności techniczne. Niezależnie od poziomu doświadczenia, możesz konwertować filmy natychmiast. Nie jest wymagana rejestracja, a po prostu zacznij — pobrane pliki MP3 zachowują oryginalną jakość i przejrzystość wideo, dokładnie tak, jak oglądałeś je na YouTube.",
+          "Prędkość też ma znaczenie. Możesz szybko pobierać wiele plików, bez reklam i urządzeń. Niezależnie od tego, czy korzystasz z systemu Windows, macOS, Linux, Android czy iOS — na smartfonie, tablecie czy komputerze stacjonarnym — możesz pobierać filmy bez wysiłku."
+        ]
+      },
+      part7: {
+        title: "Kluczowe pytania dotyczące konwersji YouTube na MP3",
+        list: [
+          {
+            question: "Czy mogę przekonwertować film z YouTube chroniony prawami autorskimi na format MP3?",
+            answer:
+              "Choć technicznie jest to możliwe, konwersja treści chronionych prawem autorskim bez zezwolenia może naruszać warunki korzystania z usługi YouTube i prawa autorskie. Zawsze upewnij się, że masz prawo do konwersji treści lub wykorzystywania ich wyłącznie do celów osobistych i niekomercyjnych."
+          },
+          {
+            question: "Czy to narzędzie konwertujące jest bezpieczne?",
+            answer:
+              "Tak, nasz konwerter jest całkowicie bezpieczny. Nie przechowujemy żadnych Twoich danych ani plików, a ryzyko infekcji złośliwym oprogramowaniem lub wirusami jest zerowe. Konwersja odbywa się bezpośrednio i bezpiecznie."
+          },
+          {
+            question: "Jakie języki obsługuje konwersja z YouTube do MP3?",
+            answer:
+              "Nasz konwerter obsługuje wszystkie języki dostępne na YouTube. Dźwięk zostanie wyekstrahowany dokładnie tak, jak w oryginalnym filmie, zachowując oryginalny język i jakość dźwięku."
+          },
+          {
+            question: "Jakie czynniki wpływają na czas konwersji filmu na YouTube?",
+            answer:
+              "Czas konwersji zależy od kilku czynników: długości filmu, szybkości połączenia internetowego i aktualnego obciążenia serwera. Większość filmów trwających krócej niż 10 minut konwertuje się w mniej niż 30 sekund."
+          },
+          {
+            question: "Gdzie jest zapisywany plik MP3, który konwertuję i pobieram za pomocą smartfona?",
+            answer:
+              "W większości smartfonów przekonwertowane pliki MP3 są zapisywane w folderze Pobrane. Na iPhonie mogą one trafić do aplikacji Pliki. W systemie Android sprawdź folder Pobrane w menedżerze plików lub aplikacji muzycznej."
+          },
+          {
+            question: "Czy konwersja filmu z YouTube do formatu MP3 pogarsza jakość dźwięku?",
+            answer:
+              "MP3 to format wyłącznie audio, więc nie zawiera komponentu wideo. Jakość dźwięku jest zachowana przy najwyższej dostępnej przepływności bitowej ze źródłowego wideo, zazwyczaj 128–320 kbps, w zależności od jakości oryginalnego przesłania."
+          }
+        ]
+      },
+      MoreFreeTools: {
+        title: "Więcej darmowych narzędzi",
+        title_des: "Poznaj nasze inne bezpłatne narzędzia do konwersji",
+        YouTubeToMP: "YouTube do MP4",
+        YouTubeToMP_des:
+          "Konwertuj filmy z YouTube do formatu MP4, aby oglądać je offline. Pobieraj filmy w wysokiej jakości natychmiast.",
+        AITranscription: "Transkrypcja AI",
+        AITranscription_des:
+          "Transkrybuj pliki audio i wideo z dokładnością 96%. Nielimitowana transkrypcja wszystkich Twoich treści."
+      },
+      videoDownload: {
+        title: "Konwertuj linki YouTube do formatu MP3. Bezpłatnie, szybko i bez reklam.",
+        description:
+          "Dziękujemy za wybór naszych usług! Bardzo cenimy Państwa zaufanie i mamy nadzieję, że korzystanie z naszych usług było dla Państwa jeszcze przyjemniejsze. Jeśli zechcą Państwo polecić naszą stronę znajomym, będzie to dla nas ogromnym wsparciem.",
+        downloadButton: "Pobierać",
+        TranscribeButton: "Rozpisać",
+        downloadError: "Błąd konwersji."
+      }
+    }
+  },
   About: {
     Hero: {
       badge: "Wiodąca Technologia AI",
@@ -3453,14 +3325,12 @@ let message = {
     Stats: {
       title: "Nasz",
       highlighted_text: "Wpływ",
-      subtitle:
-        "Wzmacnianie globalnej komunikacji dzięki najnowocześniejszej technologii AI",
+      subtitle: "Wzmacnianie globalnej komunikacji dzięki najnowocześniejszej technologii AI",
       metrics: [
         {
           value: "96%+",
           label: "Dokładność",
-          description:
-            "Wiodąca w branży dokładność transkrypcji dzięki zaawansowanej AI"
+          description: "Wiodąca w branży dokładność transkrypcji dzięki zaawansowanej AI"
         },
         {
           value: "100+",
@@ -3470,15 +3340,13 @@ let message = {
         {
           value: "249+",
           label: "Języki Tłumaczenia",
-          description:
-            "Tłumacz transkrybowany tekst na praktycznie dowolny język"
+          description: "Tłumacz transkrybowany tekst na praktycznie dowolny język"
         }
       ]
     },
     Mission: {
       title: "Dlaczego Wybrać",
-      subtitle:
-        "Wierzymy w łamanie barier językowych i udostępnianie treści wszystkim",
+      subtitle: "Wierzymy w łamanie barier językowych i udostępnianie treści wszystkim",
       features: [
         {
           icon: "🎯",
@@ -3517,11 +3385,7 @@ let message = {
         },
         {
           label: "Siedziba",
-          value: [
-            "30 N Gould St Ste R",
-            "Sheridan, WY 82801",
-            "Stany Zjednoczone"
-          ]
+          value: ["30 N Gould St Ste R", "Sheridan, WY 82801", "Stany Zjednoczone"]
         },
         {
           label: "Kontakt",
@@ -3531,18 +3395,15 @@ let message = {
     },
     CTA: {
       title: "Gotowy, aby Doświadczyć Różnicy?",
-      subtitle:
-        "Dołącz do tysięcy profesjonalistów, którzy ufają NeverCap w swoich potrzebach transkrypcyjnych",
+      subtitle: "Dołącz do tysięcy profesjonalistów, którzy ufają NeverCap w swoich potrzebach transkrypcyjnych",
       button: "Wypróbuj NeverCap za darmo →",
-      disclaimer:
-        "Bez karty kredytowej • Rozpocznij transkrypcję w kilka sekund"
+      disclaimer: "Bez karty kredytowej • Rozpocznij transkrypcję w kilka sekund"
     }
   },
   Privacy: {
     title: "Prywatność",
     titleGradient: "Polityka",
-    subtitle:
-      "Dowiedz się, jak zbieramy, wykorzystujemy i chronimy Twoje dane osobowe",
+    subtitle: "Dowiedz się, jak zbieramy, wykorzystujemy i chronimy Twoje dane osobowe",
     lastUpdated: "Ostatnia aktualizacja: {date}",
     lastUpdatedDate: "21 lipca 2025",
     privacyPolicyTitle: "Polityka Prywatności",
@@ -3576,8 +3437,7 @@ let message = {
     correspondenceTitle: "2.6 Dobrowolna korespondencja",
     correspondenceDescription:
       "Kiedy piszesz do nas z pytaniem lub prośbą o pomoc, przechowujemy tę korespondencję, w tym Twój adres e-mail, abyśmy mieli historię wcześniejszej korespondencji do odwołania, jeśli skontaktujesz się z nami w przyszłości.",
-    accessTitle:
-      "3. Kiedy uzyskujemy dostęp do Twoich danych lub je udostępniamy",
+    accessTitle: "3. Kiedy uzyskujemy dostęp do Twoich danych lub je udostępniamy",
     accessDescription1:
       "Aby świadczyć żądane przez Ciebie produkty lub usługi. Korzystamy z niektórych podwykonawców stron trzecich, aby pomóc w prowadzeniu naszych aplikacji i świadczeniu Usług. Obejmuje to dostawców chmury i analityki.",
     accessDescription2:
@@ -3593,8 +3453,7 @@ let message = {
     securityDescription:
       "Wszystkie dane są szyfrowane za pomocą SSL/TLS podczas przesyłania z naszych serwerów do Twojej przeglądarki.",
     deletionTitle: "5. Co się dzieje, gdy usuniesz swoje treści",
-    deletionDescription:
-      "Jeśli usuniesz jakiekolwiek treści, staną się one natychmiast niedostępne.",
+    deletionDescription: "Jeśli usuniesz jakiekolwiek treści, staną się one natychmiast niedostępne.",
     locationTitle: "6. Lokalizacja strony i danych",
     locationDescription:
       "Nasze produkty i inne własności internetowe są prowadzone w Stanach Zjednoczonych. Jeśli znajdujesz się w Unii Europejskiej, Wielkiej Brytanii lub gdziekolwiek poza Stanami Zjednoczonymi, pamiętaj, że wszelkie informacje, które nam przekazujesz, zostaną przesłane i przechowywane w Stanach Zjednoczonych. Korzystając z naszych stron internetowych lub Usług i/lub przekazując nam swoje dane osobowe, wyrażasz zgodę na ten transfer.",
@@ -3615,8 +3474,7 @@ let message = {
   TermsOfUse: {
     title: "Warunki",
     titleGradient: "Usługa",
-    subtitle:
-      "Przed skorzystaniem z naszych usług prosimy o uważne przeczytanie tych warunków",
+    subtitle: "Przed skorzystaniem z naszych usług prosimy o uważne przeczytanie tych warunków",
     lastUpdated: "Ostatnia aktualizacja: {date}",
     lastUpdatedDate: "21 lipca 2025",
     termsOfServiceTitle: "Warunki korzystania z usługi",
@@ -3644,8 +3502,7 @@ let message = {
     accountTermsTitle: "3. Warunki konta",
     accountSecurity:
       "Jesteś odpowiedzialny za utrzymanie bezpieczeństwa swojego konta. Firma nie może i nie będzie ponosić odpowiedzialności za jakiekolwiek straty lub szkody wynikające z Twojego niedopełnienia tego obowiązku.",
-    lawfulUse:
-      "Nie możesz używać Usług w celach niezgodnych z prawem, nieetycznych lub niemoralnych.",
+    lawfulUse: "Nie możesz używać Usług w celach niezgodnych z prawem, nieetycznych lub niemoralnych.",
     contentResponsibility:
       "Jesteś odpowiedzialny za wszystkie treści zamieszczane i działania podejmowane pod Twoim kontem. Obejmuje to treści zamieszczane przez inne osoby, które: (a) mają dostęp do Twoich danych logowania; lub (b) mają własne dane logowania pod Twoim kontem.",
     humanRequirement:
@@ -3682,8 +3539,7 @@ let message = {
     siteManagementDescription:
       "Zastrzegamy sobie prawo, ale nie obowiązek, do: (1) monitorowania Witryny pod kątem naruszeń tych Warunków korzystania z usługi; (2) podjęcia odpowiednich działań prawnych wobec każdego, kto, według naszego wyłącznego uznania, narusza prawo lub te Warunki korzystania z usługi, w tym, bez ograniczeń, zgłoszenia takiego użytkownika organom ścigania; (3) według naszego wyłącznego uznania i bez ograniczeń, odmowy, ograniczenia dostępu, ograniczenia dostępności lub wyłączenia (w zakresie technicznie możliwym) jakichkolwiek Twoich Wkładów lub ich części; (4) według naszego wyłącznego uznania i bez ograniczeń, powiadomienia lub odpowiedzialności, usunięcia z Witryny lub wyłączenia wszystkich plików i treści, które są nadmiernie duże lub w jakikolwiek sposób obciążają nasze systemy; oraz (5) zarządzania Witryną w sposób mający na celu ochronę naszych praw i mienia oraz ułatwienie prawidłowego funkcjonowania Witryny.",
     copyrightTitle: "9. Prawa autorskie i własność treści",
-    copyrightCompliance:
-      "Wszystkie treści zamieszczane w Usługach muszą być zgodne z prawem autorskim USA.",
+    copyrightCompliance: "Wszystkie treści zamieszczane w Usługach muszą być zgodne z prawem autorskim USA.",
     ipRights:
       "Nie rościmy sobie praw własności intelektualnej do materiałów dostarczanych do Usług. Wszystkie przesłane materiały pozostają Twoją własnością.",
     contentModeration:
@@ -3704,28 +3560,23 @@ let message = {
       "Oszukiwać, wprowadzać w błąd lub zwodzić nas i innych użytkowników, zwłaszcza w próbach uzyskania poufnych informacji o koncie, takich jak hasła użytkowników.",
     securityInterference:
       "Omijać, wyłączać lub w inny sposób zakłócać funkcje związane z bezpieczeństwem Witryny, w tym funkcje, które uniemożliwiają lub ograniczają korzystanie z jakichkolwiek Treści lub narzucają ograniczenia w korzystaniu z Witryny i/lub zawartych w niej Treści.",
-    defamation:
-      "Obrażać, szkodzić lub w inny sposób szkodzić, w naszej opinii, nam i/lub Witrynie.",
+    defamation: "Obrażać, szkodzić lub w inny sposób szkodzić, w naszej opinii, nam i/lub Witrynie.",
     harassment:
       "Wykorzystywać jakiekolwiek informacje uzyskane z Witryny w celu nękania, znęcania się lub szkodzenia innej osobie.",
     supportAbuse:
       "Niewłaściwie korzystać z naszych usług wsparcia lub składać fałszywe zgłoszenia nadużyć lub niewłaściwego zachowania.",
-    legalCompliance:
-      "Korzystać z Witryny w sposób niezgodny z obowiązującymi przepisami prawa.",
-    framingProhibition:
-      "Podejmować nieautoryzowane osadzanie lub linkowanie do Witryny.",
+    legalCompliance: "Korzystać z Witryny w sposób niezgodny z obowiązującymi przepisami prawa.",
+    framingProhibition: "Podejmować nieautoryzowane osadzanie lub linkowanie do Witryny.",
     malware:
       "Przesyłać lub próbować przesyłać wirusy, konie trojańskie lub inne materiały, w tym nadmierne używanie wielkich liter i spamowanie (ciągłe publikowanie powtarzającego się tekstu), które zakłócają nieprzerwane korzystanie z Witryny przez innych użytkowników lub modyfikują, osłabiają, zakłócają, zmieniają lub ingerują w użytkowanie, funkcje, działanie lub utrzymanie Witryny.",
     automation:
       "Podejmować jakiekolwiek zautomatyzowane korzystanie z systemu, takie jak używanie skryptów do wysyłania komentarzy lub wiadomości, lub używanie narzędzi do wydobywania danych, robotów lub podobnych narzędzi zbierania i ekstrakcji danych.",
-    copyrightRemoval:
-      "Usuwać informacje o prawach autorskich lub innych prawach własności z jakichkolwiek Treści.",
+    copyrightRemoval: "Usuwać informacje o prawach autorskich lub innych prawach własności z jakichkolwiek Treści.",
     impersonation:
       "Próbować podszywać się pod innego użytkownika lub osobę lub używać nazwy użytkownika innego użytkownika.",
     spyware:
       'Przesyłać lub próbować przesyłać jakiekolwiek materiały, które działają jako pasywne lub aktywne mechanizmy zbierania lub przesyłania informacji, w tym, bez ograniczeń, przezroczyste formaty wymiany grafik ("gify"), piksele 1×1, web bugi, pliki cookie lub inne podobne urządzenia (czasami określane jako "spyware" lub "pasywne mechanizmy zbierania" lub "pcms").',
-    disruption:
-      "Zakłócać, przerywać lub nadmiernie obciążać Witryny lub sieci lub usługi z nią połączone.",
+    disruption: "Zakłócać, przerywać lub nadmiernie obciążać Witryny lub sieci lub usługi z nią połączone.",
     employeeHarassment:
       "Nękać, irytować, zastraszać lub grozić jakiemukolwiek naszemu pracownikowi lub agentowi zaangażowanemu w świadczenie jakiejkolwiek części Witryny dla Ciebie.",
     accessCircumvention:
@@ -3735,14 +3586,12 @@ let message = {
     reverseEngineering:
       "Z wyjątkiem przypadków dozwolonych przez obowiązujące prawo, deszyfrować, dekompilować, rozpakowywać lub dokonywać inżynierii wstecznej jakiegokolwiek oprogramowania składającego się na Witrynę lub w jakikolwiek sposób stanowiącego jej część.",
     bots: "Z wyjątkiem przypadków będących wynikiem standardowego korzystania z wyszukiwarki internetowej lub przeglądarki internetowej, używać, uruchamiać, rozwijać lub rozpowszechniać jakikolwiek zautomatyzowany system, w tym, bez ograniczeń, jakiekolwiek pająki internetowe, roboty, narzędzia oszustw, skrobaki lub czytniki offline, które uzyskują dostęp do Witryny, lub używać lub uruchamiać jakiekolwiek nieautoryzowane skrypty lub inne oprogramowanie.",
-    buyingAgents:
-      "Korzystać z agenta zakupowego lub pośrednika w celu dokonywania zakupów w Witrynie.",
+    buyingAgents: "Korzystać z agenta zakupowego lub pośrednika w celu dokonywania zakupów w Witrynie.",
     unauthorizedUse:
       "Dokonywać jakiegokolwiek nieautoryzowanego korzystania z Witryny, w tym zbierania nazw użytkowników i/lub adresów e-mail użytkowników za pomocą środków elektronicznych lub innych w celu wysyłania niechcianych wiadomości e-mail lub tworzenia kont użytkowników za pomocą zautomatyzowanych środków lub pod fałszywymi pretekstami.",
     competition:
       "Korzystać z Witryny jako części jakichkolwiek działań mających na celu konkurowanie z nami lub w inny sposób korzystać z Witryny i/lub Treści w jakimkolwiek przedsięwzięciu generującym przychody lub przedsięwzięciu komercyjnym.",
-    advertising:
-      "Korzystać z Witryny w celu reklamowania lub oferowania sprzedaży towarów i usług.",
+    advertising: "Korzystać z Witryny w celu reklamowania lub oferowania sprzedaży towarów i usług.",
     profileTransfer: "Sprzedawać lub w inny sposób przenosić swój profil.",
     featuresTitle: "11. Funkcje i Błędy",
     featuresDescription:
@@ -3774,8 +3623,7 @@ let message = {
       "Nazwy, wygląd i styl Usług są chronione prawem autorskim© Firmy. Wszelkie prawa zastrzeżone. Nie można powielać, kopiować ani ponownie wykorzystywać żadnej części HTML, CSS, JavaScript ani elementów projektu wizualnego bez wyraźnej pisemnej zgody Firmy. Aby korzystać z logo Firmy lub logo Usług w celach promocyjnych, należy uzyskać zgodę. Prosimy o przesłanie próśb o użycie logo na adres {at} {email}. Zastrzegamy sobie prawo do cofnięcia tej zgody w przypadku naruszenia niniejszych Warunków Usługi.",
     privacyPolicyDescription:
       "Dbamy o prywatność i bezpieczeństwo danych. Zapoznaj się z naszą {policy}. Korzystając z Witryny, wyrażasz zgodę na przestrzeganie naszej Polityki Prywatności, która stanowi część niniejszych Warunków Usługi. Witryna jest hostowana w Stanach Zjednoczonych. Jeśli uzyskujesz dostęp do Witryny z innego regionu świata, w którym obowiązują przepisy dotyczące gromadzenia, wykorzystywania lub ujawniania danych osobowych różniące się od przepisów Stanów Zjednoczonych, to poprzez dalsze korzystanie z Witryny przekazujesz swoje dane do Stanów Zjednoczonych i wyrażasz zgodę na ich przekazanie i przetwarzanie w Stanach Zjednoczonych.",
-    contactDescription:
-      "Jeśli masz pytanie dotyczące Warunków Usługi, skontaktuj się z nami {at} {email}.",
+    contactDescription: "Jeśli masz pytanie dotyczące Warunków Usługi, skontaktuj się z nami {at} {email}.",
     companyDefinitionA:
       "Kiedy w niniejszym dokumencie używamy słów „Firma”, „my”, „nasz” lub „nas”, mamy na myśli spółkę {NeverCap}."
   },
@@ -3793,8 +3641,7 @@ let message = {
     ListSection: {
       title: "Najnowszy",
       highlighted_text: "Artykuły",
-      subtitle:
-        "Porady ekspertów i samouczki dotyczące nieograniczonej transkrypcji",
+      subtitle: "Porady ekspertów i samouczki dotyczące nieograniczonej transkrypcji",
       categories: [
         "Wszystkie posty",
         "Samouczki",

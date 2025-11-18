@@ -17,24 +17,20 @@ let message = {
       step0: {
         title: "Welkom bij {name}",
         tip: "Hier kunt u:",
-        content:
-          "Eenmalige gesprekken, vergaderingen, lezingen en meer transcriberen",
+        content: "Eenmalige gesprekken, vergaderingen, lezingen en meer transcriberen",
         next: "Aan de slag"
       },
       step1: {
         title: "Bestanden transcriberen",
-        content:
-          "Ondersteunt drie transcriptiemethoden: lokale bestanden, links en opnames."
+        content: "Ondersteunt drie transcriptiemethoden: lokale bestanden, links en opnames."
       },
       step2: {
         title: "Een map aanmaken",
-        content:
-          'Klik op de "+" om een map aan te maken en uw bestanden te organiseren.'
+        content: 'Klik op de "+" om een map aan te maken en uw bestanden te organiseren.'
       },
       step3: {
         title: "Transcriptiedetails bekijken en bewerken",
-        content:
-          "Klik op het item om transcriptiedetails te bekijken en te bewerken, en ook te vertalen."
+        content: "Klik op het item om transcriptiedetails te bekijken en te bewerken, en ook te vertalen."
       },
       next: "volgende",
       finish: "Begrepen"
@@ -61,13 +57,10 @@ let message = {
       description: "Hier kunt u:",
       transcribe:
         "Moeiteloos transcriberen met Scribify—verander spraakgesprekken in een flits in duidelijke, doorzoekbare en deelbare tekst.",
-      precision:
-        "Krijg nauwkeurige transcripties met sprekerherkenning en tijdstempels onmiddellijk.",
-      translate:
-        "Doorbreek taalbarrières: vertaal transcripties naar meer dan 200 talen met gemak.",
+      precision: "Krijg nauwkeurige transcripties met sprekerherkenning en tijdstempels onmiddellijk.",
+      translate: "Doorbreek taalbarrières: vertaal transcripties naar meer dan 200 talen met gemak.",
       edit: "Bewerk, verfijn en exporteer uw transcripties in formaten die bij uw behoeften passen.",
-      collaborate:
-        "Werk samen door uw getranscribeerde tekst met anderen te delen.",
+      collaborate: "Werk samen door uw getranscribeerde tekst met anderen te delen.",
       button: "Aan de slag",
       tip: "Klaar om audio om te zetten in getranscribeerde tekst? Begin nu met verkennen!",
       tip2: "Begin nu met verkennen!",
@@ -126,8 +119,7 @@ let message = {
         title: "Verwijderen",
         file: "bestand",
         files: "bestanden",
-        label:
-          "Verwijdering bevestigen? Deze actie kan niet ongedaan worden gemaakt.",
+        label: "Verwijdering bevestigen? Deze actie kan niet ongedaan worden gemaakt.",
         confirm: "Verwijderen",
         cancel: "Annuleren"
       },
@@ -166,8 +158,7 @@ let message = {
     create: "Aanmaken",
     endRecord: {
       title: "Prompt",
-      content:
-        "Je bent aan het opnemen. Deze actie beëindigt de opname. Wil je de opname beëindigen?",
+      content: "Je bent aan het opnemen. Deze actie beëindigt de opname. Wil je de opname beëindigen?",
       confirm: "Doorgaan met Opnemen",
       cancel: "Opname Beëindigen"
     }
@@ -182,8 +173,7 @@ let message = {
       endRecord: "Opname beëindigen",
       delete: "Verwijderen",
       transcribe: "Transcriberen",
-      permissionDenied:
-        "Microfoontoestemming geweigerd of apparaat bestaat niet",
+      permissionDenied: "Microfoontoestemming geweigerd of apparaat bestaat niet",
       dialog: {
         delete: {
           title: "Waarschuwing",
@@ -193,13 +183,11 @@ let message = {
         },
         complete: {
           title: "Opname voltooid",
-          label:
-            "De opname heeft 10 uur bereikt en is automatisch gestopt. Transcribeer alstublieft.",
+          label: "De opname heeft 10 uur bereikt en is automatisch gestopt. Transcribeer alstublieft.",
           confirm: "Begrepen"
         },
         speaker: {
-          content:
-            "Voor sprekeridentificatie zijn bestanden beperkt tot 3 uur. Vink '{text}' uit."
+          content: "Voor sprekeridentificatie zijn bestanden beperkt tot 3 uur. Vink '{text}' uit."
         }
       }
     },
@@ -212,8 +200,7 @@ let message = {
         confirm: "Toevoegen",
         cancel: "Annuleren",
         // Voer de juiste link in
-        errorTitle:
-          "Het linkadres dat u heeft ingevoerd is onjuist. Controleer het en probeer het opnieuw.",
+        errorTitle: "Het linkadres dat u heeft ingevoerd is onjuist. Controleer het en probeer het opnieuw.",
         linkName: "Link"
       },
       file: {
@@ -226,8 +213,7 @@ let message = {
       },
       del: {
         title: "Waarschuwing",
-        content:
-          "Alle voortgang gaat verloren. Bevestig u het annuleren van de transcriptie?",
+        content: "Alle voortgang gaat verloren. Bevestig u het annuleren van de transcriptie?",
         cancel: "Annuleren bevestigen",
         confirm: "Doorgaan met transcriberen"
       },
@@ -262,7 +248,13 @@ let message = {
         audio: "Audio-/videobestand",
         Uploading: "Uploaden..."
       },
-      fileEmpty: "Het bestand is leeg"
+      fileEmpty: "Het bestand is leeg",
+      howToSetup: "Hoe instellen?",
+      shareFilePublicly: "Bestand openbaar delen",
+      retry: "Opnieuw proberen",
+      edit: "Bewerken",
+      delete: "Verwijderen",
+      updateAndRetry: "Bijwerken en opnieuw proberen"
     }
   },
   // Transcriptiepagina
@@ -544,8 +536,7 @@ let message = {
     createAccount: "Maak een nieuw account aan", // account aanmaken
     accountExists: "Heeft u al een account? ", // heeft u al een account? inloggen
     agreeTerm: {
-      agree:
-        "Door verder te gaan, gaat u akkoord met onze {terms} en {policy}.",
+      agree: "Door verder te gaan, gaat u akkoord met onze {terms} en {policy}.",
       terms: "Voorwaarden",
       policy: "Privacybeleid"
     },
@@ -574,15 +565,12 @@ let message = {
     sendCode: "Verificatiecode verzenden", // verificatiecode verzenden
     resetPassword: "Wachtwoord opnieuw instellen", // wachtwoord resetten
     resetYourPassword: "Reset uw wachtwoord", // reset uw wachtwoord
-    newOldCantSame:
-      "Het nieuwe wachtwoord moet anders zijn dan het oude wachtwoord.", // nieuw wachtwoord mag niet hetzelfde zijn als oud wachtwoord
+    newOldCantSame: "Het nieuwe wachtwoord moet anders zijn dan het oude wachtwoord.", // nieuw wachtwoord mag niet hetzelfde zijn als oud wachtwoord
     passwordResetOk: "Wachtwoord succesvol gereset!", // wachtwoord succesvol gereset!
     signupToSaveProgress: "Rond de registratie af om je voortgang op te slaan",
     tip: "Tip",
-    tipContentEmail:
-      "We hebben zojuist het inlogwachtwoord voor je account naar je e-mailadres gestuurd.",
-    tipContentPassword:
-      "Controleer je inbox en log in met je e-mailadres en wachtwoord.",
+    tipContentEmail: "We hebben zojuist het inlogwachtwoord voor je account naar je e-mailadres gestuurd.",
+    tipContentPassword: "Controleer je inbox en log in met je e-mailadres en wachtwoord.",
     codeToEmail:
       "We hebben zojuist een verificatiecode naar uw e-mail gestuurd. Controleer uw inbox en plak de verificatiecode hierboven."
   },
@@ -601,11 +589,9 @@ let message = {
     professionalEdition: "professionele editie",
     unlimitedTranscription: "Onbeperkte transcriptie",
     unlimitedNumberOfTimes: "Onbeperkte transcriptiefrequentie en -duur.",
-    filesUploadedAtOnce:
-      "Elk bestand kan maximaal 10 uur/5 GB zijn. Upload 50 bestanden tegelijk.",
+    filesUploadedAtOnce: "Elk bestand kan maximaal 10 uur/5 GB zijn. Upload 50 bestanden tegelijk.",
     highestPriority: "hoogste prioriteit",
-    weWillGiveTheHighest:
-      "We transcriberen je bestanden altijd zo snel mogelijk met de hoogste prioriteit.",
+    weWillGiveTheHighest: "We transcriberen je bestanden altijd zo snel mogelijk met de hoogste prioriteit.",
     theFirstMonth: "De eerste maand",
     subscribeTo: "abonneren op",
     basicVersionFree: "Basisversie (gratis)",
@@ -650,15 +636,12 @@ let message = {
     changeToAnnual: "Wijzig naar jaarlijks",
     automaticRenewalon: "Automatische verlenging op",
     eachMonth: "Automatische verlenging op {time} van elke maand.",
-    automaticRenewal:
-      "Automatische verlenging mislukt, controleer de betalingsmethode.",
+    automaticRenewal: "Automatische verlenging mislukt, controleer de betalingsmethode.",
     eachYear: "Automatische verlenging op {time} van elk jaar.",
     returnAccountSetting: "Terug",
-    needsToWaitLonger:
-      "Wacht langer voordat uw bestanden worden getranscribeerd.",
+    needsToWaitLonger: "Wacht langer voordat uw bestanden worden getranscribeerd.",
     freeThreeTimesDay: "3 bestanden per dag gratis transcriberen.",
-    oneFileUploaded:
-      "Elk bestand kan maximaal 30 minuten duren. Upload 1 bestand per keer.",
+    oneFileUploaded: "Elk bestand kan maximaal 30 minuten duren. Upload 1 bestand per keer.",
     uploadWithinHours: "10-uur uploads",
     yourSubscription: "Uw abonnement wordt op {time} geannuleerd.",
     save: "Besparen",
@@ -699,12 +682,10 @@ let message = {
     startLink: "Start gratis proefversie~",
     thirdPartyLink: "Github →",
     waitlist: {
-      cardTitle:
-        "Meld u aan voor de wachtlijst, ontvang als eerste het laatste NuxtPro-nieuws EN kortingen!",
+      cardTitle: "Meld u aan voor de wachtlijst, ontvang als eerste het laatste NuxtPro-nieuws EN kortingen!",
       placeholder: "Voer uw e-mail in",
       button: "Aanmelden voor wachtlijst",
-      joinCountMessage:
-        "🔥 Vroege gebruiker #{count} heeft zich zojuist aangemeld voor de wachtlijst!"
+      joinCountMessage: "🔥 Vroege gebruiker #{count} heeft zich zojuist aangemeld voor de wachtlijst!"
     },
     seo: {
       title: "OpenSource Nuxt SaaS Boilerplate | NuxtPro",
@@ -755,13 +736,10 @@ let message = {
     HAVE_METADATA: "Audio/video-metadata is gereed ",
     HAVE_CURRENT_DATA:
       "Gegevens over de huidige afspeellocatie zijn beschikbaar, maar er zijn niet genoeg gegevens om het volgende frame/milliseconde af te spelen",
-    HAVE_FUTURE_DATA:
-      "Huidige en ten minste één frame aan gegevens is beschikbaar",
-    HAVE_ENOUGH_DATA:
-      "De beschikbare gegevens zijn voldoende om het afspelen te starten",
+    HAVE_FUTURE_DATA: "Huidige en ten minste één frame aan gegevens is beschikbaar",
+    HAVE_ENOUGH_DATA: "De beschikbare gegevens zijn voldoende om het afspelen te starten",
     NETWORK_EMPTY: "Audio/video is niet geïnitialiseerd",
-    NETWORK_IDLE:
-      "Audio/video is actief en is geselecteerd voor bronnen, maar er wordt geen netwerk gebruikt",
+    NETWORK_IDLE: "Audio/video is actief en is geselecteerd voor bronnen, maar er wordt geen netwerk gebruikt",
     NETWORK_LOADING: "De browser downloadt de gegevens",
     NETWORK_NO_SOURCE: "Geen audio/video-bron gevonden",
     MEDIA_ERR_ABORTED: "Het ophaalproces is afgebroken door de gebruiker",
@@ -809,8 +787,7 @@ let message = {
       "In dit beleid leggen we uit: welke gegevens we verzamelen en waarom, hoe uw gegevens worden verwerkt en uw rechten met betrekking tot uw gegevens. Wij verkopen uw gegevens niet.",
     scopeTitle: "1. Toepassingsgebied van dit privacybeleid",
     whatWeCollectTitle: "2. Wat we verzamelen en waarom",
-    accessShareTitle:
-      "3. Wanneer wij toegang hebben tot uw gegevens of deze delen",
+    accessShareTitle: "3. Wanneer wij toegang hebben tot uw gegevens of deze delen",
     secureDataTitle: "4. Hoe wij uw gegevens beveiligen",
     deleteContentTitle: "5. Wat gebeurt er als u uw inhoud verwijdert?",
     locationTitle: "6. Locatie van de site en de gegevens",
@@ -854,10 +831,8 @@ let message = {
       "- Als we door een belastingdienst worden gecontroleerd, kunnen we verplicht zijn om factuurgegevens te delen. In dat geval delen we alleen de minimaal noodzakelijke gegevens, zoals factuuradressen en informatie over belastingvrijstelling.",
     secureDataContent1: "Alle gegevens worden gecodeerd via",
     sslTlsLink: "SSL/TLS",
-    secureDataContent2:
-      "wanneer deze door onze servers naar uw browser worden verzonden.",
-    deleteContentContent:
-      "Als u inhoud verwijdert, is deze direct niet meer toegankelijk.",
+    secureDataContent2: "wanneer deze door onze servers naar uw browser worden verzonden.",
+    deleteContentContent: "Als u inhoud verwijdert, is deze direct niet meer toegankelijk.",
     locationContent:
       "Onze producten en andere websites worden beheerd in de Verenigde Staten. Als u zich in de Europese Unie, het Verenigd Koninkrijk of elders buiten de Verenigde Staten bevindt, houd er dan rekening mee dat alle informatie die u aan ons verstrekt, wordt overgedragen naar en opgeslagen in de Verenigde Staten. Door onze websites of diensten te gebruiken en/of ons uw persoonsgegevens te verstrekken, stemt u in met deze overdracht.",
     childrenPrivacyContent:
@@ -867,8 +842,7 @@ let message = {
     contactUsContent1:
       "Als u vragen, opmerkingen of klachten heeft over ons privacybeleid, neem dan contact met ons op.",
     contactUs: "Neem contact met ons op",
-    contactUsContent2:
-      "en wij zullen ernaar streven uw klacht zo spoedig mogelijk te behandelen."
+    contactUsContent2: "en wij zullen ernaar streven uw klacht zo spoedig mogelijk te behandelen."
   },
   termsOfService: {
     termsOfServiceTitle: "Servicevoorwaarden",
@@ -913,8 +887,7 @@ let message = {
       "Wij stellen de Diensten voor u beschikbaar. U bent verantwoordelijk voor het treffen van alle nodige maatregelen om toegang tot de Diensten te krijgen.",
     accountTerms1:
       "- U bent verantwoordelijk voor het handhaven van de beveiliging van uw account. Het Bedrijf kan en zal niet aansprakelijk zijn voor verlies of schade als gevolg van het niet naleven van deze beveiligingsverplichting.",
-    accountTerms2:
-      "- U mag de Diensten niet gebruiken voor onwettige, onethische of immorele doeleinden.",
+    accountTerms2: "- U mag de Diensten niet gebruiken voor onwettige, onethische of immorele doeleinden.",
     accountTerms3:
       "- U bent verantwoordelijk voor alle content die wordt geplaatst en alle activiteiten die plaatsvinden via uw account. Dit geldt ook voor content die wordt geplaatst door anderen die: (a) toegang hebben tot uw inloggegevens; of (b) hun eigen inloggegevens hebben via uw account.",
     accountTerms4:
@@ -945,8 +918,7 @@ let message = {
       "- Wij maken gebruik van externe leveranciers en hostingpartners om de benodigde hardware, software, netwerken, opslag en gerelateerde technologie te leveren die nodig zijn om de Diensten uit te voeren.",
     siteManagementContent:
       "Wij behouden ons het recht voor, maar niet de plicht, om: (1) de Site te controleren op schendingen van deze Servicevoorwaarden; (2) gepaste juridische stappen te ondernemen tegen iedereen die, naar ons eigen goeddunken, de wet of deze Servicevoorwaarden overtreedt, inclusief, maar niet beperkt tot, het aangeven van een dergelijke gebruiker bij wetshandhavingsinstanties; (3) naar ons eigen goeddunken en zonder beperking, uw Bijdragen of een gedeelte daarvan te weigeren, de toegang ertoe te beperken, de beschikbaarheid ervan te beperken of uit te schakelen (voor zover technologisch haalbaar); (4) naar ons eigen goeddunken en zonder beperking, kennisgeving of aansprakelijkheid, alle bestanden en inhoud die buitensporig groot zijn of op enigerlei wijze belastend zijn voor onze systemen van de Site te verwijderen of anderszins uit te schakelen; en (5) de Site anderszins te beheren op een manier die is ontworpen om onze rechten en eigendommen te beschermen en om de juiste werking van de Site te vergemakkelijken.",
-    copyrightContent1:
-      "- Alle op de Diensten geplaatste inhoud moet voldoen aan de Amerikaanse auteursrechtwetgeving.",
+    copyrightContent1: "- Alle op de Diensten geplaatste inhoud moet voldoen aan de Amerikaanse auteursrechtwetgeving.",
     copyrightContent2:
       "- Wij claimen geen intellectuele eigendomsrechten op het materiaal dat u aan de Diensten verstrekt. Alle geüploade materialen blijven van u.",
     copyrightContent3:
@@ -967,8 +939,7 @@ let message = {
       "Een kopie van uw melding wordt verzonden naar de persoon die het materiaal heeft geplaatst of opgeslagen waarnaar in de melding wordt verwezen. Houd er rekening mee dat u volgens de toepasselijke wetgeving aansprakelijk kunt worden gesteld voor schade als u materiële onjuistheden in een melding vermeldt. Als u er dus niet zeker van bent dat materiaal op de site of waarnaar wordt gelinkt, inbreuk maakt op uw auteursrecht, kunt u het beste eerst contact opnemen met een advocaat.",
     prohibitedActivitiesIntro:
       "U mag de Site niet bezoeken of gebruiken voor andere doeleinden dan waarvoor wij de Site beschikbaar stellen. De Site mag niet worden gebruikt voor commerciële doeleinden, met uitzondering van die welke specifiek door ons zijn goedgekeurd.",
-    prohibitedActivitiesUserAgreement:
-      "Als gebruiker van de Site gaat u ermee akkoord om het volgende niet te doen:",
+    prohibitedActivitiesUserAgreement: "Als gebruiker van de Site gaat u ermee akkoord om het volgende niet te doen:",
     prohibitedActivity1:
       "- Systematisch gegevens of andere inhoud van de Site ophalen om, direct of indirect, een verzameling, compilatie, database of directory te creëren of samen te stellen zonder onze schriftelijke toestemming.",
     prohibitedActivity2:
@@ -983,14 +954,12 @@ let message = {
       "- Oneigenlijk gebruik maken van onze ondersteunende diensten of valse meldingen van misbruik of wangedrag indienen.",
     prohibitedActivity7:
       "- De Site gebruiken op een wijze die niet in overeenstemming is met de toepasselijke wet- en regelgeving.",
-    prohibitedActivity8:
-      "- U mag zich niet bezighouden met het ongeoorloofd framen van of linken naar de Site.",
+    prohibitedActivity8: "- U mag zich niet bezighouden met het ongeoorloofd framen van of linken naar de Site.",
     prohibitedActivity9:
       "- Virussen, Trojaanse paarden of ander materiaal uploaden of verzenden (of proberen te uploaden of te verzenden), met inbegrip van overmatig gebruik van hoofdletters en spam (het voortdurend plaatsen van herhalende tekst), dat het ononderbroken gebruik en genot van de Site door een andere partij verstoort of het gebruik, de kenmerken, functies, werking of onderhoud van de Site wijzigt, schaadt, onderbreekt, verandert of verstoort.",
     prohibitedActivity10:
       "- Gebruik het systeem niet op geautomatiseerde wijze, zoals door scripts te gebruiken voor het versturen van opmerkingen of berichten, of door data mining, robots of vergelijkbare hulpmiddelen voor het verzamelen en extraheren van gegevens.",
-    prohibitedActivity11:
-      "- Verwijder de auteursrechtelijke kennisgeving of andere eigendomsrechten uit alle inhoud.",
+    prohibitedActivity11: "- Verwijder de auteursrechtelijke kennisgeving of andere eigendomsrechten uit alle inhoud.",
     prohibitedActivity12:
       "- Proberen zich voor te doen als een andere gebruiker of persoon, of de gebruikersnaam van een andere gebruiker te gebruiken.",
     prohibitedActivity13:
@@ -1007,16 +976,13 @@ let message = {
       "- Behalve voor zover toegestaan door de toepasselijke wetgeving, de software die deel uitmaakt van de Site of op enigerlei wijze deel uitmaakt van de Site, ontcijferen, decompileren, disassembleren of reverse engineeren.",
     prohibitedActivity19:
       "- Behalve voor zover dit het resultaat is van standaard zoekmachine- of internetbrowsergebruik, geen geautomatiseerd systeem gebruiken, lanceren, ontwikkelen of distribueren, met inbegrip van, maar niet beperkt tot, spiders, robots, cheat-hulpprogramma's, scrapers of offline lezers die toegang hebben tot de Site, of het gebruiken of lanceren van ongeautoriseerde scripts of andere software.",
-    prohibitedActivity20:
-      "- Gebruikmaken van een aankoopagent of inkoopagent om aankopen te doen op de Site.",
+    prohibitedActivity20: "- Gebruikmaken van een aankoopagent of inkoopagent om aankopen te doen op de Site.",
     prohibitedActivity21:
       "- Ongeautoriseerd gebruik maken van de Site, inclusief het verzamelen van gebruikersnamen en/of e-mailadressen van gebruikers via elektronische of andere middelen met als doel het versturen van ongevraagde e-mail, of het aanmaken van gebruikersaccounts via geautomatiseerde middelen of onder valse voorwendselen.",
     prohibitedActivity22:
       "- De Site gebruiken als onderdeel van een poging om met ons te concurreren of de Site en/of de Inhoud op een andere manier gebruiken voor een inkomsten genererende activiteit of commerciële onderneming.",
-    prohibitedActivity23:
-      "- De Site niet gebruiken om goederen en diensten te adverteren of te verkopen.",
-    prohibitedActivity24:
-      "- Uw profiel verkopen of op een andere manier overdragen.",
+    prohibitedActivity23: "- De Site niet gebruiken om goederen en diensten te adverteren of te verkopen.",
+    prohibitedActivity24: "- Uw profiel verkopen of op een andere manier overdragen.",
     featuresContent1:
       "We ontwerpen onze diensten met zorg, gebaseerd op onze eigen ervaring en de ervaringen van klanten die hun tijd en feedback delen. Er bestaat echter niet zoiets als een dienst die iedereen tevreden stelt. We geven geen garanties dat onze diensten aan uw specifieke eisen of verwachtingen zullen voldoen.",
     featuresContent2:
@@ -1027,8 +993,7 @@ let message = {
       "Wij kunnen niet garanderen dat de Site te allen tijde beschikbaar zal zijn. We kunnen hardware-, software- of andere problemen ondervinden of onderhoud aan de Site moeten uitvoeren, wat kan leiden tot onderbrekingen, vertragingen of fouten. Wij behouden ons het recht voor om de Site te allen tijde en om welke reden dan ook te wijzigen, herzien, bij te werken, op te schorten, stop te zetten of anderszins aan te passen, zonder u daarvan op de hoogte te stellen. U stemt ermee in dat wij op geen enkele wijze aansprakelijk zijn voor verlies, schade of ongemak veroorzaakt door uw onvermogen om toegang te krijgen tot of gebruik te maken van de Site tijdens een downtime of stopzetting van de Site. Niets in deze Servicevoorwaarden zal worden opgevat als een verplichting voor ons om de Site te onderhouden en te ondersteunen of om correcties, updates of releases in verband daarmee te leveren.",
     userDataContent:
       "Wij bewaren bepaalde gegevens die u naar de Site verzendt om de prestaties van de Site te beheren, evenals gegevens met betrekking tot uw gebruik van de Site. Hoewel wij regelmatig routinematige back-ups van uw gegevens maken, bent u als enige verantwoordelijk voor alle gegevens die u verzendt of die betrekking hebben op activiteiten die u via de Site hebt ondernomen. U stemt ermee in dat wij niet aansprakelijk zijn voor verlies of beschadiging van dergelijke gegevens, en u doet hierbij afstand van elk recht om tegen ons actie te ondernemen die voortvloeit uit dergelijk verlies of beschadiging van dergelijke gegevens.",
-    privacyPolicyContent1:
-      "Wij hechten veel waarde aan gegevensprivacy en -beveiliging. Bekijk onze",
+    privacyPolicyContent1: "Wij hechten veel waarde aan gegevensprivacy en -beveiliging. Bekijk onze",
     privacyPolicy: "Privacybeleid",
     privacyPolicyContent2:
       "Door de Site te gebruiken, gaat u ermee akkoord gebonden te zijn aan ons Privacybeleid, dat is opgenomen in deze Servicevoorwaarden. Houd er rekening mee dat de Site wordt gehost in de Verenigde Staten. Als u de Site bezoekt vanuit een andere regio ter wereld met wetten of andere vereisten met betrekking tot het verzamelen, gebruiken of openbaar maken van persoonsgegevens die afwijken van de toepasselijke wetten in de Verenigde Staten, dan draagt u door uw voortgezette gebruik van de Site uw gegevens over naar de Verenigde Staten en stemt u ermee in dat uw gegevens worden overgedragen naar en verwerkt in de Verenigde Staten.",
@@ -1038,8 +1003,7 @@ let message = {
       "U begrijpt en stemt er uitdrukkelijk mee in dat het Bedrijf niet aansprakelijk is, in rechte of billijkheid, jegens u of een derde partij voor enige directe, indirecte, incidentele, gederfde winst, speciale, gevolg-, punitieve of exemplarische schade, met inbegrip van, maar niet beperkt tot, schade voor verlies van winst, goodwill, gebruik, gegevens of andere immateriële verliezen (zelfs als het Bedrijf op de hoogte is gesteld van de mogelijkheid van dergelijke schade), voortvloeiend uit: (1) het gebruik of het onvermogen om de Diensten te gebruiken; (2) fouten, vergissingen of onnauwkeurigheden van inhoud en materialen; (3) persoonlijk letsel of schade aan eigendommen, van welke aard dan ook, voortvloeiend uit uw toegang tot en gebruik van de site; (4) de kosten van aanschaf van vervangende goederen en diensten voortvloeiend uit goederen, gegevens, informatie of diensten die zijn gekocht of verkregen of berichten die zijn ontvangen of transacties die zijn aangegaan via of vanaf de Diensten; (5) enige ongeautoriseerde toegang tot of gebruik van onze beveiligde servers en/of alle persoonlijke informatie en/of financiële informatie die daarin is opgeslagen; (6) enige onderbreking of beëindiging van de overdracht naar of van de site; (7) eventuele bugs, virussen, Trojaanse paarden of dergelijke die door derden naar of via de site kunnen worden verzonden, en/of; (8) eventuele fouten of weglatingen in de inhoud en het materiaal of voor enig verlies of schade van welke aard dan ook als gevolg van het gebruik van inhoud die via de site is geplaatst, verzonden of op andere wijze beschikbaar is gesteld; (9) uitspraken of gedrag van derden op de service; (10) of enige andere kwestie met betrekking tot deze Servicevoorwaarden of de Services, hetzij als contractbreuk, onrechtmatige daad (inclusief nalatigheid, zowel actief als passief), of enige andere aansprakelijkheidstheorie.",
     miscellaneousContent:
       "Deze Servicevoorwaarden en alle beleidsregels of bedrijfsregels die door ons op de Site of met betrekking tot de Site zijn geplaatst, vormen de volledige overeenkomst en afspraak tussen u en ons. Het niet uitoefenen of afdwingen van enig recht of bepaling uit deze Servicevoorwaarden door ons houdt geen afstand van dat recht of die bepaling in. Deze Servicevoorwaarden gelden voor zover toegestaan door de wet. Wij kunnen te allen tijde al onze rechten en verplichtingen aan anderen overdragen. Wij zijn niet verantwoordelijk of aansprakelijk voor verlies, schade, vertraging of het nalaten om te handelen veroorzaakt door een oorzaak buiten onze redelijke controle. Indien een bepaling of een deel van een bepaling van deze Servicevoorwaarden onwettig, nietig of niet-afdwingbaar wordt verklaard, wordt die bepaling of dat deel van de bepaling als scheidbaar van deze Servicevoorwaarden beschouwd en heeft dit geen invloed op de geldigheid en afdwingbaarheid van de overige bepalingen. Er ontstaat geen joint venture, partnerschap, arbeidsovereenkomst of agentuurovereenkomst tussen u en ons als gevolg van deze Servicevoorwaarden of het gebruik van de Site. U stemt ermee in dat deze Servicevoorwaarden niet tegen ons kunnen worden uitgelegd op grond van het feit dat wij ze hebben opgesteld. U doet hierbij afstand van alle verweermiddelen die u mogelijk heeft op basis van de elektronische versie van deze Servicevoorwaarden en het ontbreken van ondertekening door de partijen hierbij ter ondertekening van deze Servicevoorwaarden.",
-    contactUsContent1:
-      "Als u een vraag heeft over een van de Servicevoorwaarden, neem dan contact met ons op.",
+    contactUsContent1: "Als u een vraag heeft over een van de Servicevoorwaarden, neem dan contact met ons op.",
     contactUsContent2: "."
   },
   HeadNavbar: {
@@ -1060,18 +1024,14 @@ let message = {
     YouTubetoMP4: "YouTube naar MP4",
     StartFreeTrial: "Probeer Het Gratis",
     Blog: "Blog",
-      YouTubetoMP3: 'YouTube naar MP3'
-},
+    YouTubetoMP3: "YouTube naar MP3"
+  },
   Footer: {
     des: "'s Werelds eerste echt onbeperkte AI-transcriptieservice. Geen limieten, geen grenzen, alleen vrijheid om te creëren.",
     Features: "Functies",
     UseCases: "Gebruiksscenario's",
     Company: "Bedrijf",
-    featureMenus: [
-      "Onbeperkte Transcriptie",
-      "Bulk Upload",
-      "96% Nauwkeurigheid"
-    ],
+    featureMenus: ["Onbeperkte Transcriptie", "Bulk Upload", "96% Nauwkeurigheid"],
     useCaseMenus: [
       "Alle Gebruiksscenario's",
       "Podcastmakers",
@@ -1082,12 +1042,9 @@ let message = {
       "Onderwijzers"
     ],
     companyMenus: ["Over ons", "Prijzen", "Privacy", "Voorwaarden"],
-      Resources: 'Bronnen',
-      resourcesMenus: [
-            "YouTube naar MP4",
-            "YouTube naar MP3"
-          ]
-},
+    Resources: "Bronnen",
+    resourcesMenus: ["YouTube naar MP4", "YouTube naar MP3"]
+  },
   Index: {
     Hero: {
       badge: 'Geen "Shrinkflation" Meer - Echt Onbeperkt',
@@ -1168,8 +1125,7 @@ let message = {
       }
     },
     Testimonials: {
-      subtitle:
-        "Ontdek waarom professionals voor NeverCap kiezen boven beperkte alternatieven",
+      subtitle: "Ontdek waarom professionals voor NeverCap kiezen boven beperkte alternatieven",
       Mike: {
         text: "Wow, dit werkt echt! Heb 3 jaar een podcast gedaan en alles handmatig uitgetypt als een idioot. Uploadde 6 afleveringen tegelijk en het scheidde mij en mijn co-host perfect. Die aflevering in het café waarvan ik dacht dat die verpest was? Kraakheldere transcriptie. Ik ga dit nooit meer zelf uittypen.",
         author: "Mike Rodriguez",
@@ -1190,8 +1146,7 @@ let message = {
     PricingPreview: {
       title: "Transparante Prijzen",
       highlighted_text: "Geen Verborgen Limieten",
-      subtitle:
-        "Kies je abonnement. Geen asterisken, geen kleine lettertjes, geen verrassingen"
+      subtitle: "Kies je abonnement. Geen asterisken, geen kleine lettertjes, geen verrassingen"
     },
     FAQSection: {
       title: "Veelgestelde",
@@ -1255,11 +1210,9 @@ let message = {
     },
     CTASection: {
       title: "Klaar om de Limieten te Doorbreken?",
-      subtitle:
-        "Sluit je aan bij 50.000+ professionals die overgestapt zijn op echt onbeperkte transcriptie",
+      subtitle: "Sluit je aan bij 50.000+ professionals die overgestapt zijn op echt onbeperkte transcriptie",
       button: "Probeer NeverCap Gratis",
-      disclaimer:
-        "Geen creditcard nodig voor het Gratis Abonnement • Upgrade op elk moment voor onbeperkte toegang"
+      disclaimer: "Geen creditcard nodig voor het Gratis Abonnement • Upgrade op elk moment voor onbeperkte toegang"
     }
   },
   Features: {
@@ -1368,13 +1321,10 @@ let message = {
       trustBadge4Number: "50",
       trustBadge4Label: "Batchupload",
       ctaTitle: "Stop met Betalen voor Nep-Onbeperkt",
-      ctaSubtitle:
-        "Sluit je aan bij duizenden die overstapten naar echt onbeperkte transcriptie",
+      ctaSubtitle: "Sluit je aan bij duizenden die overstapten naar echt onbeperkte transcriptie",
       finalCta: "Probeer NeverCap Gratis",
-      heroSubtitle1:
-        "Terwijl Trint je beperkt tot 50 uur en Otter je beperkt tot 10 bestanden per maand,",
-      heroSubtitle2:
-        "leveren wat we daadwerkelijk beloven: onbeperkte transcriptie zonder verborgen limieten."
+      heroSubtitle1: "Terwijl Trint je beperkt tot 50 uur en Otter je beperkt tot 10 bestanden per maand,",
+      heroSubtitle2: "leveren wat we daadwerkelijk beloven: onbeperkte transcriptie zonder verborgen limieten."
     },
     BulkUpload: {
       heroBadgeIcon: "📁",
@@ -1392,8 +1342,7 @@ let message = {
       comparisonSectionTitlePart1: "De",
       comparisonSectionTitleHighlight: "Belachelijke Limieten",
       comparisonSectionTitlePart2: "Die Ze Opleggen",
-      comparisonSubtitle:
-        "Hoe concurrenten je vermogen beperken om content te verwerken",
+      comparisonSubtitle: "Hoe concurrenten je vermogen beperken om content te verwerken",
       limitCard1Service: "Otter Free",
       limitCard1Number: "3",
       limitCard1DescriptionLine1: "Levenslange imports",
@@ -1682,12 +1631,7 @@ let message = {
           },
           features: {
             title: "Functies",
-            items: [
-              "100+ talen",
-              "Sprekerlabels",
-              "Vertaling",
-              "Alle exportformaten"
-            ]
+            items: ["100+ talen", "Sprekerlabels", "Vertaling", "Alle exportformaten"]
           },
           cta: {
             text: "Start gratis. Geen creditcard nodig.",
@@ -1760,8 +1704,7 @@ let message = {
       header: {
         title: "Vergelijk",
         highlighted_text: "Alle Functies",
-        subtitle:
-          "Zie precies wat je krijgt met elk abonnement. Geen verborgen beperkingen."
+        subtitle: "Zie precies wat je krijgt met elk abonnement. Geen verborgen beperkingen."
       },
       plans: ["Functies", "Free", "Pro Monthly", "Pro Annual"],
       features: [
@@ -1793,11 +1736,7 @@ let message = {
         },
         {
           name: "Toegang tot transcriptie",
-          values: [
-            "Eerste 30 min preview",
-            "Volledig transcript",
-            "Volledig transcript"
-          ]
+          values: ["Eerste 30 min preview", "Volledig transcript", "Volledig transcript"]
         },
         {
           name: "Batch-uploads",
@@ -1817,11 +1756,7 @@ let message = {
         },
         {
           name: "Sprekeridentificatie",
-          values: [
-            "Basis",
-            "Geavanceerd (20 sprekers)",
-            "Geavanceerd (20 sprekers)"
-          ]
+          values: ["Basis", "Geavanceerd (20 sprekers)", "Geavanceerd (20 sprekers)"]
         },
         {
           name: "Tijdstempels op woordniveau",
@@ -1864,8 +1799,7 @@ let message = {
         {
           q: "payment_methods",
           question: "Welke betaalmethoden accepteren jullie?",
-          answer:
-            "We accepteren alle grote creditcards, debetkaarten en PayPal voor veilige, probleemloze betalingen."
+          answer: "We accepteren alle grote creditcards, debetkaarten en PayPal voor veilige, probleemloze betalingen."
         },
         {
           q: "free_trial",
@@ -1889,11 +1823,9 @@ let message = {
     },
     CTA: {
       title: "Klaar voor Onbeperkt?",
-      subtitle:
-        "Sluit je aan bij 50.000+ professionals die zonder limieten transcriberen",
+      subtitle: "Sluit je aan bij 50.000+ professionals die zonder limieten transcriberen",
       button: "Probeer NeverCap Gratis →",
-      disclaimer:
-        "Geen creditcard nodig • Begin binnen seconden met transcriberen"
+      disclaimer: "Geen creditcard nodig • Begin binnen seconden met transcriberen"
     }
   },
   UseCases: {
@@ -2060,8 +1992,7 @@ let message = {
       quotes: {
         title: "Echte Gebruikers,",
         titleHighlight: "Echte Vrijheid",
-        subtitle:
-          "Hoor van professionals die zich bevrijdden van kunstmatige limieten",
+        subtitle: "Hoor van professionals die zich bevrijdden van kunstmatige limieten",
         testimonials: {
           mike: {
             textBefore: '"Ik had',
@@ -2072,8 +2003,7 @@ let message = {
             role: "Podcast-host"
           },
           jessica: {
-            textBefore:
-              "\"Als freelance journalist kan ik Trint\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s",
+            textBefore: "\"Als freelance journalist kan ik Trint\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s",
             highlight: "$100/maand",
             textAfter:
               "niet betalen, maar ik kan ook niet werken met Otter\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s limiet van 10 bestanden per maand. NeverCap redde mijn carrière.\"",
@@ -2089,8 +2019,7 @@ let message = {
             role: "Hoofdonderzoeker"
           },
           carlos: {
-            textBefore:
-              '"Ik maak educatieve content in het Spaans. NeverCap transcribeert perfect en',
+            textBefore: '"Ik maak educatieve content in het Spaans. NeverCap transcribeert perfect en',
             highlight: "vertaalt naar Engels",
             textAfter: 'voor een breder bereik. Geen limieten, alleen groei."',
             name: "Carlos Martinez",
@@ -2113,8 +2042,7 @@ let message = {
       },
       cta: {
         title: "Jouw Use Case Heeft Ook Onbeperkt Nodig",
-        subtitle:
-          "Sluit je aan bij 50.000+ professionals die stoppen met minuten tellen en beginnen met creëren",
+        subtitle: "Sluit je aan bij 50.000+ professionals die stoppen met minuten tellen en beginnen met creëren",
         button: "Start Je Onbeperkte Reis →"
       },
       heroSubtitleA:
@@ -2151,8 +2079,7 @@ let message = {
       },
       problemTitle: "Het",
       problemTitleHighlight: "Podcasttranscriptieprobleem",
-      problemSubtitle:
-        'Andere diensten laten je kiezen welke afleveringen het "waard" zijn om te transcriberen',
+      problemSubtitle: 'Andere diensten laten je kiezen welke afleveringen het "waard" zijn om te transcriberen',
       problems: {
         problem1: {
           title: "Uploadlimieten Doden Archieven",
@@ -2174,23 +2101,19 @@ let message = {
       solutionTitleHighlight: "NeverCap Oplossing",
       workflowTitle: "Jouw Podcastworkflow,",
       workflowTitleHighlight: "Vereenvoudigd",
-      workflowSubtitle:
-        "Van opname tot SEO-geoptimaliseerde shownotes in minuten",
+      workflowSubtitle: "Van opname tot SEO-geoptimaliseerde shownotes in minuten",
       workflow: {
         step1: {
           title: "Upload Afleveringen",
-          description:
-            "Upload 50 afleveringen in één keer. MP3, MP4, WAV - wij kunnen ze allemaal aan."
+          description: "Upload 50 afleveringen in één keer. MP3, MP4, WAV - wij kunnen ze allemaal aan."
         },
         step2: {
           title: "AI Transcribeert",
-          description:
-            "96% nauwkeurigheid met sprekerherkenning. Perfect voor interviews."
+          description: "96% nauwkeurigheid met sprekerherkenning. Perfect voor interviews."
         },
         step3: {
           title: "Slimme Opmaak",
-          description:
-            "AI voegt automatisch alinea's, zinnen en leestekens toe."
+          description: "AI voegt automatisch alinea's, zinnen en leestekens toe."
         },
         step4: {
           title: "Publiceer & Rangschik",
@@ -2223,8 +2146,7 @@ let message = {
         },
         feature5: {
           title: "100+ Talen",
-          description:
-            "Transcribeer in elke taal. Vertaal naar 249+ talen. Bereik moeiteloos een wereldwijd publiek."
+          description: "Transcribeer in elke taal. Vertaal naar 249+ talen. Bereik moeiteloos een wereldwijd publiek."
         },
         feature6: {
           title: "Batchverwerking",
@@ -2300,11 +2222,9 @@ let message = {
         }
       },
       ctaTitle: "Begin met Elke Aflevering Transcriberen",
-      ctaSubtitle:
-        "Sluit je aan bij 10.000+ podcastmakers die nooit over limieten hoeven na te denken",
+      ctaSubtitle: "Sluit je aan bij 10.000+ podcastmakers die nooit over limieten hoeven na te denken",
       ctaButton: "Upload Je Eerste 50 Afleveringen Gratis →",
-      ctaDisclaimer:
-        "Geen creditcard nodig • Verwerk onbeperkte afleveringen • Altijd opzegbaar",
+      ctaDisclaimer: "Geen creditcard nodig • Verwerk onbeperkte afleveringen • Altijd opzegbaar",
       solutionDescriptionA:
         "Met {NeverCap} krijg je echt onbeperkte transcriptie. Upload je volledige archief. Transcribeer elke nieuwe aflevering. Genereer shownotities op schaal. Geen caps, geen limieten, alleen groei."
     },
@@ -2361,8 +2281,7 @@ let message = {
       problem: {
         title: "Het",
         titleHighlight: "Journalistieke Transcriptieprobleem",
-        subtitle:
-          'Andere diensten laten je kiezen welke interviews het "waard" zijn om te transcriberen',
+        subtitle: 'Andere diensten laten je kiezen welke interviews het "waard" zijn om te transcriberen',
         problems: {
           uploadLimits: {
             title: "Uploadlimieten Doden Onderzoeken",
@@ -2391,8 +2310,7 @@ let message = {
         title: "1",
         titleHighlight: "Beste Interview Transcriptiesoftware",
         titleSuffix: "voor Journalisten",
-        subtitle:
-          "Echte voordelen die ertoe doen wanneer deadlines strak zijn en nauwkeurigheid alles is",
+        subtitle: "Echte voordelen die ertoe doen wanneer deadlines strak zijn en nauwkeurigheid alles is",
         solutions: {
           unlimitedUploads: {
             label: "Onbeperkt Volume",
@@ -2443,10 +2361,8 @@ let message = {
               accuracy: "96%",
               label: "Publicatieklare Nauwkeurigheid",
               transcript: {
-                speaker1:
-                  '"Het onderzoek bracht aanzienlijke discrepanties in de financiële verslagen aan het licht."',
-                speaker2:
-                  "Kunt u meer vertellen over die specifieke discrepanties?"
+                speaker1: '"Het onderzoek bracht aanzienlijke discrepanties in de financiële verslagen aan het licht."',
+                speaker2: "Kunt u meer vertellen over die specifieke discrepanties?"
               }
             }
           },
@@ -2474,8 +2390,7 @@ let message = {
         featuresList: {
           languages: {
             title: "100+ Talen",
-            description:
-              "Interview bronnen wereldwijd in 12 hoofdtaien met 96% nauwkeurigheid."
+            description: "Interview bronnen wereldwijd in 12 hoofdtaien met 96% nauwkeurigheid."
           },
           exportFormats: {
             title: "Exportformaten",
@@ -2483,33 +2398,27 @@ let message = {
           },
           sourceProtection: {
             title: "Bronbescherming",
-            description:
-              "Bankniveau-encryptie. Uw bronnen blijven vertrouwelijk."
+            description: "Bankniveau-encryptie. Uw bronnen blijven vertrouwelijk."
           },
           timestamps: {
             title: "Tijdstempels",
-            description:
-              "Klik op een citaat om naar het exacte audiomoment te springen."
+            description: "Klik op een citaat om naar het exacte audiomoment te springen."
           },
           teamSharing: {
             title: "Teamdeling",
-            description:
-              "Werk samen met redacteuren. Deel transcripties veilig."
+            description: "Werk samen met redacteuren. Deel transcripties veilig."
           },
           mobileReady: {
             title: "Mobiel gereed",
-            description:
-              "Upload vanaf je telefoon. Bekijk transcripties overal."
+            description: "Upload vanaf je telefoon. Bekijk transcripties overal."
           },
           smartFormatting: {
             title: "Slimme opmaak",
-            description:
-              "Automatische alinea's en interpunctie voor leesbare transcripties."
+            description: "Automatische alinea's en interpunctie voor leesbare transcripties."
           },
           batchProcessing: {
             title: "Batchverwerking",
-            description:
-              "Upload 50 bestanden tegelijk. Verwerk ze 's nachts terwijl je slaapt."
+            description: "Upload 50 bestanden tegelijk. Verwerk ze 's nachts terwijl je slaapt."
           }
         }
       },
@@ -2524,8 +2433,7 @@ let message = {
       cta: {
         title: "Start met transcriberen",
         titleHighlight: "Zonder limieten",
-        subtitle:
-          "Sluit je aan bij duizenden journalisten die stoppen met uploads tellen en zich richten op verhalen",
+        subtitle: "Sluit je aan bij duizenden journalisten die stoppen met uploads tellen en zich richten op verhalen",
         ctaPrimary: "Probeer Onbeperkt Gratis →",
         ctaSecondary: "Bekijk prijzen"
       }
@@ -2640,28 +2548,23 @@ let message = {
         title: "Van Upload tot",
         titleHighlight: "Gepubliceerd",
         titleSuffix: "in Minuten",
-        subtitle:
-          "De snelste manier om je hele contentbibliotheek te ondertitelen",
+        subtitle: "De snelste manier om je hele contentbibliotheek te ondertitelen",
         steps: {
           pasteLinks: {
             title: "Plak Links",
-            description:
-              "Voeg YouTube-, TikTok- of een videolink toe. Of upload bestanden direct."
+            description: "Voeg YouTube-, TikTok- of een videolink toe. Of upload bestanden direct."
           },
           autoTranscribe: {
             title: "Automatisch Transcriberen",
-            description:
-              "AI verwerkt met 96% nauwkeurigheid. Omgaat met accenten & meerdere sprekers."
+            description: "AI verwerkt met 96% nauwkeurigheid. Omgaat met accenten & meerdere sprekers."
           },
           editTranslate: {
             title: "Bewerken & Vertalen",
-            description:
-              "Maak je ondertitelingen perfect. Vertaal direct naar 100+ talen."
+            description: "Maak je ondertitelingen perfect. Vertaal direct naar 100+ talen."
           },
           exportPublish: {
             title: "Exporteren & Publiceren",
-            description:
-              "Download in elk formaat. Upload naar je platform. Klaar!"
+            description: "Download in elk formaat. Upload naar je platform. Klaar!"
           }
         }
       },
@@ -2670,8 +2573,7 @@ let message = {
         titleHighlight: "Dagelijks Over",
         subtitle: "Van beperkte abonnementen naar onbeperkte vrijheid",
         carlos: {
-          textBefore:
-            "Ik maak educatieve inhoud in het Spaans. NeverCap transcribeert perfect en",
+          textBefore: "Ik maak educatieve inhoud in het Spaans. NeverCap transcribeert perfect en",
           textAfter:
             "voor een breder bereik. Geen limieten, alleen groei. Mijn kanaalweergaven verdrievoudigden na het toevoegen van meertalige ondertitels.",
           highlight: "vertaalt naar Engels",
@@ -2705,15 +2607,13 @@ let message = {
       },
       cta: {
         title: "Je Hele Kanaal. Voorzien van Ondertitels. Vandaag.",
-        subtitle:
-          "Sluit je aan bij 50.000+ creators die stoppen met minuten tellen en beginnen met creëren",
+        subtitle: "Sluit je aan bij 50.000+ creators die stoppen met minuten tellen en beginnen met creëren",
         button: "Start Onbeperkt Ondertitelen →"
       },
       FAQSection: {
         title: "Je Transcriptievragen,",
         titleHighlight: "Beantwoord",
-        subtitle:
-          "Alles wat je moet weten over het transcriberen van video's van verschillende platforms",
+        subtitle: "Alles wat je moet weten over het transcriberen van video's van verschillende platforms",
         questions: [
           {
             question: "V: Hoe transcribeer ik een YouTube-video met NeverCap?",
@@ -2721,8 +2621,7 @@ let message = {
               "Het is simpel. Zoek de YouTube-video die je wilt transcriberen, kopieer de URL en plak deze in onze app. Onze AI haalt de video automatisch op en geeft binnen enkele minuten een volledige teksttranscriptie."
           },
           {
-            question:
-              "V: Wat is de beste manier om een Facebook-video naar tekst te transcriberen?",
+            question: "V: Wat is de beste manier om een Facebook-video naar tekst te transcriberen?",
             answer:
               "De makkelijkste manier is een directe link. Kopieer de URL van de Facebook-video en ons platform doet de rest, met een nauwkeurigheid van 96%, zodat je niet handmatig hoeft te transcriberen."
           },
@@ -2752,11 +2651,9 @@ let message = {
       statsSpeakersId: "Sprekers-ID",
       statsCompliant: "Conform",
       problemTitle: "Het",
-      problemSubtitle:
-        'Andere diensten laten je kiezen welke data het "waard" is om te transcriberen',
+      problemSubtitle: 'Andere diensten laten je kiezen welke data het "waard" is om te transcriberen',
       problemCard1Title: "Uploadlimieten Doden Studies",
-      problemCard1Desc:
-        "Otter geeft je 3 levenslange imports. Hoe transcribeer je 200 uur aan focusgroepen?",
+      problemCard1Desc: "Otter geeft je 3 levenslange imports. Hoe transcribeer je 200 uur aan focusgroepen?",
       problemCard2Title: "Kritieke Data Ontbreekt",
       problemCard2Desc:
         "Elk niet-getranscribeerd interview kan baanbrekende inzichten bevatten. Maar Rev rekent minimaal $2/minuut.",
@@ -2783,17 +2680,14 @@ let message = {
       feature2Point3: "Sprekerlabels die u kunt hernoemen",
       feature2Point4: "Tijdstempel voor elk woord",
       conversationParticipant1: "Deelnemer 1",
-      conversationText1:
-        "Het grootste obstakel is zeker de kosten van behandeling...",
+      conversationText1: "Het grootste obstakel is zeker de kosten van behandeling...",
       conversationParticipant2: "Deelnemer 2",
       conversationText2: "Absoluut, maar ik zou toevoegen dat toegang—",
       conversationParticipant3: "Deelnemer 3",
-      conversationText3:
-        "—sorry voor de onderbreking, maar vervoer is ook enorm.",
+      conversationText3: "—sorry voor de onderbreking, maar vervoer is ook enorm.",
       conversationText4: "Ja! Dat was precies wat ik wilde zeggen.",
       conversationParticipant4: "Deelnemer 4",
-      conversationText5:
-        "In landelijke gebieden zijn het alle drie: kosten, toegang EN vervoer.",
+      conversationText5: "In landelijke gebieden zijn het alle drie: kosten, toegang EN vervoer.",
       feature3Label: "Precisie",
       feature3Title: "Betrouwbaar",
       feature3Desc:
@@ -2838,8 +2732,7 @@ let message = {
       testimonialAuthorName: "Dr. Sarah Chen",
       testimonialAuthorRole: "Hoofdonderzoeker, Public Health Institute",
       ctaTitle: "Stop met Kiezen Welke Data te Analyseren",
-      ctaSubtitle:
-        "Sluit u aan bij 50.000+ onderzoekers die alles transcriberen",
+      ctaSubtitle: "Sluit u aan bij 50.000+ onderzoekers die alles transcriberen",
       ctaButton: "Probeer NeverCap Gratis",
       problemTitle2: "Onderzoekstranscriptieprobleem",
       title: "The",
@@ -2874,8 +2767,7 @@ let message = {
       statsSpeakerID: "Spreker-ID",
       statsInstantUpload: "Upload & Verwerk",
       featuresTitle: "Transcriptie voor Elk Bedrijf",
-      featuresSubtitle:
-        "Van live-opname tot direct uploaden, we hebben elk wrijvingspunt geëlimineerd",
+      featuresSubtitle: "Van live-opname tot direct uploaden, we hebben elk wrijvingspunt geëlimineerd",
       feature1Title: "Neem Direct Op in Uw Browser",
       feature1Desc:
         "Geen downloads, geen plugins. Begin direct met opnemen met één klik. Perfecte audiokwaliteit, automatische sprekerherkenning.",
@@ -2888,8 +2780,7 @@ let message = {
       feature2Title: "Upload Elk Audiobestand Direct",
       feature2Desc:
         "Heeft u opnames van Zoom, Teams of uw telefoon? Upload ze direct. Ondersteuning voor alle belangrijke audio- en videoformaten. Verwerk meerdere bestanden tegelijk zonder wachten.",
-      feature2Benefit1:
-        "Ondersteunt: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV, FLAC",
+      feature2Benefit1: "Ondersteunt: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV, FLAC",
       feature2Benefit2: "Batch-uploadmogelijkheid",
       feature2Benefit3: "Bestanden tot 10 uur ondersteund",
       feature2Benefit4: "Verwerken terwijl u werkt",
@@ -2916,21 +2807,18 @@ let message = {
       feature4Meeting2: "Bestuursvergadering - 20 okt",
       feature4Meeting2Text: '"...Q4 omzetprognoses..."',
       workflowTitle: "Hoe transcribeer je een",
-      workflowSubtitle:
-        "Een naadloze workflow die elk belangrijk moment vastlegt",
+      workflowSubtitle: "Een naadloze workflow die elk belangrijk moment vastlegt",
       workflowStep1Title: "Opnemen of uploaden",
       workflowStep1Desc:
         "Begin live op te nemen of download eenvoudig een vergaderopname van Zoom, Google Meet of Microsoft Teams",
       workflowStep2Title: "Automatisch transcriberen",
-      workflowStep2Desc:
-        "Onze AI transcribeert de opname automatisch naar tekst met 96% nauwkeurigheid in minuten",
+      workflowStep2Desc: "Onze AI transcribeert de opname automatisch naar tekst met 96% nauwkeurigheid in minuten",
       workflowStep3Title: "Samenwerken",
       workflowStep3Desc: "Deel, reageer en extraheer actiepunten",
       workflowStep4Title: "Zoeken & analyseren",
       workflowStep4Desc: "Vind inzichten in al je vergaderingen",
       testimonialsTitle: "Teams houden van",
-      testimonialsSubtitle:
-        "Zie hoe bedrijven hun vergadercultuur transformeren",
+      testimonialsSubtitle: "Zie hoe bedrijven hun vergadercultuur transformeren",
       testimonial1Text:
         '"We gingen van het missen van cruciale details naar een doorzoekbaar archief van elk gesprek. De directe opnamefunctie zorgt ervoor dat we nooit belangrijke discussies vergeten vast te leggen."',
       testimonial1AuthorName: "James Kim",
@@ -2944,8 +2832,7 @@ let message = {
       testimonial3AuthorName: "Mark Liu",
       testimonial3AuthorRole: "COO, FinanceHub",
       ctaTitle: "Stop met het verliezen van belangrijke gesprekken",
-      ctaSubtitle:
-        "Sluit je aan bij duizenden teams die elke vergadering vastleggen met onbeperkte transcriptie",
+      ctaSubtitle: "Sluit je aan bij duizenden teams die elke vergadering vastleggen met onbeperkte transcriptie",
       ctaButton: "Begin gratis met opnemen →",
       featuresTitle2: "Vergadering",
       workflowTitle2: "Zoom-opname naar tekst",
@@ -2969,8 +2856,7 @@ let message = {
       stats4Number: "96%",
       stats4Label: "Nauwkeurigheidspercentage",
       featuresTitle: "Alles Wat Onderwijzers Nodig Hebben voor",
-      featuresSubtitle:
-        "Van YouTube-colleges tot opgenomen lessen: maak al je content toegankelijk",
+      featuresSubtitle: "Van YouTube-colleges tot opgenomen lessen: maak al je content toegankelijk",
       feature1Title: "Directe YouTube- & Platformlinks",
       feature1Desc:
         "Plak gewoon een videolink en krijg direct transcripties. Werkt met YouTube, Vimeo, Facebook, X (Twitter), TikTok, Instagram, Dropbox, Google Drive en meer. Geen downloads, geen wachten.",
@@ -3008,23 +2894,18 @@ let message = {
       feature4Point3: "PDF voor gemakkelijk delen en printen",
       feature4Point4: "Exporteer meerdere bestanden in bulk",
       workflowTitle: "Hoe Het Werkt:",
-      workflowSubtitle:
-        "Van videolink naar toegankelijk transcript en studiemateriaal in minuten",
+      workflowSubtitle: "Van videolink naar toegankelijk transcript en studiemateriaal in minuten",
       workflowStep1Title: "Upload Je College",
-      workflowStep1Desc:
-        "Upload elk audio- of videobestand (MP3, MP4, WAV) of plak een YouTube-link",
+      workflowStep1Desc: "Upload elk audio- of videobestand (MP3, MP4, WAV) of plak een YouTube-link",
       workflowStep2Title: "AI-transcriptie",
-      workflowStep2Desc:
-        "Onze AI transcribeert de audio, scheidt sprekers en identificeert kernonderwerpen",
+      workflowStep2Desc: "Onze AI transcribeert de audio, scheidt sprekers en identificeert kernonderwerpen",
       workflowStep3Title: "Genereer Bijschriften",
-      workflowStep3Desc:
-        "Automatisch perfect gesynchroniseerde ondertitels aanmaken",
+      workflowStep3Desc: "Automatisch perfect gesynchroniseerde ondertitels aanmaken",
       workflowStep4Title: "Studiehandleiding Exporteren",
       workflowStep4Desc:
         "Download de tekst, samenvatting of exporteer deze om je definitieve studiehandleiding te maken",
       useCasesTitle: "Perfect voor Elke",
-      useCasesSubtitle:
-        "Zie hoe docenten NeverCap gebruiken om het leren te verbeteren",
+      useCasesSubtitle: "Zie hoe docenten NeverCap gebruiken om het leren te verbeteren",
       useCase1Title: "Opgenomen Colleges",
       useCase1Text:
         "Transcribeer hele semesters van opgenomen colleges. Studenten kunnen zoeken naar specifieke onderwerpen, kernconcepten bekijken en nooit belangrijke informatie missen.",
@@ -3044,13 +2925,11 @@ let message = {
       useCase6Text:
         "Help studenten videobronnen nauwkeurig te citeren met tijdstempels. Perfect voor onderzoeksprojecten en academische papers.",
       testimonialTitle: "Vertrouwd door",
-      testimonialSubtitle:
-        "Ontdek waarom leraren wereldwijd voor NeverCap kiezen",
+      testimonialSubtitle: "Ontdek waarom leraren wereldwijd voor NeverCap kiezen",
       testimonialAuthorName: "Prof. Karen Mitchell",
       testimonialAuthorRole: "Hoogleraar Wiskunde, Online Docent",
       ctaTitle: "Maak Al Je Onderwijsmateriaal Toegankelijk",
-      ctaSubtitle:
-        "Sluit je aan bij duizenden docenten die echt onbeperkte transcriptie gebruiken",
+      ctaSubtitle: "Sluit je aan bij duizenden docenten die echt onbeperkte transcriptie gebruiken",
       ctaButton: "Probeer NeverCap Gratis",
       featuresTitle2: "Videotranscriptie",
       grid: "Audiobestand naar Studiegids",
@@ -3072,23 +2951,19 @@ let message = {
         tutorial: "Bekijk de handleiding"
       },
       part2: {
-        title:
-          "Zo zet je een YouTube-video in 3 eenvoudige stappen om in een downloadbaar MP4-bestand",
+        title: "Zo zet je een YouTube-video in 3 eenvoudige stappen om in een downloadbaar MP4-bestand",
         steps: [
           {
             title: "Kopieer de URL",
-            content:
-              "Open je gewenste YouTube-video en kopieer de link uit de adresbalk van je browser."
+            content: "Open je gewenste YouTube-video en kopieer de link uit de adresbalk van je browser."
           },
           {
             title: "Plak de link",
-            content:
-              "Ga naar je video-downloadtool en plak de URL in het invoerveld."
+            content: "Ga naar je video-downloadtool en plak de URL in het invoerveld."
           },
           {
             title: "Download de MP4",
-            content:
-              "Na verwerking, klik op de downloadknop om je MP4-bestand op te slaan."
+            content: "Na verwerking, klik op de downloadknop om je MP4-bestand op te slaan."
           }
         ]
       },
@@ -3101,10 +2976,7 @@ let message = {
         ]
       },
       part4: {
-        content: [
-          "Dit zijn de 5 belangrijkste voordelen van het downloaden",
-          "van YouTube-video's als MP4-bestanden"
-        ],
+        content: ["Dit zijn de 5 belangrijkste voordelen van het downloaden", "van YouTube-video's als MP4-bestanden"],
         list: [
           {
             title: "Bespaar op datakosten:",
@@ -3113,8 +2985,7 @@ let message = {
           },
           {
             title: "Overal en altijd kijken:",
-            content:
-              "Geniet naadloos van je video's, zelfs met een slechte internetverbinding. Geen buffering meer."
+            content: "Geniet naadloos van je video's, zelfs met een slechte internetverbinding. Geen buffering meer."
           },
           {
             title: "Eenvoudig archiveren & bewaren:",
@@ -3157,8 +3028,7 @@ let message = {
             icon: "5",
             color: "#DEE5FF",
             title: "Originele kwaliteit gegarandeerd",
-            content:
-              "Je downloads behouden de volledige resolutie van de bronvideo voor perfecte weergave."
+            content: "Je downloads behouden de volledige resolutie van de bronvideo voor perfecte weergave."
           },
           {
             icon: "6",
@@ -3181,8 +3051,7 @@ let message = {
         title: "Belangrijke vragen over YouTube-video's downloaden",
         list: [
           {
-            question:
-              "Kan ik een YouTube-video downloaden als deze auteursrechtelijk beschermd is?",
+            question: "Kan ik een YouTube-video downloaden als deze auteursrechtelijk beschermd is?",
             answer:
               "Het downloaden van auteursrechtelijk beschermde YouTube-video's zonder toestemming van de eigenaar is illegaal."
           },
@@ -3193,24 +3062,20 @@ let message = {
           },
           {
             question: "Welke talen ondersteunt YouTube naar MP4 downloaden?",
-            answer:
-              "Onze service ondersteunt het downloaden van YouTube-video's in alle populaire talen."
+            answer: "Onze service ondersteunt het downloaden van YouTube-video's in alle populaire talen."
           },
           {
-            question:
-              "Welke factoren beïnvloeden de downloadtijd van een YouTube-video?",
+            question: "Welke factoren beïnvloeden de downloadtijd van een YouTube-video?",
             answer:
               "Hoewel we de snelst mogelijke downloadervaring garanderen, wordt de downloadtijd ook beïnvloed door factoren zoals de lengte van de video en je internetsnelheid."
           },
           {
-            question:
-              "Waar wordt een MP4-video opgeslagen als ik hem met mijn smartphone download?",
+            question: "Waar wordt een MP4-video opgeslagen als ik hem met mijn smartphone download?",
             answer:
               'Nadat u een MP4 op uw smartphone heeft gedownload, kunt u deze meestal vinden in de map "Downloads" binnen uw bestandsbeheerapp.'
           },
           {
-            question:
-              "Vermindert het downloaden van een YouTube-video als MP4 de videokwaliteit?",
+            question: "Vermindert het downloaden van een YouTube-video als MP4 de videokwaliteit?",
             answer:
               "Nee. Het downloaden van YouTube-video's als MP4 met onze tool behoudt de originele videokwaliteit. Het conversieproces behoudt de bronkwaliteit, zodat je dezelfde kijkervaring hebt als op YouTube."
           }
@@ -3219,8 +3084,7 @@ let message = {
       err1: "YouTube-linkformaat fout.",
       err2: "Sorry! We werken momenteel alleen met YouTube-links. Als je ondersteuning voor andere sites nodig hebt, houden we je op de hoogte wanneer we dit in de toekomst toevoegen.",
       videoDownload: {
-        title:
-          "YouTube-video's downloaden als MP4. Gratis, snel en zonder advertenties.",
+        title: "YouTube-video's downloaden als MP4. Gratis, snel en zonder advertenties.",
         description:
           "Bedankt voor het kiezen van onze service! We waarderen je vertrouwen en hopen dat het je ervaring heeft verbeterd. Als je onze website met vrienden wilt delen, zou dat een enorme hulp zijn.",
         downloadButton: "Downloaden",
@@ -3234,8 +3098,7 @@ let message = {
         steps: [
           {
             title: "Gratis audio en video",
-            content:
-              "Converteer audio- en videobestanden in seconden naar tekst. Elke dag 3 gratis transcripties."
+            content: "Converteer audio- en videobestanden in seconden naar tekst. Elke dag 3 gratis transcripties."
           },
           {
             title: "Converteer audiobestanden naar tekst",
@@ -3244,8 +3107,7 @@ let message = {
           },
           {
             title: "YouTube-video's transcriberen",
-            content:
-              "Converteer YouTube-video's naar correcte tekst of ondertitels. Plak gewoon de YouTube-link."
+            content: "Converteer YouTube-video's naar correcte tekst of ondertitels. Plak gewoon de YouTube-link."
           }
         ],
         stepsNew: [
@@ -3261,191 +3123,203 @@ let message = {
           },
           {
             title: "YouTube-video's transcriberen",
-            content:
-              "Converteer YouTube-video's naar correcte tekst of ondertitels. Plak gewoon de YouTube-link."
+            content: "Converteer YouTube-video's naar correcte tekst of ondertitels. Plak gewoon de YouTube-link."
           }
         ]
       },
-        MoreFreeTools: {
-              "title": "Meer gratis tools",
-              "title_des": "Ontdek onze andere gratis conversietools",
-              "YouTubeToMP": "YouTube naar MP3",
-              "YouTubeToMP_des": "Converteer YouTube-video's naar MP3-formaat voor offline weergave. Download direct video's van hoge kwaliteit.",
-              "AITranscription": "AI-transcriptie",
-              "AITranscription_des": "Transcribeer audio- en videobestanden met 96% nauwkeurigheid. Onbeperkte transcriptie voor al uw content."
-            }
+      MoreFreeTools: {
+        title: "Meer gratis tools",
+        title_des: "Ontdek onze andere gratis conversietools",
+        YouTubeToMP: "YouTube naar MP3",
+        YouTubeToMP_des:
+          "Converteer YouTube-video's naar MP3-formaat voor offline weergave. Download direct video's van hoge kwaliteit.",
+        AITranscription: "AI-transcriptie",
+        AITranscription_des:
+          "Transcribeer audio- en videobestanden met 96% nauwkeurigheid. Onbeperkte transcriptie voor al uw content."
+      }
     },
-      YouTubeToMP3: {
-            "err1": "Fout in de YouTube-linkindeling.",
-            "err2": "Sorry! Momenteel werken we alleen met YouTube-links. Mocht je ondersteuning nodig hebben voor andere sites, dan houden we je op de hoogte wanneer we die in de toekomst toevoegen.",
-            "part1": {
-              "title": "Converteer YouTube-video's naar MP3",
-              "title_des": "Haal binnen enkele seconden audio uit YouTube-video's",
-              "placeholder": "Plak hier je Youtube-link",
-              "clear_icon": "Invoer wissen",
-              "Download": "Overzetten",
-              "loading_text": "De link verwerken om te converteren. Blijf op de pagina.",
-              "howToDownload": "Hoe kan ik converteren?",
-              "tutorial": "Bekijk de tutorial"
-            },
-            "freeResources": {
-              "linkTitle": "Aangedreven door {NeverCap}",
-              "linkTitle2": "- Volledig onbeperkte AI-transcriptie",
-              "title": "Gratis bronnen",
-              "stepsNew": [
-                {
-                  "title": "Gratis audio- en videotranscriptie",
-                  "content": "Converteer audio- en videobestanden in enkele seconden naar tekst. Elke dag worden er 3 bestanden getranscribeerd."
-                },
-                {
-                  "title": "Audiobestanden naar tekst extraheren",
-                  "content": "Upload MP3, MP4, WAV, MOV.",
-                  "content2": "Download DOCX, TXT, SRT en meer."
-                },
-                {
-                  "title": "YouTube-video's transcriberen",
-                  "content": "Converteer YouTube-video's naar correcte tekst of ondertitels en plak de link gratis in."
-                }
-              ]
-            },
-            "part2": {
-              "title": "Zo zet je in 3 eenvoudige stappen een YouTube-video om in een downloadbaar MP3-bestand",
-              "steps": [
-                {
-                  "title": "Kopieer de URL",
-                  "content": "Open de YouTube-video die u wilt afspelen en kopieer de link uit de adresbalk van uw browser."
-                },
-                {
-                  "title": "Plak de link",
-                  "content": "Voer de URL in uw videodownloadtool in en plak deze in het invoerveld."
-                },
-                {
-                  "title": "Converteren en downloaden",
-                  "content": "Zodra de conversie is voltooid, downloadt u uw MP3-bestand om het op te slaan."
-                }
-              ]
-            },
-            "part3": {
-              "content": [
-                "Wilt u YouTube-video's naar MP3 converteren zodat u ze op elk gewenst moment kunt beluisteren?",
-                "Of je nu in de metro of het vliegtuig zit, of podcasts, cursusmateriaal of belangrijke archieven aan het ordenen bent, we hebben er vaak moeite mee dat we er niet altijd bij kunnen. Onze conversietool lost dit probleem voor je op.",
-                "Kopieer de YouTube-link, plak deze in de converter en met één klik converteer je video's naar hoogwaardige MP3-audio. Je kunt ze opslaan, beluisteren en archiveren wanneer je maar wilt, zonder internetverbinding."
-              ]
-            },
-            "part4": {
-              "content": [
-                "Dit zijn de 5 belangrijkste voordelen van het converteren",
-                "YouTube-video's naar MP3-bestanden"
-              ],
-              "list": [
-                {
-                  "title": "Bespaar op opslag:",
-                  "content": "MP3-bestanden zijn kleiner, waardoor er minder opslagruimte nodig is voor YouTube-gebruik. Bespaar op mobiele data door de offline weergave te downloaden en te gebruiken wanneer er internet is."
-                },
-                {
-                  "title": "Bespaart batterij:",
-                  "content": "Om YouTube-video's te bekijken, gebruiken ze een bufferservice die gebruikmaakt van gemakkelijk te beluisteren verbindingen. Geen zorgen meer over bufferen."
-                },
-                {
-                  "title": "Eenvoudig archiveren en bewaren:",
-                  "content": "Sommige video's of MP3's maken het eenvoudig om uw persoonlijke bibliotheek op te bouwen, of het nu gaat om educatieve content, muziekarchieven of belangrijke content."
-                },
-                {
-                  "title": "Eenvoudiger delen:",
-                  "content": "Het delen van een MP3-bestand is veel handiger dan YouTube-links. Je kunt bestanden naar vrienden sturen via apps zoals WhatsApp of Instagram, waardoor je de kosten voor het openen van YouTube kunt besparen."
-                },
-                {
-                  "title": "Direct bekijken, grote flexibiliteit:",
-                  "content": "Krijg toegang tot een bredere favoriete video door YouTube-video's te converteren naar uw favoriete video's, waar u ze ook nodig hebt. MP3-formaten zorgen ervoor dat u ze meteen soepel kunt samenvoegen, zonder ongemakkelijke pauzes tijdens het wachten op deze lading."
-                }
-              ]
-            },
-            "part5": {
-              "title": "Waarom onze converter opvalt",
-              "cards": [
-                {
-                  "title": "Eenvoud met één klik",
-                  "content": "Eenvoudige installatie en intuïtieve bediening."
-                },
-                {
-                  "title": "Razendsnel, onbeperkt",
-                  "content": "Converteer en download op topsnelheid — geen caps, geen limieten."
-                },
-                {
-                  "title": "Converteer direct",
-                  "content": "Uw bestanden worden direct verwerkt, u hoeft niet te wachten."
-                },
-                {
-                  "title": "Geen advertenties, geen afleidingen",
-                  "content": "Geniet van een overzichtelijke interface zonder pop-ups, banners of onderbrekingen: alleen een vloeiende, ononderbroken conversie."
-                },
-                {
-                  "title": "Originele kwaliteit gegarandeerd",
-                  "content": "Uw downloads behouden de volledige resolutie van de bronvideo, zodat deze altijd tot op de pixel perfect wordt afgespeeld."
-                },
-                {
-                  "title": "Werkt overal",
-                  "content": "Volledig compatibel met elke browser, op elk apparaat."
-                }
-              ]
-            },
-            "part6": {
-              "title": [
-                "Maximaliseer uw YouTube naar MP3-conversies",
-                "Met onze converter"
-              ],
-              "title_des": "Moeiteloze YouTube naar MP3-conversie - snel, eenvoudig en gratis",
-              "content": [
-                "Dat is waar wij in uitblinken. Onze gebruiksvriendelijke interface is ontworpen voor iedereen – geen technische vaardigheden vereist. Ongeacht je ervaringsniveau kun je video's direct converteren. Aanmelden is niet nodig, en wat je meteen kunt doen: je gedownloade MP3's behouden de originele videokwaliteit en helderheid, precies zoals je ze op YouTube hebt bekeken.",
-                "Snelheid is ook belangrijk. Je kunt meerdere bestanden snel downloaden, zonder advertenties en apparaten. Of je nu Windows, macOS, Linux, Android of iOS gebruikt – met een smartphone, tablet of desktop – je kunt moeiteloos video's downloaden."
-              ]
-            },
-            "part7": {
-              "title": "Belangrijke vragen over het converteren van YouTube naar MP3",
-              "list": [
-                {
-                  "question": "Kan ik een auteursrechtelijk beschermde YouTube-video naar MP3 converteren?",
-                  "answer": "Hoewel het technisch mogelijk is, kan het converteren van auteursrechtelijk beschermde content zonder toestemming een schending van de servicevoorwaarden en auteursrechtwetgeving van YouTube betekenen. Zorg er altijd voor dat je het recht hebt om content te converteren of te gebruiken voor persoonlijke, niet-commerciële doeleinden."
-                },
-                {
-                  "question": "Is deze conversietool veilig?",
-                  "answer": "Ja, onze converter is volledig veilig. We slaan uw gegevens of bestanden niet op en er is geen risico op malware of virussen. De conversie gebeurt direct en veilig."
-                },
-                {
-                  "question": "Welke talen worden ondersteund door YouTube naar MP3-conversie?",
-                  "answer": "Onze converter ondersteunt alle talen die op YouTube beschikbaar zijn. De audio wordt exact zoals in de originele video geëxtraheerd, met behoud van de oorspronkelijke taal en audiokwaliteit."
-                },
-                {
-                  "question": "Welke factoren beïnvloeden de tijd die nodig is om een ​​YouTube-video te converteren?",
-                  "answer": "De conversietijd is afhankelijk van verschillende factoren: de lengte van de video, de snelheid van je internetverbinding en de huidige serverbelasting. De meeste video's korter dan 10 minuten worden binnen 30 seconden geconverteerd."
-                },
-                {
-                  "question": "Waar wordt een MP3 opgeslagen wanneer ik deze met mijn smartphone converteer en download?",
-                  "answer": "Op de meeste smartphones worden geconverteerde MP3-bestanden opgeslagen in de map Downloads. Op een iPhone kunnen ze in de Bestanden-app terechtkomen. Op Android kun je de map Downloads in je bestandsbeheerder of muziek-app controleren."
-                },
-                {
-                  "question": "Wordt de audiokwaliteit minder als ik een YouTube-video naar MP3 converteer?",
-                  "answer": "MP3 is een audioformaat, dus er is geen videocomponent. De audiokwaliteit blijft behouden op de hoogst beschikbare bitsnelheid van de bronvideo, meestal 128-320 kbps, afhankelijk van de oorspronkelijke uploadkwaliteit."
-                }
-              ]
-            },
-            "MoreFreeTools": {
-              "title": "Meer gratis tools",
-              "title_des": "Ontdek onze andere gratis conversietools",
-              "YouTubeToMP": "YouTube naar MP4",
-              "YouTubeToMP_des": "Converteer YouTube-video's naar MP4-formaat voor offline weergave. Download direct video's van hoge kwaliteit.",
-              "AITranscription": "AI-transcriptie",
-              "AITranscription_des": "Transcribeer audio- en videobestanden met 96% nauwkeurigheid. Onbeperkte transcriptie voor al uw content."
-            },
-            "videoDownload": {
-              "title": "Converteer YouTube-links naar MP3. Gratis, snel en zonder advertenties.",
-              "description": "Bedankt dat u voor onze service hebt gekozen! We stellen uw vertrouwen enorm op prijs en hopen dat het uw ervaring heeft verbeterd. Als u onze website met uw vrienden zou willen delen, zou dat ons enorm helpen.",
-              "downloadButton": "Download",
-              "TranscribeButton": "Transcriberen",
-              "downloadError": "Fout bij conversie."
-            }
+    YouTubeToMP3: {
+      err1: "Fout in de YouTube-linkindeling.",
+      err2: "Sorry! Momenteel werken we alleen met YouTube-links. Mocht je ondersteuning nodig hebben voor andere sites, dan houden we je op de hoogte wanneer we die in de toekomst toevoegen.",
+      part1: {
+        title: "Converteer YouTube-video's naar MP3",
+        title_des: "Haal binnen enkele seconden audio uit YouTube-video's",
+        placeholder: "Plak hier je Youtube-link",
+        clear_icon: "Invoer wissen",
+        Download: "Overzetten",
+        loading_text: "De link verwerken om te converteren. Blijf op de pagina.",
+        howToDownload: "Hoe kan ik converteren?",
+        tutorial: "Bekijk de tutorial"
+      },
+      freeResources: {
+        linkTitle: "Aangedreven door {NeverCap}",
+        linkTitle2: "- Volledig onbeperkte AI-transcriptie",
+        title: "Gratis bronnen",
+        stepsNew: [
+          {
+            title: "Gratis audio- en videotranscriptie",
+            content:
+              "Converteer audio- en videobestanden in enkele seconden naar tekst. Elke dag worden er 3 bestanden getranscribeerd."
+          },
+          {
+            title: "Audiobestanden naar tekst extraheren",
+            content: "Upload MP3, MP4, WAV, MOV.",
+            content2: "Download DOCX, TXT, SRT en meer."
+          },
+          {
+            title: "YouTube-video's transcriberen",
+            content: "Converteer YouTube-video's naar correcte tekst of ondertitels en plak de link gratis in."
           }
-},
+        ]
+      },
+      part2: {
+        title: "Zo zet je in 3 eenvoudige stappen een YouTube-video om in een downloadbaar MP3-bestand",
+        steps: [
+          {
+            title: "Kopieer de URL",
+            content: "Open de YouTube-video die u wilt afspelen en kopieer de link uit de adresbalk van uw browser."
+          },
+          {
+            title: "Plak de link",
+            content: "Voer de URL in uw videodownloadtool in en plak deze in het invoerveld."
+          },
+          {
+            title: "Converteren en downloaden",
+            content: "Zodra de conversie is voltooid, downloadt u uw MP3-bestand om het op te slaan."
+          }
+        ]
+      },
+      part3: {
+        content: [
+          "Wilt u YouTube-video's naar MP3 converteren zodat u ze op elk gewenst moment kunt beluisteren?",
+          "Of je nu in de metro of het vliegtuig zit, of podcasts, cursusmateriaal of belangrijke archieven aan het ordenen bent, we hebben er vaak moeite mee dat we er niet altijd bij kunnen. Onze conversietool lost dit probleem voor je op.",
+          "Kopieer de YouTube-link, plak deze in de converter en met één klik converteer je video's naar hoogwaardige MP3-audio. Je kunt ze opslaan, beluisteren en archiveren wanneer je maar wilt, zonder internetverbinding."
+        ]
+      },
+      part4: {
+        content: ["Dit zijn de 5 belangrijkste voordelen van het converteren", "YouTube-video's naar MP3-bestanden"],
+        list: [
+          {
+            title: "Bespaar op opslag:",
+            content:
+              "MP3-bestanden zijn kleiner, waardoor er minder opslagruimte nodig is voor YouTube-gebruik. Bespaar op mobiele data door de offline weergave te downloaden en te gebruiken wanneer er internet is."
+          },
+          {
+            title: "Bespaart batterij:",
+            content:
+              "Om YouTube-video's te bekijken, gebruiken ze een bufferservice die gebruikmaakt van gemakkelijk te beluisteren verbindingen. Geen zorgen meer over bufferen."
+          },
+          {
+            title: "Eenvoudig archiveren en bewaren:",
+            content:
+              "Sommige video's of MP3's maken het eenvoudig om uw persoonlijke bibliotheek op te bouwen, of het nu gaat om educatieve content, muziekarchieven of belangrijke content."
+          },
+          {
+            title: "Eenvoudiger delen:",
+            content:
+              "Het delen van een MP3-bestand is veel handiger dan YouTube-links. Je kunt bestanden naar vrienden sturen via apps zoals WhatsApp of Instagram, waardoor je de kosten voor het openen van YouTube kunt besparen."
+          },
+          {
+            title: "Direct bekijken, grote flexibiliteit:",
+            content:
+              "Krijg toegang tot een bredere favoriete video door YouTube-video's te converteren naar uw favoriete video's, waar u ze ook nodig hebt. MP3-formaten zorgen ervoor dat u ze meteen soepel kunt samenvoegen, zonder ongemakkelijke pauzes tijdens het wachten op deze lading."
+          }
+        ]
+      },
+      part5: {
+        title: "Waarom onze converter opvalt",
+        cards: [
+          {
+            title: "Eenvoud met één klik",
+            content: "Eenvoudige installatie en intuïtieve bediening."
+          },
+          {
+            title: "Razendsnel, onbeperkt",
+            content: "Converteer en download op topsnelheid — geen caps, geen limieten."
+          },
+          {
+            title: "Converteer direct",
+            content: "Uw bestanden worden direct verwerkt, u hoeft niet te wachten."
+          },
+          {
+            title: "Geen advertenties, geen afleidingen",
+            content:
+              "Geniet van een overzichtelijke interface zonder pop-ups, banners of onderbrekingen: alleen een vloeiende, ononderbroken conversie."
+          },
+          {
+            title: "Originele kwaliteit gegarandeerd",
+            content:
+              "Uw downloads behouden de volledige resolutie van de bronvideo, zodat deze altijd tot op de pixel perfect wordt afgespeeld."
+          },
+          {
+            title: "Werkt overal",
+            content: "Volledig compatibel met elke browser, op elk apparaat."
+          }
+        ]
+      },
+      part6: {
+        title: ["Maximaliseer uw YouTube naar MP3-conversies", "Met onze converter"],
+        title_des: "Moeiteloze YouTube naar MP3-conversie - snel, eenvoudig en gratis",
+        content: [
+          "Dat is waar wij in uitblinken. Onze gebruiksvriendelijke interface is ontworpen voor iedereen – geen technische vaardigheden vereist. Ongeacht je ervaringsniveau kun je video's direct converteren. Aanmelden is niet nodig, en wat je meteen kunt doen: je gedownloade MP3's behouden de originele videokwaliteit en helderheid, precies zoals je ze op YouTube hebt bekeken.",
+          "Snelheid is ook belangrijk. Je kunt meerdere bestanden snel downloaden, zonder advertenties en apparaten. Of je nu Windows, macOS, Linux, Android of iOS gebruikt – met een smartphone, tablet of desktop – je kunt moeiteloos video's downloaden."
+        ]
+      },
+      part7: {
+        title: "Belangrijke vragen over het converteren van YouTube naar MP3",
+        list: [
+          {
+            question: "Kan ik een auteursrechtelijk beschermde YouTube-video naar MP3 converteren?",
+            answer:
+              "Hoewel het technisch mogelijk is, kan het converteren van auteursrechtelijk beschermde content zonder toestemming een schending van de servicevoorwaarden en auteursrechtwetgeving van YouTube betekenen. Zorg er altijd voor dat je het recht hebt om content te converteren of te gebruiken voor persoonlijke, niet-commerciële doeleinden."
+          },
+          {
+            question: "Is deze conversietool veilig?",
+            answer:
+              "Ja, onze converter is volledig veilig. We slaan uw gegevens of bestanden niet op en er is geen risico op malware of virussen. De conversie gebeurt direct en veilig."
+          },
+          {
+            question: "Welke talen worden ondersteund door YouTube naar MP3-conversie?",
+            answer:
+              "Onze converter ondersteunt alle talen die op YouTube beschikbaar zijn. De audio wordt exact zoals in de originele video geëxtraheerd, met behoud van de oorspronkelijke taal en audiokwaliteit."
+          },
+          {
+            question: "Welke factoren beïnvloeden de tijd die nodig is om een ​​YouTube-video te converteren?",
+            answer:
+              "De conversietijd is afhankelijk van verschillende factoren: de lengte van de video, de snelheid van je internetverbinding en de huidige serverbelasting. De meeste video's korter dan 10 minuten worden binnen 30 seconden geconverteerd."
+          },
+          {
+            question: "Waar wordt een MP3 opgeslagen wanneer ik deze met mijn smartphone converteer en download?",
+            answer:
+              "Op de meeste smartphones worden geconverteerde MP3-bestanden opgeslagen in de map Downloads. Op een iPhone kunnen ze in de Bestanden-app terechtkomen. Op Android kun je de map Downloads in je bestandsbeheerder of muziek-app controleren."
+          },
+          {
+            question: "Wordt de audiokwaliteit minder als ik een YouTube-video naar MP3 converteer?",
+            answer:
+              "MP3 is een audioformaat, dus er is geen videocomponent. De audiokwaliteit blijft behouden op de hoogst beschikbare bitsnelheid van de bronvideo, meestal 128-320 kbps, afhankelijk van de oorspronkelijke uploadkwaliteit."
+          }
+        ]
+      },
+      MoreFreeTools: {
+        title: "Meer gratis tools",
+        title_des: "Ontdek onze andere gratis conversietools",
+        YouTubeToMP: "YouTube naar MP4",
+        YouTubeToMP_des:
+          "Converteer YouTube-video's naar MP4-formaat voor offline weergave. Download direct video's van hoge kwaliteit.",
+        AITranscription: "AI-transcriptie",
+        AITranscription_des:
+          "Transcribeer audio- en videobestanden met 96% nauwkeurigheid. Onbeperkte transcriptie voor al uw content."
+      },
+      videoDownload: {
+        title: "Converteer YouTube-links naar MP3. Gratis, snel en zonder advertenties.",
+        description:
+          "Bedankt dat u voor onze service hebt gekozen! We stellen uw vertrouwen enorm op prijs en hopen dat het uw ervaring heeft verbeterd. Als u onze website met uw vrienden zou willen delen, zou dat ons enorm helpen.",
+        downloadButton: "Download",
+        TranscribeButton: "Transcriberen",
+        downloadError: "Fout bij conversie."
+      }
+    }
+  },
   About: {
     Hero: {
       badge: "Toonaangevende AI-technologie",
@@ -3456,14 +3330,12 @@ let message = {
     Stats: {
       title: "Onze",
       highlighted_text: "Impact",
-      subtitle:
-        "Wereldwijde communicatie mogelijk maken met geavanceerde AI-technologie",
+      subtitle: "Wereldwijde communicatie mogelijk maken met geavanceerde AI-technologie",
       metrics: [
         {
           value: "96%+",
           label: "Nauwkeurigheid",
-          description:
-            "Toonaangevende transcriptienauwkeurigheid met geavanceerde AI"
+          description: "Toonaangevende transcriptienauwkeurigheid met geavanceerde AI"
         },
         {
           value: "100+",
@@ -3479,8 +3351,7 @@ let message = {
     },
     Mission: {
       title: "Waarom Kiezen voor",
-      subtitle:
-        "Wij geloven in het doorbreken van taalbarrières en het toegankelijk maken van inhoud voor iedereen",
+      subtitle: "Wij geloven in het doorbreken van taalbarrières en het toegankelijk maken van inhoud voor iedereen",
       features: [
         {
           icon: "🎯",
@@ -3519,11 +3390,7 @@ let message = {
         },
         {
           label: "Hoofdkantoor",
-          value: [
-            "30 N Gould St Ste R",
-            "Sheridan, WY 82801",
-            "Verenigde Staten"
-          ]
+          value: ["30 N Gould St Ste R", "Sheridan, WY 82801", "Verenigde Staten"]
         },
         {
           label: "Contacteer Ons",
@@ -3533,18 +3400,15 @@ let message = {
     },
     CTA: {
       title: "Klaar om het Verschil te Ervaren?",
-      subtitle:
-        "Sluit je aan bij duizenden professionals die NeverCap vertrouwen voor hun transcriptiebehoeften",
+      subtitle: "Sluit je aan bij duizenden professionals die NeverCap vertrouwen voor hun transcriptiebehoeften",
       button: "Probeer NeverCap Gratis →",
-      disclaimer:
-        "Geen creditcard nodig • Begin binnen enkele seconden met transcriberen"
+      disclaimer: "Geen creditcard nodig • Begin binnen enkele seconden met transcriberen"
     }
   },
   Privacy: {
     title: "Privacy",
     titleGradient: "Beleid",
-    subtitle:
-      "Lees hoe we uw persoonlijke gegevens verzamelen, gebruiken en beschermen",
+    subtitle: "Lees hoe we uw persoonlijke gegevens verzamelen, gebruiken en beschermen",
     lastUpdated: "Laatst bijgewerkt: {date}",
     lastUpdatedDate: "21 juli 2025",
     privacyPolicyTitle: "Privacybeleid",
@@ -3556,8 +3420,7 @@ let message = {
     scopeDescription:
       "Dit Privacybeleid is alleen van toepassing op onze verzameling en verwerking van gegevens over gebruikers van de Diensten. Het geldt niet voor diensten, websites of software van derden die aan ons gelinkt zijn (of wij die links aanbieden of andere gebruikers ze delen), noch voor inhoud, gegevens, applicaties of materialen van derden. Wij raden u aan het privacybeleid van websites of software van derden te controleren voordat u hen gegevens verstrekt.",
     collectionTitle: "2. Wat we verzamelen en waarom",
-    collectionPrinciple:
-      "Onze leidraad is: alleen verzamelen wat we nodig hebben. In de praktijk betekent dit:",
+    collectionPrinciple: "Onze leidraad is: alleen verzamelen wat we nodig hebben. In de praktijk betekent dit:",
     identityTitle: "2.1 Identiteit & toegang",
     identityDescription:
       "Bij registratie voor een product vragen we identificerende gegevens zoals uw naam en e-mailadres. Dit is voor essentiële functionaliteit en om u productupdates en andere belangrijke informatie te sturen.",
@@ -3615,8 +3478,7 @@ let message = {
   TermsOfUse: {
     title: "Voorwaarden van",
     titleGradient: "Dienst",
-    subtitle:
-      "Lees deze voorwaarden zorgvuldig door voordat u onze diensten gebruikt",
+    subtitle: "Lees deze voorwaarden zorgvuldig door voordat u onze diensten gebruikt",
     lastUpdated: "Laatst bijgewerkt: {date}",
     lastUpdatedDate: "21 juli 2025",
     termsOfServiceTitle: "Servicevoorwaarden",
@@ -3644,8 +3506,7 @@ let message = {
     accountTermsTitle: "3. Accountvoorwaarden",
     accountSecurity:
       "U bent verantwoordelijk voor het beveiligen van uw account. Het Bedrijf kan en zal niet aansprakelijk zijn voor enig verlies of schade als gevolg van uw niet-naleving van deze beveiligingsverplichting.",
-    lawfulUse:
-      "U mag de Diensten niet gebruiken voor enig onwettig, onethisch of immoreel doel.",
+    lawfulUse: "U mag de Diensten niet gebruiken voor enig onwettig, onethisch of immoreel doel.",
     contentResponsibility:
       "U bent verantwoordelijk voor alle inhoud die wordt gepost en alle activiteiten die onder uw account plaatsvinden. Dit omvat inhoud die door anderen wordt gepost, die ofwel: (a) toegang hebben tot uw inloggegevens; of (b) hun eigen inloggegevens hebben onder uw account.",
     humanRequirement:
@@ -3710,16 +3571,13 @@ let message = {
       "Informatie verkregen van de Site te gebruiken om een ander persoon lastig te vallen, te misbruiken of schade toe te brengen.",
     supportAbuse:
       "Onze ondersteuningsdiensten onjuist te gebruiken of valse meldingen van misbruik of wangedrag in te dienen.",
-    legalCompliance:
-      "De Site te gebruiken op een manier die in strijd is met toepasselijke wetten of regelgeving.",
-    framingProhibition:
-      "Ongeautoriseerde framing van of linking naar de Site uit te voeren.",
+    legalCompliance: "De Site te gebruiken op een manier die in strijd is met toepasselijke wetten of regelgeving.",
+    framingProhibition: "Ongeautoriseerde framing van of linking naar de Site uit te voeren.",
     malware:
       "Virussen, Trojaanse paarden of ander materiaal te uploaden of te verzenden (of te proberen te uploaden of te verzenden), inclusief overmatig gebruik van hoofdletters en spam (herhaaldelijk plaatsen van dezelfde tekst), wat het ononderbroken gebruik en genot van de Site verstoort of de werking, functies of onderhoud van de Site beïnvloedt.",
     automation:
       "Geautomatiseerd gebruik van het systeem te maken, zoals het gebruik van scripts om reacties of berichten te verzenden, of datamining, robots of soortgelijke gegevensverzamelings- en extractietools te gebruiken.",
-    copyrightRemoval:
-      "Het copyright of andere eigendomsrechtenvermeldingen van inhoud te verwijderen.",
+    copyrightRemoval: "Het copyright of andere eigendomsrechtenvermeldingen van inhoud te verwijderen.",
     impersonation:
       "Te proberen een andere gebruiker of persoon te imiteren of de gebruikersnaam van een andere gebruiker te gebruiken.",
     spyware:
@@ -3728,21 +3586,18 @@ let message = {
       "De Site of de daaraan verbonden netwerken of diensten te verstoren, te overbelasten of een onevenredige belasting te veroorzaken.",
     employeeHarassment:
       "Onze medewerkers of agenten die betrokken zijn bij het aanbieden van de Site te lastigvallen, te irriteren, te intimideren of te bedreigen.",
-    accessCircumvention:
-      "Maatregelen van de Site die toegang tot de Site of delen daarvan beperken, te omzeilen.",
+    accessCircumvention: "Maatregelen van de Site die toegang tot de Site of delen daarvan beperken, te omzeilen.",
     codeCopying:
       "De software van de Site te kopiëren of aan te passen, inclusief maar niet beperkt tot Flash, PHP, HTML, JavaScript of andere code.",
     reverseEngineering:
       "Tenzij toegestaan door de wet, software van de Site te decoderen, decomprimeren, reverse-engineeren of anderszins te ontleden.",
     bots: "Tenzij het voortvloeit uit standaard zoekmachine- of browsergebruik, geautomatiseerde systemen te gebruiken, lanceren, ontwikkelen of verspreiden die toegang hebben tot de Site, zoals spiders, robots of offline readers.",
-    buyingAgents:
-      "Een aankoopagent te gebruiken om aankopen op de Site te doen.",
+    buyingAgents: "Een aankoopagent te gebruiken om aankopen op de Site te doen.",
     unauthorizedUse:
       "Ongeautoriseerd gebruik te maken van de Site, zoals het verzamelen van gebruikersnamen en/of e-mailadressen voor ongevraagde e-mails of het creëren van gebruikersaccounts onder valse voorwendselen.",
     competition:
       "De Site te gebruiken om met ons te concurreren of voor inkomensgenererende of commerciële doeleinden.",
-    advertising:
-      "De Site te gebruiken om goederen of diensten te adverteren of aan te bieden.",
+    advertising: "De Site te gebruiken om goederen of diensten te adverteren of aan te bieden.",
     profileTransfer: "Uw profiel te verkopen of over te dragen.",
     featuresTitle: "11. Functies en Bugs",
     featuresDescription:
@@ -3759,8 +3614,7 @@ let message = {
       "Wij bewaren bepaalde gegevens voor het beheer van de Site, maar u bent zelf verantwoordelijk voor alle gegevens die u verzendt. Wij zijn niet aansprakelijk voor verlies of corruptie van gegevens.",
     privacyPolicyTitle: "14. Privacybeleid",
     liabilityTitle: "15. Aansprakelijkheid",
-    liabilityIntroduction:
-      "Wij vermelden aansprakelijkheid in deze Voorwaarden, maar samengevat:",
+    liabilityIntroduction: "Wij vermelden aansprakelijkheid in deze Voorwaarden, maar samengevat:",
     liabilityWaiver:
       "De Company is niet aansprakelijk voor directe of indirecte schade, inclusief winstderving, verlies van gegevens of andere immateriële schade, voortvloeiend uit: (1) gebruik of onvermogen om de Diensten te gebruiken; (2) fouten in inhoud; (3) letsel of schade door gebruik van de Site; (4) kosten voor vervangende goederen/diensten; (5) ongeautoriseerde toegang tot servers; (6) onderbrekingen in de transmissie; (7) bugs of virussen; (8) fouten in inhoud; (9) gedrag van derden; (10) andere zaken gerelateerd aan deze Voorwaarden.",
     miscellaneousTitle: "16. Diversen",
@@ -3794,14 +3648,7 @@ let message = {
       title: "Laatste",
       highlighted_text: "Artikelen",
       subtitle: "Deskundige tips en tutorials voor onbeperkte transcriptie",
-      categories: [
-        "Alle berichten",
-        "Zelfstudies",
-        "Podcasten",
-        "Contentcreatie",
-        "Bedrijf",
-        "AI-tips"
-      ]
+      categories: ["Alle berichten", "Zelfstudies", "Podcasten", "Contentcreatie", "Bedrijf", "AI-tips"]
     },
     Detail: {
       Home: "Thuis",

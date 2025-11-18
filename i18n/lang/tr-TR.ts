@@ -17,24 +17,20 @@ let message = {
       step0: {
         title: "{name}'e Hoş Geldiniz",
         tip: "Burada şunları yapabilirsiniz:",
-        content:
-          "Tek seferlik konuşmaları, toplantıları, dersleri vb. yazıya dökebilirsiniz",
+        content: "Tek seferlik konuşmaları, toplantıları, dersleri vb. yazıya dökebilirsiniz",
         next: "Kullanmaya Başla"
       },
       step1: {
         title: "Dosyaları Yazıya Dök",
-        content:
-          "Üç yazıya dökme yöntemini destekler: Yerel dosyalar, bağlantılar ve kayıtlar."
+        content: "Üç yazıya dökme yöntemini destekler: Yerel dosyalar, bağlantılar ve kayıtlar."
       },
       step2: {
         title: "Klasör Oluştur",
-        content:
-          'Klasör oluşturmak ve dosyalarınızı düzenlemek için "+" simgesine tıklayın.'
+        content: 'Klasör oluşturmak ve dosyalarınızı düzenlemek için "+" simgesine tıklayın.'
       },
       step3: {
         title: "Yazıya Dökme Detaylarını Görüntüle ve Düzenle",
-        content:
-          "Yazıya dökme detaylarını görüntülemek ve düzenlemek için öğeye tıklayın, ayrıca çevirebilirsiniz."
+        content: "Yazıya dökme detaylarını görüntülemek ve düzenlemek için öğeye tıklayın, ayrıca çevirebilirsiniz."
       },
       next: "Sonraki",
       finish: "Anladım"
@@ -61,13 +57,10 @@ let message = {
       description: "Burada yapabilecekleriniz:",
       transcribe:
         "Scribify ile zahmetsizce transkripsiyonu yapın—sesli konuşmaları net, aranabilir ve paylaşılabilir metne anında dönüştürün.",
-      precision:
-        "Konuşmacı tanıma ve zaman damgalarıyla kesin transkripsiyon alın.",
-      translate:
-        "Dil engellerini aşın: transkripsiyonları 200'den fazla dile kolayca çevirin.",
+      precision: "Konuşmacı tanıma ve zaman damgalarıyla kesin transkripsiyon alın.",
+      translate: "Dil engellerini aşın: transkripsiyonları 200'den fazla dile kolayca çevirin.",
       edit: "Transkripsiyon metinlerinizi ihtiyaçlarınıza uygun formatlarda düzenleyin, geliştirin ve dışa aktarın.",
-      collaborate:
-        "Transkripsiyon metinlerinizi başkalarıyla paylaşarak işbirliği yapın.",
+      collaborate: "Transkripsiyon metinlerinizi başkalarıyla paylaşarak işbirliği yapın.",
       button: "Başlayın",
       tip: "Sesi transkripsiyon metnine dönüştürmeye hazır mısınız? Şimdi keşfetmeye başlayın!",
       tip2: "Şimdi keşfetmeye başlayın!",
@@ -165,8 +158,7 @@ let message = {
     create: "Oluştur",
     endRecord: {
       title: "Uyarı",
-      content:
-        "Ses kaydı yapıyorsunuz. Bu işlem ses kaydını sonlandıracak. Ses kaydını sonlandırmak istiyor musunuz?",
+      content: "Ses kaydı yapıyorsunuz. Bu işlem ses kaydını sonlandıracak. Ses kaydını sonlandırmak istiyor musunuz?",
       confirm: "Ses Kaydına Devam Et",
       cancel: "Ses Kaydını Sonlandır"
     }
@@ -191,13 +183,11 @@ let message = {
         },
         complete: {
           title: "Kayıt Tamamlandı",
-          label:
-            "Kayıt 10 saate ulaştı ve otomatik olarak durdu. Lütfen yazıya dökmeye devam edin.",
+          label: "Kayıt 10 saate ulaştı ve otomatik olarak durdu. Lütfen yazıya dökmeye devam edin.",
           confirm: "Anladım"
         },
         speaker: {
-          content:
-            "Konuşmacı tanımlama için dosyalar 3 saat ile sınırlıdır. Lütfen '{text}' seçeneğini kaldırın."
+          content: "Konuşmacı tanımlama için dosyalar 3 saat ile sınırlıdır. Lütfen '{text}' seçeneğini kaldırın."
         }
       }
     },
@@ -209,8 +199,7 @@ let message = {
           "YouTube, Facebook, X, Dropbox, Google Drive, Vimeo, TikTok, Instagram ve daha fazla platformdan video veya ses bağlantınızı yapıştırın...",
         confirm: "Ekle",
         cancel: "İptal",
-        errorTitle:
-          "Girdiğiniz bağlantı adresi doğru değil. Lütfen kontrol edip tekrar deneyin.",
+        errorTitle: "Girdiğiniz bağlantı adresi doğru değil. Lütfen kontrol edip tekrar deneyin.",
         linkName: "Bağlantı"
       },
       file: {
@@ -223,8 +212,7 @@ let message = {
       },
       del: {
         title: "Uyarı",
-        content:
-          "Tüm ilerleme kaybedilecek. Yazıya dökmeyi iptal etmeyi onaylıyor musunuz?",
+        content: "Tüm ilerleme kaybedilecek. Yazıya dökmeyi iptal etmeyi onaylıyor musunuz?",
         cancel: "İptali Onayla",
         confirm: "Yazıya Dökmeye Devam Et"
       },
@@ -259,7 +247,13 @@ let message = {
         audio: "Ses / Video Dosyası",
         Uploading: "Yükleniyor..."
       },
-      fileEmpty: "Dosya boş"
+      fileEmpty: "Dosya boş",
+      howToSetup: "Nasıl kurulur?",
+      shareFilePublicly: "Dosyayı herkese açık paylaş",
+      retry: "Yeniden Dene",
+      edit: "Düzenle",
+      delete: "Sil",
+      updateAndRetry: "Güncelle ve Yeniden Dene"
     }
   },
   // Yazıya Dökme Detay Sayfası
@@ -575,8 +569,7 @@ let message = {
     signupToSaveProgress: "Kaydınızı tamamlayarak ilerlemenizi kaydedin",
     tip: "İpucu",
     tipContentEmail: "Hesap giriş şifrenizi e-postanıza yeni gönderdik.",
-    tipContentPassword:
-      "Lütfen gelen kutunuzu kontrol edin ve e-posta adresinizle şifrenizi kullanarak giriş yapın.",
+    tipContentPassword: "Lütfen gelen kutunuzu kontrol edin ve e-posta adresinizle şifrenizi kullanarak giriş yapın.",
     codeToEmail:
       "Doğrulama kodunu e-posta adresinize gönderdik. Lütfen gelen kutunuzu kontrol edin ve doğrulama kodunu yukarıya yapıştırın."
   },
@@ -595,11 +588,9 @@ let message = {
     professionalEdition: "profesyonel sürüm",
     unlimitedTranscription: "Sınırsız transkripsiyon",
     unlimitedNumberOfTimes: "Sınırsız transkripsiyon sıklığı ve süresi.",
-    filesUploadedAtOnce:
-      "Her dosya en fazla 10 saat / 5 GB olabilir. Aynı anda 50 dosya yükleyin.",
+    filesUploadedAtOnce: "Her dosya en fazla 10 saat / 5 GB olabilir. Aynı anda 50 dosya yükleyin.",
     highestPriority: "en yüksek öncelik",
-    weWillGiveTheHighest:
-      "Dosyalarınızı en yüksek öncelikle mümkün olan en kısa sürede transkribe edeceğiz.",
+    weWillGiveTheHighest: "Dosyalarınızı en yüksek öncelikle mümkün olan en kısa sürede transkribe edeceğiz.",
     theFirstMonth: "İlk ay",
     subscribeTo: "abone ol",
     basicVersionFree: "Temel sürüm (ücretsiz)",
@@ -644,15 +635,12 @@ let message = {
     changeToAnnual: "Yıllığa Geç",
     automaticRenewalon: "Otomatik yenileme tarihi",
     eachMonth: "Her ayın {time}. günü otomatik yenileme.",
-    automaticRenewal:
-      "Otomatik yenileme başarısız oldu, lütfen ödeme yöntemini kontrol edin.",
+    automaticRenewal: "Otomatik yenileme başarısız oldu, lütfen ödeme yöntemini kontrol edin.",
     eachYear: "Her yıl {time} otomatik yenileme.",
     returnAccountSetting: "Geri",
-    needsToWaitLonger:
-      "Dosyalarınız transkript edilmeden önce daha uzun süre bekleyin.",
+    needsToWaitLonger: "Dosyalarınız transkript edilmeden önce daha uzun süre bekleyin.",
     freeThreeTimesDay: "Her gün 3 dosyayı ücretsiz olarak transkript edin.",
-    oneFileUploaded:
-      "Her dosya en fazla 30 dakika uzunluğunda olabilir. Bir seferde 1 dosya yükleyin.",
+    oneFileUploaded: "Her dosya en fazla 30 dakika uzunluğunda olabilir. Bir seferde 1 dosya yükleyin.",
     uploadWithinHours: "10 Saatlik Yüklemeler",
     yourSubscription: "Aboneliğiniz {time} tarihinde iptal edilecek.",
     save: "Tasarruf etmek",
@@ -693,12 +681,10 @@ let message = {
     startLink: "Ücretsiz denemeye başlayın~",
     thirdPartyLink: "Github →",
     waitlist: {
-      cardTitle:
-        "En son NuxtPro haberlerini ve indirimlerini ilk alan olmak için bekleme listesine katılın!",
+      cardTitle: "En son NuxtPro haberlerini ve indirimlerini ilk alan olmak için bekleme listesine katılın!",
       placeholder: "E-posta adresinizi girin",
       button: "Bekleme Listesine Katıl",
-      joinCountMessage:
-        "🔥 Erken kullanıcı #{count} az önce bekleme listesine katıldı!"
+      joinCountMessage: "🔥 Erken kullanıcı #{count} az önce bekleme listesine katıldı!"
     },
     seo: {
       title: "Açık Kaynak Nuxt SaaS Şablonu | NuxtPro",
@@ -800,8 +786,7 @@ let message = {
       "Bu politikada, hangi verileri neden topladığımızı, verilerinizin nasıl işlendiğini ve verilerinizle ilgili haklarınızı açıklıyoruz. Verilerinizi satmıyoruz.",
     scopeTitle: "1. Bu Gizlilik Politikasının Kapsamı",
     whatWeCollectTitle: "2. Neleri topluyoruz ve neden?",
-    accessShareTitle:
-      "3. Bilgilerinize eriştiğimizde veya bunları paylaştığımızda",
+    accessShareTitle: "3. Bilgilerinize eriştiğimizde veya bunları paylaştığımızda",
     secureDataTitle: "4. Verilerinizi nasıl güvence altına alıyoruz?",
     deleteContentTitle: "5. İçeriğinizi sildiğinizde ne olur?",
     locationTitle: "6. Sitenin ve verilerin konumu",
@@ -816,8 +801,7 @@ let message = {
     voluntaryCorrespondenceTitle: "2.6 Gönüllü yazışmalar",
     scopeContent:
       "Bu Gizlilik Politikası, yalnızca Hizmetlerin kullanıcıları hakkındaki bilgilerin toplanması ve işlenmesi için geçerlidir. Bu Gizlilik Politikası, bize bağlantı veren üçüncü taraflarca işletilen hiçbir hizmet, web sitesi veya yazılım için geçerli değildir (bu bağlantıları biz sağlasak da, diğer kullanıcılar paylaşsa da) ve üçüncü taraflara ait içerik, veri, uygulama veya materyaller için de geçerli değildir. Herhangi bir üçüncü taraf web sitesi veya yazılımına herhangi bir bilgi vermeden önce gizlilik politikalarını kontrol etmenizi tavsiye ederiz.",
-    collectPrinciple:
-      "Rehber ilkemiz, yalnızca ihtiyacımız olanı toplamaktır. Bunun pratikteki anlamı şudur:",
+    collectPrinciple: "Rehber ilkemiz, yalnızca ihtiyacımız olanı toplamaktır. Bunun pratikteki anlamı şudur:",
     identityAccessContent:
       "Ürünlerimizden birine kaydolduğunuzda, adınız, e-posta adresiniz gibi kimlik bilgilerinizi isteriz. Bu, ürünün temel işlevlerini sağlamak ve size ürün güncellemeleri ve diğer önemli bilgileri gönderebilmemiz içindir.",
     billingInfoContent:
@@ -846,26 +830,22 @@ let message = {
     secureDataContent1: "Tüm veriler şifrelenir",
     sslTlsLink: "SSL/TLS",
     secureDataContent2: "sunucularımızdan tarayıcınıza iletildiğinde.",
-    deleteContentContent:
-      "Herhangi bir içeriği silerseniz, anında erişilemez hale gelecektir.",
+    deleteContentContent: "Herhangi bir içeriği silerseniz, anında erişilemez hale gelecektir.",
     locationContent:
       "Ürünlerimiz ve diğer web sitelerimiz Amerika Birleşik Devletleri'nde işletilmektedir. Avrupa Birliği, Birleşik Krallık veya Amerika Birleşik Devletleri dışında bir yerde bulunuyorsanız, bize sağladığınız tüm bilgilerin Amerika Birleşik Devletleri'ne aktarılacağını ve orada saklanacağını lütfen unutmayın. Web sitelerimizi veya Hizmetlerimizi kullanarak ve/veya bize kişisel bilgilerinizi vererek, bu aktarıma onay vermiş olursunuz.",
     childrenPrivacyContent:
       "Hizmetler çocuklara yönelik değildir ve 13 yaşın altındaki çocuklardan bilerek Kişisel Bilgi toplamıyoruz. 13 yaşın altındaysanız, lütfen Hizmetler aracılığıyla herhangi bir kişisel bilgi göndermeyin. Bir çocuğun bu Politikayı ihlal ederek bize Kişisel Bilgi sağladığına inanıyorsanız, lütfen aşağıda belirtildiği şekilde bizimle iletişime geçin.",
     updatesContent:
       "İlgili düzenlemelere uyum sağlamak ve yeni uygulamaları yansıtmak için bu politikayı gerektiği gibi güncelleyebiliriz. Politikalarımızda önemli bir değişiklik yaptığımızda, bu sayfanın üst kısmındaki tarihi yenileyeceğiz.",
-    contactUsContent1:
-      "Gizlilik Politikamızla ilgili herhangi bir sorunuz, yorumunuz veya şikayetiniz varsa lütfen",
+    contactUsContent1: "Gizlilik Politikamızla ilgili herhangi bir sorunuz, yorumunuz veya şikayetiniz varsa lütfen",
     contactUs: "bize Ulaşın",
-    contactUsContent2:
-      "ve şikayetinizle en kısa sürede ilgilenmeye çalışacağız."
+    contactUsContent2: "ve şikayetinizle en kısa sürede ilgilenmeye çalışacağız."
   },
   termsOfService: {
     termsOfServiceTitle: "Hizmet Şartları",
     lastUpdated: "Son güncelleme: 21 Eylül 2022",
     thankYouMessage: "Ürünlerimizi kullandığınız için teşekkür ederiz!",
-    companyReference:
-      'Bu belgede "Şirket", "biz", "bizim" veya "bize" dediğimizde Scribify\\\'ı kastediyoruz.',
+    companyReference: 'Bu belgede "Şirket", "biz", "bizim" veya "bize" dediğimizde Scribify\\\'ı kastediyoruz.',
     servicesDefinition:
       '"Hizmetler" dediğimizde, ister bir web tarayıcısı, masaüstü uygulaması, mobil uygulama veya başka bir formatta sunulsun, Scribify tarafından oluşturulan ve yönetilen herhangi bir ürünü kastediyoruz.',
     termsUpdateNotice:
@@ -935,8 +915,7 @@ let message = {
       "- Hizmetleri çalıştırmak için gereken donanım, yazılım, ağ, depolama ve ilgili teknolojiyi sağlamak amacıyla üçüncü taraf satıcıları ve barındırma ortaklarını kullanıyoruz.",
     siteManagementContent:
       "(1) Site'yi bu Hizmet Şartları'nın ihlalleri açısından izlemek; (2) kendi takdirimize bağlı olarak kanunu veya bu Hizmet Şartları'nı ihlal eden herkese karşı uygun yasal işlemleri başlatmak, bu tür kullanıcıları kolluk kuvvetlerine bildirmek dahil ancak bunlarla sınırlı olmamak üzere; (3) kendi takdirimize bağlı olarak ve herhangi bir sınırlama olmaksızın, Katkılarınızdan herhangi birini veya herhangi bir kısmını reddetmek, erişimini kısıtlamak, kullanılabilirliğini sınırlamak veya devre dışı bırakmak (teknolojik olarak mümkün olduğu ölçüde); (4) kendi takdirimize bağlı olarak ve herhangi bir sınırlama olmaksızın, Site'den aşırı boyutta olan veya sistemlerimiz için herhangi bir şekilde külfetli olan tüm dosyaları ve içeriği kaldırmak veya başka şekilde devre dışı bırakmak; ve (5) Site'yi haklarımızı ve mülkiyetimizi korumak ve Site'nin düzgün çalışmasını kolaylaştırmak için tasarlanmış bir şekilde yönetmek.",
-    copyrightContent1:
-      "- Hizmetlerde yayınlanan tüm içerikler ABD telif hakkı yasasına uygun olmalıdır.",
+    copyrightContent1: "- Hizmetlerde yayınlanan tüm içerikler ABD telif hakkı yasasına uygun olmalıdır.",
     copyrightContent2:
       "- Hizmetlere sağladığınız materyaller üzerinde hiçbir fikri mülkiyet hakkı iddia etmiyoruz. Yüklenen tüm materyaller size ait olmaya devam edecektir.",
     copyrightContent3:
@@ -957,8 +936,7 @@ let message = {
       "Bildiriminizin bir kopyası, Bildirimde belirtilen materyali yayınlayan veya depolayan kişiye gönderilecektir. Lütfen, yürürlükteki yasalar uyarınca, bir Bildirimde önemli yanlış beyanlarda bulunmanız durumunda tazminat ödemek zorunda kalabileceğinizi unutmayın. Bu nedenle, Sitede bulunan veya Site tarafından bağlantısı verilen materyalin telif hakkınızı ihlal ettiğinden emin değilseniz, öncelikle bir avukata başvurmayı düşünmelisiniz.",
     prohibitedActivitiesIntro:
       "Site'ye, tarafımızca kullanıma sunulma amacı dışında herhangi bir amaçla erişemez veya kullanamazsınız. Site, tarafımızca özel olarak onaylanan veya desteklenenler dışında herhangi bir ticari girişimle bağlantılı olarak kullanılamaz.",
-    prohibitedActivitiesUserAgreement:
-      "Sitenin bir kullanıcısı olarak şunları yapmamayı kabul edersiniz:",
+    prohibitedActivitiesUserAgreement: "Sitenin bir kullanıcısı olarak şunları yapmamayı kabul edersiniz:",
     prohibitedActivity1:
       "- Bizden yazılı izin almadan, doğrudan veya dolaylı olarak bir koleksiyon, derleme, veritabanı veya dizin oluşturmak veya derlemek amacıyla Siteden sistematik olarak veri veya diğer içerikleri almak.",
     prohibitedActivity2:
@@ -971,16 +949,13 @@ let message = {
       "- Siteden elde edilen herhangi bir bilgiyi başka bir kişiyi taciz etmek, istismar etmek veya zarar vermek amacıyla kullanmak.",
     prohibitedActivity6:
       "- Destek hizmetlerimizi uygunsuz şekilde kullanmayın veya kötüye kullanım veya uygunsuz davranışa ilişkin asılsız bildirimlerde bulunmayın.",
-    prohibitedActivity7:
-      "- Siteyi yürürlükteki herhangi bir yasa veya yönetmeliğe aykırı bir şekilde kullanmak.",
-    prohibitedActivity8:
-      "- Sitenin izinsiz olarak çerçevelenmesi veya Siteye bağlantı verilmesi.",
+    prohibitedActivity7: "- Siteyi yürürlükteki herhangi bir yasa veya yönetmeliğe aykırı bir şekilde kullanmak.",
+    prohibitedActivity8: "- Sitenin izinsiz olarak çerçevelenmesi veya Siteye bağlantı verilmesi.",
     prohibitedActivity9:
       "- Sitenin herhangi bir tarafça kesintisiz kullanımını ve keyfini engelleyen veya Sitenin kullanımını, özelliklerini, işlevlerini, işletimini veya bakımını değiştiren, bozan, kesintiye uğratan, değiştiren veya bunlara müdahale eden virüsleri, Truva atlarını veya büyük harflerin aşırı kullanımı ve spam (tekrarlayan metinlerin sürekli olarak gönderilmesi) gibi diğer materyalleri yüklemek veya iletmek (veya yüklemeye veya iletmeye çalışmak).",
     prohibitedActivity10:
       "- Yorum veya mesaj göndermek için komut dosyaları kullanmak veya veri madenciliği, robotlar veya benzeri veri toplama ve çıkarma araçlarını kullanmak gibi sistemin herhangi bir otomatik kullanımına girişmek.",
-    prohibitedActivity11:
-      "- Herhangi bir İçerikten telif hakkı veya diğer mülkiyet hakları bildirimini silin.",
+    prohibitedActivity11: "- Herhangi bir İçerikten telif hakkı veya diğer mülkiyet hakları bildirimini silin.",
     prohibitedActivity12:
       "- Başka bir kullanıcıyı veya kişiyi taklit etmeye çalışmak veya başka bir kullanıcının kullanıcı adını kullanmak.",
     prohibitedActivity13:
@@ -1003,10 +978,8 @@ let message = {
       "- Kullanıcıların kullanıcı adlarını ve/veya e-posta adreslerini elektronik veya başka yollarla istenmeyen e-posta göndermek amacıyla toplamak veya otomatik yollarla veya sahte beyanlarla kullanıcı hesapları oluşturmak da dahil olmak üzere Sitenin yetkisiz kullanımını gerçekleştirmek.",
     prohibitedActivity22:
       "- Siteyi bizimle rekabet etme çabasının bir parçası olarak kullanmak veya Siteyi ve/veya İçeriği herhangi bir gelir getirici çaba veya ticari girişim için kullanmak.",
-    prohibitedActivity23:
-      "- Siteyi mal ve hizmetlerin reklamını yapmak veya satışını teklif etmek için kullanmak.",
-    prohibitedActivity24:
-      "- Profilinizi satamaz veya başka bir şekilde devredemezsiniz.",
+    prohibitedActivity23: "- Siteyi mal ve hizmetlerin reklamını yapmak veya satışını teklif etmek için kullanmak.",
+    prohibitedActivity24: "- Profilinizi satamaz veya başka bir şekilde devredemezsiniz.",
     featuresContent1:
       "Hizmetlerimizi, kendi deneyimlerimize ve zamanlarını ve geri bildirimlerini paylaşan müşterilerimizin deneyimlerine dayanarak özenle tasarlıyoruz. Ancak, herkesi memnun edecek bir hizmet diye bir şey yoktur. Hizmetlerimizin özel ihtiyaçlarınızı veya beklentilerinizi karşılayacağının garantisini vermiyoruz.",
     featuresContent2:
@@ -1017,19 +990,16 @@ let message = {
       "Sitenin her zaman erişilebilir olacağını garanti edemeyiz. Site ile ilgili donanım, yazılım veya başka sorunlar yaşayabilir veya bakım yapmamız gerekebilir; bu da kesintilere, gecikmelere veya hatalara neden olabilir. Siteyi herhangi bir zamanda ve herhangi bir nedenle size bildirimde bulunmaksızın değiştirme, revize etme, güncelleme, askıya alma, durdurma veya başka şekilde değiştirme hakkını saklı tutarız. Sitenin herhangi bir kesintisi veya durdurulması sırasında Siteye erişememeniz veya Siteyi kullanamamanız nedeniyle oluşabilecek herhangi bir kayıp, hasar veya rahatsızlıktan hiçbir şekilde sorumlu olmadığımızı kabul edersiniz. Bu Hizmet Şartları'ndaki hiçbir hüküm, Siteyi sürdürme ve destekleme veya bununla bağlantılı herhangi bir düzeltme, güncelleme veya sürüm sağlama yükümlülüğümüz olduğu şeklinde yorumlanmayacaktır.",
     userDataContent:
       "Site'nin performansını yönetmek amacıyla Site'ye ilettiğiniz belirli verileri ve Site kullanımınızla ilgili verileri saklayacağız. Düzenli olarak rutin veri yedeklemeleri yapıyor olsak da, ilettiğiniz veya Site'yi kullanarak gerçekleştirdiğiniz herhangi bir faaliyetle ilgili tüm verilerden yalnızca siz sorumlusunuz. Bu tür verilerin kaybolması veya bozulması durumunda size karşı hiçbir sorumluluğumuz olmayacağını kabul ediyor ve bu tür verilerin kaybolması veya bozulmasından kaynaklanan her türlü dava hakkından feragat ediyorsunuz.",
-    privacyPolicyContent1:
-      "Veri gizliliği ve güvenliğine önem veriyoruz. Lütfen inceleyin.",
+    privacyPolicyContent1: "Veri gizliliği ve güvenliğine önem veriyoruz. Lütfen inceleyin.",
     privacyPolicy: "Gizlilik Politikası",
     privacyPolicyContent2:
       "Siteyi kullanarak, bu Hizmet Şartları'na dahil edilen Gizlilik Politikamıza bağlı kalmayı kabul etmiş olursunuz. Sitenin Amerika Birleşik Devletleri'nde barındırıldığını lütfen unutmayın. Siteye, kişisel verilerin toplanması, kullanımı veya ifşasına ilişkin yasaların veya diğer gerekliliklerin Amerika Birleşik Devletleri'ndeki geçerli yasalardan farklı olduğu dünyanın başka bir bölgesinden erişirseniz, Siteyi kullanmaya devam etmeniz durumunda verilerinizi Amerika Birleşik Devletleri'ne aktarmış olursunuz ve verilerinizin Amerika Birleşik Devletleri'ne aktarılmasını ve orada işlenmesini kabul etmiş olursunuz.",
-    liabilityIntro:
-      "Bu Şartlar boyunca sorumluluktan bahsediyoruz ancak hepsini tek bir bölümde toplamak gerekirse:",
+    liabilityIntro: "Bu Şartlar boyunca sorumluluktan bahsediyoruz ancak hepsini tek bir bölümde toplamak gerekirse:",
     liabilityContent:
       "Şirket'in, size veya herhangi bir üçüncü tarafa, kar, itibar, kullanım, veri veya diğer maddi olmayan kayıplar dahil ancak bunlarla sınırlı olmamak üzere, doğrudan, dolaylı, tesadüfi, kar kaybı, özel, sonuçsal, cezalandırıcı veya emsal teşkil eden zararlar için, kanunen veya hakkaniyete göre, sorumlu olmayacağını açıkça anlıyor ve kabul ediyorsunuz (Şirket'e bu tür zararların olasılığı bildirilmiş olsa bile), aşağıdakilerden kaynaklananlar: (1) Hizmetlerin kullanımı veya kullanılamaması; (2) içerik ve materyallerdeki hatalar, yanlışlıklar veya yanlışlıklar; (3) siteye erişiminiz ve siteyi kullanımınızdan kaynaklanan herhangi bir nitelikteki kişisel yaralanma veya mal hasarı; (4) Hizmetler aracılığıyla veya Hizmetlerden satın alınan veya elde edilen herhangi bir mal, veri, bilgi veya hizmetten veya alınan mesajlardan veya girilen işlemlerden kaynaklanan ikame mal ve hizmetlerin tedarik maliyeti; (5) güvenli sunucularımıza ve/veya bunlarda saklanan tüm kişisel bilgilere ve/veya finansal bilgilere yetkisiz erişim veya bunların kullanımı; (6) siteye veya siteden yapılan iletimde herhangi bir kesinti veya durma; (7) herhangi bir üçüncü tarafça siteye veya site aracılığıyla iletilebilecek herhangi bir hata, virüs, truva atı veya benzeri ve/veya; (8) herhangi bir içerik ve materyaldeki herhangi bir hata veya eksiklik veya site aracılığıyla gönderilen, iletilen veya başka bir şekilde kullanıma sunulan herhangi bir içeriğin kullanımı sonucu ortaya çıkan herhangi bir kayıp veya hasar; (9) hizmetteki herhangi bir üçüncü tarafın beyanları veya davranışları; (10) veya bu Hizmet Şartları veya Hizmetlerle ilgili herhangi bir başka husus, sözleşme ihlali, haksız fiil (aktif veya pasif ihmal dahil) veya herhangi bir başka sorumluluk teorisi olsun.",
     miscellaneousContent:
       "Bu Hizmet Şartları ve Site'de veya Site ile ilgili olarak tarafımızca yayınlanan tüm politikalar veya işletme kuralları, sizinle aramızdaki tüm sözleşmeyi ve anlayışı oluşturur. Bu Hizmet Şartları'nın herhangi bir hakkını veya hükmünü kullanmamamız veya uygulamamamız, söz konusu hak veya hükümden feragat ettiğimiz anlamına gelmez. Bu Hizmet Şartları, kanunen izin verilen en geniş kapsamda geçerlidir. Hak ve yükümlülüklerimizin bir kısmını veya tamamını herhangi bir zamanda başkalarına devredebiliriz. Makul kontrolümüz dışındaki herhangi bir nedenden kaynaklanan herhangi bir kayıp, hasar, gecikme veya eylemsizlikten sorumlu veya yükümlü olmayacağız. Bu Hizmet Şartları'nın herhangi bir hükmünün veya hükmünün bir kısmının hukuka aykırı, geçersiz veya uygulanamaz olduğu tespit edilirse, söz konusu hüküm veya hükmün bir kısmı bu Hizmet Şartları'ndan ayrılabilir kabul edilir ve kalan hükümlerin geçerliliğini ve uygulanabilirliğini etkilemez. Bu Hizmet Şartları veya Site'nin kullanımı sonucunda sizinle aramızda herhangi bir ortak girişim, ortaklık, istihdam veya temsilcilik ilişkisi oluşmaz. Bu Hizmet Şartları'nın, bunları hazırlamış olmamız nedeniyle aleyhimize yorumlanmayacağını kabul edersiniz. Bu Hizmet Şartları'nın elektronik biçimine ve tarafların bu Hizmet Şartları'nı yürürlüğe koymak için imzalamamış olmalarına dayalı olarak sahip olabileceğiniz tüm savunmalardan feragat ediyorsunuz.",
-    contactUsContent1:
-      "Hizmet Şartları'ndan herhangi biriyle ilgili bir sorunuz varsa lütfen",
+    contactUsContent1: "Hizmet Şartları'ndan herhangi biriyle ilgili bir sorunuz varsa lütfen",
     contactUsContent2: "."
   },
   HeadNavbar: {
@@ -1050,8 +1020,8 @@ let message = {
     YouTubetoMP4: "YouTube'dan MP4'e",
     StartFreeTrial: "Ücretsiz Dene",
     Blog: "Blog",
-      YouTubetoMP3: 'YouTube\'dan MP3\'e'
-},
+    YouTubetoMP3: "YouTube'dan MP3'e"
+  },
   Footer: {
     des: "Dünyanın ilk gerçekten sınırsız AI transkripsiyon servisi. Sınır yok, kısıtlama yok, sadece özgürce yaratma özgürlüğü.",
     Features: "Özellikler",
@@ -1068,12 +1038,9 @@ let message = {
       "Eğitimciler"
     ],
     companyMenus: ["Hakkında", "Fiyatlandırma", "Gizlilik", "Koşullar"],
-      Resources: 'Kaynaklar',
-      resourcesMenus: [
-            "YouTube'dan MP4'e",
-            "YouTube'dan MP3'e"
-          ]
-},
+    Resources: "Kaynaklar",
+    resourcesMenus: ["YouTube'dan MP4'e", "YouTube'dan MP3'e"]
+  },
   Index: {
     Hero: {
       badge: 'Artık "Küçülme Enflasyonu" Yok - Gerçekten Sınırsız',
@@ -1154,8 +1121,7 @@ let message = {
       }
     },
     Testimonials: {
-      subtitle:
-        "Profesyonellerin neden sınırlı alternatifler yerine NeverCap'ı seçtiğini görün",
+      subtitle: "Profesyonellerin neden sınırlı alternatifler yerine NeverCap'ı seçtiğini görün",
       Mike: {
         text: "Vay canına, bu gerçekten işe yarıyor! 3 yıldır podcast yapıyordum ve aptal gibi her şeyi elle yazıya döküyordum. 6 bölümü aynı anda yükledim ve beni ve konuğumu mükemmel şekilde ayırdı. Mahvolduğunu düşündüğüm kafe bölümü? Tertemiz bir transkript. Artık bunları kendim yazmayacağım.",
         author: "Mike Rodriguez",
@@ -1176,8 +1142,7 @@ let message = {
     PricingPreview: {
       title: "Şeffaf Fiyatlandırma",
       highlighted_text: "Gizli Sınır Yok",
-      subtitle:
-        "Planınızı seçin. Yıldız işaretleri yok, küçük yazı yok, sürpriz yok"
+      subtitle: "Planınızı seçin. Yıldız işaretleri yok, küçük yazı yok, sürpriz yok"
     },
     FAQSection: {
       title: "Sıkça Sorulan",
@@ -1241,11 +1206,9 @@ let message = {
     },
     CTASection: {
       title: "Sınırlardan Kurtulmaya Hazır mısınız?",
-      subtitle:
-        "Gerçekten sınırsız transkripsiyona geçen 50.000+ profesyonelin arasına katılın",
+      subtitle: "Gerçekten sınırsız transkripsiyona geçen 50.000+ profesyonelin arasına katılın",
       button: "NeverCap'ı Ücretsiz Dene",
-      disclaimer:
-        "Ücretsiz Plan için kredi kartı gerekmez • Sınırsız erişim için istediğiniz zaman yükseltin"
+      disclaimer: "Ücretsiz Plan için kredi kartı gerekmez • Sınırsız erişim için istediğiniz zaman yükseltin"
     }
   },
   Features: {
@@ -1263,8 +1226,7 @@ let message = {
       comparisonBadItem1Text: '"Sınırsız" = ayda 50 saat sınır',
       comparisonBadItem2Icon: "✕",
       comparisonBadItem2Strong: "Otter:",
-      comparisonBadItem2Text:
-        "3 ömür boyu içe aktarma (ücretsiz), ayda 10 (Pro)",
+      comparisonBadItem2Text: "3 ömür boyu içe aktarma (ücretsiz), ayda 10 (Pro)",
       comparisonBadItem3Icon: "✕",
       comparisonBadItem3Strong: "Fireflies:",
       comparisonBadItem3Text: "800 dakika depolama sınırı",
@@ -1357,10 +1319,8 @@ let message = {
       ctaTitle: "Sahte Sınırsız İçin Ödemeyi Bırakın",
       ctaSubtitle: "Gerçekten sınırsız dökümana geçen binlerce kişiye katılın",
       finalCta: "NeverCap Ücretsiz Deneyin",
-      heroSubtitle1:
-        "Trint sizi ayda 50 saatle sınırlandırırken, Otter sizi ayda 10 dosyayla sınırlandırıyor.",
-      heroSubtitle2:
-        "Gerçekten söz verdiğimiz şeyi sunuyoruz: gizli sınırlamalar olmadan sınırsız transkripsiyon."
+      heroSubtitle1: "Trint sizi ayda 50 saatle sınırlandırırken, Otter sizi ayda 10 dosyayla sınırlandırıyor.",
+      heroSubtitle2: "Gerçekten söz verdiğimiz şeyi sunuyoruz: gizli sınırlamalar olmadan sınırsız transkripsiyon."
     },
     BulkUpload: {
       heroBadgeIcon: "📁",
@@ -1378,8 +1338,7 @@ let message = {
       comparisonSectionTitlePart1: "Rakip",
       comparisonSectionTitleHighlight: "Saçma Sınırlar",
       comparisonSectionTitlePart2: "Dayatmaları",
-      comparisonSubtitle:
-        "Rakiplerin içerik işleme yeteneğinizi nasıl kısıtladığı",
+      comparisonSubtitle: "Rakiplerin içerik işleme yeteneğinizi nasıl kısıtladığı",
       limitCard1Service: "Otter Ücretsiz",
       limitCard1Number: "3",
       limitCard1DescriptionLine1: "Ömür boyu içe aktarma",
@@ -1668,12 +1627,7 @@ let message = {
           },
           features: {
             title: "Özellikler",
-            items: [
-              "100+ dil",
-              "Konuşmacı etiketleri",
-              "Çeviri",
-              "Tüm dışa aktarma formatları"
-            ]
+            items: ["100+ dil", "Konuşmacı etiketleri", "Çeviri", "Tüm dışa aktarma formatları"]
           },
           cta: {
             text: "Ücretsiz başla. Kredi kartı gerekmez.",
@@ -1746,8 +1700,7 @@ let message = {
       header: {
         title: "Karşılaştır",
         highlighted_text: "Tüm Özellikler",
-        subtitle:
-          "Her planda tam olarak ne aldığınızı görün. Gizli sınırlamalar yok."
+        subtitle: "Her planda tam olarak ne aldığınızı görün. Gizli sınırlamalar yok."
       },
       plans: ["Özellikler", "Ücretsiz", "Pro Aylık", "Pro Yıllık"],
       features: [
@@ -1799,11 +1752,7 @@ let message = {
         },
         {
           name: "Konuşmacı tanımlama",
-          values: [
-            "Temel",
-            "Gelişmiş (20 konuşmacı)",
-            "Gelişmiş (20 konuşmacı)"
-          ]
+          values: ["Temel", "Gelişmiş (20 konuşmacı)", "Gelişmiş (20 konuşmacı)"]
         },
         {
           name: "Kelime düzeyinde zaman damgaları",
@@ -1871,11 +1820,9 @@ let message = {
     },
     CTA: {
       title: "Limitsiz Kullanıma Hazır mısınız?",
-      subtitle:
-        "50.000'den fazla profesyonelin sınırsız transkripsiyon yaptığı aileye katılın",
+      subtitle: "50.000'den fazla profesyonelin sınırsız transkripsiyon yaptığı aileye katılın",
       button: "NeverCap Ücretsiz Deneyin →",
-      disclaimer:
-        "Kredi kartı gerekmez • Saniyeler içinde transkripsiyona başlayın"
+      disclaimer: "Kredi kartı gerekmez • Saniyeler içinde transkripsiyona başlayın"
     }
   },
   UseCases: {
@@ -2057,8 +2004,7 @@ let message = {
             textBefore:
               "\"Serbest çalışan bir gazeteci olarak Trint\\\\\\\\\\\\\\\\\\\\\\\\\\\\'in aylık $100\\\\\\\\\\\\\\\\\\\\\\\\\\\\'ını karşılayamam, ama Otter\\\\\\\\\\\\\\\\\\\\\\\\\\\\'ın aylık 10 dosya limitiyle de çalışamam. NeverCap kariyerimi kurtardı.\"",
             highlight: "$100/ay",
-            textAfter:
-              ", ama Otter'ın aylık 10 dosya limitiyle de çalışamam. NeverCap kariyerimi kurtardı.",
+            textAfter: ", ama Otter'ın aylık 10 dosya limitiyle de çalışamam. NeverCap kariyerimi kurtardı.",
             name: "Jessica Park",
             role: "Serbest Çalışan Gazeteci"
           },
@@ -2066,8 +2012,7 @@ let message = {
             textBefore:
               '"Araştırma ekibimizin 200 saatlik odak grubu kayıtları vardı. Aylık dakikaları paylaşmak yerine her şeyi bir hafta sonunda işledik."',
             highlight: "200 saat",
-            textAfter:
-              "odak grubu kayıtları. Aylık dakikaları paylaşmak yerine her şeyi bir hafta sonunda işledik.",
+            textAfter: "odak grubu kayıtları. Aylık dakikaları paylaşmak yerine her şeyi bir hafta sonunda işledik.",
             name: "Dr. Sarah Chen",
             role: "Baş Araştırmacı"
           },
@@ -2096,8 +2041,7 @@ let message = {
       },
       cta: {
         title: "Sizin Kullanım Durumunuz da Limitsiz Olanı Hak Ediyor",
-        subtitle:
-          "Dakikaları saymayı bırakıp üretmeye başlayan 50.000+ profesyonel arasına katılın",
+        subtitle: "Dakikaları saymayı bırakıp üretmeye başlayan 50.000+ profesyonel arasına katılın",
         button: "Limitsiz Yolculuğunuza Başlayın →"
       },
       heroSubtitleA:
@@ -2134,8 +2078,7 @@ let message = {
       },
       problemTitle: "Podcast",
       problemTitleHighlight: "Döküm Sorunu",
-      problemSubtitle:
-        'Diğer hizmetler hangi bölümlerin dökümüne "değeceğini" seçmenizi sağlıyor',
+      problemSubtitle: 'Diğer hizmetler hangi bölümlerin dökümüne "değeceğini" seçmenizi sağlıyor',
       problems: {
         problem1: {
           title: "Yükleme Sınırları Arşivleri Öldürür",
@@ -2157,34 +2100,28 @@ let message = {
       solutionTitleHighlight: "Çözümü",
       workflowTitle: "Podcast İş Akışınız,",
       workflowTitleHighlight: "Basitleştirildi",
-      workflowSubtitle:
-        "Kayıttan SEO optimizeli gösteri notlarına dakikalar içinde",
+      workflowSubtitle: "Kayıttan SEO optimizeli gösteri notlarına dakikalar içinde",
       workflow: {
         step1: {
           title: "Bölümleri Yükle",
-          description:
-            "Aynı anda 50 bölüm bırakın. MP3, MP4, WAV - hepsini hallediyoruz."
+          description: "Aynı anda 50 bölüm bırakın. MP3, MP4, WAV - hepsini hallediyoruz."
         },
         step2: {
           title: "AI Döküm Yapar",
-          description:
-            "Konuşmacı tanımlamalı %96 doğruluk. Röportajlar için mükemmel."
+          description: "Konuşmacı tanımlamalı %96 doğruluk. Röportajlar için mükemmel."
         },
         step3: {
           title: "Akıllı Biçimlendirme",
-          description:
-            "Yapay zeka otomatik olarak paragraflar, cümleler ve noktalama ekler."
+          description: "Yapay zeka otomatik olarak paragraflar, cümleler ve noktalama ekler."
         },
         step4: {
           title: "Yayınla & Sırala",
-          description:
-            "Web sitenize aktarın. SEO trafiğinizin büyümesini izleyin."
+          description: "Web sitenize aktarın. SEO trafiğinizin büyümesini izleyin."
         }
       },
       featuresTitle: "Podcast Yapımcılarının İhtiyaç Duyduğu",
       featuresTitleHighlight: "Özellikler",
-      featuresSubtitle:
-        "Podcast yapımcıları tarafından, podcast yapımcıları için geliştirildi",
+      featuresSubtitle: "Podcast yapımcıları tarafından, podcast yapımcıları için geliştirildi",
       features: {
         feature1: {
           title: "Çoklu Konuşmacı Tanıma",
@@ -2285,11 +2222,9 @@ let message = {
         }
       },
       ctaTitle: "Her Bölümü Dönüştürmeye Başla",
-      ctaSubtitle:
-        "Sınırlar hakkında endişelenmeyen 10.000+ podcastçiye katılın",
+      ctaSubtitle: "Sınırlar hakkında endişelenmeyen 10.000+ podcastçiye katılın",
       ctaButton: "İlk 50 Bölümünüzü Ücretsiz Yükleyin →",
-      ctaDisclaimer:
-        "Kredi kartı gerekmez • Sınırsız bölüm işleyin • İstediğiniz zaman iptal edin",
+      ctaDisclaimer: "Kredi kartı gerekmez • Sınırsız bölüm işleyin • İstediğiniz zaman iptal edin",
       solutionDescriptionA:
         "{NeverCap} ile gerçek anlamda sınırsız transkripsiyon elde edersiniz. Tüm arşivinizi yükleyin. Her yeni bölümü metne dönüştürün. Program notlarını ölçeklenebilir bir şekilde oluşturun. Sınır yok, limit yok, sadece büyüme var."
     },
@@ -2346,8 +2281,7 @@ let message = {
       problem: {
         title: "Gazetecilerin",
         titleHighlight: "Dönüştürme Sorunu",
-        subtitle:
-          'Diğer hizmetler hangi röportajların "değerli" olduğunu seçmenizi sağlıyor',
+        subtitle: 'Diğer hizmetler hangi röportajların "değerli" olduğunu seçmenizi sağlıyor',
         problems: {
           uploadLimits: {
             title: "Yükleme Sınırları Soruşturmaları Öldürüyor",
@@ -2376,8 +2310,7 @@ let message = {
         title: "1",
         titleHighlight: "Gazeteciler İçin",
         titleSuffix: "En İyi Röportaj Transkripsiyon Yazılımı",
-        subtitle:
-          "Zaman dar ve doğruluk her şey olduğunda önemli olan gerçek avantajlar",
+        subtitle: "Zaman dar ve doğruluk her şey olduğunda önemli olan gerçek avantajlar",
         solutions: {
           unlimitedUploads: {
             label: "Sınırsız Hacim",
@@ -2428,10 +2361,8 @@ let message = {
               accuracy: "%96",
               label: "Yayına Hazır Doğruluk",
               transcript: {
-                speaker1:
-                  '"Soruşturmada mali raporlarda önemli tutarsızlıklar ortaya çıktı."',
-                speaker2:
-                  '"Bu özel tutarsızlıkları biraz daha açabilir misiniz?"'
+                speaker1: '"Soruşturmada mali raporlarda önemli tutarsızlıklar ortaya çıktı."',
+                speaker2: '"Bu özel tutarsızlıkları biraz daha açabilir misiniz?"'
               }
             }
           },
@@ -2459,8 +2390,7 @@ let message = {
         featuresList: {
           languages: {
             title: "100+ Dil",
-            description:
-              "12 ana dilde %96 doğrulukla küresel kaynaklarla röportaj yapın."
+            description: "12 ana dilde %96 doğrulukla küresel kaynaklarla röportaj yapın."
           },
           exportFormats: {
             title: "Dışa Aktarma Formatları",
@@ -2472,28 +2402,23 @@ let message = {
           },
           timestamps: {
             title: "Zaman Damgaları",
-            description:
-              "Herhangi bir alıntıya tıklayarak tam ses anına atlayın."
+            description: "Herhangi bir alıntıya tıklayarak tam ses anına atlayın."
           },
           teamSharing: {
             title: "Takım Paylaşımı",
-            description:
-              "Editörlerle işbirliği yapın. Transkriptleri güvenle paylaşın."
+            description: "Editörlerle işbirliği yapın. Transkriptleri güvenle paylaşın."
           },
           mobileReady: {
             title: "Mobil Uyumlu",
-            description:
-              "Telefondan yükleyin. Transkriptleri her yerde inceleyin."
+            description: "Telefondan yükleyin. Transkriptleri her yerde inceleyin."
           },
           smartFormatting: {
             title: "Akıllı Biçimlendirme",
-            description:
-              "Okunabilir transkriptler için otomatik paragraflar ve noktalama."
+            description: "Okunabilir transkriptler için otomatik paragraflar ve noktalama."
           },
           batchProcessing: {
             title: "Toplu İşleme",
-            description:
-              "Aynı anda 50 dosya yükleyin. Uyurken gece boyunca işleyin."
+            description: "Aynı anda 50 dosya yükleyin. Uyurken gece boyunca işleyin."
           }
         }
       },
@@ -2508,8 +2433,7 @@ let message = {
       cta: {
         title: "Transkripte Başla",
         titleHighlight: "Limitsiz",
-        subtitle:
-          "Yüklemeleri saymayı bırakıp hikayelere odaklanan binlerce gazeteciye katılın",
+        subtitle: "Yüklemeleri saymayı bırakıp hikayelere odaklanan binlerce gazeteciye katılın",
         ctaPrimary: "Sınırsız Ücretsiz Deneyin →",
         ctaSecondary: "Fiyatları Görüntüle"
       }
@@ -2565,8 +2489,7 @@ let message = {
         oneClickImport: {
           label: "Tek Tıkla İçe Aktar",
           title: "YouTube, TikTok ve",
-          titleHighlight:
-            "Instagram Videolarını Link Yapıştırarak Transkript Edin",
+          titleHighlight: "Instagram Videolarını Link Yapıştırarak Transkript Edin",
           description:
             "Aracımız video içeriğini transkript etme sürecinizi basitleştirir. Bir Instagram videosunu transkript etmek için bağlantıyı yapıştırmanız yeterli. Vimeo videosunu metne dönüştürmek için aynısını yapın. Tüm kanalınızın birikmiş içeriğini bir hafta sonunda işleyin.",
           points: {
@@ -2629,23 +2552,19 @@ let message = {
         steps: {
           pasteLinks: {
             title: "Bağlantıları Yapıştır",
-            description:
-              "YouTube, TikTok veya herhangi bir video bağlantısını bırakın. Veya doğrudan dosya yükleyin."
+            description: "YouTube, TikTok veya herhangi bir video bağlantısını bırakın. Veya doğrudan dosya yükleyin."
           },
           autoTranscribe: {
             title: "Otomatik Transkript",
-            description:
-              "AI %96 doğrulukla işler. Aksanları ve çoklu konuşmacıları yönetir."
+            description: "AI %96 doğrulukla işler. Aksanları ve çoklu konuşmacıları yönetir."
           },
           editTranslate: {
             title: "Düzenle & Çevir",
-            description:
-              "Altyazılarınızı mükemmelleştirin. Anında 100+ dile çevirin."
+            description: "Altyazılarınızı mükemmelleştirin. Anında 100+ dile çevirin."
           },
           exportPublish: {
             title: "Dışa Aktar & Yayınla",
-            description:
-              "Herhangi bir formatta indirin. Platformunuza yükleyin. Tamamlandı!"
+            description: "Herhangi bir formatta indirin. Platformunuza yükleyin. Tamamlandı!"
           }
         }
       },
@@ -2654,8 +2573,7 @@ let message = {
         titleHighlight: "Her Gün Geçiş Yapıyor",
         subtitle: "Sınırlı planlardan sınırsız özgürlüğe",
         carlos: {
-          textBefore:
-            "İspanyolca eğitim içeriği üretiyorum. NeverCap mükemmel şekilde transkript ediyor ve",
+          textBefore: "İspanyolca eğitim içeriği üretiyorum. NeverCap mükemmel şekilde transkript ediyor ve",
           textAfter:
             "daha geniş kitlelere ulaşmamı sağlıyor. Sınır yok, sadece büyüme. Çok dilli altyazılar ekledikten sonra kanal görüntülemelerim 3 kat arttı.",
           highlight: "İngilizce'ye çevirir",
@@ -2689,15 +2607,13 @@ let message = {
       },
       cta: {
         title: "Tüm Kanalınız. Altyazılı. Bugün.",
-        subtitle:
-          "Dakikaları saymayı bırakıp üretmeye başlayan 50.000+ yaratıcıya katılın",
+        subtitle: "Dakikaları saymayı bırakıp üretmeye başlayan 50.000+ yaratıcıya katılın",
         button: "Sınırsız Altyazılamaya Başla →"
       },
       FAQSection: {
         title: "Dökümleme Sorularınız,",
         titleHighlight: "Cevaplandı",
-        subtitle:
-          "Farklı platformlardaki videoları dökümlemek hakkında bilmeniz gereken her şey",
+        subtitle: "Farklı platformlardaki videoları dökümlemek hakkında bilmeniz gereken her şey",
         questions: [
           {
             question: "S: NeverCap ile bir YouTube videosunu nasıl dökümlerim?",
@@ -2705,14 +2621,12 @@ let message = {
               "Çok basit. Dökümlemek istediğiniz YouTube videosunu bulun, URL'sini kopyalayın ve uygulamamıza yapıştırın. Yapay zekamız videoyu otomatik olarak alacak ve dakikalar içinde tam metin dökümü sağlayacaktır."
           },
           {
-            question:
-              "S: Bir Facebook videosunu metne dökümlemenin en iyi yolu nedir?",
+            question: "S: Bir Facebook videosunu metne dökümlemenin en iyi yolu nedir?",
             answer:
               "En kolay yöntem doğrudan bağlantı kullanmaktır. Facebook videosunun URL'sini kopyalayın, platformumuz gerisini halledecek ve konuşmayı %96 doğrulukla metne çevirerek manuel dökümden kurtaracaktır."
           },
           {
-            question:
-              "S: TikTok ve Instagram videolarını dökümleyebilir miyim?",
+            question: "S: TikTok ve Instagram videolarını dökümleyebilir miyim?",
             answer:
               "Kesinlikle. Hem TikTok hem de Instagram videoları için dökümleme desteği sunuyoruz. Bu, kısa form video içeriklerini blog yazılarına, makalelere veya metin tabanlı sosyal medya güncellemelerine dönüştürmek isteyen içerik üreticileri için mükemmel."
           },
@@ -2737,8 +2651,7 @@ let message = {
       statsSpeakersId: "Konuşmacı Kimliği",
       statsCompliant: "Uyumlu",
       problemTitle: "Bu ",
-      problemSubtitle:
-        'Diğer hizmetler hangi verilerin dökümlenmeye "değer" olduğunu seçmenizi sağlıyor',
+      problemSubtitle: 'Diğer hizmetler hangi verilerin dökümlenmeye "değer" olduğunu seçmenizi sağlıyor',
       problemCard1Title: "Yükleme Sınırları Çalışmaları Öldürüyor",
       problemCard1Desc:
         "Otter size 3 ömür boyu içe aktarım hakkı veriyor. 200 saatlik odak gruplarını nasıl dökümlersiniz?",
@@ -2768,17 +2681,14 @@ let message = {
       feature2Point3: "Yeniden adlandırabileceğiniz konuşmacı etiketleri",
       feature2Point4: "Her kelime için zaman damgası",
       conversationParticipant1: "Katılımcı 1",
-      conversationText1:
-        "Karşılaştığımız ana engel kesinlikle tedavi maliyeti...",
+      conversationText1: "Karşılaştığımız ana engel kesinlikle tedavi maliyeti...",
       conversationParticipant2: "Katılımcı 2",
       conversationText2: "Kesinlikle, ancak erişimin de—",
       conversationParticipant3: "Katılımcı 3",
-      conversationText3:
-        "—özür dilerim araya giriyorum ama ulaşım da çok önemli.",
+      conversationText3: "—özür dilerim araya giriyorum ama ulaşım da çok önemli.",
       conversationText4: "Evet! Tam da söyleyeceğim şey buydu.",
       conversationParticipant4: "Katılımcı 4",
-      conversationText5:
-        "Kırsal bölgelerde üçü birden: maliyet, erişim VE ulaşım.",
+      conversationText5: "Kırsal bölgelerde üçü birden: maliyet, erişim VE ulaşım.",
       feature3Label: "Hassasiyet",
       feature3Title: "Güvenilir",
       feature3Desc:
@@ -2858,8 +2768,7 @@ let message = {
       statsSpeakerID: "Konuşmacı Kimliği",
       statsInstantUpload: "Yükle & İşle",
       featuresTitle: "Her İşletme İçin Transkripsiyon",
-      featuresSubtitle:
-        "Canlı kayıttan anında yüklemeye kadar, her sürtünme noktasını ortadan kaldırdık",
+      featuresSubtitle: "Canlı kayıttan anında yüklemeye kadar, her sürtünme noktasını ortadan kaldırdık",
       feature1Title: "Doğrudan Tarayıcınızdan Kaydedin",
       feature1Desc:
         "İndirme yok, eklenti yok. Tek tıkla anında kayda başlayın. Mükemmel ses kalitesi, otomatik konuşmacı tanıma.",
@@ -2872,8 +2781,7 @@ let message = {
       feature2Title: "Herhangi Bir Ses Dosyasını Anında Yükleyin",
       feature2Desc:
         "Zoom, Teams veya telefonunuzdan kayıtlarınız mı var? Anında yükleyin. Tüm büyük ses ve video formatları desteklenir. Beklemeden birden fazla dosyayı aynı anda işleyin.",
-      feature2Benefit1:
-        "Desteklenenler: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV, FLAC",
+      feature2Benefit1: "Desteklenenler: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV, FLAC",
       feature2Benefit2: "Toplu yükleme özelliği",
       feature2Benefit3: "10 saatlik dosyalar desteklenir",
       feature2Benefit4: "Çalışırken işleyin",
@@ -2905,15 +2813,13 @@ let message = {
       workflowStep1Desc:
         "Canlı kayıt başlatın veya Zoom, Google Meet veya Microsoft Teams'ten toplantı kaydını indirin",
       workflowStep2Title: "Otomatik Transkript",
-      workflowStep2Desc:
-        "Yapay zekamız kaydı dakikalar içinde %96 doğrulukla metne dönüştürür",
+      workflowStep2Desc: "Yapay zekamız kaydı dakikalar içinde %96 doğrulukla metne dönüştürür",
       workflowStep3Title: "İş Birliği Yap",
       workflowStep3Desc: "Paylaş, yorum yap ve aksiyon maddelerini çıkar",
       workflowStep4Title: "Ara & Analiz Et",
       workflowStep4Desc: "Tüm toplantılarınızda içgörüler keşfedin",
       testimonialsTitle: "Ekiplerin Gözdesi",
-      testimonialsSubtitle:
-        "Şirketlerin toplantı kültürünü nasıl dönüştürdüğünü görün",
+      testimonialsSubtitle: "Şirketlerin toplantı kültürünü nasıl dönüştürdüğünü görün",
       testimonial1Text:
         '"Kritik detayları kaçırmaktan her konuşmanın aranabilir bir arşivine sahip olmaya geçtik. Doğrudan kayıt özelliği, önemli tartışmaları asla kaçırmadığımız anlamına geliyor."',
       testimonial1AuthorName: "James Kim",
@@ -2927,8 +2833,7 @@ let message = {
       testimonial3AuthorName: "Mark Liu",
       testimonial3AuthorRole: "COO, FinanceHub",
       ctaTitle: "Önemli Konuşmaları Kaybetmeyi Bırakın",
-      ctaSubtitle:
-        "Sınırsız transkripsiyonla her toplantıyı kaydeden binlerce ekibe katılın",
+      ctaSubtitle: "Sınırsız transkripsiyonla her toplantıyı kaydeden binlerce ekibe katılın",
       ctaButton: "Ücretsiz Kayda Başla →",
       featuresTitle2: "Toplantı",
       workflowTitle2: "Metne Dönüştürme",
@@ -2952,8 +2857,7 @@ let message = {
       stats4Number: "%96",
       stats4Label: "Doğruluk Oranı",
       featuresTitle: "Eğitimcilerin İhtiyacı Olan Her Şey",
-      featuresSubtitle:
-        "YouTube derslerinden kaydedilmiş sınıflara kadar tüm içeriğinizi erişilebilir hale getirin",
+      featuresSubtitle: "YouTube derslerinden kaydedilmiş sınıflara kadar tüm içeriğinizi erişilebilir hale getirin",
       feature1Title: "Anında YouTube & Platform Bağlantıları",
       feature1Desc:
         "Herhangi bir video bağlantısını yapıştırın ve anında transkript alın. YouTube, Vimeo, Facebook, X (Twitter), TikTok, Instagram, Dropbox, Google Drive ve daha fazlasıyla çalışır. İndirme yok, bekleme yok.",
@@ -2965,8 +2869,7 @@ let message = {
       feature2Desc:
         "Tüm eğitim videolarınız için anında doğru altyazılar oluşturun. İşitme engelli öğrenciler, ana dili olmayanlar veya okumayı tercih edenler için içeriği erişilebilir hale getirin.",
       feature2Point1: "SRT, VTT ve TXT dışa aktarma formatları",
-      feature2Point2:
-        "Mükemmel senkronizasyon için kelime düzeyinde zaman damgaları",
+      feature2Point2: "Mükemmel senkronizasyon için kelime düzeyinde zaman damgaları",
       feature2Point3: "Altyazıları kolayca düzenleyin ve özelleştirin",
       feature2Point4: "Doğrudan YouTube'a yükleyin",
       feature2Visual1: "Dil Çevirileri",
@@ -2975,8 +2878,7 @@ let message = {
       feature3Desc:
         "Ders, konu veya döneme göre transkriptlerinizi düzenlemek için klasörler oluşturun. Tüm eğitim içeriğinizi düzenli bir şekilde kategorize edin ve kolayca aranabilir hale getirin. Erişilebilir ders materyallerinden oluşan kapsamlı bir kitaplık oluşturun.",
       feature3Point1: "Sınırsız klasör ve alt klasör oluşturun",
-      feature3Point2:
-        "Videoları konuya veya zorluk seviyesine göre etiketleyin",
+      feature3Point2: "Videoları konuya veya zorluk seviyesine göre etiketleyin",
       feature3Point3: "Birden fazla transkripti toplu olarak düzenleyin",
       feature3Point4: "Tüm içeriğinizde anında arama yapın",
       feature3VisualTitle: "Ders Kütüphaneniz",
@@ -2993,22 +2895,18 @@ let message = {
       feature4Point3: "Kolay paylaşım ve yazdırma için PDF",
       feature4Point4: "Birden fazla dosyayı toplu olarak dışa aktarın",
       workflowTitle: "Nasıl Çalışır:",
-      workflowSubtitle:
-        "Video bağlantısından erişilebilir transkript ve çalışma materyallerine dakikalar içinde",
+      workflowSubtitle: "Video bağlantısından erişilebilir transkript ve çalışma materyallerine dakikalar içinde",
       workflowStep1Title: "Dersinizi Yükleyin",
       workflowStep1Desc:
         "Herhangi bir ses veya video dosyasını (MP3, MP4, WAV) yükleyin veya bir YouTube bağlantısı yapıştırın",
       workflowStep2Title: "AI Transkripsiyonu",
-      workflowStep2Desc:
-        "Yapay zekamız sesi transkribe eder, konuşmacıları ayırır ve ana konuları belirler",
+      workflowStep2Desc: "Yapay zekamız sesi transkribe eder, konuşmacıları ayırır ve ana konuları belirler",
       workflowStep3Title: "Altyazı Oluştur",
       workflowStep3Desc: "Mükemmel senkronize alt yazıları otomatik oluştur",
       workflowStep4Title: "Çalışma Kılavuzunu Dışa Aktar",
-      workflowStep4Desc:
-        "Metni, özeti indirin veya son çalışma kılavuzunuzu oluşturmak için dışa aktarın",
+      workflowStep4Desc: "Metni, özeti indirin veya son çalışma kılavuzunuzu oluşturmak için dışa aktarın",
       useCasesTitle: "Her Türlü",
-      useCasesSubtitle:
-        "Eğitimcilerin öğrenmeyi geliştirmek için NeverCap'i nasıl kullandığını görün",
+      useCasesSubtitle: "Eğitimcilerin öğrenmeyi geliştirmek için NeverCap'i nasıl kullandığını görün",
       useCase1Title: "Kaydedilmiş Dersler",
       useCase1Text:
         "Kaydedilmiş derslerin tüm dönemini metne dökün. Öğrenciler belirli konuları arayabilir, ana kavramları gözden geçirebilir ve önemli bilgileri kaçırmaz.",
@@ -3028,13 +2926,11 @@ let message = {
       useCase6Text:
         "Öğrencilerin video kaynaklarını zaman damgalarıyla doğru şekilde alıntılamasına yardımcı olun. Araştırma projeleri ve akademik makaleler için mükemmel.",
       testimonialTitle: "Güvenilen",
-      testimonialSubtitle:
-        "Dünya çapındaki öğretmenlerin neden NeverCap'i seçtiğini görün",
+      testimonialSubtitle: "Dünya çapındaki öğretmenlerin neden NeverCap'i seçtiğini görün",
       testimonialAuthorName: "Prof. Karen Mitchell",
       testimonialAuthorRole: "Matematik Profesörü, Çevrimiçi Eğitimci",
       ctaTitle: "Tüm Eğitim İçeriğinizi Erişilebilir Yapın",
-      ctaSubtitle:
-        "Gerçekten sınırsız transkripsiyon kullanan binlerce eğitimciye katılın",
+      ctaSubtitle: "Gerçekten sınırsız transkripsiyon kullanan binlerce eğitimciye katılın",
       ctaButton: "NeverCap'i Ücretsiz Dene",
       featuresTitle2: "Video Transkripsiyonu",
       grid: "Ses Dosyasından Çalışma Rehberine",
@@ -3056,23 +2952,19 @@ let message = {
         tutorial: "Eğitimi izleyin"
       },
       part2: {
-        title:
-          "İşte bir YouTube videosunu indirilebilir MP4 dosyasına dönüştürmenin 3 kolay adımı",
+        title: "İşte bir YouTube videosunu indirilebilir MP4 dosyasına dönüştürmenin 3 kolay adımı",
         steps: [
           {
             title: "URL'yi kopyala",
-            content:
-              "Hedef YouTube videonuzu açın, ardından tarayıcınızın adres çubuğundan bağlantıyı kopyalayın."
+            content: "Hedef YouTube videonuzu açın, ardından tarayıcınızın adres çubuğundan bağlantıyı kopyalayın."
           },
           {
             title: "Bağlantıyı yapıştır",
-            content:
-              "Video indirme aracınıza gidin ve URL'yi giriş alanına yapıştırın."
+            content: "Video indirme aracınıza gidin ve URL'yi giriş alanına yapıştırın."
           },
           {
             title: "MP4'ü indir",
-            content:
-              "İşlendikten sonra, MP4 dosyanızı kaydetmek için indirme düğmesine basın."
+            content: "İşlendikten sonra, MP4 dosyanızı kaydetmek için indirme düğmesine basın."
           }
         ]
       },
@@ -3085,10 +2977,7 @@ let message = {
         ]
       },
       part4: {
-        content: [
-          "İşte indirmenin 5 büyük avantajı",
-          "YouTube videolarını MP4 dosyaları olarak"
-        ],
+        content: ["İşte indirmenin 5 büyük avantajı", "YouTube videolarını MP4 dosyaları olarak"],
         list: [
           {
             title: "Veri Maliyetlerinden Tasarruf Edin:",
@@ -3126,8 +3015,7 @@ let message = {
           },
           {
             title: "Aşırı hızlı, sınırsız",
-            content:
-              "En yüksek hızda dönüştürün ve indirin — sınır yok, kısıtlama yok."
+            content: "En yüksek hızda dönüştürün ve indirin — sınır yok, kısıtlama yok."
           },
           {
             title: "Anında dönüştür",
@@ -3149,8 +3037,7 @@ let message = {
             icon: "6",
             color: "#DEF6EE",
             title: "Her yerde çalışır",
-            content:
-              "Herhangi bir tarayıcıda, herhangi bir cihazda tam uyumludur."
+            content: "Herhangi bir tarayıcıda, herhangi bir cihazda tam uyumludur."
           }
         ]
       },
@@ -3167,10 +3054,8 @@ let message = {
         title: "YouTube Videolarını İndirme Hakkında Temel Sorular",
         list: [
           {
-            question:
-              "Telif hakkı olan bir YouTube videosunu indirebilir miyim?",
-            answer:
-              "Telif hakkı sahibinin izni olmadan telif hakkı olan YouTube videolarını indirmek yasa dışıdır."
+            question: "Telif hakkı olan bir YouTube videosunu indirebilir miyim?",
+            answer: "Telif hakkı sahibinin izni olmadan telif hakkı olan YouTube videolarını indirmek yasa dışıdır."
           },
           {
             question: "Bu indirme aracı güvenli mi?",
@@ -3179,24 +3064,20 @@ let message = {
           },
           {
             question: "YouTube'dan MP4'e indirme hangi dilleri destekliyor?",
-            answer:
-              "Hizmetimiz, YouTube videolarını tüm popüler dillerde indirmeyi destekler."
+            answer: "Hizmetimiz, YouTube videolarını tüm popüler dillerde indirmeyi destekler."
           },
           {
-            question:
-              "Bir YouTube videosunun indirilme süresini hangi faktörler etkiler?",
+            question: "Bir YouTube videosunun indirilme süresini hangi faktörler etkiler?",
             answer:
               "En hızlı indirme deneyimini sağlamak için çaba gösterirken, indirme süresi aynı zamanda videonun uzunluğu ve internet bağlantı hızınız gibi faktörlerden de etkilenir."
           },
           {
-            question:
-              "Akıllı telefonumla bir MP4 videosu indirdiğimde, nereye kaydedilir?",
+            question: "Akıllı telefonumla bir MP4 videosu indirdiğimde, nereye kaydedilir?",
             answer:
               'Akıllı telefonunuza bir MP4 indirdikten sonra, genellikle cihazınızın dosya yöneticisi uygulaması içindeki "Downloads" klasöründe bulabilirsiniz.'
           },
           {
-            question:
-              "Bir YouTube videosunu MP4 olarak indirmek video kalitesini düşürür mü?",
+            question: "Bir YouTube videosunu MP4 olarak indirmek video kalitesini düşürür mü?",
             answer:
               "Hayır. YouTube videolarını aracımızı kullanarak MP4 olarak indirmek, orijinal video kalitesini korur. Dönüştürme süreci kaynak kalitesini koruyarak, YouTube'dakiyle aynı izleme deneyimini elde etmenizi sağlar."
           }
@@ -3205,8 +3086,7 @@ let message = {
       err1: "YouTube bağlantı biçimi hatası.",
       err2: "Üzgünüz! Şu anda yalnızca YouTube bağlantıları ile çalışıyoruz. Diğer siteler için destek gerekiyorsa, gelecekte eklediğimizde sizi bilgilendireceğiz.",
       videoDownload: {
-        title:
-          "YouTube videolarını MP4 olarak indirin. Ücretsiz, hızlı ve reklamsız.",
+        title: "YouTube videolarını MP4 olarak indirin. Ücretsiz, hızlı ve reklamsız.",
         description:
           "Hizmetimizi seçtiğiniz için teşekkürler! Güveniniz bizim için çok değerli ve deneyiminizi geliştirdiğini umuyoruz. Web sitemizi arkadaşlarınızla paylaşırsanız çok yardımcı olursunuz.",
         downloadButton: "İndir",
@@ -3220,8 +3100,7 @@ let message = {
         steps: [
           {
             title: "Ücretsiz Ses ve Görüntü",
-            content:
-              "Ses ve video dosyalarını saniyeler içinde metne dönüştürün Her gün 3 ücretsiz transkript."
+            content: "Ses ve video dosyalarını saniyeler içinde metne dönüştürün Her gün 3 ücretsiz transkript."
           },
           {
             title: "Ses Dosyalarını Metne Dönüştür",
@@ -3237,8 +3116,7 @@ let message = {
         stepsNew: [
           {
             title: "Ücretsiz Ses ve Video Transkripsiyonu",
-            content:
-              "Ses ve video dosyalarını saniyeler içinde metne dönüştürün. Her gün 3 ücretsiz transkript."
+            content: "Ses ve video dosyalarını saniyeler içinde metne dönüştürün. Her gün 3 ücretsiz transkript."
           },
           {
             title: "Ses Dosyalarını Metne Dönüştür",
@@ -3252,186 +3130,199 @@ let message = {
           }
         ]
       },
-        MoreFreeTools: {
-              "title": "Daha Fazla Ücretsiz Araç",
-              "title_des": "Diğer ücretsiz dönüştürme araçlarımızı keşfedin",
-              "YouTubeToMP": "YouTube'dan MP3'e",
-              "YouTubeToMP_des": "YouTube videolarını çevrimdışı izlemek için MP3 formatına dönüştürün. Yüksek kaliteli videoları anında indirin.",
-              "AITranscription": "Yapay Zeka Transkripsiyonu",
-              "AITranscription_des": "Ses ve video dosyalarını %96 doğrulukla yazıya dökün. Tüm içerikleriniz için sınırsız yazıya dökme."
-            }
+      MoreFreeTools: {
+        title: "Daha Fazla Ücretsiz Araç",
+        title_des: "Diğer ücretsiz dönüştürme araçlarımızı keşfedin",
+        YouTubeToMP: "YouTube'dan MP3'e",
+        YouTubeToMP_des:
+          "YouTube videolarını çevrimdışı izlemek için MP3 formatına dönüştürün. Yüksek kaliteli videoları anında indirin.",
+        AITranscription: "Yapay Zeka Transkripsiyonu",
+        AITranscription_des:
+          "Ses ve video dosyalarını %96 doğrulukla yazıya dökün. Tüm içerikleriniz için sınırsız yazıya dökme."
+      }
     },
-      YouTubeToMP3: {
-            "err1": "YouTube bağlantı biçimi hatası.",
-            "err2": "Üzgünüz! Şu anda yalnızca YouTube bağlantılarıyla çalışıyoruz. Başka siteler için desteğe ihtiyacınız olursa, ileride eklediğimizde sizi bilgilendireceğiz.",
-            "part1": {
-              "title": "YouTube Videolarını MP3'e Dönüştürün",
-              "title_des": "YouTube videolarından saniyeler içinde ses çıkarın",
-              "placeholder": "Youtube bağlantınızı buraya yapıştırın",
-              "clear_icon": "Temiz giriş",
-              "Download": "Dönüştürmek",
-              "loading_text": "Bağlantı dönüştürülmek üzere işleniyor. Sayfada kalın.",
-              "howToDownload": "Nasıl dönüştürülür?",
-              "tutorial": "Eğitimi izleyin"
-            },
-            "freeResources": {
-              "linkTitle": "{NeverCap} tarafından desteklenmektedir",
-              "linkTitle2": "- Tamamen Sınırsız AI Transkripsiyonu",
-              "title": "Ücretsiz Kaynaklar",
-              "stepsNew": [
-                {
-                  "title": "Ücretsiz Ses ve Video Transkripsiyonu",
-                  "content": "Ses ve video dosyalarını saniyeler içinde metne dönüştürün. Her gün 3 dosya yazıya geçirilir."
-                },
-                {
-                  "title": "Ses Dosyalarını Metne Çıkarın",
-                  "content": "MP3, MP4, WAV, MOV yükleyin.",
-                  "content2": "DOCX, TXT, SRT ve daha fazlasını indirin."
-                },
-                {
-                  "title": "YouTube Videolarını Metne Dönüştür",
-                  "content": "YouTube videolarını doğru metne veya altyazıya dönüştürün ve bağlantısını ücretsiz olarak yapıştırın."
-                }
-              ]
-            },
-            "part2": {
-              "title": "İşte bir YouTube videosunu 3 kolay adımda indirilebilir bir MP3 dosyasına dönüştürmenin yolu",
-              "steps": [
-                {
-                  "title": "URL'yi kopyalayın",
-                  "content": "Hedef YouTube videonuzu açın, ardından tarayıcınızın adres çubuğundan bağlantıyı kopyalayın."
-                },
-                {
-                  "title": "Bağlantıyı yapıştırın",
-                  "content": "Video indirme aracınıza ekleyin ve URL'yi giriş alanına yapıştırın."
-                },
-                {
-                  "title": "Dönüştür ve İndir",
-                  "content": "Dönüştürme işlemi tamamlandıktan sonra MP3 dosyanızı kaydedip indirin."
-                }
-              ]
-            },
-            "part3": {
-              "content": [
-                "YouTube videolarını MP3'e dönüştürüp istediğiniz zaman dinlemek ister misiniz?",
-                "İster metroda, ister uçakta olun, ister podcast'leri, ders içeriklerini veya önemli arşivleri düzenliyor olun, çoğu zaman bunlara istediğiniz zaman erişememe sorunuyla karşı karşıya kalırız. Dönüştürücü aracımız bu sorunu sizin için çözüyor.",
-                "YouTube bağlantısını kopyalayıp dönüştürücüye yapıştırın ve tek tıklamayla videoları yüksek kaliteli MP3 sese dönüştürün. İnternet bağlantısına ihtiyaç duymadan istediğiniz zaman kaydedin, dinleyin ve arşivleyin."
-              ]
-            },
-            "part4": {
-              "content": [
-                "İşte dönüştürmenin 5 önemli faydası",
-                "YouTube videolarını MP3 dosyalarına dönüştürme"
-              ],
-              "list": [
-                {
-                  "title": "Depolamadan tasarruf edin:",
-                  "content": "MP3 dosyaları daha küçüktür ve YouTube kullanımında depolama alanını azaltır. Çevrimdışı izlemeyi indirerek mobil veriden tasarruf edin ve internet hizmetiniz olduğunda kullanın."
-                },
-                {
-                  "title": "Pil Tasarrufu Sağlar:",
-                  "content": "YouTube videolarını izlemek için, kolayca dinlenebilen bağlantıları kullanan ara belleğe alma hizmetini kullanabilirsiniz. Artık ara belleğe alma endişesi yok."
-                },
-                {
-                  "title": "Kolay Arşivleme ve Saklama:",
-                  "content": "Bazı videolar veya MP3'ler kişisel kütüphanenizi oluşturmanızı kolaylaştırır; ister eğitim içeriği, ister müzik arşivi, isterse önemli olsun."
-                },
-                {
-                  "title": "Daha Basit Paylaşım:",
-                  "content": "MP3 dosyası paylaşmak, YouTube bağlantılarından çok daha kullanışlıdır. WhatsApp veya Instagram gibi uygulamalar aracılığıyla dosyaları arkadaşlarınıza gönderebilir, YouTube'u açmanın maliyetini ortadan kaldırabilirsiniz."
-                },
-                {
-                  "title": "Anında Görüntüleme, Geniş Esneklik:",
-                  "content": "YouTube videolarını istediğiniz her yerde dönüştürerek daha geniş bir favori videoya erişin ve MP3 formatları, bu yüklemeyi beklerken garip duraklamalar olmadan hemen sorunsuz bir şekilde bir araya getirmenize olanak tanır."
-                }
-              ]
-            },
-            "part5": {
-              "title": "Dönüştürücümüz Neden Öne Çıkıyor?",
-              "cards": [
-                {
-                  "title": "Tek tıklamayla basitlik",
-                  "content": "Zahmetsiz kurulum ve sezgisel kullanım."
-                },
-                {
-                  "title": "Yıldırım hızında, sınırsız",
-                  "content": "En yüksek hızda dönüştürün ve indirin; sınır yok, limit yok."
-                },
-                {
-                  "title": "Anında dönüştürün",
-                  "content": "Dosyalarınızı anında işleyin, beklemenize gerek yok."
-                },
-                {
-                  "title": "Sıfır Reklam, Sıfır Dikkat Dağıtıcı",
-                  "content": "Hiçbir açılır pencere, banner veya kesinti içermeyen temiz bir arayüzün keyfini çıkarın; sadece sorunsuz, kesintisiz dönüşüm."
-                },
-                {
-                  "title": "Orijinal Kalite Garantili",
-                  "content": "İndirdiğiniz videolar her seferinde piksel mükemmelliğinde oynatım için kaynak videonun tam çözünürlüğünü korur."
-                },
-                {
-                  "title": "Her yerde çalışır",
-                  "content": "Herhangi bir tarayıcıyla, herhangi bir cihazla tam uyumludur."
-                }
-              ]
-            },
-            "part6": {
-              "title": [
-                "YouTube'dan MP3'e Dönüşümlerinizi Maksimize Edin",
-                "Dönüştürücümüzle"
-              ],
-              "title_des": "Zahmetsiz YouTube'dan MP3'e Dönüştürme — Hızlı, Basit ve Ücretsiz",
-              "content": [
-                "İşte tam da bu noktada mükemmeliz. Kullanıcı dostu arayüzümüz herkes için tasarlandı; teknik beceriye gerek yok. Deneyim seviyeniz ne olursa olsun, videoları anında dönüştürebilirsiniz. Kayıt olmanıza gerek yok ve hemen başlayabilirsiniz: İndirdiğiniz MP3'ler, YouTube'da izlediğiniz gibi orijinal video kalitesini ve netliğini korur.",
-                "Hız da önemli. Birden fazla dosyayı hızlı bir şekilde, reklamsız ve cihaz kısıtlaması olmadan indirebilirsiniz. İster Windows, ister macOS, Linux, Android veya iOS kullanıyor olun, akıllı telefon, tablet veya masaüstü bilgisayar kullanarak videoları zahmetsizce indirebilirsiniz."
-              ]
-            },
-            "part7": {
-              "title": "YouTube'u MP3'e Dönüştürmeyle İlgili Temel Sorular",
-              "list": [
-                {
-                  "question": "Telif hakkıyla korunan bir YouTube videosunu MP3'e dönüştürebilir miyim?",
-                  "answer": "Teknik olarak mümkün olsa da, telif hakkıyla korunan içeriğin izinsiz dönüştürülmesi YouTube hizmet şartlarını ve telif hakkı yasalarını ihlal edebilir. İçeriği dönüştürme veya yalnızca kişisel, ticari olmayan amaçlarla kullanma hakkınız olduğundan her zaman emin olun."
-                },
-                {
-                  "question": "Bu dönüştürücü alet güvenli mi?",
-                  "answer": "Evet, dönüştürücümüz tamamen güvenlidir. Verilerinizin veya dosyalarınızın hiçbirini saklamıyoruz ve kötü amaçlı yazılım veya virüs riski de yok. Dönüştürme işlemi doğrudan ve güvenli bir şekilde gerçekleşir."
-                },
-                {
-                  "question": "YouTube'dan MP3'e dönüştürme hangi dilleri destekliyor?",
-                  "answer": "Dönüştürücümüz, YouTube'da bulunan tüm dilleri destekler. Ses, orijinal videoda göründüğü gibi çıkarılacak ve orijinal dil ve ses kalitesi korunacaktır."
-                },
-                {
-                  "question": "Bir YouTube videosunun dönüştürülme süresini etkileyen faktörler nelerdir?",
-                  "answer": "Dönüştürme süresi çeşitli faktörlere bağlıdır: videonun uzunluğu, internet bağlantı hızınız ve mevcut sunucu yükünüz. 10 dakikadan kısa videoların çoğu 30 saniyeden kısa sürede dönüştürülür."
-                },
-                {
-                  "question": "Akıllı telefonumla bir MP3'ü dönüştürüp indirdiğimde nereye kaydediliyor?",
-                  "answer": "Çoğu akıllı telefonda, dönüştürülen MP3 dosyaları İndirilenler klasörünüze kaydedilir. iPhone'da, Dosyalar uygulamanıza da kaydedilebilirler. Android'de ise, dosya yöneticinizde veya müzik uygulamanızda İndirilenler klasörünüzü kontrol edin."
-                },
-                {
-                  "question": "YouTube videosunu MP3'e dönüştürmek ses kalitesini düşürür mü?",
-                  "answer": "MP3 yalnızca ses formatıdır, yani video bileşeni yoktur. Ses kalitesi, kaynak videodan elde edilen en yüksek bit hızında korunur; bu, orijinal yükleme kalitesine bağlı olarak genellikle 128-320 kbps'dir."
-                }
-              ]
-            },
-            "MoreFreeTools": {
-              "title": "Daha Fazla Ücretsiz Araç",
-              "title_des": "Diğer ücretsiz dönüştürme araçlarımızı keşfedin",
-              "YouTubeToMP": "YouTube'dan MP4'e",
-              "YouTubeToMP_des": "YouTube videolarını çevrimdışı izlemek için MP4 formatına dönüştürün. Yüksek kaliteli videoları anında indirin.",
-              "AITranscription": "Yapay Zeka Transkripsiyonu",
-              "AITranscription_des": "Ses ve video dosyalarını %96 doğrulukla yazıya dökün. Tüm içerikleriniz için sınırsız yazıya dökme."
-            },
-            "videoDownload": {
-              "title": "YouTube Bağlantılarını MP3'e Dönüştürün. Ücretsiz, hızlı ve reklamsız.",
-              "description": "Hizmetimizi tercih ettiğiniz için teşekkür ederiz! Güveninize gerçekten minnettarız ve deneyiminizi geliştirmemizi umuyoruz. Web sitemizi arkadaşlarınızla paylaşırsanız, bu bizim için çok faydalı olacaktır.",
-              "downloadButton": "İndirmek",
-              "TranscribeButton": "Uyarlamak",
-              "downloadError": "Dönüştürme Hatası."
-            }
+    YouTubeToMP3: {
+      err1: "YouTube bağlantı biçimi hatası.",
+      err2: "Üzgünüz! Şu anda yalnızca YouTube bağlantılarıyla çalışıyoruz. Başka siteler için desteğe ihtiyacınız olursa, ileride eklediğimizde sizi bilgilendireceğiz.",
+      part1: {
+        title: "YouTube Videolarını MP3'e Dönüştürün",
+        title_des: "YouTube videolarından saniyeler içinde ses çıkarın",
+        placeholder: "Youtube bağlantınızı buraya yapıştırın",
+        clear_icon: "Temiz giriş",
+        Download: "Dönüştürmek",
+        loading_text: "Bağlantı dönüştürülmek üzere işleniyor. Sayfada kalın.",
+        howToDownload: "Nasıl dönüştürülür?",
+        tutorial: "Eğitimi izleyin"
+      },
+      freeResources: {
+        linkTitle: "{NeverCap} tarafından desteklenmektedir",
+        linkTitle2: "- Tamamen Sınırsız AI Transkripsiyonu",
+        title: "Ücretsiz Kaynaklar",
+        stepsNew: [
+          {
+            title: "Ücretsiz Ses ve Video Transkripsiyonu",
+            content: "Ses ve video dosyalarını saniyeler içinde metne dönüştürün. Her gün 3 dosya yazıya geçirilir."
+          },
+          {
+            title: "Ses Dosyalarını Metne Çıkarın",
+            content: "MP3, MP4, WAV, MOV yükleyin.",
+            content2: "DOCX, TXT, SRT ve daha fazlasını indirin."
+          },
+          {
+            title: "YouTube Videolarını Metne Dönüştür",
+            content:
+              "YouTube videolarını doğru metne veya altyazıya dönüştürün ve bağlantısını ücretsiz olarak yapıştırın."
           }
-},
+        ]
+      },
+      part2: {
+        title: "İşte bir YouTube videosunu 3 kolay adımda indirilebilir bir MP3 dosyasına dönüştürmenin yolu",
+        steps: [
+          {
+            title: "URL'yi kopyalayın",
+            content: "Hedef YouTube videonuzu açın, ardından tarayıcınızın adres çubuğundan bağlantıyı kopyalayın."
+          },
+          {
+            title: "Bağlantıyı yapıştırın",
+            content: "Video indirme aracınıza ekleyin ve URL'yi giriş alanına yapıştırın."
+          },
+          {
+            title: "Dönüştür ve İndir",
+            content: "Dönüştürme işlemi tamamlandıktan sonra MP3 dosyanızı kaydedip indirin."
+          }
+        ]
+      },
+      part3: {
+        content: [
+          "YouTube videolarını MP3'e dönüştürüp istediğiniz zaman dinlemek ister misiniz?",
+          "İster metroda, ister uçakta olun, ister podcast'leri, ders içeriklerini veya önemli arşivleri düzenliyor olun, çoğu zaman bunlara istediğiniz zaman erişememe sorunuyla karşı karşıya kalırız. Dönüştürücü aracımız bu sorunu sizin için çözüyor.",
+          "YouTube bağlantısını kopyalayıp dönüştürücüye yapıştırın ve tek tıklamayla videoları yüksek kaliteli MP3 sese dönüştürün. İnternet bağlantısına ihtiyaç duymadan istediğiniz zaman kaydedin, dinleyin ve arşivleyin."
+        ]
+      },
+      part4: {
+        content: ["İşte dönüştürmenin 5 önemli faydası", "YouTube videolarını MP3 dosyalarına dönüştürme"],
+        list: [
+          {
+            title: "Depolamadan tasarruf edin:",
+            content:
+              "MP3 dosyaları daha küçüktür ve YouTube kullanımında depolama alanını azaltır. Çevrimdışı izlemeyi indirerek mobil veriden tasarruf edin ve internet hizmetiniz olduğunda kullanın."
+          },
+          {
+            title: "Pil Tasarrufu Sağlar:",
+            content:
+              "YouTube videolarını izlemek için, kolayca dinlenebilen bağlantıları kullanan ara belleğe alma hizmetini kullanabilirsiniz. Artık ara belleğe alma endişesi yok."
+          },
+          {
+            title: "Kolay Arşivleme ve Saklama:",
+            content:
+              "Bazı videolar veya MP3'ler kişisel kütüphanenizi oluşturmanızı kolaylaştırır; ister eğitim içeriği, ister müzik arşivi, isterse önemli olsun."
+          },
+          {
+            title: "Daha Basit Paylaşım:",
+            content:
+              "MP3 dosyası paylaşmak, YouTube bağlantılarından çok daha kullanışlıdır. WhatsApp veya Instagram gibi uygulamalar aracılığıyla dosyaları arkadaşlarınıza gönderebilir, YouTube'u açmanın maliyetini ortadan kaldırabilirsiniz."
+          },
+          {
+            title: "Anında Görüntüleme, Geniş Esneklik:",
+            content:
+              "YouTube videolarını istediğiniz her yerde dönüştürerek daha geniş bir favori videoya erişin ve MP3 formatları, bu yüklemeyi beklerken garip duraklamalar olmadan hemen sorunsuz bir şekilde bir araya getirmenize olanak tanır."
+          }
+        ]
+      },
+      part5: {
+        title: "Dönüştürücümüz Neden Öne Çıkıyor?",
+        cards: [
+          {
+            title: "Tek tıklamayla basitlik",
+            content: "Zahmetsiz kurulum ve sezgisel kullanım."
+          },
+          {
+            title: "Yıldırım hızında, sınırsız",
+            content: "En yüksek hızda dönüştürün ve indirin; sınır yok, limit yok."
+          },
+          {
+            title: "Anında dönüştürün",
+            content: "Dosyalarınızı anında işleyin, beklemenize gerek yok."
+          },
+          {
+            title: "Sıfır Reklam, Sıfır Dikkat Dağıtıcı",
+            content:
+              "Hiçbir açılır pencere, banner veya kesinti içermeyen temiz bir arayüzün keyfini çıkarın; sadece sorunsuz, kesintisiz dönüşüm."
+          },
+          {
+            title: "Orijinal Kalite Garantili",
+            content:
+              "İndirdiğiniz videolar her seferinde piksel mükemmelliğinde oynatım için kaynak videonun tam çözünürlüğünü korur."
+          },
+          {
+            title: "Her yerde çalışır",
+            content: "Herhangi bir tarayıcıyla, herhangi bir cihazla tam uyumludur."
+          }
+        ]
+      },
+      part6: {
+        title: ["YouTube'dan MP3'e Dönüşümlerinizi Maksimize Edin", "Dönüştürücümüzle"],
+        title_des: "Zahmetsiz YouTube'dan MP3'e Dönüştürme — Hızlı, Basit ve Ücretsiz",
+        content: [
+          "İşte tam da bu noktada mükemmeliz. Kullanıcı dostu arayüzümüz herkes için tasarlandı; teknik beceriye gerek yok. Deneyim seviyeniz ne olursa olsun, videoları anında dönüştürebilirsiniz. Kayıt olmanıza gerek yok ve hemen başlayabilirsiniz: İndirdiğiniz MP3'ler, YouTube'da izlediğiniz gibi orijinal video kalitesini ve netliğini korur.",
+          "Hız da önemli. Birden fazla dosyayı hızlı bir şekilde, reklamsız ve cihaz kısıtlaması olmadan indirebilirsiniz. İster Windows, ister macOS, Linux, Android veya iOS kullanıyor olun, akıllı telefon, tablet veya masaüstü bilgisayar kullanarak videoları zahmetsizce indirebilirsiniz."
+        ]
+      },
+      part7: {
+        title: "YouTube'u MP3'e Dönüştürmeyle İlgili Temel Sorular",
+        list: [
+          {
+            question: "Telif hakkıyla korunan bir YouTube videosunu MP3'e dönüştürebilir miyim?",
+            answer:
+              "Teknik olarak mümkün olsa da, telif hakkıyla korunan içeriğin izinsiz dönüştürülmesi YouTube hizmet şartlarını ve telif hakkı yasalarını ihlal edebilir. İçeriği dönüştürme veya yalnızca kişisel, ticari olmayan amaçlarla kullanma hakkınız olduğundan her zaman emin olun."
+          },
+          {
+            question: "Bu dönüştürücü alet güvenli mi?",
+            answer:
+              "Evet, dönüştürücümüz tamamen güvenlidir. Verilerinizin veya dosyalarınızın hiçbirini saklamıyoruz ve kötü amaçlı yazılım veya virüs riski de yok. Dönüştürme işlemi doğrudan ve güvenli bir şekilde gerçekleşir."
+          },
+          {
+            question: "YouTube'dan MP3'e dönüştürme hangi dilleri destekliyor?",
+            answer:
+              "Dönüştürücümüz, YouTube'da bulunan tüm dilleri destekler. Ses, orijinal videoda göründüğü gibi çıkarılacak ve orijinal dil ve ses kalitesi korunacaktır."
+          },
+          {
+            question: "Bir YouTube videosunun dönüştürülme süresini etkileyen faktörler nelerdir?",
+            answer:
+              "Dönüştürme süresi çeşitli faktörlere bağlıdır: videonun uzunluğu, internet bağlantı hızınız ve mevcut sunucu yükünüz. 10 dakikadan kısa videoların çoğu 30 saniyeden kısa sürede dönüştürülür."
+          },
+          {
+            question: "Akıllı telefonumla bir MP3'ü dönüştürüp indirdiğimde nereye kaydediliyor?",
+            answer:
+              "Çoğu akıllı telefonda, dönüştürülen MP3 dosyaları İndirilenler klasörünüze kaydedilir. iPhone'da, Dosyalar uygulamanıza da kaydedilebilirler. Android'de ise, dosya yöneticinizde veya müzik uygulamanızda İndirilenler klasörünüzü kontrol edin."
+          },
+          {
+            question: "YouTube videosunu MP3'e dönüştürmek ses kalitesini düşürür mü?",
+            answer:
+              "MP3 yalnızca ses formatıdır, yani video bileşeni yoktur. Ses kalitesi, kaynak videodan elde edilen en yüksek bit hızında korunur; bu, orijinal yükleme kalitesine bağlı olarak genellikle 128-320 kbps'dir."
+          }
+        ]
+      },
+      MoreFreeTools: {
+        title: "Daha Fazla Ücretsiz Araç",
+        title_des: "Diğer ücretsiz dönüştürme araçlarımızı keşfedin",
+        YouTubeToMP: "YouTube'dan MP4'e",
+        YouTubeToMP_des:
+          "YouTube videolarını çevrimdışı izlemek için MP4 formatına dönüştürün. Yüksek kaliteli videoları anında indirin.",
+        AITranscription: "Yapay Zeka Transkripsiyonu",
+        AITranscription_des:
+          "Ses ve video dosyalarını %96 doğrulukla yazıya dökün. Tüm içerikleriniz için sınırsız yazıya dökme."
+      },
+      videoDownload: {
+        title: "YouTube Bağlantılarını MP3'e Dönüştürün. Ücretsiz, hızlı ve reklamsız.",
+        description:
+          "Hizmetimizi tercih ettiğiniz için teşekkür ederiz! Güveninize gerçekten minnettarız ve deneyiminizi geliştirmemizi umuyoruz. Web sitemizi arkadaşlarınızla paylaşırsanız, bu bizim için çok faydalı olacaktır.",
+        downloadButton: "İndirmek",
+        TranscribeButton: "Uyarlamak",
+        downloadError: "Dönüştürme Hatası."
+      }
+    }
+  },
   About: {
     Hero: {
       badge: "Sektör Lideri AI Teknolojisi",
@@ -3442,8 +3333,7 @@ let message = {
     Stats: {
       title: "Bizim",
       highlighted_text: "Etkimiz",
-      subtitle:
-        "İleri düzey AI teknolojisiyle küresel iletişimi güçlendiriyoruz",
+      subtitle: "İleri düzey AI teknolojisiyle küresel iletişimi güçlendiriyoruz",
       metrics: [
         {
           value: "%96+",
@@ -3464,8 +3354,7 @@ let message = {
     },
     Mission: {
       title: "Neden",
-      subtitle:
-        "Dil engellerini kırmaya ve içeriği herkes için erişilebilir hale getirmeye inanıyoruz",
+      subtitle: "Dil engellerini kırmaya ve içeriği herkes için erişilebilir hale getirmeye inanıyoruz",
       features: [
         {
           icon: "🎯",
@@ -3476,8 +3365,7 @@ let message = {
         {
           icon: "🌍",
           title: "Küresel Dil Desteği",
-          description:
-            "100+ dilde konuşma tanıma ve 249+ dilde çeviri desteğiyle içeriğinizi gerçekten küresel yapın."
+          description: "100+ dilde konuşma tanıma ve 249+ dilde çeviri desteğiyle içeriğinizi gerçekten küresel yapın."
         },
         {
           icon: "⚡",
@@ -3504,11 +3392,7 @@ let message = {
         },
         {
           label: "Genel Merkez",
-          value: [
-            "30 N Gould St Ste R",
-            "Sheridan, WY 82801",
-            "Amerika Birleşik Devletleri"
-          ]
+          value: ["30 N Gould St Ste R", "Sheridan, WY 82801", "Amerika Birleşik Devletleri"]
         },
         {
           label: "Bize Ulaşın",
@@ -3518,18 +3402,15 @@ let message = {
     },
     CTA: {
       title: "Farkı Denemeye Hazır mısınız?",
-      subtitle:
-        "Transkripsiyon ihtiyaçları için NeverCap'a güvenen binlerce profesyonel arasına katılın",
+      subtitle: "Transkripsiyon ihtiyaçları için NeverCap'a güvenen binlerce profesyonel arasına katılın",
       button: "NeverCap Ücretsiz Deneyin →",
-      disclaimer:
-        "Kredi kartı gerekmez • Saniyeler içinde transkripsiyona başlayın"
+      disclaimer: "Kredi kartı gerekmez • Saniyeler içinde transkripsiyona başlayın"
     }
   },
   Privacy: {
     title: "Gizlilik",
     titleGradient: "Politika",
-    subtitle:
-      "Kişisel bilgilerinizi nasıl topladığımızı, kullandığımızı ve koruduğumuzu öğrenin",
+    subtitle: "Kişisel bilgilerinizi nasıl topladığımızı, kullandığımızı ve koruduğumuzu öğrenin",
     lastUpdated: "Son güncelleme: {date}",
     lastUpdatedDate: "21 Temmuz 2025",
     privacyPolicyTitle: "Gizlilik Politikası",
@@ -3576,11 +3457,9 @@ let message = {
     taxAudits:
       "Bir vergi dairesi tarafından denetlenirsek, faturalama ile ilgili bilgileri paylaşmamız gerekebilir. Bu olursa, yalnızca fatura adresleri ve vergi muafiyet bilgileri gibi minimum gerekeni paylaşacağız.",
     securityTitle: "4. Verilerinizi nasıl güvence altına alıyoruz",
-    securityDescription:
-      "Tüm veriler sunucularımızdan tarayıcınıza iletilirken SSL/TLS ile şifrelenir.",
+    securityDescription: "Tüm veriler sunucularımızdan tarayıcınıza iletilirken SSL/TLS ile şifrelenir.",
     deletionTitle: "5. İçeriğinizi sildiğinizde ne olur",
-    deletionDescription:
-      "Herhangi bir içeriği silerseniz, hemen erişilemez hale gelir.",
+    deletionDescription: "Herhangi bir içeriği silerseniz, hemen erişilemez hale gelir.",
     locationTitle: "6. Site ve verilerin konumu",
     locationDescription:
       "Ürünlerimiz ve diğer web varlıklarımız Amerika Birleşik Devletleri'nde işletilmektedir. Avrupa Birliği, İngiltere veya Amerika Birleşik Devletleri dışında başka bir yerde bulunuyorsanız, lütfen bize sağladığınız herhangi bir bilginin Amerika Birleşik Devletleri'ne aktarılacağını ve burada saklanacağını unutmayın. Web sitelerimizi veya Hizmetlerimizi kullanarak ve/veya bize kişisel bilgilerinizi sağlayarak bu aktarımı kabul etmiş olursunuz.",
@@ -3601,8 +3480,7 @@ let message = {
   TermsOfUse: {
     title: "Kullanım",
     titleGradient: "Koşulları",
-    subtitle:
-      "Hizmetlerimizi kullanmadan önce lütfen bu şartları dikkatlice okuyun",
+    subtitle: "Hizmetlerimizi kullanmadan önce lütfen bu şartları dikkatlice okuyun",
     lastUpdated: "Son güncelleme: {date}",
     lastUpdatedDate: "21 Temmuz 2025",
     termsOfServiceTitle: "Hizmet Şartları",
@@ -3630,8 +3508,7 @@ let message = {
     accountTermsTitle: "3. Hesap Şartları",
     accountSecurity:
       "Hesabınızın güvenliğini sağlamak sizin sorumluluğunuzdadır. Şirket, bu güvenlik yükümlülüğünü yerine getirmemenizden kaynaklanan herhangi bir kayıp veya hasardan sorumlu tutulamaz ve tutulmayacaktır.",
-    lawfulUse:
-      "Hizmetleri yasa dışı, etik dışı veya ahlak dışı herhangi bir amaç için kullanamazsınız.",
+    lawfulUse: "Hizmetleri yasa dışı, etik dışı veya ahlak dışı herhangi bir amaç için kullanamazsınız.",
     contentResponsibility:
       "Hesabınız altında gönderilen tüm içeriklerden ve gerçekleşen faaliyetlerden siz sorumlusunuz. Bu, şu kişiler tarafından gönderilen içerikleri de kapsar: (a) giriş bilgilerinize erişimi olanlar; veya (b) hesabınız altında kendi giriş bilgileri olanlar.",
     humanRequirement:
@@ -3650,8 +3527,7 @@ let message = {
       "Ödenmiş sürenin bitiminden önce Hizmeti iptal ederseniz, iptaliniz derhal geçerli olacak ve tekrar ücretlendirilmeyeceksiniz. Son fatura döngüsündeki kullanılmayan süreyi otomatik olarak orantılı olarak iade etmeyiz.",
     terminationRights:
       "Herhangi bir nedenle ve herhangi bir zamanda hesabınızı askıya alma veya sonlandırma ve Hizmetlerimizin şu anki veya gelecekteki kullanımını reddetme hakkımız vardır. Askıya alma, hesaba veya hesaptaki herhangi bir içeriğe erişemeyeceğiniz anlamına gelir. Sonlandırma, ayrıca hesabınızın veya hesabınıza erişiminizin silinmesine ve hesabınızdaki tüm içeriğin kaybına ve feragat edilmesine yol açar. Ayrıca, herhangi bir nedenle ve herhangi bir zamanda herhangi bir kişinin Hizmetleri kullanmasını reddetme hakkını saklı tutarız. Bu maddeyi istatistiksel olarak, Hizmetlerimizdeki yüz binlerce hesaptan en az birinin kötü niyetli bir şey yapması nedeniyle ekliyoruz.",
-    abusePolicy:
-      "Şirket çalışanına veya yetkilisine sözlü, fiziksel, yazılı veya başka türlü kötü muamele (kö",
+    abusePolicy: "Şirket çalışanına veya yetkilisine sözlü, fiziksel, yazılı veya başka türlü kötü muamele (kö",
     submissionsTitle: "6. Gönderimler",
     submissionsDescription:
       'Site ile ilgili herhangi bir soru, yorum, öneri, fikir, geri bildirim veya diğer bilgilerin ("Gönderimler") tarafınızca bize sağlanmasının gizli olmadığını ve bunların münhasır mülkiyetimiz haline geleceğini kabul ve beyan edersiniz. Tüm fikri mülkiyet hakları dahil olmak üzere münhasır haklara sahip olacağız ve bu Gönderimleri herhangi bir yasal amaç için, ticari veya başka türlü, size herhangi bir bildirim veya tazminat ödemeksizin sınırsız kullanma ve yayma hakkına sahip olacağız. Bu Gönderimlerle ilgili tüm manevi haklarınızdan feragat edersiniz ve bu Gönderimlerin size özgü olduğunu veya bu tür Gönderimleri yapma hakkınızın bulunduğunu garanti edersiniz. Gönderimlerinizdeki herhangi bir mülkiyet hakkının iddia edilen veya fiili ihlali veya kötüye kullanımı nedeniyle bize karşı herhangi bir başvuru yapılmayacağını kabul edersiniz.',
@@ -3668,8 +3544,7 @@ let message = {
     siteManagementDescription:
       "Aşağıdaki haklara sahibiz ancak yükümlü değiliz: (1) Site'yi bu Hizmet Şartları'nın ihlalleri açısından izlemek; (2) münhasır takdirimize göre yasaları veya bu Hizmet Şartları'nı ihlal eden herkese karşı, bu kullanıcıyı kolluk kuvvetlerine bildirmek dahil ancak bununla sınırlı olmaksızın, uygun yasal işlem başlatmak; (3) münhasır takdirimize göre ve sınırlama olmaksızın, Katkılarınızın tamamını veya herhangi bir bölümünü reddetmek, erişimi kısıtlamak, kullanılabilirliğini sınırlamak veya (teknolojik olarak mümkün olduğu ölçüde) devre dışı bırakmak; (4) münhasır takdirimize göre ve bildirim veya sorumluluk olmaksızın, boyut olarak aşırı olan veya sistemlerimiz için herhangi bir şekilde yük oluşturan tüm dosya ve içerikleri Site'den kaldırmak veya başka türlü devre dışı bırakmak; ve (5) Site'yi haklarımızı ve mülkiyetimizi korumak ve Site'nin düzgün işleyişini kolaylaştırmak için tasarlanmış bir şekilde yönetmek.",
     copyrightTitle: "9. Telif Hakkı ve İçerik Sahipliği",
-    copyrightCompliance:
-      "Hizmetlerde yayınlanan tüm içerikler ABD telif hakkı yasalarına uymalıdır.",
+    copyrightCompliance: "Hizmetlerde yayınlanan tüm içerikler ABD telif hakkı yasalarına uymalıdır.",
     ipRights:
       "Hizmetlere sağladığınız materyaller üzerinde herhangi bir fikri mülkiyet hakkı iddia etmiyoruz. Yüklenen tüm materyaller size aittir.",
     contentModeration:
@@ -3683,8 +3558,7 @@ let message = {
     prohibitedActivitiesTitle: "10. Yasaklanan Faaliyetler",
     generalProhibition:
       "Site'ı, onu kullanıma sunduğumuz amaç dışında herhangi bir amaçla erişemez veya kullanamazsınız. Site, bizim özel olarak onayladığımız veya desteklediğimiz girişimler dışında herhangi bir ticari faaliyetle bağlantılı olarak kullanılamaz.",
-    userObligations:
-      "Site'nin bir kullanıcısı olarak, aşağıdakileri yapmayacağınızı kabul edersiniz:",
+    userObligations: "Site'nin bir kullanıcısı olarak, aşağıdakileri yapmayacağınızı kabul edersiniz:",
     dataScraping:
       "Yazılı iznimiz olmadan, doğrudan veya dolaylı olarak bir koleksiyon, derleme, veritabanı veya dizin oluşturmak için Site'den sistematik olarak veri veya diğer içerikleri almayın.",
     fraud:
@@ -3697,39 +3571,31 @@ let message = {
       "Site'den elde edilen herhangi bir bilgiyi başka bir kişiyi taciz etmek, kötüye kullanmak veya zarar vermek için kullanmayın.",
     supportAbuse:
       "Destek hizmetlerimizi uygunsuz şekilde kullanmayın veya yanlış kötüye kullanım veya yanlış davranış raporları göndermeyin.",
-    legalCompliance:
-      "Site'yi uygulanabilir yasa ve düzenlemelere aykırı şekilde kullanmayın.",
-    framingProhibition:
-      "Site'ye izinsiz çerçeveleme (framing) veya bağlantı verme (linking) yapmayın.",
+    legalCompliance: "Site'yi uygulanabilir yasa ve düzenlemelere aykırı şekilde kullanmayın.",
+    framingProhibition: "Site'ye izinsiz çerçeveleme (framing) veya bağlantı verme (linking) yapmayın.",
     malware:
       "Virüs, Truva atı veya büyük harf aşırı kullanımı ve spam (tekrarlayan metinlerin sürekli gönderimi) gibi, herhangi bir tarafın Site'yi kesintisiz kullanımını ve keyfini bozan veya Site'nin işlevlerini değiştiren, bozan materyaller yüklemeyin (veya yüklemeye çalışmayın).",
     automation:
       "Otomatik sistem kullanımında bulunmayın (betiklerle yorum/mesaj göndermek, veri madenciliği araçları kullanmak gibi).",
-    copyrightRemoval:
-      "Herhangi bir içerikten telif hakkı veya diğer mülkiyet hakları bildirimini silmeyin.",
+    copyrightRemoval: "Herhangi bir içerikten telif hakkı veya diğer mülkiyet hakları bildirimini silmeyin.",
     impersonation:
       "Başka bir kullanıcıyı veya kişiyi taklit etmeye çalışmayın veya başka bir kullanıcının adını kullanmayın.",
     spyware:
       "Pasif/aktif bilgi toplama veya iletim mekanizması görevi gören materyaller (ör. gifler, pikseller, çerezler, casus yazılımlar) yüklemeyin (veya yüklemeye çalışmayın).",
-    disruption:
-      "Site'ye veya bağlı ağlara aşırı yük bindirecek şekilde müdahale etmeyin veya kesintiye uğratmayın.",
+    disruption: "Site'ye veya bağlı ağlara aşırı yük bindirecek şekilde müdahale etmeyin veya kesintiye uğratmayın.",
     employeeHarassment:
       "Size Site hizmeti sağlayan çalışanlarımızı taciz etmeyin, rahatsız etmeyin veya tehdit etmeyin.",
-    accessCircumvention:
-      "Site'nin erişimi engellemek veya kısıtlamak için aldığı önlemleri atlatmaya çalışmayın.",
+    accessCircumvention: "Site'nin erişimi engellemek veya kısıtlamak için aldığı önlemleri atlatmaya çalışmayın.",
     codeCopying:
       "Site yazılımını (Flash, PHP, HTML, JavaScript veya diğer kodlar dahil) kopyalamayın veya uyarlamayın.",
     reverseEngineering:
       "Yürürlükteki yasaların izin verdiği durumlar dışında, Site'nin yazılımını tersine mühendislikle çözmeyin, ayrıştırmayın veya deşifre etmeyin.",
     bots: "Standart arama motoru veya tarayıcı kullanımı dışında, Site'ye erişen otomatik sistemler (ör. örümcekler, robotlar, cheat araçları) geliştirmeyin veya dağıtmayın.",
-    buyingAgents:
-      "Site'de alışveriş yapmak için satın alma aracısı kullanmayın.",
+    buyingAgents: "Site'de alışveriş yapmak için satın alma aracısı kullanmayın.",
     unauthorizedUse:
       "Kullanıcı adlarını/email adreslerini izinsiz toplamak veya sahte hesaplar oluşturmak gibi Site'yi yetkisiz şekilde kullanmayın.",
-    competition:
-      "Site'yi bizimle rekabet etmek veya gelir getirici faaliyetlerde kullanmayın.",
-    advertising:
-      "Site'yi mal/hizmet satışı için reklam platformu olarak kullanmayın.",
+    competition: "Site'yi bizimle rekabet etmek veya gelir getirici faaliyetlerde kullanmayın.",
+    advertising: "Site'yi mal/hizmet satışı için reklam platformu olarak kullanmayın.",
     profileTransfer: "Profilinizi satmayın veya devretmeyin.",
     featuresTitle: "11. Özellikler ve Hatalar",
     featuresDescription:
@@ -3780,14 +3646,7 @@ let message = {
       title: "En sonuncu",
       highlighted_text: "Makaleler",
       subtitle: "Sınırsız transkripsiyon için uzman ipuçları ve eğitimler",
-      categories: [
-        "Tüm Gönderiler",
-        "Eğitimler",
-        "Podcasting",
-        "İçerik Oluşturma",
-        "İşletme",
-        "Yapay Zeka İpuçları"
-      ]
+      categories: ["Tüm Gönderiler", "Eğitimler", "Podcasting", "İçerik Oluşturma", "İşletme", "Yapay Zeka İpuçları"]
     },
     Detail: {
       Home: "Ev",

@@ -1,0 +1,198 @@
+:deep(.el-checkbox__label) {
+  padding-left: 0;
+  @apply ps-2;
+}
+
+.upload {
+  max-width: 48.75rem; // 780px ÷ 16
+  max-height: 37.875rem; // 606px ÷ 16
+  background: #fff;
+  box-shadow: 0 2px 3.625px 0 rgba(0, 0, 0, 0.03);
+  border-radius: 1rem; // 8px ÷ 16
+  @apply p-4 sm:p-[2.1875rem] sm:pt-[1.875rem];
+
+  .title {
+    height: 1.875rem; // 30px ÷ 16
+    font-size: 1.375rem; // 22px ÷ 16
+    margin-bottom: 1.5rem; // 24px ÷ 16
+    font-weight: 600;
+  }
+
+  :deep(.upload-file) {
+    .icon-shangchuan {
+      color: #6367f1;
+      margin-bottom: 1.25rem; // 20px ÷ 16
+      font-size: 1.375rem; // 22px ÷ 16
+    }
+
+    .tip {
+      font-weight: 600;
+      margin-bottom: 0.3125rem; // 5px ÷ 16
+      font-size: 1.125rem; // 18px ÷ 16
+    }
+
+    .type {
+      color: #aca6b3;
+      font-weight: 400;
+      height: 1.25rem; // 20px ÷ 16
+      font-size: 0.875rem; // 14px ÷ 16
+    }
+
+    .el-upload-dragger {
+      max-width: 44.375rem; // 710px ÷ 16
+      height: 11rem; // 176px ÷ 16
+      background: #f9fafc;
+      border-radius: 0.5rem; // 8px ÷ 16
+      border: 0.125rem dashed #e2e4e6; // 1px ÷ 16
+      @apply pb-2 pt-8 sm:pb-0 sm:pt-10;
+    }
+  }
+}
+
+:deep(.home-btn.el-button) {
+  @apply h-[2.75rem] max-w-[11.75rem] md:!h-[2.75rem] md:!w-[11.75rem];
+  border-radius: 0.625rem; // 10px ÷ 16
+  border-color: #6a36a2 !important;
+  background: #301453 !important;
+  color: white !important;
+  font-size: 1.125rem;
+
+  &:hover {
+    border-color: #6a36a2 !important;
+    background: #301453 !important;
+    color: white !important;
+  }
+}
+
+:deep(.home-btn.el-button--primary) {
+  background: linear-gradient(142deg, #be26d4 0%, #9332ea 100%) !important;
+  border-color: transparent !important;
+
+  &:hover {
+    background: linear-gradient(142deg, #be26d4 0%, #9332ea 100%) !important;
+    border-color: transparent !important;
+  }
+}
+
+:deep(.el-select__wrapper) {
+  @apply w-72;
+  color: white;
+}
+
+:deep(.el-input),
+:deep(.el-textarea) {
+  ::placeholder {
+  }
+}
+
+:deep(.el-textarea__inner) {
+  height: 124px;
+}
+
+.button {
+  background: linear-gradient(90deg, #3470ff 0%, #9534e6 100%) !important;
+  height: 2.75rem !important; // 44px ÷ 16
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.625rem; // 10px ÷ 16
+  width: 100% !important;
+  cursor: pointer;
+  overflow: hidden;
+  max-width: unset !important;
+  border-color: transparent !important;
+  font-size: 1.125rem;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(99, 102, 241, 0.3);
+  }
+}
+
+:deep(.lang-title) {
+  @apply text-lg;
+}
+
+.button-disabled {
+  @apply bg-opacity-80;
+  cursor: not-allowed;
+}
+
+:deep(.el-progress-bar__outer) {
+  @apply bg-boxBgColor;
+}
+
+:deep(.el-progress-bar__inner) {
+  @apply bg-mainColor-900;
+}
+
+:deep(.el-progress__text) {
+  @apply me-3 !text-sm text-black;
+}
+
+:deep(.el-checkbox__label) {
+  color: #000000 !important;
+}
+
+:deep(.record) {
+  position: unset !important;
+  top: unset !important;
+  left: unset !important;
+  margin-bottom: 1.25rem;
+
+  .record-content {
+    max-width: calc(100vw - 40px);
+  }
+}
+
+:deep(.el-checkbox) {
+  align-items: flex-start;
+}
+
+:deep(.el-checkbox__input) {
+  margin-top: 0.1875rem; // 3px ÷ 16
+}
+
+:deep(.el-checkbox__inner) {
+  background: #fff;
+  border-color: #000000;
+  margin-top: 3px;
+}
+
+:deep(.el-input__wrapper.is-focus) {
+  box-shadow: 0 0 0 1px #6367f1 inset;
+}
+
+:deep(.is-checked .el-checkbox__inner) {
+  background: #6367f1;
+  border-color: #6367f1;
+}
+
+:deep(.link-label) {
+  font-size: 1.125rem; // 18px ÷ 16
+  margin-bottom: 1.25rem; // 20px ÷ 16
+  line-height: 1.5625rem; // 25px ÷ 16
+  color: white !important;
+}
+
+:deep(.el-dialog__footer) {
+  @apply mt-10 pt-0;
+}
+
+.img-button {
+  width: 2.875rem;
+  height: 2rem;
+  background: #f9fafc;
+  border-radius: 0.4375rem;
+  border: 2px solid #e2e4e6;
+  margin-left: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.no-drag {
+  -webkit-user-drag: none;
+  user-drag: none;
+  -webkit-user-select: none;
+  user-select: none;
+}

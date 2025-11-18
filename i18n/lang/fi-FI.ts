@@ -17,24 +17,20 @@ let message = {
       step0: {
         title: "Tervetuloa {name}",
         tip: "Täällä voit:",
-        content:
-          "Tekstittää kertaluonteisia keskusteluja, kokouksia, luentoja ja paljon muuta",
+        content: "Tekstittää kertaluonteisia keskusteluja, kokouksia, luentoja ja paljon muuta",
         next: "Aloita"
       },
       step1: {
         title: "Tekstitä tiedostoja",
-        content:
-          "Tukee kolmea tekstitysmenetelmää: paikalliset tiedostot, linkit ja nauhoitukset."
+        content: "Tukee kolmea tekstitysmenetelmää: paikalliset tiedostot, linkit ja nauhoitukset."
       },
       step2: {
         title: "Luo kansio",
-        content:
-          'Napsauta "+" luodaksesi kansion ja järjestelläksesi tiedostoja.'
+        content: 'Napsauta "+" luodaksesi kansion ja järjestelläksesi tiedostoja.'
       },
       step3: {
         title: "Näytä tekstitystiedot ja muokkaa",
-        content:
-          "Napsauta kohdetta nähdäksesi tekstitystiedot, muokataksesi tai kääntääksesi sen."
+        content: "Napsauta kohdetta nähdäksesi tekstitystiedot, muokataksesi tai kääntääksesi sen."
       },
       next: "seuraava",
       finish: "Selvä"
@@ -61,13 +57,10 @@ let message = {
       description: "Täällä voit:",
       transcribe:
         "Litteroi vaivattomasti Scribifyllä—muunna puhekeskustelut selkeäksi, haettavaksi ja jaettavaksi tekstiksi hetkessä.",
-      precision:
-        "Saa tarkat litteraatiot puhujatunnisteilla ja aikaleimalla välittömästi.",
-      translate:
-        "Murra kielimuuri: käännä litteraatiot yli 200 kielelle helposti.",
+      precision: "Saa tarkat litteraatiot puhujatunnisteilla ja aikaleimalla välittömästi.",
+      translate: "Murra kielimuuri: käännä litteraatiot yli 200 kielelle helposti.",
       edit: "Muokkaa, hio ja vie litteraatiosi tarpeitasi vastaavissa muodoissa.",
-      collaborate:
-        "Tee yhteistyötä jakamalla litteroitu tekstisi muiden kanssa.",
+      collaborate: "Tee yhteistyötä jakamalla litteroitu tekstisi muiden kanssa.",
       button: "Aloita",
       tip: "Valmis muuntamaan ääntä litteroiduksi tekstiksi? Aloita tutkiminen nyt!",
       tip2: "Aloita tutkiminen nyt!",
@@ -165,8 +158,7 @@ let message = {
     create: "Luo",
     endRecord: {
       title: "Kehote",
-      content:
-        "Olet nauhoittamassa. Tämä toiminto lopettaa nauhoituksen. Haluatko lopettaa nauhoituksen?",
+      content: "Olet nauhoittamassa. Tämä toiminto lopettaa nauhoituksen. Haluatko lopettaa nauhoituksen?",
       confirm: "Jatka Nauhoitusta",
       cancel: "Lopeta Nauhoitus"
     }
@@ -191,8 +183,7 @@ let message = {
         },
         complete: {
           title: "Nauhoitus valmis",
-          label:
-            "Nauhoitus on saavuttanut 10 tuntia ja on pysähtynyt automaattisesti. Tekstitä se.",
+          label: "Nauhoitus on saavuttanut 10 tuntia ja on pysähtynyt automaattisesti. Tekstitä se.",
           confirm: "Selvä"
         },
         speaker: {
@@ -209,8 +200,7 @@ let message = {
           "Liitä videon tai äänen linkki esimerkiksi osoitteesta: YouTube, Facebook, X, Dropbox, Google Drive, Vimeo, TikTok, Instagram tai muilta alustoilta...",
         confirm: "Lisää",
         cancel: "Peruuta",
-        errorTitle:
-          "Antamasi linkkiosoite on virheellinen. Tarkista ja yritä uudelleen.",
+        errorTitle: "Antamasi linkkiosoite on virheellinen. Tarkista ja yritä uudelleen.",
         linkName: "Linkki"
       },
       file: {
@@ -223,8 +213,7 @@ let message = {
       },
       del: {
         title: "Varoitus",
-        content:
-          "Kaikki edistyminen menetetään. Haluatko varmasti peruuttaa tekstityksen?",
+        content: "Kaikki edistyminen menetetään. Haluatko varmasti peruuttaa tekstityksen?",
         cancel: "Vahvista peruutus",
         confirm: "Jatka tekstitystä"
       },
@@ -259,7 +248,13 @@ let message = {
         audio: "Ääni-/videotiedosto",
         Uploading: "Ladataan..."
       },
-      fileEmpty: "Tiedosto on tyhjä"
+      fileEmpty: "Tiedosto on tyhjä",
+      howToSetup: "Miten asennan?",
+      shareFilePublicly: "Jaa tiedosto julkisesti",
+      retry: "Yritä uudelleen",
+      edit: "Muokkaa",
+      delete: "Poista",
+      updateAndRetry: "Päivitä ja yritä uudelleen"
     }
   },
   // Tekstitystiedot sivu
@@ -572,13 +567,10 @@ let message = {
     resetYourPassword: "Nollaa salasanasi",
     newOldCantSame: "Uusi salasana ei voi olla sama kuin vanha salasana.",
     passwordResetOk: "Salasanan nollaus onnistui！",
-    signupToSaveProgress:
-      "Viimeistele rekisteröityminen tallentaaksesi edistymisesi.",
+    signupToSaveProgress: "Viimeistele rekisteröityminen tallentaaksesi edistymisesi.",
     tip: "Vihje",
-    tipContentEmail:
-      "Olemme juuri lähettäneet tilisi kirjautumissalasanan sähköpostiisi.",
-    tipContentPassword:
-      "Tarkista saapuneet-kansiostasi ja kirjaudu sisään sähköpostiosoitteellasi ja salasanallasi.",
+    tipContentEmail: "Olemme juuri lähettäneet tilisi kirjautumissalasanan sähköpostiisi.",
+    tipContentPassword: "Tarkista saapuneet-kansiostasi ja kirjaudu sisään sähköpostiosoitteellasi ja salasanallasi.",
     codeToEmail:
       "Lähetimme juuri vahvistuskoodin sähköpostiisi. Tarkista saapuneet viestit ja liitä vahvistuskoodi yllä olevaan kenttään."
   },
@@ -597,11 +589,9 @@ let message = {
     professionalEdition: "ammattimainen versio",
     unlimitedTranscription: "Rajoittamaton transkriptio",
     unlimitedNumberOfTimes: "Rajoittamaton transkriptioitiöisyys ja kesto.",
-    filesUploadedAtOnce:
-      "Jokainen tiedosto voi olla enintään 10 tuntia pitkä / 5 GB. Lataa 50 tiedostoa kerralla.",
+    filesUploadedAtOnce: "Jokainen tiedosto voi olla enintään 10 tuntia pitkä / 5 GB. Lataa 50 tiedostoa kerralla.",
     highestPriority: "korkein prioriteetti",
-    weWillGiveTheHighest:
-      "Transkriboimme tiedostosi mahdollisimman nopeasti korkeimmalla prioriteetilla.",
+    weWillGiveTheHighest: "Transkriboimme tiedostosi mahdollisimman nopeasti korkeimmalla prioriteetilla.",
     theFirstMonth: "Ensimmäinen kuukausi",
     subscribeTo: "tilaa",
     basicVersionFree: "Perusversio (ilmainen)",
@@ -646,14 +636,12 @@ let message = {
     changeToAnnual: "Vaihda vuosittaiseen",
     automaticRenewalon: "Automaattinen uusinta",
     eachMonth: "Automaattinen uusinta kuukauden {time}. päivänä.",
-    automaticRenewal:
-      "Automaattinen uusiminen epäonnistui, tarkista maksutapa.",
+    automaticRenewal: "Automaattinen uusiminen epäonnistui, tarkista maksutapa.",
     eachYear: "Automaattinen uusiminen {time} joka vuosi.",
     returnAccountSetting: "Takaisin",
     needsToWaitLonger: "Odota kauemmin ennen kuin tiedostosi litteroidaan.",
     freeThreeTimesDay: "Litteroi 3 tiedostoa ilmaiseksi joka päivä.",
-    oneFileUploaded:
-      "Jokainen tiedosto voi olla enintään 30 minuuttia pitkä. Lataa 1 tiedosto kerrallaan.",
+    oneFileUploaded: "Jokainen tiedosto voi olla enintään 30 minuuttia pitkä. Lataa 1 tiedosto kerrallaan.",
     uploadWithinHours: "10 tunnin lataukset",
     yourSubscription: "Tilauksesi peruutetaan {time}.",
     save: "Säästää",
@@ -694,12 +682,10 @@ let message = {
     startLink: "Aloita ilmainen kokeilu~",
     thirdPartyLink: "Github →",
     waitlist: {
-      cardTitle:
-        "Liity odotuslistalle, saa NuxtPron uusimmat uutiset ensimmäisenä ja alennukset!",
+      cardTitle: "Liity odotuslistalle, saa NuxtPron uusimmat uutiset ensimmäisenä ja alennukset!",
       placeholder: "Syötä sähköpostiosoitteesi",
       button: "Liity odotuslistalle",
-      joinCountMessage:
-        "🔥 Varhainen käyttäjä #{count} juuri liittyi odotuslistalle!"
+      joinCountMessage: "🔥 Varhainen käyttäjä #{count} juuri liittyi odotuslistalle!"
     },
     seo: {
       title: "Avoimen lähdekoodin Nuxt SaaS -runko | NuxtPro",
@@ -751,11 +737,9 @@ let message = {
     HAVE_CURRENT_DATA:
       "Tietoja nykyisestä toistopaikasta on saatavilla, mutta ei riittävästi tietoa seuraavan kehyksen/millisekunnin toistamiseen",
     HAVE_FUTURE_DATA: "Nykyinen ja vähintään yksi kehys saatavilla",
-    HAVE_ENOUGH_DATA:
-      "Käytettävissä olevat tiedot riittävät toiston aloittamiseen",
+    HAVE_ENOUGH_DATA: "Käytettävissä olevat tiedot riittävät toiston aloittamiseen",
     NETWORK_EMPTY: "Ääni/video ei ole alustettu",
-    NETWORK_IDLE:
-      "Ääni/video on aktiivinen ja sen resurssit on valittu, mutta verkkoa ei käytetä",
+    NETWORK_IDLE: "Ääni/video on aktiivinen ja sen resurssit on valittu, mutta verkkoa ei käytetä",
     NETWORK_LOADING: "Selain lataa tietoja",
     NETWORK_NO_SOURCE: "Ääni-/videolähdettä ei löytynyt",
     MEDIA_ERR_ABORTED: "Hakutoiminto keskeytetty käyttäjän toimesta",
@@ -848,26 +832,22 @@ let message = {
     secureDataContent1: "Kaikki tiedot salataan",
     sslTlsLink: "SSL/TLS",
     secureDataContent2: "kun tiedot lähetetään palvelimiltamme selaimeesi.",
-    deleteContentContent:
-      "Jos poistat sisältöä, se muuttuu välittömästi käyttökelvottomaksi.",
+    deleteContentContent: "Jos poistat sisältöä, se muuttuu välittömästi käyttökelvottomaksi.",
     locationContent:
       "Tuotteitamme ja muita verkkosivustojamme hoidetaan Yhdysvalloissa. Jos olet Euroopan unionissa, Isossa-Britanniassa tai muualla Yhdysvaltojen ulkopuolella, huomaathan, että kaikki meille antamasi tiedot siirretään ja tallennetaan Yhdysvaltoihin. Käyttämällä verkkosivustojamme tai palveluitamme ja/tai antamalla meille henkilötietojasi suostut tähän siirtoon.",
     childrenPrivacyContent:
       "Palvelut eivät ole suunnattu lapsille, emmekä tietoisesti kerää alle 13-vuotiaiden lasten henkilötietoja. Jos olet alle 13-vuotias, älä lähetä mitään henkilötietoja Palveluiden kautta. Jos uskot, että lapsi on antanut meille henkilötietoja tämän Käytännön vastaisesti, ota meihin yhteyttä alla kuvatulla tavalla.",
     updatesContent:
       "Saatamme päivittää tätä käytäntöä tarvittaessa asiaankuuluvien määräysten noudattamiseksi ja uusien käytäntöjen huomioon ottamiseksi. Aina kun teemme merkittäviä muutoksia käytäntöihimme, päivitämme päivämäärän tämän sivun yläreunassa.",
-    contactUsContent1:
-      "Jos sinulla on kysyttävää, kommentteja tai valituksia tietosuojakäytännöstämme, ole hyvä ja",
+    contactUsContent1: "Jos sinulla on kysyttävää, kommentteja tai valituksia tietosuojakäytännöstämme, ole hyvä ja",
     contactUs: "ota meihin yhteyttä",
-    contactUsContent2:
-      "ja pyrimme käsittelemään valituksesi mahdollisimman pian."
+    contactUsContent2: "ja pyrimme käsittelemään valituksesi mahdollisimman pian."
   },
   termsOfService: {
     termsOfServiceTitle: "Palveluehdot",
     lastUpdated: "Viimeksi päivitetty: 21. syyskuuta 2022",
     thankYouMessage: "Kiitos, että käytät tuotteitamme!",
-    companyReference:
-      "Kun sanomme tässä asiakirjassa ”Yritys”, ”me”, ”meidän” tai ”meitä”, viittaamme Scribifyyn.",
+    companyReference: "Kun sanomme tässä asiakirjassa ”Yritys”, ”me”, ”meidän” tai ”meitä”, viittaamme Scribifyyn.",
     servicesDefinition:
       'Kun sanomme "Palvelut", tarkoitamme mitä tahansa Scribifyn luomaa ja ylläpitämää tuotetta, toimitettiinpa se sitten verkkoselaimessa, työpöytäsovelluksessa, mobiilisovelluksessa tai muussa muodossa.',
     termsUpdateNotice:
@@ -905,8 +885,7 @@ let message = {
       "Tarjoamme Palvelut käyttöösi. Olet vastuussa kaikkien tarvittavien järjestelyjen tekemisestä Palveluiden käyttöä varten.",
     accountTerms1:
       "- Olet vastuussa tilisi turvallisuuden ylläpitämisestä. Yhtiö ei ole eikä tule olemaan vastuussa mistään menetyksistä tai vahingoista, jotka johtuvat tämän turvallisuusvelvoitteen noudattamatta jättämisestä.",
-    accountTerms2:
-      "- Et saa käyttää Palveluita mihinkään laittomaan, epäeettiseen tai moraalittomaan tarkoitukseen.",
+    accountTerms2: "- Et saa käyttää Palveluita mihinkään laittomaan, epäeettiseen tai moraalittomaan tarkoitukseen.",
     accountTerms3:
       "- Olet vastuussa kaikesta tililläsi julkaistusta sisällöstä ja toiminnasta. Tämä sisältää sisällön, jonka ovat julkaisseet muut, joilla joko: (a) on pääsy kirjautumistietoihisi; tai (b) on omat kirjautumistunnuksensa tilillesi.",
     accountTerms4:
@@ -937,8 +916,7 @@ let message = {
       "- Käytämme kolmannen osapuolen toimittajia ja hosting-kumppaneita tarjoamaan Palveluiden suorittamiseen tarvittavat laitteistot, ohjelmistot, verkot, tallennustilan ja niihin liittyvän teknologian.",
     siteManagementContent:
       "Pidätämme oikeuden, mutta emme velvollisuutta, seuraavaa: (1) valvoa Sivustoa näiden Käyttöehtojen rikkomusten varalta; (2) ryhtyä asianmukaisiin oikeustoimiin ketä tahansa vastaan, joka oman harkintamme mukaan rikkoo lakia tai näitä Käyttöehtoja, mukaan lukien rajoituksetta tällaisen käyttäjän ilmoittaminen lainvalvontaviranomaisille; (3) oman harkintamme mukaan ja rajoituksetta evätä, rajoittaa pääsyä, rajoittaa saatavuutta tai poistaa käytöstä (siinä määrin kuin se on teknisesti mahdollista) minkä tahansa Muodoksesi tai minkä tahansa sen osan; (4) oman harkintamme mukaan ja rajoituksetta, ilman erillistä ilmoitusta tai vastuuta poistaa Sivustolta tai muuten poistaa käytöstä kaikki tiedostot ja sisällöt, jotka ovat kooltaan liian suuria tai jotka millään tavalla rasittavat järjestelmiämme; ja (5) muutoin hallita Sivustoa tavalla, joka on suunniteltu suojaamaan oikeuksiamme ja omaisuuttamme ja helpottamaan Sivuston asianmukaista toimintaa.",
-    copyrightContent1:
-      "- Kaiken Palveluihin lähetetyn sisällön on oltava Yhdysvaltain tekijänoikeuslain mukaista.",
+    copyrightContent1: "- Kaiken Palveluihin lähetetyn sisällön on oltava Yhdysvaltain tekijänoikeuslain mukaista.",
     copyrightContent2:
       "- Emme vaadi immateriaalioikeuksia Palveluihin toimittamaanne materiaaliin. Kaikki ladatut materiaalit pysyvät sinun omaisuutenasi.",
     copyrightContent3:
@@ -966,22 +944,18 @@ let message = {
       "- Huijata, petostaa tai johtaa harhaan meitä ja muita käyttäjiä, erityisesti yrittämällä saada selville arkaluonteisia tilitietoja, kuten käyttäjien salasanoja.",
     prohibitedActivity3:
       "- Kiertää, poistaa käytöstä tai muulla tavoin häiritä Sivuston turvallisuuteen liittyviä ominaisuuksia, mukaan lukien ominaisuuksia, jotka estävät tai rajoittavat Sisällön käyttöä tai kopiointia tai asettavat rajoituksia Sivuston ja/tai sen sisältämän Sisällön käytölle.",
-    prohibitedActivity4:
-      "- Halventaa, tahrata tai muuten vahingoittaa mielestämme meitä ja/tai Sivustoa.",
+    prohibitedActivity4: "- Halventaa, tahrata tai muuten vahingoittaa mielestämme meitä ja/tai Sivustoa.",
     prohibitedActivity5:
       "- Käyttää Sivustolta saatuja tietoja toisen henkilön häirintään, hyväksikäyttöön tai vahingoittamiseen.",
     prohibitedActivity6:
       "- Käytä tukipalveluitamme väärin tai lähetä vääriä ilmoituksia väärinkäytöksistä tai väärinkäytöksistä.",
-    prohibitedActivity7:
-      "- Käytä Sivustoa tavalla, joka on ristiriidassa sovellettavien lakien tai määräysten kanssa.",
-    prohibitedActivity8:
-      "- Osallistu sivuston luvattomaan kehystämiseen tai linkittämiseen.",
+    prohibitedActivity7: "- Käytä Sivustoa tavalla, joka on ristiriidassa sovellettavien lakien tai määräysten kanssa.",
+    prohibitedActivity8: "- Osallistu sivuston luvattomaan kehystämiseen tai linkittämiseen.",
     prohibitedActivity9:
       "- Lataa tai lähetä (tai yritä ladata tai lähettää) viruksia, troijalaisia tai muuta materiaalia, mukaan lukien liiallinen isojen kirjainten käyttö ja roskapostitus (jatkuva toistuvan tekstin lähettäminen), joka häiritsee kenen tahansa osapuolen Sivuston keskeytymätöntä käyttöä ja nautintoa tai muokkaa, heikentää, keskeyttää, muuttaa tai häiritsee Sivuston käyttöä, ominaisuuksia, toimintoja, toimintaa tai ylläpitoa.",
     prohibitedActivity10:
       "- Käytä järjestelmää millään tavalla automaattisesti, kuten käytä komentosarjoja kommenttien tai viestien lähettämiseen tai käytä tiedonlouhintaa, robotteja tai vastaavia tiedonkeruu- ja poimintatyökaluja.",
-    prohibitedActivity11:
-      "- Poista tekijänoikeus- tai muut omistusoikeusilmoitukset mistä tahansa sisällöstä.",
+    prohibitedActivity11: "- Poista tekijänoikeus- tai muut omistusoikeusilmoitukset mistä tahansa sisällöstä.",
     prohibitedActivity12:
       "- Yritä esiintyä toisena käyttäjänä tai henkilönä tai käyttää toisen käyttäjän käyttäjätunnusta.",
     prohibitedActivity13:
@@ -998,14 +972,12 @@ let message = {
       "- Ellei sovellettava laki sitä salli, tulkita, purkaa, hajottaa tai takaisinmallintaa mitään Sivustoon kuuluvaa tai sitä millään tavalla muodostavaa ohjelmistoa.",
     prohibitedActivity19:
       "- Käytä, käynnistä, kehitä tai jaa mitään automatisoitua järjestelmää, mukaan lukien rajoituksetta kaikki hakurobotit, huijausohjelmat, kaavintaohjelmat tai offline-lukijat, jotka käyttävät Sivustoa, tai käytä tai käynnistä luvattomia komentosarjoja tai muita ohjelmistoja, lukuun ottamatta sitä, mikä voi olla seurausta tavanomaisesta hakukoneen tai internetselaimen käytöstä.",
-    prohibitedActivity20:
-      "- Käytä ostoagenttia tai ostoedustajaa tehdäksesi ostoksia Sivustolla.",
+    prohibitedActivity20: "- Käytä ostoagenttia tai ostoedustajaa tehdäksesi ostoksia Sivustolla.",
     prohibitedActivity21:
       "- Sivuston luvaton käyttö, mukaan lukien käyttäjien käyttäjätunnusten ja/tai sähköpostiosoitteiden kerääminen sähköisesti tai muilla keinoin ei-toivottujen sähköpostien lähettämistä varten tai käyttäjätilien luominen automaattisesti tai väärien perusteiden avulla.",
     prohibitedActivity22:
       "- Käyttää Sivustoa osana mitään pyrkimystä kilpailla kanssamme tai muutoin käyttää Sivustoa ja/tai Sisältöä mihinkään tuloja tuottavaan tarkoitukseen tai kaupalliseen toimintaan.",
-    prohibitedActivity23:
-      "- Käyttää Sivustoa mainostaakseen tai tarjotakseen myytäväksi tavaroita ja palveluita.",
+    prohibitedActivity23: "- Käyttää Sivustoa mainostaakseen tai tarjotakseen myytäväksi tavaroita ja palveluita.",
     prohibitedActivity24: "- Myydä tai muuten siirtää profiilisi.",
     featuresContent1:
       "Suunnittelemme Palvelumme huolella omien kokemustemme ja asiakkaidemme kokemusten pohjalta, jotka jakavat aikaansa ja palautettaan. Ei kuitenkaan ole olemassa sellaista asiaa kuin palvelu, joka miellyttäisi kaikkia. Emme takaa, että Palvelumme täyttävät erityisvaatimuksesi tai odotuksesi.",
@@ -1017,19 +989,16 @@ let message = {
       "Emme voi taata, että Sivusto on käytettävissä kaikkina aikoina. Saatamme kohdata laitteisto-, ohjelmisto- tai muita ongelmia tai joutua suorittamaan Sivustoon liittyviä huoltotoimenpiteitä, jotka johtavat keskeytyksiin, viivästyksiin tai virheisiin. Pidätämme oikeuden muuttaa, tarkistaa, päivittää, keskeyttää, lopettaa tai muuten muokata Sivustoa milloin tahansa ja mistä tahansa syystä ilman erillistä ilmoitusta sinulle. Hyväksyt, ettemme ole millään tavalla vastuussa mistään menetyksestä, vahingosta tai haitasta, joka aiheutuu siitä, että et voi käyttää Sivustoa sen käyttökatkoksen tai lopettamisen aikana. Mitään näissä Käyttöehdoissa ei voida tulkita siten, että se velvoittaisi meitä ylläpitämään ja tukemaan Sivustoa tai toimittamaan siihen liittyviä korjauksia, päivityksiä tai julkaisuja.",
     userDataContent:
       "Säilytämme tiettyjä tietoja, jotka lähetät Sivustolle, Sivuston suorituskyvyn hallintaa varten, sekä tietoja, jotka liittyvät Sivuston käyttöön. Vaikka teemme säännöllisiä varmuuskopioita tiedoista, olet yksin vastuussa kaikista lähettämistäsi tiedoista tai tiedoista, jotka liittyvät mihin tahansa Sivuston avulla suorittamaasi toimintaan. Hyväksyt, ettemme ole vastuussa sinulle tällaisten tietojen katoamisesta tai vioittumisesta, ja luovut täten oikeudesta nostaa meitä vastaan ​​kanne, joka johtuu tällaisten tietojen katoamisesta tai vioittumisesta.",
-    privacyPolicyContent1:
-      "Välitämme tietosuojasta ja -turvallisuudesta. Tutustu valikoimaamme",
+    privacyPolicyContent1: "Välitämme tietosuojasta ja -turvallisuudesta. Tutustu valikoimaamme",
     privacyPolicy: "Tietosuojakäytäntö",
     privacyPolicyContent2:
       "Käyttämällä Sivustoa hyväksyt Tietosuojakäytäntömme, joka on sisällytetty näihin Käyttöehtoihin. Huomaa, että Sivustoa isännöidään Yhdysvalloissa. Jos käytät Sivustoa mistä tahansa muualta maailmasta, jonka lait tai muut vaatimukset henkilötietojen keräämisestä, käytöstä tai luovuttamisesta poikkeavat Yhdysvaltojen sovellettavista laeista, jatkamalla Sivuston käyttöä siirrät tietosi Yhdysvaltoihin ja suostut tietojesi siirtämiseen ja käsittelyyn Yhdysvalloissa.",
-    liabilityIntro:
-      "Mainitsemme vastuun kaikissa näissä ehdoissa, mutta yhteen osioon kootaksemme kaiken:",
+    liabilityIntro: "Mainitsemme vastuun kaikissa näissä ehdoissa, mutta yhteen osioon kootaksemme kaiken:",
     liabilityContent:
       "Ymmärrät ja hyväksyt nimenomaisesti, että Yhtiö ei ole lain tai oikeudenmukaisuuden nojalla vastuussa sinulle tai kolmannelle osapuolelle mistään suorista, epäsuorista, satunnaisista, menetetyistä voitoista, erityisistä, seuraamuksellisista, rankaisevista tai esimerkinomaisista vahingoista, mukaan lukien, mutta ei rajoittuen, vahingot voittojen, liikearvon, käytön, tietojen tai muiden aineettomien tappioiden menetyksestä (vaikka Yhtiölle olisi ilmoitettu tällaisten vahinkojen mahdollisuudesta), jotka johtuvat: (1) Palveluiden käytöstä tai käytön estymisestä; (2) sisällön ja materiaalien virheistä, erehdyksistä tai epätarkkuuksista; (3) minkä tahansa luonteen omaisuusvahingoista tai henkilövahingoista, jotka johtuvat sivuston käytöstä; (4) korvaavien tavaroiden ja palveluiden hankintakustannuksista, jotka johtuvat Palveluiden kautta ostetuista tai hankituista tavaroista, tiedoista, tiedoista tai palveluista tai vastaanotetuista viesteistä tai tehdyistä tapahtumista; (5) luvattomasta pääsystä suojattuihin palvelimiimme tai niiden ja/tai kaikkien niillä tallennettujen henkilötietojen ja/tai taloudellisten tietojen käytöstä; (6) sivustolle tai sivustolta tapahtuvan tiedonsiirron keskeytymisestä tai lopettamisesta; (7) kaikki virheet, virukset, troijalaiset tai vastaavat, joita kolmas osapuoli voi lähettää sivustolle tai sen kautta, ja/tai; (8) kaikki virheet tai puutteet sisällössä ja materiaaleissa tai minkäänlaiset menetykset tai vahingot, jotka johtuvat sivuston kautta julkaistun, lähetetyn tai muuten saatavilla olevan sisällön käytöstä; (9) kolmannen osapuolen lausunnot tai toiminta palvelussa; (10) tai mikä tahansa muu näihin käyttöehtoihin tai palveluihin liittyvä asia, olipa se sitten sopimusrikkomus, oikeudenloukkaus (mukaan lukien aktiivinen tai passiivinen huolimattomuus) tai mikä tahansa muu vastuun peruste.",
     miscellaneousContent:
       "Nämä käyttöehdot ja kaikki Sivustolle tai Sivustoon julkaisemamme käytännöt tai toimintasäännöt muodostavat koko sopimuksen ja yhteisymmärryksen sinun ja meidän välillämme. Se, että emme käytä tai pane täytäntöön mitään näiden käyttöehtojen oikeutta tai määräystä, ei tarkoita kyseisen oikeuden tai määräyksen luopumista. Näitä käyttöehtoja sovelletaan lain sallimassa laajuudessa. Voimme siirtää osan tai kaikki oikeutemme ja velvollisuutemme muille milloin tahansa. Emme ole vastuussa mistään menetyksestä, vahingosta, viivästyksestä tai toiminnan laiminlyönnistä, joka johtuu kohtuullisen hallintamme ulkopuolella olevasta syystä. Jos jokin näiden käyttöehtojen määräys tai sen osa katsotaan laittomaksi, mitättömäksi tai täytäntöönpanokelvottomaksi, kyseinen määräys tai sen osa katsotaan erotettavaksi näistä käyttöehdoista, eikä se vaikuta jäljellä olevien määräysten pätevyyteen ja täytäntöönpanokelpoisuuteen. Sinun ja meidän välillemme ei synny yhteisyritystä, kumppanuutta, työsuhdetta tai edustussuhdetta näiden käyttöehtojen tai Sivuston käytön seurauksena. Hyväksyt, että näitä käyttöehtoja ei tulkita meitä vastaan sillä perusteella, että olemme laatineet ne. Luovut täten kaikista puolustuksista, jotka sinulla saattavat perustua näiden käyttöehtojen sähköiseen muotoon ja siihen, että osapuolet eivät ole allekirjoittaneet näitä käyttöehtoja.",
-    contactUsContent1:
-      "Jos sinulla on kysyttävää jostakin käyttöehdoista, ole hyvä ja",
+    contactUsContent1: "Jos sinulla on kysyttävää jostakin käyttöehdoista, ole hyvä ja",
     contactUsContent2: "."
   },
   HeadNavbar: {
@@ -1050,8 +1019,8 @@ let message = {
     YouTubetoMP4: "YouTube MP4-muotoon",
     StartFreeTrial: "Ilmainen kokeilu",
     Blog: "Blogi",
-      YouTubetoMP3: 'YouTubesta MP3:een'
-},
+    YouTubetoMP3: "YouTubesta MP3:een"
+  },
   Footer: {
     des: "Maailman ensimmäinen todella rajaton AI-tekstitypalvelu. Ei rajoituksia, ei kattoja, vain vapaus luoda.",
     Features: "Ominaisuudet",
@@ -1068,12 +1037,9 @@ let message = {
       "Opettajat"
     ],
     companyMenus: ["Tietoja", "Hinnoittelu", "Tietosuoja", "Käyttöehdot"],
-      Resources: 'Resurssit',
-      resourcesMenus: [
-            "YouTubesta MP4:ään",
-            "YouTubesta MP3:een"
-          ]
-},
+    Resources: "Resurssit",
+    resourcesMenus: ["YouTubesta MP4:ään", "YouTubesta MP3:een"]
+  },
   Index: {
     Hero: {
       badge: 'Ei enää "kutistumista" - Todella rajaton',
@@ -1154,8 +1120,7 @@ let message = {
       }
     },
     Testimonials: {
-      subtitle:
-        "Katso miksi ammattilaiset valitsevat NeverCapin rajoitettujen vaihtoehtojen sijaan",
+      subtitle: "Katso miksi ammattilaiset valitsevat NeverCapin rajoitettujen vaihtoehtojen sijaan",
       Mike: {
         text: "Voi hitsi, tämä oikeasti toimii! Tehnyt podcastia 3 vuotta ja kirjoittanut kaiken itse tyhmänä. Latasin 6 jaksoa kerralla ja se erotti minut ja juontajaparini täydellisesti. Kahvilajakso, joka mielestäni oli pilalla? Kirkas kuin kristalli. En enää ikinä kirjoita näitä itse.",
         author: "Mike Rodriguez",
@@ -1176,8 +1141,7 @@ let message = {
     PricingPreview: {
       title: "Läpinäkyvä hinnoittelu",
       highlighted_text: "Ei piilotettuja rajoituksia",
-      subtitle:
-        "Valitse suunnitelma. Ei asteriskeja, ei pienellä präntättyä tekstiä, ei yllätyksiä"
+      subtitle: "Valitse suunnitelma. Ei asteriskeja, ei pienellä präntättyä tekstiä, ei yllätyksiä"
     },
     FAQSection: {
       title: "Usein Kysytyt",
@@ -1354,13 +1318,10 @@ let message = {
       trustBadge4Number: "50",
       trustBadge4Label: "Erälataus",
       ctaTitle: "Lopeta maksaminen vale-rajattomasta",
-      ctaSubtitle:
-        "Liity tuhansiin, jotka vaihtoivat todella rajoittamattomaan tekstitykseen",
+      ctaSubtitle: "Liity tuhansiin, jotka vaihtoivat todella rajoittamattomaan tekstitykseen",
       finalCta: "Kokeile NeverCapia ilmaiseksi",
-      heroSubtitle1:
-        "Trint rajoittaa tiedostojen käsittelyn 50 tuntiin ja Otter 10 tiedostoon kuukaudessa.",
-      heroSubtitle2:
-        "Pidämme lupauksemme: rajaton transkriptio ilman piilotettuja isoja kirjaimia."
+      heroSubtitle1: "Trint rajoittaa tiedostojen käsittelyn 50 tuntiin ja Otter 10 tiedostoon kuukaudessa.",
+      heroSubtitle2: "Pidämme lupauksemme: rajaton transkriptio ilman piilotettuja isoja kirjaimia."
     },
     BulkUpload: {
       heroBadgeIcon: "📁",
@@ -1378,8 +1339,7 @@ let message = {
       comparisonSectionTitlePart1: "Ne",
       comparisonSectionTitleHighlight: "Naurettavat rajat",
       comparisonSectionTitlePart2: "Joita ne asettavat",
-      comparisonSubtitle:
-        "Kuinka kilpailijat rajoittavat sisältösi käsittelykykyä",
+      comparisonSubtitle: "Kuinka kilpailijat rajoittavat sisältösi käsittelykykyä",
       limitCard1Service: "Otter Free",
       limitCard1Number: "3",
       limitCard1DescriptionLine1: "Elinikäiset tuonnit",
@@ -1456,8 +1416,7 @@ let message = {
       feature3VisualSubtext: "Lähetä kun inspiraatio iskee",
       useCasesTitlePart1: "Täydellinen",
       useCasesTitleHighlight: "Runsaasti lähettäville",
-      useCasesSubtitle:
-        "Todellisia tilanteita, joissa massalähetys pelastaa päivän",
+      useCasesSubtitle: "Todellisia tilanteita, joissa massalähetys pelastaa päivän",
       useCase1Title: "Podcast-arkistot",
       useCase1Description:
         "Lähetä 3 vuoden jaksoja kerralla. Luo tekstitykset koko arkistoosi. Luo SEO-sisältöä jokaiselle jaksolle.",
@@ -1499,8 +1458,7 @@ let message = {
       statCard3DescriptionLine1: "Sanatason",
       statCard3DescriptionLine2: "Aikaleiman tarkkuus",
       languageSectionTitlePart1: "96 % tarkkuus",
-      languageSubtitle:
-        "Ammattiluokan puheentunnistus maailmanlaajuiselle sisällölle",
+      languageSubtitle: "Ammattiluokan puheentunnistus maailmanlaajuiselle sisällölle",
       languageCard1Flag: "🇺🇸",
       languageCard1Name: "Englanti",
       languageCard1Accuracy: "96 % tarkkuus",
@@ -1670,12 +1628,7 @@ let message = {
           },
           features: {
             title: "Ominaisuudet",
-            items: [
-              "100+ kieltä",
-              "Puhujien tunnisteet",
-              "Käännös",
-              "Kaikki vientiformaatit"
-            ]
+            items: ["100+ kieltä", "Puhujien tunnisteet", "Käännös", "Kaikki vientiformaatit"]
           },
           cta: {
             text: "Aloita ilmaiseksi. Ei luottokorttia.",
@@ -1748,8 +1701,7 @@ let message = {
       header: {
         title: "Vertaa",
         highlighted_text: "Kaikki ominaisuudet",
-        subtitle:
-          "Katso tarkalleen, mitä saat kussakin suunnitelmassa. Ei piilotettuja rajoituksia."
+        subtitle: "Katso tarkalleen, mitä saat kussakin suunnitelmassa. Ei piilotettuja rajoituksia."
       },
       plans: ["Ominaisuudet", "Ilmainen", "Pro Monthly", "Pro Annual"],
       features: [
@@ -1781,11 +1733,7 @@ let message = {
         },
         {
           name: "Opintopisteiden käyttöoikeus",
-          values: [
-            "Ensimmäinen 30 minuutin esikatselu",
-            "Täydellinen transkriptio",
-            "Täydellinen transkriptio"
-          ]
+          values: ["Ensimmäinen 30 minuutin esikatselu", "Täydellinen transkriptio", "Täydellinen transkriptio"]
         },
         {
           name: "Joukkolataukset",
@@ -1873,8 +1821,7 @@ let message = {
     },
     CTA: {
       title: "Valmiina siirtymään rajoittamattomaan?",
-      subtitle:
-        "Liity yli 50 000 ammattilaisen joukkoon, jotka tekstittävät ilman rajoja",
+      subtitle: "Liity yli 50 000 ammattilaisen joukkoon, jotka tekstittävät ilman rajoja",
       button: "Kokeile NeverCapia ilmaiseksi →",
       disclaimer: "Luottokorttia ei vaadita • Aloita tekstitys sekunneissa"
     }
@@ -1883,8 +1830,7 @@ let message = {
     AllUseCases: {
       builtFor: "Suunniteltu",
       heavyUsers: "Aktiivikäyttäjät",
-      whoActuallyNeed:
-        "jotka todella tarvitsevat rajoittamattomia ominaisuuksia",
+      whoActuallyNeed: "jotka todella tarvitsevat rajoittamattomia ominaisuuksia",
       podcasters: {
         title: "Podcastaajat",
         pain: '"Lopeta jaksojen valitseminen tekstitysten arvoiseksi"',
@@ -2044,8 +1990,7 @@ let message = {
       quotes: {
         title: "Oikeat käyttäjät,",
         titleHighlight: "Oikea vapaus",
-        subtitle:
-          "Kuuntele ammattilaisia, jotka vapautuivat keinotekoisista rajoituksista",
+        subtitle: "Kuuntele ammattilaisia, jotka vapautuivat keinotekoisista rajoituksista",
         testimonials: {
           mike: {
             textBefore: '"Minulla oli',
@@ -2072,11 +2017,9 @@ let message = {
             role: "Päätutkija"
           },
           carlos: {
-            textBefore:
-              '"Teen opetussisältöä espanjaksi. NeverCap tekstittää täydellisesti ja',
+            textBefore: '"Teen opetussisältöä espanjaksi. NeverCap tekstittää täydellisesti ja',
             highlight: "kääntää englanniksi",
-            textAfter:
-              'laajemman yleisön saavuttamiseksi. Ei rajoja, vain kasvua."',
+            textAfter: 'laajemman yleisön saavuttamiseksi. Ei rajoja, vain kasvua."',
             name: "Carlos Martinez",
             role: "YouTube-opettaja"
           }
@@ -2097,8 +2040,7 @@ let message = {
       },
       cta: {
         title: "Myös sinun käyttötapauksesi tarvitsee rajattoman",
-        subtitle:
-          "Liity 50 000+ ammattilaiseen, jotka lopettivat minuuttien laskemisen ja alkoivat luoda",
+        subtitle: "Liity 50 000+ ammattilaiseen, jotka lopettivat minuuttien laskemisen ja alkoivat luoda",
         button: "Aloita rajaton matkasi →"
       },
       heroSubtitleA:
@@ -2135,8 +2077,7 @@ let message = {
       },
       problemTitle: "Podcast-litterointi",
       problemTitleHighlight: "Podcast-tekstitysongelma",
-      problemSubtitle:
-        'Muut palvelut pakottavat valitsemaan, mitkä jaksot ovat "tekstityksen arvoisia"',
+      problemSubtitle: 'Muut palvelut pakottavat valitsemaan, mitkä jaksot ovat "tekstityksen arvoisia"',
       problems: {
         problem1: {
           title: "Latausrajat tuhoavat arkistot",
@@ -2158,23 +2099,19 @@ let message = {
       solutionTitleHighlight: "NeverCap-ratkaisu",
       workflowTitle: "Podcast-työskentelysi,",
       workflowTitleHighlight: "Yksinkertaistettu",
-      workflowSubtitle:
-        "Äänityksestä SEO-optimoituihin jakson tiedotteisiin minuuteissa",
+      workflowSubtitle: "Äänityksestä SEO-optimoituihin jakson tiedotteisiin minuuteissa",
       workflow: {
         step1: {
           title: "Lataa jaksot",
-          description:
-            "Pudota 50 jaksoa kerralla. MP3, MP4, WAV - käsittelemme ne kaikki."
+          description: "Pudota 50 jaksoa kerralla. MP3, MP4, WAV - käsittelemme ne kaikki."
         },
         step2: {
           title: "AI tekstittää",
-          description:
-            "96 % tarkkuus puhujien tunnistuksella. Täydellinen haastatteluihin."
+          description: "96 % tarkkuus puhujien tunnistuksella. Täydellinen haastatteluihin."
         },
         step3: {
           title: "Älykäs muotoilu",
-          description:
-            "AI lisää kappaleet, lauseet ja välimerkit automaattisesti."
+          description: "AI lisää kappaleet, lauseet ja välimerkit automaattisesti."
         },
         step4: {
           title: "Julkaise & Sijoitu",
@@ -2284,11 +2221,9 @@ let message = {
         }
       },
       ctaTitle: "Aloita jokaisen jakson tekstitys",
-      ctaSubtitle:
-        "Liity 10 000+ podcastaajaan, jotka eivät koskaan huolehdi rajoituksista",
+      ctaSubtitle: "Liity 10 000+ podcastaajaan, jotka eivät koskaan huolehdi rajoituksista",
       ctaButton: "Lataa ensimmäiset 50 jaksoasi ilmaiseksi →",
-      ctaDisclaimer:
-        "Luottokorttia ei vaadita • Käsittele rajattomasti jaksoja • Peruuta milloin tahansa",
+      ctaDisclaimer: "Luottokorttia ei vaadita • Käsittele rajattomasti jaksoja • Peruuta milloin tahansa",
       solutionDescriptionA:
         "{NeverCap}:n avulla saat todella rajattoman transkription. Lataa koko arkistosi. Transkriptoi jokainen uusi jakso. Luo ohjelman muistiinpanoja skaalautuvasti. Ei ylärajoja, ei rajoituksia, vain kasvua."
     },
@@ -2345,8 +2280,7 @@ let message = {
       problem: {
         title: "Toimittaja",
         titleHighlight: "Toimittajien tekstitysongelma",
-        subtitle:
-          'Muut palvelut pakottavat valitsemaan, mitkä haastattelut ovat "arvoisia" tekstitykseen',
+        subtitle: 'Muut palvelut pakottavat valitsemaan, mitkä haastattelut ovat "arvoisia" tekstitykseen',
         problems: {
           uploadLimits: {
             title: "Latausrajoitukset tappavat tutkimukset",
@@ -2375,8 +2309,7 @@ let message = {
         title: "1",
         titleHighlight: "Paras haastattelujen transkriptio-ohjelmisto",
         titleSuffix: "Journalisteille",
-        subtitle:
-          "Todelliset edut, kun määräajat ovat tiukkoja ja tarkkuus on kaikki kaikessa",
+        subtitle: "Todelliset edut, kun määräajat ovat tiukkoja ja tarkkuus on kaikki kaikessa",
         solutions: {
           unlimitedUploads: {
             label: "Rajaton määrä",
@@ -2427,8 +2360,7 @@ let message = {
               accuracy: "96 %",
               label: "Julkaisuvalmis tarkkuus",
               transcript: {
-                speaker1:
-                  '"Tutkinta paljasti merkittäviä ristiriitaisuuksia taloudellisissa raporteissa."',
+                speaker1: '"Tutkinta paljasti merkittäviä ristiriitaisuuksia taloudellisissa raporteissa."',
                 speaker2: '"Voisitko tarkentaa näitä erityisiä eroja?"'
               }
             }
@@ -2453,48 +2385,39 @@ let message = {
       features: {
         title: "Kaikki mitä",
         titleHighlight: "Toimittaja tarvitsee",
-        subtitle:
-          "Ammattimaiset työkalut, jotka kunnioittavat työskentelytapojasi",
+        subtitle: "Ammattimaiset työkalut, jotka kunnioittavat työskentelytapojasi",
         featuresList: {
           languages: {
             title: "100+ kieltä",
-            description:
-              "Haastattele lähteitä maailmanlaajuisesti 12 pääkielellä 96 % tarkkuudella."
+            description: "Haastattele lähteitä maailmanlaajuisesti 12 pääkielellä 96 % tarkkuudella."
           },
           exportFormats: {
             title: "Vie muodoissa",
-            description:
-              "Word, PDF, SRT, TXT. Yhteensopiva minkä tahansa työnkulkun kanssa."
+            description: "Word, PDF, SRT, TXT. Yhteensopiva minkä tahansa työnkulkun kanssa."
           },
           sourceProtection: {
             title: "Lähdesuoja",
-            description:
-              "Pankkitason salaus. Lähteesi pysyvät luottamuksellisina."
+            description: "Pankkitason salaus. Lähteesi pysyvät luottamuksellisina."
           },
           timestamps: {
             title: "Aikaleimat",
-            description:
-              "Napsauta mitä tahansa lainausta siirtyäksesi tarkkaan äänikohtaan."
+            description: "Napsauta mitä tahansa lainausta siirtyäksesi tarkkaan äänikohtaan."
           },
           teamSharing: {
             title: "Tiimijako",
-            description:
-              "Tee yhteistyötä toimittajien kanssa. Jaa tekstitykset turvallisesti."
+            description: "Tee yhteistyötä toimittajien kanssa. Jaa tekstitykset turvallisesti."
           },
           mobileReady: {
             title: "Mobiilivalmis",
-            description:
-              "Lataa puhelimesta. Tarkastele tekstityksiä missä tahansa."
+            description: "Lataa puhelimesta. Tarkastele tekstityksiä missä tahansa."
           },
           smartFormatting: {
             title: "Älykäs Muotoilu",
-            description:
-              "Automaattiset kappaleet ja välimerkit luettaviksi tekstityksiksi."
+            description: "Automaattiset kappaleet ja välimerkit luettaviksi tekstityksiksi."
           },
           batchProcessing: {
             title: "Eräkäsittely",
-            description:
-              "Lataa 50 tiedostoa kerralla. Käsittele yön aikana kun nukut."
+            description: "Lataa 50 tiedostoa kerralla. Käsittele yön aikana kun nukut."
           }
         }
       },
@@ -2509,8 +2432,7 @@ let message = {
       cta: {
         title: "Aloita Tekstittäminen",
         titleHighlight: "Ilman Rajoja",
-        subtitle:
-          "Liity tuhansiin toimittajiin, jotka lopettivat latausten laskemisen ja keskittyivät tarinoihin",
+        subtitle: "Liity tuhansiin toimittajiin, jotka lopettivat latausten laskemisen ja keskittyivät tarinoihin",
         ctaPrimary: "Kokeile Rajoitonta Ilmaiseksi →",
         ctaSecondary: "Katso Hinnasto"
       }
@@ -2629,13 +2551,11 @@ let message = {
         steps: {
           pasteLinks: {
             title: "Liitä linkit",
-            description:
-              "Pudota YouTube-, TikTok- tai mikä tahansa videolinkki. Tai lataa tiedostot suoraan."
+            description: "Pudota YouTube-, TikTok- tai mikä tahansa videolinkki. Tai lataa tiedostot suoraan."
           },
           autoTranscribe: {
             title: "Automaattinen tekstitys",
-            description:
-              "AI käsittelee 96 % tarkkuudella. Hallitsee aksentit ja useat puhujat."
+            description: "AI käsittelee 96 % tarkkuudella. Hallitsee aksentit ja useat puhujat."
           },
           editTranslate: {
             title: "Muokkaa & Käännä",
@@ -2643,8 +2563,7 @@ let message = {
           },
           exportPublish: {
             title: "Vie & Julkaise",
-            description:
-              "Lataa missä tahansa muodossa. Lataa alustallesi. Valmista!"
+            description: "Lataa missä tahansa muodossa. Lataa alustallesi. Valmista!"
           }
         }
       },
@@ -2653,8 +2572,7 @@ let message = {
         titleHighlight: "Vaihtavat päivittäin",
         subtitle: "Rajoitetuista suunnitelmista rajattomaan vapautteen",
         carlos: {
-          textBefore:
-            "Teen opetusmateriaalia espanjaksi. NeverCap tekstittää täydellisesti ja",
+          textBefore: "Teen opetusmateriaalia espanjaksi. NeverCap tekstittää täydellisesti ja",
           textAfter:
             "laajemman tavoittavuuden vuoksi. Ei rajoja, vain kasvua. Kanavani katselukerrat kolminkertaistuivat monikielisten tekstitysten lisäämisen jälkeen.",
           highlight: "kääntää englanniksi",
@@ -2695,8 +2613,7 @@ let message = {
       FAQSection: {
         title: "Transkriptiokysymyksesi,",
         titleHighlight: "Vastattu",
-        subtitle:
-          "Kaikki mitä sinun tulee tietää videoiden transkriptiosta eri alustoilla",
+        subtitle: "Kaikki mitä sinun tulee tietää videoiden transkriptiosta eri alustoilla",
         questions: [
           {
             question: "K: Miten transkriboin YouTube-videon NeverCapilla?",
@@ -2704,8 +2621,7 @@ let message = {
               "Se on helppoa. Etsi vain haluamasi YouTube-video, kopioi sen URL ja liitä se sovellukseemme. Tekoälymme hakee videon automaattisesti ja tarjoaa täyden tekstityksen minuuteissa."
           },
           {
-            question:
-              "K: Mikä on paras tapa transkriboida Facebook-video tekstiksi?",
+            question: "K: Mikä on paras tapa transkriboida Facebook-video tekstiksi?",
             answer:
               "Helpoin tapa on käyttää suoraa linkkiä. Kopioi Facebook-videon URL ja alustamme hoitaa loput, muuntaen puheen tekstiksi jopa 96 % tarkkuudella, säästäen sinut manuaaliselta transkriptiolta."
           },
@@ -2735,11 +2651,9 @@ let message = {
       statsSpeakersId: "Puhujien tunnistus",
       statsCompliant: "Yhteensopiva",
       problemTitle: "Tämä",
-      problemSubtitle:
-        'Muut palvelut pakottavat sinut valitsemaan, mitkä tiedot ovat "transkriboimisen arvoisia"',
+      problemSubtitle: 'Muut palvelut pakottavat sinut valitsemaan, mitkä tiedot ovat "transkriboimisen arvoisia"',
       problemCard1Title: "Lähetysrajoitukset tuhoavat tutkimukset",
-      problemCard1Desc:
-        "Otter tarjoaa 3 elinikäistä tuontia. Miten transkriboit 200 tuntia kohderyhmäkeskusteluja?",
+      problemCard1Desc: "Otter tarjoaa 3 elinikäistä tuontia. Miten transkriboit 200 tuntia kohderyhmäkeskusteluja?",
       problemCard2Title: "Kriittisten tietojen puuttuminen",
       problemCard2Desc:
         "Jokainen transkriboimaton haastattelu voi sisältää läpimurtotietoja. Mutta Rev veloittaa vähintään 2 $/min.",
@@ -2766,17 +2680,14 @@ let message = {
       feature2Point3: "Puhujien nimet, joita voit muokata",
       feature2Point4: "Aikaleima jokaiselle sanalle",
       conversationParticipant1: "Osallistuja 1",
-      conversationText1:
-        "Suurin este, johon törmäämme, on ehdottomasti hoidon korkea hinta...",
+      conversationText1: "Suurin este, johon törmäämme, on ehdottomasti hoidon korkea hinta...",
       conversationParticipant2: "Osallistuja 2",
       conversationText2: "Ehdottomasti, mutta lisäisin, että saatavuus on—",
       conversationParticipant3: "Osallistuja 3",
-      conversationText3:
-        "—anteeksi keskeytys, mutta liikenne on myös valtava ongelma.",
+      conversationText3: "—anteeksi keskeytys, mutta liikenne on myös valtava ongelma.",
       conversationText4: "Kyllä! Juuri sitä aioin sanoa.",
       conversationParticipant4: "Osallistuja 4",
-      conversationText5:
-        "Maaseudulla kaikki kolme ovat ongelmia: hinta, saatavuus JA liikenne.",
+      conversationText5: "Maaseudulla kaikki kolme ovat ongelmia: hinta, saatavuus JA liikenne.",
       feature3Label: "Tarkkuus",
       feature3Title: "Luotettava",
       feature3Desc:
@@ -2821,8 +2732,7 @@ let message = {
       testimonialAuthorName: "Dr. Sarah Chen",
       testimonialAuthorRole: "Päätutkija, Public Health Institute",
       ctaTitle: "Lopeta datan valitseminen analysoitavaksi",
-      ctaSubtitle:
-        "Liity yli 50 000 tutkijan joukkoon, jotka puhtaaksikirjoittavat kaiken",
+      ctaSubtitle: "Liity yli 50 000 tutkijan joukkoon, jotka puhtaaksikirjoittavat kaiken",
       ctaButton: "Kokeile NeverCapia ilmaiseksi",
       problemTitle2: "Tutkimustranskription ongelma",
       title: "The",
@@ -2857,8 +2767,7 @@ let message = {
       statsSpeakerID: "Puhujan tunnistus",
       statsInstantUpload: "Lataa & käsittele",
       featuresTitle: "Puhtaaksikirjoitus jokaiselle yritykselle",
-      featuresSubtitle:
-        "Live-nauhoituksesta välittömään lataukseen olemme poistaneet kaikki kitkakohdat",
+      featuresSubtitle: "Live-nauhoituksesta välittömään lataukseen olemme poistaneet kaikki kitkakohdat",
       feature1Title: "Nauhoita suoraan selaimessasi",
       feature1Desc:
         "Ei latauksia, ei liitännäisiä. Aloita nauhoitus välittömästi yhdellä napsautuksella. Täydellinen äänenlaatu, automaattinen puhujien tunnistus.",
@@ -2871,8 +2780,7 @@ let message = {
       feature2Title: "Lataa mikä tahansa äänitiedosto välittömästi",
       feature2Desc:
         "Onko sinulla nauhoituksia Zoomista, Teamsista tai puhelimestasi? Lataa ne välittömästi. Tuki kaikille suurimmille ääni- ja videoformaateille. Käsittele useita tiedostoja samanaikaisesti ilman odottamista.",
-      feature2Benefit1:
-        "Tuetut: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV, FLAC",
+      feature2Benefit1: "Tuetut: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV, FLAC",
       feature2Benefit2: "Erälatausmahdollisuus",
       feature2Benefit3: "10 tunnin tiedostot tuettu",
       feature2Benefit4: "Käsittele työskennellessäsi",
@@ -2899,21 +2807,18 @@ let message = {
       feature4Meeting2: "Hallituksen Kokous - 20.10.",
       feature4Meeting2Text: '"...Q4 liikevaihtoennusteet..."',
       workflowTitle: "Kuinka Muunnat",
-      workflowSubtitle:
-        "Saumaton työnkulku, joka tallentaa jokaisen tärkeän hetken",
+      workflowSubtitle: "Saumaton työnkulku, joka tallentaa jokaisen tärkeän hetken",
       workflowStep1Title: "Nauhoita tai Lataa",
       workflowStep1Desc:
         "Aloita suora nauhoitus tai lataa kokousäänite Zoomista, Google Meetistä tai Microsoft Teamsista",
       workflowStep2Title: "Automaattinen Tekstitys",
-      workflowStep2Desc:
-        "Tekoälymme muuntaa äänitteen tekstiksi 96 % tarkkuudella minuuteissa",
+      workflowStep2Desc: "Tekoälymme muuntaa äänitteen tekstiksi 96 % tarkkuudella minuuteissa",
       workflowStep3Title: "Tee Yhteistyötä",
       workflowStep3Desc: "Jaa, kommentoi ja poimi tehtävät",
       workflowStep4Title: "Hae & Analysoi",
       workflowStep4Desc: "Löydä oivalluksia kaikista kokouksistasi",
       testimonialsTitle: "Tiimit Rakastavat",
-      testimonialsSubtitle:
-        "Katso, miten yritykset muuttavat kokouskulttuuriaan",
+      testimonialsSubtitle: "Katso, miten yritykset muuttavat kokouskulttuuriaan",
       testimonial1Text:
         '"Siirryimme tärkeiden yksityiskohtien unohtamisesta kaikkien keskustelujen haettavaan arkistoon. Suora nauhoitus tarkoittaa, että emme koskaan unohda tallentaa tärkeitä keskusteluja."',
       testimonial1AuthorName: "James Kim",
@@ -2927,8 +2832,7 @@ let message = {
       testimonial3AuthorName: "Mark Liu",
       testimonial3AuthorRole: "COO, FinanceHub",
       ctaTitle: "Lopeta Tärkeiden Keskustelujen Häviäminen",
-      ctaSubtitle:
-        "Liity tuhansiin tiimeihin, jotka tallentavat jokaisen kokouksen rajoittamattomalla tekstityksellä",
+      ctaSubtitle: "Liity tuhansiin tiimeihin, jotka tallentavat jokaisen kokouksen rajoittamattomalla tekstityksellä",
       ctaButton: "Aloita Nauhoitus Ilmaiseksi →",
       featuresTitle2: "Kokous",
       workflowTitle2: "Zoom-äänitteen Tekstiksi",
@@ -2991,23 +2895,17 @@ let message = {
       feature4Point3: "PDF helposta jakamisesta ja tulostamisesta",
       feature4Point4: "Vie useita tiedostoja kerralla",
       workflowTitle: "Miten se toimii:",
-      workflowSubtitle:
-        "Videolinkistä saatavilla olevaan tekstitykseen ja opintomateriaaleihin minuuteissa",
+      workflowSubtitle: "Videolinkistä saatavilla olevaan tekstitykseen ja opintomateriaaleihin minuuteissa",
       workflowStep1Title: "Lataa luentosi",
-      workflowStep1Desc:
-        "Lataa mikä tahansa ääni- tai videotiedosto (MP3, MP4, WAV) tai liitä YouTube-linkki",
+      workflowStep1Desc: "Lataa mikä tahansa ääni- tai videotiedosto (MP3, MP4, WAV) tai liitä YouTube-linkki",
       workflowStep2Title: "AI-tekstitys",
-      workflowStep2Desc:
-        "Tekoälymme tekstittää äänen, erottaa puhujat ja tunnistaa keskeiset aiheet",
+      workflowStep2Desc: "Tekoälymme tekstittää äänen, erottaa puhujat ja tunnistaa keskeiset aiheet",
       workflowStep3Title: "Luo tekstitykset",
-      workflowStep3Desc:
-        "Luo automaattisesti täydellisesti synkronoidut alatekstit",
+      workflowStep3Desc: "Luo automaattisesti täydellisesti synkronoidut alatekstit",
       workflowStep4Title: "1. Vie Opintopolkuja",
-      workflowStep4Desc:
-        "2. Lataa teksti, yhteenveto tai vie se luodaksesi lopullisen opinto-oppaan",
+      workflowStep4Desc: "2. Lataa teksti, yhteenveto tai vie se luodaksesi lopullisen opinto-oppaan",
       useCasesTitle: "3. Täydellinen jokaiseen",
-      useCasesSubtitle:
-        "5. Katso, kuinka opettajat käyttävät NeverCapia oppimisen tehostamiseen",
+      useCasesSubtitle: "5. Katso, kuinka opettajat käyttävät NeverCapia oppimisen tehostamiseen",
       useCase1Title: "6. Nauhoitetut Luennot",
       useCase1Text:
         "7. Muunna kokonaiset lukukaudet nauhoitettuja luentoja. Opiskelijat voivat etsiä tiettyjä aiheita, kerrata keskeisiä käsitteitä eivätkä koskaan jää paitsi tärkeästä tiedosta.",
@@ -3029,17 +2927,14 @@ let message = {
       testimonialSubtitle:
         '21. "Olen käyttänyt NeverCapia matematiikka-oppaani koko YouTube-kanavan tekstittämiseen. Mikä ennen kesti viikkoja muilla palveluilla, vie nyt tunteja. Linkkien suora liittäminen ja välittömät tekstitykset ovat muuttaneet saavutettavan sisällön luomistani. Kansainväliset opiskelijani rakastavat erityisesti monikielisiä tekstityksiä!"',
       testimonialAuthorName: "23. Matematiikan professori, verkkopedagogi",
-      testimonialAuthorRole:
-        "24. Tee kaikesta koulutuksellisesta sisällöstäsi saavutettavaa",
-      ctaTitle:
-        "25. Liity tuhansiin opettajiin, jotka käyttävät todella rajatonta tekstitystä",
+      testimonialAuthorRole: "24. Tee kaikesta koulutuksellisesta sisällöstäsi saavutettavaa",
+      ctaTitle: "25. Liity tuhansiin opettajiin, jotka käyttävät todella rajatonta tekstitystä",
       ctaSubtitle: "26. Kokeile NeverCapia Ilmaiseksi",
       ctaButton: "27. Ominaisuudet",
       featuresTitle2: "Videoiden tekstitykseen",
       grid: "Äänitiedosto opinto-oppaaksi",
       useCasesTitle2: "4. Koulutustarpeeseen",
-      testimonialTitle2:
-        "20. Katso, miksi opettajat ympäri maailman valitsevat NeverCapin",
+      testimonialTitle2: "20. Katso, miksi opettajat ympäri maailman valitsevat NeverCapin",
       testimonialTextA:
         '"Olen käyttänyt {NeverCap}-palvelua koko YouTube-kanavani matematiikan tutoriaalien litterointiin. Se, mikä ennen kesti viikkoja muilla palveluilla, vie nyt tunteja. Mahdollisuus liittää linkkejä suoraan ja saada välittömät litteroinnit on mullistanut tapani luoda saavutettavaa sisältöä. Kansainväliset opiskelijani rakastavat erityisesti monikielisiä tekstityksiä!"'
     }
@@ -3056,13 +2951,11 @@ let message = {
         tutorial: "Katso opetusvideo"
       },
       part2: {
-        title:
-          "Näin muutat YouTube-videon ladattavaksi MP4-tiedostoksi kolmessa helpossa vaiheessa",
+        title: "Näin muutat YouTube-videon ladattavaksi MP4-tiedostoksi kolmessa helpossa vaiheessa",
         steps: [
           {
             title: "Kopioi URL",
-            content:
-              "Avaa haluamasi YouTube-video ja kopioi linkki selaimen osoitepalkista."
+            content: "Avaa haluamasi YouTube-video ja kopioi linkki selaimen osoitepalkista."
           },
           {
             title: "Liitä linkki",
@@ -3070,8 +2963,7 @@ let message = {
           },
           {
             title: "Lataa MP4",
-            content:
-              "Kun käsittely on valmis, napsauta latauspainiketta tallentaaksesi MP4-tiedostosi."
+            content: "Kun käsittely on valmis, napsauta latauspainiketta tallentaaksesi MP4-tiedostosi."
           }
         ]
       },
@@ -3084,10 +2976,7 @@ let message = {
         ]
       },
       part4: {
-        content: [
-          "Tässä 5 suurta hyötyä YouTube-videoiden",
-          "lataamisesta MP4-tiedostoina"
-        ],
+        content: ["Tässä 5 suurta hyötyä YouTube-videoiden", "lataamisesta MP4-tiedostoina"],
         list: [
           {
             title: "Säästä datakuluissa:",
@@ -3096,8 +2985,7 @@ let message = {
           },
           {
             title: "Katso missä ja milloin tahansa:",
-            content:
-              "Nauti videoistasi saumattomasti, vaikka internetyhteys olisi heikko. Ei enää puskurointiongelmia."
+            content: "Nauti videoistasi saumattomasti, vaikka internetyhteys olisi heikko. Ei enää puskurointiongelmia."
           },
           {
             title: "Helppo arkistointi ja säilytys:",
@@ -3140,15 +3028,13 @@ let message = {
             icon: "5",
             color: "#DEE5FF",
             title: "Alkuperäinen laatu taattu",
-            content:
-              "Latauksesi säilyttävät lähdevideon täyden resoluution täydellistä toistoa varten joka kerta."
+            content: "Latauksesi säilyttävät lähdevideon täyden resoluution täydellistä toistoa varten joka kerta."
           },
           {
             icon: "6",
             color: "#DEF6EE",
             title: "Toimii kaikkialla",
-            content:
-              "Täysin yhteensopiva kaikkien selaimien ja laitteiden kanssa."
+            content: "Täysin yhteensopiva kaikkien selaimien ja laitteiden kanssa."
           }
         ]
       },
@@ -3165,8 +3051,7 @@ let message = {
         title: "Keskeisiä kysymyksiä YouTube-videoiden lataamisesta",
         list: [
           {
-            question:
-              "Voinko ladata YouTube-videon, jos se on tekijänoikeussuojattu?",
+            question: "Voinko ladata YouTube-videon, jos se on tekijänoikeussuojattu?",
             answer:
               "Tekijänoikeussuojattujen YouTube-videoiden lataaminen ilman tekijänoikeuden omistajan lupaa on laitonta."
           },
@@ -3177,8 +3062,7 @@ let message = {
           },
           {
             question: "Mitä kieliä YouTube MP4-lataus tukee?",
-            answer:
-              "Palvelumme tukee YouTube-videoiden lataamista kaikilla suosituilla kielillä."
+            answer: "Palvelumme tukee YouTube-videoiden lataamista kaikilla suosituilla kielillä."
           },
           {
             question: "Mitkä tekijät vaikuttavat YouTube-videon latausaikaan?",
@@ -3186,14 +3070,12 @@ let message = {
               "Vaikka takaamme mahdollisimman nopean latauskokemuksen, latausaikaan vaikuttavat myös tekijät kuten videon pituus ja internet-yhteytesi nopeus."
           },
           {
-            question:
-              "Minne MP4-video tallentuu, kun lataan sen älypuhelimella?",
+            question: "Minne MP4-video tallentuu, kun lataan sen älypuhelimella?",
             answer:
               'Ladattuaan MP4-tiedoston älypuhelimeen, löydät sen yleensä laitteesi tiedostonhallintaohjelman "Lataukset"-kansiosta.'
           },
           {
-            question:
-              "Heikentääkö YouTube-videon lataaminen MP4-muotona videon laatua?",
+            question: "Heikentääkö YouTube-videon lataaminen MP4-muotona videon laatua?",
             answer:
               "Ei. YouTube-videoiden lataaminen MP4-muotona käyttäen työkaluamme säilyttää alkuperäisen videon laadun. Muunnosprosessi säilyttää lähdelaadun, joten saat saman katselukokemuksen kuin YouTubessa."
           }
@@ -3202,8 +3084,7 @@ let message = {
       err1: "YouTube-linkin muotoiluvauri.",
       err2: "Valitettavasti! Toimimme tällä hetkellä vain YouTube-linkkien kanssa. Jos tarvitset tukea muille sivustoille, pidämme sinut ajan tasalla, kun lisäämme sen tulevaisuudessa.",
       videoDownload: {
-        title:
-          "Lataa YouTube-videoita MP4-muodossa. Ilmaista, nopeaa ja ilman mainoksia.",
+        title: "Lataa YouTube-videoita MP4-muodossa. Ilmaista, nopeaa ja ilman mainoksia.",
         description:
           "Kiitos, että valitsit palvelumme! Arvostamme luottamustasi ja toivomme, että se paransi kokemustasi. Jos voisit jakaa verkkosivustomme ystäviesi kanssa, se olisi suuri apu.",
         downloadButton: "Lataa",
@@ -3217,8 +3098,7 @@ let message = {
         steps: [
           {
             title: "Ilmainen ääni ja video",
-            content:
-              "Muunna ääni- ja videotiedostot tekstiksi sekunneissa. 3 ilmaista transkriptiota joka päivä."
+            content: "Muunna ääni- ja videotiedostot tekstiksi sekunneissa. 3 ilmaista transkriptiota joka päivä."
           },
           {
             title: "Muunna äänitiedostot tekstiksi",
@@ -3227,15 +3107,13 @@ let message = {
           },
           {
             title: "Litteroi YouTube-videoita",
-            content:
-              "Muunna YouTube-videot tarkkaan tekstiin tai tekstityksiin. Liitä vain YouTube-linkki."
+            content: "Muunna YouTube-videot tarkkaan tekstiin tai tekstityksiin. Liitä vain YouTube-linkki."
           }
         ],
         stepsNew: [
           {
             title: "Ilmainen äänen ja videon transkriptio",
-            content:
-              "Muunna ääni- ja videotiedostot tekstiksi sekunneissa. 3 ilmaista transkriptiota joka päivä."
+            content: "Muunna ääni- ja videotiedostot tekstiksi sekunneissa. 3 ilmaista transkriptiota joka päivä."
           },
           {
             title: "Muunna äänitiedostot tekstiksi",
@@ -3244,191 +3122,201 @@ let message = {
           },
           {
             title: "Litteroi YouTube-videoita",
-            content:
-              "Muunna YouTube-videot tarkkaan tekstiin tai tekstityksiin. Liitä vain YouTube-linkki."
+            content: "Muunna YouTube-videot tarkkaan tekstiin tai tekstityksiin. Liitä vain YouTube-linkki."
           }
         ]
       },
-        MoreFreeTools: {
-              "title": "Lisää ilmaisia ​​työkaluja",
-              "title_des": "Tutustu muihin ilmaisiin muunnostyökaluihimme",
-              "YouTubeToMP": "YouTubesta MP3:een",
-              "YouTubeToMP_des": "Muunna YouTube-videot MP3-muotoon offline-katselua varten. Lataa korkealaatuisia videoita välittömästi.",
-              "AITranscription": "Tekoälytranskriptio",
-              "AITranscription_des": "Litteroi ääni- ja videotiedostoja 96 %:n tarkkuudella. Rajoittamaton litterointi kaikelle sisällöllesi."
-            }
+      MoreFreeTools: {
+        title: "Lisää ilmaisia ​​työkaluja",
+        title_des: "Tutustu muihin ilmaisiin muunnostyökaluihimme",
+        YouTubeToMP: "YouTubesta MP3:een",
+        YouTubeToMP_des:
+          "Muunna YouTube-videot MP3-muotoon offline-katselua varten. Lataa korkealaatuisia videoita välittömästi.",
+        AITranscription: "Tekoälytranskriptio",
+        AITranscription_des:
+          "Litteroi ääni- ja videotiedostoja 96 %:n tarkkuudella. Rajoittamaton litterointi kaikelle sisällöllesi."
+      }
     },
-      YouTubeToMP3: {
-            "err1": "YouTube-linkin muotovirhe.",
-            "err2": "Pahoittelut! Toimimme tällä hetkellä vain YouTube-linkkien kanssa. Jos tarvitset tukea muille sivustoille, pidämme sinut ajan tasalla, kun lisäämme ne tulevaisuudessa.",
-            "part1": {
-              "title": "Muunna YouTube-videot MP3-muotoon",
-              "title_des": "Poimi ääntä YouTube-videoista sekunneissa",
-              "placeholder": "Liitä Youtube-linkkisi tähän",
-              "clear_icon": "Tyhjennä syöte",
-              "Download": "Muuntaa",
-              "loading_text": "Linkkiä käsitellään muuntaaksesi sen. Pysy sivulla.",
-              "howToDownload": "Miten muuntaa?",
-              "tutorial": "Katso tutoriaali"
-            },
-            "freeResources": {
-              "linkTitle": "Powered by {NeverCap}",
-              "linkTitle2": "- Täysin rajaton tekoälyn transkriptio",
-              "title": "Ilmaisia ​​resursseja",
-              "stepsNew": [
-                {
-                  "title": "Ilmainen äänen ja videon transkriptio",
-                  "content": "Muunna ääni- ja videotiedostot tekstiksi sekunneissa. 3 tiedostoa litteroidaan joka päivä."
-                },
-                {
-                  "title": "Pura äänitiedostot tekstiksi",
-                  "content": "Lataa MP3-, MP4-, WAV- ja MOV-tiedostoja.",
-                  "content2": "Lataa DOCX-, TXT-, SRT- ja muita tiedostoja."
-                },
-                {
-                  "title": "Litteroi YouTube-videoita",
-                  "content": "Muunna YouTube-videot tarkkaan tekstiin tai tekstityksiin ja liitä linkki ilmaiseksi."
-                }
-              ]
-            },
-            "part2": {
-              "title": "Näin muutat YouTube-videon ladattavaksi MP3-tiedostoksi kolmessa helpossa vaiheessa",
-              "steps": [
-                {
-                  "title": "Kopioi URL-osoite",
-                  "content": "Avaa haluamasi YouTube-video ja kopioi linkki selaimesi osoiteriviltä."
-                },
-                {
-                  "title": "Liitä linkki",
-                  "content": "Lisää videoiden lataustyökaluusi ja liitä URL-osoite sen syöttökenttään."
-                },
-                {
-                  "title": "Muunna ja lataa",
-                  "content": "Kun muunnos on valmis, lataa MP3-tiedostosi tallentaaksesi sen."
-                }
-              ]
-            },
-            "part3": {
-              "content": [
-                "Haluatko muuntaa YouTube-videoita MP3-muotoon kuunnellaksesi niitä milloin tahansa?",
-                "Olitpa sitten metrossa, lentokoneessa tai järjestämässä podcasteja, kurssisisältöjä tai tärkeitä arkistoja, meillä on usein vaikeuksia päästä niihin käsiksi milloin tahansa. Tässä muunnostyökalumme ratkaisee tämän ongelman puolestasi.",
-                "Kopioi vain YouTube-linkki, liitä se muuntimeen ja yhdellä napsautuksella voit muuntaa videoita korkealaatuiseksi MP3-ääneksi. Tallenna, kuuntele ja arkistoi milloin tahansa ilman internetyhteyttä."
-              ]
-            },
-            "part4": {
-              "content": [
-                "Tässä ovat viisi tärkeintä hyötyä muuntamisesta",
-                "YouTube-videoista MP3-tiedostoihin"
-              ],
-              "list": [
-                {
-                  "title": "Säästä tallennustilaa:",
-                  "content": "MP3-tiedostot ovat pienempiä, mikä vähentää YouTuben tallennustilaa. Säästä mobiilidataa lataamalla offline-katselutiedostot ja käytä niitä vain, kun internetyhteys on saatavilla."
-                },
-                {
-                  "title": "Säästää akkua:",
-                  "content": "YouTube-videoiden katseluun he käyttävät puskurointipalvelua, joka käyttää helposti kuunneltavia yhteyksiä. Ei enää puskurointihuolia."
-                },
-                {
-                  "title": "Helppo arkistointi ja säilytys:",
-                  "content": "Jotkin videot tai MP3-tiedostot helpottavat henkilökohtaisen kirjaston rakentamista – olipa kyseessä sitten opetussisältö, musiikkiarkisto tai tärkeät tiedostot."
-                },
-                {
-                  "title": "Yksinkertaisempi jakaminen:",
-                  "content": "MP3-tiedoston jakaminen on paljon kätevämpää kuin YouTube-linkkien jakaminen. Voit lähettää tiedostoja ystäville sovellusten, kuten WhatsAppin tai Instagramin, kautta, mikä poistaa YouTuben avaamisen kustannukset."
-                },
-                {
-                  "title": "Välitön katselu, laaja joustavuus:",
-                  "content": "Käytä laajempaa suosikkivideosisältöäsi muuntamalla YouTube-videoita minne ikinä tarvitsetkin niitä. MP3-muodot mahdollistavat sujuvan yhteen kokoamisen heti ilman kiusallisia taukoja latauksen odottamisessa."
-                }
-              ]
-            },
-            "part5": {
-              "title": "Miksi muuntimemme erottuu joukosta",
-              "cards": [
-                {
-                  "title": "Yhden napsautuksen helppous",
-                  "content": "Vaivaton asennus ja intuitiivinen käyttö."
-                },
-                {
-                  "title": "Salamannopea, rajaton",
-                  "content": "Muunna ja lataa huippunopeudella – ei ylärajoja, ei rajoituksia."
-                },
-                {
-                  "title": "Muunna lennossa",
-                  "content": "Käsittele tiedostosi välittömästi, ei odottelua."
-                },
-                {
-                  "title": "Ei mainoksia, ei häiriötekijöitä",
-                  "content": "Nauti siististä käyttöliittymästä ilman ponnahdusikkunoita, bannereita tai keskeytyksiä – vain sujuvaa ja keskeytymätöntä muuntamista."
-                },
-                {
-                  "title": "Alkuperäinen laatu taattu",
-                  "content": "Latauksesi säilyttävät lähdevideon täyden resoluution pikselintarkkaa toistoa varten joka kerta."
-                },
-                {
-                  "title": "Toimii missä tahansa",
-                  "content": "Täysin yhteensopiva minkä tahansa selaimen kanssa, millä tahansa laitteella."
-                }
-              ]
-            },
-            "part6": {
-              "title": [
-                "Maksimoi YouTube-tiedostojesi muuntaminen MP3-tiedostoiksi",
-                "Muuntimemme avulla"
-              ],
-              "title_des": "Vaivaton YouTube-muunnos MP3-tiedostoiksi — nopea, yksinkertainen ja ilmainen",
-              "content": [
-                "Tässä olemme erinomaisia. Käyttäjäystävällinen käyttöliittymämme on suunniteltu kaikille – teknisiä taitoja ei tarvita. Kokemustasostasi riippumatta voit muuntaa videoita välittömästi. Rekisteröitymistä ei vaadita, ja pääset alkuun yksinkertaisesti sillä, mitä tarvitset – lataamasi MP3-tiedostot säilyttävät alkuperäisen videolaadun ja selkeyden, täsmälleen sellaisena kuin katsoit ne YouTubessa.",
-                "Myös nopeudella on merkitystä. Voit ladata useita tiedostoja nopeasti, ilman mainoksia ja laitteita. Käytitpä sitten Windowsia, macOS:ää, Linuxia, Androidia tai iOS:ää – älypuhelinta, tablettia tai pöytätietokonetta – voit ladata videoita vaivattomasti."
-              ]
-            },
-            "part7": {
-              "title": "Keskeisiä kysymyksiä YouTuben muuntamisesta MP3-muotoon",
-              "list": [
-                {
-                  "question": "Voinko muuntaa tekijänoikeuksin suojatun YouTube-videon MP3-muotoon?",
-                  "answer": "Vaikka se on teknisesti mahdollista, tekijänoikeuksin suojatun sisällön muuntaminen ilman lupaa voi rikkoa YouTuben palveluehtoja ja tekijänoikeuslakeja. Varmista aina, että sinulla on oikeus muuntaa sisältöä tai käyttää sitä vain henkilökohtaisiin, ei-kaupallisiin tarkoituksiin."
-                },
-                {
-                  "question": "Onko tämä muunnostyökalu turvallinen?",
-                  "answer": "Kyllä, muuntimemme on täysin turvallinen. Emme tallenna mitään tietojasi tai tiedostojasi, eikä haittaohjelmien tai virusten riskiä ole. Muunnos tapahtuu suoraan ja turvallisesti."
-                },
-                {
-                  "question": "Mitä kieliä YouTuben MP3-muotoon muuntaminen tukee?",
-                  "answer": "Muunnosohjelmamme tukee kaikkia YouTubessa saatavilla olevia kieliä. Ääni poimitaan täsmälleen sellaisena kuin se näkyy alkuperäisessä videossa, säilyttäen alkuperäisen kielen ja äänenlaadun."
-                },
-                {
-                  "question": "Mitkä tekijät vaikuttavat YouTube-videon muuntamiseen kuluvaan aikaan?",
-                  "answer": "Muunnosaika riippuu useista tekijöistä: videon pituudesta, internet-yhteytesi nopeudesta ja palvelimen nykyisestä kuormituksesta. Useimmat alle 10 minuutin mittaiset videot muuntuvat alle 30 sekunnissa."
-                },
-                {
-                  "question": "Kun muunnan ja lataan MP3-tiedoston älypuhelimellani, minne se tallennetaan?",
-                  "answer": "Useimmissa älypuhelimissa muunnetut MP3-tiedostot tallennetaan Lataukset-kansioon. iPhonessa ne saattavat mennä Tiedostot-sovellukseen. Androidissa tarkista Lataukset-kansio tiedostonhallinnasta tai musiikkisovelluksesta."
-                },
-                {
-                  "question": "Heikentääkö YouTube-videon muuntaminen MP3-muotoon äänenlaatua?",
-                  "answer": "MP3 on pelkkää ääntä sisältävä formaatti, joten siinä ei ole videokomponenttia. Äänenlaatu säilytetään lähdevideon korkeimmalla mahdollisella bittinopeudella, tyypillisesti 128–320 kbps alkuperäisestä latauslaadusta riippuen."
-                }
-              ]
-            },
-            "MoreFreeTools": {
-              "title": "Lisää ilmaisia ​​työkaluja",
-              "title_des": "Tutustu muihin ilmaisiin muunnostyökaluihimme",
-              "YouTubeToMP": "YouTubesta MP4:ään",
-              "YouTubeToMP_des": "Muunna YouTube-videot MP4-muotoon offline-katselua varten. Lataa korkealaatuisia videoita välittömästi.",
-              "AITranscription": "Tekoälytranskriptio",
-              "AITranscription_des": "Litteroi ääni- ja videotiedostoja 96 %:n tarkkuudella. Rajoittamaton litterointi kaikelle sisällöllesi."
-            },
-            "videoDownload": {
-              "title": "Muunna YouTube-linkit MP3-tiedostoiksi. Ilmainen, nopea ja ilman mainoksia.",
-              "description": "Kiitos, että valitsit palvelumme! Arvostamme todella luottamustasi ja toivomme, että se paransi kokemustasi. Olisi valtavasti apua, jos voisit jakaa verkkosivustomme ystäviesi kanssa.",
-              "downloadButton": "Lataa",
-              "TranscribeButton": "Litteroi",
-              "downloadError": "Muunnosvirhe."
-            }
+    YouTubeToMP3: {
+      err1: "YouTube-linkin muotovirhe.",
+      err2: "Pahoittelut! Toimimme tällä hetkellä vain YouTube-linkkien kanssa. Jos tarvitset tukea muille sivustoille, pidämme sinut ajan tasalla, kun lisäämme ne tulevaisuudessa.",
+      part1: {
+        title: "Muunna YouTube-videot MP3-muotoon",
+        title_des: "Poimi ääntä YouTube-videoista sekunneissa",
+        placeholder: "Liitä Youtube-linkkisi tähän",
+        clear_icon: "Tyhjennä syöte",
+        Download: "Muuntaa",
+        loading_text: "Linkkiä käsitellään muuntaaksesi sen. Pysy sivulla.",
+        howToDownload: "Miten muuntaa?",
+        tutorial: "Katso tutoriaali"
+      },
+      freeResources: {
+        linkTitle: "Powered by {NeverCap}",
+        linkTitle2: "- Täysin rajaton tekoälyn transkriptio",
+        title: "Ilmaisia ​​resursseja",
+        stepsNew: [
+          {
+            title: "Ilmainen äänen ja videon transkriptio",
+            content: "Muunna ääni- ja videotiedostot tekstiksi sekunneissa. 3 tiedostoa litteroidaan joka päivä."
+          },
+          {
+            title: "Pura äänitiedostot tekstiksi",
+            content: "Lataa MP3-, MP4-, WAV- ja MOV-tiedostoja.",
+            content2: "Lataa DOCX-, TXT-, SRT- ja muita tiedostoja."
+          },
+          {
+            title: "Litteroi YouTube-videoita",
+            content: "Muunna YouTube-videot tarkkaan tekstiin tai tekstityksiin ja liitä linkki ilmaiseksi."
           }
-},
+        ]
+      },
+      part2: {
+        title: "Näin muutat YouTube-videon ladattavaksi MP3-tiedostoksi kolmessa helpossa vaiheessa",
+        steps: [
+          {
+            title: "Kopioi URL-osoite",
+            content: "Avaa haluamasi YouTube-video ja kopioi linkki selaimesi osoiteriviltä."
+          },
+          {
+            title: "Liitä linkki",
+            content: "Lisää videoiden lataustyökaluusi ja liitä URL-osoite sen syöttökenttään."
+          },
+          {
+            title: "Muunna ja lataa",
+            content: "Kun muunnos on valmis, lataa MP3-tiedostosi tallentaaksesi sen."
+          }
+        ]
+      },
+      part3: {
+        content: [
+          "Haluatko muuntaa YouTube-videoita MP3-muotoon kuunnellaksesi niitä milloin tahansa?",
+          "Olitpa sitten metrossa, lentokoneessa tai järjestämässä podcasteja, kurssisisältöjä tai tärkeitä arkistoja, meillä on usein vaikeuksia päästä niihin käsiksi milloin tahansa. Tässä muunnostyökalumme ratkaisee tämän ongelman puolestasi.",
+          "Kopioi vain YouTube-linkki, liitä se muuntimeen ja yhdellä napsautuksella voit muuntaa videoita korkealaatuiseksi MP3-ääneksi. Tallenna, kuuntele ja arkistoi milloin tahansa ilman internetyhteyttä."
+        ]
+      },
+      part4: {
+        content: ["Tässä ovat viisi tärkeintä hyötyä muuntamisesta", "YouTube-videoista MP3-tiedostoihin"],
+        list: [
+          {
+            title: "Säästä tallennustilaa:",
+            content:
+              "MP3-tiedostot ovat pienempiä, mikä vähentää YouTuben tallennustilaa. Säästä mobiilidataa lataamalla offline-katselutiedostot ja käytä niitä vain, kun internetyhteys on saatavilla."
+          },
+          {
+            title: "Säästää akkua:",
+            content:
+              "YouTube-videoiden katseluun he käyttävät puskurointipalvelua, joka käyttää helposti kuunneltavia yhteyksiä. Ei enää puskurointihuolia."
+          },
+          {
+            title: "Helppo arkistointi ja säilytys:",
+            content:
+              "Jotkin videot tai MP3-tiedostot helpottavat henkilökohtaisen kirjaston rakentamista – olipa kyseessä sitten opetussisältö, musiikkiarkisto tai tärkeät tiedostot."
+          },
+          {
+            title: "Yksinkertaisempi jakaminen:",
+            content:
+              "MP3-tiedoston jakaminen on paljon kätevämpää kuin YouTube-linkkien jakaminen. Voit lähettää tiedostoja ystäville sovellusten, kuten WhatsAppin tai Instagramin, kautta, mikä poistaa YouTuben avaamisen kustannukset."
+          },
+          {
+            title: "Välitön katselu, laaja joustavuus:",
+            content:
+              "Käytä laajempaa suosikkivideosisältöäsi muuntamalla YouTube-videoita minne ikinä tarvitsetkin niitä. MP3-muodot mahdollistavat sujuvan yhteen kokoamisen heti ilman kiusallisia taukoja latauksen odottamisessa."
+          }
+        ]
+      },
+      part5: {
+        title: "Miksi muuntimemme erottuu joukosta",
+        cards: [
+          {
+            title: "Yhden napsautuksen helppous",
+            content: "Vaivaton asennus ja intuitiivinen käyttö."
+          },
+          {
+            title: "Salamannopea, rajaton",
+            content: "Muunna ja lataa huippunopeudella – ei ylärajoja, ei rajoituksia."
+          },
+          {
+            title: "Muunna lennossa",
+            content: "Käsittele tiedostosi välittömästi, ei odottelua."
+          },
+          {
+            title: "Ei mainoksia, ei häiriötekijöitä",
+            content:
+              "Nauti siististä käyttöliittymästä ilman ponnahdusikkunoita, bannereita tai keskeytyksiä – vain sujuvaa ja keskeytymätöntä muuntamista."
+          },
+          {
+            title: "Alkuperäinen laatu taattu",
+            content: "Latauksesi säilyttävät lähdevideon täyden resoluution pikselintarkkaa toistoa varten joka kerta."
+          },
+          {
+            title: "Toimii missä tahansa",
+            content: "Täysin yhteensopiva minkä tahansa selaimen kanssa, millä tahansa laitteella."
+          }
+        ]
+      },
+      part6: {
+        title: ["Maksimoi YouTube-tiedostojesi muuntaminen MP3-tiedostoiksi", "Muuntimemme avulla"],
+        title_des: "Vaivaton YouTube-muunnos MP3-tiedostoiksi — nopea, yksinkertainen ja ilmainen",
+        content: [
+          "Tässä olemme erinomaisia. Käyttäjäystävällinen käyttöliittymämme on suunniteltu kaikille – teknisiä taitoja ei tarvita. Kokemustasostasi riippumatta voit muuntaa videoita välittömästi. Rekisteröitymistä ei vaadita, ja pääset alkuun yksinkertaisesti sillä, mitä tarvitset – lataamasi MP3-tiedostot säilyttävät alkuperäisen videolaadun ja selkeyden, täsmälleen sellaisena kuin katsoit ne YouTubessa.",
+          "Myös nopeudella on merkitystä. Voit ladata useita tiedostoja nopeasti, ilman mainoksia ja laitteita. Käytitpä sitten Windowsia, macOS:ää, Linuxia, Androidia tai iOS:ää – älypuhelinta, tablettia tai pöytätietokonetta – voit ladata videoita vaivattomasti."
+        ]
+      },
+      part7: {
+        title: "Keskeisiä kysymyksiä YouTuben muuntamisesta MP3-muotoon",
+        list: [
+          {
+            question: "Voinko muuntaa tekijänoikeuksin suojatun YouTube-videon MP3-muotoon?",
+            answer:
+              "Vaikka se on teknisesti mahdollista, tekijänoikeuksin suojatun sisällön muuntaminen ilman lupaa voi rikkoa YouTuben palveluehtoja ja tekijänoikeuslakeja. Varmista aina, että sinulla on oikeus muuntaa sisältöä tai käyttää sitä vain henkilökohtaisiin, ei-kaupallisiin tarkoituksiin."
+          },
+          {
+            question: "Onko tämä muunnostyökalu turvallinen?",
+            answer:
+              "Kyllä, muuntimemme on täysin turvallinen. Emme tallenna mitään tietojasi tai tiedostojasi, eikä haittaohjelmien tai virusten riskiä ole. Muunnos tapahtuu suoraan ja turvallisesti."
+          },
+          {
+            question: "Mitä kieliä YouTuben MP3-muotoon muuntaminen tukee?",
+            answer:
+              "Muunnosohjelmamme tukee kaikkia YouTubessa saatavilla olevia kieliä. Ääni poimitaan täsmälleen sellaisena kuin se näkyy alkuperäisessä videossa, säilyttäen alkuperäisen kielen ja äänenlaadun."
+          },
+          {
+            question: "Mitkä tekijät vaikuttavat YouTube-videon muuntamiseen kuluvaan aikaan?",
+            answer:
+              "Muunnosaika riippuu useista tekijöistä: videon pituudesta, internet-yhteytesi nopeudesta ja palvelimen nykyisestä kuormituksesta. Useimmat alle 10 minuutin mittaiset videot muuntuvat alle 30 sekunnissa."
+          },
+          {
+            question: "Kun muunnan ja lataan MP3-tiedoston älypuhelimellani, minne se tallennetaan?",
+            answer:
+              "Useimmissa älypuhelimissa muunnetut MP3-tiedostot tallennetaan Lataukset-kansioon. iPhonessa ne saattavat mennä Tiedostot-sovellukseen. Androidissa tarkista Lataukset-kansio tiedostonhallinnasta tai musiikkisovelluksesta."
+          },
+          {
+            question: "Heikentääkö YouTube-videon muuntaminen MP3-muotoon äänenlaatua?",
+            answer:
+              "MP3 on pelkkää ääntä sisältävä formaatti, joten siinä ei ole videokomponenttia. Äänenlaatu säilytetään lähdevideon korkeimmalla mahdollisella bittinopeudella, tyypillisesti 128–320 kbps alkuperäisestä latauslaadusta riippuen."
+          }
+        ]
+      },
+      MoreFreeTools: {
+        title: "Lisää ilmaisia ​​työkaluja",
+        title_des: "Tutustu muihin ilmaisiin muunnostyökaluihimme",
+        YouTubeToMP: "YouTubesta MP4:ään",
+        YouTubeToMP_des:
+          "Muunna YouTube-videot MP4-muotoon offline-katselua varten. Lataa korkealaatuisia videoita välittömästi.",
+        AITranscription: "Tekoälytranskriptio",
+        AITranscription_des:
+          "Litteroi ääni- ja videotiedostoja 96 %:n tarkkuudella. Rajoittamaton litterointi kaikelle sisällöllesi."
+      },
+      videoDownload: {
+        title: "Muunna YouTube-linkit MP3-tiedostoiksi. Ilmainen, nopea ja ilman mainoksia.",
+        description:
+          "Kiitos, että valitsit palvelumme! Arvostamme todella luottamustasi ja toivomme, että se paransi kokemustasi. Olisi valtavasti apua, jos voisit jakaa verkkosivustomme ystäviesi kanssa.",
+        downloadButton: "Lataa",
+        TranscribeButton: "Litteroi",
+        downloadError: "Muunnosvirhe."
+      }
+    }
+  },
   About: {
     Hero: {
       badge: "Alaa johtava tekoälytekniikka",
@@ -3460,8 +3348,7 @@ let message = {
     },
     Mission: {
       title: "Miksi valita",
-      subtitle:
-        "Uskomme kielirajojen murtamiseen ja sisällön saavutettavuuteen kaikille",
+      subtitle: "Uskomme kielirajojen murtamiseen ja sisällön saavutettavuuteen kaikille",
       features: [
         {
           icon: "🎯",
@@ -3510,8 +3397,7 @@ let message = {
     },
     CTA: {
       title: "Valmiina kokeilemaan eroa?",
-      subtitle:
-        "Liity tuhansien ammattilaisten joukkoon, jotka luottavat NeverCapiin tekstitystarpeissaan",
+      subtitle: "Liity tuhansien ammattilaisten joukkoon, jotka luottavat NeverCapiin tekstitystarpeissaan",
       button: "Kokeile NeverCapia ilmaiseksi →",
       disclaimer: "Luottokorttia ei vaadita • Aloita tekstitys sekunneissa"
     }
@@ -3531,8 +3417,7 @@ let message = {
     scopeDescription:
       "Tämä tietosuojakäytäntö koskee vain Palveluiden käyttäjien tietojen keräämistä ja käsittelyä. Tämä tietosuojakäytäntö ei koske kolmansien osapuolten toimittamia linkitettyjä palveluja, verkkosivuja tai ohjelmistoja (oli linkit meidän tai muiden käyttäjien jakamia) eikä kolmansien osapuolten sisältöä, tietoja, sovelluksia tai materiaaleja. Suosittelemme tarkistamaan kolmannen osapuolen verkkosivuston tai ohjelmiston tietosuojakäytännöt ennen tietojen antamista niille.",
     collectionTitle: "2. Mitä keräämme ja miksi",
-    collectionPrinciple:
-      "Ohjeena on kerätä vain tarvitsemamme tiedot. Käytännössä tämä tarkoittaa seuraavaa:",
+    collectionPrinciple: "Ohjeena on kerätä vain tarvitsemamme tiedot. Käytännössä tämä tarkoittaa seuraavaa:",
     identityTitle: "2.1 Henkilöllisyys ja pääsy",
     identityDescription:
       "Kun rekisteröidyt johonkin tuotteistamme, pyydämme henkilöyttäviä tietoja, kuten nimeäsi ja sähköpostiosoitetta. Tämä on tarpeen tuotteen perustoimintojen tarjoamiseksi ja jotta voimme lähettää sinulle tuotepäivityksiä ja muuta oleellista tietoa.",
@@ -3566,11 +3451,9 @@ let message = {
     taxAudits:
       "Jos veroviranomainen tarkastaa meitä, saatamme joutua jakamaan laskutukseen liittyviä tietoja. Tällöin jaamme vain vähimmäismäärän tarvittavia tietoja, kuten laskutusosoitteita ja verovapautustietoja.",
     securityTitle: "4. Miten suojaamme tietojasi",
-    securityDescription:
-      "Kaikki tiedot salataan SSL/TLS:llä siirrettäessä palvelimilta selaimellesi.",
+    securityDescription: "Kaikki tiedot salataan SSL/TLS:llä siirrettäessä palvelimilta selaimellesi.",
     deletionTitle: "5. Mitä tapahtuu, kun poistat sisältöä",
-    deletionDescription:
-      "Jos poistat sisältöä, siihen ei pääse enää heti käsiksi.",
+    deletionDescription: "Jos poistat sisältöä, siihen ei pääse enää heti käsiksi.",
     locationTitle: "6. Sivuston ja tietojen sijainti",
     locationDescription:
       "Tuotteemme ja muut verkkosivustomme toimivat Yhdysvalloissa. Jos sijaitsee Euroopan unionissa, Britanniassa tai muualla Yhdysvaltojen ulkopuolella, huomaa, että kaikki meille antamasi tiedot siirretään ja tallennetaan Yhdysvaltoihin. Käyttämällä verkkosivustoja tai Palveluitamme ja/tai antamalla meille henkilötietojasi suostut tähän siirtoon.",
@@ -3619,8 +3502,7 @@ let message = {
     accountTermsTitle: "3. Tilin ehdot",
     accountSecurity:
       "Olet vastuussa Tilisi turvallisuudesta. Yhtiö ei ole vastuussa tästä turvallisuusvelvoitteesta aiheutuvista vahingoista.",
-    lawfulUse:
-      "Et saa käyttää Palveluita laittomiin, epäeettisiin tai moraalittomiin tarkoituksiin.",
+    lawfulUse: "Et saa käyttää Palveluita laittomiin, epäeettisiin tai moraalittomiin tarkoituksiin.",
     contentResponsibility:
       "Olet vastuussa kaikesta Tilisi alla julkaistavasta sisällöstä ja toiminnoista, mukaan lukien muiden julkaisema sisältö, joilla on pääsy kirjautumistietoihisi tai omat kirjautumistietonsa Tilisi alla.",
     humanRequirement:
@@ -3657,14 +3539,10 @@ let message = {
     siteManagementDescription:
       "Pidätämme oikeuden, mutta emme velvollisuutta: (1) valvoa sivustoa Käyttöehtojen rikkomuksia varten; (2) ryhtyä oikeustoimiin Käyttöehtoja tai lakia rikkovia vastaan; (3) evätä, rajoittaa tai poistaa sisältöä; (4) poistaa liian suuria tai järjestelmää rasittavia tiedostoja; ja (5) hallita sivustoa oikeuksiemme ja omaisuutemme suojelemiseksi.",
     copyrightTitle: "9. Tekijänoikeudet ja sisällön omistus",
-    copyrightCompliance:
-      "Kaiken Palveluissa julkaistavan sisällön on noudatettava Yhdysvaltain tekijänoikeuslakia.",
-    ipRights:
-      "Emme vaadi tekijänoikeuksia materiaaliisi. Kaikki lähettämäsi materiaali pysyy sinun omaisuuttanasi.",
-    contentModeration:
-      "Emme ennakkotarkasta sisältöä, mutta pidätämme oikeuden poistaa sisältöä harkintamme mukaan.",
-    prohibitedExploitation:
-      "Et saa kopioida, myydä tai hyödyntää Palveluita ilman Yhtiön kirjallista lupaa.",
+    copyrightCompliance: "Kaiken Palveluissa julkaistavan sisällön on noudatettava Yhdysvaltain tekijänoikeuslakia.",
+    ipRights: "Emme vaadi tekijänoikeuksia materiaaliisi. Kaikki lähettämäsi materiaali pysyy sinun omaisuuttanasi.",
+    contentModeration: "Emme ennakkotarkasta sisältöä, mutta pidätämme oikeuden poistaa sisältöä harkintamme mukaan.",
+    prohibitedExploitation: "Et saa kopioida, myydä tai hyödyntää Palveluita ilman Yhtiön kirjallista lupaa.",
     impersonationProhibition:
       "Et saa muokata muita verkkosivustoja antaakseen väärän kuvan niiden yhteydestä Palveluihin tai Yhtiöön.",
     dmcaPolicy:
@@ -3679,21 +3557,18 @@ let message = {
       "4. Huijaamalla, harhauttamalla tai johtamalla harhaan meitä tai muita käyttäjiä, erityisesti yrityksissä saada käyttäjien arkaluonteisia tilitietoja, kuten salasanoja.",
     securityInterference:
       "5. Ohittaen, poistaen käytöstä tai muuten häiritsemällä Sivuston turvallisuuteen liittyviä ominaisuuksia, mukaan lukien ominaisuuksia, jotka estävät sisällön käytön tai kopioinnin tai rajoittavat Sivuston ja/tai sen sisällön käyttöä.",
-    defamation:
-      "6. Halventamalla, tahraamalla tai muuten vahingoittamalla mielestämme meitä ja/tai Sivustoa.",
+    defamation: "6. Halventamalla, tahraamalla tai muuten vahingoittamalla mielestämme meitä ja/tai Sivustoa.",
     harassment:
       "7. Käyttämällä Sivustolta saatuja tietoja toisen henkilön häirintään, hyväksikäyttöön tai vahingoittamiseen.",
     supportAbuse:
       "8. Käyttämällä tukipalveluitamme väärin tai jättämällä väärä ilmoitus väärinkäytöksistä tai sopimattomasta käyttäytymisestä.",
     legalCompliance: "9. Käyttämällä Sivustoa lain tai säädösten vastaisesti.",
-    framingProhibition:
-      "10. Kehystämällä Sivustoa tai linkittämällä siihen luvattomasti.",
+    framingProhibition: "10. Kehystämällä Sivustoa tai linkittämällä siihen luvattomasti.",
     malware:
       "11. Lähettämällä tai yrittämällä lähettää viruksia, troijalaisia tai muita häiritseviä materiaaleja, kuten suuraakkosten liiallista käyttöä tai roskapostitusta, jotka häiritsevät Sivuston käyttöä tai vaikuttavat sen toimintaan.",
     automation:
       "12. Käyttämällä järjestelmää automaattisesti, kuten kommenttien tai viestien lähettämiseen skripteillä tai tiedon keräämiseen kaivostoimin tai vastaavilla työkaluilla.",
-    copyrightRemoval:
-      "13. Poistamalla sisällöstä tekijänoikeus- tai muun omistusoikeusilmoituksen.",
+    copyrightRemoval: "13. Poistamalla sisällöstä tekijänoikeus- tai muun omistusoikeusilmoituksen.",
     impersonation:
       "14. Yrittämällä esiintyä toisena käyttäjänä tai henkilönä tai käyttää toisen käyttäjän käyttäjätunnusta.",
     spyware:
@@ -3702,21 +3577,18 @@ let message = {
       "16. Häiritsemällä Sivustoa tai siihen liittyviä verkkoja tai palveluita aiheuttamalla kohtuutonta kuormitusta.",
     employeeHarassment:
       "17. Häiritsemällä, ärsyttämällä, pelottelemalla tai uhkaamalla työntekijöitämme tai edustajiamme, jotka tarjoavat Sivuston osia sinulle.",
-    accessCircumvention:
-      "18. Yrittämällä ohittaa Sivuston käyttöä rajoittavat toimenpiteet.",
+    accessCircumvention: "18. Yrittämällä ohittaa Sivuston käyttöä rajoittavat toimenpiteet.",
     codeCopying:
       "19. Kopioimalla tai muokkaamalla Sivuston ohjelmistoa, kuten Flashia, PHP:tä, HTML:ää, JavaScriptiä tai muuta koodia.",
     reverseEngineering:
       "20. Purkamalla, dekompiloimalla tai kääntämällä Sivuston ohjelmistoa, paitsi mikäli laki sen sallii.",
     bots: "21. Käyttämällä, kehittämällä tai levittämällä automaattisia järjestelmiä, kuten hämäreitä, bott",
-    buyingAgents:
-      "Ostoedustajien tai hankintatoimijoiden käyttäminen ostoksiin tällä verkkosivustolla.",
+    buyingAgents: "Ostoedustajien tai hankintatoimijoiden käyttäminen ostoksiin tällä verkkosivustolla.",
     unauthorizedUse:
       "Verkkosivuston luvaton käyttö, mukaan lukien käyttäjänimien ja/tai sähköpostiosoitteiden kerääminen sähköisesti tai muilla keinoin ei-toivottujen sähköpostien lähettämiseksi, tai käyttäjätilien luominen automatisoiduilla keinoilla tai väärin perustein.",
     competition:
       "Verkkosivuston käyttäminen kanssamme kilpailussa oleviin tarkoituksiin tai verkkosivuston ja/tai sen sisällön käyttäminen tuloja tuottaviin tai kaupallisiin tarkoituksiin.",
-    advertising:
-      "Verkkosivuston käyttäminen tavaroiden ja palveluiden mainostamiseen tai myyntiin.",
+    advertising: "Verkkosivuston käyttäminen tavaroiden ja palveluiden mainostamiseen tai myyntiin.",
     profileTransfer: "Profiilisi myyminen tai muu siirtäminen.",
     featuresTitle: "11. Ominaisuudet ja viat",
     featuresDescription:
@@ -3748,8 +3620,7 @@ let message = {
       "Palveluiden nimet, ulkoasu ja ilmiasma ovat yrityksen tekijänoikeussuojattuja. Kaikki oikeudet pidätetään. HTML-, CSS-, JavaScript- tai visuaalisten suunnitteluelementtien monistaminen, kopioiminen tai uudelleenkäyttö ilman yrityksen kirjallista lupaa on kielletty. Logojen käyttöön markkinointitarkoituksessa vaaditaan erillinen lupa. Lähetä logojen käyttölupykyselyt sähköpostitse osoitteeseen {at} {email}. Meillä on oikeus peruuttaa lupa, jos rikot käyttöehtoja.",
     privacyPolicyDescription:
       "Välitämme tietosuojasta ja -turvallisuudesta. Tutustu {policy}. Sivuston käyttäminen edellyttää tietosuojakäytäntöön sitoutumista. Sivusto sijaitsee Yhdysvalloissa. Käyttäessäsi sivustoa muulta alueelta, jossa henkilötietojen keräämistä, käyttöä tai luovuttamista koskevat erilaiset lait, tietosi siirretään Yhdysvaltoihin. Hyväksyt tietojesi siirron ja käsittelyn Yhdysvalloissa.",
-    contactDescription:
-      "Jos sinulla on kysyttävää käyttöehdoista, ota yhteyttä {at} {email}.",
+    contactDescription: "Jos sinulla on kysyttävää käyttöehdoista, ota yhteyttä {at} {email}.",
     companyDefinitionA:
       'Kun sanomme tässä asiakirjassa "Yritys", "me", "meidän" tai "meitä", viittaamme {NeverCap}-yritykseen.'
   },

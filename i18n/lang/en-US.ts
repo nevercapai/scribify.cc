@@ -64,8 +64,7 @@ let message = {
     create: "Create",
     endRecord: {
       title: "Prompt",
-      content:
-        "You are recording. This action will end the recording. Do you want to end the recording?",
+      content: "You are recording. This action will end the recording. Do you want to end the recording?",
       confirm: "Continue Recording",
       cancel: "End Recording"
     }
@@ -90,13 +89,11 @@ let message = {
         },
         complete: {
           title: "Recording Completed",
-          label:
-            "The recording has reached 10 hours and has automatically stopped. Please transcribe.",
+          label: "The recording has reached 10 hours and has automatically stopped. Please transcribe.",
           confirm: "Got It"
         },
         speaker: {
-          content:
-            "For speaker identification, files are limited to 3 hours. Please uncheck '{text}'."
+          content: "For speaker identification, files are limited to 3 hours. Please uncheck '{text}'."
         }
       }
     },
@@ -109,8 +106,7 @@ let message = {
         confirm: "Add",
         cancel: "Cancel",
         // 请输入正确的链接
-        errorTitle:
-          "The link address you entered is incorrect. Please check and try again.",
+        errorTitle: "The link address you entered is incorrect. Please check and try again.",
         linkName: "Link"
       },
       file: {
@@ -123,8 +119,7 @@ let message = {
       },
       del: {
         title: "Warning",
-        content:
-          "All progress will be lost. Confirm cancelling the transcription?",
+        content: "All progress will be lost. Confirm cancelling the transcription?",
         cancel: "Confirm Cancel",
         confirm: "Continue Transcribing"
       },
@@ -159,7 +154,13 @@ let message = {
         audio: "Audio / Video File",
         Uploading: "Uploading..."
       },
-      fileEmpty: "The file is empty"
+      fileEmpty: "The file is empty",
+      howToSetup: "How to setup?",
+      shareFilePublicly: "Share a file publicly",
+      retry: "Retry",
+      edit: "Edit",
+      delete: "Delete",
+      updateAndRetry: "Update and Retry"
     }
   },
   // 转录详情页
@@ -438,11 +439,9 @@ let message = {
     unlimitedTranscription: "Unlimited transcription",
     unlimitedNumberOfTimes: "Unlimited transcription frequency and duration.",
     uploadWithinHours: "10 Hour Uploads",
-    filesUploadedAtOnce:
-      "Each file can be up to 10 hours long / 5 GB. Upload 50 files at a time.",
+    filesUploadedAtOnce: "Each file can be up to 10 hours long / 5 GB. Upload 50 files at a time.",
     highestPriority: "highest priority",
-    weWillGiveTheHighest:
-      "We'll always transcribe your files ASAP with the highest priority.",
+    weWillGiveTheHighest: "We'll always transcribe your files ASAP with the highest priority.",
     theFirstMonth: "The first month",
     subscribeTo: "subscribe to",
     basicVersionFree: "Basic version (free)",
@@ -493,8 +492,7 @@ let message = {
     returnAccountSetting: "Return",
     needsToWaitLonger: "Wait longer before your files are transcribed.",
     freeThreeTimesDay: "Transcribe 3 files for free every day.",
-    oneFileUploaded:
-      "Each file can be up to 30 minutes long. Upload 1 file at a time.",
+    oneFileUploaded: "Each file can be up to 30 minutes long. Upload 1 file at a time.",
     save: "Save"
   },
   // 语言对应关系
@@ -646,8 +644,7 @@ let message = {
     Testimonials: {
       titleA: "Loved by 50,000+ Users of",
       // highlighted_users: "50,000+ Users",
-      subtitle:
-        "See why professionals choose NeverCap over limited alternatives",
+      subtitle: "See why professionals choose NeverCap over limited alternatives",
       Mike: {
         text: "Holy crap, this thing actually works! Been doing a podcast for 3 years and was manually transcribing everything like an idiot. Uploaded 6 episodes at once and it separated me and my co-host perfectly. The coffee shop episode I thought was ruined? Crystal clear transcript. I'm never going back to typing this stuff out myself.",
         author: "Mike Rodriguez",
@@ -731,11 +728,9 @@ let message = {
     },
     CTASection: {
       title: "Ready to Break Free from Limits?",
-      subtitle:
-        "Join 50,000+ professionals who've made the switch to truly unlimited transcription",
+      subtitle: "Join 50,000+ professionals who've made the switch to truly unlimited transcription",
       button: "Try NeverCap Free",
-      disclaimer:
-        "No credit card required for the Free Plan • Upgrade anytime for unlimited access"
+      disclaimer: "No credit card required for the Free Plan • Upgrade anytime for unlimited access"
     }
   },
   Features: {
@@ -744,10 +739,8 @@ let message = {
       heroBadgeText: 'No More "Shrinkflation"',
       heroTitleLine1: "Truly Unlimited",
       heroTitleLine2: "AI Transcription",
-      heroSubtitle1:
-        "While Trint caps you at 50 hours and Otter limits you to 10 files per month, ",
-      heroSubtitle2:
-        " deliver what we actually promise: unlimited transcription with no hidden caps.",
+      heroSubtitle1: "While Trint caps you at 50 hours and Otter limits you to 10 files per month, ",
+      heroSubtitle2: " deliver what we actually promise: unlimited transcription with no hidden caps.",
       primaryCta: "Try It Free - No Credit Card",
       secondaryCta: "See the Truth",
 
@@ -854,8 +847,7 @@ let message = {
       trustBadge4Number: "50",
       trustBadge4Label: "Batch Upload",
       ctaTitle: "Stop Paying for Fake Unlimited",
-      ctaSubtitle:
-        "Join thousands who switched to truly unlimited transcription",
+      ctaSubtitle: "Join thousands who switched to truly unlimited transcription",
       finalCta: "Try NeverCap Free"
     },
     BulkUpload: {
@@ -875,8 +867,7 @@ let message = {
       comparisonSectionTitlePart1: "The",
       comparisonSectionTitleHighlight: "Ridiculous Limits",
       comparisonSectionTitlePart2: "They Impose",
-      comparisonSubtitle:
-        "How competitors restrict your ability to process content",
+      comparisonSubtitle: "How competitors restrict your ability to process content",
 
       limitCard1Service: "Otter Free",
       limitCard1Number: "3",
@@ -1160,14 +1151,12 @@ let message = {
     Hero: {
       title: "Simple, Transparent Pricing",
       highlighted_text: "No Hidden Caps",
-      description:
-        "Choose the plan that fits your needs. Upgrade or downgrade anytime. No contracts, no surprises."
+      description: "Choose the plan that fits your needs. Upgrade or downgrade anytime. No contracts, no surprises."
     },
     Cards: {
       title: "Simple, Transparent Pricing.",
       highlighted_text: "No Hidden Caps.",
-      description:
-        "Choose the plan that fits your needs. Upgrade or downgrade anytime. No contracts, no surprises.",
+      description: "Choose the plan that fits your needs. Upgrade or downgrade anytime. No contracts, no surprises.",
       plans: [
         {
           name: "Free",
@@ -1186,12 +1175,7 @@ let message = {
           },
           features: {
             title: "Features",
-            items: [
-              "100+ languages",
-              "Speaker labels",
-              "Translation",
-              "All export formats"
-            ]
+            items: ["100+ languages", "Speaker labels", "Translation", "All export formats"]
           },
           cta: {
             text: "Start free. No credit card.",
@@ -1264,8 +1248,7 @@ let message = {
       header: {
         title: "Compare ",
         highlighted_text: "All Features",
-        subtitle:
-          "See exactly what you get with each plan. No hidden limitations."
+        subtitle: "See exactly what you get with each plan. No hidden limitations."
       },
       plans: ["Features", "Free", "Pro Monthly", "Pro Annual"],
       features: [
@@ -1360,8 +1343,7 @@ let message = {
         {
           q: "payment_methods",
           question: "What payment methods do you accept?",
-          answer:
-            "We accept all major credit cards, debit cards, and PayPal for secure, hassle-free payments."
+          answer: "We accept all major credit cards, debit cards, and PayPal for secure, hassle-free payments."
         },
         {
           q: "free_trial",
@@ -1372,8 +1354,7 @@ let message = {
         {
           q: "file_retention",
           question: "How long do you keep my files?",
-          answer:
-            "Free plan: 30 days. Pro plans: Forever! Your transcripts are always available in your account."
+          answer: "Free plan: 30 days. Pro plans: Forever! Your transcripts are always available in your account."
         },
         {
           q: "data_security",
@@ -1507,8 +1488,7 @@ let message = {
       quotes: {
         title: "Real Users, ",
         titleHighlight: "Real Freedom",
-        subtitle:
-          "Hear from professionals who broke free from artificial limits",
+        subtitle: "Hear from professionals who broke free from artificial limits",
         testimonials: {
           mike: {
             textBefore: `"I had `,
@@ -1559,8 +1539,7 @@ let message = {
       // CTA Section
       cta: {
         title: "Your Use Case Needs Unlimited Too",
-        subtitle:
-          "Join 50,000+ professionals who stopped counting minutes and started creating",
+        subtitle: "Join 50,000+ professionals who stopped counting minutes and started creating",
         button: "Start Your Unlimited Journey →"
       }
     },
@@ -1621,18 +1600,15 @@ let message = {
       workflow: {
         step1: {
           title: "Upload Episodes",
-          description:
-            "Drop 50 episodes at once. MP3, MP4, WAV - we handle them all."
+          description: "Drop 50 episodes at once. MP3, MP4, WAV - we handle them all."
         },
         step2: {
           title: "AI Transcribes",
-          description:
-            "96% accuracy with speaker identification. Perfect for interviews."
+          description: "96% accuracy with speaker identification. Perfect for interviews."
         },
         step3: {
           title: "Smart Formatting",
-          description:
-            "AI adds paragraphs, sentences, and punctuation automatically."
+          description: "AI adds paragraphs, sentences, and punctuation automatically."
         },
         step4: {
           title: "Publish & Rank",
@@ -1668,8 +1644,7 @@ let message = {
         },
         feature5: {
           title: "100+ Languages",
-          description:
-            "Transcribe in any language. Translate to 249+ languages. Reach global audiences effortlessly."
+          description: "Transcribe in any language. Translate to 249+ languages. Reach global audiences effortlessly."
         },
         feature6: {
           title: "Batch Processing",
@@ -1755,8 +1730,7 @@ let message = {
       ctaTitle: "Start Transcribing Every Episode",
       ctaSubtitle: "Join 10,000+ podcasters who never worry about limits",
       ctaButton: "Upload Your First 50 Episodes Free →",
-      ctaDisclaimer:
-        "No credit card required • Process unlimited episodes • Cancel anytime"
+      ctaDisclaimer: "No credit card required • Process unlimited episodes • Cancel anytime"
     },
     Journalists: {
       hero: {
@@ -2117,8 +2091,7 @@ let message = {
       FAQSection: {
         title: "Your Transcription Questions,",
         titleHighlight: "Answered",
-        subtitle:
-          "Everything you need to know about transcribing videos from different platforms",
+        subtitle: "Everything you need to know about transcribing videos from different platforms",
         questions: [
           {
             question: "Q: How do I transcribe a YouTube video with NeverCap?",
@@ -2126,8 +2099,7 @@ let message = {
               "It's simple. Just find the YouTube video you want to transcribe, copy its URL, and paste it into our app. Our AI will automatically fetch the video and provide a full text transcript in minutes."
           },
           {
-            question:
-              "Q: What is the best way to transcribe a Facebook video to text?",
+            question: "Q: What is the best way to transcribe a Facebook video to text?",
             answer:
               "The easiest way is to use a direct link. Copy the URL of the Facebook video, and our platform will handle the rest, converting the speech to text with up to 96% accuracy, saving you from manual transcription."
           },
@@ -2163,12 +2135,10 @@ let message = {
       // Problem Section
       problemTitle: "The",
       problemTitle2: "Research Transcription Problem",
-      problemSubtitle:
-        'Other services make you choose which data is "worth" transcribing',
+      problemSubtitle: 'Other services make you choose which data is "worth" transcribing',
 
       problemCard1Title: "Upload Limits Kill Studies",
-      problemCard1Desc:
-        "Otter gives you 3 lifetime imports. How do you transcribe 200 hours of focus groups?",
+      problemCard1Desc: "Otter gives you 3 lifetime imports. How do you transcribe 200 hours of focus groups?",
 
       problemCard2Title: "Missing Critical Data",
       problemCard2Desc:
@@ -2210,16 +2180,14 @@ let message = {
 
       // Conversation Demo
       conversationParticipant1: "Participant 1",
-      conversationText1:
-        "The main barrier we face is definitely the cost of treatment...",
+      conversationText1: "The main barrier we face is definitely the cost of treatment...",
       conversationParticipant2: "Participant 2",
       conversationText2: "Absolutely, but I'd add that access is—",
       conversationParticipant3: "Participant 3",
       conversationText3: "—sorry to interrupt, but transportation is huge too.",
       conversationText4: "Yes! That's exactly what I was about to say.",
       conversationParticipant4: "Participant 4",
-      conversationText5:
-        "In rural areas, it's all three: cost, access, AND transport.",
+      conversationText5: "In rural areas, it's all three: cost, access, AND transport.",
 
       feature3Label: "Precision",
       feature3TitleHl: "96% Accuracy ",
@@ -2315,8 +2283,7 @@ let message = {
       // Features Section
       featuresTitle: "Transcription for Every Business",
       featuresTitle2: "Meeting",
-      featuresSubtitle:
-        "From live recording to instant uploads, we've eliminated every friction point",
+      featuresSubtitle: "From live recording to instant uploads, we've eliminated every friction point",
 
       // Feature 1
       feature1Title: "Record Directly in Your Browser",
@@ -2333,8 +2300,7 @@ let message = {
       feature2Title: "Upload Any Audio File Instantly",
       feature2Desc:
         "Have recordings from Zoom, Teams, or your phone? Upload them instantly. Support for all major audio and video formats. Process multiple files simultaneously with no waiting.",
-      feature2Benefit1:
-        "Supports: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV, FLAC",
+      feature2Benefit1: "Supports: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV, FLAC",
       feature2Benefit2: "Batch upload capability",
       feature2Benefit3: "10-hour files supported",
       feature2Benefit4: "Process while you work",
@@ -2368,16 +2334,14 @@ let message = {
       // Workflow Section
       workflowTitle: "How to Transcribe a",
       workflowTitle2: "Zoom Recording to Text",
-      workflowSubtitle:
-        "A seamless workflow that captures every important moment",
+      workflowSubtitle: "A seamless workflow that captures every important moment",
 
       workflowStep1Title: "Record or Upload",
       workflowStep1Desc:
         "Start recording live or simply download meeting recording from Zoom, Google Meet, or Microsoft Teams",
 
       workflowStep2Title: "Auto-Transcribe",
-      workflowStep2Desc:
-        "Our AI will automatically transcribe the recording to text with 96% accuracy in minutes",
+      workflowStep2Desc: "Our AI will automatically transcribe the recording to text with 96% accuracy in minutes",
 
       workflowStep3Title: "Collaborate",
       workflowStep3Desc: "Share, comment, and extract action items",
@@ -2387,8 +2351,7 @@ let message = {
 
       // Testimonials Section
       testimonialsTitle: "Teams Love",
-      testimonialsSubtitle:
-        "See how businesses transform their meeting culture",
+      testimonialsSubtitle: "See how businesses transform their meeting culture",
 
       testimonial1Text:
         '"We went from missing crucial details to having a searchable archive of every conversation. The direct recording feature means we never forget to capture important discussions."',
@@ -2407,8 +2370,7 @@ let message = {
 
       // CTA Section
       ctaTitle: "Stop Losing Important Conversations",
-      ctaSubtitle:
-        "Join thousands of teams capturing every meeting with unlimited transcription",
+      ctaSubtitle: "Join thousands of teams capturing every meeting with unlimited transcription",
       ctaButton: "Start Recording for Free →"
     },
     Educators: {
@@ -2434,8 +2396,7 @@ let message = {
       // Features Section
       featuresTitle: "Everything Educators Need for",
       featuresTitle2: "Video Transcription",
-      featuresSubtitle:
-        "From YouTube lectures to recorded classes, make all your content accessible",
+      featuresSubtitle: "From YouTube lectures to recorded classes, make all your content accessible",
 
       // Feature 1
       feature1Title: "Instant YouTube & Platform Links",
@@ -2484,29 +2445,24 @@ let message = {
       // Workflow Section
       workflowTitle: "How It Works:",
       grid: "Audio File to Study Guide",
-      workflowSubtitle:
-        "From video link to accessible transcript and study materials in minutes",
+      workflowSubtitle: "From video link to accessible transcript and study materials in minutes",
 
       workflowStep1Title: "Upload Your Lecture",
-      workflowStep1Desc:
-        "Upload any audio or video file (MP3, MP4, WAV) or paste a YouTube link",
+      workflowStep1Desc: "Upload any audio or video file (MP3, MP4, WAV) or paste a YouTube link",
 
       workflowStep2Title: "AI Transcription",
-      workflowStep2Desc:
-        "Our AI transcribes the audio, separates speakers, and identifies key topics",
+      workflowStep2Desc: "Our AI transcribes the audio, separates speakers, and identifies key topics",
 
       workflowStep3Title: "Generate Captions",
       workflowStep3Desc: "Auto-create perfectly synced subtitles",
 
       workflowStep4Title: "Export Study Guide",
-      workflowStep4Desc:
-        "Download the text, summary, or export it to create your final study guide",
+      workflowStep4Desc: "Download the text, summary, or export it to create your final study guide",
 
       // Use Cases Section
       useCasesTitle: "Perfect for Every",
       useCasesTitle2: "Educational Need",
-      useCasesSubtitle:
-        "See how educators are using NeverCap to enhance learning",
+      useCasesSubtitle: "See how educators are using NeverCap to enhance learning",
 
       useCase1Title: "Recorded Lectures",
       useCase1Text:
@@ -2543,8 +2499,7 @@ let message = {
 
       // CTA Section
       ctaTitle: "Make All Your Educational Content Accessible",
-      ctaSubtitle:
-        "Join thousands of educators using truly unlimited transcription",
+      ctaSubtitle: "Join thousands of educators using truly unlimited transcription",
       ctaButton: "Try NeverCap Free"
     }
   },
@@ -2568,8 +2523,7 @@ let message = {
         stepsNew: [
           {
             title: "Free Audio and Video Transcription",
-            content:
-              "Convert audio and video files to text in seconds. 3 free transcripts every day."
+            content: "Convert audio and video files to text in seconds. 3 free transcripts every day."
           },
           {
             title: "Convert Audio Files to Text",
@@ -2578,29 +2532,24 @@ let message = {
           },
           {
             title: "Transcribe YouTube Videos",
-            content:
-              "Convert YouTube videos to accurate text or subtitles.Just paste the YouTube link."
+            content: "Convert YouTube videos to accurate text or subtitles.Just paste the YouTube link."
           }
         ]
       },
       part2: {
-        title:
-          "Here's how to turn a YouTube video into a downloadable MP4 file in 3 easy steps",
+        title: "Here's how to turn a YouTube video into a downloadable MP4 file in 3 easy steps",
         steps: [
           {
             title: "Copy the URL",
-            content:
-              "Open your target YouTube video, then copy the link from your browser’s address bar."
+            content: "Open your target YouTube video, then copy the link from your browser’s address bar."
           },
           {
             title: "Paste the link",
-            content:
-              "Head to your video downloader tool and paste the URL into its input field."
+            content: "Head to your video downloader tool and paste the URL into its input field."
           },
           {
             title: "Download the MP4",
-            content:
-              "Once processed, hit the download button to save your MP4 file."
+            content: "Once processed, hit the download button to save your MP4 file."
           }
         ]
       },
@@ -2613,10 +2562,7 @@ let message = {
         ]
       },
       part4: {
-        content: [
-          "Here are the 5 major benefits of downloading",
-          "YouTube videos as MP4 files"
-        ],
+        content: ["Here are the 5 major benefits of downloading", "YouTube videos as MP4 files"],
         list: [
           {
             title: "Save on Data Costs: ",
@@ -2625,8 +2571,7 @@ let message = {
           },
           {
             title: "Watch Anywhere, Anytime: ",
-            content:
-              "Enjoy your videos seamlessly, even with spotty internet connections. No more buffering worries."
+            content: "Enjoy your videos seamlessly, even with spotty internet connections. No more buffering worries."
           },
           {
             title: "Easy Archiving & Preservation: ",
@@ -2669,8 +2614,7 @@ let message = {
             icon: "5",
             color: "#DEE5FF",
             title: "Original Quality Guaranteed",
-            content:
-              "Your downloads retain the source video's full resolution for pixel-perfect playback every time."
+            content: "Your downloads retain the source video's full resolution for pixel-perfect playback every time."
           },
           {
             icon: "6",
@@ -2694,8 +2638,7 @@ let message = {
         list: [
           {
             question: "Can I download a YouTube video if it's copyrighted?",
-            answer:
-              "Downloading copyrighted YouTube videos without the copyright owner's permission is illegal."
+            answer: "Downloading copyrighted YouTube videos without the copyright owner's permission is illegal."
           },
           {
             question: "Is this download tool safe?",
@@ -2704,36 +2647,34 @@ let message = {
           },
           {
             question: "What languages does YouTube to MP4 download support?",
-            answer:
-              "Our service supports downloading YouTube videos in all popular languages."
+            answer: "Our service supports downloading YouTube videos in all popular languages."
           },
           {
-            question:
-              "What factors affect the time it takes to download a YouTube video?",
+            question: "What factors affect the time it takes to download a YouTube video?",
             answer:
               "While we ensure the fastest possible download experience, download time is also affected by factors like the video's length and your internet connection speed."
           },
           {
-            question:
-              "When I download an MP4 video using my smartphone, where is it saved?",
+            question: "When I download an MP4 video using my smartphone, where is it saved?",
             answer:
               'After downloading an MP4 on your smartphone, you can typically find it in the "Downloads" folder within your, device\'s file manager app.'
           },
           {
-            question:
-              "Does downloading a YouTube video as an MP4 reduce video quality?",
+            question: "Does downloading a YouTube video as an MP4 reduce video quality?",
             answer:
               "No. Downloading YouTube videos as MP4 using our tool retains the original video quality. The conversion process preserves the source quality, ensuring you get the same viewing experience as on YouTube."
           }
         ]
       },
       MoreFreeTools: {
-        title: 'More Free Tools',
-        title_des: 'Explore our other free conversion tools',
-        YouTubeToMP: 'YouTube to MP3',
-        YouTubeToMP_des: 'Convert YouTube videos to MP3 format for offline viewing. Download high-quality videos instantly.',
-        AITranscription: 'AI Transcription',
-        AITranscription_des: 'Transcribe audio and video files with 96% accuracy. Unlimited transcription for all your content.',
+        title: "More Free Tools",
+        title_des: "Explore our other free conversion tools",
+        YouTubeToMP: "YouTube to MP3",
+        YouTubeToMP_des:
+          "Convert YouTube videos to MP3 format for offline viewing. Download high-quality videos instantly.",
+        AITranscription: "AI Transcription",
+        AITranscription_des:
+          "Transcribe audio and video files with 96% accuracy. Unlimited transcription for all your content."
       },
       top: {},
       videoDown: {},
@@ -2766,8 +2707,7 @@ let message = {
         stepsNew: [
           {
             title: "Free Audio and Video Transcription",
-            content:
-              "Convert audio and video files to text in seconds. 3 files transcribed every day."
+            content: "Convert audio and video files to text in seconds. 3 files transcribed every day."
           },
           {
             title: "Extract Audio Files to Text",
@@ -2776,29 +2716,24 @@ let message = {
           },
           {
             title: "Transcribe YouTube Videos",
-            content:
-              "Convert YouTube videos to accurate text or subtitles, and paste the link for free."
+            content: "Convert YouTube videos to accurate text or subtitles, and paste the link for free."
           }
         ]
       },
       part2: {
-        title:
-          "Here's how to turn a YouTube video into a downloadable MP3 file in 3 easy steps",
+        title: "Here's how to turn a YouTube video into a downloadable MP3 file in 3 easy steps",
         steps: [
           {
             title: "Copy the URL",
-            content:
-              "Open your target YouTube video, then copy the link from your browser's address bar."
+            content: "Open your target YouTube video, then copy the link from your browser's address bar."
           },
           {
             title: "Paste the link",
-            content:
-              "Insert in your video downloader tool and paste the URL into its input field."
+            content: "Insert in your video downloader tool and paste the URL into its input field."
           },
           {
             title: "Convert & Download",
-            content:
-              "Once conversion is complete, download your MP3 file to save it."
+            content: "Once conversion is complete, download your MP3 file to save it."
           }
         ]
       },
@@ -2810,10 +2745,7 @@ let message = {
         ]
       },
       part4: {
-        content: [
-          "Here are the 5 major benefits of converting",
-          "YouTube videos to MP3 files"
-        ],
+        content: ["Here are the 5 major benefits of converting", "YouTube videos to MP3 files"],
         list: [
           {
             title: "Save on storage: ",
@@ -2864,8 +2796,7 @@ let message = {
           },
           {
             title: "Original Quality Guaranteed",
-            content:
-              "Your downloads retain the source video's full resolution for pixel-perfect playback every time."
+            content: "Your downloads retain the source video's full resolution for pixel-perfect playback every time."
           },
           {
             title: "Works anywhere",
@@ -2900,32 +2831,31 @@ let message = {
               "Our converter supports all languages available on YouTube. The audio will be extracted exactly as it appears in the original video, preserving the original language and audio quality."
           },
           {
-            question:
-              "What factors affect the time it takes to convert a YouTube video?",
+            question: "What factors affect the time it takes to convert a YouTube video?",
             answer:
               "Conversion time depends on several factors: the length of the video, your internet connection speed, and current server load. Most videos under 10 minutes convert in less than 30 seconds."
           },
           {
-            question:
-              "When I convert and download an MP3 using my smartphone, where is it saved?",
+            question: "When I convert and download an MP3 using my smartphone, where is it saved?",
             answer:
-              'On most smartphones, converted MP3 files are saved to your Downloads folder. On iPhone, they may go to your Files app. On Android, check your Downloads folder in your file manager or music app.'
+              "On most smartphones, converted MP3 files are saved to your Downloads folder. On iPhone, they may go to your Files app. On Android, check your Downloads folder in your file manager or music app."
           },
           {
-            question:
-              "Does converting a YouTube video to MP3 reduce audio quality?",
+            question: "Does converting a YouTube video to MP3 reduce audio quality?",
             answer:
               "MP3 is an audio-only format, so there's no video component. The audio quality is preserved at the highest available bitrate from the source video, typically 128-320 kbps depending on the original upload quality."
           }
         ]
       },
       MoreFreeTools: {
-        title: 'More Free Tools',
-        title_des: 'Explore our other free conversion tools',
-        YouTubeToMP: 'YouTube to MP4',
-        YouTubeToMP_des: 'Convert YouTube videos to MP4 format for offline viewing. Download high-quality videos instantly.',
-        AITranscription: 'AI Transcription',
-        AITranscription_des: 'Transcribe audio and video files with 96% accuracy. Unlimited transcription for all your content.',
+        title: "More Free Tools",
+        title_des: "Explore our other free conversion tools",
+        YouTubeToMP: "YouTube to MP4",
+        YouTubeToMP_des:
+          "Convert YouTube videos to MP4 format for offline viewing. Download high-quality videos instantly.",
+        AITranscription: "AI Transcription",
+        AITranscription_des:
+          "Transcribe audio and video files with 96% accuracy. Unlimited transcription for all your content."
       },
       top: {},
       videoDown: {},
@@ -2954,14 +2884,7 @@ let message = {
       title: "Latest",
       highlighted_text: "Articles",
       subtitle: "Expert tips and tutorials for unlimited transcription",
-      categories: [
-        "All Posts",
-        "Tutorials",
-        "Podcasting",
-        "Content Creation",
-        "Business",
-        "AI Tips"
-      ]
+      categories: ["All Posts", "Tutorials", "Podcasting", "Content Creation", "Business", "AI Tips"]
     },
     Detail: {
       Home: "Home",
@@ -2980,14 +2903,12 @@ let message = {
     Stats: {
       title: "Our ",
       highlighted_text: "Impact",
-      subtitle:
-        "Empowering global communication with cutting-edge AI technology",
+      subtitle: "Empowering global communication with cutting-edge AI technology",
       metrics: [
         {
           value: "96%+",
           label: "Accuracy Rate",
-          description:
-            "Industry-leading transcription accuracy with advanced AI"
+          description: "Industry-leading transcription accuracy with advanced AI"
         },
         {
           value: "100+",
@@ -3003,8 +2924,7 @@ let message = {
     },
     Mission: {
       title: "Why Choose ",
-      subtitle:
-        "We believe in breaking down language barriers and making content accessible to everyone",
+      subtitle: "We believe in breaking down language barriers and making content accessible to everyone",
       features: [
         {
           icon: "🎯",
@@ -3053,8 +2973,7 @@ let message = {
     },
     CTA: {
       title: "Ready to Experience the Difference?",
-      subtitle:
-        "Join thousands of professionals who trust NeverCap for their transcription needs",
+      subtitle: "Join thousands of professionals who trust NeverCap for their transcription needs",
       button: "Try NeverCap Free →",
       disclaimer: "No credit card required • Start transcribing in seconds"
     }
@@ -3062,8 +2981,7 @@ let message = {
   Privacy: {
     title: "Privacy",
     titleGradient: "Policy",
-    subtitle:
-      "Learn how we collect, use, and protect your personal information",
+    subtitle: "Learn how we collect, use, and protect your personal information",
     lastUpdated: "Last updated: {date}",
     lastUpdatedDate: "July 21, 2025",
     privacyPolicyTitle: "Privacy Policy",
@@ -3077,8 +2995,7 @@ let message = {
     scopeDescription:
       "This Privacy Policy applies only to our collection and processing of information about users of the Services. This Privacy Policy does not apply to any services, websites or software operated by third parties that are linked to us (whether we provide those links or other users share them) nor does it apply to content, data, applications or materials from third parties. We advise you to check the privacy policies of any third party website or software before providing any information to them.",
     collectionTitle: "2. What we collect and why",
-    collectionPrinciple:
-      "Our guiding principle is to collect only what we need. Here's what that means in practice:",
+    collectionPrinciple: "Our guiding principle is to collect only what we need. Here's what that means in practice:",
     identityTitle: "2.1 Identity & access",
     identityDescription:
       "When you sign up for one of our products, we ask for identifying information such as your name, email address. This is to provide essential product functionality and so we can send you product updates and other essential information.",
@@ -3112,11 +3029,9 @@ let message = {
     taxAudits:
       "If we are audited by a tax authority, we may be required to share billing-related information. If that happens, we will share only the minimum needed, such as billing addresses and tax exemption information.",
     securityTitle: "4. How we secure your data",
-    securityDescription:
-      "All data is encrypted via SSL/TLS when transmitted from our servers to your browser.",
+    securityDescription: "All data is encrypted via SSL/TLS when transmitted from our servers to your browser.",
     deletionTitle: "5. What happens when you delete your content",
-    deletionDescription:
-      "If you delete any content, it will become immediately inaccessible.",
+    deletionDescription: "If you delete any content, it will become immediately inaccessible.",
     locationTitle: "6. Location of site and data",
     locationDescription:
       "Our products and other web properties are operated in the United States. If you are located in the European Union, UK, or elsewhere outside of the United States, please be aware that any information you provide to us will be transferred to and stored in the United States. By using our websites or Services and/or providing us with your personal information, you consent to this transfer.",
@@ -3139,8 +3054,7 @@ let message = {
     lastUpdatedDate: "July 21, 2025",
     termsOfServiceTitle: "Terms of Service",
     thankYou: "Thank you for using our products!",
-    companyDefinitionA:
-      'When we say "Company", "we", "our", or "us" in this document, we are referring to {NeverCap}.',
+    companyDefinitionA: 'When we say "Company", "we", "our", or "us" in this document, we are referring to {NeverCap}.',
     servicesDefinition:
       'When we say "Services", we mean any product created and maintained by NeverCap, whether delivered within a web browser, desktop application, mobile application, or another format.',
     termsUpdate:
@@ -3164,8 +3078,7 @@ let message = {
     accountTermsTitle: "3. Account Terms",
     accountSecurity:
       "You are responsible for maintaining the security of your account. The Company cannot and will not be liable for any loss or damage from your failure to comply with this security obligation.",
-    lawfulUse:
-      "You may not use the Services for any unlawful, unethical, or immoral purpose.",
+    lawfulUse: "You may not use the Services for any unlawful, unethical, or immoral purpose.",
     contentResponsibility:
       "You are responsible for all content posted and activity that occurs under your account. That includes content posted by others who either: (a) have access to your login credentials; or (b) have their own logins under your account.",
     humanRequirement:
@@ -3202,8 +3115,7 @@ let message = {
     siteManagementDescription:
       "We reserve the right, but not the obligation, to: (1) monitor the Site for violations of these Terms of Service ; (2) take appropriate legal action against anyone who, in our sole discretion, violates the law or these Terms of Service , including without limitation, reporting such user to law enforcement authorities; (3) in our sole discretion and without limitation, refuse, restrict access to, limit the availability of, or disable (to the extent technologically feasible) any of your Contributions or any portion thereof; (4) in our sole discretion and without limitation, notice, or liability, to remove from the Site or otherwise disable all files and content that are excessive in size or are in any way burdensome to our systems; and (5) otherwise manage the Site in a manner designed to protect our rights and property and to facilitate the proper functioning of the Site.",
     copyrightTitle: "9. Copyright and Content Ownership",
-    copyrightCompliance:
-      "All content posted on the Services must comply with U.S. copyright law.",
+    copyrightCompliance: "All content posted on the Services must comply with U.S. copyright law.",
     ipRights:
       "We claim no intellectual property rights over the material you provide to the Services. All materials uploaded remain yours.",
     contentModeration:
@@ -3226,24 +3138,17 @@ let message = {
       "Trick, defraud, or mislead us and other users, especially in any attempt to learn sensitive account information such as user passwords.",
     securityInterference:
       "Circumvent, disable, or otherwise interfere with security-related features of the Site, including features that prevent or restrict the use or copying of any Content or enforce limitations on the use of the Site and/or the Content contained therein.",
-    defamation:
-      "Disparage, tarnish, or otherwise harm, in our opinion, us and/or the Site.",
-    harassment:
-      "Use any information obtained from the Site in order to harass, abuse, or harm another person.",
-    supportAbuse:
-      "Make improper use of our support services or submit false reports of abuse or misconduct.",
-    legalCompliance:
-      "Use the Site in a manner inconsistent with any applicable laws or regulations.",
-    framingProhibition:
-      "Engage in unauthorized framing of or linking to the Site.",
+    defamation: "Disparage, tarnish, or otherwise harm, in our opinion, us and/or the Site.",
+    harassment: "Use any information obtained from the Site in order to harass, abuse, or harm another person.",
+    supportAbuse: "Make improper use of our support services or submit false reports of abuse or misconduct.",
+    legalCompliance: "Use the Site in a manner inconsistent with any applicable laws or regulations.",
+    framingProhibition: "Engage in unauthorized framing of or linking to the Site.",
     malware:
       "Upload or transmit (or attempt to upload or to transmit) viruses, Trojan horses, or other material, including excessive use of capital letters and spamming (continuous posting of repetitive text), that interferes with any party's uninterrupted use and enjoyment of the Site or modifies, impairs, disrupts, alters, or interferes with the use, features, functions, operation, or maintenance of the Site.",
     automation:
       "Engage in any automated use of the system, such as using scripts to send comments or messages, or using any data mining, robots, or similar data gathering and extraction tools.",
-    copyrightRemoval:
-      "Delete the copyright or other proprietary rights notice from any Content.",
-    impersonation:
-      "Attempt to impersonate another user or person or use the username of another user.",
+    copyrightRemoval: "Delete the copyright or other proprietary rights notice from any Content.",
+    impersonation: "Attempt to impersonate another user or person or use the username of another user.",
     spyware:
       'Upload or transmit (or attempt to upload or to transmit) any material that acts as a passive or active information collection or transmission mechanism, including without limitation, clear graphics interchange formats ("gifs"), 1×1 pixels, web bugs, cookies, or other similar devices (sometimes referred to as "spyware" or "passive collection mechanisms" or "pcms").',
     disruption:
@@ -3257,14 +3162,12 @@ let message = {
     reverseEngineering:
       "Except as permitted by applicable law, decipher, decompile, disassemble, or reverse engineer any of the software comprising or in any way making up a part of the Site.",
     bots: "Except as may be the result of standard search engine or Internet browser usage, use, launch, develop, or distribute any automated system, including without limitation, any spider, robot, cheat utility, scraper, or offline reader that accesses the Site, or using or launching any unauthorized script or other software.",
-    buyingAgents:
-      "Use a buying agent or purchasing agent to make purchases on the Site.",
+    buyingAgents: "Use a buying agent or purchasing agent to make purchases on the Site.",
     unauthorizedUse:
       "Make any unauthorized use of the Site, including collecting usernames and/or email addresses of users by electronic or other means for the purpose of sending unsolicited email, or creating user accounts by automated means or under false pretenses.",
     competition:
       "Use the Site as part of any effort to compete with us or otherwise use the Site and/or the Content for any revenue-generating endeavor or commercial enterprise.",
-    advertising:
-      "Use the Site to advertise or offer to sell goods and services.",
+    advertising: "Use the Site to advertise or offer to sell goods and services.",
     profileTransfer: "Sell or otherwise transfer your profile.",
     featuresTitle: "11. Features and Bugs",
     featuresDescription:
@@ -3283,16 +3186,14 @@ let message = {
     privacyPolicyDescription:
       "We care about data privacy and security. Please review our {policy}. By using the Site, you agree to be bound by our Privacy Policy, which is incorporated into these Terms of Service. Please be advised the Site is hosted in the United States. If you access the Site from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in the United States , then through your continued use of the Site, you are transferring your data to the United States , and you agree to have your data transferred to and processed in the United States.",
     liabilityTitle: "15. Liability",
-    liabilityIntroduction:
-      "We mention liability throughout these Terms but to put it all in one section:",
+    liabilityIntroduction: "We mention liability throughout these Terms but to put it all in one section:",
     liabilityWaiver:
       "You expressly understand and agree that the Company shall not be liable, in law or in equity, to you or to any third party for any direct, indirect, incidental, lost profits, special, consequential, punitive or exemplary damages, including, but not limited to, damages for loss of profits, goodwill, use, data or other intangible losses (even if the Company has been advised of the possibility of such damages), resulting from: (1) the use or the inability to use the Services; (2) errors, mistakes, or inaccuracies of content and materials; (3) personal injury or property damage, of any nature whatsoever, resulting from your access to and use of the site; (4) the cost of procurement of substitute goods and services resulting from any goods, data, information or services purchased or obtained or messages received or transactions entered into through or from the Services; (5) any unauthorized access to or use of our secure servers and/or any and all personal information and/or financial information stored therein; (6) any interruption or cessation of transmission to or from the site; (7) any bugs, viruses, trojan horses, or the like which may be transmitted to or through the site by any third party, and/or; (8) any errors or omissions in any content and materials or for any loss or damage of any kind incurred as a result of the use of any content posted, transmitted, or otherwise made available via the site; (9) statements or conduct of any third party on the service; (10) or any other matter relating to this Terms of Service or the Services, whether as a breach of contract, tort (including negligence whether active or passive), or any other theory of liability.",
     miscellaneousTitle: "16. Miscellaneous",
     miscellaneousDescription:
       "These Terms of Service and any policies or operating rules posted by us on the Site or in respect to the Site constitute the entire agreement and understanding between you and us. Our failure to exercise or enforce any right or provision of these Terms of Service shall not operate as a waiver of such right or provision. These Terms of Service operate to the fullest extent permissible by law. We may assign any or all of our rights and obligations to others at any time. We shall not be responsible or liable for any loss, damage, delay, or failure to act caused by any cause beyond our reasonable control. If any provision or part of a provision of these Terms of Service is determined to be unlawful, void, or unenforceable, that provision or part of the provision is deemed severable from these Terms of Service and does not affect the validity and enforceability of any remaining provisions. There is no joint venture, partnership, employment or agency relationship created between you and us as a result of these Terms of Service or use of the Site. You agree that these Terms of Service will not be construed against us by virtue of having drafted them. You hereby waive any and all defenses you may have based on the electronic form of these Terms of Service and the lack of signing by the parties hereto to execute these Terms of Service.",
     contactTitle: "17. Contact Us",
-    contactDescription:
-      "If you have a question about any of the Terms of Service, please contact us {at} {email}.",
+    contactDescription: "If you have a question about any of the Terms of Service, please contact us {at} {email}.",
     at: "at",
     site: "Site",
     services: "Services"

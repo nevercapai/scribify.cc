@@ -54,8 +54,7 @@ let message = {
     welcome: {
       title: "歡迎使用 Scribify！",
       description: "在這裡，您可以：",
-      transcribe:
-        "使用 Scribify 輕鬆轉錄—瞬間將語音對話轉換為清晰、可搜尋和可共享的文字。",
+      transcribe: "使用 Scribify 輕鬆轉錄—瞬間將語音對話轉換為清晰、可搜尋和可共享的文字。",
       precision: "立即獲得帶有說話者識別和時間戳的精確轉錄。",
       translate: "打破語言障礙：輕鬆將轉錄翻譯成200多種語言。",
       edit: "編輯、完善並以適合您需求的格式匯出轉錄文字。",
@@ -185,8 +184,7 @@ let message = {
           confirm: "知道了"
         },
         speaker: {
-          content:
-            "為了進行講者辨識，檔案長度限制為 3 小時。請取消勾選'{text}'。"
+          content: "為了進行講者辨識，檔案長度限制為 3 小時。請取消勾選'{text}'。"
         }
       }
     },
@@ -246,7 +244,13 @@ let message = {
         audio: "音訊/視訊文件",
         Uploading: "正在上傳..."
       },
-      fileEmpty: "文件為空"
+      fileEmpty: "文件為空",
+      howToSetup: "如何設定？",
+      shareFilePublicly: "公開分享檔案",
+      retry: "重試",
+      edit: "編輯",
+      delete: "刪除",
+      updateAndRetry: "更新並重試"
     }
   },
   // 轉錄詳情頁
@@ -681,8 +685,7 @@ let message = {
     },
     seo: {
       title: "開源Nuxt SaaS樣板 | NuxtPro",
-      description:
-        "包含您需要的一切的NuxtJS樣板，讓您的產品快速面向客戶。從想法到生產只需5分鐘。"
+      description: "包含您需要的一切的NuxtJS樣板，讓您的產品快速面向客戶。從想法到生產只需5分鐘。"
     },
     api: {
       title: "這是一個演示",
@@ -726,8 +729,7 @@ let message = {
     },
     HAVE_NOTHING: "沒有關於音頻/視頻是否就緒的信息",
     HAVE_METADATA: "音頻/視頻的元數據已就緒",
-    HAVE_CURRENT_DATA:
-      "關於當前播放位置的數據是可用的，但沒有足夠的數據來播放下一幀/毫秒",
+    HAVE_CURRENT_DATA: "關於當前播放位置的數據是可用的，但沒有足夠的數據來播放下一幀/毫秒",
     HAVE_FUTURE_DATA: "當前及至少下一幀的數據是可用的",
     HAVE_ENOUGH_DATA: "可用數據足以開始播放",
     NETWORK_EMPTY: "音頻/視頻尚未初始化",
@@ -794,8 +796,7 @@ let message = {
     voluntaryCorrespondenceTitle: "2.6 自願通信",
     scopeContent:
       "本隱私權政策僅適用於我們對服務使用者資訊的收集和處理。本隱私權政策不適用於任何連結至我們的第三方所經營的服務、網站或軟體（無論這些連結是由我們提供的或其他使用者分享的），也不適用於來自第三方的內容、資料、應用程式或資料。我們建議您在向任何第三方網站或軟體提供任何資訊之前，先查看其隱私權政策。",
-    collectPrinciple:
-      "我們的指導原則是只收集我們需要的資訊。以下是實際操作中的意義：",
+    collectPrinciple: "我們的指導原則是只收集我們需要的資訊。以下是實際操作中的意義：",
     identityAccessContent:
       "當您註冊我們的某款產品時，我們會要求您提供身份訊息，例如您的姓名、電子郵件地址。這是為了提供必要的產品功能，並方便我們向您發送產品更新和其他重要資訊。",
     billingInfoContent:
@@ -839,8 +840,7 @@ let message = {
     termsOfServiceTitle: "服務條款",
     lastUpdated: "最後更新：2022 年 9 月 21 日",
     thankYouMessage: "感謝您使用我們的產品！",
-    companyReference:
-      "當我們在本文檔中說「本公司」、「我們」、「我們的」或「我們」時，我們指的是 Scribify。",
+    companyReference: "當我們在本文檔中說「本公司」、「我們」、「我們的」或「我們」時，我們指的是 Scribify。",
     servicesDefinition:
       "當我們說「服務」時，我們指的是 Scribify 創建和維護的任何產品，無論是透過網頁瀏覽器、桌面應用程式、行動應用程式或其他格式交付。",
     termsUpdateNotice:
@@ -870,23 +870,19 @@ let message = {
       "「您」、「您的」、「您本人」等字眼也包括您的員工、代理人、業務代表以及您允許透過您的帳戶（定義見下文）存取服務的任何其他個人。您有責任確保所有透過您的帳號存取服務的人員均知悉並遵守本條款。",
     acceptanceContent4:
       "Scribify 保留隨時自行決定修改和更新本條款的權利。所有變更一經發布即刻生效。如果您在修訂條款發布後繼續使用本服務，即表示您接受並同意這些變更。由於變更對您具有約束力，因此請您不時查看此頁面，以了解任何變更。",
-    servicesContent1:
-      "我們的服務使用戶能夠將語音對話轉換為可搜尋、翻譯和與他人共享的轉錄文字。",
+    servicesContent1: "我們的服務使用戶能夠將語音對話轉換為可搜尋、翻譯和與他人共享的轉錄文字。",
     servicesContent2:
       "您可以選擇使用本服務的免費版本（「免費服務」）或可能需要支付費用的訂閱式付費版本服務（「付費服務」）。",
-    servicesContent3:
-      "我們將向您提供服務。您有責任做好一切必要安排，以便存取服務。",
+    servicesContent3: "我們將向您提供服務。您有責任做好一切必要安排，以便存取服務。",
     accountTerms1:
       "- 您有責任維護您的帳戶安全。若您未能履行此安全義務，本公司將不承擔任何因您未能履行此安全義務而造成的任何損失或損害。",
     accountTerms2: "- 您不得將服務用於任何非法、不道德或不道德的目的。",
     accountTerms3:
       "- 您應對您帳戶下發布的所有內容和活動負責。這包括以下人員發佈的內容：(a) 有權存取您的登入憑證；或 (b) 在您的帳戶下擁有自己的登入資訊。",
-    accountTerms4:
-      "- 您必須是人類。不允許使用「機器人」或其他自動化方法註冊的帳戶。",
+    accountTerms4: "- 您必須是人類。不允許使用「機器人」或其他自動化方法註冊的帳戶。",
     paymentContent1:
       "- 對於提供免費試用的付費服務，我們會在您註冊時說明試用期限。試用期結束後，您需要提前付費才能繼續使用服務。如果您不付費，這些服務將被終止。",
-    paymentContent2:
-      "- 如果您從免費計劃升級到付費計劃，我們將立即從您的卡中扣款，您的計費週期從升級當天開始。",
+    paymentContent2: "- 如果您從免費計劃升級到付費計劃，我們將立即從您的卡中扣款，您的計費週期從升級當天開始。",
     paymentContent3:
       "- 所有費用均不含稅務機關徵收的任何稅費、徵稅或關稅。如有需要，我們將代表稅務機關代收這些稅費，並將稅費匯給稅務機關。否則，您需自行承擔所有稅金、徵稅或關稅。",
     paymentContent4:
@@ -905,20 +901,16 @@ let message = {
       "- 如果您的使用量顯著超過其他使用者的平均使用量，我們保留暫時停用您帳戶的權利。當然，我們會在採取任何措施之前與您聯繫，除非在極少數情況下，您的使用量可能會對其他使用者的服務效能產生負面影響。",
     uptimeContent3:
       "- 我們採取多種措施，透過備份、冗餘和加密來保護您的資料安全。我們對透過公共互聯網傳輸的資料強制加密。",
-    uptimeContent4:
-      "- 我們使用第三方供應商和託管合作夥伴來提供運行服務所需的必要硬體、軟體、網路、儲存和相關技術。",
+    uptimeContent4: "- 我們使用第三方供應商和託管合作夥伴來提供運行服務所需的必要硬體、軟體、網路、儲存和相關技術。",
     siteManagementContent:
       "我們保留以下權利（但沒有義務）：（1）監控網站是否違反本服務條款；（2）對我們自行決定違反法律或本服務條款的任何人採取適當的法律行動，包括但不限於向執法部門舉報該使用者；（3）我們自行決定且不受限制地拒絕、限制存取、限制可用性或停用（在技術可行的範圍內）您的任何貢獻或其任何部分；（4）我們自行決定且不受限制地、通知或承擔責任，從網站中刪除或以其他方式禁用所有過大或以任何方式對我們的系統造成負擔的文件和內容；以及（5）以旨在保護我們的權利和財產並促進網站正常運行的方式管理網站。",
     copyrightContent1: "- 服務上發布的所有內容必須符合美國版權法。",
-    copyrightContent2:
-      "- 我們對您提供給服務的資料不主張任何智慧財產權。所有上傳的資料仍歸您所有。",
-    copyrightContent3:
-      "- 我們不預先篩選內容，但保留自行決定拒絕或刪除透過本服務提供的任何內容的權利（但沒有義務）。",
+    copyrightContent2: "- 我們對您提供給服務的資料不主張任何智慧財產權。所有上傳的資料仍歸您所有。",
+    copyrightContent3: "- 我們不預先篩選內容，但保留自行決定拒絕或刪除透過本服務提供的任何內容的權利（但沒有義務）。",
     copyrightContent4:
       "- 本服務的名稱、外觀和風格均受本公司版權©保護。保留所有權利。未經本公司明確書面許可，您不得複製、抄襲或重複使用任何 HTML、CSS、JavaScript 或視覺設計元素。您必須申請許可才能將公司徽標或任何服務徽標用於推廣目的。請",
     emailUs: "給我們發電子郵件",
-    copyrightContent5:
-      "請求使用徽標。如果您違反本服務條款，我們保留撤銷此許可的權利。",
+    copyrightContent5: "請求使用徽標。如果您違反本服務條款，我們保留撤銷此許可的權利。",
     copyrightContent6:
       "- 您同意未經本公司明確的書面許可，不得複製、影印、拷貝、出售、轉售或利用本服務的任何部分、使用本服務或存取服務。",
     copyrightContent7: "- 您不得修改其他網站以錯誤地暗示其與服務或公司相關。",
@@ -932,15 +924,12 @@ let message = {
     prohibitedActivitiesUserAgreement: "作為本網站的用戶，您同意不：",
     prohibitedActivity1:
       "- 未經我們書面許可，有系統地從網站檢索資料或其他內容，以直接或間接地建立或編譯集合、彙編、資料庫或目錄。",
-    prohibitedActivity2:
-      "- 欺騙、詐騙或誤導我們和其他用戶，尤其是試圖了解用戶密碼等敏感帳戶資訊。",
+    prohibitedActivity2: "- 欺騙、詐騙或誤導我們和其他用戶，尤其是試圖了解用戶密碼等敏感帳戶資訊。",
     prohibitedActivity3:
       "- 規避、停用或以其他方式乾擾本網站的安全相關功能，包括封鎖或限制使用或複製任何內容或強制限制使用本網站和/或其中包含的內容的功能。",
-    prohibitedActivity4:
-      "- 我們認為，貶低、玷污或以其他方式損害我們和/或本網站。",
+    prohibitedActivity4: "- 我們認為，貶低、玷污或以其他方式損害我們和/或本網站。",
     prohibitedActivity5: "- 使用從本網站獲得的任何資訊來騷擾、辱罵或傷害他人。",
-    prohibitedActivity6:
-      "- 不當使用我們的支援服務或提交虛假的濫用或不當行為報告。",
+    prohibitedActivity6: "- 不當使用我們的支援服務或提交虛假的濫用或不當行為報告。",
     prohibitedActivity7: "- 以不符合任何適用法律或法規的方式使用本網站。",
     prohibitedActivity8: "- 未經授權建置或連結本網站。",
     prohibitedActivity9:
@@ -948,18 +937,13 @@ let message = {
     prohibitedActivity10:
       "- 從事任何自動化系統使用，例如使用腳本發送評論或訊息，或使用任何資料探勘、機器人或類似的資料收集和提取工具。",
     prohibitedActivity11: "- 從任何內容中刪除版權或其他所有權聲明。",
-    prohibitedActivity12:
-      "- 試圖冒充其他使用者或個人或使用其他使用者的使用者名稱。",
+    prohibitedActivity12: "- 試圖冒充其他使用者或個人或使用其他使用者的使用者名稱。",
     prohibitedActivity13:
       "- 上傳或傳輸（或試圖上傳或傳輸）任何作為被動或主動資訊收集或傳輸機制的資料，包括但不限於清晰圖形交換格式（「gif」）、1×1像素、網路臭蟲、cookies或其他類似裝置（有時稱為「間諜軟體」或「被動收集機制」或「pcms」）。",
-    prohibitedActivity14:
-      "- 幹擾、破壞或對本網站或與本網站連結的網路或服務造成不當負擔。",
-    prohibitedActivity15:
-      "- 騷擾、煩擾、恐嚇或威脅任何向您提供本網站任何部分的員工或代理人。",
-    prohibitedActivity16:
-      "- 試圖繞過本網站為防止或限制存取本網站或本網站任何部分而設計的任何措施。",
-    prohibitedActivity17:
-      "- 複製或改編本網站的軟體，包括但不限於 Flash、PHP、HTML、JavaScript 或其他程式碼。",
+    prohibitedActivity14: "- 幹擾、破壞或對本網站或與本網站連結的網路或服務造成不當負擔。",
+    prohibitedActivity15: "- 騷擾、煩擾、恐嚇或威脅任何向您提供本網站任何部分的員工或代理人。",
+    prohibitedActivity16: "- 試圖繞過本網站為防止或限制存取本網站或本網站任何部分而設計的任何措施。",
+    prohibitedActivity17: "- 複製或改編本網站的軟體，包括但不限於 Flash、PHP、HTML、JavaScript 或其他程式碼。",
     prohibitedActivity18:
       "- 除適用法律允許外，不得對包含或以任何方式構成本網站一部分的任何軟體進行解密、反編譯、反彙編或反向工程。",
     prohibitedActivity19:
@@ -1011,7 +995,7 @@ let message = {
     YouTubetoMP4: "YouTube轉MP4",
     StartFreeTrial: "免費試用",
     Blog: "部落格",
-    YouTubetoMP3: 'YouTube 轉 MP3'
+    YouTubetoMP3: "YouTube 轉 MP3"
   },
   Footer: {
     des: "全球首個真正無限的AI轉錄服務。無上限，無限制，只有創造的自由。",
@@ -1019,21 +1003,10 @@ let message = {
     UseCases: "使用案例",
     Company: "公司",
     featureMenus: ["無限轉錄", "批量上傳", "96%準確率"],
-    useCaseMenus: [
-      "所有使用案例",
-      "播客主",
-      "記者",
-      "內容創作者",
-      "研究人員",
-      "商業團隊",
-      "教育工作者"
-    ],
+    useCaseMenus: ["所有使用案例", "播客主", "記者", "內容創作者", "研究人員", "商業團隊", "教育工作者"],
     companyMenus: ["關於我們", "定價方案", "隱私權", "條款"],
-    Resources: '資源',
-    resourcesMenus: [
-      "YouTube 轉 MP4",
-      "YouTube 轉 MP3"
-    ]
+    Resources: "資源",
+    resourcesMenus: ["YouTube 轉 MP4", "YouTube 轉 MP3"]
   },
   Index: {
     Hero: {
@@ -1062,23 +1035,19 @@ let message = {
       upload_50: "立即在此一次上傳多達50個檔案。",
       no_limits: "進階",
       no_surprises: "AI轉錄",
-      transparency:
-        "不再有隱藏限制，不再有意外 - 當其他服務悄悄減少您的分鐘數或將限制藏在細則中時，我們相信徹底透明",
+      transparency: "不再有隱藏限制，不再有意外 - 當其他服務悄悄減少您的分鐘數或將限制藏在細則中時，我們相信徹底透明",
       feat_unltd: "真正無限",
       feat_unltd_desc:
         "條款中沒有埋藏的「合理使用政策」。沒有偽裝成「無限」的儲存上限。上傳您的整個檔案庫，轉錄所有音頻需求。我們是認真的。",
       feat_bulk: "批量上傳自由",
-      feat_bulk_desc:
-        "厭倦了「3次終身導入」或「每月10個檔案」？一次上傳50個檔案，需要多少次都可以。完美處理積壓工作。",
+      feat_bulk_desc: "厭倦了「3次終身導入」或「每月10個檔案」？一次上傳50個檔案，需要多少次都可以。完美處理積壓工作。",
       feat_batch: "批次處理",
-      feat_batch_desc:
-        "一夜處理完整季播客。一次上傳50個訪談。讓我們的AI在您睡覺時工作。醒來即可獲得完整轉錄稿。",
+      feat_batch_desc: "一夜處理完整季播客。一次上傳50個訪談。讓我們的AI在您睡覺時工作。醒來即可獲得完整轉錄稿。",
       feat_accuracy: "96%準確率",
       feat_accuracy_desc:
         "我們業界領先的AI轉錄音頻時會智能添加標點，支援多達20位講者的說話者分離，並完美處理口音和專業術語。",
       feat_langs: "100+種語言",
-      feat_langs_desc:
-        "轉錄100+種語言的影片和音頻，翻譯至249+種語言。不同語言無額外收費。全球內容，單一價格。",
+      feat_langs_desc: "轉錄100+種語言的影片和音頻，翻譯至249+種語言。不同語言無額外收費。全球內容，單一價格。",
       feat_pro: "專業功能",
       feat_pro_desc:
         "字級時間戳記可精確定位音頻/影片，即使在快速對話切換時也能準確識別說話者，並提供完美格式化的段落、句子和標點文本以便閱讀。",
@@ -1087,8 +1056,7 @@ let message = {
     UseCases: {
       built_for: "批量",
       heavy_users: "音頻 & 影片轉錄",
-      join_users:
-        "專為像您這樣的重度用戶打造 - 加入從「縮水式通膨」服務轉換而來的YouTubers、內容創作者和播客主",
+      join_users: "專為像您這樣的重度用戶打造 - 加入從「縮水式通膨」服務轉換而來的YouTubers、內容創作者和播客主",
       podcasters: {
         title: "播客主",
         des: "上傳您的整個歷史庫存。為每集節目創建筆記。不再需要選擇轉錄哪些集數。"
@@ -1313,8 +1281,7 @@ let message = {
       ctaTitle: "停止為假無限制付費",
       ctaSubtitle: "加入成千上萬選擇真正無限轉錄的使用者",
       finalCta: "免費試用 NeverCap",
-      heroSubtitle1:
-        "Trint 限制您每月使用 50 小時，而 Otter 限制您每月使用 10 個文件，",
+      heroSubtitle1: "Trint 限制您每月使用 50 小時，而 Otter 限制您每月使用 10 個文件，",
       heroSubtitle2: "兌現我們的實際承諾：無限制轉錄，無隱藏上限。"
     },
     BulkUpload: {
@@ -1322,12 +1289,10 @@ let message = {
       heroBadgeText: "批量上傳自由",
       heroTitleLine1: "上傳 50 個檔案",
       heroTitleHighlight: "處理所有內容",
-      heroSubtitle:
-        "Otter 僅提供 3 次終身匯入。三次。一輩子就這三次。我們提供無限上傳，每次 50 個檔案，隨時滿足需求。",
+      heroSubtitle: "Otter 僅提供 3 次終身匯入。三次。一輩子就這三次。我們提供無限上傳，每次 50 個檔案，隨時滿足需求。",
       primaryCta: "開始批量上傳 →",
       secondaryCta: "查看限制",
-      redditQuote:
-        '"我有三年的播客集數需要轉錄。Otter 說我只有 3 次終身匯入。三次。這簡直是侮辱。"',
+      redditQuote: '"我有三年的播客集數需要轉錄。Otter 說我只有 3 次終身匯入。三次。這簡直是侮辱。"',
       redditAuthorIcon: "📍",
       redditAuthorText: "來自 r/podcasting 的真實抱怨",
       comparisonSectionTitlePart1: "那些",
@@ -1412,23 +1377,17 @@ let message = {
       useCasesTitleHighlight: "大量上傳者",
       useCasesSubtitle: "批量上傳拯救實際場景",
       useCase1Title: "播客檔案庫",
-      useCase1Description:
-        "一次上傳3年的集數。為您的整個舊目錄建立轉錄。為每一集生成SEO內容。",
+      useCase1Description: "一次上傳3年的集數。為您的整個舊目錄建立轉錄。為每一集生成SEO內容。",
       useCase2Title: "課程創建",
-      useCase2Description:
-        "同時處理所有講課影片。為學生建立可存取的轉錄。建立可搜尋的課程材料。",
+      useCase2Description: "同時處理所有講課影片。為學生建立可存取的轉錄。建立可搜尋的課程材料。",
       useCase3Title: "訪談積壓",
-      useCase3Description:
-        "清理堆積如山的未轉錄訪談。將數週的研究在數小時內處理完畢。無需恐慌，準時完成。",
+      useCase3Description: "清理堆積如山的未轉錄訪談。將數週的研究在數小時內處理完畢。無需恐慌，準時完成。",
       useCase4Title: "YouTube 影片庫",
-      useCase4Description:
-        "為您的整個頻道生成字幕。從影片內容建立部落格文章。提升所有影片的SEO。",
+      useCase4Description: "為您的整個頻道生成字幕。從影片內容建立部落格文章。提升所有影片的SEO。",
       useCase5Title: "會議檔案庫",
-      useCase5Description:
-        "上傳數月的會議錄音。建立可搜尋的會議筆記。重要決策不再遺漏。",
+      useCase5Description: "上傳數月的會議錄音。建立可搜尋的會議筆記。重要決策不再遺漏。",
       useCase6Title: "研究數據",
-      useCase6Description:
-        "批量處理焦點小組。轉錄所有參與者訪談。高效分析質性數據。",
+      useCase6Description: "批量處理焦點小組。轉錄所有參與者訪談。高效分析質性數據。",
       ctaTitle: "不再苦苦請求更多上傳額度",
       ctaSubtitle: "獲得真正可用的無限批量處理",
       finalCta: "立即上傳50個檔案 →"
@@ -1634,21 +1593,11 @@ let message = {
           discount: "首月 $9.99",
           limits: {
             title: "無月費上限",
-            items: [
-              "無限總分鐘數",
-              "每個檔案最多 10 小時 / 5 GB",
-              "一次上傳 50 個檔案",
-              "優先佇列"
-            ]
+            items: ["無限總分鐘數", "每個檔案最多 10 小時 / 5 GB", "一次上傳 50 個檔案", "優先佇列"]
           },
           features: {
             title: "包含免費版所有功能，外加",
-            items: [
-              "單詞級時間戳",
-              "進階說話者識別",
-              "格式化段落與標點",
-              "優先支援"
-            ]
+            items: ["單詞級時間戳", "進階說話者識別", "格式化段落與標點", "優先支援"]
           },
           cta: {
             text: "無限分鐘。優先速度。批次上傳。",
@@ -1663,21 +1612,11 @@ let message = {
           discount: "年付 $107.88",
           limits: {
             title: "與專業月付版相同",
-            items: [
-              "無限總分鐘數",
-              "每個檔案最多 10 小時 / 5 GB",
-              "一次上傳 50 個檔案",
-              "優先佇列"
-            ]
+            items: ["無限總分鐘數", "每個檔案最多 10 小時 / 5 GB", "一次上傳 50 個檔案", "優先佇列"]
           },
           features: {
             title: "包含免費版所有功能，外加",
-            items: [
-              "單詞級時間戳",
-              "進階說話者識別",
-              "格式化段落與標點",
-              "優先支援"
-            ]
+            items: ["單詞級時間戳", "進階說話者識別", "格式化段落與標點", "優先支援"]
           },
           cta: {
             text: "無限分鐘。優先速度。批次上傳。",
@@ -1686,8 +1625,7 @@ let message = {
           badge: "最佳價值 - "
         }
       ],
-      disclaimer:
-        "「無限」代表無月度上限且無人工降速。合理使用政策適用於濫用自動化或重新分發行為。"
+      disclaimer: "「無限」代表無月度上限且無人工降速。合理使用政策適用於濫用自動化或重新分發行為。"
     },
     ComparisonTable: {
       header: {
@@ -1787,8 +1725,7 @@ let message = {
         {
           q: "payment_methods",
           question: "接受哪些付款方式？",
-          answer:
-            "我們接受所有主流信用卡、金融卡和PayPal，提供安全無憂的付款體驗。"
+          answer: "我們接受所有主流信用卡、金融卡和PayPal，提供安全無憂的付款體驗。"
         },
         {
           q: "free_trial",
@@ -1803,8 +1740,7 @@ let message = {
         {
           q: "data_security",
           question: "資料安全性如何？",
-          answer:
-            "我們通過SOC 2認證並採用256位元加密。我們絕不會使用您的內容訓練模型。您的數據完全屬於您。"
+          answer: "我們通過SOC 2認證並採用256位元加密。我們絕不會使用您的內容訓練模型。您的數據完全屬於您。"
         }
       ]
     },
@@ -1823,8 +1759,7 @@ let message = {
       podcasters: {
         title: "播客創作者",
         pain: '"不再需要挑選哪些集數需要文字稿"',
-        description:
-          "一次上傳整個播客檔案庫。生成節目筆記、提升SEO，並重新利用內容，無需計算分鐘數。",
+        description: "一次上傳整個播客檔案庫。生成節目筆記、提升SEO，並重新利用內容，無需計算分鐘數。",
         benefits: {
           benefit1: "上傳所有集數，不僅僅是3集",
           benefit2: "生成SEO友好的節目筆記",
@@ -1849,8 +1784,7 @@ let message = {
       journalists: {
         title: "記者與作家",
         pain: '"截稿壓力遇上上傳限制"',
-        description:
-          "在截止日期前批量上傳所有訪談。立即搜尋文字稿，絕不錯過關鍵引述。",
+        description: "在截止日期前批量上傳所有訪談。立即搜尋文字稿，絕不錯過關鍵引述。",
         benefits: {
           benefit1: "在截止日期前批量上傳",
           benefit2: "一次搜尋所有訪談",
@@ -1875,8 +1809,7 @@ let message = {
       contentCreators: {
         title: "內容創作者",
         pain: '"無障礙不應昂貴"',
-        description:
-          "為整個YouTube頻道添加字幕。生成多語言字幕，立即提升影片SEO。",
+        description: "為整個YouTube頻道添加字幕。生成多語言字幕，立即提升影片SEO。",
         benefits: {
           benefit1: "一次為所有影片添加字幕",
           benefit2: "249種語言翻譯",
@@ -1901,8 +1834,7 @@ let message = {
       researchers: {
         title: "研究人員與學者",
         pain: '"質性資料不應排隊等待"',
-        description:
-          "一次處理整個研究項目。完美識別發言者，處理焦點團體、訪談和小組討論。",
+        description: "一次處理整個研究項目。完美識別發言者，處理焦點團體、訪談和小組討論。",
         benefits: {
           benefit1: "批量處理焦點團體",
           benefit2: "20人發言者識別",
@@ -1927,8 +1859,7 @@ let message = {
       businessTeams: {
         title: "商業團隊",
         pain: '"會議錄製應該毫不費力"',
-        description:
-          "直接錄製會議或上傳音頻文件即時轉錄。從無限對話中建立可搜索的存檔，再也不會遺失重要討論。",
+        description: "直接錄製會議或上傳音頻文件即時轉錄。從無限對話中建立可搜索的存檔，再也不會遺失重要討論。",
         benefits: {
           benefit1: "直接音頻錄製與轉錄",
           benefit2: "無限會議錄製",
@@ -1953,8 +1884,7 @@ let message = {
       educators: {
         title: "教育工作者",
         pain: '"YouTube影片需要即時轉錄"',
-        description:
-          "只需貼上YouTube連結即可獲得即時轉錄稿和自動生成字幕。將任何教育影片轉化為可訪問、可搜索的內容。",
+        description: "只需貼上YouTube連結即可獲得即時轉錄稿和自動生成字幕。將任何教育影片轉化為可訪問、可搜索的內容。",
         benefits: {
           benefit1: "直接YouTube連結轉錄",
           benefit2: "自動生成影片字幕",
@@ -1984,24 +1914,21 @@ let message = {
           mike: {
             textBefore: '"我有',
             highlight: "3年的節目集數",
-            textAfter:
-              '未被轉錄。Otter要我選擇3集。只有3集。NeverCap讓我在一個週末上傳全部150集。"',
+            textAfter: '未被轉錄。Otter要我選擇3集。只有3集。NeverCap讓我在一個週末上傳全部150集。"',
             name: "Mike Rodriguez",
             role: "播客主持人"
           },
           jessica: {
             textBefore: '"作為自由記者，我負擔不起Trint的',
             highlight: "$100/月",
-            textAfter:
-              '，但也無法接受Otter每月10個文件的限制。NeverCap拯救了我的職業生涯。"',
+            textAfter: '，但也無法接受Otter每月10個文件的限制。NeverCap拯救了我的職業生涯。"',
             name: "Jessica Park",
             role: "自由記者"
           },
           sarah: {
             textBefore: '"我們的研究團隊有',
             highlight: "200小時",
-            textAfter:
-              '的焦點團體錄音。我們在一個週末處理完所有內容，而不是按月分配分鐘數。"',
+            textAfter: '的焦點團體錄音。我們在一個週末處理完所有內容，而不是按月分配分鐘數。"',
             name: "Dr. Sarah Chen",
             role: "首席研究員"
           },
@@ -2039,8 +1966,7 @@ let message = {
       badge: "專為播客打造",
       heroTitle: "轉錄您的",
       heroTitleHighlight: "完整播客檔案庫",
-      heroSubtitle:
-        "上傳您的全部歷史內容。為每集節目創建節目筆記。無需再選擇哪些集數需要音頻轉錄。",
+      heroSubtitle: "上傳您的全部歷史內容。為每集節目創建節目筆記。無需再選擇哪些集數需要音頻轉錄。",
       ctaPrimary: "免費開始轉錄",
       ctaSecondary: "查看運作方式",
       trustBadge1: "10,000+ 播客主",
@@ -2070,18 +1996,15 @@ let message = {
       problems: {
         problem1: {
           title: "上傳限制扼殺檔案庫",
-          description:
-            "Otter 免費方案僅提供 3 次終身匯入，Pro 方案每月 10 次。如何轉錄 3 年的節目內容？"
+          description: "Otter 免費方案僅提供 3 次終身匯入，Pro 方案每月 10 次。如何轉錄 3 年的節目內容？"
         },
         problem2: {
           title: "錯失 SEO 機會",
-          description:
-            "每集未轉錄內容都意味著流失的 SEO 流量。但 Descript 最多僅限每月 30 小時。"
+          description: "每集未轉錄內容都意味著流失的 SEO 流量。但 Descript 最多僅限每月 30 小時。"
         },
         problem3: {
           title: "成本隨成長暴增",
-          description:
-            "隨著播客成長，轉錄成本飆升。每小時 $2 的超額費用讓擴展變得不可能。"
+          description: "隨著播客成長，轉錄成本飆升。每小時 $2 的超額費用讓擴展變得不可能。"
         }
       },
       solutionTitle: "無上限",
@@ -2113,8 +2036,7 @@ let message = {
       features: {
         feature1: {
           title: "多講者辨識",
-          description:
-            "自動識別並標記最多20位講者。完美適用於小組討論、訪談和共同主持節目。"
+          description: "自動識別並標記最多20位講者。完美適用於小組討論、訪談和共同主持節目。"
         },
         feature2: {
           title: "時間戳章節",
@@ -2122,8 +2044,7 @@ let message = {
         },
         feature3: {
           title: "智能格式",
-          description:
-            "自動添加段落、句子和標點符號。獲得清晰易讀的文字稿。節省後製時間。"
+          description: "自動添加段落、句子和標點符號。獲得清晰易讀的文字稿。節省後製時間。"
         },
         feature4: {
           title: "SEO優化",
@@ -2131,13 +2052,11 @@ let message = {
         },
         feature5: {
           title: "100+種語言",
-          description:
-            "支援任何語言轉錄。可翻譯至249+種語言。輕鬆觸及全球聽眾。"
+          description: "支援任何語言轉錄。可翻譯至249+種語言。輕鬆觸及全球聽眾。"
         },
         feature6: {
           title: "批次處理",
-          description:
-            "睡前上傳50集節目。醒來即獲完整文字稿。一夜處理全部存檔。"
+          description: "睡前上傳50集節目。醒來即獲完整文字稿。一夜處理全部存檔。"
         }
       },
       testimonialsTitle: "成功轉換的",
@@ -2219,8 +2138,7 @@ let message = {
         badge: "記者與作家專區",
         title: "轉錄每次訪談。",
         titleHighlight: "不錯過任何引述。",
-        subtitle:
-          "無需選擇哪些訪談值得轉錄。一次上傳所有錄音，立即搜尋所有內容，無需擔心上傳問題，準時完成工作。",
+        subtitle: "無需選擇哪些訪談值得轉錄。一次上傳所有錄音，立即搜尋所有內容，無需擔心上傳問題，準時完成工作。",
         ctaPrimary: "開始無限上傳 →",
         ctaSecondary: "查看運作方式",
         stats: {
@@ -2271,18 +2189,15 @@ let message = {
         problems: {
           uploadLimits: {
             title: "上傳限制扼殺調查",
-            description:
-              "Otter Pro版每月僅提供10次檔案匯入。如何轉錄3週的調查訪談？"
+            description: "Otter Pro版每月僅提供10次檔案匯入。如何轉錄3週的調查訪談？"
           },
           missingQuotes: {
             title: "錯失關鍵引述",
-            description:
-              "每段未轉錄的訪談都可能包含故事關鍵引述。但Trint每月最多僅限50小時。"
+            description: "每段未轉錄的訪談都可能包含故事關鍵引述。但Trint每月最多僅限50小時。"
           },
           costExplosion: {
             title: "截止期限使成本暴增",
-            description:
-              "隨著調查深入，轉錄成本飆升。每月$100的超額費用讓即時新聞變得不可能。"
+            description: "隨著調查深入，轉錄成本飆升。每月$100的超額費用讓即時新聞變得不可能。"
           }
         },
         solution: {
@@ -2336,8 +2251,7 @@ let message = {
           professionalAccuracy: {
             label: "直接引用級準確度",
             title: "可引用的準確性",
-            description:
-              "我們的AI提供高準確度轉錄，確保您發表的引述精確可靠。編輯信賴的專業級轉錄品質。",
+            description: "我們的AI提供高準確度轉錄，確保您發表的引述精確可靠。編輯信賴的專業級轉錄品質。",
             points: {
               accuracyGuarantee: "96%準確度保證",
               handlesAccents: "處理專業術語",
@@ -2355,8 +2269,7 @@ let message = {
           ironclad: {
             label: "來源保護",
             title: "鐵壁級來源保護",
-            description:
-              "我們提供強大的安全功能來保護您的敏感訪談資料和機密來源。銀行級加密確保調查安全。",
+            description: "我們提供強大的安全功能來保護您的敏感訪談資料和機密來源。銀行級加密確保調查安全。",
             points: {
               accuracyGuarantee: "端到端加密",
               handlesAccents: "自動檔案刪除選項",
@@ -2410,8 +2323,7 @@ let message = {
       },
       testimonials: {
         jessica: {
-          quote:
-            "我曾因上傳限制積壓3年未轉錄的訪談。NeverCap讓我在一個週末全數處理完畢。徹底改變遊戲規則",
+          quote: "我曾因上傳限制積壓3年未轉錄的訪談。NeverCap讓我在一個週末全數處理完畢。徹底改變遊戲規則",
           name: "Jessica Park",
           role: "自由記者，前Otter用戶"
         }
@@ -2494,8 +2406,7 @@ let message = {
           label: "全球覆蓋",
           title: "100+種語言",
           titleHighlight: "零限制",
-          description:
-            "透過自動翻譯至100+種語言觸及全球觀眾。同時生成多語言字幕。無額外費用，翻譯無月流量限制。",
+          description: "透過自動翻譯至100+種語言觸及全球觀眾。同時生成多語言字幕。無額外費用，翻譯無月流量限制。",
           points: {
             highAccuracy: "12種主要語言96%準確率",
             unlimitedTranslations: "無限翻譯包含在內",
@@ -2560,8 +2471,7 @@ let message = {
         subtitle: "從有限方案到無限自由",
         carlos: {
           textBefore: "我製作西班牙語教育內容。NeverCap完美轉錄並",
-          textAfter:
-            "擴大觸及範圍。沒有限制，只有成長。新增多語言字幕后，我的頻道觀看次數增長3倍。",
+          textAfter: "擴大觸及範圍。沒有限制，只有成長。新增多語言字幕后，我的頻道觀看次數增長3倍。",
           highlight: "translates to English",
           name: "Carlos Martinez",
           role: "YouTube 教育家 • 25萬訂閱者"
@@ -2584,8 +2494,7 @@ let message = {
         },
         yuki: {
           textBefore: "我用5種語言創作內容。其他服務收取",
-          textAfter:
-            "。NeverCap給我無限翻譯。自從使用正確的本地字幕後，我的國際觀眾增長了400%。",
+          textAfter: "。NeverCap給我無限翻譯。自從使用正確的本地字幕後，我的國際觀眾增長了400%。",
           highlight: "每次翻譯",
           name: "Yuki Tanaka",
           role: "遊戲創作者 • 50萬訂閱者"
@@ -2641,11 +2550,9 @@ let message = {
       problemCard1Title: "上傳限制扼殺研究",
       problemCard1Desc: "Otter只提供3次終身導入。您如何轉錄200小時的焦點團體？",
       problemCard2Title: "遺失關鍵數據",
-      problemCard2Desc:
-        "每次未轉錄的訪談都可能包含突破性見解。但Rev每分鐘至少收費$2。",
+      problemCard2Desc: "每次未轉錄的訪談都可能包含突破性見解。但Rev每分鐘至少收費$2。",
       problemCard3Title: "研究經費消失",
-      problemCard3Desc:
-        "隨著數據集增長，轉錄成本飆升。每場焦點小組500美元使擴展成為不可能。",
+      problemCard3Desc: "隨著數據集增長，轉錄成本飆升。每場焦點小組500美元使擴展成為不可能。",
       solutionTitle: "NeverCap解決方案",
       feature1Label: "無限制",
       feature1Title: "處理您的",
@@ -2659,8 +2566,7 @@ let message = {
       feature1Visual2: "10小時或10,000小時同價",
       feature2Label: "智能AI",
       feature2Title: "精準把握",
-      feature2Desc:
-        "我們的AI可追蹤多達20位發言者，即使他們互相插話、打斷或同時發言。每個聲音都能正確捕捉並標記。",
+      feature2Desc: "我們的AI可追蹤多達20位發言者，即使他們互相插話、打斷或同時發言。每個聲音都能正確捕捉並標記。",
       feature2Point1: "20人發言識別",
       feature2Point2: "處理交叉對話與中斷",
       feature2Point3: "可重命名的發言者標籤",
@@ -2676,8 +2582,7 @@ let message = {
       conversationText5: "在鄉村地區，三者皆是：成本、獲取途徑和交通。",
       feature3Label: "精準度",
       feature3Title: "值得信賴",
-      feature3Desc:
-        "專業處理技術術語、濃重口音和領域專用詞彙。準確度足以應付出版、同行評審和論文委員會。",
+      feature3Desc: "專業處理技術術語、濃重口音和領域專用詞彙。準確度足以應付出版、同行評審和論文委員會。",
       feature3Point1: "醫學與科學術語",
       feature3Point2: "100+種語言與方言",
       feature3Point3: "逐字與潔淨閱讀模式",
@@ -2686,8 +2591,7 @@ let message = {
       feature3Visual2: "獲得50,000+研究人員信賴",
       feature4Label: "安全性",
       feature4Title: "IRB合規認證",
-      feature4Desc:
-        "您的敏感研究數據受企業級安全保護。符合GDPR，提供HIPAA就緒選項，完整審計追蹤滿足IRB要求。",
+      feature4Desc: "您的敏感研究數據受企業級安全保護。符合GDPR，提供HIPAA就緒選項，完整審計追蹤滿足IRB要求。",
       feature4Point1: "端到端加密",
       feature4Point2: "符合GDPR與CCPA",
       feature4Point3: "自動刪除政策",
@@ -2695,23 +2599,17 @@ let message = {
       useCasesTitle: "完美適用於",
       useCasesSubtitle: "從民族誌到臨床試驗",
       useCase1Title: "焦點小組",
-      useCase1Desc:
-        "處理8-20位參與者的重疊對話。即使在激烈討論中也能完美識別發言者。直接導出至質性分析軟體。",
+      useCase1Desc: "處理8-20位參與者的重疊對話。即使在激烈討論中也能完美識別發言者。直接導出至質性分析軟體。",
       useCase2Title: "深度訪談",
-      useCase2Desc:
-        "同時處理數百份一對一訪談。保持整個數據集的一致性。即時搜索所有文字記錄。",
+      useCase2Desc: "同時處理數百份一對一訪談。保持整個數據集的一致性。即時搜索所有文字記錄。",
       useCase3Title: "臨床研究",
-      useCase3Desc:
-        "符合HIPAA規範的患者訪談選項。精準的醫學術語轉錄。安全處理敏感健康數據。",
+      useCase3Desc: "符合HIPAA規範的患者訪談選項。精準的醫學術語轉錄。安全處理敏感健康數據。",
       useCase4Title: "民族誌研究",
-      useCase4Desc:
-        "自然環境中的實地錄音。處理背景噪音和多個說話者。支持100多種語言和方言。",
+      useCase4Desc: "自然環境中的實地錄音。處理背景噪音和多個說話者。支持100多種語言和方言。",
       useCase5Title: "口述歷史項目",
-      useCase5Desc:
-        "無限制保存完整檔案。創建可搜索的歷史記錄。非常適合縱向和世代研究。",
+      useCase5Desc: "無限制保存完整檔案。創建可搜索的歷史記錄。非常適合縱向和世代研究。",
       useCase6Title: "論文研究",
-      useCase6Desc:
-        "學生友好的價格，提供完整功能。經濟高效地處理整個數據集。通過批量處理滿足緊迫期限。",
+      useCase6Desc: "學生友好的價格，提供完整功能。經濟高效地處理整個數據集。通過批量處理滿足緊迫期限。",
       testimonialTitle: "獲得",
       testimonialText:
         "我們的研究團隊有200小時的社區健康研究焦點小組錄音。其他服務因成本問題要求我們挑選要轉錄的會議。NeverCap讓我們在一個週末內處理了所有內容。20人說話者識別功能甚至在最混亂的討論中（所有人同時發言時）也能正常工作。這個工具徹底改變了我們處理定性數據的方式。",
@@ -2734,8 +2632,7 @@ let message = {
       testimonialText3:
         "來自我們社區健康研究的焦點團體錄音。其他服務因為成本要求我們挑選要轉錄的時段。NeverCap讓我們在",
       testimonialText4Hl: "一個週末處理全部內容",
-      testimonialText5:
-        "。20人聲辨識功能確實有效——即使在最混亂、所有人同時發言的討論中也奏效。這個工具",
+      testimonialText5: "。20人聲辨識功能確實有效——即使在最混亂、所有人同時發言的討論中也奏效。這個工具",
       testimonialText6Hl: "徹底改變了",
       testimonialText7: "我們處理質性資料的方式。",
       solutionDescA:
@@ -2755,8 +2652,7 @@ let message = {
       featuresTitle: "適用於每家企業的轉錄",
       featuresSubtitle: "從現場錄製到即時上傳，我們消除了所有摩擦點",
       feature1Title: "直接在瀏覽器中錄製",
-      feature1Desc:
-        "無需下載或插件。一鍵即時開始錄製。完美的音質，自動說話者檢測。",
+      feature1Desc: "無需下載或插件。一鍵即時開始錄製。完美的音質，自動說話者檢測。",
       feature1Benefit1: "一鍵開始錄製",
       feature1Benefit2: "無需安裝軟體",
       feature1Benefit3: "適用於任何設備",
@@ -2764,10 +2660,8 @@ let message = {
       feature1Visual1: "點擊並錄製",
       feature1Visual2: "無需設置",
       feature2Title: "即時上傳任何音頻文件",
-      feature2Desc:
-        "有來自Zoom、Teams或手機的錄音？即時上傳。支持所有主要音頻和視頻格式。同時處理多個文件，無需等待。",
-      feature2Benefit1:
-        "支持格式：MP3、MP4、M4A、MOV、AAC、WAV、OGG、OPUS、MPEG、WMA、WMV、FLAC",
+      feature2Desc: "有來自Zoom、Teams或手機的錄音？即時上傳。支持所有主要音頻和視頻格式。同時處理多個文件，無需等待。",
+      feature2Benefit1: "支持格式：MP3、MP4、M4A、MOV、AAC、WAV、OGG、OPUS、MPEG、WMA、WMV、FLAC",
       feature2Benefit2: "批量上傳功能",
       feature2Benefit3: "支持10小時文件",
       feature2Benefit4: "工作時處理",
@@ -2796,8 +2690,7 @@ let message = {
       workflowTitle: "如何將",
       workflowSubtitle: "無縫工作流程，捕捉每個重要時刻",
       workflowStep1Title: "錄製或上傳",
-      workflowStep1Desc:
-        "開始即時錄製或直接從Zoom、Google Meet或Microsoft Teams下載會議錄音",
+      workflowStep1Desc: "開始即時錄製或直接從Zoom、Google Meet或Microsoft Teams下載會議錄音",
       workflowStep2Title: "自動轉錄",
       workflowStep2Desc: "我們的AI將在幾分鐘內以96%準確度自動將錄音轉為文字",
       workflowStep3Title: "協作",
@@ -2814,8 +2707,7 @@ let message = {
         '"Otter限制我們每月只能上傳10個檔案。現在我們能立即上傳所有客戶通話。這徹底改變了我們銷售團隊的後續工作。"',
       testimonial2AuthorName: "Sarah Rodriguez",
       testimonial2AuthorRole: "銷售總監, ConsultPro",
-      testimonial3Text:
-        '"能搜尋數月會議記錄的功能在審計時救了我們。幾秒內就找到每個決策和批准。"',
+      testimonial3Text: '"能搜尋數月會議記錄的功能在審計時救了我們。幾秒內就找到每個決策和批准。"',
       testimonial3AuthorName: "Mark Liu",
       testimonial3AuthorRole: "營運長, FinanceHub",
       ctaTitle: "不再遺失重要對話",
@@ -2852,8 +2744,7 @@ let message = {
       feature1Point3: "一次處理整個播放清單",
       feature1Point4: "適用於私人影片（需授權）",
       feature2Title: "自動生成字幕",
-      feature2Desc:
-        "立即為所有教育影片建立準確字幕。讓聽障學生、非母語人士或偏好閱讀的學生都能存取內容。",
+      feature2Desc: "立即為所有教育影片建立準確字幕。讓聽障學生、非母語人士或偏好閱讀的學生都能存取內容。",
       feature2Point1: "SRT、VTT和TXT匯出格式",
       feature2Point2: "單詞級時間戳記實現完美同步",
       feature2Point3: "輕鬆編輯和自訂字幕",
@@ -2883,8 +2774,7 @@ let message = {
       workflowTitle: "運作方式：",
       workflowSubtitle: "幾分鐘內從影片連結到可存取逐字稿與學習材料",
       workflowStep1Title: "上傳您的講座",
-      workflowStep1Desc:
-        "上傳任何音訊或影片檔案（MP3、MP4、WAV）或貼上YouTube連結",
+      workflowStep1Desc: "上傳任何音訊或影片檔案（MP3、MP4、WAV）或貼上YouTube連結",
       workflowStep2Title: "AI轉錄",
       workflowStep2Desc: "我們的AI轉錄音訊、區分講者並識別關鍵主題",
       workflowStep3Title: "生成字幕",
@@ -2894,23 +2784,17 @@ let message = {
       useCasesTitle: "完美滿足每項",
       useCasesSubtitle: "了解教育工作者如何使用NeverCap提升學習效果",
       useCase1Title: "錄製講座",
-      useCase1Text:
-        "轉錄整學期的錄製講座。學生可搜索特定主題、複習關鍵概念，絕不錯過重要資訊。",
+      useCase1Text: "轉錄整學期的錄製講座。學生可搜索特定主題、複習關鍵概念，絕不錯過重要資訊。",
       useCase2Title: "線上課程",
-      useCase2Text:
-        "透過100+種語言翻譯讓國際學生能使用您的線上課程。提高註冊率和滿意度。",
+      useCase2Text: "透過100+種語言翻譯讓國際學生能使用您的線上課程。提高註冊率和滿意度。",
       useCase3Title: "學習材料",
-      useCase3Text:
-        "使用AI將影片教學和講座的音頻文件轉錄為學習指南。適合偏好閱讀或需快速複習可搜索文字的學生。",
+      useCase3Text: "使用AI將影片教學和講座的音頻文件轉錄為學習指南。適合偏好閱讀或需快速複習可搜索文字的學生。",
       useCase4Title: "無障礙合規",
-      useCase4Text:
-        "為所有影片內容提供字幕和文字稿以滿足無障礙要求。確保所有學生平等獲取內容。",
+      useCase4Text: "為所有影片內容提供字幕和文字稿以滿足無障礙要求。確保所有學生平等獲取內容。",
       useCase5Title: "翻轉教室",
-      useCase5Text:
-        "課前分享附文字稿的影片講座。學生可按自身節奏預習並為討論做好準備。",
+      useCase5Text: "課前分享附文字稿的影片講座。學生可按自身節奏預習並為討論做好準備。",
       useCase6Title: "研究與引用",
-      useCase6Text:
-        "透過時間戳幫助學生準確引用影片來源。最適合研究項目和學術論文。",
+      useCase6Text: "透過時間戳幫助學生準確引用影片來源。最適合研究項目和學術論文。",
       testimonialTitle: "獲得",
       testimonialSubtitle: "了解全球教師選擇NeverCap的原因",
       testimonialAuthorName: "Karen Mitchell教授",
@@ -2967,8 +2851,7 @@ let message = {
         list: [
           {
             title: "節省數據費用：",
-            content:
-              "通常，在 YouTube 觀看影片會消耗大量行動數據。透過下載離線觀看，可避免這些不必要的費用。"
+            content: "通常，在 YouTube 觀看影片會消耗大量行動數據。透過下載離線觀看，可避免這些不必要的費用。"
           },
           {
             title: "隨時隨地觀看：",
@@ -2976,8 +2859,7 @@ let message = {
           },
           {
             title: "輕鬆歸檔與保存：",
-            content:
-              "將影片儲存為 MP4，便於建立個人收藏，特別是您認為真正有價值或重要的內容。"
+            content: "將影片儲存為 MP4，便於建立個人收藏，特別是您認為真正有價值或重要的內容。"
           },
           {
             title: "分享更簡單：",
@@ -2986,8 +2868,7 @@ let message = {
           },
           {
             title: "即時觀看，共享時刻：",
-            content:
-              "想興奮地向附近的朋友或家人展示喜愛的影片？下載 MP4 後，大家可立即流暢觀看，無需尷尬等待載入。"
+            content: "想興奮地向附近的朋友或家人展示喜愛的影片？下載 MP4 後，大家可立即流暢觀看，無需尷尬等待載入。"
           }
         ]
       },
@@ -3008,8 +2889,7 @@ let message = {
           },
           {
             title: "零廣告，零干擾",
-            content:
-              "享受無彈出視窗、橫幅廣告或中斷的潔淨介面——僅有無縫影片轉換。"
+            content: "享受無彈出視窗、橫幅廣告或中斷的潔淨介面——僅有無縫影片轉換。"
           },
           {
             icon: "5",
@@ -3052,13 +2932,11 @@ let message = {
           },
           {
             question: "哪些因素會影響下載 YouTube 影片的時間？",
-            answer:
-              "儘管我們確保最快的下載體驗，但下載時間仍受影片長度與網路連線速度等因素影響。"
+            answer: "儘管我們確保最快的下載體驗，但下載時間仍受影片長度與網路連線速度等因素影響。"
           },
           {
             question: "當我使用智慧手機下載 MP4 影片時，它會儲存在哪裡？",
-            answer:
-              "在智慧型手機下載MP4後，通常可在裝置檔案管理應用程式的「Downloads」資料夾中找到該檔案。"
+            answer: "在智慧型手機下載MP4後，通常可在裝置檔案管理應用程式的「Downloads」資料夾中找到該檔案。"
           },
           {
             question: "將 YouTube 影片下載為 MP4 會降低畫質嗎？",
@@ -3084,8 +2962,7 @@ let message = {
         steps: [
           {
             title: "免費音訊和視頻",
-            content:
-              "只需幾秒鐘即可將音訊和視訊檔案轉換為文本，每天 3 個免費成績單。"
+            content: "只需幾秒鐘即可將音訊和視訊檔案轉換為文本，每天 3 個免費成績單。"
           },
           {
             title: "將音訊檔案轉換為文字",
@@ -3094,15 +2971,13 @@ let message = {
           },
           {
             title: "轉錄 YouTube 影片",
-            content:
-              "將 YouTube 影片轉換為準確的文字或字幕。只需貼上 YouTube 連結即可。"
+            content: "將 YouTube 影片轉換為準確的文字或字幕。只需貼上 YouTube 連結即可。"
           }
         ],
         stepsNew: [
           {
             title: "免費音訊和視訊轉錄",
-            content:
-              "在幾秒鐘內將音訊和視訊檔案轉換為文字。每天 3 份免費成績單。"
+            content: "在幾秒鐘內將音訊和視訊檔案轉換為文字。每天 3 份免費成績單。"
           },
           {
             title: "將音訊檔案轉換為文字",
@@ -3111,188 +2986,189 @@ let message = {
           },
           {
             title: "轉錄 YouTube 影片",
-            content:
-              "將 YouTube 影片轉換為準確的文字或字幕。只需貼上 YouTube 連結即可。"
+            content: "將 YouTube 影片轉換為準確的文字或字幕。只需貼上 YouTube 連結即可。"
           }
         ]
       },
       MoreFreeTools: {
-        "title": "更多免費工具",
-        "title_des": "探索我們的其他免費轉換工具",
-        "YouTubeToMP": "YouTube 轉 MP3",
-        "YouTubeToMP_des": "將 YouTube 影片轉換為 MP3 格式以供離線觀看。立即下載高品質影片。",
-        "AITranscription": "人工智慧轉錄",
-        "AITranscription_des": "音訊和視訊檔案轉錄準確率高達 96%。所有內容均可無限量轉錄。"
+        title: "更多免費工具",
+        title_des: "探索我們的其他免費轉換工具",
+        YouTubeToMP: "YouTube 轉 MP3",
+        YouTubeToMP_des: "將 YouTube 影片轉換為 MP3 格式以供離線觀看。立即下載高品質影片。",
+        AITranscription: "人工智慧轉錄",
+        AITranscription_des: "音訊和視訊檔案轉錄準確率高達 96%。所有內容均可無限量轉錄。"
       }
     },
     YouTubeToMP3: {
-      "err1": "YouTube 連結格式錯誤。",
-      "err2": "抱歉！我們目前僅支援 YouTube 連結。如果您需要其他網站的支持，我們會在將來添加時及時通知您。",
-      "part1": {
-        "title": "將 YouTube 影片轉換為 MP3",
-        "title_des": "幾秒鐘內從 YouTube 影片中提取音頻",
-        "placeholder": "在此處貼上您的 Youtube 鏈接",
-        "clear_icon": "清除輸入",
-        "Download": "轉變",
-        "loading_text": "處理要轉換的連結。留在頁面上。",
-        "howToDownload": "如何轉換？",
-        "tutorial": "觀看教學課程"
+      err1: "YouTube 連結格式錯誤。",
+      err2: "抱歉！我們目前僅支援 YouTube 連結。如果您需要其他網站的支持，我們會在將來添加時及時通知您。",
+      part1: {
+        title: "將 YouTube 影片轉換為 MP3",
+        title_des: "幾秒鐘內從 YouTube 影片中提取音頻",
+        placeholder: "在此處貼上您的 Youtube 鏈接",
+        clear_icon: "清除輸入",
+        Download: "轉變",
+        loading_text: "處理要轉換的連結。留在頁面上。",
+        howToDownload: "如何轉換？",
+        tutorial: "觀看教學課程"
       },
-      "freeResources": {
-        "linkTitle": "由 {NeverCap} 提供支持",
-        "linkTitle2": "- 完全無限制的 AI 轉錄",
-        "title": "免費資源",
-        "stepsNew": [
+      freeResources: {
+        linkTitle: "由 {NeverCap} 提供支持",
+        linkTitle2: "- 完全無限制的 AI 轉錄",
+        title: "免費資源",
+        stepsNew: [
           {
-            "title": "免費音訊和視訊轉錄",
-            "content": "在幾秒鐘內將音訊和視訊檔案轉換為文字。每天轉錄 3 個檔案。"
+            title: "免費音訊和視訊轉錄",
+            content: "在幾秒鐘內將音訊和視訊檔案轉換為文字。每天轉錄 3 個檔案。"
           },
           {
-            "title": "將音訊檔案提取為文字",
-            "content": "上傳 MP3、MP4、WAV、MOV。",
-            "content2": "下載 DOCX、TXT、SRT 等。"
+            title: "將音訊檔案提取為文字",
+            content: "上傳 MP3、MP4、WAV、MOV。",
+            content2: "下載 DOCX、TXT、SRT 等。"
           },
           {
-            "title": "轉錄 YouTube 影片",
-            "content": "將 YouTube 影片轉換為準確的文字或字幕，並免費貼上連結。"
+            title: "轉錄 YouTube 影片",
+            content: "將 YouTube 影片轉換為準確的文字或字幕，並免費貼上連結。"
           }
         ]
       },
-      "part2": {
-        "title": "只需 3 個簡單步驟，即可將 YouTube 影片轉換為可下載的 MP3 文件",
-        "steps": [
+      part2: {
+        title: "只需 3 個簡單步驟，即可將 YouTube 影片轉換為可下載的 MP3 文件",
+        steps: [
           {
-            "title": "複製 URL",
-            "content": "打開目標 YouTube 視頻，然後從瀏覽器的地址欄複製連結。"
+            title: "複製 URL",
+            content: "打開目標 YouTube 視頻，然後從瀏覽器的地址欄複製連結。"
           },
           {
-            "title": "貼上連結",
-            "content": "插入您的影片下載工具並將 URL 貼到其輸入欄位中。"
+            title: "貼上連結",
+            content: "插入您的影片下載工具並將 URL 貼到其輸入欄位中。"
           },
           {
-            "title": "轉換和下載",
-            "content": "轉換完成後，下載您的 MP3 檔案並儲存。"
+            title: "轉換和下載",
+            content: "轉換完成後，下載您的 MP3 檔案並儲存。"
           }
         ]
       },
-      "part3": {
-        "content": [
+      part3: {
+        content: [
           "想要將 YouTube 影片轉換為 MP3 以便隨時收聽嗎？",
           "無論是在地鐵、飛機上，還是在整理播客、課程內容或重要檔案時，我們常常會遇到無法隨時存取文件的困擾。我們的轉換工具可以幫您解決這個問題。",
           "只需複製 YouTube 鏈接，貼上到轉換器中，一鍵即可將影片轉換為高品質 MP3 音訊。無需網路連接，即可隨時儲存、聆聽和存檔。"
         ]
       },
-      "part4": {
-        "content": [
-          "以下是轉換的 5 大好處",
-          "YouTube 影片轉 MP3 文件"
-        ],
-        "list": [
+      part4: {
+        content: ["以下是轉換的 5 大好處", "YouTube 影片轉 MP3 文件"],
+        list: [
           {
-            "title": "節省儲存空間：",
-            "content": "MP3 檔案更小，減少了 YouTube 的儲存空間。下載離線觀看檔案可節省行動數據流量，並在有網路時使用。"
+            title: "節省儲存空間：",
+            content: "MP3 檔案更小，減少了 YouTube 的儲存空間。下載離線觀看檔案可節省行動數據流量，並在有網路時使用。"
           },
           {
-            "title": "節省電池：",
-            "content": "觀看 YouTube 影片時，他們提供緩衝服務，使用易於監聽的連線。無需再擔心緩衝。"
+            title: "節省電池：",
+            content: "觀看 YouTube 影片時，他們提供緩衝服務，使用易於監聽的連線。無需再擔心緩衝。"
           },
           {
-            "title": "輕鬆存檔和保存：",
-            "content": "一些影片或 MP3 可以輕鬆建立您的個人庫——無論是用於教育內容、音樂檔案還是重要內容。"
+            title: "輕鬆存檔和保存：",
+            content: "一些影片或 MP3 可以輕鬆建立您的個人庫——無論是用於教育內容、音樂檔案還是重要內容。"
           },
           {
-            "title": "更簡單的共享：",
-            "content": "分享 MP3 檔案比 YouTube 連結方便得多。您可以透過 WhatsApp 或 Instagram 等應用程式將檔案傳送給朋友，省去了開啟 YouTube 的入門成本。"
+            title: "更簡單的共享：",
+            content:
+              "分享 MP3 檔案比 YouTube 連結方便得多。您可以透過 WhatsApp 或 Instagram 等應用程式將檔案傳送給朋友，省去了開啟 YouTube 的入門成本。"
           },
           {
-            "title": "即時查看，廣泛靈活性：",
-            "content": "透過將 YouTube 視頻轉換為您需要的任意格式，可以訪問更廣泛的喜愛視頻，並且 MP3 格式可以立即順利地結合在一起，而無需尷尬地等待加載。"
+            title: "即時查看，廣泛靈活性：",
+            content:
+              "透過將 YouTube 視頻轉換為您需要的任意格式，可以訪問更廣泛的喜愛視頻，並且 MP3 格式可以立即順利地結合在一起，而無需尷尬地等待加載。"
           }
         ]
       },
-      "part5": {
-        "title": "為什麼我們的轉換器脫穎而出",
-        "cards": [
+      part5: {
+        title: "為什麼我們的轉換器脫穎而出",
+        cards: [
           {
-            "title": "一鍵式操作",
-            "content": "輕鬆設定和直覺操作。"
+            title: "一鍵式操作",
+            content: "輕鬆設定和直覺操作。"
           },
           {
-            "title": "極速，無限",
-            "content": "以最快速度轉換和下載 — 無上限，無限制。"
+            title: "極速，無限",
+            content: "以最快速度轉換和下載 — 無上限，無限制。"
           },
           {
-            "title": "即時轉換",
-            "content": "立即處理您的文件，無需等待。"
+            title: "即時轉換",
+            content: "立即處理您的文件，無需等待。"
           },
           {
-            "title": "零廣告，零幹擾",
-            "content": "享受乾淨的介面，沒有彈出視窗、橫幅或中斷 - 只有流暢、不間斷的轉換。"
+            title: "零廣告，零幹擾",
+            content: "享受乾淨的介面，沒有彈出視窗、橫幅或中斷 - 只有流暢、不間斷的轉換。"
           },
           {
-            "title": "原廠品質保證",
-            "content": "您的下載內容將保留來源影片的完整分辨率，以便每次都能完美播放像素。"
+            title: "原廠品質保證",
+            content: "您的下載內容將保留來源影片的完整分辨率，以便每次都能完美播放像素。"
           },
           {
-            "title": "可在任何地方使用",
-            "content": "與任何裝置上的任何瀏覽器完全相容。"
+            title: "可在任何地方使用",
+            content: "與任何裝置上的任何瀏覽器完全相容。"
           }
         ]
       },
-      "part6": {
-        "title": [
-          "最大化 YouTube 轉 MP3 的轉換率",
-          "使用我們的轉換器"
-        ],
-        "title_des": "輕鬆將 YouTube 轉換為 MP3 — 快速、簡單且免費",
-        "content": [
+      part6: {
+        title: ["最大化 YouTube 轉 MP3 的轉換率", "使用我們的轉換器"],
+        title_des: "輕鬆將 YouTube 轉換為 MP3 — 快速、簡單且免費",
+        content: [
           "這就是我們的優勢。我們設計的用戶友好介面，人人適用——無需任何技術技能。無論您的經驗程度如何，都能立即轉換影片。無需註冊，輕鬆上手——您下載的 MP3 將保持原始影片品質和清晰度，與您在 YouTube 上觀看時的效果完全一致。",
           "速度也很重要。您可以快速下載多個文件，無廣告，無需擔心設備問題。無論您使用 Windows、macOS、Linux、Android 或 iOS 系統，無論是智慧型手機、平板電腦還是桌上型電腦，都可以輕鬆下載影片。"
         ]
       },
-      "part7": {
-        "title": "將 YouTube 轉換為 MP3 的關鍵問題",
-        "list": [
+      part7: {
+        title: "將 YouTube 轉換為 MP3 的關鍵問題",
+        list: [
           {
-            "question": "我可以將受版權保護的 YouTube 影片轉換為 MP3 嗎？",
-            "answer": "雖然技術上可行，但未經許可轉換受版權保護的內容可能違反 YouTube 的服務條款和版權法。請務必確保您有權轉換內容或僅將其用於個人非商業用途。"
+            question: "我可以將受版權保護的 YouTube 影片轉換為 MP3 嗎？",
+            answer:
+              "雖然技術上可行，但未經許可轉換受版權保護的內容可能違反 YouTube 的服務條款和版權法。請務必確保您有權轉換內容或僅將其用於個人非商業用途。"
           },
           {
-            "question": "這個轉換工具安全嗎？",
-            "answer": "是的，我們的轉換器絕對安全可靠。我們不會儲存您的任何資料或文件，也不存在惡意軟體或病毒的風險。轉換過程直接且安全。"
+            question: "這個轉換工具安全嗎？",
+            answer:
+              "是的，我們的轉換器絕對安全可靠。我們不會儲存您的任何資料或文件，也不存在惡意軟體或病毒的風險。轉換過程直接且安全。"
           },
           {
-            "question": "YouTube 轉 MP3 的轉換支援哪些語言？",
-            "answer": "我們的轉換器支援 YouTube 上所有語言。音訊將以原始視訊的格式準確提取，保留原始語言和音訊品質。"
+            question: "YouTube 轉 MP3 的轉換支援哪些語言？",
+            answer: "我們的轉換器支援 YouTube 上所有語言。音訊將以原始視訊的格式準確提取，保留原始語言和音訊品質。"
           },
           {
-            "question": "哪些因素會影響轉換 YouTube 影片所需的時間？",
-            "answer": "轉換時間取決於多種因素：視訊時長、網路連線速度以及當前伺服器負載。大多數 10 分鐘以內的影片轉換時間不到 30 秒。"
+            question: "哪些因素會影響轉換 YouTube 影片所需的時間？",
+            answer:
+              "轉換時間取決於多種因素：視訊時長、網路連線速度以及當前伺服器負載。大多數 10 分鐘以內的影片轉換時間不到 30 秒。"
           },
           {
-            "question": "當我使用智慧型手機轉換和下載 MP3 時，它保存在哪裡？",
-            "answer": "在大多數智慧型手機上，轉換後的 MP3 檔案會儲存到「下載」資料夾中。在 iPhone 上，它們可能會儲存到「檔案」應用程式中。在安卓裝置上，請在檔案總管或音樂應用程式中查看「下載」資料夾。"
+            question: "當我使用智慧型手機轉換和下載 MP3 時，它保存在哪裡？",
+            answer:
+              "在大多數智慧型手機上，轉換後的 MP3 檔案會儲存到「下載」資料夾中。在 iPhone 上，它們可能會儲存到「檔案」應用程式中。在安卓裝置上，請在檔案總管或音樂應用程式中查看「下載」資料夾。"
           },
           {
-            "question": "將 YouTube 影片轉換為 MP3 會降低音訊品質嗎？",
-            "answer": "MP3 是一種純音訊格式，因此不包含視訊部分。音訊品質將保留來源視訊中可用的最高位元率，通常為 128-320 kbps，具體取決於原始上傳品質。"
+            question: "將 YouTube 影片轉換為 MP3 會降低音訊品質嗎？",
+            answer:
+              "MP3 是一種純音訊格式，因此不包含視訊部分。音訊品質將保留來源視訊中可用的最高位元率，通常為 128-320 kbps，具體取決於原始上傳品質。"
           }
         ]
       },
-      "MoreFreeTools": {
-        "title": "更多免費工具",
-        "title_des": "探索我們的其他免費轉換工具",
-        "YouTubeToMP": "YouTube 轉 MP4",
-        "YouTubeToMP_des": "將 YouTube 影片轉換為 MP4 格式以供離線觀看。立即下載高品質影片。",
-        "AITranscription": "人工智慧轉錄",
-        "AITranscription_des": "音訊和視訊檔案轉錄準確率高達 96%。所有內容均可無限量轉錄。"
+      MoreFreeTools: {
+        title: "更多免費工具",
+        title_des: "探索我們的其他免費轉換工具",
+        YouTubeToMP: "YouTube 轉 MP4",
+        YouTubeToMP_des: "將 YouTube 影片轉換為 MP4 格式以供離線觀看。立即下載高品質影片。",
+        AITranscription: "人工智慧轉錄",
+        AITranscription_des: "音訊和視訊檔案轉錄準確率高達 96%。所有內容均可無限量轉錄。"
       },
-      "videoDownload": {
-        "title": "將 YouTube 連結轉換為 MP3。免費、快速且無廣告。",
-        "description": "感謝您選擇我們的服務！我們非常感謝您的信任，並希望這能提升您的體驗。如果您能與朋友分享我們的網站，那將是我們莫大的幫助。",
-        "downloadButton": "下載",
-        "TranscribeButton": "錄製",
-        "downloadError": "轉換錯誤。"
+      videoDownload: {
+        title: "將 YouTube 連結轉換為 MP3。免費、快速且無廣告。",
+        description:
+          "感謝您選擇我們的服務！我們非常感謝您的信任，並希望這能提升您的體驗。如果您能與朋友分享我們的網站，那將是我們莫大的幫助。",
+        downloadButton: "下載",
+        TranscribeButton: "錄製",
+        downloadError: "轉換錯誤。"
       }
     }
   },
@@ -3332,26 +3208,22 @@ let message = {
         {
           icon: "🎯",
           title: "無可比擬的準確性",
-          description:
-            "我們的AI模型持續優化，提供超過96%的轉錄準確率，部分主要語言通過進階優化更可達99%。"
+          description: "我們的AI模型持續優化，提供超過96%的轉錄準確率，部分主要語言通過進階優化更可達99%。"
         },
         {
           icon: "🌍",
           title: "全球語言支援",
-          description:
-            "支援100+種語音識別和249+種語言翻譯，讓您的內容真正全球化。"
+          description: "支援100+種語音識別和249+種語言翻譯，讓您的內容真正全球化。"
         },
         {
           icon: "⚡",
           title: "閃電般快速處理",
-          description:
-            "數分鐘即可處理數小時音視頻內容。優化的AI流程確保您在保持質量的同時快速獲得轉錄稿。"
+          description: "數分鐘即可處理數小時音視頻內容。優化的AI流程確保您在保持質量的同時快速獲得轉錄稿。"
         },
         {
           icon: "🔒",
           title: "企業級安全",
-          description:
-            "您的數據安全是我們的首要任務。我們採用業界標準加密並遵守全球隱私法規，確保內容安全保密。"
+          description: "您的數據安全是我們的首要任務。我們採用業界標準加密並遵守全球隱私法規，確保內容安全保密。"
         }
       ]
     },
@@ -3390,8 +3262,7 @@ let message = {
     privacyPolicyTitle: "隱私權政策",
     policyAgreement:
       "請仔細閱讀本隱私權政策並確保您理解其內容。使用我們的任何服務即表示您同意本隱私權政策。若您不同意我們依本政策使用您的個人資料，必須立即停止使用我們的服務。",
-    policyOverview:
-      "本政策說明：我們收集的資料及其原因；您的資料處理方式；以及您對資料的權利。我們不會出售您的資料。",
+    policyOverview: "本政策說明：我們收集的資料及其原因；您的資料處理方式；以及您對資料的權利。我們不會出售您的資料。",
     scopeTitle: "1. 隱私權政策範圍",
     scopeDescription:
       "本隱私權政策僅適用於我們對服務用戶資訊的收集與處理。本政策不適用於第三方營運的服務、網站或軟體（無論連結由我們提供或用戶分享），亦不適用於第三方內容、資料、應用程式或素材。建議您在使用第三方網站或軟體前查閱其隱私權政策。",
@@ -3415,8 +3286,7 @@ let message = {
     cookiesDescription2:
       "Cookie是瀏覽器儲存的文字片段，可記住登入資訊與網站偏好，並收集瀏覽器類型、作業系統、訪問網頁、停留時間、瀏覽內容等點擊流資料。您可在瀏覽器設定中調整Cookie保留設定或封鎖個別Cookie，但關閉Cookie可能導致應用程式無法運作或服務異常。",
     correspondenceTitle: "2.6 主動聯繫",
-    correspondenceDescription:
-      "當您透過電子郵件提問或求助時，我們會保留通訊記錄（含郵件地址）以供未來參考。",
+    correspondenceDescription: "當您透過電子郵件提問或求助時，我們會保留通訊記錄（含郵件地址）以供未來參考。",
     accessTitle: "3. 我們存取或分享資訊的時機",
     accessDescription1:
       "為提供您要求的產品或服務。我們使用第三方子處理者協助運作應用程式與提供服務，包括雲端與分析服務商。",
@@ -3427,8 +3297,7 @@ let message = {
       "用戶資料請求。原則上我們僅在法定程序強制或緊急情況下回應政府資料請求。若美國執法機關出示有效令狀、刑事傳票或法庭命令，我們必須配合；對美國境外政府請求，僅在依《司法互助條約》程序被強制時回應。除非法律禁止，我們會在分享資料前通知受影響用戶（緊急情況除外）。",
     preservationRequests:
       "資料保存請求。我們僅依《美國聯邦儲存通訊法》18 U.S.C.第2703(f)條或民事傳票要求保存資料，且除非法律強制或不可上訴的法庭命令，否則不會分享。若保存期限屆滿前未接獲適當令狀，將銷毀所有客戶資料副本。",
-    taxAudits:
-      "若接受稅務機關稽核，可能需要分享帳單相關資訊（如帳單地址與免稅資料），且僅提供最低必要內容。",
+    taxAudits: "若接受稅務機關稽核，可能需要分享帳單相關資訊（如帳單地址與免稅資料），且僅提供最低必要內容。",
     securityTitle: "4. 資料安全措施",
     securityDescription: "所有資料從伺服器傳輸至瀏覽器時皆透過SSL/TLS加密。",
     deletionTitle: "5. 刪除內容的後果",
@@ -3438,8 +3307,7 @@ let message = {
       "我們的產品與網路服務營運於美國。若您位於歐盟、英國或其他非美國地區，請注意您提供的資訊將傳輸並儲存於美國。使用我們的網站/服務或提供個人資訊即表示您同意此傳輸。",
     childrenTitle: "7. 兒童隱私",
     updatesTitle: "8. 隱私權政策更新",
-    updatesDescription:
-      "我們可能依法規要求或實務變更更新政策。重大變更時會更新頁首日期。",
+    updatesDescription: "我們可能依法規要求或實務變更更新政策。重大變更時會更新頁首日期。",
     contactTitle: "9. 聯絡我們",
     websiteUrl: "https://www.nevercap.ai/",
     at: "：",
@@ -3472,25 +3340,20 @@ let message = {
     termsRevision:
       "NeverCap保留隨時自行修訂和更新這些條款的權利。所有更改在發布後立即生效。您在發布修訂條款後繼續使用服務即表示您接受並同意這些更改。您應不時檢查本頁面以了解任何更改，因為它們對您具有約束力。",
     servicesTitle: "2. NeverCap的服務",
-    servicesDescription1:
-      "我們的服務使用戶能夠將語音對話轉換為可搜索、翻譯並與他人共享的轉錄文本。",
-    servicesOptions:
-      "您可以選擇使用服務的免費版本（「免費服務」）或可能需要支付費用的訂閱付費版本（「付費服務」）。",
-    servicesAccess:
-      "我們將向您提供服務。您負責為您訪問服務做出所有必要的安排。",
+    servicesDescription1: "我們的服務使用戶能夠將語音對話轉換為可搜索、翻譯並與他人共享的轉錄文本。",
+    servicesOptions: "您可以選擇使用服務的免費版本（「免費服務」）或可能需要支付費用的訂閱付費版本（「付費服務」）。",
+    servicesAccess: "我們將向您提供服務。您負責為您訪問服務做出所有必要的安排。",
     accountTermsTitle: "3. 帳戶條款",
     accountSecurity:
       "您有責任維護帳戶的安全。對於您未能遵守此安全義務而導致的任何損失或損害，本公司不承擔且將不承擔責任。",
     lawfulUse: "您不得將服務用於任何非法、不道德或不道德的目的。",
     contentResponsibility:
       "您對帳戶下發布的所有內容和發生的活動負責。這包括以下人員發布的內容：（a）擁有您的登錄憑據；或（b）在您的帳戶下擁有自己的登錄權限。",
-    humanRequirement:
-      "您必須是人類。不允許通過「機器人」或其他自動化方法註冊帳戶。",
+    humanRequirement: "您必須是人類。不允許通過「機器人」或其他自動化方法註冊帳戶。",
     paymentTitle: "4. 付款、退款和計劃變更",
     freeTrial:
       "對於提供免費試用的付費服務，我們會在您註冊時解釋試用期的長度。試用期結束後，您需要預付費用才能繼續使用服務。如果您不付款，這些服務將終止。",
-    upgradePolicy:
-      "如果您從免費計劃升級到付費計劃，我們將立即向您的卡收費，您的計費週期從升級當天開始。",
+    upgradePolicy: "如果您從免費計劃升級到付費計劃，我們將立即向您的卡收費，您的計費週期從升級當天開始。",
     taxes:
       "所有費用均不含稅務機關徵收的任何稅款、徵費或關稅。在需要的情況下，我們將代表稅務機關收取這些稅款並將其繳納給稅務機關。否則，您應負責支付所有稅款、徵費或關稅。",
     refunds:
@@ -3500,8 +3363,7 @@ let message = {
       "如果您在任何預付時間結束前取消服務，您的取消將立即生效，並且您將不會再次被收費。我們不會自動按比例退還最後一個計費週期中未使用的時間。",
     terminationRights:
       "我們有權隨時以任何理由暫停或終止您的帳戶，並拒絕您當前或將來使用我們的服務的任何和所有權利。暫停意味著您將無法訪問帳戶或帳戶中的任何內容。終止還將導致您的帳戶或對帳戶的訪問被刪除，以及帳戶中所有內容的沒收和放棄。我們還保留隨時以任何理由拒絕任何人使用服務的權利。我們有這條款是因為從統計上講，在我們服務上的數十萬個帳戶中，至少有一個在做一些邪惡的事情。",
-    abusePolicy:
-      "對公司員工或官員的口頭、身體、書面或其他虐待（包括虐待或報復的威脅）可能導致立即終止帳戶。",
+    abusePolicy: "對公司員工或官員的口頭、身體、書面或其他虐待（包括虐待或報復的威脅）可能導致立即終止帳戶。",
     submissionsTitle: "6. 提交",
     submissionsDescription:
       "您承認並同意，您向我們提供的關於網站（「提交」）的任何問題、評論、建議、想法、反饋或其他信息均為非保密信息，並將成為我們的獨有財產。我們應擁有獨家權利，包括所有知識產權，並有權不受限制地將這些提交用於任何合法目的，無論是商業還是其他目的，而無需向您確認或補償。您在此放棄對任何此類提交的所有道德權利，並在此保證任何此類提交均為您原創或您有權提交此類提交。您同意，對於您提交的任何專有權利的所謂或實際侵權或盜用，我們不承擔任何責任。",
@@ -3512,21 +3374,18 @@ let message = {
       "我們保留在極少數情況下暫時限制或限制帳戶訪問的權利，這些情況下用戶的活動被證實對其他用戶的服務穩定性和性能產生負面影響。在除最關鍵情況外的所有情況下，我們將在採取行動前與您聯繫以尋找解決方案。",
     dataSecurity:
       "我們通過備份、冗餘和加密採取許多措施來保護和保護您的數據。我們強制對通過公共互聯網傳輸的數據進行加密。",
-    thirdPartyVendors:
-      "我們使用第三方供應商和託管合作夥伴來提供運行服務所需的硬件、軟件、網絡、存儲和相關技術。",
+    thirdPartyVendors: "我們使用第三方供應商和託管合作夥伴來提供運行服務所需的硬件、軟件、網絡、存儲和相關技術。",
     siteManagementTitle: "8. 網站管理",
     siteManagementDescription:
       "我們保留但不限於以下權利：（1）監控網站以查找違反這些服務條款的行為；（2）對我們自行判斷違反法律或這些服務條款的任何人採取適當的法律行動，包括但不限於向執法機關報告此類用戶；（3）在我們自行判斷且不受限制的情況下，拒絕、限制訪問、限制可用性或禁用（在技術可行的範圍內）您的貢獻或其任何部分；（4）在我們自行判斷且無需通知或責任的情況下，從網站中刪除或以其他方式禁用所有過大或對我們的系統造成任何負擔的文件和內容；以及（5）以旨在保護我們的權利和財產並促進網站正常運行的方式管理網站。",
     copyrightTitle: "9. 版權和內容所有權",
     copyrightCompliance: "服務上發布的所有內容必須符合美國版權法。",
-    ipRights:
-      "我們不對您提供給服務的材料主張任何知識產權。所有上傳的材料仍歸您所有。",
+    ipRights: "我們不對您提供給服務的材料主張任何知識產權。所有上傳的材料仍歸您所有。",
     contentModeration:
       "我們不對內容進行預先審查，但保留在我們自行判斷下拒絕或刪除通過服務提供的任何內容的權利（但非義務）。",
     prohibitedExploitation:
       "您同意未經公司明確書面許可，不得複製、複製、銷售、轉售或利用服務的任何部分、服務的使用或對服務的訪問。",
-    impersonationProhibition:
-      "您不得修改其他網站以虛假暗示其與服務或公司有關聯。",
+    impersonationProhibition: "您不得修改其他網站以虛假暗示其與服務或公司有關聯。",
     dmcaPolicy:
       "我們尊重他人的知識產權。如果您認為網站上或通過網站提供的任何材料侵犯了您擁有或控制的任何版權，請立即聯繫我們。您的通知副本將發送給在通知中提到的發布或存儲材料的人。請注意，根據適用法律，如果您在通知中做出重大虛假陳述，您可能會對損害賠償負責。因此，如果您不確定網站上或鏈接到網站的材料是否侵犯了您的版權，您應考慮首先聯繫律師。",
     prohibitedActivitiesTitle: "10. 禁止活動",
@@ -3535,12 +3394,10 @@ let message = {
     userObligations: "作為本網站用戶，您同意不得：",
     dataScraping:
       "未經我們書面許可，系統性地從本網站檢索數據或其他內容以直接或間接創建或編纂任何集合、彙編、數據庫或目錄。",
-    fraud:
-      "欺騙、詐騙或誤導我們及其他用戶，尤其是試圖獲取敏感帳戶資訊（如用戶密碼）的行為。",
+    fraud: "欺騙、詐騙或誤導我們及其他用戶，尤其是試圖獲取敏感帳戶資訊（如用戶密碼）的行為。",
     securityInterference:
       "規避、停用或以其他方式干擾本網站的安全相關功能，包括防止或限制內容使用/複製的功能，或對本網站及/或其內容使用施加限制的功能。",
-    defamation:
-      "以我們認為會貶低、玷污或以其他方式損害我們及/或本網站的方式行事。",
+    defamation: "以我們認為會貶低、玷污或以其他方式損害我們及/或本網站的方式行事。",
     harassment: "使用從本網站獲得的任何資訊騷擾、虐待或傷害他人。",
     supportAbuse: "不當使用我們的支援服務或提交虛假的濫用或行為不檢報告。",
     legalCompliance: "以任何違反適用法律或法規的方式使用本網站。",
@@ -3554,24 +3411,19 @@ let message = {
     spyware:
       '上傳或傳輸（或嘗試上傳/傳輸）任何作為被動/主動資訊收集/傳輸機制的材料，包括但不限於透明GIF（"gifs"）、1×1像素、網頁蟲、Cookie或其他類似設備（有時稱為"間諜軟體"、"被動收集機制"或"pcms"）。',
     disruption: "干擾、中斷或對本網站及相連網絡/服務造成不當負擔。",
-    employeeHarassment:
-      "騷擾、煩擾、恐嚇或威脅任何為您提供本網站服務的員工/代理人。",
+    employeeHarassment: "騷擾、煩擾、恐嚇或威脅任何為您提供本網站服務的員工/代理人。",
     accessCircumvention: "試圖繞過本網站設計用於防止/限制存取的任何措施。",
-    codeCopying:
-      "複製或改編本網站軟體，包括但不限於Flash、PHP、HTML、JavaScript或其他代碼。",
-    reverseEngineering:
-      "除適用法律許可外，不得對構成網站部分的任何軟體進行反編譯、反組譯或逆向工程。",
+    codeCopying: "複製或改編本網站軟體，包括但不限於Flash、PHP、HTML、JavaScript或其他代碼。",
+    reverseEngineering: "除適用法律許可外，不得對構成網站部分的任何軟體進行反編譯、反組譯或逆向工程。",
     bots: "除標準搜索引擎/瀏覽器使用結果外，不得使用/啟動/開發/分發任何自動化系統（包括蜘蛛程序、機器人、作弊工具、爬蟲或離線閱讀器），亦不得使用/啟動任何未經授權的腳本/軟體。",
     buyingAgents: "不得使用購買代理在本網站進行交易。",
     unauthorizedUse:
       "不得未經授權使用本網站，包括以電子等方式收集用戶名/電子郵件地址發送未經請求的郵件，或以自動化方式/虛假藉口創建帳戶。",
-    competition:
-      "不得將本網站用於與我們競爭之行為，或將本網站/內容用於任何營利活動/商業企業。",
+    competition: "不得將本網站用於與我們競爭之行為，或將本網站/內容用於任何營利活動/商業企業。",
     advertising: "不得使用本網站宣傳或銷售商品/服務。",
     profileTransfer: "不得出售或轉讓您的個人資料。",
     featuresTitle: "11. 功能與錯誤",
-    featuresDescription:
-      "我們根據自身經驗及客戶反饋精心設計服務，但無法保證服務能滿足所有人的特定需求或期望。",
+    featuresDescription: "我們根據自身經驗及客戶反饋精心設計服務，但無法保證服務能滿足所有人的特定需求或期望。",
     bugsDescription:
       "我們會在發布前測試所有功能。如同所有軟體，我們的服務難免存在錯誤。我們會追蹤並處理回報的錯誤（特別是安全/隱私相關問題），但無法保證修正所有錯誤或提供完全無誤的服務。",
     correctionsTitle: "12. 更正",
@@ -3598,17 +3450,14 @@ let message = {
       "本服務的名稱、外觀和風格均屬本公司版權©所有。保留所有權利。未經本公司明確書面許可，您不得複製、抄襲或重複使用任何HTML、CSS、JavaScript或視覺設計元素。如欲將本公司標誌或任何服務標誌用於宣傳目的，必須事先取得許可。請將標誌使用申請寄至{at}{email}。若您違反本服務條款，我們保留撤銷此許可的權利。",
     privacyPolicyDescription:
       "我們重視資料隱私與安全。請查閱我們的{policy}。使用本網站即表示您同意遵守我們的隱私政策，該政策已納入本服務條款。請注意，本網站位於美國。若您從其他法律對個人資料收集、使用或披露有不同要求的地區訪問本網站，則透過持續使用本網站，您即同意將資料轉移至美國並在美國進行處理。",
-    contactDescription:
-      "若您對服務條款有任何疑問，請透過{at}{email}與我們聯絡。",
-    companyDefinitionA:
-      "當我們在本文檔中說「本公司」、「我們」、「我們的」或「我們」時，我們指的是 {NeverCap}。"
+    contactDescription: "若您對服務條款有任何疑問，請透過{at}{email}與我們聯絡。",
+    companyDefinitionA: "當我們在本文檔中說「本公司」、「我們」、「我們的」或「我們」時，我們指的是 {NeverCap}。"
   },
   Blog: {
     Hero: {
       title: "成為一名",
       highlighted_text: "轉錄嚮導",
-      description:
-        "{NeverCap} 提供的教學、策略和 AI 工具可協助您透過專業的轉錄工作流程創建無限的內容。"
+      description: "{NeverCap} 提供的教學、策略和 AI 工具可協助您透過專業的轉錄工作流程創建無限的內容。"
     },
     Featured: {
       FeaturedGuide: "特色指南",

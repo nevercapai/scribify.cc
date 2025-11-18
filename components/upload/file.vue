@@ -4,22 +4,18 @@
       drag
       action=""
       class="w-full"
-      :multiple="!isFreeUser"
+      :multiple="false"
       :accept="accept"
       :auto-upload="false"
       :show-file-list="false"
       :on-change="handleFileChange"
     >
-      <div class="flex flex-col items-center text-center h-full">
-        <span
-          class="iconfont icon-shangchuan mb-5 text-2xl text-mainColor-900"
-        ></span>
+      <div class="flex h-full flex-col items-center text-center">
+        <span class="iconfont icon-shangchuan mb-5 text-2xl text-mainColor-900"></span>
         <p class="tip mb-1 text-sm text-black">
-          <span v-if="!isMobile && !isMobileFromIndex">{{
-              t("FileUploadAndRecording.upload.file.tip1")
-            }}</span>
+          <span v-if="!isMobile && !isMobileFromIndex">{{ t("FileUploadAndRecording.upload.file.tip1") }}</span>
           <span v-else>
-          {{ t("FileUploadAndRecording.upload.file.tip2") }}
+            {{ t("FileUploadAndRecording.upload.file.tip2") }}
           </span>
         </p>
 
@@ -33,21 +29,20 @@
     </el-upload>
 
     <div v-if="showLink" class="mt-1 flex w-full flex-col items-center">
-      <el-divider class="me-3">{{
-        t("FileUploadAndRecording.upload.file.or")
-      }}</el-divider>
-      <div
-        @click="handleShowLink"
-        class="flex cursor-pointer items-center rounded-lg px-3 py-2 hover:bg-[#ECECEC]"
-      >
-        <span
-          class="iconfont icon-yulanlianjie me-2.5 text-xs text-fontColor"
-        ></span>
-        <span class="text-black">{{
-          t("FileUploadAndRecording.upload.file.orTitle")
-        }}</span>
+      <el-divider class="me-3">{{ t("FileUploadAndRecording.upload.file.or") }}</el-divider>
+      <div @click="handleShowLink" class="flex cursor-pointer items-center rounded-lg px-3 py-2 hover:bg-[#ECECEC]">
+        <span class="iconfont icon-yulanlianjie me-2.5 text-xs text-fontColor"></span>
+        <span class="text-black">{{ t("FileUploadAndRecording.upload.file.orTitle") }}</span>
       </div>
     </div>
+    <input
+      type="file"
+      ref="fileInput"
+      class="hidden"
+      :multiple="false"
+      :accept="accept"
+      @change="handleAddFileManually"
+    />
   </div>
 </template>
 
@@ -55,7 +50,7 @@
 import Utils, { Msg } from "~/utils/tools";
 
 const { t } = useI18n();
-
+const fileInput = useTemplateRef("fileInput");
 const props = defineProps({
   isMobileFromIndex: {
     type: Boolean,
@@ -78,8 +73,8 @@ const { isFreeUser } = storeToRefs(useSubscriptionStore());
 const { fileTypes } = storeToRefs(useUploadStore());
 const { updateSelectRawFiles } = useUploadStore();
 const accept = computed(() => {
-  const type = fileTypes.value.map((type) => `.${type}`).join(", ")
-  return `${type}, .mpg`
+  const type = fileTypes.value.map((type) => `.${type}`).join(", ");
+  return `${type}, .mpg`;
 });
 
 const handleFileChange = async (uploadFile) => {
@@ -126,6 +121,21 @@ const beforeUpload = (file) => {
     resolve(true);
   });
 };
+const handleAddFileManually = async (e) => {
+  let files = e.target.files;
+  if (files) {
+    const file = files[0];
+    await beforeUpload(file);
+    emits("manualAddFile", file);
+  }
+  e.target.value = "";
+};
+const manualAdd = () => {
+  fileInput.value?.click();
+};
+defineExpose({
+  manualAdd
+});
 </script>
 
 <style scoped>

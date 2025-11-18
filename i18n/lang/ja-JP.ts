@@ -29,8 +29,7 @@ let message = {
       },
       step3: {
         title: "文字起こし詳細の表示と編集",
-        content:
-          "項目をクリックすると、転写の詳細が表示され、編集したり、翻訳したりすることもできます。"
+        content: "項目をクリックすると、転写の詳細が表示され、編集したり、翻訳したりすることもできます。"
       },
       next: "次へ",
       finish: "了解"
@@ -55,8 +54,7 @@ let message = {
     welcome: {
       title: "Scribifyへようこそ！",
       description: "ここでできること：",
-      transcribe:
-        "Scribifyで簡単に文字起こし—音声会話を明確で検索可能、共有可能なテキストに瞬時に変換します。",
+      transcribe: "Scribifyで簡単に文字起こし—音声会話を明確で検索可能、共有可能なテキストに瞬時に変換します。",
       precision: "話者識別とタイムスタンプを含む正確な文字起こしをすぐに取得。",
       translate: "言語の壁を打ち破る：200以上の言語に文字起こしを簡単に翻訳。",
       edit: "必要に応じたフォーマットで文字起こしの編集、改善、エクスポート。",
@@ -124,8 +122,7 @@ let message = {
       },
       share: {
         title: "共有",
-        label:
-          "以下の安全なリンクを持つ人は、この文字起こしテキストと関連するメディアファイルを閲覧できます。",
+        label: "以下の安全なリンクを持つ人は、この文字起こしテキストと関連するメディアファイルを閲覧できます。",
         confirm: "リンクをコピー",
         success: "コピー成功"
       },
@@ -157,8 +154,7 @@ let message = {
     create: "作成",
     endRecord: {
       title: "プロンプト",
-      content:
-        "録音中です。この操作により録音が終了します。録音を終了しますか？",
+      content: "録音中です。この操作により録音が終了します。録音を終了しますか？",
       confirm: "録音を継続",
       cancel: "録音を終了"
     }
@@ -182,13 +178,11 @@ let message = {
         },
         complete: {
           title: "録音完了",
-          label:
-            "10時間に達したため録音を自動停止しました。文字起こしを行ってください。",
+          label: "10時間に達したため録音を自動停止しました。文字起こしを行ってください。",
           confirm: "了解"
         },
         speaker: {
-          content:
-            "話者認識のため、ファイルは3時間までに制限されます。'{text}'のチェックを外してください。"
+          content: "話者認識のため、ファイルは3時間までに制限されます。'{text}'のチェックを外してください。"
         }
       }
     },
@@ -200,8 +194,7 @@ let message = {
           "YouTube、Facebook、X、Dropbox、Google Drive、Vimeo、TikTok、Instagramなどのプラットフォームから動画・音声リンクを貼り付け...",
         confirm: "追加",
         cancel: "キャンセル",
-        errorTitle:
-          "入力したリンクアドレスが正しくありません。ご確認の上、再度お試しください。",
+        errorTitle: "入力したリンクアドレスが正しくありません。ご確認の上、再度お試しください。",
         linkName: "リンク"
       },
       file: {
@@ -214,8 +207,7 @@ let message = {
       },
       del: {
         title: "警告",
-        content:
-          "すべての進行状況が失われます。文字起こしをキャンセルしてもよろしいですか？",
+        content: "すべての進行状況が失われます。文字起こしをキャンセルしてもよろしいですか？",
         cancel: "キャンセルを確認",
         confirm: "文字起こしを続行"
       },
@@ -250,7 +242,13 @@ let message = {
         audio: "オーディオ/ビデオファイル",
         Uploading: "アップロード中..."
       },
-      fileEmpty: "ファイルは空です"
+      fileEmpty: "ファイルは空です",
+      howToSetup: "設定方法は？",
+      shareFilePublicly: "ファイルを公開で共有",
+      retry: "再試行",
+      edit: "編集",
+      delete: "削除",
+      updateAndRetry: "更新して再試行"
     }
   },
   // 转录详情页
@@ -565,12 +563,9 @@ let message = {
     passwordResetOk: "パスワードが正常にリセットされました！",
     signupToSaveProgress: "登録を完了して進捗を保存",
     tip: "ご案内",
-    tipContentEmail:
-      "アカウントのログインパスワードをメールアドレス宛てに送信いたしました。",
-    tipContentPassword:
-      "受信トレイをご確認の上、メールアドレスとパスワードでログインしてください。",
-    codeToEmail:
-      "確認コードをメールで送信しました。受信トレイを確認し、上記に確認コードを貼り付けてください。"
+    tipContentEmail: "アカウントのログインパスワードをメールアドレス宛てに送信いたしました。",
+    tipContentPassword: "受信トレイをご確認の上、メールアドレスとパスワードでログインしてください。",
+    codeToEmail: "確認コードをメールで送信しました。受信トレイを確認し、上記に確認コードを貼り付けてください。"
   },
   // 分享详情页
   Sharepage: {},
@@ -587,8 +582,7 @@ let message = {
     professionalEdition: "プロフェッショナル版",
     unlimitedTranscription: "無制限の文字起こし",
     unlimitedNumberOfTimes: "無制限の文字起こし頻度と時間",
-    filesUploadedAtOnce:
-      "各ファイルは最大10時間/5GBまで。一度に50ファイルアップロード可能",
+    filesUploadedAtOnce: "各ファイルは最大10時間/5GBまで。一度に50ファイルアップロード可能",
     highestPriority: "最高優先度",
     weWillGiveTheHighest: "常に最優先でファイルの文字起こしを行います。",
     theFirstMonth: "初月",
@@ -635,18 +629,14 @@ let message = {
     changeToAnnual: "年間プランに変更",
     automaticRenewalon: "自動更新日",
     eachMonth: "毎月{time}日に自動更新.",
-    automaticRenewal:
-      "自動更新に失敗しました。お支払い方法を確認してください。",
+    automaticRenewal: "自動更新に失敗しました。お支払い方法を確認してください。",
     eachYear: "毎年{time}に自動更新.",
     returnAccountSetting: "戻る",
-    needsToWaitLonger:
-      "ファイルが文字起こしされるまで、もう少しお待ちください。",
+    needsToWaitLonger: "ファイルが文字起こしされるまで、もう少しお待ちください。",
     freeThreeTimesDay: "毎日3ファイルを無料で文字起こしできます。",
-    oneFileUploaded:
-      "各ファイルは最大30分まで。1回に1ファイルをアップロードしてください。",
+    oneFileUploaded: "各ファイルは最大30分まで。1回に1ファイルをアップロードしてください。",
     uploadWithinHours: "10時間アップロード",
-    yourSubscription:
-      "あなたのサブスクリプションは{time}にキャンセルされます。",
+    yourSubscription: "あなたのサブスクリプションは{time}にキャンセルされます。",
     save: "節約",
     freeversion2: "無料プラン"
   },
@@ -691,8 +681,7 @@ let message = {
       joinCountMessage: "🔥 刚刚，第 {count} 位早期用户加入了等待名单！"
     },
     seo: {
-      title:
-        "NuxtPro:开源的Nuxt3 SaaS一站式出海模板 | 多语言、支付和友好SEO（Nuxt3）",
+      title: "NuxtPro:开源的Nuxt3 SaaS一站式出海模板 | 多语言、支付和友好SEO（Nuxt3）",
       description:
         "NuxtPro是一款基于Nuxt3的开源企业级SaaS模板，预集成全球支付网关（Stripe/Cream）、谷歌OAuth、多语言路由和SEO优化工具。为开发人员提供SSR/SSG支持，开箱即用。"
     },
@@ -724,8 +713,7 @@ let message = {
     rename: "名前変更",
     delete: "削除",
     createTitle: "フォルダーの作成",
-    deleteConfirm:
-      "{name}を削除してもよろしいですか？フォルダ内の全ファイルも削除されます。",
+    deleteConfirm: "{name}を削除してもよろしいですか？フォルダ内の全ファイルも削除されます。",
     cancel: "キャンセル",
     confirm: "作成",
     dialogLabel: "フォルダー名"
@@ -766,15 +754,13 @@ let message = {
         title: "削除",
         file: "ファイル",
         files: "ファイル",
-        label:
-          "{num}個の{name}を削除してもよろしいですか？この操作は元に戻せません。",
+        label: "{num}個の{name}を削除してもよろしいですか？この操作は元に戻せません。",
         confirm: "削除",
         cancel: "キャンセル"
       },
       share: {
         title: "共有",
-        label:
-          "以下のセキュアリンクを持つ人は、この文字起こしファイルと関連メディアファイルを閲覧できます。",
+        label: "以下のセキュアリンクを持つ人は、この文字起こしファイルと関連メディアファイルを閲覧できます。",
         confirm: "リンクをコピー"
       },
       export: {
@@ -816,8 +802,7 @@ let message = {
       },
       complete: {
         title: "録音完了",
-        label:
-          "10時間に達したため録音を自動停止しました。文字起こしを行ってください。",
+        label: "10時間に達したため録音を自動停止しました。文字起こしを行ってください。",
         confirm: "了解"
       }
     }
@@ -830,8 +815,7 @@ let message = {
         "以下のプラットフォーム（YouTube、Facebook、X、Dropbox、Google Drive、Vimeo など）からメディアリンクを貼り付けてください",
       confirm: "文字起こし",
       cancel: "キャンセル",
-      errorTitle:
-        "入力したリンクアドレスが正しくありません。ご確認の上、再度お試しください。",
+      errorTitle: "入力したリンクアドレスが正しくありません。ご確認の上、再度お試しください。",
       linkName: "リンク"
     },
     file: {
@@ -842,8 +826,7 @@ let message = {
     },
     del: {
       title: "警告",
-      content:
-        "すべての進行状況が失われます。文字起こしをキャンセルしてもよろしいですか？",
+      content: "すべての進行状況が失われます。文字起こしをキャンセルしてもよろしいですか？",
       cancel: "キャンセルを確認",
       confirm: "文字起こしを続行"
     },
@@ -911,15 +894,13 @@ let message = {
     HAVE_FUTURE_DATA: "現在、少なくとも次のフレームのデータが利用可能です",
     HAVE_ENOUGH_DATA: "利用可能なデータは再生を開始するのに十分です",
     NETWORK_EMPTY: "オーディオ/ビデオが初期化されていません",
-    NETWORK_IDLE:
-      "オーディオ/ビデオはアクティブでリソースが選択されていますが、ネットワークが使用されていません",
+    NETWORK_IDLE: "オーディオ/ビデオはアクティブでリソースが選択されていますが、ネットワークが使用されていません",
     NETWORK_LOADING: "ブラウザーはデータをダウンロードしています",
     NETWORK_NO_SOURCE: "オーディオ/ビデオ のソースが見つかりません",
     MEDIA_ERR_ABORTED: "ユーザーによってフェッチプロセスが中止されました",
     MEDIA_ERR_NETWORK: "ダウンロード中にエラーが発生しました",
     MEDIA_ERR_DECODE: "デコード中にエラーが発生しました",
-    MEDIA_ERR_SRC_NOT_SUPPORTED:
-      "オーディオ/ビデオ の形式がサポートされていません",
+    MEDIA_ERR_SRC_NOT_SUPPORTED: "オーディオ/ビデオ の形式がサポートされていません",
     REPLAY: "リプレイ",
     ERROR: "ネットワークの接続に問題が発生しました",
     PLAY_TIPS: "プレイ",
@@ -954,8 +935,7 @@ let message = {
     policyDescription:
       "本ポリシーは、Scribify（以下「Scribify」、「当社」、「私たち」、「私たち」）が、お客様が当社のサービス、ウェブサイトを使用する際に、お客様の個人情報を収集、使用、開示する方法について説明します。",
     websiteLink: "（https://www.scribify.ai/）",
-    servicesDefinition:
-      "、およびソフトウェア（以下、総称して「サービス」といいます。）",
+    servicesDefinition: "、およびソフトウェア（以下、総称して「サービス」といいます。）",
     policyAgreement:
       "本プライバシーポリシーをよくお読みになり、内容をご理解ください。当社のサービスをご利用いただくことで、お客様は本プライバシーポリシーに同意されたものとみなされます。本ポリシーに従って当社がお客様の個人情報を利用することに同意されない場合は、直ちに当社のサービスのご利用を中止してください。",
     policyOverview:
@@ -977,8 +957,7 @@ let message = {
     voluntaryCorrespondenceTitle: "2.6 自発的な通信",
     scopeContent:
       "本プライバシーポリシーは、本サービスのユーザーに関する情報の収集および処理にのみ適用されます。本プライバシーポリシーは、当社にリンクされている第三者が運営するサービス、ウェブサイト、またはソフトウェア（当社がリンクを提供しているか、他のユーザーがリンクを共有しているかを問わず）には適用されません。また、第三者のコンテンツ、データ、アプリケーション、または資料にも適用されません。第三者のウェブサイトまたはソフトウェアに情報を提供する前に、当該ウェブサイトまたはソフトウェアのプライバシーポリシーを確認することをお勧めします。",
-    collectPrinciple:
-      "私たちの指針は、必要なものだけを収集することです。具体的には以下のようになります。",
+    collectPrinciple: "私たちの指針は、必要なものだけを収集することです。具体的には以下のようになります。",
     identityAccessContent:
       "当社の製品にご登録いただく際、お名前やメールアドレスなどの個人情報をご提供いただきます。これは、製品の基本的な機能を提供するため、また製品のアップデートやその他の重要な情報をお送りするためです。",
     billingInfoContent:
@@ -1007,19 +986,16 @@ let message = {
     secureDataContent1: "すべてのデータは、",
     sslTlsLink: "SSL/TLS",
     secureDataContent2: "当社のサーバーからお客様のブラウザに送信されるとき。",
-    deleteContentContent:
-      "コンテンツを削除すると、直ちにアクセスできなくなります。",
+    deleteContentContent: "コンテンツを削除すると、直ちにアクセスできなくなります。",
     locationContent:
       "当社の製品およびその他のウェブプロパティは米国で運営されています。欧州連合（EU）、英国、または米国以外の地域にお住まいの場合、お客様が当社に提供した情報は米国に転送され、米国で保管されることにご注意ください。当社のウェブサイトまたはサービスをご利用いただくこと、および／または当社に個人情報をご提供いただくことにより、お客様はこの転送に同意したものとみなされます。",
     childrenPrivacyContent:
       "本サービスは子供向けではなく、13歳未満のお子様から故意に個人情報を収集することはありません。13歳未満の方は、本サービスを通じて個人情報を送信しないでください。お子様が本ポリシーに違反して個人情報を提供したと思われる場合は、下記までご連絡ください。",
     updatesContent:
       "当社は、関連規制の遵守および新たな慣行の反映のため、必要に応じて本ポリシーを更新することがあります。本ポリシーに重大な変更があった場合は、このページ上部の日付を更新します。",
-    contactUsContent1:
-      "当社のプライバシーポリシーについてご質問、ご意見、ご不満がございましたら、",
+    contactUsContent1: "当社のプライバシーポリシーについてご質問、ご意見、ご不満がございましたら、",
     contactUs: "お問い合わせ",
-    contactUsContent2:
-      "当社はお客様の苦情にできるだけ早く対処するよう努めます。"
+    contactUsContent2: "当社はお客様の苦情にできるだけ早く対処するよう努めます。"
   },
   termsOfService: {
     termsOfServiceTitle: "利用規約",
@@ -1064,8 +1040,7 @@ let message = {
       "当社は、お客様に本サービスをご提供いたします。本サービスへのアクセスに必要なすべての手配は、お客様の責任となります。",
     accountTerms1:
       "- お客様はアカウントのセキュリティを維持する責任を負います。当社は、お客様がこのセキュリティ義務を遵守しなかったことに起因する損失または損害について、一切責任を負いません。",
-    accountTerms2:
-      "- 違法、非倫理的、または不道徳な目的で本サービスを使用することはできません。",
+    accountTerms2: "- 違法、非倫理的、または不道徳な目的で本サービスを使用することはできません。",
     accountTerms3:
       "- お客様は、お客様のアカウントで投稿されたすべてのコンテンツおよび発生するすべてのアクティビティについて責任を負います。これには、(a) お客様のログイン認証情報にアクセスできる、または (b) お客様のアカウントで独自のログイン情報を持つ他のユーザーが投稿したコンテンツも含まれます。",
     accountTerms4:
@@ -1096,8 +1071,7 @@ let message = {
       "- 当社は、サービスを実行するために必要なハードウェア、ソフトウェア、ネットワーク、ストレージ、および関連テクノロジーを提供するために、サードパーティのベンダーおよびホスティング パートナーを利用します。",
     siteManagementContent:
       "当社は以下の権利を留保しますが、義務を負うものではありません。(1)本利用規約の違反についてサイトを監視すること。(2)当社の独自の裁量により、法律または本利用規約に違反していると判断した人物に対して、当該ユーザーを法執行機関に通報することを含め、適切な法的措置を講じること。(3)当社の独自の裁量により、かつ無制限に、ユーザーの投稿またはその一部の拒否、アクセス制限、利用制限、または無効化(技術的に可能な範囲で)を行うこと。(4)当社の独自の裁量により、かつ無制限に、通知または責任を負うことなく、サイズが大きすぎる、または当社のシステムに何らかの負担をかけるすべてのファイルおよびコンテンツをサイトから削除または無効化すること。(5)当社の権利と財産を保護し、サイトの適切な機能を促進するように設計された方法でサイトを管理すること。",
-    copyrightContent1:
-      "- サービスに投稿されるすべてのコンテンツは、米国著作権法に準拠する必要があります。",
+    copyrightContent1: "- サービスに投稿されるすべてのコンテンツは、米国著作権法に準拠する必要があります。",
     copyrightContent2:
       "- 当社は、お客様が本サービスに提供する素材について、知的財産権を主張しません。アップロードされた素材はすべてお客様の所有物となります。",
     copyrightContent3:
@@ -1128,22 +1102,17 @@ let message = {
       "- コンテンツの使用またはコピーを防止または制限する機能、またはサイトおよび/またはそこに含まれるコンテンツの使用に制限を課す機能を含む、サイトのセキュリティ関連機能を回避、無効化、またはその他の方法で妨害すること。",
     prohibitedActivity4:
       "- 当社および/または本サイトを誹謗、中傷、またはその他の形で損害を与えると当社が判断するもの。",
-    prohibitedActivity5:
-      "- 本サイトから取得した情報を、他人に嫌がらせ、虐待、または危害を加える目的で使用すること。",
+    prohibitedActivity5: "- 本サイトから取得した情報を、他人に嫌がらせ、虐待、または危害を加える目的で使用すること。",
     prohibitedActivity6:
       "- 当社のサポート サービスを不適切に使用したり、不正使用や不正行為に関する虚偽の報告を提出したりすること。",
-    prohibitedActivity7:
-      "- 適用される法律または規制に反する方法で本サイトを使用する。",
-    prohibitedActivity8:
-      "- 当サイトを無許可でフレーミングしたりリンクしたりすること。",
+    prohibitedActivity7: "- 適用される法律または規制に反する方法で本サイトを使用する。",
+    prohibitedActivity8: "- 当サイトを無許可でフレーミングしたりリンクしたりすること。",
     prohibitedActivity9:
       "- ウイルス、トロイの木馬、またはその他の素材（大文字の過度の使用やスパム（繰り返しテキストの継続的な投稿）を含む）をアップロードまたは送信する（またはアップロードまたは送信しようとする）こと。これにより、サイトの継続的な使用や享受が妨げられ、またはサイトの使用、特徴、機能、操作、保守が修正、損なわれ、中断、改変、または妨害される可能性があります。",
     prohibitedActivity10:
       "- スクリプトを使用してコメントやメッセージを送信したり、データマイニング、ロボット、または同様のデータ収集および抽出ツールを使用するなど、システムを自動的に使用すること。",
-    prohibitedActivity11:
-      "- コンテンツから著作権またはその他の所有権に関する通知を削除します。",
-    prohibitedActivity12:
-      "- 他のユーザーまたは人物になりすますこと、または他のユーザーのユーザー名を使用すること。",
+    prohibitedActivity11: "- コンテンツから著作権またはその他の所有権に関する通知を削除します。",
+    prohibitedActivity12: "- 他のユーザーまたは人物になりすますこと、または他のユーザーのユーザー名を使用すること。",
     prohibitedActivity13:
       "- クリア グラフィック インターチェンジ フォーマット (「GIF」)、1×1 ピクセル、Web バグ、Cookie、その他の類似のデバイス (「スパイウェア」または「受動収集メカニズム」または「PCM」と呼ばれることもあります) など、受動的または能動的な情報収集または送信メカニズムとして機能する素材をアップロードまたは送信する (またはアップロードまたは送信しようとする)。",
     prohibitedActivity14:
@@ -1158,14 +1127,12 @@ let message = {
       "- 適用法によって許可されている場合を除き、本サイトを構成する、または何らかの形で本サイトの一部を構成するソフトウェアを解読、逆コンパイル、逆アセンブル、またはリバースエンジニアリングすること。",
     prohibitedActivity19:
       "- 標準的な検索エンジンまたはインターネット ブラウザの使用の結果である場合を除き、サイトにアクセスするスパイダー、ロボット、チート ユーティリティ、スクレーパー、オフライン リーダーなどを含むがこれらに限定されない自動化システムを使用、起動、開発、配布したり、許可されていないスクリプトやその他のソフトウェアを使用または起動したりしないでください。",
-    prohibitedActivity20:
-      "- サイト上で購入を行うために、購入代理店または購買代理店を利用する。",
+    prohibitedActivity20: "- サイト上で購入を行うために、購入代理店または購買代理店を利用する。",
     prohibitedActivity21:
       "- 迷惑メールを送信する目的で電子的手段またはその他の手段によりユーザーのユーザー名や電子メールアドレスを収集すること、または自動化された手段や虚偽の口実によりユーザーアカウントを作成することなど、サイトを不正に使用すること。",
     prohibitedActivity22:
       "- 当社と競合する取り組みの一環として本サイトを使用したり、収益を生み出す取り組みや営利事業のために本サイトおよび/またはコンテンツを使用したりしないでください。",
-    prohibitedActivity23:
-      "- 商品やサービスの宣伝や販売の申し出のために本サイトを使用する。",
+    prohibitedActivity23: "- 商品やサービスの宣伝や販売の申し出のために本サイトを使用する。",
     prohibitedActivity24: "- プロフィールを販売または譲渡する。",
     featuresContent1:
       "当社は、自らの経験と、貴重な時間とフィードバックを共有していただいたお客様の経験に基づき、サービスを慎重に設計しております。しかしながら、すべての人にご満足いただけるサービスは存在しません。また、当社のサービスがお客様の特定のご要望やご期待を満たすことを保証するものではありません。",
@@ -1177,8 +1144,7 @@ let message = {
       "当社は、本サイトが常時利用可能であることを保証するものではありません。ハードウェア、ソフトウェア、その他の問題が発生した場合、または本サイトに関連するメンテナンス作業が必要になった場合、中断、遅延、またはエラーが発生する可能性があります。当社は、お客様への通知なく、いつでも、いかなる理由においても、本サイトを変更、改訂、更新、一時停止、中止、またはその他の方法で修正する権利を留保します。お客様は、本サイトのダウンタイムまたは中止中にお客様が本サイトにアクセスまたは使用できないことに起因する損失、損害、または不都合について、当社は一切の責任を負わないことに同意するものとします。本利用規約のいかなる条項も、当社に本サイトの維持およびサポート、または本サイトに関連する修正、更新、リリースの提供を義務付けるものと解釈されるものではありません。",
     userDataContent:
       "当社は、本サイトのパフォーマンス管理を目的として、お客様が本サイトに送信する特定のデータ、およびお客様による本サイトのご利用に関連するデータを保管します。当社は定期的にデータのバックアップを実施していますが、お客様が送信するデータ、または本サイトを利用して行った活動に関連するすべてのデータについては、お客様が単独で責任を負うものとします。お客様は、当社がかかるデータの紛失または破損について一切の責任を負わないことに同意するとともに、かかるデータの紛失または破損に起因して当社に対して提起する一切の訴訟権を放棄するものとします。",
-    privacyPolicyContent1:
-      "当社はデータのプライバシーとセキュリティを重視しています。",
+    privacyPolicyContent1: "当社はデータのプライバシーとセキュリティを重視しています。",
     privacyPolicy: "プライバシーポリシー",
     privacyPolicyContent2:
       "本サイトをご利用いただくことで、お客様は本利用規約に含まれる当社のプライバシーポリシーに同意するものとします。本サイトは米国でホストされています。個人データの収集、使用、開示に関する法律またはその他の要件が米国の適用法と異なる世界の他の地域から本サイトにアクセスする場合、お客様は本サイトの継続的な利用を通じて、お客様のデータを米国に転送し、米国への転送および処理に同意したことになります。",
@@ -1209,8 +1175,8 @@ let message = {
     YouTubetoMP4: "YouTubeからMP4へ",
     StartFreeTrial: "無料で試す",
     Blog: "ブログ",
-      YouTubetoMP3: 'YouTubeからMP3へ'
-},
+    YouTubetoMP3: "YouTubeからMP3へ"
+  },
   Footer: {
     des: "世界初の真に無制限なAI文字起こしサービス。上限なし、制限なし、ただ創造の自由を。",
     Features: "機能",
@@ -1227,12 +1193,9 @@ let message = {
       "教育者"
     ],
     companyMenus: ["会社概要", "料金", "プライバシー", "利用規約"],
-      Resources: 'リソース',
-      resourcesMenus: [
-            "YouTubeからMP4へ",
-            "YouTubeからMP3へ"
-          ]
-},
+    Resources: "リソース",
+    resourcesMenus: ["YouTubeからMP4へ", "YouTubeからMP3へ"]
+  },
   Index: {
     Hero: {
       badge: "「シュリンクフレーション」にサヨナラ - 真の無制限",
@@ -1334,8 +1297,7 @@ let message = {
     PricingPreview: {
       title: "透明な料金体系",
       highlighted_text: "隠し制限なし",
-      subtitle:
-        "プランを選べます。アスタリスクも細字の注意書きもサプライズも一切なし"
+      subtitle: "プランを選べます。アスタリスクも細字の注意書きもサプライズも一切なし"
     },
     FAQSection: {
       title: "よくある",
@@ -1399,11 +1361,9 @@ let message = {
     },
     CTASection: {
       title: "制限から解放される準備は？",
-      subtitle:
-        "真に無制限の文字起こしに切り替えた50,000人以上のプロに参加しよう",
+      subtitle: "真に無制限の文字起こしに切り替えた50,000人以上のプロに参加しよう",
       button: "NeverCap無料体験",
-      disclaimer:
-        "無料プランはクレジットカード不要・いつでも無制限アクセスにアップグレード可能"
+      disclaimer: "無料プランはクレジットカード不要・いつでも無制限アクセスにアップグレード可能"
     }
   },
   Features: {
@@ -1514,10 +1474,8 @@ let message = {
       ctaTitle: "偽の無制限にお金を払うのをやめよう",
       ctaSubtitle: "真の無制限文字起こしに切り替えた数千人に参加しよう",
       finalCta: "NeverCap無料版を試す",
-      heroSubtitle1:
-        "Trintでは50時間まで、Otterでは1ヶ月あたり10ファイルまでに制限されていますが、",
-      heroSubtitle2:
-        "私たちが実際に約束していること、つまり隠れた上限のない無制限の転写を実現します。"
+      heroSubtitle1: "Trintでは50時間まで、Otterでは1ヶ月あたり10ファイルまでに制限されていますが、",
+      heroSubtitle2: "私たちが実際に約束していること、つまり隠れた上限のない無制限の転写を実現します。"
     },
     BulkUpload: {
       heroBadgeIcon: "📁",
@@ -1617,14 +1575,11 @@ let message = {
       useCase1Description:
         "3年分のエピソードを一括アップロード。過去の全カタログの文字起こしを作成。各エピソードのSEOコンテンツを生成。",
       useCase2Title: "コース作成",
-      useCase2Description:
-        "講義動画を同時処理。学生向けアクセシブルな文字起こしを作成。検索可能な教材を構築。",
+      useCase2Description: "講義動画を同時処理。学生向けアクセシブルな文字起こしを作成。検索可能な教材を構築。",
       useCase3Title: "インタビューバックログ",
-      useCase3Description:
-        "未文字起こしのインタビュー山を解消。数週間分のリサーチを数時間で処理。締切を慌てずに達成。",
+      useCase3Description: "未文字起こしのインタビュー山を解消。数週間分のリサーチを数時間で処理。締切を慌てずに達成。",
       useCase4Title: "YouTubeライブラリ",
-      useCase4Description:
-        "チャンネル全体の字幕を生成。動画コンテンツからブログ記事を作成。全動画のSEOを改善。",
+      useCase4Description: "チャンネル全体の字幕を生成。動画コンテンツからブログ記事を作成。全動画のSEOを改善。",
       useCase5Title: "会議アーカイブ",
       useCase5Description:
         "数か月分の会議録をアップロード。検索可能な議事録を作成。重要な決定を見失うことはありません。",
@@ -1654,8 +1609,7 @@ let message = {
       statCard3DescriptionLine1: "単語レベル",
       statCard3DescriptionLine2: "のタイムスタンプ精度",
       languageSectionTitlePart1: "96%の精度",
-      languageSubtitle:
-        "グローバルコンテンツ向けのプロフェッショナル級文字起こし",
+      languageSubtitle: "グローバルコンテンツ向けのプロフェッショナル級文字起こし",
       languageCard1Flag: "🇺🇸",
       languageCard1Name: "英語",
       languageCard1Accuracy: "96%の精度",
@@ -1839,21 +1793,11 @@ let message = {
           discount: "初月 $9.99",
           limits: {
             title: "月間制限なし",
-            items: [
-              "無制限の合計分数",
-              "ファイルあたり最大10時間/5GB",
-              "一度に50ファイルをアップロード",
-              "優先キュー"
-            ]
+            items: ["無制限の合計分数", "ファイルあたり最大10時間/5GB", "一度に50ファイルをアップロード", "優先キュー"]
           },
           features: {
             title: "無料プランの全機能に加えて",
-            items: [
-              "単語レベルのタイムスタンプ",
-              "高度な話者識別",
-              "フォーマットされた段落＆句読点",
-              "優先サポート"
-            ]
+            items: ["単語レベルのタイムスタンプ", "高度な話者識別", "フォーマットされた段落＆句読点", "優先サポート"]
           },
           cta: {
             text: "無制限分数。優先処理。一括アップロード。",
@@ -1868,21 +1812,11 @@ let message = {
           discount: "年額請求 $107.88",
           limits: {
             title: "月額Proプランと同様",
-            items: [
-              "無制限の合計分数",
-              "ファイルあたり最大10時間/5GB",
-              "一度に50ファイルをアップロード",
-              "優先キュー"
-            ]
+            items: ["無制限の合計分数", "ファイルあたり最大10時間/5GB", "一度に50ファイルをアップロード", "優先キュー"]
           },
           features: {
             title: "無料プランの全機能に加えて",
-            items: [
-              "単語レベルのタイムスタンプ",
-              "高度な話者識別",
-              "フォーマットされた段落＆句読点",
-              "優先サポート"
-            ]
+            items: ["単語レベルのタイムスタンプ", "高度な話者識別", "フォーマットされた段落＆句読点", "優先サポート"]
           },
           cta: {
             text: "無制限分数。優先処理。一括アップロード。",
@@ -1930,11 +1864,7 @@ let message = {
         },
         {
           name: "トランスクリプトへのアクセス",
-          values: [
-            "最初の30分のプレビュー",
-            "全文トランスクリプト",
-            "全文トランスクリプト"
-          ]
+          values: ["最初の30分のプレビュー", "全文トランスクリプト", "全文トランスクリプト"]
         },
         {
           name: "一括アップロード",
@@ -1997,8 +1927,7 @@ let message = {
         {
           q: "payment_methods",
           question: "どのような支払い方法を受け付けていますか？",
-          answer:
-            "主要なクレジットカード、デビットカード、およびPayPalでの安全で簡単な支払いを受け付けています。"
+          answer: "主要なクレジットカード、デビットカード、およびPayPalでの安全で簡単な支払いを受け付けています。"
         },
         {
           q: "free_trial",
@@ -2009,8 +1938,7 @@ let message = {
         {
           q: "file_retention",
           question: "ファイルはどのくらいの期間保持されますか？",
-          answer:
-            "無料プラン：30日間。Proプラン：永久！書き起こしは常にアカウントで利用可能です。"
+          answer: "無料プラン：30日間。Proプラン：永久！書き起こしは常にアカウントで利用可能です。"
         },
         {
           q: "data_security",
@@ -2061,8 +1989,7 @@ let message = {
       journalists: {
         title: "ジャーナリスト & ライター",
         pain: '"締切プレッシャーとアップロード制限の狭間で"',
-        description:
-          "締切前にインタビューを一括アップロード。文字起こしを即時検索し、重要な引用を見逃しません。",
+        description: "締切前にインタビューを一括アップロード。文字起こしを即時検索し、重要な引用を見逃しません。",
         benefits: {
           benefit1: "締切前に一括アップロード",
           benefit2: "全インタビューを一括検索",
@@ -2087,8 +2014,7 @@ let message = {
       contentCreators: {
         title: "コンテンツクリエーター",
         pain: '"アクセシビリティは高額である必要はない"',
-        description:
-          "YouTubeチャンネル全体に字幕を追加。多言語字幕を生成し、動画SEOを即時改善。",
+        description: "YouTubeチャンネル全体に字幕を追加。多言語字幕を生成し、動画SEOを即時改善。",
         benefits: {
           benefit1: "全動画に一括で字幕追加",
           benefit2: "249言語翻訳",
@@ -2206,8 +2132,7 @@ let message = {
             textBefore:
               "「フリーランスのジャーナリストとして、Trintの$100/月は払えません。でもOtterの月10ファイル制限も仕事になりません。NeverCapが私のキャリアを救いました。」",
             highlight: "$100/月",
-            textAfter:
-              "、しかしOtterの月10ファイル制限も仕事にならない。NeverCapが私のキャリアを救った。",
+            textAfter: "、しかしOtterの月10ファイル制限も仕事にならない。NeverCapが私のキャリアを救った。",
             name: "ジェシカ・パーク",
             role: "フリーランスジャーナリスト"
           },
@@ -2215,8 +2140,7 @@ let message = {
             textBefore:
               "「私たちの研究チームは200時間のフォーカスグループ録音を持っていました。月ごとの制限ではなく、週末ですべて処理できました。」",
             highlight: "200時間",
-            textAfter:
-              "のフォーカスグループ録音。月ごとの制限ではなく、週末ですべて処理。",
+            textAfter: "のフォーカスグループ録音。月ごとの制限ではなく、週末ですべて処理。",
             name: "サラ・チェン博士",
             role: "主任研究者"
           },
@@ -2245,8 +2169,7 @@ let message = {
         }
       },
       cta: {
-        title:
-          "Your Use Case Needs Unlimited Too → あなたの用途も無制限が必要です",
+        title: "Your Use Case Needs Unlimited Too → あなたの用途も無制限が必要です",
         subtitle:
           "Join 50,000+ professionals who stopped counting minutes and started creating → 時間を数えるのをやめ、創造を始めた50,000人以上のプロフェッショナルに参加しましょう",
         button: "Start Your Unlimited Journey → → 無制限の旅を始めましょう →"
@@ -2257,8 +2180,7 @@ let message = {
     Podcasters: {
       badge: "Built for Podcasters → ポッドキャスター向けに構築",
       heroTitle: "Transcribe Your → 書き起こす",
-      heroTitleHighlight:
-        "Entire Podcast Archive → ポッドキャストアーカイブ全体",
+      heroTitleHighlight: "Entire Podcast Archive → ポッドキャストアーカイブ全体",
       heroSubtitle:
         "Upload your entire back catalog. Create show notes for every episode. No more choosing which episodes to audio transcribe. → 過去の全エピソードをアップロード。各エピソードのショーノートを作成。書き起こすエピソードを選ぶ必要はありません。",
       ctaPrimary: "Start Transcribing Free → 無料で書き起こしを開始",
@@ -2285,14 +2207,12 @@ let message = {
         }
       },
       problemTitle: "The → その",
-      problemTitleHighlight:
-        "Podcast Transcription Problem → ポッドキャスト書き起こしの問題",
+      problemTitleHighlight: "Podcast Transcription Problem → ポッドキャスト書き起こしの問題",
       problemSubtitle:
         'Other services make you choose which episodes are "worth" transcribing → 他のサービスでは「価値がある」エピソードを選ばせます',
       problems: {
         problem1: {
-          title:
-            "Upload Limits Kill Archives → アップロード制限がアーカイブを台無しに",
+          title: "Upload Limits Kill Archives → アップロード制限がアーカイブを台無しに",
           description:
             "Otter gives you 3 lifetime imports on free, 10 per month on Pro. How do you transcribe 3 years of episodes? → Otterは無料で3回、Proで月10回のインポート。3年分のエピソードをどう書き起こしますか？"
         },
@@ -2309,8 +2229,7 @@ let message = {
       },
       solutionTitle: "The → その",
       solutionTitleHighlight: "NeverCap Solution → NeverCapソリューション",
-      workflowTitle:
-        "Your Podcast Workflow, → あなたのポッドキャストワークフロー、",
+      workflowTitle: "Your Podcast Workflow, → あなたのポッドキャストワークフロー、",
       workflowTitleHighlight: "Simplified → シンプル化",
       workflowSubtitle:
         "From recording to SEO-optimized show notes in minutes → 録音からSEO最適化されたショーノートまで数分で",
@@ -2345,13 +2264,11 @@ let message = {
         },
         feature2: {
           title: "タイムスタンプ章",
-          description:
-            "YouTube説明文用のクリック可能なタイムスタンプを生成。リスナーがお気に入りの部分に即座に移動可能"
+          description: "YouTube説明文用のクリック可能なタイムスタンプを生成。リスナーがお気に入りの部分に即座に移動可能"
         },
         feature3: {
           title: "スマートフォーマット",
-          description:
-            "段落、文章、句読点を自動追加。クリーンで読みやすい文字起こし。ポストプロダクションの時間を節約"
+          description: "段落、文章、句読点を自動追加。クリーンで読みやすい文字起こし。ポストプロダクションの時間を節約"
         },
         feature4: {
           title: "SEO最適化",
@@ -2360,13 +2277,11 @@ let message = {
         },
         feature5: {
           title: "100+言語対応",
-          description:
-            "あらゆる言語で文字起こし可能。249+言語に翻訳。グローバルな視聴者に簡単にリーチ"
+          description: "あらゆる言語で文字起こし可能。249+言語に翻訳。グローバルな視聴者に簡単にリーチ"
         },
         feature6: {
           title: "バッチ処理",
-          description:
-            "就寝前に50エピソードをアップロード。起床時には完成した文字起こしが。一晩でアーカイブ全体を処理"
+          description: "就寝前に50エピソードをアップロード。起床時には完成した文字起こしが。一晩でアーカイブ全体を処理"
         }
       },
       testimonialsTitle: "切り替えた",
@@ -2439,8 +2354,7 @@ let message = {
       ctaTitle: "すべてのエピソードを文字起こし開始",
       ctaSubtitle: "制限を気にしない10,000人以上のポッドキャスターに参加",
       ctaButton: "最初の50エピソードを無料でアップロード →",
-      ctaDisclaimer:
-        "クレジットカード不要 • 無制限のエピソード処理 • いつでもキャンセル可能",
+      ctaDisclaimer: "クレジットカード不要 • 無制限のエピソード処理 • いつでもキャンセル可能",
       solutionDescriptionA:
         "{NeverCap}なら、真の無制限の文字起こしが実現します。アーカイブ全体をアップロード。すべての新エピソードを文字起こし。番組ノートを大規模に生成。上限も制限もなく、成長し続けるだけです。"
     },
@@ -2497,8 +2411,7 @@ let message = {
       problem: {
         title: "The",
         titleHighlight: "ジャーナリストの文字起こし問題",
-        subtitle:
-          "他のサービスでは、どのインタビューが文字起こしする「価値」があるか選ばせます",
+        subtitle: "他のサービスでは、どのインタビューが文字起こしする「価値」があるか選ばせます",
         problems: {
           uploadLimits: {
             title: "アップロード制限が調査を台無しにする",
@@ -2512,8 +2425,7 @@ let message = {
           },
           costExplosion: {
             title: "締め切りでコストが急騰",
-            description:
-              "調査が進むにつれ、文字起こしコストが急騰。月$100の超過料金で速報が不可能に。"
+            description: "調査が進むにつれ、文字起こしコストが急騰。月$100の超過料金で速報が不可能に。"
           }
         },
         solution: {
@@ -2559,8 +2471,7 @@ let message = {
               placeholder: "5分",
               resultsText: "1時間の音声あたり",
               results: {
-                mayorInterview:
-                  "「…私たちの気候政策は変革をもたらすでしょう…」",
+                mayorInterview: "「…私たちの気候政策は変革をもたらすでしょう…」",
                 expertPanel: "「...政策声明は明確に示しています...」"
               }
             }
@@ -2579,10 +2490,8 @@ let message = {
               accuracy: "96%",
               label: "掲載可能な精度",
               transcript: {
-                speaker1:
-                  "「調査の結果、財務報告書に重大な矛盾が明らかになった。」",
-                speaker2:
-                  "「それらの具体的な矛盾点について詳しく説明していただけますか？」"
+                speaker1: "「調査の結果、財務報告書に重大な矛盾が明らかになった。」",
+                speaker2: "「それらの具体的な矛盾点について詳しく説明していただけますか？」"
               }
             }
           },
@@ -2610,8 +2519,7 @@ let message = {
         featuresList: {
           languages: {
             title: "100+言語",
-            description:
-              "主要12言語で96%の精度でグローバルな情報源とインタビュー可能"
+            description: "主要12言語で96%の精度でグローバルな情報源とインタビュー可能"
           },
           exportFormats: {
             title: "エクスポート形式",
@@ -2654,8 +2562,7 @@ let message = {
       cta: {
         title: "文字起こしを開始",
         titleHighlight: "制限なし",
-        subtitle:
-          "アップロード回数を気にせず記事に集中する何千ものジャーナリストに参加",
+        subtitle: "アップロード回数を気にせず記事に集中する何千ものジャーナリストに参加",
         ctaPrimary: "無制限を無料で試す →",
         ctaSecondary: "料金を見る"
       }
@@ -2774,8 +2681,7 @@ let message = {
         steps: {
           pasteLinks: {
             title: "リンク貼り付け",
-            description:
-              "YouTube、TikTok、任意の動画リンクをドロップ。または直接ファイルをアップロード。"
+            description: "YouTube、TikTok、任意の動画リンクをドロップ。または直接ファイルをアップロード。"
           },
           autoTranscribe: {
             title: "自動文字起こし",
@@ -2787,8 +2693,7 @@ let message = {
           },
           exportPublish: {
             title: "エクスポート＆公開",
-            description:
-              "任意の形式でダウンロード。プラットフォームにアップロード。完了！"
+            description: "任意の形式でダウンロード。プラットフォームにアップロード。完了！"
           }
         }
       },
@@ -2797,8 +2702,7 @@ let message = {
         titleHighlight: "日々乗り換え",
         subtitle: "制限付きプランから無制限の自由へ",
         carlos: {
-          textBefore:
-            "私はスペイン語で教育コンテンツを作成しています。NeverCapは完璧に文字起こしし、",
+          textBefore: "私はスペイン語で教育コンテンツを作成しています。NeverCapは完璧に文字起こしし、",
           textAfter:
             "より広範なリーチを実現。制限なし、成長のみ。多言語字幕追加後、チャンネル視聴回数は3倍に増加しました。",
           highlight: "英語に翻訳",
@@ -2832,15 +2736,13 @@ let message = {
       },
       cta: {
         title: "あなたのチャンネル全体に。今日すぐ字幕を。",
-        subtitle:
-          "分数を数えるのをやめて制作を始めた50,000人以上のクリエイターに参加しましょう",
+        subtitle: "分数を数えるのをやめて制作を始めた50,000人以上のクリエイターに参加しましょう",
         button: "無制限字幕作成を開始 →"
       },
       FAQSection: {
         title: "文字起こしの疑問、",
         titleHighlight: "解決します",
-        subtitle:
-          "様々なプラットフォームの動画を文字起こしするために知っておくべきすべて",
+        subtitle: "様々なプラットフォームの動画を文字起こしするために知っておくべきすべて",
         questions: [
           {
             question: "Q: NeverCapでYouTube動画を文字起こしするには？",
@@ -2901,8 +2803,7 @@ let message = {
       feature1Visual2: "10時間でも10,000時間でも同じ価格",
       feature2Label: "スマートAI",
       feature2Title: "精密な把握",
-      feature2Desc:
-        "最大20人の話者を追跡。同時発話、割り込み、一斉発言も正確にキャプチャし、正しくラベル付け。",
+      feature2Desc: "最大20人の話者を追跡。同時発話、割り込み、一斉発言も正確にキャプチャし、正しくラベル付け。",
       feature2Point1: "20話者識別",
       feature2Point2: "クロストーク＆割り込み対応",
       feature2Point3: "名前変更可能な話者ラベル",
@@ -2912,16 +2813,13 @@ let message = {
       conversationParticipant2: "参加者2",
       conversationText2: "確かに、でもアクセスの問題も—",
       conversationParticipant3: "参加者3",
-      conversationText3:
-        "—割り込んで申し訳ないですが、交通手段も大きな問題です。",
+      conversationText3: "—割り込んで申し訳ないですが、交通手段も大きな問題です。",
       conversationText4: "はい！まさに私が言おうとしていたことです。",
       conversationParticipant4: "参加者4",
-      conversationText5:
-        "地方では、費用、アクセス、交通手段の3つ全てが問題です。",
+      conversationText5: "地方では、費用、アクセス、交通手段の3つ全てが問題です。",
       feature3Label: "精度",
       feature3Title: "信頼できる",
-      feature3Desc:
-        "専門用語、強い訛り、分野特有の用語もプロ並みに処理。論文発表、査読、学位審査にも十分な精度。",
+      feature3Desc: "専門用語、強い訛り、分野特有の用語もプロ並みに処理。論文発表、査読、学位審査にも十分な精度。",
       feature3Point1: "医療＆科学用語",
       feature3Point2: "100以上の言語＆方言",
       feature3Point3: "逐語録＆クリーンリードモード",
@@ -2930,8 +2828,7 @@ let message = {
       feature3Visual2: "50,000人以上の研究者に信頼",
       feature4Label: "セキュリティ",
       feature4Title: "IRB準拠認証",
-      feature4Desc:
-        "企業級セキュリティで研究データを保護。GDPR準拠、HIPAA対応オプション、IRB要件の完全な監査証跡。",
+      feature4Desc: "企業級セキュリティで研究データを保護。GDPR準拠、HIPAA対応オプション、IRB要件の完全な監査証跡。",
       feature4Point1: "エンドツーエンド暗号化",
       feature4Point2: "GDPR＆CCPA準拠",
       feature4Point3: "自動削除ポリシー",
@@ -2939,8 +2836,7 @@ let message = {
       useCasesTitle: "最適な",
       useCasesSubtitle: "民族誌から臨床試験まで",
       useCase1Title: "フォーカスグループ",
-      useCase1Desc:
-        "8-20人の重複発話を処理。白熱した議論中も完璧な話者識別。定性分析ソフトに直接エクスポート可能。",
+      useCase1Desc: "8-20人の重複発話を処理。白熱した議論中も完璧な話者識別。定性分析ソフトに直接エクスポート可能。",
       useCase2Title: "詳細インタビュー",
       useCase2Desc:
         "数百件の1対1インタビューを同時処理。データセット全体の一貫性を維持。すべての文字起こしを即時検索。",
@@ -2948,14 +2844,11 @@ let message = {
       useCase3Desc:
         "HIPAA準拠の患者インタビューオプション。正確な医療用語の文字起こし。機密性の高い健康データの安全な取り扱い。",
       useCase4Title: "民族誌研究",
-      useCase4Desc:
-        "自然な環境でのフィールド録音。背景ノイズや複数話者に対応。100以上の言語と方言をサポート。",
+      useCase4Desc: "自然な環境でのフィールド録音。背景ノイズや複数話者に対応。100以上の言語と方言をサポート。",
       useCase5Title: "オーラルヒストリープロジェクト",
-      useCase5Desc:
-        "アーカイブ全体を無制限に保存。検索可能な歴史的記録を作成。縦断的・世代間研究に最適。",
+      useCase5Desc: "アーカイブ全体を無制限に保存。検索可能な歴史的記録を作成。縦断的・世代間研究に最適。",
       useCase6Title: "学位論文研究",
-      useCase6Desc:
-        "学生向け価格で全機能利用。データセット全体を手頃に処理。バッチ処理で締め切りに間に合う。",
+      useCase6Desc: "学生向け価格で全機能利用。データセット全体を手頃に処理。バッチ処理で締め切りに間に合う。",
       testimonialTitle: "信頼されている",
       testimonialText:
         "私たちの研究チームは地域保健調査から200時間のフォーカスグループ録音を保有していました。他のサービスではコストのためセッションを選んで文字起こしするよう求められました。NeverCapでは週末ですべてを処理できました。20人の話者識別は、全員が同時に話す混乱した議論でも機能しました。このツールは定性データの扱い方を根本的に変えました。",
@@ -2978,8 +2871,7 @@ let message = {
       testimonialText3:
         "私たちの地域健康研究からのフォーカスグループ録音。他のサービスではコストのためどのセッションを文字起こしするか選ばねばなりませんでした。NeverCapなら",
       testimonialText4Hl: "週末だけで全て処理可能",
-      testimonialText5:
-        "。20人の話者識別は実際に機能しました—全員が同時に話すような最も混乱した議論でも。このツールは",
+      testimonialText5: "。20人の話者識別は実際に機能しました—全員が同時に話すような最も混乱した議論でも。このツールは",
       testimonialText6Hl: "完全に変えた",
       testimonialText7: "私たちの定性データの扱い方を。",
       solutionDescA:
@@ -2997,11 +2889,9 @@ let message = {
       statsSpeakerID: "話者識別",
       statsInstantUpload: "アップロード＆処理",
       featuresTitle: "あらゆるビジネス向け文字起こし",
-      featuresSubtitle:
-        "ライブ録音から即時アップロードまで、すべての煩わしさを排除",
+      featuresSubtitle: "ライブ録音から即時アップロードまで、すべての煩わしさを排除",
       feature1Title: "ブラウザで直接録音",
-      feature1Desc:
-        "ダウンロード不要、プラグイン不要。ワンクリックで即時録音開始。完璧な音質、自動話者検出。",
+      feature1Desc: "ダウンロード不要、プラグイン不要。ワンクリックで即時録音開始。完璧な音質、自動話者検出。",
       feature1Benefit1: "ワンクリック録音開始",
       feature1Benefit2: "ソフトウェアインストール不要",
       feature1Benefit3: "あらゆるデバイスで動作",
@@ -3011,8 +2901,7 @@ let message = {
       feature2Title: "音声ファイルを即時アップロード",
       feature2Desc:
         "Zoom、Teams、またはスマホの録音がありますか？即時アップロード。主要な音声・動画形式をすべてサポート。待ち時間なく複数ファイルを同時処理。",
-      feature2Benefit1:
-        "サポート形式: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV, FLAC",
+      feature2Benefit1: "サポート形式: MP3, MP4, M4A, MOV, AAC, WAV, OGG, OPUS, MPEG, WMA, WMV, FLAC",
       feature2Benefit2: "一括アップロード可能",
       feature2Benefit3: "10時間ファイル対応",
       feature2Benefit4: "作業しながら処理",
@@ -3041,8 +2930,7 @@ let message = {
       workflowTitle: "Zoom録音を",
       workflowSubtitle: "重要な瞬間をすべて記録するシームレスなワークフロー",
       workflowStep1Title: "録音またはアップロード",
-      workflowStep1Desc:
-        "ライブ録音を開始、またはZoom、Google Meet、Microsoft Teamsから会議録画をダウンロード",
+      workflowStep1Desc: "ライブ録音を開始、またはZoom、Google Meet、Microsoft Teamsから会議録画をダウンロード",
       workflowStep2Title: "自動文字起こし",
       workflowStep2Desc: "当社のAIが96%の精度で数分内に録音をテキスト化",
       workflowStep3Title: "コラボレーション",
@@ -3059,8 +2947,7 @@ let message = {
         '"Otterでは月10ファイルのアップロード制限がありました。今では全てのクライアント通話を即座にアップロード。営業チームのフォローアップに革命的な変化です"',
       testimonial2AuthorName: "Sarah Rodriguez",
       testimonial2AuthorRole: "セールスディレクター、ConsultPro",
-      testimonial3Text:
-        '"数ヶ月分の会議を横断検索できる機能が監査で役立ちました。全ての決定と承認を数秒で発見"',
+      testimonial3Text: '"数ヶ月分の会議を横断検索できる機能が監査で役立ちました。全ての決定と承認を数秒で発見"',
       testimonial3AuthorName: "Mark Liu",
       testimonial3AuthorRole: "COO、FinanceHub",
       ctaTitle: "重要な会話を失うのを止めよう",
@@ -3088,8 +2975,7 @@ let message = {
       stats4Number: "96%",
       stats4Label: "正確率",
       featuresTitle: "教育者に必要なすべて",
-      featuresSubtitle:
-        "YouTube講義から録画授業まで、すべてのコンテンツをアクセシブルに",
+      featuresSubtitle: "YouTube講義から録画授業まで、すべてのコンテンツをアクセシブルに",
       feature1Title: "即時YouTube＆プラットフォームリンク",
       feature1Desc:
         "動画リンクを貼るだけで即時文字起こし。YouTube、Vimeo、Facebook、X（Twitter）、TikTok、Instagram、Dropbox、Google Driveなどに対応。ダウンロード不要、待ち時間なし。",
@@ -3127,27 +3013,22 @@ let message = {
       feature4Point3: "共有・印刷用PDF",
       feature4Point4: "複数ファイルを一括エクスポート",
       workflowTitle: "仕組み:",
-      workflowSubtitle:
-        "動画リンクから数分でアクセシブルな文字起こしと教材を作成",
+      workflowSubtitle: "動画リンクから数分でアクセシブルな文字起こしと教材を作成",
       workflowStep1Title: "講義をアップロード",
-      workflowStep1Desc:
-        "音声/動画ファイル（MP3、MP4、WAV）をアップロード、またはYouTubeリンクを貼り付け",
+      workflowStep1Desc: "音声/動画ファイル（MP3、MP4、WAV）をアップロード、またはYouTubeリンクを貼り付け",
       workflowStep2Title: "AI文字起こし",
-      workflowStep2Desc:
-        "AIが音声を文字起こし、話者を分離し、重要トピックを識別",
+      workflowStep2Desc: "AIが音声を文字起こし、話者を分離し、重要トピックを識別",
       workflowStep3Title: "キャプション生成",
       workflowStep3Desc: "完璧に同期した字幕を自動生成",
       workflowStep4Title: "学習ガイドをエクスポート",
-      workflowStep4Desc:
-        "テキストや要約をダウンロード、またはエクスポートして最終的な学習ガイドを作成",
+      workflowStep4Desc: "テキストや要約をダウンロード、またはエクスポートして最終的な学習ガイドを作成",
       useCasesTitle: "あらゆる",
       useCasesSubtitle: "教育者がNeverCapを使って学習を強化する方法を見る",
       useCase1Title: "録画講義",
       useCase1Text:
         "録画された講義の学期全体を文字起こし。学生は特定のトピックを検索し、重要な概念を復習し、重要な情報を見逃すことはありません。",
       useCase2Title: "オンラインコース",
-      useCase2Text:
-        "100以上の言語翻訳で留学生にもアクセス可能なオンラインコースを提供。登録者数と満足度を向上。",
+      useCase2Text: "100以上の言語翻訳で留学生にもアクセス可能なオンラインコースを提供。登録者数と満足度を向上。",
       useCase3Title: "学習教材",
       useCase3Text:
         "AIを使用してビデオチュートリアルや講義から音声ファイルを学習ガイドに文字起こし。読むことを好む学生や検索可能なテキストで素早く復習が必要な学生に最適。",
@@ -3182,29 +3063,24 @@ let message = {
         placeholder: "YouTubeのリンクを検索またはここに貼り付け",
         clear_icon: "入力をクリア",
         Download: "ダウンロード",
-        loading_text:
-          "ダウンロードリンクを処理中。ページを開いたままにしてください。",
+        loading_text: "ダウンロードリンクを処理中。ページを開いたままにしてください。",
         howToDownload: "ダウンロード方法は？",
         tutorial: "チュートリアルを見る"
       },
       part2: {
-        title:
-          "YouTube動画をダウンロード可能なMP4ファイルに変換する3つの簡単な手順",
+        title: "YouTube動画をダウンロード可能なMP4ファイルに変換する3つの簡単な手順",
         steps: [
           {
             title: "URLをコピー",
-            content:
-              "対象のYouTube動画を開き、ブラウザのアドレスバーからリンクをコピーします。"
+            content: "対象のYouTube動画を開き、ブラウザのアドレスバーからリンクをコピーします。"
           },
           {
             title: "リンクを貼り付け",
-            content:
-              "動画ダウンロードツールに移動し、URLを入力欄に貼り付けます。"
+            content: "動画ダウンロードツールに移動し、URLを入力欄に貼り付けます。"
           },
           {
             title: "MP4をダウンロード",
-            content:
-              "処理が完了したら、ダウンロードボタンをクリックしてMP4ファイルを保存します。"
+            content: "処理が完了したら、ダウンロードボタンをクリックしてMP4ファイルを保存します。"
           }
         ]
       },
@@ -3217,10 +3093,7 @@ let message = {
         ]
       },
       part4: {
-        content: [
-          "YouTube動画をMP4ファイルとしてダウンロードする5つの主な利点",
-          "YouTube動画をMP4ファイルとして"
-        ],
+        content: ["YouTube動画をMP4ファイルとしてダウンロードする5つの主な利点", "YouTube動画をMP4ファイルとして"],
         list: [
           {
             title: "データ通信量の節約:",
@@ -3266,8 +3139,7 @@ let message = {
           },
           {
             title: "広告なし、邪魔なし",
-            content:
-              "ポップアップ、バナー、中断のないクリーンなインターフェースで、シームレスな動画変換を楽しめます。"
+            content: "ポップアップ、バナー、中断のないクリーンなインターフェースで、シームレスな動画変換を楽しめます。"
           },
           {
             icon: "5",
@@ -3298,8 +3170,7 @@ let message = {
         list: [
           {
             question: "著作権のあるYouTube動画をダウンロードできますか？",
-            answer:
-              "著作権者の許可なく著作権のあるYouTube動画をダウンロードすることは違法です。"
+            answer: "著作権者の許可なく著作権のあるYouTube動画をダウンロードすることは違法です。"
           },
           {
             question: "このダウンロードツールは安全ですか？",
@@ -3307,10 +3178,8 @@ let message = {
               "はい、安全で信頼できます。ユーザーから個人情報を要求することはなく、ウイルス対策も徹底しています。インターネットからファイルをダウンロードする際は常に注意を払うよう心がけてください: 不審なリンクをクリックしたり、疑わしいファイルをダウンロードしたりしないでください。"
           },
           {
-            question:
-              "YouTubeからMP4へのダウンロードはどの言語に対応していますか？",
-            answer:
-              "当社のサービスは、すべての主要言語のYouTube動画のダウンロードをサポートしています。"
+            question: "YouTubeからMP4へのダウンロードはどの言語に対応していますか？",
+            answer: "当社のサービスは、すべての主要言語のYouTube動画のダウンロードをサポートしています。"
           },
           {
             question: "YouTube動画のダウンロード時間に影響する要因は何ですか？",
@@ -3318,14 +3187,12 @@ let message = {
               "当社は可能な限り最速のダウンロード体験を保証しますが、ダウンロード時間は動画の長さやインターネット接続速度などの要因にも影響されます。"
           },
           {
-            question:
-              "スマートフォンでMP4動画をダウンロードした場合、どこに保存されますか？",
+            question: "スマートフォンでMP4動画をダウンロードした場合、どこに保存されますか？",
             answer:
               "スマートフォンでMP4をダウンロードした後、通常はデバイスのファイルマネージャーアプリ内の「Downloads」フォルダで見つけることができます。"
           },
           {
-            question:
-              "YouTube動画をMP4としてダウンロードすると画質は低下しますか？",
+            question: "YouTube動画をMP4としてダウンロードすると画質は低下しますか？",
             answer:
               "いいえ。当社のツールを使用してYouTube動画をMP4としてダウンロードしても、オリジナルの画質は維持されます。変換プロセスでソース品質が保持され、YouTubeと同じ視聴体験が得られます。"
           }
@@ -3358,8 +3225,7 @@ let message = {
           },
           {
             title: "YouTube動画の文字起こし",
-            content:
-              "YouTube 動画を正確なテキストまたは字幕に変換します。YouTube リンクを貼り付けるだけです。"
+            content: "YouTube 動画を正確なテキストまたは字幕に変換します。YouTube リンクを貼り付けるだけです。"
           }
         ],
         stepsNew: [
@@ -3375,191 +3241,203 @@ let message = {
           },
           {
             title: "YouTube動画の文字起こし",
-            content:
-              "YouTube 動画を正確なテキストまたは字幕に変換します。YouTube リンクを貼り付けるだけです。"
+            content: "YouTube 動画を正確なテキストまたは字幕に変換します。YouTube リンクを貼り付けるだけです。"
           }
         ]
       },
-        MoreFreeTools: {
-              "title": "その他の無料ツール",
-              "title_des": "その他の無料変換ツールをご覧ください",
-              "YouTubeToMP": "YouTubeからMP3へ",
-              "YouTubeToMP_des": "YouTube動画をMP3形式に変換してオフラインで視聴できます。高画質動画をすぐにダウンロードできます。",
-              "AITranscription": "AIによる文字起こし",
-              "AITranscription_des": "音声ファイルと動画ファイルを96%の精度で書き起こします。あらゆるコンテンツの書き起こしを無制限にご利用いただけます。"
-            }
+      MoreFreeTools: {
+        title: "その他の無料ツール",
+        title_des: "その他の無料変換ツールをご覧ください",
+        YouTubeToMP: "YouTubeからMP3へ",
+        YouTubeToMP_des:
+          "YouTube動画をMP3形式に変換してオフラインで視聴できます。高画質動画をすぐにダウンロードできます。",
+        AITranscription: "AIによる文字起こし",
+        AITranscription_des:
+          "音声ファイルと動画ファイルを96%の精度で書き起こします。あらゆるコンテンツの書き起こしを無制限にご利用いただけます。"
+      }
     },
-      YouTubeToMP3: {
-            "err1": "YouTubeリンクの形式エラーです。",
-            "err2": "申し訳ございません。現在はYouTubeリンクのみに対応しております。他のサイトのサポートが必要な場合は、今後対応が可能になった際にお知らせいたします。",
-            "part1": {
-              "title": "YouTube動画をMP3に変換する",
-              "title_des": "YouTube動画から数秒で音声を抽出",
-              "placeholder": "ここにYou​​Tubeのリンクを貼り付けてください",
-              "clear_icon": "入力をクリア",
-              "Download": "変換する",
-              "loading_text": "変換するリンクを処理しています。ページに留まります。",
-              "howToDownload": "変換するには？",
-              "tutorial": "チュートリアルを見る"
-            },
-            "freeResources": {
-              "linkTitle": "{NeverCap} によって提供",
-              "linkTitle2": "- 完全に無制限のAIトランスクリプション",
-              "title": "無料リソース",
-              "stepsNew": [
-                {
-                  "title": "無料の音声・動画文字起こし",
-                  "content": "オーディオ ファイルとビデオ ファイルを数秒でテキストに変換します。毎日 3 つのファイルが書き起こされます。"
-                },
-                {
-                  "title": "音声ファイルをテキストに抽出",
-                  "content": "MP3、MP4、WAV、MOV をアップロードします。",
-                  "content2": "DOCX、TXT、SRT などをダウンロードします。"
-                },
-                {
-                  "title": "YouTube動画の文字起こし",
-                  "content": "YouTube 動画を正確なテキストまたは字幕に変換し、リンクを無料で貼り付けます。"
-                }
-              ]
-            },
-            "part2": {
-              "title": "YouTube動画をダウンロード可能なMP3ファイルに変換する3つの簡単な手順をご紹介します。",
-              "steps": [
-                {
-                  "title": "URLをコピーする",
-                  "content": "対象の YouTube 動画を開き、ブラウザのアドレスバーからリンクをコピーします。"
-                },
-                {
-                  "title": "リンクを貼り付ける",
-                  "content": "ビデオ ダウンローダー ツールに挿入し、入力フィールドに URL を貼り付けます。"
-                },
-                {
-                  "title": "変換してダウンロード",
-                  "content": "変換が完了したら、MP3 ファイルをダウンロードして保存します。"
-                }
-              ]
-            },
-            "part3": {
-              "content": [
-                "いつでも聞けるように YouTube 動画を MP3 に変換したいですか?",
-                "地下鉄や飛行機に乗っている時、ポッドキャスト、コースコンテンツ、重要なアーカイブを整理している時など、いつでもアクセスできないと困ることがよくあります。このコンバーターツールを使えば、この問題を解決できます。",
-                "YouTubeリンクをコピーしてコンバーターに貼り付けるだけで、ワンクリックで動画を高品質のMP3オーディオに変換できます。インターネット接続なしでいつでも保存、視聴、アーカイブできます。"
-              ]
-            },
-            "part4": {
-              "content": [
-                "変換の5つの主なメリットは次のとおりです",
-                "YouTube動画をMP3ファイルに変換する"
-              ],
-              "list": [
-                {
-                  "title": "ストレージを節約:",
-                  "content": "MP3ファイルはサイズが小さいため、YouTubeのストレージ消費量を削減できます。オフライン再生用にダウンロードしてモバイルデータ通信量を節約し、インターネット接続時にご利用ください。"
-                },
-                {
-                  "title": "バッテリーを節約:",
-                  "content": "YouTube動画の視聴には、快適な接続環境を利用したバッファリングサービスが利用できます。もうバッファリングの心配は不要です。"
-                },
-                {
-                  "title": "簡単なアーカイブと保存:",
-                  "content": "一部のビデオや MP3 を使用すると、教育コンテンツ、音楽アーカイブ、重要なコンテンツなど、個人用ライブラリを簡単に構築できます。"
-                },
-                {
-                  "title": "よりシンプルな共有:",
-                  "content": "MP3ファイルの共有は、YouTubeリンクよりもはるかに便利です。WhatsAppやInstagramなどのアプリを使って友達にファイルを送信できるので、YouTubeを開くための初期費用がかかりません。"
-                },
-                {
-                  "title": "即時表示、幅広い柔軟性：",
-                  "content": "必要なときにいつでも YouTube 動画を変換して、お気に入りの動画に幅広いアクセスを行えます。また、MP3 形式を使用すると、読み込みを待つぎこちない一時停止なしに、すぐにスムーズに結合できます。"
-                }
-              ]
-            },
-            "part5": {
-              "title": "当社のコンバーターが優れている理由",
-              "cards": [
-                {
-                  "title": "ワンクリックのシンプルさ",
-                  "content": "簡単なセットアップと直感的な操作。"
-                },
-                {
-                  "title": "超高速、無制限",
-                  "content": "最高速度で変換およびダウンロードします。制限や制約はありません。"
-                },
-                {
-                  "title": "即座に変換",
-                  "content": "待つことなく、ファイルを即座に処理します。"
-                },
-                {
-                  "title": "広告ゼロ、邪魔ゼロ",
-                  "content": "ポップアップ、バナー、中断のないクリーンなインターフェースをお楽しみください。スムーズで中断のない変換を実現します。"
-                },
-                {
-                  "title": "オリジナル品質保証",
-                  "content": "ダウンロードするとソースビデオのフル解像度が維持され、毎回ピクセルパーフェクトな再生が実現します。"
-                },
-                {
-                  "title": "どこでも使える",
-                  "content": "あらゆるブラウザ、あらゆるデバイスと完全に互換性があります。"
-                }
-              ]
-            },
-            "part6": {
-              "title": [
-                "YouTubeからMP3への変換を最大限に活用する",
-                "当社のコンバーターを使用"
-              ],
-              "title_des": "YouTubeからMP3への変換は簡単、高速、シンプル、無料",
-              "content": [
-                "まさにそれが私たちの強みです。ユーザーフレンドリーなインターフェースは、誰でも簡単に使えるように設計されており、技術的なスキルは必要ありません。経験レベルに関わらず、動画を瞬時に変換できます。登録も不要で、すぐに使い始めることができます。ダウンロードしたMP3ファイルは、YouTubeで視聴した時と全く同じ、オリジナルの動画の画質と鮮明さを維持しています。",
-                "速度も重要です。複数のファイルを高速にダウンロードでき、広告やデバイス制限もありません。Windows、macOS、Linux、Android、iOS、スマートフォン、タブレット、デスクトップなど、どのデバイスからでも簡単に動画をダウンロードできます。"
-              ]
-            },
-            "part7": {
-              "title": "YouTubeをMP3に変換する際の重要な質問",
-              "list": [
-                {
-                  "question": "著作権のある YouTube 動画を MP3 に変換できますか?",
-                  "answer": "技術的には可能ですが、著作権で保護されたコンテンツを許可なく変換すると、YouTubeの利用規約および著作権法に違反する可能性があります。コンテンツを変換する権利、または個人的な非営利目的のみに使用する権利を必ずご確認ください。"
-                },
-                {
-                  "question": "このコンバーターツールは安全ですか?",
-                  "answer": "はい、当社のコンバーターは完全に安全です。お客様のデータやファイルは一切保存せず、マルウェアやウイルスのリスクもありません。変換は直接かつ安全に行われます。"
-                },
-                {
-                  "question": "YouTube から MP3 への変換はどの言語をサポートしていますか?",
-                  "answer": "当社のコンバーターは、YouTubeで利用可能なすべての言語をサポートしています。元の言語と音質を維持しながら、元の動画に表示されているとおりに音声を抽出します。"
-                },
-                {
-                  "question": "YouTube ビデオの変換にかかる時間に影響する要因は何ですか?",
-                  "answer": "変換時間は、動画の長さ、インターネット接続速度、現在のサーバー負荷など、いくつかの要因によって異なります。10分未満の動画のほとんどは、30秒以内に変換されます。"
-                },
-                {
-                  "question": "スマートフォンでMP3に変換してダウンロードするとどこに保存されますか？",
-                  "answer": "ほとんどのスマートフォンでは、変換されたMP3ファイルはダウンロードフォルダに保存されます。iPhoneではファイルアプリに保存される場合もあります。Androidでは、ファイルマネージャーまたは音楽アプリでダウンロードフォルダを確認してください。"
-                },
-                {
-                  "question": "YouTube ビデオを MP3 に変換すると、オーディオ品質が低下しますか?",
-                  "answer": "MP3は音声のみのフォーマットなので、動画要素は含まれません。音質は、元の動画から利用可能な最高のビットレート（元のアップロード品質に応じて通常128～320 kbps）で維持されます。"
-                }
-              ]
-            },
-            "MoreFreeTools": {
-              "title": "その他の無料ツール",
-              "title_des": "その他の無料変換ツールをご覧ください",
-              "YouTubeToMP": "YouTubeからMP4へ",
-              "YouTubeToMP_des": "YouTube動画をMP4形式に変換してオフラインで視聴できます。高画質動画を瞬時にダウンロードできます。",
-              "AITranscription": "AIによる文字起こし",
-              "AITranscription_des": "音声ファイルと動画ファイルを96%の精度で書き起こします。あらゆるコンテンツの書き起こしを無制限にご利用いただけます。"
-            },
-            "videoDownload": {
-              "title": "YouTube リンクを MP3 に変換します。無料、高速、広告なし。",
-              "description": "当社のサービスをご利用いただき、誠にありがとうございます。ご信頼いただき、誠にありがとうございます。また、このサービスがお客様のご体験をより充実したものにすることを願っています。当社のウェブサイトをご友人にご紹介いただければ、大変助かります。",
-              "downloadButton": "ダウンロード",
-              "TranscribeButton": "転写",
-              "downloadError": "変換エラー。"
-            }
+    YouTubeToMP3: {
+      err1: "YouTubeリンクの形式エラーです。",
+      err2: "申し訳ございません。現在はYouTubeリンクのみに対応しております。他のサイトのサポートが必要な場合は、今後対応が可能になった際にお知らせいたします。",
+      part1: {
+        title: "YouTube動画をMP3に変換する",
+        title_des: "YouTube動画から数秒で音声を抽出",
+        placeholder: "ここにYou​​Tubeのリンクを貼り付けてください",
+        clear_icon: "入力をクリア",
+        Download: "変換する",
+        loading_text: "変換するリンクを処理しています。ページに留まります。",
+        howToDownload: "変換するには？",
+        tutorial: "チュートリアルを見る"
+      },
+      freeResources: {
+        linkTitle: "{NeverCap} によって提供",
+        linkTitle2: "- 完全に無制限のAIトランスクリプション",
+        title: "無料リソース",
+        stepsNew: [
+          {
+            title: "無料の音声・動画文字起こし",
+            content:
+              "オーディオ ファイルとビデオ ファイルを数秒でテキストに変換します。毎日 3 つのファイルが書き起こされます。"
+          },
+          {
+            title: "音声ファイルをテキストに抽出",
+            content: "MP3、MP4、WAV、MOV をアップロードします。",
+            content2: "DOCX、TXT、SRT などをダウンロードします。"
+          },
+          {
+            title: "YouTube動画の文字起こし",
+            content: "YouTube 動画を正確なテキストまたは字幕に変換し、リンクを無料で貼り付けます。"
           }
-},
+        ]
+      },
+      part2: {
+        title: "YouTube動画をダウンロード可能なMP3ファイルに変換する3つの簡単な手順をご紹介します。",
+        steps: [
+          {
+            title: "URLをコピーする",
+            content: "対象の YouTube 動画を開き、ブラウザのアドレスバーからリンクをコピーします。"
+          },
+          {
+            title: "リンクを貼り付ける",
+            content: "ビデオ ダウンローダー ツールに挿入し、入力フィールドに URL を貼り付けます。"
+          },
+          {
+            title: "変換してダウンロード",
+            content: "変換が完了したら、MP3 ファイルをダウンロードして保存します。"
+          }
+        ]
+      },
+      part3: {
+        content: [
+          "いつでも聞けるように YouTube 動画を MP3 に変換したいですか?",
+          "地下鉄や飛行機に乗っている時、ポッドキャスト、コースコンテンツ、重要なアーカイブを整理している時など、いつでもアクセスできないと困ることがよくあります。このコンバーターツールを使えば、この問題を解決できます。",
+          "YouTubeリンクをコピーしてコンバーターに貼り付けるだけで、ワンクリックで動画を高品質のMP3オーディオに変換できます。インターネット接続なしでいつでも保存、視聴、アーカイブできます。"
+        ]
+      },
+      part4: {
+        content: ["変換の5つの主なメリットは次のとおりです", "YouTube動画をMP3ファイルに変換する"],
+        list: [
+          {
+            title: "ストレージを節約:",
+            content:
+              "MP3ファイルはサイズが小さいため、YouTubeのストレージ消費量を削減できます。オフライン再生用にダウンロードしてモバイルデータ通信量を節約し、インターネット接続時にご利用ください。"
+          },
+          {
+            title: "バッテリーを節約:",
+            content:
+              "YouTube動画の視聴には、快適な接続環境を利用したバッファリングサービスが利用できます。もうバッファリングの心配は不要です。"
+          },
+          {
+            title: "簡単なアーカイブと保存:",
+            content:
+              "一部のビデオや MP3 を使用すると、教育コンテンツ、音楽アーカイブ、重要なコンテンツなど、個人用ライブラリを簡単に構築できます。"
+          },
+          {
+            title: "よりシンプルな共有:",
+            content:
+              "MP3ファイルの共有は、YouTubeリンクよりもはるかに便利です。WhatsAppやInstagramなどのアプリを使って友達にファイルを送信できるので、YouTubeを開くための初期費用がかかりません。"
+          },
+          {
+            title: "即時表示、幅広い柔軟性：",
+            content:
+              "必要なときにいつでも YouTube 動画を変換して、お気に入りの動画に幅広いアクセスを行えます。また、MP3 形式を使用すると、読み込みを待つぎこちない一時停止なしに、すぐにスムーズに結合できます。"
+          }
+        ]
+      },
+      part5: {
+        title: "当社のコンバーターが優れている理由",
+        cards: [
+          {
+            title: "ワンクリックのシンプルさ",
+            content: "簡単なセットアップと直感的な操作。"
+          },
+          {
+            title: "超高速、無制限",
+            content: "最高速度で変換およびダウンロードします。制限や制約はありません。"
+          },
+          {
+            title: "即座に変換",
+            content: "待つことなく、ファイルを即座に処理します。"
+          },
+          {
+            title: "広告ゼロ、邪魔ゼロ",
+            content:
+              "ポップアップ、バナー、中断のないクリーンなインターフェースをお楽しみください。スムーズで中断のない変換を実現します。"
+          },
+          {
+            title: "オリジナル品質保証",
+            content:
+              "ダウンロードするとソースビデオのフル解像度が維持され、毎回ピクセルパーフェクトな再生が実現します。"
+          },
+          {
+            title: "どこでも使える",
+            content: "あらゆるブラウザ、あらゆるデバイスと完全に互換性があります。"
+          }
+        ]
+      },
+      part6: {
+        title: ["YouTubeからMP3への変換を最大限に活用する", "当社のコンバーターを使用"],
+        title_des: "YouTubeからMP3への変換は簡単、高速、シンプル、無料",
+        content: [
+          "まさにそれが私たちの強みです。ユーザーフレンドリーなインターフェースは、誰でも簡単に使えるように設計されており、技術的なスキルは必要ありません。経験レベルに関わらず、動画を瞬時に変換できます。登録も不要で、すぐに使い始めることができます。ダウンロードしたMP3ファイルは、YouTubeで視聴した時と全く同じ、オリジナルの動画の画質と鮮明さを維持しています。",
+          "速度も重要です。複数のファイルを高速にダウンロードでき、広告やデバイス制限もありません。Windows、macOS、Linux、Android、iOS、スマートフォン、タブレット、デスクトップなど、どのデバイスからでも簡単に動画をダウンロードできます。"
+        ]
+      },
+      part7: {
+        title: "YouTubeをMP3に変換する際の重要な質問",
+        list: [
+          {
+            question: "著作権のある YouTube 動画を MP3 に変換できますか?",
+            answer:
+              "技術的には可能ですが、著作権で保護されたコンテンツを許可なく変換すると、YouTubeの利用規約および著作権法に違反する可能性があります。コンテンツを変換する権利、または個人的な非営利目的のみに使用する権利を必ずご確認ください。"
+          },
+          {
+            question: "このコンバーターツールは安全ですか?",
+            answer:
+              "はい、当社のコンバーターは完全に安全です。お客様のデータやファイルは一切保存せず、マルウェアやウイルスのリスクもありません。変換は直接かつ安全に行われます。"
+          },
+          {
+            question: "YouTube から MP3 への変換はどの言語をサポートしていますか?",
+            answer:
+              "当社のコンバーターは、YouTubeで利用可能なすべての言語をサポートしています。元の言語と音質を維持しながら、元の動画に表示されているとおりに音声を抽出します。"
+          },
+          {
+            question: "YouTube ビデオの変換にかかる時間に影響する要因は何ですか?",
+            answer:
+              "変換時間は、動画の長さ、インターネット接続速度、現在のサーバー負荷など、いくつかの要因によって異なります。10分未満の動画のほとんどは、30秒以内に変換されます。"
+          },
+          {
+            question: "スマートフォンでMP3に変換してダウンロードするとどこに保存されますか？",
+            answer:
+              "ほとんどのスマートフォンでは、変換されたMP3ファイルはダウンロードフォルダに保存されます。iPhoneではファイルアプリに保存される場合もあります。Androidでは、ファイルマネージャーまたは音楽アプリでダウンロードフォルダを確認してください。"
+          },
+          {
+            question: "YouTube ビデオを MP3 に変換すると、オーディオ品質が低下しますか?",
+            answer:
+              "MP3は音声のみのフォーマットなので、動画要素は含まれません。音質は、元の動画から利用可能な最高のビットレート（元のアップロード品質に応じて通常128～320 kbps）で維持されます。"
+          }
+        ]
+      },
+      MoreFreeTools: {
+        title: "その他の無料ツール",
+        title_des: "その他の無料変換ツールをご覧ください",
+        YouTubeToMP: "YouTubeからMP4へ",
+        YouTubeToMP_des:
+          "YouTube動画をMP4形式に変換してオフラインで視聴できます。高画質動画を瞬時にダウンロードできます。",
+        AITranscription: "AIによる文字起こし",
+        AITranscription_des:
+          "音声ファイルと動画ファイルを96%の精度で書き起こします。あらゆるコンテンツの書き起こしを無制限にご利用いただけます。"
+      },
+      videoDownload: {
+        title: "YouTube リンクを MP3 に変換します。無料、高速、広告なし。",
+        description:
+          "当社のサービスをご利用いただき、誠にありがとうございます。ご信頼いただき、誠にありがとうございます。また、このサービスがお客様のご体験をより充実したものにすることを願っています。当社のウェブサイトをご友人にご紹介いただければ、大変助かります。",
+        downloadButton: "ダウンロード",
+        TranscribeButton: "転写",
+        downloadError: "変換エラー。"
+      }
+    }
+  },
   About: {
     Hero: {
       badge: "業界をリードするAI技術",
@@ -3591,8 +3469,7 @@ let message = {
     },
     Mission: {
       title: "選ばれる",
-      subtitle:
-        "言語の壁を取り払い、すべての人にコンテンツを届けることを信じています",
+      subtitle: "言語の壁を取り払い、すべての人にコンテンツを届けることを信じています",
       features: [
         {
           icon: "🎯",
@@ -3641,8 +3518,7 @@ let message = {
     },
     CTA: {
       title: "その違いを体感しませんか？",
-      subtitle:
-        "文字起こしのニーズにNeverCapを信頼する数千のプロフェッショナルに参加しましょう",
+      subtitle: "文字起こしのニーズにNeverCapを信頼する数千のプロフェッショナルに参加しましょう",
       button: "NeverCapを無料で試す →",
       disclaimer: "クレジットカード不要 • 数秒で文字起こしを開始"
     }
@@ -3662,8 +3538,7 @@ let message = {
     scopeDescription:
       "本プライバシーポリシーは、当社がサービスのユーザーに関する情報を収集・処理する場合にのみ適用されます。当社にリンクされている第三者が運営するサービス、ウェブサイト、ソフトウェア（当社がリンクを提供したか他のユーザーが共有したかを問わず）や、第三者のコンテンツ、データ、アプリケーション、資料には適用されません。第三者のウェブサイトやソフトウェアに情報を提供する前に、そのプライバシーポリシーを確認することをお勧めします。",
     collectionTitle: "2. 収集する情報とその目的",
-    collectionPrinciple:
-      "当社の基本方針は、必要な情報のみを収集することです。具体的には以下の通りです：",
+    collectionPrinciple: "当社の基本方針は、必要な情報のみを収集することです。具体的には以下の通りです：",
     identityTitle: "2.1 本人確認とアクセス",
     identityDescription:
       "製品に登録する際、氏名やメールアドレスなどの本人確認情報を求めます。これは製品の基本的な機能を提供し、製品の更新情報やその他の重要な情報をお送りするためです。",
@@ -3697,11 +3572,9 @@ let message = {
     taxAudits:
       "税務当局による監査を受ける場合、請求関連情報の共有を求められることがあります。その場合、請求先住所や免税情報など、最小限必要な情報のみを共有します。",
     securityTitle: "4. データの保護方法",
-    securityDescription:
-      "すべてのデータは、サーバーからブラウザへ送信される際にSSL/TLSで暗号化されます。",
+    securityDescription: "すべてのデータは、サーバーからブラウザへ送信される際にSSL/TLSで暗号化されます。",
     deletionTitle: "5. コンテンツを削除した場合の処理",
-    deletionDescription:
-      "コンテンツを削除すると、即座にアクセスできなくなります。",
+    deletionDescription: "コンテンツを削除すると、即座にアクセスできなくなります。",
     locationTitle: "6. サイトとデータの所在地",
     locationDescription:
       "当社の製品およびその他のウェブプロパティは米国で運営されています。欧州連合、英国、または米国外に所在する場合、当社に提供する情報は米国に転送・保存されることにご注意ください。当社のウェブサイトまたはサービスを利用し、かつ/または個人情報を提供することで、この転送に同意したものとみなされます。",
@@ -3722,8 +3595,7 @@ let message = {
   TermsOfUse: {
     title: "利用",
     titleGradient: "規約",
-    subtitle:
-      "当社のサービスをご利用になる前に、これらの利用規約をよくお読みください",
+    subtitle: "当社のサービスをご利用になる前に、これらの利用規約をよくお読みください",
     lastUpdated: "最終更新日: {date}",
     lastUpdatedDate: "2025年7月21日",
     termsOfServiceTitle: "利用規約",
@@ -3746,8 +3618,7 @@ let message = {
       "当社のサービスは、音声会話を検索可能・翻訳可能・共有可能な文字起こしテキストに変換できます。",
     servicesOptions:
       "無料版サービス（「Free Services」）または有料版サービス（「Paid Services」）のいずれかを選択できます。",
-    servicesAccess:
-      "当社はサービスを提供します。サービスにアクセスするための必要な手配はあなたの責任です。",
+    servicesAccess: "当社はサービスを提供します。サービスにアクセスするための必要な手配はあなたの責任です。",
     accountTermsTitle: "3. アカウント条件",
     accountSecurity:
       "アカウントのセキュリティを維持する責任はあなたにあります。会社はこの義務不履行によるいかなる損失・損害についても責任を負いません。",
@@ -3788,8 +3659,7 @@ let message = {
     siteManagementDescription:
       "当社は以下の権利を留保します（義務ではありません）：(1)サイト上で本利用規約に違反する行為を監視する、(2)法律または本利用規約に違反した者に対して適切な法的措置を講じる（法執行機関への報告を含む）、(3)技術的に可能な範囲であなたの投稿またはその一部を拒否、アクセス制限、利用制限、無効化する、(4)過大なサイズまたはシステムに負担をかけるファイルやコンテンツをサイトから削除または無効化する、(5)当社の権利と財産を保護しサイトの適切な機能を促進する方法でサイトを管理する。",
     copyrightTitle: "9. 著作権とコンテンツ所有権",
-    copyrightCompliance:
-      "サービスに投稿されるすべてのコンテンツは米国著作権法に準拠しなければなりません。",
+    copyrightCompliance: "サービスに投稿されるすべてのコンテンツは米国著作権法に準拠しなければなりません。",
     ipRights:
       "あなたがサービスに提供する素材に対する知的財産権を主張しません。アップロードされたすべての素材はあなたのものです。",
     contentModeration:
@@ -3811,40 +3681,28 @@ let message = {
     securityInterference:
       "当サイトのセキュリティ関連機能（コンテンツの使用やコピーを防止・制限する機能、サイトおよびコンテンツの使用制限を強制する機能など）を回避、無効化、または妨害しないこと。",
     defamation: "当方や当サイトを中傷、傷つけ、または害する行為をしないこと。",
-    harassment:
-      "当サイトから得た情報を使用して、他人を嫌がらせ、虐待、または危害を加えないこと。",
-    supportAbuse:
-      "サポートサービスを不正に使用したり、虐待や不正行為の虚偽の報告を提出しないこと。",
-    legalCompliance:
-      "適用される法律や規制に反する方法で当サイトを使用しないこと。",
-    framingProhibition:
-      "当サイトへの無許可のフレーミングやリンクを行わないこと。",
+    harassment: "当サイトから得た情報を使用して、他人を嫌がらせ、虐待、または危害を加えないこと。",
+    supportAbuse: "サポートサービスを不正に使用したり、虐待や不正行為の虚偽の報告を提出しないこと。",
+    legalCompliance: "適用される法律や規制に反する方法で当サイトを使用しないこと。",
+    framingProhibition: "当サイトへの無許可のフレーミングやリンクを行わないこと。",
     malware:
       "ウイルス、トロイの木馬、その他の有害な素材（大文字の乱用やスパムを含む）をアップロードまたは送信（試みを含む）しないこと。これらは他のユーザーのサイト利用を妨げたり、サイトの機能や運用を損なう可能性があります。",
     automation:
       "スクリプトを使用してコメントやメッセージを送信するなど、システムの自動使用を行わないこと。データマイニング、ロボット、類似のデータ収集・抽出ツールも使用禁止です。",
-    copyrightRemoval:
-      "コンテンツから著作権やその他の所有権表示を削除しないこと。",
-    impersonation:
-      "他のユーザーや人物になりすましたり、他のユーザーのユーザー名を使用しないこと。",
+    copyrightRemoval: "コンテンツから著作権やその他の所有権表示を削除しないこと。",
+    impersonation: "他のユーザーや人物になりすましたり、他のユーザーのユーザー名を使用しないこと。",
     spyware:
       "パッシブまたはアクティブな情報収集・送信メカニズム（GIF、1×1ピクセル、ウェブバグ、クッキーなど）をアップロードまたは送信（試みを含む）しないこと。",
-    disruption:
-      "当サイトや関連ネットワーク・サービスに過度の負荷をかけたり、妨害しないこと。",
-    employeeHarassment:
-      "当サイトの提供に関わる従業員や代理人を嫌がらせ、悩ませ、脅迫しないこと。",
-    accessCircumvention:
-      "当サイトへのアクセスを防止または制限する対策を回避しようとしないこと。",
-    codeCopying:
-      "Flash、PHP、HTML、JavaScriptなどの当サイトのソフトウェアをコピーまたは改変しないこと。",
+    disruption: "当サイトや関連ネットワーク・サービスに過度の負荷をかけたり、妨害しないこと。",
+    employeeHarassment: "当サイトの提供に関わる従業員や代理人を嫌がらせ、悩ませ、脅迫しないこと。",
+    accessCircumvention: "当サイトへのアクセスを防止または制限する対策を回避しようとしないこと。",
+    codeCopying: "Flash、PHP、HTML、JavaScriptなどの当サイトのソフトウェアをコピーまたは改変しないこと。",
     reverseEngineering:
       "適用される法律で許可されている場合を除き、当サイトのソフトウェアを逆アセンブル、逆コンパイル、またはリバースエンジニアリングしないこと。",
     bots: "標準的な検索エンジンやブラウザの使用結果を除き、スパイダー、ロボット、チートツールなど、当サイトにアクセスする自動システムを使用、起動、開発、または配布しないこと。",
     buyingAgents: "購入エージェントを使用して当サイトで購入しないこと。",
-    unauthorizedUse:
-      "ユーザー名やメールアドレスを収集してスパムを送信するなど、当サイトを不正使用しないこと。",
-    competition:
-      "当サイトやコンテンツを、当方と競合する目的や収益化事業に使用しないこと。",
+    unauthorizedUse: "ユーザー名やメールアドレスを収集してスパムを送信するなど、当サイトを不正使用しないこと。",
+    competition: "当サイトやコンテンツを、当方と競合する目的や収益化事業に使用しないこと。",
     advertising: "当サイトで商品やサービスの広告や販売を行わないこと。",
     profileTransfer: "プロフィールを売買または譲渡しないこと。",
     featuresTitle: "11. 機能とバグ",
@@ -3876,8 +3734,7 @@ let message = {
       "サービスの名称、外観、デザインは当社の著作権©となります。無断でHTML、CSS、JavaScript、ビジュアルデザイン要素の複製、コピー、再利用は禁止されています。宣伝目的で当社ロゴまたはサービスロゴを使用するには許可が必要です。ロゴ使用のご要望は {email} までご連絡ください。利用規約に違反した場合、許可を取り消す権利を留保します。",
     privacyPolicyDescription:
       "当社はデータのプライバシーとセキュリティを重視しています。{policy} をご確認ください。本サイトの利用により、利用規約に組み込まれたプライバシーポリシーに同意したものとみなされます。なお、本サイトはアメリカ合衆国でホストされています。アメリカの法令と異なる個人データ収集・利用・開示の規制がある地域からアクセスする場合、サイトの継続利用によりデータがアメリカに転送されることに同意したものとみなされます。",
-    contactDescription:
-      "利用規約に関するご質問は、{email} までご連絡ください。",
+    contactDescription: "利用規約に関するご質問は、{email} までご連絡ください。",
     companyDefinitionA:
       "この文書で「会社」、「当社」、「当社の」または「当社」と記載されている場合、それは {NeverCap} を指します。"
   },
@@ -3895,16 +3752,8 @@ let message = {
     ListSection: {
       title: "最新",
       highlighted_text: "記事",
-      subtitle:
-        "無制限のトランスクリプションのための専門家のヒントとチュートリアル",
-      categories: [
-        "すべての投稿",
-        "チュートリアル",
-        "ポッドキャスティング",
-        "コンテンツ作成",
-        "仕事",
-        "AIのヒント"
-      ]
+      subtitle: "無制限のトランスクリプションのための専門家のヒントとチュートリアル",
+      categories: ["すべての投稿", "チュートリアル", "ポッドキャスティング", "コンテンツ作成", "仕事", "AIのヒント"]
     },
     Detail: {
       Home: "家",

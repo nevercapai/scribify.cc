@@ -2,10 +2,11 @@
   <div class="customer-dialog">
     <el-dialog
       v-model="visible"
-      :close-on-click-modal="true"
       :align-center="true"
+      :close-on-click-modal="false"
       class="set-public-video-dialog"
       append-to-body
+      destroy-on-close
       :title="t('FileUploadAndRecording.upload.shareFilePublicly')"
       @opened="opened"
       @closed="closed"
@@ -16,7 +17,7 @@
         controls
         :autoplay="false"
         preload="auto"
-        class="aspect-video w-full rounded-[1rem]"
+        class="show-public-video-demo aspect-video w-full rounded-[1rem]"
       ></video>
     </el-dialog>
   </div>
@@ -55,6 +56,12 @@ const opened = () => {
   }
   .el-dialog__headerbtn {
     @apply rtl:left-0 rtl:right-auto;
+  }
+}
+.el-popup-parent--hidden:has(.set-public-video-dialog .show-public-video-demo) {
+  @media (max-width: 767px) {
+    overflow: hidden;
+    width: auto !important;
   }
 }
 </style>

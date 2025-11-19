@@ -9,13 +9,14 @@
       class="customer-dialog-link"
       append-to-body
       :title="title"
+      footer-class="flex flex-wrap justify-end"
     >
       <upload-link v-model:link="link" :is-overed="isOver" :is-loading="loading || linkLoading" @enter="confirm" />
       <template #footer>
         <el-button class="home-btn mb-2" @click="visible = false">
           {{ t("FileUploadAndRecording.upload.link.cancel") }}
         </el-button>
-        <el-button class="home-btn mb-2" :loading="loading || linkLoading" @click="confirm" type="primary">
+        <el-button class="home-btn mb-2 max-w-full" :loading="loading || linkLoading" @click="confirm" type="primary">
           {{ confirmBtn }}
         </el-button>
       </template>

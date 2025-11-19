@@ -357,9 +357,9 @@ const handleTranscribe = async () => {
   } catch (e: any) {
     if (e?.code === 15010) {
       handleJumpHome();
-    } else if (error?.code === 15011) {
+    } else if (e?.code === 15011) {
       Msg({
-        message: error?.message,
+        message: e?.message,
         customClass: "!z-[9999]",
         duration: 5000,
         type: "error"

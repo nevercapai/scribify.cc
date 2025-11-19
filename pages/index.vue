@@ -41,8 +41,7 @@ import { useI18nModule } from "~/utils/i18n";
 const { t } = useI18n();
 const $i = useI18nModule("Index");
 
-const title =
-  "NeverCap - Stop Paying for Limits: Truly Unlimited AI Transcription";
+const title = "NeverCap - Stop Paying for Limits: Truly Unlimited AI Transcription";
 useHead({
   title,
   script: [
@@ -93,8 +92,7 @@ useHead({
           {
             "@type": "Offer",
             name: "Free Plan",
-            description:
-              "3 files per day, free 30-minute preview on all transcripts",
+            description: "3 files per day, free 30-minute preview on all transcripts",
             price: "0",
             priceCurrency: "USD",
             priceSpecification: {
@@ -107,8 +105,7 @@ useHead({
           {
             "@type": "Offer",
             name: "Pro Monthly",
-            description:
-              "Unlimited transcription with batch processing and priority queue",
+            description: "Unlimited transcription with batch processing and priority queue",
             price: "17.99",
             priceCurrency: "USD",
             priceSpecification: {
@@ -316,6 +313,15 @@ nav {
     flex-direction: column !important;
     align-items: flex-start !important;
     gap: 20px !important;
+  }
+  :deep(.section-title) {
+    @apply break-all;
+  }
+  :deep(.section-subtitle) {
+    @apply break-all;
+  }
+  :deep(.gradient-text) {
+    @apply break-all;
   }
 }
 </style>

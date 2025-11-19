@@ -14,7 +14,7 @@
           <img class="no-drag h-auto w-[0.9375rem]" src="/assets/images/index_black/record.svg" alt="" />
         </div>
 
-        <div @click="showLinkDialog = true" class="img-button cursor-pointer">
+        <div @click="openLinkDialog" class="img-button cursor-pointer">
           <img class="no-drag h-auto w-[1.125rem] cursor-pointer" src="/assets/images/index_black/url.svg" alt="" />
         </div>
       </div>
@@ -457,6 +457,10 @@ const operationCellHandle = (key, row, index) => {
   } else if (key === "del") {
     handleRemove(row, index);
   }
+};
+const openLinkDialog = () => {
+  showLinkDialog.value = true;
+  uploadLink.value?.setLink("");
 };
 </script>
 

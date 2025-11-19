@@ -52,7 +52,7 @@
 
   .el-button + .el-button {
     margin-inline-start: 8px !important;
-    margin-left: unset !important;
+    @apply rtl:ml-0;
   }
 
   .el-dialog__headerbtn {

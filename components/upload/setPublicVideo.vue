@@ -42,8 +42,7 @@ const opened = () => {
 <style lang="scss">
 .set-public-video-dialog {
   width: calc(100% - 2rem);
-  max-width: 46.25rem;
-  @apply box-border !rounded-lg p-5;
+  @apply max-w-[38rem] !rounded-lg p-5 md:!w-[60rem] md:!max-w-[60rem];
   box-shadow: 0 0 0.625rem 0 rgba(0, 0, 0, 0.14);
   .el-dialog__header {
     @apply mb-5 p-0 text-base font-medium;

@@ -62,42 +62,61 @@
           </div>
           <div class="operation flex items-center" v-if="!isMobileFromIndex">
             <!-- 重试  -->
-            <div
+            <el-tooltip
               v-if="item.status === 'error'"
-              @click="uploadRetry(item)"
-              class="me-1 flex h-7 w-7 cursor-pointer items-center justify-center rounded-lg hover:bg-hoverColor-deepen"
-              :title="t('FileUploadAndRecording.upload.retry')"
+              effect="dark"
+              :content="t('FileUploadAndRecording.upload.retry')"
+              placement="bottom"
             >
-              <span class="iconfont icon-retry text-xs text-fontColor md:text-sm"></span>
-            </div>
+              <div
+                @click="uploadRetry(item)"
+                class="me-1 flex h-7 w-7 cursor-pointer items-center justify-center rounded-lg hover:bg-hoverColor-deepen"
+                :title="t('FileUploadAndRecording.upload.retry')"
+              >
+                <span class="iconfont icon-retry text-xs md:text-sm"></span>
+              </div>
+            </el-tooltip>
             <!-- 修改  -->
-            <div
+            <el-tooltip
               v-if="item.status === 'error'"
-              @click="uploadEdit(item)"
-              :title="t('FileUploadAndRecording.upload.edit')"
-              class="me-1 flex h-7 w-7 cursor-pointer items-center justify-center rounded-lg hover:bg-hoverColor-deepen"
+              effect="dark"
+              :content="t('FileUploadAndRecording.upload.edit')"
+              placement="bottom"
             >
-              <span class="iconfont icon-bianji text-xs text-fontColor md:text-sm"></span>
-            </div>
-            <div
-              @click="handleRemove(item, index)"
-              :title="t('FileUploadAndRecording.upload.delete')"
-              class="me-1 flex h-7 w-7 cursor-pointer items-center justify-center rounded-lg hover:bg-hoverColor-deepen"
-            >
-              <span class="iconfont icon-shanchu text-sm text-fontColor"></span>
-            </div>
+              <div
+                @click="uploadEdit(item)"
+                :title="t('FileUploadAndRecording.upload.edit')"
+                class="me-1 flex h-7 w-7 cursor-pointer items-center justify-center rounded-lg hover:bg-hoverColor-deepen"
+              >
+                <span class="iconfont icon-bianji text-xs md:text-sm"></span>
+              </div>
+            </el-tooltip>
+            <el-tooltip effect="dark" :content="t('FileUploadAndRecording.upload.delete')" placement="bottom">
+              <div
+                @click="handleRemove(item, index)"
+                :title="t('FileUploadAndRecording.upload.delete')"
+                class="me-1 flex h-7 w-7 cursor-pointer items-center justify-center rounded-lg hover:bg-hoverColor-deepen"
+              >
+                <span class="iconfont icon-shanchu text-sm"></span>
+              </div>
+            </el-tooltip>
           </div>
           <upload-operation-cell v-else :row-data="item" @operation="(key) => operationCellHandle(key, item, index)" />
         </div>
-        <div v-if="item.status === 'error' && item.errorText" class="mt-2 flex flex-col leading-5 text-subColor-normal">
-          <span class="errorText-tips leading-5"> {{ item.errorText }}</span>
-          <span
-            class="op mt-1.5 cursor-pointer text-sm leading-5 text-mainColor-900"
-            v-if="item.isGooglePrivate"
-            @click="howToSet"
-          >
-            ({{ t("FileUploadAndRecording.upload.howToSetup") }})
-          </span>
+        <div
+          v-if="item.status === 'error' && item.errorText"
+          class="flex flex-col leading-5 text-subColor-normal md:leading-6"
+        >
+          <span class="errorText-tips"> {{ item.errorText }}</span>
+          <div class="flex">
+            <span
+              v-if="item.isGooglePrivate"
+              class="op cursor-pointer text-mainColor-900 underline-offset-4 md:hover:font-bold md:hover:underline"
+              @click="howToSet"
+            >
+              ({{ t("FileUploadAndRecording.upload.howToSetup") }})
+            </span>
+          </div>
         </div>
       </div>
     </div>

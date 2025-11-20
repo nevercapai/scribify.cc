@@ -4,7 +4,7 @@
     class="ms-2 flex h-7 cursor-pointer items-center justify-center rounded-lg"
     @click="handleOperation('del')"
   >
-    <span class="iconfont icon-shanchu h-5 text-sm text-fontColor"></span>
+    <span class="iconfont icon-shanchu h-5 text-sm"></span>
   </div>
 
   <!-- 正常情况显示带popover的按钮 -->
@@ -21,7 +21,7 @@
     <!-- reference 插槽 -->
     <template #reference>
       <div ref="element" class="ms-2 flex h-7 cursor-pointer items-center justify-center rounded-lg">
-        <span class="iconfont icon-suolve text-sm text-fontColor"></span>
+        <span class="iconfont icon-suolve text-sm"></span>
       </div>
     </template>
 
@@ -33,7 +33,7 @@
           class="mb-2 flex h-7 w-full cursor-pointer items-center px-[1.5em]"
           @click="handleOperation(button.key)"
         >
-          <span class="iconfont relative me-2.5 h-5 text-sm text-fontColor" :class="button.icon"></span>
+          <span class="iconfont relative me-2.5 h-5 text-sm" :class="button.icon"></span>
           <span>{{ button.name }}</span>
         </div>
       </div>

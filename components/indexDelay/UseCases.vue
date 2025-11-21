@@ -14,11 +14,8 @@
       </div>
       <div class="use-cases-grid">
         <template v-for="(item, index) in UseCaselist" :key="index">
-          <router-link
-            :to="$localePath(item.url)"
-            class="use-case-card underline"
-          >
-            <div class="use-case-icon">
+          <router-link :to="$localePath(item.url)" class="use-case-card underline">
+            <div class="use-case-icon flex items-center justify-center">
               <NuxtImg
                 :src="`/assets/img/index/case/${item.moude}.svg`"
                 class="h-[3.5rem] w-[3.5rem]"

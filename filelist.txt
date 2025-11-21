@@ -1,4 +1,5 @@
 .
+./.env.cloud
 ./stores
 ./stores/useUploadStore.ts
 ./stores/useExportStore.ts

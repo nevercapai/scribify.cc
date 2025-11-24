@@ -25,13 +25,7 @@
               <img
                 src="/pics/company.png"
                 alt="NeverCap Office"
-                style="
-                  width: 100%;
-                  height: 100%;
-                  object-fit: cover;
-                  display: block;
-                  border-radius: 12px;
-                "
+                style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 12px"
               />
             </div>
             <!-- To replace with actual image, use: -->
@@ -78,9 +72,7 @@
           <h2 class="section-title">
             {{ $i(`Mission.title`) }}
             <span class="gradient-text">
-              <a :href="HomeUrl" style="color: inherit; text-decoration: none">
-                Nevercap
-              </a>
+              <a :href="HomeUrl" style="color: inherit; text-decoration: none"> Nevercap </a>
             </span>
           </h2>
           <p class="section-subtitle">
@@ -146,8 +138,8 @@
               {{ $i(`Company.details[2].label`) }}
             </div>
             <div class="info-value">
-              {{ $i(`Company.details[2].value[0]`) }}:
-              <a href="mailto:support@nevercap.ai">support@nevercap.ai</a><br />
+              {{ $i(`Company.details[2].value[0]`) }}: <a href="mailto:support@nevercap.ai">support@nevercap.ai</a
+              ><br />
               {{ $i(`Company.details[2].value[1]`) }}
             </div>
           </div>
@@ -231,8 +223,7 @@ useHead({
               itemOffered: {
                 "@type": "Service",
                 name: "Speaker Identification",
-                description:
-                  "Identify and label up to 20 speakers automatically"
+                description: "Identify and label up to 20 speakers automatically"
               }
             }
           ]
@@ -260,11 +251,7 @@ useHead({
           "https://www.tiktok.com/@nevercap.ai"
         ],
 
-        award: [
-          "96% Accuracy Guarantee",
-          "100+ Languages Supported",
-          "Truly Unlimited Transcription"
-        ],
+        award: ["96% Accuracy Guarantee", "100+ Languages Supported", "Truly Unlimited Transcription"],
         employee: [
           {
             "@type": "Person",
@@ -394,8 +381,7 @@ useHead({
           {
             "@type": "Thing",
             name: "Unlimited Transcription",
-            description:
-              "No monthly caps, no hidden limits on transcription minutes"
+            description: "No monthly caps, no hidden limits on transcription minutes"
           },
           {
             "@type": "Thing",
@@ -405,14 +391,12 @@ useHead({
           {
             "@type": "Thing",
             name: "Global Accessibility",
-            description:
-              "100+ languages supported, making transcription accessible worldwide"
+            description: "100+ languages supported, making transcription accessible worldwide"
           },
           {
             "@type": "Thing",
             name: "Privacy Protection",
-            description:
-              "SOC 2 certified with customer data protection as priority"
+            description: "SOC 2 certified with customer data protection as priority"
           }
         ],
         keywords: [
@@ -460,11 +444,7 @@ const ctaData = ref({
   position: absolute;
   width: 500px;
   height: 500px;
-  background: radial-gradient(
-    circle,
-    rgba(99, 102, 241, 0.1) 0%,
-    transparent 70%
-  );
+  background: radial-gradient(circle, rgba(99, 102, 241, 0.1) 0%, transparent 70%);
   top: -250px;
   right: -250px;
   animation: float 20s ease-in-out infinite;
@@ -707,7 +687,7 @@ h1 {
 .features-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
+  gap: 20px;
   margin-top: 60px;
 }
 

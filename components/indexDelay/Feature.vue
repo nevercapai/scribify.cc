@@ -151,7 +151,7 @@ const $i = useI18nModule("Index");
 .features-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 20px;
 }
 
 .feature-card {

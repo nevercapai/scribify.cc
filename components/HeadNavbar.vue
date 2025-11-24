@@ -12,61 +12,22 @@
             loading="eager"
           />
         </a>
-        <button
-          class="mobile-menu-btn order-1"
-          @click="toggleMobileMenu"
-          id="mobile-menu-btn"
-          aria-label="toggleMenu"
-        >
-          <svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <template v-if="mobileMenuOpen">
-              <path
-                d="M18 6L6 18"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-              />
-              <path
-                d="M6 6L18 18"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-              />
-            </template>
-            <template v-else>
-              <path
-                d="M3 12H21"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-              />
-              <path
-                d="M3 6H21"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-              />
-              <path
-                d="M3 18H21"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-              />
-            </template>
-          </svg>
+        <button class="mobile-menu-btn" @click="toggleMobileMenu">
+          <NuxtImg
+            v-show="mobileMenuOpen"
+            src="/assets/images/menu/menu-close.svg"
+            class="h-[1rem] w-[1rem]"
+            alt="nevercap menu"
+          ></NuxtImg>
+          <NuxtImg
+            v-show="!mobileMenuOpen"
+            src="/assets/images/menu/menu.svg"
+            class="h-[1rem] w-[1rem]"
+            alt="nevercap menu"
+          ></NuxtImg>
         </button>
         <div class="nav-links is-PC">
-          <template
-            v-for="(menu, index) in menuList"
-            :key="'pc' + index"
-            v-if="isLargeScreen"
-          >
+          <template v-for="(menu, index) in menuList" :key="'pc' + index" v-if="isLargeScreen">
             <template v-if="menu?.children">
               <div class="dropdown">
                 <a
@@ -75,33 +36,34 @@
                   :class="index === acitveId ? 'menu-acitve' : ''"
                 >
                   {{ menu.name }}
-                  <svg
-                    width="100%"
-                    height="24"
-                    viewBox="0 0 36 21"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    style="width: 12px; height: auto"
-                  >
-                    <path
-                      d="M3 3L18 18L33 3"
-                      stroke="currentColor"
-                      stroke-width="5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                  </svg>
+                  <NuxtImg src="/assets/images/menu/arrow.svg" class="w-[0.75rem]" alt="nevercap menu"></NuxtImg>
                 </a>
-                <div class="dropdown-content">
+                <div v-if="menu.key === '/resources'" class="dropdown-content dropdown-content-pc-resources">
                   <router-link
                     v-for="(child, ind) in menu.children"
                     :to="$localePath(child.link)"
                     class="underline"
-                    :class="
-                      index === acitveId && ind === acitveIdLevel2
-                        ? 'menu-acitve'
-                        : ''
-                    "
+                    :class="index === acitveId && ind === acitveIdLevel2 ? 'menu-acitve' : ''"
+                  >
+                    <template v-if="child.children.length">
+                      <span class="menu-category-name">{{ child.name }}</span>
+                      <router-link
+                        v-for="(item, ind) in child.children"
+                        :to="$localePath(item.link)"
+                        class="leaf-menu underline"
+                        :class="index === acitveId && ind === acitveIdLevel2 ? 'menu-acitve' : ''"
+                      >
+                        {{ item.name }}
+                      </router-link>
+                    </template>
+                  </router-link>
+                </div>
+                <div v-else class="dropdown-content">
+                  <router-link
+                    v-for="(child, ind) in menu.children"
+                    :to="$localePath(child.link)"
+                    class="underline"
+                    :class="index === acitveId && ind === acitveIdLevel2 ? 'menu-acitve' : ''"
                   >
                     {{ child.name }}
                   </router-link>
@@ -119,15 +81,8 @@
             </template>
           </template>
         </div>
-        <div
-          class="nav-links is-mobile"
-          :class="{ 'mobile-open': mobileMenuOpen }"
-        >
-          <template
-            v-for="(menu, index) in menuList"
-            :key="'mobile_' + index"
-            v-if="mobileMenuOpen"
-          >
+        <div class="nav-links is-mobile" :class="{ 'mobile-open': mobileMenuOpen }">
+          <template v-for="(menu, index) in menuList" :key="'mobile_' + index" v-if="mobileMenuOpen">
             <template v-if="menu?.children">
               <div class="dropdown" :class="{ open: dropdownOpen[index] }">
                 <a
@@ -137,33 +92,34 @@
                   v-on="mobileDropdownOpen(index)"
                 >
                   {{ menu.name }}
-                  <svg
-                    width="100%"
-                    height="24"
-                    viewBox="0 0 36 21"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    style="width: 12px; height: auto"
-                  >
-                    <path
-                      d="M3 3L18 18L33 3"
-                      stroke="currentColor"
-                      stroke-width="5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                  </svg>
+                  <NuxtImg src="/assets/images/menu/arrow.svg" class="w-[0.75rem]" alt="nevercap menu"></NuxtImg>
                 </a>
-                <div class="dropdown-content">
+                <div v-if="menu.key === '/resources'" class="dropdown-content">
                   <router-link
                     v-for="(child, ind) in menu.children"
                     :to="$localePath(child.link)"
                     class="underline"
-                    :class="
-                      index === acitveId && ind === acitveIdLevel2
-                        ? 'menu-acitve'
-                        : ''
-                    "
+                    :class="index === acitveId && ind === acitveIdLevel2 ? 'menu-acitve' : ''"
+                  >
+                    <template v-if="child.children.length">
+                      <span class="menu-category-name">{{ child.name }}</span>
+                      <router-link
+                        v-for="(item, ind) in child.children"
+                        :to="$localePath(item.link)"
+                        class="leaf-menu underline"
+                        :class="index === acitveId && ind === acitveIdLevel2 ? 'menu-acitve' : ''"
+                      >
+                        {{ item.name }}
+                      </router-link>
+                    </template>
+                  </router-link>
+                </div>
+                <div v-else class="dropdown-content">
+                  <router-link
+                    v-for="(child, ind) in menu.children"
+                    :to="$localePath(child.link)"
+                    class="underline"
+                    :class="index === acitveId && ind === acitveIdLevel2 ? 'menu-acitve' : ''"
                     @click="closeMobileMenu"
                   >
                     {{ child.name }}
@@ -228,8 +184,7 @@ const toggleDropdown = (index: number) => {
   }
 };
 
-const mobileDropdownOpen = (index) =>
-  useClickHandler(() => toggleDropdown(index));
+const mobileDropdownOpen = (index: number) => useClickHandler(() => toggleDropdown(index));
 
 // 监听窗口大小变化，在大屏幕上强制关闭移动端菜单
 watchEffect(() => {
@@ -305,12 +260,38 @@ const menuList = computed(() => [
     key: "/resources",
     children: [
       {
-        name: t("HeadNavbar.YouTubetoMP4"),
-        link: "/resources/youtube-to-mp4"
+        name: "Transcription",
+        children: [
+          {
+            name: "video transcription",
+            link: "/resources/video-transcription"
+          }
+        ]
       },
+      // {
+      //   name: "Summary",
+      //   children: []
+      // },
+      // {
+      //   name: "Flashcard",
+      //   children: []
+      // },
+      // {
+      //   name: "Citation generator",
+      //   children: []
+      // },
       {
-        name: t("HeadNavbar.YouTubetoMP3"),
-        link: "/resources/youtube-to-mp3"
+        name: "Other",
+        children: [
+          {
+            name: t("HeadNavbar.YouTubetoMP4"),
+            link: "/resources/youtube-to-mp4"
+          },
+          {
+            name: t("HeadNavbar.YouTubetoMP3"),
+            link: "/resources/youtube-to-mp3"
+          }
+        ]
       }
     ]
   },
@@ -362,10 +343,7 @@ const localePath = useLocalePath();
 const { userInfo } = storeToRefs(useUserStore());
 const { $mitt } = useNuxtApp();
 const goToHome = () => {
-  if (
-    (userInfo.value as any)?.userInfoVO &&
-    (route.path.includes("terms-of-use") || route.path.includes("privacy"))
-  ) {
+  if ((userInfo.value as any)?.userInfoVO && (route.path.includes("terms-of-use") || route.path.includes("privacy"))) {
     $mitt.emit("goToEvent", { path: "/" });
     return;
   }
@@ -379,10 +357,7 @@ let currentWebSite = config.public.currentWebSite;
 let jumpUrl = config.public.jumpUrl;
 
 const HomeUrl = computed(() => {
-  if (
-    (userInfo.value as any)?.userInfoVO &&
-    (route.path.includes("terms-of-use") || route.path.includes("privacy"))
-  ) {
+  if ((userInfo.value as any)?.userInfoVO && (route.path.includes("terms-of-use") || route.path.includes("privacy"))) {
     return (jumpUrl += "/");
   } else {
     return currentWebSite + "/";
@@ -396,9 +371,11 @@ const HomeUrl = computed(() => {
   margin: 0 auto;
   padding: 0 20px;
 }
+
 .menu-acitve {
   color: var(--primary) !important;
 }
+
 /* Navigation */
 nav {
   position: fixed;
@@ -417,7 +394,23 @@ nav {
   position: relative;
 }
 
-.logo {
+.nav-links {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  a {
+    text-decoration: none;
+    color: var(--gray);
+    font-weight: 500;
+    &:hover {
+      color: var(--primary);
+    }
+  }
+}
+
+.menu-category-name {
+  color: var(--dark);
+  cursor: default;
 }
 
 .mobile-menu-btn {
@@ -428,31 +421,17 @@ nav {
   cursor: pointer;
 }
 
-.nav-links {
-  display: flex;
-  gap: 30px;
-  align-items: center;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: var(--gray);
-  font-weight: 500;
-}
-
-.nav-links a:hover {
-  color: var(--primary);
-}
-
 // 响应式设计 - 移动端
 @media (max-width: 768px) {
   .is-PC {
     visibility: hidden !important;
     display: none !important;
   }
+
   .is-mobile {
     visibility: visible;
   }
+
   .mobile-menu-btn {
     display: block;
   }
@@ -467,8 +446,11 @@ nav {
     background: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     max-height: 0;
-    // t-ransition: max-height 0.3s ease-out;
     align-items: stretch;
+
+    a:hover {
+      color: var(--gray);
+    }
   }
 
   .nav-links.mobile-open {
@@ -480,12 +462,9 @@ nav {
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   }
 
-  .nav-links a:hover {
-    color: var(--gray);
-  }
-
   .dropdown {
     position: relative;
+
     &:not(.open) .dropdown-content {
       padding: 0;
     }
@@ -496,7 +475,12 @@ nav {
     box-shadow: none;
     max-height: 0;
     overflow: hidden;
-    // t-ransition: max-height 0.3s ease-out;
+    a {
+      color: var(--gray);
+      padding: 12px 20px;
+      text-decoration: none;
+      display: block;
+    }
   }
 
   .dropdown.open .dropdown-content {
@@ -508,14 +492,9 @@ nav {
     display: block;
     text-align: center;
   }
-  .dropdown-content a {
-    color: var(--gray);
-    padding: 12px 20px;
-    text-decoration: none;
-    display: block;
-  }
 
-  .dropdown-toggle svg {
+  .leaf-menu {
+    padding-left: 0 !important;
   }
 }
 
@@ -524,16 +503,20 @@ nav {
   .nav-links {
     display: flex !important;
   }
+
   .is-PC {
     visibility: visible;
   }
+
   .is-mobile {
     visibility: hidden !important;
     display: none !important;
   }
+
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
   .dropdown-content a {
     color: var(--gray);
     padding: 12px 20px;
@@ -542,8 +525,12 @@ nav {
     transition: background-color 0.3s;
   }
 
-  .dropdown-toggle svg {
+  .dropdown-toggle img {
     transition: transform 0.3s ease;
+  }
+
+  .dropdown:hover .dropdown-content-pc-resources {
+    display: grid;
   }
 }
 
@@ -551,6 +538,9 @@ nav {
 .dropdown {
   position: relative;
   display: inline-block;
+  &:hover .dropdown-toggle img {
+    transform: rotate(180deg);
+  }
 }
 
 .dropdown-content {
@@ -565,21 +555,32 @@ nav {
   left: 0;
   padding: 10px 0;
   margin-top: 5px;
+  :before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: transparent;
+  }
+  a:hover {
+    background-color: var(--light-gray);
+    color: var(--primary) !important;
+  }
 }
 
-.dropdown-content::before {
-  content: "";
-  position: absolute;
-  top: -5px;
-  left: 0;
-  right: 0;
-  height: 5px;
-  background: transparent;
-}
-
-.dropdown-content a:hover {
-  background-color: var(--light-gray);
-  color: var(--primary) !important;
+.dropdown-content-pc-resources {
+  left: -308px;
+  width: 600px;
+  max-width: 1200px;
+  // display: grid;
+  column-gap: 16px;
+  row-gap: 40px;
+  grid-template-columns: repeat(2, 1fr);
+  .leaf-menu {
+    padding-left: 0 !important;
+  }
 }
 
 .dropdown-toggle {
@@ -588,24 +589,19 @@ nav {
   gap: 5px;
 }
 
-.dropdown:hover .dropdown-toggle svg {
-  transform: rotate(180deg);
-}
-
 .nav-container {
   @media (max-width: 768px) {
     .index-right-wrap {
       position: absolute;
       right: 40px;
     }
-    .dropdown-toggle svg {
-    }
 
-    .dropdown:hover .dropdown-toggle svg {
+    .dropdown:hover .dropdown-toggle img {
       transform: none;
     }
   }
 }
+
 [dir="rtl"] .nav-container {
   @media (max-width: 768px) {
     .index-right-wrap {
@@ -613,10 +609,8 @@ nav {
       left: 40px !important;
       right: unset;
     }
-    .dropdown-toggle svg {
-    }
 
-    .dropdown:hover .dropdown-toggle svg {
+    .dropdown:hover .dropdown-toggle img {
       transform: none;
     }
   }

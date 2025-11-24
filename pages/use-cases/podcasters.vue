@@ -10,26 +10,17 @@
           <div class="badge">{{ $i("Podcasters.badge") }}</div>
           <h1>
             {{ $i("Podcasters.heroTitle") }}
-            <span class="gradient-text">{{
-              $i("Podcasters.heroTitleHighlight")
-            }}</span>
+            <span class="gradient-text">{{ $i("Podcasters.heroTitleHighlight") }}</span>
           </h1>
           <p class="hero-subtitle">
             {{ $i("Podcasters.heroSubtitle") }}
           </p>
           <div class="cta-buttons">
             <span class="flex-center-m">
-              <a
-                href="javascript:void(0)"
-                @click="signup"
-                class="btn-primary"
-                >{{ $i("Podcasters.ctaPrimary") }}</a
-              >
+              <a href="javascript:void(0)" @click="signup" class="btn-primary">{{ $i("Podcasters.ctaPrimary") }}</a>
             </span>
             <span class="flex-center-m">
-              <a href="#workflow" class="btn-secondary">
-                <span>▶</span> {{ $i("Podcasters.ctaSecondary") }}
-              </a>
+              <a href="#workflow" class="btn-secondary"> <span>▶</span> {{ $i("Podcasters.ctaSecondary") }} </a>
             </span>
           </div>
           <div class="flex justify-center">
@@ -110,9 +101,7 @@
         <div class="section-header">
           <h2 class="section-title">
             {{ $i("Podcasters.problemTitle") }}
-            <span class="gradient-text">{{
-              $i("Podcasters.problemTitleHighlight")
-            }}</span>
+            <span class="gradient-text">{{ $i("Podcasters.problemTitleHighlight") }}</span>
           </h2>
           <p class="section-subtitle">
             {{ $i("Podcasters.problemSubtitle") }}
@@ -175,26 +164,12 @@
         <div style="text-align: center">
           <h3 style="font-size: 32px; font-weight: bold; margin-bottom: 20px">
             {{ $i("Podcasters.solutionTitle") }}
-            <span class="gradient-text">{{
-              $i("Podcasters.solutionTitleHighlight")
-            }}</span>
+            <span class="gradient-text">{{ $i("Podcasters.solutionTitleHighlight") }}</span>
           </h3>
-          <p
-            style="
-              font-size: 18px;
-              color: var(--gray);
-              max-width: 700px;
-              margin: 0 auto;
-            "
-          >
+          <p style="font-size: 18px; color: var(--gray); max-width: 700px; margin: 0 auto">
             <i18n-t keypath="UseCases.Podcasters.solutionDescriptionA" tag="p">
               <template #NeverCap>
-                <a
-                  :href="HomeUrl"
-                  style="text-decoration: none; color: inherit"
-                >
-                  NeverCap
-                </a>
+                <a :href="HomeUrl" style="text-decoration: none; color: inherit"> NeverCap </a>
               </template>
             </i18n-t>
             <!-- {{ $i("Podcasters.solutionDescription") }} -->
@@ -209,9 +184,7 @@
         <div class="section-header">
           <h2 class="section-title">
             {{ $i("Podcasters.workflowTitle") }}
-            <span class="gradient-text">{{
-              $i("Podcasters.workflowTitleHighlight")
-            }}</span>
+            <span class="gradient-text">{{ $i("Podcasters.workflowTitleHighlight") }}</span>
           </h2>
           <p class="section-subtitle">
             {{ $i("Podcasters.workflowSubtitle") }}
@@ -268,9 +241,7 @@
         <div class="section-header">
           <h2 class="section-title">
             {{ $i("Podcasters.featuresTitle") }}
-            <span class="gradient-text">{{
-              $i("Podcasters.featuresTitleHighlight")
-            }}</span>
+            <span class="gradient-text">{{ $i("Podcasters.featuresTitleHighlight") }}</span>
           </h2>
           <p class="section-subtitle">
             {{ $i("Podcasters.featuresSubtitle") }}
@@ -389,9 +360,7 @@
         <div class="section-header">
           <h2 class="section-title">
             {{ $i("Podcasters.testimonialsTitle") }}
-            <span class="gradient-text">{{
-              $i("Podcasters.testimonialsTitleHighlight")
-            }}</span>
+            <span class="gradient-text">{{ $i("Podcasters.testimonialsTitleHighlight") }}</span>
           </h2>
           <p class="section-subtitle">
             {{ $i("Podcasters.testimonialsSubtitle") }}
@@ -399,33 +368,21 @@
         </div>
 
         <div class="testimonials-grid">
-          <div
-            v-for="testimonial in testimonialsList"
-            :key="testimonial.key"
-            class="testimonial-card"
-          >
+          <div v-for="testimonial in testimonialsList" :key="testimonial.key" class="testimonial-card">
             <span class="quote-icon">"</span>
             <p class="testimonial-text">
               {{ $i(`Podcasters.testimonials.${testimonial.i18nKey}.text`) }}
             </p>
             <div class="testimonial-author">
               <div class="author-avatar">
-                <NuxtImg
-                  :src="`/assets/images/index/users/${testimonial.avatar}`"
-                  fit="cover"
-                  loading="eager"
-                />
+                <NuxtImg :src="`/assets/images/index/users/${testimonial.avatar}`" fit="cover" loading="eager" />
               </div>
               <div class="author-info">
                 <div class="author-name">
-                  {{
-                    $i(`Podcasters.testimonials.${testimonial.i18nKey}.name`)
-                  }}
+                  {{ $i(`Podcasters.testimonials.${testimonial.i18nKey}.name`) }}
                 </div>
                 <div class="author-role">
-                  {{
-                    $i(`Podcasters.testimonials.${testimonial.i18nKey}.role`)
-                  }}
+                  {{ $i(`Podcasters.testimonials.${testimonial.i18nKey}.role`) }}
                 </div>
               </div>
             </div>
@@ -460,14 +417,10 @@
             <tbody>
               <tr>
                 <td>
-                  <strong>{{
-                    $i("Podcasters.comparison.rows.monthlyLimit.feature")
-                  }}</strong>
+                  <strong>{{ $i("Podcasters.comparison.rows.monthlyLimit.feature") }}</strong>
                 </td>
                 <td data-label="NeverCap">
-                  <span class="check-mark">{{
-                    $i("Podcasters.comparison.rows.monthlyLimit.nevercap")
-                  }}</span>
+                  <span class="check-mark">{{ $i("Podcasters.comparison.rows.monthlyLimit.nevercap") }}</span>
                 </td>
                 <td data-label="Otter.ai Pro">
                   {{ $i("Podcasters.comparison.rows.monthlyLimit.otter") }}
@@ -478,14 +431,10 @@
               </tr>
               <tr>
                 <td>
-                  <strong>{{
-                    $i("Podcasters.comparison.rows.uploadLimit.feature")
-                  }}</strong>
+                  <strong>{{ $i("Podcasters.comparison.rows.uploadLimit.feature") }}</strong>
                 </td>
                 <td data-label="NeverCap">
-                  <span class="check-mark">{{
-                    $i("Podcasters.comparison.rows.uploadLimit.nevercap")
-                  }}</span>
+                  <span class="check-mark">{{ $i("Podcasters.comparison.rows.uploadLimit.nevercap") }}</span>
                 </td>
                 <td data-label="Otter.ai Pro">
                   {{ $i("Podcasters.comparison.rows.uploadLimit.otter") }}
@@ -496,36 +445,24 @@
               </tr>
               <tr>
                 <td>
-                  <strong>{{
-                    $i("Podcasters.comparison.rows.batchProcessing.feature")
-                  }}</strong>
+                  <strong>{{ $i("Podcasters.comparison.rows.batchProcessing.feature") }}</strong>
                 </td>
                 <td data-label="NeverCap">
-                  <span class="check-mark">{{
-                    $i("Podcasters.comparison.rows.batchProcessing.nevercap")
-                  }}</span>
+                  <span class="check-mark">{{ $i("Podcasters.comparison.rows.batchProcessing.nevercap") }}</span>
                 </td>
                 <td data-label="Otter.ai Pro">
-                  <span class="x-mark">{{
-                    $i("Podcasters.comparison.rows.batchProcessing.otter")
-                  }}</span>
+                  <span class="x-mark">{{ $i("Podcasters.comparison.rows.batchProcessing.otter") }}</span>
                 </td>
                 <td :data-label="$i('Podcasters.comparison.headers.descript')">
-                  <span class="x-mark">{{
-                    $i("Podcasters.comparison.rows.batchProcessing.descript")
-                  }}</span>
+                  <span class="x-mark">{{ $i("Podcasters.comparison.rows.batchProcessing.descript") }}</span>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <strong>{{
-                    $i("Podcasters.comparison.rows.maxLength.feature")
-                  }}</strong>
+                  <strong>{{ $i("Podcasters.comparison.rows.maxLength.feature") }}</strong>
                 </td>
                 <td data-label="NeverCap">
-                  <span class="check-mark">{{
-                    $i("Podcasters.comparison.rows.maxLength.nevercap")
-                  }}</span>
+                  <span class="check-mark">{{ $i("Podcasters.comparison.rows.maxLength.nevercap") }}</span>
                 </td>
                 <td data-label="Otter.ai Pro">
                   {{ $i("Podcasters.comparison.rows.maxLength.otter") }}
@@ -536,56 +473,38 @@
               </tr>
               <tr>
                 <td>
-                  <strong>{{
-                    $i("Podcasters.comparison.rows.speakerDetection.feature")
-                  }}</strong>
+                  <strong>{{ $i("Podcasters.comparison.rows.speakerDetection.feature") }}</strong>
                 </td>
                 <td data-label="NeverCap">
-                  <span class="check-mark">{{
-                    $i("Podcasters.comparison.rows.speakerDetection.nevercap")
-                  }}</span>
+                  <span class="check-mark">{{ $i("Podcasters.comparison.rows.speakerDetection.nevercap") }}</span>
                 </td>
                 <td data-label="Otter.ai Pro">
                   {{ $i("Podcasters.comparison.rows.speakerDetection.otter") }}
                 </td>
                 <td :data-label="$i('Podcasters.comparison.headers.descript')">
-                  {{
-                    $i("Podcasters.comparison.rows.speakerDetection.descript")
-                  }}
+                  {{ $i("Podcasters.comparison.rows.speakerDetection.descript") }}
                 </td>
               </tr>
               <tr>
                 <td>
-                  <strong>{{
-                    $i("Podcasters.comparison.rows.smartFormatting.feature")
-                  }}</strong>
+                  <strong>{{ $i("Podcasters.comparison.rows.smartFormatting.feature") }}</strong>
                 </td>
                 <td data-label="NeverCap">
-                  <span class="check-mark">{{
-                    $i("Podcasters.comparison.rows.smartFormatting.nevercap")
-                  }}</span>
+                  <span class="check-mark">{{ $i("Podcasters.comparison.rows.smartFormatting.nevercap") }}</span>
                 </td>
                 <td data-label="Otter.ai Pro">
-                  <span class="check-mark">{{
-                    $i("Podcasters.comparison.rows.smartFormatting.otter")
-                  }}</span>
+                  <span class="check-mark">{{ $i("Podcasters.comparison.rows.smartFormatting.otter") }}</span>
                 </td>
                 <td :data-label="$i('Podcasters.comparison.headers.descript')">
-                  <span class="check-mark">{{
-                    $i("Podcasters.comparison.rows.smartFormatting.descript")
-                  }}</span>
+                  <span class="check-mark">{{ $i("Podcasters.comparison.rows.smartFormatting.descript") }}</span>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <strong>{{
-                    $i("Podcasters.comparison.rows.price.feature")
-                  }}</strong>
+                  <strong>{{ $i("Podcasters.comparison.rows.price.feature") }}</strong>
                 </td>
                 <td data-label="NeverCap">
-                  <strong>{{
-                    $i("Podcasters.comparison.rows.price.nevercap")
-                  }}</strong>
+                  <strong>{{ $i("Podcasters.comparison.rows.price.nevercap") }}</strong>
                 </td>
                 <td data-label="Otter.ai Pro">
                   {{ $i("Podcasters.comparison.rows.price.otter") }}
@@ -618,8 +537,7 @@ const HomeUrl = computed(() => {
 });
 
 useHead({
-  title:
-    "Unlimited Podcast Transcription - No Episode Limits | NeverCap for Podcasters",
+  title: "Unlimited Podcast Transcription - No Episode Limits | NeverCap for Podcasters",
   meta: [
     {
       name: "description",
@@ -662,14 +580,7 @@ const testimonialsList: Testimonial[] = [
 const problemIcons = ["ulk.png", "mso.png", "cewg.png"];
 
 // Define feature icons
-const featureIcons = [
-  "msd.png",
-  "tc.png",
-  "sf.png",
-  "so.png",
-  "1l.png",
-  "bp.png"
-];
+const featureIcons = ["msd.png", "tc.png", "sf.png", "so.png", "1l.png", "bp.png"];
 const { $mitt } = useNuxtApp();
 const signup = () => {
   $mitt.emit("goToEvent", { path: "/user/signup" });
@@ -690,11 +601,7 @@ const signup = () => {
   position: absolute;
   width: 500px;
   height: 500px;
-  background: radial-gradient(
-    circle,
-    rgba(99, 102, 241, 0.1) 0%,
-    transparent 70%
-  );
+  background: radial-gradient(circle, rgba(99, 102, 241, 0.1) 0%, transparent 70%);
   top: -250px;
   right: -250px;
   animation: float 20s ease-in-out infinite;
@@ -855,7 +762,7 @@ h1 {
 .problem-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 20px;
   margin-bottom: 50px;
 }
 
@@ -956,7 +863,7 @@ h1 {
 .features-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 20px;
 }
 
 .feature-card {
@@ -1006,7 +913,7 @@ h1 {
 .testimonials-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
+  gap: 20px;
   margin-top: 50px;
 }
 

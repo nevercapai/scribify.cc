@@ -30,11 +30,7 @@
 
             <div class="hero-cta">
               <span class="flex-center-m">
-                <a
-                  href="javascript:void(0)"
-                  @click="signup"
-                  class="btn-primary me-[10px] !px-9"
-                >
+                <a href="javascript:void(0)" @click="signup" class="btn-primary me-[10px] !px-9">
                   {{ $i("Journalists.hero.ctaPrimary") }}
                 </a>
               </span>
@@ -47,28 +43,16 @@
 
             <div class="hero-stats">
               <div class="stat-item">
-                <span class="stat-number">{{
-                  $i("Journalists.hero.stats.uploads.number")
-                }}</span>
-                <span class="stat-label">{{
-                  $i("Journalists.hero.stats.uploads.label")
-                }}</span>
+                <span class="stat-number">{{ $i("Journalists.hero.stats.uploads.number") }}</span>
+                <span class="stat-label">{{ $i("Journalists.hero.stats.uploads.label") }}</span>
               </div>
               <div class="stat-item">
-                <span class="stat-number">{{
-                  $i("Journalists.hero.stats.accuracy.number")
-                }}</span>
-                <span class="stat-label">{{
-                  $i("Journalists.hero.stats.accuracy.label")
-                }}</span>
+                <span class="stat-number">{{ $i("Journalists.hero.stats.accuracy.number") }}</span>
+                <span class="stat-label">{{ $i("Journalists.hero.stats.accuracy.label") }}</span>
               </div>
               <div class="stat-item">
-                <span class="stat-number">{{
-                  $i("Journalists.hero.stats.speed.number")
-                }}</span>
-                <span class="stat-label">{{
-                  $i("Journalists.hero.stats.speed.label")
-                }}</span>
+                <span class="stat-number">{{ $i("Journalists.hero.stats.speed.number") }}</span>
+                <span class="stat-label">{{ $i("Journalists.hero.stats.speed.label") }}</span>
               </div>
             </div>
           </div>
@@ -79,9 +63,7 @@
                 <h3 class="dashboard-title">
                   {{ $i("Journalists.hero.dashboard.title") }}
                 </h3>
-                <span class="dashboard-status">{{
-                  $i("Journalists.hero.dashboard.status")
-                }}</span>
+                <span class="dashboard-status">{{ $i("Journalists.hero.dashboard.status") }}</span>
               </div>
               <div class="interview-list">
                 <div class="interview-item">
@@ -96,23 +78,13 @@
                     </div>
                     <div class="interview-details">
                       <h4>
-                        {{
-                          $i(
-                            "Journalists.hero.dashboard.interviews.cityCouncil.title"
-                          )
-                        }}
+                        {{ $i("Journalists.hero.dashboard.interviews.cityCouncil.title") }}
                       </h4>
-                      <span>{{
-                        $i(
-                          "Journalists.hero.dashboard.interviews.cityCouncil.duration"
-                        )
-                      }}</span>
+                      <span>{{ $i("Journalists.hero.dashboard.interviews.cityCouncil.duration") }}</span>
                     </div>
                   </div>
                   <span class="interview-action">{{
-                    $i(
-                      "Journalists.hero.dashboard.interviews.cityCouncil.action"
-                    )
+                    $i("Journalists.hero.dashboard.interviews.cityCouncil.action")
                   }}</span>
                 </div>
                 <div class="interview-item">
@@ -127,23 +99,13 @@
                     </div>
                     <div class="interview-details">
                       <h4>
-                        {{
-                          $i(
-                            "Journalists.hero.dashboard.interviews.expertInterview.title"
-                          )
-                        }}
+                        {{ $i("Journalists.hero.dashboard.interviews.expertInterview.title") }}
                       </h4>
-                      <span>{{
-                        $i(
-                          "Journalists.hero.dashboard.interviews.expertInterview.duration"
-                        )
-                      }}</span>
+                      <span>{{ $i("Journalists.hero.dashboard.interviews.expertInterview.duration") }}</span>
                     </div>
                   </div>
                   <span class="interview-action">{{
-                    $i(
-                      "Journalists.hero.dashboard.interviews.expertInterview.action"
-                    )
+                    $i("Journalists.hero.dashboard.interviews.expertInterview.action")
                   }}</span>
                 </div>
                 <div class="interview-item">
@@ -158,23 +120,13 @@
                     </div>
                     <div class="interview-details">
                       <h4>
-                        {{
-                          $i(
-                            "Journalists.hero.dashboard.interviews.pressConference.title"
-                          )
-                        }}
+                        {{ $i("Journalists.hero.dashboard.interviews.pressConference.title") }}
                       </h4>
-                      <span>{{
-                        $i(
-                          "Journalists.hero.dashboard.interviews.pressConference.duration"
-                        )
-                      }}</span>
+                      <span>{{ $i("Journalists.hero.dashboard.interviews.pressConference.duration") }}</span>
                     </div>
                   </div>
                   <span class="interview-action">{{
-                    $i(
-                      "Journalists.hero.dashboard.interviews.pressConference.action"
-                    )
+                    $i("Journalists.hero.dashboard.interviews.pressConference.action")
                   }}</span>
                 </div>
                 <div class="interview-item">
@@ -189,23 +141,13 @@
                     </div>
                     <div class="interview-details">
                       <h4>
-                        {{
-                          $i(
-                            "Journalists.hero.dashboard.interviews.phoneInterview.title"
-                          )
-                        }}
+                        {{ $i("Journalists.hero.dashboard.interviews.phoneInterview.title") }}
                       </h4>
-                      <span>{{
-                        $i(
-                          "Journalists.hero.dashboard.interviews.phoneInterview.duration"
-                        )
-                      }}</span>
+                      <span>{{ $i("Journalists.hero.dashboard.interviews.phoneInterview.duration") }}</span>
                     </div>
                   </div>
                   <span class="interview-action">{{
-                    $i(
-                      "Journalists.hero.dashboard.interviews.phoneInterview.action"
-                    )
+                    $i("Journalists.hero.dashboard.interviews.phoneInterview.action")
                   }}</span>
                 </div>
               </div>
@@ -221,9 +163,7 @@
         <div class="section-header">
           <h2 class="section-title">
             {{ $i("Journalists.problem.title") }}
-            <span class="gradient-text">{{
-              $i("Journalists.problem.titleHighlight")
-            }}</span>
+            <span class="gradient-text">{{ $i("Journalists.problem.titleHighlight") }}</span>
           </h2>
           <p class="section-subtitle">
             {{ $i("Journalists.problem.subtitle") }}
@@ -231,11 +171,7 @@
         </div>
 
         <div class="problem-grid">
-          <div
-            class="problem-card"
-            v-for="(icon, index) in problemIcons"
-            :key="index"
-          >
+          <div class="problem-card" v-for="(icon, index) in problemIcons" :key="index">
             <div class="problem-icon">
               <NuxtImg
                 :src="`/assets/images/use_cases/journalists/${icon}`"
@@ -245,16 +181,10 @@
               />
             </div>
             <h3 class="problem-title">
-              {{
-                $i(`Journalists.problem.problems.${problemKeys[index]}.title`)
-              }}
+              {{ $i(`Journalists.problem.problems.${problemKeys[index]}.title`) }}
             </h3>
             <p class="problem-description">
-              {{
-                $i(
-                  `Journalists.problem.problems.${problemKeys[index]}.description`
-                )
-              }}
+              {{ $i(`Journalists.problem.problems.${problemKeys[index]}.description`) }}
             </p>
           </div>
         </div>
@@ -272,25 +202,10 @@
               >{{ $i("Journalists.problem.solution.titleHighlight") }}</span
             >
           </h3>
-          <p
-            style="
-              font-size: 20px;
-              color: var(--gray);
-              max-width: 700px;
-              margin: 0 auto;
-            "
-          >
-            <i18n-t
-              keypath="UseCases.Journalists.problem.solution.descriptionA"
-              tag="p"
-            >
+          <p style="font-size: 20px; color: var(--gray); max-width: 700px; margin: 0 auto">
+            <i18n-t keypath="UseCases.Journalists.problem.solution.descriptionA" tag="p">
               <template #NeverCap>
-                <a
-                  :href="HomeUrl"
-                  style="text-decoration: none; color: inherit"
-                >
-                  NeverCap
-                </a>
+                <a :href="HomeUrl" style="text-decoration: none; color: inherit"> NeverCap </a>
               </template>
             </i18n-t>
             <!-- {{ $i("Journalists.problem.solution.description") }} -->
@@ -305,9 +220,7 @@
         <div class="section-header">
           <h2 class="section-title">
             <!-- {{ $i("Journalists.solution.title") }} -->
-            <span class="gradient-text">{{
-              $i("Journalists.solution.titleHighlight")
-            }}</span>
+            <span class="gradient-text">{{ $i("Journalists.solution.titleHighlight") }}</span>
             {{ $i("Journalists.solution.titleSuffix") }}
           </h2>
           <p class="section-subtitle">
@@ -318,18 +231,12 @@
         <!-- Solution 1 -->
         <div class="solution-grid">
           <div class="solution-content">
-            <span class="solution-label">{{
-              $i("Journalists.solution.solutions.unlimitedUploads.label")
-            }}</span>
+            <span class="solution-label">{{ $i("Journalists.solution.solutions.unlimitedUploads.label") }}</span>
             <h3 class="solution-title">
               {{ $i("Journalists.solution.solutions.unlimitedUploads.title") }}
             </h3>
             <p class="solution-description">
-              {{
-                $i(
-                  "Journalists.solution.solutions.unlimitedUploads.description"
-                )
-              }}
+              {{ $i("Journalists.solution.solutions.unlimitedUploads.description") }}
             </p>
             <ul class="solution-points">
               <li v-for="(point, index) in unlimitedUploadsPoints" :key="index">
@@ -339,25 +246,12 @@
             </ul>
           </div>
           <div class="solution-visual">
-            <div
-              style="text-align: center"
-              class="flex flex-col items-center justify-center"
-            >
-              <div
-                style="font-size: 48px; font-weight: 900; color: var(--primary)"
-              >
-                {{
-                  $i(
-                    "Journalists.solution.solutions.unlimitedUploads.visual.number"
-                  )
-                }}
+            <div style="text-align: center" class="flex flex-col items-center justify-center">
+              <div style="font-size: 48px; font-weight: 900; color: var(--primary)">
+                {{ $i("Journalists.solution.solutions.unlimitedUploads.visual.number") }}
               </div>
               <div style="font-size: 18px; color: var(--gray)">
-                {{
-                  $i(
-                    "Journalists.solution.solutions.unlimitedUploads.visual.label"
-                  )
-                }}
+                {{ $i("Journalists.solution.solutions.unlimitedUploads.visual.label") }}
               </div>
             </div>
           </div>
@@ -366,16 +260,12 @@
         <!-- Solution 2 -->
         <div class="solution-grid">
           <div class="solution-content">
-            <span class="solution-label">{{
-              $i("Journalists.solution.solutions.instantSearch.label")
-            }}</span>
+            <span class="solution-label">{{ $i("Journalists.solution.solutions.instantSearch.label") }}</span>
             <h3 class="solution-title">
               {{ $i("Journalists.solution.solutions.instantSearch.title") }}
             </h3>
             <p class="solution-description">
-              {{
-                $i("Journalists.solution.solutions.instantSearch.description")
-              }}
+              {{ $i("Journalists.solution.solutions.instantSearch.description") }}
             </p>
             <ul class="solution-points">
               <li v-for="(point, index) in instantSearchPoints" :key="index">
@@ -385,25 +275,12 @@
             </ul>
           </div>
           <div class="solution-visual">
-            <div
-              style="text-align: center"
-              class="flex flex-col items-center justify-center"
-            >
-              <div
-                style="font-size: 48px; font-weight: 900; color: var(--primary)"
-              >
-                {{
-                  $i(
-                    "Journalists.solution.solutions.instantSearch.searchDemo.placeholder"
-                  )
-                }}
+            <div style="text-align: center" class="flex flex-col items-center justify-center">
+              <div style="font-size: 48px; font-weight: 900; color: var(--primary)">
+                {{ $i("Journalists.solution.solutions.instantSearch.searchDemo.placeholder") }}
               </div>
               <div style="font-size: 18px; color: var(--gray)">
-                {{
-                  $i(
-                    "Journalists.solution.solutions.instantSearch.searchDemo.resultsText"
-                  )
-                }}
+                {{ $i("Journalists.solution.solutions.instantSearch.searchDemo.resultsText") }}
               </div>
             </div>
           </div>
@@ -412,26 +289,15 @@
         <!-- Solution 3 -->
         <div class="solution-grid">
           <div class="solution-content">
-            <span class="solution-label">{{
-              $i("Journalists.solution.solutions.professionalAccuracy.label")
-            }}</span>
+            <span class="solution-label">{{ $i("Journalists.solution.solutions.professionalAccuracy.label") }}</span>
             <h3 class="solution-title">
-              {{
-                $i("Journalists.solution.solutions.professionalAccuracy.title")
-              }}
+              {{ $i("Journalists.solution.solutions.professionalAccuracy.title") }}
             </h3>
             <p class="solution-description">
-              {{
-                $i(
-                  "Journalists.solution.solutions.professionalAccuracy.description"
-                )
-              }}
+              {{ $i("Journalists.solution.solutions.professionalAccuracy.description") }}
             </p>
             <ul class="solution-points">
-              <li
-                v-for="(point, index) in professionalAccuracyPoints"
-                :key="index"
-              >
+              <li v-for="(point, index) in professionalAccuracyPoints" :key="index">
                 <span class="check icon-duihao iconfont"></span>
                 <span>{{ point }}</span>
               </li>
@@ -439,23 +305,11 @@
           </div>
           <div class="solution-visual">
             <div style="text-align: center">
-              <div
-                style="font-size: 64px; font-weight: 900; color: var(--primary)"
-              >
-                {{
-                  $i(
-                    "Journalists.solution.solutions.professionalAccuracy.visual.accuracy"
-                  )
-                }}
+              <div style="font-size: 64px; font-weight: 900; color: var(--primary)">
+                {{ $i("Journalists.solution.solutions.professionalAccuracy.visual.accuracy") }}
               </div>
-              <div
-                style="font-size: 18px; color: var(--gray); line-height: 22px"
-              >
-                {{
-                  $i(
-                    "Journalists.solution.solutions.professionalAccuracy.visual.label"
-                  )
-                }}
+              <div style="font-size: 18px; color: var(--gray); line-height: 22px">
+                {{ $i("Journalists.solution.solutions.professionalAccuracy.visual.label") }}
               </div>
             </div>
           </div>
@@ -463,9 +317,7 @@
         <!-- Solution 4 -->
         <div class="solution-grid !mb-0">
           <div class="solution-content">
-            <span class="solution-label">{{
-              $i("Journalists.solution.solutions.ironclad.label")
-            }}</span>
+            <span class="solution-label">{{ $i("Journalists.solution.solutions.ironclad.label") }}</span>
             <h3 class="solution-title">
               {{ $i("Journalists.solution.solutions.ironclad.title") }}
             </h3>
@@ -481,21 +333,13 @@
           </div>
           <div class="solution-visual">
             <div style="text-align: center">
-              <div
-                style="font-size: 64px; font-weight: 900; color: var(--primary)"
-              >
+              <div style="font-size: 64px; font-weight: 900; color: var(--primary)">
                 <!-- {{
                   $i("Journalists.solution.solutions.ironclad.visual.accuracy")
                 }} -->
-                <el-image
-                  src="/assets/img/useCase/Security.svg"
-                  class="h-[84px] w-[72px]"
-                  fit="contain"
-                ></el-image>
+                <el-image src="/assets/img/useCase/Security.svg" class="h-[84px] w-[72px]" fit="contain"></el-image>
               </div>
-              <div
-                style="font-size: 18px; color: var(--gray); line-height: 22px"
-              >
+              <div style="font-size: 18px; color: var(--gray); line-height: 22px">
                 {{ $i("Journalists.solution.solutions.ironclad.visual.label") }}
               </div>
             </div>
@@ -510,9 +354,7 @@
         <div class="section-header">
           <h2 class="section-title">
             {{ $i("Journalists.features.title") }}
-            <span class="gradient-text">{{
-              $i("Journalists.features.titleHighlight")
-            }}</span>
+            <span class="gradient-text">{{ $i("Journalists.features.titleHighlight") }}</span>
           </h2>
           <p class="section-subtitle">
             {{ $i("Journalists.features.subtitle") }}
@@ -520,11 +362,7 @@
         </div>
 
         <div class="features-grid">
-          <div
-            class="feature-card"
-            v-for="(icon, index) in featureIcons"
-            :key="index"
-          >
+          <div class="feature-card" v-for="(icon, index) in featureIcons" :key="index">
             <div class="feature-icon">
               <NuxtImg
                 :src="`/assets/images/use_cases/journalists/${icon}.png`"
@@ -534,18 +372,10 @@
               />
             </div>
             <h4 class="feature-name">
-              {{
-                $i(
-                  `Journalists.features.featuresList.${featureKeys[index]}.title`
-                )
-              }}
+              {{ $i(`Journalists.features.featuresList.${featureKeys[index]}.title`) }}
             </h4>
             <p class="feature-description">
-              {{
-                $i(
-                  `Journalists.features.featuresList.${featureKeys[index]}.description`
-                )
-              }}
+              {{ $i(`Journalists.features.featuresList.${featureKeys[index]}.description`) }}
             </p>
           </div>
         </div>
@@ -555,21 +385,11 @@
     <!-- Testimonial Section -->
     <section class="testimonial-section">
       <div class="container">
-        <div
-          class="testimonial-content"
-          v-for="testimonial in testimonialsList"
-          :key="testimonial.key"
-        >
-          <div class="testimonial-quote">
-            "{{ $i(`Journalists.testimonials.${testimonial.i18nKey}.quote`) }}"
-          </div>
+        <div class="testimonial-content" v-for="testimonial in testimonialsList" :key="testimonial.key">
+          <div class="testimonial-quote">"{{ $i(`Journalists.testimonials.${testimonial.i18nKey}.quote`) }}"</div>
           <div class="testimonial-author">
             <div class="author-avatar">
-              <NuxtImg
-                :src="`/assets/images/index/users/${testimonial.avatar}.png`"
-                fit="cover"
-                loading="eager"
-              />
+              <NuxtImg :src="`/assets/images/index/users/${testimonial.avatar}.png`" fit="cover" loading="eager" />
             </div>
             <div class="author-info">
               <div class="author-name">
@@ -600,8 +420,7 @@ const HomeUrl = computed(() => {
 });
 
 useHead({
-  title:
-    "Unlimited Interview Transcription for Journalists & Writers | NeverCap",
+  title: "Unlimited Interview Transcription for Journalists & Writers | NeverCap",
   meta: [
     {
       name: "description",
@@ -618,9 +437,7 @@ interface Testimonial {
   i18nKey: string;
 }
 
-const testimonialsList: Testimonial[] = [
-  { key: "jessica", avatar: "Sophia Martinez", i18nKey: "jessica" }
-];
+const testimonialsList: Testimonial[] = [{ key: "jessica", avatar: "Sophia Martinez", i18nKey: "jessica" }];
 
 const problemIcons = ["ulki.png", "mcq.png", "cewg.png"];
 const problemKeys = ["uploadLimits", "missingQuotes", "costExplosion"];
@@ -639,13 +456,9 @@ const featureKeys = [
 // Solution points computed from i18n
 const unlimitedUploadsPoints = computed(() => {
   return [
-    $i(
-      "Journalists.solution.solutions.unlimitedUploads.points.simultaneousUpload"
-    ),
+    $i("Journalists.solution.solutions.unlimitedUploads.points.simultaneousUpload"),
     $i("Journalists.solution.solutions.unlimitedUploads.points.noLimits"),
-    $i(
-      "Journalists.solution.solutions.unlimitedUploads.points.processWhileWrite"
-    )
+    $i("Journalists.solution.solutions.unlimitedUploads.points.processWhileWrite")
   ];
 });
 
@@ -659,15 +472,9 @@ const instantSearchPoints = computed(() => {
 
 const professionalAccuracyPoints = computed(() => {
   return [
-    $i(
-      "Journalists.solution.solutions.professionalAccuracy.points.accuracyGuarantee"
-    ),
-    $i(
-      "Journalists.solution.solutions.professionalAccuracy.points.handlesAccents"
-    ),
-    $i(
-      "Journalists.solution.solutions.professionalAccuracy.points.smartPunctuation"
-    )
+    $i("Journalists.solution.solutions.professionalAccuracy.points.accuracyGuarantee"),
+    $i("Journalists.solution.solutions.professionalAccuracy.points.handlesAccents"),
+    $i("Journalists.solution.solutions.professionalAccuracy.points.smartPunctuation")
   ];
 });
 const ironclad = computed(() => {
@@ -697,11 +504,7 @@ const signup = () => {
   position: absolute;
   width: 600px;
   height: 600px;
-  background: radial-gradient(
-    circle,
-    rgba(99, 102, 241, 0.08) 0%,
-    transparent 70%
-  );
+  background: radial-gradient(circle, rgba(99, 102, 241, 0.08) 0%, transparent 70%);
   top: -300px;
   left: -300px;
   animation: float 25s ease-in-out infinite;
@@ -1068,7 +871,7 @@ const signup = () => {
 .features-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
+  gap: 20px;
 }
 
 .feature-card {

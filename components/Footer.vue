@@ -4,21 +4,12 @@
       <div class="footer-content">
         <div class="footer-brand">
           <h3 style="margin-bottom: 16px">
-            <a :href="HomeUrl" style="color: white; text-decoration: none">
-              NeverCap
-            </a>
+            <a :href="HomeUrl" style="color: white; text-decoration: none"> NeverCap </a>
           </h3>
           <p>
             {{ $t("Footer.des") }}
           </p>
-          <div
-            style="
-              display: flex;
-              gap: 20px;
-              margin-top: 20px;
-              align-items: center;
-            "
-          >
+          <div style="display: flex; gap: 20px; margin-top: 20px; align-items: center">
             <a
               v-for="(item, index) in sociaIconList"
               :key="item.id"

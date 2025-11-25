@@ -119,20 +119,19 @@ const $i = useI18nModule("Resources.Transcription.videoTranscription.threeStep")
 }
 
 .step-title {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 700;
   margin-bottom: 18px;
 }
 
 .step-description {
-  font-size: 14px;
+  font-size: 18px;
   color: var(--gray);
-  padding: 0 30px;
 }
 .workflow-step {
   background: #ffffff;
-  box-shadow: 0px 2px 18px 0px rgba(0, 92, 255, 0.07);
+  border: 1px solid var(--line-color);
   border-radius: 16px;
-  padding: 48px 24px 42px;
+  padding: 48px 24px 30px;
 }
 </style>

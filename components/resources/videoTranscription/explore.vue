@@ -63,7 +63,7 @@ const $i = useI18nModule("Resources.Transcription.videoTranscription.explore");
       border: 1px solid #ffffff;
       color: white;
       margin-bottom: 1rem;
-      cursor: pointer;
+      // cursor: pointer;
     }
   }
 }

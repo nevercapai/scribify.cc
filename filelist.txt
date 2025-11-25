@@ -304,6 +304,7 @@
 ./public/assets/images/resources/Transcription/videoTranscription/threeStep_1.svg
 ./public/assets/images/resources/Transcription/videoTranscription/whyChoose_5.svg
 ./public/assets/images/resources/Transcription/videoTranscription/threeStep_arrow.svg
+./public/assets/images/resources/Transcription/videoTranscription/star.svg
 ./public/assets/images/resources/Transcription/videoTranscription/hero_2.svg
 ./public/assets/images/resources/Transcription/videoTranscription/whyChoose_6.svg
 ./public/assets/images/resources/Transcription/videoTranscription/whyChoose_1.svg

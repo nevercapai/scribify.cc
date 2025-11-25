@@ -14,13 +14,24 @@
           <div class="trust-badges">
             <span v-for="(item, index) of 3" :key="index" class="flex items-center">
               <NuxtImg
-                :src="`/assets/images/resources/Transcription/videoTranscription/hero_${index + 1}.svg`"
-                class="relative top-[1px] me-[9px] h-[1.4rem] rounded-md"
+                v-if="index === 2"
+                :src="`/assets/images/resources/Transcription/videoTranscription/hero_3.svg`"
+                class="relative top-[1px] me-[9px] w-[1.4rem]"
                 fit="contain"
                 :alt="$i('Hero.Unlimited')"
                 loading="lazy"
               ></NuxtImg>
-              {{ $i(`feature_${index + 1}`) }}
+              <NuxtImg
+                v-else
+                :src="`/assets/images/resources/Transcription/videoTranscription/hero_${index + 1}.svg`"
+                class="relative top-[1px] me-[9px] h-[1.4rem]"
+                fit="contain"
+                :alt="$i('Hero.Unlimited')"
+                loading="lazy"
+              ></NuxtImg>
+              <span class="text-[#000]">
+                {{ $i(`feature_${index + 1}`) }}
+              </span>
             </span>
           </div>
         </div>
@@ -74,7 +85,7 @@ h1 {
 .hero-subtitle {
   font-size: 20px;
   color: var(--gray);
-  margin-bottom: 100px;
+  margin-bottom: 80px;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;

@@ -12,6 +12,16 @@
       </div>
       <div class="testimonials-grid">
         <div v-for="(item, index) of 3" :key="index" class="testimonial-card">
+          <div class="mb-[1.25rem] flex flex-row">
+            <NuxtImg
+              v-for="(s, sIndex) of 5"
+              :key="sIndex"
+              :src="`/assets/images/resources/Transcription/videoTranscription/star.svg`"
+              fit="cover"
+              loading="lazy"
+              class="me-[0.5rem]"
+            ></NuxtImg>
+          </div>
           <span class="quote-icon">"</span>
           <p class="testimonial-text">"{{ $i("people_" + (index + 1) + "_content") }}"</p>
           <div class="testimonial-author">
@@ -62,7 +72,7 @@ const people = ref(["Liam Carter", "Emma Thompson", "Lily Baker"]);
 }
 /* Testimonials */
 .testimonials {
-  padding: 70px 0;
+  padding: 35px 0 70px;
   background: #ffffff;
 }
 
@@ -77,7 +87,7 @@ const people = ref(["Liam Carter", "Emma Thompson", "Lily Baker"]);
   border: 1px solid var(--line-color);
   position: relative;
   background: white;
-  padding: 30px;
+  padding: 40px 30px;
   border-radius: 1rem;
   position: relative;
   padding-bottom: 90px;

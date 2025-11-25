@@ -1,5 +1,5 @@
 <template>
-  <section class="features py-[70px]">
+  <section class="features py-[70px] pb-[35px]">
     <div class="container">
       <!-- Original Features Section -->
       <div class="section-header">

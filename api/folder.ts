@@ -14,13 +14,10 @@ export const useFolderApi = {
   // 创建文件夹
   async createFolder(data: FolderCreateParams): Promise<boolean> {
     try {
-      const res = await request<HttpResponse<Folder>>(
-        "/wapi/fileServer/file/folder/create",
-        {
-          method: "POST",
-          body: data
-        }
-      );
+      const res = await request<HttpResponse<Folder>>("/wapi/fileServer/file/folder/create", {
+        method: "POST",
+        body: data
+      });
       if (res.code === 0) {
         return true;
       }
@@ -33,13 +30,10 @@ export const useFolderApi = {
   // 编辑文件夹名
   async editFolder(data: FolderEditParams): Promise<boolean> {
     try {
-      const res = await request<HttpResponse<boolean>>(
-        "/wapi/fileServer/file/folder/create",
-        {
-          method: "POST",
-          body: data
-        }
-      );
+      const res = await request<HttpResponse<boolean>>("/wapi/fileServer/file/folder/create", {
+        method: "POST",
+        body: data
+      });
       if (res.code === 0) {
         return true;
       }
@@ -52,13 +46,10 @@ export const useFolderApi = {
   // 删除文件夹
   async deleteFolder(data: FolderDeleteParams): Promise<boolean> {
     try {
-      const res = await request<HttpResponse<boolean>>(
-        "/wapi/fileServer/file/folder/del",
-        {
-          method: "POST",
-          body: data
-        }
-      );
+      const res = await request<HttpResponse<boolean>>("/wapi/fileServer/file/folder/del", {
+        method: "POST",
+        body: data
+      });
       if (res.code === 0) {
         return true;
       }
@@ -71,13 +62,10 @@ export const useFolderApi = {
   // 获取文件夹列表
   async getFolderList(): Promise<Folder[]> {
     try {
-      const res = await request<HttpResponse<Folder[]>>(
-        "/wapi/fileServer/file/folder/list",
-        {
-          method: "POST",
-          body: {}
-        }
-      );
+      const res = await request<HttpResponse<Folder[]>>("/wapi/fileServer/file/folder/list", {
+        method: "POST",
+        body: {}
+      });
       if (res.code === 0) {
         return res.data;
       }
@@ -90,13 +78,10 @@ export const useFolderApi = {
   // 移动文件夹
   async moveFolder(data: FolderMoveParams): Promise<boolean> {
     try {
-      const res = await request<HttpResponse<boolean>>(
-        "/wapi/fileServer/file/folder/move",
-        {
-          method: "POST",
-          body: data
-        }
-      );
+      const res = await request<HttpResponse<boolean>>("/wapi/fileServer/file/folder/move", {
+        method: "POST",
+        body: data
+      });
       if (res.code === 0) {
         return true;
       }
@@ -107,19 +92,13 @@ export const useFolderApi = {
   },
 
   // 获取文件列表
-  async getFileList(
-    data: FileListParams,
-    controller: any
-  ): Promise<FileListResponse> {
+  async getFileList(data: FileListParams, controller: any): Promise<FileListResponse> {
     try {
-      const res = await request<HttpResponse<FileListResponse>>(
-        "/wapi/fileServer/file/file/list",
-        {
-          method: "POST",
-          body: data,
-          signal: controller.signal
-        }
-      );
+      const res = await request<HttpResponse<FileListResponse>>("/wapi/fileServer/file/file/list", {
+        method: "POST",
+        body: data,
+        signal: controller.signal
+      });
       if (res.code === 0) {
         return res.data;
       }
@@ -132,13 +111,10 @@ export const useFolderApi = {
   // 文件删除
   async deleteFile(data: { taskIds: string[] }): Promise<any> {
     try {
-      const res = await request<HttpResponse<boolean>>(
-        "/wapi/taskServer/api/v1/transcription/task/del",
-        {
-          method: "POST",
-          body: data
-        }
-      );
+      const res = await request<HttpResponse<boolean>>("/wapi/taskServer/api/v1/transcription/task/del", {
+        method: "POST",
+        body: data
+      });
       if (res.code === 0) {
         return res.data;
       }
@@ -149,11 +125,7 @@ export const useFolderApi = {
   },
 
   // 文件重命名
-  async renameFile(data: {
-    id: string;
-    fileName: string;
-    taskId: string;
-  }): Promise<any> {
+  async renameFile(data: { id: string; fileName: string; taskId: string }): Promise<any> {
     try {
       const res = await request<any>("/wapi/fileServer/file/file/rename", {
         method: "POST",
@@ -169,10 +141,7 @@ export const useFolderApi = {
   },
 
   // 文件移动
-  async moveFile(data: {
-    ids: number[];
-    targetParentId: number;
-  }): Promise<any> {
+  async moveFile(data: { ids: number[]; targetParentId: number }): Promise<any> {
     try {
       const res = await request<any>("/wapi/fileServer/file/file/move", {
         method: "POST",
@@ -190,13 +159,10 @@ export const useFolderApi = {
   // 文件转录
   async transcribeFile(body: any) {
     try {
-      const res = await request<any>(
-        "/wapi/taskServer/api/v1/transcription/tasks",
-        {
-          method: "POST",
-          body
-        }
-      );
+      const res = await request<any>("/wapi/taskServer/api/v1/transcription/tasks", {
+        method: "POST",
+        body
+      });
       if (res.code === 0) {
         return res.data;
       }
@@ -236,7 +202,7 @@ export const useFolderApi = {
   },
 
   // 任务状态查询
-  async queryTaskStatus(taskIds: string[], controller: any) {
+  async queryTaskStatus(taskIds: string[]) {
     try {
       const res = await request<
         HttpResponse<
@@ -259,8 +225,7 @@ export const useFolderApi = {
         method: "POST",
         body: {
           taskIds
-        },
-        signal: controller.signal
+        }
       });
       if (res.code === 0) {
         return res.data;
@@ -289,13 +254,10 @@ export const useFolderApi = {
   // 链接获取文件上传状态
   async getFileUploadStatus(body: any) {
     try {
-      const res = await request<any>(
-        "/wapi/fileServer/file/file/uploadUrlStatus",
-        {
-          method: "POST",
-          body
-        }
-      );
+      const res = await request<any>("/wapi/fileServer/file/file/uploadUrlStatus", {
+        method: "POST",
+        body
+      });
       if (res.code === 0) {
         return res.data;
       }
@@ -306,12 +268,7 @@ export const useFolderApi = {
   },
 
   // 同步导出
-  async syncExport(body: {
-    fileType: string;
-    taskId: string;
-    haveSpeaker: number;
-    haveTimestamp: number;
-  }) {
+  async syncExport(body: { fileType: string; taskId: string; haveSpeaker: number; haveTimestamp: number }) {
     try {
       const res = await request<any>("/wapi/fileServer/tran/export", {
         method: "POST",
@@ -367,10 +324,7 @@ export const useFolderApi = {
   },
 
   // 异步导出状态不要token
-  async asyncExportStatusWithOutToken(body: {
-    exportTaskIdList: string[];
-    userId: string;
-  }) {
+  async asyncExportStatusWithOutToken(body: { exportTaskIdList: string[]; userId: string }) {
     try {
       const res = await request<
         HttpResponse<

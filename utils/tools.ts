@@ -90,9 +90,7 @@ export function Decrypt(content: string) {
  * @returns {boolean} 是否为移动设备
  */
 export function isMobile() {
-  return /Android|webOS|iPhone|iPod|iPad|BlackBerry|IEMobile|Opera Mini/i.test(
-    navigator.userAgent
-  );
+  return /Android|webOS|iPhone|iPod|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 }
 
 /**
@@ -157,6 +155,18 @@ export function truncateFilename(filename: string, maxLength = 80) {
   // 截取文件名并保留后缀
   return name.slice(0, availableNameLength) + extension;
 }
+export async function getMIMETypeFromURL(url: string) {
+  try {
+    const response = await fetch(url, { method: "HEAD" }); // 仅请求头部，节省带宽
+    return response.headers.get("Content-Type");
+  } catch (error) {
+    console.error("获取失败:", error);
+    return null;
+  }
+}
+export function sleep(time: number) {
+  return new Promise((resolve) => setTimeout(resolve, time));
+}
 const Utils = {
   EncryptRSA,
   getAuthorization,
@@ -165,7 +175,9 @@ const Utils = {
   Decrypt,
   isMobile,
   getObjType,
-  Msg
+  Msg,
+  sleep,
+  getMIMETypeFromURL
 };
 
 export default Utils;

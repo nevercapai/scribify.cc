@@ -312,7 +312,9 @@ export const useUpload = () => {
 
   // 删除文件
   const removeFile = async (file: UploadFile, files: Ref<UploadFile[]>) => {
-    files.value = files.value.filter((f) => f.id !== file.id);
+    if (files.value) {
+      files.value = files.value.filter((f) => f.id !== file.id);
+    }
 
     if (["success", "error", "pending"].includes(file.status)) {
       return;
@@ -331,9 +333,10 @@ export const useUpload = () => {
 
   const { selectRawFiles } = storeToRefs(useUploadStore());
   const fetchFileUploadStatus = async (id: any, file: UploadFile) => {
-    if (!selectRawFiles.value.some((e: any) => e.localRequestId === (file.file as any)?.localRequestId)) {
-      return;
-    }
+    let checkPass = () =>
+      selectRawFiles.value.some((e: any) => e.localRequestId === (file.file as any)?.localRequestId);
+    if (file.checkPass) checkPass = file.checkPass;
+    if (!checkPass()) return;
     return new Promise(async (resolve, reject) => {
       const { useFolderApi } = await import("~/api/folder");
       const { getFileUploadStatus } = useFolderApi;

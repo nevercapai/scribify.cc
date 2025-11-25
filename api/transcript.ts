@@ -60,40 +60,8 @@ export type FileBaseInfo = FileItem & FileBaseEditQuery;
 
 // 转录详情
 export const transcriptApi = {
-  async getSpeakerList(id: string | number): Promise<Speaker[]> {
-    try {
-      const res = await request("/transcriptServer/getSpeakerList", {
-        method: "POST",
-        body: { id }
-      });
-      if (res.code === 0) {
-        return res.data;
-      }
-      throw new Error(JSON.stringify(res as any));
-    } catch (err) {
-      throw new Error(JSON.stringify(err as any));
-    }
-  },
-  // 编辑文件基础设置
-  async editFileInfo(body: FileBaseEditQuery) {
-    try {
-      const res = await request("/transcriptServer/editFileBaseInfo", {
-        method: "POST",
-        body
-      });
-      if (res.code === 0) {
-        return res.data;
-      }
-      throw new Error(JSON.stringify(res as any));
-    } catch (err) {
-      throw new Error(JSON.stringify(err as any));
-    }
-  },
   // 获取转录内容
-  async getTranscriptInfo(
-    fileId: string | number,
-    taskId: string | number
-  ): Promise<ParagraphsData> {
+  async getTranscriptInfo(fileId: string | number, taskId: string | number): Promise<ParagraphsData> {
     try {
       const res = await request("/wapi/fileServer/tran/getTranscribeResult", {
         method: "POST",
@@ -111,12 +79,19 @@ export const transcriptApi = {
   async getTranscriptInfoWithoutToken(
     fileId: string | number,
     taskId: string | number,
-    userId: string | number
+    userId: string | number,
+    mixpanel: string | number
   ): Promise<ParagraphsData> {
     try {
+      const params: any = {
+        fileId,
+        taskId,
+        userId,
+        ...(mixpanel ? { mixpanel } : {})
+      };
       const res = await request("/wapi/fileServer/tran/getTranscribeResultH5", {
         method: "POST",
-        body: { fileId, userId, taskId }
+        body: params
       });
       if (res.code === 0) {
         return res.data;
@@ -225,12 +200,9 @@ export const transcriptApi = {
   },
   async getTranRecentLang() {
     try {
-      const res = await request(
-        "/wapi/taskServer/api/v1/transcription/trans/lanauage/get",
-        {
-          method: "POST"
-        }
-      );
+      const res = await request("/wapi/taskServer/api/v1/transcription/trans/lanauage/get", {
+        method: "POST"
+      });
       if (res.code === 0) {
         return res.data;
       }

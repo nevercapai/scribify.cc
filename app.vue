@@ -1,9 +1,5 @@
 <template>
-  <el-config-provider
-    :locale="localLang"
-    :dir="isRtl ? 'rtl' : 'ltr'"
-    :rtl="isRtl"
-  >
+  <el-config-provider :locale="localLang" :dir="isRtl ? 'rtl' : 'ltr'" :rtl="isRtl">
     <NuxtPage />
 
     <client-only>
@@ -43,10 +39,7 @@ try {
           file: messages.message
         });
       } catch (error) {
-        console.error(
-          `Failed to load locale messages for ${item.code}:`,
-          error
-        );
+        console.error(`Failed to load locale messages for ${item.code}:`, error);
       }
     })
   );
@@ -150,11 +143,7 @@ const pvEventHandle = async ({ path }) => {
 // 其它逻辑保持不变
 if (process.client) {
   const config = useRuntimeConfig();
-  console.log(
-    process.env,
-    ":process.env--app.vue--config.public:",
-    config.public
-  );
+  console.log(process.env, ":process.env--app.vue--config.public:", config.public);
   if (window.localStorage.getItem("notShowHead")) {
   }
 }
@@ -170,9 +159,7 @@ onMounted(async () => {
     const response = await fetch("/packageVersion.json");
     const buildInfo = await response.json();
     buildInfo.buildTimeFormat = new Date(buildInfo.buildTime).toLocaleString();
-    buildInfo.gitCommitDateFormat = new Date(
-      buildInfo.gitCommitDate
-    ).toLocaleString();
+    buildInfo.gitCommitDateFormat = new Date(buildInfo.gitCommitDate).toLocaleString();
     window.localStorage.setItem("buildInfo", JSON.stringify(buildInfo));
   } catch (error) {
     console.error("获取构建信息失败:", error);

@@ -1,0 +1,39 @@
+:deep(.customer-dialog) {
+}
+:deep(.el-dialog) {
+    width: calc(100% - 2rem);
+    max-width: 29rem;
+    @apply !rounded-lg p-5 sm:w-[29rem];
+    box-shadow: 0 0 0.625rem 0 rgba(0,0,0,0.14);
+}
+:deep(.el-dialog__header) {
+    @apply p-0 text-base font-medium mb-5;
+}
+:deep(.el-dialog__headerbtn) {
+    height: 4.125rem;
+}
+:deep(.el-dialog__headerbtn .el-dialog__close) {
+    @apply text-black
+}
+:deep(.el-dialog__footer) {
+    @apply mt-11 pt-0
+}
+.input {
+    @apply w-[18.125rem] h-[2.125rem] border-borderColor rounded-lg
+}
+:deep(.el-input__wrapper) {
+    @apply !rounded-lg
+}
+:deep(.el-button--danger) {
+    @apply hover:bg-opacity-90 hover:bg-subColor-normal
+}
+
+:deep(.el-button:not(.customer-button)) {
+    @apply !rounded-lg;
+}
+:deep(.el-button + .el-button) {
+    @apply !ms-2;
+}
+:deep(.el-dialog__headerbtn) {
+    @apply rtl:left-0 rtl:right-auto;
+}

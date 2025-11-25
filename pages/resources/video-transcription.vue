@@ -3,14 +3,14 @@
     <HeadNavbar></HeadNavbar>
     <ResourcesVideoTranscriptionHero></ResourcesVideoTranscriptionHero>
     <div style="width: 100%; background: var(--light-gray)">
-      <div class="mx-auto max-w-[75rem]">
+      <div class="mx-auto max-w-[75rem] px-4">
         <resource-common-upload
           v-show="!(taskId && fileId)"
           ref="uploadRef"
           :source-type="1"
           @transcribed="transcribeSuccessHandle"
         ></resource-common-upload>
-        <div v-if="taskId && fileId" class="h-[90vh] w-full px-4" ref="transPageRef">
+        <div v-if="taskId && fileId" class="h-screen w-full md:h-[90vh]" ref="transPageRef">
           <TranscriptPage
             :taskId="taskId"
             :fileId="fileId"
@@ -105,5 +105,8 @@ onMounted(() => {});
   :deep(.testimonials-grid) {
     grid-template-columns: 1fr;
   }
+}
+:deep(.transcript-box) {
+  border-radius: 1rem;
 }
 </style>

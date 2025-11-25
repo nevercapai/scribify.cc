@@ -155,7 +155,7 @@
           </AnimateWrap>
           <AnimateWrap>
             <div v-if="!isEditRightTranscript" class="relative flex flex-1 justify-between text-fontColor">
-              <div class="icon-wrap flex cursor-pointer items-center text-lg text-black">
+              <div v-if="canEdit" class="icon-wrap flex cursor-pointer items-center text-lg text-black">
                 <el-icon @click="handleBack">
                   <ArrowLeft />
                 </el-icon>

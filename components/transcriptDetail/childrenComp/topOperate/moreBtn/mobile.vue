@@ -38,7 +38,7 @@
               {{ t("TranscriptionPage.timestamp") }}
             </span>
           </div>
-          <div class="flex min-h-11 w-full flex-1 flex-col rounded-lg bg-white px-3">
+          <div class="mb-3 flex min-h-11 w-full flex-1 flex-col rounded-lg bg-white px-3">
             <div
               class="timestamp-item flex h-11 cursor-pointer items-center text-black"
               v-for="item in timeStampOpts"

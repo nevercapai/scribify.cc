@@ -19,7 +19,7 @@
               :src="`/assets/images/resources/Transcription/videoTranscription/star.svg`"
               fit="cover"
               loading="lazy"
-              class="me-[0.5rem]"
+              class="me-[0.5rem] w-[1rem]"
             ></NuxtImg>
           </div>
           <span class="quote-icon">"</span>

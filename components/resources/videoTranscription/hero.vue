@@ -47,7 +47,7 @@ const $i = useI18nModule("Resources.Transcription.videoTranscription.hero");
 
 <style scoped lang="scss">
 .hero {
-  padding: 140px 0 50px;
+  padding: 180px 0 50px;
   background: linear-gradient(185deg, #eff0fc 0%, #f9fafc 100%);
   position: relative;
   overflow: hidden;

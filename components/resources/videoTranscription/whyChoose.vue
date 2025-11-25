@@ -15,7 +15,7 @@
           <div class="feature-icon">
             <NuxtImg
               :src="`/assets/images/resources/Transcription/videoTranscription/whyChoose_${index + 1}.svg`"
-              class="no-drag h-[1.875rem] w-[1.875rem]"
+              class="no-drag h-[1.25rem] w-[1.25rem]"
               fit="contain"
               alt="nevercap image"
               loading="lazy"
@@ -75,13 +75,13 @@ const $i = useI18nModule("Resources.Transcription.videoTranscription.whyChoose")
 }
 
 .feature-icon {
-  width: 3.25rem;
-  height: 3.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 3.25rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 24px;
+  margin-bottom: 1rem;
   color: white;
   background: #6367f1;
 }

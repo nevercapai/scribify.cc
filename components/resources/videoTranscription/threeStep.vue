@@ -134,4 +134,18 @@ const $i = useI18nModule("Resources.Transcription.videoTranscription.threeStep")
   border-radius: 16px;
   padding: 48px 24px 30px;
 }
+
+@media (max-width: 768px) {
+  .workflow-steps {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    margin-top: 60px;
+  }
+  .workflow-step::after {
+    content: "";
+    position: absolute;
+    right: -74px;
+    top: 50%;
+  }
+}
 </style>

@@ -33,8 +33,7 @@ const $i = useI18nModule("Resources.Transcription.videoTranscription.explore");
   .wrap {
     width: 100%;
     max-width: 1200px;
-    padding-top: 70px;
-    padding-bottom: 20px;
+    padding: 70px 20px 20px;
     .title {
       font-weight: 600;
       font-size: 42px;

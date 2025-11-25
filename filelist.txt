@@ -607,9 +607,9 @@
 ./components/resources/videoTranscription/explore.vue
 ./components/resources/videoTranscription/whyTran.vue
 ./components/resources/videoTranscription/hero.vue
-./components/resources/videoTranscription/faq.vue
 ./components/resources/videoTranscription/threeStep.vue
 ./components/resources/videoTranscription/reviews.vue
+./components/resources/faq.vue
 ./components/indexDelay
 ./components/indexDelay/Testimonials.vue
 ./components/indexDelay/Feature.vue

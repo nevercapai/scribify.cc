@@ -9,15 +9,15 @@
       </div>
       <div style="max-width: 800px; margin: 0 auto">
         <details
-          v-for="(faq, index) of 9"
+          v-for="(faq, index) of props.listNumber"
           :key="index"
           style="background: white; margin-bottom: 16px; border-radius: 12px; padding: 24px; border: 1px solid #e2e4e6"
         >
           <summary style="font-weight: bold; font-size: 18px; cursor: pointer; list-style: none">
-            {{ $i("q_" + (index + 1)) }}
+            {{ $i("question_" + (index + 1)) }}
           </summary>
           <p style="margin-top: 16px; color: var(--gray); line-height: 22px">
-            {{ $i("a_" + (index + 1)) }}
+            {{ $i("answer_" + (index + 1)) }}
           </p>
         </details>
       </div>
@@ -26,7 +26,17 @@
 </template>
 <script setup lang="ts">
 import { useI18nModule } from "~/utils/i18n";
-const $i = useI18nModule("Resources.Transcription.videoTranscription.faq");
+const props = defineProps({
+  i18nModule: {
+    type: String,
+    default: () => ""
+  },
+  listNumber: {
+    type: Number,
+    default: () => 0
+  }
+});
+const $i = useI18nModule(props.i18nModule);
 </script>
 <style lang="scss" scoped>
 .FAQ {

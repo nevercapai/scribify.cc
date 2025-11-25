@@ -11,7 +11,7 @@
       <div class="category-title">Other related tools</div>
       <div class="category-list">
         <span v-for="(item, index) in 7" :key="index" class="category-btn">
-          {{ $i(`transcribe_${index + 1}`) }}
+          {{ $i(`otherTools_${index + 1}`) }}
         </span>
       </div>
     </div>

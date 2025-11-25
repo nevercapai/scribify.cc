@@ -10,7 +10,7 @@
           :source-type="1"
           @transcribed="transcribeSuccessHandle"
         ></resource-common-upload>
-        <div v-if="taskId && fileId" class="h-[85vh] w-full">
+        <div v-if="taskId && fileId" class="h-[90vh] w-full px-4" ref="transPageRef">
           <TranscriptPage
             :taskId="taskId"
             :fileId="fileId"
@@ -43,7 +43,18 @@ const transcribeNewFilesHandle = () => {
   taskId.value = "";
   uploadRef.value?.clearTaskId();
 };
+const transPageRef = useTemplateRef("transPageRef");
+watch([fileId, taskId], async () => {
+  if (fileId.value && taskId.value) {
+    await nextTick();
+    transPageRef.value?.scrollIntoView({ behavior: "smooth", block: "center" });
+  }
+});
 onMounted(() => {});
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+:deep(.transcript-box) {
+  border-radius: 1rem;
+}
+</style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="transcribing-wrap mx-auto flex flex-col justify-center rounded-2xl bg-white p-8 md:p-[4.75rem]">
+  <div class="transcribing-wrap mx-auto flex flex-col justify-center rounded-2xl bg-white p-8 md:px-[4.75rem]">
     <div class="transcribing-img-box flex w-full flex-col items-center justify-center">
       <NuxtImg
         v-if="transcriptionStatus !== -1"
@@ -121,5 +121,14 @@ const retry = () => {
 
 :deep(.el-progress__text) {
   @apply me-3 !text-sm text-black;
+}
+[dir="rtl"] .transcribing-progress :deep(.el-progress) {
+  .el-progress-bar {
+    transform: rotate(180deg);
+  }
+  .el-progress__text {
+    margin-left: 0;
+    margin-right: 0.75rem;
+  }
 }
 </style>

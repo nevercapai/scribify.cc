@@ -16,7 +16,7 @@
             <span class="flex-shrink-0">{{ fileInfo.detailSize }}</span>
           </div>
 
-          <div class="flex w-44 items-center justify-start md:justify-end">
+          <div class="upload-item flex w-44 items-center justify-start md:justify-end">
             <div v-if="fileInfo.status === 'success'" class="me-4 flex h-4 items-center justify-center text-thirdColor">
               <span class="iconfont icon-duihao text-xs text-thirdColor"></span>
             </div>
@@ -27,7 +27,7 @@
             </div>
             <el-progress
               :stroke-width="8"
-              class="flex-1"
+              class="upload-progress flex-1"
               v-else
               striped
               striped-flow
@@ -135,4 +135,14 @@ const operationCellHandle = (key) => {
 const emit = defineEmits(["handleRemove", "uploadRetry", "uploadEdit"]);
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+[dir="rtl"] .upload-item :deep(.el-progress) {
+  .el-progress-bar {
+    transform: rotate(180deg);
+  }
+  .el-progress__text {
+    margin-left: 0;
+    margin-right: 0.5rem;
+  }
+}
+</style>

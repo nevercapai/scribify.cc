@@ -5,10 +5,18 @@
     <div style="width: 100%; background: var(--light-gray)">
       <div class="mx-auto max-w-[75rem]">
         <resource-common-upload
+          v-show="!(taskId && fileId)"
           ref="uploadRef"
           :source-type="1"
           @transcribed="transcribeSuccessHandle"
         ></resource-common-upload>
+        <div v-if="taskId && fileId" class="h-[85vh] w-full">
+          <TranscriptPage
+            :taskId="taskId"
+            :fileId="fileId"
+            @transcribeNewFiles="transcribeNewFilesHandle"
+          ></TranscriptPage>
+        </div>
       </div>
     </div>
     <ResourcesVideoTranscriptionThreeStep></ResourcesVideoTranscriptionThreeStep>
@@ -22,28 +30,20 @@
 </template>
 
 <script setup lang="ts">
-const router = useRouter();
-const route = useRoute();
-const localePath = useLocalePath();
+const TranscriptPage = defineAsyncComponent(() => import("~/pages/transcript/index.vue"));
+const fileId = ref("");
+const taskId = ref("");
 const transcribeSuccessHandle = (data) => {
-  console.log("🚀 ~ file: video-transcription.vue method: transcribeSuccessHandle line: 36 🚀", data);
-  router.push({
-    path: localePath(`/transcript/${data.fileId}`),
-    query: {
-      taskId: data.taskId,
-      redirectPath: encodeURIComponent(route.path),
-      activeName: data.activeName
-    }
-  });
+  fileId.value = data.fileId;
+  taskId.value = data.taskId;
 };
 const uploadRef = useTemplateRef("uploadRef");
-onMounted(() => {
-  const activeName = route.query.activeName;
-  if (["file", "link"].includes(activeName)) {
-    uploadRef.value && (uploadRef.value.activeName = activeName);
-  }
-  console.log("🚀 ~ file: video-transcription.vue method:  line: 40 🚀", route);
-});
+const transcribeNewFilesHandle = () => {
+  fileId.value = "";
+  taskId.value = "";
+  uploadRef.value?.clearTaskId();
+};
+onMounted(() => {});
 </script>
 
 <style scoped lang="scss"></style>

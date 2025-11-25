@@ -309,8 +309,11 @@ const transcribeSuccessHandle = () => {
 const transcribeFailedHandle = () => {
   taskId.value = "";
 };
+const clearTaskId = () => {
+  taskId.value = "";
+};
 defineExpose({
-  activeName
+  clearTaskId
 });
 </script>
 

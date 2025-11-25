@@ -669,7 +669,7 @@
 ./pages/downloader/youtube-to-mp4
 ./pages/downloader/youtube-to-mp4/index.vue
 ./pages/transcript
-./pages/transcript/[id].vue
+./pages/transcript/index.vue
 ./pages/user
 ./pages/user/aboutUs.vue
 ./pages/user/terms.vue

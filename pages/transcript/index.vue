@@ -1,6 +1,6 @@
 <template>
   <client-only>
-    <div class="flex h-full w-full flex-col bg-[#F9FAFC]">
+    <div class="flex h-full w-full flex-col bg-[#F9FAFC]" id="transDetail_lgCdiwM">
       <div
         @click="handleSign"
         class="mx-auto my-6 flex h-11 w-[13.75rem] cursor-pointer items-center justify-center rounded-[0.625rem] bg-[#6367F1] text-lg font-medium text-white md:my-8 md:w-[26.875rem] md:hover:opacity-80"
@@ -33,7 +33,7 @@
           </div>
         </div>
       </div>
-      <register-dialog ref="registerDialogRef"></register-dialog>
+      <register-dialog ref="registerDialogRef" @transcribeNewFiles="transcribeNewFilesHandle"></register-dialog>
       <export />
     </div>
   </client-only>
@@ -56,8 +56,17 @@ const utmSourceCookie = useCrossDomainCookie("utm_source");
 const { t } = useI18n();
 const route = useRoute();
 const token = useCrossDomainCookie("token");
-const fileId = route.params.id;
-const taskId = route.query.taskId;
+const emit = defineEmits(["transcribeNewFiles"]);
+// const fileId = route.params.id;
+// const taskId = route.query.taskId;
+const props = defineProps({
+  fileId: {
+    type: String
+  },
+  taskId: {
+    type: String
+  }
+});
 const shareId = route.query.shareId || "";
 const mixpanel = route.query.mixpanel || "";
 const shareName = decodeURIComponent(route.query.shareName || "");
@@ -67,7 +76,6 @@ let loadingInstance = null;
 const isDel = ref(false);
 const speakers = ref([]);
 const fileBaseInfo = ref({});
-const { isFreeUser } = storeToRefs(useSubscriptionStore());
 const defaultTranscriptInfo = {
   fileMetaInfo: {
     fileType: "mp3",
@@ -84,15 +92,21 @@ const defaultTranscriptInfo = {
 // 获取转录内容
 const getTranscriptInfo = async (fileId) => {
   loadingInstance = ElLoading.service({
-    fullscreen: true,
+    fullscreen: false,
+    target: "#transDetail_lgCdiwM",
     customClass: "cus-loading-lgCdiwM"
   });
   try {
     const { transcriptApi } = await import("~/api/transcript");
     if (isShare) {
-      return await transcriptApi.getTranscriptInfoWithoutToken(fileId, taskId, decodeURIComponent(shareId), mixpanel);
+      return await transcriptApi.getTranscriptInfoWithoutToken(
+        fileId,
+        props.taskId,
+        decodeURIComponent(shareId),
+        mixpanel
+      );
     }
-    return await transcriptApi.getTranscriptInfo(fileId, taskId);
+    return await transcriptApi.getTranscriptInfo(fileId, props.taskId);
   } catch (error) {
     console.error("获取转录内容失败", error);
     //
@@ -118,7 +132,8 @@ const getTranscriptInfo = async (fileId) => {
 // 获取其他语言翻译内容
 const getOtherLangOfTranscript = async (fileId, taskId, targetLang, langName, originLang) => {
   loadingInstance = ElLoading.service({
-    fullscreen: true,
+    fullscreen: false,
+    target: "#transDetail_lgCdiwM",
     customClass: "cus-loading-lgCdiwM"
   });
   try {
@@ -158,7 +173,13 @@ const tsDRef = ref(null);
 
 const translate = async (data, init = false) => {
   if (!data?.langCode) return;
-  let res = await getOtherLangOfTranscript(fileId, taskId, data.langCode, data.langId || data.lang, originLang.value);
+  let res = await getOtherLangOfTranscript(
+    props.fileId,
+    props.taskId,
+    data.langCode,
+    data.langId || data.lang,
+    originLang.value
+  );
   res?.forEach((item) => {
     const target = transcriptInfo.value.paragraphs[paragraphIdMap.value[item.pid]];
     target.translateContent = item.translateContent;
@@ -170,8 +191,8 @@ const saveFileBaseInfo = async (config) => {
   try {
     const { transcriptApi } = await import("~/api/transcript");
     await transcriptApi.saveFileConfig({
-      fileId,
-      taskId,
+      fileId: props.fileId,
+      taskId: props.taskId,
       options: JSON.stringify(config)
     });
   } catch (error) {
@@ -273,11 +294,11 @@ const assignTimeProperties = (data) => {
   return data;
 };
 onMounted(async () => {
+  await nextTick();
   if (isShare && !utmSourceCookie.value) {
     utmSourceCookie.value = "self_sharePage";
   }
-  // window?.localStorage.setItem("VConsoleShow", "VConsole");
-  if (!fileId || !taskId) {
+  if (!props.fileId || !props.taskId) {
     return Msg({
       message: "fail",
       type: "warning"
@@ -289,7 +310,7 @@ onMounted(async () => {
   console.time("转录详情接口时长");
   timeReport["begin"] = window?.sessionStorage.getItem("GoToTranscript") / 1 || Date.now();
   window?.sessionStorage.removeItem("GoToTranscript");
-  const dataInfo = await getTranscriptInfo(fileId);
+  const dataInfo = await getTranscriptInfo(props.fileId);
   if (!dataInfo) return;
   let {
     fileMetaInfo,
@@ -344,8 +365,8 @@ onMounted(async () => {
   fileBaseInfo.value = {
     ...options,
     ...fileMetaInfo,
-    taskId,
-    fileId,
+    taskId: props.taskId,
+    fileId: props.fileId,
     duration,
     isHalfHour,
     hasError,
@@ -414,6 +435,9 @@ const registerDialogRef = useTemplateRef("registerDialogRef");
 const handleSign = () => {
   registerDialogRef?.value?.setType(1);
   registerDialogRef?.value?.show();
+};
+const transcribeNewFilesHandle = () => {
+  emit("transcribeNewFiles");
 };
 </script>
 <style lang="scss">

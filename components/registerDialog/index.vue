@@ -59,7 +59,7 @@ const isDesktop = useMediaQuery("(min-width: 768px)");
 const { t } = useI18n();
 const registerDialogVisible = ref(false);
 const type = ref(0);
-const emit = defineEmits(["export"]);
+const emit = defineEmits(["export", "transcribeNewFiles"]);
 const contentTip = ref(t("RegisterDialog.tip1"));
 const setContentTip = (val) => {
   contentTip.value = val;
@@ -74,21 +74,8 @@ const setType = (val) => {
 const show = () => {
   registerDialogVisible.value = true;
 };
-const router = useRouter();
-const route = useRoute();
-const localePath = useLocalePath();
 const transcribe = () => {
-  const redirectPath = route.query.redirectPath;
-  if (!redirectPath) {
-    return router.push(localePath("/resources/video-transcription"));
-  }
-  const activeName = route.query.activeName;
-  router.push({
-    path: decodeURIComponent(redirectPath),
-    query: {
-      activeName: activeName
-    }
-  });
+  emit("transcribeNewFiles");
 };
 defineExpose({
   setType,

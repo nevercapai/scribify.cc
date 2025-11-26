@@ -10,7 +10,7 @@
           :source-type="1"
           @transcribed="transcribeSuccessHandle"
         ></resource-common-upload>
-        <div v-if="taskId && fileId" class="h-screen w-full md:h-[90vh]" ref="transPageRef">
+        <div v-if="taskId && fileId" class="min-h-[80vh] w-full" ref="transPageRef">
           <TranscriptPage
             :taskId="taskId"
             :fileId="fileId"
@@ -51,7 +51,7 @@ const transPageRef = useTemplateRef("transPageRef");
 watch([fileId, taskId], async () => {
   if (fileId.value && taskId.value) {
     await nextTick();
-    transPageRef.value?.scrollIntoView({ behavior: "smooth", block: "center" });
+    transPageRef.value?.scrollIntoView({ behavior: "smooth", block: "end" });
   }
 });
 onMounted(() => {});

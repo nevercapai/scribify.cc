@@ -1,6 +1,6 @@
 <template>
   <client-only>
-    <div class="flex h-full w-full flex-col bg-[#F9FAFC]" id="transDetail_lgCdiwM">
+    <div class="h-min-[80vh] flex h-full w-full flex-col bg-[#F9FAFC]" id="transDetail_lgCdiwM">
       <div
         @click="handleSign"
         class="mx-auto my-6 flex h-11 w-[13.75rem] cursor-pointer items-center justify-center rounded-[0.625rem] bg-[#6367F1] text-lg font-medium text-white md:my-8 md:w-[26.875rem] md:hover:opacity-80"
@@ -8,21 +8,22 @@
         {{ t("RegisterDialog.transcribeNewFiles") }}
       </div>
       <!--    这里单独拎出去放 components ，表示只在客户端使用，服务端不渲染 -->
-      <transcript-detail
-        class="flex-1 bg-white"
-        v-if="transcriptInfo && !isDel"
-        ref="tsDRef"
-        :speakers="speakers"
-        :fileBaseInfo="fileBaseInfo"
-        :transcriptInfo="transcriptInfo"
-        :isShare="false"
-        :shareName="shareName"
-        :showShareBtn="false"
-        :canEdit="false"
-        @translate="translate"
-        @saveConfig="handleBeforeUnload"
-        @updateSpeakers="updateSpeakers"
-      ></transcript-detail>
+      <div v-if="transcriptInfo && !isDel" class="flex h-[80vh]">
+        <transcript-detail
+          class="flex-1 bg-white"
+          ref="tsDRef"
+          :speakers="speakers"
+          :fileBaseInfo="fileBaseInfo"
+          :transcriptInfo="transcriptInfo"
+          :isShare="false"
+          :shareName="shareName"
+          :showShareBtn="false"
+          :canEdit="false"
+          @translate="translate"
+          @saveConfig="handleBeforeUnload"
+          @updateSpeakers="updateSpeakers"
+        ></transcript-detail>
+      </div>
       <div v-if="isDel" class="del-box flex h-screen w-full flex-1 flex-col text-black">
         <div class="main flex flex-1 flex-col items-center justify-center">
           <div class="title text-[1.25rem] font-medium leading-7 text-black">
@@ -94,7 +95,8 @@ const getTranscriptInfo = async (fileId) => {
   loadingInstance = ElLoading.service({
     fullscreen: false,
     target: "#transDetail_lgCdiwM",
-    customClass: "cus-loading-lgCdiwM"
+    customClass: "cus-loading-lgCdiwM",
+    background: "rgba(255,255,255,1)"
   });
   try {
     const { transcriptApi } = await import("~/api/transcript");
@@ -134,7 +136,8 @@ const getOtherLangOfTranscript = async (fileId, taskId, targetLang, langName, or
   loadingInstance = ElLoading.service({
     fullscreen: false,
     target: "#transDetail_lgCdiwM",
-    customClass: "cus-loading-lgCdiwM"
+    customClass: "cus-loading-lgCdiwM",
+    background: "rgba(255,255,255,1)"
   });
   try {
     const { transcriptApi } = await import("~/api/transcript");

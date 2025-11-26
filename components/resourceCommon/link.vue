@@ -17,13 +17,30 @@
 import { Msg } from "~/utils/tools.js";
 import { useLink } from "~/components/upload/dialog/useLink.js";
 import { useUpload } from "~/components/upload/useUpload.js";
+import { useVisitor } from "~/hooks/useVisitor.js";
+import { useCrossDomainCookie } from "~/hooks/useCrossDomainCookie.js";
+import { importWithRetry } from "~/utils/importWithRetry.js";
 const { linkValidate } = useLink();
 const { createFileObject } = useUpload();
+const { getVisitorId, visitorId } = useVisitor();
+
+const guestLogin = async () => {
+  const token = useCrossDomainCookie("token");
+  if (!token.value) {
+    if (!visitorId.value) await getVisitorId();
+    const { userApi } = await importWithRetry("user");
+    const res = await userApi.guestLogin({
+      visitorClientId: visitorId.value
+    });
+    token.value = res.token;
+  }
+};
 const { t } = useI18n();
 const linkUrl = ref("");
 const linkLoading = ref(false);
 const checked = ref(false);
 const handleAddLink = async () => {
+  await guestLogin();
   if (linkLoading.value) return;
   linkLoading.value = true;
   if (!linkValidate(linkUrl.value)) {

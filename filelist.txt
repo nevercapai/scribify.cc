@@ -575,6 +575,7 @@
 ./components/transcriptDetail/childrenComp/shareDialog/index.vue
 ./components/transcriptDetail/childrenComp/upTips.vue
 ./components/resourceCommon
+./components/resourceCommon/uploadEntry.vue
 ./components/resourceCommon/file.vue
 ./components/resourceCommon/fileInfo.vue
 ./components/resourceCommon/link.vue

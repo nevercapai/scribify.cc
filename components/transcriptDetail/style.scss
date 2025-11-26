@@ -375,6 +375,7 @@
       margin-inline-end: 0;
     }
     .xg-right-grid {
+      z-index: 500;
       @media (min-width: 768px) {
         .xgplayer-playbackrate {
           margin-inline-end: 0.5rem;

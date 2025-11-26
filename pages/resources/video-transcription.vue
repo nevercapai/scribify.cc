@@ -2,23 +2,7 @@
   <div class="video-transcription-wrap">
     <HeadNavbar></HeadNavbar>
     <ResourcesVideoTranscriptionHero></ResourcesVideoTranscriptionHero>
-    <div style="width: 100%; background: var(--light-gray)">
-      <div class="mx-auto max-w-[75rem] px-4">
-        <resource-common-upload
-          v-show="!(taskId && fileId)"
-          ref="uploadRef"
-          :source-type="1"
-          @transcribed="transcribeSuccessHandle"
-        ></resource-common-upload>
-        <div v-if="taskId && fileId" class="min-h-[80vh] w-full" ref="transPageRef">
-          <TranscriptPage
-            :taskId="taskId"
-            :fileId="fileId"
-            @transcribeNewFiles="transcribeNewFilesHandle"
-          ></TranscriptPage>
-        </div>
-      </div>
-    </div>
+    <resource-common-upload-entry type="video"></resource-common-upload-entry>
     <ResourcesVideoTranscriptionThreeStep></ResourcesVideoTranscriptionThreeStep>
     <ResourcesVideoTranscriptionWhyTran></ResourcesVideoTranscriptionWhyTran>
     <ResourcesVideoTranscriptionWhyChoose></ResourcesVideoTranscriptionWhyChoose>
@@ -34,27 +18,6 @@ const faqParams = ref({
   i18nModule: "Resources.Transcription.videoTranscription.faq",
   listNumber: 9
 });
-const TranscriptPage = defineAsyncComponent(() => import("~/pages/transcript/index.vue"));
-const fileId = ref("");
-const taskId = ref("");
-const transcribeSuccessHandle = (data) => {
-  fileId.value = data.fileId;
-  taskId.value = data.taskId;
-};
-const uploadRef = useTemplateRef("uploadRef");
-const transcribeNewFilesHandle = () => {
-  fileId.value = "";
-  taskId.value = "";
-  uploadRef.value?.clearTaskId();
-};
-const transPageRef = useTemplateRef("transPageRef");
-watch([fileId, taskId], async () => {
-  if (fileId.value && taskId.value) {
-    await nextTick();
-    transPageRef.value?.scrollIntoView({ behavior: "smooth", block: "end" });
-  }
-});
-onMounted(() => {});
 </script>
 
 <style scoped lang="scss">

@@ -4,9 +4,7 @@
     :class="customerClass"
   >
     <!-- 搜索框 -->
-    <div
-      class="mb-[0.875rem] h-[2.125rem] flex-shrink-0 overflow-hidden rounded-t-lg bg-boxBgColor"
-    >
+    <div class="mb-[0.875rem] h-[2.125rem] flex-shrink-0 overflow-hidden rounded-t-lg bg-boxBgColor">
       <el-input
         v-model="searchQuery"
         :placeholder="t('TranscriptionPage.langChooseV1.searchLanguage')"
@@ -30,9 +28,7 @@
           </div>
           <div class="flex-grow border-t border-borderColor"></div>
         </div>
-        <div
-          class="lang-item-wrap grid grid-cols-2 gap-3 px-4 py-2 lg:grid-cols-5"
-        >
+        <div class="lang-item-wrap grid grid-cols-2 gap-3 px-4 py-2 lg:grid-cols-5">
           <div
             v-for="(lang, index) in filteredRecentLanguages"
             :key="`recent-${index}`"
@@ -51,10 +47,7 @@
             >
               {{ t("TranscriptionPage.langChooseV1." + lang.name) }}
             </span>
-            <el-icon
-              v-if="selectedLanguageIds.has(lang.id)"
-              class="ms-1 !text-mainColor-900"
-            >
+            <el-icon v-if="selectedLanguageIds.has(lang.id)" class="ms-1 !text-mainColor-900">
               <Check />
             </el-icon>
           </div>
@@ -70,9 +63,7 @@
           </div>
           <div class="flex-grow border-t border-borderColor"></div>
         </div>
-        <div
-          class="lang-item-wrap grid grid-cols-2 gap-3 px-4 py-2 lg:grid-cols-5"
-        >
+        <div class="lang-item-wrap grid grid-cols-2 gap-3 px-4 py-2 lg:grid-cols-5">
           <div
             v-for="(lang, index) in filteredPopularLanguages"
             :key="`popular-${index}`"
@@ -91,10 +82,7 @@
             >
               {{ t("TranscriptionPage.langChooseV1." + lang.name) }}
             </span>
-            <el-icon
-              v-if="selectedLanguageIds.has(lang.id)"
-              class="ms-1 !text-mainColor-900"
-            >
+            <el-icon v-if="selectedLanguageIds.has(lang.id)" class="ms-1 !text-mainColor-900">
               <Check />
             </el-icon>
           </div>
@@ -114,9 +102,7 @@
         <!-- 按字母分组的语言 -->
         <div v-for="letter in alphabetLetters" :key="letter" class="mb-2">
           <h4 class="px-4 py-1 text-sm text-gray-400">{{ letter }}</h4>
-          <div
-            class="lang-item-wrap grid grid-cols-2 gap-3 px-4 py-2 lg:grid-cols-5"
-          >
+          <div class="lang-item-wrap grid grid-cols-2 gap-3 px-4 py-2 lg:grid-cols-5">
             <div
               v-for="lang in filteredAlphabetLanguages[letter]"
               :key="lang.id"
@@ -148,10 +134,7 @@
       </div>
 
       <!-- 无搜索结果提示 -->
-      <div
-        v-if="searchQuery && !hasAnyResults"
-        class="p-8 text-center text-gray-500"
-      >
+      <div v-if="searchQuery && !hasAnyResults" class="p-8 text-center text-gray-500">
         {{ t("TranscriptionPage.langChooseV1.noMatch") }}
       </div>
     </div>
@@ -224,7 +207,7 @@ const popularLanguageNames = [
 ];
 
 // 滚动到选中的语言
-const scrollToSelectedLanguage = () => {
+const scrollToSelectedLanguage = (opts = {}) => {
   if (!props.modelValue) return;
 
   nextTick(() => {
@@ -242,10 +225,7 @@ const scrollToSelectedLanguage = () => {
     // 检查按字母分组的区域
     else {
       for (const letter in alphabetRefs.value) {
-        if (
-          alphabetRefs.value[letter] &&
-          alphabetRefs.value[letter][props.modelValue]
-        ) {
+        if (alphabetRefs.value[letter] && alphabetRefs.value[letter][props.modelValue]) {
           selectedRef = alphabetRefs.value[letter][props.modelValue];
           break;
         }
@@ -254,7 +234,7 @@ const scrollToSelectedLanguage = () => {
     // 如果找到了引用，滚动到该元素
     if (selectedRef) {
       setTimeout(() => {
-        selectedRef.scrollIntoView({ behavior: "smooth", block: "center" });
+        selectedRef.scrollIntoView({ behavior: "smooth", block: "center", ...opts });
       }, 50);
     }
   });
@@ -300,8 +280,7 @@ const initLanguages = () => {
   // 设置常用语言
   const recentLangNames = recentLanguages.value.map((lang) => lang.name);
   popularLanguages.value = allLanguages.value.filter(
-    (lang) =>
-      lang.category === "popular" && !recentLangNames.includes(lang.name)
+    (lang) => lang.category === "popular" && !recentLangNames.includes(lang.name)
   );
 
   // 设置其他语言（按字母分组）
@@ -320,9 +299,7 @@ const initLanguages = () => {
 
   // 排序每组语言
   Object.keys(alphabetLanguages.value).forEach((letter) => {
-    alphabetLanguages.value[letter].sort((a, b) =>
-      a.name.localeCompare(b.name)
-    );
+    alphabetLanguages.value[letter].sort((a, b) => a.name.localeCompare(b.name));
   });
 };
 
@@ -367,12 +344,8 @@ const filterLanguages = (languages, query) => {
 };
 
 // 过滤后的语言列表
-const filteredRecentLanguages = computed(() =>
-  filterLanguages(recentLanguages.value, searchQuery.value)
-);
-const filteredPopularLanguages = computed(() =>
-  filterLanguages(popularLanguages.value, searchQuery.value)
-);
+const filteredRecentLanguages = computed(() => filterLanguages(recentLanguages.value, searchQuery.value));
+const filteredPopularLanguages = computed(() => filterLanguages(popularLanguages.value, searchQuery.value));
 
 // 过滤按字母分组的语言
 const filteredAlphabetLanguages = computed(() => {
@@ -387,9 +360,7 @@ const filteredAlphabetLanguages = computed(() => {
 });
 
 // 字母分组的键列表（用于v-for渲染），按字母顺序排序
-const alphabetLetters = computed(() =>
-  Object.keys(filteredAlphabetLanguages.value).sort()
-);
+const alphabetLetters = computed(() => Object.keys(filteredAlphabetLanguages.value).sort());
 
 // 是否有匹配的语言
 const hasAnyResults = computed(

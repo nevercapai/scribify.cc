@@ -1,6 +1,6 @@
 <template>
   <client-only>
-    <div class="flex h-full min-h-[80vh] w-full flex-col bg-[#F9FAFC]" id="transDetail_lgCdiwM">
+    <div class="flex h-full min-h-[80vh] w-full flex-col bg-[var(--light-gray)]" id="transDetail_lgCdiwM">
       <div
         @click="handleSign"
         class="mx-auto my-6 flex h-11 w-[13.75rem] cursor-pointer items-center justify-center rounded-[0.625rem] bg-[#6367F1] text-lg font-medium text-white md:my-8 md:w-[26.875rem] md:hover:opacity-80"
@@ -95,8 +95,7 @@ const getTranscriptInfo = async (fileId) => {
   loadingInstance = ElLoading.service({
     fullscreen: false,
     target: "#transDetail_lgCdiwM",
-    customClass: "cus-loading-lgCdiwM",
-    background: "rgba(255,255,255,1)"
+    customClass: "cus-loading-lgCdiwM"
   });
   try {
     const { transcriptApi } = await import("~/api/transcript");
@@ -136,8 +135,7 @@ const getOtherLangOfTranscript = async (fileId, taskId, targetLang, langName, or
   loadingInstance = ElLoading.service({
     fullscreen: false,
     target: "#transDetail_lgCdiwM",
-    customClass: "cus-loading-lgCdiwM",
-    background: "rgba(255,255,255,1)"
+    customClass: "cus-loading-lgCdiwM"
   });
   try {
     const { transcriptApi } = await import("~/api/transcript");
@@ -446,5 +444,6 @@ const transcribeNewFilesHandle = () => {
 <style lang="scss">
 .cus-loading-lgCdiwM {
   --el-color-primary: theme("colors.mainColor.900");
+  @apply rounded-2xl bg-[var(--light-gray)];
 }
 </style>

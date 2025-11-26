@@ -310,7 +310,7 @@
             :min-item-size="56"
             keyField="pid"
             skipHover
-            class="transcript-container flex flex-1 overflow-y-auto overscroll-y-none"
+            class="transcript-container flex flex-1 overflow-y-auto"
             @scroll-end="handleScrollEnd"
           >
             <template #default="{ item, index, active }">

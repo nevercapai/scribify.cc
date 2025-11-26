@@ -30,7 +30,6 @@
       ref="langChooseV1Ref"
       v-model="langIdValue"
       :recentLanguageKeys="recentLanguageKeys"
-      :isScroll="false"
       @choose="handleTranslateLangChoose"
     ></lang-choose-v1>
   </el-popover>
@@ -63,7 +62,7 @@ const langIdValue = computed({
 // 弹出语言选择框时，滚动到已选择的语言
 const handleLangPopShow = () => {
   setTimeout(() => {
-    langChooseV1Ref.value?.scrollToSelectedLanguage();
+    langChooseV1Ref.value?.scrollToSelectedLanguage({ container: "nearest" });
   }, 50);
 };
 const handleTranslateLangChoose = (data) => {

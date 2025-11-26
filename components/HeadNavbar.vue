@@ -260,10 +260,10 @@ const menuList = computed(() => [
     key: "/resources",
     children: [
       {
-        name: "Transcription",
+        name: t("HeadNavbar.Transcription"),
         children: [
           {
-            name: "video transcription",
+            name: t("HeadNavbar.VideoTranscription"),
             link: "/resources/video-transcription"
           }
         ]

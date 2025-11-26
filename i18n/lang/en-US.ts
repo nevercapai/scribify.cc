@@ -655,7 +655,9 @@ let message = {
     YouTubetoMP4: "YouTube to MP4",
     YouTubetoMP3: "YouTube to MP3",
     Blog: "Blog",
-    StartFreeTrial: "Try It Free"
+    StartFreeTrial: "Try It Free",
+    Transcription: "Transcription",
+    VideoTranscription: "Video Transcription"
   },
   Footer: {
     des: "The world's first truly unlimited AI transcription service. No caps, no limits, just freedom to create.",
@@ -673,7 +675,7 @@ let message = {
       "Business Teams",
       "Educators"
     ],
-    resourcesMenus: ["YouTube to MP4", "YouTube to MP3"],
+    resourcesMenus: ["YouTube to MP4", "YouTube to MP3", "Video Transcription"],
     companyMenus: ["About", "Pricing", "Privacy Policy", "Terms of Service"]
   },
   Index: {

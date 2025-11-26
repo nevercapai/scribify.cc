@@ -160,6 +160,10 @@ let resourcesMenus = ref([
   {
     name: "YouTube to MP3",
     link: "/resources/youtube-to-mp3"
+  },
+  {
+    name: "video transcription",
+    link: "/resources/video-transcription"
   }
 ]);
 let companyMenus = ref([

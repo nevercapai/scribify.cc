@@ -15,6 +15,23 @@ let message = {
     dialogLabel: "Folder name",
     recently: "Recent Files",
     loading: "Loading",
+    export: {
+      export: "Export",
+      title: "We're generating your export",
+      title2: "Your file is ready",
+      singleLoadingContent: "1 file is being compressed.",
+      singleSuccessContent: "1 file has been compressed..",
+      loadingContent: "{num} files are being compressed.",
+      successContent: "{num} files have been compressed.",
+      cancel: "Cancel the export",
+      error: "Export Error",
+      dialog: {
+        title: "Warning",
+        content: "Cancel the export?",
+        cancel: "Cancel Export",
+        continue: "Continue Export"
+      }
+    },
     subscriptionModal: {
       left: {
         title: "Get Pro Plan to unlock more",
@@ -2607,7 +2624,7 @@ let message = {
           title: "Video Transcription: AI-Powered & Accurate",
           des: "Transcribe videos to text with high accuracy and support for 100+ languages. Effortlessly convert any file or link into editable text and export in multiple formats, from short clips to lengthy videos.",
           feature_1: "Supports 12 Formats",
-          feature_2: "Supports 100+ Langua",
+          feature_2: "Supports 100+ Languages",
           feature_3: "Export in 6 Formats"
         },
         threeStep: {
@@ -2680,26 +2697,31 @@ let message = {
           people_3_job: "PhD Candidate"
         },
         faq: {
-          title: 'Key Questions about',
-          titleHighlight: 'Video Transcription',
-          question_1: 'What video formats does NeverCap support?',
-          answer_1: 'We support common video formats including MP4, MOV, WMV, MPEG, WebM, and MKV.',
-          question_2: 'How do I transcribe a video link, and which platforms are supported?',
-          answer_2: 'Simply copy and paste the video URL, then click "Transcribe." We support links from YouTube, Facebook, X, Dropbox, Google Drive, Vimeo, TikTok, Instagram, and more.',
-          question_3: 'Which languages are supported for video transcription?',
-          answer_3: 'NeverCap supports 100+ languages, including English, Spanish, Mandarin, French, German, Japanese, Korean, Portuguese, Russian, Italian, Dutch, and Arabic.',
-          question_4: 'What is the maximum duration and file size for transcription?',
-          answer_4: 'The maximum file size is 5GB, and the maximum duration is 10 hours per video.',
-          question_5: 'How many video files can I upload at once?',
-          answer_5: 'NeverCap allows up to 50 files to be processed simultaneously.',
-          question_6: 'How fast is the transcription process? Do I need to wait a long time?',
-          answer_6: 'No long waits required. In our tests, a 1-hour video typically takes around 3 minutes to transcribe.',
+          title: "Key Questions about",
+          titleHighlight: "Video Transcription",
+          question_1: "What video formats does NeverCap support?",
+          answer_1: "We support common video formats including MP4, MOV, WMV, MPEG, WebM, and MKV.",
+          question_2: "How do I transcribe a video link, and which platforms are supported?",
+          answer_2:
+            'Simply copy and paste the video URL, then click "Transcribe." We support links from YouTube, Facebook, X, Dropbox, Google Drive, Vimeo, TikTok, Instagram, and more.',
+          question_3: "Which languages are supported for video transcription?",
+          answer_3:
+            "NeverCap supports 100+ languages, including English, Spanish, Mandarin, French, German, Japanese, Korean, Portuguese, Russian, Italian, Dutch, and Arabic.",
+          question_4: "What is the maximum duration and file size for transcription?",
+          answer_4: "The maximum file size is 5GB, and the maximum duration is 10 hours per video.",
+          question_5: "How many video files can I upload at once?",
+          answer_5: "NeverCap allows up to 50 files to be processed simultaneously.",
+          question_6: "How fast is the transcription process? Do I need to wait a long time?",
+          answer_6:
+            "No long waits required. In our tests, a 1-hour video typically takes around 3 minutes to transcribe.",
           question_7: `What is the accuracy of NeverCap's transcription?`,
-          answer_7: 'We deliver over 95% accuracy across all languages, and over 96% for key languages like English, Spanish, Mandarin, and French.',
-          question_8: 'Can the transcribed text be translated into other languages?',
-          answer_8: 'Yes. Once transcription is complete, you can translate the text into 249 supported languages.',
-          question_9: 'Can I edit, export, or share the transcribed text?',
-          answer_9: 'Absolutely. Transcribed text can be edited in real-time. Export options include PDF, DOCX, TXT, TTV, CSV, and SRT formats. You can also generate a shareable link to the transcript.',
+          answer_7:
+            "We deliver over 95% accuracy across all languages, and over 96% for key languages like English, Spanish, Mandarin, and French.",
+          question_8: "Can the transcribed text be translated into other languages?",
+          answer_8: "Yes. Once transcription is complete, you can translate the text into 249 supported languages.",
+          question_9: "Can I edit, export, or share the transcribed text?",
+          answer_9:
+            "Absolutely. Transcribed text can be edited in real-time. Export options include PDF, DOCX, TXT, TTV, CSV, and SRT formats. You can also generate a shareable link to the transcript."
         },
         explore: {
           title: "Explore further",

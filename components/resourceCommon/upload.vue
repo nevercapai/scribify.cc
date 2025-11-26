@@ -212,7 +212,13 @@ const genParams = () => {
   return null;
 };
 const registerDialogRef = useTemplateRef("registerDialogRef");
+const { userInfo } = storeToRefs(useUserStore());
+const { $mitt } = useNuxtApp();
+
 const handleTranscribe = async () => {
+  if (userInfo.value?.userInfoVO) {
+    return $mitt.emit("goToEvent", { path: "/" });
+  }
   if (disabled.value) return;
   if (transcribing.value) return;
   transcribing.value = true;

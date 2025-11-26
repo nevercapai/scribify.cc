@@ -1,6 +1,6 @@
 <template>
   <client-only>
-    <div class="h-min-[80vh] flex h-full w-full flex-col bg-[#F9FAFC]" id="transDetail_lgCdiwM">
+    <div class="flex h-full min-h-[80vh] w-full flex-col bg-[#F9FAFC]" id="transDetail_lgCdiwM">
       <div
         @click="handleSign"
         class="mx-auto my-6 flex h-11 w-[13.75rem] cursor-pointer items-center justify-center rounded-[0.625rem] bg-[#6367F1] text-lg font-medium text-white md:my-8 md:w-[26.875rem] md:hover:opacity-80"

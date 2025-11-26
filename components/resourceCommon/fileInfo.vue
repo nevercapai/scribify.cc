@@ -90,6 +90,7 @@
         <div class="flex">
           <span
             v-if="fileInfo.isGooglePrivate"
+            @click="howToSet"
             class="op cursor-pointer text-mainColor-900 underline-offset-4 md:hover:font-bold md:hover:underline"
           >
             ({{ t("FileUploadAndRecording.upload.howToSetup") }})
@@ -97,6 +98,7 @@
         </div>
       </div>
     </div>
+    <upload-set-public-video v-model:visible="howToSetVisible" />
   </div>
 </template>
 
@@ -114,6 +116,10 @@ const props = defineProps({
     required: true
   }
 });
+const howToSetVisible = ref(false);
+const howToSet = () => {
+  howToSetVisible.value = true;
+};
 const handleRemove = () => {
   emit("handleRemove", props.type);
 };

@@ -42,7 +42,7 @@
                   <router-link
                     v-for="(child, ind) in menu.children"
                     :to="$localePath(child.link)"
-                    class="underline"
+                    class="menu-child underline"
                     :class="index === acitveId && ind === acitveIdLevel2 ? 'menu-acitve' : ''"
                   >
                     <template v-if="child.children.length">
@@ -565,8 +565,10 @@ nav {
     background: transparent;
   }
   a:hover {
-    background-color: var(--light-gray);
-    color: var(--primary) !important;
+    &:not(:has(.leaf-menu)) {
+      background-color: var(--light-gray);
+      color: var(--primary) !important;
+    }
   }
 }
 

@@ -896,6 +896,7 @@ const {
 } = useTranscriptEditV1(transcriptData, dynamicScroller, updateSubtitle, emit, props);
 const registerDialogRef = useTemplateRef("registerDialogRef");
 const handleEditRightTranscript = () => {
+  registerDialogRef?.value?.setType(0);
   registerDialogRef?.value?.show();
 };
 // 文件信息相关

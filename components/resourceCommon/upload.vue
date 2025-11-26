@@ -216,9 +216,6 @@ const { userInfo } = storeToRefs(useUserStore());
 const { $mitt } = useNuxtApp();
 
 const handleTranscribe = async () => {
-  if (userInfo.value?.userInfoVO) {
-    return $mitt.emit("goToEvent", { path: "/" });
-  }
   if (disabled.value) return;
   if (transcribing.value) return;
   transcribing.value = true;
@@ -252,6 +249,9 @@ const handleTranscribe = async () => {
       fileIds,
       diarizeEnabled: true
     });
+    if (userInfo.value?.userInfoVO) {
+      return $mitt.emit("goToEvent", { path: "/" });
+    }
     taskId.value = res[0];
     fileId.value = fileIds[0];
   } catch (e) {

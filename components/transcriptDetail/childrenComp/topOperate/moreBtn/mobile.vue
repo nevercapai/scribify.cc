@@ -6,15 +6,16 @@
     <!--  !fixed 解决苹果手机首次打开闪烁问题  -->
     <el-drawer
       size="auto"
-      class="!fixed rounded-t-xl"
+      class="more-drawer-jjeWcKYfy !fixed rounded-t-xl"
       :with-header="false"
       :show-close="false"
       :lock-scroll="true"
       v-model="visible"
+      destroy-on-close
       direction="btt"
-      body-class="!px-4 !py-0 bg-[#F5F5F5] more-btn-body-jjeWcKYfy"
+      body-class="!px-4 !pt-0 pb-4 bg-[#F5F5F5] more-btn-body-jjeWcKYfy"
     >
-      <div class="flex flex-col text-black">
+      <div class="more-wrap flex flex-col text-black">
         <div class="header-wrap flex items-center justify-between py-5">
           <span class="title text-lg font-medium"> {{ t("TranscriptionPage.timestampMore") }}</span>
           <span class="iconfont icon-shanchu" @click="hide(true)"></span>
@@ -149,5 +150,11 @@ const handleShare = () => {
 .more-btn-body-jjeWcKYfy {
   --el-border-radius-base: 0.5rem;
   --el-color-primary: theme("colors.mainColor.900");
+}
+.el-popup-parent--hidden:has(.more-drawer-jjeWcKYfy .more-wrap) {
+  @media (max-width: 767px) {
+    overflow: hidden;
+    width: auto !important;
+  }
 }
 </style>

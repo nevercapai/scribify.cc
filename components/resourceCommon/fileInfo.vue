@@ -98,7 +98,9 @@
         </div>
       </div>
     </div>
-    <upload-set-public-video v-model:visible="howToSetVisible" />
+    <client-only>
+      <upload-set-public-video v-model:visible="howToSetVisible" />
+    </client-only>
   </div>
 </template>
 

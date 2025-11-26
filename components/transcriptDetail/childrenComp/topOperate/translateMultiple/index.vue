@@ -13,11 +13,7 @@
       <el-button text :bg="Boolean(langIdValue)" v-if="isDesktop">
         <span class="iconfont icon-fanyi me-2 text-base text-black"></span>
         <div class="max-w-20 truncate leading-4 text-black">
-          {{
-            !langIdValue
-              ? t("TranscriptionPage.translate")
-              : t("TranscriptionPage.langChooseV1." + langIdValue)
-          }}
+          {{ !langIdValue ? t("TranscriptionPage.translate") : t("TranscriptionPage.langChooseV1." + langIdValue) }}
         </div>
         <el-icon class="el-icon--right !ms-2">
           <arrow-down />
@@ -34,6 +30,7 @@
       ref="langChooseV1Ref"
       v-model="langIdValue"
       :recentLanguageKeys="recentLanguageKeys"
+      :isScroll="false"
       @choose="handleTranslateLangChoose"
     ></lang-choose-v1>
   </el-popover>

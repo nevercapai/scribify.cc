@@ -271,7 +271,7 @@
             }
           }"
           :class="[
-            !displayVideo ? 'pe-10 ps-4 pt-4' : '',
+            !displayVideo ? 'pe-10 ps-4' : '',
             langId ? 'show-lang-box' : '',
             isShowSpeaker ? 'show-speaker-box' : '',
             !isDesktop ? 'is-mobile !px-0' : '',
@@ -286,7 +286,7 @@
             :class="[
               !isDesktop ? 'flex h-[1.75rem] w-full justify-end' : 'absolute top-4',
               transcriptDirection === 'rtl' ? 'left-16' : 'right-16',
-              'z-20'
+              'z-[1000]'
             ]"
             :title="t('TranscriptionPage.closeTrans')"
           >

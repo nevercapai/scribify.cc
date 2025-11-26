@@ -92,7 +92,9 @@
           : t("FileUploadAndRecording.upload.guest.transcribe")
       }}
     </el-button>
-    <register-dialog ref="registerDialogRef"></register-dialog>
+    <client-only>
+      <register-dialog ref="registerDialogRef"></register-dialog>
+    </client-only>
   </div>
   <transcribing
     v-else

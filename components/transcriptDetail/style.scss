@@ -320,7 +320,7 @@
         @apply flex flex-1 items-center;
       }
       .xg-center-grid .xgplayer-play {
-        @apply absolute left-[50%] top-[1.5rem] z-50 !me-0 translate-x-[-100%];
+        @apply absolute left-[50%] top-[1.5rem] z-[600] !me-0 translate-x-[-100%];
         .xg-tips {
           display: none;
         }

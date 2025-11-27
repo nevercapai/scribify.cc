@@ -101,8 +101,8 @@ const $i = useI18nModule("Resources.Transcription.videoTranscription.threeStep")
 .workflow-step::after {
   content: url("/assets/images/resources/Transcription/videoTranscription/threeStep_arrow.svg");
   position: absolute;
-  right: -74px;
   top: 50%;
+  @apply ltr:right-[-74px] rtl:left-[-74px] rtl:rotate-180;
 }
 
 .workflow-step:last-child::after {

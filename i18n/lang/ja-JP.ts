@@ -519,27 +519,27 @@ let message = {
     showMoreTimestamp: "詳細なタイムスタンプを表示",
     selectMoreTimestamp: "詳細タイムスタンプ",
     hideTimestamp: "タイムスタンプを非表示",
-    showSpeaker: "スピーカー",
+    showSpeaker: "話者",
     timestamp: "タイムスタンプ",
-    timestampMore: "もっと見る",
+    timestampMore: "詳細",
     share: "共有",
     shared: "共有済み",
     export: "エクスポート",
-    speaker: "Speaker_{ id }",
-    unassignSpeaker: "スピーカーを割り当て解除",
+    speaker: "話者_{ id }",
+    unassignSpeaker: "話者の割り当て解除",
     play: "再生",
     save: "保存",
     undo: "元に戻す",
-    redo: "やり直し",
-    confirm: "確定",
+    redo: "やり直す",
+    confirm: "確認",
     cancel: "キャンセル",
     addNew: "新規追加",
-    createANewSpeaker: "新しいスピーカーを作成",
-    speakerName: "スピーカー名",
-    addSpeaker: "スピーカーを追加",
-    applyToAllMatchingSpeakers: "一致する全てのスピーカーに適用",
+    createANewSpeaker: "新しい話者を作成",
+    speakerName: "話者名",
+    addSpeaker: "話者を追加",
+    applyToAllMatchingSpeakers: "一致する話者すべてに適用",
     applyToCurrentParagraph: "現在の段落に適用",
-    speakerDuplicate: "スピーカーは既に存在します。",
+    speakerDuplicate: "話者は既に存在します。",
     cancelTranslation: "翻訳をキャンセル",
     showVideo: "動画を表示",
     hideVideo: "動画を非表示",
@@ -551,16 +551,16 @@ let message = {
     copyFail: "コピー失敗",
     closeTrans: "翻訳をキャンセル",
     upgradeBtn: "今すぐアップグレードしてロック解除",
-    upgradeTip30: "完全な文字起こしをアンロック",
-    upgradeTipMore: "朗報！ファイル全体が文字起こしされました。",
+    upgradeTip30: "完全な文字起こしをロック解除",
+    upgradeTipMore: "朗報です！ファイル全体が文字起こしされました。",
     errorTips: "問題が発生しました。",
     copiedLink: "リンクをコピーしました",
     copyGotIt: "了解",
-    upgradeMinPreview: "30分プレビュー以降を閲覧するにはアップグレードしてください。",
-    silentTip: "ファイルに音声がありません。確認してもう一度試してください。",
-    outLimit: "ファイルの長さ制限超過",
-    outLimitTip1: "無料アカウントは最大30分のファイルに対応しています。",
-    outLimitTip2: "今すぐ登録してアップグレードし、完全な文字起こしテキストをアンロックしましょう！"
+    upgradeMinPreview: "30分のプレビューを超えて表示するにはアップグレードしてください。",
+    silentTip: "ファイルに音声が含まれていません。確認して再度お試しください。",
+    outLimit: "ファイルの長さ制限を超えています",
+    outLimitTip1: "無料アカウントは最大30分のファイルをサポートしています。",
+    outLimitTip2: "今すぐ登録してアップグレードし、完全な文字起こしテキストをロック解除しましょう！"
   },
   // 登录、注册、修改密码
   IdentityInfoManage: {
@@ -1224,8 +1224,8 @@ let message = {
     StartFreeTrial: "無料で試す",
     Blog: "ブログ",
     YouTubetoMP3: "YouTubeからMP3へ",
-    Transcription: "Transcription",
-    VideoTranscription: "Video Transcription"
+    Transcription: "文字起こし",
+    VideoTranscription: "動画文字起こし"
   },
   Footer: {
     des: "世界初の真に無制限なAI文字起こしサービス。上限なし、制限なし、ただ創造の自由を。",
@@ -1244,7 +1244,7 @@ let message = {
     ],
     companyMenus: ["会社概要", "料金", "プライバシー", "利用規約"],
     Resources: "リソース",
-    resourcesMenus: ["YouTubeからMP4へ", "YouTubeからMP3へ", "Video Transcription"]
+    resourcesMenus: ["YouTubeからMP4へ", "YouTubeからMP3へ", "動画文字起こし"]
   },
   Index: {
     Hero: {
@@ -3490,154 +3490,140 @@ let message = {
     Transcription: {
       videoTranscription: {
         hero: {
-          title: "Video Transcription: AI-Powered & Accurate",
-          des: "Transcribe videos to text with high accuracy and support for 100+ languages. Effortlessly convert any file or link into editable text and export in multiple formats, from short clips to lengthy videos.",
-          feature_1: "Supports 12 Formats",
-          feature_2: "Supports 100+ Languages",
-          feature_3: "Export in 6 Formats"
+          title: "動画文字起こし：AI駆動＆高精度",
+          des: "100言語以上対応の高精度動画文字起こし。動画ファイルやリンクを簡単に編集可能なテキストに変換し、複数形式で出力。短いクリップから長尺動画まで。",
+          feature_1: "12形式対応",
+          feature_2: "100+言語対応",
+          feature_3: "6形式で出力"
         },
         threeStep: {
-          title: "How to",
-          titleHighlight: "Convert Video to Text with NeverCap",
-          step_1_title: "Upload or paste",
-          step_1_des:
-            "We support video formats like MP4, MOV, WMV, and MPEG, as well as links from YouTube, TikTok, X, Facebook, and other platforms.",
-          step_2_title: "Transcribe video to text",
-          step_2_des:
-            'Click the "Transcribe" button and wait for the process to complete. A 1-hour video typically takes just 1–2 minutes to transcribe.',
-          step_3_title: "Export or share",
-          step_3_des:
-            "Edit your text directly online, then export it in multiple formats such as TXT, PDF, DOCX, SRT, CSV, or VTT. You can also generate a shareable link to your transcript."
+          title: "使い方",
+          titleHighlight: "NeverCapで動画をテキスト化",
+          step_1_title: "アップロードまたは貼り付け",
+          step_1_des: "MP4、MOV、WMV、MPEG形式やYouTube、TikTok、X、Facebookなどのリンクに対応",
+          step_2_title: "動画をテキスト化",
+          step_2_des: "「文字起こし」ボタンをクリックし完了を待つ。1時間の動画なら1-2分で処理",
+          step_3_title: "出力または共有",
+          step_3_des: "オンラインで直接編集後、TXT、PDF、DOCX、SRT、CSV、VTT形式で出力。共有可能なリンクも生成可"
         },
         whyTran: {
-          title: "Why",
-          titleHighlight: "Transcribe Videos to Text",
-          des: "It’s incredibly valuable across scenarios like learning, content creation, research, and work. Here’s why:",
-          reason_1_title: "Makes note-taking and review easier.",
+          title: "特長",
+          titleHighlight: "動画テキスト変換",
+          des: "学習、コンテンツ制作、研究、業務など様々な場面で価値を発揮",
+          reason_1_title: "メモ作成・復習が容易に",
           reason_1_des:
-            "Students, researchers, and creators often need to extract information from videos. Transcription makes it simple to take study notes, organize research interviews, draft scripts or articles, and translate content more accurately and cost-effectively.",
-          reason_2_title: "Enhances searchability.",
-          reason_2_des:
-            "With text, you can quickly search for keywords and locate important sections—no more rewinding or fast-forwarding through the video.",
-          reason_3_title: "Saves time and boosts efficiency.",
-          reason_3_des:
-            "Reading text is much faster than watching a video, especially for content like lectures, interviews, or meetings. Text allows you to skim or jump directly to key points.",
-          reason_4_title: "Improves accessibility.",
-          reason_4_des:
-            "It provides equal access to information for people who are deaf or hard of hearing, non-native speakers, or those with hearing difficulties. It also helps platforms meet compliance standards like WCAG.",
-          reason_5_title: "Enables content repurposing.",
-          reason_5_des:
-            "Creators often use transcriptions to quickly generate blog posts, social media content, summaries, or video captions—dramatically speeding up the creative process without manual typing.",
-          reason_6_title: "Supports better understanding, retention, and archiving.",
-          reason_6_des:
-            "Combining visual and text-based information enhances comprehension and memory, while text files are easy to store, ideal for building knowledge bases, document libraries, or archival systems."
+            "学生・研究者・制作者向け。研究ノート取り、インタビュー整理、脚本/記事作成、正確で低コストな翻訳が可能",
+          reason_2_title: "検索性向上",
+          reason_2_des: "キーワード検索で重要な箇所を即座に特定。巻き戻し不要",
+          reason_3_title: "時間節約＆効率化",
+          reason_3_des: "講義・インタビュー・会議などはテキストの方が早く読め、要点にすぐアクセス可能",
+          reason_4_title: "アクセシビリティ向上",
+          reason_4_des: "聴覚障害者、非母語話者、難聴者にも公平な情報アクセスを提供。WCAGなどの基準対応にも",
+          reason_5_title: "コンテンツ再利用可能",
+          reason_5_des: "ブログ記事、SNS投稿、要約、字幕作成など創作プロセスを大幅に加速",
+          reason_6_title: "理解・記憶・保管の強化",
+          reason_6_des: "視覚とテキスト情報の組み合わせで理解度向上。テキストファイルは知識ベース構築に最適"
         },
         whyChoose: {
-          title: "Why Choose",
-          titleHighlight: "Our Video Transcription Tool",
-          reason_1_title: "Transcribe & Translate Globally",
-          reason_1_des:
-            "Supports transcription in 100+ languages and translation into 249 others, breaking down any language barrier.",
-          reason_2_title: "Universal Format Compatibility",
-          reason_2_des:
-            "Works seamlessly with all common video formats (MP4, MOV, MKV, etc.) and platforms like YouTube & TikTok.",
-          reason_3_title: "Truly Unlimited Transcriptions",
-          reason_3_des:
-            "Transcribe 100 or 1,000 videos—your flat rate stays the same. No hidden limits, no surprise costs.",
-          reason_4_title: "Accuracy You Can Trust",
-          reason_4_des:
-            "Benefit from over 95% overall accuracy, with key languages like English and Spanish reaching over 96%.",
-          reason_5_title: "Enterprise-Grade Security",
-          reason_5_des:
-            "Your data is protected by industry-leading encryption and privacy protocols. We treat your confidentiality with the utmost seriousness.",
-          reason_6_title: "Word-Level Timestamps",
-          reason_6_des:
-            "Pinpoint any moment in your video instantly. Click on a word in the transcript to jump directly to the exact time in the original media."
+          title: "選ばれる理由",
+          titleHighlight: "当社の動画文字起こしツール",
+          reason_1_title: "グローバルな文字起こし＆翻訳",
+          reason_1_des: "100+言語の文字起こしと249言語への翻訳対応。言語障壁を解消",
+          reason_2_title: "万能フォーマット互換性",
+          reason_2_des: "MP4、MOV、MKV等主要動画形式とYouTube＆TikTokなど主要プラットフォーム全てに対応",
+          reason_3_title: "真の無制限変換",
+          reason_3_des: "100本でも1000本でも定額制。隠れた制限や追加費用なし",
+          reason_4_title: "信頼の高精度",
+          reason_4_des: "全体95%以上の精度。英語・スペイン語など主要言語は96%超",
+          reason_5_title: "企業級セキュリティ",
+          reason_5_des: "業界トップクラスの暗号化とプライバシープロトコルでデータ保護",
+          reason_6_title: "単語レベルタイムスタンプ",
+          reason_6_des: "トランスクリプトの単語をクリックして該当箇所に即時ジャンプ"
         },
         reviews: {
-          title: "Reviews from",
-          titleHighlight: "Our Users",
-          des: "簡単な文字起こしで数千人に選ばれる理由",
+          title: "ユーザーの声",
+          titleHighlight: "私たちのユーザー",
+          des: "簡単な文字起こしを数千人が選ぶ理由を見る",
           people_1_content:
-            "NeverCapの動画文字起こしは本当に素晴らしい！十数種類のツールを試しましたが、本当に無制限なのはこれが初めてです。使用制限を気にせず、いくらでも文字起こしできます。",
+            "NeverCapの動画文字起こしは素晴らしい！数多くの類似ツールを試しましたが、本当に無制限に使えるのは初めてです。使用制限を気にせず好きなだけ文字起こしできます。",
           people_1_job: "コンテンツクリエイター",
           people_2_content:
-            "手頃な価格で、大容量ファイルも簡単に処理、数十ファイルを同時に処理可能。NeverCapの動画文字起こしは私のほぼすべての悩みを解決してくれました。",
-          people_2_job: "233",
+            "手頃な価格で大容量ファイルも簡単処理、数十ファイルを同時に処理可能。NeverCapの動画文字起こしはほぼすべての悩みを解決します。",
+          people_2_job: "研究者",
           people_3_content:
-            "正確で速く、多数の言語に対応。特に長い動画の処理が秀逸です。NeverCapは必須ツールになり、クラスメート全員に薦めました。",
-          people_3_job: "233"
+            "正確で高速、多くの言語対応。長時間動画の処理が特に秀逸。NeverCapは必須ツールになり、クラスメート全員に薦めました。",
+          people_3_job: "博士課程学生"
         },
         faq: {
-          title: "233",
+          title: "よくある質問",
           titleHighlight: "動画文字起こしについて",
-          question_1: "NeverCapがサポートする動画形式は？",
+          question_1: "NeverCapが対応している動画形式は？",
           answer_1: "MP4、MOV、WMV、MPEG、WebM、MKVなどの一般的な動画形式に対応しています。",
           question_2: "動画リンクの文字起こし方法と対応プラットフォームは？",
           answer_2:
-            "動画URLをコピーして貼り付け、「文字起こし」をクリックするだけ。YouTube、Facebook、X、Dropbox、Google Drive、Vimeo、TikTok、Instagramなどをサポート。",
-          question_3: "動画文字起こしで対応している言語は？",
+            '動画URLをコピー＆ペーストし、"文字起こし"をクリック。YouTube、Facebook、X、Dropbox、Google Drive、Vimeo、TikTok、Instagramなどに対応。',
+          question_3: "動画文字起こしに対応している言語は？",
           answer_3:
-            "NeverCapは英語、スペイン語、中国語、フランス語、ドイツ語、日本語、韓国語、ポルトガル語、ロシア語、イタリア語、オランダ語、アラビア語など100言語以上に対応。",
-          question_4: "文字起こしの最大時間とファイルサイズは？",
-          answer_4: "最大ファイルサイズは5GB、1動画あたりの最大時間は10時間です。",
+            "NeverCapは英語、スペイン語、中国語、フランス語、ドイツ語、日本語、韓国語、ポルトガル語、ロシア語、イタリア語、オランダ語、アラビア語など100以上の言語に対応。",
+          question_4: "文字起こし可能な最大時間とファイルサイズは？",
+          answer_4: "最大ファイルサイズ5GB、動画あたり最大10時間まで。",
           question_5: "一度にアップロードできる動画ファイル数は？",
-          answer_5: "NeverCapでは最大50ファイルを同時に処理できます。",
-          question_6: "文字起こしの速度は？長時間待たされますか？",
-          answer_6: "長時間の待機は不要です。テストでは1時間の動画で約3分かかります。",
+          answer_5: "NeverCapでは最大50ファイルを同時処理可能です。",
+          question_6: "文字起こしの速度は？長時間待つ必要がありますか？",
+          answer_6: "長時間待機不要。1時間の動画でも約3分で文字起こし可能。",
           question_7: "NeverCapの文字起こし精度は？",
-          answer_7: "全言語で95%以上、英語・スペイン語・中国語・フランス語など主要言語では96%以上の精度です。",
-          question_8: "文字起こししたテキストを他言語に翻訳できますか？",
-          answer_8: "はい。文字起こし完了後、249の対応言語に翻訳可能です。",
-          question_9: "文字起こしテキストは編集・エクスポート・共有できますか？",
+          answer_7: "全ての言語で95%以上、英語・スペイン語・中国語・フランス語などの主要言語では96%以上の精度を実現。",
+          question_8: "文字起こししたテキストを他の言語に翻訳できますか？",
+          answer_8: "はい。文字起こし完了後、249の対応言語への翻訳が可能です。",
+          question_9: "文字起こしテキストの編集・エクスポート・共有は可能ですか？",
           answer_9:
-            "もちろん。テキストはリアルタイム編集可能。PDF、DOCX、TXT、TTV、CSV、SRT形式でエクスポートできます。共有可能なリンクも生成可能。"
+            "もちろん可能。リアルタイム編集可。PDF、DOCX、TXT、TTV、CSV、SRT形式でエクスポート可能。共有用リンクも生成できます。"
         },
         explore: {
-          title: "233",
-          transcribeTitle: "233",
-          transcribe_1: "233",
-          transcribe_2: "233",
-          transcribe_3: "233",
-          transcribe_4: "233",
-          transcribe_5: "233",
-          transcribe_6: "233",
-          transcribe_7: "233",
-          transcribe_8: "37 MOVからテキスト",
-          transcribe_9: "38 MPEGからテキスト",
-          transcribe_10: "39 OGGからテキスト",
-          transcribe_11: "40 TSからテキスト",
-          transcribe_12: "41 WAVからテキスト",
-          transcribe_13: "42 WEBMからテキスト",
-          otherToolsTitle: "43 その他の関連ツール",
-          otherTools_1: "44 AIノートテイカー",
-          otherTools_2: "45 動画に字幕を追加",
-          otherTools_3: "233",
-          otherTools_4: "233",
-          otherTools_5: "48 字幕ジェネレーター",
-          otherTools_6: "233",
-          otherTools_7: "233"
+          title: "さらに詳しく",
+          transcribeTitle: "テキスト変換ツール",
+          transcribe_1: "音声からテキスト",
+          transcribe_2: "音声認識",
+          transcribe_3: "MP3からテキスト",
+          transcribe_4: "MP4からテキスト",
+          transcribe_5: "AACからテキスト",
+          transcribe_6: "AMRからテキスト",
+          transcribe_7: "M4Aからテキスト",
+          transcribe_8: "MOVからテキスト",
+          transcribe_9: "MPEGからテキスト",
+          transcribe_10: "OGGからテキスト",
+          transcribe_11: "TSからテキスト",
+          transcribe_12: "WAVからテキスト",
+          transcribe_13: "WEBMからテキスト",
+          otherToolsTitle: "その他の関連ツール",
+          otherTools_1: "AIノートテイカー",
+          otherTools_2: "動画に字幕を追加",
+          otherTools_3: "音声翻訳",
+          otherTools_4: "動画翻訳",
+          otherTools_5: "字幕ジェネレーター",
+          otherTools_6: "動画要約ツール",
+          otherTools_7: "動画コンバーター"
         }
       }
     },
     Upload: {
       uploadFile: "ファイルをアップロード",
       pasteLink: "リンクを貼り付け",
-      fileTip: "動画の文字起こしを瞬時に取得",
+      fileTip: "動画の文字起こしを秒速で取得",
       linkTitle: "リンク",
-      linkTip: "開始するには任意のプラットフォームからリンクを貼り付け",
-      transcribeProgress: "文字起こし処理中...",
+      linkTip: "開始するには任意のプラットフォームからリンクを貼り付けてください",
+      transcribeProgress: "文字起こし中...",
       transcribeFailed: "文字起こしに失敗しました...",
       retry: "再試行",
       search: "検索",
       tip1: "永続的に保存しますか？",
-      tip2: "無料登録",
-      tip3: "すべての文字起こしファイルを管理および編集",
+      tip2: "無料で登録",
+      tip3: "すべての文字起こしファイルを管理・編集できます",
       tip4: "永続的に",
       tip5: "保存",
       tip6: "しますか？",
-      tip7: "管理および編集するには",
-      tip8: "すべての文字起こしファイル"
+      tip7: "管理・編集が",
+      tip8: "可能になります"
     }
   },
   About: {
@@ -3967,9 +3953,9 @@ let message = {
   RegisterDialog: {
     transcribeNewFiles: "新しいファイルを文字起こし",
     signUpNow: "今すぐサインアップ",
-    stillExporting: "Still Exporting",
-    tip1: "Register for free to save and edit your files permanently!",
-    tip2: "Upgrade for unlimited transcription!"
+    stillExporting: "エクスポート中",
+    tip1: "無料登録でファイルを永久保存・編集！",
+    tip2: "無制限変換にアップグレード！"
   }
 };
 

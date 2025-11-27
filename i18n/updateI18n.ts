@@ -1,12 +1,6 @@
 #!/usr/bin/env ts-node
 
-import {
-  Project,
-  SyntaxKind,
-  ObjectLiteralExpression,
-  PropertyAssignment,
-  VariableDeclaration
-} from "ts-morph";
+import { Project, SyntaxKind, ObjectLiteralExpression, PropertyAssignment, VariableDeclaration } from "ts-morph";
 import path from "path";
 import fs from "fs";
 import axios from "axios"; // 需要安装: npm install axios
@@ -112,10 +106,7 @@ function getLanguageName(languageCode: string): string {
   return languageNames[languageCode] || languageCode;
 }
 
-async function translateBatchWithAI(
-  textArray: string[],
-  targetLanguage = "zh-CN"
-): Promise<string[]> {
+async function translateBatchWithAI(textArray: string[], targetLanguage = "zh-CN"): Promise<string[]> {
   const googleLangCode = getGoogleTranslateCode(targetLanguage);
   const targetLanguageName = getLanguageName(googleLangCode);
 
@@ -147,16 +138,14 @@ ${textArray.map((text, index) => `${index + 1}. ${text}`).join("\n")}
         content: prompt
       }
     ],
-    stream: false, // 不使用流式响应
+    stream: false // 不使用流式响应
   };
   const headers = {
     Authorization: `Bearer ${AI_CONFIG.apiKey}`,
     "Content-Type": "application/json"
   };
   try {
-    console.log(
-      `🤖 使用 AI 翻译 ${textArray.length} 个文本到 ${targetLanguageName}...`
-    );
+    console.log(`🤖 使用 AI 翻译 ${textArray.length} 个文本到 ${targetLanguageName}...`);
     console.log(textArray);
 
     const response = await fetch(AI_CONFIG.url, {
@@ -176,15 +165,10 @@ ${textArray.map((text, index) => `${index + 1}. ${text}`).join("\n")}
 
     console.log("AI翻译结果", translatedContent);
     // 解析 AI 返回的翻译结果
-    const translations = parseAITranslationResponse(
-      translatedContent,
-      textArray.length
-    );
+    const translations = parseAITranslationResponse(translatedContent, textArray.length);
 
     if (translations.length !== textArray.length) {
-      console.warn(
-        `⚠️  AI 翻译结果数量不匹配: 期望 ${textArray.length} 个，实际 ${translations.length} 个`
-      );
+      console.warn(`⚠️  AI 翻译结果数量不匹配: 期望 ${textArray.length} 个，实际 ${translations.length} 个`);
       // 重试
       return await translateBatchWithAI(textArray, targetLanguage);
       // 如果数量不匹配，补齐或截断
@@ -204,10 +188,7 @@ ${textArray.map((text, index) => `${index + 1}. ${text}`).join("\n")}
 }
 
 // 解析 AI 返回的翻译结果
-function parseAITranslationResponse(
-  content: string,
-  expectedCount: number
-): string[] {
+function parseAITranslationResponse(content: string, expectedCount: number): string[] {
   const lines = content
     .split("\n")
     .map((line) => line.trim())
@@ -221,9 +202,7 @@ function parseAITranslationResponse(
   if (numberedLines.length >= expectedCount) {
     // 按序号提取，保持位置关系
     for (let i = 1; i <= expectedCount; i++) {
-      const found = numberedLines.find((line) =>
-        line.startsWith(`${i}.`)
-      );
+      const found = numberedLines.find((line) => line.startsWith(`${i}.`));
 
       if (found) {
         const content = found.replace(/^\d+\.\s*/, "").trim();
@@ -275,14 +254,8 @@ function parseAITranslationResponse(
 }
 
 // 修改原来的 translateTexts 函数，增加 AI 翻译选项
-async function translateTexts(
-  texts: string[],
-  targetLanguage: string,
-  useAI: boolean = false
-): Promise<string[]> {
-  console.log(
-    `📝 正在翻译 ${texts.length} 个文本到 ${targetLanguage} (${useAI ? "AI" : "Google"})...`
-  );
+async function translateTexts(texts: string[], targetLanguage: string, useAI: boolean = false): Promise<string[]> {
+  console.log(`📝 正在翻译 ${texts.length} 个文本到 ${targetLanguage} (${useAI ? "AI" : "Google"})...`);
   if (texts.length === 0) {
     return [];
   }
@@ -305,14 +278,10 @@ async function translateTexts(
         ? await translateBatchWithAI(batch, targetLanguage)
         : await translateBatch(batch, targetLanguage);
 
-      const decodedResults = batchResults.map((text: any) =>
-        decodeApiResponseString(text)
-      );
+      const decodedResults = batchResults.map((text: any) => decodeApiResponseString(text));
 
       results.push(...decodedResults);
-      console.log(
-        `✅ 批次完成，已翻译 ${results.length}/${texts.length} 个文本`
-      );
+      console.log(`✅ 批次完成，已翻译 ${results.length}/${texts.length} 个文本`);
     }
     console.log(`🎉 翻译完成！总共处理了 ${results.length} 个文本`);
 
@@ -353,7 +322,7 @@ async function translateBatch(textArray: string[], targetLanguage = "zh-CN") {
       "x-goog-api-key": "AIzaSyATBXajvzQLTDHEQbcpq0Ihe0vWDHmO520",
       "content-type": "application/json+protobuf"
     },
-    data: data,
+    data: data
     // proxy: proxyConfig
   };
 
@@ -361,11 +330,11 @@ async function translateBatch(textArray: string[], targetLanguage = "zh-CN") {
 
   try {
     const response = await axios.request(config);
-    console.log(response.data[0])
+    console.log(response.data[0]);
     return response.data[0]; // 返回翻译结果数组
   } catch (error: any) {
     console.error("❌ 批量翻译错误:", error.message);
-    await new Promise(resolve => setTimeout(resolve, 8000));
+    await new Promise((resolve) => setTimeout(resolve, 8000));
     return translateBatch(textArray, targetLanguage);
   }
 }
@@ -399,11 +368,7 @@ function flattenObject(
             }
           });
         }
-      } else if (
-        typeof value === "object" &&
-        value !== null &&
-        !Array.isArray(value)
-      ) {
+      } else if (typeof value === "object" && value !== null && !Array.isArray(value)) {
         // 普通对象递归处理
         flattenObject(value, newKey, result);
       } else {
@@ -414,7 +379,6 @@ function flattenObject(
   }
   return result;
 }
-
 
 // 将平铺对象转换回嵌套对象
 // 🔍 简化版调试 - 只打印关键步骤
@@ -531,10 +495,7 @@ function parseObjectFromFile(filePath: string): any {
       const name = declaration.getName();
       if (name === "message") {
         const initializer = declaration.getInitializer();
-        if (
-          initializer &&
-          initializer.getKind() === SyntaxKind.ObjectLiteralExpression
-        ) {
+        if (initializer && initializer.getKind() === SyntaxKind.ObjectLiteralExpression) {
           return parseObjectLiteral(initializer as ObjectLiteralExpression);
         }
       }
@@ -652,11 +613,8 @@ function formatArray(arr: any[], indent: number = 2): string {
   }
 
   // 如果数组比较简单（只包含字符串、数字、布尔值），使用单行格式
-  const isSimpleArray = arr.every(item =>
-    typeof item === 'string' ||
-    typeof item === 'number' ||
-    typeof item === 'boolean' ||
-    item === null
+  const isSimpleArray = arr.every(
+    (item) => typeof item === "string" || typeof item === "number" || typeof item === "boolean" || item === null
   );
 
   if (isSimpleArray && arr.length <= 3) {
@@ -670,7 +628,7 @@ function formatArray(arr: any[], indent: number = 2): string {
   arr.forEach((item, index) => {
     const isLast = index === arr.length - 1;
 
-    if (typeof item === 'object' && item !== null && !Array.isArray(item)) {
+    if (typeof item === "object" && item !== null && !Array.isArray(item)) {
       // 对象元素
       result += `${spaces}${formatObjectCompletely(item, indent + 2)}${isLast ? "" : ","}\n`;
     } else if (Array.isArray(item)) {
@@ -688,20 +646,18 @@ function formatArray(arr: any[], indent: number = 2): string {
 
 // 🆕 格式化数组中的简单值
 function formatSimpleArrayValue(value: any): string {
-  if (typeof value === 'string') {
+  if (typeof value === "string") {
     return formatSimpleValue(value);
-  } else if (typeof value === 'number') {
+  } else if (typeof value === "number") {
     return value.toString();
-  } else if (typeof value === 'boolean') {
+  } else if (typeof value === "boolean") {
     return value.toString();
   } else if (value === null) {
-    return 'null';
+    return "null";
   } else {
     return String(value);
   }
 }
-
-
 
 // 🆕 新增：格式化简单值
 // 🆕 更好的解决方案：使用 JSON.stringify 自动处理转义
@@ -709,7 +665,7 @@ function formatSimpleArrayValue(value: any): string {
 // ✅ 替换 formatSimpleValue 函数
 function formatSimpleValue(value: any): string {
   // ================== 监控点 D ==================
-  if (typeof value === 'string' && value.includes('"')) {
+  if (typeof value === "string" && value.includes('"')) {
     console.log(`🕵️ [LOG D - formatSimpleValue] 准备格式化 (备用路径):`);
     console.log(`  - Input:           '${value}'`);
   }
@@ -718,12 +674,11 @@ function formatSimpleValue(value: any): string {
   // 确保调用我们最健壮的函数，并传递日志
   const result = formatValue(value, '"');
 
-  if (typeof value === 'string' && value.includes('"')) {
+  if (typeof value === "string" && value.includes('"')) {
     console.log(`  - Output:          ${result}`);
   }
   return result;
 }
-
 
 // 🆕 HTML实体解码函数
 function decodeApiResponseString(text: string): string {
@@ -731,7 +686,7 @@ function decodeApiResponseString(text: string): string {
 
   // 顺序很重要：先处理反斜杠转义，再处理HTML实体
   const unescapedText = text
-    .replace(/\\"/g, '"')  // \" -> "
+    .replace(/\\"/g, '"') // \" -> "
     .replace(/\\'/g, "'"); // \' -> '
   // 注意：我们暂时不处理 \\ -> \，以避免过度解码用户本意输入的反斜杠
 
@@ -745,10 +700,7 @@ function decodeApiResponseString(text: string): string {
     .replace(/&gt;/g, ">");
 }
 // 🆕 新增：从对象字面量中删除指定的keys
-function removeKeysFromObjectLiteral(
-  objLiteral: ObjectLiteralExpression,
-  keysToRemove: string[]
-): void {
+function removeKeysFromObjectLiteral(objLiteral: ObjectLiteralExpression, keysToRemove: string[]): void {
   const propertiesToRemove: PropertyAssignment[] = [];
 
   // 收集需要删除的属性
@@ -778,7 +730,7 @@ interface KeySegment {
 
 function parseKeyPath(key: string): KeySegment[] {
   const segments: KeySegment[] = [];
-  const parts = key.split('.');
+  const parts = key.split(".");
 
   for (const part of parts) {
     const arrayMatch = part.match(/^(.+)\[(\d+)\]$/);
@@ -817,8 +769,11 @@ function removeKeysFromNestedObject(obj: any, keysToRemove: string[]): any {
       const segment = segments[i];
 
       if (segment.isArray) {
-        if (current[segment.name] && Array.isArray(current[segment.name]) &&
-          current[segment.name][segment.index!] !== undefined) {
+        if (
+          current[segment.name] &&
+          Array.isArray(current[segment.name]) &&
+          current[segment.name][segment.index!] !== undefined
+        ) {
           current = current[segment.name][segment.index!];
           path.push(current);
         } else {
@@ -865,10 +820,10 @@ function removeKeysFromNestedObject(obj: any, keysToRemove: string[]): any {
 function getValueByDotNotation(obj: any, path: string): any {
   // 将路径标准化，处理数组索引
   const normalizedPath = path
-    .replace(/\[(\d+)\]/g, '.$1') // 将 [0] 转换为 .0
-    .replace(/^\./, ''); // 移除开头的点
+    .replace(/\[(\d+)\]/g, ".$1") // 将 [0] 转换为 .0
+    .replace(/^\./, ""); // 移除开头的点
 
-  return normalizedPath.split('.').reduce((current, key) => {
+  return normalizedPath.split(".").reduce((current, key) => {
     if (current === null || current === undefined) {
       return undefined;
     }
@@ -890,13 +845,13 @@ function getValueByDotNotation(obj: any, path: string): any {
  * @param prefix - 当前路径前缀（用于递归）
  * @returns 一个包含所有叶子节点完整路径的字符串数组
  */
-function getLeafKeys(obj: any, prefix: string = ''): string[] {
+function getLeafKeys(obj: any, prefix: string = ""): string[] {
   const keys: string[] = [];
   for (const key in obj) {
     if (Object.prototype.hasOwnProperty.call(obj, key)) {
       const newPrefix = prefix ? `${prefix}.${key}` : key;
       // 如果值是对象且不是数组或null，则继续递归
-      if (typeof obj[key] === 'object' && obj[key] !== null && !Array.isArray(obj[key])) {
+      if (typeof obj[key] === "object" && obj[key] !== null && !Array.isArray(obj[key])) {
         keys.push(...getLeafKeys(obj[key], newPrefix));
       } else {
         // 否则，这是一个叶子节点，添加其完整路径
@@ -906,7 +861,6 @@ function getLeafKeys(obj: any, prefix: string = ''): string[] {
   }
   return keys;
 }
-
 
 // ❗️❗️❗️ 请将以下三个函数作为一个整体，替换掉你脚本中对应的旧函数 ❗️❗️❗️
 
@@ -920,7 +874,7 @@ function getLeafKeys(obj: any, prefix: string = ''): string[] {
 // ✅ 替换 formatValue 函数
 function formatValue(value: any, quotePreference: "'" | '"' = "'"): string {
   // 对于非字符串类型，JSON.stringify 总是安全可靠的
-  if (typeof value !== 'string') {
+  if (typeof value !== "string") {
     return JSON.stringify(value, null, 2);
   }
 
@@ -939,9 +893,7 @@ function formatValue(value: any, quotePreference: "'" | '"' = "'"): string {
     return result;
   }
 
-  const content = value
-    .replace(/\\/g, '\\\\')
-    .replace(/'/g, "\\'");
+  const content = value.replace(/\\/g, "\\\\").replace(/'/g, "\\'");
 
   const result = `'${content}'`;
   if (value.includes('"')) {
@@ -950,15 +902,11 @@ function formatValue(value: any, quotePreference: "'" | '"' = "'"): string {
   return result;
 }
 
-
 /**
  * ✨ 升级版的数组更新函数
  * (替换旧的同名函数)
  */
-function updateArrayLiteral(
-  arrayNode: any,
-  newArray: any[]
-): void {
+function updateArrayLiteral(arrayNode: any, newArray: any[]): void {
   const astElements = arrayNode.getElements();
   const maxLength = Math.max(astElements.length, newArray.length);
 
@@ -975,7 +923,8 @@ function updateArrayLiteral(
         }
       }
 
-      const isNewValueObject = typeof newElementValue === "object" && newElementValue !== null && !Array.isArray(newElementValue);
+      const isNewValueObject =
+        typeof newElementValue === "object" && newElementValue !== null && !Array.isArray(newElementValue);
       const isNewValueArray = Array.isArray(newElementValue);
 
       if (isNewValueObject && astElement.getKind() === SyntaxKind.ObjectLiteralExpression) {
@@ -1045,11 +994,9 @@ function updateObjectLiteralWithCommentsAndRemoval(
 
       if (isNewValueObject && initializer.getKind() === SyntaxKind.ObjectLiteralExpression) {
         updateObjectLiteralWithCommentsAndRemoval(initializer as ObjectLiteralExpression, newValue);
-      }
-      else if (isNewValueArray && initializer.getKind() === SyntaxKind.ArrayLiteralExpression) {
+      } else if (isNewValueArray && initializer.getKind() === SyntaxKind.ArrayLiteralExpression) {
         updateArrayLiteral(initializer as ArrayLiteralExpression, newValue);
-      }
-      else {
+      } else {
         const formattedValue = formatValue(newValue, quotePreference);
         if (initializer.getText() !== formattedValue) {
           existingProp.setInitializer(formattedValue);
@@ -1061,7 +1008,7 @@ function updateObjectLiteralWithCommentsAndRemoval(
       const keyIdentifier = key.match(/^[a-zA-Z_$][a-zA-Z0-9_$]*$/) ? key : `'${key}'`;
       objLiteral.addPropertyAssignment({
         name: keyIdentifier,
-        initializer: formatValue(newValue, "'"),
+        initializer: formatValue(newValue, "'")
       });
     }
   }
@@ -1074,10 +1021,7 @@ function updateObjectLiteralWithCommentsAndRemoval(
 }
 
 // 修改原来的智能更新函数
-function updateObjectLiteralWithComments(
-  objLiteral: ObjectLiteralExpression,
-  newObj: any
-): void {
+function updateObjectLiteralWithComments(objLiteral: ObjectLiteralExpression, newObj: any): void {
   updateObjectLiteralWithCommentsAndRemoval(objLiteral, newObj, []);
 }
 
@@ -1114,11 +1058,7 @@ function formatObjectCompletely(obj: any, indent: number = 2): string {
 }
 
 // 将对象写入TypeScript文件，保留原有注释和结构，支持删除keys
-async function writeObjectToFileWithRemoval(
-  filePath: string,
-  obj: any,
-  keysToRemove: string[] = []
-): Promise<void> {
+async function writeObjectToFileWithRemoval(filePath: string, obj: any, keysToRemove: string[] = []): Promise<void> {
   // 检查文件是否存在
   if (!fs.existsSync(filePath)) {
     console.log(`⚠️  文件不存在，创建默认文件: ${filePath}`);
@@ -1147,20 +1087,11 @@ async function writeObjectToFileWithRemoval(
 
     if (messageDeclaration) {
       const initializer = messageDeclaration.getInitializer();
-      if (
-        initializer &&
-        initializer.getKind() === SyntaxKind.ObjectLiteralExpression
-      ) {
+      if (initializer && initializer.getKind() === SyntaxKind.ObjectLiteralExpression) {
         // 🆕 关键修改：使用支持删除的智能合并
-        updateObjectLiteralWithCommentsAndRemoval(
-          initializer as ObjectLiteralExpression,
-          obj,
-          keysToRemove
-        );
+        updateObjectLiteralWithCommentsAndRemoval(initializer as ObjectLiteralExpression, obj, keysToRemove);
         await sourceFile.save();
-        console.log(
-          `📝 已更新文件: ${filePath} (保留原有注释和结构, 删除了 ${keysToRemove.length} 个多余keys)`
-        );
+        console.log(`📝 已更新文件: ${filePath} (保留原有注释和结构, 删除了 ${keysToRemove.length} 个多余keys)`);
       } else {
         throw new Error("message 不是对象字面量");
       }
@@ -1181,15 +1112,10 @@ async function writeObjectToFileWithRemoval(
       const objectStr = formatObjectCompletely(cleanedObj);
 
       // 使用正则表达式找到并替换 message 对象
-      const updatedContent = content.replace(
-        /let\s+message\s*=\s*\{[\s\S]*?\};/,
-        `let message = ${objectStr};`
-      );
+      const updatedContent = content.replace(/let\s+message\s*=\s*\{[\s\S]*?\};/, `let message = ${objectStr};`);
 
       fs.writeFileSync(filePath, updatedContent, "utf-8");
-      console.log(
-        `📝 已通过字符串替换更新文件: ${filePath} (删除了 ${keysToRemove.length} 个多余keys)`
-      );
+      console.log(`📝 已通过字符串替换更新文件: ${filePath} (删除了 ${keysToRemove.length} 个多余keys)`);
     } catch (fallbackError: any) {
       console.error(`❌ 字符串替换方式也失败了:`, fallbackError.message);
 
@@ -1216,10 +1142,7 @@ async function writeObjectToFile(filePath: string, obj: any): Promise<void> {
 }
 
 // 找出缺失的键
-function findMissingKeys(
-  baseFlat: { [key: string]: string },
-  targetFlat: { [key: string]: string }
-): string[] {
+function findMissingKeys(baseFlat: { [key: string]: string }, targetFlat: { [key: string]: string }): string[] {
   const missingKeys: string[] = [];
 
   for (const key in baseFlat) {
@@ -1232,10 +1155,7 @@ function findMissingKeys(
 }
 
 // 🆕 新增：找出多余的键（目标文件有但基准文件没有的）
-function findExtraKeys(
-  baseFlat: { [key: string]: string },
-  targetFlat: { [key: string]: string }
-): string[] {
+function findExtraKeys(baseFlat: { [key: string]: string }, targetFlat: { [key: string]: string }): string[] {
   const extraKeys: string[] = [];
 
   for (const key in targetFlat) {
@@ -1250,13 +1170,7 @@ function findExtraKeys(
 // ✅ 请用下面这个【完整的新版本】替换你现有的 updateSpecificKeys 函数 ✅
 
 async function updateSpecificKeys(options: UpdateKeysOptions) {
-  const {
-    keys,
-    useAI = false,
-    targetLanguages,
-    forceUpdate = true,
-    baseLanguage = "en-US"
-  } = options;
+  const { keys, useAI = false, targetLanguages, forceUpdate = true, baseLanguage = "en-US" } = options;
 
   console.log("🚀 开始更新指定的keys...");
   console.log(`🎯 原始指定keys: ${keys.join(", ")}`);
@@ -1274,7 +1188,7 @@ async function updateSpecificKeys(options: UpdateKeysOptions) {
   // =================================================================
   // ✨ 全新、更强大的键展开逻辑 ✨
   // =================================================================
-  console.log('正在展开用户指定的 keys...');
+  console.log("正在展开用户指定的 keys...");
   const expandedKeys: string[] = [];
   for (const key of keys) {
     // 使用 getValueByDotNotation 从【原始对象】中查找这个 key 对应的值
@@ -1282,7 +1196,7 @@ async function updateSpecificKeys(options: UpdateKeysOptions) {
     console.log(`${key}====getValueByDotNotation-------${JSON.stringify(value)}`);
 
     // 检查这个值是不是一个可以展开的对象
-    if (typeof value === 'object' && value !== null && !Array.isArray(value)) {
+    if (typeof value === "object" && value !== null && !Array.isArray(value)) {
       console.log(`  -> 键 '${key}' 是一个对象，正在展开其所有子键...`);
       // 使用 getLeafKeys 展开所有叶子节点，并提供当前 key 作为前缀
       const leafKeys = getLeafKeys(value, key);
@@ -1329,7 +1243,7 @@ async function updateSpecificKeys(options: UpdateKeysOptions) {
   }
 
   console.log(`✅ 最终有效keys: ${validKeys.length} 个`);
-  console.log(`   前5个: ${validKeys.slice(0, 5).join(", ")}${validKeys.length > 5 ? '...' : ''}`);
+  console.log(`   前5个: ${validKeys.slice(0, 5).join(", ")}${validKeys.length > 5 ? "..." : ""}`);
 
   // 🆕 修复：确定目标语言（排除基准语言，并且只处理存在的语言）
   let langs: string[];
@@ -1375,9 +1289,7 @@ async function updateSpecificKeys(options: UpdateKeysOptions) {
 
     if (forceUpdate) {
       keysToUpdate = validKeys;
-      console.log(
-        `🔄 强制更新模式: 将更新所有 ${keysToUpdate.length} 个指定keys`
-      );
+      console.log(`🔄 强制更新模式: 将更新所有 ${keysToUpdate.length} 个指定keys`);
     } else {
       // 只更新不存在的keys
       keysToUpdate = validKeys.filter((key) => !(key in targetFlat));
@@ -1395,9 +1307,7 @@ async function updateSpecificKeys(options: UpdateKeysOptions) {
 
     console.log(`📝 需要翻译的keys示例:`);
     keysToUpdate.slice(0, 3).forEach((key) => {
-      console.log(
-        `  ${key}: "${baseFlat[key]}" (来自基准语言 ${baseLanguage})`
-      );
+      console.log(`  ${key}: "${baseFlat[key]}" (来自基准语言 ${baseLanguage})`);
     });
 
     // 调用翻译函数
@@ -1419,9 +1329,7 @@ async function updateSpecificKeys(options: UpdateKeysOptions) {
       updatedFlat[key] = newValue;
     });
 
-    console.log(
-      `📊 更新后 ${lang} 包含 ${Object.keys(updatedFlat).length} 个翻译键`
-    );
+    console.log(`📊 更新后 ${lang} 包含 ${Object.keys(updatedFlat).length} 个翻译键`);
 
     const updatedObj = unflattenObject(updatedFlat);
 
@@ -1433,7 +1341,6 @@ async function updateSpecificKeys(options: UpdateKeysOptions) {
 
   console.log("\n🎉 指定keys更新完成！");
 }
-
 
 // 🆕 新增功能：更新指定的keys
 interface UpdateKeysOptions {
@@ -1467,40 +1374,36 @@ function parseCommandLineArgs(): {
   if (baseIndex !== -1 && baseIndex + 1 < args.length) {
     baseLanguage = args[baseIndex + 1];
   }
-
+  let opts: any = {
+    mode: "all",
+    useAI: useAIIndex !== -1,
+    forceUpdate: forceUpdateIndex !== -1,
+    baseLanguage // 🆕 返回基准语言
+  };
+  let targetLanguages: string[] | undefined;
+  if (langIndex !== -1 && langIndex + 1 < args.length) {
+    const langString = args[langIndex + 1];
+    targetLanguages = langString.split(",").map((lang) => lang.trim());
+  }
+  opts.targetLanguages = targetLanguages;
   if (keysIndex !== -1 && keysIndex + 1 < args.length) {
     // 获取keys参数
     const keysString = args[keysIndex + 1];
     const keys = keysString.split(",").map((key) => key.trim());
 
-    let targetLanguages: string[] | undefined;
-    if (langIndex !== -1 && langIndex + 1 < args.length) {
-      const langString = args[langIndex + 1];
-      targetLanguages = langString.split(",").map((lang) => lang.trim());
-    }
-
-    return {
-      mode: "keys",
-      keys,
-      useAI: useAIIndex !== -1,
-      forceUpdate: forceUpdateIndex !== -1,
-      targetLanguages,
-      baseLanguage // 🆕 返回基准语言
+    opts = {
+      ...opts,
+      ...{
+        mode: "keys",
+        keys
+      }
     };
   }
-
-  return {
-    mode: "all",
-    useAI: useAIIndex !== -1,
-    baseLanguage // 🆕 返回基准语言
-  };
+  return opts;
 }
 
 // 🆕 修改主函数，默认增加删除多余keys的功能
-async function processAllMissingKeys(
-  useAI: boolean = false,
-  baseLanguage: string = "en-US"
-) {
+async function processAllMissingKeys(useAI: boolean = false, baseLanguage: string = "en-US", targetLanguages) {
   console.log("🚀 开始处理多语言文件...");
   console.log(`📚 基准语言: ${baseLanguage}`);
 
@@ -1512,8 +1415,11 @@ async function processAllMissingKeys(
 
   console.log(`📊 基准文件包含 ${Object.keys(baseFlat).length} 个翻译键`);
   console.log("基准文件平铺结构预览:", Object.keys(baseFlat).slice(0, 3));
-
-  for (const lang of languages) {
+  let lans = languages;
+  if (targetLanguages && targetLanguages.length > 0) {
+    lans = targetLanguages;
+  }
+  for (const lang of lans) {
     if (lang === baseLanguage) continue;
 
     console.log(`\n🌍 处理语言: ${lang}`);
@@ -1522,9 +1428,7 @@ async function processAllMissingKeys(
     const targetObj = parseObjectFromFile(targetFilePath);
     const targetFlat = flattenObject(targetObj);
 
-    console.log(
-      `📊 ${lang} 文件当前包含 ${Object.keys(targetFlat).length} 个翻译键`
-    );
+    console.log(`📊 ${lang} 文件当前包含 ${Object.keys(targetFlat).length} 个翻译键`);
 
     // 🆕 1. 查找缺失的keys（需要添加）
     const missingKeys = findMissingKeys(baseFlat, targetFlat);
@@ -1532,9 +1436,7 @@ async function processAllMissingKeys(
     // 🆕 2. 查找多余的keys（需要删除）
     const extraKeys = findExtraKeys(baseFlat, targetFlat);
 
-    console.log(
-      `🔍 发现 ${missingKeys.length} 个缺失的键，${extraKeys.length} 个多余的键`
-    );
+    console.log(`🔍 发现 ${missingKeys.length} 个缺失的键，${extraKeys.length} 个多余的键`);
 
     // 显示缺失和多余的keys示例
     if (missingKeys.length > 0) {
@@ -1557,11 +1459,7 @@ async function processAllMissingKeys(
       const textsToTranslate = missingKeys.map((key) => baseFlat[key]);
 
       console.log("开始翻译缺失的keys...");
-      const translatedTexts = await translateTexts(
-        textsToTranslate,
-        lang,
-        useAI
-      );
+      const translatedTexts = await translateTexts(textsToTranslate, lang, useAI);
 
       // 添加翻译结果
       missingKeys.forEach((key, index) => {
@@ -1593,14 +1491,13 @@ async function processAllMissingKeys(
   }
 
   console.log("\n🎉 所有语言文件处理完成！");
-  console.log(
-    "📈 总结：自动添加了缺失的翻译，并删除了多余的翻译，保持所有语言文件与基准文件同步。"
-  );
+  console.log("📈 总结：自动添加了缺失的翻译，并删除了多余的翻译，保持所有语言文件与基准文件同步。");
 }
 
 // 修改后的主函数
 async function main() {
   const config = parseCommandLineArgs();
+  console.log("🚀 ~ file: updateI18n.ts method: main line: 1497 🚀", config);
 
   if (config.mode === "keys" && config.keys) {
     // 更新指定keys模式
@@ -1613,7 +1510,7 @@ async function main() {
     });
   } else {
     // 🆕 处理所有缺失keys模式（现在默认包含删除多余keys功能）
-    await processAllMissingKeys(config.useAI, config.baseLanguage || "en-US");
+    await processAllMissingKeys(config.useAI, config.baseLanguage || "en-US", config.targetLanguages);
   }
 }
 

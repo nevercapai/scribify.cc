@@ -522,7 +522,7 @@ let message = {
     edit: "Bewerken",
     translate: "Vertalen",
     showTimestamp: "Tijdstempel tonen",
-    showMoreTimestamp: "Gedetailleerde tijdstempel tonen",
+    showMoreTimestamp: "Gedetailleerdere tijdstempel tonen",
     selectMoreTimestamp: "Gedetailleerde tijdstempel",
     hideTimestamp: "Tijdstempel verbergen",
     showSpeaker: "Spreker",
@@ -531,20 +531,20 @@ let message = {
     share: "Delen",
     shared: "gedeeld",
     export: "Exporteren",
-    speaker: "Spreker_{id}",
+    speaker: "Spreker_{ id }",
     unassignSpeaker: "Spreker ontkoppelen",
     play: "Afspelen",
     save: "Opslaan",
     undo: "Ongedaan maken",
-    redo: "Opnieuw doen",
+    redo: "Opnieuw uitvoeren",
     confirm: "Bevestigen",
     cancel: "Annuleren",
     addNew: "Nieuw toevoegen",
-    createANewSpeaker: "Een nieuwe spreker aanmaken",
+    createANewSpeaker: "Nieuwe spreker maken",
     speakerName: "Sprekernaam",
     addSpeaker: "Spreker toevoegen",
-    applyToAllMatchingSpeakers: "Toepassen op alle overeenkomstige sprekers",
-    applyToCurrentParagraph: "Toepassen op de huidige alinea",
+    applyToAllMatchingSpeakers: "Toepassen op alle overeenkomende sprekers",
+    applyToCurrentParagraph: "Toepassen op huidige alinea",
     speakerDuplicate: "De spreker bestaat al.",
     cancelTranslation: "Vertaling annuleren",
     showVideo: "Video tonen",
@@ -556,9 +556,9 @@ let message = {
     copySuccessful: "Kopiëren gelukt",
     copyFail: "Kopiëren mislukt",
     closeTrans: "Vertaling annuleren",
-    upgradeBtn: "Upgrade nu om te ontgrendelen",
+    upgradeBtn: "Nu upgraden om te ontgrendelen",
     upgradeTip30: "Ontgrendel uw volledige transcript",
-    upgradeTipMore: "Goed nieuws! Uw volledige bestand is getranscribeerd.",
+    upgradeTipMore: "Goed nieuws! Uw hele bestand is getranscribeerd.",
     errorTips: "Er is iets misgegaan.",
     copiedLink: "Link gekopieerd",
     copyGotIt: "Begrepen",
@@ -566,7 +566,7 @@ let message = {
     silentTip: "Geen audio in het bestand. Controleer en probeer opnieuw.",
     outLimit: "Bestand overschrijdt lengtelimiet",
     outLimitTip1: "Gratis accounts ondersteunen bestanden tot 30 minuten.",
-    outLimitTip2: "Registreer nu om te upgraden en de volledige getranscribeerde tekst te ontgrendelen!"
+    outLimitTip2: "Registreer nu om te upgraden en het volledige transcript te ontgrendelen!"
   },
   // Inloggen, registreren, wachtwoord wijzigen
   IdentityInfoManage: {
@@ -1074,7 +1074,7 @@ let message = {
     Blog: "Blog",
     YouTubetoMP3: "YouTube naar MP3",
     Transcription: "Transcriptie",
-    VideoTranscription: "Videotranscriptie"
+    VideoTranscription: "Video Transcriptie"
   },
   Footer: {
     des: "'s Werelds eerste echt onbeperkte AI-transcriptieservice. Geen limieten, geen grenzen, alleen vrijheid om te creëren.",
@@ -1093,7 +1093,7 @@ let message = {
     ],
     companyMenus: ["Over ons", "Prijzen", "Privacy", "Voorwaarden"],
     Resources: "Bronnen",
-    resourcesMenus: ["YouTube naar MP4", "YouTube naar MP3", "Videotranscriptie"]
+    resourcesMenus: ["YouTube naar MP4", "YouTube naar MP3", "Video Transcriptie"]
   },
   Index: {
     Hero: {
@@ -3372,140 +3372,142 @@ let message = {
     Transcription: {
       videoTranscription: {
         hero: {
-          title: "Videotranscriptie: Aangedreven door AI & Nauwkeurig",
-          des: "Transcribeer video's naar tekst met hoge nauwkeurigheid en ondersteuning voor 100+ talen. Converteer moeiteloos elk bestand of elke link naar bewerkbare tekst en exporteer in meerdere formaten, van korte clips tot lange video's.",
-          feature_1: "Ondersteunt 12 formaten",
-          feature_2: "Ondersteunt 100+ talen",
-          feature_3: "Exporteer in 6 formaten"
+          title: "Video Transcriptie: AI-aangedreven & Nauwkeurig",
+          des: "Transcripteer video's naar tekst met hoge nauwkeurigheid en ondersteuning voor 100+ talen. Zet moeiteloos elk bestand of link om in bewerkbare tekst en exporteer in meerdere formaten, van korte clips tot lange video's.",
+          feature_1: "Ondersteunt 12 Format",
+          feature_2: "Ondersteunt 100+ Talen",
+          feature_3: "Exporteren in 6 Format"
         },
         threeStep: {
           title: "Hoe werkt het",
-          titleHighlight: "Converteer video naar tekst met NeverCap",
+          titleHighlight: "Converteer Video naar Tekst met NeverCap",
           step_1_title: "Upload of plak",
           step_1_des:
-            "We ondersteunen videoformaten zoals MP4, MOV, WMV en MPEG, evenals links van YouTube, TikTok, X, Facebook en andere platforms.",
-          step_2_title: "Transcribeer video naar tekst",
+            "Wij ondersteunen videoformaten zoals MP4, MOV, WMV en MPEG, evenals links van YouTube, TikTok, X, Facebook en andere platforms.",
+          step_2_title: "Transcripteer video naar tekst",
           step_2_des:
-            'Klik op de knop "Transcribeer" en wacht tot het proces is voltooid. Een video van 1 uur duurt meestal slechts 1–2 minuten om te transcriben.',
+            'Klik op de "Transcripteer"-knop en wacht tot het proces is voltooid. Een video van 1 uur duurt meestal slechts 1–2 minuten om te transcriberen.',
           step_3_title: "Exporteer of deel",
           step_3_des:
-            "Bewerk je tekst direct online en exporteer deze vervolgens in meerdere formaten zoals TXT, PDF, DOCX, SRT, CSV of VTT. Je kunt ook een deelbare link naar je transcript genereren."
+            "Bewerk uw tekst direct online en exporteer deze vervolgens in meerdere formaten zoals TXT, PDF, DOCX, SRT, CSV of VTT. U kunt ook een deelbare link naar uw transcript genereren."
         },
         whyTran: {
           title: "Waarom",
-          titleHighlight: "Transcribeer video's naar tekst",
+          titleHighlight: "Transcripteer Video's naar Tekst",
           des: "Het is ongelooflijk waardevol voor scenario's zoals leren, contentcreatie, onderzoek en werk. Hier is waarom:",
-          reason_1_title: "Maakt notities maken en reviewen gemakkelijker.",
+          reason_1_title: "Maakt notities maken en reviewen eenvoudiger.",
           reason_1_des:
-            "Studenten, onderzoekers en creators moeten vaak informatie uit video's halen. Transcriptie maakt het eenvoudig om studienotities te maken, onderzoeksinterviews te organiseren, scripts of artikelen te schrijven en inhoud nauwkeuriger en goedkoper te vertalen.",
+            "Studenten, onderzoekers en makers moeten vaak informatie uit video's halen. Transcriptie maakt het eenvoudig om studienoten te maken, onderzoeksinterviews te organiseren, scripts of artikelen te schrijven en inhoud nauwkeuriger en kosteneffectiever te vertalen.",
           reason_2_title: "Verbeterde doorzoekbaarheid.",
           reason_2_des:
-            "Met tekst kun je snel op trefwoorden zoeken en belangrijke secties vinden—geen terugspoelen of doorspoelen meer nodig.",
+            "Met tekst kunt u snel op trefwoorden zoeken en belangrijke secties vinden—geen terugspoelen of doorspoelen meer nodig.",
           reason_3_title: "Bespaart tijd en verhoogt efficiëntie.",
           reason_3_des:
-            "Tekst lezen is veel sneller dan video's bekijken, vooral voor inhoud zoals colleges, interviews of vergaderingen. Met tekst kun je snel scannen of direct naar kernpunten springen.",
+            "Tekst lezen is veel sneller dan een video bekijken, vooral voor inhoud zoals colleges, interviews of vergaderingen. Met tekst kunt u snel scannen of direct naar belangrijke punten springen.",
           reason_4_title: "Verbeterde toegankelijkheid.",
           reason_4_des:
-            "Het biedt gelijke toegang tot informatie voor dove of slechthorende mensen, niet-moedertaalsprekers of mensen met gehoorproblemen. Het helpt platforms ook om aan standaarden zoals WCAG te voldoen.",
+            "Het biedt gelijke toegang tot informatie voor doven of slechthorenden, niet-moedertaalsprekers of mensen met gehoorproblemen. Het helpt ook platforms om aan normen zoals WCAG te voldoen.",
           reason_5_title: "Maakt hergebruik van content mogelijk.",
           reason_5_des:
-            "Creators gebruiken transcripties vaak om snel blogposts, socialmediacontent, samenvattingen of videobijschriften te genereren—waardoor het creatieve proces aanzienlijk wordt versneld zonder handmatig typen.",
+            "Makers gebruiken transcripties vaak om snel blogposts, socialemediacontent, samenvattingen of videobijschriften te genereren—wat het creatieve proces aanzienlijk versnelt zonder handmatig typen.",
           reason_6_title: "Ondersteunt beter begrip, retentie en archivering.",
           reason_6_des:
-            "Het combineren van visuele en op tekst gebaseerde informatie verbetert het begrip en het geheugen, terwijl tekstbestanden gemakkelijk op te slaan zijn, ideaal voor het opbouwen van kennisbanken, documentbibliotheken of archiveringssystemen."
+            "De combinatie van visuele en tekstuele informatie verbetert het begrip en het geheugen, terwijl tekstbestanden eenvoudig op te slaan zijn, ideaal voor het opbouwen van kennisbanken, documentbibliotheken of archiefsystemen."
         },
         whyChoose: {
-          title: "Waarom kiezen voor",
-          titleHighlight: "Onze videotranscriptietool",
-          reason_1_title: "Transcribeer & Vertaal wereldwijd",
+          title: "Waarom Kiezen",
+          titleHighlight: "Onze Video Transcriptie Tool",
+          reason_1_title: "Transcripteer & Vertaal Wereldwijd",
           reason_1_des:
-            "Ondersteunt transcriptie in 100+ talen en vertaling naar 249 anderen, waardoor taalbarrières worden doorbroken.",
-          reason_2_title: "Universele formaatcompatibiliteit",
+            "Ondersteunt transcriptie in 100+ talen en vertaling naar 249 andere, waardoor taalbarrières worden doorbroken.",
+          reason_2_title: "Universele Formaatcompatibiliteit",
           reason_2_des:
             "Werkt naadloos met alle gangbare videoformaten (MP4, MOV, MKV, enz.) en platforms zoals YouTube & TikTok.",
-          reason_3_title: "Echt onbeperkte transcripties",
+          reason_3_title: "Echt Onbeperkte Transcripties",
           reason_3_des:
-            "Transcribeer 100 of 1.000 video's—je vaste tarief blijft hetzelfde. Geen verborgen limieten, geen onverwachte kosten.",
-          reason_4_title: "Nauwkeurigheid waarop je kunt vertrouwen",
+            "Transcripteer 100 of 1.000 video's—uw vaste tarief blijft hetzelfde. Geen verborgen limieten, geen verrassende kosten.",
+          reason_4_title: "Nauwkeurigheid waarop u kunt vertrouwen",
           reason_4_des:
-            "Profiteer van meer dan 95% algehele nauwkeurigheid, met sleuteltalen zoals Engels en Spaans die meer dan 96% bereiken.",
+            "Geniet van een algehele nauwkeurigheid van meer dan 95%, met sleuteltalen zoals Engels en Spaans die meer dan 96% halen.",
           reason_5_title: "Enterprise-Grade Beveiliging",
           reason_5_des:
-            "Je gegevens zijn beschermd door toonaangevende encryptie- en privacyprotocollen. We behandelen je vertrouwelijkheid met de grootste ernst.",
-          reason_6_title: "Tijdstempels op woordniveau",
+            "Uw gegevens worden beschermd door toonaangevende encryptie- en privacystandaarden. Wij behandelen uw vertrouwelijkheid met de grootste zorg.",
+          reason_6_title: "Tijdsstempels op Woordniveau",
           reason_6_des:
-            "Wijs elk moment in je video direct aan. Klik op een woord in het transcript om direct naar het exacte moment in de originele media te springen."
+            "Wijs elk moment in uw video direct aan. Klik op een woord in het transcript om direct naar het exacte tijdstip in de oorspronkelijke media te springen."
         },
         reviews: {
           title: "Beoordelingen van",
-          titleHighlight: "Onze gebruikers",
-          des: "1. Ontdek waarom duizenden op ons vertrouwen voor moeiteloze transcriptie.",
+          titleHighlight: "Onze Gebruikers",
+          des: "Ontdek waarom duizenden op ons vertrouwen voor moeiteloze transcriptie.",
           people_1_content:
-            "2. NeverCap's videotranscriptie is absoluut fantastisch! Na meer dan een dozijn transcriptietools te hebben geprobeerd, is dit de eerste service die echt onbeperkt is. Ik kan zoveel transcriberen als ik wil, zonder me zorgen te maken over gebruikslimieten.",
-          people_1_job: "3. Content Creator",
+            "De videotranscriptie van NeverCap is absoluut fantastisch! Na meer dan een dozijn transcriptietools te hebben geprobeerd, is dit de eerste dienst die echt onbeperkt is. Ik kan zoveel transcriberen als ik wil, zonder me zorgen te maken over gebruikslimieten.",
+          people_1_job: "Contentmaker",
           people_2_content:
-            "4. Betaalbare prijzen, moeiteloze verwerking van grote bestanden en het gelijktijdig verwerken van tientallen bestanden. NeverCap's videotranscriptie lost bijna elk probleem op dat ik had.",
-          people_2_job: "5. Onderzoeker",
+            "Betaalbare prijzen, moeiteloze verwerking van grote bestanden en gelijktijdige verwerking van tientallen bestanden. De videotranscriptie van NeverCap lost bijna al mijn problemen op.",
+          people_2_job: "Onderzoeker",
           people_3_content:
-            "6. Nauwkeurig, snel en ondersteunt talloze talen. Wat echt opvalt, is hoe goed het lange video's verwerkt. NeverCap is een essentieel onderdeel van mijn toolkit geworden en ik heb het al mijn klasgenoten aanbevolen.",
-          people_3_job: "7. PhD-kandidaat"
+            "Nauwkeurig, snel en ondersteunt talloze talen. Wat echt opvalt, is hoe goed het lange video's verwerkt. NeverCap is een essentieel onderdeel van mijn toolkit geworden en ik heb het al mijn klasgenoten aanbevolen.",
+          people_3_job: "PhD-kandidaat"
         },
         faq: {
-          title: "8. Belangrijke vragen over",
-          titleHighlight: "9. Videotranscriptie",
-          question_1: "10. Welke videoformaten ondersteunt NeverCap?",
-          answer_1: "11. Wij ondersteunen veelgebruikte videoformaten zoals MP4, MOV, WMV, MPEG, WebM en MKV.",
-          question_2: "12. Hoe transcribeer ik een videolink en welke platforms worden ondersteund?",
+          title: "Belangrijke vragen over",
+          titleHighlight: "Videotranscriptie",
+          question_1: "Welke videoformaten ondersteunt NeverCap?",
+          answer_1: "We ondersteunen veelvoorkomende videoformaten zoals MP4, MOV, WMV, MPEG, WebM en MKV.",
+          question_2: "Hoe transcribeer ik een videolink en welke platforms worden ondersteund?",
           answer_2:
-            '13. Kopieer en plak gewoon de videolink en klik op "Transcribe." Wij ondersteunen links van YouTube, Facebook, X, Dropbox, Google Drive, Vimeo, TikTok, Instagram en meer.',
-          question_3: "14. Welke talen worden ondersteund voor videotranscriptie?",
+            'Kopieer en plak simpelweg de video-URL en klik op "Transcribe." We ondersteunen links van YouTube, Facebook, X, Dropbox, Google Drive, Vimeo, TikTok, Instagram en meer.',
+          question_3: "Welke talen worden ondersteund voor videotranscriptie?",
           answer_3:
-            "15. NeverCap ondersteunt meer dan 100 talen, waaronder Engels, Spaans, Mandarijn, Frans, Duits, Japans, Koreaans, Portugees, Russisch, Italiaans, Nederlands en Arabisch.",
-          question_4: "16. Wat is de maximale duur en bestandsgrootte voor transcriptie?",
-          answer_4: "17. De maximale bestandsgrootte is 5GB en de maximale duur is 10 uur per video.",
-          question_5: "18. Hoeveel videobestanden kan ik tegelijk uploaden?",
-          answer_5: "19. NeverCap laat toe om tot 50 bestanden tegelijk te verwerken.",
-          question_6: "20. Hoe snel is het transcriptieproces? Moet ik lang wachten?",
+            "NeverCap ondersteunt meer dan 100 talen, waaronder Engels, Spaans, Mandarijn, Frans, Duits, Japans, Koreaans, Portugees, Russisch, Italiaans, Nederlands en Arabisch.",
+          question_4: "Wat is de maximale duur en bestandsgrootte voor transcriptie?",
+          answer_4: "De maximale bestandsgrootte is 5GB en de maximale duur is 10 uur per video.",
+          question_5: "Hoeveel videobestanden kan ik tegelijk uploaden?",
+          answer_5: "NeverCap staat toe dat tot 50 bestanden tegelijkertijd worden verwerkt.",
+          question_6: "Hoe snel is het transcriptieproces? Moet ik lang wachten?",
           answer_6:
-            "21. Geen lange wachttijden. In onze tests duurt het transcriberen van een video van 1 uur meestal ongeveer 3 minuten.",
-          question_7: "22. Wat is de nauwkeurigheid van NeverCap's transcriptie?",
-          answer_7: "23. Wij bieden meer dan 95% nauwkeurigheid voor alle talen en meer dan 96% voor kern",
-          question_8: "233",
-          answer_8: "233",
-          question_9: "233",
-          answer_9: "233"
+            "Geen lange wachttijden nodig. Uit onze tests blijkt dat een video van 1 uur doorgaans ongeveer 3 minuten nodig heeft om te transcriberen.",
+          question_7: "Hoe nauwkeurig is de transcriptie van NeverCap?",
+          answer_7:
+            "We bieden meer dan 95% nauwkeurigheid voor alle talen en meer dan 96% voor belangrijke talen zoals Engels, Spaans, Mandarijn en Frans.",
+          question_8: "Kan de getranscribeerde tekst naar andere talen worden vertaald?",
+          answer_8: "Ja. Zodra de transcriptie is voltooid, kunt u de tekst vertalen naar 249 ondersteunde talen.",
+          question_9: "Kan ik de getranscribeerde tekst bewerken, exporteren of delen?",
+          answer_9:
+            "Absoluut. De getranscribeerde tekst kan in real-time worden bewerkt. Exportopties zijn onder andere PDF, DOCX, TXT, TTV, CSV en SRT-formaten. U kunt ook een deelbare link naar het transcript genereren."
         },
         explore: {
-          title: "233",
-          transcribeTitle: "233",
-          transcribe_1: "233",
-          transcribe_2: "233",
-          transcribe_3: "233",
-          transcribe_4: "233",
-          transcribe_5: "233",
-          transcribe_6: "233",
-          transcribe_7: "233",
-          transcribe_8: "233",
-          transcribe_9: "233",
-          transcribe_10: "233",
-          transcribe_11: "233",
-          transcribe_12: "233",
-          transcribe_13: "233",
-          otherToolsTitle: "233",
-          otherTools_1: "233",
-          otherTools_2: "233",
-          otherTools_3: "233",
-          otherTools_4: "233",
-          otherTools_5: "233",
-          otherTools_6: "233",
-          otherTools_7: "233"
+          title: "Verder ontdekken",
+          transcribeTitle: "Tools om naar tekst te transcriberen",
+          transcribe_1: "Audio naar tekst",
+          transcribe_2: "Spraak naar tekst",
+          transcribe_3: "MP3 naar tekst",
+          transcribe_4: "MP4 naar tekst",
+          transcribe_5: "AAC naar tekst",
+          transcribe_6: "AMR naar tekst",
+          transcribe_7: "M4A naar tekst",
+          transcribe_8: "MOV naar tekst",
+          transcribe_9: "MPEG naar tekst",
+          transcribe_10: "OGG naar tekst",
+          transcribe_11: "TS naar tekst",
+          transcribe_12: "WAV naar tekst",
+          transcribe_13: "WEBM naar tekst",
+          otherToolsTitle: "Andere gerelateerde tools",
+          otherTools_1: "AI Notetaker",
+          otherTools_2: "Ondertiteling toevoegen aan video",
+          otherTools_3: "Audio vertalen",
+          otherTools_4: "Video vertalen",
+          otherTools_5: "Ondertitelingsgenerator",
+          otherTools_6: "Video Summarizer",
+          otherTools_7: "Video Converter"
         }
       }
     },
     Upload: {
       uploadFile: "Bestand uploaden",
       pasteLink: "Link plakken",
-      fileTip: "Ontvang uw videotranscript in seconden",
+      fileTip: "Ontvang binnen enkele seconden uw videotranscript",
       linkTitle: "Link",
       linkTip: "Plak een link van elk platform om te beginnen",
       transcribeProgress: "Transcriptie bezig...",
@@ -3863,7 +3865,7 @@ let message = {
     transcribeNewFiles: "Nieuwe bestanden transcriberen",
     signUpNow: "Nu aanmelden",
     stillExporting: "Nog steeds aan het exporteren",
-    tip1: "Registreer gratis om je bestanden permanent op te slaan en te bewerken!",
+    tip1: "Registreer gratis om uw bestanden permanent op te slaan en te bewerken!",
     tip2: "Upgrade voor onbeperkte transcriptie!"
   }
 };

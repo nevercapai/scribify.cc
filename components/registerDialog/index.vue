@@ -1,7 +1,7 @@
 <template>
   <el-dialog
     v-model="registerDialogVisible"
-    :width="isDesktop ? '35rem' : '23rem'"
+    :width="isDesktop ? '35rem' : '22rem'"
     align-center
     :show-close="true"
     append-to-body

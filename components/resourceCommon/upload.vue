@@ -340,11 +340,16 @@ defineExpose({
     .el-tabs__header {
       margin: 0;
     }
+    .el-icon {
+      @apply text-[1.375rem];
+    }
     .el-tabs__nav {
-      float: unset;
-      display: flex;
-      justify-content: center;
-      width: 100%;
+      @media (min-width: 768px) {
+        float: unset;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
     }
     .el-tabs__active-bar {
       background-color: #6367f1;
@@ -353,7 +358,7 @@ defineExpose({
       color: #64748b;
       font-size: 1.375rem;
       line-height: 1.875rem;
-      @apply pb-2.5 md:px-20;
+      @apply pb-2.5 md:px-20 rtl:me-6;
       &.is-active {
         color: #000;
       }

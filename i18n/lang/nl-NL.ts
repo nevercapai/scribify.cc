@@ -3862,6 +3862,32 @@ let message = {
       HowWorks: "Bekijk hoe het werkt"
     }
   },
+  cello: {
+    exclusiveAccess: "{name} heeft u exclusieve toegang tot NeverCap Pro gegeven",
+    proMember: "NeverCap Pro Lid",
+    save: "Bespaar",
+    unlimitedTranscription: "op onbeperkte AI-transcriptie",
+    specialPrice: "Uw speciale prijs: $8.09/maand (Reg. $8.99)",
+    whyChose: "Waarom {name} NeverCap koos:",
+    noLimits: "Geen maandelijkse limieten (anderen beperken tot 120 min/maand)",
+    uploadFiles: "50 bestanden tegelijk uploaden",
+    longFiles: "10-uur bestanden ondersteund",
+    accuracy: "96% nauwkeurigheid gegarandeerd",
+    regularPrice: "Reguliere Prijs",
+    perMonth: "/maand",
+    getsCredit: "{name} krijgt: $50 tegoed",
+    whenSubscribe: "wanneer u zich abonneert",
+    activateGift: "Bob's Cadeau Activeren",
+    existingAccount: "↓ Heeft u al een account? Korting toepassen op bestaand account",
+    offerExpires: "Aanbieding verloopt over:",
+    activeUsers: "actieve gebruikers",
+    rating: "beoordeling",
+    noCreditCard: "Geen creditcard",
+    requiredFreeTrial: "vereist voor gratis proefperiode",
+    yourSpecialPrice: "Uw Speciale Prijs",
+    activateNameGift: "Activeer {name}'s Cadeau",
+    year: "jaar"
+  },
   RegisterDialog: {
     transcribeNewFiles: "Nieuwe bestanden transcriberen",
     signUpNow: "Nu aanmelden",

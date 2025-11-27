@@ -3793,6 +3793,32 @@ let message = {
       HowWorks: "작동 방식 보기"
     }
   },
+  cello: {
+    exclusiveAccess: "{name}이(가) NeverCap Pro에 대한 독점 액세스 권한을 제공했습니다",
+    proMember: "NeverCap Pro 멤버",
+    save: "절약",
+    unlimitedTranscription: "무제한 AI 전사 서비스",
+    specialPrice: "특별 가격: $8.09/월 (정가 $8.99)",
+    whyChose: "왜 {name}이(가) NeverCap을 선택했는지:",
+    noLimits: "월간 제한 없음 (다른 서비스는 120분/월 제한)",
+    uploadFiles: "한 번에 50개 파일 업로드",
+    longFiles: "10시간 파일 지원",
+    accuracy: "96% 정확도 보장",
+    regularPrice: "정가",
+    perMonth: "/월",
+    getsCredit: "{name} 획득: $50 크레딧",
+    whenSubscribe: "구독 시",
+    activateGift: "Bob의 선물 활성화",
+    existingAccount: "↓ 이미 계정이 있나요? 기존 계정에 할인 적용",
+    offerExpires: "제안 만료:",
+    activeUsers: "활성 사용자",
+    rating: "평점",
+    noCreditCard: "신용카드 불필요",
+    requiredFreeTrial: "무료 체험 필요",
+    yourSpecialPrice: "특별 가격",
+    activateNameGift: "{name}의 선물 활성화",
+    year: "년"
+  },
   RegisterDialog: {
     transcribeNewFiles: "새 파일 성적표 변환",
     signUpNow: "지금 가입하기",

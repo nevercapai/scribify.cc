@@ -3465,7 +3465,33 @@ let message = {
     at: "at",
     site: "Site",
     services: "Services"
-  }
+  },
+    cello: {
+        exclusiveAccess: "{name} gave you exclusive access to NeverCap Pro",
+        proMember: "NeverCap Pro Member",
+        save: "Save",
+        unlimitedTranscription: "on unlimited AI transcription",
+        specialPrice: "Your special price: $8.09/mo (Reg. $8.99)",
+        whyChose: "Why {name} chose NeverCap:",
+        noLimits: "No monthly limits (others cap at 120 min/month)",
+        uploadFiles: "Upload 50 files at once",
+        longFiles: "10-hour files supported",
+        accuracy: "96% accuracy guaranteed",
+        regularPrice: "Regular Price",
+        perMonth: "/mo",
+        getsCredit: "{name} gets: $50 credit",
+        whenSubscribe: "when you subscribe",
+        activateGift: "Activate Bob's Gift",
+        existingAccount: "↓ Already have an account? Apply discount to existing account",
+        offerExpires: "Offer expires in:",
+        activeUsers: "active users",
+        rating: "rating",
+        noCreditCard: "No credit card",
+        requiredFreeTrial: "required for free trial",
+        yourSpecialPrice: "Your Special Price",
+        activateNameGift: "Activate {name}'s Gift",
+        year: "year"
+    }
 };
 
 export default defineI18nLocale(async (locale) => {

@@ -3665,6 +3665,32 @@ let message = {
       HowWorks: "了解其工作原理"
     }
   },
+  cello: {
+    exclusiveAccess: "{name} 為您提供了 NeverCap Pro 的專屬存取權限",
+    proMember: "NeverCap Pro 會員",
+    save: "節省",
+    unlimitedTranscription: "無限 AI 轉錄服務",
+    specialPrice: "您的特惠價格：$8.09/月（原價 $8.99）",
+    whyChose: "為什麼 {name} 選擇 NeverCap：",
+    noLimits: "無月度限制（其他產品限制為 120 分鐘/月）",
+    uploadFiles: "一次上傳 50 個檔案",
+    longFiles: "支援 10 小時檔案",
+    accuracy: "保證 96% 準確率",
+    regularPrice: "常規價格",
+    perMonth: "/月",
+    getsCredit: "{name} 獲得：$50 積分",
+    whenSubscribe: "當您訂閱時",
+    activateGift: "啟用 Bob 的禮品",
+    existingAccount: "↓ 已有帳戶？將折扣套用到現有帳戶",
+    offerExpires: "優惠到期時間：",
+    activeUsers: "活躍用戶",
+    rating: "評分",
+    noCreditCard: "無需信用卡",
+    requiredFreeTrial: "免費試用所需",
+    yourSpecialPrice: "您的特惠價格",
+    activateNameGift: "啟用 {name} 的禮品",
+    year: "年"
+  },
   RegisterDialog: {
     transcribeNewFiles: "轉錄新檔案",
     signUpNow: "立即註冊",

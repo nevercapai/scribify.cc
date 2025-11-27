@@ -3951,6 +3951,32 @@ let message = {
       HowWorks: "仕組みを見る"
     }
   },
+  cello: {
+    exclusiveAccess: "{name} があなたに NeverCap Pro への独占アクセスを提供しました",
+    proMember: "NeverCap Pro メンバー",
+    save: "節約",
+    unlimitedTranscription: "無制限 AI 転写サービス",
+    specialPrice: "特別価格：$8.09/月（通常 $8.99）",
+    whyChose: "なぜ {name} が NeverCap を選んだか：",
+    noLimits: "月間制限なし（他社は120分/月に制限）",
+    uploadFiles: "50ファイルを一度にアップロード",
+    longFiles: "10時間ファイルに対応",
+    accuracy: "96%の精度を保証",
+    regularPrice: "通常価格",
+    perMonth: "/月",
+    getsCredit: "{name} が獲得：$50 クレジット",
+    whenSubscribe: "サブスクライブ時",
+    activateGift: "Bob のギフトを有効化",
+    existingAccount: "↓ すでにアカウントをお持ちですか？既存アカウントに割引を適用",
+    offerExpires: "オファー期限：",
+    activeUsers: "アクティブユーザー",
+    rating: "評価",
+    noCreditCard: "クレジットカード不要",
+    requiredFreeTrial: "無料トライアルに必要",
+    yourSpecialPrice: "特別価格",
+    activateNameGift: "{name} のギフトを有効化",
+    year: "年"
+  },
   RegisterDialog: {
     transcribeNewFiles: "新しいファイルを文字起こし",
     signUpNow: "今すぐサインアップ",

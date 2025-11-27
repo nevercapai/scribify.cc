@@ -3846,6 +3846,32 @@ let message = {
       HowWorks: "Se hur det fungerar"
     }
   },
+  cello: {
+    exclusiveAccess: "{name} gav dig exklusiv åtkomst till NeverCap Pro",
+    proMember: "NeverCap Pro Medlem",
+    save: "Spara",
+    unlimitedTranscription: "på obegränsad AI-transkription",
+    specialPrice: "Ditt specialpris: $8.09/månad (Reg. $8.99)",
+    whyChose: "Varför {name} valde NeverCap:",
+    noLimits: "Inga månatliga gränser (andra begränsar till 120 min/månad)",
+    uploadFiles: "Ladda upp 50 filer samtidigt",
+    longFiles: "10-timmars filer stöds",
+    accuracy: "96% noggrannhet garanterad",
+    regularPrice: "Ordinarie Pris",
+    perMonth: "/månad",
+    getsCredit: "{name} får: $50 kredit",
+    whenSubscribe: "när du prenumererar",
+    activateGift: "Aktivera Bobs Present",
+    existingAccount: "↓ Har du redan ett konto? Tillämpa rabatt på befintligt konto",
+    offerExpires: "Erbjudandet upphör om:",
+    activeUsers: "aktiva användare",
+    rating: "betyg",
+    noCreditCard: "Inget kreditkort",
+    requiredFreeTrial: "krävs för gratis provperiod",
+    yourSpecialPrice: "Ditt Specialpris",
+    activateNameGift: "Aktivera {name}s Present",
+    year: "år"
+  },
   RegisterDialog: {
     transcribeNewFiles: "Transkribera nya filer",
     signUpNow: "Registrera dig nu",

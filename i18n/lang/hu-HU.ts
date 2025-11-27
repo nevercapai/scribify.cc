@@ -3868,6 +3868,32 @@ let message = {
       HowWorks: "Nézd meg, hogyan működik"
     }
   },
+  cello: {
+    exclusiveAccess: "{name} exkluzív hozzáférést adott Önnek a NeverCap Pro-hoz",
+    proMember: "NeverCap Pro Tag",
+    save: "Spóroljon",
+    unlimitedTranscription: "korlátlan AI átírással",
+    specialPrice: "Az Ön különleges ára: $8.09/hó (Rendes $8.99)",
+    whyChose: "Miért választotta {name} a NeverCap-et:",
+    noLimits: "Nincs havi korlát (mások 120 perc/hóra korlátozzák)",
+    uploadFiles: "50 fájl feltöltése egyszerre",
+    longFiles: "10 órás fájlok támogatva",
+    accuracy: "96% pontosság garantálva",
+    regularPrice: "Rendes Ár",
+    perMonth: "/hó",
+    getsCredit: "{name} kap: $50 kreditet",
+    whenSubscribe: "amikor feliratkozik",
+    activateGift: "Bob Ajándékának Aktiválása",
+    existingAccount: "↓ Már van fiókja? Kedvezmény alkalmazása meglévő fiókra",
+    offerExpires: "Az ajánlat lejár:",
+    activeUsers: "aktív felhasználók",
+    rating: "értékelés",
+    noCreditCard: "Nincs szükség hitelkártyára",
+    requiredFreeTrial: "az ingyenes próbaidőszakhoz",
+    yourSpecialPrice: "Az Ön Különleges Ára",
+    activateNameGift: "{name} Ajándékának Aktiválása",
+    year: "év"
+  },
   RegisterDialog: {
     transcribeNewFiles: "Új fájlok átírása",
     signUpNow: "Regisztráció most",

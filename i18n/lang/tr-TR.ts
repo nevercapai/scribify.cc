@@ -3859,6 +3859,32 @@ let message = {
       HowWorks: "Nasıl Çalıştığını Görün"
     }
   },
+  cello: {
+    exclusiveAccess: "{name} size NeverCap Pro'ya özel erişim verdi",
+    proMember: "NeverCap Pro Üyesi",
+    save: "Tasarruf Edin",
+    unlimitedTranscription: "sınırsız AI transkripsiyonunda",
+    specialPrice: "Özel fiyatınız: $8.09/ay (Düzenli $8.99)",
+    whyChose: "Neden {name} NeverCap'i seçti:",
+    noLimits: "Aylık limit yok (diğerleri 120 dk/ay ile sınırlar)",
+    uploadFiles: "Aynı anda 50 dosya yükleyin",
+    longFiles: "10 saatlik dosyalar desteklenir",
+    accuracy: "%96 doğruluk garantili",
+    regularPrice: "Normal Fiyat",
+    perMonth: "/ay",
+    getsCredit: "{name} alır: $50 kredi",
+    whenSubscribe: "abone olduğunuzda",
+    activateGift: "Bob'un Hediyesini Etkinleştir",
+    existingAccount: "↓ Zaten hesabınız var mı? Mevcut hesaba indirim uygula",
+    offerExpires: "Teklif sona eriyor:",
+    activeUsers: "aktif kullanıcılar",
+    rating: "değerlendirme",
+    noCreditCard: "Kredi kartı yok",
+    requiredFreeTrial: "ücretsiz deneme için gerekli",
+    yourSpecialPrice: "Özel Fiyatınız",
+    activateNameGift: "{name}'nin Hediyesini Etkinleştir",
+    year: "yıl"
+  },
   RegisterDialog: {
     transcribeNewFiles: "Yeni Dosyaları Transkribe Et",
     signUpNow: "Şimdi Kaydol",

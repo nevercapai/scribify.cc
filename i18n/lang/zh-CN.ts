@@ -3656,6 +3656,32 @@ let message = {
       HowWorks: "了解其工作原理"
     }
   },
+  cello: {
+    exclusiveAccess: "{name} 为您提供了 NeverCap Pro 的专属访问权限",
+    proMember: "NeverCap Pro 会员",
+    save: "节省",
+    unlimitedTranscription: "无限 AI 转录服务",
+    specialPrice: "您的特惠价格：$8.09/月（原价 $8.99）",
+    whyChose: "为什么 {name} 选择 NeverCap：",
+    noLimits: "无月度限制（其他产品限制为 120 分钟/月）",
+    uploadFiles: "一次上传 50 个文件",
+    longFiles: "支持 10 小时文件",
+    accuracy: "保证 96% 准确率",
+    regularPrice: "常规价格",
+    perMonth: "/月",
+    getsCredit: "{name} 获得：$50 积分",
+    whenSubscribe: "当您订阅时",
+    activateGift: "激活 Bob 的礼品",
+    existingAccount: "↓ 已有账户？将折扣应用到现有账户",
+    offerExpires: "优惠到期时间：",
+    activeUsers: "活跃用户",
+    rating: "评分",
+    noCreditCard: "无需信用卡",
+    requiredFreeTrial: "免费试用所需",
+    yourSpecialPrice: "您的特惠价格",
+    activateNameGift: "激活 {name} 的礼品",
+    year: "年"
+  },
   RegisterDialog: {
     transcribeNewFiles: "转录新文件",
     signUpNow: "立即注册",

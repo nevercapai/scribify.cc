@@ -3845,6 +3845,32 @@ let message = {
       HowWorks: "Дивіться, як це працює"
     }
   },
+  cello: {
+    exclusiveAccess: "{name} надав вам ексклюзивний доступ до NeverCap Pro",
+    proMember: "Учасник NeverCap Pro",
+    save: "Заощаджуйте",
+    unlimitedTranscription: "на необмеженій транскрипції ШІ",
+    specialPrice: "Ваша спеціальна ціна: $8.09/місяць (Звичайна $8.99)",
+    whyChose: "Чому {name} обрав NeverCap:",
+    noLimits: "Без місячних обмежень (інші обмежують до 120 хв/місяць)",
+    uploadFiles: "Завантажуйте 50 файлів одночасно",
+    longFiles: "Підтримка 10-годинних файлів",
+    accuracy: "96% точності гарантовано",
+    regularPrice: "Звичайна Ціна",
+    perMonth: "/місяць",
+    getsCredit: "{name} отримує: $50 кредиту",
+    whenSubscribe: "при підписці",
+    activateGift: "Активувати Подарунок від Bob",
+    existingAccount: "↓ Вже маєте акаунт? Застосувати знижку до існуючого акаунту",
+    offerExpires: "Пропозиція закінчується через:",
+    activeUsers: "активних користувачів",
+    rating: "рейтинг",
+    noCreditCard: "Без кредитної картки",
+    requiredFreeTrial: "потрібно для безкоштовного пробного періоду",
+    yourSpecialPrice: "Ваша Спеціальна Ціна",
+    activateNameGift: "Активувати Подарунок від {name}",
+    year: "рік"
+  },
   RegisterDialog: {
     transcribeNewFiles: "Розпізнати нові файли",
     signUpNow: "Зареєструватися зараз",

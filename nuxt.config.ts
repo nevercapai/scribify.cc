@@ -9,14 +9,12 @@ console.log(
 export default defineNuxtConfig({
   appConfig: {
     // useAppConfig 获取
-    title:
-      "Transcribe Meetings & Audio: Speaker Identification, Translate, Share | 100+ Languages - Nevercap",
+    title: "Transcribe Meetings & Audio: Speaker Identification, Translate, Share | 100+ Languages - Nevercap",
     version: "1.0.0"
   },
   app: {
     head: {
-      title:
-        "Transcribe Meetings & Audio: Speaker Identification, Translate, Share | 100+ Languages - Nevercap",
+      title: "Transcribe Meetings & Audio: Speaker Identification, Translate, Share | 100+ Languages - Nevercap",
       meta: [
         {
           name: "description",
@@ -37,26 +35,40 @@ export default defineNuxtConfig({
         { rel: "stylesheet", href: "/assets/iconfont/iconfont.css" },
         { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
         // 预加载关键字体
-        { rel: "preload", as: "font", href: "/assets/iconfont/iconfont.woff2", type: "font/woff2", crossorigin: "anonymous" }
+        {
+          rel: "preload",
+          as: "font",
+          href: "/assets/iconfont/iconfont.woff2",
+          type: "font/woff2",
+          crossorigin: "anonymous"
+        }
       ],
       script: [
         // Google Analytics gtag.js - 仅在生产环境添加
-        ...(process.env.NUXT_PUBLIC_ENV !== 'production'
+        ...(process.env.NUXT_PUBLIC_ENV === "production"
           ? [
-            { src: "https://www.googletagmanager.com/gtag/js?id=G-6SQ1K5NNF1", async: true },
-            // 内联脚本初始化 gtag
-            {
-              innerHTML: `
+              {
+                src: "https://www.googletagmanager.com/gtag/js?id=G-6RLKSLWD9C",
+                async: true
+              },
+              // 内联脚本初始化 gtag
+              {
+                innerHTML: `
                   window.dataLayer = window.dataLayer || [];
                   function gtag(){dataLayer.push(arguments);}
                   gtag('js', new Date());
                   gtag('config', 'G-6SQ1K5NNF1');
                 `,
-              type: 'text/javascript',
-              async: true
-            }
-          ]
-          : []),
+                type: "text/javascript"
+              }
+            ]
+          : [
+              {
+                src: "https://assets.sandbox.cello.so/attribution/latest/cello-attribution.js",
+                async: true,
+                type: "module"
+              }
+            ]),
         // 使用 defer 延迟执行非关键脚本，不阻塞 DOM 解析
         { src: "/assets/iconfont/iconfont.js", defer: true },
         { src: "/assets/js/aes.js", defer: true },
@@ -71,10 +83,18 @@ export default defineNuxtConfig({
   nitro: {
     // preset: 'vercel-static', // 强制 SSG 模式
     routeRules: {
-      '/assets/**': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } },
-      '/pics/**': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } },
-      '/favicon.ico': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } },
-      '/_nuxt/**': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } }
+      "/assets/**": {
+        headers: { "cache-control": "public, max-age=31536000, immutable" }
+      },
+      "/pics/**": {
+        headers: { "cache-control": "public, max-age=31536000, immutable" }
+      },
+      "/favicon.ico": {
+        headers: { "cache-control": "public, max-age=31536000, immutable" }
+      },
+      "/_nuxt/**": {
+        headers: { "cache-control": "public, max-age=31536000, immutable" }
+      }
     },
     // 开发环境代理配置
     devProxy: {
@@ -101,7 +121,7 @@ export default defineNuxtConfig({
     { src: "~/plugins/gtag.js", mode: "client" },
     { src: "~/plugins/global-error.js", mode: "client" },
     // 仅在开发环境加载调试工具
-    ...(process.env.NODE_ENV !== 'production' ? [{ src: "~/plugins/vconsole.js", mode: "client" as const }] : [])
+    ...(process.env.NODE_ENV !== "production" ? [{ src: "~/plugins/vconsole.js", mode: "client" as const }] : [])
     // { src: "~/plugins/vconsole.js", mode: "client" }
   ],
   modules: [
@@ -139,7 +159,7 @@ export default defineNuxtConfig({
       cookieDomain: process.env.NUXT_COOKIE_DOMAIN,
       gtagId: process.env.NUXT_PUBLIC_GTAG_ID,
       googleClientId: process.env.NUXT_PUBLIC_GOOGLE_CLIENT_ID,
-      cosDomain: process.env.NUXT_COS_DOMAIN,
+      cosDomain: process.env.NUXT_COS_DOMAIN
     }
   },
   devServer: {
@@ -153,7 +173,7 @@ export default defineNuxtConfig({
       ...(process.env.NUXT_PUBLIC_ENV === "production"
         ? [removeConsole({ includes: ["log", "info", "warn", "error"] })]
         : [])
-    ],
+    ]
   },
   elementPlus: {
     /** Options */

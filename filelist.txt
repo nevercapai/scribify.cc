@@ -666,6 +666,7 @@
 ./pages/resources/youtube-to-mp3.vue
 ./pages/resources/video-transcription.vue
 ./pages/resources/video-transcription1.vue
+./pages/cello.vue
 ./pages/downloader
 ./pages/downloader/youtube-to-mp4
 ./pages/downloader/youtube-to-mp4/index.vue

@@ -3779,6 +3779,32 @@ let message = {
       HowWorks: "شاهد كيف يعمل"
     }
   },
+  cello: {
+    exclusiveAccess: "{name} منحك وصولاً حصرياً إلى NeverCap Pro",
+    proMember: "عضو NeverCap Pro",
+    save: "وفر",
+    unlimitedTranscription: "على النسخ بالذكاء الاصطناعي غير المحدود",
+    specialPrice: "سعرك الخاص: $8.09/شهر (العادي $8.99)",
+    whyChose: "لماذا اختار {name} NeverCap:",
+    noLimits: "لا توجد حدود شهرية (الآخرون يحددون بـ 120 دقيقة/شهر)",
+    uploadFiles: "ارفع 50 ملفاً في المرة الواحدة",
+    longFiles: "ملفات 10 ساعات مدعومة",
+    accuracy: "96% دقة مضمونة",
+    regularPrice: "السعر العادي",
+    perMonth: "/شهر",
+    getsCredit: "{name} يحصل على: $50 رصيد",
+    whenSubscribe: "عندما تشترك",
+    activateGift: "تفعيل هدية Bob",
+    existingAccount: "↓ لديك حساب بالفعل؟ طبق الخصم على الحساب الحالي",
+    offerExpires: "العرض ينتهي خلال:",
+    activeUsers: "المستخدمون النشطون",
+    rating: "التقييم",
+    noCreditCard: "لا حاجة لبطاقة ائتمان",
+    requiredFreeTrial: "مطلوب للفترة التجريبية المجانية",
+    yourSpecialPrice: "سعرك الخاص",
+    activateNameGift: "تفعيل هدية {name}",
+    year: "سنة"
+  },
   RegisterDialog: {
     transcribeNewFiles: "كتابة ملفات جديدة",
     signUpNow: "سجّل الآن",

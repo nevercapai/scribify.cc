@@ -3857,6 +3857,32 @@ let message = {
       HowWorks: "Katso, miten se toimii"
     }
   },
+  cello: {
+    exclusiveAccess: "{name} antoi sinulle eksklusiivisen pääsyn NeverCap Pro:hon",
+    proMember: "NeverCap Pro Jäsen",
+    save: "Säästä",
+    unlimitedTranscription: "rajattomassa AI-litteroinnissa",
+    specialPrice: "Sinun erikoishintasi: $8.09/kk (Säännöllinen $8.99)",
+    whyChose: "Miksi {name} valitsi NeverCapin:",
+    noLimits: "Ei kuukausirajoituksia (muut rajoittavat 120 min/kk)",
+    uploadFiles: "Lataa 50 tiedostoa kerralla",
+    longFiles: "10 tunnin tiedostot tuettu",
+    accuracy: "96% tarkkuus taattu",
+    regularPrice: "Säännöllinen Hinta",
+    perMonth: "/kk",
+    getsCredit: "{name} saa: $50 krediittiä",
+    whenSubscribe: "kun tilaat",
+    activateGift: "Aktivoi Bobin Lahja",
+    existingAccount: "↓ Onko sinulla jo tili? Käytä alennusta olemassa olevaan tiliin",
+    offerExpires: "Tarjous päättyy:",
+    activeUsers: "aktiivisia käyttäjiä",
+    rating: "arvosana",
+    noCreditCard: "Ei luottokorttia",
+    requiredFreeTrial: "tarvitaan ilmaiseen kokeiluun",
+    yourSpecialPrice: "Sinun Erikoishintasi",
+    activateNameGift: "Aktivoi {name}:n Lahja",
+    year: "vuosi"
+  },
   RegisterDialog: {
     transcribeNewFiles: "Tekstitä uusia tiedostoja",
     signUpNow: "Rekisteröidy nyt",

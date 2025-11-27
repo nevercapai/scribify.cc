@@ -657,7 +657,8 @@ let message = {
     Blog: "Blog",
     StartFreeTrial: "Try It Free",
     Transcription: "Transcription",
-    VideoTranscription: "Video Transcription"
+    VideoTranscription: "Video Transcription",
+    Other: "Other"
   },
   Footer: {
     des: "The world's first truly unlimited AI transcription service. No caps, no limits, just freedom to create.",

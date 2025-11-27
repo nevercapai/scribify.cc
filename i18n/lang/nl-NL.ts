@@ -1074,7 +1074,8 @@ let message = {
     Blog: "Blog",
     YouTubetoMP3: "YouTube naar MP3",
     Transcription: "Transcriptie",
-    VideoTranscription: "Video Transcriptie"
+    VideoTranscription: "Video Transcriptie",
+    Other: "Overig"
   },
   Footer: {
     des: "'s Werelds eerste echt onbeperkte AI-transcriptieservice. Geen limieten, geen grenzen, alleen vrijheid om te creëren.",

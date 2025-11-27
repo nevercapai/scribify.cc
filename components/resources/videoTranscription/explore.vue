@@ -1,14 +1,14 @@
 <template>
   <div class="explore-wrap">
     <div class="wrap">
-      <div class="title">Explore further</div>
-      <div class="category-title">Tools to transcribe to text</div>
+      <div class="title">{{ $i("title") }}</div>
+      <div class="category-title">{{ $i("transcribeTitle") }}</div>
       <div class="category-list">
         <span v-for="(item, index) in 13" :key="index" class="category-btn">
           {{ $i(`transcribe_${index + 1}`) }}
         </span>
       </div>
-      <div class="category-title">Other related tools</div>
+      <div class="category-title">{{ $i("otherToolsTitle") }}</div>
       <div class="category-list">
         <span v-for="(item, index) in 7" :key="index" class="category-btn">
           {{ $i(`otherTools_${index + 1}`) }}

@@ -1070,7 +1070,8 @@ let message = {
     Blog: "Blog",
     YouTubetoMP3: "YouTube'dan MP3'e",
     Transcription: "Transkripsiyon",
-    VideoTranscription: "Video Transkripsiyonu"
+    VideoTranscription: "Video Transkripsiyonu",
+    Other: "Diğer"
   },
   Footer: {
     des: "Dünyanın ilk gerçekten sınırsız AI transkripsiyon servisi. Sınır yok, kısıtlama yok, sadece özgürce yaratma özgürlüğü.",

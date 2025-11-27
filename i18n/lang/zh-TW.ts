@@ -1045,7 +1045,8 @@ let message = {
     Blog: "部落格",
     YouTubetoMP3: "YouTube 轉 MP3",
     Transcription: "轉錄",
-    VideoTranscription: "影片轉錄"
+    VideoTranscription: "影片轉錄",
+    Other: "其他"
   },
   Footer: {
     des: "全球首個真正無限的AI轉錄服務。無上限，無限制，只有創造的自由。",

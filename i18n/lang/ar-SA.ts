@@ -1057,7 +1057,8 @@ let message = {
     Blog: "مدونة",
     YouTubetoMP3: "تحويل اليوتيوب إلى MP3",
     Transcription: "النسخ",
-    VideoTranscription: "نسخ الفيديو"
+    VideoTranscription: "نسخ الفيديو",
+    Other: "أخرى"
   },
   Footer: {
     des: "أول خدمة نسخ بالذكاء الاصطناعي",

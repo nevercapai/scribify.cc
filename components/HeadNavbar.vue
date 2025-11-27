@@ -281,7 +281,7 @@ const menuList = computed(() => [
       //   children: []
       // },
       {
-        name: "Other",
+        name: t("HeadNavbar.Other"),
         children: [
           {
             name: t("HeadNavbar.YouTubetoMP4"),

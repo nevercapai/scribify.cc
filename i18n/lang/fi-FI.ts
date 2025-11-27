@@ -1069,7 +1069,8 @@ let message = {
     Blog: "Blogi",
     YouTubetoMP3: "YouTubesta MP3:een",
     Transcription: "Tekstitys",
-    VideoTranscription: "Videoiden tekstitys"
+    VideoTranscription: "Videoiden tekstitys",
+    Other: "Muu"
   },
   Footer: {
     des: "Maailman ensimmäinen todella rajaton AI-tekstitypalvelu. Ei rajoituksia, ei kattoja, vain vapaus luoda.",

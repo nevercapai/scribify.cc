@@ -1052,7 +1052,8 @@ let message = {
     Blog: "בלוג",
     YouTubetoMP3: "יוטיוב ל-MP3",
     Transcription: "תמלול",
-    VideoTranscription: "תמלול וידאו"
+    VideoTranscription: "תמלול וידאו",
+    Other: "אחר"
   },
   Footer: {
     des: "שירות התמלול הבינה מלאכותית הראשון בעולם באמת בלתי מוגבל. אין הגבלות, אין מגבלות, רק חופש ליצור.",

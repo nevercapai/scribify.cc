@@ -1084,7 +1084,8 @@ let message = {
     Blog: "Der Blog",
     YouTubetoMP3: "YouTube zu MP3",
     Transcription: "Transkription",
-    VideoTranscription: "Video-Transkription"
+    VideoTranscription: "Video-Transkription",
+    Other: "Andere"
   },
   Footer: {
     des: "Der weltweit erste wirklich unbegrenzte KI-Transkriptionsdienst. Keine Obergrenzen, keine Limits, nur Freiheit zum Erstellen.",

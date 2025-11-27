@@ -1225,7 +1225,8 @@ let message = {
     Blog: "ブログ",
     YouTubetoMP3: "YouTubeからMP3へ",
     Transcription: "文字起こし",
-    VideoTranscription: "動画文字起こし"
+    VideoTranscription: "動画文字起こし",
+    Other: "その他"
   },
   Footer: {
     des: "世界初の真に無制限なAI文字起こしサービス。上限なし、制限なし、ただ創造の自由を。",

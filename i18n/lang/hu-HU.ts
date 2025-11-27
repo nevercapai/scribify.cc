@@ -1079,7 +1079,8 @@ let message = {
     Blog: "Blog",
     YouTubetoMP3: "YouTube-ból MP3-ba",
     Transcription: "Átírás",
-    VideoTranscription: "Videóátiratozás"
+    VideoTranscription: "Videóátiratozás",
+    Other: "Egyéb"
   },
   Footer: {
     des: "A világ első valóban korlátlan mesterséges intelligencia átírási szolgáltatása. Nincs korlát, nincs limit, csak a kreativitás szabadsága.",

@@ -1065,7 +1065,8 @@ let message = {
     Blog: "블로그",
     YouTubetoMP3: "유튜브에서 MP3로",
     Transcription: "자막 생성",
-    VideoTranscription: "영상 자막 생성"
+    VideoTranscription: "영상 자막 생성",
+    Other: "기타"
   },
   Footer: {
     des: "세계 최초의 진정한 무제한 AI 텍스트 변환 서비스. 제한 없이 자유롭게 창조하세요.",

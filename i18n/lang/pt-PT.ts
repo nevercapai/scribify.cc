@@ -1072,7 +1072,8 @@ let message = {
     Blog: "Blogue",
     YouTubetoMP3: "YouTube para MP3",
     Transcription: "Transcrição",
-    VideoTranscription: "Transcrição de Vídeo"
+    VideoTranscription: "Transcrição de Vídeo",
+    Other: "Outro"
   },
   Footer: {
     des: "O primeiro serviço de transcrição por IA verdadeiramente ilimitado do mundo. Sem limites, sem restrições, apenas liberdade para criar.",

@@ -1072,7 +1072,8 @@ let message = {
     Blog: "Блог",
     YouTubetoMP3: "YouTube в MP3",
     Transcription: "Транскрипция",
-    VideoTranscription: "Транскрипция видео"
+    VideoTranscription: "Транскрипция видео",
+    Other: "Другое"
   },
   Footer: {
     des: "Первый в мире действительно безлимитный сервис ИИ-транскрипции. Без ограничений, без лимитов — только свобода творчества.",

@@ -517,7 +517,55 @@ let message = {
       yua: "Jukatański maja",
       Dzongkha: "Dzongkha",
       Zulu: "Zulu"
-    }
+    },
+    edit: "Edytuj",
+    translate: "Tłumacz",
+    showTimestamp: "Pokaż znacznik czasu",
+    showMoreTimestamp: "Pokaż bardziej szczegółowy znacznik czasu",
+    selectMoreTimestamp: "Szczegółowy znacznik czasu",
+    hideTimestamp: "Ukryj znacznik czasu",
+    showSpeaker: "Mówca",
+    timestamp: "Znacznik czasu",
+    timestampMore: "Więcej",
+    share: "Udostępnij",
+    shared: "udostępniono",
+    export: "Eksportuj",
+    speaker: "Mówca_{id}",
+    unassignSpeaker: "Usuń przypisanie mówcy",
+    play: "Odtwórz",
+    save: "Zapisz",
+    undo: "Cofnij",
+    redo: "Ponów",
+    confirm: "Potwierdź",
+    cancel: "Anuluj",
+    addNew: "Dodaj nowy",
+    createANewSpeaker: "Utwórz nowego mówcę",
+    speakerName: "Nazwa mówcy",
+    addSpeaker: "Dodaj mówcę",
+    applyToAllMatchingSpeakers: "Zastosuj do wszystkich pasujących mówców",
+    applyToCurrentParagraph: "Zastosuj do bieżącego akapitu",
+    speakerDuplicate: "Mówca już istnieje.",
+    cancelTranslation: "Anuluj tłumaczenie",
+    showVideo: "Pokaż wideo",
+    hideVideo: "Ukryj wideo",
+    notFund: "Nie znaleziono",
+    notFundDesc: "Nie znaleźliśmy tego, czego szukałeś.",
+    shareTips: "Każdy z tym linkiem może przeglądać transkrypcję i odtwarzać plik multimedialny.",
+    copyLink: "Kopiuj link",
+    copySuccessful: "Kopiowanie powiodło się",
+    copyFail: "Kopiowanie nie powiodło się",
+    closeTrans: "Anuluj tłumaczenie",
+    upgradeBtn: "Odblokuj teraz (wersja płatna)",
+    upgradeTip30: "Odblokuj pełną transkrypcję",
+    upgradeTipMore: "Świetna wiadomość! Twój cały plik został przetranskrybowany.",
+    errorTips: "Coś poszło nie tak.",
+    copiedLink: "Link skopiowany",
+    copyGotIt: "Rozumiem",
+    upgradeMinPreview: "Przejdź na wersję płatną, aby zobaczyć więcej niż 30-minutowy podgląd.",
+    silentTip: "Brak dźwięku w pliku. Sprawdź i spróbuj ponownie.",
+    outLimit: "Plik przekracza limit długości",
+    outLimitTip1: "Darmowe konta obsługują pliki do 30 minut.",
+    outLimitTip2: "Zarejestruj się, aby odblokować pełną transkrypcję!"
   },
   // Logowanie, rejestracja, zmiana hasła
   IdentityInfoManage: {
@@ -1023,7 +1071,9 @@ let message = {
     YouTubetoMP4: "YouTube do MP4",
     StartFreeTrial: "Wypróbuj za darmo",
     Blog: "Blog",
-    YouTubetoMP3: "YouTube na MP3"
+    YouTubetoMP3: "YouTube na MP3",
+    Transcription: "Transkrypcja",
+    VideoTranscription: "Transkrypcja wideo"
   },
   Footer: {
     des: "Pierwsza na świecie naprawdę nieograniczona usługa transkrypcji AI. Brak limitów, brak ograniczeń, tylko wolność tworzenia.",
@@ -1042,7 +1092,7 @@ let message = {
     ],
     companyMenus: ["O nas", "Cennik", "Prywatność", "Warunki"],
     Resources: "Zasoby",
-    resourcesMenus: ["YouTube do MP4", "YouTube na MP3"]
+    resourcesMenus: ["YouTube do MP4", "YouTube na MP3", "Transkrypcja wideo"]
   },
   Index: {
     Hero: {
@@ -3313,6 +3363,159 @@ let message = {
         TranscribeButton: "Rozpisać",
         downloadError: "Błąd konwersji."
       }
+    },
+    Transcription: {
+      videoTranscription: {
+        hero: {
+          title: "Transkrypcja wideo: Napędzana przez AI i dokładna",
+          des: "Transkrybuj wideo na tekst z wysoką dokładnością i obsługą ponad 100 języków. Łatwo konwertuj dowolny plik lub link na edytowalny tekst i eksportuj w wielu formatach – od krótkich klipów po długie filmy.",
+          feature_1: "Obsługa 12 formatów",
+          feature_2: "Obsługa ponad 100 języków",
+          feature_3: "Eksport w 6 formatach"
+        },
+        threeStep: {
+          title: "Jak to działa",
+          titleHighlight: "Konwertuj wideo na tekst z NeverCap",
+          step_1_title: "Prześlij lub wklej",
+          step_1_des:
+            "Obsługujemy formaty wideo, takie jak MP4, MOV, WMV i MPEG, oraz linki z YouTube, TikTok, X, Facebook i innych platform.",
+          step_2_title: "Transkrybuj wideo na tekst",
+          step_2_des:
+            'Kliknij przycisk "Transkrybuj" i czekaj na zakończenie procesu. Jednogodzinne wideo zwykle transkrybuje się w zaledwie 1–2 minuty.',
+          step_3_title: "Eksportuj lub udostępniaj",
+          step_3_des:
+            "Edytuj tekst bezpośrednio online, a następnie eksportuj go w wielu formatach, takich jak TXT, PDF, DOCX, SRT, CSV lub VTT. Możesz także wygenerować link do udostępnienia swojej transkrypcji."
+        },
+        whyTran: {
+          title: "Dlaczego",
+          titleHighlight: "Transkrybuj wideo na tekst",
+          des: "Jest to niezwykle przydatne w scenariuszach takich jak nauka, tworzenie treści, badania i praca. Oto dlaczego:",
+          reason_1_title: "Ułatwia notowanie i przeglądanie.",
+          reason_1_des:
+            "Studenci, badacze i twórcy często potrzebują wyciągać informacje z filmów. Transkrypcja ułatwia tworzenie notatek, organizowanie wywiadów badawczych, pisanie scenariuszy lub artykułów oraz tłumaczenie treści dokładniej i efektywniej kosztowo.",
+          reason_2_title: "Zwiększa możliwość wyszukiwania.",
+          reason_2_des:
+            "Dzięki tekstowi możesz szybko wyszukać słowa kluczowe i zlokalizować ważne fragmenty – bez potrzeby przewijania filmu.",
+          reason_3_title: "Oszczędza czas i zwiększa wydajność.",
+          reason_3_des:
+            "Czytanie tekstu jest znacznie szybsze niż oglądanie wideo, szczególnie w przypadku wykładów, wywiadów lub spotkań. Tekst pozwala na przeglądanie lub przechodzenie bezpośrednio do kluczowych punktów.",
+          reason_4_title: "Poprawia dostępność.",
+          reason_4_des:
+            "Zapewnia równy dostęp do informacji osobom głuchym lub niedosłyszącym, obcokrajowcom lub osobom z trudnościami słuchowymi. Pomaga również platformom spełniać standardy zgodności, takie jak WCAG.",
+          reason_5_title: "Umożliwia ponowne wykorzystanie treści.",
+          reason_5_des:
+            "Twórcy często używają transkrypcji do szybkiego generowania postów na bloga, treści w mediach społecznościowych, streszczeń lub napisów do filmów – znacząco przyspieszając proces twórczy bez konieczności ręcznego pisania.",
+          reason_6_title: "Wspiera lepsze zrozumienie, zapamiętywanie i archiwizację.",
+          reason_6_des:
+            "Łączenie informacji wizualnych i tekstowych poprawia zrozumienie i pamięć, a pliki tekstowe są łatwe do przechowywania, idealne do tworzenia baz wiedzy, bibliotek dokumentów lub systemów archiwizacji."
+        },
+        whyChoose: {
+          title: "Dlaczego warto wybrać",
+          titleHighlight: "Nasze narzędzie do transkrypcji wideo",
+          reason_1_title: "Transkrybuj i tłumacz globalnie",
+          reason_1_des:
+            "Obsługujemy transkrypcję w ponad 100 językach i tłumaczenie na 249 innych, usuwając wszelkie bariery językowe.",
+          reason_2_title: "Uniwersalna zgodność formatów",
+          reason_2_des:
+            "Działa bezproblemowo ze wszystkimi popularnymi formatami wideo (MP4, MOV, MKV itp.) oraz platformami takimi jak YouTube i TikTok.",
+          reason_3_title: "Naprawdę nielimitowana transkrypcja",
+          reason_3_des:
+            "Transkrybuj 100 lub 1000 filmów – Twoja cena pozostaje taka sama. Żadnych ukrytych limitów, żadnych niespodziewanych kosztów.",
+          reason_4_title: "Dokładność, której możesz zaufać",
+          reason_4_des:
+            "Korzystaj z ponad 95% ogólnej dokładności, przy czym kluczowe języki, takie jak angielski i hiszpański, osiągają ponad 96%.",
+          reason_5_title: "Bezpieczeństwo klasy enterprise",
+          reason_5_des:
+            "Twoje dane są chronione przez wiodące w branży protokoły szyfrowania i prywatności. Traktujemy Twoją poufność z najwyższą powagą.",
+          reason_6_title: "Sygnatury czasowe na poziomie słów",
+          reason_6_des:
+            "Natychmiastowo znajdź dowolny moment w swoim filmie. Kliknij słowo w transkrypcji, aby przejść bezpośrednio do dokładnego czasu w oryginalnym nagraniu."
+        },
+        reviews: {
+          title: "Opinie od",
+          titleHighlight: "Naszych użytkowników",
+          des: "Sprawdź, dlaczego tysiące użytkowników polega na naszym łatwym transkrybowaniu.",
+          people_1_content:
+            "Transkrypcja wideo NeverCap jest absolutnie fantastyczna! Po wypróbowaniu ponad tuzina narzędzi do transkrypcji, to jedyna usługa bez limitów. Mogę transkrybować dowolną ilość bez obaw o limity.",
+          people_1_job: "Twórca treści",
+          people_2_content:
+            "Przystępne ceny, łatwe przetwarzanie dużych plików i obsługa wielu plików jednocześnie. NeverCap rozwiązuje niemal wszystkie moje problemy.",
+          people_2_job: "Badacz",
+          people_3_content:
+            "Dokładne, szybkie i obsługuje mnóstwo języków. Największe wrażenie robi obsługa długich filmów. NeverCap stał się niezbędny, poleciłem go wszystkim znajomym.",
+          people_3_job: "Doktorant"
+        },
+        faq: {
+          title: "Kluczowe pytania dotyczące",
+          titleHighlight: "Transkrypcji wideo",
+          question_1: "Jakie formaty wideo obsługuje NeverCap?",
+          answer_1: "Obsługujemy popularne formaty: MP4, MOV, WMV, MPEG, WebM i MKV.",
+          question_2: "Jak transkrybować link do filmu i jakie platformy są obsługiwane?",
+          answer_2:
+            'Wklej URL filmu i kliknij "Transkrybuj". Obsługujemy YouTube, Facebook, X, Dropbox, Google Drive, Vimeo, TikTok, Instagram i inne.',
+          question_3: "Jakie języki są obsługiwane w transkrypcji?",
+          answer_3:
+            "NeverCap obsługuje 100+ języków, w tym angielski, hiszpański, mandaryński, francuski, niemiecki, japoński, koreański, portugalski, rosyjski, włoski, holenderski i arabski.",
+          question_4: "Jaka jest maksymalna długość i rozmiar pliku do transkrypcji?",
+          answer_4: "Maksymalny rozmiar to 5GB, a długość - 10 godzin na film.",
+          question_5: "Ile plików wideo mogę przesłać naraz?",
+          answer_5: "NeverCap przetwarza jednocześnie do 50 plików.",
+          question_6: "Jak szybko działa transkrypcja? Czy muszę długo czekać?",
+          answer_6: "Nie ma długiego oczekiwania. Godzinny film zwykle transkrybujemy w 3 minuty.",
+          question_7: "Jaka jest dokładność transkrypcji NeverCap?",
+          answer_7:
+            "Ponad 95% dla wszystkich języków, ponad 96% dla kluczowych jak angielski, hiszpański, mandaryński i francuski.",
+          question_8: "Czy można przetłumaczyć transkrypcję na inne języki?",
+          answer_8: "Tak. Po transkrypcji tekst można przetłumaczyć na 249 języków.",
+          question_9: "Czy mogę edytować, eksportować lub udostępniać transkrypcję?",
+          answer_9:
+            "Oczywiście. Tekst można edytować na bieżąco. Eksport do PDF, DOCX, TXT, TTV, CSV i SRT. Można też generować link do udostępnienia."
+        },
+        explore: {
+          title: "Dowiedz się więcej",
+          transcribeTitle: "Narzędzia do transkrypcji na tekst",
+          transcribe_1: "Audio na tekst",
+          transcribe_2: "Mowa na tekst",
+          transcribe_3: "MP3 na tekst",
+          transcribe_4: "MP4 na tekst",
+          transcribe_5: "AAC na tekst",
+          transcribe_6: "AMR na tekst",
+          transcribe_7: "M4A na tekst",
+          transcribe_8: "MOV na tekst",
+          transcribe_9: "MPEG na tekst",
+          transcribe_10: "OGG na tekst",
+          transcribe_11: "TS na tekst",
+          transcribe_12: "WAV na tekst",
+          transcribe_13: "WEBM na tekst",
+          otherToolsTitle: "Inne powiązane narzędzia",
+          otherTools_1: "Al Notetaker",
+          otherTools_2: "Dodaj napisy do wideo",
+          otherTools_3: "Tłumacz audio",
+          otherTools_4: "Tłumacz wideo",
+          otherTools_5: "Generator napisów",
+          otherTools_6: "Podsumowanie wideo",
+          otherTools_7: "Konwerter wideo"
+        }
+      }
+    },
+    Upload: {
+      uploadFile: "Prześlij plik",
+      pasteLink: "Wklej link",
+      fileTip: "Uzyskaj transkrypcję wideo w kilka sekund",
+      linkTitle: "Link",
+      linkTip: "Wklej link z dowolnej platformy, aby rozpocząć",
+      transcribeProgress: "Trwa transkrybowanie...",
+      transcribeFailed: "Transkrypcja nie powiodła się...",
+      retry: "Spróbuj ponownie",
+      search: "Szukaj",
+      tip1: "Chcesz zapisać to na stałe?",
+      tip2: "Zarejestruj się za darmo",
+      tip3: "aby zarządzać i edytować wszystkie swoje pliki transkrypcji.",
+      tip4: "Chcesz",
+      tip5: "zapisać",
+      tip6: "to na stałe?",
+      tip7: "aby zarządzać i edytować",
+      tip8: "wszystkie swoje pliki transkrypcji."
     }
   },
   About: {
@@ -3657,6 +3860,13 @@ let message = {
       GoToSignup: "Wypróbuj NeverCap za darmo – bez karty kredytowej",
       HowWorks: "Zobacz jak to działa"
     }
+  },
+  RegisterDialog: {
+    transcribeNewFiles: "Transkrybuj nowe pliki",
+    signUpNow: "Zarejestruj się teraz",
+    stillExporting: "Wciąż eksportowanie",
+    tip1: "Zarejestruj się za darmo, aby zapisywać i edytować swoje pliki na stałe!",
+    tip2: "Ulepsz, aby uzyskać nielimitowaną transkrypcję!"
   }
 };
 

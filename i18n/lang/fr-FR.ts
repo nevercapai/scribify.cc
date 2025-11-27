@@ -521,7 +521,55 @@ let message = {
       yua: "Maya yucatèque",
       Dzongkha: "Dzongkha",
       Zulu: "Zoulou"
-    }
+    },
+    edit: "Modifier",
+    translate: "Traduire",
+    showTimestamp: "Afficher l'horodatage",
+    showMoreTimestamp: "Afficher un horodatage plus détaillé",
+    selectMoreTimestamp: "Horodatage détaillé",
+    hideTimestamp: "Masquer l'horodatage",
+    showSpeaker: "Intervenant",
+    timestamp: "Horodatage",
+    timestampMore: "Plus",
+    share: "Partager",
+    shared: "partagé",
+    export: "Exporter",
+    speaker: "Intervenant_{ id }",
+    unassignSpeaker: "Désattribuer l'intervenant",
+    play: "Lire",
+    save: "Enregistrer",
+    undo: "Annuler",
+    redo: "Rétablir",
+    confirm: "Confirmer",
+    cancel: "Annuler",
+    addNew: "Ajouter un nouveau",
+    createANewSpeaker: "Créer un nouvel intervenant",
+    speakerName: "Nom de l'intervenant",
+    addSpeaker: "Ajouter un intervenant",
+    applyToAllMatchingSpeakers: "Appliquer à tous les intervenants correspondants",
+    applyToCurrentParagraph: "Appliquer au paragraphe actuel",
+    speakerDuplicate: "L'intervenant existe déjà.",
+    cancelTranslation: "Annuler la traduction",
+    showVideo: "Afficher la vidéo",
+    hideVideo: "Masquer la vidéo",
+    notFund: "Non trouvé",
+    notFundDesc: "Nous n'avons pas trouvé ce que vous cherchiez.",
+    shareTips: "Toute personne disposant de ce lien peut visualiser la transcription et lire le média.",
+    copyLink: "Copier le lien",
+    copySuccessful: "Copie réussie",
+    copyFail: "Échec de la copie",
+    closeTrans: "Annuler la traduction",
+    upgradeBtn: "Mettez à niveau maintenant pour débloquer",
+    upgradeTip30: "Débloquez votre transcription complète",
+    upgradeTipMore: "Bonne nouvelle ! Votre fichier entier est transcrit.",
+    errorTips: "Quelque chose s'est mal passé.",
+    copiedLink: "Lien copié",
+    copyGotIt: "Compris",
+    upgradeMinPreview: "Mettez à niveau pour voir au-delà de l'aperçu de 30 minutes.",
+    silentTip: "Aucun audio dans le fichier. Vérifiez et réessayez.",
+    outLimit: "Fichier dépasse la limite de durée",
+    outLimitTip1: "Les comptes gratuits prennent en charge les fichiers jusqu'à 30 minutes.",
+    outLimitTip2: "Inscrivez-vous pour mettre à niveau et débloquer le texte transcrit complet dès maintenant !"
   },
   // 登录、注册、修改密码
   IdentityInfoManage: {
@@ -1032,7 +1080,9 @@ let message = {
     YouTubetoMP4: "YouTube vers MP4",
     StartFreeTrial: "Essayez Gratuitement",
     Blog: "Blog",
-    YouTubetoMP3: "YouTube en MP3"
+    YouTubetoMP3: "YouTube en MP3",
+    Transcription: "Transcription",
+    VideoTranscription: "Transcription vidéo"
   },
   Footer: {
     des: "Le premier service de transcription IA vraiment illimité au monde. Pas de plafond, pas de limites, juste la liberté de créer.",
@@ -1051,7 +1101,7 @@ let message = {
     ],
     companyMenus: ["À propos", "Tarifs", "Confidentialité", "Conditions"],
     Resources: "Ressources",
-    resourcesMenus: ["YouTube en MP4", "YouTube en MP3"]
+    resourcesMenus: ["YouTube en MP4", "YouTube en MP3", "Transcription vidéo"]
   },
   Index: {
     Hero: {
@@ -1084,7 +1134,7 @@ let message = {
         "Plus de Limites Cachées, Plus de Surprises - Alors que d'autres réduisent discrètement vos minutes ou cachent des plafonds dans les petits caractères, nous croyons en une transparence radicale",
       feat_unltd: "Vraiment Illimité",
       feat_unltd_desc:
-        'Pas de "politique d\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'usage raisonnable" cachée dans les conditions. Pas de plafonds de stockage déguisés en "illimité". Téléchargez toute votre archive, transcrivez tout pour tous vos besoins audio. Nous le pensons vraiment.',
+        'Pas de "politique d\'usage raisonnable" cachée dans les conditions. Pas de plafonds de stockage déguisés en "illimité". Téléchargez toute votre archive, transcrivez tout pour tous vos besoins audio. Nous le pensons vraiment.',
       feat_bulk: "Liberté de Téléchargement en Masse",
       feat_bulk_desc:
         'Fatigué des "3 imports à vie" ou "10 fichiers par mois" ? Téléchargez 50 fichiers à la fois, autant de fois que nécessaire. Idéal pour traiter les retards.',
@@ -1270,7 +1320,7 @@ let message = {
       feature1Description:
         "Arrêtez de compter les minutes. Arrêtez de surveiller les plafonds. Que vous transcriviez 10 heures ou 10 000 heures par mois, vous payez le même tarif fixe. Pas de frais supplémentaires. Pas de factures surprises.",
       feature1Point1Icon: "✓",
-      feature1Point1Text: 'Pas de pièges de "politique d\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'usage équitable"',
+      feature1Point1Text: 'Pas de pièges de "politique d\'usage équitable"',
       feature1Point2Icon: "✓",
       feature1Point2Text: "Pas de ralentissement après X heures",
       feature1Point3Icon: "✓",
@@ -1305,11 +1355,11 @@ let message = {
       feature3TitlePart1: "Les utilisateurs",
       feature3TitlePart2: "Changent chaque jour",
       feature3Description:
-        '"Je paie 100 $/an pour Otter et ils me limitent à 10 imports de fichiers par mois. Dès qu\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'il y aura une alternative avec des imports illimités, je pars !" - Vrai utilisateur Reddit',
+        '"Je paie 100 $/an pour Otter et ils me limitent à 10 imports de fichiers par mois. Dès qu\'il y aura une alternative avec des imports illimités, je pars !" - Vrai utilisateur Reddit',
       feature3Point1Icon: "✓",
       feature3Point1Text: "50 000+ utilisateurs ont changé",
       feature3Point2Icon: "✓",
-      feature3Point2Text: 'Face à la "shrinkflation" d\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'Otter',
+      feature3Point2Text: 'Face à la "shrinkflation" d\'Otter',
       feature3Point3Icon: "✓",
       feature3Point3Text: "Jamais de retour en arrière",
       feature3Stat1Number: "50 K+",
@@ -1344,7 +1394,7 @@ let message = {
       primaryCta: "Commencer le Transfert en Masse →",
       secondaryCta: "Voir les Limites",
       redditQuote:
-        "\"J\\\\\\\\\\\\\\\\\\\\\\\\\\\\'ai 3 ans d\\\\\\\\\\\\\\\\\\\\\\\\\\\\'épisodes de podcast à transcrire. Otter m\\\\\\\\\\\\\\\\\\\\\\\\\\\\'annonce 3 imports à vie. TROIS. C\\\\\\\\\\\\\\\\\\\\\\\\\\\\'est insultant.\"",
+        "\"J'ai 3 ans d'épisodes de podcast à transcrire. Otter m'annonce 3 imports à vie. TROIS. C'est insultant.\"",
       redditAuthorIcon: "📍",
       redditAuthorText: "Réelle frustration de r/podcasting",
       comparisonSectionTitlePart1: "Les",
@@ -1371,7 +1421,7 @@ let message = {
       feature1TitleHighlight: "Archives Entières",
       feature1TitlePart2: "en Une Nuit",
       feature1Description:
-        "Transférez 50 fichiers avant de dormir. Réveillez-vous avec les transcriptions prêtes. Pas de file d\\\\\\\\\\\\\\\\\\\\\\\\\\\\'attente, pas d\\\\\\\\\\\\\\\\\\\\\\\\\\\\'attente, pas de messages \"upgradez\". Juste une puissance de traitement à portée de main.",
+        "Transférez 50 fichiers avant de dormir. Réveillez-vous avec les transcriptions prêtes. Pas de file d'attente, pas d'attente, pas de messages \"upgradez\". Juste une puissance de traitement à portée de main.",
       feature1Point1Icon: "✓",
       feature1Point1Text: "50 transferts simultanés",
       feature1Point2Icon: "✓",
@@ -1415,7 +1465,7 @@ let message = {
       feature3TitleHighlight: "Pas d'attente.",
       feature3TitlePart2: "Pas de limites.",
       feature3Description:
-        'Alors que d\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'autres vous font attendre dans des files virtuelles ou vous proposent des mises à niveau pour un "traitement prioritaire", nous traitons chaque téléchargement avec urgence. Votre contenu compte, et il ne devrait pas attendre.',
+        'Alors que d\'autres vous font attendre dans des files virtuelles ou vous proposent des mises à niveau pour un "traitement prioritaire", nous traitons chaque téléchargement avec urgence. Votre contenu compte, et il ne devrait pas attendre.',
       feature3Point1Icon: "✓",
       feature3Point1Text: "Pas de niveaux de priorité",
       feature3Point2Icon: "✓",
@@ -1706,7 +1756,7 @@ let message = {
         }
       ],
       disclaimer:
-        "\"Illimité\" signifie pas de plafond mensuel ni de ralentissement artificiel. L\\\\\\\\\\\\\\\\\\\\\\\\\\\\'usage équitable s\\\\\\\\\\\\\\\\\\\\\\\\\\\\'applique à l\\\\\\\\\\\\\\\\\\\\\\\\\\\\'automatisation abusive ou la redistribution."
+        "\"Illimité\" signifie pas de plafond mensuel ni de ralentissement artificiel. L'usage équitable s'applique à l'automatisation abusive ou la redistribution."
     },
     ComparisonTable: {
       header: {
@@ -1896,7 +1946,7 @@ let message = {
       },
       contentCreators: {
         title: "Créateurs de contenu",
-        pain: '"L\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'accessibilité ne devrait pas être coûteuse"',
+        pain: '"L\'accessibilité ne devrait pas être coûteuse"',
         description:
           "Sous-titrez toute votre chaîne YouTube. Générez des sous-titres en plusieurs langues et améliorez instantanément le SEO de vos vidéos.",
         benefits: {
@@ -1974,7 +2024,7 @@ let message = {
       },
       educators: {
         title: "Éducateurs",
-        pain: '"Les vidéos YouTube ont besoin d\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'une transcription instantanée"',
+        pain: '"Les vidéos YouTube ont besoin d\'une transcription instantanée"',
         description:
           "Collez simplement des liens YouTube pour obtenir des transcriptions instantanées et des sous-titres générés automatiquement. Transformez toute vidéo éducative en contenu accessible et consultable.",
         benefits: {
@@ -2004,10 +2054,10 @@ let message = {
         subtitle: "Écoutez des professionnels qui ont brisé les limites artificielles",
         testimonials: {
           mike: {
-            textBefore: "\"J\\\\\\\\\\\\\\\\\\\\\\\\\\\\'avais",
+            textBefore: "\"J'avais",
             highlight: "3 ans d'épisodes",
             textAfter:
-              "non transcrits. Otter voulait que j\\\\\\\\\\\\\\\\\\\\\\\\\\\\'en choisisse 3. TROIS. NeverCap m\\\\\\\\\\\\\\\\\\\\\\\\\\\\'a permis de télécharger les 150 épisodes en un week-end.\"",
+              "non transcrits. Otter voulait que j'en choisisse 3. TROIS. NeverCap m'a permis de télécharger les 150 épisodes en un week-end.\"",
             name: "Mike Rodriguez",
             role: "Animateur de podcast"
           },
@@ -2015,7 +2065,7 @@ let message = {
             textBefore: '"En tant que journaliste indépendante, je ne peux pas me permettre les',
             highlight: "$100/mois",
             textAfter:
-              "de Trint, mais je ne peux pas non plus travailler avec la limite de 10 fichiers par mois d\\\\\\\\\\\\\\\\\\\\\\\\\\\\'Otter. NeverCap a sauvé ma carrière.\"",
+              "de Trint, mais je ne peux pas non plus travailler avec la limite de 10 fichiers par mois d'Otter. NeverCap a sauvé ma carrière.\"",
             name: "Jessica Park",
             role: "Journaliste indépendante"
           },
@@ -2023,7 +2073,7 @@ let message = {
             textBefore: '"Notre équipe de recherche avait',
             highlight: "200 heures",
             textAfter:
-              "d\\\\\\\\\\\\\\\\\\\\\\\\\\\\'enregistrements de groupes de discussion. Nous avons tout traité en un week-end au lieu de rationner les minutes mensuelles.\"",
+              "d'enregistrements de groupes de discussion. Nous avons tout traité en un week-end au lieu de rationner les minutes mensuelles.\"",
             name: "Dr. Sarah Chen",
             role: "Chercheuse principale"
           },
@@ -2088,8 +2138,7 @@ let message = {
       },
       problemTitle: "Le",
       problemTitleHighlight: "Problème de transcription de podcasts",
-      problemSubtitle:
-        "D\\\\\\\\\\\\\\\\\\\\\\\\\\\\'autres services vous obligent à choisir quels épisodes \"méritent\" d\\\\\\\\\\\\\\\\\\\\\\\\\\\\'être transcrits",
+      problemSubtitle: "D'autres services vous obligent à choisir quels épisodes \"méritent\" d'être transcrits",
       problems: {
         problem1: {
           title: "Les limites de téléchargement tuent les archives",
@@ -2170,12 +2219,12 @@ let message = {
       testimonialsSubtitle: "Des histoires vraies de vrais podcasteurs",
       testimonials: {
         mike: {
-          text: "\"Je fais un podcast depuis 3 ans et je transcrivais tout manuellement comme un idiot. J\\\\\\\\\\\\\\\\\\\\\\\\\\\\'ai téléchargé 6 épisodes d\\\\\\\\\\\\\\\\\\\\\\\\\\\\'un coup et cela a parfaitement séparé mon co-animateur et moi. L\\\\\\\\\\\\\\\\\\\\\\\\\\\\'épisode en café que je pensais raté ? Une transcription cristalline. Je ne retaperai plus jamais ça moi-même.\"",
+          text: "\"Je fais un podcast depuis 3 ans et je transcrivais tout manuellement comme un idiot. J'ai téléchargé 6 épisodes d'un coup et cela a parfaitement séparé mon co-animateur et moi. L'épisode en café que je pensais raté ? Une transcription cristalline. Je ne retaperai plus jamais ça moi-même.\"",
           name: "Mike Rodriguez",
           role: 'Animateur du podcast "The Daily Grind"'
         },
         sarah: {
-          text: "\"Otter me limitait à 10 imports de fichiers par mois. J\\\\\\\\\\\\\\\\\\\\\\\\\\\\'avais 150 épisodes en retard. NeverCap m\\\\\\\\\\\\\\\\\\\\\\\\\\\\'a permis de tout télécharger en 3 lots. Mon trafic organique a augmenté de 300% depuis l\\\\\\\\\\\\\\\\\\\\\\\\\\\\'ajout de transcriptions aux anciens épisodes. Cela s\\\\\\\\\\\\\\\\\\\\\\\\\\\\'est littéralement payé tout seul.\"",
+          text: "\"Otter me limitait à 10 imports de fichiers par mois. J'avais 150 épisodes en retard. NeverCap m'a permis de tout télécharger en 3 lots. Mon trafic organique a augmenté de 300% depuis l'ajout de transcriptions aux anciens épisodes. Cela s'est littéralement payé tout seul.\"",
           name: "Sarah Chen",
           role: 'Créatrice de "Tech Talks Today"'
         }
@@ -2292,8 +2341,7 @@ let message = {
       problem: {
         title: "Le",
         titleHighlight: "Problème de transcription des journalistes",
-        subtitle:
-          "D\\\\\\\\\\\\\\\\\\\\\\\\\\\\'autres services vous obligent à choisir quelles interviews \"méritent\" d\\\\\\\\\\\\\\\\\\\\\\\\\\\\'être transcrites",
+        subtitle: "D'autres services vous obligent à choisir quelles interviews \"méritent\" d'être transcrites",
         problems: {
           uploadLimits: {
             title: "Les limites de téléchargement tuent les enquêtes",
@@ -2664,8 +2712,7 @@ let message = {
       statsSpeakersId: "ID intervenants",
       statsCompliant: "Conforme",
       problemTitle: "Le",
-      problemSubtitle:
-        "D\\\\\\\\\\\\\\\\\\\\\\\\\\\\'autres services vous font choisir quelles données \"méritent\" d\\\\\\\\\\\\\\\\\\\\\\\\\\\\'être transcrites",
+      problemSubtitle: "D'autres services vous font choisir quelles données \"méritent\" d'être transcrites",
       problemCard1Title: "Les limites de téléchargement tuent les études",
       problemCard1Desc: "Otter offre 3 imports à vie. Comment transcrire 200 heures de groupes de discussion ?",
       problemCard2Title: "Données critiques manquantes",
@@ -2678,7 +2725,7 @@ let message = {
       feature1Label: "Pas de limites",
       feature1Title: "Gérer votre",
       feature1Desc:
-        'Téléchargez 200 heures d\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'entretiens ce soir. Réveillez-vous avec des transcriptions complètes et consultables. Pas de plafonds mensuels, pas de limites par fichier, pas de "fair use" absurde.',
+        'Téléchargez 200 heures d\'entretiens ce soir. Réveillez-vous avec des transcriptions complètes et consultables. Pas de plafonds mensuels, pas de limites par fichier, pas de "fair use" absurde.',
       feature1Point1: "Téléchargement par lots de 50 fichiers simultanément",
       feature1Point2: "Traitez complètement les études longitudinales",
       feature1Point3: "Pas de limites de stockage pour les transcriptions",
@@ -2837,7 +2884,7 @@ let message = {
       testimonialsTitle: "Les équipes adorent",
       testimonialsSubtitle: "Découvrez comment les entreprises transforment leur culture de réunion",
       testimonial1Text:
-        "\"Nous sommes passés à côté de détails cruciaux à une archive consultable de chaque conversation. La fonction d\\\\\\\\\\\\\\\\\\\\\\\\\\\\'enregistrement direct signifie que nous n\\\\\\\\\\\\\\\\\\\\\\\\\\\\'oublions jamais de capturer les discussions importantes.\"",
+        "\"Nous sommes passés à côté de détails cruciaux à une archive consultable de chaque conversation. La fonction d'enregistrement direct signifie que nous n'oublions jamais de capturer les discussions importantes.\"",
       testimonial1AuthorName: "James Kim",
       testimonial1AuthorRole: "Chef de produit, TechCorp",
       testimonial2Text:
@@ -3088,7 +3135,7 @@ let message = {
           {
             question: "Où est enregistré un MP4 téléchargé sur smartphone ?",
             answer:
-              'Après avoir téléchargé un MP4 sur votre smartphone, vous pouvez généralement le trouver dans le dossier "Téléchargements" de l\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'application de gestion de fichiers de votre appareil.'
+              'Après avoir téléchargé un MP4 sur votre smartphone, vous pouvez généralement le trouver dans le dossier "Téléchargements" de l\'application de gestion de fichiers de votre appareil.'
           },
           {
             question: "La conversion en MP4 réduit-elle la qualité ?",
@@ -3337,6 +3384,161 @@ let message = {
         TranscribeButton: "Transcrire",
         downloadError: "Erreur de conversion."
       }
+    },
+    Transcription: {
+      videoTranscription: {
+        hero: {
+          title: "Transcription vidéo : Puissance de l'IA et précision",
+          des: "Transcrivez des vidéos en texte avec une grande précision et supportez 100+ langues. Convertissez facilement tout fichier ou lien en texte modifiable et exportez dans plusieurs formats, des clips courts aux vidéos longues.",
+          feature_1: "Supporte 12 formats",
+          feature_2: "Supporte 100+ langues",
+          feature_3: "Exportez dans 6 formats"
+        },
+        threeStep: {
+          title: "Comment faire",
+          titleHighlight: "Convertir une vidéo en texte avec NeverCap",
+          step_1_title: "Téléverser ou coller",
+          step_1_des:
+            "Nous supportons les formats vidéo comme MP4, MOV, WMV et MPEG, ainsi que les liens depuis YouTube, TikTok, X, Facebook et autres plateformes.",
+          step_2_title: "Transcrire une vidéo en texte",
+          step_2_des:
+            'Cliquez sur le bouton "Transcrire" et attendez la fin du processus. Une vidéo d\'1 heure prend généralement seulement 1–2 minutes à transcrire.',
+          step_3_title: "Exporter ou partager",
+          step_3_des:
+            "Modifiez votre texte directement en ligne, puis exportez-le dans plusieurs formats comme TXT, PDF, DOCX, SRT, CSV ou VTT. Vous pouvez aussi générer un lien partageable de votre transcription."
+        },
+        whyTran: {
+          title: "Pourquoi",
+          titleHighlight: "Transcrire des vidéos en texte",
+          des: "C'est incroyablement utile dans des scénarios comme l'apprentissage, la création de contenu, la recherche et le travail. Voici pourquoi :",
+          reason_1_title: "Facilite la prise de notes et la révision.",
+          reason_1_des:
+            "Les étudiants, chercheurs et créateurs ont souvent besoin d'extraire des informations des vidéos. La transcription simplifie la prise de notes d'étude, l'organisation des interviews de recherche, la rédaction de scripts ou articles et la traduction de contenu de façon plus précise et économique.",
+          reason_2_title: "Améliore la recherche.",
+          reason_2_des:
+            "Avec le texte, vous pouvez rapidement chercher des mots-clés et localiser des sections importantes—plus besoin de rembobiner ou d'avancer la vidéo.",
+          reason_3_title: "Gagnez du temps et boostez l'efficacité.",
+          reason_3_des:
+            "Lire du texte est bien plus rapide que regarder une vidéo, surtout pour du contenu comme des conférences, interviews ou réunions. Le texte vous permet de survoler ou sauter directement aux points clés.",
+          reason_4_title: "Améliore l'accessibilité.",
+          reason_4_des:
+            "Cela fournit un accès égal à l'information pour les personnes sourdes ou malentendantes, non-natives ou ayant des difficultés auditives. Cela aide aussi les plateformes à respecter des normes comme WCAG.",
+          reason_5_title: "Permet la réutilisation de contenu.",
+          reason_5_des:
+            "Les créateurs utilisent souvent les transcriptions pour générer rapidement des articles de blog, contenus sociaux, résumés ou sous-titres—accélérant drastiquement le processus créatif sans saisie manuelle.",
+          reason_6_title: "Soutient une meilleure compréhension, mémorisation et archivage.",
+          reason_6_des:
+            "Combiner visuel et texte améliore la compréhension et la mémoire, tandis que les fichiers texte sont faciles à stocker, idéaux pour créer des bases de connaissances, bibliothèques de documents ou systèmes d'archivage."
+        },
+        whyChoose: {
+          title: "Pourquoi choisir",
+          titleHighlight: "Notre outil de transcription vidéo",
+          reason_1_title: "Transcription & Traduction mondiale",
+          reason_1_des:
+            "Supporte la transcription dans 100+ langues et la traduction dans 249 autres, éliminant toute barrière linguistique.",
+          reason_2_title: "Compatibilité universelle des formats",
+          reason_2_des:
+            "Fonctionne parfaitement avec tous les formats vidéo courants (MP4, MOV, MKV, etc.) et plateformes comme YouTube & TikTok.",
+          reason_3_title: "Transcrire vraiment sans limite",
+          reason_3_des:
+            "Transcrivez 100 ou 1 000 vidéos—votre tarif reste le même. Pas de limites cachées, pas de coûts surprises.",
+          reason_4_title: "Une précision fiable",
+          reason_4_des:
+            "Bénéficiez d'une précision globale de plus de 95%, avec des langues clés comme l'anglais et l'espagnol atteignant plus de 96%.",
+          reason_5_title: "Sécurité professionnelle",
+          reason_5_des:
+            "Vos données sont protégées par un chiffrement de pointe et des protocoles de confidentialité. Nous traitons votre confidentialité avec le plus grand sérieux.",
+          reason_6_title: "Horodatages mot par mot",
+          reason_6_des:
+            "Identifiez instantanément n'importe quel moment de votre vidéo. Cliquez sur un mot dans la transcription pour sauter directement au moment exact dans le média original."
+        },
+        reviews: {
+          title: "Avis de",
+          titleHighlight: "Nos utilisateurs",
+          des: "Découvrez pourquoi des milliers de personnes nous font confiance pour une transcription sans effort.",
+          people_1_content:
+            "La transcription vidéo de NeverCap est absolument fantastique ! Après avoir essayé plus d'une douzaine d'outils de transcription, c'est le premier service vraiment illimité que je trouve. Je peux transcrire autant que je veux sans jamais m'inquiéter des limites d'utilisation.",
+          people_1_job: "Créateur de contenu",
+          people_2_content:
+            "Prix abordables, gestion facile des fichiers volumineux et traitement simultané de dizaines de fichiers. La transcription vidéo de NeverCap résout presque tous mes problèmes.",
+          people_2_job: "Chercheur",
+          people_3_content:
+            "Précis, rapide et prend en charge une multitude de langues. Ce qui se démarque vraiment, c'est sa capacité à gérer les vidéos longues. NeverCap est devenu un outil indispensable que j'ai recommandé à tous mes camarades.",
+          people_3_job: "Doctorant"
+        },
+        faq: {
+          title: "Questions clés sur",
+          titleHighlight: "Transcription vidéo",
+          question_1: "Quels formats vidéo sont pris en charge par NeverCap ?",
+          answer_1: "Nous prenons en charge les formats vidéo courants, notamment MP4, MOV, WMV, MPEG, WebM et MKV.",
+          question_2: "Comment transcrire un lien vidéo et quelles plateformes sont prises en charge ?",
+          answer_2:
+            'Copiez et collez simplement l\'URL de la vidéo, puis cliquez sur "Transcrire". Nous prenons en charge les liens de YouTube, Facebook, X, Dropbox, Google Drive, Vimeo, TikTok, Instagram, et plus encore.',
+          question_3: "Quelles langues sont prises en charge pour la transcription vidéo ?",
+          answer_3:
+            "NeverCap prend en charge plus de 100 langues, dont l'anglais, l'espagnol, le mandarin, le français, l'allemand, le japonais, le coréen, le portugais, le russe, l'italien, le néerlandais et l'arabe.",
+          question_4: "Quelle est la durée maximale et la taille de fichier pour la transcription ?",
+          answer_4: "La taille maximale des fichiers est de 5 Go, et la durée maximale est de 10 heures par vidéo.",
+          question_5: "Combien de fichiers vidéo puis-je télécharger en même temps ?",
+          answer_5: "NeverCap permet de traiter jusqu'à 50 fichiers simultanément.",
+          question_6: "À quelle vitesse se déroule la transcription ? Dois-je attendre longtemps ?",
+          answer_6:
+            "Pas besoin d'attendre longtemps. Lors de nos tests, une vidéo d'1 heure prend généralement environ 3 minutes à transcrire.",
+          question_7: "Quelle est la précision de la transcription de NeverCap ?",
+          answer_7:
+            "Nous offrons plus de 95 % de précision pour toutes les langues, et plus de 96 % pour les langues clés comme l'anglais, l'espagnol, le mandarin et le français.",
+          question_8: "Le texte transcrit peut-il être traduit dans d'autres langues ?",
+          answer_8:
+            "Oui. Une fois la transcription terminée, vous pouvez traduire le texte dans 249 langues prises en charge.",
+          question_9: "Puis-je modifier, exporter ou partager le texte transcrit ?",
+          answer_9:
+            "Absolument. Le texte transcrit peut être édité en temps réel. Les options d'export incluent les formats PDF, DOCX, TXT, TTV, CSV et SRT. Vous pouvez également générer un lien partageable vers la transcription."
+        },
+        explore: {
+          title: "Explorer davantage",
+          transcribeTitle: "Outils pour transcrire en texte",
+          transcribe_1: "Audio en texte",
+          transcribe_2: "Voix en texte",
+          transcribe_3: "MP3 en texte",
+          transcribe_4: "MP4 en texte",
+          transcribe_5: "AAC en texte",
+          transcribe_6: "AMR en texte",
+          transcribe_7: "M4A en texte",
+          transcribe_8: "MOV en texte",
+          transcribe_9: "MPEG en texte",
+          transcribe_10: "OGG en texte",
+          transcribe_11: "TS en texte",
+          transcribe_12: "WAV en texte",
+          transcribe_13: "WEBM en texte",
+          otherToolsTitle: "Autres outils connexes",
+          otherTools_1: "Al Notetaker",
+          otherTools_2: "Ajouter des sous-titres à une vidéo",
+          otherTools_3: "Traduire un audio",
+          otherTools_4: "Traduire une vidéo",
+          otherTools_5: "Générateur de sous-titres",
+          otherTools_6: "Résumeur de vidéos",
+          otherTools_7: "Convertisseur vidéo"
+        }
+      }
+    },
+    Upload: {
+      uploadFile: "Téléverser un fichier",
+      pasteLink: "Coller un lien",
+      fileTip: "Obtenez votre transcription vidéo en quelques secondes",
+      linkTitle: "Lien",
+      linkTip: "Collez un lien depuis n'importe quelle plateforme pour commencer",
+      transcribeProgress: "Transcription en cours...",
+      transcribeFailed: "Échec de la transcription...",
+      retry: "Réessayer",
+      search: "Rechercher",
+      tip1: "Vous souhaitez l'enregistrer définitivement ?",
+      tip2: "Inscrivez-vous gratuitement",
+      tip3: "pour gérer et modifier tous vos fichiers de transcription.",
+      tip4: "Vous souhaitez",
+      tip5: "enregistrer",
+      tip6: "définitivement ?",
+      tip7: "pour gérer et modifier",
+      tip8: "tous vos fichiers de transcription."
     }
   },
   About: {
@@ -3598,7 +3800,7 @@ let message = {
     copyrightRemoval: "Supprimer les mentions de droits d'auteur ou autres droits de propriété de tout Contenu.",
     impersonation: "Tenter d'usurper l'identité d'un autre utilisateur ou personne.",
     spyware:
-      'Télécharger ou transmettre tout matériel servant de mécanisme passif ou actif de collecte ou transmission d\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'informations, comme des "gifs", pixels invisibles, cookies, etc.',
+      'Télécharger ou transmettre tout matériel servant de mécanisme passif ou actif de collecte ou transmission d\'informations, comme des "gifs", pixels invisibles, cookies, etc.',
     disruption: "Interférer avec ou surcharger le Site ou les réseaux et services qui y sont connectés.",
     employeeHarassment: "Harceler, ennuyer, intimider ou menacer nos employés ou agents.",
     accessCircumvention: "Tenter de contourner les mesures de restriction d'accès au Site ou à certaines parties.",
@@ -3667,6 +3869,13 @@ let message = {
       GoToSignup: "Essayez NeverCap gratuitement – sans carte de crédit",
       HowWorks: "Découvrez comment cela fonctionne"
     }
+  },
+  RegisterDialog: {
+    transcribeNewFiles: "Transcrire de nouveaux fichiers",
+    signUpNow: "S'inscrire maintenant",
+    stillExporting: "Exportation en cours",
+    tip1: "Inscrivez-vous gratuitement pour sauvegarder et modifier vos fichiers définitivement !",
+    tip2: "Passez à la version premium pour des transcriptions illimitées !"
   }
 };
 

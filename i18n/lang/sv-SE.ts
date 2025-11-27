@@ -516,7 +516,55 @@ let message = {
       yua: "Yucatec Maya",
       Dzongkha: "Dzongkha",
       Zulu: "Zulu"
-    }
+    },
+    edit: "Redigera",
+    translate: "Översätt",
+    showTimestamp: "Visa tidsstämpel",
+    showMoreTimestamp: "Visa mer detaljerad tidsstämpel",
+    selectMoreTimestamp: "Detaljerad tidsstämpel",
+    hideTimestamp: "Dölj tidsstämpel",
+    showSpeaker: "Talare",
+    timestamp: "Tidsstämpel",
+    timestampMore: "Mer",
+    share: "Dela",
+    shared: "delad",
+    export: "Exportera",
+    speaker: "Talare_{id}",
+    unassignSpeaker: "Avregistrera talare",
+    play: "Spela",
+    save: "Spara",
+    undo: "Ångra",
+    redo: "Gör om",
+    confirm: "Bekräfta",
+    cancel: "Avbryt",
+    addNew: "Lägg till ny",
+    createANewSpeaker: "Skapa en ny talare",
+    speakerName: "Talarens namn",
+    addSpeaker: "Lägg till talare",
+    applyToAllMatchingSpeakers: "Tillämpa på alla matchande talare",
+    applyToCurrentParagraph: "Tillämpa på det aktuella avsnittet",
+    speakerDuplicate: "Talaren finns redan.",
+    cancelTranslation: "Avbryt översättning",
+    showVideo: "Visa videon",
+    hideVideo: "Dölj videon",
+    notFund: "Hittades inte",
+    notFundDesc: "Vi kunde inte hitta det du letade efter.",
+    shareTips: "Alla med den här länken kan se avskriften och spela upp mediet.",
+    copyLink: "Kopiera länk",
+    copySuccessful: "Kopiering lyckades",
+    copyFail: "Kopiering misslyckades",
+    closeTrans: "Avbryt översättning",
+    upgradeBtn: "Uppgradera nu för att låsa upp",
+    upgradeTip30: "Lås upp din fullständiga avskrift",
+    upgradeTipMore: "Goda nyheter! Hela din fil är avskriven.",
+    errorTips: "Något gick fel.",
+    copiedLink: "Länk kopierad",
+    copyGotIt: "Jag förstår",
+    upgradeMinPreview: "Uppgradera för att se bortom 30-minuters förhandsgranskningen.",
+    silentTip: "Ingen ljudfil finns. Kontrollera och försök igen.",
+    outLimit: "Filen överskrider längdgränsen",
+    outLimitTip1: "Gratiskonton stödjer upp till 30 minuter.",
+    outLimitTip2: "Registrera dig för att uppgradera och låsa upp den fullständiga avskriften nu!"
   },
   // Inloggning, registrering, lösenordsåterställning
   IdentityInfoManage: {
@@ -1018,7 +1066,9 @@ let message = {
     YouTubetoMP4: "YouTube till MP4",
     StartFreeTrial: "Prova gratis",
     Blog: "Blogg",
-    YouTubetoMP3: "YouTube till MP3"
+    YouTubetoMP3: "YouTube till MP3",
+    Transcription: "Transkribering",
+    VideoTranscription: "Videotranskribering"
   },
   Footer: {
     des: "Världens första verkligen obegränsade AI-transkriptionstjänst. Inga tak, inga begränsningar, bara frihet att skapa.",
@@ -1037,7 +1087,7 @@ let message = {
     ],
     companyMenus: ["Om oss", "Prissättning", "Sekretess", "Villkor"],
     Resources: "Resurser",
-    resourcesMenus: ["YouTube till MP4", "YouTube till MP3"]
+    resourcesMenus: ["YouTube till MP4", "YouTube till MP3", "Videotranskribering"]
   },
   Index: {
     Hero: {
@@ -3307,6 +3357,160 @@ let message = {
         TranscribeButton: "Transkribera",
         downloadError: "Konverteringsfel."
       }
+    },
+    Transcription: {
+      videoTranscription: {
+        hero: {
+          title: "Videotranskribering: AI-drivet & Korrekt",
+          des: "Transkribera videor till text med hög noggrannhet och stöd för 100+ språk. Konvertera enkelt alla filer eller länkar till redigerbar text och exportera i flera format, från korta klipp till långa videor.",
+          feature_1: "Stöd för 12 format",
+          feature_2: "Stöd för 100+ språk",
+          feature_3: "Exportera i 6 format"
+        },
+        threeStep: {
+          title: "Hur man gör",
+          titleHighlight: "Konvertera video till text med NeverCap",
+          step_1_title: "Ladda upp eller klistra in",
+          step_1_des:
+            "Vi stöder videoformat som MP4, MOV, WMV och MPEG, samt länkar från YouTube, TikTok, X, Facebook och andra plattformar.",
+          step_2_title: "Transkribera video till text",
+          step_2_des:
+            'Klicka på knappen "Transkribera" och vänta tills processen är klar. En 1-timmarsvideo tar vanligtvis bara 1–2 minuter att transkribera.',
+          step_3_title: "Exportera eller dela",
+          step_3_des:
+            "Redigera din text direkt online och exportera den sedan i flera format som TXT, PDF, DOCX, SRT, CSV eller VTT. Du kan också skapa en delbar länk till din transkription."
+        },
+        whyTran: {
+          title: "Varför",
+          titleHighlight: "Transkribera videor till text",
+          des: "Det är otroligt värdefullt inom scenarier som inlärning, innehållsskapande, forskning och arbete. Här är varför:",
+          reason_1_title: "Gör anteckningar och granskning enklare.",
+          reason_1_des:
+            "Studenter, forskare och skapare behöver ofta extrahera information från videor. Transkribering gör det enkelt att ta studienoter, organisera forskningsintervjuer, skriva manus eller artiklar och översätta innehåll mer korrekt och kostnadseffektivt.",
+          reason_2_title: "Förbättrar sökbarheten.",
+          reason_2_des:
+            "Med text kan du snabbt söka efter nyckelord och hitta viktiga avsnitt – inget mer spola fram och tillbaka i videon.",
+          reason_3_title: "Sparar tid och ökar effektiviteten.",
+          reason_3_des:
+            "Att läsa text är mycket snabbare än att titta på en video, särskilt för innehåll som föreläsningar, intervjuer eller möten. Text låter dig skumma eller hoppa direkt till nyckelpunkter.",
+          reason_4_title: "Förbättrar tillgängligheten.",
+          reason_4_des:
+            "Det ger lika tillgång till information för döva eller hörselskadade, personer med annat modersmål eller de som har hörsvårigheter. Det hjälper också plattformar att uppfylla standarder som WCAG.",
+          reason_5_title: "Möjliggör återanvändning av innehåll.",
+          reason_5_des:
+            "Skapare använder ofta transkriptioner för att snabbt skapa blogginlägg, sociala medier-innehåll, sammanfattningar eller videotext – vilket dramatiskt snabbar upp den kreativa processen utan manuell inmatning.",
+          reason_6_title: "Stödjer bättre förståelse, lagring och arkivering.",
+          reason_6_des:
+            "Att kombinera visuell och textbaserad information förbättrar förståelse och minne, medan textfiler är enkla att lagra, perfekta för att bygga kunskapsbaser, dokumentbibliotek eller arkivsystem."
+        },
+        whyChoose: {
+          title: "Varför välja",
+          titleHighlight: "Vårt videotranskriberingsverktyg",
+          reason_1_title: "Transkribera & Översätt Globalt",
+          reason_1_des:
+            "Stöder transkribering på 100+ språk och översättning till ytterligare 249, vilket bryter ned alla språkbarriärer.",
+          reason_2_title: "Universell formatkompatibilitet",
+          reason_2_des:
+            "Fungerar sömlöst med alla vanliga videoformat (MP4, MOV, MKV osv.) och plattformar som YouTube & TikTok.",
+          reason_3_title: "Verkligen Obegränsade Transkriptioner",
+          reason_3_des:
+            "Transkribera 100 eller 1 000 videor – din fasta avgift förblir densamma. Inga dolda begränsningar, inga överraskningskostnader.",
+          reason_4_title: "Noggrannhet du kan lita på",
+          reason_4_des:
+            "Dra nytta av över 95 % total noggrannhet, med nyckelspråk som engelska och spanska som når över 96 %.",
+          reason_5_title: "Säkerhet på företagsnivå",
+          reason_5_des:
+            "Dina data skyddas av branschledande kryptering och sekretessprotokoll. Vi tar din sekretess på största allvar.",
+          reason_6_title: "Tidsstämplar på ordnivå",
+          reason_6_des:
+            "Hitta vilket ögonblick som helst i din video direkt. Klicka på ett ord i transkriptionen för att hoppa direkt till exakt tidpunkt i originalet."
+        },
+        reviews: {
+          title: "Recensioner från",
+          titleHighlight: "Våra användare",
+          des: "Se varför tusentals förlitar sig på oss för problemfri avskrift.",
+          people_1_content:
+            "NeverCaps videoavskrifter är helt fantastiska! Efter att ha testat över ett dussin avskriftsverktyg är detta den första tjänsten jag hittat som verkligen är obegränsad. Jag kan avskrifta så mycket jag vill utan att någonsin oroa mig för användningsgränser.",
+          people_1_job: "Innehållsskapare",
+          people_2_content:
+            "Prisvärd prissättning, hanterar stora filer med lätthet och bearbetar dussintals filer samtidigt. NeverCaps videoavskrifter tar upp nästan alla problem jag har stött på.",
+          people_2_job: "Forskare",
+          people_3_content:
+            "Exakt, snabbt och stöder massor av språk. Det som verkligen sticker ut är hur bra den hanterar långa videor. NeverCap har blivit en avgörande del av min verktygslåda, och jag har rekommenderat det till alla mina klasskamrater.",
+          people_3_job: "Doktorand"
+        },
+        faq: {
+          title: "Viktiga frågor om",
+          titleHighlight: "Videoavskrifter",
+          question_1: "Vilka videoformat stöder NeverCap?",
+          answer_1: "Vi stöder vanliga videoformat inklusive MP4, MOV, WMV, MPEG, WebM och MKV.",
+          question_2: "Hur avskriver jag en videolänk och vilka plattformar stöds?",
+          answer_2:
+            'Kopiera och klistra bara in videons URL och klicka sedan på "Avskriv". Vi stöder länkar från YouTube, Facebook, X, Dropbox, Google Drive, Vimeo, TikTok, Instagram med mera.',
+          question_3: "Vilka språk stöds för videoavskrifter?",
+          answer_3:
+            "NeverCap stöder över 100 språk, inklusive engelska, spanska, mandarin, franska, tyska, japanska, koreanska, portugisiska, ryska, italienska, nederländska och arabiska.",
+          question_4: "Vad är den maximala speltiden och filstorleken för avskrifter?",
+          answer_4: "Den maximala filstorleken är 5 GB och den maximala speltiden är 10 timmar per video.",
+          question_5: "Hur många videofiler kan jag ladda upp samtidigt?",
+          answer_5: "NeverCap tillåter upp till 50 filer att bearbetas samtidigt.",
+          question_6: "Hur snabb är avskriftsprocessen? Måste jag vänta länge?",
+          answer_6:
+            "Ingen lång väntan krävs. I våra tester tar en 1 timmes video vanligtvis cirka 3 minuter att avskriva.",
+          question_7: "Hur exakt är NeverCaps avskrifter?",
+          answer_7:
+            "Vi levererar över 95 % noggrannhet för alla språk och över 96 % för nyckelspråk som engelska, spanska, mandarin och franska.",
+          question_8: "Kan den avskrivna texten översättas till andra språk?",
+          answer_8: "Ja. När avskriften är klar kan du översätta texten till 249 språk som stöds.",
+          question_9: "Kan jag redigera, exportera eller dela den avskrivna texten?",
+          answer_9:
+            "Absolut. Avskriven text kan redigeras i realtid. Exportalternativen inkluderar PDF, DOCX, TXT, TTV, CSV och SRT-format. Du kan också skapa en delbar länk till avskriften."
+        },
+        explore: {
+          title: "Utforska vidare",
+          transcribeTitle: "Verktyg för avskrifter till text",
+          transcribe_1: "Ljud till text",
+          transcribe_2: "Röst till text",
+          transcribe_3: "MP3 till text",
+          transcribe_4: "MP4 till text",
+          transcribe_5: "AAC till text",
+          transcribe_6: "AMR till text",
+          transcribe_7: "M4A till text",
+          transcribe_8: "MOV till text",
+          transcribe_9: "MPEG till text",
+          transcribe_10: "OGG till text",
+          transcribe_11: "TS till text",
+          transcribe_12: "WAV till text",
+          transcribe_13: "WEBM till text",
+          otherToolsTitle: "Andra relaterade verktyg",
+          otherTools_1: "AI-noterare",
+          otherTools_2: "Lägg till undertext till video",
+          otherTools_3: "Översätt ljud",
+          otherTools_4: "Översätt video",
+          otherTools_5: "Generator för undertexter",
+          otherTools_6: "Videosammanfattare",
+          otherTools_7: "Videokonverterare"
+        }
+      }
+    },
+    Upload: {
+      uploadFile: "Ladda upp fil",
+      pasteLink: "Klistra in länk",
+      fileTip: "Få din videotranskription på sekunder",
+      linkTitle: "Länk",
+      linkTip: "Klistra in en länk från vilken plattform som helst för att börja",
+      transcribeProgress: "Transkribering pågår...",
+      transcribeFailed: "Transkribering misslyckades...",
+      retry: "Försök igen",
+      search: "Sök",
+      tip1: "Vill du spara den permanent?",
+      tip2: "Registrera dig gratis",
+      tip3: "för att hantera och redigera alla dina transkriptionsfiler.",
+      tip4: "Vill du",
+      tip5: "spara",
+      tip6: "den permanent?",
+      tip7: "för att hantera och redigera",
+      tip8: "alla dina transkriptionsfiler."
     }
   },
   About: {
@@ -3640,6 +3844,13 @@ let message = {
       GoToSignup: "Prova NeverCap gratis – utan kreditkort",
       HowWorks: "Se hur det fungerar"
     }
+  },
+  RegisterDialog: {
+    transcribeNewFiles: "Transkribera nya filer",
+    signUpNow: "Registrera dig nu",
+    stillExporting: "Exporterar fortfarande",
+    tip1: "Registrera dig gratis för att spara och redigera dina filer permanent!",
+    tip2: "Uppgradera för obegränsad transkribering!"
   }
 };
 

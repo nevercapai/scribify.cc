@@ -517,7 +517,55 @@ let message = {
       yua: "Yucatec Maya",
       Dzongkha: "Dzongkha",
       Zulu: "Zulu"
-    }
+    },
+    edit: "Rediger",
+    translate: "Oversett",
+    showTimestamp: "Vis tidsstempel",
+    showMoreTimestamp: "Vis mer detaljert tidsstempel",
+    selectMoreTimestamp: "Detaljert tidsstempel",
+    hideTimestamp: "Skjul tidsstempel",
+    showSpeaker: "Taler",
+    timestamp: "Tidsstempel",
+    timestampMore: "Mer",
+    share: "Del",
+    shared: "delt",
+    export: "Eksporter",
+    speaker: "Taler_{ id }",
+    unassignSpeaker: "Fjern tilordning av taler",
+    play: "Spill av",
+    save: "Lagre",
+    undo: "Angre",
+    redo: "Gjør om",
+    confirm: "Bekreft",
+    cancel: "Avbryt",
+    addNew: "Legg til ny",
+    createANewSpeaker: "Opprett en ny taler",
+    speakerName: "Talernavn",
+    addSpeaker: "Legg til taler",
+    applyToAllMatchingSpeakers: "Bruk på alle samsvarende talere",
+    applyToCurrentParagraph: "Bruk på gjeldende avsnitt",
+    speakerDuplicate: "Taleren finnes allerede.",
+    cancelTranslation: "Avbryt oversettelse",
+    showVideo: "Vis videoen",
+    hideVideo: "Skjul videoen",
+    notFund: "Ikke funnet",
+    notFundDesc: "Vi finner ikke det du leter etter.",
+    shareTips: "Alle med denne lenken kan se transkripsjonen og spille av mediet.",
+    copyLink: "Kopier lenke",
+    copySuccessful: "Kopiering vellykket",
+    copyFail: "Kopiering feilet",
+    closeTrans: "Avbryt oversettelse",
+    upgradeBtn: "Oppgrader nå for å låse opp",
+    upgradeTip30: "Lås opp full transkripsjon",
+    upgradeTipMore: "Gode nyheter! Hele filen er transkribert.",
+    errorTips: "Noe gikk galt.",
+    copiedLink: "Lenke kopiert",
+    copyGotIt: "Forstått",
+    upgradeMinPreview: "Oppgrader for å se utover 30-minutters forhåndsvisningen.",
+    silentTip: "Ingen lyd i filen. Sjekk og prøv på nytt.",
+    outLimit: "Filen overskrider lengdegrensen",
+    outLimitTip1: "Gratiskontoer støtter filer på opptil 30 minutter.",
+    outLimitTip2: "Registrer deg for å oppgradere og låse opp den fullstendige transkripsjonen nå!"
   },
   // 登录、注册、修改密码
   IdentityInfoManage: {
@@ -1017,7 +1065,9 @@ let message = {
     YouTubetoMP4: "YouTube til MP4",
     StartFreeTrial: "Prøv gratis",
     Blog: "Blogg",
-    YouTubetoMP3: "YouTube til MP3"
+    YouTubetoMP3: "YouTube til MP3",
+    Transcription: "Transkripsjon",
+    VideoTranscription: "Videotranskripsjon"
   },
   Footer: {
     des: "Verdens første virkelig ubegrensede AI-transkripsjonstjeneste. Ingen tak, ingen grenser, bare frihet til å skape.",
@@ -1036,7 +1086,7 @@ let message = {
     ],
     companyMenus: ["Om", "Priser", "Personvern", "Vilkår"],
     Resources: "Ressurser",
-    resourcesMenus: ["YouTube til MP4", "YouTube til MP3"]
+    resourcesMenus: ["YouTube til MP4", "YouTube til MP3", "Videotranskripsjon"]
   },
   Index: {
     Hero: {
@@ -1998,10 +2048,10 @@ let message = {
           },
           jessica: {
             textBefore:
-              "\"As a freelance journalist, I can\\\\\\\\\\\\\\\\\\\\\\\\\\\\'t afford Trint\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s → \"Som frilansjournalist har jeg ikke råd til Trints",
+              "\"As a freelance journalist, I can't afford Trint's → \"Som frilansjournalist har jeg ikke råd til Trints",
             highlight: "$100/month → $100/måned",
             textAfter:
-              ", but I also can\\\\\\\\\\\\\\\\\\\\\\\\\\\\'t work with Otter\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s 10 files per month limit. NeverCap saved my career.\" → , men jeg kan heller ikke jobbe med Otters grense på 10 filer per måned. NeverCap reddet karrieren min.\"",
+              ", but I also can't work with Otter's 10 files per month limit. NeverCap saved my career.\" → , men jeg kan heller ikke jobbe med Otters grense på 10 filer per måned. NeverCap reddet karrieren min.\"",
             name: "Jessica Park → Jessica Park",
             role: "Freelance Journalist → Frilansjournalist"
           },
@@ -3312,6 +3362,160 @@ let message = {
         TranscribeButton: "Transkribere",
         downloadError: "Konverteringsfeil."
       }
+    },
+    Transcription: {
+      videoTranscription: {
+        hero: {
+          title: "Videotranskripsjon: Drevet av AI & Nøyaktig",
+          des: "Transkriber videoer til tekst med høy nøyaktighet og støtte for 100+ språk. Konverter enkelt enhver fil eller lenke til redigerbar tekst og eksporter i flere formater, fra korte klipp til lange videoer.",
+          feature_1: "Støtter 12 formater",
+          feature_2: "Støtter 100+ språk",
+          feature_3: "Eksporter i 6 formater"
+        },
+        threeStep: {
+          title: "Hvordan",
+          titleHighlight: "Konverter video til tekst med NeverCap",
+          step_1_title: "Last opp eller lim inn",
+          step_1_des:
+            "Vi støtter videoformater som MP4, MOV, WMV og MPEG, samt lenker fra YouTube, TikTok, X, Facebook og andre plattformer.",
+          step_2_title: "Transkriber video til tekst",
+          step_2_des:
+            'Klikk på "Transkriber"-knappen og vent til prosessen er fullført. En 1-times video tar vanligvis kun 1–2 minutter å transkribere.',
+          step_3_title: "Eksporter eller del",
+          step_3_des:
+            "Rediger teksten din direkte på nettet, og eksporter den deretter i flere formater som TXT, PDF, DOCX, SRT, CSV eller VTT. Du kan også generere en delbar lenke til transkripsjonen din."
+        },
+        whyTran: {
+          title: "Hvorfor",
+          titleHighlight: "Transkriber videoer til tekst",
+          des: "Det er utrolig verdifullt i scenarier som læring, innholdsproduksjon, forskning og arbeid. Her er hvorfor:",
+          reason_1_title: "Gjør notataking og gjennomgang enklere.",
+          reason_1_des:
+            "Studenter, forskere og skapere trenger ofte å trekke ut informasjon fra videoer. Transkripsjon gjør det enkelt å ta studienotater, organisere forskningsintervjuer, utkaste manus eller artikler og oversette innhold mer nøyaktig og kostnadseffektivt.",
+          reason_2_title: "Forbedrer søkbarhet.",
+          reason_2_des:
+            "Med tekst kan du raskt søke etter nøkkelord og finne viktige deler – ikke mer tilbakespoling eller framforspoling gjennom videoen.",
+          reason_3_title: "Sparer tid og øker effektiviteten.",
+          reason_3_des:
+            "Å lese tekst er mye raskere enn å se en video, spesielt for innhold som forelesninger, intervjuer eller møter. Tekst lar deg skumlese eller hoppe direkte til hovedpunkter.",
+          reason_4_title: "Forbedrer tilgjengelighet.",
+          reason_4_des:
+            "Det gir lik tilgang til informasjon for døve eller hørselshemmede, ikke-morsmålstalende eller de med hørselsvansker. Det hjelper også plattformer med å oppfylle standarder som WCAG.",
+          reason_5_title: "Muliggjør gjenbruk av innhold.",
+          reason_5_des:
+            "Skere bruker ofte transkripsjoner til raskt å generere blogginnlegg, sosiale medie-innhold, sammendrag eller videotekster – noe som dramatisk fremskynder den kreative prosessen uten manuell innskriving.",
+          reason_6_title: "Støtter bedre forståelse, husking og arkivering.",
+          reason_6_des:
+            "Kombinasjonen av visuell og tekstbasert informasjon forbedrer forståelse og hukommelse, mens tekstfiler er enkle å lagre, ideelle for å bygge kunnskapsbaser, dokumentbiblioteker eller arkivsystemer."
+        },
+        whyChoose: {
+          title: "Hvorfor velge",
+          titleHighlight: "Vårt videotranskripsjonsverktøy",
+          reason_1_title: "Transkriber & Oversett Globalt",
+          reason_1_des:
+            "Støtter transkripsjon på 100+ språk og oversettelse til 249 andre, og bryter ned alle språkbarrierer.",
+          reason_2_title: "Universell formatkompatibilitet",
+          reason_2_des:
+            "Fungerer sømløst med alle vanlige videoformater (MP4, MOV, MKV osv.) og plattformer som YouTube & TikTok.",
+          reason_3_title: "Virkelig ubegrensede transkripsjoner",
+          reason_3_des:
+            "Transkriber 100 eller 1000 videoer – din faste pris forblir den samme. Ingen skjulte grenser, ingen overraskelseskostnader.",
+          reason_4_title: "Nøyaktighet du kan stole på",
+          reason_4_des:
+            "Dra nytte av over 95 % samlet nøyaktighet, med viktige språk som engelsk og spansk på over 96 %.",
+          reason_5_title: "Bedriftsgraders sikkerhet",
+          reason_5_des:
+            "Dataene dine er beskyttet av ledende krypterings- og personvernprotokoller. Vi behandler din konfidensialitet med største alvor.",
+          reason_6_title: "Ordspesifikke tidsstempler",
+          reason_6_des:
+            "Finn frem til hvilket som helst øyeblikk i videoen din umiddelbart. Klikk på et ord i transkripsjonen for å hoppe direkte til nøyaktig tidspunkt i originalmediet."
+        },
+        reviews: {
+          title: "Anmeldelser fra",
+          titleHighlight: "Våre brukere",
+          des: "Se hvorfor tusenvis stoler på oss for enkel transkripsjon.",
+          people_1_content:
+            "NeverCaps videotranskripsjon er helt fantastisk! Etter å ha prøvd over et dusin transkripsjonsverktøy, er dette den første tjenesten som virkelig er ubegrenset. Jeg kan transkribere så mye jeg vil uten å bekymre meg for bruksgrenser.",
+          people_1_job: "Innholdsprodusent",
+          people_2_content:
+            "Rimelige priser, håndterer store filer med letthet og behandler dusinvis av filer samtidig. NeverCaps videotranskripsjon dekker nesten alle problemområder jeg har hatt.",
+          people_2_job: "Forsker",
+          people_3_content:
+            "Nøyaktig, rask og støtter mange språk. Det som virkelig skiller seg ut er hvor godt den håndterer lange videoer. NeverCap har blitt en essentiel del av verktøykassen min, og jeg har anbefalt det til alle medstudenter.",
+          people_3_job: "PhD-kandidat"
+        },
+        faq: {
+          title: "Sentrale spørsmål om",
+          titleHighlight: "Videotranskripsjon",
+          question_1: "Hvilke videoformater støtter NeverCap?",
+          answer_1: "Vi støtter vanlige videoformater inkludert MP4, MOV, WMV, MPEG, WebM og MKV.",
+          question_2: "Hvordan transkriberer jeg en videolenke, og hvilke plattformer støttes?",
+          answer_2:
+            'Bare kopier og lim inn video-URLen, så klikker du på "Transkriber". Vi støtter lenker fra YouTube, Facebook, X, Dropbox, Google Drive, Vimeo, TikTok, Instagram og mer.',
+          question_3: "Hvilke språk støttes for videotranskripsjon?",
+          answer_3:
+            "NeverCap støtter over 100 språk, inkludert engelsk, spansk, mandarin, fransk, tysk, japansk, koreansk, portugisisk, russisk, italiensk, nederlandsk og arabisk.",
+          question_4: "Hva er maksimal varighet og filstørrelse for transkripsjon?",
+          answer_4: "Maksimal filstørrelse er 5GB, og maksimal varighet er 10 timer per video.",
+          question_5: "Hvor mange videofiler kan jeg laste opp samtidig?",
+          answer_5: "NeverCap tillater at inntil 50 filer behandles samtidig.",
+          question_6: "Hvor rask er transkripsjonsprosessen? Må jeg vente lenge?",
+          answer_6:
+            "Ingen lange ventetider nødvendig. I våre tester tar en 1-times video vanligvis rundt 3 minutter å transkribere.",
+          question_7: "Hvor nøyaktig er NeverCaps transkripsjon?",
+          answer_7:
+            "Vi leverer over 95% nøyaktighet på alle språk, og over 96% for viktige språk som engelsk, spansk, mandarin og fransk.",
+          question_8: "Kan den transkriberte teksten oversettes til andre språk?",
+          answer_8: "Ja. Når transkripsjonen er fullført, kan du oversette teksten til 249 støttede språk.",
+          question_9: "Kan jeg redigere, eksportere eller dele den transkriberte teksten?",
+          answer_9:
+            "Absolutt. Transkribert tekst kan redigeres i sanntid. Eksporteringsalternativer inkluderer PDF, DOCX, TXT, TTV, CSV og SRT-formater. Du kan også generere en delbar lenke til transkripsjonen."
+        },
+        explore: {
+          title: "Utforsk mer",
+          transcribeTitle: "Verktøy for transkripsjon til tekst",
+          transcribe_1: "Lyd til tekst",
+          transcribe_2: "Tale til tekst",
+          transcribe_3: "MP3 til tekst",
+          transcribe_4: "MP4 til tekst",
+          transcribe_5: "AAC til tekst",
+          transcribe_6: "AMR til tekst",
+          transcribe_7: "M4A til tekst",
+          transcribe_8: "MOV til tekst",
+          transcribe_9: "MPEG til tekst",
+          transcribe_10: "OGG til tekst",
+          transcribe_11: "TS til tekst",
+          transcribe_12: "WAV til tekst",
+          transcribe_13: "WEBM til tekst",
+          otherToolsTitle: "Andre relaterte verktøy",
+          otherTools_1: "Al Notetaker",
+          otherTools_2: "Legge til undertekster på video",
+          otherTools_3: "Oversette lyd",
+          otherTools_4: "Oversette video",
+          otherTools_5: "Undertekstgenerator",
+          otherTools_6: "Videosammendrag",
+          otherTools_7: "Videokonverter"
+        }
+      }
+    },
+    Upload: {
+      uploadFile: "Last opp fil",
+      pasteLink: "Lim inn lenke",
+      fileTip: "Få videotranskripsjonen din på sekunder",
+      linkTitle: "Lenke",
+      linkTip: "Lim inn en lenke fra hvilken som helst plattform for å begynne",
+      transcribeProgress: "Transkribering pågår...",
+      transcribeFailed: "Transkribering mislyktes...",
+      retry: "Prøv på nytt",
+      search: "Søk",
+      tip1: "Vil du lagre den permanent?",
+      tip2: "Registrer deg gratis",
+      tip3: "for å håndtere og redigere alle dine transkripsjonsfiler.",
+      tip4: "Vil du",
+      tip5: "lagre",
+      tip6: "den permanent?",
+      tip7: "for å håndtere og redigere",
+      tip8: "alle dine transkripsjonsfiler."
     }
   },
   About: {
@@ -3645,6 +3849,13 @@ let message = {
       GoToSignup: "Prøv NeverCap gratis – uten kredittkort",
       HowWorks: "Se hvordan det fungerer"
     }
+  },
+  RegisterDialog: {
+    transcribeNewFiles: "Transkriber nye filer",
+    signUpNow: "Registrer deg nå",
+    stillExporting: "Eksporterer fortsatt",
+    tip1: "Registrer deg gratis for å lagre og redigere filene dine permanent!",
+    tip2: "Oppgrader for ubegrenset transkripsjon!"
   }
 };
 

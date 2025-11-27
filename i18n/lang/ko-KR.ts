@@ -517,7 +517,55 @@ let message = {
       yua: "유카테크 마야어",
       Dzongkha: "종카어",
       Zulu: "줄루어"
-    }
+    },
+    edit: "편집",
+    translate: "번역",
+    showTimestamp: "타임스탬프 표시",
+    showMoreTimestamp: "더 자세한 타임스탬프 표시",
+    selectMoreTimestamp: "상세 타임스탬프",
+    hideTimestamp: "타임스탬프 숨기기",
+    showSpeaker: "발화자",
+    timestamp: "타임스탬프",
+    timestampMore: "더보기",
+    share: "공유",
+    shared: "공유됨",
+    export: "내보내기",
+    speaker: "발화자_{ id }",
+    unassignSpeaker: "발화자 해제",
+    play: "재생",
+    save: "저장",
+    undo: "실행 취소",
+    redo: "다시 실행",
+    confirm: "확인",
+    cancel: "취소",
+    addNew: "새로 추가",
+    createANewSpeaker: "새 발화자 생성",
+    speakerName: "발화자 이름",
+    addSpeaker: "발화자 추가",
+    applyToAllMatchingSpeakers: "일치하는 모든 발화자에 적용",
+    applyToCurrentParagraph: "현재 단락에 적용",
+    speakerDuplicate: "발화자가 이미 존재합니다.",
+    cancelTranslation: "번역 취소",
+    showVideo: "비디오 표시",
+    hideVideo: "비디오 숨기기",
+    notFund: "찾을 수 없음",
+    notFundDesc: "찾으시는 항목을 찾을 수 없습니다.",
+    shareTips: "이 링크가 있는 누구나 성적표를 보고 미디어를 재생할 수 있습니다.",
+    copyLink: "링크 복사",
+    copySuccessful: "복사 성공",
+    copyFail: "복사 실패",
+    closeTrans: "번역 취소",
+    upgradeBtn: "지금 업그레이드하여 잠금 해제",
+    upgradeTip30: "전체 성적표 잠금 해제",
+    upgradeTipMore: "좋은 소식! 전체 파일이 성적표로 변환되었습니다.",
+    errorTips: "문제가 발생했습니다.",
+    copiedLink: "링크 복사됨",
+    copyGotIt: "확인",
+    upgradeMinPreview: "30분 미리보기를 넘어 보려면 업그레이드하세요.",
+    silentTip: "파일에 오디오가 없습니다. 확인 후 다시 시도하세요.",
+    outLimit: "파일 길이 제한 초과",
+    outLimitTip1: "무료 계정은 최대 30분 길이의 파일을 지원합니다.",
+    outLimitTip2: "지금 등록하여 업그레이드하고 전체 성적표를 잠금 해제하세요!"
   },
   // 로그인, 회원가입, 비밀번호 변경
   IdentityInfoManage: {
@@ -1015,7 +1063,9 @@ let message = {
     YouTubetoMP4: "YouTube에서 MP4로",
     StartFreeTrial: "무료로 사용해보기",
     Blog: "블로그",
-    YouTubetoMP3: "유튜브에서 MP3로"
+    YouTubetoMP3: "유튜브에서 MP3로",
+    Transcription: "자막 생성",
+    VideoTranscription: "영상 자막 생성"
   },
   Footer: {
     des: "세계 최초의 진정한 무제한 AI 텍스트 변환 서비스. 제한 없이 자유롭게 창조하세요.",
@@ -1026,7 +1076,7 @@ let message = {
     useCaseMenus: ["모든 사용 사례", "팟캐스터", "저널리스트", "콘텐츠 크리에이터", "연구자", "비즈니스 팀", "교육자"],
     companyMenus: ["소개", "가격", "개인정보처리방침", "이용약관"],
     Resources: "자원",
-    resourcesMenus: ["유튜브에서 MP4로", "유튜브에서 MP3로"]
+    resourcesMenus: ["유튜브에서 MP4로", "유튜브에서 MP3로", "영상 자막 생성"]
   },
   Index: {
     Hero: {
@@ -3264,6 +3314,157 @@ let message = {
         TranscribeButton: "고쳐 쓰다",
         downloadError: "변환 오류."
       }
+    },
+    Transcription: {
+      videoTranscription: {
+        hero: {
+          title: "영상 자막 생성: AI 기반 & 정확한",
+          des: "100개 이상의 언어를 지원하며 고정확도로 영상을 텍스트로 변환하세요. 짧은 클립부터 긴 영상까지 모든 파일이나 링크를 편집 가능한 텍스트로 쉽게 변환하고 다양한 형식으로 내보낼 수 있습니다.",
+          feature_1: "12가지 형식 지원",
+          feature_2: "100개 이상의 언어 지원",
+          feature_3: "6가지 형식으로 내보내기"
+        },
+        threeStep: {
+          title: "방법",
+          titleHighlight: "NeverCap으로 영상을 텍스트로 변환하기",
+          step_1_title: "업로드 또는 붙여넣기",
+          step_1_des:
+            "MP4, MOV, WMV, MPEG 같은 영상 형식과 YouTube, TikTok, X, Facebook 등의 플랫폼 링크를 지원합니다.",
+          step_2_title: "영상을 텍스트로 변환",
+          step_2_des:
+            '"자막 생성" 버튼을 클릭하고 완료될 때까지 기다리세요. 1시간 분량의 영상은 보통 1~2분 내로 변환됩니다.',
+          step_3_title: "내보내기 또는 공유",
+          step_3_des:
+            "텍스트를 온라인에서 바로 편집한 후 TXT, PDF, DOCX, SRT, CSV, VTT 같은 다양한 형식으로 내보낼 수 있습니다. 또는 자막 공유 링크를 생성할 수 있습니다."
+        },
+        whyTran: {
+          title: "장점",
+          titleHighlight: "영상을 텍스트로 변환하세요",
+          des: "학습, 콘텐츠 제작, 연구, 업무 등 다양한 시나리오에서 귀중한 가치를 발휘합니다. 그 이유는 다음과 같습니다:",
+          reason_1_title: "메모 작성과 복습이 쉬워집니다.",
+          reason_1_des:
+            "학생, 연구자, 크리에이터는 종종 영상에서 정보를 추출해야 합니다. 자막 생성은 학습 노트 정리, 연구 인터뷰 구성, 스크립트 또는 글 초안 작성, 콘텐츠 번역을 더 정확하고 비용 효율적으로 가능하게 합니다.",
+          reason_2_title: "검색 기능 향상",
+          reason_2_des:
+            "텍스트로 빠르게 키워드를 검색하고 중요 부분을 찾을 수 있습니다—영상을 되감거나 빨리감기할 필요가 없습니다.",
+          reason_3_title: "시간 절약과 효율성 증대",
+          reason_3_des:
+            "텍스트 읽기는 영상 시청보다 훨씬 빠릅니다. 특히 강의, 인터뷰, 회의 같은 콘텐츠에서 텍스트는 핵심 포인트로 바로 넘어갈 수 있게 합니다.",
+          reason_4_title: "접근성 향상",
+          reason_4_des:
+            "청각 장애인, 비원어민 또는 청각이 어려운 사람들에게 동등한 정보 접근을 제공합니다. 또한 WCAG 같은 규정 준수 표준 충족에도 도움이 됩니다.",
+          reason_5_title: "콘텐츠 재사용 가능",
+          reason_5_des:
+            "크리에이터는 종종 블로그 글, SNS 콘텐츠, 요약, 영상 자막을 빠르게 생성하기 위해 자막을 사용합니다—직접 타이핑 없이 창작 과정을 획기적으로 가속화합니다.",
+          reason_6_title: "이해도, 기억력, 보관 기능 지원",
+          reason_6_des:
+            "시각과 텍스트 정보를 결합하면 이해도와 기억력이 향상되며, 텍스트 파일은 저장이 쉬워 지식 기반, 문서 라이브러리 또는 보관 시스템 구축에 이상적입니다."
+        },
+        whyChoose: {
+          title: "선택 이유",
+          titleHighlight: "우리의 영상 자막 생성 도구",
+          reason_1_title: "글로벌 자막 생성 & 번역",
+          reason_1_des: "100개 이상의 언어로 자막 생성과 249개 언어 번역을 지원하여 모든 언어 장벽을 해소합니다.",
+          reason_2_title: "범용 형식 호환성",
+          reason_2_des:
+            "MP4, MOV, MKV 같은 모든 일반적인 영상 형식과 YouTube 및 TikTok 같은 플랫폼과 원활하게 작동합니다.",
+          reason_3_title: "진정한 무제한 자막 생성",
+          reason_3_des:
+            "100개든 1,000개든 영상을 변환해도 요금은 동일합니다. 숨겨진 제한이나 예상치 못한 비용 없습니다.",
+          reason_4_title: "신뢰할 수 있는 정확도",
+          reason_4_des: "전체 95% 이상의 정확도를 경험하세요. 영어, 스페인어 같은 주요 언어는 96% 이상 정확합니다.",
+          reason_5_title: "엔터프라이즈급 보안",
+          reason_5_des:
+            "귀하의 데이터는 업계 최고 수준의 암호화 및 개인정보 보호 프로토콜로 보호됩니다. 귀하의 기밀성을 최우선으로 다룹니다.",
+          reason_6_title: "단어 수준 타임스탬프",
+          reason_6_des:
+            "영상의 어떤 순간이든 즉시 찾을 수 있습니다. 자막의 단어를 클릭하면 원본 미디어의 정확한 시간으로 바로 이동합니다."
+        },
+        reviews: {
+          title: "후기",
+          titleHighlight: "우리의 사용자들",
+          des: "수천 명이 왜 우리의 손쉬운 자막 서비스를 선택했는지 확인해 보세요.",
+          people_1_content:
+            "NeverCap의 영상 자막 생성 서비스는 정말 놀랍습니다! 수많은 자막 도구를 사용해 본 중에서 진정으로 제한 없는 첫 번째 서비스예요. 사용 제한 없이 원하는 만큼 자막을 생성할 수 있습니다.",
+          people_1_job: "콘텐츠 크리에이터",
+          people_2_content:
+            "합리적인 가격, 대용량 파일 손쉬운 처리, 동시에 수십 개 파일 처리 가능. NeverCap의 영상 자막 서비스는 제가 겪은 거의 모든 문제를 해결해 줍니다.",
+          people_2_job: "연구원",
+          people_3_content:
+            "정확하고 빠르며 다양한 언어 지원. 특히 긴 영상을 얼마나 잘 처리하는지 놀랍습니다. NeverCap은 제 작업에 필수적이 되었고, 모든 동료에게 추천했어요.",
+          people_3_job: "박사 과정생"
+        },
+        faq: {
+          title: "주요 질문",
+          titleHighlight: "영상 자막 생성",
+          question_1: "NeverCap은 어떤 영상 형식을 지원하나요?",
+          answer_1: "MP4, MOV, WMV, MPEG, WebM, MKV 등 일반적인 영상 형식을 지원합니다.",
+          question_2: "영상 링크로 자막을 생성하려면 어떻게 하나요? 지원되는 플랫폼은 어디인가요?",
+          answer_2:
+            '영상 URL을 복사해 붙여넣고 "자막 생성"을 클릭하세요. YouTube, Facebook, X, Dropbox, Google Drive, Vimeo, TikTok, Instagram 등의 링크를 지원합니다.',
+          question_3: "영상 자막 생성에 어떤 언어를 지원하나요?",
+          answer_3:
+            "NeverCap은 영어, 스페인어, 중국어, 프랑스어, 독일어, 일본어, 한국어, 포르투갈어, 러시아어, 이탈리아어, 네덜란드어, 아랍어 등을 포함해 100개 이상의 언어를 지원합니다.",
+          question_4: "최대 영상 길이와 파일 크기는 어떻게 되나요?",
+          answer_4: "최대 파일 크기는 5GB이며, 영상당 최대 길이는 10시간입니다.",
+          question_5: "한 번에 몇 개의 영상 파일을 업로드할 수 있나요?",
+          answer_5: "NeverCap은 최대 50개의 파일을 동시에 처리할 수 있습니다.",
+          question_6: "자막 생성은 얼마나 빠른가요? 오래 기다려야 하나요?",
+          answer_6: "오래 기다릴 필요 없습니다. 테스트 결과, 1시간 길이 영상은 약 3분 정도 소요됩니다.",
+          question_7: "NeverCap의 자막 정확도는 어떻게 되나요?",
+          answer_7:
+            "모든 언어에서 95% 이상, 영어, 스페인어, 중국어, 프랑스어 등 주요 언어는 96% 이상의 정확도를 제공합니다.",
+          question_8: "생성된 자막을 다른 언어로 번역할 수 있나요?",
+          answer_8: "네. 자막 생성이 완료되면 249개 지원 언어로 번역할 수 있습니다.",
+          question_9: "자막 텍스트를 편집하거나 내보내기, 공유할 수 있나요?",
+          answer_9:
+            "물론입니다. 실시간 편집이 가능하며, PDF, DOCX, TXT, TTV, CSV, SRT 형식으로 내보낼 수 있습니다. 자막 공유 링크도 생성할 수 있습니다."
+        },
+        explore: {
+          title: "더 알아보기",
+          transcribeTitle: "텍스트 변환 도구",
+          transcribe_1: "오디오를 텍스트로",
+          transcribe_2: "음성을 텍스트로",
+          transcribe_3: "MP3를 텍스트로",
+          transcribe_4: "MP4를 텍스트로",
+          transcribe_5: "AAC를 텍스트로",
+          transcribe_6: "AMR를 텍스트로",
+          transcribe_7: "M4A를 텍스트로",
+          transcribe_8: "MOV를 텍스트로",
+          transcribe_9: "MPEG를 텍스트로",
+          transcribe_10: "OGG를 텍스트로",
+          transcribe_11: "TS를 텍스트로",
+          transcribe_12: "WAV를 텍스트로",
+          transcribe_13: "WEBM를 텍스트로",
+          otherToolsTitle: "기타 관련 도구",
+          otherTools_1: "AI 노트 생성기",
+          otherTools_2: "영상에 자막 추가",
+          otherTools_3: "오디오 번역",
+          otherTools_4: "영상 번역",
+          otherTools_5: "자막 생성기",
+          otherTools_6: "영상 요약기",
+          otherTools_7: "영상 변환기"
+        }
+      }
+    },
+    Upload: {
+      uploadFile: "파일 업로드",
+      pasteLink: "링크 붙여넣기",
+      fileTip: "몇 초 만에 비디오 대본 확인하기",
+      linkTitle: "링크",
+      linkTip: "시작하려면 플랫폼의 링크를 붙여넣으세요",
+      transcribeProgress: "대본 생성 중...",
+      transcribeFailed: "대본 생성 실패...",
+      retry: "다시 시도",
+      search: "검색",
+      tip1: "영구적으로 저장하려면?",
+      tip2: "무료로 가입하기",
+      tip3: "모든 대본 파일을 관리하고 편집하세요.",
+      tip4: "영구적으로",
+      tip5: "저장",
+      tip6: "하시겠습니까?",
+      tip7: "관리 및 편집을 위해",
+      tip8: "모든 대본 파일"
     }
   },
   About: {
@@ -3590,6 +3791,13 @@ let message = {
       GoToSignup: "NeverCap 무료 체험 - 신용카드 불필요",
       HowWorks: "작동 방식 보기"
     }
+  },
+  RegisterDialog: {
+    transcribeNewFiles: "새 파일 성적표 변환",
+    signUpNow: "지금 가입하기",
+    stillExporting: "내보내는 중",
+    tip1: "무료로 등록하여 파일을 영구히 저장하고 편집하세요!",
+    tip2: "무제한 자막 생성을 위해 업그레이드하세요!"
   }
 };
 

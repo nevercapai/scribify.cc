@@ -514,7 +514,55 @@ let message = {
       yua: "尤卡坦玛雅语",
       Dzongkha: "宗卡语",
       Zulu: "祖鲁语"
-    }
+    },
+    edit: "编辑",
+    translate: "翻译",
+    showTimestamp: "显示时间戳",
+    showMoreTimestamp: "显示更详细的时间戳",
+    selectMoreTimestamp: "详细时间戳",
+    hideTimestamp: "隐藏时间戳",
+    showSpeaker: "发言人",
+    timestamp: "时间戳",
+    timestampMore: "更多",
+    share: "分享",
+    shared: "已分享",
+    export: "导出",
+    speaker: "发言人_{ id }",
+    unassignSpeaker: "取消分配发言人",
+    play: "播放",
+    save: "保存",
+    undo: "撤销",
+    redo: "重做",
+    confirm: "确认",
+    cancel: "取消",
+    addNew: "添加新项",
+    createANewSpeaker: "创建新发言人",
+    speakerName: "发言人名称",
+    addSpeaker: "添加发言人",
+    applyToAllMatchingSpeakers: "应用到所有匹配的发言人",
+    applyToCurrentParagraph: "应用到当前段落",
+    speakerDuplicate: "发言人已存在。",
+    cancelTranslation: "取消翻译",
+    showVideo: "显示视频",
+    hideVideo: "隐藏视频",
+    notFund: "未找到",
+    notFundDesc: "我们找不到您要的内容。",
+    shareTips: "任何拥有此链接的人都可以查看文字稿并播放媒体。",
+    copyLink: "复制链接",
+    copySuccessful: "复制成功",
+    copyFail: "复制失败",
+    closeTrans: "取消翻译",
+    upgradeBtn: "立即升级解锁",
+    upgradeTip30: "解锁完整文字稿",
+    upgradeTipMore: "好消息！您的整个文件已转录完成。",
+    errorTips: "出了点问题。",
+    copiedLink: "链接已复制",
+    copyGotIt: "知道了",
+    upgradeMinPreview: "升级以查看30分钟预览之外的内容。",
+    silentTip: "文件中没有音频。请检查后重试。",
+    outLimit: "文件超出长度限制",
+    outLimitTip1: "免费账户支持最长30分钟的文件。",
+    outLimitTip2: "立即注册升级，解锁完整转录文本！"
   },
   // 登录、注册、修改密码
   IdentityInfoManage: {
@@ -995,7 +1043,9 @@ let message = {
     YouTubetoMP4: "YouTube转MP4",
     StartFreeTrial: "免费试用",
     Blog: "博客",
-    YouTubetoMP3: "YouTube 转 MP3"
+    YouTubetoMP3: "YouTube 转 MP3",
+    Transcription: "转录",
+    VideoTranscription: "视频转录"
   },
   Footer: {
     des: "全球首个真正无限的AI转录服务。无上限，无限制，尽享创作自由。",
@@ -1006,7 +1056,7 @@ let message = {
     useCaseMenus: ["所有使用场景", "播客主", "记者", "内容创作者", "研究人员", "企业团队", "教育工作者"],
     companyMenus: ["关于", "定价", "隐私", "条款"],
     Resources: "资源",
-    resourcesMenus: ["YouTube 转 MP4", "YouTube 转 MP3"]
+    resourcesMenus: ["YouTube 转 MP4", "YouTube 转 MP3", "视频转录"]
   },
   Index: {
     Hero: {
@@ -3166,6 +3216,143 @@ let message = {
         TranscribeButton: "录制",
         downloadError: "转换错误。"
       }
+    },
+    Transcription: {
+      videoTranscription: {
+        hero: {
+          title: "视频转录：AI驱动，准确可靠",
+          des: "精准转录视频为文本，支持100+种语言。轻松转换任何文件或链接为可编辑文本，支持从短视频到长视频的多种格式导出。",
+          feature_1: "支持12种格式",
+          feature_2: "支持100+种语言",
+          feature_3: "6种导出格式"
+        },
+        threeStep: {
+          title: "使用指南",
+          titleHighlight: "使用NeverCap将视频转为文本",
+          step_1_title: "上传或粘贴",
+          step_1_des: "我们支持MP4、MOV、WMV、MPEG等视频格式，以及YouTube、TikTok、X、Facebook等平台链接。",
+          step_2_title: "将视频转录为文本",
+          step_2_des: '点击"转录"按钮等待完成，1小时视频通常仅需1-2分钟。',
+          step_3_title: "导出或分享",
+          step_3_des: "在线直接编辑文本，导出TXT、PDF、DOCX、SRT、CSV或VTT格式，也可生成可分享的文本链接。"
+        },
+        whyTran: {
+          title: "优势",
+          titleHighlight: "视频转文本的价值",
+          des: "适用于学习、内容创作、研究和工作等场景，其价值在于：",
+          reason_1_title: "使笔记整理更轻松。",
+          reason_1_des:
+            "学生、研究者和创作者常需从视频提取信息，转录能简化学习笔记、研究访谈整理、脚本/文章起草，并实现更精准经济的翻译。",
+          reason_2_title: "提升可搜索性。",
+          reason_2_des: "通过文本快速检索关键词定位重点片段，无需反复拖动进度条。",
+          reason_3_title: "节省时间，提升效率。",
+          reason_3_des: "阅读文本比观看视频更快，特别是讲座、访谈或会议内容，可直接跳转关键点。",
+          reason_4_title: "增强可访问性。",
+          reason_4_des: "为听障人士、非母语者或有听力困难者提供平等信息获取，帮助平台满足WCAG等合规标准。",
+          reason_5_title: "实现内容再利用。",
+          reason_5_des: "创作者常用转录快速生成博客、社交媒体内容、摘要或视频字幕，极大加速创作流程，告别手动输入。",
+          reason_6_title: "促进理解、记忆和归档。",
+          reason_6_des: "视听结合增强理解记忆，文本文件便于存储，适合构建知识库、文档库或存档系统。"
+        },
+        whyChoose: {
+          title: "为何选择",
+          titleHighlight: "我们的视频转录工具",
+          reason_1_title: "全球转录与翻译",
+          reason_1_des: "支持100+种语言转录及249种语言翻译，打破语言壁垒。",
+          reason_2_title: "全格式兼容",
+          reason_2_des: "完美适配MP4、MOV、MKV等常见格式及YouTube、TikTok等平台。",
+          reason_3_title: "真正无限转录",
+          reason_3_des: "转录100或1,000个视频，费用不变。无隐藏限制，无意外收费。",
+          reason_4_title: "值得信赖的准确率",
+          reason_4_des: "整体准确率超95%，英语、西班牙语等关键语言达96%以上。",
+          reason_5_title: "企业级安全",
+          reason_5_des: "您的数据受行业领先加密和隐私协议保护，我们极度重视保密性。",
+          reason_6_title: "词级时间戳",
+          reason_6_des: "精准定位视频任一时刻，点击文本中的词语即可跳转至原媒体对应位置。"
+        },
+        reviews: {
+          title: "来自",
+          titleHighlight: "用户的评价",
+          des: "了解为何数千用户信赖我们轻松无忧的字幕转录服务",
+          people_1_content:
+            "NeverCap的视频转录简直太棒了！在尝试了十几种转录工具后，这是我发现的首个真正无限量的服务。我可以随心所欲地转录，完全不用担心使用限制。",
+          people_1_job: "内容创作者",
+          people_2_content: "价格实惠、轻松处理大文件、同时处理数十个文件。NeverCap的视频转录几乎解决了我所有痛点。",
+          people_2_job: "研究员",
+          people_3_content:
+            "准确、快速、支持多种语言。最突出的是它对长视频的处理能力。NeverCap已成为我工具包中不可或缺的部分，我已向所有同学推荐它。",
+          people_3_job: "博士生"
+        },
+        faq: {
+          title: "关于",
+          titleHighlight: "视频转录的关键问题",
+          question_1: "NeverCap支持哪些视频格式？",
+          answer_1: "我们支持常见视频格式，包括MP4、MOV、WMV、MPEG、WebM和MKV。",
+          question_2: "如何转录视频链接？支持哪些平台？",
+          answer_2:
+            '只需复制粘贴视频URL，然后点击"转录"。我们支持YouTube、Facebook、X、Dropbox、Google Drive、Vimeo、TikTok、Instagram等平台的链接。',
+          question_3: "视频转录支持哪些语言？",
+          answer_3:
+            "NeverCap支持100多种语言，包括英语、西班牙语、普通话、法语、德语、日语、韩语、葡萄牙语、俄语、意大利语、荷兰语和阿拉伯语。",
+          question_4: "转录的最大时长和文件大小是多少？",
+          answer_4: "文件最大5GB，每个视频最长10小时。",
+          question_5: "一次可以上传多少个视频文件？",
+          answer_5: "NeverCap可同时处理多达50个文件。",
+          question_6: "转录速度如何？需要等待很长时间吗？",
+          answer_6: "无需久等。在我们的测试中，1小时视频通常约3分钟完成转录。",
+          question_7: "NeverCap转录的准确率如何？",
+          answer_7: "我们所有语言的准确率均超过95%，英语、西班牙语、普通话和法语等主要语言超过96%。",
+          question_8: "转录文本可以翻译成其他语言吗？",
+          answer_8: "可以。转录完成后，您可将文本翻译成249种支持的语言。",
+          question_9: "可以编辑、导出或分享转录文本吗？",
+          answer_9:
+            "当然可以。转录文本支持实时编辑，导出格式包括PDF、DOCX、TXT、TTV、CSV和SRT。您还可以生成可分享的转录文本链接。"
+        },
+        explore: {
+          title: "探索更多",
+          transcribeTitle: "文本转录工具",
+          transcribe_1: "音频转文本",
+          transcribe_2: "语音转文本",
+          transcribe_3: "MP3转文本",
+          transcribe_4: "MP4转文本",
+          transcribe_5: "AAC转文本",
+          transcribe_6: "AMR转文本",
+          transcribe_7: "M4A转文本",
+          transcribe_8: "MOV转文本",
+          transcribe_9: "MPEG转文本",
+          transcribe_10: "OGG转文本",
+          transcribe_11: "TS转文本",
+          transcribe_12: "WAV转文本",
+          transcribe_13: "WEBM转文本",
+          otherToolsTitle: "其他相关工具",
+          otherTools_1: "AI笔记工具",
+          otherTools_2: "为视频添加字幕",
+          otherTools_3: "翻译音频",
+          otherTools_4: "翻译视频",
+          otherTools_5: "字幕生成器",
+          otherTools_6: "视频摘要生成器",
+          otherTools_7: "视频转换器"
+        }
+      }
+    },
+    Upload: {
+      uploadFile: "上传文件",
+      pasteLink: "粘贴链接",
+      fileTip: "秒速获取视频字幕",
+      linkTitle: "链接",
+      linkTip: "从任意平台粘贴链接开始",
+      transcribeProgress: "字幕生成中...",
+      transcribeFailed: "字幕生成失败...",
+      retry: "重试",
+      search: "搜索",
+      tip1: "想要永久保存？",
+      tip2: "免费注册",
+      tip3: "管理和编辑所有字幕文件",
+      tip4: "想要",
+      tip5: "保存",
+      tip6: "为永久文件？",
+      tip7: "管理和编辑",
+      tip8: "所有字幕文件"
     }
   },
   About: {
@@ -3467,6 +3654,13 @@ let message = {
       GoToSignup: "免费试用 NeverCap - 无需信用卡",
       HowWorks: "了解其工作原理"
     }
+  },
+  RegisterDialog: {
+    transcribeNewFiles: "转录新文件",
+    signUpNow: "立即注册",
+    stillExporting: "正在导出",
+    tip1: "免费注册，永久保存和编辑文件！",
+    tip2: "升级即可获得无限转录！"
   }
 };
 

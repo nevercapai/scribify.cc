@@ -519,7 +519,55 @@ let message = {
       yua: "Yucatec maja",
       Dzongkha: "Dzongkha",
       Zulu: "Zulu"
-    }
+    },
+    edit: "Szerkesztés",
+    translate: "Fordítás",
+    showTimestamp: "Időbélyeg megjelenítése",
+    showMoreTimestamp: "Részletesebb időbélyeg",
+    selectMoreTimestamp: "Részletes időbélyeg",
+    hideTimestamp: "Időbélyeg elrejtése",
+    showSpeaker: "Beszélő",
+    timestamp: "Időbélyeg",
+    timestampMore: "További",
+    share: "Megosztás",
+    shared: "megosztva",
+    export: "Exportálás",
+    speaker: "Beszélő_{id}",
+    unassignSpeaker: "Beszélő eltávolítása",
+    play: "Lejátszás",
+    save: "Mentés",
+    undo: "Visszavonás",
+    redo: "Ismétlés",
+    confirm: "Megerősítés",
+    cancel: "Mégse",
+    addNew: "Új hozzáadása",
+    createANewSpeaker: "Új beszélő létrehozása",
+    speakerName: "Beszélő neve",
+    addSpeaker: "Beszélő hozzáadása",
+    applyToAllMatchingSpeakers: "Alkalmazás minden egyező beszélőre",
+    applyToCurrentParagraph: "Alkalmazás az aktuális bekezdésre",
+    speakerDuplicate: "A beszélő már létezik.",
+    cancelTranslation: "Fordítás megszakítása",
+    showVideo: "Videó megjelenítése",
+    hideVideo: "Videó elrejtése",
+    notFund: "Nem található",
+    notFundDesc: "Nem találtuk meg, amit keresett.",
+    shareTips: "Bárki ezzel a linkkel megtekintheti az átiratot és lejátszhatja a médiafájlt.",
+    copyLink: "Link másolása",
+    copySuccessful: "Másolás sikeres",
+    copyFail: "Másolás sikertelen",
+    closeTrans: "Fordítás megszakítása",
+    upgradeBtn: "Frissítés most a feloldáshoz",
+    upgradeTip30: "Az Ön teljes átiratának feloldása",
+    upgradeTipMore: "Jó hír! Az egész fájl át lett írva.",
+    errorTips: "Valami hiba történt.",
+    copiedLink: "Link másolva",
+    copyGotIt: "Értem",
+    upgradeMinPreview: "Frissítsen a 30 perces előnézet túlmutatásához.",
+    silentTip: "Nincs hanganyag a fájlban. Ellenőrizze és próbálja újra.",
+    outLimit: "A fájl túllépi a maximális hosszt",
+    outLimitTip1: "Az ingyenes fiókok legfeljebb 30 percnyi fájlt támogatnak.",
+    outLimitTip2: "Regisztráljon frissítéshez és oldja fel a teljes átiratot most!"
   },
   // 登录、注册、修改密码
   IdentityInfoManage: {
@@ -1029,7 +1077,9 @@ let message = {
     YouTubetoMP4: "YouTube MP4-be",
     StartFreeTrial: "Próbálja Ki Ingyen",
     Blog: "Blog",
-    YouTubetoMP3: "YouTube-ból MP3-ba"
+    YouTubetoMP3: "YouTube-ból MP3-ba",
+    Transcription: "Átírás",
+    VideoTranscription: "Videóátiratozás"
   },
   Footer: {
     des: "A világ első valóban korlátlan mesterséges intelligencia átírási szolgáltatása. Nincs korlát, nincs limit, csak a kreativitás szabadsága.",
@@ -1048,7 +1098,7 @@ let message = {
     ],
     companyMenus: ["Rólunk", "Árazás", "Adatvédelem", "Feltételek"],
     Resources: "Erőforrás",
-    resourcesMenus: ["YouTube-ból MP4-be", "YouTube-ból MP3-ba"]
+    resourcesMenus: ["YouTube-ból MP4-be", "YouTube-ból MP3-ba", "Videóátiratozás"]
   },
   Index: {
     Hero: {
@@ -3320,6 +3370,161 @@ let message = {
         TranscribeButton: "Lemásol",
         downloadError: "Konvertálási hiba."
       }
+    },
+    Transcription: {
+      videoTranscription: {
+        hero: {
+          title: "Videóátiratozás: AI-alapú és pontos",
+          des: "Írja át videókat szöveggé nagy pontossággal és több mint 100 nyelv támogatásával. Könnyedén alakítson át bármilyen fájlt vagy linket szerkeszthető szöveggé és exportáljon több formátumban, rövid klipszektől hosszú videókig.",
+          feature_1: "12 formátum támogatása",
+          feature_2: "Több mint 100 nyelv támogatása",
+          feature_3: "Exportálás 6 formátumban"
+        },
+        threeStep: {
+          title: "Hogyan",
+          titleHighlight: "Videó konvertálása szöveggé NeverCap-pel",
+          step_1_title: "Feltöltés vagy beillesztés",
+          step_1_des:
+            "Támogatjuk az olyan videóformátumokat, mint MP4, MOV, WMV és MPEG, valamint a YouTube, TikTok, X, Facebook és más platformokról származó linkeket.",
+          step_2_title: "Videó átírása szöveggé",
+          step_2_des:
+            'Kattintson az "Átírás" gombra és várja meg a folyamat befejezését. Egy 1 órás videó általában csak 1-2 perc alatt átíródik.',
+          step_3_title: "Exportálás vagy megosztás",
+          step_3_des:
+            "Szerkessze közvetlenül online a szöveget, majd exportálja több formátumban, például TXT, PDF, DOCX, SRT, CSV vagy VTT formátumban. Létrehozhat megosztható linket is az átiratához."
+        },
+        whyTran: {
+          title: "Miért",
+          titleHighlight: "Videók átírása szöveggé",
+          des: "Rendkívül értékes tanulás, tartalomkészítés, kutatás és munka során. Íme miért:",
+          reason_1_title: "Megkönnyíti a jegyzetelést és az áttekintést.",
+          reason_1_des:
+            "A diákok, kutatók és alkotók gyakran információkat nyernek ki videókból. Az átiratozás egyszerűbbé teszi a tanulási jegyzetek készítését, a kutatási interjúk szervezését, szkriptek vagy cikkek vázlatainak elkészítését, valamint a tartalom pontosabb és költséghatékonyabb fordítását.",
+          reason_2_title: "Fokozza a kereshetőséget.",
+          reason_2_des:
+            "Szöveggel gyorsan kereshet kulcsszavakat és megtalálhatja a fontos részeket – nincs többé visszatekerés vagy gyors előrehaladás a videón.",
+          reason_3_title: "Időt takarít meg és növeli a hatékonyságot.",
+          reason_3_des:
+            "A szöveg olvasása sokkal gyorsabb, mint egy videó megtekintése, különösen előadások, interjúk vagy értekezletek esetén. A szöveg lehetővé teszi a gyors átfutást vagy közvetlen ugrást a kulcspontokra.",
+          reason_4_title: "Javítja a hozzáférhetőséget.",
+          reason_4_des:
+            "Egyenlő hozzáférést biztosít az információhoz a siket vagy hallássérült, nem anyanyelvi beszélők vagy hallási problémákkal küzdők számára. Segít a platformoknak megfelelni az olyan szabványoknak, mint a WCAG.",
+          reason_5_title: "Lehetővé teszi a tartalom újrafelhasználását.",
+          reason_5_des:
+            "Az alkotók gyakran használnak átiratokat blogbejegyzések, közösségi média tartalmak, összefoglalók vagy videofeliratok gyors létrehozásához – jelentősen felgyorsítva a kreatív folyamatot kézi gépelés nélkül.",
+          reason_6_title: "Segít a jobb megértésben, megjegyzésben és archiválásban.",
+          reason_6_des:
+            "A vizuális és szöveges információk kombinálja javítja a megértést és a memorizálást, míg a szöveges fájlok könnyen tárolhatók, ideálisak tudásbázisok, dokumentumtárak vagy archív rendszerek építéséhez."
+        },
+        whyChoose: {
+          title: "Miért válassza",
+          titleHighlight: "Videóátiratozó eszközünk",
+          reason_1_title: "Átírás és fordítás világszerte",
+          reason_1_des:
+            "Több mint 100 nyelvű átirat és 249 nyelvre történő fordítás támogatása, megtörve minden nyelvi akadályt.",
+          reason_2_title: "Univerzális formátum kompatibilitás",
+          reason_2_des:
+            "Zökkenőmentesen működik az összes gyakori videóformátummal (MP4, MOV, MKV stb.) és olyan platformokkal, mint a YouTube és TikTok.",
+          reason_3_title: "Valóban korlátlan átiratok",
+          reason_3_des:
+            "Írjon át 100 vagy 1000 videót – az összeg ugyanaz marad. Nincs rejtett korlát, nincs meglepetés költség.",
+          reason_4_title: "Megbízható pontosság",
+          reason_4_des:
+            "Több mint 95%-os általános pontosság, a kulcsnyelveknél, mint az angol és a spanyol, több mint 96%-os.",
+          reason_5_title: "Vállalati szintű biztonság",
+          reason_5_des:
+            "Az Ön adatait iparági színvonalú titkosítás és adatvédelmi protokollok védik. A bizalmasságot rendkívüli komolysággal kezeljük.",
+          reason_6_title: "Szószintű időbélyegek",
+          reason_6_des:
+            "Azonnal megkeresheti bármely pillanatot a videójában. Kattintson egy szóra az átiratban, hogy közvetlenül a pontos időpontra ugorjon az eredeti médiában."
+        },
+        reviews: {
+          title: "Vélemények",
+          titleHighlight: "Felhasználóinktól",
+          des: "Nézze meg, miért bíznak bennünk több ezren a könnyed átiratkészítésért!",
+          people_1_content:
+            "A NeverCap videó-átirata egyszerűen lenyűgöző! Több tucat átiratkészítő eszköz kipróbálása után ez az első szolgáltatás, ami valóban korlátlan. Annyit átiratolhatok, amennyit csak akarok, anélkül, hogy aggódnék a korlátok miatt.",
+          people_1_job: "Tartalomkészítő",
+          people_2_content:
+            "Megfizethető árak, könnyen kezeli a nagy fájlokat, és egyszerre több tucat fájlt dolgoz fel. A NeverCap videó-átirata szinte minden gondomat megoldja.",
+          people_2_job: "Kutató",
+          people_3_content:
+            "Pontos, gyors, és rengeteg nyelvet támogat. Ami igazán kiemelkedő, az a hosszú videók kezelése. A NeverCap nélkülözhetetlen eszközzé vált számomra, és minden osztálytársamnak ajánlottam.",
+          people_3_job: "PhD-jelölt"
+        },
+        faq: {
+          title: "Kulcskérdések",
+          titleHighlight: "Videó-átirat",
+          question_1: "Milyen videóformátumokat támogat a NeverCap?",
+          answer_1:
+            "A gyakori videóformátumokat támogatjuk, többek között az MP4, MOV, WMV, MPEG, WebM és MKV formátumokat.",
+          question_2: "Hogyan lehet videólinket átiratolni, és mely platformok támogatottak?",
+          answer_2:
+            'Egyszerűen másolja és illessze be a videó URL-jét, majd kattintson az "Átiratolás" gombra. Támogatjuk a YouTube, Facebook, X, Dropbox, Google Drive, Vimeo, TikTok, Instagram és más platformok linkjeit.',
+          question_3: "Milyen nyelveket támogat a videó-átirat?",
+          answer_3:
+            "A NeverCap 100+ nyelvet támogat, többek között az angolt, spanyolt, mandarint, franciát, németet, japánt, koreait, portugált, oroszt, olaszt, hollandot és arabot.",
+          question_4: "Mi a maximális időtartam és fájlméret az átiratkészítéshez?",
+          answer_4: "A maximális fájlméret 5GB, a maximális időtartam pedig videónként 10 óra.",
+          question_5: "Hány videófájlt tölthetek fel egyszerre?",
+          answer_5: "A NeverCap akár 50 fájl egyidejű feldolgozását is lehetővé teszi.",
+          question_6: "Milyen gyors az átiratkészítési folyamat? Kell-e sokat várni?",
+          answer_6:
+            "Nincs szükség hosszú várakozásra. Tesztjeink szerint egy 1 órás videó átlagosan 3 perc alatt készül el.",
+          question_7: "Mennyire pontos a NeverCap átirata?",
+          answer_7:
+            "Az összes nyelven több mint 95%-os pontosságot biztosítunk, és az olyan kulcsnyelveken, mint az angol, spanyol, mandarin és francia, több mint 96%-os pontosságot.",
+          question_8: "Lehetőség van az átírt szöveg más nyelvekre fordítani?",
+          answer_8: "Igen. Az átirat befejezése után a szöveget 249 támogatott nyelvre lefordíthatja.",
+          question_9: "Szerkeszthetem, exportálhatom vagy megoszthatom az átírt szöveget?",
+          answer_9:
+            "Természetesen. Az átírt szöveg valós időben szerkeszthető. Az exportálási lehetőségek közé tartozik a PDF, DOCX, TXT, TTV, CSV és SRT formátum. Létrhozhat megosztható linket is az átirathoz."
+        },
+        explore: {
+          title: "További felfedezés",
+          transcribeTitle: "Szöveggé alakító eszközök",
+          transcribe_1: "Hanganyag szöveggé",
+          transcribe_2: "Hang szöveggé",
+          transcribe_3: "MP3 szöveggé",
+          transcribe_4: "MP4 szöveggé",
+          transcribe_5: "AAC szöveggé",
+          transcribe_6: "AMR szöveggé",
+          transcribe_7: "M4A szöveggé",
+          transcribe_8: "MOV szöveggé",
+          transcribe_9: "MPEG szöveggé",
+          transcribe_10: "OGG szöveggé",
+          transcribe_11: "TS szöveggé",
+          transcribe_12: "WAV szöveggé",
+          transcribe_13: "WEBM szöveggé",
+          otherToolsTitle: "Egyéb kapcsolódó eszközök",
+          otherTools_1: "Al Jegyzetkészítő",
+          otherTools_2: "Feliratok hozzáadása videóhoz",
+          otherTools_3: "Hanganyag fordítása",
+          otherTools_4: "Videó fordítása",
+          otherTools_5: "Feliratgenerátor",
+          otherTools_6: "Videóösszefoglaló",
+          otherTools_7: "Videókonverter"
+        }
+      }
+    },
+    Upload: {
+      uploadFile: "Fájl feltöltése",
+      pasteLink: "Link beillesztése",
+      fileTip: "Perceken belül megkapod a videó átiratát",
+      linkTitle: "Link",
+      linkTip: "Illessz be egy linket bármely platformról a kezdéshez",
+      transcribeProgress: "Átirat készül...",
+      transcribeFailed: "Átirat sikertelen...",
+      retry: "Újrapróbál",
+      search: "Keresés",
+      tip1: "Szeretnéd véglegesen elmenteni?",
+      tip2: "Regisztrálj ingyen",
+      tip3: "az összes átiratfájlod kezeléséhez és szerkesztéséhez.",
+      tip4: "Szeretnéd",
+      tip5: "menteni",
+      tip6: "véglegesen?",
+      tip7: "kezelni és szerkeszteni",
+      tip8: "az összes átiratfájlodat."
     }
   },
   About: {
@@ -3661,6 +3866,13 @@ let message = {
       GoToSignup: "Próbálja ki a NeverCapet ingyen - Nincs szükség hitelkártyára",
       HowWorks: "Nézd meg, hogyan működik"
     }
+  },
+  RegisterDialog: {
+    transcribeNewFiles: "Új fájlok átírása",
+    signUpNow: "Regisztráció most",
+    stillExporting: "Exportálás folyamatban",
+    tip1: "Regisztráljon ingyen, hogy végleg mentse és szerkessze fájljait!",
+    tip2: "Frissítsen korlátlan átírásért!"
   }
 };
 

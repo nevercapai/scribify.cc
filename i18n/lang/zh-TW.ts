@@ -514,7 +514,55 @@ let message = {
       yua: "尤卡坦瑪雅語",
       Dzongkha: "宗卡語",
       Zulu: "祖魯語"
-    }
+    },
+    edit: "編輯",
+    translate: "翻譯",
+    showTimestamp: "顯示時間戳記",
+    showMoreTimestamp: "顯示更詳細的時間戳記",
+    selectMoreTimestamp: "詳細時間戳記",
+    hideTimestamp: "隱藏時間戳記",
+    showSpeaker: "說話者",
+    timestamp: "時間戳記",
+    timestampMore: "更多",
+    share: "分享",
+    shared: "已分享",
+    export: "匯出",
+    speaker: "Speaker_{ id }",
+    unassignSpeaker: "取消說話者分配",
+    play: "播放",
+    save: "儲存",
+    undo: "復原",
+    redo: "重做",
+    confirm: "確認",
+    cancel: "取消",
+    addNew: "新增",
+    createANewSpeaker: "創建新說話者",
+    speakerName: "說話者名稱",
+    addSpeaker: "新增說話者",
+    applyToAllMatchingSpeakers: "套用至所有符合的說話者",
+    applyToCurrentParagraph: "套用至當前段落",
+    speakerDuplicate: "說話者已存在。",
+    cancelTranslation: "取消翻譯",
+    showVideo: "顯示影片",
+    hideVideo: "隱藏影片",
+    notFund: "找不到",
+    notFundDesc: "我們找不到您要的內容。",
+    shareTips: "擁有此連結的人可以查看文字記錄並播放媒體。",
+    copyLink: "複製連結",
+    copySuccessful: "複製成功",
+    copyFail: "複製失敗",
+    closeTrans: "取消翻譯",
+    upgradeBtn: "立即升級解鎖",
+    upgradeTip30: "解鎖您的完整文字記錄",
+    upgradeTipMore: "好消息！您的整個檔案已完成轉錄。",
+    errorTips: "發生錯誤。",
+    copiedLink: "連結已複製",
+    copyGotIt: "明白了",
+    upgradeMinPreview: "升級以查看超過30分鐘的預覽內容。",
+    silentTip: "檔案中沒有音訊。請檢查後重試。",
+    outLimit: "檔案超過長度限制",
+    outLimitTip1: "免費帳戶僅支援30分鐘內的檔案。",
+    outLimitTip2: "立即註冊升級並解鎖完整轉錄文字！"
   },
   // 登錄、註冊、修改密碼
   IdentityInfoManage: {
@@ -995,7 +1043,9 @@ let message = {
     YouTubetoMP4: "YouTube轉MP4",
     StartFreeTrial: "免費試用",
     Blog: "部落格",
-    YouTubetoMP3: "YouTube 轉 MP3"
+    YouTubetoMP3: "YouTube 轉 MP3",
+    Transcription: "轉錄",
+    VideoTranscription: "影片轉錄"
   },
   Footer: {
     des: "全球首個真正無限的AI轉錄服務。無上限，無限制，只有創造的自由。",
@@ -1006,7 +1056,7 @@ let message = {
     useCaseMenus: ["所有使用案例", "播客主", "記者", "內容創作者", "研究人員", "商業團隊", "教育工作者"],
     companyMenus: ["關於我們", "定價方案", "隱私權", "條款"],
     Resources: "資源",
-    resourcesMenus: ["YouTube 轉 MP4", "YouTube 轉 MP3"]
+    resourcesMenus: ["YouTube 轉 MP4", "YouTube 轉 MP3", "影片轉錄"]
   },
   Index: {
     Hero: {
@@ -3170,6 +3220,144 @@ let message = {
         TranscribeButton: "錄製",
         downloadError: "轉換錯誤。"
       }
+    },
+    Transcription: {
+      videoTranscription: {
+        hero: {
+          title: "影片轉錄：AI驅動 & 精準",
+          des: "高精度將影片轉錄為文字，支援100+種語言。輕鬆轉換任何檔案或連結為可編輯文字，並以多種格式匯出，從短片到長影片都能處理。",
+          feature_1: "支援12種格式",
+          feature_2: "支援100+種語言",
+          feature_3: "6種格式匯出"
+        },
+        threeStep: {
+          title: "操作指南",
+          titleHighlight: "使用NeverCap將影片轉為文字",
+          step_1_title: "上傳或貼上",
+          step_1_des: "我們支援MP4、MOV、WMV、MPEG等影片格式，以及YouTube、TikTok、X、Facebook等平台連結。",
+          step_2_title: "將影片轉錄為文字",
+          step_2_des: "點擊「轉錄」按鈕並等待完成。1小時影片通常僅需1–2分鐘轉錄。",
+          step_3_title: "匯出或分享",
+          step_3_des: "直接在線編輯文字，然後以TXT、PDF、DOCX、SRT、CSV或VTT等格式匯出。也可生成可分享的字幕連結。"
+        },
+        whyTran: {
+          title: "優勢",
+          titleHighlight: "將影片轉錄為文字",
+          des: "在學習、內容創作、研究和工作等場景極具價值：",
+          reason_1_title: "使筆記和回顧更輕鬆。",
+          reason_1_des:
+            "學生、研究者和創作者常需從影片提取資訊。轉錄能簡化做筆記、整理研究訪談、起草腳本/文章，以及更精準經濟地翻譯內容。",
+          reason_2_title: "提升可搜尋性。",
+          reason_2_des: "透過文字能快速搜尋關鍵字定位重點段落，無需反覆倒轉影片。",
+          reason_3_title: "節省時間提高效率。",
+          reason_3_des: "閱讀文字比觀看影片快得多，尤其適用講座、訪談或會議內容。文字讓您能跳讀或直達重點。",
+          reason_4_title: "提升可訪問性。",
+          reason_4_des: "為聽障者、非母語人士或有聽力困難者提供平等資訊獲取，同時協助平台符合WCAG等規範。",
+          reason_5_title: "實現內容再利用。",
+          reason_5_des:
+            "創作者常用轉錄文字快速生成部落格文章、社媒內容、摘要或影片字幕，無需手打即可大幅加速創作流程。",
+          reason_6_title: "促進理解、記憶與歸檔。",
+          reason_6_des: "結合視覺與文字資訊能強化理解和記憶，而文字檔案易於儲存，適合建立知識庫、文檔庫或歸檔系統。"
+        },
+        whyChoose: {
+          title: "為何選擇",
+          titleHighlight: "我們的影片轉錄工具",
+          reason_1_title: "全球轉錄與翻譯",
+          reason_1_des: "支援100+種語言轉錄及249種語言翻譯，打破所有語言障礙。",
+          reason_2_title: "通用格式相容性",
+          reason_2_des: "完美支援所有常見影片格式(MP4、MOV、MKV等)及YouTube&TikTok等平台。",
+          reason_3_title: "真正無限轉錄",
+          reason_3_des: "轉錄100或1,000部影片——費用固定不變。無隱藏限制，無額外收費。",
+          reason_4_title: "值得信賴的精準度",
+          reason_4_des: "整體準確率超過95%，英語、西班牙語等關鍵語言更達96%以上。",
+          reason_5_title: "企業級安全性",
+          reason_5_des: "您的數據受業界頂級加密和隱私協議保護，我們以最高標準處理機密性。",
+          reason_6_title: "詞級時間戳",
+          reason_6_des: "立即定位影片任一時刻。點擊文字稿中的詞語即可跳轉至原始媒體的準確時間點。"
+        },
+        reviews: {
+          title: "來自",
+          titleHighlight: "用戶評價",
+          des: "瞭解為何成千上萬用戶依賴我們輕鬆轉錄",
+          people_1_content:
+            "NeverCap的影片轉錄功能簡直太棒了！試過十多種轉錄工具後，這是我找到的第一個真正無限制的服務。想轉多少就轉多少，完全不用擔心使用限制。",
+          people_1_job: "內容創作者",
+          people_2_content: "價格實惠、輕鬆處理大檔案、同時處理數十個檔案。NeverCap的影片轉錄幾乎解決了我所有的痛點。",
+          people_2_job: "研究人員",
+          people_3_content:
+            "準確、快速且支援多種語言。最突出的是它處理長影片的能力。NeverCap已成為我工具包中不可或缺的一部分，我已推薦給所有同學。",
+          people_3_job: "博士候選人"
+        },
+        faq: {
+          title: "關於",
+          titleHighlight: "影片轉錄的關鍵問題",
+          question_1: "NeverCap支援哪些影片格式？",
+          answer_1: "我們支援常見影片格式包括MP4、MOV、WMV、MPEG、WebM和MKV。",
+          question_2: "如何轉錄影片連結？支援哪些平台？",
+          answer_2:
+            '只需複製貼上影片URL，然後點擊"轉錄"。我們支援來自YouTube、Facebook、X、Dropbox、Google Drive、Vimeo、TikTok、Instagram等平台的連結。',
+          question_3: "影片轉錄支援哪些語言？",
+          answer_3:
+            "NeverCap支援100多種語言，包括英語、西班牙語、中文、法語、德語、日語、韓語、葡萄牙語、俄語、義大利語、荷蘭語和阿拉伯語。",
+          question_4: "轉錄的最大時長和檔案大小是多少？",
+          answer_4: "最大檔案大小為5GB，每部影片最大時長為10小時。",
+          question_5: "我一次可以上傳多少個影片檔案？",
+          answer_5: "NeverCap允許同時處理最多50個檔案。",
+          question_6: "轉錄過程有多快？需要等待很長時間嗎？",
+          answer_6: "無需長時間等待。我們的測試中，1小時影片通常約需3分鐘轉錄。",
+          question_7: "NeverCap轉錄的準確度如何？",
+          answer_7: "我們提供所有語言超過95%的準確度，英語、西班牙語、中文和法語等主要語言則超過96%。",
+          question_8: "轉錄文字可以翻譯成其他語言嗎？",
+          answer_8: "可以。轉錄完成後，您可以將文字翻譯成249種支援的語言。",
+          question_9: "我可以編輯、匯出或分享轉錄文字嗎？",
+          answer_9:
+            "當然可以。轉錄文字可即時編輯。匯出選項包括PDF、DOCX、TXT、TTV、CSV和SRT格式。您也可以生成可分享的轉錄連結。"
+        },
+        explore: {
+          title: "進一步探索",
+          transcribeTitle: "文字轉錄工具",
+          transcribe_1: "音訊轉文字",
+          transcribe_2: "語音轉文字",
+          transcribe_3: "MP3轉文字",
+          transcribe_4: "MP4轉文字",
+          transcribe_5: "AAC轉文字",
+          transcribe_6: "AMR轉文字",
+          transcribe_7: "M4A轉文字",
+          transcribe_8: "MOV轉文字",
+          transcribe_9: "MPEG轉文字",
+          transcribe_10: "OGG轉文字",
+          transcribe_11: "TS轉文字",
+          transcribe_12: "WAV轉文字",
+          transcribe_13: "WEBM轉文字",
+          otherToolsTitle: "其他相關工具",
+          otherTools_1: "AI筆記工具",
+          otherTools_2: "影片添加字幕",
+          otherTools_3: "翻譯音訊",
+          otherTools_4: "翻譯影片",
+          otherTools_5: "字幕產生器",
+          otherTools_6: "影片摘要工具",
+          otherTools_7: "影片轉換器"
+        }
+      }
+    },
+    Upload: {
+      uploadFile: "上傳檔案",
+      pasteLink: "貼上連結",
+      fileTip: "數秒內取得影片逐字稿",
+      linkTitle: "連結",
+      linkTip: "貼上任何平台的連結開始",
+      transcribeProgress: "轉錄中...",
+      transcribeFailed: "轉錄失敗...",
+      retry: "重試",
+      search: "搜尋",
+      tip1: "想永久保存？",
+      tip2: "免費註冊",
+      tip3: "管理和編輯所有轉錄檔案",
+      tip4: "想",
+      tip5: "保存",
+      tip6: "永久保存？",
+      tip7: "管理和編輯",
+      tip8: "所有轉錄檔案"
     }
   },
   About: {
@@ -3475,6 +3663,13 @@ let message = {
       GoToSignup: "免費試用 NeverCap - 無需信用卡",
       HowWorks: "了解其工作原理"
     }
+  },
+  RegisterDialog: {
+    transcribeNewFiles: "轉錄新檔案",
+    signUpNow: "立即註冊",
+    stillExporting: "正在匯出中",
+    tip1: "免費註冊永久保存和編輯文件！",
+    tip2: "升級方案獲得無限轉錄！"
   }
 };
 

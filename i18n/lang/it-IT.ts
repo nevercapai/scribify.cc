@@ -518,7 +518,55 @@ let message = {
       yua: "Maya Yucateco",
       Dzongkha: "Dzongkha",
       Zulu: "Zulu"
-    }
+    },
+    edit: "Modifica",
+    translate: "Traduci",
+    showTimestamp: "Mostra timestamp",
+    showMoreTimestamp: "Mostra timestamp dettagliato",
+    selectMoreTimestamp: "Timestamp dettagliato",
+    hideTimestamp: "Nascondi timestamp",
+    showSpeaker: "Speaker",
+    timestamp: "Timestamp",
+    timestampMore: "Altro",
+    share: "Condividi",
+    shared: "condiviso",
+    export: "Esporta",
+    speaker: "Speaker_{id}",
+    unassignSpeaker: "Rimuovi speaker",
+    play: "Riproduci",
+    save: "Salva",
+    undo: "Annulla",
+    redo: "Ripristina",
+    confirm: "Conferma",
+    cancel: "Annulla",
+    addNew: "Aggiungi nuovo",
+    createANewSpeaker: "Crea un nuovo speaker",
+    speakerName: "Nome speaker",
+    addSpeaker: "Aggiungi speaker",
+    applyToAllMatchingSpeakers: "Applica a tutti gli speaker corrispondenti",
+    applyToCurrentParagraph: "Applica al paragrafo corrente",
+    speakerDuplicate: "Lo speaker esiste già.",
+    cancelTranslation: "Annulla traduzione",
+    showVideo: "Mostra video",
+    hideVideo: "Nascondi video",
+    notFund: "Non trovato",
+    notFundDesc: "Non abbiamo trovato quello che cercavi.",
+    shareTips: "Chiunque abbia questo link può visualizzare la trascrizione e riprodurre i media.",
+    copyLink: "Copia link",
+    copySuccessful: "Copia riuscita",
+    copyFail: "Copia fallita",
+    closeTrans: "Annulla traduzione",
+    upgradeBtn: "Aggiorna ora per sbloccare",
+    upgradeTip30: "Sblocca la tua trascrizione completa",
+    upgradeTipMore: "Buone notizie! Il tuo file è stato completamente trascritto.",
+    errorTips: "Qualcosa è andato storto.",
+    copiedLink: "Link copiato",
+    copyGotIt: "Capito",
+    upgradeMinPreview: "Aggiorna per vedere oltre l'anteprima di 30 minuti.",
+    silentTip: "Nessun audio nel file. Controlla e riprova.",
+    outLimit: "File supera il limite di lunghezza",
+    outLimitTip1: "Gli account gratuiti supportano file fino a 30 minuti.",
+    outLimitTip2: "Registrati per aggiornare e sbloccare ora il testo trascritto completo!"
   },
   // 登录、注册、修改密码
   IdentityInfoManage: {
@@ -1024,7 +1072,9 @@ let message = {
     YouTubetoMP4: "YouTube a MP4",
     StartFreeTrial: "Provalo Gratis",
     Blog: "Blog",
-    YouTubetoMP3: "YouTube in MP3"
+    YouTubetoMP3: "YouTube in MP3",
+    Transcription: "Trascrizione",
+    VideoTranscription: "Trascrizione video"
   },
   Footer: {
     des: "Il primo servizio di trascrizione AI veramente illimitato al mondo. Senza limiti, solo libertà di creare.",
@@ -1043,7 +1093,7 @@ let message = {
     ],
     companyMenus: ["Informazioni", "Prezzi", "Privacy", "Termini"],
     Resources: "Risorse",
-    resourcesMenus: ["YouTube in MP4", "YouTube in MP3"]
+    resourcesMenus: ["YouTube in MP4", "YouTube in MP3", "Trascrizione video"]
   },
   Index: {
     Hero: {
@@ -1298,7 +1348,7 @@ let message = {
       feature3TitlePart1: "Gli utenti",
       feature3TitlePart2: "Cambiano ogni giorno",
       feature3Description:
-        '"Pago $100/anno per Otter e mi limitano a 10 importazioni di file al mese. Nel momento in cui ci sarà un\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'alternativa con importazioni illimitate, me ne vado!" - Utente reale di Reddit',
+        '"Pago $100/anno per Otter e mi limitano a 10 importazioni di file al mese. Nel momento in cui ci sarà un\'alternativa con importazioni illimitate, me ne vado!" - Utente reale di Reddit',
       feature3Point1Icon: "✓",
       feature3Point1Text: "50.000+ utenti hanno cambiato",
       feature3Point2Icon: "✓",
@@ -1364,7 +1414,7 @@ let message = {
       feature1TitleHighlight: "Intero Archivio",
       feature1TitlePart2: "In una Notte",
       feature1Description:
-        'Carica 50 file prima di dormire. Svegliati con le trascrizioni complete. Niente code, niente attese, nessun messaggio "aggiorna l\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'account". Solo pura potenza di elaborazione a portata di mano.',
+        'Carica 50 file prima di dormire. Svegliati con le trascrizioni complete. Niente code, niente attese, nessun messaggio "aggiorna l\'account". Solo pura potenza di elaborazione a portata di mano.',
       feature1Point1Icon: "✓",
       feature1Point1Text: "50 caricamenti simultanei",
       feature1Point2Icon: "✓",
@@ -1889,7 +1939,7 @@ let message = {
       },
       contentCreators: {
         title: "Creatori di Contenuti",
-        pain: '"L\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'accessibilità non dovrebbe essere costosa"',
+        pain: '"L\'accessibilità non dovrebbe essere costosa"',
         description:
           "Sottotitola l'intero canale YouTube. Genera sottotitoli in più lingue e migliora subito il SEO dei tuoi video.",
         benefits: {
@@ -2161,7 +2211,7 @@ let message = {
       testimonialsSubtitle: "Storie vere da veri podcaster",
       testimonials: {
         mike: {
-          text: '"Faccio un podcast da 3 anni e trascrivevo tutto manualmente come un idiota. Ho caricato 6 episodi insieme e ha separato perfettamente me e il mio co-host. L\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'episodio del caffè che pensavo fosse rovinato? Trascrizione cristallina. Non tornerò mai più a digitare queste cose da solo."',
+          text: '"Faccio un podcast da 3 anni e trascrivevo tutto manualmente come un idiota. Ho caricato 6 episodi insieme e ha separato perfettamente me e il mio co-host. L\'episodio del caffè che pensavo fosse rovinato? Trascrizione cristallina. Non tornerò mai più a digitare queste cose da solo."',
           name: "Mike Rodriguez",
           role: 'Conduttore del podcast "The Daily Grind"'
         },
@@ -2824,15 +2874,15 @@ let message = {
       testimonialsTitle: "I team amano",
       testimonialsSubtitle: "Scopri come le aziende trasformano la loro cultura delle riunioni",
       testimonial1Text:
-        '"Siamo passati dal perdere dettagli cruciali all\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'avere un archivio ricercabile di ogni conversazione. La registrazione diretta significa che non dimenticheremo mai discussioni importanti."',
+        '"Siamo passati dal perdere dettagli cruciali all\'avere un archivio ricercabile di ogni conversazione. La registrazione diretta significa che non dimenticheremo mai discussioni importanti."',
       testimonial1AuthorName: "James Kim",
       testimonial1AuthorRole: "Product Manager, TechCorp",
       testimonial2Text:
-        '"Otter ci limitava a 10 caricamenti al mese. Ora carichiamo tutte le chiamate con i clienti all\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'istante. Un punto di svolta per i follow-up del nostro team vendite."',
+        '"Otter ci limitava a 10 caricamenti al mese. Ora carichiamo tutte le chiamate con i clienti all\'istante. Un punto di svolta per i follow-up del nostro team vendite."',
       testimonial2AuthorName: "Sarah Rodriguez",
       testimonial2AuthorRole: "Sales Director, ConsultPro",
       testimonial3Text:
-        '"La possibilità di cercare tra mesi di riunioni ci ha salvato durante l\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'audit. Trovato ogni decisione e approvazione in secondi."',
+        '"La possibilità di cercare tra mesi di riunioni ci ha salvato durante l\'audit. Trovato ogni decisione e approvazione in secondi."',
       testimonial3AuthorName: "Mark Liu",
       testimonial3AuthorRole: "COO, FinanceHub",
       ctaTitle: "Smetti di perdere conversazioni importanti",
@@ -2939,7 +2989,7 @@ let message = {
       useCasesTitle2: "Esigenza Educativa",
       testimonialTitle2: "50.000+ Educatori",
       testimonialTextA:
-        '"Ho usato {NeverCap} per trascrivere l\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'intero canale YouTube di tutorial di matematica. Quello che prima richiedeva settimane con altri servizi, ora richiede ore. La possibilità di incollare i link direttamente e ottenere trascrizioni istantanee ha trasformato il mio modo di creare contenuti accessibili. I miei studenti internazionali adorano in particolare i sottotitoli multilingue!"'
+        '"Ho usato {NeverCap} per trascrivere l\'intero canale YouTube di tutorial di matematica. Quello che prima richiedeva settimane con altri servizi, ora richiede ore. La possibilità di incollare i link direttamente e ottenere trascrizioni istantanee ha trasformato il mio modo di creare contenuti accessibili. I miei studenti internazionali adorano in particolare i sottotitoli multilingue!"'
     }
   },
   Resources: {
@@ -3076,7 +3126,7 @@ let message = {
           {
             question: "Quando scarico un video MP4 con il mio smartphone, dove viene salvato?",
             answer:
-              "Dopo aver scaricato un MP4 sul tuo smartphone, puoi in genere trovarlo nella cartella \"Downloads\" all\\\\\\\\\\\\\\\\\\\\\\\\\\\\'interno dell\\\\\\\\\\\\\\\\\\\\\\\\\\\\'app di gestione file del dispositivo."
+              "Dopo aver scaricato un MP4 sul tuo smartphone, puoi in genere trovarlo nella cartella \"Downloads\" all'interno dell'app di gestione file del dispositivo."
           },
           {
             question: "Scaricare un video YouTube come MP4 riduce la qualità del video?",
@@ -3321,6 +3371,153 @@ let message = {
         TranscribeButton: "Trascrivere",
         downloadError: "Errore di conversione."
       }
+    },
+    Transcription: {
+      videoTranscription: {
+        hero: {
+          title: "Trascrizione Video: Potenziata dall'AI e Precisa",
+          des: "Trascrivi video in testo con alta precisione e supporto per 100+ lingue. Converti facilmente qualsiasi file o link in testo modificabile ed esportalo in più formati, dai clip brevi ai video lunghi.",
+          feature_1: "Supporta 12 Formati",
+          feature_2: "Supporta 100+ Lingue",
+          feature_3: "Esporta in 6 Formati"
+        },
+        threeStep: {
+          title: "Come fare",
+          titleHighlight: "Converti Video in Testo con NeverCap",
+          step_1_title: "Carica o incolla",
+          step_1_des:
+            "Supportiamo formati video come MP4, MOV, WMV e MPEG, oltre a link da YouTube, TikTok, X, Facebook e altre piattaforme.",
+          step_2_title: "Trascrivi video in testo",
+          step_2_des:
+            'Clicca il pulsante "Trascrivi" e attendi il completamento. Un video di 1 ora richiede tipicamente solo 1-2 minuti per la trascrizione.',
+          step_3_title: "Esporta o condividi",
+          step_3_des:
+            "Modifica il testo direttamente online, quindi esportalo in più formati come TXT, PDF, DOCX, SRT, CSV o VTT. Puoi anche generare un link condivisibile."
+        },
+        whyTran: {
+          title: "Perché",
+          titleHighlight: "Trascrivi Video in Testo",
+          des: "È incredibilmente utile in scenari come apprendimento, creazione di contenuti, ricerca e lavoro. Ecco perché:",
+          reason_1_title: "Rende più facili appunti e revisioni.",
+          reason_1_des:
+            "Studenti, ricercatori e creatori spesso devono estrarre informazioni da video. La trascrizione semplifica gli appunti, organizza interviste, prepara script e traduce contenuti con precisione ed economicità.",
+          reason_2_title: "Migliora la ricerca.",
+          reason_2_des: "Con il testo puoi cercare parole chiave velocemente - niente più riavvolgimenti.",
+          reason_3_title: "Risparmia tempo e aumenta l'efficienza.",
+          reason_3_des:
+            "Leggere è più veloce che guardare video, soprattutto per lezioni o riunioni. Puoi saltare ai punti chiave.",
+          reason_4_title: "Migliora l'accessibilità.",
+          reason_4_des:
+            "Offre accesso a non udenti, non madrelingua o chi ha difficoltà uditive. Aiuta a rispettare standard come WCAG.",
+          reason_5_title: "Consente riutilizzo dei contenuti.",
+          reason_5_des:
+            "I creatori usano trascrizioni per generare velocemente post, contenuti social, riassunti o sottotitoli.",
+          reason_6_title: "Supporta comprensione, memorizzazione e archiviazione.",
+          reason_6_des:
+            "Combinare video e testo migliora comprensione e memoria, mentre i file testo sono facili da archiviare per creare biblioteche digitali."
+        },
+        whyChoose: {
+          title: "Perché Scegliere",
+          titleHighlight: "Il Nostro Strumento di Trascrizione",
+          reason_1_title: "Trascrivi & Traduci Globalmente",
+          reason_1_des:
+            "Supporta 100+ lingue per trascrizione e 249 per traduzione, abbattendo ogni barriera linguistica.",
+          reason_2_title: "Compatibilità Universale",
+          reason_2_des: "Funziona con tutti i formati video (MP4, MOV, MKV...) e piattaforme come YouTube e TikTok.",
+          reason_3_title: "Trascrizioni Veramente Illimitate",
+          reason_3_des: "Trascrivi 100 o 1000 video - tariffa unica. Nessun limite nascosto.",
+          reason_4_title: "Precisione Affidabile",
+          reason_4_des: "Oltre il 95% di precisione, con lingue come inglese e spagnolo oltre il 96%.",
+          reason_5_title: "Sicurezza Enterprise",
+          reason_5_des: "I tuoi dati sono protetti con crittografia avanzata. La tua privacy è la nostra priorità.",
+          reason_6_title: "Timestamp a Livello di Parola",
+          reason_6_des: "Individua qualsiasi momento nel video. Clicca una parola per saltare al punto esatto."
+        },
+        reviews: {
+          title: "Recensioni dei",
+          titleHighlight: "Nostri Utenti",
+          des: "Scopri perché migliaia si affidano a noi per trascrizioni senza sforzo.",
+          people_1_content:
+            "La trascrizione video di NeverCap è assolutamente fantastica! Dopo aver provato oltre una dozzina di strumenti, questo è il primo servizio davvero illimitato. Posso trascrivere quanto voglio senza preoccuparmi di limiti.",
+          people_1_job: "Content Creator",
+          people_2_content:
+            "Prezzi accessibili, gestisce facilmente file grandi ed elabora decine di file contemporaneamente. Risolve quasi tutti i problemi che ho avuto.",
+          people_2_job: "Ricercatore",
+          people_3_content:
+            "Preciso, veloce e supporta tantissime lingue. Ciò che stupisce è come gestisce i video lunghi. NeverCap è diventato essenziale nel mio kit e l'ho consigliato a tutti i compagni.",
+          people_3_job: "Dottorando"
+        },
+        faq: {
+          title: "Domande chiave su",
+          titleHighlight: "Trascrizione Video",
+          question_1: "Quali formati video supporta NeverCap?",
+          answer_1: "Supportiamo i formati più comuni: MP4, MOV, WMV, MPEG, WebM e MKV.",
+          question_2: "Come trascrivo un link video e quali piattaforme sono supportate?",
+          answer_2:
+            'Basta copiare e incollare l\'URL del video, poi cliccare "Trascrivi". Supportiamo link da YouTube, Facebook, X, Dropbox, Google Drive, Vimeo, TikTok, Instagram e altri.',
+          question_3: "Quali lingue sono supportate per la trascrizione video?",
+          answer_3:
+            "NeverCap supporta 100+ lingue, tra cui inglese, spagnolo, cinese, francese, tedesco, giapponese, coreano, portoghese, russo, italiano, olandese e arabo.",
+          question_4: "Qual è la durata e dimensione massima per la trascrizione?",
+          answer_4: "Dimensione massima 5GB e durata massima 10 ore per video.",
+          question_5: "Quanti file video posso caricare contemporaneamente?",
+          answer_5: "NeverCap permette di elaborare fino a 50 file simultaneamente.",
+          question_6: "Quanto è veloce il processo di trascrizione? Devo aspettare molto?",
+          answer_6: "Nessuna lunga attesa. Nei nostri test, un video di 1 ora si trascrive in circa 3 minuti.",
+          question_7: "Qual è l'accuratezza della trascrizione di NeverCap?",
+          answer_7:
+            "Oltre il 95% di accuratezza per tutte le lingue, oltre il 96% per lingue chiave come inglese, spagnolo, cinese e francese.",
+          question_8: "Il testo trascritto può essere tradotto in altre lingue?",
+          answer_8: "Sì. Una volta completata la trascrizione, puoi tradurre il testo in 249 lingue supportate.",
+          question_9: "Posso modificare, esportare o condividere il testo trascritto?",
+          answer_9:
+            "Certamente. Il testo si può modificare in tempo reale. Formati di esportazione: PDF, DOCX, TXT, TTV, CSV e SRT. Puoi anche generare un link condivisibile."
+        },
+        explore: {
+          title: "Scopri di più",
+          transcribeTitle: "Strumenti per trascrivere in testo",
+          transcribe_1: "Audio a testo",
+          transcribe_2: "Voce a testo",
+          transcribe_3: "MP3 a testo",
+          transcribe_4: "MP4 a testo",
+          transcribe_5: "AAC a testo",
+          transcribe_6: "AMR a testo",
+          transcribe_7: "M4A a testo",
+          transcribe_8: "MOV a testo",
+          transcribe_9: "MPEG a testo",
+          transcribe_10: "OGG a testo",
+          transcribe_11: "TS a testo",
+          transcribe_12: "WAV a testo",
+          transcribe_13: "WEBM a testo",
+          otherToolsTitle: "Altri strumenti correlati",
+          otherTools_1: "Al Notetaker",
+          otherTools_2: "Aggiungi sottotitoli ai video",
+          otherTools_3: "Traduci audio",
+          otherTools_4: "Traduci video",
+          otherTools_5: "Generatore di sottotitoli",
+          otherTools_6: "Riassuntore video",
+          otherTools_7: "Convertitore video"
+        }
+      }
+    },
+    Upload: {
+      uploadFile: "Carica File",
+      pasteLink: "Incolla Link",
+      fileTip: "Ottieni la trascrizione del video in pochi secondi",
+      linkTitle: "Link",
+      linkTip: "Incolla un link da qualsiasi piattaforma per iniziare",
+      transcribeProgress: "Trascrizione in corso...",
+      transcribeFailed: "Trascrizione fallita...",
+      retry: "Riprova",
+      search: "Cerca",
+      tip1: "Vuoi salvarlo definitivamente?",
+      tip2: "Registrati gratis",
+      tip3: "per gestire e modificare tutti i tuoi file di trascrizione.",
+      tip4: "Vuoi",
+      tip5: "salvare",
+      tip6: "definitivamente?",
+      tip7: "per gestire e modificare",
+      tip8: "tutti i tuoi file di trascrizione."
     }
   },
   About: {
@@ -3533,10 +3730,10 @@ let message = {
       "Abusi verbali, fisici, scritti o di altro tipo (comprese minacce di abuso o ritorsione) nei confronti di un dipendente o dirigente della Società possono comportare la terminazione immediata dell'account.",
     submissionsTitle: "6. Contributi",
     submissionsDescription:
-      'Riconosci e accetti che qualsiasi domanda, commento, suggerimento, idea, feedback o altra informazione riguardante il Sito ("Contributi") fornita da te a noi è non confidenziale e diventerà nostra proprietà esclusiva. Avremo diritti esclusivi, inclusi tutti i diritti di proprietà intellettuale, e saremo autorizzati all\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'uso e alla diffusione illimitati di questi Contributi per qualsiasi scopo legale, commerciale o meno, senza riconoscimento o compenso per te. Rinunci a tutti i diritti morali su tali Contributi e garantisci che tali Contributi siano originali o che tu abbia il diritto di inviarli. Accetti che non ci sarà alcuna rivalsa contro di noi per qualsiasi presunta o effettiva violazione o appropriazione indebita di qualsiasi diritto proprietario nei tuoi Contributi.',
+      'Riconosci e accetti che qualsiasi domanda, commento, suggerimento, idea, feedback o altra informazione riguardante il Sito ("Contributi") fornita da te a noi è non confidenziale e diventerà nostra proprietà esclusiva. Avremo diritti esclusivi, inclusi tutti i diritti di proprietà intellettuale, e saremo autorizzati all\'uso e alla diffusione illimitati di questi Contributi per qualsiasi scopo legale, commerciale o meno, senza riconoscimento o compenso per te. Rinunci a tutti i diritti morali su tali Contributi e garantisci che tali Contributi siano originali o che tu abbia il diritto di inviarli. Accetti che non ci sarà alcuna rivalsa contro di noi per qualsiasi presunta o effettiva violazione o appropriazione indebita di qualsiasi diritto proprietario nei tuoi Contributi.',
     uptimeTitle: "7. Disponibilità e Sicurezza",
     serviceAvailability:
-      'L\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'uso dei Servizi è a tuo rischio. Forniamo questi Servizi "così come sono" e "come disponibili". Non offriamo accordi di livello di servizio per la maggior parte dei nostri Servizi, ma prendiamo seriamente la disponibilità delle nostre applicazioni.',
+      'L\'uso dei Servizi è a tuo rischio. Forniamo questi Servizi "così come sono" e "come disponibili". Non offriamo accordi di livello di servizio per la maggior parte dei nostri Servizi, ma prendiamo seriamente la disponibilità delle nostre applicazioni.',
     throttlingPolicy:
       "Ci riserviamo il diritto di limitare temporaneamente l'accesso all'account in rari casi in cui l'attività di un utente influisca negativamente sulla stabilità e sulle prestazioni del Servizio per altri utenti. Tranne nei casi più critici, ti contatteremo per trovare una soluzione prima di agire.",
     dataSecurity:
@@ -3664,6 +3861,13 @@ let message = {
       GoToSignup: "Prova NeverCap gratis - Nessuna carta di credito",
       HowWorks: "Guarda come funziona"
     }
+  },
+  RegisterDialog: {
+    transcribeNewFiles: "Trascrivi nuovi file",
+    signUpNow: "Registrati ora",
+    stillExporting: "Esportazione in corso",
+    tip1: "Registrati gratuitamente per salvare e modificare i tuoi file definitivamente!",
+    tip2: "Passa a Premium per trascrizioni illimitate!"
   }
 };
 

@@ -518,7 +518,55 @@ let message = {
       yua: "Jukataninmaja",
       Dzongkha: "Dzongkha",
       Zulu: "Zulu"
-    }
+    },
+    edit: "Muokkaa",
+    translate: "Käännä",
+    showTimestamp: "Näytä aikaleima",
+    showMoreTimestamp: "Näytä yksityiskohtaisempi aikaleima",
+    selectMoreTimestamp: "Yksityiskohtainen aikaleima",
+    hideTimestamp: "Piilota aikaleima",
+    showSpeaker: "Puhuja",
+    timestamp: "Aikaleima",
+    timestampMore: "Lisää",
+    share: "Jaa",
+    shared: "jaettu",
+    export: "Vie",
+    speaker: "Puhuja_{id}",
+    unassignSpeaker: "Poista puhuja",
+    play: "Toista",
+    save: "Tallenna",
+    undo: "Kumoa",
+    redo: "Tee uudelleen",
+    confirm: "Vahvista",
+    cancel: "Peruuta",
+    addNew: "Lisää uusi",
+    createANewSpeaker: "Luo uusi puhuja",
+    speakerName: "Puhujan nimi",
+    addSpeaker: "Lisää puhuja",
+    applyToAllMatchingSpeakers: "Sovella kaikkiin vastaaviin puhujiin",
+    applyToCurrentParagraph: "Sovella tähän kappaleeseen",
+    speakerDuplicate: "Puhuja on jo olemassa.",
+    cancelTranslation: "Peruuta käännös",
+    showVideo: "Näytä video",
+    hideVideo: "Piilota video",
+    notFund: "Ei löytynyt",
+    notFundDesc: "Emme löytäneet etsimääsi.",
+    shareTips: "Kuka tahansa, jolla on tämä linkki, voi katsoa tekstityksen ja toistaa median.",
+    copyLink: "Kopioi linkki",
+    copySuccessful: "Kopiointi onnistui",
+    copyFail: "Kopiointi epäonnistui",
+    closeTrans: "Peruuta käännös",
+    upgradeBtn: "Päivitä nyt avataksesi",
+    upgradeTip30: "Avaa koko tekstityksesi",
+    upgradeTipMore: "Hyviä uutisia! Koko tiedostosi on tekstitetty.",
+    errorTips: "Jokin meni pieleen.",
+    copiedLink: "Linkki kopioitu",
+    copyGotIt: "Selvä",
+    upgradeMinPreview: "Päivitä nähdäksesi yli 30 minuutin esikatselun.",
+    silentTip: "Ei ääntä tiedostossa. Tarkista ja yritä uudelleen.",
+    outLimit: "Tiedosto ylittää pituusrajan",
+    outLimitTip1: "Ilmaiset tilit tukevat enintään 30 minuutin tiedostoja.",
+    outLimitTip2: "Rekisteröidy päivittääksesi ja avataksesi koko tekstityksen nyt!"
   },
   // Kirjautuminen, rekisteröityminen, salasanan vaihto
   IdentityInfoManage: {
@@ -1019,7 +1067,9 @@ let message = {
     YouTubetoMP4: "YouTube MP4-muotoon",
     StartFreeTrial: "Ilmainen kokeilu",
     Blog: "Blogi",
-    YouTubetoMP3: "YouTubesta MP3:een"
+    YouTubetoMP3: "YouTubesta MP3:een",
+    Transcription: "Tekstitys",
+    VideoTranscription: "Videoiden tekstitys"
   },
   Footer: {
     des: "Maailman ensimmäinen todella rajaton AI-tekstitypalvelu. Ei rajoituksia, ei kattoja, vain vapaus luoda.",
@@ -1038,7 +1088,7 @@ let message = {
     ],
     companyMenus: ["Tietoja", "Hinnoittelu", "Tietosuoja", "Käyttöehdot"],
     Resources: "Resurssit",
-    resourcesMenus: ["YouTubesta MP4:ään", "YouTubesta MP3:een"]
+    resourcesMenus: ["YouTubesta MP4:ään", "YouTubesta MP3:een", "Videoiden tekstitys"]
   },
   Index: {
     Hero: {
@@ -3315,6 +3365,157 @@ let message = {
         TranscribeButton: "Litteroi",
         downloadError: "Muunnosvirhe."
       }
+    },
+    Transcription: {
+      videoTranscription: {
+        hero: {
+          title: "Videoiden tekstitys: Tekoälyavusteinen ja tarkka",
+          des: "Tekstitä videoita tekstiin korkealla tarkkuudella ja 100+ kielen tuella. Muunna helposti mikä tahansa tiedosto tai linkki muokattavaksi tekstiksi ja vie useissa muodoissa lyhyistä pätkistä pitkiin videoihin.",
+          feature_1: "Tukee 12 muotoa",
+          feature_2: "Tukee 100+ kieltä",
+          feature_3: "Vie 6 muodossa"
+        },
+        threeStep: {
+          title: "Miten",
+          titleHighlight: "Muunna video tekstiä NeverCapilla",
+          step_1_title: "Lataa tai liitä",
+          step_1_des:
+            "Tuemme videoformaatteja kuten MP4, MOV, WMV ja MPEG sekä linkkejä YouTubeen, TikTokiin, X:iin, Facebookiin ja muihin alustoihin.",
+          step_2_title: "Tekstitä video tekstiksi",
+          step_2_des:
+            'Napsauta "Tekstitä"-painiketta ja odota prosessin valmistumista. Yhden tunnin video tekstitetään tyypillisesti vain 1–2 minuutissa.',
+          step_3_title: "Vie tai jaa",
+          step_3_des:
+            "Muokkaa tekstiäsi suoraan verkossa ja vie se useissa muodoissa kuten TXT, PDF, DOCX, SRT, CSV tai VTT. Voit myös luoda jaettavan linkin tekstitykseesi."
+        },
+        whyTran: {
+          title: "Miksi",
+          titleHighlight: "Tekstitä videot tekstiksi",
+          des: "Se on äärimmäisen hyödyllinen oppimisessa, sisällöntuotannossa, tutkimuksessa ja työssä. Tässä syyt:",
+          reason_1_title: "Helpottaa muistiinpanojen tekemistä ja tarkistamista.",
+          reason_1_des:
+            "Opiskelijat, tutkijat ja sisällöntuottajat joutuvat usein poimimaan tietoa videoista. Tekstitys helpottaa opiskelumuistiinpanojen tekemistä, tutkimushaastattelujen järjestämistä, käsikirjoitusten tai artikkelien luomista sekä sisällön kääntämistä tarkemmin ja kustannustehokkaammin.",
+          reason_2_title: "Parantaa hakukelpoisuutta.",
+          reason_2_des: "Tekstillä voit hakea nopeasti avainsanoja ja löytää tärkeitä osia - ei enää videon kelailua.",
+          reason_3_title: "Säästää aikaa ja tehostaa työskentelyä.",
+          reason_3_des:
+            "Tekstin lukeminen on paljon nopeampaa kuin videon katsominen, erityisesti luentoihin, haastatteluihin tai kokouksiin liittyvää sisältöä varten. Tekstin avulla voit selata tai hypätä suoraan keskeisiin kohtiin.",
+          reason_4_title: "Parantaa saatavuutta.",
+          reason_4_des:
+            "Se tarjoaa tasavertaisen tiedonsaanti kuuroille, kuulovammaisille, ei-äidinkielisille tai kuuluvaikeuksista kärsiville. Se myös auttaa alustoja täyttämään WCAG-tyyppiset vaatimukset.",
+          reason_5_title: "Mahdollistaa sisällön uudelleenkäytön.",
+          reason_5_des:
+            "Sisällöntuottajat käyttävät usein tekstityksiä blogikirjoitusten, sosiaalisen median sisällön, tiivistelmien tai videotekstien nopeaan luomiseen - luovuusprosessi nopeutuu huomattavasti ilman manuaalista näppäilyä.",
+          reason_6_title: "Tukee parempaa ymmärtämistä, säilyttämistä ja arkistointia.",
+          reason_6_des:
+            "Visuaalisen ja tekstipohjaisen tiedon yhdistäminen parantaa ymmärtämistä ja muistia, kun taas tekstitiedostot on helppo tallentaa, mikä tekee niistä ihanteellisen tietokantojen, asiakirjakirjastojen tai arkistojärjestelmien rakentamiseen."
+        },
+        whyChoose: {
+          title: "Miksi valita",
+          titleHighlight: "Videoiden tekstitystyökalumme",
+          reason_1_title: "Tekstitä ja käännä maailmanlaajuisesti",
+          reason_1_des: "Tukee tekstitystä 100+ kielellä ja kääntämistä 249 muulle kielelle rikkoen kaikki kielirajat.",
+          reason_2_title: "Yleispätevä muotiyhteensopivuus",
+          reason_2_des:
+            "Toimii saumattosti kaikilla yleisillä videoformaateilla (MP4, MOV, MKV jne.) ja alustoilla kuten YouTube & TikTok.",
+          reason_3_title: "Todella rajaton tekstitys",
+          reason_3_des:
+            "Tekstitä 100 tai 1 000 videota - kiinteä hinta pysyy samana. Ei piilotettuja rajoja, ei yllätyskustannuksia.",
+          reason_4_title: "Luotettava tarkkuus",
+          reason_4_des:
+            "Hyödynnä yli 95 % kokonaistarkkuutta, ja keskeiset kielet kuten englanti ja espanja yltävät yli 96 % tarkkuuteen.",
+          reason_5_title: "Yritysluokan turvallisuus",
+          reason_5_des:
+            "Tietosi on suojattu alan johtavalla salauksella ja tietosuojakäytännöillä. Kohtelemme luottamuksellisuuttasi äärimmäisen vakavasti.",
+          reason_6_title: "Sanatason aikaleimat",
+          reason_6_des:
+            "Etsi heti mikä tahansa videosi kohta. Napsauta tekstityksen sanaa hypätäksesi suoraan kyseiseen ajankohtaan alkuperäisessä mediassa."
+        },
+        reviews: {
+          title: "Arvostelut",
+          titleHighlight: "Käyttäjiltämme",
+          des: "Katso, miksi tuhannet luottavat meihin vaivattomaan tekstitykseen.",
+          people_1_content:
+            "NeverCapin videoiden tekstitys on aivan uskomatonta! Kokeiltuani tusinan tekstitystyökaluja tämä on ensimmäinen palvelu, joka on todella rajoittamaton. Voin tekstittää niin paljon kuin haluan ilman käyttörajojen huolta.",
+          people_1_job: "Sisältötuottaja",
+          people_2_content:
+            "Edulliset hinnat, suurten tiedostojen käsittely vaivatta ja kymmenien tiedostojen samanaikainen käsittely. NeverCapin videoiden tekstitys ratkaisee lähes kaikki ongelmani.",
+          people_2_job: "Tutkija",
+          people_3_content:
+            "Tarkka, nopea ja tukee monia kieliä. Erityisesti pitkät videot käsitellään hyvin. NeverCapista on tullut välttämätön työkaluni ja olen suositellut sitä kaikille luokkatovereilleni.",
+          people_3_job: "Tohtorikandidaatti"
+        },
+        faq: {
+          title: "Keskeiset kysymykset",
+          titleHighlight: "Videoiden tekstitys",
+          question_1: "Mitä videoformaateja NeverCap tukee?",
+          answer_1: "Tuemme yleisiä videoformaatteja, kuten MP4, MOV, WMV, MPEG, WebM ja MKV.",
+          question_2: "Miten tekstitän videolinkin ja mitä alustoja tuetaan?",
+          answer_2:
+            'Kopioi ja liitä videon URL-osoite ja napsauta "Tekstitä". Tuemme linkkejä YouTubesta, Facebookista, X:stä, Dropboxista, Google Drivesta, Vimeosta, TikTokista, Instagramista ja muista.',
+          question_3: "Mitä kieliä videoiden tekstityksessä tuetaan?",
+          answer_3:
+            "NeverCap tukee yli 100 kieltä, mukaan lukien englanti, espanja, mandariinikiina, ranska, saksa, japani, korea, portugali, venäjä, italia, hollanti ja arabia.",
+          question_4: "Mikä on tekstityksen enimmäiskesto ja tiedostokoko?",
+          answer_4: "Enimmäistiedostokoko on 5GB ja enimmäiskesto 10 tuntia per video.",
+          question_5: "Kuinka monta videotiedostoa voin ladata kerralla?",
+          answer_5: "NeverCap sallii jopa 50 tiedoston samanaikaisen käsittelyn.",
+          question_6: "Kuinka nopea tekstitysprosessi on? Pitääkö odottaa kauan?",
+          answer_6: "Ei pitkiä odotuksia. Testeissämme tunnin video tekstitetään noin 3 minuutissa.",
+          question_7: "Kuinka tarkka NeverCapin tekstitys on?",
+          answer_7:
+            "Tarjoamme yli 95 % tarkkuuden kaikilla kielillä ja yli 96 % tärkeimmillä kielillä kuten englanti, espanja, mandariinikiina ja ranska.",
+          question_8: "Voidaanko tekstitetty teksti kääntää muille kielille?",
+          answer_8: "Kyllä. Tekstityksen saatuaan voit kääntää tekstin 249 tuetulle kielelle.",
+          question_9: "Voinko muokata, viedä tai jakaa tekstitettyä tekstiä?",
+          answer_9:
+            "Todellakin. Tekstiä voi muokata reaaliajassa. Vie vaihtoehdot sisältävät PDF, DOCX, TXT, TTV, CSV ja SRT -muodot. Voit myös luoda jaettavan linkin tekstitykseen."
+        },
+        explore: {
+          title: "Tutustu lisää",
+          transcribeTitle: "Työkalut tekstiksi muuttamiseen",
+          transcribe_1: "Ääni tekstiksi",
+          transcribe_2: "Puhe tekstiksi",
+          transcribe_3: "MP3 tekstiksi",
+          transcribe_4: "MP4 tekstiksi",
+          transcribe_5: "AAC tekstiksi",
+          transcribe_6: "AMR tekstiksi",
+          transcribe_7: "M4A tekstiksi",
+          transcribe_8: "MOV tekstiksi",
+          transcribe_9: "MPEG tekstiksi",
+          transcribe_10: "OGG tekstiksi",
+          transcribe_11: "TS tekstiksi",
+          transcribe_12: "WAV tekstiksi",
+          transcribe_13: "WEBM tekstiksi",
+          otherToolsTitle: "Muut aiheeseen liittyvät työkalut",
+          otherTools_1: "Al Notetaker",
+          otherTools_2: "Lisää tekstitys videoon",
+          otherTools_3: "Käännä ääni",
+          otherTools_4: "Käännä video",
+          otherTools_5: "Tekstityksen luoja",
+          otherTools_6: "Videoyhteenveto",
+          otherTools_7: "Videomuunnin"
+        }
+      }
+    },
+    Upload: {
+      uploadFile: "Lataa tiedosto",
+      pasteLink: "Liitä linkki",
+      fileTip: "Hanki videon tekstitys sekunneissa",
+      linkTitle: "Linkki",
+      linkTip: "Liitä linkki mistä tahansa alustasta aloittaaksesi",
+      transcribeProgress: "Tekstitys käynnissä...",
+      transcribeFailed: "Tekstitys epäonnistui...",
+      retry: "Yritä uudelleen",
+      search: "Hae",
+      tip1: "Haluatko tallentaa sen pysyvästi?",
+      tip2: "Rekisteröidy ilmaiseksi",
+      tip3: "hallitaksesi ja muokataksesi kaikkia tekstitystiedostojasi.",
+      tip4: "Haluatko",
+      tip5: "tallentaa",
+      tip6: "sen pysyvästi?",
+      tip7: "hallitaksesi ja muokataksesi",
+      tip8: "kaikkia tekstitystiedostojasi."
     }
   },
   About: {
@@ -3654,6 +3855,13 @@ let message = {
       GoToSignup: "Kokeile NeverCapia ilmaiseksi – Ei luottokorttia",
       HowWorks: "Katso, miten se toimii"
     }
+  },
+  RegisterDialog: {
+    transcribeNewFiles: "Tekstitä uusia tiedostoja",
+    signUpNow: "Rekisteröidy nyt",
+    stillExporting: "Vielä viedään",
+    tip1: "Rekisteröidy ilmaiseksi tallentaaksesi ja muokataksesi tiedostoja pysyvästi!",
+    tip2: "Päivitä rajoittamattomaan tekstittämiseen!"
   }
 };
 

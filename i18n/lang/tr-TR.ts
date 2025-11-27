@@ -517,7 +517,55 @@ let message = {
       yua: "Yucatec Maya",
       Dzongkha: "Dzongkha",
       Zulu: "Zuluca"
-    }
+    },
+    edit: "Düzenle",
+    translate: "Çevir",
+    showTimestamp: "Zaman damgasını göster",
+    showMoreTimestamp: "Daha ayrıntılı zaman damgasını göster",
+    selectMoreTimestamp: "Ayrıntılı zaman damgası",
+    hideTimestamp: "Zaman damgasını gizle",
+    showSpeaker: "Konuşmacı",
+    timestamp: "Zaman damgası",
+    timestampMore: "Daha fazla",
+    share: "Paylaş",
+    shared: "paylaşıldı",
+    export: "Dışa aktar",
+    speaker: "Konuşmacı_{id}",
+    unassignSpeaker: "Konuşmacıyı kaldır",
+    play: "Oynat",
+    save: "Kaydet",
+    undo: "Geri al",
+    redo: "Yinele",
+    confirm: "Onayla",
+    cancel: "İptal",
+    addNew: "Yeni Ekle",
+    createANewSpeaker: "Yeni Konuşmacı Oluştur",
+    speakerName: "Konuşmacı Adı",
+    addSpeaker: "Konuşmacı Ekle",
+    applyToAllMatchingSpeakers: "Tüm eşleşen konuşmacılara uygula",
+    applyToCurrentParagraph: "Mevcut paragrafa uygula",
+    speakerDuplicate: "Konuşmacı zaten mevcut.",
+    cancelTranslation: "Çeviriyi İptal Et",
+    showVideo: "Videoyu Göster",
+    hideVideo: "Videoyu Gizle",
+    notFund: "Bulunamadı",
+    notFundDesc: "Aradığınızı bulamadık.",
+    shareTips: "Bu bağlantıya sahip olan herkes transkripti görüntüleyebilir ve medyayı oynatabilir.",
+    copyLink: "Bağlantıyı Kopyala",
+    copySuccessful: "Kopyalama başarılı",
+    copyFail: "Kopyalama başarısız",
+    closeTrans: "Çeviriyi İptal Et",
+    upgradeBtn: "Kilidi Açmak için Şimdi Yükselt",
+    upgradeTip30: "Tam Transkriptinizin Kilidini Açın",
+    upgradeTipMore: "Harika haber! Dosyanızın tamamı transkribe edildi.",
+    errorTips: "Bir hata oluştu.",
+    copiedLink: "Bağlantı kopyalandı",
+    copyGotIt: "Anladım",
+    upgradeMinPreview: "30 dakikalık ön izlemenin ötesini görmek için yükseltin.",
+    silentTip: "Dosyada ses yok. Kontrol edip tekrar deneyin.",
+    outLimit: "Dosya Uzunluk Sınırını Aşıyor",
+    outLimitTip1: "Ücretsiz hesaplar en fazla 30 dakikalık dosyaları destekler.",
+    outLimitTip2: "Tam transkript metninin kilidini açmak için şimdi kayıt olun ve yükseltin!"
   },
   // Giriş, Kayıt, Şifre Değiştirme
   IdentityInfoManage: {
@@ -1020,7 +1068,9 @@ let message = {
     YouTubetoMP4: "YouTube'dan MP4'e",
     StartFreeTrial: "Ücretsiz Dene",
     Blog: "Blog",
-    YouTubetoMP3: "YouTube'dan MP3'e"
+    YouTubetoMP3: "YouTube'dan MP3'e",
+    Transcription: "Transkripsiyon",
+    VideoTranscription: "Video Transkripsiyonu"
   },
   Footer: {
     des: "Dünyanın ilk gerçekten sınırsız AI transkripsiyon servisi. Sınır yok, kısıtlama yok, sadece özgürce yaratma özgürlüğü.",
@@ -1039,7 +1089,7 @@ let message = {
     ],
     companyMenus: ["Hakkında", "Fiyatlandırma", "Gizlilik", "Koşullar"],
     Resources: "Kaynaklar",
-    resourcesMenus: ["YouTube'dan MP4'e", "YouTube'dan MP3'e"]
+    resourcesMenus: ["YouTube'dan MP4'e", "YouTube'dan MP3'e", "Video Transkripsiyonu"]
   },
   Index: {
     Hero: {
@@ -1094,7 +1144,7 @@ let message = {
       built_for: "Toplu",
       heavy_users: "Ses & Video Transkripsiyon",
       join_users:
-        'Sizin Gibi Yoğun Kullanıcılar İçin Tasarlandı - "Küçülme enflasyonu" hizmetlerinden geçen YouTuber\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'lara, içerik üreticilerine ve podcast yapımcılarına katılın',
+        'Sizin Gibi Yoğun Kullanıcılar İçin Tasarlandı - "Küçülme enflasyonu" hizmetlerinden geçen YouTuber\'lara, içerik üreticilerine ve podcast yapımcılarına katılın',
       podcasters: {
         title: "Podcast Yapımcıları",
         des: "Tüm arşivinizi yükleyin. Her bölüm için gösteri notları oluşturun. Hangi bölümleri transkribe edeceğinizi seçmek zorunda kalmayın."
@@ -1293,11 +1343,11 @@ let message = {
       feature3TitlePart1: "Kullanıcılar",
       feature3TitlePart2: "Her Gün Geçiş Yapıyor",
       feature3Description:
-        '"Otter\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'a yılda 100$ ödüyorum ve beni ayda 10 dosya ile sınırlıyorlar. Sınırsız içe aktarma sunan bir alternatif çıkar çıkmaz gidiyorum!" - Gerçek Reddit kullanıcısı',
+        '"Otter\'a yılda 100$ ödüyorum ve beni ayda 10 dosya ile sınırlıyorlar. Sınırsız içe aktarma sunan bir alternatif çıkar çıkmaz gidiyorum!" - Gerçek Reddit kullanıcısı',
       feature3Point1Icon: "✓",
       feature3Point1Text: "50.000+ kullanıcı geçti",
       feature3Point2Icon: "✓",
-      feature3Point2Text: 'Otter\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'ın "küçülme enflasyonu"ndan',
+      feature3Point2Text: 'Otter\'ın "küçülme enflasyonu"ndan',
       feature3Point3Icon: "✓",
       feature3Point3Text: "Asla geri dönmüyor",
       feature3Stat1Number: "50K+",
@@ -2002,7 +2052,7 @@ let message = {
           },
           jessica: {
             textBefore:
-              "\"Serbest çalışan bir gazeteci olarak Trint\\\\\\\\\\\\\\\\\\\\\\\\\\\\'in aylık $100\\\\\\\\\\\\\\\\\\\\\\\\\\\\'ını karşılayamam, ama Otter\\\\\\\\\\\\\\\\\\\\\\\\\\\\'ın aylık 10 dosya limitiyle de çalışamam. NeverCap kariyerimi kurtardı.\"",
+              "\"Serbest çalışan bir gazeteci olarak Trint'in aylık $100'ını karşılayamam, ama Otter'ın aylık 10 dosya limitiyle de çalışamam. NeverCap kariyerimi kurtardı.\"",
             highlight: "$100/ay",
             textAfter: ", ama Otter'ın aylık 10 dosya limitiyle de çalışamam. NeverCap kariyerimi kurtardı.",
             name: "Jessica Park",
@@ -2018,7 +2068,7 @@ let message = {
           },
           carlos: {
             textBefore:
-              '"İspanyolca eğitim içeriği üretiyorum. NeverCap mükemmel transkribe ediyor ve daha geniş kitleler için İngilizce\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'ye çeviriyor. Sınır yok, sadece büyüme."',
+              '"İspanyolca eğitim içeriği üretiyorum. NeverCap mükemmel transkribe ediyor ve daha geniş kitleler için İngilizce\'ye çeviriyor. Sınır yok, sadece büyüme."',
             highlight: "İngilizce'ye çevir",
             textAfter: "daha geniş kitleler için. Sınır yok, sadece büyüme.",
             name: "Carlos Martinez",
@@ -3321,6 +3371,160 @@ let message = {
         TranscribeButton: "Uyarlamak",
         downloadError: "Dönüştürme Hatası."
       }
+    },
+    Transcription: {
+      videoTranscription: {
+        hero: {
+          title: "Video Transkripsiyonu: AI Destekli & Kesin",
+          des: "Videoları yüksek doğrulukta ve 100+ dil desteğiyle metne dönüştürün. Kısa kliplerden uzun videolara kadar herhangi bir dosyayı veya bağlantıyı zahmetsizce düzenlenebilir metne çevirin ve birden fazla formatta dışa aktarın.",
+          feature_1: "12 Formatı Destekler",
+          feature_2: "100+ Dili Destekler",
+          feature_3: "6 Formatta Dışa Aktarın"
+        },
+        threeStep: {
+          title: "Nasıl Yapılır",
+          titleHighlight: "NeverCap ile Videoyu Metne Dönüştürün",
+          step_1_title: "Yükle veya yapıştır",
+          step_1_des:
+            "MP4, MOV, WMV ve MPEG gibi video formatlarının yanı sıra YouTube, TikTok, X, Facebook ve diğer platformlardan bağlantıları destekliyoruz.",
+          step_2_title: "Videoyu metne dönüştür",
+          step_2_des:
+            '"Transkripsiyon Yap" düğmesine tıklayın ve işlemin tamamlanmasını bekleyin. 1 saatlik bir video genellikle sadece 1–2 dakika sürer.',
+          step_3_title: "Dışa aktar veya paylaş",
+          step_3_des:
+            "Metninizi doğrudan çevrimiçi düzenleyin, ardından TXT, PDF, DOCX, SRT, CSV veya VTT gibi birden fazla formatta dışa aktarın. Ayrıca transkriptiniz için paylaşılabilir bir bağlantı oluşturabilirsiniz."
+        },
+        whyTran: {
+          title: "Neden",
+          titleHighlight: "Videoları Metne Dönüştürün",
+          des: "Öğrenme, içerik oluşturma, araştırma ve iş gibi senaryolarda inanılmaz derecede değerlidir. İşte nedeni:",
+          reason_1_title: "Not alma ve gözden geçirmeyi kolaylaştırır.",
+          reason_1_des:
+            "Öğrenciler, araştırmacılar ve içerik üreticiler sıklıkla videolardan bilgi çıkarmaya ihtiyaç duyar. Transkripsiyon, ders notları almayı, araştırma görüşmelerini organize etmeyi, senaryo veya makale taslağı hazırlamayı ve içeriği daha doğru ve ekonomik bir şekilde çevirmeyi kolaylaştırır.",
+          reason_2_title: "Aranabilirliği artırır.",
+          reason_2_des:
+            "Metin sayesinde anahtar kelimeleri hızla arayabilir ve önemli bölümleri bulabilirsiniz—artık videoyu geri sarmaya veya ileri sarmaya gerek yok.",
+          reason_3_title: "Zaman kazandırır ve verimliliği artırır.",
+          reason_3_des:
+            "Metin okumak, özellikle dersler, röportajlar veya toplantılar gibi içerikler için videoyu izlemekten çok daha hızlıdır. Metin, ana noktalara hızlıca göz atmanızı veya doğrudan atlamanızı sağlar.",
+          reason_4_title: "Erişilebilirliği iyileştirir.",
+          reason_4_des:
+            "Sağır veya işitme güçlüğü çeken kişiler, ana dili olmayan konuşmacılar veya işitme zorluğu yaşayanlar için bilgiye eşit erişim sağlar. Ayrıca platformların WCAG gibi uyumluluk standartlarını karşılamasına yardımcı olur.",
+          reason_5_title: "İçeriği yeniden kullanmayı sağlar.",
+          reason_5_des:
+            "İçerik üreticileri genellikle blog gönderileri, sosyal medya içerikleri, özetler veya video altyazıları oluşturmak için transkripsiyonları kullanır—manuel yazma olmadan yaratıcı süreci önemli ölçüde hızlandırır.",
+          reason_6_title: "Daha iyi anlama, hatırlama ve arşivlemeyi destekler.",
+          reason_6_des:
+            "Görsel ve metin tabanlı bilgiyi birleştirmek kavrama ve hafızayı geliştirirken, metin dosyalarını saklamak kolaydır, bilgi tabanları, belge kütüphaneleri veya arşiv sistemleri oluşturmak için idealdir."
+        },
+        whyChoose: {
+          title: "Neden Seçmelisiniz",
+          titleHighlight: "Video Transkripsiyon Aracımız",
+          reason_1_title: "Küresel Olarak Transkripsiyon & Çeviri",
+          reason_1_des:
+            "100+ dilde transkripsiyon ve 249 farklı dile çeviri desteği sunar, herhangi bir dil engelini ortadan kaldırır.",
+          reason_2_title: "Evrensel Format Uyumluluğu",
+          reason_2_des:
+            "Tüm yaygın video formatları (MP4, MOV, MKV vb.) ve YouTube & TikTok gibi platformlarla sorunsuz çalışır.",
+          reason_3_title: "Gerçekten Sınırsız Transkripsiyon",
+          reason_3_des:
+            "100 veya 1.000 video transkripsiyonu yapın—sabit ücretiniz aynı kalır. Gizli sınırlar yok, sürpriz maliyetler yok.",
+          reason_4_title: "Güvenebileceğiniz Doğruluk",
+          reason_4_des:
+            "Genel olarak %95'in üzerinde doğruluktan faydalanın, İngilizce ve İspanyolca gibi önemli dillerde %96'nın üzerine çıkın.",
+          reason_5_title: "Kurumsal Düzeyde Güvenlik",
+          reason_5_des:
+            "Verileriniz sektör lideri şifreleme ve gizlilik protokolleriyle korunur. Gizliliğinize son derece ciddiyetle yaklaşıyoruz.",
+          reason_6_title: "Kelime Seviyesinde Zaman Damgaları",
+          reason_6_des:
+            "Videodaki herhangi bir anı anında belirleyin. Transkriptteki bir kelimeye tıklayarak orijinal medyadaki tam zamana doğrudan atlayın."
+        },
+        reviews: {
+          title: "Yorumlar",
+          titleHighlight: "Kullanıcılarımızdan",
+          des: "Binlerce kişinin zahmetsiz transkripsiyon için bize neden güvendiğini görün.",
+          people_1_content:
+            "NeverCap'in video transkripsiyonu kesinlikle harika! Onlarca transkripsiyon aracını denedikten sonra, gerçekten limitsiz olan ilk hizmeti buldum. Kullanım limitleri hakkında endişelenmeden istediğim kadar transkripsiyon yapabiliyorum.",
+          people_1_job: "İçerik Üreticisi",
+          people_2_content:
+            "Uygun fiyatlı, büyük dosyaları kolayca işliyor ve onlarca dosyayı aynı anda dönüştürüyor. NeverCap'in video transkripsiyonu neredeyse tüm sorunlarıma çözüm oldu.",
+          people_2_job: "Araştırmacı",
+          people_3_content:
+            "Doğru, hızlı ve tonlarca dili destekliyor. En çok uzun videoları işleme şekli öne çıkıyor. NeverCap araç setimin vazgeçilmez bir parçası oldu ve tüm sınıf arkadaşlarıma tavsiye ettim.",
+          people_3_job: "Doktora Adayı"
+        },
+        faq: {
+          title: "Hakkında Temel Sorular",
+          titleHighlight: "Video Transkripsiyonu",
+          question_1: "NeverCap hangi video formatlarını destekler?",
+          answer_1: "MP4, MOV, WMV, MPEG, WebM ve MKV gibi yaygın video formatlarını destekliyoruz.",
+          question_2: "Bir video bağlantısını nasıl transkribe ederim ve hangi platformlar desteklenir?",
+          answer_2:
+            'Video URL\'sini kopyalayıp yapıştırmanız ve "Transkribe Et"e tıklamanız yeterli. YouTube, Facebook, X, Dropbox, Google Drive, Vimeo, TikTok, Instagram ve daha fazlasından gelen bağlantıları destekliyoruz.',
+          question_3: "Video transkripsiyonu için hangi diller destekleniyor?",
+          answer_3:
+            "NeverCap 100'den fazla dili destekler; İngilizce, İspanyolca, Mandarin, Fransızca, Almanca, Japonca, Korece, Portekizce, Rusça, İtalyanca, Flemenkçe ve Arapça bunlardan bazılarıdır.",
+          question_4: "Transkripsiyon için maksimum süre ve dosya boyutu nedir?",
+          answer_4: "Maksimum dosya boyutu 5GB ve her video için maksimum süre 10 saattir.",
+          question_5: "Aynı anda kaç video dosyası yükleyebilirim?",
+          answer_5: "NeverCap aynı anda 50 dosyanın işlenmesine izin verir.",
+          question_6: "Transkripsiyon süreci ne kadar hızlı? Uzun süre beklemem gerekiyor mu?",
+          answer_6:
+            "Uzun bekleme gerekmez. Testlerimizde 1 saatlik bir video genellikle yaklaşık 3 dakikada transkribe edilir.",
+          question_7: "NeverCap'in transkripsiyon doğruluğu nedir?",
+          answer_7:
+            "Tüm dillerde %95'in üzerinde, İngilizce, İspanyolca, Mandarin ve Fransızca gibi temel dillerde ise %96'nın üzerinde doğruluk sağlıyoruz.",
+          question_8: "Transkribe edilen metin başka dillere çevrilebilir mi?",
+          answer_8: "Evet. Transkripsiyon tamamlandığında, metni desteklenen 249 dile çevirebilirsiniz.",
+          question_9: "Transkribe edilen metni düzenleyebilir, dışa aktarabilir veya paylaşabilir miyim?",
+          answer_9:
+            "Kesinlikle. Transkribe edilen metin gerçek zamanlı olarak düzenlenebilir. Dışa aktarma seçenekleri arasında PDF, DOCX, TXT, TTV, CSV ve SRT formatları bulunur. Ayrıca transkript için paylaşılabilir bir bağlantı oluşturabilirsiniz."
+        },
+        explore: {
+          title: "Daha fazlasını keşfedin",
+          transcribeTitle: "Metne dönüştürme araçları",
+          transcribe_1: "Sesten metne",
+          transcribe_2: "Konuşmayı metne dönüştürme",
+          transcribe_3: "MP3'ten metne",
+          transcribe_4: "MP4'ten metne",
+          transcribe_5: "AAC'den metne",
+          transcribe_6: "AMR'dan metne",
+          transcribe_7: "M4A'dan metne",
+          transcribe_8: "MOV'dan metne",
+          transcribe_9: "MPEG'den metne",
+          transcribe_10: "OGG'den metne",
+          transcribe_11: "TS'den metne",
+          transcribe_12: "WAV'dan metne",
+          transcribe_13: "WEBM'den metne",
+          otherToolsTitle: "Diğer ilgili araçlar",
+          otherTools_1: "Al Not Tutucu",
+          otherTools_2: "Videoya altyazı ekleme",
+          otherTools_3: "Ses çevirisi",
+          otherTools_4: "Video çevirisi",
+          otherTools_5: "Altyazı oluşturucu",
+          otherTools_6: "Video Özetleyici",
+          otherTools_7: "Video Dönüştürücü"
+        }
+      }
+    },
+    Upload: {
+      uploadFile: "Dosya Yükle",
+      pasteLink: "Bağlantı Yapıştır",
+      fileTip: "Video transkriptinizi saniyeler içinde alın",
+      linkTitle: "Bağlantı",
+      linkTip: "Başlamak için herhangi bir platformdan bağlantı yapıştırın",
+      transcribeProgress: "Transkripsiyon Devam Ediyor...",
+      transcribeFailed: "Transkripsiyon Başarısız Oldu...",
+      retry: "Yeniden Dene",
+      search: "Ara",
+      tip1: "Kalıcı olarak kaydetmek ister misiniz?",
+      tip2: "Ücretsiz kaydolun",
+      tip3: "tüm transkripsiyon dosyalarınızı yönetmek ve düzenlemek için.",
+      tip4: "İster misiniz",
+      tip5: "kaydetmeyi",
+      tip6: "kalıcı olarak?",
+      tip7: "yönetmek ve düzenlemek için",
+      tip8: "tüm transkripsiyon dosyalarınızı."
     }
   },
   About: {
@@ -3475,7 +3679,7 @@ let message = {
     contactDescription:
       "Gizlilik Politikamız hakkında herhangi bir sorunuz, yorumunuz veya şikayetiniz varsa, lütfen bizimle {at} {email} adresinden iletişime geçin ve şikayetinizi en kısa sürede ele almaya çalışacağız.",
     policyDescriptionA:
-      'Bu Politika, {NeverCap}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'in (bundan böyle "NeverCap", "bizim", "bizi", "bize" olarak anılacaktır) hizmetlerimizi, web sitelerimizi ({url}) ve yazılımlarımızı (toplu olarak "Hizmetler") kullandığınızda kişisel bilgilerinizi nasıl topladığını, kullandığını ve ifşa ettiğini açıklar.'
+      'Bu Politika, {NeverCap}\'in (bundan böyle "NeverCap", "bizim", "bizi", "bize" olarak anılacaktır) hizmetlerimizi, web sitelerimizi ({url}) ve yazılımlarımızı (toplu olarak "Hizmetler") kullandığınızda kişisel bilgilerinizi nasıl topladığını, kullandığını ve ifşa ettiğini açıklar.'
   },
   TermsOfUse: {
     title: "Kullanım",
@@ -3628,8 +3832,7 @@ let message = {
       "Veri gizliliği ve güvenliğine önem veriyoruz. Lütfen {policy}'mizi inceleyin. Siteyi kullanarak, bu Hizmet Şartlarına dahil edilen Gizlilik Politikamızla bağlı olmayı kabul edersiniz. Sitenin Amerika Birleşik Devletleri'nde barındırıldığını lütfen unutmayın. Siteye, kişisel veri toplama, kullanma veya açıklama konusunda Amerika Birleşik Devletleri'ndeki uygulanabilir yasalardan farklı yasa veya diğer gereklilikleri olan dünyanın herhangi bir başka bölgesinden erişiyorsanız, Siteyi kullanmaya devam etmekle verilerinizi Amerika Birleşik Devletleri'ne aktarıyor ve verilerinizin Amerika Birleşik Devletleri'ne transfer edilerek işlenmesini kabul ediyorsunuz.",
     contactDescription:
       "Hizmet Şartları hakkında bir sorunuz varsa, lütfen bizimle {at} {email} adresinden iletişime geçin.",
-    companyDefinitionA:
-      'Bu belgede "Şirket", "biz", "bizim" veya "bize" dediğimizde {NeverCap}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'ten bahsediyoruz.'
+    companyDefinitionA: 'Bu belgede "Şirket", "biz", "bizim" veya "bize" dediğimizde {NeverCap}\'ten bahsediyoruz.'
   },
   Blog: {
     Hero: {
@@ -3654,6 +3857,13 @@ let message = {
       GoToSignup: "NeverCap'i Ücretsiz Deneyin - Kredi Kartı Gerekmez",
       HowWorks: "Nasıl Çalıştığını Görün"
     }
+  },
+  RegisterDialog: {
+    transcribeNewFiles: "Yeni Dosyaları Transkribe Et",
+    signUpNow: "Şimdi Kaydol",
+    stillExporting: "Hala Dışa Aktarılıyor",
+    tip1: "Ücretsiz kayıt olun, dosyalarınızı kalıcı olarak kaydedin ve düzenleyin!",
+    tip2: "Sınırsız transkripsiyon için yükseltin!"
   }
 };
 

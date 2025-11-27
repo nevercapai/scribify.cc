@@ -252,7 +252,7 @@ const handleTranscribe = async () => {
       diarizeEnabled: true
     });
     if (userInfo.value?.userInfoVO) {
-      // return $mitt.emit("goToEvent", { path: "/" });
+      return $mitt.emit("goToEvent", { path: "/" });
     }
     taskId.value = res[0];
     fileId.value = fileIds[0];

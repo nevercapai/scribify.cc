@@ -41,7 +41,7 @@ const uploadRef = useTemplateRef("uploadRef");
 const transcribeNewFilesHandle = () => {
   fileId.value = "";
   taskId.value = "";
-  uploadRef.value?.clearTaskId();
+  uploadRef.value?.clear();
 };
 const transPageRef = useTemplateRef("transPageRef");
 watch([fileId, taskId], async () => {

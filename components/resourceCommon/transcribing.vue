@@ -4,14 +4,14 @@
       <NuxtImg
         v-if="transcriptionStatus !== -1"
         src="/assets/img/resource/transcribing.png"
-        class="h-auto w-[15.625rem]"
+        class="mt-28 h-auto w-[15.625rem]"
         loading="eager"
         alt="transcribing"
       />
       <NuxtImg
         v-else
         src="/assets/img/resource/transcribe-failed.png"
-        class="h-auto w-[14.125rem]"
+        class="mt-28 h-auto w-[14.125rem]"
         loading="eager"
         alt="transcribing"
       />
@@ -35,7 +35,7 @@
         </div>
       </div>
     </div>
-    <div class="transcribing-progress mt-10 flex md:mt-16 md:px-4" v-if="transcriptionStatus !== -1">
+    <div class="transcribing-progress mt-10 flex md:mt-16 md:px-6" v-if="transcriptionStatus !== -1">
       <el-progress :stroke-width="12" class="flex-1" striped striped-flow :percentage="progress" />
     </div>
     <div v-if="transcriptionStatus !== -1" class="transcribing-tip mt-10 text-lg font-medium text-black md:mt-[4rem]">
@@ -116,11 +116,11 @@ const retry = () => {
 
 :deep(.el-progress-bar__inner) {
   //@apply bg-mainColor-900;
-  background: linear-gradient(90deg, #3470ff 0%, #9534e6 100%);
+  background: linear-gradient(270deg, #3470ff 0%, #9534e6 100%);
 }
 
 :deep(.el-progress__text) {
-  @apply me-3 !text-sm text-black;
+  @apply box-border !min-w-9 text-center !text-sm font-medium text-black;
 }
 [dir="rtl"] .transcribing-progress :deep(.el-progress) {
   .el-progress-bar {

@@ -537,7 +537,7 @@ let message = {
     transcribeNewFiles: "Transcribe New Files",
     signUpNow: "Sign Up Now",
     stillExporting: "Still Exporting",
-    tip1: "Register for free to save and edit your files permanently!",
+    tip1: "Sign up for free to save and edit your files permanently!",
     tip2: "Upgrade for unlimited transcription!"
   },
   // 账户设置
@@ -3128,7 +3128,7 @@ let message = {
       retry: "Retry",
       search: "Search",
       tip1: "Want to save it permanently? ",
-      tip2: "Register for free ",
+      tip2: "Sign up for free ",
       tip3: "to manage and edit all your transcription files.",
       tip4: "Want to ",
       tip5: "save ",

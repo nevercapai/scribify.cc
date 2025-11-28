@@ -73,10 +73,14 @@ const handleAddLink = async () => {
     linkLoading.value = false;
   }
 };
+const clear = () => {
+  linkUrl.value = "";
+};
 const emits = defineEmits(["confirm"]);
 defineExpose({
   handleAddLink,
-  checked
+  checked,
+  clear
 });
 </script>
 

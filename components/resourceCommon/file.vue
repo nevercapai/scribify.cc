@@ -19,7 +19,7 @@
           </span>
         </p>
 
-        <div class="type flex flex-wrap justify-center text-xs text-fontColor">
+        <div v-if="showFileTypeTip" class="type flex flex-wrap justify-center text-xs text-fontColor">
           <span v-for="(type, index) in fileTypes" :key="index">
             {{ type }}<span v-show="index < fileTypes.length - 1">,&nbsp;</span>
           </span>
@@ -50,7 +50,7 @@ const props = defineProps({
     default: false
   }
 });
-
+const showFileTypeTip = inject("showFileTypeTip", () => true);
 const { fileTypes } = storeToRefs(useUploadStore());
 const accept = computed(() => {
   const type = fileTypes.value.map((type) => `.${type}`).join(", ");

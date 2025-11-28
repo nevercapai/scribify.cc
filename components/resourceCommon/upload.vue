@@ -4,7 +4,7 @@
       <el-tab-pane :label="t('Resources.Upload.uploadFile')" name="file">
         <div class="content w-full flex-col">
           <div
-            :class="[{ 'justify-center': !localFileData.file }]"
+            :class="[!localFileData.file ? 'justify-center' : '!pb-2 text-lg']"
             class="flex w-full pb-6 pt-[1.875rem] text-[1.375rem] font-medium leading-[1.875rem] text-black"
           >
             <span v-if="!localFileData.file">{{ t("Resources.Upload.fileTip") }}</span>
@@ -29,7 +29,7 @@
       <el-tab-pane :label="t('Resources.Upload.pasteLink')" name="link">
         <div class="content w-full flex-col">
           <div
-            :class="[{ 'justify-center': !linkData.file }]"
+            :class="[!linkData.file ? 'justify-center' : '!pb-2 text-lg']"
             class="flex w-full pb-9 pt-[1.875rem] text-[1.375rem] font-medium leading-[1.875rem] text-black"
           >
             <span v-if="!linkData.file">{{ t("Resources.Upload.linkTip") }}</span>
@@ -131,12 +131,11 @@ const taskId = ref("");
 const fileId = ref("");
 const localFileData = ref({});
 const linkData = ref({});
-const linkSuccessData = ref(null);
 
 const showLanguageAndBtn = computed(() => {
-  const isLinkSuccess = linkSuccessData.value?.status === "success";
-  const c1 = props.sourceType === 1 && (activeName.value === "file" || (activeName.value === "link" && isLinkSuccess));
-  const c2 = props.sourceType === 2 && isLinkSuccess;
+  const hasLink = linkData.value?.file;
+  const c1 = props.sourceType === 1 && (activeName.value === "file" || (activeName.value === "link" && hasLink));
+  const c2 = props.sourceType === 2 && hasLink;
   return c1 || c2;
 });
 
@@ -297,14 +296,12 @@ const handleRemove = async (type) => {
     await removeFile(localFileData.value, []);
   } else if (type === 2) {
     linkData.value = {};
-    linkRef.value.checked = false;
+    linkRef.value?.clear();
+    if (linkRef.value) linkRef.value.checked = false;
   }
 };
 const handleAddLinkConfirm = async (data) => {
   linkData.value = data;
-  if (!linkSuccessData.value || linkSuccessData.value?.status !== "success") {
-    linkSuccessData.value = data;
-  }
 };
 const transcribeSuccessHandle = () => {
   emit("transcribed", {
@@ -317,11 +314,16 @@ const transcribeSuccessHandle = () => {
 const transcribeFailedHandle = () => {
   taskId.value = "";
 };
-const clearTaskId = () => {
+const clear = () => {
   taskId.value = "";
+  fileId.value = "";
+  linkData.value = {};
+  localFileData.value = {};
+  linkRef.value?.clear();
+  linkRef.value.checked = false;
 };
 defineExpose({
-  clearTaskId
+  clear
 });
 </script>
 
@@ -401,7 +403,7 @@ defineExpose({
   }
 }
 .button {
-  background: linear-gradient(90deg, #3470ff 0%, #9534e6 100%) !important;
+  background: linear-gradient(270deg, #3470ff 0%, #9534e6 100%) !important;
   height: 2.75rem !important; // 44px ÷ 16
   display: flex;
   justify-content: center;

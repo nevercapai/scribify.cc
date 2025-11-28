@@ -15,16 +15,13 @@
               <ArrowLeft />
             </el-icon>
           </div>
-          <div v-if="canEdit" class="file-wrap flex-1 overflow-hidden">
+          <div class="file-wrap flex-1 overflow-hidden" :title="fileName">
             <rename-file
-              :isShare="isShare"
+              :isShare="true"
               :fileBaseInfo="fileBaseInfo"
               v-model:fileName="fileName"
               v-model:isEditFile="isEditFile"
             />
-            <div class="file-upload-time text-sm text-fontColor">
-              {{ fileUploadTime && getTime(fileUploadTime) }}
-            </div>
           </div>
         </div>
         <div
@@ -292,16 +289,13 @@
           >
             <span class="iconfont icon-shanchu h-4 w-4 cursor-pointer text-base text-black" @click="langId = ''"></span>
           </span>
-          <div class="file-wrap overflow-hidden" v-if="!isDesktop && canEdit">
+          <div class="file-wrap overflow-hidden" v-if="!isDesktop">
             <rename-file
-              :isShare="isShare"
+              :isShare="true"
               :fileBaseInfo="fileBaseInfo"
               v-model:fileName="fileName"
               v-model:isEditFile="isEditFile"
             />
-            <div class="file-upload-time text-sm text-fontColor">
-              {{ fileUploadTime && getTime(fileUploadTime) }}
-            </div>
           </div>
           <DynamicScroller
             v-if="transcriptData && !fileBaseInfo.isEmptyParagraph"
@@ -595,7 +589,8 @@
                   :key="item.pid + 'upgrade'"
                   ref="upgradeTipRef"
                   v-if="!isShare && item.isLast && fileBaseInfo.isHalfHour"
-                  class="mx-auto flex w-full flex-col items-center justify-center rounded-lg bg-mainColor-600 p-[2.25rem]"
+                  style="background: linear-gradient(180deg, #ffffff 0%, #e9e4fc 100%)"
+                  class="mx-auto flex w-full flex-col items-center justify-center p-[2.25rem]"
                 >
                   <div class="mb-2.5 text-center text-[1.375rem] font-medium leading-[1.875rem] text-black">
                     {{ t("TranscriptionPage.outLimit") }}

@@ -96,18 +96,23 @@
                 </a>
                 <div v-if="menu.key === '/resources'" class="dropdown-content">
                   <router-link
-                    v-for="(child, ind) in menu.children"
+                    v-for="(child, index1) in menu.children"
+                    :key="'pc1' + index + index1"
                     :to="$localePath(child.link)"
                     class="underline"
-                    :class="index === acitveId && ind === acitveIdLevel2 ? 'menu-acitve' : ''"
                   >
                     <template v-if="child.children.length">
                       <span class="menu-category-name">{{ child.name }}</span>
                       <router-link
-                        v-for="(item, ind) in child.children"
+                        v-for="(item, index2) in child.children"
+                        :key="'pc2' + index + index1 + index2"
                         :to="$localePath(item.link)"
                         class="leaf-menu underline"
-                        :class="index === acitveId && ind === acitveIdLevel2 ? 'menu-acitve' : ''"
+                        :class="
+                          index === acitveId && index1 === acitveIdCenterId && index2 === acitveIdLevel2
+                            ? 'menu-acitve'
+                            : ''
+                        "
                       >
                         {{ item.name }}
                       </router-link>

@@ -75,17 +75,6 @@
             <a href="#" class="cta-button">{{ t("cello.activateNameGift", { name }) }}</a>
 
             <a href="#" class="existing-account-link">{{ t("cello.existingAccount") }}</a>
-
-            <div class="countdown">
-                <span>⏰</span>
-    <span>{{ t("cello.offerExpires") }}</span>
-    <span class="countdown-number">{{ timeLeft.days }}</span>
-    <span>d</span>
-    <span class="countdown-number">{{ timeLeft.hours }}</span>
-    <span>h</span>
-    <span class="countdown-number">{{ timeLeft.minutes }}</span>
-    <span>m</span>
-            </div>
           </div>
 
           <div class="trust-badges">
@@ -126,56 +115,15 @@ const name = ref("JJBoon");
 const nameSplice = computed(() => {
   return name.value.slice(0, 1);
 });
-const timeLeft = ref({
-  days: 0,
-  hours: 0,
-  minutes: 0
-})
-let timer:any = null
-let endTime:any = null
-
-// 获取结束时间
-const getEndTime = () => {
-  // 从localStorage获取，如果没有就创建一个7天后的时间
-  let stored = localStorage.getItem('countdown_end_time')
-  if (!stored) {
-    endTime = Date.now() + 7 * 24 * 60 * 60 * 1000
-    localStorage.setItem('countdown_end_time', endTime)
-  } else {
-    endTime = parseInt(stored)
-  }
-  return endTime
-}
-
-// 更新倒计时
-const updateCountdown = () => {
-  const now = Date.now()
-  const diff = endTime - now
-
-  if (diff > 0) {
-    timeLeft.value = {
-      days: Math.floor(diff / (1000 * 60 * 60 * 24)),
-      hours: Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
-      minutes: Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60))
-    }
-  } else {
-    timeLeft.value = { days: 0, hours: 0, minutes: 0 }
-    clearInterval(timer)
-  }
-}
-
 
 onMounted(() => {
-  // 每分钟更新一次
- getEndTime()
-  updateCountdown()
-  timer = setInterval(updateCountdown, 60000) // 每分钟更新
   setTimeout(async () => {
     try {
-      //cello-product-id  cello-referral就是ucc脚本会自动存入cookie 
+      //cello-product-id  cello-referral就是ucc脚本会自动存入cookie
       const referrerName = await window.CelloAttribution("getReferrerName");
       const campaignConfig = await window.CelloAttribution("getCampaignConfig");
       // const ucc = useCrossDomainCookie("ucc");
+      name.value=referrerName
       console.log("Attribution methods working:", {
         referrerName,
         campaignConfig
@@ -185,11 +133,6 @@ onMounted(() => {
     }
   }, 2000);
 });
-onUnmounted(() => {
-  if (timer) {
-    clearInterval(timer)
-  }
-})
 </script>
 
 <style scoped lang="scss">

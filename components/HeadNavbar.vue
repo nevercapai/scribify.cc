@@ -39,24 +39,24 @@
                   <NuxtImg src="/assets/images/menu/arrow.svg" class="w-[0.75rem]" alt="nevercap menu"></NuxtImg>
                 </a>
                 <div v-if="menu.key === '/resources'" class="dropdown-content dropdown-content-pc-resources">
-                  <router-link
-                    v-for="(child, ind) in menu.children"
-                    :to="$localePath(child.link)"
-                    class="menu-child underline"
-                    :class="index === acitveId && ind === acitveIdLevel2 ? 'menu-acitve' : ''"
-                  >
+                  <div class="menu-category" v-for="(child, index1) in menu.children" :key="'pc1' + index + index1">
                     <template v-if="child.children.length">
                       <span class="menu-category-name">{{ child.name }}</span>
                       <router-link
-                        v-for="(item, ind) in child.children"
+                        v-for="(item, index2) in child.children"
+                        :key="'pc2' + index + index1 + index2"
                         :to="$localePath(item.link)"
                         class="leaf-menu underline"
-                        :class="index === acitveId && ind === acitveIdLevel2 ? 'menu-acitve' : ''"
+                        :class="
+                          index === acitveId && index1 === acitveIdCenterId && index2 === acitveIdLevel2
+                            ? 'menu-acitve'
+                            : ''
+                        "
                       >
                         {{ item.name }}
                       </router-link>
                     </template>
-                  </router-link>
+                  </div>
                 </div>
                 <div v-else class="dropdown-content">
                   <router-link
@@ -303,12 +303,23 @@ const menuList = computed(() => [
 ]);
 const route = useRoute();
 
+let acitveIdCenterId = ref(-1);
 const acitveId = computed(() => {
   // 根据当前路径匹配激活菜单项的索引
   const currentPath = route.path;
   for (let i = 0; i < menuList.value.length; i++) {
     const menu = menuList.value[i];
     if (currentPath.includes(menu.key)) {
+      if (menu.children) {
+        acitveIdCenterId.value = menu.children.findIndex((item) => {
+          for (let i = 0; i < item.children?.length; i++) {
+            let child = item.children[i];
+            if (currentPath.includes(child.link)) {
+              return item;
+            }
+          }
+        });
+      }
       return i;
     }
   }
@@ -316,26 +327,32 @@ const acitveId = computed(() => {
 });
 
 const acitveIdLevel2 = computed(() => {
-  // 根据当前路径匹配激活菜单项的索引
+  // 使用更简洁的方法获取当前页面链接在菜单项中的编号
   const currentPath = route.path;
-  for (let i = 0; i < menuList.value.length; i++) {
-    const menu = menuList.value[i];
-    if (menu.children) {
-      for (let j = 0; j < menu.children.length; j++) {
-        const child = menu.children[j];
-        if (locale.value === "en-US") {
-          if (currentPath === `${child.link}`) {
-            return j;
-          }
-        } else {
-          if (currentPath === `/${locale.value}${child.link}`) {
-            return j;
-          }
-        }
-      }
-    }
+  const activeMenuIndex = acitveId.value;
+
+  // 如果没有找到一级菜单，则直接返回-1
+  if (activeMenuIndex === -1) {
+    return -1;
   }
-  return -1; // 没有匹配项时返回无效索引
+
+  const activeMenu = menuList.value[activeMenuIndex];
+
+  // 如果当前激活的一级菜单没有子菜单，则返回-1
+  if (!activeMenu || !activeMenu.children) {
+    return -1;
+  }
+
+  // 查找当前路径对应的二级菜单索引
+  // 简化逻辑，不区分语言环境，直接使用路径包含关系进行判断
+  return activeMenu.children.findIndex((child) => {
+    // 处理可能的嵌套子菜单
+    if (child.children && child.children.length > 0) {
+      return child.children.some((item) => currentPath.includes(item.link));
+    }
+    // 处理直接的二级菜单
+    return currentPath.includes(child.link);
+  });
 });
 const router = useRouter();
 provide("showLoginBtn", false);
@@ -407,10 +424,20 @@ nav {
     }
   }
 }
-
+.menu-category {
+  display: block;
+  padding: 12px 20px;
+  padding-left: 0px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  &:first-child {
+    padding-left: 20px;
+  }
+}
 .menu-category-name {
   color: var(--dark);
   cursor: default;
+  font-weight: 500;
 }
 
 .mobile-menu-btn {

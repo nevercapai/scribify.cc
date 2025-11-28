@@ -14,6 +14,25 @@
 </template>
 
 <script setup lang="ts">
+import { useScrollTitle } from "~/utils/useScrollTitle";
+const title = "Video Transcription: AI-Powered & Accurate";
+useHead({
+  title: title,
+  meta: [
+    {
+      name: "description",
+      content:
+        "Transcribe any video file or link to text in seconds with AI accuracy. Supports 100+ languages, works online, and requires no sign-up. Fast, accurate, and effortless."
+    },
+    {
+      name: "keywords",
+      content:
+        "video transcription, AI transcription, transcribe video to text, YouTube transcript, multilingual transcription, accurate transcription, video to text converter, transcript translation, bulk video transcription, secure transcription"
+    }
+  ]
+});
+useScrollTitle(title);
+
 const faqParams = ref({
   i18nModule: "Resources.Transcription.videoTranscription.faq",
   listNumber: 9

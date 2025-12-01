@@ -164,6 +164,10 @@ let resourcesMenus = ref([
   {
     name: "video transcription",
     link: "/resources/video-transcription"
+  },
+  {
+    name: "mp4 transcription",
+    link: "/resources/mp4-transcription"
   }
 ]);
 let companyMenus = ref([

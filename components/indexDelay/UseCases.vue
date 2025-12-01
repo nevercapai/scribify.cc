@@ -112,7 +112,7 @@ let UseCaselist = ref([
 .use-cases-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 20px;
   margin-top: 60px;
 }
 

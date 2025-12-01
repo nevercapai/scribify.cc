@@ -7,8 +7,7 @@ export const useSubscriptionStore = defineStore(
     const subscriptionDetail = ref<any>({});
     const userStore = useUserStore();
     const userInfo = computed(() => {
-      return typeof userStore.userInfo === "object" &&
-        userStore.userInfo !== null
+      return typeof userStore.userInfo === "object" && userStore.userInfo !== null
         ? (userStore.userInfo as any).userInfoVO
         : {};
     });
@@ -16,6 +15,9 @@ export const useSubscriptionStore = defineStore(
     const timer = ref<any>(null);
     const timer2 = ref<any>(null);
     async function setSubscriptionDetail(subscription: any) {
+      if (!userInfo.value?.userid) {
+        return;
+      }
       subscriptionDetail.value = subscription;
       if (isItDue.value) {
         // 未购买或已到期, 调用可使用次数
@@ -33,9 +35,7 @@ export const useSubscriptionStore = defineStore(
         return;
       }
       const { useSubscription } = await import("~/api/subscription");
-      const res: any = await useSubscription.statusUserId(
-        userInfo.value.userid
-      );
+      const res: any = await useSubscription.statusUserId(userInfo.value.userid);
       if (res?.endTime) {
         const diffTime = new Date(res?.endTime).getTime() - Date.now();
         loopFn(diffTime, res.status);
@@ -75,10 +75,7 @@ export const useSubscriptionStore = defineStore(
 
     //订阅计划是否到期
     const isItDue = computed(() => {
-      if (
-        subscriptionDetail.value?.status === 1 ||
-        subscriptionDetail.value?.status === 3
-      ) {
+      if (subscriptionDetail.value?.status === 1 || subscriptionDetail.value?.status === 3) {
         return false;
       }
       if (subscriptionDetail.value?.endTime) {
@@ -102,11 +99,7 @@ export const useSubscriptionStore = defineStore(
     };
 
     const isNoTimes = computed(() => {
-      return (
-        isFreeUser.value &&
-        limitCount.value &&
-        todayCount.value >= limitCount.value
-      );
+      return isFreeUser.value && limitCount.value && todayCount.value >= limitCount.value;
     });
     // 检查是否订阅过期
     const formHasItExpired = (val: string) => {

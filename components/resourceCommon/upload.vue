@@ -1,5 +1,6 @@
 <template>
   <div v-if="!taskId" class="upload-common mx-auto text-black">
+    <!--    视频和链接   -->
     <el-tabs v-if="sourceType === 1" v-model="activeName" @tab-click="handleTabClick">
       <el-tab-pane :label="t('Resources.Upload.uploadFile')" name="file">
         <div class="content w-full flex-col">
@@ -47,23 +48,43 @@
         </div>
       </el-tab-pane>
     </el-tabs>
-    <div
-      v-else-if="sourceType === 2"
-      :class="[{ 'mb-[1.375rem]': !showLanguageAndBtn }]"
-      class="content w-full flex-col"
-    >
+    <!--    链接  -->
+    <div v-else-if="sourceType === 2" class="content w-full flex-col">
       <div
+        v-if="linkData.file"
         :class="[{ 'justify-center': !linkData.file }]"
-        class="flex w-full pb-9 pt-[1.875rem] text-[1.375rem] font-medium leading-[1.875rem] text-black"
+        class="flex w-full pb-6 text-[1.375rem] font-medium leading-[1.875rem] text-black"
       >
-        <span v-if="!linkData.file">{{ t("Resources.Upload.linkTip") }}</span>
-        <span v-else>link</span>
+        <span>{{ t("Resources.Upload.linkTitle") }}</span>
       </div>
-      <link-input v-show="!linkData.file" ref="linkRef" @confirm="handleAddLinkConfirm" />
+      <link-input-v1 v-show="!linkData.file" ref="linkRef" @confirm="handleAddLinkConfirm" />
       <file-info
         v-show="linkData.file"
         :file-info="linkData"
         :type="2"
+        @handle-remove="handleRemove"
+        @upload-edit="uploadEdit"
+        @upload-retry="uploadRetry"
+      ></file-info>
+    </div>
+    <!--    本地视频文件  -->
+    <div v-else-if="sourceType === 3" class="content w-full flex-col">
+      <div v-if="localFileData.file" class="flex w-full pb-6 text-[1.375rem] font-medium leading-[1.875rem] text-black">
+        <span>{{ t("FileUploadAndRecording.upload.guest.file") }}</span>
+      </div>
+      <upload-file
+        v-show="!localFileData.file"
+        ref="uploadFileRef"
+        useUploadValidate
+        @fileChange="fileChangeHandle"
+      ></upload-file>
+      <el-button v-show="!localFileData.file" class="button mt-5 w-full" type="primary" @click="mp4FileUpload">
+        {{ t("Resources.Upload.uploadFile") }}
+      </el-button>
+      <file-info
+        v-show="localFileData.file"
+        :file-info="localFileData"
+        :type="1"
         @handle-remove="handleRemove"
         @upload-edit="uploadEdit"
         @upload-retry="uploadRetry"
@@ -114,6 +135,7 @@ import { Msg } from "~/utils/tools.js";
 import { useSubscript } from "~/components/layout/header/useSubscript.js";
 import FileInfo from "~/components/resourceCommon/fileInfo.vue";
 import LinkInput from "./link.vue";
+import LinkInputV1 from "./linkV1.vue";
 import Transcribing from "./transcribing.vue";
 
 const { initUpload, removeFile, createFileObject } = useUpload();
@@ -122,7 +144,7 @@ const { t } = useI18n();
 const emit = defineEmits(["transcribed"]);
 const props = defineProps({
   sourceType: {
-    // 1 本地文件和链接  2 链接 3 录音
+    // 1 本地文件和链接  2 链接 3 本地视频
     type: Number,
     default: () => 1
   }
@@ -134,9 +156,11 @@ const linkData = ref({});
 
 const showLanguageAndBtn = computed(() => {
   const hasLink = linkData.value?.file;
+  const hasFile = localFileData.value?.file;
   const c1 = props.sourceType === 1 && (activeName.value === "file" || (activeName.value === "link" && hasLink));
   const c2 = props.sourceType === 2 && hasLink;
-  return c1 || c2;
+  const c3 = props.sourceType === 3 && hasFile;
+  return c1 || c2 || c3;
 });
 
 const lang = ref({});
@@ -146,7 +170,7 @@ const getStatusData = () => {
   const map = {
     1: () => (activeName.value === "file" ? localFileData.value : linkData.value),
     2: () => linkData.value,
-    3: () => null
+    3: () => localFileData.value
   };
   return map[props.sourceType]();
 };
@@ -193,7 +217,9 @@ const getFileNameWithoutExt = (fileName) => {
   return lastDotIndex === -1 ? fileName : fileName.substring(0, lastDotIndex);
 };
 const genParams = () => {
-  if (props.sourceType === 1 && activeName.value === "file") {
+  const c1 = props.sourceType === 1 && activeName.value === "file";
+  const c2 = props.sourceType === 3;
+  if (c1 || c2) {
     const file = localFileData.value;
     const fileExtName = file?.file?.name?.split(".").pop();
     return {
@@ -207,8 +233,6 @@ const genParams = () => {
     };
   } else if ([1, 2].includes(props.sourceType) && activeName.value === "link") {
     return null;
-  } else if (props.sourceType === 3) {
-    //   TODO 录音
   }
   return null;
 };
@@ -273,6 +297,9 @@ const handleTranscribe = async () => {
   }
 };
 const uploadFileRef = useTemplateRef("uploadFileRef");
+const mp4FileUpload = () => {
+  uploadFileRef?.value?.manualAdd();
+};
 const uploadRetry = (type) => {
   if (type === 1) {
     const row = localFileData.value;
@@ -322,6 +349,7 @@ const clear = () => {
   linkRef.value?.clear();
   linkRef.value.checked = false;
 };
+
 defineExpose({
   clear
 });

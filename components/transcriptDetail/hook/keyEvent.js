@@ -1,13 +1,9 @@
 import { Sniffer } from "xgplayer";
 import { onUnmounted } from "vue";
 
-export default function useKeyEvent(player, isEdit) {
+export default function useKeyEvent(player) {
   const playPauseHandle = (event) => {
-    if (
-      !isEdit.value &&
-      player.value &&
-      (event.keyCode === 32 || event.code === "Space")
-    ) {
+    if (player.value && (event.keyCode === 32 || event.code === "Space")) {
       event.preventDefault();
       const isPlaying = !player.value.paused;
       console.warn("🚀 ~ 播放器播放状态: 🚀", isPlaying);

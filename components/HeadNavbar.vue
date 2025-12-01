@@ -270,6 +270,10 @@ const menuList = computed(() => [
           {
             name: t("HeadNavbar.VideoTranscription"),
             link: "/resources/video-transcription"
+          },
+          {
+            name: t("HeadNavbar.mp4Transcription"),
+            link: "/resources/mp4-transcription"
           }
         ]
       },
@@ -330,7 +334,24 @@ const acitveId = computed(() => {
   }
   return -1; // 没有匹配项时返回无效索引
 });
+const localePath = useLocalePath();
 
+const findNestedChildIndex = (children, targetLink) => {
+  // 遍历当前的直接子级
+  for (let i = 0; i < children.length; i++) {
+    const child = children[i];
+    // 情况1: 当前子项没有子菜单，直接检查它的 link
+    if (!child.children || child.children.length === 0) {
+      if (targetLink === localePath(child.link)) {
+        return i;
+      }
+    } else {
+      return findNestedChildIndex(child.children, targetLink);
+    }
+  }
+  // 遍历完所有子项和嵌套子项都没找到
+  return -1;
+};
 const acitveIdLevel2 = computed(() => {
   // 使用更简洁的方法获取当前页面链接在菜单项中的编号
   const currentPath = route.path;
@@ -347,21 +368,11 @@ const acitveIdLevel2 = computed(() => {
   if (!activeMenu || !activeMenu.children) {
     return -1;
   }
-
-  // 查找当前路径对应的二级菜单索引
-  // 简化逻辑，不区分语言环境，直接使用路径包含关系进行判断
-  return activeMenu.children.findIndex((child) => {
-    // 处理可能的嵌套子菜单
-    if (child.children && child.children.length > 0) {
-      return child.children.some((item) => currentPath.includes(item.link));
-    }
-    // 处理直接的二级菜单
-    return currentPath.includes(child.link);
-  });
+  return findNestedChildIndex(activeMenu.children, currentPath);
 });
 const router = useRouter();
 provide("showLoginBtn", false);
-const localePath = useLocalePath();
+
 const { userInfo } = storeToRefs(useUserStore());
 const { $mitt } = useNuxtApp();
 const goToHome = () => {

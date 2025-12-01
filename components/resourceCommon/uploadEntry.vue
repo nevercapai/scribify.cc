@@ -7,7 +7,7 @@
         :source-type="sourceType"
         @transcribed="transcribeSuccessHandle"
       ></resource-common-upload>
-      <div v-if="taskId && fileId" class="min-h-[80vh] w-full" ref="transPageRef">
+      <div v-if="taskId && fileId" class="trans-detail-box min-h-[80vh] w-full" ref="transPageRef">
         <TranscriptPage
           :taskId="taskId"
           :fileId="fileId"
@@ -27,7 +27,8 @@ const props = defineProps({
 });
 const typeMap = {
   video: 1,
-  link: 2
+  link: 2,
+  mp4: 3
 };
 const sourceType = computed(() => typeMap[props.type]);
 const TranscriptPage = defineAsyncComponent(() => import("~/pages/transcript/index.vue"));

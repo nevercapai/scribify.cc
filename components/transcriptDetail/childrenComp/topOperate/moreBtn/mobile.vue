@@ -62,16 +62,6 @@
               ></span>
             </div>
           </div>
-          <div
-            v-if="showShareBtn"
-            class="my-3 flex h-11 items-center overflow-hidden rounded-lg bg-white px-3"
-            @click="handleShare"
-          >
-            <span class="iconfont icon-fenxiang me-2 text-base text-black"></span>
-            <span class="text-black">
-              {{ t("TranscriptionPage.share") }}
-            </span>
-          </div>
         </div>
       </div>
     </el-drawer>
@@ -89,13 +79,8 @@ const props = defineProps({
   langId: {
     type: String,
     default: ""
-  },
-  showShareBtn: {
-    type: Boolean,
-    default: true
   }
 });
-const emit = defineEmits(["share"]);
 const timeStampOpts = [
   {
     id: 1,
@@ -132,10 +117,6 @@ const speakerClick = () => {
 const handleTimeStampOptsClick = (id) => {
   if (id === 2 && props.langId) return;
   isShowTimestamp.value = id;
-};
-const handleShare = () => {
-  emit("share");
-  hide(true);
 };
 </script>
 

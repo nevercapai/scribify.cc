@@ -72,9 +72,9 @@
               <strong>{{ t("cello.getsCredit", { name }) }}</strong> {{ t("cello.whenSubscribe") }}
             </div>
 
-            <a href="#" class="cta-button">{{ t("cello.activateNameGift", { name }) }}</a>
+            <div @click="singUp" class="cta-button">{{ t("cello.activateNameGift", { name }) }}</div>
 
-            <a href="#" class="existing-account-link">{{ t("cello.existingAccount") }}</a>
+            <!-- <a href="#" class="existing-account-link">{{ t("cello.existingAccount") }}</a> -->
           </div>
 
           <div class="trust-badges">
@@ -97,6 +97,7 @@
 </template>
 
 <script setup lang="ts">
+const { $mitt } = useNuxtApp();
 /* pricing 组件 */
 const title = "Pricing - NeverCap | Truly Unlimited AI Transcription";
 useHead({
@@ -116,8 +117,8 @@ const nameSplice = computed(() => {
   return name.value.slice(0, 1);
 });
 
-onMounted(() => {
-  setTimeout(async () => {
+onMounted(async() => {
+  // setTimeout(async () => {
     try {
       //cello-product-id  cello-referral就是ucc脚本会自动存入cookie
       const referrerName = await window.CelloAttribution("getReferrerName");
@@ -131,8 +132,11 @@ onMounted(() => {
     } catch (error) {
       console.error("Attribution test failed:", error);
     }
-  }, 2000);
+  // }, 2000);
 });
+const singUp =()=>{
+   $mitt.emit("goToEvent", { path: "/user/signup" });
+}
 </script>
 
 <style scoped lang="scss">

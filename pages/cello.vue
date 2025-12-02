@@ -25,7 +25,7 @@
             >{{ t("cello.unlimitedTranscription") }}
           </h1>
 
-          <div class="savings-highlight">{{ t("cello.specialPrice") }}</div>
+          <div class="savings-highlight">{{ t("cello.specialPrice",{moneyOne:"$8.99",moneyTwo:"$9.99"}) }}</div>
 
           <div class="why-bob-chose">
             <h3>{{ t("cello.whyChose", { name }) }}</h3>
@@ -55,13 +55,13 @@
                 <div class="price-item">
                   <div class="price-label">{{ t("cello.regularPrice") }}</div>
                   <div class="price-value regular">
-                    $8.99<span style="font-size: 20px">{{ t("cello.perMonth") }}</span>
+                    $9.99<span style="font-size: 20px">{{ t("cello.perMonth") }}</span>
                   </div>
                 </div>
                 <div class="price-item">
                   <div class="price-label">{{ t("cello.yourSpecialPrice") }}</div>
                   <div class="price-value special">
-                    $8.09<span style="font-size: 20px">{{ t("cello.perMonth") }}</span>
+                    $8.99<span style="font-size: 20px">{{ t("cello.perMonth") }}</span>
                   </div>
                   <div class="save-badge">{{ t("cello.save") }} 10%</div>
                 </div>

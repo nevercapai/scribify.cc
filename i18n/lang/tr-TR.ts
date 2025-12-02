@@ -3864,7 +3864,7 @@ let message = {
     proMember: "NeverCap Pro Üyesi",
     save: "Tasarruf Edin",
     unlimitedTranscription: "sınırsız AI transkripsiyonunda",
-    specialPrice: "Özel fiyatınız: $8.09/ay (Düzenli $8.99)",
+    specialPrice: "Özel fiyatınız: {moneyOne}/ay (Normal {moneyTwo})",
     whyChose: "Neden {name} NeverCap'i seçti:",
     noLimits: "Aylık limit yok (diğerleri 120 dk/ay ile sınırlar)",
     uploadFiles: "Aynı anda 50 dosya yükleyin",

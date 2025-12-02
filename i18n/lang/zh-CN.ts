@@ -3661,7 +3661,7 @@ let message = {
     proMember: "NeverCap Pro 会员",
     save: "节省",
     unlimitedTranscription: "无限 AI 转录服务",
-    specialPrice: "您的特惠价格：$8.09/月（原价 $8.99）",
+    specialPrice: "您的特惠价格：{moneyOne}/月（原价 {moneyTwo}）",
     whyChose: "为什么 {name} 选择 NeverCap：",
     noLimits: "无月度限制（其他产品限制为 120 分钟/月）",
     uploadFiles: "一次上传 50 个文件",

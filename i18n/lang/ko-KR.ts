@@ -3798,7 +3798,7 @@ let message = {
     proMember: "NeverCap Pro 멤버",
     save: "절약",
     unlimitedTranscription: "무제한 AI 전사 서비스",
-    specialPrice: "특별 가격: $8.09/월 (정가 $8.99)",
+    specialPrice: "특별 가격: {moneyOne}/월 (정가 {moneyTwo})",
     whyChose: "왜 {name}이(가) NeverCap을 선택했는지:",
     noLimits: "월간 제한 없음 (다른 서비스는 120분/월 제한)",
     uploadFiles: "한 번에 50개 파일 업로드",

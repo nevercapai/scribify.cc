@@ -3887,7 +3887,7 @@ let message = {
     proMember: "Μέλος NeverCap Pro",
     save: "Εξοικονομήστε",
     unlimitedTranscription: "σε απεριόριστη μεταγραφή AI",
-    specialPrice: "Η ειδική σας τιμή: $8.09/μήνα (Κανονική $8.99)",
+    specialPrice: "Η ειδική σας τιμή: {moneyOne}/μήνα (Κανον. {moneyTwo})",
     whyChose: "Γιατί ο/η {name} επέλεξε το NeverCap:",
     noLimits: "Χωρίς μηνιαία όρια (άλλοι περιορίζουν σε 120 λεπτά/μήνα)",
     uploadFiles: "Ανεβάστε 50 αρχεία ταυτόχρονα",

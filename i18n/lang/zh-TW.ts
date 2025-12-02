@@ -3670,7 +3670,7 @@ let message = {
     proMember: "NeverCap Pro 會員",
     save: "節省",
     unlimitedTranscription: "無限 AI 轉錄服務",
-    specialPrice: "您的特惠價格：$8.09/月（原價 $8.99）",
+    specialPrice: "您的特惠價格：{moneyOne}/月（原價 {moneyTwo}）",
     whyChose: "為什麼 {name} 選擇 NeverCap：",
     noLimits: "無月度限制（其他產品限制為 120 分鐘/月）",
     uploadFiles: "一次上傳 50 個檔案",

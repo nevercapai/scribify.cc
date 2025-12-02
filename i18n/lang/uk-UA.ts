@@ -3850,7 +3850,7 @@ let message = {
     proMember: "Учасник NeverCap Pro",
     save: "Заощаджуйте",
     unlimitedTranscription: "на необмеженій транскрипції ШІ",
-    specialPrice: "Ваша спеціальна ціна: $8.09/місяць (Звичайна $8.99)",
+    specialPrice: "Ваша спеціальна ціна: {moneyOne}/міс. (Звичайна {moneyTwo})",
     whyChose: "Чому {name} обрав NeverCap:",
     noLimits: "Без місячних обмежень (інші обмежують до 120 хв/місяць)",
     uploadFiles: "Завантажуйте 50 файлів одночасно",

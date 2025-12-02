@@ -50,7 +50,7 @@ const props = defineProps({
     default: false
   }
 });
-const showFileTypeTip = inject("showFileTypeTip", () => true);
+const showFileTypeTip = inject("showFileTypeTip", () => true, true);
 const { fileTypes } = storeToRefs(useUploadStore());
 const accept = computed(() => {
   const type = fileTypes.value.map((type) => `.${type}`).join(", ");

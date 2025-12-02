@@ -3956,7 +3956,7 @@ let message = {
     proMember: "NeverCap Pro メンバー",
     save: "節約",
     unlimitedTranscription: "無制限 AI 転写サービス",
-    specialPrice: "特別価格：$8.09/月（通常 $8.99）",
+    specialPrice: "特別価格：{moneyOne}/月（通常 {moneyTwo}）",
     whyChose: "なぜ {name} が NeverCap を選んだか：",
     noLimits: "月間制限なし（他社は120分/月に制限）",
     uploadFiles: "50ファイルを一度にアップロード",

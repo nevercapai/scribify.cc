@@ -3853,7 +3853,7 @@ let message = {
     proMember: "NeverCap Pro Medlem",
     save: "Spar",
     unlimitedTranscription: "på ubegrænset AI-transskription",
-    specialPrice: "Din særlige pris: $8.09/måned (Reg. $8.99)",
+    specialPrice: "Din særlige pris: {moneyOne}/md (Reg. {moneyTwo})",
     whyChose: "Hvorfor {name} valgte NeverCap:",
     noLimits: "Ingen månedlige grænser (andre begrænser til 120 min/måned)",
     uploadFiles: "Upload 50 filer på én gang",

@@ -3867,7 +3867,7 @@ let message = {
     proMember: "NeverCap Pro Lid",
     save: "Bespaar",
     unlimitedTranscription: "op onbeperkte AI-transcriptie",
-    specialPrice: "Uw speciale prijs: $8.09/maand (Reg. $8.99)",
+    specialPrice: "Uw speciale prijs: {moneyOne}/mnd (Reg. {moneyTwo})",
     whyChose: "Waarom {name} NeverCap koos:",
     noLimits: "Geen maandelijkse limieten (anderen beperken tot 120 min/maand)",
     uploadFiles: "50 bestanden tegelijk uploaden",

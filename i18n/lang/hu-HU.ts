@@ -3873,7 +3873,7 @@ let message = {
     proMember: "NeverCap Pro Tag",
     save: "Spóroljon",
     unlimitedTranscription: "korlátlan AI átírással",
-    specialPrice: "Az Ön különleges ára: $8.09/hó (Rendes $8.99)",
+    specialPrice: "Az Ön különleges ára: {moneyOne}/hó (Rendes {moneyTwo})",
     whyChose: "Miért választotta {name} a NeverCap-et:",
     noLimits: "Nincs havi korlát (mások 120 perc/hóra korlátozzák)",
     uploadFiles: "50 fájl feltöltése egyszerre",

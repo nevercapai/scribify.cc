@@ -3784,7 +3784,7 @@ let message = {
     proMember: "عضو NeverCap Pro",
     save: "وفر",
     unlimitedTranscription: "على النسخ بالذكاء الاصطناعي غير المحدود",
-    specialPrice: "سعرك الخاص: $8.09/شهر (العادي $8.99)",
+    specialPrice: "سعرك الخاص: {moneyOne}/شهر (العادي {moneyTwo})",
     whyChose: "لماذا اختار {name} NeverCap:",
     noLimits: "لا توجد حدود شهرية (الآخرون يحددون بـ 120 دقيقة/شهر)",
     uploadFiles: "ارفع 50 ملفاً في المرة الواحدة",

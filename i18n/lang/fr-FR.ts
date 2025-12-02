@@ -3876,7 +3876,7 @@ let message = {
     proMember: "Membre NeverCap Pro",
     save: "Économisez",
     unlimitedTranscription: "sur la transcription IA illimitée",
-    specialPrice: "Votre prix spécial : $8.09/mois (Rég. $8.99)",
+    specialPrice: "Votre prix spécial : {moneyOne}/mois (Rég. {moneyTwo})",
     whyChose: "Pourquoi {name} a choisi NeverCap :",
     noLimits: "Aucune limite mensuelle (les autres limitent à 120 min/mois)",
     uploadFiles: "Téléchargez 50 fichiers à la fois",

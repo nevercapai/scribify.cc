@@ -268,7 +268,8 @@
                   :key="item.pid + 'upgrade'"
                   ref="upgradeTipRef"
                   v-if="item.isLast && fileBaseInfo.isHalfHour"
-                  class="bg-[linear-gradient( 180deg, #FFFFFF 0%, #E9E4FC 100%)] mx-auto flex w-full flex-col items-center justify-center rounded-lg p-[2.25rem]"
+                  style="background: linear-gradient(180deg, #ffffff 0%, #e9e4fc 100%)"
+                  class="mx-auto flex w-full flex-col items-center justify-center p-[2.25rem]"
                 >
                   <div class="mb-2.5 text-center text-[1.375rem] font-medium leading-[1.875rem] text-black">
                     {{ t("TranscriptionPage.outLimit") }}

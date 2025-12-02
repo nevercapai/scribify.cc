@@ -1,7 +1,7 @@
 <template>
   <div v-if="!taskId" class="upload-common mx-auto text-black">
     <!--    视频和链接   -->
-    <el-tabs v-if="sourceType === 1" v-model="activeName" @tab-click="handleTabClick">
+    <el-tabs v-if="sourceType === 1" v-model="activeName" @tab-click="handleTabClick" class="-mt-1.5">
       <el-tab-pane :label="t('Resources.Upload.uploadFile')" name="file">
         <div class="content w-full flex-col">
           <div
@@ -69,7 +69,7 @@
     </div>
     <!--    本地视频文件  -->
     <div v-else-if="sourceType === 3" class="content w-full flex-col">
-      <div v-if="localFileData.file" class="flex w-full pb-6 text-[1.375rem] font-medium leading-[1.875rem] text-black">
+      <div v-if="localFileData.file" class="flex w-full !pb-2 text-lg font-medium leading-[1.875rem] text-black">
         <span>{{ t("FileUploadAndRecording.upload.guest.file") }}</span>
       </div>
       <upload-file
@@ -364,7 +364,7 @@ defineExpose({
   background: #fff;
   box-shadow: 0 0.125rem 3.625rem 0 rgba(0, 0, 0, 0.03);
   border-radius: 1rem;
-  @apply p-4 sm:p-[2.1875rem] sm:pt-[1.875rem];
+  @apply p-4 md:p-[2.1875rem];
 
   :deep(.el-tabs) {
     .el-tabs__header {

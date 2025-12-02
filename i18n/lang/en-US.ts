@@ -2810,7 +2810,7 @@ let message = {
           des_3: "Create meeting summaries, track action items, and store content in documentation or knowledge bases.",
           effect_4: "Support content creation.",
           des_4: "Extract scripts, outlines, article drafts, and export subtitles for editing or localization.",
-          effect_5: "Make content searchable and translatable",
+          effect_5: "Make content searchable and translatable.",
           des_5: "Full-text search and translate transcripts for multilingual use.",
           effect_6: "Simplify archiving.",
           des_6:
@@ -3586,7 +3586,7 @@ let message = {
         proMember: "NeverCap Pro Member",
         save: "Save",
         unlimitedTranscription: "on unlimited AI transcription",
-        specialPrice: "Your special price: $8.09/mo (Reg. $8.99)",
+        specialPrice: "Your special price: {moneyOne}/mo (Reg. {moneyTwo})",
         whyChose: "Why {name} chose NeverCap:",
         noLimits: "No monthly limits (others cap at 120 min/month)",
         uploadFiles: "Upload 50 files at once",

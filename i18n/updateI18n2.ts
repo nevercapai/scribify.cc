@@ -34,73 +34,73 @@ const languages = [
 // 翻译映射 - 支持嵌套键路径
 const translations: Record<string, Record<string, string>> = {
   "en-US": {
-    "HeadNavbar.Other": "Other"
+    "cello.specialPrice": "Your special price: {moneyOne}/mo (Reg. {moneyTwo})"
   },
   "es-ES": {
-    "HeadNavbar.Other": "Otro"
+    "cello.specialPrice": "Tu precio especial: {moneyOne}/mes (Reg. {moneyTwo})"
   },
   "it-IT": {
-    "HeadNavbar.Other": "Altro"
+    "cello.specialPrice": "Il tuo prezzo speciale: {moneyOne}/mese (Reg. {moneyTwo})"
   },
   "fr-FR": {
-    "HeadNavbar.Other": "Autre"
+    "cello.specialPrice": "Votre prix spécial : {moneyOne}/mois (Rég. {moneyTwo})"
   },
   "de-DE": {
-    "HeadNavbar.Other": "Andere"
+    "cello.specialPrice": "Ihr Sonderpreis: {moneyOne}/Monat (Reg. {moneyTwo})"
   },
   "zh-CN": {
-    "HeadNavbar.Other": "其他"
+    "cello.specialPrice": "您的特惠价格：{moneyOne}/月（原价 {moneyTwo}）"
   },
   "zh-TW": {
-    "HeadNavbar.Other": "其他"
+    "cello.specialPrice": "您的特惠價格：{moneyOne}/月（原價 {moneyTwo}）"
   },
   "ja-JP": {
-    "HeadNavbar.Other": "その他"
+    "cello.specialPrice": "特別価格：{moneyOne}/月（通常 {moneyTwo}）"
   },
   "ko-KR": {
-    "HeadNavbar.Other": "기타"
+    "cello.specialPrice": "특별 가격: {moneyOne}/월 (정가 {moneyTwo})"
   },
   "nl-NL": {
-    "HeadNavbar.Other": "Overig"
+    "cello.specialPrice": "Uw speciale prijs: {moneyOne}/mnd (Reg. {moneyTwo})"
   },
   "pl-PL": {
-    "HeadNavbar.Other": "Inne"
+    "cello.specialPrice": "Twoja specjalna cena: {moneyOne}/mies. (Reg. {moneyTwo})"
   },
   "da-DK": {
-    "HeadNavbar.Other": "Andet"
+    "cello.specialPrice": "Din særlige pris: {moneyOne}/md (Reg. {moneyTwo})"
   },
   "hu-HU": {
-    "HeadNavbar.Other": "Egyéb"
+    "cello.specialPrice": "Az Ön különleges ára: {moneyOne}/hó (Rendes {moneyTwo})"
   },
   "no-NO": {
-    "HeadNavbar.Other": "Annet"
+    "cello.specialPrice": "Din spesialpris: {moneyOne}/mnd (Reg. {moneyTwo})"
   },
   "pt-PT": {
-    "HeadNavbar.Other": "Outro"
+    "cello.specialPrice": "O seu preço especial: {moneyOne}/mês (Reg. {moneyTwo})"
   },
   "fi-FI": {
-    "HeadNavbar.Other": "Muu"
+    "cello.specialPrice": "Sinun erikoishintasi: {moneyOne}/kk (Norm. {moneyTwo})"
   },
   "sv-SE": {
-    "HeadNavbar.Other": "Annat"
+    "cello.specialPrice": "Ditt specialpris: {moneyOne}/mån (Ord. {moneyTwo})"
   },
   "ru-RU": {
-    "HeadNavbar.Other": "Другое"
+    "cello.specialPrice": "Ваша специальная цена: {moneyOne}/мес. (Обычная {moneyTwo})"
   },
   "tr-TR": {
-    "HeadNavbar.Other": "Diğer"
+    "cello.specialPrice": "Özel fiyatınız: {moneyOne}/ay (Normal {moneyTwo})"
   },
   "el-GR": {
-    "HeadNavbar.Other": "Άλλο"
+    "cello.specialPrice": "Η ειδική σας τιμή: {moneyOne}/μήνα (Κανον. {moneyTwo})"
   },
   "uk-UA": {
-    "HeadNavbar.Other": "Інше"
+    "cello.specialPrice": "Ваша спеціальна ціна: {moneyOne}/міс. (Звичайна {moneyTwo})"
   },
   "he-IL": {
-    "HeadNavbar.Other": "אחר"
+    "cello.specialPrice": "המחיר המיוחד שלך: {moneyOne}/חודש (רגיל {moneyTwo})"
   },
   "ar-SA": {
-    "HeadNavbar.Other": "أخرى"
+    "cello.specialPrice": "سعرك الخاص: {moneyOne}/شهر (العادي {moneyTwo})"
   }
 };
 

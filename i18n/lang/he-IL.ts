@@ -3756,7 +3756,7 @@ let message = {
     proMember: "חבר NeverCap Pro",
     save: "חסוך",
     unlimitedTranscription: "על תמלול AI ללא הגבלה",
-    specialPrice: "המחיר המיוחד שלך: $8.09/חודש (רגיל $8.99)",
+    specialPrice: "המחיר המיוחד שלך: {moneyOne}/חודש (רגיל {moneyTwo})",
     whyChose: "למה {name} בחר ב-NeverCap:",
     noLimits: "ללא הגבלות חודשיות (אחרים מגבילים ל-120 דק'/חודש)",
     uploadFiles: "העלה 50 קבצים בבת אחת",

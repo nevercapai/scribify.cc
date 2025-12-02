@@ -3862,7 +3862,7 @@ let message = {
     proMember: "NeverCap Pro Jäsen",
     save: "Säästä",
     unlimitedTranscription: "rajattomassa AI-litteroinnissa",
-    specialPrice: "Sinun erikoishintasi: $8.09/kk (Säännöllinen $8.99)",
+    specialPrice: "Sinun erikoishintasi: {moneyOne}/kk (Norm. {moneyTwo})",
     whyChose: "Miksi {name} valitsi NeverCapin:",
     noLimits: "Ei kuukausirajoituksia (muut rajoittavat 120 min/kk)",
     uploadFiles: "Lataa 50 tiedostoa kerralla",

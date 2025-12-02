@@ -1080,7 +1080,8 @@ let message = {
     YouTubetoMP3: "YouTube-ból MP3-ba",
     Transcription: "Átírás",
     VideoTranscription: "Videóátiratozás",
-    Other: "Egyéb"
+    Other: "Egyéb",
+    mp4Transcription: "MP4 átírás"
   },
   Footer: {
     des: "A világ első valóban korlátlan mesterséges intelligencia átírási szolgáltatása. Nincs korlát, nincs limit, csak a kreativitás szabadsága.",
@@ -1099,7 +1100,7 @@ let message = {
     ],
     companyMenus: ["Rólunk", "Árazás", "Adatvédelem", "Feltételek"],
     Resources: "Erőforrás",
-    resourcesMenus: ["YouTube-ból MP4-be", "YouTube-ból MP3-ba", "Videóátiratozás"]
+    resourcesMenus: ["YouTube MP4-re","YouTube MP3-ra","Videó átírás","MP4 átírás"]
   },
   Index: {
     Hero: {
@@ -3505,6 +3506,114 @@ let message = {
           otherTools_5: "Feliratgenerátor",
           otherTools_6: "Videóösszefoglaló",
           otherTools_7: "Videókonverter"
+        }
+      },
+      mp4Transcription: {
+        hero: {
+          title: "Online MP4-ből Szöveggé Alakító",
+          des_1: "Alakítsa át MP4 fájljait szöveggé másodpercek alatt.",
+          des_2: "Regisztráció nem szükséges. Villámgyors. Legmagasabb pontosság.",
+          feature_1: "12 Formátum Támogatása",
+          feature_2: "100+ Nyelv Támogatása",
+          feature_3: "6 Formátumban Exportálás"
+        },
+        threeStep: {
+          title: "Írja át az MP4-jét",
+          titleHighlight: "szöveggé 3 egyszerű lépésben",
+          step_1_title: "Töltse fel az MP4 fájlt",
+          step_1_des: "Egyszerűen húzza a kijelölt területre, vagy kattintson a \"Fájl Feltöltése\" gombra.",
+          step_2_title: "Átírás Indítása",
+          step_2_des: "Kattintson az \"Átírás\" gombra. A rendszer automatikusan átalakítja az MP4-t szöveggé néhány pillanat alatt.",
+          step_3_title: "Töltse le az Átírást",
+          step_3_des: "A szöveg készen áll az online szerkesztésre, és exportálható TXT, PDF, DOCX, SRT, CSV, VTT formátumokban, vagy megosztható egy linken keresztül."
+        },
+        howToGet: {
+          title: "Hogyan Kaphatja a Legjobb Eredményeket az",
+          titleHighlight: "Átírásból?",
+          fun_1: "Használja az eredeti videofájlt az átíráshoz, nem pedig egy tömörített verziót.",
+          fun_2: "Csökkentse a háttérzajt, a háttérzenét, a statikus zajt vagy a visszhangot, amennyire csak lehetséges.",
+          fun_3: "Ha videót tölt le, mindig válassza a \"Magas Hangminőség (HQ)\" opciót.",
+          fun_4: "Engedélyezze a \"Besélő Azonosítás\" funkciót, ha egynél több beszélő van.",
+          fun_5: "Válassza ki az MP4 fájl specifikus nyelvét és akcentusát, pl. Angol → Angol (USA) / Angol (UK) / Angol (India).",
+          fun_6: "A folyamat befejezése után gyorsan nézze át az átírást."
+        },
+        exportFormats: {
+          title: "Exportálási Formátumok és",
+          titleHighlight: "Felhasználásuk",
+          format_1: "TXT Formátumban",
+          des_1: "Jegyzettömbhöz, Notepad++-hoz és könnyű szövegszerkesztőkhöz",
+          format_2: "PDF Formátumban",
+          des_2: "Nyomtatáshoz, megosztáshoz, archiváláshoz és platformok közötti megtekintéshez",
+          format_3: "DOCX Formátumban",
+          des_3: "Microsoft Word-hez, Google Docs-hoz és rich-text szerkesztéshez",
+          format_4: "SRT Formátumban",
+          des_4: "YouTube feliratokhoz, videó felirat feltöltésekhez és médialejátszókhoz",
+          format_5: "CSV Formátumban",
+          des_5: "Excel-hez, Google Sheets-hez és adatelemző eszközökhöz",
+          format_6: "VTT Formátumban",
+          des_6: "Webes videó feliratokhoz, HTML5 lejátszókhoz és akadálymentesítési eszközökhöz"
+        },
+        howToUse: {
+          title: "Mi az értéke az MP4 szöveggé alakításának,",
+          titleHighlight: "és hogyan használhatja ki a legjobban?",
+          effect_1: "Olvassa el a kulcspontokat azonnal.",
+          des_1: "Böngéssze át az átírásokat gyorsabban, mint hogy újranézné a videókat, és gyorsan találja meg a lényeges információkat.",
+          effect_2: "Szervezze a tanulmányokat és a kutatást.",
+          des_2: "Alakítsa át az előadásokat, interjúkat és kutatási klipeket tiszta jegyzetekké, amelyeket kiemelhet, idézhet és újra felhasználhat.",
+          effect_3: "Növelje a munkahatékonyságot.",
+          des_3: "Hozzon létre találkozó összefoglalókat, kövesse nyomon az akcióelemeket, és tárolja a tartalmat dokumentációban vagy tudásbázisokban.",
+          effect_4: "Támogassa a tartalomkészítést.",
+          des_4: "Bontsa ki a szkripteket, vázlatokat, cikkvázlatokat, és exportáljon feliratokat szerkesztéshez vagy lokalizációhoz.",
+          effect_5: "Tegye a tartalmat kereshetővé és fordíthatóvá.",
+          des_5: "Teljes szöveges keresés és fordítson átírásokat többnyelvű használatra.",
+          effect_6: "Egyszerűsítse az archiválást.",
+          des_6: "A szöveg könnyebben tárolható, strukturálható és újrafelhasználható—ideális a feljegyzésekhez, dokumentációhoz és AI tudásbázisokhoz."
+        },
+        whyChoose: {
+          title: "Miért",
+          titleHighlight: "Kiemelkedik a Mi MP4-ből Szövegé Átírásunk",
+          reason_1_title: "Iparágvezető Pontosság",
+          reason_1_des: "Függetlenül ellenőrizve az egyik legpontosabb elérhető átírási eszközként.",
+          reason_2_title: "Gyors Feldolgozási Sebesség",
+          reason_2_des: "Kapja meg átírását körülbelül az eredeti videó hosszának egy huszad részében.",
+          reason_3_title: "Besélő Azonosítás",
+          reason_3_des: "Világosan megkülönbözteti a beszélőket, így az átírások könnyebben olvashatók és követhetők.",
+          reason_4_title: "Széles Nyelvi Lefedettség",
+          reason_4_des: "Támogatja az átírást 100+ nyelven és a fordítást 249 nyelvre.",
+          reason_5_title: "Egyszerű és Felhasználóbarát",
+          reason_5_des: "Nincsenek komplex felületek vagy lépések. Pár kattintással fejezze be a feladatot.",
+          reason_6_title: "Teljes Adatbiztonság",
+          reason_6_des: "Mi adatai biztonságát és magánszféráját elsődleges elkötelezettségünknek tekintjük."
+        },
+        faq: {
+          title: "Kérdések a(z)",
+          titleHighlight: "MP4 szöveggé alakításáról",
+          question_1: "Mennyi idő alatt lehet egy MP4 fájlt szöveggé alakítani?",
+          answer_1: "A tesztek alapján, normál körülmények között, az átírási folyamat kb. 1/20-tól 1/10-ig tart a videó hosszához képest. Például, egy 1 órás videó kb. 3-6 percet vesz igénybe.",
+          question_2: "Van korlátozás a feltöltött MP4 fájl méretére?",
+          answer_2: "Igen. A maximális fájlméret 5GB, és a videó hossza nem haladhatja meg a 10 órát. Vegye figyelembe, hogy a nagyobb fájlok feldolgozása több időt vehet igénybe.",
+          question_3: "Mennyire pontos az átírás?",
+          answer_3: "Fontos megérteni, hogy az átírás minősége nagymértékben függ a videó hangminőségétől. Ezt mondva, iparágvezető beszédfelismerési technológiát használunk, hogy a lehető legjobb eredményeket garantáljuk az MP4 átírásához.",
+          question_4: "Átírhatok MP4-t egy Word dokumentumba?",
+          answer_4: "Abszolút. Egyszerűen töltse fel az MP4 fájlt, kattintson az \"Átírás\" gombra, és a folyamat befejezése után válassza az \"Exportálás\" lehetőséget és a DOCX formátumot. Egy teljes átírást fog kapni egy Word dokumentumban.",
+          question_5: "Hogyan kaphatok feliratot a videóhoz?",
+          answer_5: "Töltse fel a videót és írja át. Az átírás után kattintson az \"Exportálás\" gombra és válassza az SRT vagy VTT formátumot a feliratok letöltéséhez.",
+          question_6: "Biztonságos használni ezt az MP4 átíró eszközt?",
+          answer_6: "Igen. Oldalunk hirdetésmentes, nem igényel regisztrációt a feldolgozáshoz és nem kér személyes információkat. Erős technikai intézkedéseket is alkalmazunk a vírusok megelőzésére. Bátorítjuk minden felhasználót, hogy tartsa tiszteletben a szerzői jogi és adatvédelmi irányelveket az MP4 fájlok letöltése, használata vagy megosztása során."
+        },
+        explore: {
+          title: "Bármi-ból Szöveggé Alakító",
+          des: "Az átírás egyszerűsíti a munkafolyamatát, és lehetővé teszi, hogy arra a munkára koncentráljon, amely valódi hatást gyakorol.",
+          tool_1: "Videóból szöveg",
+          tool_2: "MOV-ból szöveg",
+          tool_3: "TikTok-ból szöveg",
+          tool_4: "YouTube-ból szöveg",
+          tool_5: "MP4-ből SRT",
+          tool_11: "Audióból szöveg",
+          tool_12: "Beszédből szöveg",
+          tool_13: "MP3-ból szöveg",
+          tool_14: "M4A-ból szöveg",
+          tool_15: "MP3-ból SRT"
         }
       }
     },

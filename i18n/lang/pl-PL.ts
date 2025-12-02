@@ -1074,7 +1074,8 @@ let message = {
     YouTubetoMP3: "YouTube na MP3",
     Transcription: "Transkrypcja",
     VideoTranscription: "Transkrypcja wideo",
-    Other: "Inne"
+    Other: "Inne",
+    mp4Transcription: "Transkrypcja MP4"
   },
   Footer: {
     des: "Pierwsza na świecie naprawdę nieograniczona usługa transkrypcji AI. Brak limitów, brak ograniczeń, tylko wolność tworzenia.",
@@ -1093,7 +1094,7 @@ let message = {
     ],
     companyMenus: ["O nas", "Cennik", "Prywatność", "Warunki"],
     Resources: "Zasoby",
-    resourcesMenus: ["YouTube do MP4", "YouTube na MP3", "Transkrypcja wideo"]
+    resourcesMenus: ["YouTube na MP4","YouTube na MP3","Transkrypcja Wideo","Transkrypcja MP4"]
   },
   Index: {
     Hero: {
@@ -3496,6 +3497,114 @@ let message = {
           otherTools_5: "Generator napisów",
           otherTools_6: "Podsumowanie wideo",
           otherTools_7: "Konwerter wideo"
+        }
+      },
+      mp4Transcription: {
+        hero: {
+          title: "Konwerter MP4 na Tekst Online",
+          des_1: "Konwertuj swoje pliki MP4 na tekst w kilka sekund.",
+          des_2: "Bez rejestracji. Błyskawicznie szybko. Najwyższa dokładność.",
+          feature_1: "Wspiera 12 Formatów",
+          feature_2: "Wspiera 100+ Języków",
+          feature_3: "Eksportuj w 6 Formatach"
+        },
+        threeStep: {
+          title: "Transkrybuj swoje MP4 na",
+          titleHighlight: "tekst w 3 prostych krokach",
+          step_1_title: "Prześlij swój plik MP4",
+          step_1_des: "Wystarczy przeciągnąć i upuścić w wyznaczonym miejscu lub kliknąć przycisk \"Prześlij Plik\".",
+          step_2_title: "Rozpocznij Transkrypcję",
+          step_2_des: "Kliknij przycisk \"Transkrybuj\". System automatycznie przekonwertuje Twoje MP4 na tekst w kilka chwil.",
+          step_3_title: "Pobierz Swoją Transkrypcję",
+          step_3_des: "Twój tekst jest gotowy do edycji online i może być wyeksportowany w formatach TXT, PDF, DOCX, SRT, CSV, VTT, lub udostępniony przez link."
+        },
+        howToGet: {
+          title: "Jak Uzyskać Najlepsze Wyniki z",
+          titleHighlight: "Twojej Transkrypcji?",
+          fun_1: "Użyj oryginalnego pliku wideo do transkrypcji, zamiast skompresowanej wersji.",
+          fun_2: "Zmniejsz hałas w tle, muzykę w tle, szum lub echo jak najwięcej.",
+          fun_3: "Jeśli pobierasz wideo, zawsze wybieraj opcję \"Wysoka Jakość Dźwięku (HQ)\".",
+          fun_4: "Włącz funkcję \"Identyfikacja Mówców\", gdy jest więcej niż jeden mówca.",
+          fun_5: "Wybierz konkretny język i akcent swojego pliku MP4, np. Angielski → Angielski (USA) / Angielski (UK) / Angielski (Indie).",
+          fun_6: "Szybko przejrzyj transkrypcję po zakończeniu procesu."
+        },
+        exportFormats: {
+          title: "Formaty Eksportu i",
+          titleHighlight: "Ich Zastosowania",
+          format_1: "W Formacie TXT",
+          des_1: "Dla Notatnika, Notepad++ i lekkich edytorów tekstu",
+          format_2: "W Formacie PDF",
+          des_2: "Do druku, udostępniania, archiwizacji i przeglądania międzyplatformowego",
+          format_3: "W Formacie DOCX",
+          des_3: "Dla Microsoft Word, Google Docs i edycji tekstu sformatowanego",
+          format_4: "W Formacie SRT",
+          des_4: "Dla napisów YouTube, przesyłania napisów wideo i odtwarzaczy multimedialnych",
+          format_5: "W Formacie CSV",
+          des_5: "Dla Excel, Google Sheets i narzędzi analizy danych",
+          format_6: "W Formacie VTT",
+          des_6: "Dla napisów wideo web, odtwarzaczy HTML5 i narzędzi dostępności"
+        },
+        howToUse: {
+          title: "Jaka jest wartość konwertowania MP4 na tekst,",
+          titleHighlight: "i jak możesz to najlepiej wykorzystać?",
+          effect_1: "Czytaj kluczowe punkty natychmiast.",
+          des_1: "Przeglądaj transkrypcje szybciej niż ponowne oglądanie wideo i szybko lokalizuj niezbędne informacje.",
+          effect_2: "Organizuj studia i badania.",
+          des_2: "Zamieniaj wykłady, wywiady i klipy badawcze w czyste notatki, które można podkreślać, cytować i ponownie wykorzystywać.",
+          effect_3: "Zwiększ produktywność pracy.",
+          des_3: "Twórz podsumowania spotkań, śledź punkty działania i przechowuj treści w dokumentacji lub bazach wiedzy.",
+          effect_4: "Wspieraj tworzenie treści.",
+          des_4: "Eksportuj skrypty, zarysy, szkice artykułów i napisy do edycji lub lokalizacji.",
+          effect_5: "Spraw, aby treści były przeszukiwalne i tłumaczalne.",
+          des_5: "Pełnotekstowe wyszukiwanie i tłumacz transkrypcje do użytku wielojęzycznego.",
+          effect_6: "Uprość archiwizację.",
+          des_6: "Tekst jest łatwiejszy do przechowywania, strukturyzowania i ponownego wykorzystania—idealny dla rekordów, dokumentacji i baz wiedzy AI."
+        },
+        whyChoose: {
+          title: "Dlaczego",
+          titleHighlight: "Nasza Transkrypcja MP4 na Tekst Wyróżnia Się",
+          reason_1_title: "Wiodąca w Branży Dokładność",
+          reason_1_des: "Niezależnie zweryfikowana jako jeden z najdokładniejszych dostępnych narzędzi transkrypcji.",
+          reason_2_title: "Szybkość Przetwarzania",
+          reason_2_des: "Odbierz swoją transkrypcję w około jednej dwudziestej długości oryginalnego wideo.",
+          reason_3_title: "Identyfikacja Mówców",
+          reason_3_des: "Wyraźnie rozróżnia między mówcami, co ułatwia czytanie i śledzenie transkrypcji.",
+          reason_4_title: "Szerokie Wsparcie Językowe",
+          reason_4_des: "Wspiera transkrypcję w 100+ językach i tłumaczenie na 249 języków.",
+          reason_5_title: "Prosty i Przyjazny dla Użytkownika",
+          reason_5_des: "Brak skomplikowanych interfejsów lub kroków. Ukończ zadanie kilkoma kliknięciami.",
+          reason_6_title: "Pełne Bezpieczeństwo Danych",
+          reason_6_des: "Priorytetem jest dla nas bezpieczeństwo i prywatność Twoich danych jako jedno z głównych zobowiązań."
+        },
+        faq: {
+          title: "Pytania o",
+          titleHighlight: "Konwertowanie MP4 na Tekst",
+          question_1: "Ile czasu zajmuje transkrypcja pliku MP4 na tekst?",
+          answer_1: "Na podstawie testów, w normalnych warunkach, proces transkrypcji trwa około 1/20 do 1/10 czasu trwania wideo. Na przykład, wideo 1-godzinne zajmie około 3 do 6 minut na transkrypcję.",
+          question_2: "Czy istnieją ograniczenia wielkości pliku MP4, który przesyłam?",
+          answer_2: "Tak. Maksymalna wielkość pliku to 5GB, a długość wideo nie może przekraczać 10 godzin. Pamiętaj, że większe pliki mogą wymagać więcej czasu na przetworzenie.",
+          question_3: "Jak dokładna jest transkrypcja?",
+          answer_3: "Ważne jest zrozumienie, że jakość transkrypcji w dużej mierze zależy od jakości dźwięku w Twoim wideo. Mimo to, używamy wiodącej w branży technologii rozpoznawania mowy, aby zapewnić jak najlepsze wyniki dla Twojej transkrypcji MP4.",
+          question_4: "Czy mogę transkrybować MP4 do dokumentu Word?",
+          answer_4: "Oczywiście. Po prostu prześlij swój plik MP4, kliknij \"Transkrybuj\", a po zakończeniu procesu wybierz \"Eksportuj\" i wybierz format DOCX. Otrzymasz pełną transkrypcję w dokumencie Word.",
+          question_5: "Jak mogę uzyskać napisy do mojego wideo?",
+          answer_5: "Prześlij swoje wideo i transkrybuj je. Po transkrypcji kliknij \"Eksportuj\" i wybierz format SRT lub VTT, aby pobrać swoje napisy.",
+          question_6: "Czy to narzędzie transkrypcji MP4 jest bezpieczne w użyciu?",
+          answer_6: "Tak. Nasza strona jest bez reklam, nie wymaga rejestracji do przetwarzania i nie prosi o żadne dane osobowe. Zatrudniamy również silne środki techniczne, aby zapobiegać wirusom. Zachęcamy wszystkich użytkowników do szanowania wytycznych dotyczących praw autorskich i prywatności podczas pobierania, używania lub udostępniania plików MP4."
+        },
+        explore: {
+          title: "Konwerter Czegoś na Tekst",
+          des: "Transkrypcja usprawnia Twój przepływ pracy i pozwala Ci skupić się na pracy, która przynosi realne rezultaty.",
+          tool_1: "Wideo na tekst",
+          tool_2: "MOV na tekst",
+          tool_3: "TikTok na tekst",
+          tool_4: "YouTube na tekst",
+          tool_5: "MP4 na SRT",
+          tool_11: "Audio na tekst",
+          tool_12: "Głos na tekst",
+          tool_13: "MP3 na tekst",
+          tool_14: "M4A na tekst",
+          tool_15: "MP3 na SRT"
         }
       }
     },

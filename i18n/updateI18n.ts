@@ -1,6 +1,13 @@
 #!/usr/bin/env ts-node
 
-import { Project, SyntaxKind, ObjectLiteralExpression, PropertyAssignment, VariableDeclaration } from "ts-morph";
+import {
+  Project,
+  SyntaxKind,
+  ObjectLiteralExpression,
+  PropertyAssignment,
+  VariableDeclaration,
+  IndentationText
+} from "ts-morph";
 import path from "path";
 import fs from "fs";
 import axios from "axios"; // 需要安装: npm install axios
@@ -31,7 +38,7 @@ const languages = [
   "he-IL",
   "ar-SA"
 ];
-
+const defautConfig = { manipulationSettings: { indentationText: IndentationText.TwoSpaces } };
 // 语言代码映射表
 const languageMapping: { [key: string]: string } = {
   "en-US": "en",
@@ -484,7 +491,7 @@ function parseObjectFromFile(filePath: string): any {
     return {}; // 返回空对象，因为刚创建的文件message为空
   }
 
-  const project = new Project();
+  const project = new Project(defautConfig);
   const sourceFile = project.addSourceFileAtPath(filePath);
 
   const variableStatements = sourceFile.getVariableStatements();
@@ -1067,7 +1074,7 @@ async function writeObjectToFileWithRemoval(filePath: string, obj: any, keysToRe
 
   try {
     // 使用 ts-morph 来精确修改文件，保留注释和其他内容
-    const project = new Project();
+    const project = new Project(defautConfig);
     const sourceFile = project.addSourceFileAtPath(filePath);
 
     // 找到 message 变量声明

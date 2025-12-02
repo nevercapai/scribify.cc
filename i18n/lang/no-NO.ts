@@ -1068,7 +1068,8 @@ let message = {
     YouTubetoMP3: "YouTube til MP3",
     Transcription: "Transkripsjon",
     VideoTranscription: "Videotranskripsjon",
-    Other: "Annet"
+    Other: "Annet",
+    mp4Transcription: "MP4-transkripsjon"
   },
   Footer: {
     des: "Verdens første virkelig ubegrensede AI-transkripsjonstjeneste. Ingen tak, ingen grenser, bare frihet til å skape.",
@@ -1087,7 +1088,7 @@ let message = {
     ],
     companyMenus: ["Om", "Priser", "Personvern", "Vilkår"],
     Resources: "Ressurser",
-    resourcesMenus: ["YouTube til MP4", "YouTube til MP3", "Videotranskripsjon"]
+    resourcesMenus: ["YouTube til MP4","YouTube til MP3","Video-transkripsjon","MP4-transkripsjon"]
   },
   Index: {
     Hero: {
@@ -3496,6 +3497,114 @@ let message = {
           otherTools_5: "Undertekstgenerator",
           otherTools_6: "Videosammendrag",
           otherTools_7: "Videokonverter"
+        }
+      },
+      mp4Transcription: {
+        hero: {
+          title: "Online MP4 til Tekst Konverterer",
+          des_1: "Konverter dine MP4-filer til tekst på sekunder.",
+          des_2: "Ingen registrering påkrevd. Lynrask. Topp-nøyaktighet.",
+          feature_1: "Støtter 12 Formater",
+          feature_2: "Støtter 100+ Språk",
+          feature_3: "Eksporter i 6 Formater"
+        },
+        threeStep: {
+          title: "Skriv ned MP4-en din til",
+          titleHighlight: "tekst i 3 enkle steg",
+          step_1_title: "Last opp MP4-filen din",
+          step_1_des: "Bare dra og slipp den i det utpekte området, eller klikk på \"Last opp Fil\"-knappen.",
+          step_2_title: "Start Transkripsjon",
+          step_2_des: "Klikk på \"Skriv ned\"-knappen. Systemet vil automatisk konvertere MP4-en din til tekst på øyeblikket.",
+          step_3_title: "Last Ned Nedskrivningen Din",
+          step_3_des: "Teksten din er klar for online redigering og kan eksporteres i TXT, PDF, DOCX, SRT, CSV, VTT formater, eller deles via en lenke."
+        },
+        howToGet: {
+          title: "Hvordan Få Du Beste Resultater fra",
+          titleHighlight: "Din Nedskrivning?",
+          fun_1: "Bruk den originale videofilen for nedskrivning, i stedet for en komprimert versjon.",
+          fun_2: "Reduser bakgrunnsstøy, bakgrunnsmusikk, statisk støy eller ekko så mye som mulig.",
+          fun_3: "Hvis du laster ned en video, velg alltid \"Høy Lydkvalitet (HQ)\"-alternativet.",
+          fun_4: "Aktiver \"Høytaler Identifikasjon\"-funksjonen når det er mer enn én høytaler.",
+          fun_5: "Velg det spesifikke språket og aksenten til MP4-filen din, f.eks. Engelsk → Engelsk (US) / Engelsk (UK) / Engelsk (India).",
+          fun_6: "Se raskt over nedskrivningen når prosessen er ferdig."
+        },
+        exportFormats: {
+          title: "Eksportformater &",
+          titleHighlight: "Deres Bruk",
+          format_1: "I TXT-format",
+          des_1: "For Notisblokk, Notepad++ og lette tekstredigerere",
+          format_2: "I PDF-format",
+          des_2: "For utskrift, deling, arkivering og kryssplattformvisning",
+          format_3: "I DOCX-format",
+          des_3: "For Microsoft Word, Google Docs og rik-tekst redigering",
+          format_4: "I SRT-format",
+          des_4: "For YouTube undertekster, video undertekst opplastinger og mediespillere",
+          format_5: "I CSV-format",
+          des_5: "For Excel, Google Sheets og dataanalyseverktøy",
+          format_6: "I VTT-format",
+          des_6: "For webvideo undertekster, HTML5 spillere og tilgjengelighetsverktøy"
+        },
+        howToUse: {
+          title: "Hva er verdien av å konvertere MP4 til tekst,",
+          titleHighlight: "og hvordan kan du få mest ut av det?",
+          effect_1: "Les nøkkelpunkter umiddelbart.",
+          des_1: "Bla gjennom nedskrivninger raskere enn å se videoer på nytt, og finn raskt essensiell informasjon.",
+          effect_2: "Organiser studier og forskning.",
+          des_2: "Gjør om forelesninger, intervjuer og forskningsklipp til rene notater du kan fremheve, sitere og gjenbruke.",
+          effect_3: "Øk jobbproduktiviteten.",
+          des_3: "Lag møtesammendrag, spor handlingspunkter, og lagre innhold i dokumentasjon eller kunnskapsbaser.",
+          effect_4: "Støtt innholdsskaping.",
+          des_4: "Pakk ut manuskripter, disposisjoner, artikler, og eksporter undertekster for redigering eller lokalisering.",
+          effect_5: "Gjør innhold søkbart og oversettbart.",
+          des_5: "Fulltekstsøk og oversett nedskrivninger for flerspråklig bruk.",
+          effect_6: "Forenkle arkivering.",
+          des_6: "Tekst er enklere å lagre, strukturere og gjenbruke—ideelt for poster, dokumentasjon og AI kunnskapsbaser."
+        },
+        whyChoose: {
+          title: "Hvorfor",
+          titleHighlight: "Vår MP4-til-Tekst Nedskrivning Utmerker Seg",
+          reason_1_title: "Bransjeledende Nøyaktighet",
+          reason_1_des: "Uavhengig verifisert som ett av de mest nøyaktige nedskrivingsverktøyene tilgjengelig.",
+          reason_2_title: "Rask Behandlingshastighet",
+          reason_2_des: "Få nedskrivningen din på omtrent en tyvendedel av lengden på den originale videoen.",
+          reason_3_title: "Høytaler Identifikasjon",
+          reason_3_des: "Skiller tydelig mellom høyttalere, og gjør nedskrivninger enklere å lese og følge.",
+          reason_4_title: "Bred Språkdekning",
+          reason_4_des: "Støtter nedskrivning på 100+ språk og oversettelse til 249 språk.",
+          reason_5_title: "Enkel og Brukervennlig",
+          reason_5_des: "Ingen komplekse grensesnitt eller steg. Fullfør oppgaven din med bare noen få klikk.",
+          reason_6_title: "Full Datasikkerhet",
+          reason_6_des: "Vi prioriterer sikkerheten og personvernet til dine data som en av våre kjerneforpliktelser."
+        },
+        faq: {
+          title: "Spørsmål om",
+          titleHighlight: "Å Konvertere MP4 til Tekst",
+          question_1: "Hvor lang tid tar det å skrive ned en MP4-fil til tekst?",
+          answer_1: "Basert på tester, under normale forhold, tar nedskrivningsprosessen omtrent 1/20 til 1/10 av videoens lengde. For eksempel, en 1-times video vil ta omtrent 3 til 6 minutter å skrive ned.",
+          question_2: "Er det grenser for størrelsen på MP4-filen jeg laster opp?",
+          answer_2: "Ja. Maksimal filstørrelse er 5GB, og videolengden skal ikke overstige 10 timer. Vær oppmerksom på at større filer kan kreve mer tid å behandle.",
+          question_3: "Hvor nøyaktig er nedskrivningen?",
+          answer_3: "Det er viktig å forstå at nedskrivningskvaliteten i stor grad avhenger av lydkvaliteten på videoen din. Det sagt, vi bruker bransjeledende talegjenkjenningsteknologi for å sikre best mulige resultater for din MP4 nedskrivning.",
+          question_4: "Kan jeg skrive ned MP4 til et Word-dokument?",
+          answer_4: "Absolutt. Bare last opp MP4-filen din, klikk \"Skriv ned\", og når prosessen er fullført, velg \"Eksporter\" og velg DOCX-formatet. Du vil motta en fullstendig nedskrivning i et Word-dokument.",
+          question_5: "Hvordan kan jeg få undertekster for videoen min?",
+          answer_5: "Last opp videoen din og skriv den ned. Etter nedskrivning, klikk \"Eksporter\" og velg enten SRT eller VTT-formatet for å laste ned undertekstene dine.",
+          question_6: "Er dette MP4 nedskrivningsverktøyet trygt å bruke?",
+          answer_6: "Ja. Vår side er reklamefri, krever ingen registrering for behandling, og ber ikke om personlig informasjon. Vi bruker også sterke tekniske tiltak for å forhindre virus. Vi oppfordrer alle brukere til å respektere opphavsretts- og personvernsretningslinjer når de laster ned, bruker eller deler MP4-filer."
+        },
+        explore: {
+          title: "Alt-til-Tekst Konverterer",
+          des: "Nedskrivning strømlinjeformer arbeidsflyten din og lar deg konsentrere deg om arbeidet som gir reell effekt.",
+          tool_1: "Video til tekst",
+          tool_2: "MOV til tekst",
+          tool_3: "TikTok til tekst",
+          tool_4: "YouTube til tekst",
+          tool_5: "MP4 til SRT",
+          tool_11: "Lyd til tekst",
+          tool_12: "Stemme til tekst",
+          tool_13: "MP3 til tekst",
+          tool_14: "M4A til tekst",
+          tool_15: "MP3 til SRT"
         }
       }
     },

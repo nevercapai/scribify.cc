@@ -1075,7 +1075,8 @@ let message = {
     YouTubetoMP3: "YouTube naar MP3",
     Transcription: "Transcriptie",
     VideoTranscription: "Video Transcriptie",
-    Other: "Overig"
+    Other: "Overig",
+    mp4Transcription: "MP4-transcriptie"
   },
   Footer: {
     des: "'s Werelds eerste echt onbeperkte AI-transcriptieservice. Geen limieten, geen grenzen, alleen vrijheid om te creëren.",
@@ -1094,7 +1095,7 @@ let message = {
     ],
     companyMenus: ["Over ons", "Prijzen", "Privacy", "Voorwaarden"],
     Resources: "Bronnen",
-    resourcesMenus: ["YouTube naar MP4", "YouTube naar MP3", "Video Transcriptie"]
+    resourcesMenus: ["YouTube naar MP4","YouTube naar MP3","Video-transcriptie","MP4-transcriptie"]
   },
   Index: {
     Hero: {
@@ -3502,6 +3503,114 @@ let message = {
           otherTools_5: "Ondertitelingsgenerator",
           otherTools_6: "Video Summarizer",
           otherTools_7: "Video Converter"
+        }
+      },
+      mp4Transcription: {
+        hero: {
+          title: "Online MP4 naar Tekst Converter",
+          des_1: "Converteer uw MP4-bestanden in seconden naar tekst.",
+          des_2: "Geen aanmelding vereist. Bliksemsnel. Topnauwkeurigheid.",
+          feature_1: "Ondersteunt 12 Formaten",
+          feature_2: "Ondersteunt 100+ Talen",
+          feature_3: "Exporteer in 6 Formaten"
+        },
+        threeStep: {
+          title: "Transcribeer uw MP4 naar",
+          titleHighlight: "tekst in 3 eenvoudige stappen",
+          step_1_title: "Upload uw MP4-bestand",
+          step_1_des: "Sleep het eenvoudig naar het aangewezen gebied, of klik op de \"Upload Bestand\"-knop.",
+          step_2_title: "Start Transcriptie",
+          step_2_des: "Klik op de \"Transcribeer\"-knop. Het systeem zet uw MP4 automatisch binnen enkele momenten om naar tekst.",
+          step_3_title: "Download Uw Transcriptie",
+          step_3_des: "Uw tekst is klaar voor online bewerking en kan geëxporteerd worden in TXT, PDF, DOCX, SRT, CSV, VTT formaten, of gedeeld via een link."
+        },
+        howToGet: {
+          title: "Hoe Krijg Je de Beste Resultaten van",
+          titleHighlight: "Je Transcriptie?",
+          fun_1: "Gebruik het originele videobestand voor transcriptie, in plaats van een gecomprimeerde versie.",
+          fun_2: "Verminder achtergrondruis, achtergrondmuziek, statische ruis of echo zo veel mogelijk.",
+          fun_3: "Selecteer bij het downloaden van een video altijd de \"Hoge Audio Kwaliteit (HQ)\"-optie.",
+          fun_4: "Schakel de \"Spreker Identificatie\"-functie in wanneer er meer dan één spreker is.",
+          fun_5: "Selecteer de specifieke taal en accent van uw MP4-bestand, bv. Engels → Engels (VS) / Engels (VK) / Engels (India).",
+          fun_6: "Beoordeel de transcriptie snel zodra het proces voltooid is."
+        },
+        exportFormats: {
+          title: "Export Format &",
+          titleHighlight: "Hun Gebruik",
+          format_1: "In TXT Formaat",
+          des_1: "Voor Kladblok, Notepad++ en lightweight tekst editors",
+          format_2: "In PDF Formaat",
+          des_2: "Voor printen, delen, archiveren en cross-platform bekijken",
+          format_3: "In DOCX Formaat",
+          des_3: "Voor Microsoft Word, Google Docs en rich-text bewerking",
+          format_4: "In SRT Formaat",
+          des_4: "Voor YouTube ondertitels, video ondertitel uploads en mediaspelers",
+          format_5: "In CSV Formaat",
+          des_5: "Voor Excel, Google Sheets en data analyse tools",
+          format_6: "In VTT Formaat",
+          des_6: "Voor web video ondertitels, HTML5 spelers en toegankelijkheid tools"
+        },
+        howToUse: {
+          title: "Wat is de waarde van het converteren van MP4 naar tekst,",
+          titleHighlight: "en hoe kun je er het meeste uithalen?",
+          effect_1: "Lees belangrijke punten direct.",
+          des_1: "Blader door transcripties sneller dan video's herkijken en lokaliseer snel essentiële informatie.",
+          effect_2: "Organiseer studies en onderzoek.",
+          des_2: "Zet lezingen, interviews en onderzoek clips om in schone notities die je kunt markeren, citeren en hergebruiken.",
+          effect_3: "Verhoog werkproductiviteit.",
+          des_3: "Maak samenvattingen van vergaderingen, volg actiepunten op en sla content op in documentatie of kennisbanken.",
+          effect_4: "Ondersteun content creatie.",
+          des_4: "Extraheer scripts, outlines, conceptartikelen en exporteer ondertitels voor bewerking of lokalisatie.",
+          effect_5: "Maak content doorzoekbaar en vertaalbaar.",
+          des_5: "Volledige tekst zoek en vertaal transcripties voor meertalig gebruik.",
+          effect_6: "Vereenvoudig archiveren.",
+          des_6: "Tekst is makkelijker op te slaan, structureren en te hergebruiken—ideaal voor records, documentatie en AI kennisbanken."
+        },
+        whyChoose: {
+          title: "Waarom",
+          titleHighlight: "Onze MP4 naar Tekst Transcriptie Uitsteekt",
+          reason_1_title: "Marktleidende Nauwkeurigheid",
+          reason_1_des: "Onafhankelijk geverifieerd als een van de meest nauwkeurige transcriptie tools beschikbaar.",
+          reason_2_title: "Snelle Verwerkingssnelheid",
+          reason_2_des: "Krijg je transcriptie ongeveer in twintigste van de lengte van de originele video.",
+          reason_3_title: "Spreker Identificatie",
+          reason_3_des: "Distingueert duidelijk tussen sprekers, waardoor transcripties makkelijker te lezen en te volgen zijn.",
+          reason_4_title: "Brede Taaldekkings",
+          reason_4_des: "Ondersteunt transcriptie in 100+ talen en vertaling naar 249 talen.",
+          reason_5_title: "Eenvoudig en Gebruiksvriendelijk",
+          reason_5_des: "Geen complexe interfaces of stappen. Voltooi je taak met slechts een paar klikken.",
+          reason_6_title: "Volledige Veiligheid",
+          reason_6_des: "Wij prioriteren de veiligheid en privacy van uw data als een van onze kern beloftes."
+        },
+        faq: {
+          title: "Vragen Over",
+          titleHighlight: "MP4 naar Tekst Converteren",
+          question_1: "Hoe lang duurt het om een MP4-bestand naar tekst te transcriberen?",
+          answer_1: "Gebaseerd op tests, onder normale omstandigheden, duurt het transcriptie proces ongeveer 1/20 tot 1/10 van de duur van de video. Bijvoorbeeld, een video van 1 uur zal ongeveer 3 tot 6 minuten duren om te transcriberen.",
+          question_2: "Zijn er limieten aan de grootte van het MP4-bestand dat ik upload?",
+          answer_2: "Ja. De maximale bestandsgrootte is 5GB en de video lengte mag niet langer zijn dan 10 uur. Houd er rekening mee dat grotere bestanden meer tijd kunnen vereisen om te verwerken.",
+          question_3: "Hoe nauwkeurig is de transcriptie?",
+          answer_3: "Het is belangrijk om te begrijpen dat de transcriptie kwaliteit sterk afhangt van de audiokwaliteit van je video. Dat gezegd hebbende, we gebruiken marktleidende spraakherkenningstechnologie om de best mogelijke resultaten voor je MP4 transcriptie te garanderen.",
+          question_4: "Kan ik MP4 naar een Word document transcriberen?",
+          answer_4: "Absoluut. Upload eenvoudig je MP4-bestand, klik \"Transcribeer\", en selecteer zodra het proces voltooid is \"Exporteer\" en kies het DOCX-formaat. Je ontvangt een volledige transcriptie in een Word document.",
+          question_5: "Hoe kan ik ondertitels voor mijn video krijgen?",
+          answer_5: "Upload je video en transcribeer het. Na transcriptie, klik \"Exporteer\" en selecteer het SRT of VTT formaat om je ondertitels te downloaden.",
+          question_6: "Is deze MP4 transcriptie tool veilig om te gebruiken?",
+          answer_6: "Ja. Onze pagina is advertentie-vrij, vereist geen registratie voor verwerking en vraagt niet naar persoonlijke informatie. We zetten ook sterke technische maatregelen in om virussen te voorkomen. We moedigen alle gebruikers aan om auteursrechten en privacyrichtlijnen te respecteren bij het downloaden, gebruik of delen van MP4-bestanden."
+        },
+        explore: {
+          title: "Alles-naar-Tekst Converter",
+          des: "Transcriptie stroomlijnt je workflow en laat je je concentreren op het werk dat echt impact maakt.",
+          tool_1: "Video naar tekst",
+          tool_2: "MOV naar tekst",
+          tool_3: "TikTok naar tekst",
+          tool_4: "YouTube naar tekst",
+          tool_5: "MP4 naar SRT",
+          tool_11: "Audio naar tekst",
+          tool_12: "Spraak naar tekst",
+          tool_13: "MP3 naar tekst",
+          tool_14: "M4A naar tekst",
+          tool_15: "MP3 naar SRT"
         }
       }
     },

@@ -460,6 +460,7 @@
 ./Dockerfile
 ./i18n
 ./i18n/i18n.config.ts
+./i18n/aiTranslateData.ts
 ./i18n/lang
 ./i18n/lang/zh-TW.ts
 ./i18n/lang/ja-JP.ts

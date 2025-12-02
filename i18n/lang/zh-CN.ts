@@ -1046,7 +1046,8 @@ let message = {
     YouTubetoMP3: "YouTube 转 MP3",
     Transcription: "转录",
     VideoTranscription: "视频转录",
-    Other: "其他"
+    Other: "其他",
+    mp4Transcription: "MP4转写"
   },
   Footer: {
     des: "全球首个真正无限的AI转录服务。无上限，无限制，尽享创作自由。",
@@ -1057,7 +1058,7 @@ let message = {
     useCaseMenus: ["所有使用场景", "播客主", "记者", "内容创作者", "研究人员", "企业团队", "教育工作者"],
     companyMenus: ["关于", "定价", "隐私", "条款"],
     Resources: "资源",
-    resourcesMenus: ["YouTube 转 MP4", "YouTube 转 MP3", "视频转录"]
+    resourcesMenus: ["YouTube转MP4","YouTube转MP3","视频转写","MP4转写"]
   },
   Index: {
     Hero: {
@@ -3333,6 +3334,114 @@ let message = {
           otherTools_5: "字幕生成器",
           otherTools_6: "视频摘要生成器",
           otherTools_7: "视频转换器"
+        }
+      },
+      mp4Transcription: {
+        hero: {
+          title: "在线MP4转文本工具",
+          des_1: "几秒钟内将您的MP4文件转换为文本。",
+          des_2: "无需注册。闪电般快速。顶级准确度。",
+          feature_1: "支持12种格式",
+          feature_2: "支持100+种语言",
+          feature_3: "支持6种格式导出"
+        },
+        threeStep: {
+          title: "只需3步轻松将MP4",
+          titleHighlight: "转换为文本",
+          step_1_title: "上传您的MP4文件",
+          step_1_des: "直接将其拖放到指定区域，或点击“上传文件”按钮。",
+          step_2_title: "开始转写",
+          step_2_des: "点击“转写”按钮。系统将在片刻内自动将您的MP4转换为文本。",
+          step_3_title: "下载您的转写文本",
+          step_3_des: "您的文本已准备好在线编辑，并可导出为 TXT、PDF、DOCX、SRT、CSV、VTT 格式，或通过链接分享。"
+        },
+        howToGet: {
+          title: "如何获得最好的",
+          titleHighlight: "转写效果？",
+          fun_1: "使用原始视频文件进行转写，而不是压缩版本。",
+          fun_2: "尽可能减少背景噪音、背景音乐、静电声或回声。",
+          fun_3: "下载视频时，始终选择“高品质音频(HQ)”选项。",
+          fun_4: "当有多个说话人时，启用“说话人识别”功能。",
+          fun_5: "选择MP4文件的特定语言和口音，例如：英语 → 英语(美国) / 英语(英国) / 英语(印度)。",
+          fun_6: "转写完成后，快速审阅一遍文本。"
+        },
+        exportFormats: {
+          title: "导出格式及",
+          titleHighlight: "其用途",
+          format_1: "TXT格式",
+          des_1: "适用于记事本、Notepad++和轻量级文本编辑器",
+          format_2: "PDF格式",
+          des_2: "适用于打印、分享、归档和跨平台查看",
+          format_3: "DOCX格式",
+          des_3: "适用于Microsoft Word、Google Docs和富文本编辑",
+          format_4: "SRT格式",
+          des_4: "适用于YouTube字幕、视频字幕上传和媒体播放器",
+          format_5: "CSV格式",
+          des_5: "适用于Excel、Google Sheets和数据分析工具",
+          format_6: "VTT格式",
+          des_6: "适用于网页视频字幕、HTML5播放器和无障碍工具"
+        },
+        howToUse: {
+          title: "将MP4转为文本有何价值，",
+          titleHighlight: "以及如何充分利用它？",
+          effect_1: "即时阅读要点。",
+          des_1: "比重新观看视频更快地浏览文本，并快速定位关键信息。",
+          effect_2: "整理学习和研究资料。",
+          des_2: "将讲座、采访和研究片段转化为清晰的笔记，您可以高亮、引用和重用。",
+          effect_3: "提升工作效率。",
+          des_3: "创建会议纪要、跟踪行动项，并将内容存储在文档或知识库中。",
+          effect_4: "支持内容创作。",
+          des_4: "提取脚本、大纲、文章草稿，并导出字幕供编辑或本地化使用。",
+          effect_5: "使内容可搜索和可翻译。",
+          des_5: "全文搜索并翻译文本以供多语言使用。",
+          effect_6: "简化归档。",
+          des_6: "文本更易于存储、结构和重用——是记录、文档编制和AI知识库的理想选择。"
+        },
+        whyChoose: {
+          title: "为何",
+          titleHighlight: "我们的MP4转文本功能与众不同",
+          reason_1_title: "行业领先的准确性",
+          reason_1_des: "经独立验证为最准确的转写工具之一。",
+          reason_2_title: "处理速度快",
+          reason_2_des: "获得转写文本的速度约为原视频长度的二十分之一。",
+          reason_3_title: "说话人识别",
+          reason_3_des: "清晰区分不同说话人，使文本更易于阅读和跟进。",
+          reason_4_title: "广泛的语言覆盖",
+          reason_4_des: "支持100多种语言的转写，并可翻译成249种语言。",
+          reason_5_title: "简单易用",
+          reason_5_des: "没有复杂的界面或步骤。只需几次点击即可完成任务。",
+          reason_6_title: "数据完全安全",
+          reason_6_des: "我们高度重视您数据的安全和隐私，这是我们的核心承诺之一。"
+        },
+        faq: {
+          title: "关于",
+          titleHighlight: "MP4转文本的常见问题",
+          question_1: "将MP4文件转写为文本需要多长时间？",
+          answer_1: "根据测试，在正常情况下，转写过程大约需要视频时长的1/20到1/10。例如，1小时的视频大约需要3到6分钟来完成转写。",
+          question_2: "我上传的MP4文件大小有限制吗？",
+          answer_2: "有的。最大文件大小为5GB，视频长度不应超过10小时。请注意，较大的文件可能需要更多时间处理。",
+          question_3: "转写的准确度如何？",
+          answer_3: "需要理解的是，转写质量很大程度上取决于您视频的音频质量。尽管如此，我们使用行业领先的语音识别技术，以确保为您的MP4转写提供尽可能最佳的结果。",
+          question_4: "我可以将MP4转写为Word文档吗？",
+          answer_4: "当然可以。只需上传您的MP4文件，点击“转写”，过程完成后，选择“导出”并选择DOCX格式。您将收到一个完整的Word文档转录。",
+          question_5: "如何获取我的视频字幕？",
+          answer_5: "上传您的视频并进行转写。转写后，点击“导出”并选择SRT或VTT格式以下载您的字幕。",
+          question_6: "这个MP4转写工具使用安全吗？",
+          answer_6: "是的。我们的页面无广告，处理过程无需注册，且不要求任何个人信息。我们还采用强大的技术措施来防止病毒。我们鼓励所有用户在下载、使用或分享MP4文件时，尊重版权和隐私指南。"
+        },
+        explore: {
+          title: "全能格式转文本工具",
+          des: "转写功能简化您的工作流程，让您专注于能带来真正影响的工作。",
+          tool_1: "视频转文本",
+          tool_2: "MOV转文本",
+          tool_3: "TikTok转文本",
+          tool_4: "YouTube转文本",
+          tool_5: "MP4转SRT",
+          tool_11: "音频转文本",
+          tool_12: "语音转文本",
+          tool_13: "MP3转文本",
+          tool_14: "M4A转文本",
+          tool_15: "MP3转SRT"
         }
       }
     },

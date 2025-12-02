@@ -1070,7 +1070,8 @@ let message = {
     YouTubetoMP3: "YouTubesta MP3:een",
     Transcription: "Tekstitys",
     VideoTranscription: "Videoiden tekstitys",
-    Other: "Muu"
+    Other: "Muu",
+    mp4Transcription: "MP4-transkriptio"
   },
   Footer: {
     des: "Maailman ensimmäinen todella rajaton AI-tekstitypalvelu. Ei rajoituksia, ei kattoja, vain vapaus luoda.",
@@ -1089,7 +1090,7 @@ let message = {
     ],
     companyMenus: ["Tietoja", "Hinnoittelu", "Tietosuoja", "Käyttöehdot"],
     Resources: "Resurssit",
-    resourcesMenus: ["YouTubesta MP4:ään", "YouTubesta MP3:een", "Videoiden tekstitys"]
+    resourcesMenus: ["YouTube MP4:ksi","YouTube MP3:ksi","Videotranskriptio","MP4-transkriptio"]
   },
   Index: {
     Hero: {
@@ -3496,6 +3497,114 @@ let message = {
           otherTools_5: "Tekstityksen luoja",
           otherTools_6: "Videoyhteenveto",
           otherTools_7: "Videomuunnin"
+        }
+      },
+      mp4Transcription: {
+        hero: {
+          title: "Online MP4 Tekstiksi Muunnin",
+          des_1: "Muunna MP4-tiedostosi tekstiksi sekunneissa.",
+          des_2: "Ei rekisteröintiä vaadita. Salaman nopea. Huipputarkkuus.",
+          feature_1: "Tukee 12 Muotoa",
+          feature_2: "Tukee 100+ Kieltä",
+          feature_3: "Vie 6 Muodossa"
+        },
+        threeStep: {
+          title: "Muunna MP4:si",
+          titleHighlight: "tekstiksi 3 helpolla vaiheella",
+          step_1_title: "Lataa MP4-tiedostosi",
+          step_1_des: "Lisää se vain osoitettuun alueeseen raahaamalla ja pudottamalla, tai napsauta \"Lataa Tiedosto\" -painiketta.",
+          step_2_title: "Aloita Transkriptio",
+          step_2_des: "Napsauta \"Transkriboi\" -painiketta. Järjestelmä muuntaa MP4:si hetkessä automaattisesti tekstiksi.",
+          step_3_title: "Lataa Transkriptiosi",
+          step_3_des: "Tekstisi on valmiina online-muokkaukseen ja sitä voi viedä TXT, PDF, DOCX, SRT, CSV, VTT -muodoissa, tai jakaa linkin kautta."
+        },
+        howToGet: {
+          title: "Miten Saada Parhaat Tulokset",
+          titleHighlight: "Transkriptiostasi?",
+          fun_1: "Käytä alkuperäistä videotiedostoa transkriptioon, pakatun version sijaan.",
+          fun_2: "Vähennä taustamelua, taustamusiikkia, staattista kohinaa tai kaikua mahdollisimman paljon.",
+          fun_3: "Jos lataat videon, valitse aina \"Korkea Äänenlaatu (HQ)\" -vaihtoehto.",
+          fun_4: "Ota \"Puhujan Tunnistus\" -toiminto käyttöön, kun on useampi kuin yksi puhuja.",
+          fun_5: "Valitse MP4-tiedostosi tietty kieli ja aksentti, esim. Englanti → Englanti (US) / Englanti (UK) / Englanti (Intia).",
+          fun_6: "Tarkasta transkriptio nopeasti prosessin päätyttyä."
+        },
+        exportFormats: {
+          title: "Vientimuodot &",
+          titleHighlight: "Niiden Käyttötarkoitukset",
+          format_1: "TXT-muodossa",
+          des_1: "Muistioon, Notepad++:iin ja kevyisiin tekstieditoreihin",
+          format_2: "PDF-muodossa",
+          des_2: "Tulostukseen, jakamiseen, arkistointiin ja alustariippumattomaan katseluun",
+          format_3: "DOCX-muodossa",
+          des_3: "Microsoft Wordiin, Google Docsiin ja rikastekstimuokkaukseen",
+          format_4: "SRT-muodossa",
+          des_4: "YouTube-tekstityksiin, videotekstitysten latauksiin ja mediasoittimiin",
+          format_5: "CSV-muodossa",
+          des_5: "Exceliin, Google Sheetsiin ja data-analyysityökaluihin",
+          format_6: "VTT-muodossa",
+          des_6: "Verkkovideoiden tekstityksiin, HTML5-soittimiin ja saavutettavuustyökaluihin"
+        },
+        howToUse: {
+          title: "Mikä on MP4:n muuntamisen tekstin arvo,",
+          titleHighlight: "ja miten voit hyödyntää sitä parhaiten?",
+          effect_1: "Lue keskeiset kohdat heti.",
+          des_1: "Selaa transkriptioita nopeammin kuin katsoisit videoita uudelleen ja löydä tärkeät tiedot nopeasti.",
+          effect_2: "Järjestä opintoja ja tutkimusta.",
+          des_2: "Muunna luennot, haastattelut ja tutkimusklipit puhtaiksi muistiinpanoiksi, joita voit korostaa, siteerata ja käyttää uudelleen.",
+          effect_3: "Paranna työtehoa.",
+          des_3: "Luo kohtaamis yhteenvetoja, seuraa toimenpiteitä, ja tallenna sisältöä dokumentaatioon tai tietämykseen.",
+          effect_4: "Tue sisällöntuotantoa.",
+          des_4: "Pura käsikirjoituksia, ääriviivoja, artikkeliluonnoksia ja vie tekstityksiä muokkausta tai lokalisointia varten.",
+          effect_5: "Tee sisällöstä haettavaa ja käännettävää.",
+          des_5: "Koko teksti haku ja käännä transkriptiot monikielistä käyttöä varten.",
+          effect_6: "Yksinkertaista arkistointia.",
+          des_6: "Teksti on helpompi tallentaa, jäsentää ja käyttää uudelleen—ihanteellinen tietueisiin, dokumentaatioon ja tekoälyn tietämykseen."
+        },
+        whyChoose: {
+          title: "Miksi",
+          titleHighlight: "MP4 Tekstiksi Transkriptiomme Erottuu",
+          reason_1_title: "Alan Johtava Tarkkuus",
+          reason_1_des: "Riippumattomasti varmistettu yhdeksi tarkimmista saatavilla olevista transkriptiotyökaluista.",
+          reason_2_title: "Nopea Käsittelynopeus",
+          reason_2_des: "Säästä transkriptiosi noin kahdeskymmenesosassa alkuperäisen videon pituudesta.",
+          reason_3_title: "Puhujan Tunnistus",
+          reason_3_des: "Erotaa selkeästi puhujat toisistaan, mikä tekee transkriptioista helpompia lukea ja seurata.",
+          reason_4_title: "Laaja Kielikattavuus",
+          reason_4_des: "Tukee transkriptiota 100+ kielellä ja kääntämistä 249 kielelle.",
+          reason_5_title: "Yksinkertainen ja Käyttäjäystävällinen",
+          reason_5_des: "Ei monimutkaisia käyttöliittymiä tai vaiheita. Viimeistele tehtäväsi vain muutamalla napsautuksella.",
+          reason_6_title: "Täydellinen Tietoturva",
+          reason_6_des: "Asetamme tietosi turvallisuuden ja yksityisyyden yhdeksi keskeisistä sitoumuksistamme."
+        },
+        faq: {
+          title: "Kysymyksiä MP4:n",
+          titleHighlight: "Muuntamisesta Tekstiksi",
+          question_1: "Kauan MP4-tiedoston transkriboiminen tekstiksi kestää?",
+          answer_1: "Testien perusteella, normaaleissa olosuhteissa, transkriptiosuos kestää noin 1/20–1/10 videon kestosta. Esimerkiksi, 1 tunnin video kestää noin 3–6 minuuttia transkriptoida.",
+          question_2: "Onko lataamani MP4-tiedoston koolla rajoja?",
+          answer_2: "Kyllä. Maksimi tiedostokoko on 5GB ja videon pituus ei saa ylittää 10 tuntia. Huomaa, että suuremmat tiedostot saattavat vaatia enemmän aikaa käsittelyyn.",
+          question_3: "Kuinka tarkka transkriptio on?",
+          answer_3: "On tärkeää ymmärtää, että transkriptio laatu riippuu suurelta osin videosi äänenlaadusta. Sitä paitsi käytämme alan johtavaa puheentunnistusteknologiaa varmistaaksemme parhaat mahdolliset tulokset MP4-transkriptiollesi.",
+          question_4: "Voin transkriboida MP4:n Word-dokumentiksi?",
+          answer_4: "Ehdottomasti. Lataa vain MP4-tiedostosi, napsauta \"Transkriboi\", ja kun prosessi on valmis, valitse \"Vie\" ja valitse DOCX-muoto. Saat täydellisen transkription Word-dokumentissa.",
+          question_5: "Miten saan tekstitykset videooni?",
+          answer_5: "Lataa videosi ja transkriboi se. Transkription jälkeen napsauta \"Vie\" ja valitse SRT- tai VTT-muoto ladataksesi tekstityksesi.",
+          question_6: "Onko tämä MP4-transkriptiotyökalu turvallinen käyttää?",
+          answer_6: "Kyllä. Sivumme on mainokseton, ei vaadi rekisteröitymistä käsittelyä varten, eikä pyydä henkilökohtaisia tietoja. Käytämme myös vahvoja teknisiä toimenpiteitä virusten estämiseksi. Kannustamme kaikkia käyttäjiä kunnioittamaan tekijänoikeus- ja tietosuojaselosteita ladatessa, käyttäessä tai jakaessa MP4-tiedostoja."
+        },
+        explore: {
+          title: "Mistä Vaan Tekstiksi Muunnin",
+          des: "Transkriptio tehostaa työnkulkua ja antaa sinun keskittyä työhön, joka tuo todellista vaikutusta.",
+          tool_1: "Video tekstiksi",
+          tool_2: "MOV tekstiksi",
+          tool_3: "TikTok tekstiksi",
+          tool_4: "YouTube tekstiksi",
+          tool_5: "MP4 SRT:ksi",
+          tool_11: "Ääni tekstiksi",
+          tool_12: "Puhe tekstiksi",
+          tool_13: "MP3 tekstiksi",
+          tool_14: "M4A tekstiksi",
+          tool_15: "MP3 SRT:ksi"
         }
       }
     },

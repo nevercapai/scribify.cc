@@ -1046,7 +1046,8 @@ let message = {
     YouTubetoMP3: "YouTube 轉 MP3",
     Transcription: "轉錄",
     VideoTranscription: "影片轉錄",
-    Other: "其他"
+    Other: "其他",
+    mp4Transcription: "MP4轉錄"
   },
   Footer: {
     des: "全球首個真正無限的AI轉錄服務。無上限，無限制，只有創造的自由。",
@@ -1057,7 +1058,7 @@ let message = {
     useCaseMenus: ["所有使用案例", "播客主", "記者", "內容創作者", "研究人員", "商業團隊", "教育工作者"],
     companyMenus: ["關於我們", "定價方案", "隱私權", "條款"],
     Resources: "資源",
-    resourcesMenus: ["YouTube 轉 MP4", "YouTube 轉 MP3", "影片轉錄"]
+    resourcesMenus: ["YouTube轉MP4","YouTube轉MP3","影片轉錄","MP4轉錄"]
   },
   Index: {
     Hero: {
@@ -3338,6 +3339,114 @@ let message = {
           otherTools_5: "字幕產生器",
           otherTools_6: "影片摘要工具",
           otherTools_7: "影片轉換器"
+        }
+      },
+      mp4Transcription: {
+        hero: {
+          title: "線上MP4轉文字工具",
+          des_1: "幾秒內將您的MP4檔案轉換為文字。",
+          des_2: "無需註冊。閃電般快速。頂級準確度。",
+          feature_1: "支援12種格式",
+          feature_2: "支援100+種語言",
+          feature_3: "支援6種格式匯出"
+        },
+        threeStep: {
+          title: "只需3步輕鬆將MP4",
+          titleHighlight: "轉換為文字",
+          step_1_title: "上傳您的MP4檔案",
+          step_1_des: "直接將其拖放到指定區域，或點擊「上傳檔案」按鈕。",
+          step_2_title: "開始轉錄",
+          step_2_des: "點擊「轉錄」按鈕。系統將在片刻內自動將您的MP4轉換為文字。",
+          step_3_title: "下載您的轉錄文字",
+          step_3_des: "您的文字已準備好線上編輯，並可匯出為 TXT、PDF、DOCX、SRT、CSV、VTT 格式，或透過連結分享。"
+        },
+        howToGet: {
+          title: "如何獲得最好的",
+          titleHighlight: "轉錄效果？",
+          fun_1: "使用原始影片檔案進行轉錄，而不是壓縮版本。",
+          fun_2: "盡可能減少背景噪音、背景音樂、靜電聲或回聲。",
+          fun_3: "下載影片時，始終選擇「高品質音訊(HQ)」選項。",
+          fun_4: "當有多個說話人時，啟用「說話人識別」功能。",
+          fun_5: "選擇MP4檔案的特定語言和口音，例如：英語 → 英語(美國) / 英語(英國) / 英語(印度)。",
+          fun_6: "轉錄完成後，快速審閱一遍文字。"
+        },
+        exportFormats: {
+          title: "匯出格式及",
+          titleHighlight: "其用途",
+          format_1: "TXT格式",
+          des_1: "適用於記事本、Notepad++和輕量級文字編輯器",
+          format_2: "PDF格式",
+          des_2: "適用於列印、分享、歸檔和跨平台檢視",
+          format_3: "DOCX格式",
+          des_3: "適用於Microsoft Word、Google Docs和富文本編輯",
+          format_4: "SRT格式",
+          des_4: "適用於YouTube字幕、影片字幕上傳和媒體播放器",
+          format_5: "CSV格式",
+          des_5: "適用於Excel、Google Sheets和資料分析工具",
+          format_6: "VTT格式",
+          des_6: "適用於網頁影片字幕、HTML5播放器和无障礙工具"
+        },
+        howToUse: {
+          title: "將MP4轉為文字有何價值，",
+          titleHighlight: "以及如何充分利用它？",
+          effect_1: "即時閱讀要點。",
+          des_1: "比重新觀看影片更快地瀏覽文字，並快速定位關鍵資訊。",
+          effect_2: "整理學習和研究資料。",
+          des_2: "將講座、訪問和研究片段轉化為清晰的筆記，您可以標示、引用和重用。",
+          effect_3: "提升工作效率。",
+          des_3: "建立會議紀要、跟蹤行動項，並將內容儲存在文件或知識庫中。",
+          effect_4: "支援內容創作。",
+          des_4: "提取腳本、大綱、文章草稿，並匯出字幕供編輯或本地化使用。",
+          effect_5: "使內容可搜尋和可翻譯。",
+          des_5: "全文搜尋並翻譯文字以供多語言使用。",
+          effect_6: "簡化歸檔。",
+          des_6: "文字更易於儲存、結構和重用——是記錄、文件編制和AI知識庫的理想選擇。"
+        },
+        whyChoose: {
+          title: "為何",
+          titleHighlight: "我們的MP4轉文字功能與眾不同",
+          reason_1_title: "行業領先的準確性",
+          reason_1_des: "經獨立驗證為最準確的轉錄工具之一。",
+          reason_2_title: "處理速度快",
+          reason_2_des: "獲得轉錄文字的速度約為原影片長度的二十分之一。",
+          reason_3_title: "說話人識別",
+          reason_3_des: "清晰區分不同說話人，使文字更易於閱讀和跟進。",
+          reason_4_title: "廣泛的語言覆蓋",
+          reason_4_des: "支援100多種語言的轉錄，並可翻譯成249種語言。",
+          reason_5_title: "簡單易用",
+          reason_5_des: "沒有複雜的介面或步驟。只需幾次點擊即可完成任務。",
+          reason_6_title: "資料完全安全",
+          reason_6_des: "我們高度重視您資料的安全和隱私，這是我們的核心承諾之一。"
+        },
+        faq: {
+          title: "關於",
+          titleHighlight: "MP4轉文字的常見問題",
+          question_1: "將MP4檔案轉錄為文字需要多長時間？",
+          answer_1: "根據測試，在正常情況下，轉錄過程大約需要影片時長的1/20到1/10。例如，1小時的影片大約需要3到6分鐘來完成轉錄。",
+          question_2: "我上傳的MP4檔案大小有限制嗎？",
+          answer_2: "有的。最大檔案大小為5GB，影片長度不應超過10小時。請注意，較大的檔案可能需要更多時間處理。",
+          question_3: "轉錄的準確度如何？",
+          answer_3: "需要理解的是，轉錄品質很大程度上取決於您影片的音訊品質。儘管如此，我們使用行業領先的語音辨識技術，以確保為您的MP4轉錄提供盡可能最佳的結果。",
+          question_4: "我可以將MP4轉錄為Word文件嗎？",
+          answer_4: "當然可以。只需上傳您的MP4檔案，點擊「轉錄」，過程完成後，選擇「匯出」並選擇DOCX格式。您將收到一個完整的Word文件轉錄。",
+          question_5: "如何獲取我的影片字幕？",
+          answer_5: "上傳您的影片並進行轉錄。轉錄後，點擊「匯出」並選擇SRT或VTT格式以下載您的字幕。",
+          question_6: "這個MP4轉錄工具使用安全嗎？",
+          answer_6: "是的。我們的頁面無廣告，處理過程無需註冊，且不要求任何個人資訊。我們還採用強大的技術措施來防止病毒。我們鼓勵所有用戶在下載、使用或分享MP4檔案時，尊重版權和隱私指南。"
+        },
+        explore: {
+          title: "全能格式轉文字工具",
+          des: "轉錄功能簡化您的工作流程，讓您專注於能帶來真正影響的工作。",
+          tool_1: "影片轉文字",
+          tool_2: "MOV轉文字",
+          tool_3: "TikTok轉文字",
+          tool_4: "YouTube轉文字",
+          tool_5: "MP4轉SRT",
+          tool_11: "音訊轉文字",
+          tool_12: "語音轉文字",
+          tool_13: "MP3轉文字",
+          tool_14: "M4A轉文字",
+          tool_15: "MP3轉SRT"
         }
       }
     },

@@ -1071,7 +1071,8 @@ let message = {
     YouTubetoMP3: "YouTube'dan MP3'e",
     Transcription: "Transkripsiyon",
     VideoTranscription: "Video Transkripsiyonu",
-    Other: "Diğer"
+    Other: "Diğer",
+    mp4Transcription: "MP4 Transkripsiyonu"
   },
   Footer: {
     des: "Dünyanın ilk gerçekten sınırsız AI transkripsiyon servisi. Sınır yok, kısıtlama yok, sadece özgürce yaratma özgürlüğü.",
@@ -1090,7 +1091,7 @@ let message = {
     ],
     companyMenus: ["Hakkında", "Fiyatlandırma", "Gizlilik", "Koşullar"],
     Resources: "Kaynaklar",
-    resourcesMenus: ["YouTube'dan MP4'e", "YouTube'dan MP3'e", "Video Transkripsiyonu"]
+    resourcesMenus: ["YouTube'u MP4'e","YouTube'u MP3'e","Video Transkripsiyonu","MP4 Transkripsiyonu"]
   },
   Index: {
     Hero: {
@@ -3505,6 +3506,114 @@ let message = {
           otherTools_5: "Altyazı oluşturucu",
           otherTools_6: "Video Özetleyici",
           otherTools_7: "Video Dönüştürücü"
+        }
+      },
+      mp4Transcription: {
+        hero: {
+          title: "Çevrimiçi MP4 Metin Dönüştürücü",
+          des_1: "MP4 dosyalarınızı saniyeler içinde metine dönüştürün.",
+          des_2: "Kayıt gerekli değil. Yıldırım hızı. En üst düzey doğruluk.",
+          feature_1: "12 Formatı Destekler",
+          feature_2: "100+ Dili Destekler",
+          feature_3: "6 Formatta Dışa Aktar"
+        },
+        threeStep: {
+          title: "MP4'ünüzü 3 kolay",
+          titleHighlight: "adımda metne dönüştürün",
+          step_1_title: "MP4 dosyanızı yükleyin",
+          step_1_des: "Belirtilen alana sürükleyip bırakmanız veya \"Dosya Yükle\" düğmesine tıklamanız yeterlidir.",
+          step_2_title: "Transkripsiyonu Başlatın",
+          step_2_des: "\"Transkribe Et\" düğmesine tıklayın. Sistem, MP4'ünüzü an içinde otomatik olarak metne dönüştürecektir.",
+          step_3_title: "Transkripsiyonunuzu İndirin",
+          step_3_des: "Metniniz çevrimiçi düzenleme için hazır ve TXT, PDF, DOCX, SRT, CSV, VTT formatlarında dışa aktarılabilir veya bir bağlantı ile paylaşılabilir."
+        },
+        howToGet: {
+          title: "Transkripsiyonunuzdan En İyi",
+          titleHighlight: "Sonuçları Nasıl Alırsınız?",
+          fun_1: "Transkripsiyon için sıkıştırılmış bir versiyon yerine orijinal video dosyasını kullanın.",
+          fun_2: "Arka plan gürültüsünü, arka plan müziğini, statik uğultuyu veya yankıyı mümkün olduğunca azaltın.",
+          fun_3: "Bir video indirirken her zaman \"Yüksek Ses Kalitesi (HQ)\" seçeneğini seçin.",
+          fun_4: "Birden fazla konuşmacı olduğunda \"Konuşmacı Tanımlama\" özelliğini etkinleştirin.",
+          fun_5: "MP4 dosyanızın belirli dilini ve aksanını seçin, örn. İngilizce → İngilizce (ABD) / İngilizce (İngiltere) / İngilizce (Hindistan).",
+          fun_6: "Süreç tamamlandığında transkripsiyonu hızlıca gözden geçirin."
+        },
+        exportFormats: {
+          title: "Dışa Aktarma Formatları &",
+          titleHighlight: "Kullanım Alanları",
+          format_1: "TXT Formatında",
+          des_1: "Not Defteri, Notepad++ ve hafif metin editörleri için",
+          format_2: "PDF Formatında",
+          des_2: "Yazdırma, paylaşma, arşivleme ve çapraz platform görüntüleme için",
+          format_3: "DOCX Formatında",
+          des_3: "Microsoft Word, Google Docs ve zengin metin düzenleme için",
+          format_4: "SRT Formatında",
+          des_4: "YouTube altyazıları, video altyazı yüklemeleri ve medya oynatıcılar için",
+          format_5: "CSV Formatında",
+          des_5: "Excel, Google Sheets ve veri analiz araçları için",
+          format_6: "VTT Formatında",
+          des_6: "Web video altyazıları, HTML5 oynatıcılar ve erişilebilirlik araçları için"
+        },
+        howToUse: {
+          title: "MP4'ü metne dönüştürmenin değeri nedir,",
+          titleHighlight: "ve en iyi şekilde nasıl kullanabilirsiniz?",
+          effect_1: "Ana noktaları anında okuyun.",
+          des_1: "Videoları tekrar izlemekten daha hızlı transkripsiyonları gözden geçirin ve önemli bilgileri hızla bulun.",
+          effect_2: "Çalışmaları ve araştırmaları düzenleyin.",
+          des_2: "Dersleri, röportajları ve araştırma kliplerini vurgulayabileceğiniz, alıntılayabileceğiniz ve yeniden kullanabileceğiniz temiz notlara dönüştürün.",
+          effect_3: "İş verimliliğini artırın.",
+          des_3: "Toplantı özetleri oluşturun, eylem öğelerini takip edin ve içeriği dokümantasyonda veya bilgi tabanlarında saklayın.",
+          effect_4: "İçerik oluşturmayı destekleyin.",
+          des_4: "Senaryoları, taslakları, makale taslaklarını çıkarın ve düzenleme veya yerelleştirme için altyazıları dışa aktarın.",
+          effect_5: "İçeriği aranabilir ve çevrilebilir hale getirin.",
+          des_5: "Çok dilli kullanım için tam metin araması yapın ve transkripsiyonları çevirin.",
+          effect_6: "Arşivlemeyi basitleştirin.",
+          des_6: "Metin, saklamak, yapılandırmak ve yeniden kullanmak daha kolaydır—kayıtlar, dokümantasyon ve AI bilgi tabanları için idealdir."
+        },
+        whyChoose: {
+          title: "Neden Bizim",
+          titleHighlight: "MP4 Metin Transkripsiyonu Öne Çıkıyor",
+          reason_1_title: "Sektör Lideri Doğruluk",
+          reason_1_des: "Bağımsız olarak doğrulanan en doğru transkripsiyon araçlarından biri olarak.",
+          reason_2_title: "Hızlı İşleme Hızı",
+          reason_2_des: "Transkripsiyonunuzu orijinal video uzunluğunun yaklaşık yirmide birinde alın.",
+          reason_3_title: "Konuşmacı Tanımlama",
+          reason_3_des: "Konuşmacılar arasında net bir ayrım yaparak transkripsiyonları okumayı ve takip etmeyi kolaylaştırır.",
+          reason_4_title: "Geniş Dil Kapsamı",
+          reason_4_des: "100+ dilde transkripsiyonu ve 249 dile çeviriyi destekler.",
+          reason_5_title: "Basit ve Kullanıcı Dostu",
+          reason_5_des: "Karmaşık arayüzler veya adımlar olmadan. Görevinizi sadece birkaç tıklama ile tamamlayın.",
+          reason_6_title: "Tam Veri Güvenliği",
+          reason_6_des: "Verilerinizin güvenliğini ve gizliliğini temel taahhütlerimizden biri olarak öncelikliyoruz."
+        },
+        faq: {
+          title: "MP4'ü Metne Dönüştürme",
+          titleHighlight: "Hakkında Sorular",
+          question_1: "Bir MP4 dosyasını metne dönüştürmek ne kadar sürer?",
+          answer_1: "Testlere göre, normal koşullar altında, transkripsiyon süreci video süresinin yaklaşık 1/20 ila 1/10'unu alır. Örneğin, 1 saatlik bir videoyu transkripsiyon etmek yaklaşık 3 ila 6 dakika sürer.",
+          question_2: "Yüklediğim MP4 dosyasının boyutunda herhangi bir sınırlama var mı?",
+          answer_2: "Evet. Maksimum dosya boyutu 5GB'dir ve video süresi 10 saati aşmamalıdır. Daha büyük dosyaların işlenmesinin daha fazla zaman gerektirebileceğini lütfen unutmayın.",
+          question_3: "Transkripsiyon ne kadar doğrudur?",
+          answer_3: "Transkripsiyon kalitesinin büyük ölçüde videonuzun ses kalitesine bağlı olduğunu anlamak önemlidir. Bununla birlikte, MP4 transkripsiyonunuz için mümkün olan en iyi sonuçları sağlamak amacıyla sektör öncesi konuşma tanıma teknolojisini kullanıyoruz.",
+          question_4: "MP4'ü bir Word belgesine dönüştürebilir miyim?",
+          answer_4: "Kesinlikle. MP4 dosyanızı yükleyin, \"Transkribe Et\"e tıklayın ve süreç tamamlandığında \"Dışa Aktar\"ı seçin ve DOCX biçimini seçin. Bir Word belgesinde tam bir transkripsiyon alacaksınız.",
+          question_5: "Videom için altyazıları nasıl alabilirim?",
+          answer_5: "Videonuzu yükleyin ve transkripsiyon edin. Transkripsiyondan sonra, altyazılarınızı indirmek için \"Dışa Aktar\"a tıklayın ve SRT veya VTT formatını seçin.",
+          question_6: "Bu MP4 transkripsiyon aracını kullanmak güvenli mi?",
+          answer_6: "Evet. Sayfamız reklamsızdır, işlem için kayıt gerektirmez ve kişisel bilgi talep etmez. Ayrıca virüsleri önlemek için güçlü teknik önlemler de kullanıyoruz. MP4 dosyalarını indirirken, kullanırken veya paylaşırken telif hakkı ve gizlilik yönergelerine saygı göstermelerini tüm kullanıcılara teşvik ediyoruz."
+        },
+        explore: {
+          title: "Her Şeyi Metne Dönüştürücü",
+          des: "Transkripsiyon, iş akışınızı kolaylaştırır ve gerçek etki yaratan çalışmaya odaklanmanızı sağlar.",
+          tool_1: "Video metne",
+          tool_2: "MOV metne",
+          tool_3: "TikTok metne",
+          tool_4: "YouTube metne",
+          tool_5: "MP4 SRT'ye",
+          tool_11: "Ses metne",
+          tool_12: "Ses metne",
+          tool_13: "MP3 metne",
+          tool_14: "M4A metne",
+          tool_15: "MP3 SRT'ye"
         }
       }
     },

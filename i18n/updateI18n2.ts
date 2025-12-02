@@ -1,9 +1,9 @@
 #!/usr/bin/env ts-node
 
-import { Project, SyntaxKind, ObjectLiteralExpression, PropertyAssignment } from "ts-morph";
+import { Project, SyntaxKind, ObjectLiteralExpression, PropertyAssignment, IndentationText } from "ts-morph";
 import path from "path";
 import fs from "fs";
-
+import aiData from "./aiTranslateData";
 // 语言配置
 const languages = [
   "en-US",
@@ -32,77 +32,7 @@ const languages = [
 ];
 
 // 翻译映射 - 支持嵌套键路径
-const translations: Record<string, Record<string, string>> = {
-  "en-US": {
-    "cello.specialPrice": "Your special price: {moneyOne}/mo (Reg. {moneyTwo})"
-  },
-  "es-ES": {
-    "cello.specialPrice": "Tu precio especial: {moneyOne}/mes (Reg. {moneyTwo})"
-  },
-  "it-IT": {
-    "cello.specialPrice": "Il tuo prezzo speciale: {moneyOne}/mese (Reg. {moneyTwo})"
-  },
-  "fr-FR": {
-    "cello.specialPrice": "Votre prix spécial : {moneyOne}/mois (Rég. {moneyTwo})"
-  },
-  "de-DE": {
-    "cello.specialPrice": "Ihr Sonderpreis: {moneyOne}/Monat (Reg. {moneyTwo})"
-  },
-  "zh-CN": {
-    "cello.specialPrice": "您的特惠价格：{moneyOne}/月（原价 {moneyTwo}）"
-  },
-  "zh-TW": {
-    "cello.specialPrice": "您的特惠價格：{moneyOne}/月（原價 {moneyTwo}）"
-  },
-  "ja-JP": {
-    "cello.specialPrice": "特別価格：{moneyOne}/月（通常 {moneyTwo}）"
-  },
-  "ko-KR": {
-    "cello.specialPrice": "특별 가격: {moneyOne}/월 (정가 {moneyTwo})"
-  },
-  "nl-NL": {
-    "cello.specialPrice": "Uw speciale prijs: {moneyOne}/mnd (Reg. {moneyTwo})"
-  },
-  "pl-PL": {
-    "cello.specialPrice": "Twoja specjalna cena: {moneyOne}/mies. (Reg. {moneyTwo})"
-  },
-  "da-DK": {
-    "cello.specialPrice": "Din særlige pris: {moneyOne}/md (Reg. {moneyTwo})"
-  },
-  "hu-HU": {
-    "cello.specialPrice": "Az Ön különleges ára: {moneyOne}/hó (Rendes {moneyTwo})"
-  },
-  "no-NO": {
-    "cello.specialPrice": "Din spesialpris: {moneyOne}/mnd (Reg. {moneyTwo})"
-  },
-  "pt-PT": {
-    "cello.specialPrice": "O seu preço especial: {moneyOne}/mês (Reg. {moneyTwo})"
-  },
-  "fi-FI": {
-    "cello.specialPrice": "Sinun erikoishintasi: {moneyOne}/kk (Norm. {moneyTwo})"
-  },
-  "sv-SE": {
-    "cello.specialPrice": "Ditt specialpris: {moneyOne}/mån (Ord. {moneyTwo})"
-  },
-  "ru-RU": {
-    "cello.specialPrice": "Ваша специальная цена: {moneyOne}/мес. (Обычная {moneyTwo})"
-  },
-  "tr-TR": {
-    "cello.specialPrice": "Özel fiyatınız: {moneyOne}/ay (Normal {moneyTwo})"
-  },
-  "el-GR": {
-    "cello.specialPrice": "Η ειδική σας τιμή: {moneyOne}/μήνα (Κανον. {moneyTwo})"
-  },
-  "uk-UA": {
-    "cello.specialPrice": "Ваша спеціальна ціна: {moneyOne}/міс. (Звичайна {moneyTwo})"
-  },
-  "he-IL": {
-    "cello.specialPrice": "המחיר המיוחד שלך: {moneyOne}/חודש (רגיל {moneyTwo})"
-  },
-  "ar-SA": {
-    "cello.specialPrice": "سعرك الخاص: {moneyOne}/شهر (العادي {moneyTwo})"
-  }
-};
+const translations: Record<string, Record<string, string>> = aiData;
 
 interface NestedKeyConfig {
   path: string[]; // 嵌套路径，如 ['a', 'b', 'c']
@@ -126,7 +56,8 @@ class NestedI18nUpdater {
   constructor() {
     this.project = new Project({
       useInMemoryFileSystem: false,
-      skipFileDependencyResolution: true
+      skipFileDependencyResolution: true,
+      manipulationSettings: { indentationText: IndentationText.TwoSpaces }
     });
   }
 
@@ -535,12 +466,20 @@ class NestedI18nUpdater {
     if (!keyLocation.found || !keyLocation.property) {
       return false;
     }
-
-    const escapedValue = newValue.replace(/"/g, '\\"');
+    let escapedValue;
+    let isArr = false;
+    if (Array.isArray(newValue)) {
+      isArr = true;
+      escapedValue = JSON.stringify(newValue);
+    } else {
+      escapedValue = newValue;
+    }
 
     try {
       // 直接设置新的值
-      keyLocation.property.setInitializer(`"${escapedValue}"`);
+      isArr
+        ? keyLocation.property.setInitializer(escapedValue)
+        : keyLocation.property.setInitializer(`"${escapedValue}"`);
       console.log(`✅ 成功替换嵌套键 ${key} 的值`);
       return true;
     } catch (error) {

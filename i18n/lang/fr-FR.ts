@@ -1083,7 +1083,8 @@ let message = {
     YouTubetoMP3: "YouTube en MP3",
     Transcription: "Transcription",
     VideoTranscription: "Transcription vidéo",
-    Other: "Autre"
+    Other: "Autre",
+    mp4Transcription: "Transcription MP4"
   },
   Footer: {
     des: "Le premier service de transcription IA vraiment illimité au monde. Pas de plafond, pas de limites, juste la liberté de créer.",
@@ -1102,7 +1103,7 @@ let message = {
     ],
     companyMenus: ["À propos", "Tarifs", "Confidentialité", "Conditions"],
     Resources: "Ressources",
-    resourcesMenus: ["YouTube en MP4", "YouTube en MP3", "Transcription vidéo"]
+    resourcesMenus: ["YouTube vers MP4","YouTube vers MP3","Transcription Vidéo","Transcription MP4"]
   },
   Index: {
     Hero: {
@@ -3519,6 +3520,114 @@ let message = {
           otherTools_5: "Générateur de sous-titres",
           otherTools_6: "Résumeur de vidéos",
           otherTools_7: "Convertisseur vidéo"
+        }
+      },
+      mp4Transcription: {
+        hero: {
+          title: "Convertisseur MP4 en Texte en Ligne",
+          des_1: "Convertissez vos fichiers MP4 en texte en quelques secondes.",
+          des_2: "Aucune inscription requise. Rapide comme l'éclair. Précision de haut niveau.",
+          feature_1: "Prend en Charge 12 Formats",
+          feature_2: "Prend en Charge 100+ Langues",
+          feature_3: "Exporte en 6 Formats"
+        },
+        threeStep: {
+          title: "Transcrivez votre MP4 en",
+          titleHighlight: "texte en 3 étapes simples",
+          step_1_title: "Téléchargez votre fichier MP4",
+          step_1_des: "Faites simplement glisser et déposez dans la zone désignée, ou cliquez sur le bouton \"Télécharger un Fichier\".",
+          step_2_title: "Commencer la Transcription",
+          step_2_des: "Cliquez sur le bouton \"Transcrire\". Le système convertira automatiquement votre MP4 en texte en quelques instants.",
+          step_3_title: "Téléchargez Votre Transcription",
+          step_3_des: "Votre texte est prêt pour l'édition en ligne et peut être exporté dans les formats TXT, PDF, DOCX, SRT, CSV, VTT, ou partagé via un lien."
+        },
+        howToGet: {
+          title: "Comment Obtenir les Meilleurs Résultats de",
+          titleHighlight: "Votre Transcription?",
+          fun_1: "Utilisez le fichier vidéo original pour la transcription, plutôt qu'une version compressée.",
+          fun_2: "Réduisez le bruit de fond, la musique de fond, la statique ou l'écho autant que possible.",
+          fun_3: "Si vous téléchargez une vidéo, sélectionnez toujours l'option \"Haute Qualité Audio (HQ)\".",
+          fun_4: "Activez la fonction \"Identification des Intervenants\" lorsqu'il y a plus d'un intervenant.",
+          fun_5: "Sélectionnez la langue et l'accent spécifiques de votre fichier MP4, ex. Anglais → Anglais (US) / Anglais (UK) / Anglais (Inde).",
+          fun_6: "Revoyez rapidement la transcription une fois le processus terminé."
+        },
+        exportFormats: {
+          title: "Formats d'Exportation et",
+          titleHighlight: "Leurs Utilisations",
+          format_1: "Au format TXT",
+          des_1: "Pour Notepad, Notepad++ et éditeurs de texte légers",
+          format_2: "Au format PDF",
+          des_2: "Pour imprimer, partager, archiver et visualisation multiplateforme",
+          format_3: "Au format DOCX",
+          des_3: "Pour Microsoft Word, Google Docs et édition de texte riche",
+          format_4: "Au format SRT",
+          des_4: "Pour les sous-titres YouTube, les téléchargements de sous-titres vidéo et les lecteurs multimédias",
+          format_5: "Au format CSV",
+          des_5: "Pour Excel, Google Sheets et les outils d'analyse de données",
+          format_6: "Au format VTT",
+          des_6: "Pour les sous-titres vidéo web, les lecteurs HTML5 et les outils d'accessibilité"
+        },
+        howToUse: {
+          title: "Quelle est la valeur de convertir MP4 en texte,",
+          titleHighlight: "et comment en tirer le meilleur parti?",
+          effect_1: "Lisez les points clés instantanément.",
+          des_1: "Parcourez les transcriptions plus vite que de revoir les vidéos et localisez rapidement les informations essentielles.",
+          effect_2: "Organisez les études et la recherche.",
+          des_2: "Transformez les cours, les interviews et les clips de recherche en notes propres que vous pouvez surligner, citer et réutiliser.",
+          effect_3: "Augmentez la productivité au travail.",
+          des_3: "Créez des résumés de réunion, suivez les éléments d'action et stockez du contenu dans la documentation ou les bases de connaissances.",
+          effect_4: "Soutenez la création de contenu.",
+          des_4: "Extrayez des scripts, des plans, des brouillons d'articles et exportez des sous-titres pour édition ou localisation.",
+          effect_5: "Rendez le contenu searchable et traduisible.",
+          des_5: "Recherche en texte intégral et traduisez les transcriptions pour un usage multilingue.",
+          effect_6: "Simplifiez l'archivage.",
+          des_6: "Le texte est plus facile à stocker, structurer et réutiliser, idéal pour les registres, la documentation et les bases de connaissances IA."
+        },
+        whyChoose: {
+          title: "Pourquoi",
+          titleHighlight: "Notre Transcription MP4 en Texte se Détache",
+          reason_1_title: "Précision à la Pointe de l'Industrie",
+          reason_1_des: "Vérifiée indépendamment comme l'un des outils de transcription les plus précis disponibles.",
+          reason_2_title: "Vitesse de Traitement Rapide",
+          reason_2_des: "Obtenez votre transcription en environ un vingtième de la durée de la vidéo originale.",
+          reason_3_title: "Identification des Intervenants",
+          reason_3_des: "Distingue clairement entre les intervenants, rendant les transcriptions plus faciles à lire et à suivre.",
+          reason_4_title: "Large Couverture Linguistique",
+          reason_4_des: "Prend en charge la transcription dans 100+ langues et la traduction en 249 langues.",
+          reason_5_title: "Simple et Facile à Utiliser",
+          reason_5_des: "Pas d'interfaces ou d'étapes complexes. Terminez votre tâche en quelques clics.",
+          reason_6_title: "Sécurité Complète des Données",
+          reason_6_des: "Nous donnons la priorité à la sécurité et à la confidentialité de vos données comme l'un de nos engagements fondamentaux."
+        },
+        faq: {
+          title: "Questions sur",
+          titleHighlight: "la Conversion MP4 en Texte",
+          question_1: "Combien de temps faut-il pour transcrire un fichier MP4 en texte?",
+          answer_1: "Basé sur les tests, dans des conditions normales, le processus de transcription prend environ 1/20 à 1/10 de la durée de la vidéo. Par exemple, une vidéo de 1 heure prendra environ 3 à 6 minutes à transcrire.",
+          question_2: "Y a-t-il des limites sur la taille du fichier MP4 que je télécharge?",
+          answer_2: "Oui. La taille maximale du fichier est de 5GB et la durée de la vidéo ne doit pas dépasser 10 heures. Notez que les fichiers plus volumineux peuvent nécessiter plus de temps pour être traités.",
+          question_3: "Quelle est la précision de la transcription?",
+          answer_3: "Il est important de comprendre que la qualité de la transcription dépend en grande partie de la qualité audio de votre vidéo. Cela dit, nous utilisons une technologie de reconnaissance vocale à la pointe de l'industrie pour garantir les meilleurs résultats possibles pour votre transcription MP4.",
+          question_4: "Puis-je transcrire MP4 en un document Word?",
+          answer_4: "Absolument. Téléchargez simplement votre fichier MP4, cliquez sur \"Transcrire\", et une fois le processus terminé, sélectionnez \"Exporter\" et choisissez le format DOCX. Vous recevrez une transcription complète dans un document Word.",
+          question_5: "Comment puis-je obtenir des sous-titres pour ma vidéo?",
+          answer_5: "Téléchargez votre vidéo et transcrivez-la. Après la transcription, cliquez sur \"Exporter\" et sélectionnez le format SRT ou VTT pour télécharger vos sous-titres.",
+          question_6: "Est-il sûr d'utiliser cet outil de transcription MP4?",
+          answer_6: "Oui. Notre page est sans publicité, ne nécessite pas d'inscription pour le traitement et ne demande aucune information personnelle. Nous employons également des mesures techniques solides pour prévenir les virus. Nous encourageons tous les utilisateurs à respecter les directives de droit d'auteur et de confidentialité lors du téléchargement, de l'utilisation ou du partage de fichiers MP4."
+        },
+        explore: {
+          title: "Convertisseur de N'importe Quoi en Texte",
+          des: "La transcription rationalise votre flux de travail et vous permet de vous concentrer sur le travail qui génère un impact réel.",
+          tool_1: "Vidéo en texte",
+          tool_2: "MOV en texte",
+          tool_3: "TikTok en texte",
+          tool_4: "YouTube en texte",
+          tool_5: "MP4 en SRT",
+          tool_11: "Audio en texte",
+          tool_12: "Voix en texte",
+          tool_13: "MP3 en texte",
+          tool_14: "M4A en texte",
+          tool_15: "MP3 en SRT"
         }
       }
     },

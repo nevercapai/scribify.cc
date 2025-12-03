@@ -32,9 +32,7 @@ export const useLink = (emit?: any) => {
       const { createFileByLink } = useFolderApi;
       const idObj = await createFileByLink({
         url: link.value,
-        parentId: route?.path?.includes("folder")
-          ? selectedFolder.value?.id || 0
-          : 0
+        parentId: route?.path?.includes("folder") ? selectedFolder.value?.id || 0 : 0
       }).catch((err) => {
         if (err.message) {
           Msg({
@@ -61,10 +59,7 @@ export const useLink = (emit?: any) => {
   const linkValidate = (url?: string) => {
     url ||= link.value;
     const YOUTUBE_DOMAIN = "youtube.com/";
-    const channelPattern = new RegExp(
-      `${YOUTUBE_DOMAIN}(@|channel/|c/|user/|feed/)`,
-      "i"
-    );
+    const channelPattern = new RegExp(`${YOUTUBE_DOMAIN}(@|channel/|c/|user/|feed/)`, "i");
     const searchPattern = /search_query=/i;
     const resultsPattern = new RegExp(`${YOUTUBE_DOMAIN}results[?]`, "i");
 
@@ -81,10 +76,22 @@ export const useLink = (emit?: any) => {
     }
     return true;
   };
+  const linkLegalValidate = (url: string) => {
+    if (!patterns.some((pattern) => pattern.test(url))) {
+      Msg({
+        message: t("FileUploadAndRecording.upload.link.errorTitle"),
+        customClass: "!z-[9999]",
+        type: "error"
+      });
+      return false;
+    }
+    return true;
+  };
   return {
     handleConfirm,
     loading,
     link,
-    linkValidate
+    linkValidate,
+    linkLegalValidate
   };
 };

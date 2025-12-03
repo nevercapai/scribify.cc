@@ -22,6 +22,7 @@ const faqParams = ref({
   i18nModule: "Resources.Transcription.mp4Transcription.faq",
   listNumber: 6
 });
+provide("showFileTypeTip", false);
 </script>
 
 <style scoped lang="scss">

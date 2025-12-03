@@ -20,7 +20,7 @@ import { useUpload } from "~/components/upload/useUpload.js";
 import { useVisitor } from "~/hooks/useVisitor.js";
 import { useCrossDomainCookie } from "~/hooks/useCrossDomainCookie.js";
 import { importWithRetry } from "~/utils/importWithRetry.js";
-const { linkValidate } = useLink();
+const { linkLegalValidate, linkValidate } = useLink();
 const { createFileObject } = useUpload();
 const { getVisitorId, visitorId } = useVisitor();
 
@@ -43,7 +43,7 @@ const handleAddLink = async () => {
   await guestLogin();
   if (linkLoading.value) return;
   linkLoading.value = true;
-  if (!linkValidate(linkUrl.value)) {
+  if (!linkLegalValidate(linkUrl.value) || !linkValidate(linkUrl.value)) {
     linkLoading.value = false;
     return;
   }

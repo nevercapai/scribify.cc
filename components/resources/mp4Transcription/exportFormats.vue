@@ -77,6 +77,7 @@ const $i = useI18nModule("Resources.Transcription.mp4Transcription.exportFormats
   border: 1px solid var(--line-color);
   position: relative;
   overflow: hidden;
+  overflow-wrap: break-word;
 }
 
 .feature-icon {

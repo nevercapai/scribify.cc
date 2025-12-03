@@ -1081,7 +1081,8 @@ let message = {
     Transcription: "Átírás",
     VideoTranscription: "Videóátiratozás",
     Other: "Egyéb",
-    mp4Transcription: "MP4 átírás"
+    mp4Transcription: "MP4 átírás",
+    youtubeTranscription: "YouTube átírás"
   },
   Footer: {
     des: "A világ első valóban korlátlan mesterséges intelligencia átírási szolgáltatása. Nincs korlát, nincs limit, csak a kreativitás szabadsága.",
@@ -1100,7 +1101,7 @@ let message = {
     ],
     companyMenus: ["Rólunk", "Árazás", "Adatvédelem", "Feltételek"],
     Resources: "Erőforrás",
-    resourcesMenus: ["YouTube MP4-re","YouTube MP3-ra","Videó átírás","MP4 átírás"]
+    resourcesMenus: ["YouTube MP4-be","YouTube MP3-ba","Videó átírás","MP4 átírás","YouTube átírás"]
   },
   Index: {
     Hero: {
@@ -3615,6 +3616,111 @@ let message = {
           tool_14: "M4A-ból szöveg",
           tool_15: "MP3-ból SRT"
         }
+      },
+      youtubeTranscription: {
+        hero: {
+          title: "YouTube szöveg online",
+          des_1: "YouTube videók azonnal szöveggé alakítva — gyors, pontos, regisztráció nélkül.",
+          des_2: "Támogat 6 export formátumot, 100+ nyelvet és 249 fordítást."
+        },
+        threeStep: {
+          title: "Hogyan szerezhet",
+          titleHighlight: "pontos eredményeket",
+          step_1_des: "Másolja le a YouTube videó linkjét.",
+          step_2_des: "Illessze be a linket a beviteli mezőbe, és kattintson a \"Videó szöveg szerzése\" gombra.",
+          step_3_des: "Várja meg az átírás befejeződését, majd férjen hozzá a szöveghez szerkesztés, fordítás vagy exportálás céljából."
+        },
+        whatYouCan: {
+          title: "Mit tehet",
+          titleHighlight: "YouTube átírás eszközünkkel",
+          list_title_1: "Rugalmas szöveges tartalom",
+          list_des_1: "Bármely tetszőleges YouTube videót olvasható, másolható és kereshető szövegévé alakít.",
+          list_title_2: "Gyors keresés és szerkesztés",
+          list_des_2: "Könnyen találhat meg kulcsfontosságú tartalmakat, felejthetetlen idézeteket vagy fontos szakaszokat a videóban, és szerkesztheti a szöveget közben.",
+          list_title_3: "Több export formátum",
+          list_des_3: "Exportálhat szövegeket különböző formátumokban, mint TXT, PDF, DOCX, SRT, CSV és VTT, ami alkalmas feliratokhoz, dokumentumszerkesztéshez, adatanalízishez és többhez."
+        },
+        whyConvertYouTube: {
+          title: "Miért",
+          titleHighlight: "YouTube videókat szöveggé alakítani",
+          list_title_1: "Egyszerű dokumentáció, tárolás és szervezés",
+          list_des_1: "A szöveg praktikusabb, mint a videó jegyzeteléshez, interjúk szervezéséhez, kulcspontok kinyeréséhez és kutatási összefoglalók készítéséhez.",
+          list_title_2: "Fontos információk lokalizálása és visszanyerése",
+          list_des_2: "Gyorsan találjon kulcstartalmakat anélkül, hogy a videó idővonalát görgetnie kellene.",
+          list_title_3: "Tanulási hatékonyság növelése",
+          list_des_3: " Használd a szöveget a tartalom hatékony kiemeléséhez, hivatkozáshoz és összehasonlításhoz.",
+          list_title_4: "Tartalom keresése és kinyerése",
+          list_des_4: " A szöveg kereshető és másolható, ideális idézetek kinyeréséhez, klipek hivatkozásához vagy szkriptek készítéséhez.",
+          list_title_5: "Nyelvi akadálymentesség",
+          list_des_5: "Könnyen átírhat ismeretlen nyelvű tartalmakat és lefordíthatja több nyelvre.",
+          list_title_6: "Tartalom újrahasznosítása",
+          list_des_6: "Generáljon cikkeket, feliratokat, közösségi média kártyákat, videó szkripteket és többet a szövegéből."
+        },
+        whyPeopleTrust: {
+          title: "Miért",
+          titleHighlight: "az emberek bíznak eszközünkben",
+          list_title_1: "Ingyenes online eszköz",
+          list_des_1: "Bejelentkezés nem szükséges. Nincs szükség szoftver, bővítmény vagy kiterjesztés telepítésére.",
+          list_title_2: "Nulla hirdetés, nulla zavarás",
+          list_des_2: "Tiszta és egyszerű felület, amelyet az igényeinek kielégítésére terveztek anélkül, hogy megszakítaná a munkafolyamatát.",
+          list_title_3: "Villámgyors konverzió",
+          list_des_3: "Tapasztalja meg az iparágvezető sebességet korlátozások nélkül.",
+          list_title_4: "Magas pontosság",
+          list_des_4: "A legújabb beszédfelismerő technológia hajtja a fokozott pontosság érdekében.",
+          list_title_5: "Széles körű nyelvi támogatás",
+          list_des_5: "Átírhat tartalmat több mint 100 nyelven és lefordíthatja 249 nyelvre.",
+          list_title_6: "Tárolási és szerkesztési funkciók",
+          list_des_6: "Szerkessze a szövegeket valós időben és mentse munkáját későbbi felhasználásra."
+        },
+        howToUse: {
+          title: "Valódi módok, ahogy az emberek",
+          titleHighlight: "YouTube szövegeket használnak",
+          list_title_1: "Jegyzetelők számára",
+          list_des_1: "Jegyzetelni egy YouTube videó nézése közben sietséges és szervezetlennek érezheti. Egy szöveggel könnyedén másolhat kulcspontokat és fontos koncepciókat közvetlenül a jegyzeteibe, biztosítva, hogy mindent elkapjon. Még be is illesztheti a szöveget az olyan eszközökbe, mint a ChatGPT, hogy tiszt összefoglalásokat, tanulmányi jegyzeteket vagy vázlatokat generáljon.",
+          list_title_2: "Tartalomkészítők számára",
+          list_des_2: "Egyszerűen illessze be a YouTube linket és kapjon pontos szöveges változatot —sokkal hatékonyabb munkafolyamat a készítők számára. Használja a szöveget blog bejegyzések, szkriptek, feliratok, hírlevelek vagy részletes műsorjegyzetek megírásához. Időt és energiát takarít meg, lehetővé téve, hogy a tartalomra fókuszáljon.",
+          list_title_3: "Szakemberek és elemzők számára",
+          list_des_3: "Ha a munkája olyan területeken, mint a jog, orvostudomány, tanácsadás vagy üzlet megköveteli a pontos információk kinyerését, a szövegek megkönnyítik a feladatot. Gyorsan keressen specifikus tényeket, időbélyegeket és idézeteket anélkül, hogy újra meg kellene néznie a teljes videót. Ideális szakértői előadások, prezentációk, képzési videók és ügyfélinterjúk áttekintéséhez.",
+          list_title_4: "Akadálymentes felhasználók számára",
+          list_des_4: "Nem tudja mindenki könnyen megtekinteni vagy meghallgatni a videotartalmat. A szövegek elérhetővé teszik a YouTube-ot a hallássérült felhasználók vagy azok számára, akik egyszerűen csak olvasni preferálják. A 249 nyelvre történő fordítás támogatásával lebontják a nyelvi akadályokat, amely a globális tartalmat könnyebben érthetővé és megoszthatóvá teszi.",
+          list_title_5: "Tudáskinyerők számára",
+          list_des_5: "Diákok, kutatók, készítők és szakemberek számára, akiknek gyorsan meg kell érteniük a központi ötleteket, a szövegek felbecsülhetetlenek. Böngésszen, keressen és azonosítson azonnal kritikus információkat anélkül, hogy hosszú videókon keresztül kellene ülnie, és segítsen hatékonyan kinyerni kulcspontokat, összefoglalásokat vagy időbélyegeket."
+        },
+        howToGet: {
+          title: "Oldja fel az új ötleteket",
+          titleHighlight: "YouTube szövegekkel",
+          subTitle: "Alakítsa át a YouTube videókat könnyen másolható, cselekvésorientált szöveggé és kombinálja AI eszközökkel, mint a Gemini vagy ChatGPT:",
+          list_des_1: "Gyorsan generáljon tanulmányi jegyzeteket vagy összefoglalásokat",
+          list_des_2: "Nyerjen ki kulcspontokat és felejthetetlen idézeteket vagy koncepciókat",
+          list_des_3: "Hozzon létre kvízeket, Kérdések-Válaszokat vagy tananyagokat",
+          list_des_4: "Szerkeszzen blog bejegyzéseket, szkripteket vagy cikkeket",
+          list_des_5: "Fejlesszen ki infografikákat, mémeket vagy közösségi média tartalmakat",
+          list_des_6: " állítson elő rajongó Kérdések-Válaszokat, triviákat vagy oktatási játékokat",
+          list_des_7: "Mélyedjen el a videóban említett témákban",
+          summary: "Minden nehézség nélkül — csak másoljon, illesszen be és kezdje el."
+        },
+        faq: {
+          title: "Gyakran",
+          titleHighlight: "Ismételt Kérdések",
+          question_1: "Van hossz korlát a YouTube videók átírásához?",
+          answer_1: "Nem. Azonban a hosszabb videók több feldolgozási időt igényelnek. Kérem, tervezze meg átírás feladatait ennek megfelelően.",
+          question_2: "Működik privát vagy nem listázott videókkal?",
+          answer_2: "Csak nyilvánosan elérhető YouTube videókkal működik. A privát vagy korlátozott videók nem átírhatók.",
+          question_3: "Mennyi ideig tart megkapni a szöveget?",
+          answer_3: "Általánosságban a feldolgozási idő a videó hosszának 1/10-től 1/20-áig terjed. Folyamatosan optimalizáljuk a sebességet, miközben magas pontosságot biztosítunk a jobb felhasználói élmény érdekében.",
+          question_4: "Meg tudja különböztetni az eszköz a különböző beszélőket?",
+          answer_4: "Igen. Támogatja a beszélők felismerését akár 20-ig, ideális interjúk, podcastok és viták átírásához.",
+          question_5: "Mennyire pontos a szöveg eszköz?",
+          answer_5: "A pontosságunk meghaladja a 96%-ot. Magas pontosságot tart fenn még különböző akcentusok vagy gyors beszélők esetén is, bár a jobb hangminőség kevesebb háttérzajjal javítja az eredményeket.",
+          question_6: "Milyen funkciók vannak beépítve a szövegbe?",
+          answer_6: "A szöveg tartalmazza az automatikus beszélő azonosítást és időbélyegeket. Szerkesztheti a szöveget online vagy exportálhatja későbbi használatra.",
+          question_7: "Menthetem a szöveg felvételeimet?",
+          answer_7: "Igen. Csak regisztráljon egy fiókot a szövegek mentéséhez a YouTube link feldolgozása után.",
+          question_8: "Az adataim biztonságban és magánban vannak tárolva?",
+          answer_8: "Igen. A videók, szövegek és fájlok biztonságosan kezelődnek — soha nem használják fel AI modellek tanítására vagy harmadik felekkel való megosztásra.",
+          question_9: "Használhatom a szöveg tartalmát más AI eszközökkel?",
+          answer_9: "Abszolút. Beillesztheti a szöveget a ChatGPT-be vagy más AI eszközökbe, hogy összefoglalásokat, jegyzeteket, kvízeket, szkripteket, cikkeket és többet generáljon."
+        }
       }
     },
     Upload: {
@@ -3634,7 +3740,9 @@ let message = {
       tip5: "menteni",
       tip6: "véglegesen?",
       tip7: "kezelni és szerkeszteni",
-      tip8: "az összes átiratfájlodat."
+      tip8: "az összes átiratfájlodat.",
+      linkV1Placeholder: "Illessze be a YouTube URL-t ide.",
+      linkV1Btn: "Videó Átirat Lekérése"
     }
   },
   About: {

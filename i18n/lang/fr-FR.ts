@@ -1084,7 +1084,8 @@ let message = {
     Transcription: "Transcription",
     VideoTranscription: "Transcription vidéo",
     Other: "Autre",
-    mp4Transcription: "Transcription MP4"
+    mp4Transcription: "Transcription MP4",
+    youtubeTranscription: "Transcription YouTube"
   },
   Footer: {
     des: "Le premier service de transcription IA vraiment illimité au monde. Pas de plafond, pas de limites, juste la liberté de créer.",
@@ -1103,7 +1104,7 @@ let message = {
     ],
     companyMenus: ["À propos", "Tarifs", "Confidentialité", "Conditions"],
     Resources: "Ressources",
-    resourcesMenus: ["YouTube vers MP4","YouTube vers MP3","Transcription Vidéo","Transcription MP4"]
+    resourcesMenus: ["YouTube en MP4","YouTube en MP3","Transcription vidéo","Transcription MP4","Transcription YouTube"]
   },
   Index: {
     Hero: {
@@ -3629,6 +3630,111 @@ let message = {
           tool_14: "M4A en texte",
           tool_15: "MP3 en SRT"
         }
+      },
+      youtubeTranscription: {
+        hero: {
+          title: "Transcrire YouTube en ligne",
+          des_1: "Vidéos YouTube converties instantanément en transcriptions — rapides, précises, sans inscription requise.",
+          des_2: "Prend en charge 6 formats d'export, plus de 100 langues et 249 traductions."
+        },
+        threeStep: {
+          title: "Comment obtenir",
+          titleHighlight: "Résultats précis",
+          step_1_des: "Copiez le lien de la vidéo YouTube.",
+          step_2_des: "Collez le lien dans le champ de saisie et cliquez sur « Obtenez la transcription de la vidéo ».",
+          step_3_des: "Attendez la fin de la transcription, puis accédez au texte pour le modifier, le traduire ou l'exporter."
+        },
+        whatYouCan: {
+          title: "Ce que vous pouvez faire avec",
+          titleHighlight: "notre outil de transcription YouTube",
+          list_title_1: "Contenu textuel flexible",
+          list_des_1: "Convertit toute vidéo YouTube que vous aimez en transcriptions textuelles lisibles, copiables et consultables.",
+          list_title_2: "Recherche et édition rapides",
+          list_des_2: "Identifiez facilement le contenu clé, les citations mémorables ou les segments importants de la vidéo, puis modifiez le texte en vous y référant.",
+          list_title_3: "Formats d'export multiples",
+          list_des_3: "Exportez les transcriptions dans plusieurs formats comme TXT, PDF, DOCX, SRT, CSV et VTT, idéal pour le sous-titrage, l'édition de documents, l'analyse de données, etc."
+        },
+        whyConvertYouTube: {
+          title: "Pourquoi",
+          titleHighlight: "convertir les vidéos YouTube en texte",
+          list_title_1: "Documentation, stockage et organisation faciles",
+          list_des_1: "Le texte est plus pratique que la vidéo pour la prise de notes, l'organisation d'entretiens, l'extraction de points clés et la création de résumés de recherche.",
+          list_title_2: "Localiser et récupérer des informations importantes",
+          list_des_2: "Trouvez rapidement le contenu clé sans avoir à parcourir la timeline de la vidéo.",
+          list_title_3: "Augmenter l'efficacité d'apprentissage",
+          list_des_3: "Utilisez le texte pour mettre en évidence, référencer et comparer efficacement le contenu.",
+          list_title_4: "Rechercher et extraire du contenu",
+          list_des_4: "Le texte est consultable et copiable, idéal pour extraire des citations, référencer des clips ou créer des scripts.",
+          list_title_5: "Accessibilité multilingue",
+          list_des_5: "Transcrivez facilement du contenu dans des langues inconnues et traduisez-le en plusieurs langues.",
+          list_title_6: "Réutilisation du contenu",
+          list_des_6: "Générez des articles, sous-titres, cartes pour réseaux sociaux, scripts vidéo et plus à partir de votre transcription."
+        },
+        whyPeopleTrust: {
+          title: "Pourquoi",
+          titleHighlight: "les gens font confiance à notre outil",
+          list_title_1: "Outil en ligne gratuit",
+          list_des_1: "Pas de connexion requise. Aucun logiciel, plugin ou extension à installer.",
+          list_title_2: "Zéro publicité, zéro distraction",
+          list_des_2: "Une interface propre et simple conçue pour répondre à vos besoins sans interrompre votre flux de travail.",
+          list_title_3: "Conversion éclair",
+          list_des_3: "Expérimentez la vitesse leader du secteur sans limitations.",
+          list_title_4: "Haute précision",
+          list_des_4: "Propulsé par la toute dernière technologie de reconnaissance vocale pour une précision améliorée.",
+          list_title_5: "Large support linguistique",
+          list_des_5: "Transcrivez du contenu dans plus de 100 langues et traduisez en 249 langues.",
+          list_title_6: "Fonctions de sauvegarde et édition",
+          list_des_6: "Modifiez les transcriptions en temps réel et sauvegardez votre travail pour usage futur."
+        },
+        howToUse: {
+          title: "Vraies façons dont les gens utilisent",
+          titleHighlight: "les transcriptions YouTube",
+          list_title_1: "Pour ceux qui prennent des notes",
+          list_des_1: "Prendre des notes en regardant une vidéo YouTube peut sembler précipité et désorganisé. Avec une transcription, vous pouvez facilement copier les points clés et concepts importants directement dans vos notes, vous assurant de tout capturer. Vous pouvez même introduire la transcription dans des outils comme ChatGPT pour générer des résumés clairs, notes d'étude ou plans.",
+          list_title_2: "Pour les créateurs de contenu",
+          list_des_2: "Collez simplement un lien YouTube et obtenez une version textuelle précise —un flux de travail bien plus efficace pour les créateurs. Utilisez la transcription pour rédiger des articles de blog, scripts, sous-titres, newsletters ou notes d'émission détaillées. Faites gagner du temps et des efforts, vous permettant de vous concentrer sur le contenu lui-même.",
+          list_title_3: "Pour les professionnels et analystes",
+          list_des_3: "Si votre travail dans des domaines comme le droit, la médecine, le conseil ou les affaires exige une extraction d'informations précises, les transcriptions facilitent le travail. Cherchez rapidement des faits spécifiques, horodatages et citations sans devoir revoir toute la vidéo. Idéal pour revoir des discours d'experts, présentations, vidéos de formation et entretiens clients.",
+          list_title_4: "Pour les utilisateurs ayant des besoins d'accessibilité",
+          list_des_4: "Tout le monde ne peut pas facilement voir ou écouter du contenu vidéo. Les transcriptions rendent YouTube accessible aux utilisateurs malentendants ou préférant simplement lire. Avec un support pour traduire en 249 langues, elles brisent les barrières linguistiques, rendant le contenu mondial plus facile à comprendre et partager.",
+          list_title_5: "Pour les extracteurs de connaissances",
+          list_des_5: "Pour les étudiants, chercheurs, créateurs, et professionnels qui doivent rapidement saisir des idées centrales, les transcriptions sont inestimables. Explorez, cherchez et localisez instantanément des informations cruciales sans avoir à vous asseoir à travers de longues vidéos, vous aidant à extraire efficacement points clés, résumés ou horodatages."
+        },
+        howToGet: {
+          title: "Débloquez de nouvelles idées avec",
+          titleHighlight: "les transcriptions YouTube",
+          subTitle: "Transformez les vidéos YouTube en texte facile à copier et exploitable, et combinez-les avec des outils IA comme Gemini ou ChatGPT pour :",
+          list_des_1: "Générer rapidement des notes d'étude ou des résumés",
+          list_des_2: "Extraire des points clés et citations ou concepts mémorables",
+          list_des_3: "Créer des quiz, Q&A ou matériels d'étude",
+          list_des_4: "Rédiger des articles de blog, scripts ou articles",
+          list_des_5: "Développer des infographies, mèmes ou contenu pour réseaux sociaux",
+          list_des_6: "Produire des Q&A de fans, trivia ou jeux éducatifs",
+          list_des_7: "Plonger plus profondément dans les sujets mentionnés dans la vidéo",
+          summary: "Le tout sans tracas : copiez, collez et commencez."
+        },
+        faq: {
+          title: "Questions",
+          titleHighlight: "Fréquemment posées",
+          question_1: "Y a-t-il une limite de longueur pour la transcription de vidéos YouTube ?",
+          answer_1: "Non. Cependant, les vidéos plus longues exigent plus de temps de traitement. Veuillez planifier vos tâches de transcription en conséquence.",
+          question_2: "Est-ce que ça fonctionne avec des vidéos privées ou non listées ?",
+          answer_2: "Cela fonctionne uniquement avec des vidéos publiquement disponibles sur YouTube. Les vidéos privées ou restreintes ne peuvent être transcrites.",
+          question_3: "Combien de temps faut-il pour obtenir la transcription ?",
+          answer_3: "Typiquement, le temps de traitement varie de 1/10 à 1/20 de la durée de la vidéo. Nous optimisons continuellement la vitesse tout en garantissant une haute précision pour une meilleure expérience utilisateur.",
+          question_4: "L'outil peut-il distinguer les différents intervenants ?",
+          answer_4: "Oui. Il prend en charge la détection d'intervenants jusqu'à 20, idéal pour transcrire des interviews, podcasts et discussions.",
+          question_5: "Quelle est la précision de l'outil de transcription ?",
+          answer_5: "Notre précision dépasse 96 %. Il maintient une haute précision même avec divers accents ou intervenants rapides, bien qu'une meilleure qualité audio avec moins de bruit de fond améliore les résultats.",
+          question_6: "Quelles sont les fonctionnalités incluses dans la transcription ?",
+          answer_6: "La transcription inclut l'identification automatique des intervenants et les horodatages. Vous pouvez modifier le texte en ligne ou l'exporter pour un usage ultérieur.",
+          question_7: "Puis-je sauvegarder mes enregistrements de transcription ?",
+          answer_7: "Oui. Il suffit de vous inscrire pour sauvegarder vos transcriptions après avoir traité un lien YouTube.",
+          question_8: "Mes données sont-elles conservées de manière privée et sécurisée ?",
+          answer_8: "Oui. Vos vidéos, transcriptions et fichiers sont traités de manière sécurisée — jamais utilisés pour entraîner des modèles d'IA ou partagés avec des tiers.",
+          question_9: "Puis-je utiliser le contenu de la transcription avec d'autres outils IA ?",
+          answer_9: "Absolument. Vous pouvez coller le texte dans ChatGPT ou d'autres outils IA pour générer des résumés, notes, quiz, scripts, articles et plus."
+        }
       }
     },
     Upload: {
@@ -3648,7 +3754,9 @@ let message = {
       tip5: "enregistrer",
       tip6: "définitivement ?",
       tip7: "pour gérer et modifier",
-      tip8: "tous vos fichiers de transcription."
+      tip8: "tous vos fichiers de transcription.",
+      linkV1Placeholder: "Collez l'URL YouTube ici.",
+      linkV1Btn: "Obtenir la Transcription Vidéo"
     }
   },
   About: {

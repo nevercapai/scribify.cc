@@ -1047,7 +1047,8 @@ let message = {
     Transcription: "轉錄",
     VideoTranscription: "影片轉錄",
     Other: "其他",
-    mp4Transcription: "MP4轉錄"
+    mp4Transcription: "MP4轉錄",
+    youtubeTranscription: "YouTube 文字轉錄"
   },
   Footer: {
     des: "全球首個真正無限的AI轉錄服務。無上限，無限制，只有創造的自由。",
@@ -1058,7 +1059,7 @@ let message = {
     useCaseMenus: ["所有使用案例", "播客主", "記者", "內容創作者", "研究人員", "商業團隊", "教育工作者"],
     companyMenus: ["關於我們", "定價方案", "隱私權", "條款"],
     Resources: "資源",
-    resourcesMenus: ["YouTube轉MP4","YouTube轉MP3","影片轉錄","MP4轉錄"]
+    resourcesMenus: ["YouTube轉MP4","YouTube轉MP3","影片轉錄","MP4轉錄","YouTube轉錄"]
   },
   Index: {
     Hero: {
@@ -3448,6 +3449,111 @@ let message = {
           tool_14: "M4A轉文字",
           tool_15: "MP3轉SRT"
         }
+      },
+      youtubeTranscription: {
+        hero: {
+          title: "YouTube 線上轉錄",
+          des_1: "YouTube 影片即刻轉為轉錄文本 — 快速、準確、無需註冊。",
+          des_2: "支援 6 種匯出格式，100+ 種語言和 249 種翻譯。"
+        },
+        threeStep: {
+          title: "如何",
+          titleHighlight: "獲得精準結果",
+          step_1_des: "複製 YouTube 影片連結。",
+          step_2_des: "將連結貼到輸入框並點擊「取得影片轉錄」。",
+          step_3_des: "等待轉錄完成，然後存取文本進行編輯、翻譯或匯出。"
+        },
+        whatYouCan: {
+          title: "您可以用我們的",
+          titleHighlight: "YouTube 轉錄工具做什么",
+          list_title_1: "彈性的文本內容",
+          list_des_1: "將任何您喜歡的 YouTube 影片轉換為可讀、可複製和可搜尋的文本轉錄。",
+          list_title_2: "快速搜尋和編輯",
+          list_des_2: "輕鬆定位影片中的關鍵內容、難忘的引述或重要片段，並在參考影片的同時編輯文本。",
+          list_title_3: "多種匯出格式",
+          list_des_3: "以 TXT、PDF、DOCX、SRT、CSV 和 VTT 等多種格式匯出轉錄，適用於字幕製作、文件編輯、數據分析等。"
+        },
+        whyConvertYouTube: {
+          title: "為什麼",
+          titleHighlight: "要將 YouTube 影片轉為文本",
+          list_title_1: "輕鬆的文件記錄、儲存和組織",
+          list_des_1: "文本比影片更實用，適合做筆記、組織訪談、提取要點和創建研究摘要。",
+          list_title_2: "定位和檢索重要資訊",
+          list_des_2: "無需拖動影片時間軸即可快速找到關鍵內容。",
+          list_title_3: "提升學習效率",
+          list_des_3: "使用文本有效標示、引用和比較內容。",
+          list_title_4: "搜尋和提取內容",
+          list_des_4: "文本可搜尋和複製，非常適合提取引述、引用片段或創建腳本。",
+          list_title_5: "跨語言可及性",
+          list_des_5: "輕鬆轉錄不熟悉的語言內容，並將其翻譯成多種語言。",
+          list_title_6: "內容再利用",
+          list_des_6: "從您的轉錄中生成文章、字幕、社群媒體卡片、影片腳本等。"
+        },
+        whyPeopleTrust: {
+          title: "為什麼",
+          titleHighlight: "人們信任我們的工具",
+          list_title_1: "免費在線工具",
+          list_des_1: "無需登入。無需安裝軟體、外掛程式或擴充功能。",
+          list_title_2: "零廣告，零干擾",
+          list_des_2: "一個簡潔的介面，專為滿足您的需求而設計，不會干擾您的工作流程。",
+          list_title_3: "閃電般的轉換速度",
+          list_des_3: "體驗業界領先的速度，無任何限制。",
+          list_title_4: "高精確度",
+          list_des_4: "由最新的語音識別技術驅動，以提高精確度。",
+          list_title_5: "廣泛的語言支援",
+          list_des_5: "支援轉錄 100 多種語言的內容並翻譯成 249 種語言。",
+          list_title_6: "儲存和編輯功能",
+          list_des_6: "即時編輯轉錄並儲存您的工作以供將來使用。"
+        },
+        howToUse: {
+          title: "人們真實使用",
+          titleHighlight: "YouTube 轉錄的方式",
+          list_title_1: "對於筆記記錄者",
+          list_des_1: "在觀看 YouTube 影片同時做筆記可能會感到倉促和混亂。有了轉錄，您可以毫不費力地將要點和重要概念直接複製到筆記中，確保您捕捉到所有內容。您甚至可以將轉錄輸入到 ChatGPT 等工具中以生成清晰的摘要、學習筆記或大綱。",
+          list_title_2: "對於內容創作者",
+          list_des_2: "只需貼上 YouTube 連結，即可獲得準確的文本版本 —對創作者而言是更高效的工作流程。使用轉錄來撰寫部落格文章、腳本、字幕、新聞通訊或詳細的節目說明。它節省時間和精力，讓您專注於內容本身。",
+          list_title_3: "對於專業人士和分析师",
+          list_des_3: "如果您在法律、醫學、諮詢或商業等領域的工作需要精確的資訊提取，轉錄會讓工作更輕鬆。快速搜索特定事實、時間戳和引述，無需重新觀看整個影片。非常適合審查專家講座、簡報、培訓影片和客戶訪談。",
+          list_title_4: "對於無障礙用戶",
+          list_des_4: "並非每個人都能輕鬆觀看或收聽影片內容。轉錄讓 YouTube 對聽障用戶或只是較喜歡閱讀的用戶變得可及。支援翻譯 249 種語言，打破語言障礙，使全球內容更易理解和分享。",
+          list_title_5: "對於知識提取者",
+          list_des_5: "對於需要快速掌握核心見解的學生、研究人員、創作者和專業人士來說，轉錄是無價的。即時瀏覽、搜索和定位關鍵資訊，無需觀看長影片，幫助您高效提取要點、摘要或時間戳。"
+        },
+        howToGet: {
+          title: "用 YouTube 轉錄",
+          titleHighlight: "解鎖新想法",
+          subTitle: "將 YouTube 影片轉為易於複製、可操作的文本，並結合 Gemini 或 ChatGPT 等 AI 工具：",
+          list_des_1: "快速生成學習筆記或摘要",
+          list_des_2: "提取要點和難忘的引述或概念",
+          list_des_3: "創建測驗、問答或學習材料",
+          list_des_4: "起草部落格文章、腳本或文章",
+          list_des_5: "開發資訊圖表、迷因或社群媒體內容",
+          list_des_6: "製作粉絲問答、趣聞或教育遊戲",
+          list_des_7: "深入探討影片中提到的主題",
+          summary: "零麻煩 — 只需複製、貼上即可開始。"
+        },
+        faq: {
+          title: "常見",
+          titleHighlight: "問題",
+          question_1: "YouTube 影片轉錄有長度限制嗎？",
+          answer_1: "沒有。但較長的影片需要更多處理時間。請相應地規劃您的轉錄任務。",
+          question_2: "這適用於私人或非公開影片嗎？",
+          answer_2: "僅適用於公開可用的 YouTube 影片。私人或受限的影片無法轉錄。",
+          question_3: "獲得轉錄需要多長時間？",
+          answer_3: "通常，處理時間為影片時長的 1/10 到 1/20。我們在確保高精度的同時持續優化速度，以提供更好的使用者體驗。",
+          question_4: "該工具可以區分不同的講者嗎？",
+          answer_4: "可以。它支援最多檢測 20 個講者，非常適合轉錄訪談、播客和討論。",
+          question_5: "轉錄工具的精確度是多少？",
+          answer_5: "我們的精確率超過 96%。即使在各種口音或快語速情況下，它也能保持高精度，但更好的音訊品質和更少的背景噪音會改善結果。",
+          question_6: "轉錄包含哪些功能？",
+          answer_6: "轉錄包括自動講者識別和時間戳。您可以線上編輯文本或匯出以備後用。",
+          question_7: "我可以保存我的轉錄記錄嗎？",
+          answer_7: "可以。只需註冊一個帳戶，即可在處理 YouTube 連結後保存您的轉錄。",
+          question_8: "我的資料是否能保持私有和安全？",
+          answer_8: "可以。您的影片和文件都經過安全處理 — 從不用於訓練 AI 模型或與第三方共享。",
+          question_9: "我可以在轉錄內容和其他 AI 工具一起使用嗎？",
+          answer_9: "當然可以。您可以貼上文本到 ChatGPT 或其他 AI 工具中以生成摘要、筆記、測驗、腳本、文章等。"
+        }
       }
     },
     Upload: {
@@ -3467,7 +3573,9 @@ let message = {
       tip5: "保存",
       tip6: "永久保存？",
       tip7: "管理和編輯",
-      tip8: "所有轉錄檔案"
+      tip8: "所有轉錄檔案",
+      linkV1Placeholder: "在此貼上YouTube網址。",
+      linkV1Btn: "取得視訊轉錄"
     }
   },
   About: {

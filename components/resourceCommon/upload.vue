@@ -1,5 +1,9 @@
 <template>
-  <div v-if="!taskId" class="upload-common mx-auto text-black">
+  <div
+    v-if="!taskId"
+    class="upload-common mx-auto text-black"
+    :class="{ 'data-empty': !localFileData.file && !linkData.file }"
+  >
     <!--    视频和链接   -->
     <el-tabs v-if="sourceType === 1" v-model="activeName" @tab-click="handleTabClick" class="-mt-1.5">
       <el-tab-pane :label="t('Resources.Upload.uploadFile')" name="file">
@@ -50,11 +54,7 @@
     </el-tabs>
     <!--    链接  -->
     <div v-else-if="sourceType === 2" class="content w-full flex-col">
-      <div
-        v-if="linkData.file"
-        :class="[{ 'justify-center': !linkData.file }]"
-        class="flex w-full pb-6 text-[1.375rem] font-medium leading-[1.875rem] text-black"
-      >
+      <div v-if="linkData.file" class="flex w-full !pb-2 text-lg font-medium leading-[1.875rem] text-black">
         <span>{{ t("Resources.Upload.linkTitle") }}</span>
       </div>
       <link-input-v1 v-show="!linkData.file" ref="linkRef" @confirm="handleAddLinkConfirm" />

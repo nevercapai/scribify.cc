@@ -1,90 +1,90 @@
 export default {
   "es-ES": {
-    "HeadNavbar.mp4Transcription": "Transcripción MP4",
-    "Footer.resourcesMenus": ["YouTube a MP4", "YouTube a MP3", "Transcripción de Video", "Transcripción MP4"]
+    "Resources.Upload.linkV1Placeholder": "Pega la URL de YouTube aquí.",
+    "Resources.Upload.linkV1Btn": "Obtener Transcripción del Video"
   },
   "it-IT": {
-    "HeadNavbar.mp4Transcription": "Trascrizione MP4",
-    "Footer.resourcesMenus": ["YouTube in MP4", "YouTube in MP3", "Trascrizione Video", "Trascrizione MP4"]
+    "Resources.Upload.linkV1Placeholder": "Incolla l'URL di YouTube qui.",
+    "Resources.Upload.linkV1Btn": "Ottieni Trascrizione Video"
   },
   "fr-FR": {
-    "HeadNavbar.mp4Transcription": "Transcription MP4",
-    "Footer.resourcesMenus": ["YouTube vers MP4", "YouTube vers MP3", "Transcription Vidéo", "Transcription MP4"]
+    "Resources.Upload.linkV1Placeholder": "Collez l'URL YouTube ici.",
+    "Resources.Upload.linkV1Btn": "Obtenir la Transcription Vidéo"
   },
   "de-DE": {
-    "HeadNavbar.mp4Transcription": "MP4-Transkription",
-    "Footer.resourcesMenus": ["YouTube zu MP4", "YouTube zu MP3", "Video-Transkription", "MP4-Transkription"]
+    "Resources.Upload.linkV1Placeholder": "YouTube-URL hier einfügen.",
+    "Resources.Upload.linkV1Btn": "Video-Transkript Abrufen"
   },
   "zh-CN": {
-    "HeadNavbar.mp4Transcription": "MP4转写",
-    "Footer.resourcesMenus": ["YouTube转MP4", "YouTube转MP3", "视频转写", "MP4转写"]
+    "Resources.Upload.linkV1Placeholder": "在此粘贴YouTube链接。",
+    "Resources.Upload.linkV1Btn": "获取视频转录"
   },
   "zh-TW": {
-    "HeadNavbar.mp4Transcription": "MP4轉錄",
-    "Footer.resourcesMenus": ["YouTube轉MP4", "YouTube轉MP3", "影片轉錄", "MP4轉錄"]
+    "Resources.Upload.linkV1Placeholder": "在此貼上YouTube網址。",
+    "Resources.Upload.linkV1Btn": "取得視訊轉錄"
   },
   "ja-JP": {
-    "HeadNavbar.mp4Transcription": "MP4文字起こし",
-    "Footer.resourcesMenus": ["YouTube to MP4", "YouTube to MP3", "動画文字起こし", "MP4文字起こし"]
+    "Resources.Upload.linkV1Placeholder": "こちらにYouTubeのURLを貼り付けてください。",
+    "Resources.Upload.linkV1Btn": "動画の文字起こしを取得"
   },
   "ko-KR": {
-    "HeadNavbar.mp4Transcription": "MP4 전사",
-    "Footer.resourcesMenus": ["YouTube를 MP4로", "YouTube를 MP3로", "동영상 전사", "MP4 전사"]
+    "Resources.Upload.linkV1Placeholder": "여기에 YouTube URL을 붙여넣으세요.",
+    "Resources.Upload.linkV1Btn": "동영상 대본 가져오기"
   },
   "nl-NL": {
-    "HeadNavbar.mp4Transcription": "MP4-transcriptie",
-    "Footer.resourcesMenus": ["YouTube naar MP4", "YouTube naar MP3", "Video-transcriptie", "MP4-transcriptie"]
+    "Resources.Upload.linkV1Placeholder": "Plak YouTube URL hier.",
+    "Resources.Upload.linkV1Btn": "Video Transcriptie Ophalen"
   },
   "pl-PL": {
-    "HeadNavbar.mp4Transcription": "Transkrypcja MP4",
-    "Footer.resourcesMenus": ["YouTube na MP4", "YouTube na MP3", "Transkrypcja Wideo", "Transkrypcja MP4"]
+    "Resources.Upload.linkV1Placeholder": "Wklej tutaj adres URL YouTube.",
+    "Resources.Upload.linkV1Btn": "Pobierz Transkrypcję Wideo"
   },
   "da-DK": {
-    "HeadNavbar.mp4Transcription": "MP4-transskription",
-    "Footer.resourcesMenus": ["YouTube til MP4", "YouTube til MP3", "Video-transskription", "MP4-transskription"]
+    "Resources.Upload.linkV1Placeholder": "Indsæt YouTube URL her.",
+    "Resources.Upload.linkV1Btn": "Hent Video Transkription"
   },
   "hu-HU": {
-    "HeadNavbar.mp4Transcription": "MP4 átírás",
-    "Footer.resourcesMenus": ["YouTube MP4-re", "YouTube MP3-ra", "Videó átírás", "MP4 átírás"]
+    "Resources.Upload.linkV1Placeholder": "Illessze be a YouTube URL-t ide.",
+    "Resources.Upload.linkV1Btn": "Videó Átirat Lekérése"
   },
   "no-NO": {
-    "HeadNavbar.mp4Transcription": "MP4-transkripsjon",
-    "Footer.resourcesMenus": ["YouTube til MP4", "YouTube til MP3", "Video-transkripsjon", "MP4-transkripsjon"]
+    "Resources.Upload.linkV1Placeholder": "Lim inn YouTube URL her.",
+    "Resources.Upload.linkV1Btn": "Hent Video Transkripsjon"
   },
   "pt-PT": {
-    "HeadNavbar.mp4Transcription": "Transcrição MP4",
-    "Footer.resourcesMenus": ["YouTube para MP4", "YouTube para MP3", "Transcrição de Vídeo", "Transcrição MP4"]
+    "Resources.Upload.linkV1Placeholder": "Cole o URL do YouTube aqui.",
+    "Resources.Upload.linkV1Btn": "Obter Transcrição de Vídeo"
   },
   "fi-FI": {
-    "HeadNavbar.mp4Transcription": "MP4-transkriptio",
-    "Footer.resourcesMenus": ["YouTube MP4:ksi", "YouTube MP3:ksi", "Videotranskriptio", "MP4-transkriptio"]
+    "Resources.Upload.linkV1Placeholder": "Liitä YouTube-URL tähän.",
+    "Resources.Upload.linkV1Btn": "Hae Videon Transkriptio"
   },
   "sv-SE": {
-    "HeadNavbar.mp4Transcription": "MP4-transkription",
-    "Footer.resourcesMenus": ["YouTube till MP4", "YouTube till MP3", "Video-transkription", "MP4-transkription"]
+    "Resources.Upload.linkV1Placeholder": "Klistra in YouTube URL här.",
+    "Resources.Upload.linkV1Btn": "Hämta Video Transkription"
   },
   "ru-RU": {
-    "HeadNavbar.mp4Transcription": "Транскрипция MP4",
-    "Footer.resourcesMenus": ["YouTube в MP4", "YouTube в MP3", "Транскрипция видео", "Транскрипция MP4"]
+    "Resources.Upload.linkV1Placeholder": "Вставьте URL YouTube сюда.",
+    "Resources.Upload.linkV1Btn": "Получить Транскрипцию Видео"
   },
   "tr-TR": {
-    "HeadNavbar.mp4Transcription": "MP4 Transkripsiyonu",
-    "Footer.resourcesMenus": ["YouTube'u MP4'e", "YouTube'u MP3'e", "Video Transkripsiyonu", "MP4 Transkripsiyonu"]
+    "Resources.Upload.linkV1Placeholder": "YouTube URL'sini buraya yapıştırın.",
+    "Resources.Upload.linkV1Btn": "Video Transkripti Getir"
   },
   "el-GR": {
-    "HeadNavbar.mp4Transcription": "Μεταγραφή MP4",
-    "Footer.resourcesMenus": ["YouTube σε MP4", "YouTube σε MP3", "Μεταγραφή Βίντεο", "Μεταγραφή MP4"]
+    "Resources.Upload.linkV1Placeholder": "Επικολλήστε τη διεύθυνση URL του YouTube εδώ.",
+    "Resources.Upload.linkV1Btn": "Λήψη Υποτίτλων Βίντεο"
   },
   "uk-UA": {
-    "HeadNavbar.mp4Transcription": "Транскрипція MP4",
-    "Footer.resourcesMenus": ["YouTube в MP4", "YouTube в MP3", "Транскрипція відео", "Транскрипція MP4"]
+    "Resources.Upload.linkV1Placeholder": "Вставте URL YouTube сюди.",
+    "Resources.Upload.linkV1Btn": "Отримати Транскрипцію Відео"
   },
   "he-IL": {
-    "HeadNavbar.mp4Transcription": "תמלול MP4",
-    "Footer.resourcesMenus": ["YouTube ל-MP4", "YouTube ל-MP3", "תמלול וידאו", "תמלול MP4"]
+    "Resources.Upload.linkV1Placeholder": "הדבק כאן את כתובת ה-URL של YouTube.",
+    "Resources.Upload.linkV1Btn": "קבל תמלול וידאו"
   },
   "ar-SA": {
-    "HeadNavbar.mp4Transcription": "نسخ MP4",
-    "Footer.resourcesMenus": ["YouTube إلى MP4", "YouTube إلى MP3", "نسخ الفيديو", "نسخ MP4"]
+    "Resources.Upload.linkV1Placeholder": "لصق رابط YouTube هنا.",
+    "Resources.Upload.linkV1Btn": "احصل على نسخة فيديو"
   }
 };

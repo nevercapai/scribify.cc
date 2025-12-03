@@ -2,7 +2,7 @@
   <div class="flex max-md:flex-col">
     <el-input v-model="linkUrl" class="link-input !h-14 max-md:!h-11" placeholder="https://..."></el-input>
     <el-button
-      class="sys-btn ms-2.5 !h-14 !min-w-32 !text-[1.375rem] !font-medium !leading-8 max-md:ms-0 max-md:mt-2 max-md:!h-11 max-md:!w-full md:!max-w-64"
+      class="sys-btn ms-2.5 !h-14 !min-w-32 !text-[1.375rem] !font-medium !leading-8 max-md:ms-0 max-md:mt-4 max-md:!h-11 max-md:!w-full md:!max-w-64"
       type="primary"
       :disabled="!linkUrl"
       :loading="linkLoading"

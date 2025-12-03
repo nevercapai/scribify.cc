@@ -1,14 +1,14 @@
 <template>
   <div class="flex max-md:flex-col">
-    <el-input v-model="linkUrl" class="link-input !h-11 max-md:!h-11" placeholder="Paste YouTube URL here."></el-input>
+    <el-input v-model="linkUrl" class="link-input !h-11 max-md:!h-11" :placeholder="linkV1Text.placeholder"></el-input>
     <el-button
-      class="button ms-2.5 !h-11 shrink-0 !text-[1.125rem] !font-medium !leading-6 max-md:ms-0 max-md:mt-2 max-md:!w-full"
+      class="button ms-2.5 !h-11 shrink-0 !text-[1.125rem] !font-medium !leading-6 max-md:ms-0 max-md:mt-4 max-md:!w-full"
       type="primary"
       :disabled="!linkUrl"
       :loading="linkLoading"
       @click="handleAddLink"
     >
-      Get Video Transcript
+      {{ linkV1Text.btn }}
     </el-button>
   </div>
 </template>
@@ -23,7 +23,6 @@ import { importWithRetry } from "~/utils/importWithRetry.js";
 const { linkValidate } = useLink();
 const { createFileObject } = useUpload();
 const { getVisitorId, visitorId } = useVisitor();
-
 const guestLogin = async () => {
   const token = useCrossDomainCookie("token");
   if (!token.value) {
@@ -36,6 +35,14 @@ const guestLogin = async () => {
   }
 };
 const { t } = useI18n();
+const linkV1Text = inject(
+  "linkV1Text",
+  () => ({
+    placeholder: t("Resources.Upload.linkV1Placeholder"),
+    btn: t("Resources.Upload.linkV1Btn")
+  }),
+  true
+);
 const linkUrl = ref("");
 const linkLoading = ref(false);
 const checked = ref(false);
@@ -73,10 +80,14 @@ const handleAddLink = async () => {
     linkLoading.value = false;
   }
 };
+const clear = () => {
+  linkUrl.value = "";
+};
 const emits = defineEmits(["confirm"]);
 defineExpose({
   handleAddLink,
-  checked
+  checked,
+  clear
 });
 </script>
 
@@ -88,7 +99,7 @@ defineExpose({
   }
 }
 .button {
-  background: linear-gradient(90deg, #3470ff 0%, #9534e6 100%) !important;
+  background: linear-gradient(270deg, #3470ff 0%, #9534e6 100%) !important;
   display: flex;
   justify-content: center;
   align-items: center;

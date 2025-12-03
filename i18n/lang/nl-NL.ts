@@ -1076,7 +1076,8 @@ let message = {
     Transcription: "Transcriptie",
     VideoTranscription: "Video Transcriptie",
     Other: "Overig",
-    mp4Transcription: "MP4-transcriptie"
+    mp4Transcription: "MP4-transcriptie",
+    youtubeTranscription: "YouTube-transcriptie"
   },
   Footer: {
     des: "'s Werelds eerste echt onbeperkte AI-transcriptieservice. Geen limieten, geen grenzen, alleen vrijheid om te creëren.",
@@ -1095,7 +1096,7 @@ let message = {
     ],
     companyMenus: ["Over ons", "Prijzen", "Privacy", "Voorwaarden"],
     Resources: "Bronnen",
-    resourcesMenus: ["YouTube naar MP4","YouTube naar MP3","Video-transcriptie","MP4-transcriptie"]
+    resourcesMenus: ["YouTube naar MP4","YouTube naar MP3","Video-transcriptie","MP4-transcriptie","YouTube-transcriptie"]
   },
   Index: {
     Hero: {
@@ -3612,6 +3613,111 @@ let message = {
           tool_14: "M4A naar tekst",
           tool_15: "MP3 naar SRT"
         }
+      },
+      youtubeTranscription: {
+        hero: {
+          title: "YouTube naar Transcript online",
+          des_1: "YouTube-video's direct omgezet naar transcripten — snel, accuraat en zonder login vereist.",
+          des_2: "Ondersteunt 6 exportformaten, 100+ talen en 249 vertalingen."
+        },
+        threeStep: {
+          title: "Hoe je",
+          titleHighlight: "nauwkeurige resultaten krijgt",
+          step_1_des: "Kopieer de link van de YouTube-video.",
+          step_2_des: "Plak de link in het invoerveld en klik op \"Videotranscript ophalen\".",
+          step_3_des: "Wacht tot de transcriptie voltooid is. Open daarna de tekst om te bewerken, vertalen of exporteren."
+        },
+        whatYouCan: {
+          title: "Wat je kunt met onze",
+          titleHighlight: "YouTube-transcriptietool",
+          list_title_1: "Flexibele tekstinhoud",
+          list_des_1: "Zet elke YouTube-video die je leuk vindt om in leesbare, kopieerbare en doorzoekbare tekst-transcripten.",
+          list_title_2: "Snel zoeken en bewerken",
+          list_des_2: "Vind eenvoudig belangrijke inhoud, gedenkwaardige citaten of belangrijke segmenten in de video en bewerk de tekst terwijl je naar de video verwijst.",
+          list_title_3: "Meerdere exportformaten",
+          list_des_3: "Exporteer transcripten in diverse formaten zoals TXT, PDF, DOCX, SRT, CSV en VTT, wat het geschikt maakt voor ondertiteling, documentbewerking, data-analyse en meer."
+        },
+        whyConvertYouTube: {
+          title: "Waarom",
+          titleHighlight: "YouTube-video's naar tekst converteren",
+          list_title_1: "Eenvoudige documentatie, opslag en organisatie",
+          list_des_1: "Tekst is praktischer dan video voor notities maken, interviews organiseren, kernpunten extraheren en onderzoeksamenvattingen maken.",
+          list_title_2: "Belangrijke informatie lokaliseren en ophalen",
+          list_des_2: "Vind snel belangrijke inhoud zonder door de video-tijdlijn te hoeven scrollen.",
+          list_title_3: "Leerefficiëntie verhogen",
+          list_des_3: "Gebruik tekst om effectief inhoud te markeren, refereren en vergelijken.",
+          list_title_4: "Inhoud zoeken en extraheren",
+          list_des_4: "Tekst is doorzoekbaar en kopieerbaar, ideaal om citaten te extraheren, naar clips te verwijzen of scripts te creëren.",
+          list_title_5: "Meertalige toegankelijkheid",
+          list_des_5: "Transcribeer eenvoudig inhoud in onbekende talen en vertaal het in meerdere talen.",
+          list_title_6: "Inhoud hergebruiken",
+          list_des_6: "Genereer artikelen, ondertitels, social media-kaarten, video-scripts en meer uit jouw transcript."
+        },
+        whyPeopleTrust: {
+          title: "Waarom mensen",
+          titleHighlight: "onze tool vertrouwen",
+          list_title_1: "Gratis online tool",
+          list_des_1: "Geen login vereist. Geen software, plug-ins of extensies te installeren.",
+          list_title_2: "Nul advertenties, nul afleiding",
+          list_des_2: "Een schone en simpele interface ontworpen om aan je behoeften te voldoen zonder je workflow te onderbreken.",
+          list_title_3: "Bliksemsnelle conversie",
+          list_des_3: "Ervaar brancheleidende snelheid zonder beperkingen.",
+          list_title_4: "Hoge nauwkeurigheid",
+          list_des_4: "Mogelijk gemaakt door de nieuwste spraakherkenningstechnologie voor verbeterde precisie.",
+          list_title_5: "Brede ondersteuning voor talen",
+          list_des_5: "Transcribeer inhoud in meer dan 100 talen en vertaal naar 249 talen.",
+          list_title_6: "Opslag- & bewerkingsfuncties",
+          list_des_6: "Bewerk transcripten in real-time en sla je werk op voor toekomstig gebruik."
+        },
+        howToUse: {
+          title: "Daadwerkelijke manieren waarop mensen",
+          titleHighlight: "YouTube-transcripten gebruiken",
+          list_title_1: "Voor notitie-makers",
+          list_des_1: "Notities maken tijdens een YouTube-video kijken kan gehaast en ongeorganiseerd aanvoelen. Met een transcript kun je moeiteloos kernpunten en belangrijke concepten direct in je notities kopiëren, waardoor je alles vastlegt. Je kunt het transcript zelfs in tools als ChatGPT invoeren om duidelijke samenvattingen, studienotities of outlines te genereren.",
+          list_title_2: "Voor content creators",
+          list_des_2: "Plak gewoon een YouTube-link en krijg een nauwkeurige tekstversie — een veel efficiëntere workflow voor creators. Gebruik het transcript om blogposts, scripts, ondertitels, nieuwsbrieven of gedetailleerde shownotes te creëren. Het bespaart tijd en moeite, en laat je focussen op de inhoud zelf.",
+          list_title_3: "Voor professionals & analisten",
+          list_des_3: "Als jouw werk in domeinen als recht, geneeskunde, consultancy of business het vereist dat je informatie precies extraheert, maken transcripten de taak makkelijker. Zoek snel specifieke feiten, timestamps en citaten zonder de hele video opnieuw te moeten bekijken. Ideaal voor het reviewen van expert talks, presentaties, trainingsvideo's en klantinterviews.",
+          list_title_4: "Voor toegankelijkheidsgebruikers",
+          list_des_4: "Niet iedereen kan video-inhoud gemakkelijk bekijken of beluisteren. Transcripten maken YouTube toegankelijk voor gebruikers met gehoorproblemen of die simpelweg liever lezen. Met ondersteuning voor vertaling naar 249 talen, breken ze taalbarrières, waardoor globale inhoud eenvoudiger te begrijpen en te delen is.",
+          list_title_5: "Voor kennis-extractors",
+          list_des_5: "Voor studenten, onderzoekers, makers en professionals die snel kerninzichten moeten begrijpen, zijn transcripten onschatbaar. Blader, zoek en identificeer direct cruciale informatie zonder door lange video's te hoeven zitten, en help je efficiënt kernpunten, samenvattingen of timestamps te extraheren."
+        },
+        howToGet: {
+          title: "Ontdek nieuwe ideeën met",
+          titleHighlight: "YouTube-transcripten",
+          subTitle: "Transformeer YouTube-video's naar makkelijk kopieerbaar, actiegericht tekst en combineer met AI-tools zoals Gemini of ChatGPT om:",
+          list_des_1: "Snel studienotities of samenvattingen genereren",
+          list_des_2: "Kernpunten en gedenkwaardige citaten of concepten extraheren",
+          list_des_3: "Quizzen, Q&A's of studiemateriaal creëren",
+          list_des_4: "Blogposts, scripts of artikelen opstellen",
+          list_des_5: "Infographics, memes of social media-inhoud ontwikkelen",
+          list_des_6: "Fan Q&A's, trivia of educatieve games produceren",
+          list_des_7: "Dieper ingaan op onderwerpen die in de video worden genoemd",
+          summary: "Alles zonder gedoe: kopieer, plak en begin."
+        },
+        faq: {
+          title: "Vaak gestelde",
+          titleHighlight: "vragen",
+          question_1: "Is er een lengtebeperking voor YouTube-video-transcriptie?",
+          answer_1: "Nee. Echter, langere video's vereisen meer verwerkingstijd. Plan je transcriptietaken dienovereenkomstig.",
+          question_2: "Werkt dit met private of niet gelijste video's?",
+          answer_2: "Het werkt alleen met publiek beschikbare YouTube-video's. Private of beperkte video's kunnen niet getranscribeerd worden.",
+          question_3: "Hoe lang duurt het om het transcript te krijgen?",
+          answer_3: "Typisch varieert de verwerkingstijd van 1/10 tot 1/20 van de videoduur. We blijven de snelheid optimaliseren en tegelijkertijd een hoge nauwkeurigheid garanderen voor een betere gebruikerservaring.",
+          question_4: "Kan de tool verschillende sprekers onderscheiden?",
+          answer_4: "Ja. Het ondersteunt sprekerdetectie tot 20 sprekers, ideaal om interviews, podcasts en discussies te transcriberen.",
+          question_5: "Hoe nauwkeurig is de transcriptietool?",
+          answer_5: "Onze nauwkeurigheid overstijgt 96%. Het behoudt een hoge precisie zelfs met uiteenlopende accenten of snelle sprekers, hoewel betere audiokwaliteit met minder achtergrondruis de resultaten verbetert.",
+          question_6: "Wat functies zijn inbegrepen in het transcript?",
+          answer_6: "Het transcript omvat automatische sprekeridentificatie en timestamps. Je kunt de tekst online bewerken of exporteren voor verder gebruik.",
+          question_7: "Kan ik mijn transcriptopnames opslaan?",
+          answer_7: "Ja. Registreer simpelweg een account om je transcripten op te slaan na het verwerken van een YouTube-link.",
+          question_8: "Worden mijn gegevens privé en veilig bewaard?",
+          answer_8: "Ja. Je video's, transcripten en bestanden worden veilig behandeld — nooit gebruikt om AI-modellen te trainen of gedeeld met derden.",
+          question_9: "Kan ik transcriptinhoud gebruiken met andere AI-tools?",
+          answer_9: "Absoluut. Je kunt de tekst in ChatGPT of andere AI-tools plakken om samenvattingen, notities, quizzen, scripts, artikelen en meer te genereren."
+        }
       }
     },
     Upload: {
@@ -3631,7 +3737,9 @@ let message = {
       tip5: "opslaan",
       tip6: "permanent?",
       tip7: "om te beheren en bewerken",
-      tip8: "al uw transcriptiebestanden."
+      tip8: "al uw transcriptiebestanden.",
+      linkV1Placeholder: "Plak YouTube URL hier.",
+      linkV1Btn: "Video Transcriptie Ophalen"
     }
   },
   About: {

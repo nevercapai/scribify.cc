@@ -1071,7 +1071,8 @@ let message = {
     Transcription: "Tekstitys",
     VideoTranscription: "Videoiden tekstitys",
     Other: "Muu",
-    mp4Transcription: "MP4-transkriptio"
+    mp4Transcription: "MP4-transkriptio",
+    youtubeTranscription: "YouTube-transkriptio"
   },
   Footer: {
     des: "Maailman ensimmäinen todella rajaton AI-tekstitypalvelu. Ei rajoituksia, ei kattoja, vain vapaus luoda.",
@@ -1090,7 +1091,7 @@ let message = {
     ],
     companyMenus: ["Tietoja", "Hinnoittelu", "Tietosuoja", "Käyttöehdot"],
     Resources: "Resurssit",
-    resourcesMenus: ["YouTube MP4:ksi","YouTube MP3:ksi","Videotranskriptio","MP4-transkriptio"]
+    resourcesMenus: ["YouTube MP4:ksi","YouTube MP3:ksi","Videon transkriptio","MP4-transkriptio","YouTube-transkriptio"]
   },
   Index: {
     Hero: {
@@ -3606,6 +3607,111 @@ let message = {
           tool_14: "M4A tekstiksi",
           tool_15: "MP3 SRT:ksi"
         }
+      },
+      youtubeTranscription: {
+        hero: {
+          title: "YouTube teksti -verkossa",
+          des_1: "YouTube-videot muunnetaan välittömästi teksteiksi — nopeita, tarkkoja ja ilman rekisteröitymistä.",
+          des_2: "Tukee 6 vientimuotoa, yli 100 kieltä ja 249 käännöstä."
+        },
+        threeStep: {
+          title: "Miten saat",
+          titleHighlight: "tarkkoja tuloksia",
+          step_1_des: "Kopioi YouTube-videon linkki.",
+          step_2_des: "Liitä linkki syötekenttään ja napsauta \"Hae videon teksti\".",
+          step_3_des: "Odota transkription valmistumista, saat sitten pääsyn tekstiä muokataksesi, kääntääksesi tai viedäksesi."
+        },
+        whatYouCan: {
+          title: "Mitä voit tehdä",
+          titleHighlight: "YouTube-transkriptityökalullamme",
+          list_title_1: "Joustava tekstisisältö",
+          list_des_1: "Muunna minkä tahansa pitämäsi YouTube-videon luettavaksi, kopiattavaksi ja haettavaksi tekstiksi.",
+          list_title_2: "Nopea haku ja muokkaus",
+          list_des_2: "Löydä helposti avain sisältöä, mieleenpainuvia sitaatteja tai tärkeitä osia videosta ja muokkaa tekstiä viitaten videoon.",
+          list_title_3: "Useita vientimuotoja",
+          list_des_3: "Vie tekstejä eri muodoissa, kuten TXT, PDF, DOCX, SRT, CSV ja VTT, sopiva tekstitykseen, asiakirjojen muokkaukseen, data-analyysiin ja muuhun."
+        },
+        whyConvertYouTube: {
+          title: "Miksi",
+          titleHighlight: "muuntaa YouTube-videoita tekstiksi",
+          list_title_1: "Helppo dokumentointi, tallennus ja järjestely",
+          list_des_1: "Teksti on käytännöllisempi kuin video muistiinpanojen tekemiseen, haastattelujen järjestämiseen, avainkohtien poimintaan ja tutkimusyhteenvetojen luomiseen.",
+          list_title_2: "Paikanna ja nouda tärkeää tietoa",
+          list_des_2: "Etsi nopeasti avain sisältöä ilman, että tarvitsee selata videon aikajanaa.",
+          list_title_3: "Paranna oppimistehokkuutta",
+          list_des_3: "Käytä tekstiä tehokkaasti sisällön korostamiseen, viittaamiseen ja vertailuun.",
+          list_title_4: "Etsi ja poimi sisältöä",
+          list_des_4: "Teksti on haettavissa ja kopioitavissa, ihanteellinen sitaatteiden poimintaan, katkelmien viittaamiseen tai käsikirjoitusten luomiseen.",
+          list_title_5: "Kieliväliset saavutettavuus",
+          list_des_5: "Transkrioi helposti sisältöä tuntemattomilla kielillä ja käännä se useille kielille.",
+          list_title_6: "Sisällön uudelleenkäyttö",
+          list_des_6: "Luo artikkeleita, tekstityksiä, sosiaalisen median kortteja, videokäsikirjoituksia ja paljon muuta tekstistäsi."
+        },
+        whyPeopleTrust: {
+          title: "Miksi ihmiset",
+          titleHighlight: "luottavat työkaluumme",
+          list_title_1: "Ilmainen online-työkalu",
+          list_des_1: "Ei kirjautumista vaadita. Ei ohjelmistoa, liitännäisiä tai laajennuksia asennettavaksi.",
+          list_title_2: "Nolla mainoksia, nolla häiriöitä",
+          list_des_2: "Puhdas ja yksinkertainen käyttöliittymä, joka on suunniteltu täyttämään tarpeesi keskeyttämättä työnkulkua.",
+          list_title_3: "Salaman nopea muunnos",
+          list_des_3: "Koe alan johtava nopeus ilman rajoituksia.",
+          list_title_4: "Korkea tarkkuus",
+          list_des_4: "Ajettu uusimmalla puheentunnistusteknologialla parannettua tarkkuutta varten.",
+          list_title_5: "Laaja kielituki",
+          list_des_5: "Transkrioi sisältöä yli 100 kielellä ja käännä 249 kielelle.",
+          list_title_6: "Tallennus- ja muokkausominaisuudet",
+          list_des_6: "Muokkaa tekstejä reaaliajassa ja tallenna työsi tulevaa käyttöä varten."
+        },
+        howToUse: {
+          title: "Todelliset tavat, joilla ihmiset käyttävät",
+          titleHighlight: "YouTube-tekstejä",
+          list_title_1: "Muistiinpanojen tekijöille",
+          list_des_1: "Muistiinpanojen tekeminen YouTube-videon katselun aikana voi tuntua kiireiseltä ja epäjärjestäytyneltä. Tekstillä voit helposti kopioida avainkohdat ja tärkeät konseptit suoraan muistiinpanoihisi, varmistaen, että tartut kaiken. Voit jopa syöttää tekstin työkaluihin, kuten ChatGPT, luodaksesi selkeitä yhteenvetoja, opiskelumuistiinpanoja tai luonnoksia.",
+          list_title_2: "Sisällöntuottajille",
+          list_des_2: "Liitä vain YouTube-linkki ja saa tarkka tekstimuoto — paljon tehokkaampi työnkulku luojille. Käytä tekstiä blogikirjoitusten, käsikirjoitusten, tekstitysten, uutiskirjeiden tai yksityiskohtaisten ohjelmatietojen tekemiseen. Se säästää aikaa ja vaivaa, ja antaa sinun keskittyä itse sisältöön.",
+          list_title_3: "Ammattilaisille ja analyytikoille",
+          list_des_3: "Jos työsi aloilla, kuten laki, lääketiede, konsultointi tai liiketoiminta, vaatii tarkkaa tietojen poimintaa, tekstit tekevät tehtävästä helpompaa. Etsi nopeasti tarkkoja faktoja, aikaleimoja ja sitaatteja ilman, että sinun tarvitsee katsoa koko videota uudelleen. Ihanteellinen asiantuntijaesitelmiin, esityksiin, koulutusvideoihin ja asiakashaastatteluihin.",
+          list_title_4: "Saavutettavuuskäyttäjille",
+          list_des_4: "Kaikki eivät voi helposti katsoa tai kuunnella videosisältöä. Tekstit tekevät YouTubesta saavutettavan kuulovammaisille käyttäjille tai niille, jotka yksinkertaisesti haluavat lukea. Tuki 249 kielen kääntämiselle, ne rikkovat kielellisiä esteitä, tehden globaalista sisällöstä helpommin ymmärrettävää ja jaettavaa.",
+          list_title_5: "Tiedonpoimijoille",
+          list_des_5: "Opiskelijoille, tutkijoille, tekijöille ja ammattilaisille, jotka nopeasti ymmärtäävät keskeisiä ideoita, tekstit ovat arvokkaita. Selaa, etsi ja tunnista välittömästi kriittistä tietoa ilman, että sinun tarvitsee istua pitkien videos läpi, ja auttaa sinua tehokkaasti poimimaan avainkohtia, yhteenvedot tai aikaleimaa."
+        },
+        howToGet: {
+          title: "Avaa uusia ideoita",
+          titleHighlight: "YouTube-teksteillä",
+          subTitle: "Muunna YouTube-videot helposti kopioitavaksi, toiminnalliseksi tekstiksi ja yhdistä se AI-työkaluihin, kuten Gemini tai ChatGPT:",
+          list_des_1: "Generoi nopeasti opiskelumuistiinpanoja tai yhteenvedot",
+          list_des_2: "Poimi avainkohtia ja mieleenpainuvia sitaatteja tai konsepteja",
+          list_des_3: "Luo kyselyitä, kysymyksiä ja vastauksia tai opiskelumateriaalia",
+          list_des_4: "Kirjoita blogikirjoituksia, käsikirjoituksia tai artikkeleita",
+          list_des_5: "Kehitä infografiikoja, meemejä tai sosiaalisen median sisältöä",
+          list_des_6: "Tuota fanien kysymyksiä ja vastauksia, triviaa tai opetuspelejä",
+          list_des_7: "Sukella syvemmälle videoon mainittuihin aiheisiin",
+          summary: "Kaikki ilman vaivaa: kopioi, liitä ja aloita."
+        },
+        faq: {
+          title: "Usein kysytyt",
+          titleHighlight: "kysymykset",
+          question_1: "Onko YouTube-videoiden teksteille pituusrajoitus?",
+          answer_1: "Ei. Kuitenkin pidemmät videot vaativat enemmän käsittelyaikaa. Suunnittele tekstehtäväsi sen mukaisesti.",
+          question_2: "Toimiiko tämä yksityisten tai listaamattomien videoiden kanssa?",
+          answer_2: "Toimii vain julkisesti saatavilla olevilla YouTube-videoilla. Yksityisiä tai rajoitettuja videoita ei voida transkriptioida.",
+          question_3: "Kauan tekstin saaminen kestää?",
+          answer_3: "Tyypillisesti käsittelyaika vaihtelee 1/10 - 1/20 videon kestosta. Parannamme jatkuvasti nopeutta ja samalla varmistamme korkean tarkkuuden paremman käyttökokemuksen vuoksi.",
+          question_4: "Voiko työkalu erottaa eri puhujia?",
+          answer_4: "Kyllä. Se tukee puhujien tunnistamista jopa 20 asti, sopii täydellisesti haastatteluiden, podcastien ja keskustelujen transkriptointiin.",
+          question_5: "Kuinka tarkka tekstityökalu on?",
+          answer_5: "Tarkkuutemme ylittää 96%. Se säilyttää korkean tarkkuuden jopa erilaisten aksentien tai nopeiden puhujien kanssa, vaikka parempi äänenlaatu vähemmällä kohinalla parantaa tuloksia.",
+          question_6: "Mitä ominaisuuksia sisältyy tekstiin?",
+          answer_6: "Teksti sisältää automaattisen puhujan tunnistuksen ja aikaleimat. Voit muokata tekstiä verkossa tai viedä sen myöhempää käyttöä varten.",
+          question_7: "Voinko tallentaa tekstitallenteitani?",
+          answer_7: "Kyllä. Rekisteröi vain tili tallentaaksesi tekstit YouTube-linkin käsittelyn jälkeen.",
+          question_8: "Ovatko tietoni yksityisiä ja turvallisia?",
+          answer_8: "Kyllä. Videosi, tekstisi ja tiedostosi käsitellään turvallisesti — niitä ei koskaan käytetä kouluttamaan AI-malleja tai jaetaan kolmansien osapuolten kanssa.",
+          question_9: "Voinko käyttää tekstisisältöä muiden AI-työkalujen kanssa?",
+          answer_9: "Ehdottomasti. Voit liittää tekstin ChatGPT:hen tai muihin AI-työkaluihin generoidaksesi yhteenvedot, muistiinpanot, kyselyt, käsikirjoitukset, artikkelit ja muuta."
+        }
       }
     },
     Upload: {
@@ -3625,7 +3731,9 @@ let message = {
       tip5: "tallentaa",
       tip6: "sen pysyvästi?",
       tip7: "hallitaksesi ja muokataksesi",
-      tip8: "kaikkia tekstitystiedostojasi."
+      tip8: "kaikkia tekstitystiedostojasi.",
+      linkV1Placeholder: "Liitä YouTube-URL tähän.",
+      linkV1Btn: "Hae Videon Transkriptio"
     }
   },
   About: {

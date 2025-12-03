@@ -1069,7 +1069,8 @@ let message = {
     Transcription: "Transkripsjon",
     VideoTranscription: "Videotranskripsjon",
     Other: "Annet",
-    mp4Transcription: "MP4-transkripsjon"
+    mp4Transcription: "MP4-transkripsjon",
+    youtubeTranscription: "YouTube-transkripsjon"
   },
   Footer: {
     des: "Verdens første virkelig ubegrensede AI-transkripsjonstjeneste. Ingen tak, ingen grenser, bare frihet til å skape.",
@@ -1088,7 +1089,7 @@ let message = {
     ],
     companyMenus: ["Om", "Priser", "Personvern", "Vilkår"],
     Resources: "Ressurser",
-    resourcesMenus: ["YouTube til MP4","YouTube til MP3","Video-transkripsjon","MP4-transkripsjon"]
+    resourcesMenus: ["YouTube til MP4","YouTube til MP3","Videotranskripsjon","MP4-transkripsjon","YouTube-transkripsjon"]
   },
   Index: {
     Hero: {
@@ -3606,6 +3607,111 @@ let message = {
           tool_14: "M4A til tekst",
           tool_15: "MP3 til SRT"
         }
+      },
+      youtubeTranscription: {
+        hero: {
+          title: "YouTube til tekst online",
+          des_1: "YouTube-videoer konverteres umiddelbart til transkripsjoner — raske, nøyaktige og uten registrering påkrevd.",
+          des_2: "Støtter 6 eksportformater, 100+ språk og 249 oversettelser."
+        },
+        threeStep: {
+          title: "Slik får du",
+          titleHighlight: "nøyaktige resultater",
+          step_1_des: "Kopier lenken til YouTube-videoen.",
+          step_2_des: "Lim inn lenken i inputboksen og klikk på \"Få video-tekst\".",
+          step_3_des: "Vent til transkripsjonen er fullført, så få tilgang til teksten for å redigere, oversette eller eksportere."
+        },
+        whatYouCan: {
+          title: "Hva du kan gjøre med",
+          titleHighlight: "vårt transkripsjonsverktøy for YouTube",
+          list_title_1: "Fleksibelt tekstinnhold",
+          list_des_1: "Konverter enhver YouTube-video du liker til lesbare, kopierbare og søkbare tekster.",
+          list_title_2: "Raskt søk og redigering",
+          list_des_2: "Finn enkelt nøkkelinnhold, minneverdige sitater eller viktige segmenter i videoen, og rediger teksten mens du refererer til videoen.",
+          list_title_3: "Flere eksportformater",
+          list_des_3: "Eksporter transkripsjoner i ulike formater som TXT, PDF, DOCX, SRT, CSV og VTT, egnet for undertekster, dokumentredigering, dataanalyse og mer."
+        },
+        whyConvertYouTube: {
+          title: "Hvorfor",
+          titleHighlight: "konvertere YouTube-videoer til tekst",
+          list_title_1: "Enkel dokumentasjon, lagring og organisering",
+          list_des_1: "Tekst er mer praktisk enn video for notatskriving, organisering av intervjuer, uttrekk av nøkkelpunkter og laging av forskningssammendrag.",
+          list_title_2: "Lokalisere og hente viktig informasjon",
+          list_des_2: "Finn raskt nøkkelinnhold uten å måtte scrolle gjennom videoens tidslinje.",
+          list_title_3: "Øke læringseffektivitet",
+          list_des_3: "Bruk tekst til å effektivt fremheve, referere og sammenligne innhold.",
+          list_title_4: "Søk og uttrekk innhold",
+          list_des_4: "Tekst er søkbar og kopierbar, ideell for uttrekk av sitater, referanse til klipp eller laging av manuskripter.",
+          list_title_5: "Flerspråklig tilgjengelighet",
+          list_des_5: "Transkriber enkelt innhold i ukjente språk og oversett til flere språk.",
+          list_title_6: "Gjenbruk av innhold",
+          list_des_6: "Generer artikler, undertekster, sosiale medier-kort, videoskript og mer fra din transkripsjon."
+        },
+        whyPeopleTrust: {
+          title: "Hvorfor folk",
+          titleHighlight: "stoler på vårt verktøy",
+          list_title_1: "Gratis online verktøy",
+          list_des_1: "Ingen innlogging kreves. Ingen programvare, plugins eller utvidelser å installere.",
+          list_title_2: "Null annonser, null distraksjoner",
+          list_des_2: "En ren og enkel grensesnitt designet for å møte dine behov uten å avbryte din arbeidsflyt.",
+          list_title_3: " lynrask konvertering",
+          list_des_3: "Opplev bransjeledende hastighet uten begrensninger.",
+          list_title_4: "Høy nøyaktighet",
+          list_des_4: "Drevet av den nyeste talegjenkjenningsteknologien for forbedret presisjon.",
+          list_title_5: "Bred språkstøtte",
+          list_des_5: "Transkriber innhold på over 100 språk og oversett til 249 språk.",
+          list_title_6: "Lagrings- og redigeringsfunksjoner",
+          list_des_6: "Rediger transkripsjoner i sanntid og lagre arbeidet ditt for fremtidig bruk."
+        },
+        howToUse: {
+          title: "Virkelige måter folk bruker",
+          titleHighlight: "YouTube-transkripsjoner",
+          list_title_1: "For notattegnere",
+          list_des_1: "Å ta notater mens man ser en YouTube-video kan føles stressende og uorganisert. Med en transkripsjon kan du enkelt kopiere nøkkelpunkter og viktige konsepter direkte inn i notatene dine, sikker på å fange alt. Du kan til og med sette inn transkripsjonen i verktøy som ChatGPT for å generere klare sammendrag, studienotater eller disposisjoner.",
+          list_title_2: "For innholdsskapere",
+          list_des_2: "Bare lim inn en YouTube-lenke og få en nøyaktig tekstversjon — en mye mer effektiv arbeidsflyt for skapere. Bruk transkripsjonen til å utforme blogginnlegg, manuskripter, undertekster, nyhetsbrev eller detaljerte programnotater. Det sparer tid og krefter, og lar deg fokusere på selve innholdet.",
+          list_title_3: "For profesjonelle og analytikere",
+          list_des_3: "Hvis arbeidet ditt innen områder som jus, medisin, rådgivning eller forretning krever presis informasjonsuttrekk, gjør transkripsjoner oppgaven enklere. Søk raskt spesifikke fakta, tidsstemple og sitater uten å måtte se hele videoen på nytt. Ideelt for å gjennomgå ekspertforedrag, presentasjoner, treningsvideoer og kundeintervjuer.",
+          list_title_4: "For brukere med tilgjengelighetsbehov",
+          list_des_4: "Ikke alle kan enkelt se eller høre videoinnhold. Transkripsjoner gjør YouTube tilgjengelig for brukere med hørselsproblemer eller de som rett og slett foretrekker å lese. Med støtte for oversettelse til 249 språk, bryter de ned språkbarrierer, noe som gjør globalt innhold enklere å forstå og dele.",
+          list_title_5: "For kunnskapsuttrekkere",
+          list_des_5: "For studenter, forskere, skapere og profesjonelle som raskt må forstå sentrale ideer, er transkripsjoner uvurderlige. Bla gjennom, søk og identifiser umiddelbart avgjørende informasjon uten å måtte sitte gjennom lange videoer, og hjelp deg å effektivt trekke ut nøkkelpunkter, sammendrag eller tidsstemple."
+        },
+        howToGet: {
+          title: "Lås opp nye ideer med",
+          titleHighlight: "YouTube-transkripsjoner",
+          subTitle: "Transformer YouTube-videoer til lett kopierbar, handlingsorientert tekst og kombiner med AI-verktøy som Gemini eller ChatGPT for å:",
+          list_des_1: "Raskt generere studienotater eller sammendrag",
+          list_des_2: "Uttrekke nøkkelpunkter og minneverdige sitater eller konsepter",
+          list_des_3: "Opprette quizzer, spørsmål og svar eller studiemateriell",
+          list_des_4: "Utarbeide blogginnlegg, manuskripter eller artikler",
+          list_des_5: "Utvikle infografikk, memes eller innhold for sosiale medier",
+          list_des_6: "Produsere fan Q&A's, trivia eller pedagogiske spill",
+          list_des_7: "Dykk dypere ned i temaer nevnt i videoen",
+          summary: "Alt uten bryderi: kopier, lim inn og begynn."
+        },
+        faq: {
+          title: "Ofte stilte",
+          titleHighlight: "spørsmål",
+          question_1: "Er det en lengdebegrensning for tekst av YouTube-videoer?",
+          answer_1: "Nei. Men lengre videoer krever mer behandlingstid. Planlegg dine tekstoppgaver deretter.",
+          question_2: "Fungerer dette med private eller ikke-listede videoer?",
+          answer_2: "Dette fungerer kun med offentlig tilgjengelige YouTube-videoer. Private eller begrensede videoer kan ikke transskriberes.",
+          question_3: "Hvor lang tid tar det å få teksten?",
+          answer_3: "Typisk varierer behandlingstiden fra 1/10 til 1/20 av videoens varighet. Vi_optimaliserer kontinuerlig hastigheten samtidig som vi sikrer høy nøyaktighet for en bedre brukeropplevelse.",
+          question_4: "Kan verktøyet skille mellom forskjellige talere?",
+          answer_4: "Ja. Det støtter deteksjon av opptil 20 talere, ideelt for transkripsjon av intervjuer, podkaster og diskusjoner.",
+          question_5: "Hvor nøyaktig er transkripsjonsverktøyet?",
+          answer_5: "Vår nøyaktighet overstiger 96%. Det opprettholder høy presisjon selv med ulike aksenter eller raske talere, selv om bedre lydkvalitet med mindre bakgrunnsstøy forbedrer resultatene.",
+          question_6: "Hvilke funksjoner er inkludert i transkripsjonen?",
+          answer_6: "Transkripsjonen inkluderer automatisk taleridentifikasjon og tidsstemple. Du kan redigere teksten online eller eksportere den for senere bruk.",
+          question_7: "Kan jeg lagre mine tekstopptak?",
+          answer_7: "Ja. Bare registrer en konto for å lagre dine transkripsjoner etter behandling av en YouTube-lenke.",
+          question_8: "Blir dataene mine lagret privat og sikkert?",
+          answer_8: "Ja. Dine videoer, transkripsjoner og filer behandles sikkert — de brukes aldri til å trene AI-modeller eller deles med tredjeparter.",
+          question_9: "Kan jeg bruke tekstinnhold med andre AI-verktøy?",
+          answer_9: "Absolutt. Du kan lime inn teksten i ChatGPT eller andre AI-verktøy for å generere sammendrag, notater, quizzer, manuskripter, artikler og mer."
+        }
       }
     },
     Upload: {
@@ -3625,7 +3731,9 @@ let message = {
       tip5: "lagre",
       tip6: "den permanent?",
       tip7: "for å håndtere og redigere",
-      tip8: "alle dine transkripsjonsfiler."
+      tip8: "alle dine transkripsjonsfiler.",
+      linkV1Placeholder: "Lim inn YouTube URL her.",
+      linkV1Btn: "Hent Video Transkripsjon"
     }
   },
   About: {

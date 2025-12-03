@@ -1072,7 +1072,8 @@ let message = {
     Transcription: "Transkripsiyon",
     VideoTranscription: "Video Transkripsiyonu",
     Other: "Diğer",
-    mp4Transcription: "MP4 Transkripsiyonu"
+    mp4Transcription: "MP4 Transkripsiyonu",
+    youtubeTranscription: "YouTube Transkripsiyonu"
   },
   Footer: {
     des: "Dünyanın ilk gerçekten sınırsız AI transkripsiyon servisi. Sınır yok, kısıtlama yok, sadece özgürce yaratma özgürlüğü.",
@@ -1091,7 +1092,7 @@ let message = {
     ],
     companyMenus: ["Hakkında", "Fiyatlandırma", "Gizlilik", "Koşullar"],
     Resources: "Kaynaklar",
-    resourcesMenus: ["YouTube'u MP4'e","YouTube'u MP3'e","Video Transkripsiyonu","MP4 Transkripsiyonu"]
+    resourcesMenus: ["YouTube'dan MP4'e","YouTube'dan MP3'e","Video Transkripsiyonu","MP4 Transkripsiyonu","YouTube Transkripsiyonu"]
   },
   Index: {
     Hero: {
@@ -3615,6 +3616,111 @@ let message = {
           tool_14: "M4A metne",
           tool_15: "MP3 SRT'ye"
         }
+      },
+      youtubeTranscription: {
+        hero: {
+          title: "YouTube Metne Online",
+          des_1: "YouTube videoları anında metne dönüştürülür — hızlı, doğru ve kayıt gerektirmez.",
+          des_2: "6 dışa aktarma formatını, 100+ dili ve 249 çeviriyi destekler."
+        },
+        threeStep: {
+          title: "Nasıl",
+          titleHighlight: "doğru sonuçlar alırsınız",
+          step_1_des: "YouTube video linkini kopyalayın.",
+          step_2_des: "Linki giriş kutusuna yapıştırın ve \"Video Metnini Al\" düğmesine tıklayın.",
+          step_3_des: "Transkripsiyon tamamlanana kadar bekleyin, ardından metne düzenlemek, çevirmek veya dışa aktarmak için erişin."
+        },
+        whatYouCan: {
+          title: "Ne yapabilirsiniz",
+          titleHighlight: "YouTube transkripsiyon aracımızla",
+          list_title_1: "Esnek metin içeriği",
+          list_des_1: "Sevdiğiniz herhangi bir YouTube videosunu okunabilir, kopyalanabilir ve aranabilir metin transkripsiyonlarına dönüştürün.",
+          list_title_2: "Hızlı arama ve düzenleme",
+          list_des_2: "Videodaki anahtar içeriği, akılda kalıcı alıntıları veya önemli bölümleri kolayca bulun, metni videoya atıfta bulunarak düzenleyin.",
+          list_title_3: "Birden çok dışa aktarma formatı",
+          list_des_3: "Transkripsiyonları TXT, PDF, DOCX, SRT, CSV ve VTT gibi çeşitli formatlarda dışa aktarın, altyazılar, belge düzenleme, veri analizi ve daha fazlası için uygun."
+        },
+        whyConvertYouTube: {
+          title: "Neden",
+          titleHighlight: "YouTube videolarını metne dönüştürmelisiniz",
+          list_title_1: "Kolay dokümantasyon, saklama ve organizasyon",
+          list_des_1: "Metin, notlar almak, mülakatları organize etmek, anahtar noktaları çıkarmak ve araştırma özetleri oluşturmak için videodan daha pratiktir.",
+          list_title_2: "Önemli bilgileri yerelleştirin ve geri alın",
+          list_des_2: "Video zaman çizelgesini kaydırmanıza gerek kalmadan hızla anahtar içeriği bulun.",
+          list_title_3: "Öğrenim verimliliğini artırın",
+          list_des_3: "İçeriği etkili bir şekilde vurgulamak, referans göstermek ve karşılaştırmak için metin kullanın.",
+          list_title_4: "İçeriği arayın ve çıkarın",
+          list_des_4: "Metin aranabilir ve kopyalanabilir, alıntıları çıkarmak, kliplere atıfta bulunmak veya senaryolar oluşturmak için idealdir.",
+          list_title_5: "Çok dilli erişilebilirlik",
+          list_des_5: "Bilinmeyen dillerde içeriği kolayca transkribe edin ve birden çok dile çevirin.",
+          list_title_6: "İçeriğin yeniden kullanımı",
+          list_des_6: "Transkripsiyonunuzdan makaleler, altyazılar, sosyal medya kartları, video senaryoları ve daha fazlasını oluşturun."
+        },
+        whyPeopleTrust: {
+          title: "Neden insanlar",
+          titleHighlight: "aracımıza güveniyor",
+          list_title_1: "Ücretsiz online araç",
+          list_des_1: "Giriş gerekmez. Kurulacak yazılım, eklenti veya uzantı yok.",
+          list_title_2: "Sıfır reklam, sıfır dikkat dağınıklığı",
+          list_des_2: "İş akışınızı kesmeden ihtiyaçlarınızı karşılamak için tasarlanmış temiz ve basit bir arayüz.",
+          list_title_3: "Yıldırım hızında dönüşüm",
+          list_des_3: "Kısıtlama olmadan sektör lideri hızını deneyimleyin.",
+          list_title_4: "Yüksek doğruluk",
+          list_des_4: "Geliştirilmiş hassasiyet için en son konuşma tanıma teknolojisiyle desteklenir.",
+          list_title_5: "Geniş dil desteği",
+          list_des_5: "100'den fazla dilde içeriği transkribe edin ve 249 dile çevirin.",
+          list_title_6: "Saklama ve düzenleme özellikleri",
+          list_des_6: "Transkripsiyonları gerçek zamanlı olarak düzenleyin ve work'ınızı gelecekteki kullanım için kaydedin."
+        },
+        howToUse: {
+          title: "İnsanların kullandığı gerçek yollar",
+          titleHighlight: "YouTube metinleri",
+          list_title_1: "Not alanlar için",
+          list_des_1: "Bir YouTube videosunu izlerken not almak aceleci ve dağınık hissedebilir. Bir transkripsiyonla anahtar noktaları ve önemli kavramları kolayca notlarınıza kopyalayarak her şeyi yakaladığınızdan emin olabilirsiniz. Hatta transkripsiyonu ChatGPT gibi araçlara girerek net özetler, çalışma notları veya taslaklar oluşturabilirsiniz.",
+          list_title_2: "İçerik üreticileri için",
+          list_des_2: "Sadece bir YouTube linki yapıştırın ve doğru bir metin sürümü alın —üreticiler için çok daha verimli bir iş akışı. Blog gönderileri, senaryolar, altyazılar, bültenler veya detaylı program notları oluşturmak için transkripsiyonu kullanın. Zaman ve çaba tasarrufu sağlar, içeriğin kendisine odaklanmanızı sağlar.",
+          list_title_3: "Profesyoneller ve analistler için",
+          list_des_3: "Hukuk, tıp, danışmanlık veya iş gibi alanlarda work'iniz hassas bilgi çıkarmayı gerektiriyorsa, transkripsiyonlar işi kolaylaştırır. Videoyu yeniden izlemenize gerek kalmadan hızlıca belirli gerçekleri, zaman damgalarını ve alıntıları bulun. Uzman konuşmaları, sunumları, eğitim videolarını ve müşteri mülakatlarını gözden geçirmek için idealdir.",
+          list_title_4: "Erişilebilirlik ihtiyaçları olan kullanıcılar için",
+          list_des_4: "Herkes video içeriğini kolayca izleyemeyebilir veya duyamaz. Transkripsiyonlar, işitme engelli olanlara veya sadece okumayı tercih edenlere YouTube'u erişilebilir kılar. 249 dile çeviri desteği ile dil engellerini kırmak, küresel içeriği daha kolay anlaşılmasını ve paylaşılmasını sağlar.",
+          list_title_5: "Bilgi çıkaranlar için",
+          list_des_5: "Hızla merkezi fikirleri anlaması gereken öğrenciler, araştırmacılar, üreticiler ve profesyoneller için transkripsiyonlar paha biçilmezdir. Uzun videolara oturmanıza gerek kalmadan anında gözden geçirin, arayın ve kritik bilgileri belirleyin ve size anahtar noktaları, özetleri veya zaman damgalarını verimli bir şekilde çıkarmanıza yardımcı olur."
+        },
+        howToGet: {
+          title: "Yeni fikirleri açın",
+          titleHighlight: "YouTube metinleriyle",
+          subTitle: "YouTube videolarını kolayca kopyalanabilir, eyleme yönelik metne dönüştürün ve Gemini veya ChatGPT gibi AI araçlarıyla birleştirin:",
+          list_des_1: "Hızla çalışma notları veya özetler oluşturun",
+          list_des_2: "Anahtar noktaları ve akılda kalıcı alıntıları veya kavramları çıkarın",
+          list_des_3: "Quizler, soru-cevaplar veya çalışma materyalleri oluşturun",
+          list_des_4: "Blog gönderileri, senaryolar veya makaleler düzenleyin",
+          list_des_5: "Infografikler, memler veya sosyal medya içeriği geliştirin",
+          list_des_6: "Hayran soru-cevapları, trivia veya eğitici oyunlar üretin",
+          list_des_7: "Videoda belirtilen konulara daha derinlemesine dalın",
+          summary: "Hiçbir sorun olmadan: sadece kopyalayın, yapıştırın ve başlayın."
+        },
+        faq: {
+          title: "Sıkça",
+          titleHighlight: "Sorulan Sorular",
+          question_1: "YouTube videolarının metni için bir uzunluk sınırı var mı?",
+          answer_1: "Hayır. Ancak, daha uzun videolar daha fazla işlem süresi gerektirir. Lütfen transkripsiyon görevlerinizi buna göre planlayın.",
+          question_2: "Bu özel veya listelenmemiş videolarla çalışır mı?",
+          answer_2: "Bu sadece herkese açık olan YouTube videolarıyla çalışır. Özel veya kısıtlı videolar transkribe edilemez.",
+          question_3: "Metni almak ne kadar sürer?",
+          answer_3: "Genellikle, işlem süresi video süresinin 1/10 ile 1/20 arasında değişir. Daha iyi bir kullanıcı deneyimi için yüksek doğruluk sağlarken sürekli olarak hız optimize ediyoruz.",
+          question_4: "Araç farklı konuşmacıları ayırt edebilir mi?",
+          answer_4: "Evet. 20'ye kadar konuşmacı tespitini destekler, mülakatlar, pod yayınlar ve tartışmalar için transkripsiyon için idealdir.",
+          question_5: "Transkripsiyon aracının doğruluğu nedir?",
+          answer_5: "Doğruluğumuz %96'nın üzerindedir. Çeşitli aksanlarla veya hızlı konuşmacılarla bile yüksek hassasiyet korur, ancak daha iyi ses kalitesi ve daha az arka plan gürültüsü sonuçları iyileştirir.",
+          question_6: "Transkripsiyonda hangi özellikler dahilidir?",
+          answer_6: "Transkripsiyon otomatik konuşmacı tanımlama ve zaman damgalarını içerir. Metni çevrimiçi düzenleyebilir veya gelecekteki kullanım için dışa aktarabilirsiniz.",
+          question_7: "Transkripsiyon kayıtlarımı kaydedebilir miyim?",
+          answer_7: "Evet. YouTube linkini işledikten sonra transkripsiyonlarınızı kaydetmek için sadece bir hesap kaydedin.",
+          question_8: "Verilerim özel ve güvenli olarak saklanıyor mu?",
+          answer_8: "Evet. Videolarınız, transkripsiyonlarınız ve dosyalarınız güvenli bir şekilde işlenir — asla AI modellerini eğitmek veya üçüncü taraflarla paylaştırmak için kullanılmaz.",
+          question_9: "Transkripsiyon içeriğini diğer AI araçlarıyla kullanabilir miyim?",
+          answer_9: "Kesinlikle. Metni ChatGPT veya diğer AI araçlarına yapıştırarak özetler, notlar, quizler, senaryolar, makaleler ve daha fazlasını oluşturabilirsiniz."
+        }
       }
     },
     Upload: {
@@ -3634,7 +3740,9 @@ let message = {
       tip5: "kaydetmeyi",
       tip6: "kalıcı olarak?",
       tip7: "yönetmek ve düzenlemek için",
-      tip8: "tüm transkripsiyon dosyalarınızı."
+      tip8: "tüm transkripsiyon dosyalarınızı.",
+      linkV1Placeholder: "YouTube URL'sini buraya yapıştırın.",
+      linkV1Btn: "Video Transkripti Getir"
     }
   },
   About: {

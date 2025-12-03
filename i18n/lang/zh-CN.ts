@@ -1047,7 +1047,8 @@ let message = {
     Transcription: "转录",
     VideoTranscription: "视频转录",
     Other: "其他",
-    mp4Transcription: "MP4转写"
+    mp4Transcription: "MP4转写",
+    youtubeTranscription: "YouTube 转录"
   },
   Footer: {
     des: "全球首个真正无限的AI转录服务。无上限，无限制，尽享创作自由。",
@@ -1058,7 +1059,7 @@ let message = {
     useCaseMenus: ["所有使用场景", "播客主", "记者", "内容创作者", "研究人员", "企业团队", "教育工作者"],
     companyMenus: ["关于", "定价", "隐私", "条款"],
     Resources: "资源",
-    resourcesMenus: ["YouTube转MP4","YouTube转MP3","视频转写","MP4转写"]
+    resourcesMenus: ["YouTube转MP4","YouTube转MP3","视频转录","MP4转录","YouTube转录"]
   },
   Index: {
     Hero: {
@@ -3443,6 +3444,111 @@ let message = {
           tool_14: "M4A转文本",
           tool_15: "MP3转SRT"
         }
+      },
+      youtubeTranscription: {
+        hero: {
+          title: "YouTube 在线转录",
+          des_1: "YouTube视频即刻转为转录文本 — 快速、准确、无需注册。",
+          des_2: "支持6种导出格式，100+种语言和249种翻译。"
+        },
+        threeStep: {
+          title: "如何",
+          titleHighlight: "获得精准结果",
+          step_1_des: "复制 YouTube 视频链接。",
+          step_2_des: "将链接粘贴到输入框并点击“获取视频转录”。",
+          step_3_des: "等待转录完成，然后访问文本进行编辑、翻译或导出。"
+        },
+        whatYouCan: {
+          title: "您可以用我们的",
+          titleHighlight: "YouTube转录工具做什么",
+          list_title_1: "灵活的文本内容",
+          list_des_1: "将任何您喜欢的YouTube视频转换为可读、可复制和可搜索的文本转录。",
+          list_title_2: "快速搜索和编辑",
+          list_des_2: "轻松定位视频中的关键内容、难忘的引述或重要片段，并在参考视频的同时编辑文本。",
+          list_title_3: "多种导出格式",
+          list_des_3: "以TXT、PDF、DOCX、SRT、CSV和VTT等多种格式导出转录，适用于字幕制作、文档编辑、数据分析等。"
+        },
+        whyConvertYouTube: {
+          title: "为什么",
+          titleHighlight: "要将YouTube视频转为文本",
+          list_title_1: "轻松的文档记录、存储和组织",
+          list_des_1: "文本比视频更实用，便于做笔记、组织采访、提取要点和创建研究摘要。",
+          list_title_2: "定位和检索重要信息",
+          list_des_2: "无需拖动视频时间轴即可快速找到关键内容。",
+          list_title_3: "提升学习效率",
+          list_des_3: "使用文本有效突出、引用和比较内容。",
+          list_title_4: "搜索和提取内容",
+          list_des_4: "文本可搜索和复制，非常适合提取引述、引用片段或创建脚本。",
+          list_title_5: "跨语言可访问性",
+          list_des_5: "轻松转录不熟悉的语言内容，并将其翻译成多种语言。",
+          list_title_6: "内容再利用",
+          list_des_6: "从您的转录中生成文章、字幕、社交媒体卡片、视频脚本等。"
+        },
+        whyPeopleTrust: {
+          title: "为什么",
+          titleHighlight: "人们信任我们的工具",
+          list_title_1: "免费在线工具",
+          list_des_1: "无需登录。无需安装软件、插件或扩展。",
+          list_title_2: "零广告，零干扰",
+          list_des_2: "一个简洁的界面，专为满足您的需求而设计，不会干扰您的工作流程。",
+          list_title_3: "闪电般的转换速度",
+          list_des_3: "体验业界领先的速度，无任何限制。",
+          list_title_4: "高精确度",
+          list_des_4: "由最新的语音识别技术驱动，以提高精确度。",
+          list_title_5: "广泛的语言支持",
+          list_des_5: "支持转录100多种语言的内容并翻译成249种语言。",
+          list_title_6: "存储和编辑功能",
+          list_des_6: "实时编辑转录并保存您的工作以供将来使用。"
+        },
+        howToUse: {
+          title: "人们真实使用",
+          titleHighlight: "YouTube转录的方式",
+          list_title_1: "对于笔记记录者",
+          list_des_1: "在观看YouTube视频的同时做笔记可能会感到仓促和混乱。有了转录，您可以毫不费力地将要点和重要概念直接复制到笔记中，确保您捕捉到所有内容。您甚至可以将转录输入到ChatGPT等工具中以生成清晰的摘要、学习笔记或大纲。",
+          list_title_2: "对于内容创作者",
+          list_des_2: "只需粘贴YouTube链接，即可获得准确的文本版本 —对创作者而言是更高效的工作流程。使用转录来撰写博客文章、脚本、字幕、新闻通讯或详细的节目说明。它节省时间和精力，让您专注于内容本身。",
+          list_title_3: "对于专业人士和分析师",
+          list_des_3: "如果您在法律、医学、咨询或商业等领域的工作需要精确的信息提取，转录会让工作更轻松。快速搜索特定事实、时间戳和引述，无需重新观看整个视频。非常适合审查专家讲座、演示、培训视频和客户采访。",
+          list_title_4: "对于无障碍用户",
+          list_des_4: "并非每个人都能轻松观看或收听视频内容。转录让YouTube对听力障碍用户或只是更喜欢阅读的用户变得可及。支持翻译249种语言，打破语言障碍，使全球内容更易理解和分享。",
+          list_title_5: "对于知识提取者",
+          list_des_5: "对于需要快速掌握核心见解的学生、研究人员、创作者和专业人士来说，转录是无价的。即时浏览、搜索和定位关键信息，无需观看长视频，帮助您高效提取要点、摘要或时间戳。"
+        },
+        howToGet: {
+          title: "用YouTube转录",
+          titleHighlight: "解锁新想法",
+          subTitle: "将YouTube视频转为易于复制、可操作的文本，并结合Gemini或ChatGPT等AI工具：",
+          list_des_1: "快速生成学习笔记或摘要",
+          list_des_2: "提取要点和难忘的引述或概念",
+          list_des_3: "创建测验、问答或学习材料",
+          list_des_4: "起草博客文章、脚本或文章",
+          list_des_5: "开发信息图表、表情包或社交媒体内容",
+          list_des_6: "制作粉丝问答、趣闻或教育游戏",
+          list_des_7: "深入探讨视频中提到的主题",
+          summary: "零麻烦 — 只需复制、粘贴即可开始。"
+        },
+        faq: {
+          title: "常见",
+          titleHighlight: "问题",
+          question_1: "YouTube视频转录有长度限制吗？",
+          answer_1: "没有。但较长的视频需要更多处理时间。请相应地规划您的转录任务。",
+          question_2: "这适用于私人或非公开视频吗？",
+          answer_2: "仅适用于公开可用的YouTube视频。私人或受限的视频无法转录。",
+          question_3: "获得转录需要多长时间？",
+          answer_3: "通常，处理时间为视频时长的1/10到1/20。我们在确保高精度的同时持续优化速度，以提供更好的用户体验。",
+          question_4: "该工具可以区分不同的说话人吗？",
+          answer_4: "可以。它支持最多检测20个说话人，非常适合转录访谈、播客和讨论。",
+          question_5: "转录工具的准确度是多少？",
+          answer_5: "我们的准确率超过96%。即使在各种口音或快语速情况下，它也能保持高精度，但更好的音频质量和更少的背景噪音会改善结果。",
+          question_6: "转录包含哪些功能？",
+          answer_6: "转录包括自动说话人识别和时间戳。您可以在线编辑文本或导出以备后用。",
+          question_7: "我可以保存我的转录记录吗？",
+          answer_7: "可以。只需注册一个帐户，即可在处理YouTube链接后保存您的转录。",
+          question_8: "我的数据是否能保持私有和安全？",
+          answer_8: "可以。您的视频、转录和文件都经过安全处理 — 从不用于训练AI模型或与第三方共享。",
+          question_9: "我可以在转录内容和其他AI工具一起使用吗？",
+          answer_9: "当然可以。您可以粘贴文本到ChatGPT或其他AI工具中以生成摘要、笔记、测验、脚本、文章等。"
+        }
       }
     },
     Upload: {
@@ -3462,7 +3568,9 @@ let message = {
       tip5: "保存",
       tip6: "为永久文件？",
       tip7: "管理和编辑",
-      tip8: "所有字幕文件"
+      tip8: "所有字幕文件",
+      linkV1Placeholder: "在此粘贴YouTube链接。",
+      linkV1Btn: "获取视频转录"
     }
   },
   About: {

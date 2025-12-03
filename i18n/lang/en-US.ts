@@ -657,7 +657,8 @@ let message = {
     Transcription: "Transcription",
     VideoTranscription: "Video Transcription",
     Other: "Other",
-    mp4Transcription: "Mp4 Transcription"
+    mp4Transcription: "Mp4 Transcription",
+    youtubeTranscription: "YouTube Transcription"
   },
   Footer: {
     des: "The world's first truly unlimited AI transcription service. No caps, no limits, just freedom to create.",
@@ -675,7 +676,13 @@ let message = {
       "Business Teams",
       "Educators"
     ],
-    resourcesMenus: ["YouTube to MP4", "YouTube to MP3", "Video Transcription", "Mp4 Transcription"],
+    resourcesMenus: [
+      "YouTube to MP4",
+      "YouTube to MP3",
+      "Video Transcription",
+      "Mp4 Transcription",
+      "YouTube Transcription"
+    ],
     companyMenus: ["About", "Pricing", "Privacy Policy", "Terms of Service"]
   },
   Index: {
@@ -2866,6 +2873,127 @@ let message = {
           tool_14: "M4A to text",
           tool_15: "MP3 to SRT"
         }
+      },
+      youtubeTranscription: {
+        hero: {
+          title: "YouTube to Transcript Online",
+          des_1: "YouTube videos converted to transcripts instantly — fast, accurate, and no sign-up required.",
+          des_2: "Supports 6 export formats, 100+ languages, and 249 translations."
+        },
+        threeStep: {
+          title: "How to",
+          titleHighlight: "Get Accurate Results",
+          step_1_des: "Copy the YouTube video link.",
+          step_2_des: "Paste the link into the input box and click “Get Video Transcript.“",
+          step_3_des: "Wait for the transcription to complete, then access the text to edit, translate, or export it."
+        },
+        whatYouCan: {
+          title: "What you can do with",
+          titleHighlight: "Our YouTube Transcription Tool",
+          list_title_1: "Flexible Text Content",
+          list_des_1: "Convert any YouTube video you like into readable, copyable, and searchable text transcripts.",
+          list_title_2: "Quick Search and Editing",
+          list_des_2:
+            "Easily pinpoint key content, memorable quotes, or important segments in the video, and edit the text while referring back to the video.",
+          list_title_3: "Multiple Export Formats",
+          list_des_3:
+            "Export transcripts in a variety of formats such as TXT, PDF, DOCX, SRT, CSV, and VTT, making it suitable for subtitling, document editing, data analysis, and more."
+        },
+        whyConvertYouTube: {
+          title: "Why",
+          titleHighlight: "Convert YouTube Videos to Text",
+          list_title_1: "Easy Documentation, Storage, and Organization",
+          list_des_1:
+            "Text is more practical than video for note-taking, organizing interviews, extracting key points, and creating research summaries.",
+          list_title_2: "Locate and Retrieve Important Information",
+          list_des_2: "Quickly find key content without scrubbing through the video timeline.",
+          list_title_3: "Boost Learning Efficiency",
+          list_des_3: "Use text to highlight, reference, and compare content effectively.",
+          list_title_4: "Search and Extract Content",
+          list_des_4:
+            "Text is searchable and copyable, making it ideal for pulling quotes, referencing clips, or creating scripts.",
+          list_title_5: "Cross-Language Accessibility",
+          list_des_5: "Easily transcribe content in unfamiliar languages and translate it into multiple languages.",
+          list_title_6: "Content Repurposing",
+          list_des_6: "Generate articles, subtitles, social media cards, video scripts, and more from your transcript."
+        },
+        whyPeopleTrust: {
+          title: "Why",
+          titleHighlight: "People Trust Our Tool",
+          list_title_1: "Free Online Tool",
+          list_des_1: "No login required. No software, plugins, or extensions to install.",
+          list_title_2: "Zero Ads, Zero Distractions",
+          list_des_2: "A clean and simple interface designed to meet your needs without interrupting your workflow.",
+          list_title_3: "Lightning-Fast Conversion",
+          list_des_3: "Experience industry-leading speed with no limitations.",
+          list_title_4: "High Accuracy",
+          list_des_4: "Powered by the latest speech recognition technology for improved precision.",
+          list_title_5: "Extensive Language Support ",
+          list_des_5: "Transcribe content in over 100 languages and translate into 249 languages.",
+          list_title_6: "Storage & Editing Features",
+          list_des_6: "Edit transcripts in real time and save your work for future use."
+        },
+        howToUse: {
+          title: "Real Ways People Use",
+          titleHighlight: "YouTube Transcripts",
+          list_title_1: "For Note Takers",
+          list_des_1:
+            "Juggling note-taking while watching a YouTube video can feel rushed and disorganized. With a transcript, you can effortlessly copy key points and important concepts directly into your notes, ensuring you capture everything. You can even feed the transcript into tools like ChatGPT to generate clear summaries, study notes, or outlines.",
+          list_title_2: "For Content Creators  ",
+          list_des_2:
+            "Simply paste a YouTube link and get an accurate text version—a far more efficient workflow for creators. Use the transcript to craft blog posts, scripts, subtitles, newsletters, or detailed show notes. It saves time and effort, letting you focus on the content itself.",
+          list_title_3: "For Professionals & Analysts",
+          list_des_3:
+            "If your work in fields like law, medicine, consulting, or business demands precise information extraction, transcripts make the job easier. Quickly search for specific facts, timestamps, and quotes without rewatching the entire video. This is ideal for reviewing expert talks, presentations, training videos, and client interviews.",
+          list_title_4: "For Accessibility Users ",
+          list_des_4:
+            "Not everyone can easily watch or listen to video content. Transcripts make YouTube accessible for users with hearing impairments or those who simply prefer reading. With support for translation into 249 languages, they break down language barriers, making global content easier to understand and share.",
+          list_title_5: "For Knowledge Extractors",
+          list_des_5:
+            "For students, researchers, creators, and professionals who need to grasp core insights quickly, transcripts are invaluable. Instantly browse, search, and pinpoint crucial information without sitting through long videos, helping you efficiently extract key points, summaries, or timestamps."
+        },
+        howToGet: {
+          title: "Unlock New Ideas with ",
+          titleHighlight: "YouTube Transcripts",
+          subTitle:
+            "Transform YouTube videos into easy-to-copy, actionable text and combine them with AI tools like Gemini or ChatGPT to:",
+          list_des_1: "Quickly generate study notes or summaries",
+          list_des_2: "Extract key points and memorable quotes or concepts",
+          list_des_3: "Create quizzes, Q&As, or study materials",
+          list_des_4: "Draft blog posts, scripts, or articles",
+          list_des_5: "Develop infographics, memes, or social media content",
+          list_des_6: "Produce fan Q&As, trivia, or educational games",
+          list_des_7: "Dive deeper into topics mentioned in the video",
+          summary: "All with zero hassle—just copy, paste, and get started."
+        },
+        faq: {
+          title: "Frequently Asked",
+          titleHighlight: "Questions",
+          question_1: "Is there a length limit for YouTube video transcription?",
+          answer_1:
+            "No. However, longer videos require more processing time. Please plan your transcription tasks accordingly.",
+          question_2: "Does this work with private or unlisted videos?",
+          answer_2:
+            "It only works with publicly available YouTube videos. Private or restricted videos cannot be transcribed.",
+          question_3: "How long does it take to get the transcript?3. How long does it take to get the transcript?",
+          answer_3: `Typically, processing time ranges from 1/10 to 1/20 of the video's duration. We continuously optimize speed while ensuring high accuracy for a better user experience.`,
+          question_4: "Can the tool distinguish between different speakers?",
+          answer_4: `Yes. It supports speaker detection for up to 20 speakers, making it ideal for transcribing interviews, podcasts, and discussions.`,
+          question_5: "How accurate is the transcription tool?",
+          answer_5:
+            "Our accuracy exceeds 96%. It maintains high precision even with various accents or fast speakers, though better audio quality with less background noise improves results.",
+          question_6: "What features are included in the transcript?",
+          answer_6:
+            "The transcript includes automated speaker identification and timestamps. You can edit the text online or export it for further use.",
+          question_7: "Can I save my transcription records?",
+          answer_7: "Yes. Simply register an account to save your transcriptions after processing a YouTube link.",
+          question_8: "Is my data kept private and secure?",
+          answer_8:
+            "Yes. Your videos, transcripts, and files are handled securely—never used to train AI models or shared with third parties.",
+          question_9: "Can I use transcript content with other AI tools?",
+          answer_9:
+            "Absolutely. You can paste the text into ChatGPT or other AI tools to generate summaries, notes, quizzes, scripts, articles, and more."
+        }
       }
     },
     YouTubeToMP4: {
@@ -3249,7 +3377,9 @@ let message = {
       tip5: "save ",
       tip6: "it permanently? ",
       tip7: "to manage and edit ",
-      tip8: "all your transcription files."
+      tip8: "all your transcription files.",
+      linkV1Placeholder: "Paste YouTube URL here.",
+      linkV1Btn: "Get Video Transcript"
     }
   },
   Blog: {

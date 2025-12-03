@@ -1075,7 +1075,8 @@ let message = {
     Transcription: "Transkrypcja",
     VideoTranscription: "Transkrypcja wideo",
     Other: "Inne",
-    mp4Transcription: "Transkrypcja MP4"
+    mp4Transcription: "Transkrypcja MP4",
+    youtubeTranscription: "Transkrypcja YouTube"
   },
   Footer: {
     des: "Pierwsza na świecie naprawdę nieograniczona usługa transkrypcji AI. Brak limitów, brak ograniczeń, tylko wolność tworzenia.",
@@ -1094,7 +1095,7 @@ let message = {
     ],
     companyMenus: ["O nas", "Cennik", "Prywatność", "Warunki"],
     Resources: "Zasoby",
-    resourcesMenus: ["YouTube na MP4","YouTube na MP3","Transkrypcja Wideo","Transkrypcja MP4"]
+    resourcesMenus: ["YouTube do MP4","YouTube do MP3","Transkrypcja wideo","Transkrypcja MP4","Transkrypcja YouTube"]
   },
   Index: {
     Hero: {
@@ -3606,6 +3607,111 @@ let message = {
           tool_14: "M4A na tekst",
           tool_15: "MP3 na SRT"
         }
+      },
+      youtubeTranscription: {
+        hero: {
+          title: "YouTube do transkryptu online",
+          des_1: "Filmy YouTube natychmiast przekształcane w transkrypty — szybko, dokładnie, bez rejestracji wymaganej.",
+          des_2: "Wspiera 6 formatów eksportu, ponad 100 języków i 249 tłumaczeń."
+        },
+        threeStep: {
+          title: "Jak uzyskać",
+          titleHighlight: "dokładne wyniki",
+          step_1_des: "Skopiuj link filmu YouTube.",
+          step_2_des: "Wklej link do pola wprowadzania i kliknij \"Uzyskaj transkrypt wideo\".",
+          step_3_des: "Poczekaj, aż transkrypcja zostanie ukończona. Uzyskaj dostęp do tekstu, by edytować, tłumaczyć lub eksportować."
+        },
+        whatYouCan: {
+          title: "Co możesz zrobić",
+          titleHighlight: "z naszym narzędziem transkrypcji YouTube",
+          list_title_1: "Elastyczna treść tekstowa",
+          list_des_1: "Zamień dowolny film YouTube, który lubisz, w czytelne, kopiowalne i przeszukiwalne transkrypty tekstowe.",
+          list_title_2: "Szybkie wyszukiwanie i edycja",
+          list_des_2: "Łatwo lokalizuj kluczową treść, zapadające w pamięć cytaty lub istotne fragmenty w wideo i edytuj tekst, odnosząc się do filmu.",
+          list_title_3: "Wiele formatów eksportu",
+          list_des_3: "Eksportuj transkrypty w różnych formatach, jak TXT, PDF, DOCX, SRT, CSV i VTT, co czyni je przydatnymi do napisów, edycji dokumentów, analizy danych i więcej."
+        },
+        whyConvertYouTube: {
+          title: "Dlaczego",
+          titleHighlight: "konwertować filmy YouTube na tekst",
+          list_title_1: "Prosta dokumentacja, przechowywanie i organizacja",
+          list_des_1: "Tekst jest bardziej praktyczny niż wideo do sporządzania notatek, organizowania wywiadów, wyciągania punktów kluczowych i tworzenia podsumowań badawczych.",
+          list_title_2: "Lokalizuj i odzyskaj ważne informacje",
+          list_des_2: "Szybko znajduj kluczową treść bez potrzeby przewijania osi czasu wideo.",
+          list_title_3: "Zwiększ efektywność uczenia się",
+          list_des_3: "Użyj tekstu, aby efektywniej wyróżniać, odnosić się i porównywać treść.",
+          list_title_4: "Wyszukuj i wyodrębniaj treść",
+          list_des_4: "Tekst jest przeszukiwalny i kopiowalny, idealny do wyciągania cytatów, odnoszenia się do klipów lub tworzenia skryptów.",
+          list_title_5: "Dostępność międzyjęzykowa",
+          list_des_5: "Łatwo transkrybuj treść w nieznanych językach i tłumacz ją na wiele języków.",
+          list_title_6: "Ponowne użycie treści",
+          list_des_6: "Generuj artykuły, napisy, karty mediów społecznościowych, skrypty wideo i więcej z Twojej transkrypcji."
+        },
+        whyPeopleTrust: {
+          title: "Dlaczego",
+          titleHighlight: "ludzie ufają naszemu narzędziu",
+          list_title_1: "Darmowe narzędzie online",
+          list_des_1: "Nie wymaga logowania. Brak oprogramowania, wtyczek ani rozszerzeń do zainstalowania.",
+          list_title_2: "Zero reklam, zero rozproszeń",
+          list_des_2: "Czysty i prosty interfejs, zaprojektowany, by spełnić Twoje potrzeby bez przerywania Twojego przepływu pracy.",
+          list_title_3: "Błyskawiczna konwersja",
+          list_des_3: "Doświadcz prędkości wiodącej w branży bez ograniczeń.",
+          list_title_4: "Wysoka dokładność",
+          list_des_4: "Napędzany najnowszą technologią rozpoznawania mowy dla zwiększenia precyzji.",
+          list_title_5: "Szerokie wsparcie językowe",
+          list_des_5: "Transkrybuj treść w 100+ językach i tłumacz na 249 języków.",
+          list_title_6: "Funkcje przechowywania i edycji",
+          list_des_6: "Edytuj transkrypty w czasie rzeczywistym i zachowaj swoją pracę do wykorzystania w przyszłości."
+        },
+        howToUse: {
+          title: "Prawdziwe sposoby",
+          titleHighlight: "używania transkryptów YouTube przez ludzi",
+          list_title_1: "Dla tych, którzy robią notatki",
+          list_des_1: "Robienie notatek podczas oglądania filmu YouTube może sprawiać wrażenie pośpieszonego i nieuporządkowanego. Z transkrypcją możesz bez trudu kopiować kluczowe punkty i ważne koncepcje bezpośrednio do swoich notatek, pewien, że złapiesz wszystko. Możesz nawet wprowadzić transkrypcję do narzędzi, takich jak ChatGPT, by generować klarowne podsumowania, notatki studialne lub zarysy.",
+          list_title_2: "Dla twórców treści",
+          list_des_2: "Wystarczy wkleić link YouTube i uzyskać dokładną wersję tekstową — znacznie wydajniejszy przepływ pracy dla twórców. Użyj transkrypcji, by tworzyć wpisy na blogu, skrypty, napisy, newslettery lub szczegółowe uwagi programowe. Oszczędza czas i wysiłek, pozwalając skupić się na samej treści.",
+          list_title_3: "Dla profesjonalistów i analityków",
+          list_des_3: "Jeśli Twoja praca w domenach jak prawo, medycyna, doradztwo biznesowe wymaga dokładnego wyciągania informacji, transkrypty upraszczają zadanie. Szybko wyszukuj konkretne fakty, sygnatury czasowe i cytaty bez konieczności ponownego oglądania całego filmu. Idealne do recenzji wypowiedzi ekspertów, prezentacji, filmów szkoleniowych i wywiadów z klientami.",
+          list_title_4: "Dla użytkowników z potrzebami dostępności",
+          list_des_4: "Nie każdy może łatwo oglądać lub słuchać treści wideo. Transkrypty czynią YouTube dostępnym dla użytkowników z zaburzeniami słuchu lub tych, którzy po prostu wolą czytać. Z obsługą tłumaczenia na 249 języków, obalają bariery językowe, czyniąc globalną treść łatwiejszą do zrozumienia i udostępnienia.",
+          list_title_5: "Dla ekstraherów wiedzy",
+          list_des_5: "Dla studentów, badaczy, twórców i profesjonalistów, którzy szybko muszą zrozumieć kluczowe idee, transkrypty są bezcenne. Przeglądaj, wyszukuj i natychmiast identyfikuj kluczowe informacje bez siedzenia przez długie filmy, pomagając Ci efektywnie wydobywać kluczowe punkty, podsumowania lub sygnatury czasowe."
+        },
+        howToGet: {
+          title: "Odblokuj nowe idee z",
+          titleHighlight: "transkryptami YouTube",
+          subTitle: "Zmień filmy YouTube w łatwy do skopiowania, użyteczny tekst i połącz go z narzędziami AI, takimi jak Gemini lub ChatGPT, aby:",
+          list_des_1: "Szybko generować notatki studialne lub podsumowania",
+          list_des_2: "Wydobywać kluczowe punkty i zapadające w pamięć cytaty lub koncepcje",
+          list_des_3: "Tworzyć quizy, Q&A lub materiały dydaktyczne",
+          list_des_4: "Opracowywać wpisy na blogu, skrypty lub artykuły",
+          list_des_5: "Rozwijajć infografiki, memy lub treści mediów społecznościowych",
+          list_des_6: "Produkować fan Q&A, ciekawostki lub gry dydaktyczne",
+          list_des_7: "Pogłębiać się w tematach wymienionych w filmie",
+          summary: "Wszystko bez problemów — po prostu skopiuj, wklej i zacznij."
+        },
+        faq: {
+          title: "Często zadawane",
+          titleHighlight: "pytania",
+          question_1: "Czy istnieje limit długości dla transkrypcji filmów YouTube?",
+          answer_1: "Nie. Jednakże, dłuższe filmy wymagają więcej czasu przetwarzania. Proszę zaplanować swoje zadania transkrypcji odpowiednio.",
+          question_2: "Czy to działa z filmami prywatnymi lub niewymienionymi?",
+          answer_2: "Działa tylko z publicznie dostępnymi filmami YouTube. Prywatne lub ograniczone filmy nie mogą być transkrybowane.",
+          question_3: "Ile czasu zajmuje uzyskanie transkryptu?",
+          answer_3: "Typowo czas przetwarzania waha się od 1/10 do 1/20 długości filmu. Nieustannie optymalizujemy szybkość przy jednoczesnym zapewnieniu wysokiej dokładności dla lepszych doświadczeń użytkownika.",
+          question_4: "Czy narzędzie potrafi rozróżniać różnych mówców?",
+          answer_4: "Tak. Wspiera detekcję mówców do 20, idealne do transkrypcji wywiadów, podcastów i dyskusji.",
+          question_5: "Jak dokładny jest narzędzie transkrypcji?",
+          answer_5: "Nasza dokładność przekracza 96%. Utrzymuje wysoką precyzję nawet przy różnych akcentach lub szybkich mówcach, lecz lepsza jakość dźwięku z mniejszym szumem tła poprawia wyniki.",
+          question_6: "Jakie funkcje są zawarte w transkrypcji?",
+          answer_6: "Transkrypt zawiera automatyczną identyfikację mówców i sygnatury czasowe. Możesz edytować tekst online lub eksportować go do dalszego użytku.",
+          question_7: "Czy mogę zapisać moje zapisy transkrypcji?",
+          answer_7: "Tak. Zarejestruj po prostu konto, aby zapisać swoje transkrypcje po przetworzeniu linku YouTube.",
+          question_8: "Czy moje dane są zachowywane prywatnie i bezpiecznie?",
+          answer_8: "Tak. Twoje filmy, transkrypcje i pliki są bezpiecznie przetwarzane — nigdy nie są używane do trenowania modeli AI ani udostępniane stronom trzecim.",
+          question_9: "Czy mogę używać treści transkrypcji z innymi narzędziami AI?",
+          answer_9: "Oczywiście. Możesz wkleić tekst do ChatGPT lub innych narzędzi AI, aby generować podsumowania, notatki, quizy, skrypty, artykuły i więcej."
+        }
       }
     },
     Upload: {
@@ -3625,7 +3731,9 @@ let message = {
       tip5: "zapisać",
       tip6: "to na stałe?",
       tip7: "aby zarządzać i edytować",
-      tip8: "wszystkie swoje pliki transkrypcji."
+      tip8: "wszystkie swoje pliki transkrypcji.",
+      linkV1Placeholder: "Wklej tutaj adres URL YouTube.",
+      linkV1Btn: "Pobierz Transkrypcję Wideo"
     }
   },
   About: {

@@ -38,7 +38,7 @@ const languages = [
   "he-IL",
   "ar-SA"
 ];
-const defautConfig = { manipulationSettings: { indentationText: IndentationText.TwoSpaces } };
+const defaultConfig = { manipulationSettings: { indentationText: IndentationText.TwoSpaces } };
 // 语言代码映射表
 const languageMapping: { [key: string]: string } = {
   "en-US": "en",
@@ -76,6 +76,11 @@ let AI_CONFIG = {
   apiKey: "sk-sswlyzxvwcbnxixpkznsbawlzbkltdbbezrdizyhiljbxziw", // 替换为你的 API Key
   model: "deepseek-ai/DeepSeek-v3" // deepseek-ai/DeepSeek-v3
 };
+// let AI_CONFIG = {
+//   url: "https://globalai.vip/v1/chat/completions",
+//   apiKey: "sk-xr5lEKSk6vDzjk3SgjvY7mOLUPY7T4LzZjkjD9CHvvqe9Wo2", // 替换为你的 API Key
+//   model: "glm-4.6" // deepseek-ai/DeepSeek-v3
+// };
 // AI_CONFIG = {
 //   url: "https://ark.cn-beijing.volces.com/api/v3/chat/completions",
 //   apiKey: "cca5560e-fa20-4b6c-aac5-88ac26d59a8b", // 替换为你的 API Key
@@ -491,7 +496,7 @@ function parseObjectFromFile(filePath: string): any {
     return {}; // 返回空对象，因为刚创建的文件message为空
   }
 
-  const project = new Project(defautConfig);
+  const project = new Project(defaultConfig);
   const sourceFile = project.addSourceFileAtPath(filePath);
 
   const variableStatements = sourceFile.getVariableStatements();
@@ -1074,7 +1079,7 @@ async function writeObjectToFileWithRemoval(filePath: string, obj: any, keysToRe
 
   try {
     // 使用 ts-morph 来精确修改文件，保留注释和其他内容
-    const project = new Project(defautConfig);
+    const project = new Project(defaultConfig);
     const sourceFile = project.addSourceFileAtPath(filePath);
 
     // 找到 message 变量声明

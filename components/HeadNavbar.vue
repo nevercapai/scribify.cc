@@ -274,6 +274,10 @@ const menuList = computed(() => [
           {
             name: t("HeadNavbar.mp4Transcription"),
             link: "/resources/mp4-transcription"
+          },
+          {
+            name: t("HeadNavbar.youtubeTranscription"),
+            link: "/resources/youtube-transcription"
           }
         ]
       },

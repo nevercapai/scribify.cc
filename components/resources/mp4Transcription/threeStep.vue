@@ -9,7 +9,7 @@
     <section class="m-auto grid max-w-[75rem] grid-cols-1 justify-center gap-6 px-4 md:grid-cols-3">
       <div v-for="(item, index) in 3" :key="index" class="flex flex-col items-center rounded-xl transition">
         <div class="mb-[0.625rem] flex items-center self-start text-[1.375rem] font-semibold leading-[1.875rem]">
-          <div class="index-circle">{{ index + 1 }}</div>
+          <div class="index-circle shrink-0">{{ index + 1 }}</div>
           {{ $i(`step_${index + 1}_title`) }}
         </div>
         <div class="px-[20px] text-start text-lg leading-[1.75rem]">

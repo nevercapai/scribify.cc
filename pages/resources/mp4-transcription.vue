@@ -33,16 +33,16 @@ provide("showFileTypeTip", false);
   }
 
   :deep(.stats-grid) {
-    grid-template-columns: 1fr !important;
+    grid-template-columns: minmax(0, 1fr) !important;
   }
   :deep(.features-grid) {
-    grid-template-columns: 1fr !important;
+    grid-template-columns: minmax(0, 1fr) !important;
   }
   :deep(.use-cases-grid) {
-    grid-template-columns: 1fr !important;
+    grid-template-columns: minmax(0, 1fr) !important;
   }
   :deep(.testimonials-grid) {
-    grid-template-columns: 1fr !important;
+    grid-template-columns: minmax(0, 1fr) !important;
   }
 
   :deep(.cta-buttons) {
@@ -68,7 +68,7 @@ provide("showFileTypeTip", false);
   :deep(.problem-grid),
   :deep(.workflow-steps),
   :deep(.testimonials-grid) {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 }
 .upload-mp4-box {

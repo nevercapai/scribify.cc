@@ -12,7 +12,7 @@
               <div class="check">
                 <span class="icon-duihao iconfont text-xs"></span>
               </div>
-              <span style="padding-left: 28px">{{ $i(`fun_${index + 1}`) }}</span>
+              <span class="ms-7">{{ $i(`fun_${index + 1}`) }}</span>
             </li>
           </ul>
         </div>

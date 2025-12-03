@@ -69,6 +69,7 @@ const $i = useI18nModule("Resources.Transcription.mp4Transcription.whyChoose");
   text-decoration: none;
   color: inherit;
   display: block;
+  overflow-wrap: break-word;
 }
 
 .use-case-card1:hover {

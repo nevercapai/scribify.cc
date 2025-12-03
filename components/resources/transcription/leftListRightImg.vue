@@ -19,7 +19,7 @@
               <div class="check">
                 <span class="icon-duihao iconfont text-xs"></span>
               </div>
-              <span style="padding-left: 28px">{{ item.des }}</span>
+              <span class="ms-7">{{ item.des }}</span>
             </li>
           </ul>
         </div>
